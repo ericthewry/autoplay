@@ -1,0 +1,1459 @@
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+ To Hell in a Hamper
+ - by J.  J.  Guest -
+
+ A TADS Adventure
+ Developed with TADS, the Text Adventure Development System.
+
+ For instructions about playing interactive fiction, type INSTRUCTIONS.
+ For general information about the game, type INFO.
+
+
+ From the log of Professor Pettibone, eminent Victorian Balloonist:
+
+ Twenty-fourth of February, 1876.  The English Channel.
+
+ Our Journey begins!  A large crowd gathered this morning in Berkeley
+ Square as we made our final preparations for what is to be one of the
+ most daring expeditions ever undertaken; a journey around the world by
+ balloon.  Our vessel, which I have christened Titania, consists of a
+ strong wicker basket borne aloft by a sealed balloon containing 30,000
+ cubic feet of hydrogen, an amount which, according to my calculations,
+ should be quite sufficient to carry myself, Mr.  Booby and all of our
+ supplies and equipment.  Mr.  Booby is travelling with me as a
+ last-minute replacement for Doctor Cox, who was suddenly taken ill
+ with a serious case of the dreaded badly-bruised knees just days
+ before the launch.  Dressed in a huge, shapeless overcoat, he cuts
+ rather a strange figure, but I am confident that he will prove to be
+ as good company as his predecessor, and as competent an aeronaut as he
+ claims.  At eleven o'clock, amid cries of "Huzzah!"  I cut the ropes
+ binding the balloon to the earth and we soared aloft on the first leg
+ of our journey...
+
+
+
+
+
+
+
+
+ Fourteenth of September, 1876.  Fujian province, China.
+
+ I began to have my doubts about Mr.  Booby almost as soon as the
+ balloon had made its ascent from Berkeley Square.  The instant we left
+ the earth, Mr.  Booby got into such convulsions of nausea that I began
+ to doubt his credentials as a balloonist, and as a suitable
+ replacement for poor Dr.  Cox, who was suddenly taken ill just days
+ before our take-off.  Though I have expressed to him many times the
+ importance of keeping the weight of the balloon down to a minimum, I
+ am beginning to suspect that Mr.  Booby has, against my wishes, been
+ smuggling souvenirs of our journey into the balloon under that great
+ coat of his.  Only this morning I caught sight of him in a
+ marketplace, haggling over the price of a particularly ugly vase.  He
+ was not exactly a small man even before we set out, and he seems to
+ grow larger and larger as our journey progresses.  There is something
+ about that strange, mis-shapen coat of his that arouses my suspicions.
+
+
+
+
+
+
+
+
+ Twenty-sixth of June, 1877.  The Ecuadorian Andes.
+
+ Our situation is desperate.  A fierce wind from the south-west carries
+ us ever closer to the mouth of an erupting volcano.  If my
+ calculations are correct (and there is no reason to suppose otherwise)
+ we are headed directly for the mouth of Mount Cotopaxi, highest
+ volcano in the Americas!  Our altitude is twelve thousand feet, and in
+ in spite of all my efforts, I am unable to raise the balloon any
+ higher.  I have been forced to throw out all four sandbags, our food
+ and water supplies, our first-aid kit, our compass, variometer and
+ theodolite, and yet still we are too low to safely clear the volcano!
+ In a moment I shall be compelled to throw out this very log-book,
+ along with the pencil I am writing with, and all my outer garments, in
+ a last ditch effort to gain the necessary altitude of twenty thousand
+ feet.  Mr.  Booby assures me that he has disposed of all unnecessary
+ weight, and yet somehow I doubt his veracity.  If there is anything at
+ all concealed beneath that voluminous coat of his, I must find it now
+ and dispose of it over the side of the basket, or we are both doomed!
+
+
+
+
+
+
+
+
+ In the basket of a balloon
+    I am in the basket of the balloon, high, though not high enough
+ above the foothills of the Andes.  Directly ahead of us is a glow in
+ the sky; the heavens themselves seem to be ablaze as the wind carries
+ us ever nearer to an erupting volcano!  Attached to the ropes that
+ hold the balloon aloft is a brass altimeter, the one and only piece of
+ aeronautical equipment that has not been sacrificed.  The basket is
+ otherwise quite empty.
+    Hubert Booby stands in the corner of the basket, peering into
+ space.
+
+>inventory
+ I am carrying nothing, having thrown all my belongings overboard in an
+ effort to keep us aloft.
+
+>examine booby
+ Hubert is a man of prodigious girth, pasty and unhealthy looking with
+ slicked down hair and beady little eyes that follow me about.  He is
+ wearing a large, bulky overcoat and a shapeless felt hat.
+
+>search hubert
+ There's nothing in Hubert.
+
+>examine coat
+ Hubert habitually wears this huge black overcoat.  It seems to have
+ been designed with only a small breast pocket, but a larger side
+ pocket has been crudely stitched to the side.  The overcoat is
+ bursting at the seams; it is buttoned up but the buttons threaten to
+ pop off under the strain.  The occasional slight movement from within
+ the bulk suggest something untoward is going on in there...
+
+>examine breast pocket
+ A small pocket on the front of the overcoat.  The corner of a
+ handkerchief can be seen poking out of Hubert's breast pocket.
+
+>examine handkerchief
+ Hubert is obviously a well brought-up young man, despite his bizarre
+ behaviour, since he always carries a clean handkerchief in his breast
+ pocket.
+
+>take handkerchief
+ I take hold of the corner of the handkerchief and tug, whereupon, like
+ some infernal conjuring trick, the one handkerchief is attached to
+ another, and another, until I am holding a huge bundle of coloured
+ handkerchiefs all tied together at the corners.  Leave those alone!"
+ protests Hubert, "my Aunt Gertie will be very annoyed when she finds
+ out you've stolen my hankies!"
+
+>throw hankies
+ I attempt to throw the string of handkerchiefs over the side, but
+ unbeknown to me Hubert places his foot on the end of it.  He hauls
+ them back inside and stuffs them carelessly into the side pocket of
+ his overcoat.
+
+>examine breast pocket
+ A small pocket on the front of the overcoat.  There's nothing in the
+ breast pocket.
+
+>take breast pocket
+ I can't have the breast pocket.
+
+>examine buttons
+ Hubert's overcoat is bursting at the seams.  It's a wonder the buttons
+ don't pop off under the strain, but looking at them more closely it is
+ evident that he has sewn them on with extremely strong sailmaker's
+ thread.
+
+>throw hubert
+ Tempting though it is, I don't think pushing Hubert over the side of
+ the basket is the gentlemanly way of dealing with this problem.
+ (Actually the real reason is that he's far too heavy for me to move!)
+
+>examine side pocket
+ A large pocket that seems not to have been part of the coat's original
+ design.  Despite Hubert's protestations, I am able to take a quick
+ peek at its contents, which appear to consist of a rubber mallet, a
+ tin box, and a string of handkerchiefs.
+
+>examine hat
+ Hubert's hat looks as though it might once have belonged to an
+ admiral, but it has lost much of its shape and the gold brocade is
+ hanging off.  When Hubert sees me eyeing his hat he reaches up and
+ clutches the brim protectively.  "There's nothing concealed under
+ here, I promise you!"  he says.
+
+>take hat
+ Hubert clutches the brim protectively.  "It's my hat," he squeals, and
+ after much effort you give in to his protests.
+
+>look in hat
+ There's nothing in the shapeless felt hat.
+
+>take brocade
+ I don't know the word "brocade".
+
+>rip side pocket
+ I don't know how to tear the side pocket.
+
+>take handkerchiefs
+ Taken.
+
+>pull side pocket
+ Pulling the side pocket doesn't have any effect.
+
+>take all from side pocket
+ rubber mallet:  Before Hubert has time to react, I snatch the rubber
+ mallet from the side pocket of his coat.  "You incorrigible
+ sneak-thief!"  he cries, " Scoundrels like you should be thrown in the
+ clink!"
+ tin box:  In spite of Hubert's feeble efforts to stop me, I am able to
+ wrest the tin box from the side pocket of his coat.
+
+>tie handkerchiefs
+ (to Hubert)
+ I cannot see much point in doing that.
+
+>examine tin box
+ A battered tin box with the words 'sewing kit' painted on its lid.
+ The sewing kit is closed.
+
+>open box
+ Opening the sewing kit reveals a pair of scissors, a ball of yarn, and
+ a needle.
+
+>take scissors
+ Taken.
+
+>cut buttons with scissors
+ As soon as Hubert sees me approaching with the scissors he
+ understandably backs away, but in the confines of the balloon I soon
+ have him cornered.  His vigorous attempts to fend me off are quite
+ ineffectual.
+
+
+ With a deft movement of the wrist I succeed in cutting through the
+ tough thread that binds each button to the coat.  As I do so each
+ button flies off like a speeding bullet, and finally, with a great
+ rending sound the coat bursts open, spilling a multitude of diverse
+ objects onto the floor of the basket!  These items consist of a large
+ framed painting, an enormous carpetbag, a bundle of twigs, a
+ boomerang, an ear-trumpet, a toy donkey and a sleeping Saint Bernard
+ dog...
+
+>examine painting
+ Goodness knows where on our travels Hubert picked this up; it appears
+ to be an exquisitely detailed still life by Rembrandt of three kittens
+ in a chamber pot.
+
+>throw painting
+ I am not carrying the the painting.
+
+>take painting
+ Taken.  "If you damage that," says Hubert, "I shall tell my Aunt
+ Gertie!"
+
+>examine carpetbag
+ This is by far the largest example of a carpetbag I have ever seen!
+ It must contain enough carpet to carpet the Taj Mahal!  The carpetbag
+ is closed and locked with a small padlock.
+
+>throw painting
+ Without hesitation I fling the painting over the side, thereby
+ consigning that artistic aberration to oblivion.  It seems the kindest
+ thing to do.
+
+
+ "You imbecile!"  cries Hubert, tearing out great clumps of his hair,
+ "I bought that painting to adorn the walls of my dear Aunt Gertie's
+ drawing room.  You'll pay for this!"
+
+
+ Unburdening the balloon of this quite large and heavy object causes a
+ sudden and immediate gain in altitude of seven hundred feet.
+
+>take bag
+ The carpetbag is too heavy for me to carry at the moment.
+
+>examine twigs.
+ A bundle of cedar twigs and sprigs of sage bound together with
+ coloured thread; otherwise known as a "smudge stick."  Madam Blavatsky
+ explained the principle of "smudging" to me one evening at a meeting
+ of the Theosophical Society.  It is a traditional Native American way
+ of using smoke to cleanse a place of negative energy and banish it of
+ evil spirits.
+
+>examine boomerang
+ Hubert must have picked up this curious artefact when we landed in
+ Australia.  I wonder what it does?  At the moment it's just weighing
+ down my balloon.
+
+>info
+ To Hell in a Hamper
+ By J.  J.  Guest
+
+ Release Version 1.0
+ Copyright 2003-2004 by J.  J.  Guest.  All Rights Reserved.
+ Developed with TADS:  The Text Adventure Development System
+
+ Thanks to:  My Brother Dan for inspiration, to Ambrosine and Liz
+ Parnell who beta-tested the original ADRIFT version, and to Dan
+ Shiovitz, Phil Swinbank and Tommy Herbert who beta-tested this TADS 2
+ version.  Thanks also to Stewart J.  McAbney for initiating the TADS 2
+ conversion, and to Mike Roberts, Quintin Stone and everyone else on
+ rec.arts.int-fiction who gave me help and advice.
+
+>examine ear-trumpet
+ An old ear-trumpet made of tin.
+
+>examine donkey
+ A large, and very heavy toy donkey wearing a sombrero.  Hubert must
+ have picked this up during our brief stopover in Benidorm and smuggled
+ it aboard under his coat!
+
+>examine dog
+ Booby must have picked up this enormous hound during our short
+ stopover in Switzerland.  It is amazing to consider that he has been
+ carrying it around ever since!  The hound is currently sound asleep,
+ lying on his side, exactly as he fell with one ear turned inside out.
+ A small barrel of brandy is attached to the collar around his neck.
+
+>ask booby about padlock
+ That carpetbag is my business," sneers Hubert, "it's not my fault if
+ you're foolish enough to throw out all your own belongings.  That lock
+ is there to see you don't get your paws on any more of mine."
+
+>look in trumpet
+ There's nothing in the ear-trumpet.
+
+>take trumpet
+ Taken.  "Put that down at once!"  cries Hubert.
+
+>throw it
+ I can see no possible use for the ear-trumpet, so I throw it over the
+ side of the balloon.  For some reason Hubert seems to find this
+ amusing.  He tries to stifle his laughter but it escapes him as a sort
+ of nasal snort.  He bends down to stroke the ears of the St.  Bernard.
+
+
+ The equilibrium of a balloon in the air is so sensitive that the loss
+ of an almost insignificant weight can produce a very appreciable
+ displacement.  In this instance, the balloon gains around two hundred
+ feet in altitude.
+
+>undo
+ (Undoing one command)
+
+
+ In the basket of a balloon
+    I am in the basket of the balloon, high, though not high enough
+ above the foothills of the Andes.  Directly ahead of us is a glow in
+ the sky; the heavens themselves seem to be ablaze as the wind carries
+ us ever nearer to an erupting volcano!  Attached to the ropes that
+ hold the balloon aloft is a brass altimeter, the one and only piece of
+ aeronautical equipment that has not been sacrificed.
+    I see a carpetbag, a smudge stick, a boomerang, and a toy donkey
+ here.
+    Hubert Booby stands in the corner of the basket, peering at me
+ suspiciously.
+    A St.  Bernard dog is lying fast asleep on the floor of the basket,
+ oblivious to the drama unfolding before him.
+
+>open donkey
+ I don't know how to open the toy donkey.
+
+>search donkey
+ I find nothing of interest.
+
+>throw it
+ I am not carrying the the toy donkey.
+
+>take it
+ Taken.
+
+>throw it
+>examine altimeter
+ I fling the toy donkey over the side of the balloon and watch as it
+ spirals to Earth.  "You maniac!"  screams Hubert, wringing his hands
+ and quivering all over like an oversized lemon jelly.  "The shopkeeper
+ assured me that donkey was one-of-a-kind!"
+
+
+ Unburdening the balloon of this quite large and heavy object causes a
+ sudden and immediate gain in altitude of seven hundred feet.
+
+ The altimeter is currently reading 13,400 feet above sea level.  In
+ order to clear the volcano in safety we must reach an altitude of
+ 20,000 feet!
+
+>search coat
+ I can now see that the overcoat has an inside pocket.  Despite
+ Hubert's protestations, I am able to take a quick peek at its
+ contents, which appear to consist of a hatchet and a cigarette
+ lighter.  There are also a couple of objects trapped within the tartan
+ lining, but that is as much as I am able to determine before Hubert
+ succeeds in shoving me away.
+
+>take hatchet
+ Hubert is too slow to stop me reaching inside his overcoat to retrieve
+ the hatchet from his inside pocket.  I immediately recognise the item
+ as my own!
+
+>cut padlock with hatchet
+ There is nothing to be gained in attempting to cut that.
+
+>take lighter
+ I reach inside Hubert's overcoat and retrieve the lighter.  "Stop!
+ Thief!"  yells Hubert, presumably in the hope of attracting the
+ attention of the local constabulary.
+
+>cut lining with scissors
+ I lunge with the scissors, slashing a large rent in the tartan fabric.
+ A colourful vase drops out onto the floor of the basket.  "You
+ lunatic!"  shrieks Hubert, throwing up his hands in horror, "my Auntie
+ Gertie will have to mend that now!"
+
+>take vase
+ Taken.
+
+>break it
+ I hit the vase against the side of the basket but it remains
+ resolutely intact. Maybe I should use something to smash it with!
+
+>break vase with hatchet
+ There are surely better tools than a hatchet to break things with!
+
+>look in vase
+ It is too dark inside the vase to get any idea of what it might
+ contain.
+
+>shake vase
+ I don't know the word "shake".
+
+>empty vase
+ I don't know the word "empty".
+
+>reach in vase
+ I don't know the word "reach".
+
+>SAVE
+>cf1
+ Saved.
+
+>hit vase with mallet
+ I hit the vase with the mallet.  It shatters most obligingly,
+ revealing a tiny key among the wreckage!
+
+
+ "You maniac!"  cries Hubert, "that vase was a present for my Aunt
+ Gertie!  I'll never be able to find another one!"
+
+>take key
+ Taken.
+
+>unlock bag with key
+ I unlock the carpetbag with the tiny metal key, tossing the padlock
+ over the side of the basket.  The bag falls open to reveal, to my
+ astonishment, a pair of underpants, a trombone, and what appears to be
+ an Egyptian mummy still in its original wrappings!
+
+>examine underpants
+ A pair of clean Y-fronts, extra large.  There is a picture of Sexton
+ Blake on the front!
+
+ Hubert picks up the boomerang.
+
+>examine trombone
+ A rather battered, but still serviceable trombone.  There appears to
+ be something wedged in its funnel.
+
+>look in it
+ In the trombone I see a whatever it is that's wedged into the funnel.
+
+>play trombone
+ I am not carrying the trombone.
+
+>blow trombone
+ I am not carrying the trombone.
+
+>take it
+ Taken.  "That doesn't belong to you!"  exclaims Hubert.
+
+>play it
+ The trombone emits an almost inaudible squeak.  I fear there may be
+ something wrong with it.
+
+>examine funnel
+ A rather battered, but still serviceable trombone.  There appears to
+ be something wedged in its funnel.
+
+>search funnel
+ In the trombone I see a whatever it is that's wedged into the funnel.
+
+>examine mummy
+ The preserved body of an ancient Egyptian, still in its original
+ wrappings.  It smells rather musty and something about it gives me the
+ creeps, quite frankly.
+
+>take underpants
+ I gingerly remove the pair of underpants from the carpetbag.
+
+>search underpants
+ I find nothing of interest.
+
+>unwrap mummy
+ Somewhat hesitantly I begin to peel away the mummy's wrappings.  "I
+ shouldn't do that if I were you," says Hubert, "or you'll fall foul of
+ the curse!"
+
+>throw underpants
+ I toss the underpants over the side of the balloon.  A warm air
+ current sends them floating off into the distance.  "You idiot!"
+ cries Hubert, his eyes wide as coal-holes, "My Aunt Gertie was very
+ insistent that I always have clean underwear - I've been wearing my
+ other pair ever since this infernal trip began!"
+
+
+ The equilibrium of a balloon in the air is so sensitive that the loss
+ of an almost insignificant weight can produce a very appreciable
+ displacement.  In this instance, the balloon gains around one hundred
+ feet in altitude.
+
+>take vase
+ I don't see any vase here.
+
+>unwrap mummy
+ Somewhat hesitantly I begin to peel away the mummy's wrappings.  "I
+ shouldn't do that if I were you," says Hubert, "or you'll fall foul of
+ the curse!"
+
+>light smudge sticks
+ I don't know the word "sticks".
+
+>ask booby about curse
+ "Oh, it's probably just mumbo-jumbo," says Hubert airily, "but those
+ Egyptian graverobbers who sold me the mummy also told me that anyone
+ who defiled or desecrated the body would fall victim to the Curse of
+ the Blue Ibis.  I'm no expert on these things," he continues with an
+ unmistakable air of smugness, "but I rather suspect that hurling the
+ mummy out of a balloon might count as an act of desecration."
+
+>light smudge
+ I'm not carrying the smudge stick.
+
+>take stick
+ Taken.
+
+>light smudge
+ I don't think this is an appropriate time to be performing Native
+ American rituals!
+
+>toss mummy
+ I am not carrying the the Egyptian mummy.
+
+>ask booby about ibis
+ "Oh, it's probably just mumbo-jumbo," says Hubert airily, "but those
+ Egyptian graverobbers who sold me the mummy also told me that anyone
+ who defiled or desecrated the body would fall victim to the Curse of
+ the Blue Ibis.  I'm no expert on these things," he continues with an
+ unmistakable air of smugness, "but I rather suspect that hurling the
+ mummy out of a balloon might count as an act of desecration."
+
+>wake dog
+ I try to rouse the slumbering dog by shaking him violently, but to no
+ avail.  Hubert snorts derisively at my efforts.  Perhaps a loud noise
+ of some kind might be more effectual.
+
+>put ear trumpet in dog
+ I presume you mean me to put it in the dog's ear...
+ I put the ear-trumpet in the Saint Bernard's ear.  He does not appear
+ to mind, but then he is fast asleep.
+
+>look
+
+ In the basket of a balloon
+    I am in the basket of the balloon, high, though not high enough
+ above the foothills of the Andes.  A strong wind drives us ever closer
+ to the volcano; torrents of molten lava cascading down its sides like
+ rivers of fire!  Attached to the ropes that hold the balloon aloft is
+ a brass altimeter, the one and only piece of aeronautical equipment
+ that has not been sacrificed.
+    I see a carpetbag here.  The carpetbag seems to contain a Egyptian
+ mummy.
+    Hubert Booby stands in the corner of the basket, peering at me
+ suspiciously.
+    A St.  Bernard dog is lying fast asleep on the floor of the basket,
+ oblivious to the drama unfolding before him.
+
+>inventory
+ I have a string of handkerchiefs, a rubber mallet, a sewing kit, a
+ pair of scissors, a hatchet, a cigarette lighter, a trombone, and a
+ smudge stick.  The sewing kit seems to contain a ball of yarn and a
+ needle.
+
+>take coat
+ I try to pull the overcoat off over Hubert's head, but only succeed in
+ pulling Hubert over onto his back.  "Let go of me, you maniac!"  he
+ cries, clambering to his feet.
+
+>again
+ I try to pull the overcoat off over Hubert's head, but only succeed in
+ pulling Hubert over onto his back.  "Let go of me, you maniac!"  he
+ cries, clambering to his feet.
+
+>examine hubert
+ Hubert is a man of prodigious girth, pasty and unhealthy looking with
+ slicked down hair and beady little eyes that follow me about.  He is
+ wearing a large, bulky overcoat and a shapeless felt hat.  He is
+ carrying a boomerang.
+
+>take hat
+ Hubert clutches the brim protectively.  "It's my hat," he squeals, and
+ after much effort you give in to his protests.
+
+>take boomerang
+ After a brief struggle, I manage to wrest it from Hubert's grip.  "Put
+ that down at once!"  cries Hubert.
+
+>throw boomerang
+ I throw the boomerang with all my might.  It spins away into the
+ clouds.
+
+
+ The balance between the weight of the balloon and the lift provided by
+ the gas is so delicate that jettisoning even a very light object
+ causes an immediate vertical displacement.  In this instance, the
+ balloon gains around three hundred feet in altitude.
+
+>wait
+ Time passes...
+
+>inventory
+ I have a string of handkerchiefs, a rubber mallet, a sewing kit, a
+ pair of scissors, a hatchet, a cigarette lighter, a trombone, and a
+ smudge stick.  The sewing kit seems to contain a ball of yarn and a
+ needle.
+
+>take needle
+ Taken.
+
+>take yarn
+ Taken.
+
+>thread needle with yarn
+>unwedge funnel with scissors
+ I don't recognize that sentence.
+
+ I don't know the word "unwedge".
+
+>put scissors in funnel
+ Done.
+
+>take scissors
+ Taken.  "Put that down at once!"  cries Hubert.
+
+>put yarn in needle
+ If you want me to sew something, just tell me and I'll do it then.
+
+>sew hat
+ I'm a balloonist, not a seamstress!
+
+>hit booby with mallet
+ Hubert screams as I near him with the mallet.
+
+>take coat
+ I try to pull the overcoat off over Hubert's head, but only succeed in
+ pulling Hubert over onto his back.  "Let go of me, you maniac!"  he
+ cries, clambering to his feet.
+
+ There is a strange whistling sound from behind me...
+
+ THUD!  Much to Hubert's amusement, the boomerang hits me on the back
+ of the head.
+
+>take boomerang. Throw it at hat.
+ Taken.  "That doesn't belong to you!"  exclaims Hubert.
+
+ I hurl the boomerang at Hubert's hat, in the time honoured tradition
+ of the Australian Aboriginal hunters.  Unfortunately Hubert ducks, and
+ the boomerang whistles off into the distance.  "You're going to have
+ to try harder than that, old man!"  he jeers.
+
+
+ The balance between the weight of the balloon and the lift provided by
+ the gas is so delicate that jettisoning even a very light object
+ causes an immediate vertical displacement.  In this instance, the
+ balloon gains around three hundred feet in altitude.
+
+>duck
+ I don't know the word "duck".
+
+>yell in trumpet
+ I yell "WAKEY WAKEY!"  directly into the ear-trumpet.  The dog stirs
+ slightly, its rear paws twitching involuntarily; but still it does not
+ wake.  Obviously I need to make an even louder noise...
+
+>examine trombone
+ A rather battered, but still serviceable trombone.  There appears to
+ be something wedged in its funnel.
+
+ There is a strange whistling noise, and a second later a loud crack as
+ the boomerang returns, hitting Hubert on the back of the head.  Hubert
+ yelps with pain and the felt hat topples to the floor with a heavy
+ thump.  As it hits the floor a large cuckoo clock, which Hubert had
+ been concealing under it, drops out and lands by my feet.  The clock
+ immediately begins to chime...
+
+>cut lining with scissors
+ I don't think there are any further items hidden in the lining...
+
+ The clock chimes three times.  "CUCKOO!  CUCKOO!  CUCKOO!"
+
+>examine clock
+ A ridiculously ornate carved wooden clock with a small door in the
+ front to allow a wooden bird to pop in and out every quarter of an
+ hour.  I fancy it was damaged when I knocked it off Hubert's head,
+ since the cuckoo seems to have gone beserk, and it is quite impossible
+ to read the time since the hands are spinning like dervishes!
+
+ The clock chimes five times.  "CUCKOO!  CUCKOO!  CUCKOO!  CUCKOO!
+ CUCKOO!"
+
+>take hat
+ Taken.  "Leave that alone!"  cries Hubert.
+
+>look in hat
+ There's nothing in the shapeless felt hat.
+
+ The clock chimes three times.  "CUCKOO!  CUCKOO!  CUCKOO!"
+
+>throw hat
+ I drop the ratty old hat over the side of the basket.  As it tumbles
+ away into the clouds, Hubert screams "You imbecile!  My great uncle
+ Percy wore that hat during the Charge of the Light Brigade!  It was
+ his dying wish that I should wear it every day of my life!"
+
+
+ The equilibrium of a balloon in the air is so sensitive that the loss
+ of an almost insignificant weight can produce a very appreciable
+ displacement.  In this instance, the balloon gains around one hundred
+ feet in altitude.
+
+ The clock chimes seven times.  "CUCKOO!  CUCKOO!  CUCKOO!  CUCKOO!
+ CUCKOO!  CUCKOO!  CUCKOO!"
+
+>put clock in trumpet
+ I can't put anything into the ear-trumpet.
+
+ The clock chimes four times.  "CUCKOO!  CUCKOO!  CUCKOO!  CUCKOO!"
+
+>examine clock
+ A ridiculously ornate carved wooden clock with a small door in the
+ front to allow a wooden bird to pop in and out every quarter of an
+ hour.  I fancy it was damaged when I knocked it off Hubert's head,
+ since the cuckoo seems to have gone beserk, and it is quite impossible
+ to read the time since the hands are spinning like dervishes!
+
+ The clock chimes three times.  "CUCKOO!  CUCKOO!  CUCKOO!"
+
+>throw clock
+ I am not carrying the the cuckoo clock.
+
+ The clock chimes seven times.  "CUCKOO!  CUCKOO!  CUCKOO!  CUCKOO!
+ CUCKOO!  CUCKOO!  CUCKOO!"
+
+>open clock
+ I don't know how to open the cuckoo clock.
+
+>take clock
+ Taken.
+
+ The clock chimes three times.  "CUCKOO!  CUCKOO!  CUCKOO!"
+
+>open door
+ I don't know the word "door".
+
+>throw clock
+ I hurl the cuckoo clock over the side of the basket.  It continues to
+ chime long after it has disappeared into the wreath of thin cloud that
+ hovers below us.
+
+ "You maniac!"  screams Hubert, shuddering like a Quaker.  "That clock
+ was to have adorned the kitchen wall of my dear Aunt Gertie.  Its
+ hourly chiming would have reminded her when it was time to make my
+ tea, run my bath and a thousand other duties incumbent upon her as my
+ legal guardian!"
+
+
+ The balance between the weight of the balloon and the lift provided by
+ the gas is so delicate that jettisoning even a very light object
+ causes an immediate vertical displacement.  In this instance, the
+ balloon gains around five hundred feet in altitude.
+
+>shake trombone
+ I don't know the word "shake".
+
+>hit funnel
+ What do you want to hit it with?
+
+>mallet
+ I bash the trombone with the rubber mallet.  To my surprise, a cricket
+ ball pops out of the funnel.  I must ask Hubert how that got in
+ there...
+
+>blow trombone
+ I place the trombone to my lips and blow.  It emits a few strangulated
+ notes.  The St.  Bernard, upon hearing this leaps four feet into the
+ air, sending the ear-trumpet flying into space.  He seems to be fully
+ alert now!
+
+>take dog
+ I throw myself upon the dog, in an effort to cast it over the side of
+ the basket, but he seems to think that we are playing a game, and
+ wriggles free of my grasp.
+
+>take mummy
+ I carefully lift the Egyptian mummy from the carpetbag and heave it
+ over my shoulder.  "I wouldn't touch that if I were you," says Hubert
+ "it's cursed!"
+
+>drop mummy
+ Dropped.
+
+>wave ball
+ I don't know the word "wave".
+
+>put dog in bag
+ I can't put the Saint Bernard dog anywhere.
+
+>take boomerang
+ Taken.  "Put that down at once!"  cries Hubert.
+
+>show it to dog
+ The Saint Bernard dog isn't impressed.
+
+>throw stick
+ I toss the smudge stick over the side of the basket.  After all I
+ can't imagine what I might have needed it for...
+
+
+ The equilibrium of a balloon in the air is so sensitive that the loss
+ of an almost insignificant weight can produce a very appreciable
+ displacement.  In this instance, the balloon gains around one hundred
+ feet in altitude.
+
+>undo
+ (Undoing one command)
+
+
+ In the basket of a balloon
+    I am in the basket of the balloon, high, though not high enough
+ above the foothills of the Andes.  The balloon is now perilously close
+ to the volcano; huge chunks of molten rock hurl themselves into the
+ air around us, and still the relentless wind drives us closer!
+ Attached to the ropes that hold the balloon aloft is a brass
+ altimeter, the one and only piece of aeronautical equipment that has
+ not been sacrificed.
+    I see a carpetbag, a cricket ball, and a Egyptian mummy here.
+    Hubert Booby stands in the corner of the basket, peering into
+ space.
+    A St.  Bernard dog is sitting placidly before me, wagging its tail.
+
+>throw boomerang
+ I throw the boomerang with all my might.  It spins away into the
+ clouds.
+
+
+ The balance between the weight of the balloon and the lift provided by
+ the gas is so delicate that jettisoning even a very light object
+ causes an immediate vertical displacement.  In this instance, the
+ balloon gains around three hundred feet in altitude.
+
+>show ball to dog
+ Which ball do you mean, the ball of yarn, or the cricket ball?
+
+>cricket
+ The Saint Bernard dog isn't impressed.
+
+>ask booby about parachute
+ Hubert snorts indignantly but refuses to comment.
+
+>ask booby about dog
+ "He came free with the cuckoo clock."  says Hubert.  "I'm afraid it is
+ the laziest hound I have ever encountered - nothing but the loudest
+ noise will rouse him."
+
+>examine dog
+ Booby must have picked up this enormous hound during our short
+ stopover in Switzerland.  It is amazing to consider that he has been
+ carrying it around ever since!  The dog is sitting on his haunches,
+ looking up at me through soulful brown eyes.  A small barrel of brandy
+ is attached to the collar around his neck.
+
+ There is a strange whistling sound from behind me...
+
+ THUD!  Much to Hubert's amusement, the boomerang hits me on the back
+ of the head.
+
+>examine barrel
+ The barrel is attached to the dog's collar.  There is a small tap on
+ one side allowing me to drink from it.
+
+>open tap
+ I don't know how to open the barrel of brandy.
+
+>take barrel
+ Why bother when I can drink the brandy without removing the collar!
+
+>drink brandy
+ I help myself to a little of the brandy.  Most refreshing!
+
+>turn tap
+ Turning the barrel of brandy doesn't have any effect.
+
+>hubert, drink brandy
+ "Do it yourself!"  cries Hubert, "I am feeling somewhat fatigued of
+ late.  It must be the altitude.  Why don't you let some gas out of the
+ balloon?"
+
+>take collar
+ I don't know the word "collar".
+
+>dog, push hubert
+ The St.  Bernard looks at me blankly.  Either it has not been trained
+ to obey commands or it only speaks German.
+
+>ask booby about blue ibis
+ "Oh, it's probably just mumbo-jumbo," says Hubert airily, "but those
+ Egyptian graverobbers who sold me the mummy also told me that anyone
+ who defiled or desecrated the body would fall victim to the Curse of
+ the Blue Ibis.  I'm no expert on these things," he continues with an
+ unmistakable air of smugness, "but I rather suspect that hurling the
+ mummy out of a balloon might count as an act of desecration."
+
+>burn mummy with lighter
+ I'm a balloonist, not a pyromaniac!
+
+>SAVE
+>cf2
+ Saved.
+
+>take mummy
+ I heave the Egyptian mummy over my shoulder.
+
+>throw mummy
+ I heave the mummy over the side of the balloon and watch as it
+ plummets earthwards.  As the mummy disappears from sight the sky seems
+ to darken; the light alpine cloud coalesces into forbidding thunder
+ clouds.  The ominous silence is broken by a piercing shriek like that
+ of an exotic bird...
+
+ "Now you've done it!"  cries Hubert, shaking like a leaf and paler
+ than ever, "We're both doomed now.  Did I not tell you about...
+
+ ...THE CURSE OF THE BLUE IBIS?"
+
+
+ Unburdening the balloon of this large, heavy object causes a sudden
+ and immediate gain in altitude of one thousand feet.
+
+>examine cloud
+ I don't know the word "cloud".
+
+>examine altimeter
+ The altimeter is currently reading 15,300 feet above sea level.  In
+ order to clear the volcano in safety we must reach an altitude of
+ 20,000 feet!
+
+ From somewhere towards the east there is a piercing shriek; the shrill
+ cry of some exotic bird!
+
+>examine bird
+ The Ibis, an Egyptian wading bird, is said to be the messenger of
+ Osiris, ancient Egyptian god of the dead.  To see one flying at an
+ altitude of 15,300 feet above the Ecuadorian Andes is quite, quite
+ incredible; one might even say supernatural...
+
+>examine bag
+ This is by far the largest example of a carpetbag I have ever seen!
+ It must contain enough carpet to carpet the Taj Mahal!  The carpetbag
+ is open.  There's nothing in the carpetbag.
+
+ The Blue Ibis gives a piercing cry as it draws closer and closer to
+ the balloon...
+
+>take bag
+ Taken.
+
+>throw it
+ I hurl the empty bag over the side of the basket.  Hubert merely
+ glares at me for a moment.
+
+
+ The equilibrium of a balloon in the air is so sensitive that the loss
+ of an almost insignificant weight can produce a very appreciable
+ displacement.  In this instance, the balloon gains around one hundred
+ feet in altitude.
+
+ The Blue Ibis gives a piercing cry as it draws closer and closer to
+ the balloon...
+
+>throw boomerang at ibis
+ I am not carrying the boomerang.
+
+>take boomerang. throw it at ibis.
+ Taken.  "That doesn't belong to you!"  exclaims Hubert.
+
+ As it reaches the envelope of the balloon, the Blue Ibis rises
+ sharply, momentarily disappearing from sight.
+
+ I hurl the boomerang at the Blue Ibis, in the time honoured tradition
+ of the Australian Aboriginal hunters.  But the Blue Ibis is no
+ ordinary bird, and instead of striking the creature dead, the
+ boomerang explodes in a mass of splinters!
+
+
+ The balance between the weight of the balloon and the lift provided by
+ the gas is so delicate that jettisoning even a very light object
+ causes an immediate vertical displacement.  In this instance, the
+ balloon gains around three hundred feet in altitude.
+
+>SAVE
+>cf3
+ Saved.
+
+>take ear trumpet
+ I don't see any ear trumpet here.
+
+>light smudge
+ I light the smudge stick with the cigarette lighter, then blow it out,
+ allowing the scented smoke to waft around the balloon.  It could be my
+ imagination, but from somewhere I hear the distant sound of drums and
+ a Cherokee medicine man chanting.  From above there is a raucous
+ shriek, and I look up to see the Blue Ibis vanish into the sweet
+ smelling smoke like something out of a dream...
+
+ Red hot embers fly from the smudge stick...
+
+>blow out stick
+ I don't recognize that sentence.
+
+>blow on stick
+ I don't recognize that sentence.
+
+>throw stick
+ I toss the burning smudge stick over the side of the balloon.
+
+
+ The equilibrium of a balloon in the air is so sensitive that the loss
+ of an almost insignificant weight can produce a very appreciable
+ displacement.  In this instance, the balloon gains around one hundred
+ feet in altitude.
+
+>examine altimeter
+ The altimeter is currently reading 15,800 feet above sea level.  In
+ order to clear the volcano in safety we must reach an altitude of
+ 20,000 feet!
+
+>throw lighter
+ I think I shall hang on to the lighter.  It is very light, and one
+ never knows when one might need one.
+
+>examine trombone
+ A rather battered, but still serviceable trombone.  It now appears to
+ be free of obstructions.
+
+>take Hubert
+ I can't have Hubert.
+
+>play trombone
+ I have never studied music, but the noise that emits from the
+ instrument when I place it to my lips is not entirely unpleasant.
+ Hubert, who is clutching his ears, seems to be of a different opinion.
+
+>throw it
+ Having no further use for it, I cast the trombone out of the basket.
+ Hubert merely sighs and rolls his eyes at me.
+
+
+ The balance between the weight of the balloon and the lift provided by
+ the gas is so delicate that jettisoning even a very light object
+ causes an immediate vertical displacement.  In this instance, the
+ balloon gains around five hundred feet in altitude.
+
+>examine toy
+ I don't see any toy here.
+
+>look
+
+ In the basket of a balloon
+    I am in the basket of the balloon, high, though not high enough
+ above the foothills of the Andes.  We are now practically on top of
+ the volcano.  It is as though we are entering the mouth of hell
+ itself!  Attached to the ropes that hold the balloon aloft is a brass
+ altimeter, the one and only piece of aeronautical equipment that has
+ not been sacrificed.
+    I see a cricket ball here.
+    Hubert Booby stands in the corner of the basket, peering into
+ space.
+    A St.  Bernard dog is sitting placidly before me, wagging its tail.
+
+>inventory
+ I have a string of handkerchiefs, a rubber mallet, a sewing kit, a
+ hatchet, a cigarette lighter, a needle, a ball of yarn, and a pair of
+ scissors.
+
+>take ball
+ Taken.  "Put that down at once!"  cries Hubert.
+
+>examine it
+ A well-worn cricket ball that has obviously seen quite a lot of use.
+ I was pretty good bowler in my day...
+
+>throw ball at dog
+ Which ball do you mean, the ball of yarn, or the cricket ball?
+
+>cricket
+ I miss.
+
+>take it
+ Taken.  "That doesn't belong to you!"  exclaims Hubert.
+
+>show ball to dog
+ Which ball do you mean, the ball of yarn, or the cricket ball?
+
+>cricket
+ The Saint Bernard dog isn't impressed.
+
+>bowl
+ What do you want to throw?
+
+>bowl cricket ball
+ I throw the cricket ball (overarm, naturally) over the side of the
+ basket, giving it plenty of topspin.  It whistles off into the clouds,
+ closely followed by the St.  Bernard, which, like any dog, cannot
+ resist chasing a thrown ball.  Through a gap in the clouds I see the
+ hapless hound land safely in a snow-drift.  At least he will be able
+ to dig himself out.
+
+
+ Unburdening the balloon of this large, heavy object causes a sudden
+ and immediate gain in altitude of one thousand feet.
+
+>inventory
+ I have a string of handkerchiefs, a rubber mallet, a sewing kit, a
+ hatchet, a cigarette lighter, a needle, a ball of yarn, and a pair of
+ scissors.
+
+>throw mallet
+ I fling the mallet over the side of the basket.  "You lunatic!"  yells
+ Hubert, stamping his feet in distraction.  'That was an extremely
+ useful mallet - I used it every day at breakfast to crack open my
+ boiled eggs!"
+
+
+ The balance between the weight of the balloon and the lift provided by
+ the gas is so delicate that jettisoning even a very light object
+ causes an immediate vertical displacement.  In this instance, the
+ balloon gains around five hundred feet in altitude.
+
+ "THAT DOES IT!"  shrieks Hubert, shaking his tiny fists at me in
+ exasperation.  "That's the last straw.  You've really done it this
+ time.  I'm going to tell my Aunt Gertie on you!"
+
+ "Oh, and I suppose you have your Aunt Gertie secreted away in that
+ incredible overcoat of yours as well..."  I say, mockingly.
+
+ "Yes," says Hubert, "as a matter of fact I have.  You didn't think I'd
+ leave her at home all on her own, do you?"  After much squirming and
+ wriggling, a tiny little old lady emerges from the overcoat.
+
+ "What is it, Hubert dear?"  she asks...
+
+>examine aunt
+ She is a fearsome looking old lady with her hair tied back in a bun
+ and a clean white apron on.  She leans on a rather lethal looking cane
+ and carries a bottle of what looks worryingly like castor oil.
+
+>take cane
+ "Leave me helpless, would you," crows Aunt Gertie as I go to grab her
+ cane, before hitting me over the head with it.  Helpless indeed!
+
+>tie aunt with handkerchiefs
+ I don't recognize that sentence.
+
+>tie aunt with handkerchief
+ I don't recognize that sentence.
+
+>tell gertie about volcano
+ It doesn't look as though Aunt Gertie is interested.
+
+>ask gertie about booby
+ "Hubert's such a good boy.  He always washes behind his ears."  says
+ Aunt Gertie, smiling at her nephew.  "I don't suppose you wash behind
+ your ears, do you?"  She subjects my ears to close scrutiny.  "No, I
+ didn't think so."
+
+>search ears
+ I don't know the word "ears".
+
+>ask gertie about gertie
+ "For the land's sakes!"  cries Aunt Gertie in exasperation.
+
+>take gertie
+ I can't have Aunt Gertie.
+
+>gertie, jump
+ Aunt Gertie doesn't appear interested.
+
+>take coat
+ I try to pull the overcoat off over Hubert's head, but only succeed in
+ pulling Hubert over onto his back.  "Let go of me, you maniac!"  he
+ cries, clambering to his feet.
+
+>poke gertie with needle
+ I don't recognize that sentence.
+
+>tear coat
+ I don't know how to tear the overcoat.
+
+>cut coat with scissors
+ I have already done enough damage to Hubert's coat.
+
+>inventory
+ I have a string of handkerchiefs, a sewing kit, a hatchet, a cigarette
+ lighter, a needle, a ball of yarn, and a pair of scissors.
+ Time is running out!  The volcano is so close now that its deafening
+ roar drowns out every sound, and the balloon is bathed in its eerie
+ orange glow!
+
+>give handkerchiefs to gertie
+ I would rather not give the old woman the string of handkerchiefs.
+ She is rather less of a pushover than her nephew.  Whilst she is armed
+ with that stick, I do not fancy my chances of getting them back again.
+
+>burn handkerchiefs with lighter
+ I'm a balloonist, not a pyromaniac!
+
+>push gertie
+ Are you suggesting that I push an old lady out of a balloon without a
+ parachute?  Why, that would be MURDER!!
+
+>yes
+ I don't know the word "yes".
+
+>sew parachute
+ I don't see any parachute here.
+
+>sew handkerchiefs
+ Fortunately I was taught to sew by the overbearing nuns who educated
+ me in that convent school.  Stitching the handkerchiefs together I
+ soon construct a parachute strong enough to support a reasonably
+ lightweight person.
+
+>give parachute to gertie
+ "You're not getting me up in one of those things!"  crows Aunt Gertie.
+ Perhaps a less direct approach would be more successful...
+
+>throw parachute at gertie
+ I miss.
+
+>undo
+ (Undoing one command)
+
+
+ In the basket of a balloon
+    I am in the basket of the balloon, high, though not high enough
+ above the foothills of the Andes.  We are now practically on top of
+ the volcano.  It is as though we are entering the mouth of hell
+ itself!  Attached to the ropes that hold the balloon aloft is a brass
+ altimeter, the one and only piece of aeronautical equipment that has
+ not been sacrificed.  The basket is otherwise quite empty.
+    Hubert picks absently at the frayed cuff of his overcoat.
+    Aunt Gertie hobbles about the basket, prodding things with her
+ cane.
+
+>hit gertie with parachute
+ There are surely more fruitful ways of spending my time than in
+ attacking Aunt Gertie with a parachute.
+
+>wear parachute
+ What!  And abandon my balloon?  Over my dead body!  Besides, the
+ parachute has no harness - to wear it one would need to tie it to
+ something one was already wearing.
+
+>tie parachute to gertie
+ I wait 'til her back is turned, and swiftly tie the parachute to her
+ apron strings!
+
+>push gertie
+ With a hearty shove, I push the old crone over the edge of the basket.
+ "Good grief!"  cries Hubert, rushing over to the edge of the basket.
+ Fortunately for Aunt Gertie, and unfortunately for me, it seems that
+ she managed to grab hold of the anchor on her way down, and now the
+ spry old bird is making her way up again!
+
+>cut anchor with hatchet
+ Using the hatchet I swiftly hack through the anchor rope sending both
+ the anchor and Hubert's aunt tumbling earthwards.  The parachute on
+ aunt Gertie's back opens instantly, slowing her rate of descent so
+ that she drifts to earth as gently as a dandelion seed.
+
+ My command of the English language is, alas, inadequate to describe
+ the look on Hubert's face as he watches his beloved aunt disappear
+ into the void.  Lost for words, he struggles to come up with one final
+ snipe:
+
+ "You...  you...  you...  LOONY!"  before leaping after her.  The great
+ black overcoat billows out around him like his very own parachute.
+
+ Unburdened of Hubert's enormous weight, the balloon begins to ascend
+ with breathtaking rapidity.  Within seconds we have passed 20,000
+ feet, then 25,000, then 30,000, at which point I am seized with
+ asphyxia, I lose power to my legs and arms and I begin to lose
+ consciousness...
+
+ I have just one chance.  Unless I speedily descend, ALL IS LOST!
+
+>SAVE
+>cf4
+ Saved.
+
+>cut balloon with scissors
+ I am rapidly losing consciousness.  Everything is a blur...
+
+ [TADS-1010: object value required]
+ My head is spinning like a top...
+
+>inventory
+>examine balloon
+ I am rapidly losing consciousness.  Everything is a blur...
+ My head is spinning like a top...
+ We are now so close to the volcano that its torrid heat can be felt
+ upon our faces.  It is a little like sticking one's head in a baker's
+ oven.  "Turn this infernal contraption around at once!"  shouts Hubert
+ above the roar of the lava flows, "the heat always brings me out in a
+ rash!"
+ We have very little time - we need to gain more altitude to
+ comfortably clear
+ [TADS-1010: object value required]
+ the volcano!
+
+ I am rapidly losing consciousness.  Everything is a blur...
+ My head is spinning like a top...
+
+ Six miles above the earth, and still rising rapidly, I suddenly lose
+ consciousness.  It is as though I had simply fallen asleep, but this
+ time I do not wake up...
+
+ ...If only I had been able to reach the gas valve rope in time!
+
+ *** All is lost!  ***
+
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ I am rapidly losing consciousness.  Everything is a blur...
+
+>climb rope
+ I am rapidly losing consciousness.  Everything is a blur...
+ Which rope do you mean, the anchor rope, the ropes, or the gas-valve
+ rope?
+
+>gas-value
+ I don't know the word "gas-value".
+
+>climb gas-valve rope
+ I am rapidly losing consciousness.  Everything is a blur...
+
+ [TADS-1010: object value required]
+ My head is spinning like a top...
+
+>pull gas-value rope
+ I don't know the word "gas-value".
+
+>climb ropes
+ I am rapidly losing consciousness.  Everything is a blur...
+ My head is spinning like a top...
+
+ Six miles above the earth, and still rising rapidly, I suddenly lose
+ consciousness.  It is as though I had simply fallen asleep, but this
+ time I do not wake up...
+
+ ...If only I had been able to reach the gas valve rope in time!
+
+ *** All is lost!  ***
+
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ I am rapidly losing consciousness.  Everything is a blur...
+
+>pull gas-valve rope
+ The last thing I remember before passing out is falling upon the gas
+ valve rope and pulling down on it with all the strength remaining to
+ me...
+
+
+
+
+
+
+
+
+ Excerpt from "To Hell in a Hamper, Travels by Balloon with a Buffoon"
+ by Prof.  P.  Pettibone, Oxford University Press, 1895.
+ "...when my senses returned to me the volcano was far behind me.  The
+ balloon had come to rest on the slopes of the lower Andes.  There I
+ was found, frostbitten and in a state of nervous exhaustion, by a
+ party of llama herdsmen. I had reached 37,000 feet, an altitude
+ heretofore unattained by any balloonist in history, and had lived to
+ tell the tale.
+
+ Without the means to replace my supply of hydrogen further travel by
+ balloon was impossible.  When I had recovered fully I travelled to
+ Quito by pack horse, and from there arranged passage to England by
+ land and sea.  The journey was uneventful, but my trials were not yet
+ over, for soon after my arrival I was called to account for the
+ various transgressions comitted by my travelling companion during our
+ adventures.  There was the small matter of a Rembrandt painting stolen
+ from the Louvre the previous year (secreted, no doubt beneath that
+ voluminous overcoat), and the matter of the desecration of an Egyptian
+ tomb, as well as a dozen other infractions of a lesser nature.
+ Fortunately I was able to absolve myself of blame for these crimes,
+ but it was a great shame that Hubert was not around to be held
+ accountable for his actions.
+
+ The Rembrandt, fortunately, was not one of his better pieces, owing to
+ a lapse of judgement on the part of the master in his choice of
+ subject matter.  It is generally agreed that the great artist's
+ reputation has benefitted, rather than suffered for the loss of "Three
+ Kittens in a Chamber Pot."
+
+ The mummy was a different matter however.  It turned out to have been
+ the corpse of Imhotep, architect of the Great Pyramid.  The Egyptian
+ government were most upset to learn that the builder of their most
+ exalted monument was last seen tumbling towards a hasty reburial on
+ the frozen slopes of the Andes.  As I understand it, negotiations
+ between the British, Egyptian and Ecuadorian governments are still
+ ongoing with regard to the mummy's recovery and safe return to its
+ tomb.
+
+ As for Hubert and his disagreeable Aunt Gertie, I never saw them
+ again.  However, a party of Germans trekking in the foothills of the
+ Andes five years later reported seeing a large fat man and an old
+ woman who lived together in a stone hut with a Saint Bernard dog.
+ According to the Germans, the pair spoke fluent English, but what they
+ said made little sense.  She kept muttering something about "clean
+ underwear" and he did nothing all day but lament the loss of a cuckoo
+ clock.
+ I myself retired from ballooning in 1890, having travelled in nearly
+ every country in the world.  I am now dedicated to submarine
+ exploration, in which science I am swiftly becoming the world's
+ foremost authority."
+
+ THE END
+
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.

@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+	<title>AllThingsJacq.com - Interactive Fiction | NightFloyd - April 23, 2015 - Toby's Nose by Chandler Groover</title>
+		<meta charset="utf-8">
+		<meta name="Author" content="Jacqueline A. Lott">
+		<meta name="revisit-after" content="30days">
+		<meta name="Robots" content="all">
+		<meta name="Keywords" content="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+		<meta name="Description" content="Internet site of Jacqueline A. Lott.">
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+
+<body>
+	<div class="centered narrowcol" id="top">
+		<table>
+			<tr>
+				<td>
+					<div class="centered centeralign">
+						<br>
+						<a href="index.html"><img src="/graphics/atj_logo.jpg"
+							width="250" height="170"  alt="All Things Jacq"><br>
+							<img src="/graphics/home.jpg" width="75" height="25"
+							 alt="Home"><br></a><br>
+						 <a href="writing.html">
+							 <img alt="Writing" src="/graphics/writing1.jpg" 
+								width="100" height="140" id="Writing"/>
+						</a>
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1">
+						<a href="interactive_fiction.html">
+							<img alt="InteractiveFiction"
+								src="/graphics/intfic1.jpg" width="100" height="140" 
+								id="InteractiveFiction">
+						</a> 
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1">
+						<a href="photography.html">
+							<img alt="Photography" src="/graphics/photos1.jpg" 
+							width="100" height="140" id="Photography">
+						</a> 
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1" >
+						<a href="miscellany.html">
+							<img alt="Miscellany" src="/graphics/misc1.jpg" 
+								width="100" height="140" id="Miscellany">
+						</a>
+					</div>
+
+
+					<hr/>
+					<p class="leftalign">
+						NightFloyd Transcript:<br/>
+						
+						
+						<strong><em>Toby's Nose</em> by Chandler Groover</strong><br/>
+						
+						<span class="fontish smallest">As played on ifMUD on April 23, 2015</span>
+					</p>
+
+
+					<p class="leftalign">
+					<span class="fontish smaller">Like ClubFloyd, the idea behind NightFloyd is that a group of people meet online to cooperatively play a game of interactive fiction.<br><br>Unlike ClubFloyd, NightFloyd often takes on significantly larger works of interactive fiction, knowing going in that each one will take multiple sessions (but not always, as you'll see in this transcript). NightFloyd is also a bit more informal than ClubFloyd in that it's only announced on the ifMUD #clubfloyd bulletin board, and the time shifts around to meet player's schedules far more than ClubFloyd does. NightFloyd is organized by genericgeekgirl, aka Adri.<br>
+						<br>
+						Below is a transcript of
+						
+						
+						<em>Toby's Nose</em> written by Chandler Groover.
+						It was the winner of the Main Festival in the 2015 Spring Thing. 
+						
+						You can learn more about the game, including how to download it, by visiting
+						
+						
+							
+								
+								<a class="decorate" href='http://ifdb.tads.org/viewgame?id=xf5y04yekcrqtnc'>IFDB</a>.
+							
+						
+					</span><br>
+					<br>
+					
+						
+					
+					<span class="warning">WARNING!</span>
+					<span class="fontish smaller">Below you will find a transcript of
+						people playing this game, and it goes without saying that
+						the transcript is full of spoilers. So, if you've never
+						played this game, and think you might like to at some
+						point, I do not recommend reading any further. Instead,
+						you might want to return to the <a class="decorate" href=
+						"interactive_fiction.html">interactive fiction
+							page</a>.<br>
+					</span>
+					</p>
+					
+					
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div>
+
+		<table class="transcript">
+			<tr>
+
+				<td colspan="3"><hr/></td>
+
+			</tr>
+
+
+			<tr>
+
+				<td class="heading room">
+					<div class="centered">
+						<strong>ToyShop &amp; Floyditorium</strong>
+					</div>
+				</td>
+
+				<td class="gutter">
+				</td>
+
+				<td class="heading interlude">
+					<div class="centered">
+						<strong>#ClubFloyd Discussion</strong>
+					</div>
+				</td>
+
+			</tr>
+
+
+			<tr>
+
+				<td><hr/></td>
+
+				<td>
+				</td>
+
+				<td><hr/></td>
+			</tr><tr><td><br></td></tr>
+
+
+			<!-- Transcript goes here -->
+			<tr id="1-tobysnose" ><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">load tobysnose</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Welcome to the Cheap Glk Implementation, library version 0.9.0.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | "Now that everyone is here," says Sherlock Holmes, "I'll ask that you
+<b>Floyd</b> | please lock the door, inspector, and pocket the key. Nobody should exit
+<b>Floyd</b> | this room under any circumstances. A murderer is in our company."
+<b>Floyd</b> |
+<b>Floyd</b> | Toby's Nose
+<b>Floyd</b> | A Study in Scent by Chandler Groover
+<b>Floyd</b> | Release 1 / Serial number 150401 / Inform 7 build 6L38 (I6/v6.33 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> |
+<b>Floyd</b> | Drawing-Room
+<b>Floyd</b> | The suspects have gathered and are disposed about the room in various
+<b>Floyd</b> | attitudes. Captain Argente is leaning with one elbow propped against
+<b>Floyd</b> | the fireplace mantel. Lady Argente is sitting beside the bay window,
+<b>Floyd</b> | crocheting despite the occasion. Lily Argente and Vivienne Lavoux have
+<b>Floyd</b> | occupied the sofa, and Jerald Argente is standing with his arms
+<b>Floyd</b> | crossed.
+<b>Floyd</b> |
+<b>Floyd</b> | The butler has stationed himself next to the curiosity cabinet. The
+<b>Floyd</b> | gardener has stationed himself next to the butler.
+<b>Floyd</b> |
+<b>Floyd</b> | Inspector Reines is at the doorway. Watson is seated at a small round
+<b>Floyd</b> | table. Holmes is in the center, as always, and you are on your leash,
+<b>Floyd</b> | of course.
+<b>Floyd</b> |
+<b>Floyd</b> | The dead body is sprawled on the carpet.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Doug</b>  asks, "what time did you want to start?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  asks, "Five, ten minutes?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Doug</b>  says, "oh, sure. thought you usually started at 10 or 10:30"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  says, "Yeah, tenish."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  says, "Which is in 13 minutes."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "yeah, make a tea, coffee, other beverage."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Drawing-Room
+<b>Floyd</b> | The suspects have gathered and are disposed about the room in various
+<b>Floyd</b> | attitudes. Captain Argente is leaning with one elbow propped against
+<b>Floyd</b> | the fireplace mantel. Lady Argente is sitting beside the bay window,
+<b>Floyd</b> | crocheting despite the occasion. Lily Argente and Vivienne Lavoux have
+<b>Floyd</b> | occupied the sofa, and Jerald Argente is standing with his arms
+<b>Floyd</b> | crossed.
+<b>Floyd</b> |
+<b>Floyd</b> | The butler has stationed himself next to the curiosity cabinet. The
+<b>Floyd</b> | gardener has stationed himself next to the butler.
+<b>Floyd</b> |
+<b>Floyd</b> | Inspector Reines is at the doorway. Watson is seated at a small round
+<b>Floyd</b> | table. Holmes is in the center, as always, and you are on your leash,
+<b>Floyd</b> | of course.
+<b>Floyd</b> |
+<b>Floyd</b> | The dead body is sprawled on the carpet.
+<b>Floyd</b> |
+<b>Floyd</b> | "Now, ladies and gentlemen, here are the facts," Holmes begins. "At
+<b>Floyd</b> | five o'clock this morning, Gerald Argente was discovered dead in his
+<b>Floyd</b> | current situation by you, sir, when you entered the drawing-room to
+<b>Floyd</b> | light the fire."
+<b>Floyd</b> |
+<b>Floyd</b> | "That is correct," replies the butler.
+<b>Floyd</b> |
+<b>Floyd</b> | "You were also the last person to see Gerald Argente alive yesterday
+<b>Floyd</b> | evening when he ordered the brandy still decanting at this moment on
+<b>Floyd</b> | the table."
+<b>Floyd</b> |
+<b>Floyd</b> | "That is also correct."
+<b>Floyd</b> |
+<b>Floyd</b> | "Did he enjoy biscuits?"
+<b>Floyd</b> |
+<b>Floyd</b> | "Biscuits?"
+<b>Floyd</b> |
+<b>Floyd</b> | "There is a biscuit-box on the table next to the brandy."
+<b>Floyd</b> |
+<b>Floyd</b> | "Well, I should think," says the butler dryly, "that everyone enjoys a
+<b>Floyd</b> | good biscuit."
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  asks, "Nowish?"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">about</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Your nose is an extraordinary organ. It can smell, and keep smelling,
+<b>Floyd</b> | and keep smelling smells within smells. In fact, since you'll be doing
+<b>Floyd</b> | so much smelling, simply entering S works as a shortcut for SMELL.
+<b>Floyd</b> |
+<b>Floyd</b> | You may not be able to collect physical evidence, but you'll always
+<b>Floyd</b> | remember important clues in your mental inventory once you've smelled
+<b>Floyd</b> | them.
+<b>Floyd</b> |
+<b>Floyd</b> | When you think you've figured out the murderer, then Holmes wants you
+<b>Floyd</b> | to BARK AT (somebody) to indicate their guilt. Scotland Yard will take
+<b>Floyd</b> | over from there.
+<b>Floyd</b> |
+<b>Floyd</b> | The drawing-room is filled with sights and scents, and some are
+<b>Floyd</b> | references. You could toggle FOOTNOTES ON to see their sources, but
+<b>Floyd</b> | then that might spoil the fun, wouldn't it?
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x me</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Half spaniel and half lurcher, long-haired, lop-eared, with a clumsy
+<b>Floyd</b> | waddling gait, you might not curry favor at the kennel club, but Holmes
+<b>Floyd</b> | would rather have your help than he would all the detectives in London.
+<b>Floyd</b> |
+<b>Floyd</b> | "You'll excuse me if I fail to appreciate why there is a dog in my
+<b>Floyd</b> | drawing-room," interrupts Lady Argente. "It seems entirely unnecessary,
+<b>Floyd</b> | not to mention unsanitary."
+<b>Floyd</b> |
+<b>Floyd</b> | "I will excuse you, madam. Ignorance should always be answered with
+<b>Floyd</b> | compassion. The dog in question is none other than the great Toby. He
+<b>Floyd</b> | has sniffed out more criminals in his day than most policemen could
+<b>Floyd</b> | hope to catch in a career. That is because I have trained him myself."
+<b>Floyd</b> |
+<b>Floyd</b> | "Of course," the captain says, "any measure that you deem important to
+<b>Floyd</b> | solve this nightmare will have our full support. But when you say a
+<b>Floyd</b> | murderer is in our company, what do you mean?"
+<b>Floyd</b> |
+<b>Floyd</b> | "Just that."
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell me</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;You had better wait for Holmes to finish before you start sniffing
+<b>Floyd</b> | around.
+<b>Floyd</b> |
+<b>Floyd</b> | "What codswallop!" exclaims Jerald Argente. "We might have
+<b>Floyd</b> | disagreements, but we're all family here! Even the servants! Are you
+<b>Floyd</b> | saying that we'd kill our own?"
+<b>Floyd</b> |
+<b>Floyd</b> | "What I am saying is that I've investigated the house and the grounds,
+<b>Floyd</b> | I've examined the body, and I've determined that no stranger has
+<b>Floyd</b> | visited within the past forty-eight hours. Your brother died between
+<b>Floyd</b> | eleven o'clock last night and five o'clock this morning. Those are the
+<b>Floyd</b> | facts."
+<b>Floyd</b> |
+<b>Floyd</b> | "Then... what would you have us do?" asks Vivienne Lavoux. "You are
+<b>Floyd</b> | saying that we cannot trust each other..."
+<b>Floyd</b> |
+<b>Floyd</b> | "As if we ever have," mumbles Lily.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x sherlock</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Holmes is Holmes. His face is gaunt, his frame athletic, his hairline
+<b>Floyd</b> | receding. Every tendon in his body is taut with energy and his eyes
+<b>Floyd</b> | flash with an intelligence that he alone can estimate. He is not
+<b>Floyd</b> | wearing his cap today and his lapels are dusted with ash.
+<b>Floyd</b> |
+<b>Floyd</b> | "You need not trust each other," Holmes replies. "Only trust me, and
+<b>Floyd</b> | trust me when I tell you that my dog has a nose second to none other.
+<b>Floyd</b> | I've already gathered enough evidence to form a strong hypothesis. Now
+<b>Floyd</b> | Toby here will make the final test."
+<b>Floyd</b> |
+<b>Floyd</b> | "How'll he manage that?" inquires the gardener. "Can he sniff out guilt
+<b>Floyd</b> | or has he got a scent to find? You can only rely on an animal's
+<b>Floyd</b> | insticts so much, detective."
+<b>Floyd</b> |
+<b>Floyd</b> | "I could not agree with you more, especially considering that we humans
+<b>Floyd</b> | are animals too. But never fear. Toby will have a solid lead to track."
+<b>Floyd</b> |
+<b>Floyd</b> | With that, Holmes unfurls a ribbon, dangling it aloft for everyone to
+<b>Floyd</b> | see.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell ribbon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;You had better wait for Holmes to finish before you start sniffing
+<b>Floyd</b> | around.
+<b>Floyd</b> |
+<b>Floyd</b> | "I discovered this ribbon on the property today," Holmes explains. "As
+<b>Floyd</b> | you'll note, it has seen better times. The fabric is bloody and torn.
+<b>Floyd</b> | Once Toby has a whiff, its scent should take him straight to the
+<b>Floyd</b> | culprit."
+<b>Floyd</b> |
+<b>Floyd</b> | Holmes lowers the ribbon to your level, all eyes following.
+<b>Floyd</b> |
+<b>Floyd</b> | "Now remember, Toby," he tells you, "once you've decided on your man --
+<b>Floyd</b> | or your woman -- just give a good resounding bark at them, but take
+<b>Floyd</b> | your time. Make sure you've got it right. You'll have a treat if you
+<b>Floyd</b> | can help us catch the murderer."
+<b>Floyd</b> |
+<b>Floyd</b> | The magic words have been spoken!
+<b>Floyd</b> |
+<b>Floyd</b> | A treat!
+<b>Floyd</b> |
+<b>Floyd</b> | You had better start sniffing around if you're ever going to unravel
+<b>Floyd</b> | this whodunnit before dinnertime. If you need any pointers on how your
+<b>Floyd</b> | nose works, then ABOUT should do the trick.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Treats!"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell ribbon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;You smell blood, naturally, but also faint incense.
+<b>Floyd</b> |
+<b>Floyd</b> | When Holmes discovered this ribbon earlier today, you were accompanying
+<b>Floyd</b> | him around the grounds outside. In fact, you smelled it long before he
+<b>Floyd</b> | found it, but to his credit he didn't need you to point it out.
+<b>Floyd</b> |
+<b>Floyd</b> | "What's this?" he had said, stooping to examine an otherwise
+<b>Floyd</b> | unremarkable spot.
+<b>Floyd</b> |
+<b>Floyd</b> | "It's only a ribbon," said Watson. "Someone must have dropped it, or
+<b>Floyd</b> | perhaps it was torn from an outfit and the wearer didn't notice? It's
+<b>Floyd</b> | probably inconsequential."
+<b>Floyd</b> |
+<b>Floyd</b> | "Nonsense, doctor! All things are consequential! And you're wrong when
+<b>Floyd</b> | you say only a ribbon. This ribbon is much more than that."
+<b>Floyd</b> |
+<b>Floyd</b> | "What else more?"
+<b>Floyd</b> |
+<b>Floyd</b> | "Evidence!"
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>zarf</b> arrives, full of fun and funk.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell me</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;You smell like yourself, which is an assessment more impressively
+<b>Floyd</b> | exact than most humans would be able to appreciate.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell biscuits</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Wheat flour, malt extract, honey, and a tinny odor imparted from the
+<b>Floyd</b> | biscuit-box.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell brandy</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;You know it's an expensive brandy, not because it smells especially
+<b>Floyd</b> | good, but simply because it's in this household.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">drink brandy</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;There's nothing suitable to drink here.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">lick brandy</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Your nose would be more useful here.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell body</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;It only takes a few hours for death to infuse a fresh corpse, and in
+<b>Floyd</b> | this case its conquest is complete. But mingled with Gerald Argente's
+<b>Floyd</b> | decomposition, you can still smell the drink on his tongue. The furs
+<b>Floyd</b> | bordering his robe are also particularly musky.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell furs</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Inside a pocket, nestled deep within Gerald Argente's musky robe, you
+<b>Floyd</b> | smell a flask.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell flask</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;An eye-watering aroma from rectified alcohol fills the flask.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Sequitur</b> arrives, full of fun, but no funk.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell captain</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;It is foxhunting season, and although the captain has now been back in
+<b>Floyd</b> | residence at the house for at least the past week, you can still smell
+<b>Floyd</b> | the hunt he took part in before he returned.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "You can, of course, examine things before Holmes gives us the go ahead to start smellin'."
+</td></tr><tr><td class="room"><b>Sequitur</b> has had his fill of playing for now, and goes back to the Lounge.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell lady</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;The scents that waft about Lady Argente are those scents that would
+<b>Floyd</b> | waft about a lady at her toilette, which is where the captain's wife
+<b>Floyd</b> | must wile away her days, primping herself before a vanity mirror.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">bite lady</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;You were trained not to bite.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell lily</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;It would not surprise you to learn that Lily Argente rarely strays
+<b>Floyd</b> | outdoors, and indeed the scents most pervasive about her are those
+<b>Floyd</b> | obtained from long periods immersed in books. But underneath these
+<b>Floyd</b> | library aromas is another: gravesoil.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell gravesoil</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Old gravesoil from a cemetery long neglected.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "Don't forget, you can smell within smells."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell vivienne</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Miss Lavoux has been a guest in the Argente household for at least the
+<b>Floyd</b> | past month, and the scents most connected with her lead your nose to
+<b>Floyd</b> | the quarters where she has installed herself for the foreseeable
+<b>Floyd</b> | future.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "I have been."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell books</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;That welcoming scent emanating from a well stocked library always
+<b>Floyd</b> | invites you to sniff through its shelves, just as the titles on those
+<b>Floyd</b> | shelves must invite Lily Argente to pull volume after volume from her
+<b>Floyd</b> | family's impressive collection. You can smell the bookcases towering
+<b>Floyd</b> | around her, and the armchair where she reclines to devour her selected
+<b>Floyd</b> | texts, and even a little octavo that she has forgotten on the nearby
+<b>Floyd</b> | footstool.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "But first i want to take in all the things."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell jerald</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;You have never met a man more liberally perfumed. But no perfume,
+<b>Floyd</b> | however cloying, could completely mask the stench from the city
+<b>Floyd</b> | boulevards that still lingers about Jerald Argente's boots.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Doug</b>  says, "sorry, I'm still catching up"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "That'll take a while. LOTS of things."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell city</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;The city boulevards teem with human and animal filth seeping from
+<b>Floyd</b> | cesspools beneath overcrowded tenements. There are carriages rolling
+<b>Floyd</b> | through the muck, and bone-pickers scavenging, and the riverbanks are
+<b>Floyd</b> | stratified with sewage replenished during each high tide. Apparently
+<b>Floyd</b> | Jerald Argente has been frequenting establishments along the polluted
+<b>Floyd</b> | waterfront.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell butler</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Brandy is the first note you detect, followed by similiar liqourish
+<b>Floyd</b> | odors from the cellar where the butler must have procured Gerald
+<b>Floyd</b> | Argente's final request. You can also smell a tang that you recognize
+<b>Floyd</b> | as silver-polish.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell silver-polish</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell incense</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;One of the butler's chief responsibilities is maintaining the
+<b>Floyd</b> | household silver. It is kept locked away in the pantry until the family
+<b>Floyd</b> | requires it to be brought out during mealtimes.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;Cinnamon and sandalwood and cloves.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell reines</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Inspector Reines smells the same as every other inspector you've
+<b>Floyd</b> | encountered: like Scotland Yard. As a presence at this crime scene, he
+<b>Floyd</b> | is more a government apparatus than a person.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Doug</b>  says, "on second thought maybe I'd better sit this out. too far behind now."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says (to Doug), "no no"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  says, "Hop in and smell some things."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Barely started."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  says, "Smell ALL THE THINGS."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Doug</b>  says, "I'm still on "smell me""
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell crochet</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;The scents that waft about Lady Argente are those scents that would
+<b>Floyd</b> | waft about a lady at her toilette, which is where the captain's wife
+<b>Floyd</b> | must wile away her days, primping herself before a vanity mirror.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">smell toilette</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Lady Argente's vanity mirror hangs above a great dressing-table, its
+<b>Floyd</b> | sides riddled with drawers and its surface forested with phials and
+<b>Floyd</b> | glass jars. There is also a dish filled with crystallized ginger for
+<b>Floyd</b> | her to nibble as she dabbles with her cosmetics.
+<b>Floyd</b> |
+<b>Floyd</b> | "I cannot countenance this violation!" Lady Argente had exclaimed when
+<b>Floyd</b> | Holmes began studying the glass jars earlier that day. "You may have
+<b>Floyd</b> | been given free rein to search the house, but no motive apart from
+<b>Floyd</b> | prurience could lead you to rifle through a lady's personal effects!"
+<b>Floyd</b> |
+<b>Floyd</b> | "Madam," Holmes had replied, "if you think that no secrets can be
+<b>Floyd</b> | hidden in a lady's personal effects, then you are no lady. And not a
+<b>Floyd</b> | man either."
+<b>Floyd</b> |
+<b>Floyd</b> | "How impudent!"
+<b>Floyd</b> |
+<b>Floyd</b> | "What my colleague means to say," Watson had rushed to explain, "is
+<b>Floyd</b> | that nothing is too unimportant to investigate at a crime scene."
+<b>Floyd</b> |
+<b>Floyd</b> | "Then has my boudoir now become a crime scene? I can assure you,
+<b>Floyd</b> | gentlemen, that nothing salacious takes place in this boudoir at all!
+<b>Floyd</b> | And certainly nothing as salacious as murder! Your attentions would be
+<b>Floyd</b> | better directed toward the actual crime scene in the drawing-room,
+<b>Floyd</b> | which is where I shall retire to await your most esteemed analysis."
+<b>Floyd</b> |
+<b>Floyd</b> | "For some reason," Watson had said after she left, "I don't think that
+<b>Floyd</b> | Lady Argente has a very happy marriage."
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Doug</b>  asks, "also, what is a lurcher?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "These flashbacks aren't repeated."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says (to Doug), "A breed of dog."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Has the mud stopped?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "oh. I guess not."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Doug</b>  says, "an impet of ginger!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Doug</b>  says, "ok, caught up."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Doug</b>  asks, "why isn't Floyd printing our commands?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I haven't seen anything from Floyd since you asked about a lurcher."
+</td></tr><tr><td class="room">DavidW says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Drawing-Room
+<b>Floyd</b> | The suspects have gathered and are disposed about the room in various
+<b>Floyd</b> | attitudes. Captain Argente is leaning with one elbow propped against
+<b>Floyd</b> | the fireplace mantel. Lady Argente is sitting beside the bay window,
+<b>Floyd</b> | crocheting despite the occasion. Lily Argente and Vivienne Lavoux have
+<b>Floyd</b> | occupied the sofa, and Jerald Argente is standing with his arms
+<b>Floyd</b> | crossed.
+<b>Floyd</b> |
+<b>Floyd</b> | The butler has stationed himself next to the curiosity cabinet. The
+<b>Floyd</b> | gardener has stationed himself next to the butler.
+<b>Floyd</b> |
+<b>Floyd</b> | Inspector Reines is at the doorway. Watson is seated at a small round
+<b>Floyd</b> | table. Holmes is in the center holding a bloody ribbon, and you are on
+<b>Floyd</b> | your leash, of course.
+<b>Floyd</b> |
+<b>Floyd</b> | The dead body is sprawled on the carpet.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Doug</b>  asks, "this whole game, Floyd has been printing "&gt;" at the beginning of each command output, but doesn't he usually print the command (in all caps) after the "&gt;" ?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "oh. hm. Yeah, I dunno what's happened there."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Doug</b>  | A Lurcher is not a specific dog breed; it is a type of dog. By definition, a Lurcher is a Sighthound cross, most often part Greyhound.
+</td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell carpet</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;The spilled brandy is overpowering.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell mantel</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Countless fires in the grate below have imbued the mantelpiece with a
+<b>Floyd</b> | permanent sooty aroma.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell sofa</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Some crumbs seem to be lodged between the cushions.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">eat crumbs</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;You might give it a go if you could but you can't.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell crumbs</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;These crumbs must have originated from the biscuit-box.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">s biscuit-box</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Apart from its tinny odor, the biscuit-box still has lingering scents
+<b>Floyd</b> | from the confectionery.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">s confectionery</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;These digestive biscuits must have been displayed on the same shelf as
+<b>Floyd</b> | some chocolates.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">s chocolates</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Why must something so dangerous smell so delectable?
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Doug</b>  says, "oh right, chocolate kills dogs"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Doug</b>  says, "now I'll wait for ggg to catch up :)"
+</td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">s rectified alcohol</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Its proof must be astronomically high. It dehydrates your nostrils and
+<b>Floyd</b> | makes determining any ingredient apart from lemon next to impossible.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">DavidW says (to Floyd), "<span class="floydcommand">s lemon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;St Teresa lemons, if you aren't mistaken.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">s st teresa</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;St Teresa lemons, if you aren't mistaken.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Doug</b>  smells genericgeekgirl.
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Perhaps waft some smelling salts?"
+</td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell incense</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Cinnamon and sandalwood and cloves.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell cloves</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Elegance.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell cinnamon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Pleasure.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell sandalwood</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Refinement.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell MURDER</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Death is all around you.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "huh. I never thought to smell those individual incense ingredients."
+</td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell pleasure</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Cinnamon.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "hee"
+</td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell smelling</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;That doesn't seem important for the mystery afoot.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell nose</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;Smelling your own nose presents physiological knots that you aren't
+<b>Floyd</b> | prepared to untangle at the moment.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell sherlock</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;The first thing you smell about Holmes is the ribbon he's holding, but
+<b>Floyd</b> | only because he's called your attention to it. Tobacco is truly his
+<b>Floyd</b> | most noticeable aroma, which you always associate with home: 221B Baker
+<b>Floyd</b> | Street. You can also smell notepaper tucked somewhere behind his
+<b>Floyd</b> | ash-dusted lapels.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Doug says (to Floyd), "<span class="floydcommand">smell notepaper</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | &gt;From what you can manage to smell, the notepaper seems to be perfectly
+<b>Floyd</b> | clean, without any traces from pencil or pen. It is high quality and
+<b>Floyd</b> | has been folded as if to better fit inside an envelope, although it's
+<b>Floyd</b> | not inside an envelope.
+<b>Floyd</b> |
+<b>Floyd</b> | You don't know why Holmes would hold on to blank notepaper, but he must
+<b>Floyd</b> | have his reasons. He always has his reasons.
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Doug</b>  asks, "should we keep waiting for ggg?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I think we should. This was her idea."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I hope nothing bad has happened."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "hm. I dunno what happened to ggg."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Doug</b>  says, "probably fell asleep. I'm off for bed myself."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "ok. I'm going back to the lounge."</td></tr>
+
+			<tr>
+				<td colspan=3></td>
+			</tr>
+		</table>
+	</div>
+
+
+	<div class="narrowcol centered centeralign">
+
+		<br><hr><br><br>
+
+		    <div id="disqus_thread"></div>
+		    <script type="text/javascript">
+			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+			var disqus_shortname = 'allthingsjacq'; // required: replace example with your forum shortname
+
+			/* * * DON'T EDIT BELOW THIS LINE * * */
+			(function() {
+			    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		    </script>
+		    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+		<p class="fontish smallest">
+		<br>
+		[ <a href="#top">TOP OF THIS PAGE</a> | <a href=
+			"interactive_fiction.html#clubfloyd">MORE CLUBFLOYD
+			TRANSCRIPTS</a> | <a href="index.html">HOME</a> ]</p>
+
+		<hr>
+
+
+		<p><a href="contact.html"><img src="/graphics/footer.jpg" alt="link to contact page"></a></p>
+
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+	<script src="/js/plugins.js"></script>
+	<script src="/js/script.js"></script>
+</body>
+</html>

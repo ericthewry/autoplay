@@ -1,0 +1,2151 @@
+>load moonlit
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ No, not a prison, though stone stands around you, as expressionless as
+ a mirror awaiting face and form; and in the silence you hear no plaint
+ of flute or roar of gong, but instead the crash of porcelain
+ shattering.
+
+
+ The Moonlit Tower
+ Interactive Fiction, v.1.0
+ Yoon Ha Lee, copyright 2002
+ Newcomers may want to type HELP or ABOUT.
+ Release 1 / Serial number 020927 / Inform v6.21 Library 6/10
+
+ Moonlit Chamber
+ Moonlight diffuses through the walls, tracing out unreadable sigils in
+ calligraphies of light and dark. Stairs adorned with bas-relief motifs
+ spiral downward.
+
+ You can see a porcelain mask here.
+
+>about
+
+
+
+
+
+
+
+
+                          The Moonlit Tower
+  N = next option                                         P = previous
+  RETURN = select option                               Q = resume game
+
+
+      The Opening
+      How to Play Interactive Fiction
+      Credits and Acknowledgements
+      License
+      Revision History
+      Hints
+>go north
+
+                          The Moonlit Tower
+  N = next option                                         P = previous
+  RETURN = select option                               Q = resume game
+
+
+      About the Game
+      How to Play Interactive Fiction
+      Credits and Acknowledgements
+      License
+      Revision History
+      Hints
+>return
+
+                          The Moonlit Tower
+  N = next option                                         P = previous
+  RETURN = select option                               Q = resume game
+
+
+      About the Game
+      How to Play Interactive Fiction
+      Credits and Acknowledgements
+      License
+      Revision History
+      Hints
+>space
+
+                          The Moonlit Tower
+  N = next option                                         P = previous
+  RETURN = select option                               Q = resume game
+
+
+      About the Game
+      How to Play Interactive Fiction
+      Credits and Acknowledgements
+      License
+      Revision History
+      Hints
+
+                          The Moonlit Tower
+  N = next option                                         P = previous
+  RETURN = select option                               Q = resume game
+
+
+      About the Game
+      How to Play Interactive Fiction
+      Credits and Acknowledgements
+      License
+      Revision History
+      Hints
+
+
+
+
+
+
+
+
+ This is for people like me who type ABOUT and then realize that they
+ can't go back and read the introductory text without quitting out:
+
+ No, not a prison, though stone stands around you, as expressionless as
+ a mirror awaiting face and form; and in the silence you hear no plaint
+ of flute or roar of gong, but instead the crash of porcelain
+ shattering.
+ [Please press SPACE to continue.]
+
+
+
+
+
+
+
+
+                          The Moonlit Tower
+  N = next option                                         P = previous
+  RETURN = select option                               Q = resume game
+
+
+      About the Game
+      How to Play Interactive Fiction
+      Credits and Acknowledgements
+      License
+      Revision History
+      Hints
+>push p
+
+                          The Moonlit Tower
+  N = next option                                         P = previous
+  RETURN = select option                               Q = resume game
+
+
+      The Opening
+      How to Play Interactive Fiction
+      Credits and Acknowledgements
+      License
+      Revision History
+      Hints
+
+
+
+
+
+
+
+
+ The Moonlit Tower was written by Yoon Ha Lee, a dabbler in math, sf/f
+ writing, linguistics, and other things, as an entry in IFComp 2002. I
+ began coding it in the summer of 2002 when my sister introduced me to
+ the evils of Interactive Fiction with Emily Short's Pytho's Mask and
+ Andrew Plotkin's Shade. I've since encountered other wonderful
+ examples, but those were my first, and what got me hooked.
+
+ This is my first attempt at creating Interactive Fiction if you don't
+ count Choose Your Own Adventure-type juvenalia written in grade
+ school; it's certainly my first effort programming in Inform.
+
+ I can be reached at
+
+ Yoon Ha Lee
+ 39 Montgomery St. #3
+ Cambridge, MA 02140
+ U.S.A.
+ Earth
+ requiescat@cityofveils.com
+
+ for bug reports (transcripts are welcome!), comments, or constructive
+ or destructive criticism. And if you really, really liked the game,
+ donations (especially of used books) are appreciated.
+ [Please press SPACE to continue.]
+
+
+
+
+
+
+
+
+                          The Moonlit Tower
+  N = next option                                         P = previous
+  RETURN = select option                               Q = resume game
+
+
+      The Opening
+      How to Play Interactive Fiction
+      Credits and Acknowledgements
+      License
+      Revision History
+      Hints
+>q
+
+
+
+
+
+
+
+
+ Moonlit Chamber
+ Moonlight diffuses through the walls, tracing out unreadable sigils in
+ calligraphies of light and dark. Stairs adorned with bas-relief motifs
+ spiral downward.
+
+ You can see a porcelain mask here.
+
+>examine mask
+ The half-mask is the pale, almost bluish color of the finest celadon,
+ cracked with uncanny precision down its axis of symmetry. The face in
+ its blank, sculpted features has no more personality than new-forged
+ steel. Half a mask, though--that must mean the left half is--
+
+>take mask
+ Taken.
+
+>examine sigils
+ A curious thing, that the walls' stones should admit moonlight. A half
+ moon, you think, from the level of illumination: a moment's memory
+ suggests nights spent campaigning beneath open sky, but is soon gone.
+
+>examine moonlight
+ A curious thing, that the walls' stones should admit moonlight. A half
+ moon, you think, from the level of illumination: a moment's memory
+ suggests nights spent campaigning beneath open sky, but is soon gone.
+
+>wear mask
+ The thought of putting this mask on suggests to you a disturbing
+ question: how long have you been wearing porcelain as a face?
+
+>examine motifs
+ You can't see any such thing.
+
+>examine me
+ The weight of armor and the breath of silk are familiar. Your face,
+ though--when you reach up, it is porcelain that meets your touch on
+ the left side, and you cannot remove it, though neither does it impede
+ your senses. It seems the left half is a part of you, perhaps no more
+ a mask than a hand is a glove...
+
+>examine hand
+ You can't see any such thing.
+
+>examine face
+ The half-mask is the pale, almost bluish color of the finest celadon,
+ cracked with uncanny precision down its axis of symmetry. The face in
+ its blank, sculpted features has no more personality than new-forged
+ steel. Half a mask, though--that must mean the left half is--
+
+>wear mask
+ The thought of putting this mask on suggests to you a disturbing
+ question: how long have you been wearing porcelain as a face?
+
+>touch face
+ Save for the jagged edge, the mask is cool and glazed-smooth.
+
+>take off mask
+ You can't see any such thing.
+
+>break mask
+ This mask shattered once, and only once, in a terrible clean fracture.
+
+>talk to mask
+ That's not a verb I recognise.
+
+>ask mask about me
+>inventory
+ You can only do that to something animate.
+
+ You are carrying:
+   half a porcelain mask
+   armor and silks (worn)
+
+>go down
+
+ Shadow Armory
+ Shadows gather around you. For a moment, dregs of light defined by the
+ negative space take on the shapes of maple leaf, kite, comb, and other
+ shapes that flicker across the walls too rapidly for you to interpret.
+
+ Curiously, the only weapons here live amid light and cannot be worn:
+ they are silhouettes flung against the walls. Stairs carved with
+ bas-reliefs spiral upward.
+
+ Northward and westward lie passageways unhindered by door or folding
+ screen.
+
+>go west
+ The shapes of light you saw as you entered fade irrevocably.
+
+
+ Silent Symphony
+ A single bronze gong hangs from its wooden frame in the room's center.
+ There are also silk cushions arranged around the floor in a court
+ ensemble's traditional half-circle, but no bamboo flutes or clay
+ ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+ evidence. A mural that touches each wall in turn gives the room an
+ illusion of greater depth.
+
+ Two entrances, one east, one north; the former is wrapped in shadow,
+ the latter in light.
+
+>undo
+ Shadow Armory
+ [Previous turn undone.]
+
+>reset save
+ That's not a verb I recognise.
+
+>SAVE
+>cf1
+ Enter saved game to store: Ok.
+
+>examine shapes
+ Traced in light are leaf, comb, kite: a strange triad.
+
+>take leaf
+ Improbable, despite the claims of certain scholars.
+
+>examine leaf
+ Autumn is the maple's season, when all things die but fire and sun,
+ pine and moon, last guardians before the door into winter and winter's
+ snowlocked court. Once you knew a dark-haired woman who always wore
+ red, gold and black, the maple's colors, even at the emperor's winter
+ court, steadfast against the encroaching fashions of indigo or palest
+ blue. She had a low ironic laugh, but she is lost to you....
+
+ Here, surrounded by stone, shadow, light, there is no indication of
+ the season.
+
+>examine comb
+ The comb has the curved, tortoise-shell shape that you have seen in
+ years past--but is one of the teeth broken?
+
+>yes
+ That was a rhetorical question.
+
+>comb hair
+ With what comb?
+
+>take comb
+ Improbable, despite the claims of certain scholars.
+
+>examine kite
+ There should be two kites, not one: brothers and sisters fly them as
+ pairs during the kite-fighting auguries of spring. Alas, no wind stirs
+ in this dustless place.
+
+>look
+
+ Shadow Armory
+ Curiously, the only weapons here live amid light and cannot be worn:
+ they are silhouettes flung against the walls. Stairs carved with
+ bas-reliefs spiral upward.
+
+ Northward and westward lie passageways unhindered by door or folding
+ screen.
+
+>go north
+ The shapes of light you saw as you entered fade irrevocably.
+
+
+ Undying Garden
+ Barren branches and pines suggest winter's quiet. Metal and wood,
+ painted and sculpted, the false garden is heedless of harvest, drought
+ or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+ You can see a tortoise-shell comb here.
+
+>take comb
+ Taken.
+
+>comb hair
+ It is a comb for taming a lady's hair, not untangling it--or other
+ things.
+
+>compass
+ That's not a verb I recognise.
+
+>examine compass
+ The compass is carved from a single piece of jade in which violet and
+ green intermingle delicately; the cardinal directions--if such they
+ be--are marked by hawk, swallow, crane and feather. More curiously
+ still, the needle is of glass, suggesting that it homes to something
+ other than the north. Perhaps you can set it yourself?
+
+ The needle points to the feather.
+
+>turn needle
+ You spin the needle, which settles at a random position. A tasseled
+ fan appears upon the compass' surface. The needle points to the crane
+ now. You hear a clear chiming sound as the garden's trees and flowers
+ move subtly, obedient to this new season.
+
+>look
+
+ Undying Garden
+ Summer's heady blooms are much in evidence. Metal and wood, painted
+ and sculpted, the false garden is heedless of harvest, drought or
+ rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+ On the jade compass is a tasseled fan.
+
+>take fan
+ Taken.
+
+>examine fan
+ More remarkable than the fan's intricate designs is the long blue
+ tassel that trails from it. It is the kind of fan a lady might carry
+ to cool herself during the summer's heat.
+
+>cool myself
+ That's not a verb I recognise.
+
+>wave fan
+ You look ridiculous waving the tasseled fan.
+
+>fan
+ That's not a verb I recognise.
+
+>open fan
+ The fan itself is fixed, but as you look upon the tassel, it evokes
+ the improbable memory of a kitestring tugging against your hand.
+
+>throw fan
+ Dropped.
+
+>take fan
+ Taken.
+
+>fly fan
+ Upon what wings?
+
+>remember kitestring
+ That's not a verb I recognise.
+
+>think
+ What a good idea.
+
+>turn over fan
+ You can't see any such thing.
+
+>fly
+ Upon what wings?
+
+>xyzzy
+ (No Garden of Unearthly Delights, alas.)
+
+>plugh
+ That's not a verb I recognise.
+
+>look
+
+ Undying Garden
+ Summer's heady blooms are much in evidence. Metal and wood, painted
+ and sculpted, the false garden is heedless of harvest, drought or
+ rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>look
+
+ Undying Garden
+ Summer's heady blooms are much in evidence. Metal and wood, painted
+ and sculpted, the false garden is heedless of harvest, drought or
+ rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>go west
+
+ Skeletal Banquet
+ It seems this is a banquet room, if a banquet had no especial place
+ for people to dine. Glassware and stoneware are arranged in deliberate
+ shapes, as though they are constellations.
+
+ South lies a chamber of brooding silence, and a vague, sweet fragrance
+ comes from the east. Stairs of blackest marble lead downward.
+
+ On the table are a banquet of bones and some ivory chopsticks.
+
+>xyzzy
+ (Itadakimasu!)
+
+>examine banquet
+ The feast before you seems a mockery, for everywhere upon the plates
+ and bowls there is nothing but skeletons artfully pieced together to
+ create grotesqueries from ordinary game. A creature half-bird,
+ half-rabbit, for one, or a pheasant with extra legs. Yet it is perhaps
+ no more grotesque than some of the intrigues that poisoned the
+ emperor's court, at times.
+
+>examine chopsticks
+ The chopsticks are pale, almost too slender for practical use, and
+ perfectly matched, though one is carved with a dragon, the other with
+ a phoenix.
+
+>take chopsticks
+ Taken.
+
+>go south
+
+ Silent Symphony
+ A single bronze gong hangs from its wooden frame in the room's center.
+ There are also silk cushions arranged around the floor in a court
+ ensemble's traditional half-circle, but no bamboo flutes or clay
+ ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+ evidence. A mural that touches each wall in turn gives the room an
+ illusion of greater depth.
+
+ Two entrances, one east, one north; the former is wrapped in shadow,
+ the latter in light.
+
+>examine mura?l
+ You can't see any such thing.
+
+>examine mural
+ The mural shows court ladies whispering to each other in a garden; men
+ kneel to float folded-paper poems down the brook for them to read.
+
+>hit gong
+ It rings a sonorous note. A faint shiver of music fades, awaiting
+ instruction as to the proper piece to play. In the end, nothing
+ remains but silence.
+
+>go east
+
+ Shadow Armory
+ Curiously, the only weapons here live amid light and cannot be worn:
+ they are silhouettes flung against the walls. Stairs carved with
+ bas-reliefs spiral upward.
+
+ Northward and westward lie passageways unhindered by door or folding
+ screen.
+
+>go north
+
+ Undying Garden
+ Summer's heady blooms are much in evidence. Metal and wood, painted
+ and sculpted, the false garden is heedless of harvest, drought or
+ rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>go west
+
+ Skeletal Banquet
+ It seems this is a banquet room, if a banquet had no especial place
+ for people to dine. Glassware and stoneware are arranged in deliberate
+ shapes, as though they are constellations.
+
+ South lies a chamber of brooding silence, and a vague, sweet fragrance
+ comes from the east. Stairs of blackest marble lead downward.
+
+ On the table is a banquet of bones.
+
+>go down
+ As your feet meet that first step, a sudden vertigo overtakes you, as
+ though you journeyed through skies beyond imagining, across hollow and
+ infinite distances. You emerge back where you started: it seems the
+ night's hold is too strong here, and you must find some guide-star to
+ anchor your way.
+
+>examine bones
+ The feast before you seems a mockery, for everywhere upon the plates
+ and bowls there is nothing but skeletons artfully pieced together to
+ create grotesqueries from ordinary game. A creature half-bird,
+ half-rabbit, for one, or a pheasant with extra legs. Yet it is perhaps
+ no more grotesque than some of the intrigues that poisoned the
+ emperor's court, at times.
+
+>search bones
+ You find nothing of interest.
+
+>examine constellations
+ The arrangement is in the shape of the constellation known as the
+ White Archer. Legend says that he shot his love, the Sun, out of the
+ sky while hunting. For ten days and nights, the Sun hid her face from
+ the world, and ever after, in penance, he exiled himself to the night,
+ unable to see her; his faithful horse, the Moon, travels between them,
+ bearing messages between the parted lovers.
+
+ As to how the Sun was brought back to the world by the phoenix--that
+ is another tale.
+
+ This seems an ill-fortuned constellation to complement an ill-fortuned
+ feast.
+
+>rearrange constellations
+ That's not a verb I recognise.
+
+>go east
+
+ Undying Garden
+ Summer's heady blooms are much in evidence. Metal and wood, painted
+ and sculpted, the false garden is heedless of harvest, drought or
+ rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>examine compass
+ The compass is carved from a single piece of jade in which violet and
+ green intermingle delicately; the cardinal directions--if such they
+ be--are marked by hawk, swallow, crane and feather. More curiously
+ still, the needle is of glass, suggesting that it homes to something
+ other than the north. Perhaps you can set it yourself?
+
+ The needle points to the crane.
+
+>set compass to hawk
+ The needle points to the hawk now. You hear a clear chiming sound as
+ the garden's trees and flowers move subtly, obedient to this new
+ season.
+
+>look
+
+ Undying Garden
+ Autumn's fiery colors are evident in the trees and flowers around you.
+ Metal and wood, painted and sculpted, the false garden is heedless of
+ harvest, drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+ On the unliving trees is a folded maple leaf.
+
+>take leaf
+ Taken.
+
+>examine leaf
+ This cleverly-folded leaf stirs as though, in its secret paper dreams,
+ it yearns to fly.
+
+>unfold leaf
+ You now have a sheet of red paper.
+
+>fold leaf
+ You can't see any such thing.
+
+>fold paper
+ You now have a folded maple leaf.
+
+>fan leaf
+ That's not a verb I recognise.
+
+>put leaf on fan
+ Putting things on the tasseled fan would achieve nothing.
+
+>unfold leaf. fold paper into crane
+ You now have a sheet of red paper.
+ I only understood you as far as wanting to fold the sheet of red
+ paper.
+
+>make crane
+ That's not a verb I recognise.
+
+>fold crane
+ The crane: unlikely to yield in such a fashion.
+
+>read paper
+ It is hard to believe that this sheet of red-dyed mulberry paper can
+ take upon the shape of a leaf with folding.
+
+>unfold paper
+>examine paper
+ The paper cannot unfold any further.
+
+ It is hard to believe that this sheet of red-dyed mulberry paper can
+ take upon the shape of a leaf with folding.
+
+>attach chopsticks to paper
+ Carefully, you fold the paper and pierce it with the ivory chopsticks
+ to form a delicate, string-less kite no larger than your hand.
+
+>examine tassel
+ The silken strands are longer than your arm.
+
+>fly kite
+ Without a string, it will dance from your hands with no more care than
+ spring's first swallows.
+
+>examine fan
+ More remarkable than the fan's intricate designs is the long blue
+ tassel that trails from it. It is the kind of fan a lady might carry
+ to cool herself during the summer's heat.
+
+>examine tassel
+ The silken strands are longer than your arm.
+
+>take tassel
+ The tassel is too firmly attached. A knife might serve you better.
+
+>inventory
+ You are carrying:
+   a red paper kite with no string
+   a tasseled fan
+   a lady's tortoise-shell comb
+   half a porcelain mask
+   armor and silks (worn)
+
+>examine comb
+ The comb is curved like a smile, though it seems fragile, easily
+ broken by a chance hand.
+
+>set compass to hawk
+ The needle points to the hawk now. You hear a clear chiming sound as
+ the garden's trees and flowers move subtly, obedient to this new
+ season.
+
+>look
+
+ Undying Garden
+ Autumn's fiery colors are evident in the trees and flowers around you.
+ Metal and wood, painted and sculpted, the false garden is heedless of
+ harvest, drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>examine hawk
+ It was autumn when last you went hawking with the emperor's justiciar.
+ Freed of court robes, she soared as surely as the kestrel that raced
+ before her; her hair was black and scandalously unbound as the
+ red-and-gold ribbons tore away in the wind to land in your waiting
+ hand. Autumn...
+
+>examine crane
+ The most auspicious of all birds, save the imperial phoenix. Many a
+ summer morning have you gazed upon cranes in flight, whether
+ silhouetted against the setting sun or set in abalone-shell upon a
+ fine lacquered cabinet, a cloisonne hairpin.
+
+>examine phoenix
+ You can't see any such thing.
+
+>examine swallow
+ Spring is the swallows' season, when they return from their sojourn in
+ distant lands and signal the kite-flying auguries. If only an augury
+ could help you now...
+
+>examine feather
+ Even for the emperor's winter court, the only birds that remain in the
+ gardens are the jeweled nightingales, which sing dainty mechanical
+ tunes when they are stroked with a feather. Your brother hated them
+ passionately, but he listened to them readily enough whenever the
+ justiciar asked, with that smile that lit her eyes, though it never
+ reached her mouth.
+
+>who is the justiciar
+ That's not a verb I recognise.
+
+>go west
+
+ Skeletal Banquet
+ It seems this is a banquet room, if a banquet had no especial place
+ for people to dine. Glassware and stoneware are arranged in deliberate
+ shapes, as though they are constellations.
+
+ South lies a chamber of brooding silence, and a vague, sweet fragrance
+ comes from the east. Stairs of blackest marble lead downward.
+
+ On the table is a banquet of bones.
+
+>examine bones
+ The feast before you seems a mockery, for everywhere upon the plates
+ and bowls there is nothing but skeletons artfully pieced together to
+ create grotesqueries from ordinary game. A creature half-bird,
+ half-rabbit, for one, or a pheasant with extra legs. Yet it is perhaps
+ no more grotesque than some of the intrigues that poisoned the
+ emperor's court, at times.
+
+>examine constellations
+ The arrangement is in the shape of the constellation known as the
+ White Archer. Legend says that he shot his love, the Sun, out of the
+ sky while hunting. For ten days and nights, the Sun hid her face from
+ the world, and ever after, in penance, he exiled himself to the night,
+ unable to see her; his faithful horse, the Moon, travels between them,
+ bearing messages between the parted lovers.
+
+ As to how the Sun was brought back to the world by the phoenix--that
+ is another tale.
+
+ This seems an ill-fortuned constellation to complement an ill-fortuned
+ feast.
+
+>go south
+
+ Silent Symphony
+ A single bronze gong hangs from its wooden frame in the room's center.
+ There are also silk cushions arranged around the floor in a court
+ ensemble's traditional half-circle, but no bamboo flutes or clay
+ ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+ evidence. A mural that touches each wall in turn gives the room an
+ illusion of greater depth.
+
+ Two entrances, one east, one north; the former is wrapped in shadow,
+ the latter in light.
+
+>examine mural
+ The mural shows court ladies whispering to each other in a garden; men
+ kneel to float folded-paper poems down the brook for them to read.
+
+>examine cushions
+ The cushions are dyed in summer colors and embroidered with gold
+ thread. You remember finding your brother's terse poetry, written on a
+ slip of pale paper, under such a cushion.
+
+>look under cushions
+ Beneath one of the cushions you find an ocarina, as though it had been
+ left by a careless musician.
+
+>examine ocarina
+ The ocarina is round, tapering at both ends, with eight finger-holes
+ and one thumb-hole, a mouthpiece and a hole from which the sound
+ emerges. You have seen musicians carry such instruments with them, as
+ they are forgiving of the chance accidents that sometimes happen
+ outside the sedate confines of a symphony chamber.
+
+>play it
+ The ocarina's notes are high and sweet.
+
+ In this place, they remind you of that first court dance, when you and
+ you brother first saw the justiciar, a vision of red and black, a
+ flash of gold. Someone played an ocarina that time, too. Flutes,
+ zithers and lutes join in the cheerful clamor of instruments being
+ tuned, though none of them are to be seen. You hear among the
+ instruments the low, melancholy tones of an autumn dirge.
+
+>go east
+
+ Shadow Armory
+ Curiously, the only weapons here live amid light and cannot be worn:
+ they are silhouettes flung against the walls. Stairs carved with
+ bas-reliefs spiral upward.
+
+ Northward and westward lie passageways unhindered by door or folding
+ screen.
+
+>play ocarina
+ The ocarina's notes are high and sweet.
+
+
+>go north
+
+ Undying Garden
+ Autumn's fiery colors are evident in the trees and flowers around you.
+ Metal and wood, painted and sculpted, the false garden is heedless of
+ harvest, drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>play ocarina
+ The ocarina's notes are high and sweet.
+
+
+>go west
+
+ Skeletal Banquet
+ It seems this is a banquet room, if a banquet had no especial place
+ for people to dine. Glassware and stoneware are arranged in deliberate
+ shapes, as though they are constellations.
+
+ South lies a chamber of brooding silence, and a vague, sweet fragrance
+ comes from the east. Stairs of blackest marble lead downward.
+
+ On the table is a banquet of bones.
+
+>play ocarina
+ The ocarina's notes are high and sweet.
+
+
+>take bones
+ Uncannily, the bones edge away, suggesting that another approach will
+ be necessary.
+
+>dance
+ That's not a verb I recognise.
+
+>eat bones
+ (first taking the banquet of bones)
+ Uncannily, the bones edge away, suggesting that another approach will
+ be necessary.
+
+>take bones with sticks
+ You can't see any such thing.
+
+>take banquet with chopsticks
+ You can't see any such thing.
+
+>take chopsticks from kite
+ You can't see any such thing.
+
+>take kite apart
+ I only understood you as far as wanting to take the red paper kite.
+
+>disassemble kite
+ That's not a verb I recognise.
+
+>split kite
+ That's not a verb I recognise.
+
+>examine kite
+ A delicate kite no larger than your hand, though it lacks a string.
+
+>examine knives
+ You can't see any such thing.
+
+>examine table
+ The table is lacquered in red and black, carved in elaborate motifs.
+ The justiciar would have liked the colors.
+
+>examine motifs
+ The motifs suggest leaf, vine and blossom before retreating into the
+ uneasy shapes of abstraction.
+
+>look under table
+ You find nothing of interest.
+
+>look
+
+ Skeletal Banquet
+ It seems this is a banquet room, if a banquet had no especial place
+ for people to dine. Glassware and stoneware are arranged in deliberate
+ shapes, as though they are constellations.
+
+ South lies a chamber of brooding silence, and a vague, sweet fragrance
+ comes from the east. Stairs of blackest marble lead downward.
+
+ On the table is a banquet of bones.
+
+>go east
+
+ Undying Garden
+ Autumn's fiery colors are evident in the trees and flowers around you.
+ Metal and wood, painted and sculpted, the false garden is heedless of
+ harvest, drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>examine compass
+ The compass is carved from a single piece of jade in which violet and
+ green intermingle delicately; the cardinal directions--if such they
+ be--are marked by hawk, swallow, crane and feather. More curiously
+ still, the needle is of glass, suggesting that it homes to something
+ other than the north. Perhaps you can set it yourself?
+
+ The needle points to the hawk.
+
+>set compass to swallow
+ The needle points to the swallow now. You hear a clear chiming sound
+ as the garden's trees and flowers move subtly, obedient to this new
+ season.
+
+>look
+
+ Undying Garden
+ Spring's blossoms and budding trees are here in profusion. Metal and
+ wood, painted and sculpted, the false garden is heedless of harvest,
+ drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>inventory
+ You are carrying:
+   a clay ocarina
+   a red paper kite with no string
+   a tasseled fan
+   a lady's tortoise-shell comb
+   half a porcelain mask
+   armor and silks (worn)
+
+>examine comb
+ The comb is curved like a smile, though it seems fragile, easily
+ broken by a chance hand.
+
+>break comb
+ Three of the long central teeth flex, then snap in your fingers. The
+ justiciar wore a comb long-broken as a memento; it proved an uneasy
+ prophecy of waking passion and breaking promises.
+
+>play comb
+ The teeth make a faint, almost musical plucking sound as you run your
+ thumb down the comb.
+
+>examine teeth
+ They are of tortoise-shell, like the comb from which they came, and
+ span the palm of your hand. Too light for hairpins, too dainty for
+ weapons.
+
+>cut silk with teeth
+ That seems an unlikely way to cut anything.
+
+>dance
+ That's not a verb I recognise.
+
+>sing
+ A hundred poems set to music suggest themselves to you, an evening's
+ pastime among friends and lovers. It is with difficulty that you
+ choose one, and too soon it is done.
+
+>go west
+
+ Skeletal Banquet
+ It seems this is a banquet room, if a banquet had no especial place
+ for people to dine. Glassware and stoneware are arranged in deliberate
+ shapes, as though they are constellations.
+
+ South lies a chamber of brooding silence, and a vague, sweet fragrance
+ comes from the east. Stairs of blackest marble lead downward.
+
+ On the table is a banquet of bones.
+
+>take bones with teeth
+ Uncannily, the bones edge away, suggesting that another approach will
+ be necessary.
+
+>attach teeth to kite
+ You would achieve nothing by this.
+
+>go south
+
+ Silent Symphony
+ A single bronze gong hangs from its wooden frame in the room's center.
+ There are also silk cushions arranged around the floor in a court
+ ensemble's traditional half-circle, but no bamboo flutes or clay
+ ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+ evidence. A mural that touches each wall in turn gives the room an
+ illusion of greater depth.
+
+ Two entrances, one east, one north; the former is wrapped in shadow,
+ the latter in light.
+
+>play teeth
+ The comb's teeth seems an unlikely instrument.
+
+>play comb
+ The teeth make a faint, almost musical plucking sound as you run your
+ thumb down the comb. In response, you hear a woman's soft sigh, then
+ the businesslike cacophony of instruments being tuned to a new mode.
+
+>examine woman
+ The ladies wear the fine trailing silks of summer court, and though
+ their faces are all but hidden by their fans, the cant of their eyes
+ suggests laughter.
+
+>examine gong
+ The gong stands taller than a man, and its rim is etched with faint
+ characters. The surface has no patina; there is no mallet with which
+ to strike it and signal the absent musicians to begin.
+
+>examine mural
+ The mural shows court ladies whispering to each other in a garden; men
+ kneel to float folded-paper poems down the brook for them to read.
+
+>touch mural
+ The walls seem to ripple at your touch, as though echoing the eddies
+ and flow of a brook.
+
+>examine men
+ They wear somber colors in contrast to the ladies, though their
+ expressions are amused rather than grave.
+
+>strike gong
+ It rings a sonorous note. In the delicate layering of sound you can
+ hear the lutes, the plaint of flutes like the cries of wild geese. The
+ music fades note by note, like the best of autumn nights. The mural
+ appears to have shifted subtly, like a hand seen beneath the surface
+ of water.
+
+>examine poems
+ The poets' sentiments are written on sheets of paper in faded colors,
+ but the details were known to the painter alone. You know poems of
+ your own, though, written in past pain and longing.
+
+>examine mural
+ The mural shows court ladies reading folded-paper poems that they have
+ just fished from the brook; men stand upstream, watching their faces.
+ In the northeast, a passageway stands open to the court beyond.
+
+>take poems
+ The walls seem to ripple at your touch, as though echoing the eddies
+ and flow of a brook.
+
+>recite poem
+ ("Walk silently in the shadow of the sunrise,
+ knowing the warmth of days, of words and whispers,
+ shall never touch you again.")
+
+>play ocarina
+ The ocarina's notes are high and sweet.
+
+ In this place, they remind you of that first court dance, when you and
+ you brother first saw the justiciar, a vision of red and black, a
+ flash of gold. Someone played an ocarina that time, too. Flutes,
+ zithers and lutes join in the cheerful clamor of instruments being
+ tuned, though none of them are to be seen. One of the flutes runs
+ through a storm of arpeggios, suggesting the spring's wild winds.
+
+>strike gong
+ It rings a sonorous note. In the end, nothing remains but silence.
+
+>look
+
+ Silent Symphony
+ A single bronze gong hangs from its wooden frame in the room's center.
+ There are also silk cushions arranged around the floor in a court
+ ensemble's traditional half-circle, but no bamboo flutes or clay
+ ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+ evidence. A mural that touches each wall in turn gives the room an
+ illusion of greater depth.
+
+ Two entrances, one east, one north; the former is wrapped in shadow,
+ the latter in light.
+
+>go northeast
+
+ Court of Lanterns
+ Lanterns hang from the ceiling in a constellation of soft and shining
+ stars. Tapestries on the wall promise tales of splendor and grace,
+ while folding screens partition the room, if incompletely, as they are
+ no real barrier to eye or foot.
+
+>examine tapestries
+ The tapestries show, in no particular sequence, the legend of the Sun
+ in hiding. The dragon and the phoenix, both brothers, see her where
+ she hides: the dragon glories in the untamed sky while the phoenix
+ sings to soothe the Sun, and at last carries her on his back to the
+ waiting world.
+
+ As to why the Sun went into hiding, and the injury done to her--that
+ is another tale.
+
+ Mysteriously, a passage is woven into the tapestries, suggesting that
+ southwest lies a way out of the legend.
+
+>play ocarina
+ The ocarina's notes are high and sweet.
+
+
+>play comb
+ The teeth make a faint, almost musical plucking sound as you run your
+ thumb down the comb.
+
+>examine screens
+ The screens are of paper over bamboo, and their arrangement seems
+ intended to allow fleeting moments of privacy rather than to serve as
+ any real barrier. The brushstroke paintings show cats frolicking among
+ flowers and butterflies.
+
+ Before your parents died, you and your brother used to run among the
+ screens as though they were a labyrinth, tripping over hems and
+ searching for abandoned letters.
+
+>examine sun
+ The weavers suggested the Sun's shape indistinctly within a nimbus of
+ light.
+
+>examine phoenix
+ With its fanciful plumage in the colors of fire and sun, the phoenix
+ looks like a figure of legend indeed.
+
+>open screens
+ They're not something you can open.
+
+>move screens
+ The folding screens already has a place in the world's reckoning.
+
+>examine dragon
+ With its pearly scales and sinuous twinings, the dragon looks like a
+ figure of legend indeed.
+
+>search screens
+ Following the elusive smell of plum blossoms, you find a strangely
+ insubstantial lantern half-fallen beyond one of the screens. It hovers
+ near your shoulder like an errant star.
+
+>examine lantern
+ (the paper lanterns)
+ The lanterns are hung in an artful scattering, hinting at unseen
+ constellations. Their glow is warmer than the moonlight slanting
+ through the walls.
+
+>examine insubstantial lantern
+ The lantern floats behind you, following you almost apologetically.
+ Its glow flickers gently.
+
+>take it
+ Though the lantern follows you like an errant star, it refuses to be
+ touched.
+
+>inventory
+ You are carrying:
+   an insubstantial lantern (floating behind your shoulder)
+   three comb's teeth
+   a clay ocarina
+   a red paper kite with no string
+   a tasseled fan
+   a lady's tortoise-shell comb (broken)
+   half a porcelain mask
+   armor and silks (worn)
+
+>enter screens
+ They're not something you can enter.
+
+>follow screens
+ That's not a verb I recognise.
+
+>go southwest
+
+ Silent Symphony
+ A single bronze gong hangs from its wooden frame in the room's center.
+ There are also silk cushions arranged around the floor in a court
+ ensemble's traditional half-circle, but no bamboo flutes or clay
+ ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+ evidence. A mural that touches each wall in turn gives the room an
+ illusion of greater depth.
+
+ Two entrances, one east, one north; the former is wrapped in shadow,
+ the latter in light.
+
+>go north
+
+ Skeletal Banquet
+ It seems this is a banquet room, if a banquet had no especial place
+ for people to dine. Glassware and stoneware are arranged in deliberate
+ shapes, as though they are constellations.
+
+ South lies a chamber of brooding silence, and a vague, sweet fragrance
+ comes from the east. Stairs of blackest marble lead downward.
+
+ On the table is a banquet of bones.
+
+>go down
+ The lantern behind you brightens as you approach the stairs, anchoring
+ a path for you through the sea of stars.
+
+
+ Hall of Hawks
+ Memory overtakes you as you enter: you and your brother speaking to
+ each other in low, tense voices (not shouting, never shouting before
+ her) until the justiciar bids you leave, curtly. The next day, when
+ the emperor stripped her of her rank, and neither you nor your brother
+ had the influence to free her from the court's machinations--you have
+ lived that day over and over, more than any man ought.
+
+ You see silhouettes out of the corner of your eye: blade, hand, a
+ woman's hair floating long and free; they elude any attempt to view
+ them directly, as though they ceased to dance across the walls when
+ you do so.
+
+ Hawks painted in gold and brown soar along the walls. It is strangely
+ warm here, as though fires lived just beyond your perception. The
+ entire hall is open to the wind and warmth, unobstructed except by
+ your presence.
+
+ Stairs of darkest marble circle upward. A passageway leads south into
+ clear, colorless light.
+
+>examine hawks
+ A splendor of hawks in flight, each feather meticulously painted. Each
+ one has a woman's dark eyes instead of a raptor's golden gaze.
+
+>examine silhouettes
+ You can't see any such thing.
+
+>examine blade
+ You can't see any such thing.
+
+>examine light
+ Subtle gradations characterize the light in this room, as though it
+ were filtered by great wings.
+
+>go south
+ As you approach, you realize that the shadows split the passageway in
+ a terrible clean fracture, and your face aches unbearably; only when
+ you move away does the pain ease.
+
+>examine m
+ You can't see any such thing.
+
+>examine me
+ The weight of armor and the breath of silk are familiar. Your face,
+ though--when you reach up, it is porcelain that meets your touch on
+ the left side, and you cannot remove it, though neither does it impede
+ your senses. It seems the left half is a part of you, perhaps no more
+ a mask than a hand is a glove...
+
+>wear mask
+ Suddenly and disturbingly inspired by the riven passage to the south,
+ you lift the mask to your face, momentarily shadowing your vision.
+ When you can see clearly again, the mask has been rejoined
+ flawlessly--and the shadows close around the passageway. Yours is the
+ dragon's perfection, the dark journey skyward, as you have chosen.
+
+>examine mask
+ You can't see any such thing.
+
+>examine passageway
+ If you look south, this passage leads into clear, colorless light,
+ though you cannot see what lies beyond it.
+
+>go south
+ The shadows hold no more place for you.
+
+>inventory
+ You are carrying:
+   an insubstantial lantern (floating behind your shoulder)
+   three comb's teeth
+   a clay ocarina
+   a red paper kite with no string
+   a tasseled fan
+   a lady's tortoise-shell comb (broken)
+   armor and silks (worn)
+
+>examine me
+ The weight of armor, the breath of silk, and now the chill perfection
+ of porcelain that serves you as a face, and shall forevermore.
+
+>undo
+ Hall of Hawks
+ [Previous turn undone.]
+
+>undo
+ [Can't "undo" twice in succession. Sorry!]
+
+>undo
+ [Can't "undo" twice in succession. Sorry!]
+
+>/undo
+
+>/undo
+ Hall of Hawks
+ [Previous turn undone.]
+
+>/undo
+ Hall of Hawks
+ [Previous turn undone.]
+
+>/undo
+ Hall of Hawks
+ [Previous turn undone.]
+
+>/undo
+ Hall of Hawks
+ [Previous turn undone.]
+
+>examine me
+ The weight of armor, the breath of silk, and now the chill perfection
+ of porcelain that serves you as a face, and shall forevermore.
+
+>/undo
+ Hall of Hawks
+ [Previous turn undone.]
+
+>/undo
+
+>/undo
+ Hall of Hawks
+ [Previous turn undone.]
+
+>examine me
+ The weight of armor and the breath of silk are familiar. Your face,
+ though--when you reach up, it is porcelain that meets your touch on
+ the left side, and you cannot remove it, though neither does it impede
+ your senses. It seems the left half is a part of you, perhaps no more
+ a mask than a hand is a glove...
+
+>save
+>cf2
+ Enter saved game to store: Ok.
+
+>wear mask
+ Suddenly and disturbingly inspired by the riven passage to the south,
+ you lift the mask to your face, momentarily shadowing your vision.
+ When you can see clearly again, the mask has been rejoined
+ flawlessly--and the shadows close around the passageway. Yours is the
+ dragon's perfection, the dark journey skyward, as you have chosen.
+
+>look
+
+ Hall of Hawks
+ Hawks painted in gold and brown soar along the walls. It is strangely
+ warm here, as though fires lived just beyond your perception. The
+ entire hall is open and unobstructed except by your presence.
+
+>go up
+
+ Passage of Storms
+ Cherry blossoms and lilacs, kite-flying auguries and newly-budding
+ leaves: the trappings of spring are far beneath you now, though the
+ kite is a red speck dancing in the storm. The moonlit tower lays open
+ beneath you, and lightning and storm clouds gather around you.
+
+>examine clouds
+ It is night, now and always, with the storm clouds and lightning your
+ constant companions.
+
+>examine kite
+ (the red kite)
+ Caught in the grip of gale and rain, the kite dances, a last reminder
+ of the human things you are leaving behind.
+
+>examine tower
+ In its way the moonlit tower is like any other tower, despite the
+ strange things trapped within; you are part of them no longer.
+
+>fly
+ The sky is yours, in a dance unending, and you have shed your past
+ (her eyes, the hand upon the blade, the blood, your brother's white
+ and anguished face) as you ascend to your place in the zodiac.
+
+     *** You have won ***
+
+
+ In that game you scored 0 out of a possible 0, in 166 turns.
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do or QUIT?
+>amusing
+
+
+
+
+
+
+
+
+ Some Final Words
+  N = next optionP = previous
+  RETURN = select option  Q = resume game
+
+
+      For the Copyright-Conscious Sonnet-Reciter
+      Notes on Development and Setting (Long)
+      A Last Apology
+
+
+
+
+
+
+
+
+ Have you...
+
+ ...been meeped at?
+ ...found the game's one Easter Egg?
+ ...discovered what XYZZY does (or doesn't do) for you?
+ ...tried to take off your armor?
+ ...examined yourself at various points in the game?
+ ...played the comb?
+ ...unfolded the sheet of red paper?
+ ...folded the leaf?
+ ...touched the compass' various symbols?
+ ...climbed the compass?
+ ...climbed the bronze gong?
+ ...investigated the compass' repercussions outside the garden?
+ ...bathed? (One hopes so...)
+ ...recited a sonnet?
+ ...found all the game's variant endings?
+
+ (Yes, I admit it: only the custom(ized) verbs actually needed to get
+ through the meat of the game are listed in the ABOUT/HELP menu.)
+ [Please press SPACE to continue.]
+
+
+
+
+
+
+
+
+ Some Final Words
+  N = next optionP = previous
+  RETURN = select option  Q = resume game
+
+
+      For the Copyright-Conscious Sonnet-Reciter
+      Notes on Development and Setting (Long)
+      A Last Apology
+>q
+
+
+
+
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do or QUIT?
+>restore
+>cf2
+ Enter saved game to load: Ok.
+
+>break mask
+ Suddenly and terribly inspired by the shadowed passage to the south,
+ you smash the half-mask upon your own face. The pain nearly blinds
+ you. When you can see again, both halves of the mask are gone--and the
+ passageway stands open, free of shadow.
+
+>examine passageway
+ If you look south, this passage leads into clear, colorless light,
+ though you cannot see what lies beyond it.
+
+>go south
+
+ Hall of Doors
+ At first, this place of polished surfaces seems like a profusion of
+ mirrors and a kaleidoscope of doors. Looking more closely, though, all
+ doors are one, save the one you came from. The peculiar translucence
+ of the walls suggests that it is growing light out.
+
+ Northward, a passageway no longer riven by shadow returns to the rest
+ of the tower; across from it stands a door to the south.
+
+>examine me
+ The weight of armor, the breath of silk, and now the strangeness of
+ flesh, fully freed from its prison of porcelain, from now until the
+ end of your story.
+
+>examine doors
+ You can't see any such thing.
+
+>remove armor
+ This would not be proper.
+
+>examine light
+ The light here has a clarity rarely found except in dreams or
+ childhood, through which everyone must pass eventually.
+
+>examine walls
+ The walls are smooth and polished, reflecting every chance movement.
+
+>examine door
+ The door is of the same strange stone that characterizes the tower.
+
+>feel walls
+ The silent, smooth perfection of stone.
+
+>examine me
+ The weight of armor, the breath of silk, and now the strangeness of
+ flesh, fully freed from its prison of porcelain, from now until the
+ end of your story.
+
+>open door
+ Swallows soaring and tumbling, the flowerfall of cherry blossom
+ petals, a wind that needs no kites to augur good fortune. The paths
+ you take are your own, now, no matter what jealousies you and your
+ brother exchanged, knotted too deeply to be disentangled in past
+ dreams.
+
+ You leave the tower behind you, no longer trapped by the tyranny of
+ moonlight. The rest of your story is your own to tell and cherish, as
+ you walk past the tower's broken boundaries and into the rest of your
+ awakening.
+
+     *** You have won ***
+
+
+ In that game you scored 0 out of a possible 0, in 170 turns.
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do or QUIT?
+>I'm looking at my old notes, and yes, flying the kite is possible.
+ Please give one of the answers above.
+>restore
+>cf2
+ Enter saved game to load: Ok.
+
+>go up
+
+ Skeletal Banquet
+ It seems this is a banquet room, if a banquet had no especial place
+ for people to dine. Glassware and stoneware are arranged in deliberate
+ shapes, as though they are constellations.
+
+ South lies a chamber of brooding silence, and a vague, sweet fragrance
+ comes from the east. Stairs of blackest marble lead downward.
+
+ On the table is a banquet of bones.
+
+>go east
+
+ Undying Garden
+ Spring's blossoms and budding trees are here in profusion. Your
+ lantern gives the chamber a quality of sharp angles at odds with the
+ careful arrangements. Metal and wood, painted and sculpted, the false
+ garden is heedless of harvest, drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>go south
+
+ Shadow Armory
+ The lantern seems to have no effect on the shadows that reside here,
+ which remind you of long nights standing sentry, straining your eyes
+ against the darkness.
+
+ Curiously, the only weapons here live amid light and cannot be worn:
+ they are silhouettes flung against the walls. Stairs carved with
+ bas-reliefs spiral upward.
+
+ Northward and westward lie passageways unhindered by door or folding
+ screen.
+
+>examine shadow
+ Weapons line the walls, writ in shadow--yet you know their heft and
+ balance, the patterns of movement that make one deadly in attack and
+ another impenetrable in defense. If only you knew, as well, the
+ histories of blood, patronage and betrayal--or loyalty--that they
+ represent.
+
+ One of the weapons is more substantial than you realized at first, a
+ bronze-hilted dagger with a tassel hanging from the pommel.
+
+>take dagger
+ Taken.
+
+>examine dagger
+ Such daggers rarely leave the hands of the justiciars who wield them
+ as their symbol of office. A white tassel hangs from the pommel of the
+ hilt.
+
+>examine white tassel
+ The silken strands are white, for death. The justiciar's last resort,
+ someone said to you once--or did you say it?
+
+>examine tassel
+ The silken strands are white, for death. The justiciar's last resort,
+ someone said to you once--or did you say it?
+
+>cut it with dagger
+ The fan's blue tassel may serve you better.
+
+>cut blue tassel with dagger
+ A few neat cuts free some strands from the tassel, and tying them
+ together results in--a kitestring?
+
+ For a second there is a dark-eyed boy beside you, whose laugh is
+ yours, but wilder; whose smile is yours, but wider. If only you
+ remembered the augury that you and your brother cast that spring in
+ the kite-flying ritual, years before either of you met the woman who
+ wore black and red and gold...
+
+>tie string to kite
+ Though it takes some patience, you tie the kitestring to the kite.
+ Surely a season of gales and newborn blossoms awaits you, even in this
+ skyless tower.
+
+>go north
+
+ Undying Garden
+ Spring's blossoms and budding trees are here in profusion. Your
+ lantern gives the chamber a quality of sharp angles at odds with the
+ careful arrangements. Metal and wood, painted and sculpted, the false
+ garden is heedless of harvest, drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>examine swallow
+ Spring is the swallows' season, when they return from their sojourn in
+ distant lands and signal the kite-flying auguries. If only an augury
+ could help you now...
+
+>turn compass to swallow
+ The needle points to the swallow now. You hear a clear chiming sound
+ as the garden's trees and flowers move subtly, obedient to this new
+ season.
+
+>fly kite
+ Spring: the season of augury. Red and black and gold, maple colors,
+ kite colors; you no longer know which. A breeze stirs through the
+ room, though the trees and flowers are no more affected by it than
+ they would be by the sun's earnest light or a plague of locusts.
+ Nevertheless, you hear the hollow sound of something being dislodged
+ from one of the trees.
+
+ It was spring when your kite and your brother's became too entangled
+ for one glass-edged string to cut the other's, for one to conquer the
+ other, though entangled they flew yet; and spring when you were first
+ parted from your brother on his first campaign and yours, two
+ fatherless boys entering the emperor's service as adults.
+
+ The kite tugs from your hand, as impatient as a hawk winning free of
+ hood; dances perilously upward upon the wings of this nowhere breeze;
+ and disappears.
+
+ The breeze swells to a gale that rears southward and upward, seeking
+ the sky in this enclosed and skyless room.
+
+>look
+
+ Undying Garden
+ Spring's blossoms and budding trees are here in profusion. Your
+ lantern gives the chamber a quality of sharp angles at odds with the
+ careful arrangements. Metal and wood, painted and sculpted, the false
+ garden is heedless of harvest, drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>examine trees
+ Bamboo groves, graceful though ungrowing.
+
+>examine breeze
+ You can't see any such thing.
+
+>go south
+
+ Shadow Armory
+ The lantern seems to have no effect on the shadows that reside here,
+ which remind you of long nights standing sentry, straining your eyes
+ against the darkness.
+
+ Curiously, the only weapons here live amid light and cannot be worn:
+ they are silhouettes flung against the walls. Stairs carved with
+ bas-reliefs spiral upward.
+
+ Northward and westward lie passageways unhindered by door or folding
+ screen.
+
+ A wind gallops toward the stairs, seeking the sky.
+
+>go up
+
+ Moonlit Chamber
+ Moonlight diffuses through the walls, tracing out unreadable sigils in
+ calligraphies of light and dark. Upwards, the sky is open to your
+ eyes. The lantern brightens slightly, like a star as the night grows
+ deeper. Stairs adorned with bas-relief motifs spiral downward.
+
+ Wind flings itself up the walls and toward the sky; you have but to
+ look up.
+
+>look up
+ The night spreads her wings above you, and shows no sign of welcoming
+ her sister of the sunborn day. Constellations jewel the sky,
+ half-hidden by clouds like nestling feathers: the Heavenly Horse and
+ the Imperial Chrysanthemum.
+
+>examine horse
+ The star-stallion rears like the chargers you once rode. The justiciar
+ herself preferred such spirited mounts.
+
+>examine chrysanthemum
+ It is the first among constellations, open to the eyes of all people
+ unlike the emperor himself. You and your brother saw him only once,
+ when he called on you to stand together for your family's name.
+
+>ride horse
+ That's not a verb I recognise.
+
+>examine motifs
+ You can't see any such thing.
+
+>examine stairs
+ Each step is carved upon the side in bas-relief, though the design is
+ abstract.
+
+>go down
+
+ Shadow Armory
+ The lantern seems to have no effect on the shadows that reside here,
+ which remind you of long nights standing sentry, straining your eyes
+ against the darkness.
+
+ Curiously, the only weapons here live amid light and cannot be worn:
+ they are silhouettes flung against the walls. Stairs carved with
+ bas-reliefs spiral upward.
+
+ Northward and westward lie passageways unhindered by door or folding
+ screen.
+
+>go north
+
+ Undying Garden
+ Spring's blossoms and budding trees are here in profusion. Your
+ lantern gives the chamber a quality of sharp angles at odds with the
+ careful arrangements. Metal and wood, painted and sculpted, the false
+ garden is heedless of harvest, drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>search trees
+ You find nothing of interest.
+
+>examine me
+ The weight of armor and the breath of silk are familiar. Your face,
+ though--when you reach up, it is porcelain that meets your touch on
+ the left side, and you cannot remove it, though neither does it impede
+ your senses. It seems the left half is a part of you, perhaps no more
+ a mask than a hand is a glove...
+
+>save
+>cf3
+ Enter saved game to store: Ok.
+
+>restore
+>cf1
+ Enter saved game to load: Ok.
+
+>look
+
+ Shadow Armory
+ Curiously, the only weapons here live amid light and cannot be worn:
+ they are silhouettes flung against the walls. Stairs carved with
+ bas-reliefs spiral upward.
+
+ Northward and westward lie passageways unhindered by door or folding
+ screen.
+
+>go up
+ The shapes of light you saw as you entered fade irrevocably.
+
+
+ Moonlit Chamber
+ Moonlight diffuses through the walls, tracing out unreadable sigils in
+ calligraphies of light and dark. Stairs adorned with bas-relief motifs
+ spiral downward.
+
+>moonlight
+ That's not a verb I recognise.
+
+>examine moonlight
+ A curious thing, that the walls' stones should admit moonlight. A half
+ moon, you think, from the level of illumination: a moment's memory
+ suggests nights spent campaigning beneath open sky, but is soon gone.
+
+>look up
+ The ceiling above is only a ceiling.
+
+>examine armor
+ Both armor and silk are in black and gold, night and sun, skins
+ without sensation.
+
+>restore
+>cf3
+ Enter saved game to load: Ok.
+
+>look
+
+ Undying Garden
+ Spring's blossoms and budding trees are here in profusion. Your
+ lantern gives the chamber a quality of sharp angles at odds with the
+ careful arrangements. Metal and wood, painted and sculpted, the false
+ garden is heedless of harvest, drought or rain.
+
+ A jade compass rests at the garden's metaphysical center, between
+ translucence and opacity, curve and line, and other dichotomies too
+ subtle for your eye. A gentle warmth from the surface invites touch.
+
+ Transactions of light show other rooms southward and westward.
+
+>go west
+
+ Skeletal Banquet
+ It seems this is a banquet room, if a banquet had no especial place
+ for people to dine. Glassware and stoneware are arranged in deliberate
+ shapes, as though they are constellations.
+
+ South lies a chamber of brooding silence, and a vague, sweet fragrance
+ comes from the east. Stairs of blackest marble lead downward.
+
+ On the table is a banquet of bones.
+
+>go down
+ The lantern behind you brightens as you approach the stairs, anchoring
+ a path for you through the sea of stars.
+
+
+ Hall of Hawks
+ You see silhouettes out of the corner of your eye: blade, hand, a
+ woman's hair floating long and free; they elude any attempt to view
+ them directly, as though they ceased to dance across the walls when
+ you do so.
+
+ Hawks painted in gold and brown soar along the walls. It is strangely
+ warm here, as though fires lived just beyond your perception. The
+ entire hall is open to the wind and warmth, unobstructed except by
+ your presence.
+
+ Stairs of darkest marble circle upward. A passageway leads south into
+ clear, colorless light.
+
+>break mask
+ Suddenly and terribly inspired by the shadowed passage to the south,
+ you smash the half-mask upon your own face. The pain nearly blinds
+ you. When you can see again, both halves of the mask are gone--and the
+ passageway stands open, free of shadow.
+
+>go south
+
+ Hall of Doors
+ At first, this place of polished surfaces seems like a profusion of
+ mirrors and a kaleidoscope of doors. Looking more closely, though, all
+ doors are one, save the one you came from. The peculiar translucence
+ of the walls suggests that it is growing light out.
+
+ Northward, a passageway no longer riven by shadow returns to the rest
+ of the tower; across from it stands a door to the south.
+
+>go south
+ You can't, since the door is in the way.
+
+>open door
+ Swallows soaring and tumbling, the flowerfall of cherry blossom
+ petals, a wind that needs no kites to augur good fortune. The paths
+ you take are your own, now, no matter what jealousies you and your
+ brother exchanged, knotted too deeply to be disentangled in past
+ dreams.
+
+ You leave the tower behind you, no longer trapped by the tyranny of
+ moonlight. The rest of your story is your own to tell and cherish, as
+ you walk past the tower's broken boundaries and into the rest of your
+ awakening.
+
+     *** You have won ***
+
+
+ In that game you scored 0 out of a possible 0, in 193 turns.
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do or QUIT?
+>amusing
+
+
+
+
+
+
+
+
+ Some Final Words
+  N = next optionP = previous
+  RETURN = select option  Q = resume game
+
+
+      For the Copyright-Conscious Sonnet-Reciter
+      Notes on Development and Setting (Long)
+      A Last Apology
+>go north
+
+ Some Final Words
+  N = next optionP = previous
+  RETURN = select option  Q = resume game
+
+
+      Amusing Things to Try
+      Notes on Development and Setting (Long)
+      A Last Apology
+
+
+
+
+
+
+
+
+ If you've found some of the various poetry fragments in the game, rest
+ assured that anything you don't recognize immediately is by yours
+ truly. In particular, one of the fragments is from my short story
+ "Alas, Lirette," in The Magazine of Fantasy and Science Fiction,
+ January 2001. Chalk it down to a moment of hubris. Plus, it amused me.
+ And you may safely conclude that I am easily amused.
+ [Please press SPACE to continue.]
+
+
+
+
+
+
+
+
+ Some Final Words
+  N = next optionP = previous
+  RETURN = select option  Q = resume game
+
+
+      Amusing Things to Try
+      Notes on Development and Setting (Long)
+      A Last Apology
+>go north
+
+ Some Final Words
+  N = next optionP = previous
+  RETURN = select option  Q = resume game
+
+
+      Amusing Things to Try
+      For the Copyright-Conscious Sonnet-Reciter
+      A Last Apology
+
+
+
+
+
+
+
+
+ This game's genesis can be blamed on two things: my sister's sudden
+ discovery of and addiction to Interactive Fiction (IF), and my
+ fascination with myth and symbol.
+
+ For the first, it's probably several kinds of insane to enter one's
+ first work of IF in the IFComp. (I'm told that "this is my first game"
+ is a bad way to start an entry...?) I found it to be several kinds of
+ educational, though--I knew beta-testers were helpful and generous
+ souls, but I hadn't realized how helpful and generous they were!--and
+ the deadline encouraged me to finish the project instead of leaving it
+ to float in limbo.
+
+ The fact that this is my first game also led to certain design
+ decisions. For one thing, no NPCs. I admire the depth of conversation
+ available in games like Emily Short's Pytho's Mask, but I peeked at
+ the coding necessary to implement the most basic ASK/TELL system and
+ concluded there was no way I was going to learn enough Inform to do a
+ convincing job with one NPC, let alone several, within the time frame
+ available. Implementing the inanimate jade compass and its associated
+ seasonal changes turned out to be enough of a headache. I thought of
+ having the player wake up in a tomb (generally a good reason for other
+ people to be absent), the opening lines "No, not a prison..." came to
+ me, and I was off and running.
+
+ (Aside: For an idea of the time I had available: I started learning
+ Inform sometime in July. I got married on 3 August 2002, which was
+ rather more of a priority, and moved from Ithaca, NY to Boston in
+ mid-August. And my husband is already resigned to the fact that he's
+ going to hear me muttering arcanely about "forgot to give it
+ pluralname" and "you should be scenery" when I'm at my computer.)
+
+ For another, the tower was a deliberately extensible (or collapsible)
+ design in that I figured I could add as many "levels" or floors as I
+ had time for, with a small number of rooms per level. Hence, a wimpy
+ three-storey tower with only half-a-dozen rooms. And no, I don't plan
+ on adding more floors. I think I'm burned out on towers.
+
+ I also made the mistake of making up puzzles as I went along, which
+ will not happen again. The only reason I got away with it (or not, as
+ the case may be) was the small size of the game. It has, however,
+ gotten me thinking about modular puzzle design, which might be a good
+ thing, though unfortunately it isn't immediately useful to you.
+
+ The setting itself draws loosely from Korean, Japanese, Chinese, and
+ Mongolian sources, though you won't find any isomorphisms. I took
+ considerable liberty with the phoenix and dragon; the Heavenly Horse,
+ which appears in a famous Shilla (Korean) tomb, was co-opted into a
+ Moon-figure. The tale of the White Archer was adapted from "The Legend
+ of Erkhii Mergen, the Archer," which you can find in Hillary Roe
+ Metternich's Mongolian Folktales, but I collided it with the Japanese
+ and Chinese tales of the sun going into hiding and having to be sung
+ back into the world. The chrysanthemum is a familiar Japanese symbol,
+ and some of the earliest ocarinas were found in China. Kite-flying
+ (and sometimes fighting, as well as various militant uses) were
+ recorded from early times in China, Korea, and/or Japan. And for
+ seasonal motifs I drew freely on my years in Korea, where my parents
+ were born.
+
+ One element had nothing to do with mythology, and came from a homebrew
+ roleplaying setting: the Brixten Shanai, a tower whose starry stairs
+ stretched endlessly into the void. A minor thing, perhaps, but it has
+ some nostalgia value for me and my sister.
+
+ Finally, one of the attractions of this medium for me is that it
+ allows me both to exercise rusty computer programming skills (though
+ arguably Andrew Plotkin's Lists and Lists would do that too!) and my
+ writing skills. After getting used to linear storytelling, it was an
+ interesting exercise trying to find some way of conveying a sense of
+ story and setting without "railroading" the player overmuch. I've also
+ been on a crusade for non-visual sensory details ever since I read
+ Poul Anderson's rule of thumb for at least one non-visual detail per
+ page. I don't know if I succeeded entirely--puzzle design in
+ particular is going to be an Achilles heel for some time--but now I
+ have a better idea of how to go about it.
+
+ Now that you've heard more than you ever wanted to know about the
+ game, it's time to send you on your way so I can start working on my
+ next crazy project!
+
+ Yoon Ha Lee [requiescat@cityofveils.com]
+ <A HREF="http://pegasus.cityofveils.com/if.phtml">http://pegasus.cityofveils.com/if.phtml</A>
+ [Please press SPACE to continue.]

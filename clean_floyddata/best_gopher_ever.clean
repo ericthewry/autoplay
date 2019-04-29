@@ -1,0 +1,6165 @@
+>load sleepmask gopher
+
+
+
+
+ <span class="floydstyle subheader">Best Gopher Ever</span>
+ A game by Arthur DiBianca
+ Release 1 / Serial number 180327 / Inform 7 build 6L38 (I6/v6.33 lib
+ 6/12N)
+
+ Special thanks to Andy Fleming, Lorne Harris, and Brian Rushton for
+ testing, and to Nadia Bellazola for cover art.
+
+
+
+
+
+ <span class="floydstyle subheader">Town Entrance</span>
+ You are at the main entrance to the town of Fairview. A large gate
+ leads out of town to the south, and a short path runs north to
+ Primrose Street.
+
+ A well-dressed owl paces back and forth, murmuring worriedly.
+ "Greetings!" he says in a deep voice. "I am Alfred P. Owl, the mayor
+ of Fairview. Oh, it's an awful situation. Throughout our town, the
+ animals have problems, very serious problems. Please, please help us!"
+ He clasps his wings imploringly. "Come back after you have helped at
+ least five of our hapless residents."
+
+ (Note: This game has a limited set of commands. Type HELP to learn
+ more.)
+
+>help
+
+ - You can always SAVE, RESTORE, RESTART, or QUIT.
+
+ - You can move around with N, W, E, S.
+ - You can LOOK (L) or WAIT (Z).
+ - You can TALK (T).
+ - You can GIVE an item you're holding.
+
+ - Type INVENTORY (I) to see what you're carrying.
+ - Type MAP (M) to check your map. (Type MAP HELP for more info.)
+ - Type STATUS (ST) for a status report, including a list of unsolved
+ problems.
+
+>examine owl
+
+ You won't need to examine things in this game.
+
+>xyzzy
+
+ That's not a command I recognize. Type HELP for command info.
+
+>inventory
+
+ You aren't carrying anything right now.
+
+>l owl
+
+ That's not a command I recognize. Type HELP for command info.
+
+>st
+
+ (You are just getting started.)
+
+ * Alfred P. Owl wants you to return after you have helped at least
+ five animals.
+
+>go north
+
+
+ <span class="floydstyle subheader">Primrose Street</span>
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+ (You can type MAP to see a map of Fairview. If the map looks like it
+ doesn't fit in your display, type MAP HELP.)
+
+>map
+
+
+                  Fairview
+ +----------------------------------------+
+ |         ??? ???     ??? ???        N   |
+ |                                  W-+-E |
+ | ??? ??? ??? ??? ??? ??? ??? ???    S   |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                                  ~~~~~ |
+ |         ??? ??? ??? ???          ~~~~~ |
+ |                                  ~~~~~ |
+ |     ??? ??? ???     ???     ???  ~~~~~ |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ???--<span class="floydstyle i">#</span>--???  ~~~~~ |
+ |                          |       ~~~~~ |
+ |     ???         ???     owl      ~~~~~ |
+ +----------------------------------------+
+
+>q
+
+ That's not a command I recognize. Type HELP for command info.
+
+>quit
+
+ Are you sure you want to quit?
+>y
+ Are you sure you want to quit?
+ debugcheapnitfol quit with exit status: 0
+>load gopher
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Best Gopher Ever
+ A game by Arthur DiBianca
+ Release 1 / Serial number 180327 / Inform 7 build 6L38 (I6/v6.33 lib
+ 6/12N)
+
+ Special thanks to Andy Fleming, Lorne Harris, and Brian Rushton for
+ testing, and to Nadia Bellazola for cover art.
+
+
+
+
+
+ Town Entrance
+ You are at the main entrance to the town of Fairview. A large gate
+ leads out of town to the south, and a short path runs north to
+ Primrose Street.
+
+ A well-dressed owl paces back and forth, murmuring worriedly.
+ "Greetings!" he says in a deep voice. "I am Alfred P. Owl, the mayor
+ of Fairview. Oh, it's an awful situation. Throughout our town, the
+ animals have problems, very serious problems. Please, please help us!"
+ He clasps his wings imploringly. "Come back after you have helped at
+ least five of our hapless residents."
+
+ (Note: This game has a limited set of commands. Type HELP to learn
+ more.)
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |         ??? ???     ??? ???        N   |
+ |                                  W-+-E |
+ | ??? ??? ??? ??? ??? ??? ??? ???    S   |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                                  ~~~~~ |
+ |         ??? ??? ??? ???          ~~~~~ |
+ |                                  ~~~~~ |
+ |     ??? ??? ???     ???     ???  ~~~~~ |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                          |       ~~~~~ |
+ |     ???         ???     OWL      ~~~~~ |
+ +----------------------------------------+
+
+>go south
+ But you haven't helped all the animals!
+
+>go north
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+ (You can type MAP to see a map of Fairview. If the map looks like it
+ doesn't fit in your display, type MAP HELP.)
+
+>go east
+
+ End of Primrose Street
+ The cobbled street ends here at a tall fence.
+
+ A white umbrella is leaning against the fence. You take it!
+
+>take umbrella
+ You won't need to GET or TAKE things in this game. (If something is
+ worth taking, you'll do it automatically.)
+
+>inventory
+ You are carrying a white umbrella.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |         ??? ???     ??? ???        N   |
+ |                                  W-+-E |
+ | ??? ??? ??? ??? ??? ??? ??? ???    S   |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                                  ~~~~~ |
+ |         ??? ??? ??? ???          ~~~~~ |
+ |                                  ~~~~~ |
+ |     ??? ??? ???     ???     ???  ~~~~~ |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ???--.---#   ~~~~~ |
+ |                          |       ~~~~~ |
+ |     ???         ???     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go west
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+>go west
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go west
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go south
+
+ Tool Emporium
+ The walls of this small shop are lined with tools. A sign hanging in
+ front of the counter says, "Today's Sale: Hammers only five bucks!"
+
+ A doe sits behind the counter, filing her hoof with an emery board.
+ She looks up. "Hi hon, I'm Janice, welcome to Tool Emporium. Are you
+ having a nice day? I'm not. No one has bought anything, and look at
+ these hooves: they're a mess, and I'm all out of my beautiful red hoof
+ polish."
+
+ (Type STATUS to see a status report, including a list of unsolved
+ problems.)
+
+>buy hammer
+ That's not a command I recognize. Type HELP for command info.
+
+>t
+ "If you find anyone who needs tools, send 'em here!"
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |         ??? ???     ??? ???        N   |
+ |                                  W-+-E |
+ | ??? ??? ??? ??? ??? ??? ??? ???    S   |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                                  ~~~~~ |
+ |         ??? ??? ??? ???          ~~~~~ |
+ |                                  ~~~~~ |
+ |     ??? ??? ???     ???     ???  ~~~~~ |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                  |   |           ~~~~~ |
+ | ??? ??? ??? ???  .---.---.---.   ~~~~~ |
+ |                  |       |       ~~~~~ |
+ |     ???         DOE     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go north
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go north
+
+ Empty Lot
+ This empty lot is overgrown with weeds. The cul-de-sac is to the
+ south.
+
+ You discover an old hubcap lying in a patch of weeds. You take it!
+
+>go south
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go north
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go east
+
+ Corncob Lane
+ Corncob Lane continues east and west.
+
+ A pig in a tweed blazer and skirt is examining the ground through a
+ magnifying glass. She jumps as you approach. "Oh, hi! I'm Emily Pig. I
+ guess this must look a little silly. Well, I lost the key to my
+ suitcase, and it's pretty small, so I'm just carefully retracing my
+ steps." She sighs. "This is going to take a while."
+
+>t
+ "I'm still looking for my key. If you find it, please let me know!"
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |         ??? ???     ??? ???        N   |
+ |                                  W-+-E |
+ | ??? ??? ??? ??? ??? ??? ??? ???    S   |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                                  ~~~~~ |
+ |         ??? ??? ??? ???          ~~~~~ |
+ |                                  ~~~~~ |
+ |     ??? ??? ???     ???     ???  ~~~~~ |
+ |                      |           ~~~~~ |
+ | ??? ??? ??? ???  .   .--PIG-???  ~~~~~ |
+ |                  |   |           ~~~~~ |
+ | ??? ??? ??? ???  .---.---.---.   ~~~~~ |
+ |                  |       |       ~~~~~ |
+ |     ???         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go east
+
+ End of Lane
+ Corncob Lane ends here by the shore of Lake Horatio. You see a small
+ house to the north. "E. P." is painted on the mailbox.
+
+>go north
+
+ Small House
+ This small house is painted blue and features a bookshelf filled with
+ detective novels. Two large suitcases stand next to the bed.
+
+ You notice a tiny key lying under the table. You pick it up!
+
+>go south
+
+ End of Lane
+ Corncob Lane ends here by the shore of Lake Horatio. You see a small
+ house to the north. "E. P." is painted on the mailbox.
+
+>go west
+
+ Corncob Lane
+ Corncob Lane continues east and west.
+
+ Emily Pig is examining the ground through a magnifying glass.
+
+>t
+ "I'm still looking for my key. If you find it, please let me know!"
+
+>give key to pig
+ I only understood you as far as wanting to give the tiny key.
+
+>give key
+ Emily looks up. "Oh, you found it! Thank you! This is such a relief."
+ She puts the key in her pocket. "Here's a tip!" She gives you a
+ quarter. Then she flops down on the ground and starts to read a small
+ book.
+
+ (You have helped one animal!)
+
+>st
+ (You have been playing for 22 turns. So far you have helped Emily
+ Pig.)
+
+ * Alfred P. Owl wants you to return after you have helped at least
+ five animals.
+ * Janice Doe wants a customer and a bottle of red hoof polish.
+
+>go west
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go north
+
+ Bridge
+ To the north, Little Oak Stream runs west to east, dividing Fairview
+ in half. A wide wooden bridge crosses the stream.
+
+ A large ant leans against a bridge post. "Hello," he says slowly.
+ "Name's Werner. We've got a problem: some of those boards are loose,
+ and the bridge isn't safe! I'm eager to fix it, but I need a hammer.
+ Actually, wait a second!" He fishes around in his pocket.
+
+>t
+ Werner pulls a five-dollar bill out of his pocket and gives it to you.
+ "Here, see if you can find me a hammer!"
+
+>go south
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go south
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go west
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go south
+
+ Tool Emporium
+ The walls of this small shop are lined with tools. A sign hanging in
+ front of the counter says, "Today's Sale: Hammers only five bucks!"
+
+ Janice Doe sits behind the counter, filing her hoof with an emery
+ board.
+
+>give bill
+ "Finally, a customer!" says Janice. She takes your five dollars, gives
+ you a hammer, and goes back to filing her hoof. "These are really good
+ hammers. You're getting a fantastic deal."
+
+>go north
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go north
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go north
+
+ Bridge
+ To the north, Little Oak Stream runs west to east, dividing Fairview
+ in half. A wide wooden bridge crosses the stream.
+
+ Werner Ant leans against a bridge post, staring worriedly at the
+ bridge.
+
+>give hammer
+ "Say, that's a fine hammer!" Werner grabs the hammer and immediately
+ gets to work on the bridge.
+
+ (You have helped two animals!)
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |         ??? ???     ??? ???        N   |
+ |                                  W-+-E |
+ | ??? ??? ??? ??? ??? ??? ??? ???    S   |
+ |                                  ~~~~~ |
+ | ??? ??? ??? ??? ??? ??? ??? ???  ~~~~~ |
+ |                                  ~~~~~ |
+ |         ??? ??? ??? ???          ~~~~~ |
+ |                      X           ~~~~~ |
+ |     ??? ??? ???     ANT      .   ~~~~~ |
+ |                      |       |   ~~~~~ |
+ | ??? ??? ??? ???  .   .--pig--.   ~~~~~ |
+ |                  |   |           ~~~~~ |
+ | ??? ??? ??? ???  .---.---.---.   ~~~~~ |
+ |                  |       |       ~~~~~ |
+ |     ???         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go north
+ "I'm not done yet!" shouts Werner.
+
+ Werner Ant pries up some old nails from the bridge.
+
+>wait
+ Time passes.
+
+ Werner Ant pulls some shiny nails out of his pocket.
+
+>wait
+ Time passes.
+
+ Werner Ant pounds in a few nails.
+
+>wait
+ Time passes.
+
+ Werner Ant pounds in a few nails.
+
+>wait
+ Time passes.
+
+ Werner Ant pounds in one last nail and wipes his forehead.
+
+>wait
+ Time passes.
+
+ Werner Ant gets up. "That should do it!" he says. "This bridge is now
+ fixed and safe to use."
+
+>t
+ "Another job well done," says Werner. "Thanks for getting that
+ hammer."
+
+>t
+ "Another job well done," says Werner. "Thanks for getting that
+ hammer."
+
+>go north
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go west
+
+ Museum
+ This is a very odd one-room museum. Shelves hold an assortment of
+ worthless-looking items. In the middle of the room is a large table
+ covered in black velvet.
+
+ A rat stands next to the table, weeping into a handkerchief. "Hello,"
+ he whimpers. "My?my name is Tobias Rat. Alas! my prize collection of
+ Five Round Things has disappeared. Oh, what shall I do?" He starts
+ bawling again.
+
+>give cap
+ "Ah!" says Tobias. "That is a fascinating specimen!" He takes the
+ hubcap, polishes it with his handkerchief, and puts it on the table.
+ "Please accept this token of my gratitude." He hands you a pair of
+ gently used earplugs.
+
+>inventory
+ You are carrying a pair of earplugs, a quarter, and a white umbrella.
+
+>go east
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go north
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go east
+
+ Maple Street
+ Maple Street continues east and west.
+
+ You notice a brand-new unsharpened pencil lying in the middle of the
+ street. You take it!
+
+>go east
+
+ Maple Street
+ Maple Street ends here near Lake Horatio. To the north you see a
+ comfortable-looking brick house.
+
+>version
+ Best Gopher Ever
+ A game by Arthur DiBianca
+ Release 1 / Serial number 180327 / Inform 7 build 6L38 (I6/v6.33 lib
+ 6/12N)
+ Identification number: //42767687-5973-4C4B-B3CF-C49919E27F1E//
+ Standard interpreter 1.0 (2N) / Library serial number 080126
+ Standard Rules version 3/120430 by Graham Nelson
+
+>go north
+
+ Comfortable House
+ This is a well-furnished living room. The walls are hung with various
+ portraits. The exit is south.
+
+ A yak in a bathrobe sits in an armchair, looking miserable. As you
+ enter, he hands you a business card that says "Herman Yak, Attorney at
+ Law." Then he points at the cup of hot water he's holding.
+
+>t
+ Herman Yak points at his neck and shakes his head. Then he points at
+ his cup.
+
+>take cup
+ You won't need to GET or TAKE things in this game. (If something is
+ worth taking, you'll do it automatically.)
+
+>inventory
+ You are carrying Herman Yak's business card, an unsharpened pencil, a
+ pair of earplugs, a quarter, and a white umbrella.
+
+>inventory
+ You are carrying Herman Yak's business card, an unsharpened pencil, a
+ pair of earplugs, a quarter, and a white umbrella.
+
+>put pencil in cup
+ That's not a command I recognize. Type HELP for command info.
+
+>sharpen pencil
+ That's not a command I recognize. Type HELP for command info.
+
+>help
+ - You can always SAVE, RESTORE, RESTART, or QUIT.
+
+ - You can move around with N, W, E, S.
+ - You can LOOK (L) or WAIT (Z).
+ - You can TALK (T).
+ - You can GIVE an item you're holding.
+
+ - Type INVENTORY (I) to see what you're carrying.
+ - Type MAP (M) to check your map. (Type MAP HELP for more info.)
+ - Type STATUS (ST) for a status report, including a list of unsolved
+ problems.
+
+>give pencil
+ Herman Yak frowns and shakes his head.
+
+>give earplugs
+ Herman Yak frowns and shakes his head.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |         ??? ???     ??? ???        N   |
+ |                                  W-+-E |
+ | ??? ??? ??? ??? ??? ??? ??? YAK    S   |
+ |                      |       |   ~~~~~ |
+ | ??? ??? ??? ??? ???--.---.---.   ~~~~~ |
+ |                      |           ~~~~~ |
+ |         ??? ??? rat--.           ~~~~~ |
+ |                      |           ~~~~~ |
+ |     ??? ??? ???     ant      .   ~~~~~ |
+ |                      |       |   ~~~~~ |
+ | ??? ??? ??? ???  .   .--pig--.   ~~~~~ |
+ |                  |   |           ~~~~~ |
+ | ??? ??? ??? ???  .---.---.---.   ~~~~~ |
+ |                  |       |       ~~~~~ |
+ |     ???         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>help
+ - You can always SAVE, RESTORE, RESTART, or QUIT.
+
+ - You can move around with N, W, E, S.
+ - You can LOOK (L) or WAIT (Z).
+ - You can TALK (T).
+ - You can GIVE an item you're holding.
+
+ - Type INVENTORY (I) to see what you're carrying.
+ - Type MAP (M) to check your map. (Type MAP HELP for more info.)
+ - Type STATUS (ST) for a status report, including a list of unsolved
+ problems.
+
+>go south
+
+ Maple Street
+ Maple Street ends here near Lake Horatio. To the north you see a
+ comfortable-looking brick house.
+
+>go west
+
+ Maple Street
+ Maple Street continues east and west.
+
+>go west
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ A confused-looking hen stands in front of the theater. "Stop a moment!
+ My name is Cornelia Hen. Please help me. I can't leave my post of
+ course, but I absolutely have to have...it was a...well now, what was
+ it?" She scratches her head.
+
+>t
+ Cornelia says, "Oh, I remember! I need...I think...was it? No, it
+ wasn't." She shuffles her foot.
+
+>t
+ "Hmm," says the hen, "maybe...was it...yes? No. No? No. Yes. No."
+
+>map help
+ There are three map sizes. To switch between them, type FULL, TRIM, or
+ TINY.
+
+ FULL is the normal size. If the map doesn't seem to fit in your
+ display window, try TRIM, which is a little smaller. If that still
+ doesn't fit, you can use TINY, which is much smaller but leaves out
+ information like the connections between locations.
+
+ The map also requires a fixed-width font. If it looks messed up, check
+ the font settings of your interpreter program.
+
+>t
+ Cornelia says, "Oh, I remember! I need...I think...was it? No, it
+ wasn't." She shuffles her foot.
+
+>t
+ "Hmm," says the hen, "maybe...was it...yes? No. No? No. Yes. No."
+
+>wait
+ Time passes.
+
+ "I need to start doing those memory exercises," says Cornelia.
+
+>go east
+
+ Zoltan's Restaurant
+ Small round tables with white tablecloths fill the large dining room.
+ Zoltan's is known for fine food, but it is strangely empty right now.
+ The exit is west.
+
+ A dinner plate lies on the floor near one of the tables. You take it!
+
+>go west
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go north
+
+ North End of Willow
+ This is the north end of Willow Avenue. To the east you see an
+ abandoned drugstore.
+
+>go east
+
+ Drugstore
+ This little drugstore seems to be abandoned. The shelves are empty,
+ and there is no one here.
+
+ A small bottle of purple hoof polish is sitting on the counter.
+ Apparently no one else wants it, so you take it!
+
+>st
+ (You have been playing for 67 turns. So far you have helped Emily Pig
+ and Werner Ant.)
+
+ * Alfred P. Owl wants you to return after you have helped at least
+ five animals.
+ * Janice Doe wants a bottle of red hoof polish.
+ * Tobias Rat wants four more round things for his collection.
+ * Herman Yak wants something, but he seems unable to say what.
+ * Cornelia Hen can't seem to remember what she wants.
+
+>st
+ (You have been playing for 67 turns. So far you have helped Emily Pig
+ and Werner Ant.)
+
+ * Alfred P. Owl wants you to return after you have helped at least
+ five animals.
+ * Janice Doe wants a bottle of red hoof polish.
+ * Tobias Rat wants four more round things for his collection.
+ * Herman Yak wants something, but he seems unable to say what.
+ * Cornelia Hen can't seem to remember what she wants.
+
+>go west
+
+ North End of Willow
+ This is the north end of Willow Avenue. To the east you see an
+ abandoned drugstore.
+
+>go south
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "Now what the heck was it?" mutters Cornelia.
+
+>go west
+ Cornelia stops you. "You need a ticket to enter the theater!"
+
+>inventory
+ You are carrying a bottle of purple hoof polish, a dinner plate,
+ Herman Yak's business card, an unsharpened pencil, a pair of earplugs,
+ a quarter, and a white umbrella.
+
+>give card
+ Cornelia looks at Herman Yak's business card. "Is that what I need? I
+ think it might be. Although...no, probably not. I can't remember."
+
+>go west
+ Cornelia stops you. "You need a ticket to enter the theater!"
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go west
+
+ Maple Street Rubble
+ Maple Street continues in both directions, but to the west it is
+ blocked by a huge pile of rubble.
+
+ A cow in an orange vest notices you. "Can you believe this? When they
+ demolished the old Krone building yesterday, the whole thing fell into
+ the street! I'm supposed to start clearing it, but I can't find a hard
+ hat. My name is Barbara, by the way." She shakes your hand.
+
+>go north
+ You can't go that way.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |         ??? ???      .---.         N   |
+ |                      |           W-+-E |
+ | ??? ??? ??? ??? ???Xhen--.  yak    S   |
+ |                      |       |   ~~~~~ |
+ | ??? ??? ??? ??? COW--.---.---.   ~~~~~ |
+ |                      |           ~~~~~ |
+ |         ??? ??? rat--.           ~~~~~ |
+ |                      |           ~~~~~ |
+ |     ??? ??? ???     ant      .   ~~~~~ |
+ |                      |       |   ~~~~~ |
+ | ??? ??? ??? ???  .   .--pig--.   ~~~~~ |
+ |                  |   |           ~~~~~ |
+ | ??? ??? ??? ???  .---.---.---.   ~~~~~ |
+ |                  |       |       ~~~~~ |
+ |     ???         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go east
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go south
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go west
+
+ Museum
+ This is a very odd one-room museum. Shelves hold an assortment of
+ worthless-looking items. In the middle of the room is a large table
+ covered in black velvet, on which you see an old hubcap.
+
+ Tobias Rat stands next to the table, weeping into a handkerchief.
+
+>give plate
+ "Ooh!" says Tobias. He rubs the surface of the plate thoughtfully,
+ then puts it on the table. "Please accept this in return." He takes a
+ hand mirror from a shelf and gives it to you.
+
+>give quarter
+ "Oh!" says Tobias. "That's lovely!" He takes the quarter and examines
+ it closely. Then he places it delicately on the table. "Here, let me
+ reward you with something special." He takes a fresh-looking teabag
+ out of his pocket and hands it to you.
+
+>inventory
+ You are carrying a teabag, a tarnished hand mirror, a bottle of purple
+ hoof polish, Herman Yak's business card, an unsharpened pencil, a pair
+ of earplugs, and a white umbrella.
+
+>go north
+ You can't go that way.
+
+>go east
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go north
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go east
+
+ Maple Street
+ Maple Street continues east and west.
+
+>go east
+
+ Maple Street
+ Maple Street ends here near Lake Horatio. To the north you see a
+ comfortable-looking brick house.
+
+>go north
+
+ Comfortable House
+ This is a well-furnished living room. The walls are hung with various
+ portraits. The exit is south.
+
+ Herman Yak sits in an armchair, holding a cup of hot water and looking
+ miserable.
+
+>give tea
+ Herman brightens up as he takes the teabag. He drops it into his cup
+ of water. He gives you a thumbs-up, then reaches into the pocket of
+ his bathrobe and hands you a ticket.
+
+ (You have helped three animals!)
+
+>go south
+
+ Maple Street
+ Maple Street ends here near Lake Horatio. To the north you see a
+ comfortable-looking brick house.
+
+>go west
+
+ Maple Street
+ Maple Street continues east and west.
+
+>go west
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go west
+
+ Maple Street Rubble
+ Maple Street continues in both directions, but to the west it is
+ blocked by a huge pile of rubble.
+
+ Barbara Cow surveys the situation.
+
+ Barbara shakes her head at the rubble. "Amateurs."
+
+>go east
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "I need to start doing those memory exercises," says Cornelia.
+
+>give ticket
+ Cornelia takes the ticket and tears it, and gives the stub back to
+ you. "You may now enter the theater."
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go north
+ You can't go that way.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go north
+
+ North End of Walnut
+ Walnut Road ends here. To the west a locked gate leads into the
+ Ostracod Estate. To the east is Timmit Pool.
+
+>go east
+
+ Timmit Pool
+ On a sunny day like this, Timmit Pool is a favorite destination for
+ the youth of Fairview. Several small snakes and frogs are playing in a
+ large round pool.
+
+ A grown-up asp lies in a chair by the pool. "Hi," he says weakly. "I'm
+ Simon Asp. My kids have been here for hours. I'm so hungry. I can't
+ move."
+
+>t
+ Simon looks at you pleadingly. "Could you please bring me a snack?"
+
+>inventory
+ You are carrying a ticket stub, a tarnished hand mirror, a bottle of
+ purple hoof polish, Herman Yak's business card, an unsharpened pencil,
+ a pair of earplugs, and a white umbrella.
+
+>give earplugs
+ "I don't know what I would do with that," says Simon.
+
+>go west
+
+ North End of Walnut
+ Walnut Road ends here. To the west a locked gate leads into the
+ Ostracod Estate. To the east is Timmit Pool.
+
+>go south
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction, but to the south, a wide
+ stream of oil flows across the road.
+
+>go south
+ As soon as your foot touches the oil, you slip and fall down. You get
+ up wincing.
+
+>go east
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go north
+ You can't go that way.
+
+>go south
+
+ Little Oak Park
+ This pleasant park on the bank of Little Oak Stream is named after the
+ eight-foot tree that stands at its center. A sign describes the tree
+ as the "smallest oak in the four-county area."
+
+ A bat hanging from a light pole calls out as you enter. "Oh, help me!"
+ she says. "My name is Violet Bat. That awful noise is driving me
+ crazy! Please do something!"
+
+ You can't hear whatever she is talking about.
+
+>give earplugs
+ Violet Bat is hanging out of reach.
+
+>st
+ (You have been playing for 110 turns. So far you have helped Emily
+ Pig, Werner Ant, and Herman Yak.)
+
+ * Alfred P. Owl wants you to return after you have helped at least
+ five animals.
+ * Janice Doe wants a bottle of red hoof polish.
+ * Tobias Rat wants two more round things for his collection.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Barbara Cow wants a hard hat.
+ * Simon Asp wants something to eat.
+ * Violet Bat wants relief from the noise she is hearing.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ | ??? ???  .---.---.--hen--.  yak    S   |
+ |          |           |       |   ~~~~~ |
+ | ??? ???--.---.  cow--.---.---.   ~~~~~ |
+ |          X   |       |           ~~~~~ |
+ |         ??? BAT rat--.           ~~~~~ |
+ |                      |           ~~~~~ |
+ |     ??? ??? ???     ant      .   ~~~~~ |
+ |                      |       |   ~~~~~ |
+ | ??? ??? ??? ???  .   .--pig--.   ~~~~~ |
+ |                  |   |           ~~~~~ |
+ | ??? ??? ??? ???  .---.---.---.   ~~~~~ |
+ |                  |       |       ~~~~~ |
+ |     ???         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go north
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go west
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction, but to the south, a wide
+ stream of oil flows across the road.
+
+>go west
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ A dog wearing a sun hat stands in front of the house. She yells at the
+ hedge, "If you don't give them back to me, I swear I will?I will do
+ something you'll regret!" She turns to face you. "My name is Henrietta
+ Dog. You will never believe what an attitude that?that INDIVIDUAL has.
+ He refuses to return my...oh, it just makes me too mad."
+
+>t
+ "Ooh, I'm just too mad to have a conversation right now," says
+ Henrietta, scowling.
+
+>go west
+
+ Cluttered Yard
+ Maple Street ends here in another front yard, which contains an
+ assortment of plastic flamingos, gnomes, birdbaths, and the like. An
+ overgrown hedge separates this yard from the one to the east. There is
+ a small green house to the north.
+
+ A tawny cat is sitting here in a lawn chair. He wears sunglasses and
+ holds a newspaper. "Hey there!" he calls to you. "I'm Jack Cat. Nice
+ day! Too sunny, though. I need a way to get some shade."
+
+>give umbrella
+ "Now that will give some shade," says Jack, taking the umbrella. "But
+ I don't want to sit here holding it. I'll get too tired. I need some
+ way to attach it to my lawn chair!"
+
+>inventory
+ You are carrying a ticket stub, a tarnished hand mirror, a bottle of
+ purple hoof polish, Herman Yak's business card, an unsharpened pencil,
+ and a pair of earplugs.
+
+>st
+ (You have been playing for 116 turns. So far you have helped Emily
+ Pig, Werner Ant, and Herman Yak.)
+
+ * Alfred P. Owl wants you to return after you have helped at least
+ five animals.
+ * Janice Doe wants a bottle of red hoof polish.
+ * Tobias Rat wants two more round things for his collection.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Barbara Cow wants a hard hat.
+ * Simon Asp wants something to eat.
+ * Violet Bat wants relief from the noise she is hearing.
+ * Henrietta Dog wants something returned to her, but she hasn't said
+ exactly what.
+ * Jack Cat needs a way to attach the umbrella to his lawn chair.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ | ??? ???  .---.---.--hen--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | CAT-dog--.---.  cow--.---.---.   ~~~~~ |
+ |          X   |       |           ~~~~~ |
+ |         ??? bat rat--.           ~~~~~ |
+ |                      |           ~~~~~ |
+ |     ??? ??? ???     ant      .   ~~~~~ |
+ |                      |       |   ~~~~~ |
+ | ??? ??? ??? ???  .   .--pig--.   ~~~~~ |
+ |                  |   |           ~~~~~ |
+ | ??? ??? ??? ???  .---.---.---.   ~~~~~ |
+ |                  |       |       ~~~~~ |
+ |     ???         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go north
+
+ Cluttered House
+ It's not easy to maneuver inside this dwelling, because there are
+ piles of stuff everywhere: mostly books, but also half-assembled
+ furniture, electronic components, and cardboard boxes. On one wall
+ hangs a photo of two aged cats. The exit is south.
+
+ A battered orange frisbee sits on one pile of boxes. You hesitate for
+ a moment, then grab it.
+
+>go south
+
+ Cluttered Yard
+ Maple Street ends here in another front yard, which contains an
+ assortment of plastic flamingos, gnomes, birdbaths, and the like. An
+ overgrown hedge separates this yard from the one to the east. There is
+ a small green house to the north.
+
+ Jack Cat sits here in his lawn chair, reading the newspaper. An
+ umbrella is lying across his lap.
+
+ "You certainly did!" calls a voice from the other side of the hedge.
+
+>go east
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta Dog is here, glaring at the hedge.
+
+ "It's not like you ever use them," calls a voice from the other side
+ of the hedge. "Which is why I can't even see you right now."
+
+>go north
+ The front door is locked.
+
+ "Of course I use them!" shouts Henrietta. "Now give them back!"
+
+>wait
+ Time passes.
+
+ "I never borrowed them, you silly dog," calls a voice from the other
+ side of the hedge.
+
+>wait
+ Time passes.
+
+ "You certainly did!" cries Henrietta. "How dare you deny it!"
+
+>wait
+ Time passes.
+
+ "It's not like you ever use them," calls a voice from the other side
+ of the hedge. "Which is why I can't even see you right now."
+
+>wait
+ Time passes.
+
+ "Of course I use them!" shouts Henrietta. "Now give them back!"
+
+>go east
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction, but to the south, a wide
+ stream of oil flows across the road.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go east
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go east
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go west
+
+ Maple Street Rubble
+ Maple Street continues in both directions, but to the west it is
+ blocked by a huge pile of rubble.
+
+ Barbara Cow surveys the situation.
+
+>go east
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go south
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go west
+
+ Museum
+ This is a very odd one-room museum. Shelves hold an assortment of
+ worthless-looking items. In the middle of the room is a large table
+ covered in black velvet, on which you see an old hubcap, a quarter,
+ and a dinner plate.
+
+ Tobias Rat stands next to the table, weeping into a handkerchief.
+
+ "Who would do such a thing?" moans Tobias.
+
+>give frisbee
+ "I've always wanted one of these!" cries Tobias. He hugs the frisbee
+ and places it on the table. "This is a feeble reward, but please take
+ it." He picks up a pair of garden shears and gives them to you.
+
+>go east
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go north
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "Now what the heck was it?" mutters Cornelia.
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go west
+ You can't go that way.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction, but to the south, a wide
+ stream of oil flows across the road.
+
+>go west
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta Dog is here, glaring at the hedge.
+
+ "Of course I use them!" shouts Henrietta. "Now give them back!"
+
+>give shears
+ "You got them back!" cries Henrietta, clapping. "It's about time!" she
+ shouts at the hedge. Then she unlocks her front door, runs inside, and
+ returns a moment later wearing heavy leather gloves. She begins
+ clipping the hedge.
+
+ (You have helped four animals!)
+
+>t
+ "I just love clipping," says Henrietta.
+
+>go north
+
+ Floral House
+ This quaint little house is decorated with carnation wallpaper, tulip
+ curtains, and a large vase of possibly fake irises. The exit is south.
+
+ You discover a large speckled egg sitting out on a counter. You take
+ it!
+
+>go south
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+>go east
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction, but to the south, a wide
+ stream of oil flows across the road.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go east
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go east
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go south
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go west
+
+ Museum
+ This is a very odd one-room museum. Shelves hold an assortment of
+ worthless-looking items. In the middle of the room is a large table
+ covered in black velvet, on which you see an old hubcap, a quarter, a
+ dinner plate, and an orange frisbee.
+
+ Tobias Rat stands next to the table, weeping into a handkerchief.
+
+>give egg
+ Tobias looks at the egg. "No, I collect things that are more flat and
+ round. That way they don't roll off the table."
+
+>inventory
+ You are carrying a large speckled egg, a ticket stub, a tarnished hand
+ mirror, a bottle of purple hoof polish, Herman Yak's business card, an
+ unsharpened pencil, and a pair of earplugs.
+
+>st
+ (You have been playing for 157 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, and Henrietta Dog.)
+
+ * Alfred P. Owl wants you to return after you have helped at least
+ five animals.
+ * Janice Doe wants a bottle of red hoof polish.
+ * Tobias Rat wants one more round thing for his collection.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Barbara Cow wants a hard hat.
+ * Simon Asp wants something to eat.
+ * Violet Bat wants relief from the noise she is hearing.
+ * Jack Cat needs a way to attach the umbrella to his lawn chair.
+
+>go east
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go north
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go north
+
+ North End of Walnut
+ Walnut Road ends here. To the west a locked gate leads into the
+ Ostracod Estate. To the east is Timmit Pool.
+
+>go east
+
+ Timmit Pool
+ On a sunny day like this, Timmit Pool is a favorite destination for
+ the youth of Fairview. Several small snakes and frogs are playing in a
+ large round pool.
+
+ Simon Asp lies weakly in a chair by the pool.
+
+ "How long can they stay in there?" whimpers Simon.
+
+>give egg
+ Simon's eyes widen. "Oh, you're a life saver." He accepts the egg and
+ slowly swallows it whole. Then he smiles and falls asleep.
+
+ (You have helped five animals! Go talk to the mayor!)
+
+>go west
+
+ North End of Walnut
+ Walnut Road ends here. To the west a locked gate leads into the
+ Ostracod Estate. To the east is Timmit Pool.
+
+>go south
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go east
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go east
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "I need to start doing those memory exercises," says Cornelia.
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go south
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go south
+
+ Bridge
+ To the north, Little Oak Stream runs west to east, dividing Fairview
+ in half. A wide wooden bridge crosses the stream.
+
+ Werner Ant leans against a bridge post, looking calmly at the stream.
+
+ Werner nods approvingly at the bridge.
+
+>go south
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go south
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+>go south
+
+ Town Entrance
+ You are at the main entrance to the town of Fairview. A large gate
+ leads out of town to the south, and a short path runs north to
+ Primrose Street.
+
+ Alfred P. Owl paces back and forth, murmuring worriedly.
+
+>t
+ "Excellent!" says the mayor. "I knew I could count on you! There are
+ many other animals who desperately need your help, so don't stop now!
+ I'd like to give you some assistance, but this is the only useful
+ thing I have on hand." He presents you with a shiny silver motorcycle
+ helmet.
+
+>go south
+ But you haven't helped all the animals!
+
+ The mayor shakes his head.
+
+>go north
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+>go west
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go north
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go north
+
+ Bridge
+ To the north, Little Oak Stream runs west to east, dividing Fairview
+ in half. A wide wooden bridge crosses the stream.
+
+ Werner Ant leans against a bridge post, looking calmly at the stream.
+
+>go north
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go west
+
+ Museum
+ This is a very odd one-room museum. Shelves hold an assortment of
+ worthless-looking items. In the middle of the room is a large table
+ covered in black velvet, on which you see an old hubcap, a quarter, a
+ dinner plate, and an orange frisbee.
+
+ Tobias Rat stands next to the table, weeping into a handkerchief.
+
+ "Woe is me," says Tobias.
+
+>go east
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go north
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go west
+
+ Maple Street Rubble
+ Maple Street continues in both directions, but to the west it is
+ blocked by a huge pile of rubble.
+
+ Barbara Cow surveys the situation.
+
+>give helmet
+ "That's not regulation equipment," says Barbara. "On the other hand, I
+ need to get working. OK, fine." She forces the helmet on her head with
+ some difficulty. Then she starts hacking at the rubble, and
+ immediately discovers an oil valve. "Whoa, this oil valve is open!
+ That can't be good!" She shuts it off. "Why they installed an oil
+ valve on the street here, I'll never know."
+
+ (You have helped six animals!)
+
+>go west
+ There's still no way past all the rubble.
+
+ Barbara whistles an old farm tune.
+
+>go east
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+ The pavement is still a bit oily, but you should be able to cross it
+ now.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ A ram in a white lab coat is peering into the machine. He turns to
+ meet you. "Greetings! Pleased to make your acquaintance. I am
+ Professor Hubert Ram, and this is my wonderful Alteratomatic. Well,
+ that's what I'm calling it now, but I might change the name later.
+ Anyway, it's all charged up and ready to go, but sadly I can't
+ activate it until I find a 33-ounce oscillating prosistor."
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go east
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west.
+
+>go east
+ You can't go that way.
+
+>go west
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go south
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go east
+
+ Post Office
+ This small post office features a counter and a wall of locked
+ mailboxes. A sign advertises same-day delivery to addresses in
+ Fairview.
+
+ A large bee is pacing nervously behind the counter. "You've got to
+ help me!" she exclaims. "I have to make deliveries later today, and I
+ can't find my mail bag, and if I don't find it then I can't deliver
+ anything, and I will be in SO much trouble, and I'm going to get
+ fired, and I'm not kidding at all!" She pauses for breath. "Also, my
+ name is Meg Bee."
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ |  .   .   .---.---.--hen--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | cat-dog--.---.  cow--.---.---.   ~~~~~ |
+ |          |   |       |           ~~~~~ |
+ |          .  bat rat--.           ~~~~~ |
+ |          |           |           ~~~~~ |
+ |     ???  .--ram     ant      .   ~~~~~ |
+ |          |           |       |   ~~~~~ |
+ | ??? ???--.---.   .   .--pig--.   ~~~~~ |
+ |          |       |   |           ~~~~~ |
+ | ??? ???--.--BEE  .---.---.---.   ~~~~~ |
+ |                  |       |       ~~~~~ |
+ |     ???         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go west
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go west
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go south
+
+ Fox's Automotive
+ This is the front office of an auto repair shop. A desk and table are
+ covered with work orders, and various keys hang from a rack on the
+ wall.
+
+ A fox wearing greasy jeans and a T-shirt stands by the desk, holding a
+ work order. "Welcome to the shop!" he says. "I'm Willard Fox. If your
+ vehicle needs any work, bring it in! But hey, maybe you can help me
+ with a little problem." He taps the work order. "Simon Asp wants his
+ car back tomorrow, and I can't fix it because I've lost my
+ Jenkins-head screwdriver. Could you find me one? Here." He gives you a
+ ten-dollar bill.
+
+ "Oh, by the way," he adds, "in case you don't know, there's a path
+ between the two empty lots. You have to look carefully to find it."
+
+>SAVE
+>cf4
+ Enter saved game to store: Ok.
+
+>st
+ (You have been playing for 210 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, and Barbara
+ Cow.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Janice Doe wants a bottle of red hoof polish.
+ * Tobias Rat wants one more round thing for his collection.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+ * Jack Cat needs a way to attach the umbrella to his lawn chair.
+ * Professor Ram wants a 33-ounce oscillating prosistor for his
+ machine.
+ * Meg Bee needs a replacement for her lost mail bag.
+ * Willard Fox needs a special screwdriver.
+
+>go east
+ You can't go that way.
+
+>go north
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go east
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go east
+
+ Post Office
+ This small post office features a counter and a wall of locked
+ mailboxes. A sign advertises same-day delivery to addresses in
+ Fairview.
+
+ Meg Bee is pacing nervously behind the counter.
+
+>go east
+ You can't go that way.
+
+ Meg buzzes unhappily.
+
+>go west
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go north
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go east
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west.
+
+ Sure enough, you discover a small path east through the weeds!
+
+>go east
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go east
+ You can't go that way.
+
+>go east
+ You can't go that way.
+
+>go south
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go south
+
+ Tool Emporium
+ The walls of this small shop are lined with tools. A sign hanging in
+ front of the counter says, "Today's Sale: Hammers only five bucks!"
+
+ Janice Doe sits behind the counter, filing her hoof with an emery
+ board.
+
+ Janice blows on her hoof.
+
+>give bill
+ "I'll bet you want a screwdriver," says Janice as she takes the bill.
+ She hunts around under the counter and gives you one.
+
+>go north
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go north
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go west
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+>go west
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go west
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go west
+
+ Classroom 4A
+ This is one of several classrooms at Fairview Elementary. It contains
+ about fifteen young animals, pretty well-behaved as it appears. You
+ can leave the school to the east or south.
+
+ The teacher, a tall emu, nods to you as you enter. "Welcome to 4A. Say
+ hello, class. My name is Mrs. Rosina Emu. I was just telling the class
+ about a little problem. I've lost my glasses, so I can't read from our
+ history book. It's very distressing."
+
+ Several of the students giggle. You notice that Mrs. Emu's glasses are
+ on top of her head.
+
+>t
+ Before you can communicate anything, Mrs. Emu says, "Excuse me, I
+ don't mind your observing, but we really can't have any additional
+ talking. It sets a poor example for the students."
+
+>give mirror
+ "No thank you," says Mrs. Emu as she glances at the mirror. Then she
+ notices her reflection. "Good heavens! My glasses have been on my head
+ this whole time!" The students start laughing, and Mrs. Emu gives them
+ a very severe look as she lowers her glasses into position.
+
+ (You have helped seven animals!)
+
+>t
+ Mrs. Emu says, "Excuse me, I don't mind your observing, but we really
+ can't have any additional talking. It sets a poor example for the
+ students."
+
+>go east
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go north
+
+ Courthouse
+ You stand in the carved-wood foyer of the Fairview courthouse. There
+ is only one courtroom, and it seems to be empty.
+
+ A coupon for a free piece of luggage is lying on the front counter.
+ You take it!
+
+>go south
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go east
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>st
+ (You have been playing for 237 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ and Rosina Emu.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Janice Doe wants a bottle of red hoof polish.
+ * Tobias Rat wants one more round thing for his collection.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+ * Jack Cat needs a way to attach the umbrella to his lawn chair.
+ * Professor Ram wants a 33-ounce oscillating prosistor for his
+ machine.
+ * Meg Bee needs a replacement for her lost mail bag.
+ * Willard Fox needs a special screwdriver.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ |  .   .   .---.---.--hen--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | cat-dog--.---.  cow--.---.---.   ~~~~~ |
+ |          |   |       |           ~~~~~ |
+ |          .  bat rat--.           ~~~~~ |
+ |          |           |           ~~~~~ |
+ |      .   .--ram     ant      .   ~~~~~ |
+ |      |   |           |       |   ~~~~~ |
+ | emu--.---#---.---.   .--pig--.   ~~~~~ |
+ |  |       |       |   |           ~~~~~ |
+ | ???  .---.--bee  .---.---.---.   ~~~~~ |
+ |      |           |       |       ~~~~~ |
+ |     fox         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go south
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go west
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go south
+
+ Fox's Automotive
+ This is the front office of an auto repair shop. A desk and table are
+ covered with work orders, and various keys hang from a rack on the
+ wall.
+
+ Willard Fox stands by the desk, examining a work order for Cornelia
+ Hen.
+
+>give screwdriver
+ Willard looks at the screwdriver. "No, that's not what I need. That's
+ a Jarvis-head, but Simon Asp's car requires a Jenkins-head. Totally
+ non-standard, but what are you gonna do?" He shrugs.
+
+>walkthrough
+ That's not a command I recognize. Type HELP for command info.
+
+>go north
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go east
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go north
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go west
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ |  .   .   .---.---.--hen--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | cat-dog--.---.  cow--.---.---.   ~~~~~ |
+ |          |   |       |           ~~~~~ |
+ |          .  bat rat--.           ~~~~~ |
+ |          |           |           ~~~~~ |
+ |      .   .--ram     ant      .   ~~~~~ |
+ |      |   |           |       |   ~~~~~ |
+ | emu--#---.---.---.   .--pig--.   ~~~~~ |
+ |  |       |       |   |           ~~~~~ |
+ | ???  .---.--bee  .---.---.---.   ~~~~~ |
+ |      |           |       |       ~~~~~ |
+ |     fox         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go west
+
+ Classroom 4A
+ This is one of several classrooms at Fairview Elementary. It contains
+ about fifteen young animals, pretty well-behaved as it appears. You
+ can leave the school to the east or south.
+
+ Mrs. Rosina Emu stands in front of the class.
+
+>go south
+
+ Playground
+ The Fairview Elementary playground is full of swings, seesaws, and
+ other familiar equipment. There is no one here right now.
+
+ An old plastic hula hoop has been left near the slide. You take it!
+
+>go north
+
+ Classroom 4A
+ This is one of several classrooms at Fairview Elementary. It contains
+ about fifteen young animals, pretty well-behaved as it appears. You
+ can leave the school to the east or south.
+
+ Mrs. Rosina Emu stands in front of the class.
+
+ Mrs. Emu reads aloud from A History of the World for Young Animals.
+
+>go east
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go east
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go east
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+>go east
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go east
+ You can't go that way.
+
+>go south
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go south
+
+ Tool Emporium
+ The walls of this small shop are lined with tools. A sign hanging in
+ front of the counter says, "Today's Sale: Hammers only five bucks!"
+
+ Janice Doe sits behind the counter, filing her hoof with an emery
+ board.
+
+>give screwdriver
+ Janice shakes her head. "We have a no-return policy."
+
+>go north
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go north
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go east
+ You can't go that way.
+
+>go south
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go north
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go north
+
+ Bridge
+ To the north, Little Oak Stream runs west to east, dividing Fairview
+ in half. A wide wooden bridge crosses the stream.
+
+ Werner Ant leans against a bridge post, looking calmly at the stream.
+
+ Werner pats his new hammer affectionately.
+
+>give screwdriver
+ "I don't need a screwdriver, but that's a nice one!"
+
+>go north
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go north
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "Now what the heck was it?" mutters Cornelia.
+
+>f s
+ That's not a command I recognize. Type HELP for command info.
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go west
+
+ Maple Street Rubble
+ Maple Street continues in both directions, but to the west it is
+ blocked by a huge pile of rubble.
+
+ Barbara Cow is banging on the rubble with a pickaxe.
+
+>go east
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go south
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go west
+
+ Museum
+ This is a very odd one-room museum. Shelves hold an assortment of
+ worthless-looking items. In the middle of the room is a large table
+ covered in black velvet, on which you see an old hubcap, a quarter, a
+ dinner plate, and an orange frisbee.
+
+ Tobias Rat stands next to the table, weeping into a handkerchief.
+
+>give hoop
+ Tobias gasps. "Incredible!" He puts the hula hoop on the table. "I
+ simply don't know what to say! My collection of Five Round Things has
+ been restored! My happiness is complete!" He shakes your hand
+ vigorously. "This deserves a special reward. I'll give you a real
+ oddity." He hunts around for a while, and then produces a furrowed
+ metal cube. "I have no idea what this is, but it's fascinating, isn't
+ it?" He gives it to you.
+
+ (You have helped eight animals!)
+
+>inventory
+ You are carrying a furrowed metal cube, a luggage coupon, a
+ Jarvis-head screwdriver, a ticket stub, a tarnished hand mirror, a
+ bottle of purple hoof polish, Herman Yak's business card, an
+ unsharpened pencil, and a pair of earplugs.
+
+>look
+ Museum
+ This is a very odd one-room museum. Shelves hold an assortment of
+ worthless-looking items. In the middle of the room is a large table
+ covered in black velvet, on which you see an old hubcap, a quarter, a
+ dinner plate, an orange frisbee, and a plastic hula hoop.
+
+ Tobias Rat stands next to the table, admiring his collection.
+
+ Tobias brushes off the velvet.
+
+>st
+ (You have been playing for 274 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ Rosina Emu, and Tobias Rat.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Janice Doe wants a bottle of red hoof polish.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+ * Jack Cat needs a way to attach the umbrella to his lawn chair.
+ * Professor Ram wants a 33-ounce oscillating prosistor for his
+ machine.
+ * Meg Bee needs a replacement for her lost mail bag.
+ * Willard Fox needs a special screwdriver.
+
+>go north
+ You can't go that way.
+
+>go east
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go north
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+ The professor adjusts a slider on the machine.
+
+>give cube
+ "What luck!" cries the professor. He takes the cube from you and
+ examines it. "Well, this prosistor is actually a 34-ounce, but I think
+ it will be OK." He opens a panel and forces the cube into place.
+ "Thanks, you've been a big help! Now let's see here. Hold on one
+ moment." He begins tweaking the controls.
+
+ (You have helped nine animals!)
+
+>wait
+ Time passes.
+
+ "OK," says the professor. "Let me explain how the Alteratomatic works.
+ Give me an object, and the machine will change it somehow. I don't
+ know exactly what will happen, but that's the fun of it!"
+
+>give polish
+ Professor Ram puts the bottle of purple hoof polish in the machine. He
+ pushes a large black button. Sparks fly between the metal rods. A few
+ seconds later, he reaches in and pulls out a bottle of red hoof
+ polish. "See, it works!" he says as he gives it to you.
+
+>give pencil
+ Professor Ram puts the unsharpened pencil in the machine. He pushes a
+ large black button. Sparks fly between the metal rods. A few seconds
+ later, he reaches in and pulls out a sharpened pencil. "Here you go,"
+ he says.
+
+>inventory
+ You are carrying a sharpened pencil, a bottle of red hoof polish, a
+ luggage coupon, a Jarvis-head screwdriver, a ticket stub, a tarnished
+ hand mirror, Herman Yak's business card, and a pair of earplugs.
+
+>give mirror
+ Professor Ram puts the tarnished hand mirror in the machine. He pushes
+ a large black button. Sparks fly between the metal rods. A few seconds
+ later, he reaches in and pulls out a shiny hand mirror. "Here you go,"
+ he says.
+
+ Just then you hear a buzzer, and the metal rods stop vibrating. "Uh
+ oh," says the professor. "The Alteratomatic ran out of juice. It will
+ recharge, but you might have to wait a bit."
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>give earplugs
+ "The Alteratomatic is recharging," says the professor. "Hang on."
+
+>go south
+ You can't go that way.
+
+ The professor opens a panel and fiddles with something inside.
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go east
+ You can't go that way.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ |  .   .   .---.---.--hen--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | cat-dog--.---.  cow--.---.---.   ~~~~~ |
+ |          |   |       |           ~~~~~ |
+ |          #  bat rat--.           ~~~~~ |
+ |          |           |           ~~~~~ |
+ |      .   .--ram     ant      .   ~~~~~ |
+ |      |   |           |       |   ~~~~~ |
+ | emu--.---.---.---.   .--pig--.   ~~~~~ |
+ |  |       |       |   |           ~~~~~ |
+ |  .   .---.--bee  .---.---.---.   ~~~~~ |
+ |      |           |       |       ~~~~~ |
+ |     fox         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go east
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+>go east
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go south
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go south
+
+ Tool Emporium
+ The walls of this small shop are lined with tools. A sign hanging in
+ front of the counter says, "Today's Sale: Hammers only five bucks!"
+
+ Janice Doe sits behind the counter, filing her hoof with an emery
+ board.
+
+ Janice sighs.
+
+>give polish
+ "Wow!" says Janice. "That is fantastic! Give it here!" She takes the
+ bottle.
+
+ (You have helped ten animals!)
+
+>st
+ (You have been playing for 304 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ Rosina Emu, Tobias Rat, Hubert Ram, and Janice Doe.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+ * Jack Cat needs a way to attach the umbrella to his lawn chair.
+ * Meg Bee needs a replacement for her lost mail bag.
+ * Willard Fox needs a special screwdriver.
+
+>inventory
+ You are carrying a shiny hand mirror, a sharpened pencil, a luggage
+ coupon, a Jarvis-head screwdriver, a ticket stub, Herman Yak's
+ business card, and a pair of earplugs.
+
+>go north
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go north
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go north
+
+ Bridge
+ To the north, Little Oak Stream runs west to east, dividing Fairview
+ in half. A wide wooden bridge crosses the stream.
+
+ Werner Ant leans against a bridge post, looking calmly at the stream.
+
+>go north
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go north
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "I need to start doing those memory exercises," says Cornelia.
+
+>give pencil
+ Cornelia looks at the sharpened pencil. "Is that what I need? I think
+ it might be. Although...no, probably not. I can't remember."
+
+>give card
+ Cornelia looks at Herman Yak's business card. "Is that what I need? I
+ think it might be. Although...no, probably not. I can't remember."
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>look
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>give screwdriver
+ Professor Ram puts the Jarvis-head screwdriver in the machine. He
+ pushes a large black button. Sparks fly between the metal rods. A few
+ seconds later, he reaches in and pulls out a Jenkins-head screwdriver.
+ "Here you go," he says.
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ |  .   .   .---.---.--hen--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | cat-dog--.---.  cow--.---.---.   ~~~~~ |
+ |          |   |       |           ~~~~~ |
+ |          .  bat rat--.           ~~~~~ |
+ |          |           |           ~~~~~ |
+ |      .   #--ram     ant      .   ~~~~~ |
+ |      |   |           |       |   ~~~~~ |
+ | emu--.---.---.---.   .--pig--.   ~~~~~ |
+ |  |       |       |   |           ~~~~~ |
+ |  .   .---.--bee  .---.---.---.   ~~~~~ |
+ |      |           |       |       ~~~~~ |
+ |     fox         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go south
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go west
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go south
+
+ Fox's Automotive
+ This is the front office of an auto repair shop. A desk and table are
+ covered with work orders, and various keys hang from a rack on the
+ wall.
+
+ Willard Fox stands by the desk, examining a work order for Alfred P.
+ Owl.
+
+>give screwdriver
+ "You found one!" says Willard. "Thank you!" He sticks the screwdriver
+ in his back pocket.
+
+ (You have helped eleven animals!)
+
+>t
+ Willard taps the work order he's holding and laughs. "Alfred Owl has
+ been driving the same car for almost twenty years! It's getting harder
+ and harder to find the parts!"
+
+>t
+ Willard taps the work order he's holding and laughs. "Alfred Owl has
+ been driving the same car for almost twenty years! It's getting harder
+ and harder to find the parts!"
+
+>go east
+ You can't go that way.
+
+ Willard tosses the work order on the desk and picks up one for Simon
+ Asp.
+
+>go north
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go north
+ You can't go that way.
+
+>go east
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go north
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go north
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+ The professor adjusts a dial on the machine.
+
+>st
+ (You have been playing for 337 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ Rosina Emu, Tobias Rat, Hubert Ram, Janice Doe, and Willard Fox.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+ * Jack Cat needs a way to attach the umbrella to his lawn chair.
+ * Meg Bee needs a replacement for her lost mail bag.
+
+>give card
+ Professor Ram puts Herman Yak's business card in the machine. He
+ pushes a large black button. Sparks fly between the metal rods. A few
+ seconds later, he reaches in and pulls out Zoltan Reindeer's business
+ card. "Here you go," he says.
+
+>inventory
+ You are carrying Zoltan Reindeer's business card, a shiny hand mirror,
+ a sharpened pencil, a luggage coupon, a ticket stub, and a pair of
+ earplugs.
+
+>SAVE
+>cf5
+ Enter saved game to store: Ok.
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go south
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go east
+
+ Post Office
+ This small post office features a counter and a wall of locked
+ mailboxes. A sign advertises same-day delivery to addresses in
+ Fairview.
+
+ Meg Bee is pacing nervously behind the counter.
+
+>give coupon to bee
+ I only understood you as far as wanting to give the luggage coupon.
+
+>give coupon
+ Meg looks at the luggage coupon. "That's really nice of you to offer,
+ but I need a mail bag right now, and if I take anything else, I'll
+ just get frustrated that it isn't a mail bag!"
+
+>go west
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go north
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go east
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+>go east
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go south
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go south
+
+ Tool Emporium
+ The walls of this small shop are lined with tools. A sign hanging in
+ front of the counter says, "Today's Sale: Hammers only five bucks!"
+
+ Janice Doe sits behind the counter, applying some red hoof polish.
+
+>give coupon
+ "We sell tools, not luggage," explains Janice.
+
+>inventory
+ You are carrying Zoltan Reindeer's business card, a shiny hand mirror,
+ a sharpened pencil, a luggage coupon, a ticket stub, and a pair of
+ earplugs.
+
+>st
+ (You have been playing for 350 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ Rosina Emu, Tobias Rat, Hubert Ram, Janice Doe, and Willard Fox.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+ * Jack Cat needs a way to attach the umbrella to his lawn chair.
+ * Meg Bee needs a replacement for her lost mail bag.
+
+>go north
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go north
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go west
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+>go west
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go north
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>give earplugs
+ Professor Ram puts the pair of earplugs in the machine. He pushes a
+ large black button. Sparks fly between the metal rods. A few seconds
+ later, he reaches in and pulls out a pair of corks. "Here you go," he
+ says.
+
+ Just then you hear a buzzer, and the metal rods stop vibrating. "Out
+ of juice again," says the professor. "Don't worry, it should recharge
+ soon."
+
+>undo
+ Laboratory
+ [Previous turn undone.]
+
+>inventory
+ You are carrying Zoltan Reindeer's business card, a shiny hand mirror,
+ a sharpened pencil, a luggage coupon, a ticket stub, and a pair of
+ earplugs.
+
+>give coupon
+ Professor Ram puts the luggage coupon in the machine. He pushes a
+ large black button. Sparks fly between the metal rods. A few seconds
+ later, he reaches in and pulls out a tool coupon. "Here you go," he
+ says.
+
+ Just then you hear a buzzer, and the metal rods stop vibrating. "Out
+ of juice again," says the professor. "Don't worry, it should recharge
+ soon."
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go east
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+>look
+>go east
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go south
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go south
+
+ Tool Emporium
+ The walls of this small shop are lined with tools. A sign hanging in
+ front of the counter says, "Today's Sale: Hammers only five bucks!"
+
+ Janice Doe sits behind the counter, applying some red hoof polish.
+
+>give coupon
+ Janice looks at the coupon. "Sorry, this is expired."
+
+>go north
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go west
+ You can't go that way.
+
+>go north
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go west
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+>go west
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go north
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>give coupon
+ Professor Ram puts the tool coupon in the machine. He pushes a large
+ black button. Sparks fly between the metal rods. A few seconds later,
+ he reaches in and pulls out a luggage coupon. "Here you go," he says.
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go east
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go north
+ You can't go that way.
+
+>go south
+
+ Little Oak Park
+ This pleasant park on the bank of Little Oak Stream is named after the
+ eight-foot tree that stands at its center. A sign describes the tree
+ as the "smallest oak in the four-county area."
+
+ Violet Bat is hanging from a light pole.
+
+>inventory
+ You are carrying a luggage coupon, Zoltan Reindeer's business card, a
+ shiny hand mirror, a sharpened pencil, a ticket stub, and a pair of
+ earplugs.
+
+>give card
+ Violet Bat is hanging out of reach.
+
+>give earplug
+ Violet Bat is hanging out of reach.
+
+>inventory
+ You are carrying a luggage coupon, Zoltan Reindeer's business card, a
+ shiny hand mirror, a sharpened pencil, a ticket stub, and a pair of
+ earplugs.
+
+>climb tree
+ That's not a command I recognize. Type HELP for command info.
+
+>go up
+ That's not a command I recognize. Type HELP for command info.
+
+>go up
+ That's not a command I recognize. Type HELP for command info.
+
+>show earplugs
+ That's not a command I recognize. Type HELP for command info.
+
+>t
+ "I can't come down with all that noise!" says Violet. "Oh, my head!
+ Hanging upside-down helps a little."
+
+>score
+ That's not a command I recognize. Type HELP for command info.
+
+>look
+ Little Oak Park
+ This pleasant park on the bank of Little Oak Stream is named after the
+ eight-foot tree that stands at its center. A sign describes the tree
+ as the "smallest oak in the four-county area."
+
+ Violet Bat is hanging from a light pole.
+
+ Violet moans pitifully.
+
+>st
+ (You have been playing for 383 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ Rosina Emu, Tobias Rat, Hubert Ram, Janice Doe, and Willard Fox.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+ * Jack Cat needs a way to attach the umbrella to his lawn chair.
+ * Meg Bee needs a replacement for her lost mail bag.
+
+>xyzzy
+ That's not a command I recognize. Type HELP for command info.
+
+>inventory
+ You are carrying a luggage coupon, Zoltan Reindeer's business card, a
+ shiny hand mirror, a sharpened pencil, a ticket stub, and a pair of
+ earplugs.
+
+>go north
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go west
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+ The professor opens a panel and fiddles with something inside.
+
+>give stub
+ Professor Ram puts the ticket stub in the machine. He pushes a large
+ black button. Sparks fly between the metal rods. A few seconds later,
+ he reaches in and pulls out a ticket. "Here you go," he says.
+
+>inventory
+ You are carrying a ticket, a luggage coupon, Zoltan Reindeer's
+ business card, a shiny hand mirror, a sharpened pencil, and a pair of
+ earplugs.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ |  .   .   .---.---.--hen--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | cat-dog--.---.  cow--.---.---.   ~~~~~ |
+ |          |   |       |           ~~~~~ |
+ |          .  bat rat--.           ~~~~~ |
+ |          |           |           ~~~~~ |
+ |      .   .--RAM     ant      .   ~~~~~ |
+ |      |   |           |       |   ~~~~~ |
+ | emu--.---.---.---.   .--pig--.   ~~~~~ |
+ |  |       |       |   |           ~~~~~ |
+ |  .   .---.--bee  .---.---.---.   ~~~~~ |
+ |      |           |       |       ~~~~~ |
+ |     fox         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go west
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+ Henrietta adjusts her sun hat.
+
+>give card to dog
+ I only understood you as far as wanting to give Zoltan Reindeer's
+ business card.
+
+>give card
+ "No thanks," says Henrietta.
+
+>give coupon
+ "No thanks," says Henrietta.
+
+>go west
+
+ Cluttered Yard
+ Maple Street ends here in another front yard, which contains an
+ assortment of plastic flamingos, gnomes, birdbaths, and the like. An
+ overgrown hedge separates this yard from the one to the east. There is
+ a small green house to the north.
+
+ Jack Cat sits here in his lawn chair, reading the newspaper. An
+ umbrella is lying across his lap.
+
+>give card
+ "No thanks," says Jack.
+
+>give coupon
+ "No thanks," says Jack.
+
+>go east
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+>go east
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go north
+
+ North End of Walnut
+ Walnut Road ends here. To the west a locked gate leads into the
+ Ostracod Estate. To the east is Timmit Pool.
+
+>go west
+ The gate is locked tight. You won't be getting in there.
+
+>go east
+
+ Timmit Pool
+ On a sunny day like this, Timmit Pool is a favorite destination for
+ the youth of Fairview. Several small snakes and frogs are playing in a
+ large round pool.
+
+ Simon Asp is sleeping in a chair by the pool.
+
+>give card
+ Simon Asp is sleeping.
+
+>give coupon
+ Simon Asp is sleeping.
+
+>go west
+
+ North End of Walnut
+ Walnut Road ends here. To the west a locked gate leads into the
+ Ostracod Estate. To the east is Timmit Pool.
+
+>go south
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go east
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go east
+ There's no way past all the rubble.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ |  .   .   .---.---.--hen--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | cat-dog--.---#  cow--.---.---.   ~~~~~ |
+ |          |   |       |           ~~~~~ |
+ |          .  bat rat--.           ~~~~~ |
+ |          |           |           ~~~~~ |
+ |      .   .--ram     ant      .   ~~~~~ |
+ |      |   |           |       |   ~~~~~ |
+ | emu--.---.---.---.   .--pig--.   ~~~~~ |
+ |  |       |       |   |           ~~~~~ |
+ |  .   .---.--bee  .---.---.---.   ~~~~~ |
+ |      |           |       |       ~~~~~ |
+ |     fox         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go west
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go east
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go east
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go east
+
+ Zoltan's Restaurant
+ Small round tables with white tablecloths fill the large dining room.
+ Zoltan's is known for fine food, but it is strangely empty right now.
+ The exit is west.
+
+>give coupon
+ There isn't anyone here to give to.
+
+>give card
+ There isn't anyone here to give to.
+
+>go west
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "Now what the heck was it?" mutters Cornelia.
+
+>give card
+ Cornelia looks at Zoltan Reindeer's business card. "Is that what I
+ need? I think it might be. Although...no, probably not. I can't
+ remember."
+
+>give coupon
+ Cornelia looks at the luggage coupon. "Is that what I need? I think it
+ might be. Although...no, probably not. I can't remember."
+
+>give mirror
+ Cornelia looks at the shiny hand mirror. "Is that what I need? I think
+ it might be. Although...no, probably not. I can't remember."
+
+>inventory
+ You are carrying a ticket, a luggage coupon, Zoltan Reindeer's
+ business card, a shiny hand mirror, a sharpened pencil, and a pair of
+ earplugs.
+
+>give earplugs
+ Cornelia looks at the pair of earplugs. "Is that what I need? I think
+ it might be. Although...no, probably not. I can't remember."
+
+>give pencil
+ Cornelia looks at the sharpened pencil. "Is that what I need? I think
+ it might be. Although...no, probably not. I can't remember."
+
+>t
+ Cornelia says, "Oh, I remember! I need...I think...was it? No, it
+ wasn't." She shuffles her foot.
+
+>go east
+
+ Zoltan's Restaurant
+ Small round tables with white tablecloths fill the large dining room.
+ Zoltan's is known for fine food, but it is strangely empty right now.
+ The exit is west.
+
+>go west
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go north
+
+ North End of Willow
+ This is the north end of Willow Avenue. To the east you see an
+ abandoned drugstore.
+
+>go east
+
+ Drugstore
+ This little drugstore seems to be abandoned. The shelves are empty,
+ and there is no one here.
+
+>go west
+
+ North End of Willow
+ This is the north end of Willow Avenue. To the east you see an
+ abandoned drugstore.
+
+>go north
+ You can't go that way.
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      #---.         N   |
+ |          |           |           W-+-E |
+ |  .   .   .---.---.--hen--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | cat-dog--.---.  cow--.---.---.   ~~~~~ |
+ |          |   |       |           ~~~~~ |
+ |          .  bat rat--.           ~~~~~ |
+ |          |           |           ~~~~~ |
+ |      .   .--ram     ant      .   ~~~~~ |
+ |      |   |           |       |   ~~~~~ |
+ | emu--.---.---.---.   .--pig--.   ~~~~~ |
+ |  |       |       |   |           ~~~~~ |
+ |  .   .---.--bee  .---.---.---.   ~~~~~ |
+ |      |           |       |       ~~~~~ |
+ |     fox         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go south
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go east
+
+ Maple Street
+ Maple Street continues east and west.
+
+>go east
+
+ Maple Street
+ Maple Street ends here near Lake Horatio. To the north you see a
+ comfortable-looking brick house.
+
+>go north
+
+ Comfortable House
+ This is a well-furnished living room. The walls are hung with various
+ portraits. The exit is south.
+
+ Herman Yak sits in an armchair, holding a cup of tea.
+
+ Herman coughs.
+
+>give card
+ Herman Yak frowns and shakes his head.
+
+>give coupon
+ Herman looks surprised, but he takes the coupon and shuffles into
+ another room. He returns with a suitcase, which he gives to you.
+
+>go south
+
+ Maple Street
+ Maple Street ends here near Lake Horatio. To the north you see a
+ comfortable-looking brick house.
+
+>go west
+
+ Maple Street
+ Maple Street continues east and west.
+
+>go west
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "I need to start doing those memory exercises," says Cornelia.
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go west
+ You can't go that way.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>give suitcase
+ Professor Ram puts the suitcase in the machine. He pushes a large
+ black button. Sparks fly between the metal rods. A few seconds later,
+ he reaches in and pulls out a duffel bag. "Here you go," he says.
+
+ Just then you hear a buzzer, and the metal rods stop vibrating. "Out
+ of juice again," says the professor. "Don't worry, it should recharge
+ soon."
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go south
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go east
+
+ Post Office
+ This small post office features a counter and a wall of locked
+ mailboxes. A sign advertises same-day delivery to addresses in
+ Fairview.
+
+ Meg Bee is pacing nervously behind the counter.
+
+>give bag
+ "Oh!" says Meg. "That's not a regulation mail bag, so I might still
+ get in trouble, but I think it's big enough for all the mail, and it
+ looks easy to carry, and I bet it will work! So thank you!" She grabs
+ the duffel bag and shakes your hand gratefully. "I really want you to
+ have something in return! Uh, here!" She gives you a roll of packing
+ tape.
+
+ (You have helped twelve animals!)
+
+>go west
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go north
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go north
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go west
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+ Henrietta brushes some leaves off her shoulder.
+
+>go west
+
+ Cluttered Yard
+ Maple Street ends here in another front yard, which contains an
+ assortment of plastic flamingos, gnomes, birdbaths, and the like. An
+ overgrown hedge separates this yard from the one to the east. There is
+ a small green house to the north.
+
+ Jack Cat sits here in his lawn chair, reading the newspaper. An
+ umbrella is lying across his lap.
+
+ Jack yawns.
+
+>give tape
+ "Perfect!" says Jack, taking the roll of tape. He stands up, tapes the
+ umbrella to the back of his lawn chair, and opens it. Then he drops
+ back into the chair with a sigh of content. "You're the best," he
+ says.
+
+ (You have helped thirteen animals!)
+
+>inventory
+ You are carrying a ticket, Zoltan Reindeer's business card, a shiny
+ hand mirror, a sharpened pencil, and a pair of earplugs.
+
+>st
+ (You have been playing for 465 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ Rosina Emu, Tobias Rat, Hubert Ram, Janice Doe, Willard Fox, Meg Bee,
+ and Jack Cat.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+
+>go east
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+>go east
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go east
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go east
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>give ticket
+ Cornelia takes the ticket and tears it, and gives the stub back to
+ you. "Didn't you already give me a ticket?"
+
+>t
+ "Hmm," says the hen, "maybe...was it...yes? No. No? No. Yes. No."
+
+>st
+ (You have been playing for 473 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ Rosina Emu, Tobias Rat, Hubert Ram, Janice Doe, Willard Fox, Meg Bee,
+ and Jack Cat.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+
+>inventory
+ You are carrying a ticket stub, Zoltan Reindeer's business card, a
+ shiny hand mirror, a sharpened pencil, and a pair of earplugs.
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go south
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go south
+
+ Bridge
+ To the north, Little Oak Stream runs west to east, dividing Fairview
+ in half. A wide wooden bridge crosses the stream.
+
+ Werner Ant leans against a bridge post, looking calmly at the stream.
+
+ Werner nods approvingly at the bridge.
+
+>go south
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go south
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+>go west
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go north
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go east
+
+ Corncob Lane
+ Corncob Lane continues east and west.
+
+ Emily Pig is sitting by the side of the road, reading a small book
+ entitled McTransom: Master Detective.
+
+ Emily taps her chin thoughtfully.
+
+>t
+ "Thanks for the help!" says Emily. "When I'm done with this, I'm going
+ to go home and unpack!"
+
+>give pencil
+ Emily looks up. "Oh, thanks, but I don't want that."
+
+>give card
+ Emily looks up. "Oh, thanks, but I don't want that."
+
+>inventory
+ You are carrying a ticket stub, Zoltan Reindeer's business card, a
+ shiny hand mirror, a sharpened pencil, and a pair of earplugs.
+
+>give mirror
+ Emily looks up. "Oh, thanks, but I don't want that."
+
+>go east
+
+ End of Lane
+ Corncob Lane ends here by the shore of Lake Horatio. You see a small
+ house to the north. "E. P." is painted on the mailbox.
+
+>go north
+
+ Small House
+ This small house is painted blue and features a bookshelf filled with
+ detective novels. Two large suitcases stand next to the bed.
+
+>go south
+
+ End of Lane
+ Corncob Lane ends here by the shore of Lake Horatio. You see a small
+ house to the north. "E. P." is painted on the mailbox.
+
+>go west
+
+ Corncob Lane
+ Corncob Lane continues east and west.
+
+ Emily Pig is sitting by the side of the road, reading a small book
+ entitled McTransom: Master Detective.
+
+>go west
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go south
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+>go south
+
+ Town Entrance
+ You are at the main entrance to the town of Fairview. A large gate
+ leads out of town to the south, and a short path runs north to
+ Primrose Street.
+
+ Alfred P. Owl paces back and forth, murmuring worriedly.
+
+>t
+ "When you have helped the rest of the animals, I'll give you a fine
+ reward!"
+
+>give pencil
+ The owl shakes his head. "I'm afraid I have no use for that."
+
+>give card
+ The owl shakes his head. "I'm afraid I have no use for that."
+
+>inventory
+ You are carrying a ticket stub, Zoltan Reindeer's business card, a
+ shiny hand mirror, a sharpened pencil, and a pair of earplugs.
+
+>go south
+ But you haven't helped all the animals!
+
+>go north
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+>go west
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go west
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go west
+ You can't go that way.
+
+>go north
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go west
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+>go west
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go north
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>give card
+ Professor Ram puts Zoltan Reindeer's business card in the machine. He
+ pushes a large black button. Sparks fly between the metal rods. A few
+ seconds later, he reaches in and pulls out Herman Yak's business card.
+ "Here you go," he says.
+
+>go north
+ You can't go that way.
+
+ The professor adjusts a knob on the machine.
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go west
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+ Henrietta hums along with her clipping.
+
+>give card to dog
+ I only understood you as far as wanting to give Herman Yak's business
+ card.
+
+>give card
+ "I never want to see that two-bit charlatan again!" cries Henrietta,
+ waving her shears.
+
+>go west
+
+ Cluttered Yard
+ Maple Street ends here in another front yard, which contains an
+ assortment of plastic flamingos, gnomes, birdbaths, and the like. An
+ overgrown hedge separates this yard from the one to the east. There is
+ a small green house to the north.
+
+ Jack Cat sits here in his umbrella-shaded lawn chair, reading the
+ newspaper.
+
+>give card
+ "No thanks," laughs Jack. "In case you don't know, Herman Yak isn't
+ the most popular animal in town. He has lost more cases than I can
+ count. He should go back to his old job."
+
+>t
+ "Thanks for the umbrella," says Jack. "Now I can sit here all day."
+
+>give card
+ "No thanks," laughs Jack. "In case you don't know, Herman Yak isn't
+ the most popular animal in town. He has lost more cases than I can
+ count. He should go back to his old job."
+
+>go east
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+>go east
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go west
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go west
+
+ Classroom 4A
+ This is one of several classrooms at Fairview Elementary. It contains
+ about fifteen young animals, pretty well-behaved as it appears. You
+ can leave the school to the east or south.
+
+ Mrs. Rosina Emu stands in front of the class.
+
+>give card
+ Mrs. Emu huffs. "I'd give you my opinion, but I need to watch my
+ language here."
+
+>inventory
+ You are carrying Herman Yak's business card, a ticket stub, a shiny
+ hand mirror, a sharpened pencil, and a pair of earplugs.
+
+>go east
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go east
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go south
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go east
+
+ Post Office
+ This small post office features a counter and a wall of locked
+ mailboxes. A sign advertises same-day delivery to addresses in
+ Fairview.
+
+ Meg Bee is sorting letters behind the counter.
+
+ "That mail is gonna get delivered..." sings Meg.
+
+>give card
+ "Oh wow, I have heard a lot of things about Herman Yak, and basically
+ it's all bad, because he keeps losing everyone's cases, which is kind
+ of a problem when you're a lawyer."
+
+>go west
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go west
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go south
+
+ Fox's Automotive
+ This is the front office of an auto repair shop. A desk and table are
+ covered with work orders, and various keys hang from a rack on the
+ wall.
+
+ Willard Fox stands by the desk, examining a work order for Alfred P.
+ Owl.
+
+>give card
+ "Yeah, Herman Yak's car is here in the shop. He's not a very good
+ lawyer. He should probably go back to selling luggage."
+
+>give pencil
+ "No thanks," says Willard.
+
+>give mirror
+ "No thanks," says Willard.
+
+>go north
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go east
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go east
+
+ Post Office
+ This small post office features a counter and a wall of locked
+ mailboxes. A sign advertises same-day delivery to addresses in
+ Fairview.
+
+ Meg Bee is sorting letters behind the counter.
+
+>give mirror
+ "If you want to mail that, you'll have to pack it up and put stamps on
+ it and everything!"
+
+>give pencil
+ "If you want to mail that, you'll have to pack it up and put stamps on
+ it and everything!"
+
+>go west
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go north
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go east
+
+ Empty Lot
+ This lot is full of weeds and occasional pieces of trash, as well as a
+ large muddy puddle. You can see Walnut Road to the west. A small path
+ leads east through the weeds.
+
+>go east
+
+ Empty Lot
+ This empty lot is overgrown with weeds, but a small path leads west
+ through them. The cul-de-sac is to the south.
+
+>go south
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go south
+
+ Tool Emporium
+ The walls of this small shop are lined with tools. A sign hanging in
+ front of the counter says, "Today's Sale: Hammers only five bucks!"
+
+ Janice Doe sits behind the counter, applying some red hoof polish.
+
+ Janice hums softly.
+
+>give card
+ "He's a shyster, if you ask me."
+
+>give mirror
+ Janice glances in the mirror. "As good-looking as ever," she says.
+
+>give pencil
+ "No thanks, hon," says Janice.
+
+>go north
+
+ Cul-de-sac
+ Primrose Street ends here in a cul-de-sac. You see a shop to the south
+ and an empty lot to the north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+>go south
+
+ Town Entrance
+ You are at the main entrance to the town of Fairview. A large gate
+ leads out of town to the south, and a short path runs north to
+ Primrose Street.
+
+ Alfred P. Owl paces back and forth, murmuring worriedly.
+
+ "Dear, dear," says the mayor.
+
+>give card
+ "Ah yes," says the mayor, "one of our most, er, active attorneys."
+
+>give mirror
+ The owl shakes his head. "I'm afraid I have no use for that."
+
+>go north
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+>go west
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go north
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go north
+
+ Bridge
+ To the north, Little Oak Stream runs west to east, dividing Fairview
+ in half. A wide wooden bridge crosses the stream.
+
+ Werner Ant leans against a bridge post, looking calmly at the stream.
+
+>give mirror
+ "No thanks," says Werner. "I've got my hammer, and I'm content."
+
+>t
+ "Another job well done," says Werner. "Thanks for getting that
+ hammer."
+
+>give card
+ Werner shakes his head. "I know all about him."
+
+>give pencil
+ "No thanks," says Werner. "I've got my hammer, and I'm content."
+
+>go north
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go west
+
+ Museum
+ This is a very odd one-room museum. Shelves hold an assortment of
+ worthless-looking items. In the middle of the room is a large table
+ covered in black velvet, on which you see an old hubcap, a quarter, a
+ dinner plate, an orange frisbee, and a plastic hula hoop.
+
+ Tobias Rat stands next to the table, admiring his collection.
+
+>give card
+ "No thanks," says Tobias. "My uncle hired him once, and things didn't
+ turn out too well."
+
+>give pencil
+ "No, I couldn't take anything else from you!" says Tobias.
+
+>give mirror
+ "No, I couldn't take anything else from you!" says Tobias.
+
+>take plate
+ You won't need to GET or TAKE things in this game. (If something is
+ worth taking, you'll do it automatically.)
+
+>go east
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go north
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go west
+
+ Maple Street Rubble
+ Maple Street continues in both directions, but to the west it is
+ blocked by a huge pile of rubble.
+
+ Barbara Cow is banging on the rubble with a pickaxe.
+
+ Barbara shakes her head at the rubble. "Amateurs."
+
+>t
+ "Thanks for the helmet!" says Barbara.
+
+>give pencil
+ "No thanks," says Barbara Cow.
+
+>give card
+ Barbara laughs. "No thank you!"
+
+>give mirror
+ "No thanks," says Barbara Cow.
+
+>go west
+ There's still no way past all the rubble.
+
+>go east
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>give stub
+ Cornelia glances at the stub. "Head in anytime," she says.
+
+>inventory
+ You are carrying Herman Yak's business card, a ticket stub, a shiny
+ hand mirror, a sharpened pencil, and a pair of earplugs.
+
+>give earplugs
+ Cornelia looks at the pair of earplugs. "Is that what I need? I think
+ it might be. Although...no, probably not. I can't remember."
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go east
+
+ Maple Street
+ Maple Street continues east and west.
+
+>go east
+
+ Maple Street
+ Maple Street ends here near Lake Horatio. To the north you see a
+ comfortable-looking brick house.
+
+>go north
+
+ Comfortable House
+ This is a well-furnished living room. The walls are hung with various
+ portraits. The exit is south.
+
+ Herman Yak sits in an armchair, holding a cup of tea.
+
+>give card
+ Herman points at himself.
+
+>give earplugs
+ Herman Yak frowns and shakes his head.
+
+>give mirror
+ Herman Yak frowns and shakes his head.
+
+>give pencil
+ Herman Yak frowns and shakes his head.
+
+>write
+ That's not a command I recognize. Type HELP for command info.
+
+>go south
+
+ Maple Street
+ Maple Street ends here near Lake Horatio. To the north you see a
+ comfortable-looking brick house.
+
+>go west
+
+ Maple Street
+ Maple Street continues east and west.
+
+>go west
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "Now what the heck was it?" mutters Cornelia.
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>wait
+ Time passes.
+
+ "I need to start doing those memory exercises," says Cornelia.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+ "Now what the heck was it?" mutters Cornelia.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+ "I need to start doing those memory exercises," says Cornelia.
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go south
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go north
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go west
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go west
+
+ Classroom 4A
+ This is one of several classrooms at Fairview Elementary. It contains
+ about fifteen young animals, pretty well-behaved as it appears. You
+ can leave the school to the east or south.
+
+ Mrs. Rosina Emu stands in front of the class.
+
+>give stub
+ "No thank you," says Mrs. Emu, glancing at the ticket stub.
+
+>status
+ (You have been playing for 614 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ Rosina Emu, Tobias Rat, Hubert Ram, Janice Doe, Willard Fox, Meg Bee,
+ and Jack Cat.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Cornelia Hen can't seem to remember what she wants.
+ * Violet Bat wants relief from the noise she is hearing.
+
+>give pencil
+ "No thank you," says Mrs. Emu, glancing at the sharpened pencil.
+
+>give mirror
+ Mrs. Emu checks the mirror to make sure she hasn't missed anything
+ else.
+
+>go east
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go east
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go north
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go east
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go south
+
+ Little Oak Park
+ This pleasant park on the bank of Little Oak Stream is named after the
+ eight-foot tree that stands at its center. A sign describes the tree
+ as the "smallest oak in the four-county area."
+
+ Violet Bat is hanging from a light pole.
+
+>give mirror
+ Violet Bat is hanging out of reach.
+
+>give card
+ Violet Bat is hanging out of reach.
+
+>t
+ "I can't come down with all that noise!" says Violet. "Oh, my head!
+ Hanging upside-down helps a little."
+
+>t
+ "I can't come down with all that noise!" says Violet. "Oh, my head!
+ Hanging upside-down helps a little."
+
+>go north
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go west
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>t
+ "Those rods vibrate at a very high frequency. They would be extremely
+ loud, but fortunately you and I can't hear them."
+
+>give card
+ Professor Ram puts Herman Yak's business card in the machine. He
+ pushes a large black button. Sparks fly between the metal rods. A few
+ seconds later, he reaches in and pulls out Zoltan Reindeer's business
+ card. "Here you go," he says.
+
+>give card
+ Professor Ram puts Zoltan Reindeer's business card in the machine. He
+ pushes a large black button. Sparks fly between the metal rods. A few
+ seconds later, he reaches in and pulls out Herman Yak's business card.
+ "Here you go," he says.
+
+ Just then you hear a buzzer, and the metal rods stop vibrating. "Out
+ of juice again," says the professor. "Don't worry, it should recharge
+ soon."
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go east
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go south
+
+ Little Oak Park
+ This pleasant park on the bank of Little Oak Stream is named after the
+ eight-foot tree that stands at its center. A sign describes the tree
+ as the "smallest oak in the four-county area."
+
+ Violet Bat stands near a light pole, looking miserable.
+
+>give plugs
+ "You're a lifesaver!" cries Violet. She takes the plugs and jams them
+ in her ears. "I can't hear a thing now. What a relief." She sighs and
+ sits down on a park bench.
+
+ (You have helped fourteen animals!)
+
+>t
+ "I can't hear you, sorry!" says Violet.
+
+>give card
+ "No thanks!" says Violet.
+
+>give mirror
+ "No thanks!" says Violet.
+
+>inventory
+ You are carrying Herman Yak's business card, a ticket stub, a shiny
+ hand mirror, and a sharpened pencil.
+
+>give pencil
+ "No thanks!" says Violet.
+
+>status
+ (You have been playing for 647 turns. So far you have helped Emily
+ Pig, Werner Ant, Herman Yak, Henrietta Dog, Simon Asp, Barbara Cow,
+ Rosina Emu, Tobias Rat, Hubert Ram, Janice Doe, Willard Fox, Meg Bee,
+ Jack Cat, and Violet Bat.)
+
+ * Alfred P. Owl wants you to return after you have helped the
+ remaining animals.
+ * Cornelia Hen can't seem to remember what she wants.
+
+>inventory
+ You are carrying Herman Yak's business card, a ticket stub, a shiny
+ hand mirror, and a sharpened pencil.
+
+>go north
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go west
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>give ticket
+ Professor Ram puts the ticket stub in the machine. He pushes a large
+ black button. Sparks fly between the metal rods. A few seconds later,
+ he reaches in and pulls out a ticket. "Here you go," he says.
+
+>give me
+ You can only give something you're carrying. (Not yourself!)
+
+ The professor opens a panel and fiddles with something inside.
+
+>go north
+ You can't go that way.
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go east
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go east
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>give ticket
+ Cornelia cries, "Enough! Stop giving me tickets! What's the matter
+ with you?" She yanks the ticket from your hand.
+
+>t
+ Cornelia says, "Oh, I remember! I need...I think...was it? No, it
+ wasn't." She shuffles her foot.
+
+>inventory
+ You are carrying Herman Yak's business card, a shiny hand mirror, and
+ a sharpened pencil.
+
+>give card
+ Cornelia looks at Herman Yak's business card. "Is that what I need? I
+ think it might be. Although...no, probably not. I can't remember."
+
+>give pencil
+ Cornelia looks at the sharpened pencil. "Is that what I need? I think
+ it might be. Although...no, probably not. I can't remember."
+
+>give mirror
+ Cornelia looks at the shiny hand mirror. "Is that what I need? I think
+ it might be. Although...no, probably not. I can't remember."
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>look
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "Now what the heck was it?" mutters Cornelia.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+ "I need to start doing those memory exercises," says Cornelia.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+ "Now what the heck was it?" mutters Cornelia.
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>give mirror
+ Professor Ram puts the shiny hand mirror in the machine. He pushes a
+ large black button. Sparks fly between the metal rods. A few seconds
+ later, he reaches in and pulls out a tarnished hand mirror. "Here you
+ go," he says.
+
+>give pencil
+ Professor Ram puts the sharpened pencil in the machine. He pushes a
+ large black button. Sparks fly between the metal rods. A few seconds
+ later, he reaches in and pulls out an unsharpened pencil. "Here you
+ go," he says.
+
+ Just then you hear a buzzer, and the metal rods stop vibrating. "Out
+ of juice again," says the professor. "Don't worry, it should recharge
+ soon."
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go east
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go east
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>give pencil
+ Cornelia looks at the unsharpened pencil. "Is that what I need? I
+ think it might be. Although...no, probably not. I can't remember."
+
+>give mirror
+ Cornelia looks at the tarnished hand mirror. "Is that what I need? I
+ think it might be. Although...no, probably not. I can't remember."
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+ The professor adjusts a slider on the machine.
+
+>give card
+ Professor Ram puts Herman Yak's business card in the machine. He
+ pushes a large black button. Sparks fly between the metal rods. A few
+ seconds later, he reaches in and pulls out Zoltan Reindeer's business
+ card. "Here you go," he says.
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go east
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go south
+
+ Little Oak Park
+ This pleasant park on the bank of Little Oak Stream is named after the
+ eight-foot tree that stands at its center. A sign describes the tree
+ as the "smallest oak in the four-county area."
+
+ Violet Bat is sitting on a bench, looking out at the stream.
+
+>go west
+ You can't go that way.
+
+>go north
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go west
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go east
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go east
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>give card
+ Cornelia looks at Zoltan Reindeer's business card. "Is that what I
+ need? I think it might be. Although...no, probably not. I can't
+ remember."
+
+>map
+
+                  Fairview
+ +----------------------------------------+
+ |          .--asp      .---.         N   |
+ |          |           |           W-+-E |
+ |  .   .   .---.---.--HEN--.  yak    S   |
+ |  |   |   |           |       |   ~~~~~ |
+ | cat-dog--.---.  cow--.---.---.   ~~~~~ |
+ |          |   |       |           ~~~~~ |
+ |          .  bat rat--.           ~~~~~ |
+ |          |           |           ~~~~~ |
+ |      .   .--ram     ant      .   ~~~~~ |
+ |      |   |           |       |   ~~~~~ |
+ | emu--.---.---.---.   .--pig--.   ~~~~~ |
+ |  |       |       |   |           ~~~~~ |
+ |  .   .---.--bee  .---.---.---.   ~~~~~ |
+ |      |           |       |       ~~~~~ |
+ |     fox         doe     owl      ~~~~~ |
+ +----------------------------------------+
+
+>go north
+
+ North End of Willow
+ This is the north end of Willow Avenue. To the east you see an
+ abandoned drugstore.
+
+>go east
+
+ Drugstore
+ This little drugstore seems to be abandoned. The shelves are empty,
+ and there is no one here.
+
+>go west
+
+ North End of Willow
+ This is the north end of Willow Avenue. To the east you see an
+ abandoned drugstore.
+
+>go south
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "I need to start doing those memory exercises," says Cornelia.
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go east
+
+ Maple Street
+ Maple Street continues east and west.
+
+>go east
+
+ Maple Street
+ Maple Street ends here near Lake Horatio. To the north you see a
+ comfortable-looking brick house.
+
+>go east
+ You aren't dressed for swimming.
+
+>go west
+
+ Maple Street
+ Maple Street continues east and west.
+
+>go west
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go north
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>go east
+
+ Zoltan's Restaurant
+ Small round tables with white tablecloths fill the large dining room.
+ Zoltan's is known for fine food, but it is strangely empty right now.
+ The exit is west.
+
+>go west
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+ "Now what the heck was it?" mutters Cornelia.
+
+>go west
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go west
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go west
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go west
+ You can't go that way.
+
+>go south
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go west
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+ Henrietta adjusts her sun hat.
+
+>go north
+
+ Floral House
+ This quaint little house is decorated with carnation wallpaper, tulip
+ curtains, and a large vase of possibly fake irises. The exit is south.
+
+>go south
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+>go west
+
+ Cluttered Yard
+ Maple Street ends here in another front yard, which contains an
+ assortment of plastic flamingos, gnomes, birdbaths, and the like. An
+ overgrown hedge separates this yard from the one to the east. There is
+ a small green house to the north.
+
+ Jack Cat sits here in his umbrella-shaded lawn chair, reading the
+ newspaper.
+
+ Jack moves his lawn chair slightly.
+
+>go north
+
+ Cluttered House
+ It's not easy to maneuver inside this dwelling, because there are
+ piles of stuff everywhere: mostly books, but also half-assembled
+ furniture, electronic components, and cardboard boxes. On one wall
+ hangs a photo of two aged cats. The exit is south.
+
+>go south
+
+ Cluttered Yard
+ Maple Street ends here in another front yard, which contains an
+ assortment of plastic flamingos, gnomes, birdbaths, and the like. An
+ overgrown hedge separates this yard from the one to the east. There is
+ a small green house to the north.
+
+ Jack Cat sits here in his umbrella-shaded lawn chair, reading the
+ newspaper.
+
+>t
+ "Thanks for the umbrella," says Jack. "Now I can sit here all day."
+
+>t
+ "Thanks for the umbrella," says Jack. "Now I can sit here all day."
+
+>go east
+
+ Neat Yard
+ You are in the front yard of a small brick house that stands to the
+ north. Maple Street continues east and west. An overgrown hedge
+ separates this yard from the one to the west.
+
+ Henrietta stands next to the hedge, clipping away.
+
+ Henrietta hums along with her clipping.
+
+>t
+ "I just love clipping," says Henrietta.
+
+>t
+ "I just love clipping," says Henrietta.
+
+>go east
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go south
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go south
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go north
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go east
+
+ Laboratory
+ This large chamber is filled with worktables and various pieces of
+ apparatus. In the center stands a massive machine. Several long metal
+ rods stick up from the machine through a hole in the ceiling. They are
+ vibrating violently.
+
+ Professor Ram is examining his machine.
+
+>t
+ "Give me an object, and I'll stick it in the Alteratomatic. We'll see
+ what happens."
+
+>t
+ "This is my best invention so far." The professor pats his machine.
+
+>t
+ "Those rods vibrate at a very high frequency. They would be extremely
+ loud, but fortunately you and I can't hear them."
+
+>t
+ "Give me an object, and I'll stick it in the Alteratomatic. We'll see
+ what happens."
+
+>give mirror
+ Professor Ram puts the tarnished hand mirror in the machine. He pushes
+ a large black button. Sparks fly between the metal rods. A few seconds
+ later, he reaches in and pulls out a shiny hand mirror. "Here you go,"
+ he says.
+
+>give pencil
+ Professor Ram puts the unsharpened pencil in the machine. He pushes a
+ large black button. Sparks fly between the metal rods. A few seconds
+ later, he reaches in and pulls out a sharpened pencil. "Here you go,"
+ he says.
+
+ Just then you hear a buzzer, and the metal rods stop vibrating. "Out
+ of juice again," says the professor. "Don't worry, it should recharge
+ soon."
+
+>go west
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go south
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go west
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go north
+
+ Courthouse
+ You stand in the carved-wood foyer of the Fairview courthouse. There
+ is only one courtroom, and it seems to be empty.
+
+>go south
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go west
+
+ Classroom 4A
+ This is one of several classrooms at Fairview Elementary. It contains
+ about fifteen young animals, pretty well-behaved as it appears. You
+ can leave the school to the east or south.
+
+ Mrs. Rosina Emu stands in front of the class.
+
+ Mrs. Emu adjusts her glasses.
+
+>give pencil
+ "No thank you," says Mrs. Emu, glancing at the sharpened pencil.
+
+>go south
+
+ Playground
+ The Fairview Elementary playground is full of swings, seesaws, and
+ other familiar equipment. There is no one here right now.
+
+>go west
+ You can't go that way.
+
+>go north
+
+ Classroom 4A
+ This is one of several classrooms at Fairview Elementary. It contains
+ about fifteen young animals, pretty well-behaved as it appears. You
+ can leave the school to the east or south.
+
+ Mrs. Rosina Emu stands in front of the class.
+
+>go east
+
+ Juniper Lane
+ Juniper Lane runs east from here. An imposing courthouse stands to the
+ north, and to the west is a school: Fairview Elementary, according to
+ the sign.
+
+>go east
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go south
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go east
+
+ Post Office
+ This small post office features a counter and a wall of locked
+ mailboxes. A sign advertises same-day delivery to addresses in
+ Fairview.
+
+ Meg Bee is sorting letters behind the counter.
+
+ Meg shuffles some bins around.
+
+>t
+ "I really appreciate you going and doing whatever it was you had to do
+ to get me this bag!"
+
+>t
+ "I really appreciate you going and doing whatever it was you had to do
+ to get me this bag!"
+
+>go west
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go west
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go south
+
+ Fox's Automotive
+ This is the front office of an auto repair shop. A desk and table are
+ covered with work orders, and various keys hang from a rack on the
+ wall.
+
+ Willard Fox stands by the desk, examining a work order for Cornelia
+ Hen.
+
+>t
+ Willard taps the work order he's holding and shakes his head. "That
+ Cornelia Hen. Every time she brings her scooter in here, she's
+ forgotten what the problem is! But I find, if I just keep talking to
+ her long enough, she eventually remembers."
+
+>t
+ Willard taps the work order he's holding and shakes his head. "That
+ Cornelia Hen. Every time she brings her scooter in here, she's
+ forgotten what the problem is! But I find, if I just keep talking to
+ her long enough, she eventually remembers."
+
+>go north
+
+ Azalea Street
+ Azalea Street ends here. To the south you see what looks like an auto
+ repair shop.
+
+>go east
+
+ Outside Post Office
+ This is the south end of Walnut Road. Azalea Street starts here and
+ runs west. To the east is a post office.
+
+>go north
+
+ Juniper Intersection
+ Juniper Lane runs west from here, and Walnut Road continues north and
+ south. To the east you can see a lot of tall weeds.
+
+>go north
+
+ Outside Lab
+ Walnut Road continues its long journey north and south. To the east is
+ a concrete building with a sign that says LABORATORY.
+
+>go north
+
+ Another Bridge
+ This section of Walnut Road is quiet and peaceful. To the south, the
+ road crosses a bridge over Little Oak Stream.
+
+>go north
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go east
+
+ West Side of Rubble
+ Maple Street is interrupted here by a huge pile of rubble. On the
+ north side of the street you can see the foundation of what was a
+ large building. To the south a sign marks the entrance to Little Oak
+ Park.
+
+>go west
+
+ Maple Street Intersection
+ Walnut Road crosses Maple Street here. A statue in the middle of the
+ intersection is dedicated to Horatio J. Turkey, the founder of
+ Fairview. You may proceed in any direction.
+
+>go north
+
+ Walnut Road
+ This wide road is lined with small flowering shrubs. It runs north and
+ south, and a narrow alley leads east.
+
+>go east
+
+ Alley
+ This narrow alley runs behind the Footlight Theater. To the west you
+ see a wide road.
+
+>go east
+
+ Footlight Theater
+ This theater has an awful lot of red velvet, from the curtain to the
+ carpet to the seats. A poster advertises the currently running "Murder
+ in the Dell." The main doors are east, and to the west is another
+ smaller exit.
+
+>go east
+
+ Outside Theater
+ Here Willow Avenue passes between the Footlight Theater to the west
+ and Zoltan's Restaurant to the east.
+
+ Cornelia Hen stands in front of the theater, looking bewildered.
+
+>t
+ "Hmm," says the hen, "maybe...was it...yes? No. No? No. Yes. No."
+
+>t
+ Cornelia says, "Oh, I remember! I need...I think...was it? No, it
+ wasn't." She shuffles her foot.
+
+>t
+ "Hmm," says the hen, "maybe...was it...yes? No. No? No. Yes. No."
+
+>t
+ Cornelia says, "Oh, I remember! I need...I think...was it? No, it
+ wasn't." She shuffles her foot.
+
+>t
+ "Hmm," says the hen, "maybe...was it...yes? No. No? No. Yes. No."
+
+>t
+ Cornelia says, "Oh, I remember! I need...I think...was it? No, it
+ wasn't." She shuffles her foot.
+
+>t
+ "I don't know why this is so hard to remember," says Cornelia.
+
+>t
+ Cornelia says, "Oh, I remember! I need...I think...was it? No, it
+ wasn't." She shuffles her foot.
+
+>t
+ "Oh!" cries Cornelia. "Of course, I need a?wait, no, I already have a
+ bunch of those."
+
+>t
+ "Hmm," says the hen, "maybe...was it...yes? No. No? No. Yes. No."
+
+>t
+ "Oh!" cries Cornelia. "Of course, I need a?wait, no, I already have a
+ bunch of those."
+
+>t
+ Cornelia closes her eyes. "It couldn't have been that, or that...or
+ those. No, it definitely wasn't any of those things."
+
+>t
+ "Well, maybe I don't need anything after all. Except...no, I'm sure I
+ needed something."
+
+>t
+ "Oh!" shouts Cornelia. "A pencil! That's it! I need a pencil! I think
+ you already showed me one, didn't you?"
+
+>give pencil
+ "Yes!" shouts Cornelia. "Just what I need!" She pulls out a small
+ notebook. "This is my reminder book. I write important things it,
+ which is why I never forget them." She jots down a short note.
+
+ (You have helped fifteen animals! Go talk to the mayor!)
+
+>go south
+
+ Maple Street
+ A broad paved street runs east and west, and Willow Avenue continues
+ north and south.
+
+>go south
+
+ North Side of Bridge
+ Willow Avenue continues north. To the south, a bridge crosses Little
+ Oak Stream. A small building to the west has a sign that says
+ "Personal Museum."
+
+>go south
+
+ Bridge
+ To the north, Little Oak Stream runs west to east, dividing Fairview
+ in half. A wide wooden bridge crosses the stream.
+
+ Werner Ant leans against a bridge post, looking calmly at the stream.
+
+ "Pleasant day," says Werner.
+
+>go south
+
+ Corncob Lane
+ Corncob Lane runs east of here, and Willow Avenue continues north and
+ south.
+
+>go south
+
+ Primrose Street
+ This cobbled street runs east and west, and Willow Avenue leads north.
+
+>go east
+
+ Primrose Street
+ This cobbled street runs east and west, and a path leads south to the
+ town gate.
+
+>go south
+
+ Town Entrance
+ You are at the main entrance to the town of Fairview. A large gate
+ leads out of town to the south, and a short path runs north to
+ Primrose Street.
+
+ "You've done it!" cries the mayor as you approach. "You have saved the
+ town! You have ended the misery! My gratitude is boundless! I will
+ never forget your helping us at such a critical time. If you had not
+ appeared when you did, I don't know what we would have done! What can
+ I possibly do to repay you? No reward can be enough. But here, take
+ this!"
+
+ He gives you a signed autobiography.
+
+ (You have helped all sixteen animals!)
+
+>inventory
+ You are carrying a signed autobiography, a shiny hand mirror, and
+ Zoltan Reindeer's business card.
+
+>read autobiography
+ That's not a command I recognize. Type HELP for command info.
+
+>examine autobiography
+ You won't need to examine things in this game.
+
+>go north
+ It's time for you to leave Fairview.
+
+>go north
+ It's time for you to leave Fairview.
+
+>go south
+
+ You leave Fairview, pleased to have been helpful. Of course, you only
+ went there to take a walk, since your doctor has told you to walk
+ more. Hopefully 556 blocks is enough!
+
+
+
+     *** You have gotten a lot of exercise! ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the
+ last command?
+>quit

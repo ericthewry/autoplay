@@ -1,0 +1,2363 @@
+>load zebulon
+ GlkTADS - A text-only TADS 2.5.3 Interpreter.
+ TADS copyright (c) 1993, 2000 by Michael J. Roberts.
+
+ Uncle Zebulon's Will by Magnus Olsson (mol@df.lth.se)
+
+ The news of your uncle Zebulon's death came as a shock.  You've been
+ out of touch lately, and since you left for college a year ago you
+ haven't heard a word from him.  During your childhood, however, your
+ eccentric uncle - once the black sheep of the family, an unsuccessful
+ alchemist and self-proclaimed wizard, reputed to be a very wealthy man
+ - was your favourite relative.  Perhaps you were his favourite nephew
+ as well.  You miss his stories of distant realms and the magic gadgets
+ he loved to demonstrate...
+
+    You leave for home immediately on receiving the message, but the
+ trip is long and you're delayed by the inevitable train strikes.  When
+ you finally arrive, you find your family in a state of frustrated
+ confusion.  Not only is your uncle's will written in a quite unsuitably
+ sarcastic tone, seriously insulting most of your relatives, but it
+ turns out there isn't much of an inheritance to fight over; despite a
+ thorough search of your uncle's house, no fabulous treasures are found.
+ The bequests for you and your cousins are almost pathetic:  one small
+ memento each, to be selected after everybody else have made their
+ choices.  Yet what is there to lose?  At least you'd like to have one
+ last look at uncle Zeb's house; maybe you'll find some treasure
+ overlooked by the others, perhaps something magical...
+
+ Uncle Zebulon's Will, an Interactive Inheritance.
+ Release 2.0 / 960416
+
+ Copyright (c) 1995, 1996 by Magnus Olsson.  All rights reserved.
+ This game was awarded the first prize in the TADS section of the
+ First Annual IF Competition, 1995
+ Developed with TADS, the Text Adventure Development System.
+
+
+ Please type INFO for credits and general release information.
+
+
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+>look
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+> x rosebushes
+ Uncle Zebulon wasn't very much of a gardener, so the garden isn't
+ exactly a showpiece:  the lawn is shaggy, the flower beds full of
+ weeds, the rose bushes would need some trimming.  Still, it's a
+ pleasant place on a summer morning like this.
+
+>inventory
+ You are empty-handed.
+
+>xyzzy
+ Are you sure you're playing the right game?
+
+>search bushes
+ That isn't important.
+
+>examine me
+ You look about the same as always.
+
+>examine lawn
+ Uncle Zebulon wasn't very much of a gardener, so the garden isn't
+ exactly a showpiece:  the lawn is shaggy, the flower beds full of
+ weeds, the rose bushes would need some trimming.  Still, it's a
+ pleasant place on a summer morning like this.
+
+>inventory
+ You are empty-handed.
+
+ I don't know the word "damn".
+
+>examine shed
+ There's nothing unusual about Uncle Zebulon's garden shed:  it's a
+ windowless, ramshackle building that could do with a new coat of paint.
+
+>open shed
+ I don't know how to open the garden shed.
+
+>go north
+ The shed door opens only reluctantly, with a creaking sound from the
+ rusty hinges.
+
+ Shed
+    This shed was used by uncle Zebulon for his goldmaking:  strange
+ experiments that could often be smelt from across town, even occasional
+ explosions.  Your uncle spoke very little of his experiments, and never
+ showed any signs of making money out of them, yet people generally
+ assumed that they were successful and a source of great wealth.  In all
+ other matters, your family regarded uncle Zebulon as a useless dreamer,
+ even an embarrassment, but they took a certain reluctant pride in his
+ reputation as a goldmaker.
+
+    As a consequence of your relatives' frantic search for valuables,
+ the place is in an even greater mess than you remember.  The workbench
+ has been cleared of the usual odds and ends, and all even remotely
+ useful tools or utensils have been removed.  Large heaps of junk and
+ broken glass remain in the corners, and in the centre of the room is a
+ large, hideous statue of a three-eyed dog - probably some exotic idol
+ brought home from your uncle's travels.  You can't remember ever seeing
+ it before.
+
+    On the workbench you see a scrap of paper.
+
+>examine paper
+ It seems to be a torn-out page from a notebook, with a few lines of
+ writing on it.
+
+>examine dog
+ The statue is made of some dark, hard wood that must once have been
+ nicely polished but is now rather scratched and dented.  It depicts a
+ huge, hideous dog - even though it's sitting on its haunches, it's
+ still taller than you are - that seems to be staring in a slightly
+ melancholy way at the workbench, as if lamenting the mess.  It looks
+ very much out of place in this shed.
+    Apart from its general ugliness, one thing about the dog immediately
+ catches your attention:  for some unfathomable reason, it has three
+ eyes - two in the normal places, and one in the centre of its forehead.
+ There is also something very strange about its ears.
+
+ The centre eye socket contains a blue glass lens.
+
+>take lens
+ However much you try, you can't pry it loose from the statue's eye
+ socket.
+
+>examine ears
+ You can only look at one thing at a time.
+
+ Which ear do you mean, the dog's left ear, or the dog's right ear?
+
+ The dog's ears look as if they don't really belong to the statue, but
+ were added as an afterthought - and in a rather curious way as well.
+ In fact, it seems as if both ears are fastened so that they can turn
+ around their own axes. Curious indeed.
+
+>take scrap
+ Taken.
+
+>read it
+    "I'm a great step closer to the goal:  I have discovered an acid
+ that actually transmutes noble metals into base ones.  If only the
+ process could be reversed!"
+
+>turn left ear
+ As you turn the ear there is a distinct click.  A loud humming noise
+ comes from inside the statue, and a beam of blue light shoots out from
+ its centre eye, illuminating a circle in the centre of the workbench.
+ After a while, however, the light flickers and goes out, and the
+ humming sound stops.
+
+ Nothing happens.
+
+>turn left ear
+ As you turn the ear there is a distinct click.  A loud humming noise
+ comes from inside the statue, and a beam of blue light shoots out from
+ its centre eye, illuminating a circle in the centre of the workbench.
+ After a while, however, the light flickers and goes out, and the
+ humming sound stops.
+
+>examine circle
+ I don't see any circle here.
+
+>examine workbench
+ The marble surface of the workbench is pitted by acids, discoloured by
+ strange chemicals and still sooty in places from the explosions that
+ all too often ended uncle Zeb's experiments.  In the exact centre of
+ the workbench, a small bronze stand has been fastened to the surface.
+
+>examine stand
+ There's nothing on the bronze stand.
+
+>put scrap on bench
+ Done.
+
+>turn left ear
+ As you turn the ear there is a distinct click.  A loud humming noise
+ comes from inside the statue, and a beam of blue light shoots out from
+ its centre eye, illuminating a circle in the centre of the workbench.
+ After a while, however, the light flickers and goes out, and the
+ humming sound stops.
+
+>examine junk
+ You search through the junk for a while, but find nothing interesting,
+ just lots of broken glassware, old newspapers, fragments of burned
+ wood, large clumps of slag, you name it.
+
+>examine newspapers
+ You search through the junk for a while, but find nothing interesting,
+ just lots of broken glassware, old newspapers, fragments of burned
+ wood, large clumps of slag, you name it.
+
+>examine stand
+ There's nothing on the bronze stand.
+
+>get scrap
+ Taken.
+
+>put it on stand
+ Done.
+
+>turn left ear
+ As you turn the ear there is a distinct click.  A loud humming noise
+ comes from inside the statue, and a beam of blue light shoots out from
+ its centre eye, illuminating a circle in the centre of the workbench.
+ After a while, however, the light flickers and goes out, and the
+ humming sound stops.
+
+>go south
+ Garden
+
+>go east
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    The demon is picking his claws with a rather nasty-looking dagger.
+
+>examine demon
+ If you remember your Basic Demonology classes correctly, he must be a
+ member of one of the lower castes of familiar demons, usually employed
+ as servants by wizards.  As demons go, this one isn't very big or
+ dangerous-looking.  Indeed, he looks positively benign (for a demon,
+ that is:  he still looks pretty mean by human standards).  Of course,
+ all this still doesn't mean that he's to be messed with.
+
+>talk to demon
+ I don't know the word "talk".
+
+>demon, hi
+ The demon quite pointedly ignores you, apparently preferring to study
+ some interesting spots on the floor.
+
+>ask demon about demon
+ "Oh, don't mind me.  Just pretend I'm the milkman or something."
+
+>ask demon about milkman
+ I don't know the word "milkman".
+
+>ask demon about milk
+ I don't know the word "milk".
+
+>ask demon about uncle
+ "He wasn't too bad, really, at least not for a human."
+
+>ask demon about me
+ The demon looks at you a bit quizzically and starts to say something,
+ but changes his mind and just shrugs instead.
+
+>ask demon about gold
+ The demon starts humming a merry little demon song, pretending not to
+ hear you.
+
+>examine dagger
+ The demon's dagger isn't important.
+
+>ask demon about dagger
+ The demon puts his dagger away (seemingly into thin air), pulls out a
+ newspaper (also out of thin air) and opens it.  "Sorry, did you say
+ something?"
+
+>ask demon about alchemy
+ I don't know the word "alchemy".
+
+>examine newspaper
+ The demon's newspaper isn't important.
+
+>ask demon about newspaper
+ The demon rolls up his newspaper into a ball which he throws over his
+ shoulder, where it disappears with a loud pop, and instead pulls out a
+ dagger out of thin air and starts picking his claws.  He gives no sign
+ of having heard you.
+
+>examine chair
+ The rocking chair isn't important.
+
+>door
+ There's no verb in that sentence!
+
+>examine door
+ It's closed.
+
+>open it
+ Opened.
+
+>go east
+ As you walk past the demon (slightly apprehensively, of course, you
+ never know with demons), he nods at you.  "Let's see, you must be
+ Richard, right?  My late master hasn't treated you very generously in
+ his will, has he?"  He quickly checks a list.
+    "Let's see.  You're allowed to take one thing - not more - from the
+ house through this door.  Of course, your relatives have pretty much
+ scoured the place for valuables, so I'm afraid there's not very much
+ left for you."  For a moment, you imagine you can trace some genuine
+ pity in the demon's expression; however, it soon returns to his usual
+ sneer.  "Not that they found very much of value, either.  You should
+ have seen their faces when they realized the house wasn't filled with
+ gold..."
+    The demon starts to wave you past, when he suddenly seems to
+ remember something.  "Ah, yes, this is for you," he says off-handedly,
+ holding out a letter towards you.
+
+>take letter
+ Taken.
+
+>read it
+ The letter is written in uncle Zebulon's familiar hand.
+    "My dear Richard,
+ When you read this, I'm afraid I'll have left this world for good.  By
+ now you should have heard of my will and of the little jokes I have
+ played on your relatives.  I am sure they are all furious; they had
+ hoped for far more.  Perhaps you too are angry with me, perhaps you
+ think I should have been more generous towards you?
+    Well, let me tell you this:  you've always been my favourite nephew,
+ because we share (I hope) the same basic outlook on life:  it's all a
+ rather cruel game, with rules that are there to be circumvented.
+ Playing fair doesn't mean you shouldn't do the unexpected!  I don't
+ want to openly favour you before your cousins, but I think you're far
+ more likely than they are to exploit the advantages of the situation.
+ You may call it a little test, or game, or whatever.  My final advice
+ to you is:  follow the rules by the letter and you may find that new
+ possibilities open up.
+
+                Your affectionate uncle, Zeb."
+
+
+ [Your score just went up 5 points]
+
+>ask demon about rules
+ I don't know the word "rules".
+
+>drop all
+ letter:  Dropped.
+
+>inventory
+ You are empty-handed.
+
+>go east
+ The demon lets you past with a slightly amused sneer.
+
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+    You see a lead coin here.
+
+ As soon as you enter you realize, with a sinking feeling, just how
+ thoroughly your relatives have searched the house for valuables -
+ basically everything of value has been removed.  The coin on the floor
+ must have been dropped there by oversight.
+
+ Lead may not the most practical of materials for coinmaking, but this
+ coin is actually made of grey, soft lead.  Not only the metal, but also
+ the shape, of the coin is unusual:  it's octagonal.  It bears the image
+ of a trident, surrounded by curious letters you can't read.
+    (In fact, this coin happens to be a genuine quarter-frob piece from
+ the country of Frobnizzia.  The Frobnizzian coins are notable for the
+ great variety of materials used in making them; especially notable is
+ the one-gnark coin (one gnark being equal to 27 2/3 frobs), which was a
+ granite disk two feet in diameter.  The size and weight of this coin
+ were intended to deter purse-snatchers; unfortunately, they had other
+ effects as well, such as being the major cause of the collapse of the
+ Frobnizzian economy.)
+
+>take coin
+ Taken.
+
+>go north
+ (Opening the kitchen door)
+ Kitchen
+    The kitchen is probably tidier now than it ever was during uncle
+ Zebulon's lifetime.  The well-worn pine table and the large cupboard
+ are still there, but all traces of atmosphere seem to have vanished
+ along with the piles of unwashed dishes.  Your relatives have evidently
+ been hard at work, removing all the kitchenware and utensils, even the
+ iron stove.  They've left the kitchen sink behind, though - probably by
+ oversight.
+    You see a large carrot here.
+
+>take carrot
+ Taken.
+
+>eat it
+ The large carrot looks rather dry and doesn't seem very appetizing.  It
+ doesn't smell very appetizing either.  Come to think of it, you're not
+ very hungry.
+
+>examine sink
+ It's just an old, rather dirty, kitchen sink of galvanized iron.  There
+ are no taps - uncle Zebulon never bothered to install running water,
+ but used to fetch his from the village well.
+
+>open cupboard
+ Opening the cupboard reveals a blue bottle.
+
+>take bottle
+ Taken.
+
+>examine it
+ This bottle has an unusually wide neck - almost two centimetres in
+ diameter - and is made of thick glass of a beautiful, deep blue colour.
+ You estimate that it will hold about half a litre of liquid.  It seems
+ to contain a silver coin.
+
+>examine table
+ The kitchen table isn't important.
+
+>get silver coin
+ Taken.
+
+>examine it
+ This coin, a Frobnizzian nineteen-frob piece, is hexagonal and made of
+ silver.  It bears the picture of a crescent.
+
+>flip it
+ I don't know how to flip the silver coin.
+
+>go north
+ The only exit is the door back to the hall, to the south.
+
+>go south
+ Hall
+
+>go north
+>verbose
+ Kitchen
+
+ Okay, now in VERBOSE mode.
+ Kitchen
+    The kitchen is probably tidier now than it ever was during uncle
+ Zebulon's lifetime.  The well-worn pine table and the large cupboard
+ are still there, but all traces of atmosphere seem to have vanished
+ along with the piles of unwashed dishes.  Your relatives have evidently
+ been hard at work, removing all the kitchenware and utensils, even the
+ iron stove.  They've left the kitchen sink behind, though - probably by
+ oversight.
+
+>look under table
+ The kitchen table isn't important.
+
+>examine sink
+ It's just an old, rather dirty, kitchen sink of galvanized iron.  There
+ are no taps - uncle Zebulon never bothered to install running water,
+ but used to fetch his from the village well.
+
+>take sink
+ You can't have the kitchen sink.
+
+>look in sink
+ It's just an old, rather dirty, kitchen sink of galvanized iron.  There
+ are no taps - uncle Zebulon never bothered to install running water,
+ but used to fetch his from the village well.
+
+>look in drain
+ I don't understand that sentence.
+
+>go south
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+
+>go south
+ (Opening the south door)
+ Study
+    You are in what uncle Zebulon used to call his study, but which also
+ doubled as his bedroom.  You remember this room as being full of books:
+ bookshelves crammed with them, books on the overflowing desk, stacks of
+ books on the floor.
+    Now, the bookshelves gape empty; the narrow, rickety bed is gone, as
+ are the soft carpets.  Only your uncle's desk remains, along with the
+ smell of old books and stale tobacco smoke.  The only door leads north,
+ back into the hall.
+    On the desk you see a book and a crystal ball.
+
+>smell
+ I don't know the word "smell".
+
+>examine book
+>take book
+ As you open the book and flip through the pages, you find that it's a
+ piece of interactive fiction:  a magic, heavily enchanted book where
+ the entire story changes in response to choices made by the reader.
+    This particular one happens to be one of the great classics of the
+ genre:  'Dork', the story of a young man entering a great underground
+ computing centre, vanquishing the evil Hacker of Foobar, and finally
+ becoming System Manager.  Of course, the story may sound a bit childish
+ - everyone knows that computers only exist in fairytales and that
+ hackers are purely mythical creatures - but it's still immensely
+ popular.
+
+ As you close the book again, a sheet of paper falls out of it and
+ flutters to the ground.
+
+ [Your score just went up 5 points]
+
+ Taken.
+
+>take paper
+ Taken.
+
+>examine it
+ On the paper, the following text is written in uncle Zebulon's neat,
+ regular hand:
+
+    The FIRST PORTAL deceives us all
+    By making pairs of singles
+    A perfect match!  Yet all illusion
+    A total likeness!  And yet
+    As different as left from right
+    Forever kept apart by glass
+    Until the touch of magic stars
+    Turns glass to air
+    And image to reality
+
+    When the light of the Moon illuminates
+    The Sun that never shines
+    Then open will the SECOND PORTAL
+    A dark, forbidding one, that scares
+    And rightly so!  Yet victory
+    Awaits the one who enters it
+
+    The THIRD and FINAL PORTAL stands
+    In a lone and dreary waste beyond the worlds
+    Gateway to great adventures
+    Guarded by Gods of Time and War and Love
+    An offering for each, and you may pass
+    Each gift should match one guardian.
+
+ You can't help thinking that while Uncle Zebulon may have been a great
+ storyteller, he was clearly an inferior poet.
+
+>examine ball
+ It's about fifteen centimetres in diameter.  Unlike ordinary crystal,
+ it doesn't sparkle in the light; instead, it seems to glow with a misty
+ radiance.  You feel an almost irresistible urge to gaze into it, as if
+ you were some common fortune-teller.
+
+>look in ball
+ The interior of the crystal ball is surprisingly cloudy, almost as if
+ you were looking into murky water.  Soon, however, the mist seems to
+ clear, giving place to an image of uncle Zebulon putting coins into a
+ bottle.
+    Presently, the vision fades away, and the crystal gets cloudy again.
+
+>look in ball
+ The interior of the crystal ball is surprisingly cloudy, almost as if
+ you were looking into murky water.  Soon, however, the mist seems to
+ clear, giving place to an image of yourself searching through a large
+ packing crate.
+    Presently, the vision fades away, and the crystal gets cloudy again.
+
+>look in ball
+ The interior of the crystal ball is surprisingly cloudy, almost as if
+ you were looking into murky water.  Soon, however, the mist seems to
+ clear, giving place to an image of a young girl throwing a coin into a
+ well, making a wish with her eyes closed.
+    Presently, the vision fades away, and the crystal gets cloudy again.
+
+>look in ball
+ The interior of the crystal ball is surprisingly cloudy, almost as if
+ you were looking into murky water.  Soon, however, the mist seems to
+ clear, giving place to an image of uncle Zebulon aiming a wand at a
+ large carrot.  The carrot turns into a very surprised-looking rabbit.
+ Uncle Zebulon chuckles.
+    Presently, the vision fades away, and the crystal gets cloudy again.
+
+>look in ball
+ The interior of the crystal ball is surprisingly cloudy, almost as if
+ you were looking into murky water.  Soon, however, the mist seems to
+ clear, giving place to an image of yourself looking into a crystal
+ ball.
+    Presently, the vision fades away, and the crystal gets cloudy again.
+
+>examine desk
+ The desk looks rather bare without all the stacks of papers and books
+ that used to cover it (uncle Zebulon always had to clear off part of it
+ when he wanted to write).  It is made of oak and has a single drawer,
+ which is closed.
+    On the desk you see a crystal ball.
+
+>open drawer
+ Opening the drawer reveals a green glass lens.
+
+>examine lens
+ It's about ten millimetres in diameter.
+
+>get lens
+ Taken.
+
+>search desk
+ The desk looks rather bare without all the stacks of papers and books
+ that used to cover it (uncle Zebulon always had to clear off part of it
+ when he wanted to write).  It is made of oak and has a single drawer,
+ which is open.
+    On the desk you see a crystal ball.
+
+>look under desk
+ There's nothing under the desk.
+
+>get ball
+ Taken.
+
+>put coins in bottle
+ You can only do that to one thing at a time.
+
+>put silver coin in bottle
+ Done.
+
+>put lead coin in bottle
+ Done.
+
+>examine bookshelves
+ There's nothing on the bookshelves.
+
+>move bookshelves
+ You can't move the bookshelves.
+
+>examine door
+ It's open.
+
+>go north
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+
+>go east
+ (Opening the east door)
+ Sitting room
+    After your relatives have gone over it, uncle Zebulon's sitting room
+ looks curiously empty.  Most of the furniture has been removed.  Of all
+ the things that used to give the room its atmosphere, just a few,
+ obviously not very valuable ones, remain:  the old armchair where you
+ used to sit and watch uncle Zebulon entertain you with his magic (or
+ "conjuring tricks", as your down-to-earth parents preferred to call
+ it), your uncle's pipe rack, the large mirror on the north wall.
+    You see a green bottle here.
+
+>examine rack
+ It's empty.  Apparently, there's a keen smoker among your relatives.
+
+>examine green
+ Which green do you mean, the green glass lens, or the green bottle?
+
+>bottle
+ This bottle has an unusually wide neck - almost two centimetres in
+ diameter - and is made of thick glass of a beautiful, sea-green colour.
+ You estimate that it will hold about half a litre of liquid.  A neatly
+ handwritten label says 'FILL ME'.  The bottle is empty.
+
+>get green bottle
+ Taken.
+
+>search rack
+ The pipe rack isn't important.
+
+>examine chair
+ It may not be a great looker, but this battered old armchair has always
+ been your fave piece of furniture.  On stormy autumn nights you'd relax
+ in its comfy depths, cosy in front of the roaring fire, while your
+ uncle would tell you the most hair-raising ghost stories or entertain
+ you with some magic tricks (which you steadfastly insisted were real
+ magic, even though your parents tried hard to convince you they were
+ just sleight of hand).
+    Even today, a decade later, you feel an almost irresistible urge to
+ sit in that armchair once more, just to recall the feeling of those
+ long-gone days.
+
+>sit in chair
+ You lower yourself into the cosy armchair and relax with a contented
+ sigh.  However, it doesn't seem as comfortable as you recall it.
+ Strange...
+    After a while, you realize that you're sitting on something hard.
+ There seems to be something hidden within the armchair.
+
+>search chair
+ You find a magic wand hidden deep inside the armchair.
+
+ (Don't feel too smug about it, though; I suppose nobody could have sat
+ in the armchair without feeling the wand.)
+
+>examine wand
+ This looks like a typical magic wand of the sort used by every wizard
+ around the country:  a narrow, tapering rod, about thirty centimetres
+ long, and made of some dark wood, probably ebony.  Your uncle used to
+ have several, and you've often seen him point them at things, with
+ various interesting results.
+
+>point wand at carrot
+ But you aren't carrying the magic wand!
+
+>take wand
+ Taken.
+
+>point wand at carrot
+ The wand sputters, emitting a stream of brilliantly shining stars.  The
+ stars collect in a cloud around the carrot, which starts to undergo a
+ curious transformation, growing smaller and rounder and redder and...
+ When the stars gradually fade away, you see that the carrot has turned
+ into a big, succulent tomato.  Amazing - you must have found a wand of
+ Vegetable Polymorphism!
+
+>point wand at tomato
+ The wand sputters, emitting a stream of brilliantly shining stars that
+ strike the tomato and explode with little popping noises.  The tomato
+ starts to elongate, its colour changing into orange, and has sooned
+ turned back into a carrot.  Those wands of Vegetable Polymorphism may
+ be pretty useless, but they are great fun, aren't they?
+
+>examine mirror
+ You're a bit surprised that your relatives left this mirror behind,
+ since it's probably quite valuable, or at least old.  Perhaps its size
+ has something to do with it:  it's almost a metre wide and taller than
+ you are.  When you were a kid you used to fantasize about this being a
+ magic mirror, and you imagined that when looking into it you could see
+ into another world.
+
+>look in mirror
+ You can't reach that from the armchair.
+
+>stand
+ Okay, you're no longer in the armchair.
+
+>look in mirror
+ The glass is old and slightly flawed, so the image isn't as crisp as
+ you'd expect from a newer mirror.  Your reflection looks like you, yet
+ somehow like a different person, more cynical, with a slightly cunning
+ look.  The old glass makes it hard to make out all the detail, but the
+ reflection of the room behind you looks slightly different, too.
+
+>examine reflection
+ I don't know the word "reflection".
+
+>save
+ Enter data file to store:
+>cf1
+ Saved.
+
+>point wand at mirror
+ The wand sputters, emitting a stream of brilliantly shining stars.
+ Amazingly, the stars seem to pass straight through the mirror.  They
+ strike your mirror image, which is standing there with a wand in its
+ hand, looking at you with a slightly silly expression.  With a strange,
+ tearing sound, your mirror image wavers and disappears.
+    Shocked, you look again.  Sure, you can see the mirror image of the
+ room, and everything in it, but not your own image.  You take a quick
+ look down at yourself, just to check - yes, you're still visible.
+ Running up to check the mirror, you realize that the glass is gone; the
+ empty frame forms a portal into a room behind, where no room ought to
+ be.
+
+ [Your score just went up 10 points]
+
+>in
+ (the mirror)
+ Feeling like Alice in Wonderland, you step through the empty mirror
+ frame.  A curious wrenching sensation passes through your body, as if
+ you've been disassembled into atoms and then rapidly put together
+ again.
+
+ Moor gnittis
+    Well, what do you call a perfect mirror image of a sitting room?
+ Superficially, this room looks exactly like its counterpart on the
+ other side of the mirror, except for the eerie fact that everything's
+ inverted, of course; there's an armchair, and a pipe rack, an empty
+ mirror frame on the south wall, and a wooden door leading west.
+    You see a small glass flask here.
+
+    This room shouldn't be here at all.  After all, you've seen your
+ uncle's house from the outside many times, and it simply isn't large
+ enough to accommodate one more room...
+
+>examine flask
+ This is a small glass flask, of the type often found in alchemistry
+ labs.  It contains a quantity of greenish liquid.
+
+>take it
+ Taken.
+
+>examine rack
+ It looks exactly like its counterpart on the other side of the mirror.
+
+>examine chair
+ It looks exactly as its counterpart on the other side of the mirror,
+ only inverted.  For example, the large stain on the right armrest is on
+ the left one - or is it the other way round?
+
+>sit on chair
+ The armchair isn't important.
+
+>examine door
+ It's closed.
+
+>open door
+ Opened.
+
+>go west
+ You are quite a bit surprised to find that the door leads not to a
+ mirror image of the hall, but to a narrow spiral staircase that leads
+ up a circular stairwell with stone walls, and through a hole in the
+ ceiling.
+
+ Tower room
+    You are in a rather small, circular room that seems to be the top
+ floor of a high tower.  Four large windows, one in each compass
+ direction, give you a panoramic view of a wild and marvellous
+ landscape:  a mountain range of impossibly steep crags to the north; to
+ the west, the sea; to the south and east a wide, sandy desert.  Far
+ away to the southwest, where the sea meets the desert, stands a
+ fantastic fairy-tale city of marble and shimmering gold, needle-sharp
+ spires and bulbous crystal domes.  The scene is illuminated not by the
+ sun, but by cold starlight from a sky like black velvet studded with
+ diamonds; nameless stars in constellations you don't recognize.
+
+    In the centre of the room is a narrow marble pedestal that supports
+ a curious mechanism.  A spiral staircase leads down.
+    You see a scroll here.
+
+>examine mechanism
+ This beautiful piece of intricate machinery seems to be a model of the
+ solar system.  On a large disk of black marble, studded with silver
+ stars, the orbits of the planets are laid out as narrow tracks.  The
+ planets are represented by small disks of precious stones that move,
+ ever so slowly, along their tracks, driven by some hidden clockwork.
+ In the centre of the disk is the sun:  a golden ball, resting on a
+ small bronze stand.
+
+>take ball
+ Taken.
+
+>examine ball
+ Which ball do you mean, the crystal ball, or the gold ball?
+
+>gold
+ It's the size of a large marble - about a centimetre and a half in
+ diameter - and surprisingly heavy.  Surely it can't be made of solid
+ gold?
+
+>examine city
+ The city is too far away for you to see very much detail, but it
+ doesn't resemble any city you've ever seen.  Despite its breathtaking
+ beauty, something about it seems wrong; it's brightly lit, yet seems
+ curiously devoid of life.  If only you could get there to
+ investigate...
+
+>examine scroll
+ The scroll is a rolled-up piece of rather thick paper.  To your
+ amazement, you notice that there's something written on it, and in
+ uncle Zebulon's handwriting (what a surprise!).
+
+>take it
+ Taken.
+
+>read it
+ My dear nephew,
+
+    I'm glad that you've discovered the way through the mirror, and into
+ my secret tower.  It's here, in the realm you can see from the windows,
+ that I've spent most of my time the last few years, the time you and
+ your relatives thought I was just pent up inside my house.  I may not
+ have collected much gold and belongings in your world, but in the world
+ of Vhyl and the city of Cyr-Dhool are treasures beyond belief and
+ adventures that surpass your wildest dreams.
+
+    The portal to Vhyl is hidden, but I have no doubt that you will find
+ it.  Once you've opened it, and passed the portal that's beyond it,
+ your true inheritance awaits you, at the end of a quest I shall never
+ have the time to finish.  Your relatives have no doubt already removed
+ what little there is of value in my house; what they have left behind,
+ however, may be of more use to you.
+
+            With hope of your success,
+                your affectionate uncle,
+                        Zebulon
+
+>examine pedestal
+ The pedestal is about a metre high and not very interesting; the
+ mechanism that's resting on top of it is, though.
+
+>examine stars
+ You don't recognize the constellations.  You must be very far indeed
+ from home.
+
+>go east
+ The only way out is via the stairs.
+
+>go down
+ Moor gnittis
+    Well, what do you call a perfect mirror image of a sitting room?
+ Superficially, this room looks exactly like its counterpart on the
+ other side of the mirror, except for the eerie fact that everything's
+ inverted, of course; there's an armchair, and a pipe rack, an empty
+ mirror frame on the south wall, and a wooden door leading west.
+
+>examine rack
+ It looks exactly like its counterpart on the other side of the mirror.
+
+>search armchair
+ The armchair isn't important.
+
+>go west
+ Tower room
+    You are in a rather small, circular room that seems to be the top
+ floor of a high tower.  Four large windows, one in each compass
+ direction, give you a panoramic view of a wild and marvellous
+ landscape:  a mountain range of impossibly steep crags to the north; to
+ the west, the sea; to the south and east a wide, sandy desert.  Far
+ away to the southwest, where the sea meets the desert, stands a
+ fantastic fairy-tale city of marble and shimmering gold, needle-sharp
+ spires and bulbous crystal domes.  The scene is illuminated not by the
+ sun, but by cold starlight from a sky like black velvet studded with
+ diamonds; nameless stars in constellations you don't recognize.
+
+    In the centre of the room is a narrow marble pedestal that supports
+ a curious mechanism.  A spiral staircase leads down.
+
+>undo
+ (Undoing one command)
+
+ Moor gnittis
+    Well, what do you call a perfect mirror image of a sitting room?
+ Superficially, this room looks exactly like its counterpart on the
+ other side of the mirror, except for the eerie fact that everything's
+ inverted, of course; there's an armchair, and a pipe rack, an empty
+ mirror frame on the south wall, and a wooden door leading west.
+
+>go south
+ Feeling like Alice in Wonderland, you step through the empty mirror
+ frame.  A curious wrenching sensation passes through your body, as if
+ you've been disassembled into atoms and then rapidly put together
+ again.
+
+ Sitting room
+    After your relatives have gone over it, uncle Zebulon's sitting room
+ looks curiously empty.  Most of the furniture has been removed.  Of all
+ the things that used to give the room its atmosphere, just a few,
+ obviously not very valuable ones, remain:  the old armchair where you
+ used to sit and watch uncle Zebulon entertain you with his magic (or
+ "conjuring tricks", as your down-to-earth parents preferred to call
+ it), your uncle's pipe rack, the large mirror on the north wall.
+
+>go west
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+
+>go up
+ (Opening the trapdoor)
+ Attic
+    You remember spending long hours as a child exploring the mysterious
+ treasures of uncle Zebulon's attic:  looking through old sea-chests
+ full of exotic souvenirs from your uncle's travels, trying on curious
+ old clothes, hiding under strange pieces of furniture - and upsetting
+ your mother when returning home covered in dust and with cobwebs in
+ your hair.  That was long ago, however; now, the attic just seems like
+ a depressingly untidy storage space full of old junk and devoid of any
+ mystery.  Besides, it seems as if anything even remotely interesting or
+ valuable has been carried away.  A trapdoor in the floor leads down.
+    You see a packing crate and an old brass plate here.
+
+ As your head emerges through the trapdoor, you are greeted by a cloud
+ of dust that makes you sneeze.
+
+>examine crate
+ The packing crate is closed.
+
+>open it
+ Opening the packing crate reveals some wood shavings.
+
+>search shavings
+ You burrow through the wood shavings, raising a lot of dust in the
+ process, when your hand touches something hard.  It seems you've found
+ a small teak box.
+
+>get teak box
+ Taken.
+
+>examine it
+ This small box is made of exquisitely crafted teak wood, with a highly
+ polished surface.  It is closed.
+
+>open it
+ Opening the small teak box reveals a red glass lens.
+
+>examine plate
+ It's an old, rather thin plate of Indian brass, slightly dented and
+ probably not worth very much.  On the tarnished surface you can just
+ barely make out a rather clumsy depiction of a scorpion and some stars
+ - probably an astrological reference, since the following text is
+ engraved on the back side:
+
+    GOLD    The Sun, Ruler of the Daylit Sky
+    SILVER  Luna, Mistress of the Night
+    MERCURY Wing-footed Messenger of the Gods
+    COPPER  Venus, Carnal Love
+    IRON    Mars, Blood-red Bringer of War
+    TIN     Jupiter, Ruler of the Gods
+    LEAD    Saturn, Lord of Time Itself
+
+>inventory
+ You have a blue bottle, a book, a sheet of writing paper, a green glass
+ lens, a crystal ball, a green bottle, a magic wand, a large carrot, a
+ small glass flask, a gold ball, a scroll, and a small teak box.  The
+ blue bottle seems to contain a silver coin and a lead coin.  The small
+ teak box seems to contain a red glass lens.
+
+>take plate
+ You've already got your hands full.
+
+>examine junk
+ The junk isn't important.
+
+>examine liquid
+ The liquid is rather thick, faintly greenish, and has a decidedly
+ unpleasant smell.
+
+>move plate
+ Moving the old brass plate doesn't reveal anything.
+
+>put silver in it
+ You can't put anything into the old brass plate.
+
+>put silver in liquid
+ The silver coin falls into the greenish liquid, which begins to foam
+ and bubble with a hissing sound.  Acrid green fumes billow out of the
+ flask, making your eyes water.  The reaction doesn't stop until all the
+ liquid has boiled away.  The silver coin seems to have grown darker and
+ duller.  In fact, it doesn't look like silver at all any more, but more
+ like iron.
+
+>silver coin
+ There's no verb in that sentence!
+
+>examine iron coin
+ This coin, a Frobnizzian two-frob piece, is hexagonal and made of iron.
+ It bears the picture of a sword.
+
+>examine silver coin
+ I don't see any silver coin here.
+
+>take iron coin
+ Taken.
+
+>inventory
+ You have a blue bottle, a book, a sheet of writing paper, a green glass
+ lens, a crystal ball, a green bottle, a magic wand, a large carrot, a
+ small glass flask, a gold ball, a scroll, a small teak box, and an iron
+ coin.  The blue bottle seems to contain a lead coin.  The small teak
+ box seems to contain a red glass lens.
+
+>put green lens in box
+ Which box do you mean, the small teak box, or the packing crate?
+
+>teak
+ Done.
+
+>examine teak
+ This small box is made of exquisitely crafted teak wood, with a highly
+ polished surface.  It is open.  Inside it, you see a red glass lens and
+ a green glass lens.
+
+>close box
+ Which box do you mean, the small teak box, or the packing crate?
+
+>small
+ Closed.
+
+>go down
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+
+>drop all but teak
+ blue bottle:  Dropped.
+ book:  Dropped.
+ sheet of writing paper:  Dropped.
+ crystal ball:  Dropped.
+ green bottle:  Dropped.
+ magic wand:  Dropped.
+ large carrot:  Dropped.
+ small glass flask:  Dropped.
+ gold ball:  Dropped.
+ scroll:  Dropped.
+ iron coin:  Dropped.
+
+>save
+ Enter data file to store:
+>cf2
+ Saved.
+
+>go west
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is reading a newspaper, occasionally keeping an eye on the
+ door.
+
+>go west
+ The demon looks hard at what you're carrying.  "Hey, there's something
+ hidden inside that small teak box!  You're not trying to cheat, are
+ you?"  With a scaly arm, he blocks your passage.  "I'm only going to
+ let you carry one thing through this door!"
+
+>go east
+ The demon lets you past with a slightly amused sneer.
+
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+    You see a blue bottle, a book, a sheet of writing paper, a crystal
+ ball, a green bottle, a magic wand, a large carrot, a small glass
+ flask, a gold ball, a scroll, and an iron coin here.  The blue bottle
+ seems to contain a lead coin.
+
+>empty blue bottle
+ You will have to remove things from the blue bottle one at a time.
+
+>take lead coin
+ Taken.
+
+>green bottle
+ There's no verb in that sentence!
+
+>examine green bottle
+ This bottle has an unusually wide neck - almost two centimetres in
+ diameter - and is made of thick glass of a beautiful, sea-green colour.
+ You estimate that it will hold about half a litre of liquid.  A neatly
+ handwritten label says 'FILL ME'.  The bottle is empty.
+
+>pour liquid into blue bottle
+ I don't see any liquid here.
+
+>examine acid
+ I don't see any acid here.
+
+>examine liquid
+ I don't see any liquid here.
+
+>open teak
+ Opening the small teak box reveals a red glass lens and a green glass
+ lens.
+
+>take red lens. take green lens
+ Taken.
+
+ Taken.
+
+>put red lens in green bottle
+ As soon as it hits the bottom of the bottle, the red glass lens
+ vanishes with a popping sound.  The bottle is now empty.  A split
+ second later, you hear a pinging noise from the blue bottle.
+
+ [Your score just went up 5 points]
+
+>look in blue bottle
+ This bottle has an unusually wide neck - almost two centimetres in
+ diameter - and is made of thick glass of a beautiful, deep blue colour.
+ You estimate that it will hold about half a litre of liquid.  It seems
+ to contain a red glass lens.
+
+>take red lens
+ Taken.
+
+>drop all but blue bottle
+ small teak box:  Dropped.
+ lead coin:  Dropped.
+ green glass lens:  Dropped.
+ red glass lens:  Dropped.
+
+>go west
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is picking his claws with a rather nasty-looking dagger.
+
+>go west
+ The demon gives you a penetrating glance, but lets you pass without
+ comment.
+
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+>go north
+ Shed
+    This shed was used by uncle Zebulon for his goldmaking:  strange
+ experiments that could often be smelt from across town, even occasional
+ explosions.  Your uncle spoke very little of his experiments, and never
+ showed any signs of making money out of them, yet people generally
+ assumed that they were successful and a source of great wealth.  In all
+ other matters, your family regarded uncle Zebulon as a useless dreamer,
+ even an embarrassment, but they took a certain reluctant pride in his
+ reputation as a goldmaker.
+
+    As a consequence of your relatives' frantic search for valuables,
+ the place is in an even greater mess than you remember.  The workbench
+ has been cleared of the usual odds and ends, and all even remotely
+ useful tools or utensils have been removed.  Large heaps of junk and
+ broken glass remain in the corners, and in the centre of the room is a
+ large, hideous statue of a three-eyed dog - probably some exotic idol
+ brought home from your uncle's travels.  You can't remember ever seeing
+ it before.
+    On the bronze stand you see a scrap of paper.
+
+>drop bottle
+ I don't see any bottle here.
+
+>inventory
+ You are empty-handed.
+
+>go south
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+>go east
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is picking his claws with a rather nasty-looking dagger.
+
+>go east
+ The demon lets you past with a slightly amused sneer.
+
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+    You see a blue bottle, a book, a sheet of writing paper, a crystal
+ ball, a green bottle, a magic wand, a large carrot, a small glass
+ flask, a gold ball, a scroll, an iron coin, a small teak box, a lead
+ coin, a green glass lens, and a red glass lens here.
+
+>take blue bottle
+ Taken.
+
+>go west
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is reading a newspaper, occasionally keeping an eye on the
+ door.
+
+>go west
+ The demon gives you an amused look.  "So, you've made your choice, have
+ you?"  Producing a clipboard out of thin air, he proceeds to tick off
+ your name.  "Let's see...  Richard: a blue bottle.  Well, I suppose
+ that might prove useful some day.  Or perhaps not.  But who am I to
+ question your choice?"  With an air of seriously doubting your
+ judgement, he lets you pass.  "Have a nice day."
+
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+>go north
+ Shed
+    This shed was used by uncle Zebulon for his goldmaking:  strange
+ experiments that could often be smelt from across town, even occasional
+ explosions.  Your uncle spoke very little of his experiments, and never
+ showed any signs of making money out of them, yet people generally
+ assumed that they were successful and a source of great wealth.  In all
+ other matters, your family regarded uncle Zebulon as a useless dreamer,
+ even an embarrassment, but they took a certain reluctant pride in his
+ reputation as a goldmaker.
+
+    As a consequence of your relatives' frantic search for valuables,
+ the place is in an even greater mess than you remember.  The workbench
+ has been cleared of the usual odds and ends, and all even remotely
+ useful tools or utensils have been removed.  Large heaps of junk and
+ broken glass remain in the corners, and in the centre of the room is a
+ large, hideous statue of a three-eyed dog - probably some exotic idol
+ brought home from your uncle's travels.  You can't remember ever seeing
+ it before.
+    On the bronze stand you see a scrap of paper.
+
+>drop blue bottle
+ Dropped.
+
+>go south
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+>go east
+ As you step onto the porch, the demon looks pointedly at you.  "What?
+ Back already?  Aren't you satisfied with your blue bottle?  Remember
+ that you're not allowed to change your mind!"
+
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is reading a newspaper, occasionally keeping an eye on the
+ door.
+
+>go east
+ The demon shrugs and lets you past.
+
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+    You see a book, a sheet of writing paper, a crystal ball, a green
+ bottle, a magic wand, a large carrot, a small glass flask, a gold ball,
+ a scroll, an iron coin, a small teak box, a lead coin, a green glass
+ lens, and a red glass lens here.
+
+>take red lens
+ Taken.
+
+>put it in green bottle
+ As soon as it hits the bottom of the bottle, the red glass lens
+ vanishes with a popping sound.  The bottle is now empty.
+
+>take lens
+ Taken.
+
+>put it in bottle
+ Which bottle do you mean, the green bottle, or the small glass flask?
+
+>green
+ As soon as it hits the bottom of the bottle, the green glass lens
+ vanishes with a popping sound.  The bottle is now empty.
+
+>examine flask
+ This is a small glass flask, of the type often found in alchemistry
+ labs.
+
+>look in it
+ This is a small glass flask, of the type often found in alchemistry
+ labs.
+
+>go west
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is picking his claws with a rather nasty-looking dagger.
+
+>go west
+ The demon gives you a penetrating glance, but lets you pass without
+ comment.
+
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+>go north
+ Shed
+    This shed was used by uncle Zebulon for his goldmaking:  strange
+ experiments that could often be smelt from across town, even occasional
+ explosions.  Your uncle spoke very little of his experiments, and never
+ showed any signs of making money out of them, yet people generally
+ assumed that they were successful and a source of great wealth.  In all
+ other matters, your family regarded uncle Zebulon as a useless dreamer,
+ even an embarrassment, but they took a certain reluctant pride in his
+ reputation as a goldmaker.
+
+    As a consequence of your relatives' frantic search for valuables,
+ the place is in an even greater mess than you remember.  The workbench
+ has been cleared of the usual odds and ends, and all even remotely
+ useful tools or utensils have been removed.  Large heaps of junk and
+ broken glass remain in the corners, and in the centre of the room is a
+ large, hideous statue of a three-eyed dog - probably some exotic idol
+ brought home from your uncle's travels.  You can't remember ever seeing
+ it before.
+    You see a blue bottle here.  On the bronze stand you see a scrap of
+ paper.  The blue bottle seems to contain a red glass lens and a green
+ glass lens.
+
+>take red lens
+ Taken.
+
+>take green lens
+ Taken.
+
+>put red lens in dog
+ You can't put anything into the statue.
+
+>examine dog
+ The statue is made of some dark, hard wood that must once have been
+ nicely polished but is now rather scratched and dented.  It depicts a
+ huge, hideous dog - even though it's sitting on its haunches, it's
+ still taller than you are - that seems to be staring in a slightly
+ melancholy way at the workbench, as if lamenting the mess.  It looks
+ very much out of place in this shed.
+    Apart from its general ugliness, one thing about the dog immediately
+ catches your attention:  for some unfathomable reason, it has three
+ eyes - two in the normal places, and one in the centre of its forehead.
+ There is also something very strange about its ears.
+
+ The centre eye socket contains a blue glass lens.
+
+>put red lens in left socket
+ As you move the red glass lens close to the statue's eye socket, you
+ notice that it seems attracted to it with a surprising force, like a
+ piece of iron to a magnet.  It fits perfectly and stays put - in fact,
+ you doubt that you could remove it again.
+
+ [Your score just went up 5 points]
+
+>put green lens in right socket
+ As you move the green glass lens close to the statue's eye socket, you
+ notice that it seems attracted to it with a surprising force, like a
+ piece of iron to a magnet.  It fits perfectly and stays put - in fact,
+ you doubt that you could remove it again.
+
+>turn left ear
+ As you turn the ear there is a distinct click.  A loud humming noise
+ comes from inside the statue, and a beam of blue light shoots out from
+ its centre eye, illuminating a circle in the centre of the workbench.
+ The blue beam is immediately joined by a red one from the dog's left
+ eye socket and a green one from the third eye, all focusing on the same
+ area.
+
+    The beams flicker for a few moments, and then seem to gain in
+ brightness.  To your great astonishment, a clear, sharp image of your
+ uncle Zebulon forms in the centre of the illuminated circle.  This must
+ surely be some powerful magic at work!
+
+ [Your score just went up 5 points]
+
+>examine image
+ The image on the workbench shows the smiling face of your uncle
+ Zebulon, crowned by the caption TEST PICTURE.
+
+>touch image
+ Touching the image doesn't seem to have any effect.
+
+>turn right ear
+ To your great astonishment, the image of your uncle disappears, and is
+ replaced by one of fishes in an aquarium.  To your even greater
+ astonishment, the image comes to life, showing the fishes swimming back
+ and forth.
+
+>examine fishes
+ I don't know the word "fishes".
+
+>examine fishes
+ I don't know the word "fishes".
+
+>examine image
+ The image on the workbench shows colourful fish swimming placidly back
+ and forth in an aquarium.  It's all very beautiful, but it strikes you
+ as being rather pointless.
+
+>turn right ear
+ The image changes into one of a lone adventurer, carrying a sword, a
+ brass lantern and a curious collection of sundry items, exploring a
+ great cave system of twisting passages all alike.  You recognize the
+ scene as one from a popular historic novel called 'Zork'.
+
+>again
+ The image changes into one of a field of stars on a totally black sky.
+ Suddenly, a strange-looking contraption appears in the middle of the
+ image:  it looks almost, but not quite, like a flattened ellipsoid
+ joined to a flashlight. The scene changes to what is apparently the
+ inside of the contraption, where people in ugly red and blue jumpsuits
+ are running around.
+
+>again
+ The image changes into one of again, a field of stars.  This time,
+ however, nothing more happens.  You recognize the constellation of
+ Gemini, with the twin stars Castor and Pollux.
+
+>examine image
+ The image on the workbench shows again, a field of stars.  This time,
+ however, nothing more happens.  You recognize the constellation of
+ Gemini, with the twin stars Castor and Pollux.
+
+>turn right ear
+ The image changes into one of a huge, purple, dinosaur (or, rather, an
+ actor dressed up in a shockingly ugly dinosaur suit) walking around
+ with an insipid smile on his face, surrounded by singing children.
+ Curiouser and curiouser, indeed!
+
+>turn right ear
+ The image changes into one of the full moon, shining like a giant
+ cheese in the middle of a dark, star-studded sky.  The moon's image
+ falls just on the bronze stand on the workbench, illuminating the scrap
+ of paper.
+
+>s. e. e.
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+ As you step onto the porch, the demon looks pointedly at you.  "What?
+ Back already?  Aren't you satisfied with your blue bottle?  Remember
+ that you're not allowed to change your mind!"
+
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is picking his claws with a rather nasty-looking dagger.
+
+ The demon shrugs and lets you past.
+
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+    You see a book, a sheet of writing paper, a crystal ball, a green
+ bottle, a magic wand, a large carrot, a small glass flask, a gold ball,
+ a scroll, an iron coin, a small teak box, and a lead coin here.
+
+>take ball
+ Which ball do you mean, the crystal ball, or the gold ball?
+
+>gold
+ Taken.
+
+>put gold ball in green bottle
+ As soon as it hits the bottom of the bottle, the gold ball vanishes
+ with a popping sound.  The bottle is now empty.
+
+>w. w. n.
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is picking his claws with a rather nasty-looking dagger.
+
+ The demon gives you a penetrating glance, but lets you pass without
+ comment.
+
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+ Shed
+    This shed was used by uncle Zebulon for his goldmaking:  strange
+ experiments that could often be smelt from across town, even occasional
+ explosions.  Your uncle spoke very little of his experiments, and never
+ showed any signs of making money out of them, yet people generally
+ assumed that they were successful and a source of great wealth.  In all
+ other matters, your family regarded uncle Zebulon as a useless dreamer,
+ even an embarrassment, but they took a certain reluctant pride in his
+ reputation as a goldmaker.
+
+    As a consequence of your relatives' frantic search for valuables,
+ the place is in an even greater mess than you remember.  The workbench
+ has been cleared of the usual odds and ends, and all even remotely
+ useful tools or utensils have been removed.  Large heaps of junk and
+ broken glass remain in the corners, and in the centre of the room is a
+ large, hideous statue of a three-eyed dog - probably some exotic idol
+ brought home from your uncle's travels.  You can't remember ever seeing
+ it before.  Powerful beams of coloured light emerge from the statue's
+ eyes, forming an image on the workbench.
+    You see a blue bottle here.  On the bronze stand you see a scrap of
+ paper.  The blue bottle seems to contain a gold ball.
+
+>take ball
+ Taken.
+
+>take scrap
+ Taken.
+
+>put ball on workbench
+ Done.
+
+>examine light
+ I don't know the word "light".
+
+>examine image
+ The image on the workbench shows the full moon, shining like a giant
+ cheese in the middle of a dark, star-studded sky.  The moon's image
+ falls just on the bronze stand on the workbench.
+
+>take ball
+ Taken.
+
+>put ball on stand
+ You place the gold ball right in the middle of the image of the moon,
+ whose light reflects off it with a weird glitter.
+
+ You notice a sudden, cold draught, and a gust of wind slams the door
+ shut.
+
+
+>open door
+ Opened.
+
+ The light from the image of the moon seems to have a strange effect on
+ the gold ball:  it's almost as if it had started to glow by itself.
+
+
+>go south
+ You start moving towards the door, but the strange things happening to
+ the gold ball are too hard to ignore.
+
+ The gold ball is most definitely glowing, with a warm, golden, slightly
+ pulsating light.
+
+
+>close door
+ Closed.
+
+ The light from the gold ball has reached an almost painful intensity,
+ and continues to grow stronger and stronger.  Suddenly, there's a small
+ explosion, and you're temporarily blinded.  When you can see again, the
+ dog has stopped shining, the gold ball is gone, and in the centre of
+ the workbench there's a large hole.
+
+
+ [Your score just went up 15 points]
+
+>examine hole
+ The hole is almost a metre in diameter and seems very deep.  Inside is
+ just darkness; you try to look down into it but can't see a thing.
+ What's even stranger is that the hole doesn't extend through the
+ workbench - the lower surface of the workbench is intact.  You've read
+ of gateways into other universes, but only in fantasy books.  For a
+ moment, you get a crazy notion that you should enter the hole to see
+ where it leads...
+
+>SAVE
+>cf3
+ Enter data file to store:
+ Saved.
+
+>go down
+ As you enter the hole, you are engulfed by total darkness.  For what
+ seems like an eternity, you sink through a dark void, until, finally,
+ your feet touch solid ground.  The darkness is replaced by greyish
+ light, and you find yourself in a strange place...
+
+ Plain
+    Around you, a seemingly limitless expanse of flat, greyish ground,
+ stretching away in all directions, uninterrupted by any mountains or
+ even hills, unadorned by any tree, flower or even a blade of grass.
+ Above you, the uniformly overcast sky, like the inside of a perfect
+ leaden bowl, merging with the plain at the curiously indistinct
+ horizon, a horizon that could be a mile away or a million.  The air is
+ still and dry, almost dead, with a faint smell of timeless dust.  Not
+ even the faintest breath of wind breaks the absolute silence.  Nothing
+ moves, nothing changes, nothing happens.
+    In front of you, seemingly in the exact centre of this dismal world,
+ is a perfectly round, marble basin, filled with still, clear water.  In
+ the centre of the basin three colossal Greek statues stand looking out
+ over the plain with their unseeing eyes, backs together, faces forever
+ fixed in expressions of serene detachment.
+
+>examine statues
+ The three statues stand with their backs together, forever looking out
+ over the desolate plain with unseeing eyes.  Letters chiseled into the
+ pedestal give their names:  Venus, with robes flowing in an imagined
+ breeze, long hair held together by a copper circlet; Mars, stony-faced,
+ muscular, dressed in armour, an iron spear in his hand; Saturn, older
+ than time, grim-faced under a dull leaden crown.
+
+>examine basin
+ The basin is about ten metres across and is filled with crystal clear
+ water.  At its centre there is a low pedestal with three marble
+ statues.  The surface of the water is perfectly still, like a sheet of
+ glass through which you can see a gold coin resting on the bottom.
+ There is an inscription on the rim of the basin.
+
+>read it
+ "IN THIS BASIN, O STRANGER, IS BOTH OBLIVION AND ADVENTURE; DRINK MY
+ WATER AND THY QUEST SHALL END IN SAFETY; SACRIFICE AND THOU SHALT
+ CONQUER."
+
+>drink water
+ You scoop up some water in your hand and drink it.  It's quite
+ tasteless.  After a short while, your head starts to spin.  Reeling,
+ you grasp for support, but find yourself sinking through an endless,
+ grey void, recalling the last day's happenings backwards, realizing
+ that your memories are being erased...
+
+
+
+ You regain consciousness to find yourself walking the road home from
+ uncle Zebulon's house.  Just as you suspected, there was nothing worth
+ having in the house; your parents were right after all, and your uncle
+ was just an ordinary old man with a vivid imagination.
+
+    After attending your uncle's funeral, you go back to college and
+ complete your education as an accountant, embarking on a successful and
+ satisfying career.  Sometimes, your thoughts go flashing back to uncle
+ Zebulon, and you have a nagging sense that you've missed something
+ important.  Those feelings soon pass; after all, you have more
+ important things to deal with.
+
+ ***** You have failed *****
+
+ In a total of 236 turns, you have achieved a score of 50 points out of
+ a possible 75, and visited 11 locations out of 12.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ Plain
+    Around you, a seemingly limitless expanse of flat, greyish ground,
+ stretching away in all directions, uninterrupted by any mountains or
+ even hills, unadorned by any tree, flower or even a blade of grass.
+ Above you, the uniformly overcast sky, like the inside of a perfect
+ leaden bowl, merging with the plain at the curiously indistinct
+ horizon, a horizon that could be a mile away or a million.  The air is
+ still and dry, almost dead, with a faint smell of timeless dust.  Not
+ even the faintest breath of wind breaks the absolute silence.  Nothing
+ moves, nothing changes, nothing happens.
+    In front of you, seemingly in the exact centre of this dismal world,
+ is a perfectly round, marble basin, filled with still, clear water.  In
+ the centre of the basin three colossal Greek statues stand looking out
+ over the plain with their unseeing eyes, backs together, faces forever
+ fixed in expressions of serene detachment.
+
+>go up
+ There doesn't seem to be anywhere to go in this place.
+
+>get gold coin
+ An invisible force prevents you from touching the water.
+
+>examine sky
+ The sky is uniformly grey, like the inside of a great leaden bowl.
+
+>examine basin
+ The basin is about ten metres across and is filled with crystal clear
+ water.  At its centre there is a low pedestal with three marble
+ statues.  The surface of the water is perfectly still, like a sheet of
+ glass through which you can see a gold coin resting on the bottom.
+ There is an inscription on the rim of the basin.
+
+>examine gold coin
+ Through the clear water, you can see it shimmering on the bottom of the
+ basin.  Have there been other visitors before you to this place?  Has
+ somebody thrown in the coin to have a wish granted?
+
+>take coin
+ An invisible force prevents you from touching the water.
+
+>wish
+ I don't know the word "wish".
+
+>enter basin
+ An invisible force stops you from entering the water.
+
+>restore
+ Enter saved game to load:
+>cf3
+ Restored.
+
+ Shed
+    This shed was used by uncle Zebulon for his goldmaking:  strange
+ experiments that could often be smelt from across town, even occasional
+ explosions.  Your uncle spoke very little of his experiments, and never
+ showed any signs of making money out of them, yet people generally
+ assumed that they were successful and a source of great wealth.  In all
+ other matters, your family regarded uncle Zebulon as a useless dreamer,
+ even an embarrassment, but they took a certain reluctant pride in his
+ reputation as a goldmaker.
+
+    As a consequence of your relatives' frantic search for valuables,
+ the place is in an even greater mess than you remember.  The workbench
+ has been cleared of the usual odds and ends, and all even remotely
+ useful tools or utensils have been removed.  Large heaps of junk and
+ broken glass remain in the corners, and in the centre of the room is a
+ large, hideous statue of a three-eyed dog - probably some exotic idol
+ brought home from your uncle's travels.  You can't remember ever seeing
+ it before.
+
+ There is a mysterious dark hole in the middle of the workbench.
+    You see a blue bottle here.
+
+>s. e. e.
+ (Opening the door)
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+ As you step onto the porch, the demon looks pointedly at you.  "What?
+ Back already?  Aren't you satisfied with your blue bottle?  Remember
+ that you're not allowed to change your mind!"
+
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is picking his claws with a rather nasty-looking dagger.
+
+ The demon shrugs and lets you past.
+
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+    You see a book, a sheet of writing paper, a crystal ball, a green
+ bottle, a magic wand, a large carrot, a small glass flask, a scroll, an
+ iron coin, a small teak box, and a lead coin here.
+
+>take lead coin
+ Taken.
+
+>put it in green bottle
+ As soon as it hits the bottom of the bottle, the lead coin vanishes
+ with a popping sound.  The bottle is now empty.
+
+>take wand
+ Taken.
+
+>put it in green bottle
+ That's too large to fit in the green bottle.
+
+>drop wand
+ Dropped.
+
+>take coin
+ Taken.
+
+>put coin in green bottle
+ As soon as it hits the bottom of the bottle, the iron coin vanishes
+ with a popping sound.  The bottle is now empty.
+
+>look
+ Hall
+    Uncle Zeb's house isn't large enough to warrant a large entrance
+ hall, but at least there is this small room, with just enough space for
+ a coathanger and a narrow staircase up to a trapdoor in the ceiling.
+ Wooden doors lead north, east, west and south.
+    You see a book, a sheet of writing paper, a crystal ball, a green
+ bottle, a large carrot, a small glass flask, a scroll, a small teak
+ box, and a magic wand here.
+
+>examine coathanger
+ The coat hanger isn't important.
+
+>take wand
+ Taken.
+
+>point wand at carrot
+ The wand sputters, emitting a stream of brilliantly shining stars.  The
+ stars collect in a cloud around the carrot, which starts to undergo a
+ curious transformation, growing smaller and rounder and redder and...
+ When the stars gradually fade away, you see that the carrot has turned
+ into a big, succulent tomato.  Amazing - you must have found a wand of
+ Vegetable Polymorphism!
+
+>take tomato
+ Taken.
+
+>eat it
+ The tomato is just as delicious as it looks.  As you take the last bite
+ out of it, you feel something hard between your teeth.  Surprised, you
+ remove a copper coin from your mouth.  How on earth did that get into
+ the tomato?
+
+ [Your score just went up 5 points]
+
+>examine copper coin
+ Even though it's from Frobnizzia, a country that's renowned for its
+ curious currency, there's nothing remarkable whatsoever about this coin
+ (in fact, it's remarkable for being the only non-remarkable Frobnizzian
+ coin).  It's small, round, made of copper, and bears the picture of a
+ heart.
+
+>put coin in green bottle
+ As soon as it hits the bottom of the bottle, the copper coin vanishes
+ with a popping sound.  The bottle is now empty.
+
+>drop all
+ scrap of paper:  Dropped.
+ magic wand:  Dropped.
+
+>go west
+ Porch
+    On this rickety porch, uncle Zebulon used to spend the long summer
+ evenings, relaxing in his rocking chair and smoking his pipe.  Your
+ parents used to sneer at his laziness; why couldn't he use all that
+ spare time to make his garden look a little more respectable?
+    The rocking chair is still there, right outside the front door of
+ the house. It is not occupied by uncle Zebulon, though, but by a
+ sneering, rather mean-looking demon.
+    You see a letter here.
+    The demon is picking his claws with a rather nasty-looking dagger.
+
+>go west
+ The demon gives you a penetrating glance, but lets you pass without
+ comment.
+
+ Garden
+    You are standing just inside the gate of uncle Zebulon's garden, on
+ the weed-infested gravel path that leads east up to the porch of the
+ house.  On the north side of the lawn, almost hidden behind the huge,
+ unkempt rosebushes, is the garden shed.  The bright summer sun glistens
+ on the wet grass, and the air, fresh from the recent rain, is alive
+ with the buzzing of insects and filled with sweet fragrances.
+
+>go north
+ Shed
+    This shed was used by uncle Zebulon for his goldmaking:  strange
+ experiments that could often be smelt from across town, even occasional
+ explosions.  Your uncle spoke very little of his experiments, and never
+ showed any signs of making money out of them, yet people generally
+ assumed that they were successful and a source of great wealth.  In all
+ other matters, your family regarded uncle Zebulon as a useless dreamer,
+ even an embarrassment, but they took a certain reluctant pride in his
+ reputation as a goldmaker.
+
+    As a consequence of your relatives' frantic search for valuables,
+ the place is in an even greater mess than you remember.  The workbench
+ has been cleared of the usual odds and ends, and all even remotely
+ useful tools or utensils have been removed.  Large heaps of junk and
+ broken glass remain in the corners, and in the centre of the room is a
+ large, hideous statue of a three-eyed dog - probably some exotic idol
+ brought home from your uncle's travels.  You can't remember ever seeing
+ it before.
+
+ There is a mysterious dark hole in the middle of the workbench.
+    You see a blue bottle here.  The blue bottle seems to contain a lead
+ coin, an iron coin, and a copper coin.
+
+>take lead
+ Taken.
+
+>take iron
+ Taken.
+
+>take copper
+ Taken.
+
+>save
+ Enter data file to store:
+>cf4
+ Saved.
+
+>go down
+ As you enter the hole, you are engulfed by total darkness.  For what
+ seems like an eternity, you sink through a dark void, until, finally,
+ your feet touch solid ground.  The darkness is replaced by greyish
+ light, and you find yourself in a strange place...
+
+ Plain
+    Around you, a seemingly limitless expanse of flat, greyish ground,
+ stretching away in all directions, uninterrupted by any mountains or
+ even hills, unadorned by any tree, flower or even a blade of grass.
+ Above you, the uniformly overcast sky, like the inside of a perfect
+ leaden bowl, merging with the plain at the curiously indistinct
+ horizon, a horizon that could be a mile away or a million.  The air is
+ still and dry, almost dead, with a faint smell of timeless dust.  Not
+ even the faintest breath of wind breaks the absolute silence.  Nothing
+ moves, nothing changes, nothing happens.
+    In front of you, seemingly in the exact centre of this dismal world,
+ is a perfectly round, marble basin, filled with still, clear water.  In
+ the centre of the basin three colossal Greek statues stand looking out
+ over the plain with their unseeing eyes, backs together, faces forever
+ fixed in expressions of serene detachment.
+
+>put lead in basin
+ The lead coin falls into the water with a faint splash and sinks to the
+ bottom.
+
+    As soon as the coin has come to rest on the bottom, something
+ strange happens:  the statue of Saturn comes to life.  The marble seems
+ to soften somewhat; the aged head turns towards you, and Saturn speaks
+ in a deep, hoarse voice.  "Welcome, stranger, to the Portal between
+ Worlds.  A long way hast thou come, and yet the way that lies before
+ thee is even longer."
+    He makes a gesture with one hand, and a sound like a whisper is
+ heard; a faint breeze sets the still air in motion, carrying a smell of
+ salt to your nostrils.  For a moment you imagine hearing booming surf
+ in the distance.
+
+ [Your score just went up 10 points]
+
+ The statue returns to its previous form, flesh hardening into stone
+ again, the colour draining away.
+
+>put iron in basin
+ The iron coin falls into the water with a faint splash and sinks to the
+ bottom.
+
+    The statue of Mars comes to life with a clanging of armour.  Mars'
+ gaze remains as hard as before as he looks at you, saying in an
+ incredibly powerful voice:  "Thou hast come to claim thy inheritance,
+ and claim it thou shalt; but know that thy quest has barely begun."
+    Raising both arms towards the leaden sky, he brings them down again
+ in a motion that somehow seems to tear the sky down as a curtain.  The
+ leaden overcast is gone, replaced by a glorious night sky, sprinkled
+ with thousands of stars bright enough to read by.
+
+ The statue returns to its previous form, flesh hardening into stone
+ again, the colour draining away.
+
+>put copper in basin
+ The copper coin falls into the water with a faint splash and sinks to
+ the bottom.
+
+    The statue of Venus undergoes a startling transformation:  hard,
+ white marble turning into soft, pale-olive flesh, frozen stone hair
+ starting to flow like a waterfall, white, unseeing eyes suddenly filled
+ with life.  "The end of the beginning has come.  The land of Vhyl
+ awaits thee!"
+    She makes a sweeping gesture with one arm.  Around you, the plain
+ starts to fade away, as when a painting is washed from a glass pane.
+ Gradually, another landscape takes shape in front of your eyes:  the
+ greyish plain is replaced by sand dunes, the featureless horizon
+ becomes dotted with palms...
+
+
+ [ Press any key to continue ]
+
+ Desert
+    You find yourself standing on a desert road under a magnificent,
+ star-studded night sky.  Your hair is ruffled by a cold wind that
+ smells of sand and salt; in the distance you hear the booming sound of
+ surf.  You recognize the view from uncle Zebulon's tower.  Not a trace
+ remains of your previous surroundings.
+
+    You let your gaze wander around the distant horizon, where palm
+ trees are outlined against the starry sky.  It is drawn to the
+ silhouette of the fabulous city of Cyr-Dhool, a dreamlike mirage at the
+ far end of a narrow road that winds across the desert of Noori.  Drawn
+ by a strong feeling that your inheritance awaits you inside the city,
+ you start walking along the road, through the strange country of Vhyl.
+
+    You walk for an hour or so, feeling the cold, invigorating breeze
+ against your face, letting the dry smells of the desert and the salty
+ tang of the distant sea fill your nostrils.  In front of you, now and
+ then obscured by intervening dunes, steadily growing larger, you see
+ the city of Cyr-Dhool, its many spires and cupolas glittering in the
+ starlight like some gigantic piece of jewelry.  As you get closer, you
+ begin to wonder about the total stillness of Cyr-Dhool; not a single
+ light shows in its windows, not a single movement is seen.  Yet the
+ city somehow doesn't seem dead, but rather asleep.
+
+    Finally, you reach the end of the road, in an open place just in
+ front of the city's gates.  The polished marble walls tower above you,
+ gleaming coolly with reflected starlight.  Not a single sentry hails
+ you.  As you approach the tall bronze gates, they swing open to leave
+ the passage open into a broad, empty street.  With a feeling of elation
+ you enter the city to claim your inheritance.
+
+
+ [Your score just went up 10 points]
+
+    And thus ends the story of uncle Zebulon's will.  Many adventures
+ await you in the city of Cyr-Dhool, but they belong to a different
+ game.
+
+ ***** You have won *****
+
+ In a total of 260 turns, you have achieved a score of 75 points out of
+ a possible 75, and visited 12 locations out of 12.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>quit
+
+>load zugzwang
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ It has been a fierce battle, full of bold moves, daring attacks,
+ surprising gambits and heroic sacrifices. Throughout this, you've
+ remained at your starting point, patiently waiting for orders. But now
+ that the metaphorical dust has settled and most pieces have been
+ exchanged, it finally looks as if it is your turn. The White King and
+ one of your Pawn colleagues have managed to nail the Black King with
+ his back to the edge of the board, but they can't finish him off
+ without help.
+
+ The White King calls you to action. It is time to make your move.
+
+ Zugzwang
+ The Interactive Life of a Chess Piece
+ DEMO version for the TextFire 12-PACK
+ (Type "about" for more information)
+ Copyright (c) 1998 by TextFire, Inc. All rights reserved.
+ Release 1 / Serial number 980228 / Inform v6.14 Library 6/7
+
+ Chessboard (on f2)
+ The chessboard is almost empty, now that most pieces have been
+ exchanged. Its surface is perfectly smooth, its 64 squares
+ alternatingly deep black and pearly white.
+
+>examine board
+ The chessboard is almost empty, now that most pieces have been
+ exchanged. Its surface is perfectly smooth, its 64 squares
+ alternatingly deep black and pearly white.
+
+>examine me
+ You see nothing special about yourself.
+
+>about
+ The demo version of Zugzwang was written by Alfred Timpson for
+ TextFire, Inc.
+
+ About the author:
+
+ Alfred Timpson was born in Dundee, Scotland, but spent most of his
+ childhood in Piedmont, California. He later moved back to Britain, got
+ a degree in geography from Durham University, and is now living in
+ Edinburgh, working as a freelance writer. A recent high school reunion
+ brought him back into contact with the founders of TextFire. Apart from
+ computer games, his hobbies include chess, ornithology, hang gliding
+ and trainspotting.
+
+ About TextFire:
+
+ TextFire, Inc. is a partnership of authors formed for the purpose of
+ providing quality works of interactive fiction to a worldwide community
+ of players, hobbyists, and enthusiasts. Help support our efforts to
+ keep interactive fiction alive!
+
+>examine white king
+ You see nothing special about the White King.
+
+>examine pawn
+ Which do you mean, the White Pawn or the Black Pawn?
+
+>white
+ You see nothing special about the White Pawn.
+
+>examine layout
+ You can't see any such thing.
+
+>go north
+ On your first move, you may choose to move two steps forwards instead
+ of just one. Would you like to do that?
+>no
+
+ Chessboard (on f3)
+
+ The Black King scratches his head. "Hmmm. A difficult position - I
+ might have to sacrifice my last pawn. Let's see..."
+
+ [Your score has just gone up by five points.]
+
+>wait
+ Time passes.
+
+ The Black King sighs. "It looks like we don't have much choice. Pawn,
+ one step forward!" His sole remaining subject moves one square to the
+ south, to g4.
+
+>go northeast
+ With a faint popping sound the Black Pawn vanishes from the board.
+
+ Chessboard (on g4)
+
+ The White King cries out in frustration: "You fool! You weren't
+ supposed to do that!"
+
+ The Black King, however, can't hide his pleasure. "I haven't got any
+ legal moves left. It's a stalemate!" He pats the White King on the
+ shoulder. "Seems like you don't win after all, old chap."
+
+
+     *** You have thrown away the victory ***
+
+
+ In that game you scored 5 out of a possible 450, in 8 turns, earning
+ you the rank of Pawn
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Chessboard (on f3)
+ [Previous turn undone.]
+
+>go north
+
+ Chessboard (on f4)
+
+ The Black Pawn looks a bit surprised, and more than a little relieved,
+ that you didn't capture it. The White King nods his approval, however:
+ "Well done! Just continue north, and don't get distracted!"
+
+ [Your score has just gone up by five points.]
+
+>wait
+ Time passes.
+
+ The Black King smiles grimly. "So you didn't fall for my little trap?
+ In that case, we'll have to see whose pawn is the fastest!" He gestures
+ to his Pawn, which takes a step towards the south, to g3. The White
+ King waves at you to continue your march.
+
+>go north
+
+ Chessboard (on f5)
+
+ You take another step forwards. The Black King rather nervously orders
+ his pawn to continue.
+
+>go north
+ But it's not your move!
+
+ The Black Pawn continues south. It is now dangerously close to becoming
+ a Queen, and you can't help throwing some nervous glances in its
+ direction. The White King, however, encourages you: "Don't worry, they
+ won't have the time to do anything."
+
+>go north
+
+ Chessboard (on f6)
+
+ The Black King gives you a worried look, but then turns to his own
+ Pawn. "Just one more step and you'll be promoted!"
+
+>wait
+ Time passes.
+
+ As the Black Pawn set foot on the first rank, it is surrounded by a
+ golden glow. With a fanfare from invisible trumpets, the Pawn is
+ transformed into a Queen! The White King looks at her, and snorts.
+ "Impressive - but it will not help a bit. Finish them off, Pawn!"
+
+>go north
+
+ Chessboard (on f7)
+
+ You boldly advance and threaten the Black King. "Check!" you cry, and
+ the White King fills in: "...and mate!"
+
+ The Black King desperately looks around for an escape, but can't find
+ any. He extends his hand to his White colleague. "It looks like you win
+ again. But just wait - I'll get my revenge next time!"
+
+ The White King pats your back. "Well done! I think there's a vacancy as
+ a Knight - I'll see if I can get you promoted in time for the next
+ game."
+
+
+     *** You have completed the demo ***
+
+
+ In that game you scored 20 out of a possible 450, in 14 turns, earning
+ you the rank of Knight
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>quit
+
+ Thank you for playing the demo version of Zugzwang, a TextFire release.
+ On-line registration for TextFire products will be available at
+ <A HREF="http://www.TextFire.com">http://www.TextFire.com</A> on or before June 30, 1998. Thanks for your
+ patience!
+

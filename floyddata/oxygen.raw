@@ -1,0 +1,2617 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+	<title>AllThingsJacq.com - Interactive Fiction | NightFloyd - February 13, 2014 - Oxygen by Benjamin Sokal</title>
+		<meta charset="utf-8">
+		<meta name="Author" content="Jacqueline A. Lott">
+		<meta name="revisit-after" content="30days">
+		<meta name="Robots" content="all">
+		<meta name="Keywords" content="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+		<meta name="Description" content="Internet site of Jacqueline A. Lott.">
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+
+<body>
+	<div class="centered narrowcol" id="top">
+		<table>
+			<tr>
+				<td>
+					<div class="centered centeralign">
+						<br>
+						<a href="index.html"><img src="/graphics/atj_logo.jpg"
+							width="250" height="170"  alt="All Things Jacq"><br>
+							<img src="/graphics/home.jpg" width="75" height="25"
+							 alt="Home"><br></a><br>
+						 <a href="writing.html">
+							 <img alt="Writing" src="/graphics/writing1.jpg" 
+								width="100" height="140" id="Writing"/>
+						</a>
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1">
+						<a href="interactive_fiction.html">
+							<img alt="InteractiveFiction"
+								src="/graphics/intfic1.jpg" width="100" height="140" 
+								id="InteractiveFiction">
+						</a> 
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1">
+						<a href="photography.html">
+							<img alt="Photography" src="/graphics/photos1.jpg" 
+							width="100" height="140" id="Photography">
+						</a> 
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1" >
+						<a href="miscellany.html">
+							<img alt="Miscellany" src="/graphics/misc1.jpg" 
+								width="100" height="140" id="Miscellany">
+						</a>
+					</div>
+
+
+					<hr/>
+					<p class="leftalign">
+						NightFloyd Transcript:<br/>
+						
+						
+						<strong><em>Oxygen</em> by Benjamin Sokal</strong><br/>
+						
+						<span class="fontish smallest">As played on ifMUD on February 13, 2014</span>
+					</p>
+
+
+					<p class="leftalign">
+					<span class="fontish smaller">Like ClubFloyd, the idea behind NightFloyd is that a group of people meet online to cooperatively play a game of interactive fiction.<br><br>Unlike ClubFloyd, NightFloyd often takes on significantly larger works of interactive fiction, knowing going in that each one will take multiple sessions (but not always, as you'll see in this transcript). NightFloyd is also a bit more informal than ClubFloyd in that it's only announced on the ifMUD #clubfloyd bulletin board, and the time shifts around to meet player's schedules far more than ClubFloyd does. NightFloyd is organized by genericgeekgirl, aka Adri.<br>
+						<br>						Below is a transcript of
+						
+						
+						<em>Oxygen</em> written by Benjamin Sokal.
+						<I>Oxygen</I> was released as part of the 2010 Interactive Fiction Competition, in which it took twelfth place. It went on to be nominated for a Best Individual Puzzle Xyzzy. 
+						
+						You can learn more about the game, including how to download it, by visiting
+						
+						
+							
+								
+								<a class="decorate" href='http://ifdb.tads.org/viewgame?id=jz2q7uk4gp0zx2ph'>IFDB</a>.
+							
+						
+					</span><br>
+					<br>
+					
+						
+					
+					<span class="warning">WARNING!</span>
+					<span class="fontish smaller">Below you will find a transcript of
+						people playing this game, and it goes without saying that
+						the transcript is full of spoilers. So, if you've never
+						played this game, and think you might like to at some
+						point, I do not recommend reading any further. Instead,
+						you might want to return to the <a class="decorate" href=
+						"interactive_fiction.html">interactive fiction
+							page</a>.<br>
+					</span>
+					</p>
+					
+					
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div>
+
+		<table class="transcript">
+			<tr>
+
+				<td colspan="3"><hr/></td>
+
+			</tr>
+
+
+			<tr>
+
+				<td class="heading room">
+					<div class="centered">
+						<strong>ToyShop &amp; Floyditorium</strong>
+					</div>
+				</td>
+
+				<td class="gutter">
+				</td>
+
+				<td class="heading interlude">
+					<div class="centered">
+						<strong>#ClubFloyd Discussion</strong>
+					</div>
+				</td>
+
+			</tr>
+
+
+			<tr>
+
+				<td><hr/></td>
+
+				<td>
+				</td>
+
+				<td><hr/></td>
+			</tr><tr><td><br></td></tr>
+
+
+			<!-- Transcript goes here -->
+			<tr id="1-oxygen" ><td class="room game"><pre><b>Floyd</b> | &gt;Welcome to
+<b>Floyd</b> | the Cheap Glk Implementation, library version 0.9.0.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |  "Self-respect is to the soul as oxygen is to the body. Deprive a
+<b>Floyd</b> |  person of oxygen, and you kill his body; deprive him of self-respect
+<b>Floyd</b> |  and you kill his spirit."
+<b>Floyd</b> |
+<b>Floyd</b> |  - Thomas S. Szasz
+<b>Floyd</b> |
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>firion</b> pushes the green 'space' button.
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | (press any key to continue)
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Is sound enabled on your machine?
+<b>Floyd</b> |
+<b>Floyd</b> | (please type yes or no) &gt;
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">no</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | It's been a long day of squeezing and squirming through the corridors
+<b>Floyd</b> | of the Aegis mining station. After four conduit repairs, three data
+<b>Floyd</b> | integrity checks and a host of valve replacements, you're ready for a
+<b>Floyd</b> | shower. It's work like this that could earn you a promotion...
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Binder</b> pushes the green 'space' button.
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | shower. It's work like this that could earn you a promotion...BANG!
+<b>Floyd</b> |
+<b>Floyd</b> | Suddenly, the station is rocked by an explosion.
+<b>Floyd</b> |
+<b>Floyd</b> | It knocks you off your feet and nearly down a jefferies tube, but you
+<b>Floyd</b> | barely manage to hold on. Your toolbox slides into the tube and
+<b>Floyd</b> | crashes 20 feet below. The sound echoes all around you, and then there
+<b>Floyd</b> | is only dead silence.
+<b>Floyd</b> |
+<b>Floyd</b> | What the hell happened? Your thoughts turn to the striking miners, or
+<b>Floyd</b> | turncoats as the Captain calls them. They had shut themselves off in
+<b>Floyd</b> | the south wing two weeks ago, determined not to drill one more cent of
+<b>Floyd</b> | ore until their terms were met: higher wages, reasonable working
+<b>Floyd</b> | hours, more reliable drill suits.
+<b>Floyd</b> |
+<b>Floyd</b> | The Captain didn't bend, of course, and with the guile sure to win him
+<b>Floyd</b> | a pay raise he shut the pressure hatches to the entire area. The 58
+<b>Floyd</b> | workers would be completely isolated until the Empire sent in their
+<b>Floyd</b> | negotiating squad, along with a replacement team.
+<b>Floyd</b> |
+<b>Floyd</b> | But what were the strikers trying to do, blow up the station?
+<b>Floyd</b> | Something isn't right.
+<b>Floyd</b> |
+<b>Floyd</b> | You tuck in your technician uniform and take a breath. The Galactic
+<b>Floyd</b> | Empire trained you to remain calm in crisis situations like this.
+<b>Floyd</b> |
+<b>Floyd</b> | From somewhere below, you hear the hiss of steam as a pipe bursts.
+<b>Floyd</b> | It's gonna be a long night.
+<b>Floyd</b> |
+<b>Floyd</b> | (press any key to continue)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  asks, "OK to go on?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Olly</b>  says, "Yes."
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Oxygen</span>
+<b>Floyd</b> | A Game of Survival by Benjamin Sokal
+<b>Floyd</b> | Release 1 / Serial number 100930 / Inform 7 build 6E72 (I6/v6.31 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">[ First-time players may type "about" ]</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is closed, and a blank display console occupies
+<b>Floyd</b> | the opposite wall. A power cable emerges from the bottom of the
+<b>Floyd</b> | console. It isn't plugged into anything at the moment, however there
+<b>Floyd</b> | is an outlet nearby.
+<b>Floyd</b> |
+<b>Floyd</b> | A screwdriver lies on the ground.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Binder</b> pushes the green 'space' button.
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> |
+<b>Floyd</b> | I beg your pardon?
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">about</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Oxygen</span>
+<b>Floyd</b> | Version 1.1 - September 2010
+<b>Floyd</b> | [<a href="http://www.shadowk.com">LINK</A>]
+<b>Floyd</b> |
+<b>Floyd</b> | Thank you for playing Oxygen. This game uses standard Interactive
+<b>Floyd</b> | Fiction conventions, and any commands unique to this game should be
+<b>Floyd</b> | obvious to you when you need them.
+<b>Floyd</b> |
+<b>Floyd</b> | Some conversational commands you may find useful are:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">talk to [someone]</span> - initiates a conversation
+<b>Floyd</b> | <span class="floydstyle i">ask [someone] about [something]</span> - asks someone about a topic or
+<b>Floyd</b> | thing
+<b>Floyd</b> | <span class="floydstyle i">tell [someone] about [ something]</span> or <span class="floydstyle i">tell [someone] that [</span>
+<b>Floyd</b> | <span class="floydstyle i">something]</span> - tells someone about a topic or thing
+<b>Floyd</b> | (note: you must use the words "about" or "that" in the above phrases)
+<b>Floyd</b> |
+<b>Floyd</b> | If you are in a conversation, you could also abbreviate asking or
+<b>Floyd</b> | telling about as <span class="floydstyle i">a [something]</span> or <span class="floydstyle i">t [something]</span>.<span class="floydstyle i"></span>
+<b>Floyd</b> | <span class="floydstyle i">Topics</span> will bring up a list of topics you can discuss. You can
+<b>Floyd</b> | also answer <span class="floydstyle i">yes</span> or <span class="floydstyle i">no</span> if you are asked a question, or
+<b>Floyd</b> | <span class="floydstyle i">apologize</span>.
+<b>Floyd</b> |
+<b>Floyd</b> | Oxygen makes use of sound, though it is not necessary to complete the
+<b>Floyd</b> | game. Also, typing <span class="floydstyle i">statusbar</span> will switch the statusbar at the
+<b>Floyd</b> | top of the screen off or on should you choose.
+<b>Floyd</b> |
+<b>Floyd</b> | Send constructive criticism, non-constructive criticism, or virtual
+<b>Floyd</b> | dungbombs to: Ben@ShadowK.com
+<b>Floyd</b> |
+<b>Floyd</b> | (press any key to continue)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Oh good we have an apologize verb."
+</td></tr><tr><td class="room"><b>Binder</b> pushes the green 'space' button.
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is closed, and a blank display console occupies
+<b>Floyd</b> | the opposite wall. A power cable emerges from the bottom of the
+<b>Floyd</b> | console. It isn't plugged into anything at the moment, however there
+<b>Floyd</b> | is an outlet nearby.
+<b>Floyd</b> |
+<b>Floyd</b> | A screwdriver lies on the ground.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">get all</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET ALL</span>
+<b>Floyd</b> |
+<b>Floyd</b> | screwdriver: Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"...explosion in the service module! Damage reports coming in.</span>
+<b>Floyd</b> | <span class="floydstyle em">Emergency crews please report..."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The voice of the Chief of Operations emits from the static of your
+<b>Floyd</b> | radio, which you realize has fallen down the jefferies tube along with
+<b>Floyd</b> | most of your tools.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  asks, "So will "down" take us down the tube?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>katie-paquette</b>  says, "I'm not revealing anymore until either after bowling or at ClubFloyd."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  asks, "What's our coordinate system?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "I don't even know what our ordinate system is."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x cable</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X CABLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The cable is ten feet long, more than enough to reach the nearby
+<b>Floyd</b> | outlet. The end of the cable has a plastic shielding, preventing
+<b>Floyd</b> | direct access to the wires inside.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; I</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a screwdriver
+<b>Floyd</b> |   some work gloves (being worn)
+<b>Floyd</b> |   a small black card
+<b>Floyd</b> |   a piece of Oxium gum
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"This is Comp Squad. Backup systems coming online."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"Comp, we aren't getting any diagnostic readings from the oxygen</span>
+<b>Floyd</b> | <span class="floydstyle em">generators. Did you say backups were online?"</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Maybe we use the cable like a rope to climb down."
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">x oxium</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X OXIUM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Oxium gum helps keep you alert during long nights of working. The
+<b>Floyd</b> | package reads: <span class="floydstyle em">Provides essential nutrients, amino acids, and a</span>
+<b>Floyd</b> | <span class="floydstyle em">burst of Oxy-Yum! to your days.</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"Check, diagnostics are inoperative. Duty roster shows technician</span>
+<b>Floyd</b> | <span class="floydstyle em">Zanders in the forward access conduits. Zanders, do you copy? We need</span>
+<b>Floyd</b> | <span class="floydstyle em">you to check the status of the oxygen generators from one of the</span>
+<b>Floyd</b> | <span class="floydstyle em">nearby consoles."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"Oh no, you mean captain corndog? If he's our last hope we're in</span>
+<b>Floyd</b> | <span class="floydstyle em">trouble. He probably left hours ago to put some hard work in at the</span>
+<b>Floyd</b> | <span class="floydstyle em">pub. That, or he fell down a jefferies tube."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Hey aren't we Captain Corndog"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  asks, "Are we Technician Zanders?"
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">x me</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X ME</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Your badge reads "Zanders", but the guys call you corndog. Actually
+<b>Floyd</b> | they used to call you corndog. Ever since you made the mistake of
+<b>Floyd</b> | divulging your ambitions for a promotion, you're now captain corndog.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  says, "Apparently."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  exclaims, "That's us!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  asks, "Are there any consoles nearby?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "Indeed there is."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; L</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is closed, and a blank display console occupies
+<b>Floyd</b> | the opposite wall. A power cable emerges from the bottom of the
+<b>Floyd</b> | console. It isn't plugged into anything at the moment, however there
+<b>Floyd</b> | is an outlet nearby.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"This is the Chief. Listen, looks like the turncoats must have</span>
+<b>Floyd</b> | <span class="floydstyle em">been trying to break their way outta the aft section through the</span>
+<b>Floyd</b> | <span class="floydstyle em">service module connectors. They weren't successful though, blew the</span>
+<b>Floyd</b> | <span class="floydstyle em">tubes and whoever was in them out into space. Serves the bastards</span>
+<b>Floyd</b> | <span class="floydstyle em">right - but we'll let the cap'n deal with the remaining ones. So far</span>
+<b>Floyd</b> | <span class="floydstyle em">no reports of serious damage, but data is still coming in. Corndog - I</span>
+<b>Floyd</b> | <span class="floydstyle em">mean, Zanders - Please report immediately on the status of the oxygen</span>
+<b>Floyd</b> | <span class="floydstyle em">generators. If you don't respond then you better have three broken</span>
+<b>Floyd</b> | <span class="floydstyle em">legs to show for it."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">plug in console</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PLUG IN CONSOLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You pick up the end of the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | You plug the power cable into the outlet. However, the console does
+<b>Floyd</b> | not respond. The power to this outlet must have been lost, so you'll
+<b>Floyd</b> | need to find another power source.
+<b>Floyd</b> |
+<b>Floyd</b> | You unplug the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>katie-paquette</b>  says, "It's not a coordinate or an ordinate."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x panel</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X PANEL</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The access panel is closed, and the cover screwed into place.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Olly</b>  says, "Be back."
+</td></tr><tr><td class="room"><b>Olly</b> is borne away by a squadron of flying toads.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">open cover</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; OPEN COVER</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You unscrew and open the cover. Inside the panel is a tangle of
+<b>Floyd</b> | circuitry and wires. A small book that had been stored inside the
+<b>Floyd</b> | panel falls out when you open it.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Fido</b> heads back home.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room"><b>Fido</b> has disconnected.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">read book</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; READ BOOK</span>
+<b>Floyd</b> |
+<b>Floyd</b> | (First taking the book)
+<b>Floyd</b> |
+<b>Floyd</b> | You scan the technical manual, looking for any information that may be
+<b>Floyd</b> | useful. Some of the sections are bookmarked, and one of them reads:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Standard Crew Complement</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Miners: 58</span>
+<b>Floyd</b> | <span class="floydstyle em">Technicians: 24</span>
+<b>Floyd</b> | <span class="floydstyle em">Administrative: 12</span>
+<b>Floyd</b> | <span class="floydstyle em">Command: 8</span>
+<b>Floyd</b> | <span class="floydstyle em">Total: 102</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">[ type "read book" look at the next bookmarked page ]</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The radio buzzes from below as various repair teams report their
+<b>Floyd</b> | progress.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Sweet, a hidden library."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>katie-paquette</b>  says, "It's nt technlogy either."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">read book</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; READ BOOK</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You scan the technical manual, looking for any information that may be
+<b>Floyd</b> | useful. Some of the sections are bookmarked, and one of them reads:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">The Aegis Mining Station plays an important role in providing the</span>
+<b>Floyd</b> | <span class="floydstyle em">Galactic Empire with materials necessary for interstellar travel.</span>
+<b>Floyd</b> | <span class="floydstyle em">However the Aegis asteroid field, which contains the important</span>
+<b>Floyd</b> | <span class="floydstyle em">intersteller drive composites, is inconveniently located in the middle</span>
+<b>Floyd</b> | <span class="floydstyle em">of the Horsehead nebula.</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "That is inconvenient."
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">g</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; G</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You scan the technical manual, looking for any information that may be
+<b>Floyd</b> | useful. Some of the sections are bookmarked, and one of them reads:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">It takes a full three months for even the fastest ship to reach</span>
+<b>Floyd</b> | <span class="floydstyle em">Aegis from the nearest starbase.</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "I like that it reminds us with every page turn that we're doing this holding on to the power cable."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "I think that's the status line."
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">g</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; G</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You scan the technical manual, looking for any information that may be
+<b>Floyd</b> | useful. Some of the sections are bookmarked, and one of them reads:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">The station's primary oxygen storage tank can store enough oxygen</span>
+<b>Floyd</b> | <span class="floydstyle em">to keep a full crew alive for over six months.</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  starts doing some Cold Equations.
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  asks, "What are cold equations?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>katie-paquette</b>  says, "It doesn't have to to do with a power cable either."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "Well, it's an old sf story."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  asks, "Are those the inverses of the heat transfer equations?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "In a way."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "They've enumerated the crew count, the time it would take a rescue to get here, and the amount of oxygen normally stored here."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "So I'm expecting those numbers to matter."
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">g</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; G</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You scan the technical manual, looking for any information that may be
+<b>Floyd</b> | useful. Some of the sections are bookmarked, and one of them reads:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">The fore override is determined by the primary and secondary</span>
+<b>Floyd</b> | <span class="floydstyle em">override slots in the fore conduit, while a corresponding conduit on</span>
+<b>Floyd</b> | <span class="floydstyle em">the opposite side of the station controls the aft override.</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  says, "Sounds like SUSPENDED."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>katie-paquette</b>  says, "No."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "Oh, sorry, Katie."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "We're playing a game on Floyd."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>katie-paquette</b>  says, "No."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">g</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; G</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The last bookmarked page falls out of the book as you turn to the
+<b>Floyd</b> | page. You pick it up and read it:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | The diagram seems simple enough, if only you understood what it meant.
+<b>Floyd</b> | Who knew skipping one day of class could have consequences?
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">[ you now have the diagram and may look at it anytime ]</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Someone makes a joke about a dog on a stick from the radio, but you've
+<b>Floyd</b> | already begun tuning the messages out in order to concentrate on what
+<b>Floyd</b> | needs to be done next.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Uh. Hum. I guess I'm glad we've got the html markup to help me sort of understand this table."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "It looks like those columns use Glulx user styles."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "I wonder what they're supposed to be."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "It's all Greek to me."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  asks, "Shall we take the plunge?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "Sure."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">d</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; D</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You begin to climb down the tube, relieved to be vertical at least.
+<b>Floyd</b> | But you quickly realize that you're not going anywhere. A pipe has
+<b>Floyd</b> | exploded, sending scalding orange steam across the tube a few feet
+<b>Floyd</b> | below your junction.
+<b>Floyd</b> |
+<b>Floyd</b> | You return to the cramped conduit.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Or not."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "Theta implies an angle."
+</td></tr><tr><td class="room"><b>katie-paquette</b> arrives, full of funk, but no fun.
+</td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "Delta implies a difference."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; L</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is open, and a blank display console occupies the
+<b>Floyd</b> | opposite wall. A power cable emerges from the bottom of the console.
+<b>Floyd</b> | It isn't plugged into anything at the moment. You are holding the
+<b>Floyd</b> | other end of the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  says, "And I have no idea about gamma."
+</td></tr><tr><td class="room"><b>Draconis</b> says (to katie-paquette), "Hello."
+</td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "It implies the Hulk"
+</td></tr><tr><td class="room">katie-paquette says (to Floyd), "<span class="floydcommand">get octagon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET OCTAGON</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">x card</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X CARD</span>
+<b>Floyd</b> |
+<b>Floyd</b> | (the small black card)
+<b>Floyd</b> | Override cards look like thin circuitboards. They are individually
+<b>Floyd</b> | programmed with different codes or algorithms. This one is black and
+<b>Floyd</b> | has the word <span class="floydstyle i">GAMMA</span> printed on it.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  asks, "OK, new plan. South?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "South sounds good."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">s</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; S</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That corridor leads to the opposite end of the station and into even
+<b>Floyd</b> | more awkward tunnels. If you want to go there, you should at least
+<b>Floyd</b> | wait until your business is done here.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">katie-paquette says (to Floyd), "<span class="floydcommand">look</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; LOOK</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is open, and a blank display console occupies the
+<b>Floyd</b> | opposite wall. A power cable emerges from the bottom of the console.
+<b>Floyd</b> | It isn't plugged into anything at the moment. You are holding the
+<b>Floyd</b> | other end of the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Oh that must be a Gamma override card"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "hm"
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; I</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a thruster override chart
+<b>Floyd</b> |   a technical manual
+<b>Floyd</b> |   a power cable
+<b>Floyd</b> |   a screwdriver
+<b>Floyd</b> |   some work gloves (being worn)
+<b>Floyd</b> |   a small black card
+<b>Floyd</b> |   a piece of Oxium gum
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x panel</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X PANEL</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The inside of the panel is a tangle of circuitry and wiring. Among the
+<b>Floyd</b> | circuitry are two small slots. The upper slot is labeled "stability
+<b>Floyd</b> | control" and the lower is labeled "waste disposal systems". A small
+<b>Floyd</b> | blue card rests in the upper slot, and a small red card rests in the
+<b>Floyd</b> | lower slot.
+<b>Floyd</b> |
+<b>Floyd</b> | Below the slots some live wires are exposed, their sheaths having worn
+<b>Floyd</b> | away.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "OHO"
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">get all cards</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET ALL CARDS</span>
+<b>Floyd</b> |
+<b>Floyd</b> | small blue card: You give the blue override card a tug, but you can't
+<b>Floyd</b> | quite get it out of slot. It appears to be stuck, or jammed in
+<b>Floyd</b> | tightly. That may be for the best though, as stability control is
+<b>Floyd</b> | vital to the station's structural integrity.
+<b>Floyd</b> | small red card: You slide the small red card out from the lower slot.
+<b>Floyd</b> | For a moment you wait to see if anything changes, but nothing happens.
+<b>Floyd</b> | The card was probably not providing an essential service to those
+<b>Floyd</b> | systems, and you can make better use of it.
+<b>Floyd</b> |
+<b>Floyd</b> | On closer inspection, you note the word <span class="floydstyle i">DELTA</span> printed on the
+<b>Floyd</b> | small red card.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Right. Nice."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "Ooh, a delta!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  high5s Draconis.
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X DIAGRAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The paper shows a diagram:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">drop cable</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; DROP CABLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Dropped.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Maybe now we can south."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "It looks like the combination of cards determines how the oxygen is distributed."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "If only we had an override."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "We'll find one."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">s</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">x wires</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle input">&gt; S</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That corridor leads to the opposite end of the station and into even
+<b>Floyd</b> | more awkward tunnels. If you want to go there, you should at least
+<b>Floyd</b> | wait until your business is done here.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X WIRES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The exposed wires provide power to some of the station's auxilliary
+<b>Floyd</b> | systems. Replacing old wiring has long been on your to-do list, but
+<b>Floyd</b> | more urgent things always seem to come up - like saving the station.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "oop sosrry"
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">cut wires</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; CUT WIRES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You don't have anything to cut the wires with.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  asks, "Does this imply they can be cut?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  asks, "Maybe?"
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; L</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is open, and a blank display console occupies the
+<b>Floyd</b> | opposite wall. A power cable emerges from the bottom of the console.
+<b>Floyd</b> | It isn't plugged into anything at the moment.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">plug in cable</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PLUG IN CABLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You pick up the end of the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | The outlet doesn't work. There's no power.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"This is repair team six. The tunnels have collapsed here on level</span>
+<b>Floyd</b> | <span class="floydstyle em">four. It'll be at least an hour before we can reach the forward access</span>
+<b>Floyd</b> | <span class="floydstyle em">conduits."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">look down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; LOOK DOWN</span>
+<b>Floyd</b> |
+<b>Floyd</b> | It's a long way down to the bottom of the tube. A steam pipe has
+<b>Floyd</b> | erupted, sending scalding orange steam across the tube a few feet
+<b>Floyd</b> | below your junction.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">unscrew outlet</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; UNSCREW OUTLET</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The outlet is built into the wall in such a way that you can't remove
+<b>Floyd</b> | it.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x steam</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X STEAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | A jet of escaping steam shoots across the jefferies tube a few feet
+<b>Floyd</b> | below your junction. Judging by its orange hue, it may be corrosive as
+<b>Floyd</b> | well.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  asks, "Is there anything unscrewable around here?"
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; L</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is open, and a blank display console occupies the
+<b>Floyd</b> | opposite wall. A power cable emerges from the bottom of the console.
+<b>Floyd</b> | It isn't plugged into anything at the moment. You are holding the
+<b>Floyd</b> | other end of the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "The port access panel was."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x console</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X CONSOLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The console indicates the status of the oxygen storage and transfer
+<b>Floyd</b> | system. Oxygen can be moved from the main storage tank into either the
+<b>Floyd</b> | forward or the aft storage tanks depending on the station's needs.
+<b>Floyd</b> | Right now the console is blank, as there is no power running into it.
+<b>Floyd</b> |
+<b>Floyd</b> | Beside the main display are two small slots. The left slot is labeled
+<b>Floyd</b> | "primary console override" and the right is labeled "secondary console
+<b>Floyd</b> | override".
+<b>Floyd</b> |
+<b>Floyd</b> | A power cable emerges from the bottom of the console. It isn't plugged
+<b>Floyd</b> | into anything at the moment.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">plug console into panel</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PLUG CONSOLE INTO PANEL</span>
+<b>Floyd</b> |
+<b>Floyd</b> | There really isn't much point in trying to stuff something into the
+<b>Floyd</b> | access panel.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "hey check it out, overrides"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "But no power."
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; I</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a power cable
+<b>Floyd</b> |   a small red card
+<b>Floyd</b> |   a thruster override chart
+<b>Floyd</b> |   a technical manual
+<b>Floyd</b> |   a screwdriver
+<b>Floyd</b> |   some work gloves (being worn)
+<b>Floyd</b> |   a small black card
+<b>Floyd</b> |   a piece of Oxium gum
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>katie-paquette</b> says, "bedtime.  I have never played Oxygen before."
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x gloves</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X GLOVES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | These heavy-duty gloves protect your hands from harm.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Draconis</b> says (to katie-paquette), "Good night!"
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">reach down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; REACH DOWN</span>
+<b>Floyd</b> |
+<b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">touch steam</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; TOUCH STEAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That would be terribly foolish. Not only is it hot, it could very well
+<b>Floyd</b> | be corrosive.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>katie-paquette</b> goes home.
+</td><td class="gutter"></td><td class="interlude"><b>Draconis</b>  says, "But we have gloves!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "the steam doesn't know that"
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">get radio</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET RADIO</span>
+<b>Floyd</b> |
+<b>Floyd</b> | It's at the bottom of the jefferies tube.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  asks, "Maybe it's voice controlled like in Spider and Web?"
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">say tango</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; SAY TANGO</span>
+<b>Floyd</b> |
+<b>Floyd</b> | (to yourself)
+<b>Floyd</b> | Hearing voices again?
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  says, "I didn't really expect that to work."
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">xyzzy</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; XYZZY</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Out of thin air a little girl pops. "I just can't believe it! After
+<b>Floyd</b> | seven books we find out that Harry Potter is the heir to Slytherin,
+<b>Floyd</b> | Ron decides to become a pygmy puff breeder in Australia, and Hermoine
+<b>Floyd</b> | is a boy! What a rip-off!" Exasperated, she disappears in a poof.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  asks, "Wtf?"
+</td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">plugh</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; PLUGH</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Well we're clearly oxygen deprived and hallucinating."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; L</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is open, and a blank display console occupies the
+<b>Floyd</b> | opposite wall. A power cable emerges from the bottom of the console.
+<b>Floyd</b> | It isn't plugged into anything at the moment. You are holding the
+<b>Floyd</b> | other end of the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  asks, "Should we chew the oxy-gum stuff?"
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x outlet</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X OUTLET</span>
+<b>Floyd</b> |
+<b>Floyd</b> | It's a standard profile outlet.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">stick screwdriver in outlet</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; STICK SCREWDRIVER IN OUTLET</span>
+<b>Floyd</b> |
+<b>Floyd</b> | With reckless abandon you jam the screwdriver into the outlet, however
+<b>Floyd</b> | nothing happens. Humm.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Draconis</b>  says, "Wow. I can't believe that's implemented."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x cable</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X CABLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The cable is ten feet long, more than enough to reach the nearby
+<b>Floyd</b> | outlet. The end of the cable has a plastic shielding, preventing
+<b>Floyd</b> | direct access to the wires inside. You are holding the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x shielding</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X SHIELDING</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The end of the cable has a plastic shielding that prevents you from
+<b>Floyd</b> | accessing the actual wires inside.
+<b>Floyd</b> |
+<b>Floyd</b> | The radio buzzes from below as various repair teams report their
+<b>Floyd</b> | progress.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">remove shielding</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; REMOVE SHIELDING</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You try to pull the shielding off the cable, but it's too strong.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">cut cable</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; CUT CABLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You don't have anything to cut that with.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">cut console</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; CUT CONSOLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Cutting that up would achieve little.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">cut me</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; CUT ME</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Cutting you up would achieve little.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">smash console</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; SMASH CONSOLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You were never one to be violent when it's not necessary.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">help</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Oxygen</span>
+<b>Floyd</b> | Version 1.1 - September 2010
+<b>Floyd</b> | [<a href="http://www.shadowk.com">LINK</A>]
+<b>Floyd</b> |
+<b>Floyd</b> | Thank you for playing Oxygen. This game uses standard Interactive
+<b>Floyd</b> | Fiction conventions, and any commands unique to this game should be
+<b>Floyd</b> | obvious to you when you need them.
+<b>Floyd</b> |
+<b>Floyd</b> | Some conversational commands you may find useful are:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">talk to [someone]</span> - initiates a conversation
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Floyd</b> <span class="floydstyle i">ask [someone] about [something]</span> - asks someone about a topic or
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | thing
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Floyd</b> <span class="floydstyle i">tell [someone] about [ something]</span> or <span class="floydstyle i">tell [someone] that [</span>
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">something]</span> - tells someone about a topic or thing
+<b>Floyd</b> | (note: you must use the words "about" or "that" in the above phrases)
+<b>Floyd</b> |
+<b>Floyd</b> | If you are in a conversation, you could also abbreviate asking or
+<b>Floyd</b> | telling about as <span class="floydstyle i">a [something]</span> or <span class="floydstyle i">t [something]</span>.<span class="floydstyle i"></span>
+<b>Floyd</b> | <span class="floydstyle i">Topics</span> will bring up a list of topics you can discuss. You can
+<b>Floyd</b> | also answer <span class="floydstyle i">yes</span> or <span class="floydstyle i">no</span> if you are asked a question, or
+<b>Floyd</b> | <span class="floydstyle i">apologize</span>.
+<b>Floyd</b> |
+<b>Floyd</b> | Oxygen makes use of sound, though it is not necessary to complete the
+<b>Floyd</b> | game. Also, typing <span class="floydstyle i">statusbar</span> will switch the statusbar at the
+<b>Floyd</b> | top of the screen off or on should you choose.
+<b>Floyd</b> |
+<b>Floyd</b> | Send constructive criticism, non-constructive criticism, or virtual
+<b>Floyd</b> | dungbombs to: Ben@ShadowK.com
+<b>Floyd</b> |
+<b>Floyd</b> | (press any key to continue)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is open, and a blank display console occupies the
+<b>Floyd</b> | opposite wall. A power cable emerges from the bottom of the console.
+<b>Floyd</b> | It isn't plugged into anything at the moment. You are holding the
+<b>Floyd</b> | other end of the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Gerynar</b> says "bloop" and shrinks down into a little dot, then winks out...just like those old-fashioned B&w televisions.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room"><b>Gerynar</b> has disconnected.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">Draconis says (to Floyd), "<span class="floydcommand">hint</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; HINT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Hints are not presently available for this game. A walkthrough is
+<b>Floyd</b> | available, however. If you just need a little nudge or pointer in the
+<b>Floyd</b> | right direction, you can try asking other IFers who have played this
+<b>Floyd</b> | game for advice (there are discussion forums located at various points
+<b>Floyd</b> | online) or feel free to e-mail me at Ben@ShadowK.com.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x tube</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X TUBE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The jefferies tube allows access to the lower levels of the station.
+<b>Floyd</b> | There is a ladder for climbing down.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x ladder</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X LADDER</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The ladder appears firmly attached to the jefferies tube. It leads
+<b>Floyd</b> | down.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">climb ladder</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; CLIMB LADDER</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The steam erupting from the broken pipe makes it impossible to descend
+<b>Floyd</b> | the jefferies tube more than a few feet.
+<b>Floyd</b> |
+<b>Floyd</b> | You return to the cramped conduit.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; L</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is open, and a blank display console occupies the
+<b>Floyd</b> | opposite wall. A power cable emerges from the bottom of the console.
+<b>Floyd</b> | It isn't plugged into anything at the moment. You are holding the
+<b>Floyd</b> | other end of the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">look south</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; LOOK SOUTH</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The conduit continues south as far as you can see, which is not very
+<b>Floyd</b> | far due to the flickering emergency lighting.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">n</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; N</span>
+<b>Floyd</b> |
+<b>Floyd</b> | (Down the jefferies tube)
+<b>Floyd</b> |
+<b>Floyd</b> | The steam erupting from the broken pipe makes it impossible to descend
+<b>Floyd</b> | the jefferies tube more than a few feet.
+<b>Floyd</b> |
+<b>Floyd</b> | You return to the cramped conduit.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">u</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; U</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You can't go that way. The only exits are through the tunnel to the
+<b>Floyd</b> | south or down the jefferies tube.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; X</span>
+<b>Floyd</b> |
+<b>Floyd</b> | What do you want to examine?
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">s</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; S</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You see nothing unexpected in that direction.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">s</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; S</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That corridor leads to the opposite end of the station and into even
+<b>Floyd</b> | more awkward tunnels. If you want to go there, you should at least
+<b>Floyd</b> | wait until your business is done here.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">drop cable</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; DROP CABLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Dropped.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">s</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; S</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That corridor leads to the opposite end of the station and into even
+<b>Floyd</b> | more awkward tunnels. If you want to go there, you should at least
+<b>Floyd</b> | wait until your business is done here.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">complete business</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; COMPLETE BUSINESS</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; L</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is open, and a blank display console occupies the
+<b>Floyd</b> | opposite wall. A power cable emerges from the bottom of the console.
+<b>Floyd</b> | It isn't plugged into anything at the moment.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x panel</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X PANEL</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The inside of the panel is a tangle of circuitry and wiring. Among the
+<b>Floyd</b> | circuitry are two small slots. The upper slot is labeled "stability
+<b>Floyd</b> | control" and the lower is labeled "waste disposal systems". A small
+<b>Floyd</b> | blue card rests in the upper slot.
+<b>Floyd</b> |
+<b>Floyd</b> | Below the slots some live wires are exposed, their sheaths having worn
+<b>Floyd</b> | away.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x wires</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X WIRES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The exposed wires provide power to some of the station's auxilliary
+<b>Floyd</b> | systems. Replacing old wiring has long been on your to-do list, but
+<b>Floyd</b> | more urgent things always seem to come up - like saving the station.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">cross wires</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; CROSS WIRES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | They're not something you can enter.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">twist wires</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; TWIST WIRES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You can't turn them.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">join wires</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                              Conduit
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; JOIN WIRES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">get cable</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET CABLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You pick up the end of the cable.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">connect cable to wires</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; CONNECT CABLE TO WIRES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The cable could definitely take power from the exposed live wires.
+<b>Floyd</b> | However, the end of the cable is shielded. You'd have to remove the
+<b>Floyd</b> | shielding to attach it to the wires.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "oic"
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">lower cable down tube</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                 Conduit (holding the power cable)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; LOWER CABLE DOWN TUBE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You lower the end of the cable into the jefferies tube. It's just long
+<b>Floyd</b> | enough to reach the hot and corrosive jet of steam. After a moment you
+<b>Floyd</b> | pull it back up. The shielding has been removed, exposing the metal
+<b>Floyd</b> | inside.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "YAY"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "I broke something. Now I feel good about myself."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">connect cable to wires</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; CONNECT CABLE TO WIRES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You carefully connect the ends of the stripped wire to the live wires
+<b>Floyd</b> | in the access panel. The display console gives a beep in response as
+<b>Floyd</b> | if to acknowledge your success.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"Chief here. We're showing activity from the display console in</span>
+<b>Floyd</b> | <span class="floydstyle em">the service conduits. Is that you Zanders? Hold on here...this looks</span>
+<b>Floyd</b> | <span class="floydstyle em">like trouble. Readings from your console show a slow leak from the</span>
+<b>Floyd</b> | <span class="floydstyle em">primary oxygen reserves. Zanders, we've got diagnostics but can't do</span>
+<b>Floyd</b> | <span class="floydstyle em">anything about the leak from here. You'll need to use the console to</span>
+<b>Floyd</b> | <span class="floydstyle em">re-route the oxygen into the forward reserve tank. If you don't, we'll</span>
+<b>Floyd</b> | <span class="floydstyle em">be out of air well before the next deep space transport arrives. We're</span>
+<b>Floyd</b> | <span class="floydstyle em">sending a repair crew to the area, but do what you can."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You turn to the now functioning console. The data does confirm a slow
+<b>Floyd</b> | leak. This isn't your area of expertise (life support being one of the
+<b>Floyd</b> | few systems you don't know inside and out), but you think that
+<b>Floyd</b> | initiating the required transfer should be relatively simple.
+<b>Floyd</b> | Inserting an override card into one of the console slots should begin
+<b>Floyd</b> | moving the oxygen into the forward tank. It would take over 500 zPsi
+<b>Floyd</b> | units of oxygen to save the entire station, but since the striking
+<b>Floyd</b> | miners are sealed in the rear of the station, you should need far less
+<b>Floyd</b> | than that to save the fore section.
+<b>Floyd</b> |
+<b>Floyd</b> | As for the strikers, they're gonna be outta luck. Their rear oxygen
+<b>Floyd</b> | reserve is as empty as the forward reserve that you now depend on...
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Binder</b> pushes the green 'space' button.
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 978 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 0 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: none   Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 977 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 0 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: none   Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X DIAGRAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The paper shows a diagram:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 976 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 0 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: none   Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; I</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a small red card
+<b>Floyd</b> |   a thruster override chart
+<b>Floyd</b> |   a technical manual
+<b>Floyd</b> |   a screwdriver
+<b>Floyd</b> |   some work gloves (being worn)
+<b>Floyd</b> |   a small black card
+<b>Floyd</b> |   a piece of Oxium gum
+<b>Floyd</b> |
+<b>Floyd</b> | The console beeps. You notice that the aft override display on the
+<b>Floyd</b> | console has changed from "none" to "delta". This can only mean one
+<b>Floyd</b> | thing: someone in the aft section of the station - one of the miners -
+<b>Floyd</b> | is trying to re-route oxygen into their holding tank by initiating
+<b>Floyd</b> | their own override.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x red</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 876 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: none   Aft Override: delta
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 0 Aft 40 Waste 60)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X RED</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Override cards look like thin circuitboards. They are individually
+<b>Floyd</b> | programmed with different codes or algorithms. This one is red and has
+<b>Floyd</b> | the word <span class="floydstyle i">DELTA</span> printed on it.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes. The remaining oxygen in storage has decreased dramatically! It
+<b>Floyd</b> | also appears that the miners are trying to manipulate the overrides as
+<b>Floyd</b> | well - right now they have their override (the aft override) set as
+<b>Floyd</b> | delta. You can only control the fore override from where you are, and
+<b>Floyd</b> | the combination of the two overrides determines where the oxygen is
+<b>Floyd</b> | routed (thank Empire you at least made some of your training classes).
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">insert red</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 876 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: none   Aft Override: delta
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 0 Aft 40 Waste 60)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; INSERT RED</span>
+<b>Floyd</b> |
+<b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">insert delta</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 876 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: none   Aft Override: delta
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 0 Aft 40 Waste 60)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; INSERT DELTA</span>
+<b>Floyd</b> |
+<b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">put delta in slot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 876 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: none   Aft Override: delta
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 0 Aft 40 Waste 60)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PUT DELTA IN SLOT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Which slot do you mean, the left or right console slots or one of the
+<b>Floyd</b> | slots in the access panel?
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">put delta in left console slot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 875 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PUT DELTA IN LEFT CONSOLE SLOT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The small red card fits snugly in the slot. You notice that the fore
+<b>Floyd</b> | override on the display console has changed from "none" to "delta".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x console</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 874 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X CONSOLE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The console indicates the status of the oxygen storage and transfer
+<b>Floyd</b> | system. Oxygen can be moved from the main storage tank into either the
+<b>Floyd</b> | forward or the aft storage tanks depending on the station's needs.
+<b>Floyd</b> | Numbers at the top of the console indicate the amount of oxygen stored
+<b>Floyd</b> | in the main tank, fore and aft tanks, and any overrides that change
+<b>Floyd</b> | how oxygen is to be distributed.
+<b>Floyd</b> |
+<b>Floyd</b> | Beside the main display are two small slots. The left slot is labeled
+<b>Floyd</b> | "primary console override" and the right is labeled "secondary console
+<b>Floyd</b> | override". A small red card rests in the first (primary) slot.
+<b>Floyd</b> |
+<b>Floyd</b> | A power cable emerges from the bottom of the console and is attached
+<b>Floyd</b> | to the exposed wire in the access panel.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 873 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X DIAGRAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The paper shows a diagram:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"Hello, this is Jim Dennison, advocate for the miners in aft. We</span>
+<b>Floyd</b> | <span class="floydstyle em">picked up your radio channel and we know that you're trying to</span>
+<b>Floyd</b> | <span class="floydstyle em">re-route the oxygen to save the station. Regulations state we must</span>
+<b>Floyd</b> | <span class="floydstyle em">work together to maximize oxygen for all parties involved. I'm obliged</span>
+<b>Floyd</b> | <span class="floydstyle em">to remind you that a breach in worker-empire regulatory code K-253</span>
+<b>Floyd</b> | <span class="floydstyle em">could have severe legal repercussions, and the familes of the united</span>
+<b>Floyd</b> | <span class="floydstyle em">coalition of mine workers have every right to financial compensation</span>
+<b>Floyd</b> | <span class="floydstyle em">from the Galactic Empire if you don't provide us with the</span>
+<b>Floyd</b> | <span class="floydstyle em">needed..."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The transmission is interrupted by a burst of static, and then another
+<b>Floyd</b> | voice cuts in. <span class="floydstyle em">"Jamming transmission. Switching broadcast channel</span>
+<b>Floyd</b> | <span class="floydstyle em">to the reserve frequency."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"I wish the Captain had blown the lawyers out into space instead</span>
+<b>Floyd</b> | <span class="floydstyle em">of trying to smoke the rebels out...okay, switching channels."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 773 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: delta
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 0 Aft 0 Waste 100)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; I</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a thruster override chart
+<b>Floyd</b> |   a technical manual
+<b>Floyd</b> |   a screwdriver
+<b>Floyd</b> |   some work gloves (being worn)
+<b>Floyd</b> |   a small black card
+<b>Floyd</b> |   a piece of Oxium gum
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x black</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 772 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X BLACK</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Override cards look like thin circuitboards. They are individually
+<b>Floyd</b> | programmed with different codes or algorithms. This one is black and
+<b>Floyd</b> | has the word <span class="floydstyle i">GAMMA</span> printed on it.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"Zanders!"</span> The voice of the chief booms from the radio at the
+<b>Floyd</b> | bottom of the jefferies tube and echoes up and down your conduit.
+<b>Floyd</b> | <span class="floydstyle em">"Did I not get my point across earlier? Your job is to route the</span>
+<b>Floyd</b> | <span class="floydstyle em">oxygen to the forward section of the station. So we can survive.</span>
+<b>Floyd</b> | <span class="floydstyle em">Capish? There should be some override cards lying around. If you're</span>
+<b>Floyd</b> | <span class="floydstyle em">not sure what to do, just put them into the slots on the main console.</span>
+<b>Floyd</b> | <span class="floydstyle em">Try to initiate a theta-override, which might can at least get us</span>
+<b>Floyd</b> | <span class="floydstyle em">enough oxygen until the next supply vessel makes it. Captain</span>
+<b>Floyd</b> | <span class="floydstyle em">out."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Draconis</b> heads back home.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">s</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 771 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; S</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That corridor leads to the opposite end of the station and into even
+<b>Floyd</b> | more awkward tunnels. If you want to go there, you should at least
+<b>Floyd</b> | wait until your business is done here.
+<b>Floyd</b> |
+<b>Floyd</b> | The din of metal scraping against metal echoes throughout the conduit.
+<b>Floyd</b> | You think it may have originated from the south, but with the
+<b>Floyd</b> | reverberation of these tunnels you can't be sure.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 770 zPsi
+</b><b>Floyd</b><b> ]             Fore Reserve: 0 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X DIAGRAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The paper shows a diagram:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "delta" to
+<b>Floyd</b> | "none".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">put black card in secondary slot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 670 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 40 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: none
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 40 Aft 0 Waste 60)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PUT BLACK CARD IN SECONDARY SLOT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You try to insert the small black card into the slot, but something
+<b>Floyd</b> | prevents it from snapping into place. You wonder if your timing is
+<b>Floyd</b> | wrong, as the console indicates an oxygen transfer is about to take
+<b>Floyd</b> | place. You remove the card.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">put black card in secondary slot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 669 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 40 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PUT BLACK CARD IN SECONDARY SLOT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The small black card fits snugly in the slot. You notice that the fore
+<b>Floyd</b> | override on the display console has changed from "delta" to "theta".
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "none" to
+<b>Floyd</b> | "delta".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 668 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 40 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X DIAGRAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The paper shows a diagram:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | You hear the metal clanking again, this time louder than before.
+<b>Floyd</b> | You're sure now that it came from the southern tunnel.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">look south</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 667 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 40 zPsi  Aft Reserve: 40 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; LOOK SOUTH</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The conduit continues south as far as you can see, which is not very
+<b>Floyd</b> | far due to the flickering emergency lighting.
+<b>Floyd</b> |
+<b>Floyd</b> | The noise from the southern tunnel has ceased.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 567 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 80 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: delta
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 40 Aft 10 Waste 50)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Z</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">s</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; S</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You make your way down the southern conduit in search of the source of
+<b>Floyd</b> | the noise. The emergency lighting flickers occasionally, and under the
+<b>Floyd</b> | red glow you feel like a spider making your way down a strange red
+<b>Floyd</b> | waterspout. Just before you are about to give up and head back to the
+<b>Floyd</b> | main conduit, you catch a glimpse of movement down a side conduit.
+<b>Floyd</b> |
+<b>Floyd</b> | "Hey!" you shout.
+<b>Floyd</b> |
+<b>Floyd</b> | A large man wearing dark garb turns around. He seems unsteady on his
+<b>Floyd</b> | feet, and as he stumbles towards you it is clear why. His face is
+<b>Floyd</b> | scorched and peeling and one leg drags feebly on the ground.
+<b>Floyd</b> |
+<b>Floyd</b> | He mumbles something about not needing assistance, but you help him
+<b>Floyd</b> | steady himself and walk him over to the main conduit against his
+<b>Floyd</b> | protests. The man is in no position to resist.
+<b>Floyd</b> |
+<b>Floyd</b> | When you reach the main conduit he tries to say something more, but
+<b>Floyd</b> | then he slouches feebly against the wall, exhausted.
+<b>Floyd</b> |
+<b>Floyd</b> | (press any key to continue)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Binder</b> pushes the green 'space' button.
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 566 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 80 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Conduit</span>
+<b>Floyd</b> | You crouch uncomfortably in this circular access conduit, just one
+<b>Floyd</b> | small segment among thousands that make up the skeleton of Aegis
+<b>Floyd</b> | Mining Station. A jefferies tube at the end of the conduit leads down,
+<b>Floyd</b> | allowing access to lower levels of the station. The conduit continues
+<b>Floyd</b> | to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | A port access panel is open. A display console is also here,
+<b>Floyd</b> | reflecting various measurements. A power cable emerges from the bottom
+<b>Floyd</b> | of the console and is attached to the exposed wire in the access
+<b>Floyd</b> | panel.
+<b>Floyd</b> |
+<b>Floyd</b> | The injured man sits against the wall, barely aware of his
+<b>Floyd</b> | surroundings.
+<b>Floyd</b> |
+<b>Floyd</b> | Between static bursts from your radio, the voice of the chief of
+<b>Floyd</b> | operations echoes through your conduit. The anger in his voice seems
+<b>Floyd</b> | to amplify with each rebounding sound wave until his voice reaches
+<b>Floyd</b> | inside your head and stabs at your brain.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"Consarnit - Corndog, I know you've got more oxygen flowing to</span>
+<b>Floyd</b> | <span class="floydstyle em">fore than you did a minute ago but you ain't saving enough! More</span>
+<b>Floyd</b> | <span class="floydstyle em">oxygen to the fore section, more to the fore!"</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "delta" to
+<b>Floyd</b> | "none".
+<b>Floyd</b> |
+<b>Floyd</b> | The injured man stirs, then clutches his leg in pain.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 565 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 80 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: gamma
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X DIAGRAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The paper shows a diagram:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "none" to
+<b>Floyd</b> | "gamma".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x man</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 564 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 80 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X MAN</span>
+<b>Floyd</b> |
+<b>Floyd</b> | This man, somewhat bulky to be maneuvering in the crevices of the
+<b>Floyd</b> | Aegis, looks as if he trying to keep his insides from falling out by
+<b>Floyd</b> | the way he holds his arms across his chest. His kevlar vest seems to
+<b>Floyd</b> | have protected at least some of his body from the blast, but his face
+<b>Floyd</b> | and hands are pretty well burnt.
+<b>Floyd</b> |
+<b>Floyd</b> | The man seems to be drifting in and out of consciousness, whether from
+<b>Floyd</b> | exhaustion or pain or something else you're not sure.
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "gamma" to
+<b>Floyd</b> | "none".
+<b>Floyd</b> |
+<b>Floyd</b> | The injured man mumbles something under his breath.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">get red card</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 464 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 120 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: none
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 40 Aft 0 Waste 60)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET RED CARD</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You try to take small red card but it won't budge. You wonder if your
+<b>Floyd</b> | timing is wrong, as the console indicates that an oxygen transfer is
+<b>Floyd</b> | about to take place.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">get red</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 463 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 120 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: gamma  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET RED</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The small red card slides out easily from the slot. You notice that
+<b>Floyd</b> | the fore override on the display console has changed from "theta" to
+<b>Floyd</b> | "gamma".
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "none" to
+<b>Floyd</b> | "delta".
+<b>Floyd</b> |
+<b>Floyd</b> | You are suddenly jolted from your position and are thrown upward,
+<b>Floyd</b> | hitting the top of the conduit and then coming back down again. You
+<b>Floyd</b> | don't hear an explosion, but instead the groaning of the station's
+<b>Floyd</b> | metal framework as if about to break apart. The conduit is immersed in
+<b>Floyd</b> | darkness for a long moment and then the emergency lighting comes back
+<b>Floyd</b> | on, flickering unassuredly.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"What the hell was that?"</span> screeches a panicked voice from the
+<b>Floyd</b> | radio.
+<b>Floyd</b> |
+<b>Floyd</b> | You know exactly what that was: the station's stabilization control
+<b>Floyd</b> | has lost power, with the result being a temporary malfunction in the
+<b>Floyd</b> | gravity control system. Thankfully the backup systems came online.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"Fixed itself just in time,"</span> you think to yourself just
+<b>Floyd</b> | before another gravity shift nearly throws you down the jefferies tube
+<b>Floyd</b> | for the second time in one day.
+<b>Floyd</b> |
+<b>Floyd</b> | You spot the injured man teetering over edge of the precipice and grab
+<b>Floyd</b> | hold of his leg (thankfully the one that isn't broken). You are able
+<b>Floyd</b> | to pull him away from the jefferies tube. He groans and seems to
+<b>Floyd</b> | stifle a cry.
+<b>Floyd</b> |
+<b>Floyd</b> | As you watch the injured man whimper, you realize that your day could
+<b>Floyd</b> | have been worse - so far, anyway.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">put red card in left console slot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 462 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 120 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PUT RED CARD IN LEFT CONSOLE SLOT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The small red card fits snugly in the slot. You notice that the fore
+<b>Floyd</b> | override on the display console has changed from "gamma" to "theta".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 461 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 120 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X DIAGRAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The paper shows a diagram:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "delta" to
+<b>Floyd</b> | "none".
+<b>Floyd</b> |
+<b>Floyd</b> | Your senses tell you something has changed. You ponder for a moment
+<b>Floyd</b> | and realize what it is: The buzzing from your radio has died. Perhaps
+<b>Floyd</b> | the gravity shift knocked it deep down one of the station's many
+<b>Floyd</b> | crevasses.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 361 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 160 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: none
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 40 Aft 0 Waste 60)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Z</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">get red card</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 360 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 160 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: gamma  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET RED CARD</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The small red card slides out easily from the slot. You notice that
+<b>Floyd</b> | the fore override on the display console has changed from "theta" to
+<b>Floyd</b> | "gamma".
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "none" to
+<b>Floyd</b> | "delta".
+<b>Floyd</b> |
+<b>Floyd</b> | The injured man sighs loudly.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">put red card in primary console slot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 359 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 160 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PUT RED CARD IN PRIMARY CONSOLE SLOT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The small red card fits snugly in the slot. You notice that the fore
+<b>Floyd</b> | override on the display console has changed from "gamma" to "theta".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 358 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 160 zPsi  Aft Reserve: 50 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Z</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 258 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 200 zPsi  Aft Reserve: 60 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: delta
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 40 Aft 10 Waste 50)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Z</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 257 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 200 zPsi  Aft Reserve: 60 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X DIAGRAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The paper shows a diagram:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "delta" to
+<b>Floyd</b> | "none".
+<b>Floyd</b> |
+<b>Floyd</b> | The injured man moans quietly.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">get black card</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 256 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 200 zPsi  Aft Reserve: 60 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: gamma
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET BLACK CARD</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The small black card slides out easily from the slot. You notice that
+<b>Floyd</b> | the fore override on the display console has changed from "theta" to
+<b>Floyd</b> | "delta".
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "none" to
+<b>Floyd</b> | "gamma".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 255 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 200 zPsi  Aft Reserve: 60 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: gamma
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Z</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | The injured man mumbles something under his breath.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">listen to man</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 155 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 250 zPsi  Aft Reserve: 85 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: gamma
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 50 Aft 25 Waste 25)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; LISTEN TO MAN</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The man mumbles something incoherant. He is not alert enough to carry
+<b>Floyd</b> | on a conversation right now.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">search man</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 154 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 250 zPsi  Aft Reserve: 85 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; SEARCH MAN</span>
+<b>Floyd</b> |
+<b>Floyd</b> | As you bring your hands close to the man, he holds himself even
+<b>Floyd</b> | tighter and gives you the look you might expect from a dying man who
+<b>Floyd</b> | just wants to be left in peace.
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "gamma" to
+<b>Floyd</b> | "none".
+<b>Floyd</b> |
+<b>Floyd</b> | The injured man moans quietly.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 153 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 250 zPsi  Aft Reserve: 85 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Z</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "none" to
+<b>Floyd</b> | "delta".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 152 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 250 zPsi  Aft Reserve: 85 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; I</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a small black card
+<b>Floyd</b> |   a thruster override chart
+<b>Floyd</b> |   a technical manual
+<b>Floyd</b> |   a screwdriver
+<b>Floyd</b> |   some work gloves (being worn)
+<b>Floyd</b> |   a piece of Oxium gum
+<b>Floyd</b> |
+<b>Floyd</b> | The injured man mumbles something under his breath.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">put black card in secondary console slot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 52 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 250 zPsi  Aft Reserve: 85 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: delta  Aft Override: delta
+</b><b>Floyd</b><b> ]          Oxygen burst initiated (Fore 0 Aft 0 Waste 100)
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PUT BLACK CARD IN SECONDARY CONSOLE SLOT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You try to insert the small black card into the slot, but something
+<b>Floyd</b> | prevents it from snapping into place. You wonder if your timing is
+<b>Floyd</b> | wrong, as the console indicates an oxygen transfer is about to take
+<b>Floyd</b> | place. You remove the card.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Assholes."
+</td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">put black card in secondary console slot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 51 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 250 zPsi  Aft Reserve: 85 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 3
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; PUT BLACK CARD IN SECONDARY CONSOLE SLOT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The small black card fits snugly in the slot. You notice that the fore
+<b>Floyd</b> | override on the display console has changed from "delta" to "theta".
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "delta" to
+<b>Floyd</b> | "none".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 50 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 250 zPsi  Aft Reserve: 85 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: delta
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 2
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X DIAGRAM</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The paper shows a diagram:
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+<b>Floyd</b> | <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+<b>Floyd</b> | <span class="floydstyle u1">theta/any                40/10    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/gamma              50/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/delta              25/50    </span>
+<b>Floyd</b> | <span class="floydstyle u1">delta/delta              0/0      </span>
+<b>Floyd</b> | <span class="floydstyle u1">gamma/gamma              25/25    </span>
+<b>Floyd</b> | <span class="floydstyle u1">any/nil                  40/0     </span>
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "none" to
+<b>Floyd</b> | "delta".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                      Oxygen Storage: 49 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 250 zPsi  Aft Reserve: 85 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: theta  Aft Override: none
+</b><b>Floyd</b><b> ]                       Oxygen transfer in: 1
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Z</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | The aft override on the display console has changed from "delta" to
+<b>Floyd</b> | "none".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                       Oxygen Storage: 0 zPsi
+</b><b>Floyd</b><b> ]            Fore Reserve: 269 zPsi  Aft Reserve: 85 zPsi
+</b><b>Floyd</b><b> ]              Fore Override: n/a    Aft Override: n/a
+</b><b>Floyd</b><b> ]                    Primary Reserve Tanks Empty
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Z</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a whoosh as a burst of oxygen is funneled through nearby
+<b>Floyd</b> | pipes.
+<b>Floyd</b> |
+<b>Floyd</b> | The sound of gas rushing through the transfer lines comes to a sudden
+<b>Floyd</b> | stop and you hear only the hissing of the steampipe below you. In a
+<b>Floyd</b> | moment, the hissing stops as well and you are left in silence. You
+<b>Floyd</b> | look down the jefferies tube. There, just a few feet below and resting
+<b>Floyd</b> | conveniently on a ledge, is your radio. It must have turned off
+<b>Floyd</b> | accidentally when it was thrown around in the gravity shift. You reach
+<b>Floyd</b> | down to pick up your radio and turn it back on.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"...Chief, now that the oxygen has been re-routed I suggest</span>
+<b>Floyd</b> | <span class="floydstyle em">sealing off the entire A-deck, including the conduit tunnels. We can't</span>
+<b>Floyd</b> | <span class="floydstyle em">take any risks with the rebels."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">"Agreed. Zanders, get out of there and report to mechanics</span>
+<b>Floyd</b> | <span class="floydstyle em">immediately."</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The way back to the fore section and mechanics is down the Jefferies
+<b>Floyd</b> | tube, which is now clear. You look behind you - the southern tunnel
+<b>Floyd</b> | leads to the aft section, and if you wished you could probably use
+<b>Floyd</b> | your expertise to sneak into that section before the chief seals off
+<b>Floyd</b> | the last remaining route there. Of course the Captain wouldn't be too
+<b>Floyd</b> | happy about that.
+<b>Floyd</b> |
+<b>Floyd</b> | "I guess that's it then," the injured man sighs. "Time for you to go
+<b>Floyd</b> | back to your side, and I'll just crawl down the hall back to the rest
+<b>Floyd</b> | of us turncoats...I doubt we'll find another route across the station,
+<b>Floyd</b> | so we'll be sealed off for good this time."
+<b>Floyd</b> |
+<b>Floyd</b> | You know for sure he'll never make it down the corridor before the
+<b>Floyd</b> | entire deck is sealed off, and he'll likely be sucked out into space.
+<b>Floyd</b> | On the other hand, he'll never make it all the way down the jefferies
+<b>Floyd</b> | tube with that leg.
+<b>Floyd</b> |
+<b>Floyd</b> | Two choices surface in your mind. You can leave the injured man in the
+<b>Floyd</b> | conduit and save yourself by <span class="floydstyle i">going down</span> or you can <span class="floydstyle i">go</span>
+<b>Floyd</b> | <span class="floydstyle i">south</span>, helping him make it to the aft section of the ship. You're
+<b>Floyd</b> | pretty sure you can make it down the tube in time, but you're not so
+<b>Floyd</b> | sure about the southern tunnel.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Binder says (to Floyd), "<span class="floydcommand">south</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; SOUTH</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "I'm not leaving you here," you tell the injured man. "Come on!"
+<b>Floyd</b> |
+<b>Floyd</b> | You help him up and the both of you stumble down the tunnel, escaping
+<b>Floyd</b> | not a minute too soon. The A-deck hatches close behind you, completely
+<b>Floyd</b> | sealing off the section conduits. There's no turning back now. You
+<b>Floyd</b> | take a few more corridors, take your time helping the injured man down
+<b>Floyd</b> | a jefferies tube (you hope you never see the inside of another
+<b>Floyd</b> | jefferies tube again), and finally through a partially hidden
+<b>Floyd</b> | hatchway. After hacking open a final set of pressure sealed doors, you
+<b>Floyd</b> | reach the main aft corridor. Now it's time to find out what the rebels
+<b>Floyd</b> | think of their new visitor...
+<b>Floyd</b> |
+<b>Floyd</b> | (press any key to continue)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Binder</b> pushes the green 'space' button.
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | Eleanor Proust, de facto leader of the miners, shakes your hand. "It
+<b>Floyd</b> | was courageous of you to come here. You had no idea how we would react
+<b>Floyd</b> | - and you don't know what your commanders will do once they find out
+<b>Floyd</b> | you've defected to our side. Not that it matters - you saved enough
+<b>Floyd</b> | oxygen for the fore section, but you forgot about us. So all the
+<b>Floyd</b> | Captain has to do - all he will do, I guarantee you - is wait. But,
+<b>Floyd</b> | what's done is done. Make your time with us good, won't you? While it
+<b>Floyd</b> | lasts. I believe Andre wants to thank you as well. He's in the
+<b>Floyd</b> | recovery room with his daughters. They're beautiful."
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | *** You made a noble choice, even if you lack a sense of
+<b>Floyd</b> | self-preservation. ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO?
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Binder</b>  says, "Yay I found a noble bad ending."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Olly</b>  says, "Heh."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "I guess I should have planned my exit strategy better."</td></tr>
+
+			<tr>
+				<td colspan=3></td>
+			</tr>
+		</table>
+	</div>
+
+
+	<div class="narrowcol centered centeralign">
+
+		<br><hr><br><br>
+
+		    <div id="disqus_thread"></div>
+		    <script type="text/javascript">
+			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+			var disqus_shortname = 'allthingsjacq'; // required: replace example with your forum shortname
+
+			/* * * DON'T EDIT BELOW THIS LINE * * */
+			(function() {
+			    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		    </script>
+		    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+		<p class="fontish smallest">
+		<br>
+		[ <a href="#top">TOP OF THIS PAGE</a> | <a href=
+			"interactive_fiction.html#clubfloyd">MORE CLUBFLOYD
+			TRANSCRIPTS</a> | <a href="index.html">HOME</a> ]</p>
+
+		<hr>
+
+
+		<p><a href="contact.html"><img src="/graphics/footer.jpg" alt="link to contact page"></a></p>
+
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+	<script src="/js/plugins.js"></script>
+	<script src="/js/script.js"></script>
+</body>
+</html>

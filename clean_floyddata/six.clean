@@ -1,0 +1,4409 @@
+>load six
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+
+
+ Six
+ An Interactive Fiction by Wade Clarke - Release 2
+ Copyright © 2011 All rights reserved
+
+ What do you wanna do? Please choose one of the following options:
+
+ 1 Start a new game
+ 2 Restore a saved game
+ 3 Read the credits
+ 4 Run the configuration tests again
+ 5 Quit
+
+>1
+
+
+
+
+
+
+
+ Your name is Harriet Leitner, it's the January summer school holidays
+ and today has been a great day.
+
+ You turned six this morning! And so did your twin sister, Demi. While
+ Demi is your twin, she is not one of those twins who looks the same as
+ you. Mum has explained that that's because you and your sister are
+ something called fraternal twins. You have decided that you like
+ looking just like yourself, and Demi likes it that way, too.
+
+ Today, mum and dad are hosting a fancy dress birthday party for the
+ pair of you and six of your friends: Marion, Ayla, Pia, Sam, Vince and
+ Jack. You're dressed as a fairy and your sister is dressed as a witch,
+ which is what each of you wanted.
+
+ You all ate heaps of lollies and played games in the morning, and now
+ your parents have taken you to the park for lunch.
+
+ While mum and dad are setting up the picnic, you and your friends are
+ getting ready to play a game of hide and seek tip. Your sister is
+ sitting this game out to drink some lemonade and cool down.
+
+ You agree to be in, and count with your eyes shut against a tree while
+ your friends run off and hide in the park.
+
+ "... Forty-eight..." you shout at the top of your lungs. You think
+ carefully about the next number. It's not easy counting this high, but
+ Demi is good at it and she often helps you practise.
+
+ "... Forty-nine..." you shout at the top of your lungs.
+
+ "... Fifty! Ready or not, here I come!"
+
+ You really want to win this game. It's time to catch your friends.
+
+
+
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds. The trees here reach
+ for the sky. Most of them are green and bright, but a few look unhappy
+ and are covered in loose, dry leaves which wobble in the breeze. A good
+ wind will blow them free.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ (If this is your first time playing Six, type HELP to learn some very
+ helpful stuff).
+
+>help
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+>1
+
+
+
+
+
+
+
+
+ Hi. If you already know how to play modern Interactive Fiction games,
+ all you have to do before you start playing Six is learn about the
+ features specific to this game. You can do this by glancing through
+ topics 2 to 6 from the main help menu before you return to the game.
+
+ If you haven't played Interactive Fiction before, you probably got this
+ game running for the first time by reading the "Instruction manual for
+ those new to Interactive Fiction" which came with it. That manual
+ contains all the information you can find in this built-in help menu,
+ and more. So now you're probably ready to leave this menu and play the
+ game, but remember that if you ever want a quick refresher course on
+ some of Six's special features, you can come back here to the help menu
+ by entering the command HELP.
+
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+>2
+
+
+
+
+
+
+
+
+ When you combine the game of Tip with the game of Hide and Seek, you
+ get Hide and Seek Tip! Tip is the chasing game you might also know as
+ "Tag", depending on where you live.
+
+ In Hide and Seek Tip, the player who is "in" (that's you) closes their
+ eyes and counts to fifty while their friends run away and hide. Once
+ you've finished counting, you have to go looking for your friends. When
+ you find someone, you can't just say, "I see you", like in hide and
+ seek. You have to actually touch the person and say "tip". This is
+ called tipping someone.
+
+ Once you've found and tipped all six of your friends, you win the game.
+
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+>3
+
+
+
+
+
+
+
+
+ Coming up are some special commands you will need to use to play Six.
+ You may discover new ones during the game, too.
+
+ HANDY --- Type this during the game to receive a handy shortened list
+ of all the commands listed below.
+
+ TIP (PERSON) --- When you see one of your friends, try to TIP them.
+
+ CHASE (PERSON) (DIRECTION) --- You can use the CHASE command to try to
+ chase one of your friends in a particular direction. So if you type
+ CHASE JACK WEST, and Jack doesn't outsmart you, Jack will end up
+ running west and you will follow him.
+
+ Note that just typing CHASE (PERSON) without mentioning a direction is
+ the same as trying to tip that person.
+
+ Chasing your friends where you want them to go can help you catch them,
+ so don't forget to try it.
+
+ FOLLOW (PERSON) --- If someone just left the area you're in, you can
+ follow them to wherever they went by typing FOLLOW (PERSON). If you go
+ somewhere else first, though, you will lose track of any people you
+ could have followed from your last location.
+
+ SCORE --- Find out which friends you haven't tipped yet with this
+ command.
+
+ TALK (PERSON) --- To start talking to a person or an animal, or to talk
+ to them some more, type TALK TO (PERSON), the shorter TALK (PERSON) or
+ the supershort T (PERSON). And if there's only one other character
+ around, you can just type TALK or T. Characters will say different
+ things at different times and in different situations, so do lots of
+ talking. If you like the way a conversation is going, TALK to the
+ character again right away to keep it going.
+
+ Note that if you've played other Interactive Fiction games, none of the
+ other usual communication commands will work here, and none are needed.
+ There's no ASK, TELL, YES, NO, ORDER, etc& just TALK.
+
+ SEARCH (SOMETHING) --- Some of your friends will be hiding behind stuff
+ in the park. Type SEARCH (SOMETHING) to check if anyone is hiding
+ behind it.
+
+ Be careful! Just typing EXAMINE (SOMETHING) will not reveal a hidden
+ person, though you will find out whether the object you examined is
+ worth searching.
+
+ Also, you can replace the word "search" with "look" or "check" if you
+ prefer, so you can type things like LOOK BEHIND TREE or CHECK UNDER
+ TABLE, with one exception - typing plain old LOOK (THING) will not
+ perform a search. That is no different than typing EXAMINE (THING).
+
+ LISTEN --- If you're walking around the park and you hear someone make
+ a noise, you might want to stop and listen carefully to see if you can
+ work out where it came from. All you have to do is type LISTEN.
+
+ MAP --- This command displays Demi's map of the park. A separate copy
+ of the map is included with Six so that you can view it or print it
+ outside the game.
+
+ * HIT ENTER AT THE PROMPT TO REPEAT YOUR LAST COMMAND * --- As in most
+ Interactive Fiction games, typing AGAIN (or G) will repeat your last
+ command, but there's an easier way to do this in Six - just press ENTER
+ at the prompt without typing any command. Using this method also shows
+ you your last command, so you can be sure you're repeating the thing
+ you actually wanted to repeat.
+
+ Please note that the UNDO command can't be repeated by any of these
+ methods. If you want to UNDO several moves in a row without typing UNDO
+ each time, you should tap the up arrow key after each UNDO to pull the
+ command out of your command history, then press ENTER again.
+
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+>4
+
+
+
+
+
+
+
+
+ COLOUR --- The status bar at the top of the screen is usually coloured
+ green. Type COLOUR if you want to pick a different colour for it. Your
+ choice will be retained between games.
+
+ EXITS OFF --- The status bar normally displays a list of obvious exits
+ from your location. Directions listed in CAPITAL LETTERS go to
+ locations you haven't visited yet. If you want to hide this list for
+ any reason, type EXITS OFF.
+
+ EXITS ON --- Shows the list of exits in the status bar again.
+
+ EXITS --- Type EXITS on its own to receive a list of obvious exits.
+ You'll also be told where those exits lead to, if you happen to know.
+
+ COMPASS OFF --- There's also a compass rose in the status bar to remind
+ you which way is North, which way is South, which way is West and which
+ way is East. If you'd like to hide the compass and reduce the size of
+ the status bar, type COMPASS OFF.
+
+ COMPASS ON --- Shows the compass again.
+
+ VOLUME --- Use this command to set the volume of the game's sound and
+ music to levels between 0 (off) and 5 (full volume, the default.)
+
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+>5
+
+
+
+
+
+
+
+
+ * Tip is a game of action, so timing is important in Six. Whenever you
+ move or speak, it takes a turn, and everyone else in the game gets the
+ chance to do something as well. Sometimes if you don't act at the right
+ moment, your friends will escape from you.
+
+ * Typing in commands which don't make you move or talk - for instance,
+ LOOK, EXAMINE or SCORE - will not take a turn. If your command doesn't
+ work, that also won't take a turn. Six always shows you whether the
+ last thing you typed took a turn via the NO TIME indicator, which
+ appears in the status bar under your score. Just glance up to the top
+ right corner of the screen, and if you see a line of plus signs there
+ (+++++++) your last command did NOT take a turn. If the pluses aren't
+ there, your last command took a turn as usual.
+
+ * There will be other times when you might want to wait for something
+ to happen. To make a turn pass, type WAIT, or the shortcut Z.
+
+ * Tip is a game for persistent people! You should try to tip your
+ friends lots of times, as they will always be running away from you.
+ There is often a trick to tipping each friend. Pay attention to what
+ your friends do and say and where they go as you chase them around.
+ Don't forget to SEARCH interesting things you see in the park, too, in
+ case your friends are hiding. TALK to all the people and animals you
+ can in different situations, and keep talking to them if what they're
+ saying is interesting, helpful or fun.
+
+ * Tip is a game for witty people. Your friends will do some things
+ differently every time you start a new game of Six, so keep your wits
+ about you.
+
+ * Don't forget that you can type HANDY while playing to see a list of
+ all the special and utility commands.
+
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+>6
+
+
+
+
+
+
+
+
+ Six takes place in Australia, so depending on where you live in the
+ world, you might not know some of these terms you will see in the game.
+
+ Lollies are sweets and chocolates.
+
+ In Australia, it's a tradition that each child at a birthday party
+ receives a lolly bag when they leave. The bag is usually small enough
+ to sit comfortably in the palm of the hand, and is filled up with an
+ assortment of lollies before the party. You won't find out what's in
+ your lolly bag until the party is over.
+
+ Fairy bread is white bread spread with margarine, covered in hundreds
+ and thousands and cut into triangles. (If you don't know what hundreds
+ and thousands are, they might be called "sprinkles" where you live.)
+ Fairy bread is commonly served at children's parties.
+
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+
+
+
+
+
+
+
+
+      1. Whoever you are, please read this option, option 1, right now!
+      2. The rules of Hide and Seek Tip
+      3. Special commands you'll need to play Six
+      4. Less special commands, also known as Utility Commands
+      5. A few words of advice you should read before you play
+      6. What are lollies, lolly bags and fairy bread?
+      7. Why there are no hints built into this game
+      8. Learn where Six saves its data files (nerdy)
+>q
+
+
+
+
+
+
+
+
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+>examine trees
+ Unlike the gum trees you can see all around the park, these ones don't
+ look healthy. Their crunchy leaves are out of your reach, but it looks
+ like the wind could blow them free at any time.
+
+>examine me
+ fairy-ish and pretty - at least you were when you saw yourself in the
+ mirror at home this morning.
+
+ You give yourself a quick check over now, and... yes, you still look
+ great!
+
+>fly
+
+ You don't find anyone behind any of the unhappy trees. They're not very
+ wide, which makes them hard to hide behind.
+
+>examine flowerbeds
+ They're so pretty. If you weren't playing tip, you might like to
+ collect some.
+
+ --- WHOOSH!
+
+ A huge gust of wind suddenly sweeps across the park. "Whooooa!" you cry
+ as your fairy wings start to wobble and pull you along. You grab onto
+ them to make sure you don't fly away.
+
+ All the leaves from the dried out trees are raining down on the path
+ around you...
+
+ You are now surrounded by hundreds of leaves!
+
+ Then, as quickly as it began, the wind drops away. "Whew," you say.
+
+>look
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+ Hundreds of leaves are scattered all over the ground.
+
+>count leaves
+ tip.
+
+>go east
+ Tree Garden
+ This corner of the park is called the "Tree Garden", and... what was
+ that? You heard someone giggling!
+
+ Lots and lots of big trees have been planted in a neat line which winds
+ around the edge of the lawn here. They look like furry people waiting
+ in a queue. Someone has mown the grass and everything is really tidy.
+
+ One path winds north towards a shady area under lots of trees, and
+ another one goes west.
+
+>listen
+
+ Oh, there's a black bird up in one of the trees who just started
+ chirping like crazy! How can you hear anything with that going on? You
+ will have to wait until the birdy decides to be quiet - Ah, there, it
+ stopped. Now you can listen some more.
+
+>listen
+
+ Now what?... there's an aeroplane flying through the sky. It's making a
+ lot of noise. You'll need to wait for the aeroplane to fly away before
+ you can have a good listen.
+
+>listen
+
+ There, you heard the giggle again! You walk over towards where it came
+ from. You think it came from behind the short, smooth, curly-branched,
+ ugly green tree. This is the tree you will look behind.
+
+>examine tree
+ There are tall ones, short ones, smooth and rough ones, pointy ones,
+ curly ones, pretty and ugly ones, and they come in four colours -
+ black, brown, grey and green. Each tree is separated from the next one
+ by a wall of bushes, as if each tree in the Tree Garden has its own
+ little room, and this is stopping you from seeing around all the trees
+ at once. To find out if your friends are hiding behind any of the trees
+ using only your eyes, you would have to look behind each tree, one at a
+ time. What a lot of work!
+
+>look behind short, smooth, curly-branched, ugly green tree
+
+>look behind short smooth curly-branched ugly green tree
+
+>look behind short smooth curly ugly green tree
+
+>look behind curly tree
+
+
+ Should this tree be tall or short?
+
+ 1 - Tall
+ 2 - Short
+
+ SHORT
+
+ Should this tree be smooth or rough?
+
+ 1 - Smooth
+ 2 - Rough
+
+ SMOOTH
+
+ Should this tree be pretty or ugly?
+
+ 1 - Pretty
+ 2 - Ugly
+
+ UGLY
+
+ Should this tree be black, brown, grey or green?
+
+ 1 - Black
+ 2 - Brown
+ 3 - Grey
+ 4 - Green
+
+ GREEN
+
+ After a bit of thinking, you have picked out the short, smooth,
+ curly-branched, ugly green tree.
+
+ You tiptoe over to the base of the tree to investigate the bushy area
+ around and behind it...
+
+
+ You've found your friend Ayla! She's hiding behind this tree, curled up
+ in a ball with her knees tucked under her chin and her arms wrapped
+ around her head. She is dressed as a princess and her gold crown is
+ about to fall off. She's probably trying to stop herself from giggling
+ or making any other sound. She looks so funny that you want to laugh,
+ but she hasn't heard you coming, so you stay quiet so that you can tip
+ her.
+
+>tip ayla
+ under her arms to see who's there. "Tip!" you say as you pat her on the
+ shoulder.
+
+
+ "Heehee", Ayla giggles. "You got me." She stands up and brushes some
+ twigs off her knees, then straightens her crown on her head. "I love
+ hiding."
+
+
+>score
+ tip Pia, Vince, Jack, Marion and Sam.
+
+>look
+ This corner of the park is called the "Tree Garden". Lots and lots of
+ big trees have been planted in a neat line which winds around the edge
+ of the lawn here. They look like furry people waiting in a queue.
+ Someone has mown the grass and everything is really tidy.
+
+ One path winds north towards a shady area under lots of trees, and
+ another one goes west.
+
+ Ayla is here.
+
+>examine ayla
+ light brown skin and super smiley eyes. Her black hair comes down to
+ her shoulders and has plaits in it. Today, she is dressed as a
+ princess. Her dress is pink and white, and there's a gold crown on her
+ head. You like how Ayla has trouble stopping herself from giggling.
+
+>tickle Ayla
+ laugh as well.
+
+ "That was fun," says Ayla. "I'll see you at the picnic area." Then she
+ runs away to the west.
+
+>go north
+ In the Shade by the Mud
+ You're in a part of the park that gets less sun because the trees make
+ a web of dark overhead.
+
+ Paths go north and south to less shady places.
+
+ There's a big puddle of mud here. Yuck!
+
+ Leaning against one of the gum trees is a big girl in red overalls. It
+ looks like she's playing her own game of hide and seek. She has her
+ face pressed into her folded arms so that she can't see, and she's
+ counting out loud.
+
+ The big girl says, "Twenty..."
+
+>examine mud
+ witch's thing.
+
+>examine girl
+ has dirty blond hair and her clothes are dirty. She looks a bit like a
+ boy.
+
+>jump in mud
+ &lt;&lt;  To move from place to place, just type the direction you want to go
+ - NORTH, SOUTH, EAST, WEST, UP or DOWN, or in short form, N, S, E, W, U
+
+>tag girl
+
+>examine trees
+ silver, white and green. Their branches are high up on the trunk and
+ point towards the sky.
+
+>search trees
+ trees. Most of the gum trees are too thin for a person to hide behind.
+
+ The big girl counts, "Twenty-one."
+
+>go north
+ Below the Wall
+ You're in a field which is cool and damp. To the west is a stone wall,
+ at the top of which is a higher level of the park. It's too high to
+ climb over, plus the wall is covered in sticky green stuff that has
+ grown in the shade. Near the wall is a great big yellow rock, much
+ bigger than yourself.
+
+ Pathways go north and south from here.
+
+>examine rock
+ well into the ground. You wonder if someone could be hiding behind it.
+
+>look behind rock
+
+>examine wall
+ and up.
+
+>climb wall
+ that green stuff, too.
+
+>examine trees
+ silver, white and green. Their branches are high up on the trunk and
+ point towards the sky.
+
+>search trees
+ trees. Most of the gum trees are too thin for a person to hide behind.
+
+>go north
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west.
+
+ To the north is the entrance to the gazebo. The gazebo is a small house
+ with lots of sides, a pointed roof and no walls. (There's a kind of
+ fence where the walls would be.) Sometimes people have picnics on the
+ table inside, but no-one is in there today, and you can see why. A big
+ spider has built his web right across the entrance, and he's sitting in
+ the middle of it. He's almost as large as your hand. How horrible!
+
+ Wandering around under the fig tree is Sam the Knight. He is so
+ surprised by your arrival that he wobbles and almost trips over one of
+ the giant tree roots.
+
+ "Forsooth!" he says, as he prepares to run away from you.
+
+ But what does "forsooth" mean?
+
+>chase sam north
+ in the way.
+
+>examine web
+ look at it closely because then you'll think about that icky spider.
+
+>take spider
+
+>chase sam east
+ make his way around to the other side of the tree by jumping and
+ scrambling over the huge roots. It looks like hard work!
+
+ You start to follow him and& gosh, this IS hard work! Each root is like
+ a small wall. Some of them you can leap over, some of them you have to
+ stop and climb over. You can hear Sam breathing heavily ahead of you as
+ you chase him.
+
+ East Side of the Moreton Bay Fig
+ It is very dark here in the shade of the towering fig tree.
+
+ Paths lead around the tree to the west.
+
+ Sam is here, trying to catch his breath.
+
+>tip sam
+ other side of the fig tree, jumping and climbing over its tangle of
+ giant tree roots.
+
+>go west
+ can after Sam.
+
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west. A huge spiderweb blocks the
+ entrance to the gazebo to the north.
+
+ Sam is here, puffing and panting. His face is red!
+
+>examine sam
+ armour. He also has a grey helmet wobbling on his head.
+
+>undo
+ [Your last move has been undone.]
+
+>chase sam east
+ leap over the roots as he heads for the other side of the tree. Panting
+ a bit yourself now, you climb after him...
+
+ East Side of the Moreton Bay Fig
+ It is very dark here in the shade of the towering fig tree.
+
+ Paths lead around the tree to the west.
+
+ Sam is here, looking exhausted, gulping for air and holding himself up
+ with his hands on his knees.
+
+ "Mercy!" he gasps.
+
+>tip sam
+ you have lots.
+
+ "Tip!" you say, patting him on the back.
+
+
+ Sam says, "I think I'll - gasp - have a rest - puff - here before -
+ pant - I go back... to the picnic area... forsooth..." Then he plops
+ down onto the ground, cross-legged.
+
+>examine sam
+ armour. He also has a grey helmet wobbling on his head.
+
+>look
+ It is very dark here in the shade of the towering fig tree.
+
+ Paths lead around the tree to the west.
+
+ Sam is sitting here, recovering his breath.
+
+>examine tree
+ This is the biggest tree you've ever seen and it makes the biggest
+ shadows you've ever seen. It's a long way around to the other side, and
+ all of the tree's roots are in the way.
+
+>look behind tree
+ Standing here, you can see that nobody's hiding on this east side of
+ the tree.
+
+>go west
+
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west. A huge spiderweb blocks the
+ entrance to the gazebo to the north.
+
+>examine web
+ look at it closely because then you'll think about that icky spider.
+
+>look under web
+ spiderweb!
+
+>go west
+ The Giant Garden Bed
+ There's a giant garden bed here with all the prettiest flowers in the
+ park. They're laid out in coloured stripes like in a rainbow.
+
+ Neat paths go south, east and west.
+
+>examine flowers
+ The flowers are planted in this order in the garden bed rainbow: red,
+ orange, yellow, green, blue, purple. The garden bed is so big that you
+ suspect a person could hide behind it.
+
+>look behind bed
+
+>inventory
+   a pink dress (being worn)
+   a pair of fairy wings (being worn)
+   a pair of red and white sneakers (being worn)
+   your fairy wand
+
+>wave wand
+
+>go east
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west. A huge spiderweb blocks the
+ entrance to the gazebo to the north.
+
+>zap spider
+
+ The spider doesn't move.
+
+>get spider
+
+>zap web
+
+ Nothing happens.
+
+>hit spider with wand
+ go near the web and the spider. Ugh! You're not going to risk doing
+ that.
+
+>go west
+ The Giant Garden Bed
+ There's a giant garden bed here with all the prettiest flowers in the
+ park. They're laid out in coloured stripes like in a rainbow.
+
+ Neat paths go south, east and west.
+
+>go west
+ By the Roundabout
+ You're in a nice grassy clearing with paths leading out of it south and
+ east.
+
+ Standing by the roundabout and looking very smart is your friend
+ Marion. She's dressed as a pirate, wearing a white shirt, a red vest
+ and a black pirate's hat, one of those ones shaped like a triangle.
+ She's also carrying a sword, and she's pointing it at you now.
+
+ "Ahoy, landlubber!" she cries. "I'm Red Marion and you're on my ship. I
+ challenge you to a duel."
+
+ You love how Marion is so good at pretending to be different people.
+ She goes to drama after school, and she says she wants to be in movies.
+
+ "What's a duel?" you ask.
+
+ "A duel is where you and me have a fight. You try to zap me with your
+ wand and I'll try to zap you with my sword. If you win, you can tip me,
+ but if I win, you have to say I won hide and seek."
+
+ "That's not fair!" you say.
+
+ "That's the only way you'll get to tip me, landlubber."
+
+ What is this "landlubber" thing she keeps saying?
+
+ "If you don't win," she adds, "we'll do it again another day and you
+ can win then. That's fair, isn't it? So, are you ready to duel?"
+
+ You have a quick think. Will you duel with Marion now?  (Y/N)
+>SAVE
+>cf1
+>y
+
+ --------  THE DUEL --------
+
+ "I'm ready," you say, gripping your wand.
+
+ Marion grins and raises her sword. "Right! I challenge you to a duel,
+ landlubber! Winner takes all!"
+
+ "Stop calling me landlubber," you say.
+
+ "Sorry," says Marion. "Okay, I challenge you to a duel, Harriet."
+
+ "Yeah, let's challenge!" you say.
+
+
+ ZAP - Type this to try to zap Marion with your wand. If you hit her,
+ you win!
+ DODGE - Type this to try to run or jump out of the way of one of
+ Marion's attacks.
+ BLOCK - Type this to try to block one of Marion's attacks with your
+ wand.
+
+ If you want to let Marion make the next move, you can try to WAIT.
+
+ If you want to see these special commands again, type SPECIAL.
+
+ You can also use regular commands during this duel if you think they
+ will help, though most of the time, they won't!
+
+
+ "Let's go!" shouts Marion.
+
+ She immediately slices her sword towards you and yells out "Zap!"
+
+ That zap from her sword is about to hit you! You better act fast.
+
+>dodge
+ Marion takes a couple of quick steps to her right, then holds her sword
+ sideways in front of her to protect herself.
+
+>zap
+ has her weapon up to protect herself, so she blocks your shot easily
+ with one swoosh of the sword.
+
+ "Zap!" she yells, and with a second swoosh, she sends another shot in
+ your direction. You aren't ready at all, and the zap lands right on
+ your tummy.
+
+ "Oof!" you say, holding your belly.
+
+ "I zapped you, I zapped you!" says Marion. "It's over, landlubber! I
+ won!"
+
+ "Don't call me landlubber," you say.
+
+ Because of the deal you made with Marion before the duel, you've lost
+ this game of tip. Plus you'll have to tell everyone that Marion beat
+ you. How annoying!
+
+
+ *** MARION DEFEATED YOU! YOU'VE LOST! ***
+
+ You tipped 2 out of 6 friends (Sam and Ayla) in 30 turns.
+
+ What do you wanna do? Please choose one of the following options:
+
+ 1 Undo your last move so you can keep the bad thing from happening!
+ 2 Restore a saved game
+ 3 Start a brand new game
+ 4 Quit playing for now
+
+>1
+
+ By the Roundabout
+ [Your last move has been undone.]
+ You leap aside with a swishing noise and let the shot go past you.
+ Marion takes a couple of quick steps to her right, then holds her sword
+ sideways in front of her to protect herself.
+
+>undo
+ [Your last move has been undone.]
+ "Let's go!" shouts Marion.
+
+ She immediately slices her sword towards you and yells out "Zap!"
+
+ That zap from her sword is about to hit you! You better act fast.
+
+>undo
+ [Your last move has been undone.]
+
+>SAVE
+>cf2
+
+>go west
+ By the Roundabout
+ You're in a nice grassy clearing with paths leading out of it south and
+ east.
+
+ Standing by the roundabout and looking very smart is your friend
+ Marion. She's dressed as a pirate, wearing a white shirt, a red vest
+ and a black pirate's hat, one of those ones shaped like a triangle.
+ She's also carrying a sword, and she's pointing it at you now.
+
+ "Ahoy, landlubber!" she cries. "I'm Red Marion and you're on my ship. I
+ challenge you to a duel."
+
+ You love how Marion is so good at pretending to be different people.
+ She goes to drama after school, and she says she wants to be in movies.
+
+ "What's a duel?" you ask.
+
+ "A duel is where you and me have a fight. You try to zap me with your
+ wand and I'll try to zap you with my sword. If you win, you can tip me,
+ but if I win, you have to say I won hide and seek."
+
+ "That's not fair!" you say.
+
+ "That's the only way you'll get to tip me, landlubber."
+
+ What is this "landlubber" thing she keeps saying?
+
+ "If you don't win," she adds, "we'll do it again another day and you
+ can win then. That's fair, isn't it? So, are you ready to duel?"
+
+ You have a quick think. Will you duel with Marion now?  (Y/N)
+>y
+
+ --------  THE DUEL --------
+
+ "I'm ready," you say, gripping your wand.
+
+ Marion grins and raises her sword. "Right! I challenge you to a duel,
+ landlubber! Winner takes all!"
+
+ "Stop calling me landlubber," you say.
+
+ "Sorry," says Marion. "Okay, I challenge you to a duel, Harriet."
+
+ "Yeah, let's challenge!" you say.
+
+
+ ZAP - Type this to try to zap Marion with your wand. If you hit her,
+ you win!
+ DODGE - Type this to try to run or jump out of the way of one of
+ Marion's attacks.
+ BLOCK - Type this to try to block one of Marion's attacks with your
+ wand.
+
+ If you want to let Marion make the next move, you can try to WAIT.
+
+ If you want to see these special commands again, type SPECIAL.
+
+ You can also use regular commands during this duel if you think they
+ will help, though most of the time, they won't!
+
+
+ "Let's go!" shouts Marion.
+
+ She immediately slices her sword towards you and yells out "Zap!"
+
+ That zap from her sword is about to hit you! You better act fast.
+
+>block
+ "Peooo!" you say. "I blocked it."
+
+ "Curses!" says Marion, taking a couple of steps to her right. She stops
+ suddenly and holds her sword sideways in front of herself for
+ protection.
+
+>zap
+ has her weapon up to protect herself, so she blocks your shot easily
+ with one swoosh of the sword.
+
+ "Zap!" she yells, and with a second swoosh, she sends another shot in
+ your direction. You aren't ready at all, and the zap lands right on
+ your tummy.
+
+ "Oof!" you say, holding your belly.
+
+ "I zapped you, I zapped you!" says Marion. "It's over, landlubber! I
+ won!"
+
+ "Don't call me landlubber," you say.
+
+ Because of the deal you made with Marion before the duel, you've lost
+ this game of tip. Plus you'll have to tell everyone that Marion beat
+ you. How annoying!
+
+
+ *** MARION DEFEATED YOU! YOU'VE LOST! ***
+
+ You tipped 2 out of 6 friends (Sam and Ayla) in 30 turns.
+
+ What do you wanna do? Please choose one of the following options:
+
+ 1 Undo your last move so you can keep the bad thing from happening!
+ 2 Restore a saved game
+ 3 Start a brand new game
+ 4 Quit playing for now
+
+>1
+
+ By the Roundabout
+ [Your last move has been undone.]
+ You wave your wand across yourself and Marion's zap bounces off it.
+ "Peooo!" you say. "I blocked it."
+
+ "Curses!" says Marion, taking a couple of steps to her right. She stops
+ suddenly and holds her sword sideways in front of herself for
+ protection.
+
+>dodge
+ the moment. Marion lowers her sword and starts to run across the
+ clearing.
+
+ Oops! Her hat fell off, but she's not going back for it.
+
+>zap
+
+ Marion waves her sword over her shoulder and bounces your shot away.
+ Now you can see where she's running to. There's a spot where the ground
+ goes up a bit like a little hill, and Marion just jumped behind it. She
+ pokes her head over the top of the hill and throws another shot at you,
+ shouting "Zap!"
+
+>block
+ "Peooo!"
+
+ Marion ducks back behind the hill so you can't see her. Waiting for her
+ to appear again, you keep your wand pointed at the top of the hill&
+
+ There she is, she just put her head up!
+
+>zap
+ her!
+
+ "Ohhh!" Marion cries, jumping out from behind the hill and stomping
+ around. Then you both laugh. Marion walks over to her hat, picks it up
+ and puts it back on her head. She comes over to you.
+
+ "You won, so you can tip me now," she says, holding out her open hand.
+
+ "Tip," you say, clapping her hand lightly. Marion smiles.
+
+
+ "Let's have another duel later," you say.
+
+ "Yeah!" says Marion.
+
+>talk to marion
+
+ "Oh, where are you going to?" you ask.
+
+ "No questions!" says Marion.
+
+ Marion waves and walks away to the south.
+
+>look
+ You're in a nice grassy clearing with paths leading out of it south and
+ east.
+
+ You see the roundabout.
+
+>examine roundabout
+ holding onto.
+
+>look behind roundabout
+ it.
+
+>go south
+ By the Hedge Maze
+ What was that sound just then? There must be a bird close by.
+
+ West of here is the entrance to the hedge maze. It's a real life maze
+ where all the walls are made out of hedges. You've been in there before
+ and it can be lots of fun.
+
+ Paths also lead north, south and east from here.
+
+ Marion is walking along here.
+
+ Ugh... A huge, scary black bird is sitting on the hedge beside the
+ entrance to the maze. He has no white patches on him, so he's not a
+ magpie. He must be a raven.
+
+ Marion walks south.
+
+>examine raven
+ he could pick you up and carry you away. He's sitting still at the
+ moment, but you don't trust him, and you're afraid to go near him.
+
+>talk to raven
+ turns a little bit, but he doesn't do anything else.
+
+>zap raven
+
+ The raven doesn't even blink.
+
+>raven, caw
+ &lt;&lt;  To communicate with other folks in Six, just type TALK TO (PERSON)
+ or the shorter TALK (PERSON) or the supershort T (PERSON). If there's
+
+>talk to raven
+ start to get the feeling he likes being where he is.
+
+>go west
+ if he pecked you on your head or something?
+
+ Hm... Being scared yourself makes you think that your friends were
+ probably scared away by the raven as well. That might have stopped any
+ of them from trying to hide in the maze. Maybe you should look for them
+ elsewhere?
+
+>throw shoe at raven
+ Demi at home.
+
+>look
+ You're in a nice big grassy area. West of here is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ The raven sits on a hedge here, watching you.
+
+>go east
+ Above the Wall
+ This is a really exciting place in the park. It's like a room on
+ another planet where the walls are made out of jungle.
+
+ Paths lead north, south and west. To the east is a stone wall about as
+ high as your chest, but on the other side it's a longer drop to the
+ grass below.
+
+
+>examine stone wall
+ its side, but smooth and flat on the top. Down below the other side of
+ the wall is a grassy area.
+
+>examine jungle
+ a tiger as well.
+
+>search jungle
+ there.
+
+>go south
+ Below the Treehouse
+ You're in a tangly area in the park. There's lots of tall grass waving
+ in the breeze like water, and there are weeds growing around the
+ flowerbeds and dangling from trees. A metal ladder attached to one tree
+ leads up into a treehouse.
+
+ Paths also go north, south and west from here.
+
+ As you approach the treehouse, you easily spot Jack, dressed as
+ Spiderman, creeping along behind a curtain of vines. "I see you, Jack!"
+ you yell, making him jump.
+
+ Jack grins and sprints away to the west. Yikes, he is super fast!
+
+>follow jack
+
+ On the Triangle-Shaped Path
+ The pathway becomes narrow here and splits in three directions. It
+ makes you think of a triangle. The flowerbeds here are yellow and
+ really pretty.
+
+ You can go north, south or east.
+
+ Jack is marching up and down here.
+
+ Coming along the path towards you is a tall, pretty lady walking a
+ little dog on a leash. You like dogs, though your family doesn't have
+ any.
+
+ Jack runs to the east.
+
+>follow jack
+
+ Below the Treehouse
+ You're in a tangly area in the park. There's lots of tall grass waving
+ in the breeze like water, and there are weeds growing around the
+ flowerbeds and dangling from trees. A metal ladder attached to one tree
+ leads up into a treehouse.
+
+ Paths also go north, south and west from here.
+
+ Jack is running around here on all fours. He's crazy!
+
+ Jack runs off to the south.
+
+>follow jack
+
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+ Jack is running around here on all fours. He's crazy!
+
+ Hundreds of leaves are scattered all over the ground.
+
+>tag jack
+
+ "Nyah nyah!" he says, circling around you. You find yourself puffing
+ and panting trying to get close to him. It's really frustrating.
+
+ "Fairies and girls are lame," he says. "You'll never tip me!"
+
+ How rude! You feel like throwing something at him to annoy him.
+
+ Jack runs off to the east.
+
+>go east
+ Tree Garden
+ This corner of the park is called the "Tree Garden". Lots and lots of
+ big trees have been planted in a neat line which winds around the edge
+ of the lawn here. They look like furry people waiting in a queue.
+ Someone has mown the grass and everything is really tidy.
+
+ One path winds north towards a shady area under lots of trees, and
+ another one goes west.
+
+ Jack is running around here on all fours. He's crazy!
+
+>examine jack
+ on it. He has a funny face and can make you laugh just by wiggling it
+ around sometimes. He can be a real showoff.
+
+>throw shoe at jack
+ Demi at home.
+
+>throw wand at jack
+
+>inventory
+   a pink dress (being worn)
+   a pair of fairy wings (being worn)
+   a pair of red and white sneakers (being worn)
+   your fairy wand
+
+>remove dress
+
+>chase jack w
+ to run west. You follow close behind him -
+
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+ Jack skids to a halt.
+
+ Hundreds of leaves are scattered all over the ground.
+
+>chase jack w
+ to run west. You follow close behind him -
+
+ By the Koala Statue
+ You're in a round, paved clearing surrounded by a tall hedge. It's a
+ little cooler here for some reason. In the centre of the clearing is a
+ giant stone koala.
+
+ Paths lead north and east.
+
+ Jack skids to a halt.
+
+>chase jack north
+ to run north. You follow close behind him -
+
+ On the Triangle-Shaped Path
+ The pathway becomes narrow here and splits in three directions. It
+ makes you think of a triangle. The flowerbeds here are yellow and
+ really pretty.
+
+ You can go north, south or east.
+
+ Jack skids to a halt.
+
+ The lady is here with her dog.
+
+>chase jack north
+ tries to get around you. By doing this a few times, you manage to get
+ him to run north, and you follow him.
+
+ By the Hedge Maze
+ You're in a nice big grassy area. West of here is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ Jack skids to a halt.
+
+ The raven sits on a hedge here, watching you.
+
+>chase jack north
+ to run north. You follow close behind him -
+
+ By the Roundabout
+ You're in a nice grassy clearing with paths leading out of it south and
+ east.
+
+ You see the roundabout.
+
+ Jack skids to a halt.
+
+>chase jack e
+ tries to get around you. By doing this a few times, you manage to get
+ him to run east, and you follow him.
+
+ The Giant Garden Bed
+ There's a giant garden bed here with all the prettiest flowers in the
+ park. They're laid out in coloured stripes like in a rainbow.
+
+ Neat paths go south, east and west.
+
+ Jack skids to a halt.
+
+>chase jack e
+ tries to get around you. By doing this a few times, you manage to get
+ him to run east, and you follow him.
+
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west. A huge spiderweb blocks the
+ entrance to the gazebo to the north.
+
+ Jack skids to a halt.
+
+>chase jack north
+ in the way.
+
+>undo
+ [Your last move has been undone.]
+
+>undo
+ [Your last move has been undone.]
+
+>chase jack s
+ tries to get around you. By doing this a few times, you manage to get
+ him to run south, and you follow him.
+
+ Above the Wall
+ This is a really exciting place in the park. It's like a room on
+ another planet where the walls are made out of jungle.
+
+ Paths lead north, south and west. To the east is a stone wall about as
+ high as your chest, but on the other side it's a longer drop to the
+ grass below.
+
+ Jack skids to a halt.
+
+>chase jack east
+ looks like you can go north (to the giant garden bed), south (to below
+ the treehouse) or west (to the hedge maze).
+
+>go south
+ Below the Treehouse
+ You're in a tangly area in the park. There's lots of tall grass waving
+ in the breeze like water, and there are weeds growing around the
+ flowerbeds and dangling from trees. A metal ladder attached to one tree
+ leads up into a treehouse.
+
+ Paths also go north, south and west from here.
+
+>examine weeds
+ everything they touch. One time you tied two pieces together and you
+ got itchy hands.
+
+>get weeds
+
+>examine flowerbeds
+ They're so pretty. If you weren't playing tip, you might like to
+ collect some.
+
+>go up
+ In the Treehouse
+ You're up in the wooden treehouse. Wow, what a great view! The house
+ has no roof and its walls are red and blue. There's a steering wheel
+ attached to the trunk of the tree. This all looks fun, but you need to
+ get on with finding your friends. Maybe if you check out the view, you
+ can spot some of them from up here.
+
+ A ladder leads down to the ground.
+
+>examine wheel
+
+>turn wheel
+ driving a racing car.
+
+>examine view
+ and east of the treehouse, but you can't see to the west or south.
+
+ *  To the north, in the place above the wall, you can see Jack.
+ *  Over to the east, near the puddle of mud, you see that big girl
+ counting against her tree.
+ ** Away to the north, you just saw something moving near the giant
+ garden bed. You're not sure what it was, but it might have been a
+ person.
+
+>go down
+ Below the Treehouse
+ You're in a tangly area in the park. There's lots of tall grass waving
+ in the breeze like water, and there are weeds growing around the
+ flowerbeds and dangling from trees. A metal ladder attached to one tree
+ leads up into a treehouse.
+
+ Paths also go north, south and west from here.
+
+>go north
+ Above the Wall
+ This is a really exciting place in the park. It's like a room on
+ another planet where the walls are made out of jungle.
+
+ Paths lead north, south and west. To the east is a stone wall about as
+ high as your chest, but on the other side it's a longer drop to the
+ grass below.
+
+ Jack is running around here on all fours. He's crazy!
+
+>go north
+ The Giant Garden Bed
+ There's a giant garden bed here with all the prettiest flowers in the
+ park. They're laid out in coloured stripes like in a rainbow.
+
+ Neat paths go south, east and west.
+
+>look behind bed
+ hiding there, dressed as an army soldier in green. He's on his hands
+ and knees and staying perfectly still. His bottom is poking in your
+ direction, which is funny. He doesn't realise you can see him.
+
+>examine vince
+ patchy. He's Chinese and he has black hair. One time at show and tell,
+ he told a story about his parents coming to Australia from China when
+ he was a baby.
+
+>spank vince
+
+>tag vince
+
+
+ Vince crawls out from his hiding place and smiles. "Was it hard to find
+ me?" he asks.
+
+ "I guess so," you say, "I had to go up in the treehouse to spot you."
+
+ "Good!" he says. "I'm practising to be a spy."
+
+>go north
+ above the wall), east (to the west side of the Moreton Bay Fig) or west
+ (to the roundabout).
+
+>go east
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west. A huge spiderweb blocks the
+ entrance to the gazebo to the north.
+
+>go east
+
+ East Side of the Moreton Bay Fig
+ It is very dark here in the shade of the towering fig tree.
+
+ Paths lead around the tree to the west.
+
+>go west
+
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west. A huge spiderweb blocks the
+ entrance to the gazebo to the north.
+
+>examine web
+ look at it closely because then you'll think about that icky spider.
+
+>get wand with web
+ &lt;&lt;  The game only understood what you typed as far as wanting to get
+
+>get web with wand
+ &lt;&lt;  The game only understood what you typed as far as wanting to get
+
+>touch web with wand
+
+>poke web with wand
+
+>tangle web
+
+>collect web
+
+>weave web
+
+>get web
+ spiderweb!
+
+ &lt;&lt;  Sorry, the game only understood what you typed as far as wanting to
+ "put". You could try typing your command again, but this time without
+
+>score
+ turns. You still need to tip Pia and Jack.
+
+>go west
+ The Giant Garden Bed
+ There's a giant garden bed here with all the prettiest flowers in the
+ park. They're laid out in coloured stripes like in a rainbow.
+
+ Neat paths go south, east and west.
+
+ Vince is here.
+
+ Vince sneaks away to the south.
+
+>go south
+ Above the Wall
+ This is a really exciting place in the park. It's like a room on
+ another planet where the walls are made out of jungle.
+
+ Paths lead north, south and west. To the east is a stone wall about as
+ high as your chest, but on the other side it's a longer drop to the
+ grass below.
+
+ Vince is here.
+
+ Jack is running around here on all fours. He's crazy!
+
+ Vince sneaks away to the south.
+
+>go south
+ Below the Treehouse
+ You're in a tangly area in the park. There's lots of tall grass waving
+ in the breeze like water, and there are weeds growing around the
+ flowerbeds and dangling from trees. A metal ladder attached to one tree
+ leads up into a treehouse.
+
+ Paths also go north, south and west from here.
+
+ Vince is here.
+
+ Vince sneaks away to the south.
+
+>go west
+ On the Triangle-Shaped Path
+ The pathway becomes narrow here and splits in three directions. It
+ makes you think of a triangle. The flowerbeds here are yellow and
+ really pretty.
+
+ You can go north, south or east.
+
+ The lady is here with her dog.
+
+>examine lady
+ wonder what it would be like to have red hair.
+
+>ask lady about pia
+ &lt;&lt;  To communicate with other folks in Six, just type TALK TO (PERSON)
+ or the shorter TALK (PERSON) or the supershort T (PERSON). If there's
+
+>talk to pia
+
+>talk to lady
+
+ "Oh, look at you!" says the lady. "What a wonderful costume. You look
+ beautiful." You feel very pleased, but also shy. The little dog starts
+ sniffing at your feet.
+
+ "This is Stevie," says the lady. "You can pat her if you want."
+
+>pat stevie
+
+ "Some people think it is if they haven't heard it before," says the
+ lady, "but actually it's short for Stephanie."
+
+ "Oh," you say. The dog is warm and fuzzy and friendly.
+
+ "Okay," says the lady, "Stevie and I are going to continue on our walk
+ now."
+
+ "Bye Stevie," you say. You just decided that you and Demi have to get a
+ dog! You'll talk to mum and dad about it.
+
+ The lady and Stevie walk away to the east.
+
+>go south
+ By the Koala Statue
+ You're in a round, paved clearing surrounded by a tall hedge. It's a
+ little cooler here for some reason.
+
+ Paths lead north and east.
+
+ The huge stone koala stands before you.
+
+>examine koala
+ time, and they were cute, but they were mostly asleep... Hm, this koala
+ is so big, someone could use it as a hiding place. Maybe you should
+ look behind it?
+
+>look behind koala
+
+ Eek! Something black just zipped out of your sight!
+
+ You jump back into the open to find tall Pia right in front of you,
+ dressed in her black cat costume. You both scream with excitement, but
+ before you can grab her, she springs away to the east.
+
+>go east
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+ Pia is here. She keeps her eyes on you as you approach.
+
+ Hundreds of leaves are scattered all over the ground.
+
+ Pia bounds away all cat-like to the north.
+
+>go north
+ Below the Treehouse
+ You're in a tangly area in the park. There's lots of tall grass waving
+ in the breeze like water, and there are weeds growing around the
+ flowerbeds and dangling from trees. A metal ladder attached to one tree
+ leads up into a treehouse.
+
+ Paths also go north, south and west from here.
+
+ Pia is here, standing in the shade.
+
+>count leaves
+ tip.
+
+>chase pia w
+ tries to get around you. By doing this a few times, you manage to get
+ her to run west, and you follow her.
+
+ On the Triangle-Shaped Path
+ The pathway becomes narrow here and splits in three directions. It
+ makes you think of a triangle. The flowerbeds here are yellow and
+ really pretty.
+
+ You can go north, south or east.
+
+ Pia skids to a halt.
+
+>chase pia north
+ to run north. You follow close behind her -
+
+ By the Hedge Maze
+ You're in a nice big grassy area. West of here is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ Pia skids to a halt.
+
+ The raven sits on a hedge here, watching you.
+
+>chase pia west
+ the maze.
+
+>go north
+ By the Roundabout
+ You're in a nice grassy clearing with paths leading out of it south and
+ east.
+
+ You see the roundabout.
+
+>go north
+ maze) or east (to the giant garden bed).
+
+>go east
+ The Giant Garden Bed
+ There's a giant garden bed here with all the prettiest flowers in the
+ park. They're laid out in coloured stripes like in a rainbow.
+
+ Neat paths go south, east and west.
+
+>go south
+ Above the Wall
+ This is a really exciting place in the park. It's like a room on
+ another planet where the walls are made out of jungle.
+
+ Paths lead north, south and west. To the east is a stone wall about as
+ high as your chest, but on the other side it's a longer drop to the
+ grass below.
+
+ Jack is running around here on all fours. He's crazy!
+
+>chase jack s
+ south, just like you wanted! You chase after him.
+
+ Below the Treehouse
+ You're in a tangly area in the park. There's lots of tall grass waving
+ in the breeze like water, and there are weeds growing around the
+ flowerbeds and dangling from trees. A metal ladder attached to one tree
+ leads up into a treehouse.
+
+ Paths also go north, south and west from here.
+
+ Jack skids to a halt.
+
+>chase jack s
+ tries to get around you. By doing this a few times, you manage to get
+ him to run south, and you follow him.
+
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+ Jack skids to a halt.
+
+ Hundreds of leaves are scattered all over the ground.
+
+>chase jack east
+ just like you wanted! You chase after him.
+
+ Tree Garden
+ This corner of the park is called the "Tree Garden". Lots and lots of
+ big trees have been planted in a neat line which winds around the edge
+ of the lawn here. They look like furry people waiting in a queue.
+ Someone has mown the grass and everything is really tidy.
+
+ One path winds north towards a shady area under lots of trees, and
+ another one goes west.
+
+ Jack skids to a halt.
+
+>chase jack north
+ to run north. You follow close behind him -
+
+ In the Shade by the Mud
+ You're in a part of the park that gets less sun because the trees make
+ a web of dark overhead.
+
+ Paths go north and south to less shady places.
+
+ There's a big puddle of mud here.
+
+ Jack skids to a halt.
+
+ The big girl is here, leaning against a tree and counting aloud.
+
+ The big girl counts, "Ninety-four -"
+
+>chase jack north
+ to run north. You follow close behind him -
+
+ Below the Wall
+ You're in a field which is cool and damp. To the west is a stone wall,
+ at the top of which is a higher level of the park. It's too high to
+ climb over, plus the wall is covered in sticky green stuff that has
+ grown in the shade. Near the wall is a great big yellow rock, much
+ bigger than yourself.
+
+ Pathways go north and south from here.
+
+ Jack skids to a halt.
+
+>chase jack south
+ to run south. You follow close behind him -
+
+ In the Shade by the Mud
+ You're in a part of the park that gets less sun because the trees make
+ a web of dark overhead.
+
+ Paths go north and south to less shady places.
+
+ There's a big puddle of mud here.
+
+ Jack skids to a halt.
+
+ The big girl is here, leaning on a tree and counting aloud.
+
+ "Ninety-six," says the big girl.
+
+>chase jack into puddle
+ would be silly enough to run right into it. Also, you're afraid you
+ might fall in the puddle yourself.
+
+>chase jack south
+ to run south. You follow close behind him -
+
+ Tree Garden
+ This corner of the park is called the "Tree Garden". Lots and lots of
+ big trees have been planted in a neat line which winds around the edge
+ of the lawn here. They look like furry people waiting in a queue.
+ Someone has mown the grass and everything is really tidy.
+
+ One path winds north towards a shady area under lots of trees, and
+ another one goes west.
+
+ Jack skids to a halt.
+
+>go west
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+ Hundreds of leaves are scattered all over the ground.
+
+>get leaves
+ You collect a big bunch of the leaves from the ground. It takes both
+ your hands to hold them. You realise you won't be able to tip anyone
+ while you're carrying the leaves, but if you use them up and need more
+ of them later, you know you'll be able to come back here to get some
+ more.
+
+>go east
+ Tree Garden
+ This corner of the park is called the "Tree Garden". Lots and lots of
+ big trees have been planted in a neat line which winds around the edge
+ of the lawn here. They look like furry people waiting in a queue.
+ Someone has mown the grass and everything is really tidy.
+
+ One path winds north towards a shady area under lots of trees, and
+ another one goes west.
+
+ Jack is running around here on all fours. He's crazy!
+
+>go north
+ In the Shade by the Mud
+ You're in a part of the park that gets less sun because the trees make
+ a web of dark overhead.
+
+ Paths go north and south to less shady places.
+
+ There's a big puddle of mud here.
+
+ The big girl is here, leaning against a tree and counting aloud.
+
+ The big girl says, "One hundred and one."
+
+>put leaves on mud
+
+ &lt;&lt;  You don't need to put things on other things in this game, though
+ you can try to PUT DOWN something you're carrying, or to PUT ON
+
+>drop leaves
+ Okay. You drop the leaves and they gently blow away.
+
+>undo
+ [Your last move has been undone.]
+
+>cover leaves with mud
+
+>hide mud
+ hiding!
+
+>f put leaves in mud
+
+>put leaves in mud
+
+>inventory
+   a bunch of leaves
+   a pink dress (being worn)
+   a pair of fairy wings (being worn)
+   a pair of red and white sneakers (being worn)
+   your fairy wand
+
+>examine leaves
+ The crinkly leaves are bunched up in your cupped hands.
+
+>go south
+ Tree Garden
+ This corner of the park is called the "Tree Garden". Lots and lots of
+ big trees have been planted in a neat line which winds around the edge
+ of the lawn here. They look like furry people waiting in a queue.
+ Someone has mown the grass and everything is really tidy.
+
+ One path winds north towards a shady area under lots of trees, and
+ another one goes west.
+
+ Jack is running around here on all fours. He's crazy!
+
+>throw leaves at jack
+ You wait for Jack to start showing off again just out of your reach,
+ then suddenly chuck the whole pile of leaves in his face.
+
+ "BLUCH!... What?!" he shouts, falling on his backside in surprise.
+ Sitting on the ground and covered in leaves, he starts to laugh, and to
+ spit out bits of leaf.
+
+>tip jack
+
+
+ "I'll get you back later," Jack says. Both of you start laughing as he
+ peels more leaves off himself.
+
+>go south
+ the shade by the mud) or west (to the edge of the park).
+
+ Jack gets up, brushes himself off and goes west.
+
+>go west
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+ Jack is here.
+
+ Hundreds of leaves are scattered all over the ground.
+
+ Jack heads south.
+
+>go west
+ By the Koala Statue
+ You're in a round, paved clearing surrounded by a tall hedge. It's a
+ little cooler here for some reason.
+
+ Paths lead north and east.
+
+ The huge stone koala stands before you.
+
+>go north
+ On the Triangle-Shaped Path
+ The pathway becomes narrow here and splits in three directions. It
+ makes you think of a triangle. The flowerbeds here are yellow and
+ really pretty.
+
+ You can go north, south or east.
+
+ The lady and Stevie arrive from the east.
+
+>go north
+ By the Hedge Maze
+ You're in a nice big grassy area. West of here is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ Pia is here, standing in the shade.
+
+ The raven sits on a hedge here, watching you.
+
+>chase pia north
+ north, just like you wanted! You chase after her.
+
+ By the Roundabout
+ You're in a nice grassy clearing with paths leading out of it south and
+ east.
+
+ You see the roundabout.
+
+ Pia skids to a halt.
+
+>chase pia east
+ tries to get around you. By doing this a few times, you manage to get
+ her to run east, and you follow her.
+
+ The Giant Garden Bed
+ There's a giant garden bed here with all the prettiest flowers in the
+ park. They're laid out in coloured stripes like in a rainbow.
+
+ Neat paths go south, east and west.
+
+ Pia skids to a halt.
+
+>chase pia east
+ to run east. You follow close behind her -
+
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west. A huge spiderweb blocks the
+ entrance to the gazebo to the north.
+
+ Pia skids to a halt.
+
+>chase pia south
+ to run south. You follow close behind her -
+
+ Below the Wall
+ You're in a field which is cool and damp. To the west is a stone wall,
+ at the top of which is a higher level of the park. It's too high to
+ climb over, plus the wall is covered in sticky green stuff that has
+ grown in the shade. Near the wall is a great big yellow rock, much
+ bigger than yourself.
+
+ Pathways go north and south from here.
+
+ Pia skids to a halt.
+
+>chase pia south
+ tries to get around you. By doing this a few times, you manage to get
+ her to run south, and you follow her.
+
+ In the Shade by the Mud
+ You're in a part of the park that gets less sun because the trees make
+ a web of dark overhead.
+
+ Paths go north and south to less shady places.
+
+ There's a big puddle of mud here.
+
+ Pia skids to a halt.
+
+ The big girl is here, leaning on a tree and counting aloud.
+
+ "One hundred and thirteen," says the big girl.
+
+>examine pia
+ black mask over her eyes and her curly red hair is held back by a
+ cat-ears headband. She's the tallest girl in your class and sometimes
+ gives you piggybacks. She is great at sports and running and jumping
+ over things. She is very quiet, but also very kind.
+
+>jump over mud
+ horrible.
+
+>chase pia north
+ north, just like you wanted! You chase after her.
+
+ Below the Wall
+ You're in a field which is cool and damp. To the west is a stone wall,
+ at the top of which is a higher level of the park. It's too high to
+ climb over, plus the wall is covered in sticky green stuff that has
+ grown in the shade. Near the wall is a great big yellow rock, much
+ bigger than yourself.
+
+ Pathways go north and south from here.
+
+ Pia skids to a halt.
+
+>chase pia north
+ to run north. You follow close behind her -
+
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west. A huge spiderweb blocks the
+ entrance to the gazebo to the north.
+
+ Pia skids to a halt.
+
+>chase pia north
+ in the way.
+
+>go south
+ Below the Wall
+ You're in a field which is cool and damp. To the west is a stone wall,
+ at the top of which is a higher level of the park. It's too high to
+ climb over, plus the wall is covered in sticky green stuff that has
+ grown in the shade. Near the wall is a great big yellow rock, much
+ bigger than yourself.
+
+ Pathways go north and south from here.
+
+>go south
+ In the Shade by the Mud
+ You're in a part of the park that gets less sun because the trees make
+ a web of dark overhead.
+
+ Paths go north and south to less shady places.
+
+ There's a big puddle of mud here.
+
+ The big girl is here, leaning on a tree and counting aloud.
+
+ "One hundred and seventeen," counts the big girl.
+
+>go south
+ Tree Garden
+ This corner of the park is called the "Tree Garden". Lots and lots of
+ big trees have been planted in a neat line which winds around the edge
+ of the lawn here. They look like furry people waiting in a queue.
+ Someone has mown the grass and everything is really tidy.
+
+ One path winds north towards a shady area under lots of trees, and
+ another one goes west.
+
+>go west
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+ Hundreds of leaves are scattered all over the ground.
+
+>get leaves
+ You collect a big bunch of the leaves from the ground. It takes both
+ your hands to hold them. You realise you won't be able to tip anyone
+ while you're carrying the leaves, but if you use them up and need more
+ of them later, you know you'll be able to come back here to get some
+ more.
+
+>go east
+ Tree Garden
+ This corner of the park is called the "Tree Garden". Lots and lots of
+ big trees have been planted in a neat line which winds around the edge
+ of the lawn here. They look like furry people waiting in a queue.
+ Someone has mown the grass and everything is really tidy.
+
+ One path winds north towards a shady area under lots of trees, and
+ another one goes west.
+
+>go north
+ In the Shade by the Mud
+ You're in a part of the park that gets less sun because the trees make
+ a web of dark overhead.
+
+ Paths go north and south to less shady places.
+
+ There's a big puddle of mud here.
+
+ The big girl is here, leaning on a tree and counting aloud.
+
+ "One hundred and twenty-two," counts the big girl.
+
+>go north
+ Below the Wall
+ You're in a field which is cool and damp. To the west is a stone wall,
+ at the top of which is a higher level of the park. It's too high to
+ climb over, plus the wall is covered in sticky green stuff that has
+ grown in the shade. Near the wall is a great big yellow rock, much
+ bigger than yourself.
+
+ Pathways go north and south from here.
+
+>go north
+ West Side of the Moreton Bay Fig
+ In this dusty corner of the park is the hugest of all the trees. Dad
+ said it's called a Moreton Bay Fig. It has roots like crazy ropes and
+ bark like an elephant's skin. You feel you could jump on your own head
+ hundreds of times and still not reach the top of the tree.
+
+ You are on the west side of the tree and can go around to its east
+ side. Paths also go south and west. A huge spiderweb blocks the
+ entrance to the gazebo to the north.
+
+ Pia is here, standing in the shade.
+
+>throw leaves at web
+ If you threw your wand and it got stuck in the web, you would have to
+ go near the web and the spider. Ugh! You're not going to risk doing
+ that.
+
+>chase pia east
+ want to go in that direction - probably because of all the big tree
+ roots that are in the way.
+
+ The two of you end up running west -
+
+ The Giant Garden Bed
+ There's a giant garden bed here with all the prettiest flowers in the
+ park. They're laid out in coloured stripes like in a rainbow.
+
+ Neat paths go south, east and west.
+
+ Pia skids to a halt.
+
+>talk to pia
+
+ Pia giggles.
+
+>go south
+ Above the Wall
+ This is a really exciting place in the park. It's like a room on
+ another planet where the walls are made out of jungle.
+
+ Paths lead north, south and west. To the east is a stone wall about as
+ high as your chest, but on the other side it's a longer drop to the
+ grass below.
+
+>go south
+ Below the Treehouse
+ You're in a tangly area in the park. There's lots of tall grass waving
+ in the breeze like water, and there are weeds growing around the
+ flowerbeds and dangling from trees. A metal ladder attached to one tree
+ leads up into a treehouse.
+
+ Paths also go north, south and west from here.
+
+ The lady and Stevie arrive from the west.
+
+>go south
+ The Edge of the Park
+ You're at the south edge of the park. It's super hot today and the sun
+ is pouring down on the grass and the flowerbeds.
+
+ From here, paths lead north, east and west through the park, and to the
+ south is the picnic area where mum and dad will set up lunch later.
+
+ You see some unhappy trees here.
+
+ Hundreds of leaves are scattered all over the ground.
+
+>search leaves
+ The leaves aren't piled high enough to hide anybody.
+
+>go west
+ By the Koala Statue
+ You're in a round, paved clearing surrounded by a tall hedge. It's a
+ little cooler here for some reason.
+
+ Paths lead north and east.
+
+ The huge stone koala stands before you.
+
+>examine koala
+ time, and they were cute, but they were mostly asleep.
+
+>examine hedge
+ The tiny leaves and branches grow so close together that you can't see
+ through them.
+
+>search hedge
+
+>climb hedge
+
+>climb koala
+
+>go north
+ On the Triangle-Shaped Path
+ The pathway becomes narrow here and splits in three directions. It
+ makes you think of a triangle. The flowerbeds here are yellow and
+ really pretty.
+
+ You can go north, south or east.
+
+>examine flowerbeds
+ don't know what they are.
+
+>go north
+ By the Hedge Maze
+ You're in a nice big grassy area. West of here is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ The raven sits on a hedge here, watching you.
+
+>chase raven
+
+>go north
+ By the Roundabout
+ You're in a nice grassy clearing with paths leading out of it south and
+ east.
+
+ You see the roundabout.
+
+>ride roundabout
+ Do you want to do this?  (Y/N)
+>y
+
+ Okay. You drop the leaves and they gently blow away.
+
+ You get up on the roundabout.
+
+>spin
+ You give the roundabout a big push to the left and set it spinning.
+
+ The roundabout is spinning quickly. Whee!
+
+>jump
+
+ The roundabout is spinning.
+
+>score
+ in 126 turns. You still need to tip Pia.
+
+>go east
+ The Giant Garden Bed
+ There's a giant garden bed here with all the prettiest flowers in the
+ park. They're laid out in coloured stripes like in a rainbow.
+
+ Neat paths go south, east and west.
+
+ Pia is here, standing in the shade.
+
+>chase pia w
+ to run west. You follow close behind her -
+
+ By the Roundabout
+ You're in a nice grassy clearing with paths leading out of it south and
+ east.
+
+ Pia skids to a halt.
+
+ The roundabout comes to a halt.
+
+>chase pia onto roundabout
+ &lt;&lt;  You need to say which way you want to chase Pia. For example, you
+
+>chase pia on to roundabout
+ &lt;&lt;  You need to say which way you want to chase Pia. For example, you
+
+>chase pia to roundabout
+ &lt;&lt;  You need to say which way you want to chase Pia. For example, you
+
+>jump on roundabout
+
+>spin
+ You give the roundabout a big push to the left and set it spinning.
+
+ The roundabout is spinning quickly. Whee!
+
+>jump
+
+ The roundabout is spinning.
+
+>examine pia
+ black mask over her eyes and her curly red hair is held back by a
+ cat-ears headband.
+
+
+ you slow it down.
+
+ The roundabout comes to a halt.
+
+>chase pia south
+ tries to get around you. By doing this a few times, you manage to get
+ her to run south, and you follow her.
+
+ By the Hedge Maze
+ You're in a nice big grassy area. West of here is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ Pia skids to a halt.
+
+ The raven sits on a hedge here, watching you.
+
+>chase pia e
+ to run east. You follow close behind her -
+
+ Above the Wall
+ This is a really exciting place in the park. It's like a room on
+ another planet where the walls are made out of jungle.
+
+ Paths lead north, south and west. To the east is a stone wall about as
+ high as your chest, but on the other side it's a longer drop to the
+ grass below.
+
+ Pia skids to a halt.
+
+ Wow, is Pia really gonna do what it looks like she's about to do? -
+
+ She takes three huge cat leaps towards the wall, then vaults over it
+ and through the air!.. and disappears from sight.
+
+ She must have landed on the grass below the other side of the wall, but
+ you didn't think you could jump that far without getting hurt. You feel
+ nervous and excited, and wonder whether you could do the same trick? It
+ looked so cool.
+
+>jump over wall
+ You have butterflies in your tummy at the idea of leaping. Are you sure
+ you want to jump over the wall?  (Y/N)
+
+>y
+ With a gasp, you gather your courage and run at the wall, throwing
+ yourself over the top of it with your hands.
+
+ You're in the air, flying towards the grass!
+
+ Below the Wall
+ OOF!... with an enormous thud, you crash into a green world. For a
+ second it feels like you have no breath, but quickly you find that you
+ are feeling fine and sitting on your bottom in the tall grass in the
+ shade below the wall. You push your wings back into place (they must
+ have worked) and climb to your feet.
+
+ That was awesome!
+
+ Someone even more surprised by your jump than you is Pia, who is
+ struggling to her feet beside you. You caught up to her!
+
+>tip pia
+
+ "I didn't think you'd catch up to me after my jump," says Pia.
+
+ "I flew," you say.
+
+
+>go south
+>%showpartial
+
+ You've tipped everybody! You've won!
+
+ You and Pia run back to the picnic area where your sister and the rest
+ of your friends are waiting for you. Everyone congratulates you -
+ especially dad, who says you were taking forever - and then he and mum
+ bring out the party lunch. You and Ayla run straight to the fairy
+ bread, but everyone else goes for the little party pies. Jack stuffs a
+ whole pie in his mouth at once, which makes everybody laugh, though it
+ also makes mum tell him not to be so silly.
+
+
+ .
+ .
+ .
+
+ That night, after all your friends have gone home, you and Demi are
+ allowed to stay up past bedtime to eat one more piece of birthday cake
+ each. As you both sit there munching away, you have a think to yourself
+ about your day. "This was the best birthday ever," you say to your
+ sister.
+
+ Demi smiles at you and says, "I agree."
+
+ --- THE END
+
+
+
+
+ *** YOU HAVE UNLOCKED DEMI ! ***
+
+ There are two playable characters in Six, and you just unlocked the
+ second one - Demi. To play the game as Demi, choose the Demi option
+ from Six's main menu.
+
+ Demi has a different personality to her sister, and her game is more
+ challenging, with new tricks, locations and variations.
+
+
+
+
+
+
+
+
+
+
+
+
+ Six
+ An Interactive Fiction by Wade Clarke - Release 2
+ Copyright © 2011 All rights reserved
+
+ "I don't like playing with girls. They're too slow." - Jack
+
+ What do you wanna do? Please choose one of the following options:
+
+ 1 Start a new game as Harriet (Fairy)
+ 2 Start a new game as Demi (Witch)
+ 3 Restore a saved game
+ 4 Read the credits
+ 5 Run the configuration tests again
+ 6 Quit
+
+>2
+
+
+
+
+
+
+
+ Your name is Demi Leitner, it's the January summer school holidays and
+ today has been a great day.
+
+ You turned six this morning! And so did your twin sister, Harriet. As
+ soon as you woke up, you ran to get mum and asked her to measure your
+ height on the wall. You were very excited to find that you were taller
+ again. When your friends started arriving for the birthday party, you
+ put your witch's hat on to make yourself taller than all of them, even
+ Pia.
+
+ One of the games you played at home this morning was pass the parcel,
+ and you had a bit of an argument with Harriet over who was holding the
+ parcel when the music stopped for the last time. You're certain it was
+ you, and then dad said you could share it, but then you gave the parcel
+ to Harriet anyway because you like to see her happy. You're better at
+ most games than her, so sometimes you let her win.
+
+ You ate so many lollies this morning, you were starting to feel funny,
+ but by the time everyone got to the park for lunch, you felt good
+ again. And now it's time to play hide and seek tip. It's going to be
+ great!
+
+ You agree to be in, and count with your eyes shut against a tree while
+ your friends run off and hide in the park.
+
+ "... Forty-eight..." you shout at the top of your lungs.
+
+ "... Forty-nine..." you shout at the top of your lungs.
+
+ "... Fifty! Ready or not, the witch is coming for you!"
+
+ You really want to win this game. It's time to catch your friends.
+
+
+
+ The Edge of the Park
+ This is the south edge of the park. The sky is blue and bright today,
+ and the air is warm. Pretty flowers shake in the breeze around the base
+ of some super-tall trees. A few of the trees look unwell, and the curly
+ leaves on the unwell ones are ready to fall off.
+
+ Paths lead north, east and west, and to the south is the picnic area.
+
+>examine trees
+ You don't know what kind of trees these unwell-looking trees are, but
+ they're not gum trees. Their dying leaves are all curly and crunchy,
+ and will probably come down next time there's a strong wind.
+
+>go east
+ Tree Garden
+ You've come into the Tree Garden. It's super neat here. The big trees
+ go around the edge of the lawn in perfect lines. There's a smell in the
+ air like someone just mowed the lawn.
+
+ A path goes north into a mysterious-looking shaded area, and another
+ goes back west to the edge of the park.
+
+>listen
+
+>examine trees
+ pointy trees and curly trees. Some of them look interesting, while
+ others... well, the others look boring. The trees come in four colours:
+ black, brown, grey and green. A perfectly square wall of bushes grows
+ between every pair of trees. It's like a hotel for trees, with each
+ tree in its own room.
+
+ You try to find a place to stand where you can see behind all the trees
+ at once, but it's impossible. Hmm... it looks like the only way to find
+ out if any of your friends are hiding behind any of these trees will be
+ to search each tree.
+
+>go north
+ In the Shade by the Mud
+ This is a shady and damp area in the park. Far overhead, the tree
+ branches knot together like fingers, chopping up the sunlight. It feels
+ a bit spooky.
+
+ You can leave this shady place by going north or south.
+
+ There's a big puddle of mud here.
+
+ Leaning against a very tall gum tree with her face buried in her arms
+ (because she is counting and not peeking) is a big girl wearing red
+ overalls. She looks kind of tough.
+
+ The girl turns away from the tree suddenly and fixes her eye on you,
+ her hands on her hips. She looks you up and down.
+
+ "I'm Rose, and I don't like witches sneaking up on me," she says. "You
+ better not try anything smart with me. This is my park."
+
+ She keeps watching you suspiciously.
+
+>inventory
+   a witch's hat (being worn)
+   some black robes (being worn)
+   a pair of black slippers (being worn)
+   your witch's wand
+
+>examine wand
+ a little more pointy than the handle.
+
+>zap rose
+
+ "Don't you do that to me!" says Rose. "I already told you not to be
+ smart."
+
+ You don't like this bossy boots. You have an idea.
+
+ "I could jinx you with my magic," you say. "Do you know what that
+ means? You would have bad luck all week. Every time you try walking
+ somewhere, you'll trip over. I mean it!"
+
+ You raise your wand towards Rose. She starts to look afraid. It's
+ working!..
+
+ Suddenly she frowns. "Liar," she says, "You can't do that."
+
+ Rats!
+
+>push rose into mud
+
+ You can tell that starting a fight with Rose wouldn't be smart.
+
+>trip rose
+
+>zap rose
+
+ "I told you to stop annoying me!" shouts Rose. "That's it!"
+
+ She rushes over to you and gives you a great big shove - right into the
+ mud!
+
+>undo
+
+ "AAAAAAAAAAAAAAAH!" you scream...
+
+ You're drenched in mud! You can't believe it!
+
+ Your attacker has already run away...
+
+>undo
+
+ *** YOU'RE TOO SHOCKED TO KEEP PLAYING - YOUR DAY IS RUINED! ***
+
+ You haven't tipped anyone yet, so your score is 0. You've been playing
+ for 6 turns.
+
+ What do you wanna do? Please choose one of the following options:
+
+ 1 Undo your last move so you can keep the bad thing from happening!
+ 2 Restore a saved game
+ 3 Start a brand new game
+ 4 Quit playing for now
+
+>1
+
+ In the Shade by the Mud
+ [Your last move has been undone.]
+
+>undo
+ [Your last move has been undone.]
+
+>go north
+ Below the Wall
+ You're in a cool, shaded field. It's nice to be out of the heat for a
+ moment. To the west is a high stone wall covered in slippery moss. Near
+ the base of the wall is a huge yellow rock. It looks like a small
+ mountain.
+
+ There is more shade to the south and another path goes north.
+
+>examine wall
+ in moss. The wall is wide and very tall.
+
+>examine yellow rock
+ rock before at the beach. You like the feel of it. It's also large
+ enough that someone could hide behind it.
+
+>look behind yellow rock
+
+>climb wall
+ impossible climb, even if your robes were easier to manage.
+
+>go north
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west.
+
+ To the north is the pointy-roofed little building called the gazebo,
+ but nobody is in there today because the way in is blocked by a big
+ spider web. Sitting in the middle of the web is the orb weaver spider
+ who made it. Wow, that web is amazing!
+
+ Standing in the shade of the tree is a brave knight... well, maybe not
+ a brave one. It's Sam. His grey armour doesn't fit him too well, so he
+ looks a bit funny.
+
+ "The witch is here!" you shout, pointing your wand at Sam.
+
+ Sam gives a little scream. Yes, he should be afraid of you!
+
+>chase sam north
+ way.
+
+ --- WHOOSH!
+
+ A  strong gust of wind suddenly sweeps across the park. Your hat tries
+ to jump off your head. You grab on to the brim with one hand and wave
+ your wand to cast a spell with the other.
+
+ "Wind, stop! I order you!" you yell. The crazy wind keeps blowing.
+
+ "You're not listening!" you shout, as loose leaves from the trees go
+ shooting away.
+
+ Then, as quickly as it began, the wind drops away. "That's better," you
+ say.
+
+>chase sam east
+ huge roots of the tree.
+
+ You move to follow Sam but find that in your witch's robes, it's too
+ hard to either climb or jump over the big roots. Giving up on this
+ idea, you run away from the tree until you are beyond the reach of the
+ roots, then circle around to its other side. Unfortunately, this is a
+ much slower way of getting around the tree than Sam's way.
+
+ East Side of the Moreton Bay Fig
+ Very little sunlight reaches this side of the tree. Amongst its giant,
+ twisting roots, you feel like you're in a world of stone.
+
+ The only way to go from here is west, to the other side of the tree.
+
+ Sam the knight is here. He looks tense, and ready to run away from you.
+
+>zap sam
+
+ "My armour protects me from your spells," Sam says proudly.
+
+>go west
+ roots.
+
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west. The big
+ spiderweb blocks the entrance to the gazebo to the north.
+
+>get spider
+ playing. Maybe you could just move it?
+
+>move spider
+ spiderweb in place on one side. The web falls sideways and the spider
+ runs along one of the remaining threads and disappears under the roof
+ of the gazebo. You scrape away what's left of the web on the grass.
+
+ "Sorry Mister Spider," you say, "but you were in my way today."
+
+ Now you can go into the gazebo to the north.
+
+>go north
+ In the Gazebo
+ You are in the gazebo, a building like a small tower with a white fence
+ instead of a balcony around the outside of it. If you painted the fence
+ black, it would be a very good place for a witch to live.
+
+ There is only one way out of the gazebo, and that is through a gap in
+ the fence to the south.
+
+ There is a picnic table here.
+
+>examine table
+ not big enough for anyone to hide under or behind.
+
+>move table
+
+>push table
+
+>climb on table
+
+>go south
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west, and you can
+ enter the gazebo to the north.
+
+>go east
+ roots.
+
+ East Side of the Moreton Bay Fig
+ Very little sunlight reaches this side of the tree. Amongst its giant,
+ twisting roots, you feel like you're in a world of stone.
+
+ The only way to go from here is west, to the other side of the tree.
+
+ Sam the knight is here. He looks tense, and ready to run away from you.
+
+>chase sam west
+ and climb over the fig tree roots. He's heading west around the fig
+ tree.
+
+ Knowing you can't get over the big tree roots in your robe, you run
+ away from the tree until you are clear of the roots, then circle around
+ to the tree's other side. It takes awhile.
+
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west, and you can
+ enter the gazebo to the north.
+
+ Sam the knight is here. He looks tense, and ready to run away from you.
+
+>chase sam north
+ fig tree, you jump in front of him with your arms spread out. Then...
+ yes! He decides to go north into the gazebo! You rush after him -
+
+ In the Gazebo
+ You are in the gazebo, a building like a small tower with a white fence
+ instead of a balcony around the outside of it.
+
+ There is only one way out of the gazebo, and that is through a gap in
+ the fence to the south.
+
+ Sam skids to a halt.
+
+ There is a picnic table here.
+
+ You see Sam looking around for an escape route, but there isn't one -
+ you're standing between him and the only way out of the gazebo. You've
+ got him trapped!
+
+ "Help!" he screams, "The witch is coming to get me!"
+
+>tip sam
+ here. You grab his shoulder and say, "Tip!"
+
+
+ "Ohhhhhh," Sam groans.
+
+>go south
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west, and you can
+ enter the gazebo to the north.
+
+ Sam arrives from the north.
+
+>score
+ tip Ayla, Pia, Vince, Jack and Marion.
+
+>go west
+ The Giant Garden Bed
+ You're beside a giant garden bed. The flowers have been planted to
+ create a rainbow pattern, and it's beautiful.
+
+ Paths goes south, east and west.
+
+>examine flowers
+ In the garden bed rainbow, first come the red flowers, then the orange
+ flowers, the yellow flowers, the green flowers, the blue flowers, and
+ finally the purple flowers. The garden bed rises quite high from the
+ ground, which makes you think someone could be hiding behind it.
+
+>look behind bed
+ You can see a black shape there. What is that?
+
+ Suddenly the shape comes to life and flies out into the open, giving
+ you a big fright. "AAAH!" you shriek.
+
+ Now you can see that the shape is Pia, who's dressed as a black cat.
+ She springs away to the east on her long legs.
+
+>go east
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west, and you can
+ enter the gazebo to the north.
+
+ Pia is here. She keeps her eyes on you as you approach.
+
+ Pia suddenly springs away all cat-like to the west.
+
+>go west
+ The Giant Garden Bed
+ You're beside a giant garden bed. The flowers have been planted to
+ create a rainbow pattern, and it's beautiful.
+
+ Paths goes south, east and west.
+
+ Pia is here. Her cat-eyes follow your movements.
+
+>zap pia
+
+ Pia springs out of the way of your magic. You snap your fingers. She's
+ too fast.
+
+>chase pia east
+ tries to get around you. By doing this a few times, you manage to get
+ her to run east, and you follow her.
+
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west, and you can
+ enter the gazebo to the north.
+
+ Pia skids to a halt.
+
+>chase pia north
+ follow behind her -
+
+ In the Gazebo
+ You are in the gazebo, a building like a small tower with a white fence
+ instead of a balcony around the outside of it.
+
+ There is only one way out of the gazebo, and that is through a gap in
+ the fence to the south.
+
+ Pia skids to a halt.
+
+ There is a picnic table here.
+
+ Pia's eyes dart around the gazebo. Her lips make an "O", like she's
+ having a thinkies. You can tell she knows you've cornered her.
+
+>tip pia
+ causing you to wobble, then quickly tries to step around you in the
+ other direction. She is so tricky that her escape plan almost works,
+ but there isn't enough room in the gazebo for her to get past you, and
+ she ends up crashing right into your arms.
+
+ "Tip!" you say, and you both laugh.
+
+
+>go south
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west, and you can
+ enter the gazebo to the north.
+
+ Pia arrives from the north.
+
+>go west
+ The Giant Garden Bed
+ You're beside a giant garden bed. The flowers have been planted to
+ create a rainbow pattern, and it's beautiful.
+
+ Paths goes south, east and west.
+
+>go west
+ By the Roundabout
+ You're in a big grassy clearing at the northwest corner of the park.
+
+ A path leads south towards the hedge maze, and another one goes east
+ towards a colourful garden bed.
+
+ You have found Marion, who's dressed as a pirate. She's standing beside
+ the roundabout, looking very proud of herself with one hand on her
+ waist, the other holding her sword. When she sees you coming, she
+ pushes her pirate hat firmly onto her head and raises her sword towards
+ you.
+
+ "Ahoy!" she cries. "Ye be on my ship, landlubber!"
+
+ "I'm no landlubber," you tell her. "You shall call me Witch Demi." You
+ stand up to look as tall and scary as you can.
+
+ Marion leans on her sword and looks you up and down. She seems to
+ decide you are tough enough. "All right Witch Demi," she says, "I'm Red
+ Marion, and I challenge you to a duel."
+
+ A duel! You know all about those from Harry Potter.
+
+ "I'll duel you," you say, "and when I win, I'm gonna tip you."
+
+ "And if I win," says Marion, "you have to give up tipping people and
+ tell everyone I won this game."
+
+ What a cheeky pirate... but you're not worried, because you're totally
+ going to win.
+
+ "Okay Red Marion," you say. "You made a big mistake deciding to mess
+ with me." You lift up your wand and hold it tightly. "I'm gonna zap
+ you."
+
+ "Uh uh," she says. "I'm gonna zap you."
+
+ "Let's duel!" you say.
+
+>y
+
+ --------  THE DUEL --------
+
+
+ ZAP - Type this to try to zap Marion with your wand. If you hit her,
+ you win!
+ DODGE - Type this to try to run or jump out of the way of one of
+ Marion's attacks.
+ BLOCK - Type this to try to block one of Marion's attacks with your
+ wand.
+
+ If you want to let Marion make the next move, you can try to WAIT.
+
+ If you want to see these special commands again, type SPECIAL.
+
+ You can also use regular commands during this duel if you think they
+ will help - and they might!
+
+
+ "Go!" shouts Marion. She dances a little to one side, then sprints
+ across the grass in the other direction. It looks like she's headed for
+ the roundabout.
+
+>zap marion
+ air and does a little dance to twist out of the way. Wow!
+
+ "Missed me," she shouts. "No funny magic words," she yells over her
+ shoulder. "You have to say 'zap' or it doesn't count."
+
+ "Okay," you shout back.
+
+ Marion just made it to the far side of the roundabout. There, she
+ kneels down so that the bars of the roundabout are giving her some
+ cover. She grabs onto them with one hand, then leans out around the
+ side of the roundabout to throw a shot at you with her sword - "Zap!"
+
+>block
+ but confidently, you begin to move towards the roundabout yourself.
+ Marion pokes her head out from behind the bars to check what you're up
+ to.
+
+>spin roundabout
+
+>zap marion
+ your wand. Marion ducks back behind the roundabout bars to get out of
+ the way.
+
+ Now's your chance. You run forward as quickly as you can to close the
+ distance between yourself and the roundabout.
+
+ You made it! Now that you're right beside the roundabout, Marion isn't
+ hidden from you any more. She's still kneeling down and hanging off the
+ bar on the opposite side of the roundabout with one hand, and she looks
+ surprised to see you're so close. "Zap!" she yells, chucking another
+ shot at you over the roundabout, though she didn't aim very well.
+
+>dodge
+ roundabout! Marion shoots at you again immediately while you're
+ confused - "Zap!"
+
+ Rats, she got you!
+
+ "Ha!" says Marion. "Nobody can defeat Red Marion in a duel! You lose,
+ Witch Demi."
+
+ Uh oh. You told Marion she would be the winner of this game of tip if
+ she beat you in the duel, and that's just what she's done...
+
+
+ *** MARION DEFEATED YOU! YOU'VE LOST! ***
+
+ You tipped 2 out of 6 friends (Pia and Sam) in 36 turns.
+
+ What do you wanna do? Please choose one of the following options:
+
+ 1 Undo your last move so you can keep the bad thing from happening!
+ 2 Restore a saved game
+ 3 Start a brand new game
+ 4 Quit playing for now
+
+>1
+
+ By the Roundabout
+ [Your last move has been undone.]
+ "Zap!" you yell, throwing another shot at Marion with a big snap of
+ your wand. Marion ducks back behind the roundabout bars to get out of
+ the way.
+
+ Now's your chance. You run forward as quickly as you can to close the
+ distance between yourself and the roundabout.
+
+ You made it! Now that you're right beside the roundabout, Marion isn't
+ hidden from you any more. She's still kneeling down and hanging off the
+ bar on the opposite side of the roundabout with one hand, and she looks
+ surprised to see you're so close. "Zap!" she yells, chucking another
+ shot at you over the roundabout, though she didn't aim very well.
+
+>block
+ roundabout! Marion shoots at you again immediately while you're
+ confused - "Zap!"
+
+ Rats, she got you!
+
+ "Ha!" says Marion. "Nobody can defeat Red Marion in a duel! You lose,
+ Witch Demi."
+
+ Uh oh. You told Marion she would be the winner of this game of tip if
+ she beat you in the duel, and that's just what she's done...
+
+
+ *** MARION DEFEATED YOU! YOU'VE LOST! ***
+
+ You tipped 2 out of 6 friends (Pia and Sam) in 36 turns.
+
+ What do you wanna do? Please choose one of the following options:
+
+ 1 Undo your last move so you can keep the bad thing from happening!
+ 2 Restore a saved game
+ 3 Start a brand new game
+ 4 Quit playing for now
+
+>1
+
+ By the Roundabout
+ [Your last move has been undone.]
+ "Zap!" you yell, throwing another shot at Marion with a big snap of
+ your wand. Marion ducks back behind the roundabout bars to get out of
+ the way.
+
+ Now's your chance. You run forward as quickly as you can to close the
+ distance between yourself and the roundabout.
+
+ You made it! Now that you're right beside the roundabout, Marion isn't
+ hidden from you any more. She's still kneeling down and hanging off the
+ bar on the opposite side of the roundabout with one hand, and she looks
+ surprised to see you're so close. "Zap!" she yells, chucking another
+ shot at you over the roundabout, though she didn't aim very well.
+
+>turn roundabout
+
+ "Ahh!" cries Marion, losing her grip on the roundabout bar and falling
+ backward onto the grass. This is your big chance!
+
+ The roundabout is spinning quickly.
+
+>zap marion
+
+ "Argh!" she cries, "ya got me!" Then she rolls around on the ground
+ making loud dying noises.
+
+ You help Marion onto her feet, pat her on the back and say, "Tip".
+
+
+ "Good work, Witch Demi," says Marion, shaking your hand. "You're no
+ landlubber after all." She gives you a salute with her sword.
+
+ "Thanks," you say, taking a little bow.
+
+ The roundabout is spinning.
+
+>go south
+ By the Hedge Maze
+ You hear a bird cry out as you enter this big, open grassy area. To the
+ west is the entrance to the hedge maze. It's a great place to hide, so
+ you're sure that at least one of your friends will be in there. You
+ will have to explore the maze to find out if you're right.
+
+ Paths also lead north, south and east from here.
+
+ Sitting on the hedge beside the entrance to the maze is a big black
+ bird, a raven. He must have called out when he saw you coming.
+
+ "Yes, here I am," you say. You feel sure this bird would be the kind to
+ help a witch like yourself.
+
+ Marion arrives from the north.
+
+>go west
+ In the Hedge Maze
+ You have entered the hedge maze. Tall green walls of square hedge bend
+ around each other, forming tricky patterns. It's spooky and mysterious,
+ even on a sunny day. But it's exciting, too.
+
+ There are yellow arrows painted on the ground wherever you walk here.
+ If you ever get lost, you can follow the arrows to the exit.
+
+ &lt;&lt;  You won't need to make a map of the maze - In fact, it cannot be
+
+ &lt;&lt;  Also, compass directions don't work in here. Use LEFT and RIGHT
+
+ Now, how would you like to control your movements while in the maze?
+ Please choose one of the following setups by pressing 1 or 2:
+
+ 1 - Type LEFT to go left, RIGHT to go right and L to look.
+ 2 - Type L to go left, R to go right and LOOK to look.
+>2
+
+ &lt;&lt;  You chose set up number 2. Remember that typing L will be short for
+ GO LEFT, not "look". Type the whole word LOOK if you want to see your
+ location description again while in the maze.
+
+
+ You walk forward into the maze&
+
+
+>look
+
+ In the Hedge Maze
+ You stand in a narrow passage made by two hedges. It's dark and scary
+ here. At the end of the passage you can turn left or right.
+
+ You just heard someone giggling! It sounded like it came from the
+ right.
+
+>r
+
+ In the Hedge Maze
+ The hedges are quite close together here. It's almost like having a
+ grass roof over your head. The end of the path splits so that you can
+ turn either left or right.
+
+ It's quiet here. Maybe if you just listen, you'll hear that person
+ sneaking around?
+
+>listen
+
+ There! You heard someone giggling. It came from the left.
+
+>look
+
+ In the Hedge Maze
+ This part of the maze is up on a little slope. It's still not high
+ enough for you to be able to see over the hedges, though. Paths go left
+ and right.
+
+ What was that? You heard someone giggle nearby. It sounded like it came
+ from the left.
+
+>look
+
+ In the Hedge Maze
+ You have run into a grassy clearing in the maze. It is quite sunny
+ here. There are two new openings leading back into the maze, one to
+ your left and one to your right.
+
+ There's a pink, parrotty bird with a white crest on its head sitting on
+ the hedge here. You recognise it as a galah. The galah made a lot of
+ noise as you approached, but at the same time, you heard someone
+ giggling nearby in the maze. Did that giggle come from the left or the
+ right? You're not sure.
+
+>examine bird
+ really stand out here in the maze. You learned at school that
+ Aborigines gave the bird its name.
+
+>listen
+
+ You haven't heard any new sounds yet. You might need to be patient and
+ keep listening.
+
+>listen
+ new. You'll have to make a decision about which way to go.
+
+>examine hedge
+ grow a wall out of the ground using only plants, that would be a hedge.
+ But how would it get to be so square? You will have to think about that
+ later.
+
+>examine bird
+ really stand out here in the maze. You learned at school that
+ Aborigines gave the bird its name.
+
+>look left
+
+>look l
+
+>smell
+
+>listen
+ new. Maybe the person heard you? You'll just have to pick a direction
+ to go in.
+
+>look
+
+ In the Hedge Maze
+ You turn a corner and almost walk into a big stone pole. Hedge-lined
+ paths go left and right away from here
+
+ The raven just landed on a hedge here and cried out. At the same time,
+ you heard someone giggling nearby in the maze. But did that giggle come
+ from the left or the right?
+
+>examine raven
+
+>examine pole
+ there is a special name for one of these things, but you forget what it
+ is right now.
+
+>climb pole
+
+>listen
+
+ Nothing yet.
+
+>listen
+ new. You'll have to make a decision about which way to go.
+
+>left
+
+ In the Hedge Maze
+ The hedges are very tall and neat here, and form the shape of a big
+ letter T. You can turn left or right.
+
+ There was the giggling again. It definitely came from the left.
+
+>left
+
+ In the Hedge Maze
+ A few of the hedges here are shaped like beachballs. How funny! You can
+ go between the hedges on your left or the ones on your right.
+
+ The galah is here, and it called out at the same time you heard someone
+ giggling nearby. But did that giggle come from the left or the right?
+
+>listen to galah
+
+ You wait a little while and listen carefully, but don't hear anything
+ new. Maybe the person heard you? You'll just have to pick a direction
+ to go in.
+
+>examine galah
+ really stand out here in the maze. You learned at school that
+ Aborigines gave the bird its name.
+
+>examine hedges
+ grow a wall out of the ground using only plants, that would be a hedge.
+ But how would it get to be so square? You will have to think about that
+ later.
+
+>right
+
+ You start to wonder if you're catching up with that giggling person or
+ falling behind them. But then you remember that you are a clever and
+ powerful witch. You feel confident about continuing the search. And if
+ you do feel tired and would rather come back here later, you could
+ always exit the maze and search for friends elsewhere for now.
+
+
+ In the Hedge Maze
+ This is a shady spot in the hedge maze with a green seat which people
+ can sit on. You can continue through the maze by turning left or right.
+
+ It's quiet here.
+
+>listen
+
+ Nothing yet.
+
+>left
+
+ In the Hedge Maze
+ The maze becomes curvy here. Ahead of you, it splits like a fork. One
+ path curves away to the left. Another curves away to the right.
+
+ There was the giggling again. It definitely came from the left.
+
+>left
+
+ In the Hedge Maze
+ There is a grate in the ground here. It's dark underneath and you can
+ hear water running. Ahead of you, you can turn the corner left or
+ right.
+
+ The galah is here, and it called out at the same time you heard someone
+ giggling nearby. But did that giggle come from the left or the right?
+
+>whistle
+ and you keep trying to do it, and mum says one day you'll be able to do
+ it, but you haven't been able to do it yet.
+
+>zap galah
+ have a feeling they're mostly on your side.
+
+>inventory
+   a witch's hat (being worn)
+   some black robes (being worn)
+   a pair of black slippers (being worn)
+   your witch's wand
+
+>examine slippers
+
+>examine hat
+
+>hide
+ went and hid themselves. The game could go on forever! It's funny to
+ think about, but it's not something you want to try today.
+
+>look
+ There is a grate in the ground here. It's dark underneath and you can
+ hear water running. Ahead of you, you can turn the corner left or
+ right.
+
+ The galah sits on a hedge here.
+
+>get galah
+
+>galah, hello
+ &lt;&lt;  To communicate with other folks in Six, just type TALK TO (PERSON)
+ or the shorter TALK (PERSON) or the supershort T (PERSON). If there's
+
+>t galah
+
+>left
+
+ In the Hedge Maze
+ You're in a clearing with some smaller hedges which only come up to
+ your waist, but the area is still surrounded by taller hedges. You will
+ have to decide whether to go out the left side of the clearing or the
+ right side.
+
+ The galah suddenly walks around the corner. It squawks as it hops up
+ onto the hedge.
+
+>examine galah
+ really stand out here in the maze. You learned at school that
+ Aborigines gave the bird its name.
+
+>listen
+ new. Maybe the person heard you? You'll just have to pick a direction
+ to go in.
+
+>touch galah
+
+>zap hedge
+
+ Nothing happens.
+
+>right
+
+ In the Hedge Maze
+ You have found a grass field in the maze. There's lots of space here to
+ run around in. Across the field, two paths lead back into the maze. One
+ goes left, the other right.
+
+ You've found Ayla! She's here in her princess costume. She must have
+ been running away from you while you were following her around the
+ maze, but it looks like she's not going to run away now.
+
+ Ayla smiles and says, "Here I am."
+
+>tip ayla
+
+
+ "I had to find you without using my magic," you say.
+
+ "I was going to keep hiding from you," says Ayla, "but it's shady in
+ here and I want to go back in the sun. Let's get out of the maze."
+
+ "Good idea," you say.
+
+>out
+ arrows on the ground, and soon you are outside in the sun again.
+
+ By the Hedge Maze
+ You're in a big, open grassy area. To the west is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ &lt;&lt;  Now that you're out of the maze, typing L is short for LOOK again.
+
+ Ayla stretches her arms and smiles at the sunshine. Then she turns to
+ you and says, "Hey Demi, can I stay with you and help you look for the
+ others?"
+
+ Hm. Secretly you'd hoped you could have a cat for a partner, because
+ teaming up with a princess doesn't seem as witchy...
+
+ Do you want Ayla to come with you?  (Y/N)
+>y
+
+ "Sure," you say. "Let's be a team."
+
+ "Yeah!" says Ayla. "Let's go."
+
+
+ You're already outside.
+
+>look
+ You're in a big, open grassy area. To the west is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ Ayla is here.
+
+>examine ayla
+ everyone else. Maybe that's why she can't help giggling so much. She
+ has dark hair like you, except hers only goes to her shoulders, and she
+ has a little fringe and plaits. Today she's a princess wearing a pink
+ and white dress, and with a gold crown on her head.
+
+>go south
+ On the Triangle-Shaped Path
+ Three paths meet here to form a triangle. Pretty yellow flowers have
+ been planted beside the pathways.
+
+ You can leave the triangle by going north, south or east.
+
+ Ayla is here.
+
+>go south
+ By the Koala Statue
+ This corner of the park is shaped like a circle, and has a hedge around
+ it. In the centre of the clearing is a huge stone koala. The ground
+ isn't covered in grass, but with honey-coloured stones. You like it
+ here.
+
+ You can leave the circle by going north or east.
+
+ Ayla is here.
+
+ There's a little white and orange dog running around here. It looks
+ happy, but where is the dog's owner?
+
+ Ayla gasps and says, "Oh, look at this cute doggy." She kneels down and
+ rubs the dog's head and chin while the dog jumps around her. "You're
+ the cutest, aren't you?" she says to the dog. "Yes, yes, yes!"
+
+ The little dog runs around her in a circle, then shoots off to the
+ north.
+
+ "Demi, let's follow the doggy," says Ayla, tugging at your sleeve.
+ "Come on."
+
+>look behind statue
+
+>go north
+ On the Triangle-Shaped Path
+ Three paths meet here to form a triangle. Pretty yellow flowers have
+ been planted beside the pathways.
+
+ You can leave the triangle by going north, south or east.
+
+ Ayla is here.
+
+ The little dog is here, wagging its tail. It looks like it's been
+ waiting for you.
+
+ "Doggy wants to play," says Ayla. "See?" She points at the little dog,
+ who is looking back at the pair of you and dancing up and down. "My mum
+ says if you don't walk dogs and play with them, they go crazy. This
+ doggy wants to play, so we have to play."
+
+ "But I want to look for people now!" you say.
+
+ "We have to play with the dog," Ayla says firmly.
+
+ The little dog runs back and forth a couple of times, then scoots away
+ to the north.
+
+>go north
+ By the Hedge Maze
+ You're in a big, open grassy area. To the west is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ Ayla is here.
+
+ The little dog is here, crouching down in the grass and watching you.
+ The dog's tail is spinning like the top of a helicopter.
+
+ Ayla says, "It's time to play with the doggy."
+
+>play with doggy
+ Ayla laughs and joins in. The dog chases Ayla in a loop then zips away
+ to the east.
+
+>go east
+ Above the Wall
+ This is a wild place in the park. The plants are growing crazily,
+ making you feel like you're in a forest or jungle.
+
+ You can see paths leading to the north, south and west. To the east you
+ see a stone wall which comes up to your chest. Over the wall, it's a
+ long way down to the grass.
+
+ Ayla is here.
+
+ The little dog is here, crouching down in the grass and watching you.
+ The dog's tail is spinning like the top of a helicopter.
+
+ The little dog barks at you, wags its tail, then charges north.
+
+>go north
+ The Giant Garden Bed
+ You're beside a giant garden bed. The flowers have been planted to
+ create a rainbow pattern, and it's beautiful.
+
+ Paths goes south, east and west.
+
+ Ayla is here.
+
+ The little dog is rolling in the grass here, ready to play.
+
+ Ayla smiles at the little dog.
+
+>play with dog
+ very confused. As you both start to laugh, the dog zips to the east.
+
+>go east
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west, and you can
+ enter the gazebo to the north.
+
+ Ayla is here.
+
+ The little dog is bouncing back and forth here. It still wants to play.
+
+ The little dog wags its tail at you (it reminds you of a flag) then
+ charges to the south.
+
+>go south
+ Below the Wall
+ You're in a cool, shaded field. It's nice to be out of the heat for a
+ moment. To the west is a high stone wall covered in slippery moss. Near
+ the base of the wall is a huge yellow rock. It looks like a small
+ mountain.
+
+ There is more shade to the south and another path goes north.
+
+ Ayla is here.
+
+ The little dog is here, sniffing at the big rock.
+
+>look behind big rock
+ out from around the corner. You quietly move around a little further
+ and realise that you've found Vince, who's dressed all in green as an
+ army soldier. He doesn't realise you've spotted him.
+
+>tip vince
+ shock.
+
+
+ He comes out from behind the yellow rock with a big grin on his face.
+ The little dog walks over to him and starts sniffing and pawing at his
+ legs. Ayla giggles.
+
+ "What's this dog doing here?" asks Vince.
+
+ "Doggy helped us find you," says Ayla.
+
+ Vince gives the dog an annoyed look. Then he smiles again. "I'm
+ practising to be a spy, and I'm pretty good. I was sneaking from one
+ hiding place to another while you were looking for me. You girls
+ wouldn't have found me without this dog."
+
+ "Yes we would," says Ayla. "We were going to look here anyway, weren't
+ we, Demi?"
+
+ "Yeah," you say.
+
+ Vince looks suspicious.
+
+
+ You already tipped him.
+
+ "I have spy work to do back at the picnic table," says Vince, standing
+ up very straight and looking serious. "Excuse me." Then he walks away
+ to the south.
+
+>score
+ 78 turns. You still need to tip Jack.
+
+>go west
+ side of the Moreton Bay Fig) or south (to the place in the shade by the
+ mud).
+
+>go south
+ In the Shade by the Mud
+ This is a shady and damp area in the park. Far overhead, the tree
+ branches knot together like fingers, chopping up the sunlight. It feels
+ a bit spooky.
+
+ You can leave this shady place by going north or south.
+
+ There's a big puddle of mud here.
+
+ Ayla is here.
+
+ Vince is here.
+
+ Rose is here, watching your every move.
+
+ Vince sneaks away to the south.
+
+>go west
+ wall) or south (to the tree garden).
+
+>go south
+ Tree Garden
+ You've come into the Tree Garden. It's super neat here. The big trees
+ go around the edge of the lawn in perfect lines. There's a smell in the
+ air like someone just mowed the lawn.
+
+ A path goes north into a mysterious-looking shaded area, and another
+ goes back west to the edge of the park.
+
+ Ayla is here.
+
+ Vince is here.
+
+ Vince sneaks away to the west.
+
+>go west
+ The Edge of the Park
+ This is the south edge of the park. The sky is blue and bright today,
+ and the air is warm.
+
+ Paths lead north, east and west, and to the south is the picnic area.
+
+ You see some unwell trees here.
+
+ Ayla is here.
+
+ Vince is here.
+
+ Hundreds of leaves are scattered all over the ground. They must have
+ fallen when that big wind blew.
+
+ Vince sneaks away to the south.
+
+>go west
+ By the Koala Statue
+ This corner of the park is shaped like a circle, and has a hedge around
+ it. The ground isn't covered in grass, but with honey-coloured stones.
+ You like it here.
+
+ You can leave the circle by going north or east.
+
+ The huge stone koala stands before you.
+
+ Ayla is here.
+
+>go north
+ On the Triangle-Shaped Path
+ Three paths meet here to form a triangle. Pretty yellow flowers have
+ been planted beside the pathways.
+
+ You can leave the triangle by going north, south or east.
+
+ Ayla is here.
+
+>go east
+ Below the Treehouse
+ This is one place in the park where they haven't mown the grass. It's
+ like a green ocean which comes up to your waist! It's fun. There are
+ also weeds creeping around and hanging from the trees over some
+ flowerbeds. In the branches of one tree is a wooden treehouse, and
+ there's a metal ladder you can climb up to reach it.
+
+ Paths leave this area to the north, south and west.
+
+ Ayla is here.
+
+ Jack suddenly pops out from behind the treehouse tree in his red and
+ blue Spiderman costume.
+
+ Seeing you, Jack dances on the spot for a moment before sprinting off
+ to the north.
+
+>go north
+ Above the Wall
+ This is a wild place in the park. The plants are growing crazily,
+ making you feel like you're in a forest or jungle.
+
+ You can see paths leading to the north, south and west. To the east you
+ see a stone wall which comes up to your chest. Over the wall, it's a
+ long way down to the grass.
+
+ Ayla is here.
+
+ Jack is scampering around here on all fours like a spider - if spiders
+ had four legs, but you know they have eight.
+
+ Jack runs off to the west.
+
+>go west
+ By the Hedge Maze
+ You're in a big, open grassy area. To the west is the entrance to the
+ hedge maze.
+
+ Paths also lead north, south and east from here.
+
+ Ayla is here.
+
+ Jack is here, pretending to tip-toe around you.
+
+>chase jack north
+ north, just like you wanted! You chase after him.
+
+ By the Roundabout
+ You're in a big grassy clearing at the northwest corner of the park.
+
+ A path leads south towards the hedge maze, and another one goes east
+ towards a colourful garden bed.
+
+ You see the roundabout.
+
+ Ayla comes running along behind you.
+
+ Jack skids to a halt.
+
+>chase jack east
+ get him to run east. You follow close behind him -
+
+ The Giant Garden Bed
+ You're beside a giant garden bed. The flowers have been planted to
+ create a rainbow pattern, and it's beautiful.
+
+ Paths goes south, east and west.
+
+ Ayla comes running along behind you.
+
+ Jack skids to a halt.
+
+>chase jack east
+ just like you wanted! You chase after him.
+
+ West Side of the Moreton Bay Fig
+ You stand before the biggest tree in the park, the Moreton Bay Fig. It
+ seems to come from a world of giants. Close to the trunk, the roots
+ alone are often taller than you are! They coil around each other like
+ giant stone snakes. The tree blocks out the sky, and the top is so far
+ away you can't see it.
+
+ This is the west side of the tree. You can make your way east around to
+ the other side. There are also paths to the south and west, and you can
+ enter the gazebo to the north.
+
+ Ayla arrives.
+
+ Jack skids to a halt.
+
+>chase jack south
+ get him to run south. You follow close behind him -
+
+ Below the Wall
+ You're in a cool, shaded field. It's nice to be out of the heat for a
+ moment. To the west is a high stone wall covered in slippery moss. Near
+ the base of the wall is a huge yellow rock. It looks like a small
+ mountain.
+
+ There is more shade to the south and another path goes north.
+
+ Ayla comes running along behind you.
+
+ Jack skids to a halt.
+
+>chase jack south
+ tries to get around you. With Ayla's help, you manage to get him to run
+ south, and you follow him.
+
+ In the Shade by the Mud
+ This is a shady and damp area in the park. Far overhead, the tree
+ branches knot together like fingers, chopping up the sunlight. It feels
+ a bit spooky.
+
+ You can leave this shady place by going north or south.
+
+ There's a big puddle of mud here.
+
+ Ayla comes running along behind you.
+
+ Jack skids to a halt.
+
+ "Watch yourself," says Rose.
+
+ Rose turns back to the tree to continue her counting.
+
+ Jack sticks his tongue out at Rose while she can't see. Ayla giggles.
+
+ Jack runs to the north.
+
+>wait
+ secure on your head.
+
+ Rose counts, "Ninety-eight..."
+
+>wait
+
+ Rose says, "Ninety-nine..."
+
+>wait
+ secure on your head.
+
+ Rose says, "One hundred!"
+
+>wait
+
+ Rose suddenly stops counting and spins around to keep her eye on you.
+
+>wait
+
+>go south
+ Tree Garden
+ You've come into the Tree Garden. It's super neat here. The big trees
+ go around the edge of the lawn in perfect lines. There's a smell in the
+ air like someone just mowed the lawn.
+
+ A path goes north into a mysterious-looking shaded area, and another
+ goes back west to the edge of the park.
+
+ Ayla is here.
+
+>undo
+ [Your last move has been undone.]
+
+>go north
+ Below the Wall
+ You're in a cool, shaded field. It's nice to be out of the heat for a
+ moment. To the west is a high stone wall covered in slippery moss. Near
+ the base of the wall is a huge yellow rock. It looks like a small
+ mountain.
+
+ There is more shade to the south and another path goes north.
+
+ Ayla is here.
+
+ Jack is here, watching to see what your next move might be.
+
+>chase jack south
+ tries to get around you. With Ayla's help, you manage to get him to run
+ south, and you follow him.
+
+ In the Shade by the Mud
+ This is a shady and damp area in the park. Far overhead, the tree
+ branches knot together like fingers, chopping up the sunlight. It feels
+ a bit spooky.
+
+ You can leave this shady place by going north or south.
+
+ There's a big puddle of mud here.
+
+ Ayla comes running along behind you.
+
+ Jack skids to a halt.
+
+ Rose is here, watching you like a hawk.
+
+>examine mud
+ where you could scoop some of it up.
+
+>get mud
+
+ Rose sees what you're doing and shouts, "Oh no you don't!"
+
+ She rushes over to you and gives you a great big shove - face first
+ right into the mud!
+
+
+ "AAAAAAAAAAAAAAAH!" you scream...
+
+ You're drenched in mud! You can't believe it!
+
+ Your attacker has already run away...
+
+
+ *** YOU'RE TOO SHOCKED TO KEEP PLAYING - YOUR DAY IS RUINED! ***
+
+ You tipped 5 out of 6 friends (Ayla, Pia, Vince, Marion and Sam) in 98
+ turns.
+
+ What do you wanna do? Please choose one of the following options:
+
+ 1 Undo your last move so you can keep the bad thing from happening!
+ 2 Restore a saved game
+ 3 Start a brand new game
+ 4 Quit playing for now
+
+>1
+
+ In the Shade by the Mud
+ [Your last move has been undone.]
+
+>wait
+
+ Rose turns back to the tree to continue her counting.
+
+ Jack makes a crazy face at Rose while she can't see. Ayla giggles.
+
+ Jack runs to the north.
+
+>get mud
+
+ Rose says, "One hundred and two..."
+
+>throw mud at rose
+ Rose sure is a grouch, but... you're not sure you could throw a mud pie
+ at a stranger.
+
+>go north
+ Below the Wall
+ You're in a cool, shaded field. It's nice to be out of the heat for a
+ moment. To the west is a high stone wall covered in slippery moss. Near
+ the base of the wall is a huge yellow rock. It looks like a small
+ mountain.
+
+ There is more shade to the south and another path goes north.
+
+ Ayla is here.
+
+ Jack is here, pretending to tip-toe around you.
+
+ Jack sprints away to the south.
+
+>go south
+ In the Shade by the Mud
+ This is a shady and damp area in the park. Far overhead, the tree
+ branches knot together like fingers, chopping up the sunlight. It feels
+ a bit spooky.
+
+ You can leave this shady place by going north or south.
+
+ There's a big puddle of mud here.
+
+ Ayla is here.
+
+ Jack is here, watching to see what your next move might be.
+
+ Rose is here, leaning on a tree and counting aloud.
+
+ Rose says, "One hundred and four."
+
+>throw mud at jack
+ When Jack gets close again, you chuck your mud pie right at his
+ chest... SPLAT!
+
+ "Arrgh!" Jack cries. He looks totally shocked and stands there, holding
+ his arms up and checking out his muddy self. Ayla puts her hands over
+ her mouth. Then Jack starts to laugh.
+
+ Rose counts, "One hundred and five -"
+
+>tip jack
+
+
+
+ You've won! You, Ayla and Jack hurry back to the picnic area where your
+ sister and the rest of your friends are waiting for you. Everyone
+ congratulates you. Then Jack says, very loudly, "I'm starving," and mum
+ and dad bring out the party lunch.
+
+ As soon as Ayla sees the fairy bread, she says "Yum," and runs over to
+ stand next to it. Harriet runs over to be beside her.
+
+ While you're all eating, Marion suggests that anyone wearing a hat
+ should swap their hat with someone else. You put on Sam's helmet and
+ give him your witch's hat. He looks very silly, and Harriet laughs at
+ how you look now. Marion puts on Ayla's little gold crown, and Ayla's
+ head disappears beneath Marion's giant pirate hat, which makes
+ everybody laugh.
+
+ You don't like being without your hat for too long, though, so you take
+ it back off Sam pretty quickly. You feel good when you put it back on.
+
+ Whoops, you just remembered the lost dog! As you're about to tell mum
+ and dad all about it, a lady comes into the picnic area from the park.
+ She is holding a leash, and on the end of that leash is the little dog,
+ who looks happy. "I thought I'd lost you, Stevie," the lady says to the
+ dog. "We're going to get you a new leash."
+
+ Ayla has seen the lady too, and runs over to talk to her. You don't
+ hear what they say to each other, but Ayla pats the dog again before
+ waving goodbye to both of them.
+
+
+ .
+ .
+ .
+
+ That night, after all your friends have gone home, you and Harriet are
+ allowed to stay up past your bedtime to eat some more birthday cake.
+
+ "I don't think you'll ever get to sleep tonight after all this," says
+ mum.
+
+ "Nobody can stop me getting to sleep," you say, waving her off. Harriet
+ giggles as mum leaves the room.
+
+ "This was the best birthday ever," says Harriet, munching on her slice
+ of cake. You definitely agree. You're about to tell her so when you
+ notice that she's concentrating hard on her cake, and whenever she
+ concentrates hard on food like that, she makes a little happy sound.
+ You find it funny, but Harriet doesn't like it when you say she's
+ making sounds, so you decide not to mention it.
+
+ "I agree," you say, and you feel very happy.
+
+ --- THE END
+
+
+ A message from the author:
+
+    "Congratulations! You have completed the game with both sisters. You
+ truly are a master of hide and seek tip. Thanks for playing."
+
+
+
+ YOU HAVE UNLOCKED THE CHASE SUITE FOR SIX
+
+ An option has been added to the main menu allowing you to listen to a
+ suite of music composed for Six. However, the option will not appear in
+ Interactive Fiction interpreters which do not support sound, or while
+ sound support is switched off.
+
+ You've now unlocked all of Six's extras.
+
+
+
+
+
+
+
+
+
+
+
+ Six
+ An Interactive Fiction by Wade Clarke - Release 2
+ Copyright © 2011 All rights reserved
+
+ "The enemy of pirates is ninjas. Arrr!" - Marion
+
+ What do you wanna do? Please choose one of the following options:
+
+ 1 Start a new game as Harriet (Fairy)
+ 2 Start a new game as Demi (Witch)
+ 3 Restore a saved game
+ 4 Read the credits
+ 5 Run the configuration tests again
+ 6 Quit
+
+>6
+ Okay. Bye bye! (You can quit your interpreter program now.)

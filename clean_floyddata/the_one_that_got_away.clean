@@ -1,0 +1,1849 @@
+>load the_one
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+>yes
+
+
+
+
+    On an ancient, crumbling clay tablet lie the words writ by a wise
+ Assyrian scribe some 4000 years ago:  "The gods do not subtract from
+ the alloted span of men's lives the hours spent on fishing."  It is in
+ the spirit of these words that you have gone into your garage,
+ unearthed the fishing equipment passed down to you by your father, and
+ called in sick for several days so that you may seek the pleasure of
+ one of the oldest sports known to humanity.
+
+    You drive into a national park well known for its fishing, and,
+ parking your vehicle and yourself by a crowded lake, proceed to bring
+ in a haul as large as your permit allows you.  But as the days go by,
+ you feel that the challenge of rod and reel has left.  You find
+ yourself limply tossing back the fish you so easily hooked upon your
+ line.  You look within that part of your soul that has to do with
+ fishing, and come up with void.
+
+    In frustration, you somehow wander into an old general store by the
+ lake.  A century ago it was owned by a man whose name is now nearly
+ illegible on the sign; today it is a concession stand for fast food.
+ Still, mingling with the smell of hamburgers and fries are a group of
+ graybeards, sitting on the porch and talking about days gone by.
+
+    You find yourself engrossed in their conversation, about catches of
+ yesteryear, and struggles against the mighty fish of the past.  And,
+ always mentioned in hushed whispers, is a legendary fish called only
+ "The Old One."  Fifty, perhaps a hundred or two hundred pounds, long
+ as the tallest pine and wilder than the savage bear of the forest, and
+ appearing only once every thirty years, The Old One has defied the
+ fishing poles of men for centuries.  "They even say," says one man,
+ "The Old One even carried away the bride-to-be of ol' Bob of the bait
+ store, though he never really believed it.  That I heard when I was a
+ boy of five, that I did!"  There are chuckles all around.
+
+    After an awkward silence, one of the men says, "But The Old One
+ only appears once every thirty years, don't it?"  "Uh-huh," replies
+ another.  "In fact, it's appearing this year, ain't it?"  There are
+ more chuckles all around as you quietly excuse yourself from their
+ company.
+
+    That night you toss and turn in your tent as visions of The Old One
+ swim in your mind.  You are almost out of bait and money, but perhaps,
+ just perhaps, you might have a chance.  And so, at five o'clock in the
+ morning, you slip away from camp, with only a rod, tackle box and
+ thermos of coffee in hand, down the trail the old men told you about.
+ You feel the thrill of fishing return to you as you make your way down
+ to Lake Highwater.  Somehow, you think, you will succeed where others
+ have failed.  You are sure that The Old One will not be...
+
+
+
+ The One That Got Away
+ Interactive Fiction
+ Version 1.1 (Release 2)
+ Developed with TADS, the Text Adventure Development System.
+ Copyright (c) 1995 by Leon Lin, All Rights Reserved
+
+ (Type "info" for information about this release.)
+
+ Path to Lake
+
+    This ancient dirt path, no doubt trod on by generations of stalwart
+ anglers, leads north to Lake Highwater.  The path is surrounded by
+ lush green grass and tall pine trees which fill your welcoming eyes
+ with green.  In the distance, small birds chirp and the occasional
+ deer can be seen scampering through the woods.  The only anomaly in
+ the landscape is the large, unsightly mound of dirt sitting next to a
+ pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+
+>examine mound
+ This is a mound of dirt which was obviously formed when someone tried
+ to dig a well here.
+
+>examine well
+ I don't know the word "well".
+
+>examine pile
+ Which pile do you mean, the mound of dirt, or the pile of rocks?
+
+>rocks
+ This looks like an old pile of stones.  They're quite heavy, and have
+ irregular shapes.
+
+ You see something move in the dirt pile!  It's slimy, soft, and
+ segmented--an earthworm!  Before you can even move, the worm
+ disappears beneath the surface of the dirt.
+
+>dig in dirt
+ What do you want to dig in it with?
+
+>inventory
+ You have a small pamphlet, a fishing pole, a dollar bill, a tackle
+ box, and a thermos.  The fishing line seems to contain a hook.  The
+ tackle box seems to contain a fishing knife, a cheese ball, a small
+ weight, a medium weight, and a large weight.
+
+>read pamphlet
+ "Fishing Pole Instructions"
+
+    The following transcript is probably not exactly like your own
+ fishing experience, but gives you an idea of what you can do with your
+ new fishing pole.
+
+
+ Foredeck
+
+    This is the foredeck of the USS Tuna Melt, a fishing boat off the
+ Baja California coast.  The deck is wet with the waters of the sea and
+ the air has its distinctive salt taste.  You can go aft.
+
+
+ You are carrying a fishing pole and a tackle box.  The fishing line
+ seems to contain a hook.  The tackle box seems to contain a shrimp and
+ a plastic bobber.
+
+
+ You see attached to the line a hook.  On the hook you see nothing.
+
+
+ You tie the bobber securely to the line.
+
+ Old Man Pete, your captain on this voyage, wanders on deck.  He is
+ smoking a pipe agitatedly.
+
+
+ "Avast, and shiver me timbers!"  growls Pete, who flexes his
+ grotesquely oversized biceps restlessly.  "Aar, keep fishing!  I'll
+ give you this gold doubloon to you if you catch the infamous fish,
+ Doby the Mackrel!"
+
+
+ Sorry, I don't know the word 'shrump'.
+
+
+ You slide the shrimp easily onto the hook.
+
+ A sudden wave splashes onto deck, drenching everyone.  The water
+ extinguishes Pete's pipe.  "%#&@$*( sea," he yells angrily as he
+ plucks a sardine from the pipe.  "Can't a man get a decent smoke
+ anymore?"
+
+
+ "Aar, if ye don't catch Doby soon you'll be eatin' yer bait instead of
+ returning it to the sea," warns Pete.
+
+
+ You swing the line back a long way, nearly snagging Pete with the
+ line.  "Watch where ye put that line, ye landlubber!"  With a strong
+ snap of the wrist, you launch the line and its contents into the sea.
+
+
+ Time passes...
+
+ "Aar, where's me lighter?"  growls Pete.
+
+
+ Time passes...
+
+
+ Time passes...
+
+
+ You feel a tug at the line!  It's weak, yet persistent, and getting
+ stronger by the second!
+
+
+ You start reeling in the line when it snags!  You pull, and pull, but
+ it won't come up!
+
+
+ Your pole bends so much from your effort that you think it's going to
+ snap.  And suddenly, with a "Whoosh!", your line comes screaming back
+ at you, knocking you to the deck!
+
+
+ You see a mackrel on the hook.
+
+ "That's not Doby the Mackrel," says Pete angrily.  "You incompetent
+ landlubber, when will you learn!  Get below and get more shrimp!  I
+ won't rest until Doby the Mackrel is caught!"  "Curse you, Doby the
+ Mackrel, curse you!"  Pete exclaims, shaking his fist at the sea.
+ "From Hell's heart I stab at thee...for hate's sake I spit my last
+ breath at thee!"  You involuntarily twist your body to avoid his
+ flying saliva...
+
+
+>examine me
+ You look about the same as always.
+
+>dig dirt mound
+ What do you want to dig in it with?
+
+>look
+ Path to Lake
+
+    This ancient dirt path, no doubt trod on by generations of stalwart
+ anglers, leads north to Lake Highwater.  The path is surrounded by
+ lush green grass and tall pine trees which fill your welcoming eyes
+ with green.  In the distance, small birds chirp and the occasional
+ deer can be seen scampering through the woods.  The only anomaly in
+ the landscape is the large, unsightly mound of dirt sitting next to a
+ pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+
+>examine me
+ You look about the same as always.
+
+>go west
+ Bob's Fish 'N Bait Store
+
+    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+ bait shop at Lake Highwater.  Except for the sign on the counter that
+ declares "Cameras, worms $1.00" the entire store has an air of rustic
+ antiquity as well as a distinctly robust fishy odor.  On the west wall
+>take cheese
+ there is a curtain behind the counter leading into some back room, and
+ upon the counter there is an old wooden bucket as well as a plastic
+ receptacle.  By the entrance of the store, to the east, is a small
+ collection of old photos, depicting champion fishermen.
+ On the counter sits a camera.
+    Bob is here, minding the store.
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+ Taken.
+
+ Bob launches into an extended monologue about the time he and Zeke
+ flushed out a bunch of worms in his mother's vegetable garden with tea
+ and drove the excited nightcrawlers into the pantry, scaring some
+ guests.  He rubs his behind wistfully, as if remembering the results
+ of his action.
+
+>examine bob
+ Old Bob has run this store for (if those old men are to be believed)
+ 103 years. While you doubt that particular claim (for after all
+ Willard Scott never wished him a happy birthday on the "Today" show)
+ you sense there is truth to the claim that Bob is the best damn bait
+ seller at Lake Highwater.  You could ask this man anything and he'll
+ have an answer.
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>inventory
+ You have a small pamphlet, a fishing pole, a dollar bill, a tackle
+ box, a thermos, and a cheese ball.  The fishing line seems to contain
+ a hook.  The tackle box seems to contain a fishing knife, a small
+ weight, a medium weight, and a large weight.
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>ask bob about worms
+ "Sorry, worms been hard to find recently," says Bob.
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>ask bob about cheese
+ "New-fangled artificial polysorbic, monosodium, dipeptide 3,3,4,
+ whatever stuff!"  sneers Bob.  "I don't know what that
+ radioactive-looking thing is made of, but I can tell you, it ain't
+ going to catch The Old One.  You're gonna need *real* bait for that!"
+
+ You hear what sounds like a sigh.  Bob is gazing at the large picture
+ on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+ notices you looking at him funny.  You quickly avert your gaze.
+
+>ask bob about inform
+ I don't know the word "inform".
+
+>ask bob about nelson
+ I don't know the word "nelson".
+
+>ask bob about tea
+ I don't know the word "tea".
+
+>ask bob about xyzzy
+ I don't understand that sentence.
+
+>xyzzy
+ You speak the ancient word of power.  When you realize that it does
+ jack diddly, you slap your hand to your forehead and exclaim, "D'OH!"
+
+ "When we were kids those magic words really meant something!"  snorts
+ Bob.
+
+ You hear what sounds like a sigh.  Bob is gazing at the large picture
+ on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+ notices you looking at him funny.  You quickly avert your gaze.
+
+>ask bob about nellie
+ The normally locquacious Bob falls silent.  Finally, with an effort,
+ he says, "Yes, that was my beloved Nellie.  She loved fishing as much
+ as I did; we were perfect together.I didn't make that much money, only
+ being a humble seller of bait, but I even managed to scrape together
+ enough to buy her a gold bracelet with her name engraved on it.
+ Finally, on her sixteenth birthday, her father finally gave consent
+ for us to get married, and I was the happiest man on the earth.
+
+ However, the day of our wedding, I was all dressed up and ready for
+ the ceremony, but Nellie didn't show up.  We searched all around but
+ couldn't find her.That's when I remembered there was some rich
+ European guy who'd been also wooing Nellie, and it dawned on me that
+ even my little gold bracelet wouldn't be enough to compete with the
+ expensive trinkets he could buy without a second thought.My friends
+ tried to console me; they said, 'Nellie's like Lake Highwater!  She's
+ not so shallow she would follow riches instead of her heart!' But as
+ the day ended and there was no sign of Nellie, I was forced to
+ conclude she had left me for the European.
+
+ At midnight, when I was drinking myself silly, my friend Zeke came up
+ to me and said some guy saw Nellie that day, and that she'd been
+ fishing on the pier and was pulled under by The Old One!  I didn't
+ believe Zeke.Even at 14 I'd told many a tall tale about fishing, and I
+ figured Zeke made that up to make me feel better.  Never did hear from
+ Nellie again.  Her father died of heartbreak shortly thereafter.  I
+ always thought Nellie might come back, and I've waited, just minding
+ this store, but I guess it'll never be."
+
+ "I ever tell you about the time I caught ol' Big Mouth up at Lake
+ Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+ lake and pummelled him good with my bare fists.  That I did!"
+
+>ask bob about nellie
+ The normally locquacious Bob falls silent.  Finally, with an effort,
+ he says, "Yes, that was my beloved Nellie.  She loved fishing as much
+ as I did; we were perfect together.I didn't make that much money, only
+ being a humble seller of bait, but I even managed to scrape together
+ enough to buy her a gold bracelet with her name engraved on it.
+ Finally, on her sixteenth birthday, her father finally gave consent
+ for us to get married, and I was the happiest man on the earth.
+
+ However, the day of our wedding, I was all dressed up and ready for
+ the ceremony, but Nellie didn't show up.  We searched all around but
+ couldn't find her.That's when I remembered there was some rich
+ European guy who'd been also wooing Nellie, and it dawned on me that
+ even my little gold bracelet wouldn't be enough to compete with the
+ expensive trinkets he could buy without a second thought.My friends
+ tried to console me; they said, 'Nellie's like Lake Highwater!  She's
+ not so shallow she would follow riches instead of her heart!' But as
+ the day ended and there was no sign of Nellie, I was forced to
+ conclude she had left me for the European.
+
+ At midnight, when I was drinking myself silly, my friend Zeke came up
+ to me and said some guy saw Nellie that day, and that she'd been
+ fishing on the pier and was pulled under by The Old One!  I didn't
+ believe Zeke.Even at 14 I'd told many a tall tale about fishing, and I
+ figured Zeke made that up to make me feel better.  Never did hear from
+ Nellie again.  Her father died of heartbreak shortly thereafter.  I
+ always thought Nellie might come back, and I've waited, just minding
+ this store, but I guess it'll never be."
+
+ Bob launches into an extended monologue about the time he and Zeke
+ flushed out a bunch of worms in his mother's vegetable garden with tea
+ and drove the excited nightcrawlers into the pantry, scaring some
+ guests.  He rubs his behind wistfully, as if remembering the results
+ of his action.
+
+>look
+ Bob's Fish 'N Bait Store
+
+    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+ bait shop at Lake Highwater.  Except for the sign on the counter that
+ declares "Cameras, worms $1.00" the entire store has an air of rustic
+ antiquity as well as a distinctly robust fishy odor.  On the west wall
+ there is a curtain behind the counter leading into some back room, and
+ upon the counter there is an old wooden bucket as well as a plastic
+ receptacle.  By the entrance of the store, to the east, is a small
+ collection of old photos, depicting champion fishermen.
+ On the counter sits a camera.
+    Bob is here, minding the store.
+
+ "I ever tell you about the time I caught ol' Big Mouth up at Lake
+ Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+ lake and pummelled him good with my bare fists.  That I did!"
+
+>ask bob about big mouth
+ I don't know the word "mouth".
+
+>ask bob about bob
+ "What's that, kid?"  demands Bob indignantly.  "I don't understand ya,
+ speak up!"
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>ask bob about fishing
+ "I've picked my teeth with larger," says Bob nonchalantly.
+
+ Bob launches into an extended monologue about the time he and Zeke
+ flushed out a bunch of worms in his mother's vegetable garden with tea
+ and drove the excited nightcrawlers into the pantry, scaring some
+ guests.  He rubs his behind wistfully, as if remembering the results
+ of his action.
+
+>examine bucket
+ This bucket is normally used to hold worms.  At the moment, it's quite
+ empty.
+
+ Bob launches into an extended monologue about the time he and Zeke
+ flushed out a bunch of worms in his mother's vegetable garden with tea
+ and drove the excited nightcrawlers into the pantry, scaring some
+ guests.  He rubs his behind wistfully, as if remembering the results
+ of his action.
+
+>ask bob about old one
+ Bob starts to say something, probably one of his long winded stories,
+ but suddenly falls silent and looks at the picture of the woman on the
+ wall.
+
+ "I ever tell you about the time I caught ol' Big Mouth up at Lake
+ Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+ lake and pummelled him good with my bare fists.  That I did!"
+
+>examine picture
+ Which picture do you mean, the first photo, the second photo, the
+ third photo, the fourth photo, the fifth photo, or the sixth photo?
+
+>examine picture
+ Which picture do you mean, the first photo, the second photo, the
+ third photo, the fourth photo, the fifth photo, or the sixth photo?
+
+>first
+ This is a picture of "Bass-ackwards" Joe Bob Thorpe, in 1955.  He's
+ holding up a large bass.  Next to it, in pen, is the notation "20
+ lbs".
+
+ Bob launches into an extended monologue about the time he and Zeke
+ flushed out a bunch of worms in his mother's vegetable garden with tea
+ and drove the excited nightcrawlers into the pantry, scaring some
+ guests.  He rubs his behind wistfully, as if remembering the results
+ of his action.
+
+>ask bob about camera
+ "Don't know much about those new-fangled Japanese gadgets," says Bob.
+ "They say just point the camera at the target and press the button.  I
+ dunno."
+
+ Bob launches into an extended monologue about the time he and Zeke
+ flushed out a bunch of worms in his mother's vegetable garden with tea
+ and drove the excited nightcrawlers into the pantry, scaring some
+ guests.  He rubs his behind wistfully, as if remembering the results
+ of his action.
+
+>buy camera
+ Bob takes your dollar and hands you the camera.  "I don't know why,
+ but it's only got one shot in it," he warns.  "Make it count, kid!"
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>show the camera to bob
+ "Don't know much about those new-fangled Japanese gadgets," says Bob.
+ "They say just point the camera at the target and press the button.  I
+ dunno."
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>say 'screw you' to Bob.
+ I don't recognize that sentence.
+
+>examine second picture
+ This yellowing, aged photo, the largest of the lot, depicts a one
+ Nellie Carpenter in 1894.  She's holding up a large bass which has the
+ notation "16 lbs" next to it.
+
+ Bob licks his finger and holds it up in the air.  "Feels like rain,"
+ he remarks.  He licks his finger and holds it up again.  "Or, maybe
+ not."
+
+>examine third picture
+ According to the caption on this photo, the young man standing in the
+ photo with the bass is Robert Stanowski.  The bass is labeled "13 lbs"
+ and the year is 1962.
+
+ You hear what sounds like a sigh.  Bob is gazing at the large picture
+ on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+ notices you looking at him funny.  You quickly avert your gaze.
+
+>examine fourth picture
+ In the black and white photo stands a man wearing what looks like a
+ World War I military uniform, complete with rifle and bayonet.  Stuck
+ to the end of the bayonet is a large perch, next to which is the
+ notation "15 lbs".  A caption identifies the person as Roger Peterson;
+ the year as 1918.
+
+ Bob licks his finger and holds it up in the air.  "Feels like rain,"
+ he remarks.  He licks his finger and holds it up again.  "Or, maybe
+ not."
+
+>examine fifth picture
+ This photo stands out as the only color picture in the collection.  A
+ grizzled old man, in plaid shirt and faded brown trousers, grins
+ through a thick white beard as he holds above his head a surprisingly
+ large bass.  The notation next to the fish is "35 lbs" followed by a
+ number of exclamation points.  The person is identified as 'Zeke
+ Wilder, and the year is 19xx--you can't quiet make out the last two
+ digits.
+
+ Bob licks his finger and holds it up in the air.  "Feels like rain,"
+ he remarks.  He licks his finger and holds it up again.  "Or, maybe
+ not."
+
+>kick bucket
+ I don't know the word "kick".
+
+>examine sixth picture
+ This grainy black and white photo, obviously taken during the twilight
+ hours, is a shot of Lake Highwater.  In the middle of the photo is a
+ large but fuzzy black splotch.  With a bit of imagination, you think
+ it might possibly be fish-shaped.
+
+ Bob licks his finger and holds it up in the air.  "Feels like rain,"
+ he remarks.  He licks his finger and holds it up again.  "Or, maybe
+ not."
+
+>ask bob about sixth picture
+ "Yessir," says Bob, "that's the *only* known picture of The Old One
+ that's known to man."  He shakes his head and sighs.  "Folks been
+ seeing The Old One since the Cru-sades, but no one's ever caught him
+ on film until 1935.  The man who can snag that fish will be hailed as
+ Lake Highwater's greatest angler, you can bet on that."
+
+ "I ever tell you about the time I caught ol' Big Mouth up at Lake
+ Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+ lake and pummelled him good with my bare fists.  That I did!"
+
+>ask bob about second picture
+ The normally locquacious Bob falls silent.  Finally, with an effort,
+ he says, "Yes, that was my beloved Nellie.  She loved fishing as much
+ as I did; we were perfect together.I didn't make that much money, only
+ being a humble seller of bait, but I even managed to scrape together
+ enough to buy her a gold bracelet with her name engraved on it.
+ Finally, on her sixteenth birthday, her father finally gave consent
+ for us to get married, and I was the happiest man on the earth.
+
+ However, the day of our wedding, I was all dressed up and ready for
+ the ceremony, but Nellie didn't show up.  We searched all around but
+ couldn't find her.That's when I remembered there was some rich
+ European guy who'd been also wooing Nellie, and it dawned on me that
+ even my little gold bracelet wouldn't be enough to compete with the
+ expensive trinkets he could buy without a second thought.My friends
+ tried to console me; they said, 'Nellie's like Lake Highwater!  She's
+ not so shallow she would follow riches instead of her heart!' But as
+ the day ended and there was no sign of Nellie, I was forced to
+ conclude she had left me for the European.
+
+ At midnight, when I was drinking myself silly, my friend Zeke came up
+ to me and said some guy saw Nellie that day, and that she'd been
+ fishing on the pier and was pulled under by The Old One!  I didn't
+ believe Zeke.Even at 14 I'd told many a tall tale about fishing, and I
+ figured Zeke made that up to make me feel better.  Never did hear from
+ Nellie again.  Her father died of heartbreak shortly thereafter.  I
+ always thought Nellie might come back, and I've waited, just minding
+ this store, but I guess it'll never be."
+
+ "I ever tell you about the time I caught ol' Big Mouth up at Lake
+ Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+ lake and pummelled him good with my bare fists.  That I did!"
+
+>ask bob about back room
+ I don't know the word "back".
+
+>ask bob about curtain
+ "What's that, kid?"  demands Bob indignantly.  "I don't understand ya,
+ speak up!"
+
+ You hear what sounds like a sigh.  Bob is gazing at the large picture
+ on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+ notices you looking at him funny.  You quickly avert your gaze.
+
+>go west
+ Bob says, "Sorry, kid, can't you let you in there.  Authorized
+ personelle only."
+
+ Bob licks his finger and holds it up in the air.  "Feels like rain,"
+ he remarks.  He licks his finger and holds it up again.  "Or, maybe
+ not."
+
+>out
+ You can't go that way.
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>go east
+ Path to Lake
+
+>verbose
+ Okay, now in VERBOSE mode.
+ Path to Lake
+
+    This ancient dirt path, no doubt trod on by generations of stalwart
+ anglers, leads north to Lake Highwater.  The path is surrounded by
+ lush green grass and tall pine trees which fill your welcoming eyes
+ with green.  In the distance, small birds chirp and the occasional
+ deer can be seen scampering through the woods.  The only anomaly in
+ the landscape is the large, unsightly mound of dirt sitting next to a
+ pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+
+>SAVE
+>cf1
+ Saved.
+
+>go north
+ Lake Highwater's Beauteous Shore
+
+    Ahhhh, Lake Highwater!  This world-famous fishing hole is this
+ state's best kept secret.  Nearly a mile around, Highwater shines a
+ perfect blue in the early morning sun.  Ducks calmly fly over its
+ edge, and pine trees crown the circumfrence of this majestic lake.
+ The only sign of the hand of man is the short pier on which you now
+ stand that points north towards the lake.  A well-worn path leads
+ south.
+
+>examine ducks
+ The flock of ducks fly lazily over the lake.
+
+>examine lake
+ Lake Highwater sits as peacefully as it has since the Ice Age, when
+ the great glaciers retreated to reveal this regal body of water in all
+ of its splendor.
+
+>swim
+ I don't know the word "swim".
+
+>examine tackle box
+ The tackle box is open.  In the tackle box you see a fishing knife, a
+ small weight, a medium weight, and a large weight.
+
+>examine rod
+ This is your trusty fishing pole, which belonged to your father and
+ his father, and his father before him, and probably every first-born
+ male in your family line back to the Stone Age.  It's made of strong,
+ but flexible wood, and has a titanium reel around which is wound a
+ line of nearly unbreakable catgut.  Attached to the end of the line is
+ a hook.
+
+>put bait on hook
+ I don't see any bait here.
+
+>examine tackle box
+ The tackle box is open.  In the tackle box you see a fishing knife, a
+ small weight, a medium weight, and a large weight.
+
+>smell cheese
+ I don't know the word "smell".
+
+>go south
+ Path to Lake
+
+    This ancient dirt path, no doubt trod on by generations of stalwart
+ anglers, leads north to Lake Highwater.  The path is surrounded by
+ lush green grass and tall pine trees which fill your welcoming eyes
+ with green.  In the distance, small birds chirp and the occasional
+ deer can be seen scampering through the woods.  The only anomaly in
+ the landscape is the large, unsightly mound of dirt sitting next to a
+ pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+
+ You see something move in the dirt pile!  It's slimy, soft, and
+ segmented--an earthworm!  Before you can even move, the worm
+ disappears beneath the surface of the dirt.
+
+>dig
+ What do you want to dig in?
+
+>dirt
+ What do you want to dig in it with?
+
+>hand
+ I don't know the word "hand".
+
+>dig in dirt with pamphlet
+ I don't know how to dig in the mound of dirt.
+
+ You see something move in the dirt pile!  It's slimy, soft, and
+ segmented--an earthworm!  Before you can even move, the worm
+ disappears beneath the surface of the dirt.
+
+>get worm
+ I don't see any worm here.
+
+>get mound
+ You can't have the mound of dirt.
+
+>examine rocks
+ This looks like an old pile of stones.  They're quite heavy, and have
+ irregular shapes.
+
+>get rock
+ You sift through the pile of rocks.  Though you're no rock hound, you
+ do see one odd, heavy rock that looks interesting.  You take it.
+
+>dig in dirt with rock
+ Which rock do you mean, the heavy rock, or the pile of rocks?
+
+>heavy rock
+ I don't know how to dig in the mound of dirt.
+
+>examine rock
+ Which rock do you mean, the heavy rock, or the pile of rocks?
+
+>heavy
+ This is one dang heavy rock.  It has many strange protrustions and
+ irregularities sticking out from its surface.
+
+ You see something move in the dirt pile!  It's slimy, soft, and
+ segmented--an earthworm!  Before you can even move, the worm
+ disappears beneath the surface of the dirt.
+
+>dig in dirt with heavy rock
+ I don't know how to dig in the mound of dirt.
+
+>examine protrusions
+ I don't know the word "protrusions".
+
+>search dirt pile
+ You find nothing of interest.
+
+>drop heavy rock on dirt
+ There's no good surface on the mound of dirt.
+
+>inventory
+ You have a small pamphlet, a fishing pole, a tackle box, a thermos, a
+ cheese ball, a disposble camera, and a heavy rock.  The fishing line
+ seems to contain a hook.  The tackle box seems to contain a fishing
+ knife, a small weight, a medium weight, and a large weight.
+
+ You see something move in the dirt pile!  It's slimy, soft, and
+ segmented--an earthworm!  Before you can even move, the worm
+ disappears beneath the surface of the dirt.
+
+>smooth dirt with heavy rock
+ I don't know the word "smooth".
+
+>examine thermos
+ Your trusty bright orange thermos is closed.
+
+>dig in dirt with knife
+ I don't know how to dig in the mound of dirt.
+
+>open thermos
+ Opened.
+
+ You see something move in the dirt pile!  It's slimy, soft, and
+ segmented--an earthworm!  Before you can even move, the worm
+ disappears beneath the surface of the dirt.
+
+>examine thermos
+ Your trusty bright orange thermos is filled with coffee.
+
+ You see something move in the dirt pile!  It's slimy, soft, and
+ segmented--an earthworm!  Before you can even move, the worm
+ disappears beneath the surface of the dirt.
+
+>put heavy rock on dirt
+ There's no good surface on the mound of dirt.
+
+>pour coffee on dirt
+ You pour the entire contents of the thermos onto the dirt pile (and
+ not without a bit of tearful remorse).  However, your noble sacrifice
+ does not go unnoticed by the fishing gods.  A fat earthworm, moving
+ faster than any other worm you've ever seen in your life, comes
+ barrelling out of the hole in the dirtpile and flops onto the ground.
+ Then it abruptly slows down, and lies on the ground, twitching
+ spasmodically.
+
+>get worm
+ Taken.
+
+>SAVE
+>cf2
+ Saved.
+
+>go north
+ Lake Highwater's Beauteous Shore
+
+    Ahhhh, Lake Highwater!  This world-famous fishing hole is this
+ state's best kept secret.  Nearly a mile around, Highwater shines a
+ perfect blue in the early morning sun.  Ducks calmly fly over its
+ edge, and pine trees crown the circumfrence of this majestic lake.
+ The only sign of the hand of man is the short pier on which you now
+ stand that points north towards the lake.  A well-worn path leads
+ south.
+
+>go north
+ You came here to fish, not to swim.
+
+>swim
+ I don't know the word "swim".
+
+>drink
+ What do you want to drink?
+
+>drink water
+ You drink deeply of Lake Highwater.  Clear, refreshing water flows
+ into your mouth and down your throat, calming the inner thirst within.
+ You pull your head out of the water.  Then you proceed to upchuck all
+ over the place.
+
+>put weight on line
+ Which weight do you mean, the small weight, the medium weight, or the
+ large weight?
+
+>small
+ There's no good surface on the fishing line.
+
+>tie weight to line
+ Which weight do you mean, the small weight, the medium weight, or the
+ large weight?
+
+>small
+ You tie the weight to the line.
+
+>examine medium weight
+ This medium weight can be attached to fishing lines.  It'll bring your
+ line down to a fairly deep depth.
+
+>examine large weight
+ This large weight can be attached to fishing lines.  It'll sink your
+ line down to a very deep depth.
+
+>tie large weight to line
+ You tie the weight to the line.
+
+>examine line
+ This is a fishing line, made of nearly indestructible catgut.  Woe be
+ to any member of the fish persuasion that should find itself snared by
+ this, this line of doom.
+
+ You see attached to the line a hook, a small weight, and a large
+ weight.  On the hook you see nothing.
+
+>put worm on hook
+ You bait the hook with the worm, which wriggles pathetically.
+
+>SAVE
+>cf3
+ Saved.
+
+>cast line
+ You swing your fishing pole back, way, way, back, and with a strength
+ honed by years of angling you cast the line beautifully into the lake.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+ You feel a slight vibration on the pole.
+
+>reeeel
+ I don't know the word "reeeel".
+
+>reel in line
+ You reel in the line.
+
+>reel in line
+ Since you haven't cast the line out, you can't reel it in.
+
+>examine line
+ This is a fishing line, made of nearly indestructible catgut.  Woe be
+ to any member of the fish persuasion that should find itself snared by
+ this, this line of doom.
+
+ You see attached to the line a hook, a small weight, and a large
+ weight.  On the hook you see an earthworm and a dilapidated rubber
+ boot.
+
+>get boot
+ Taken.
+
+>cast line
+ You swing your fishing pole back, way, way, back, and with a strength
+ honed by years of angling you cast the line beautifully into the lake.
+
+>wait
+ Time passes...
+ You sense nothing on the line.  Perhaps you should reel it in.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>reel in line
+ You reel in the line.
+
+>examine line
+ This is a fishing line, made of nearly indestructible catgut.  Woe be
+ to any member of the fish persuasion that should find itself snared by
+ this, this line of doom.
+
+ You see attached to the line a hook, a small weight, and a large
+ weight.  On the hook you see an earthworm.
+
+>cast line
+ You swing your fishing pole back, way, way, back, and with a strength
+ honed by years of angling you cast the line beautifully into the lake.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+ You feel a slight vibration on the pole.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>reel in line
+ You reel in the line.
+
+>examine line
+ This is a fishing line, made of nearly indestructible catgut.  Woe be
+ to any member of the fish persuasion that should find itself snared by
+ this, this line of doom.
+
+ You see attached to the line a hook, a small weight, and a large
+ weight.  On the hook you see an earthworm and a tire.
+
+>get tire
+ Taken.
+
+>tie medium weight to line
+ You tie the weight to the line.
+
+>cast line
+ You swing your fishing pole back, way, way, back, and with a strength
+ honed by years of angling you cast the line beautifully into the lake.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+ You feel a slight vibration on the pole.
+
+>wiggle line
+ I don't know the word "wiggle".
+
+>reel in line
+ You reel in the line.
+
+>examine line
+ This is a fishing line, made of nearly indestructible catgut.  Woe be
+ to any member of the fish persuasion that should find itself snared by
+ this, this line of doom.
+
+ You see attached to the line a hook, a small weight, a large weight,
+ and a medium weight.  On the hook you see an earthworm and a vax.
+
+>examine vax
+ It's an ancient piece of machinery.  You can't tell much more than
+ that.
+
+>get vax
+ Taken.
+
+>examine boot
+ This rubber boot has seen better days, as it's all ragged and filled
+ with holes.  Then again, judging from its shoddy construction and poor
+ workmanship, it probably hasn't.
+
+>untie large weight
+ I don't know the word "untie".
+
+>remove large weight from line
+ You've already got your hands full.
+
+>drop tire
+ Dropped.
+
+>drop boot
+ Dropped.
+
+>drop vax
+ Dropped.
+
+>remove large weight from line
+ Taken.
+
+>examine line
+ This is a fishing line, made of nearly indestructible catgut.  Woe be
+ to any member of the fish persuasion that should find itself snared by
+ this, this line of doom.
+
+ You see attached to the line a hook, a small weight, and a medium
+ weight.  On the hook you see an earthworm.
+
+>cast line
+ You swing your fishing pole back, way, way, back, and with a strength
+ honed by years of angling you cast the line beautifully into the lake.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+ You sense nothing on the line.  Perhaps you should reel it in.
+
+>reel in line
+ You reel in the line.
+
+>remove small weight from line
+ Taken.
+
+>tie large weight to line
+ You tie the weight to the line.
+
+>examine line
+ This is a fishing line, made of nearly indestructible catgut.  Woe be
+ to any member of the fish persuasion that should find itself snared by
+ this, this line of doom.
+
+ You see attached to the line a hook, a medium weight, and a large
+ weight.  On the hook you see an earthworm.
+
+>cast line
+ You swing your fishing pole back, way, way, back, and with a strength
+ honed by years of angling you cast the line beautifully into the lake.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+ You sense nothing on the line.  Perhaps you should reel it in.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>reel in line
+ You reel in the line.
+
+>smell cheese
+ I don't know the word "smell".
+
+>taste cheese
+ I don't know the word "taste".
+
+>cut sheese
+ I don't know the word "sheese".
+
+>oops cheese
+ What do you want to cut it with?
+
+>knife
+ I don't know how to cut the cheese ball.
+
+>examine cheese
+ This is one of those cheese balls fishermen sometimes use as bait.  It
+ seems to glow faintly.
+
+>examine rock
+ This is one dang heavy rock.  It has many strange protrustions and
+ irregularities sticking out from its surface.
+
+>tie rick to line
+ I don't know the word "rick".
+
+>tie rock to line
+ You spend a few minutes tying the rock to the line.  It takes some
+ effort, and the creative use of various protrusions on the rock, but
+ you do it.
+
+>tie small weight to line
+ You tie the weight to the line.
+
+>examine line
+ This is a fishing line, made of nearly indestructible catgut.  Woe be
+ to any member of the fish persuasion that should find itself snared by
+ this, this line of doom.
+
+ You see attached to the line a hook, a medium weight, a large weight,
+ a heavy rock, and a small weight.  On the hook you see an earthworm.
+
+>put cheese on hook
+ You bait the hook with the cheese, which sits there like a dead
+ weight.
+
+>SAVE
+>cf4
+ Saved.
+
+>cast line
+ You swing your fishing pole back, way, way, back, and with a strength
+ honed by years of angling you cast the line beautifully into the lake.
+
+>wait
+ Time passes...
+
+ Jumping Jehosaphat!  The line starts like a race horse threatened with
+ with milk wagon.  You spot, for a brief instant, great mounds of froth
+ break upon the surface of the lake, and the flash of silvery fins
+ shines brightly through the water.  The pole bends, almost to the
+ breaking point which you never thought reachable.  You strain to keep
+ your quarry under control, but even your powerful arms must struggle
+ greatly.  You feel your feet scraping desperately against the wood of
+ the pier, slipping, slipping...  until finally, you're pulled straight
+ into the depths of Lake Highwater!
+
+
+
+
+
+
+
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>wait
+ Time passes...
+
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>SAVE
+>cf5
+ Saved.
+
+>reel in line
+ Not too likely in this circumstance.
+
+>grab bracelet
+ I don't know the word "grab".
+
+>hold bracelet
+ I don't know the word "hold".
+
+>get bracelet
+ You can't reach the bracelet.
+
+>stab fish with knife
+ I don't know the word "stab".
+
+>cut fish with knife
+ I don't know how to cut The Old One.
+
+>take picture
+ I don't see any picture here.
+
+>examine camera
+ This is one of those "disposable" cameras in which you simply point
+ the camera, press the button, and deposit the camera with an
+ authorized film developer.  This looks like one of those new models
+ that can even be used underwater.
+
+>attack fish
+ What do you want to attack it with?
+
+>knife
+ Your attack bounces off The Old One's scales, which have ostensibly
+ hardened into an impenetrable shell.
+
+ Your oxygen gives out, and shortly thereafter, so do you.
+
+ *** You have gone to that great fishing hole in the sky ***
+
+ In a total of 145 turns, you have achieved a score of 20 points out of
+ a possible 20.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>press camera button
+ I don't recognize that sentence.
+
+>press button
+
+ [TADS-1010: object value required]
+ Click.
+
+>examine camera
+ This is one of those "disposable" cameras in which you simply point
+ the camera, press the button, and deposit the camera with an
+ authorized film developer.  This looks like one of those new models
+ that can even be used underwater.
+
+ Your oxygen gives out, and shortly thereafter, so do you.
+
+ *** You have gone to that great fishing hole in the sky ***
+
+ In a total of 145 turns, you have achieved a score of 20 points out of
+ a possible 20.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>aim camera at bracelet
+ I don't know the word "aim".
+
+>point camera at bracelet
+ You point the camera at the gold bracelet.
+
+ Your oxygen gives out, and shortly thereafter, so do you.
+
+ *** You have gone to that great fishing hole in the sky ***
+
+ In a total of 145 turns, you have achieved a score of 20 points out of
+ a possible 20.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+>undo
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>point camera at bracelet
+ You point the camera at the gold bracelet.
+
+>press button
+ Click.
+
+>cut line
+ What do you want to cut it with?
+
+>knife
+ Your knife bounces off the indestructible line.  So much for
+ guarantees.
+
+>undo
+ (Undoing one command)
+
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>drop rod
+ Dropped.
+
+>go up
+ With a push against the lake bottom, you swim back up to the lake
+ shore.
+
+ Lake Highwater's Beauteous Shore
+
+    Ahhhh, Lake Highwater!  This world-famous fishing hole is this
+ state's best kept secret.  Nearly a mile around, Highwater shines a
+ perfect blue in the early morning sun.  Ducks calmly fly over its
+ edge, and pine trees crown the circumfrence of this majestic lake.
+ The only sign of the hand of man is the short pier on which you now
+ stand that points north towards the lake.  A well-worn path leads
+ south.
+    You see a tire, a dilapidated rubber boot, and a vax here.
+
+>examine camera
+ This is one of those "disposable" cameras in which you simply point
+ the camera, press the button, and deposit the camera with an
+ authorized film developer.  This looks like one of those new models
+ that can even be used underwater.
+
+>go south
+ Path to Lake
+
+    This ancient dirt path, no doubt trod on by generations of stalwart
+ anglers, leads north to Lake Highwater.  The path is surrounded by
+ lush green grass and tall pine trees which fill your welcoming eyes
+ with green.  In the distance, small birds chirp and the occasional
+ deer can be seen scampering through the woods.  The only anomaly in
+ the landscape is the large, unsightly mound of dirt sitting next to a
+ pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+
+>go west
+ Bob's Fish 'N Bait Store
+
+    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+ bait shop at Lake Highwater.  Except for the sign on the counter that
+ declares "Cameras, worms $1.00" the entire store has an air of rustic
+ antiquity as well as a distinctly robust fishy odor.  On the west wall
+ there is a curtain behind the counter leading into some back room, and
+ upon the counter there is an old wooden bucket as well as a plastic
+ receptacle.  By the entrance of the store, to the east, is a small
+ collection of old photos, depicting champion fishermen.
+    Bob is here, minding the store.
+
+ Bob licks his finger and holds it up in the air.  "Feels like rain,"
+ he remarks.  He licks his finger and holds it up again.  "Or, maybe
+ not."
+
+>tell bob about bracelet
+ It doesn't look as though Bob is interested.
+
+ Bob launches into an extended monologue about the time he and Zeke
+ flushed out a bunch of worms in his mother's vegetable garden with tea
+ and drove the excited nightcrawlers into the pantry, scaring some
+ guests.  He rubs his behind wistfully, as if remembering the results
+ of his action.
+
+>ask bob about camera
+ "Don't know much about those new-fangled Japanese gadgets," says Bob.
+ "They say just point the camera at the target and press the button.  I
+ dunno."
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>give camera to bob
+ "Sorry, kid," says Bob.  "I don't particularly need a disposble
+ camera."
+
+ You hear what sounds like a sigh.  Bob is gazing at the large picture
+ on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+ notices you looking at him funny.  You quickly avert your gaze.
+
+>tell bob about camera
+ It doesn't look as though Bob is interested.
+
+ Bob scratches his beard abstractly, thinking about the old days when
+ he could wrestle a great white shark to the ground.
+
+>ask bob about film
+ I don't know the word "film".
+
+>tell bob about bracelet
+ It doesn't look as though Bob is interested.
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>inventory
+ You have a small pamphlet, a tackle box, a thermos, and a disposble
+ camera.  The tackle box seems to contain a fishing knife.
+
+ "I ever tell you about the time I caught ol' Big Mouth up at Lake
+ Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+ lake and pummelled him good with my bare fists.  That I did!"
+
+>open camera
+ I don't know how to open the disposble camera.
+
+ Bob scratches his beard abstractly, thinking about the old days when
+ he could wrestle a great white shark to the ground.
+
+>examine camera
+ This is one of those "disposable" cameras in which you simply point
+ the camera, press the button, and deposit the camera with an
+ authorized film developer.  This looks like one of those new models
+ that can even be used underwater.
+
+ Bob scratches his beard abstractly, thinking about the old days when
+ he could wrestle a great white shark to the ground.
+
+>ask bob about developer
+ I don't know the word "developer".
+
+>look
+ Bob's Fish 'N Bait Store
+
+    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+ bait shop at Lake Highwater.  Except for the sign on the counter that
+ declares "Cameras, worms $1.00" the entire store has an air of rustic
+ antiquity as well as a distinctly robust fishy odor.  On the west wall
+ there is a curtain behind the counter leading into some back room, and
+ upon the counter there is an old wooden bucket as well as a plastic
+ receptacle.  By the entrance of the store, to the east, is a small
+ collection of old photos, depicting champion fishermen.
+    Bob is here, minding the store.
+
+ "I ever tell you about the time I caught ol' Big Mouth up at Lake
+ Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+ lake and pummelled him good with my bare fists.  That I did!"
+
+>examine plastic receptacle
+ This is the receptacle into which you place disposable cameras so
+ their film can be developed.
+
+ "Kid," says Bob irritably, "you just going to stand there or are you
+ going to buy something?
+
+>go west
+ Bob says, "Sorry, kid, can't you let you in there.  Authorized
+ personelle only."
+
+ Bob licks his finger and holds it up in the air.  "Feels like rain,"
+ he remarks.  He licks his finger and holds it up again.  "Or, maybe
+ not."
+
+>put camera in receptacle
+ Done.
+
+ "I ever tell you about the time I caught ol' Big Mouth up at Lake
+ Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+ lake and pummelled him good with my bare fists.  That I did!"
+
+>wait
+ Time passes...
+
+ Bob takes the camera out of the receptacle and mutters something about
+ the troubles of modern photo development.  He saunters into the back
+ room, where you hear him trying to set up developing equipment.  There
+ are lots of clanks and swearing as pans come tumbling down.
+
+>wait
+ Time passes...
+
+ Developing liquids are being poured in the back room.
+
+>wait
+ Time passes...
+
+ You hear Bob humming to himself as he sets some timers.
+
+>wait
+ Time passes...
+
+ The sounds of Bob removing a photo from the back room can be heard.
+
+>wait
+ Time passes...
+
+ Bob emerges from the back room with a photo in his hands.He's shaking
+ his head. "Those dang-blasted cameras," he says.  "Even the young'uns
+ can't figure them out!"  He tosses a photo into your hands.  The
+ picture is a confusing jumble of several pictures, all crammed into
+ the same space simultaneously.
+
+ "Couldn't even get a picture of The Old One," he says sadly.  "I guess
+ you young people are as feeble as I thought!  Better luck in thirty
+ years!"In a total of 164 turns, you have achieved a score of 20 points
+ out of a possible 20.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>restore
+>cf5
+ In Lake Highwater
+
+    Somehow, you have found your way into this lake.  As you breathe
+ using lungs and not gills, you feel that perhaps you should vacate
+ this area before you drown.
+    A humongous fish, which is without a doubt The Old One, struggles
+ to free itself from your line.  A gold bracelet, around its tail,
+ flashes in the feeble light.
+
+>wind camera
+ I don't know the word "wind".
+
+>undo
+ No more undo information is available.
+
+>point camera at fish
+ You point the camera at The Old One.
+
+>push button
+ Click.
+
+>drop rod
+ Dropped.
+
+>go up
+ With a push against the lake bottom, you swim back up to the lake
+ shore.
+
+ Lake Highwater's Beauteous Shore
+
+    Ahhhh, Lake Highwater!  This world-famous fishing hole is this
+ state's best kept secret.  Nearly a mile around, Highwater shines a
+ perfect blue in the early morning sun.  Ducks calmly fly over its
+ edge, and pine trees crown the circumfrence of this majestic lake.
+ The only sign of the hand of man is the short pier on which you now
+ stand that points north towards the lake.  A well-worn path leads
+ south.
+    You see a tire, a dilapidated rubber boot, and a vax here.
+
+>examine vax
+ It's an ancient piece of machinery.  You can't tell much more than
+ that.
+
+>go south
+ Path to Lake
+
+    This ancient dirt path, no doubt trod on by generations of stalwart
+ anglers, leads north to Lake Highwater.  The path is surrounded by
+ lush green grass and tall pine trees which fill your welcoming eyes
+ with green.  In the distance, small birds chirp and the occasional
+ deer can be seen scampering through the woods.  The only anomaly in
+ the landscape is the large, unsightly mound of dirt sitting next to a
+ pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+
+>go west
+ Bob's Fish 'N Bait Store
+
+    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+ bait shop at Lake Highwater.  Except for the sign on the counter that
+ declares "Cameras, worms $1.00" the entire store has an air of rustic
+ antiquity as well as a distinctly robust fishy odor.  On the west wall
+ there is a curtain behind the counter leading into some back room, and
+ upon the counter there is an old wooden bucket as well as a plastic
+ receptacle.  By the entrance of the store, to the east, is a small
+ collection of old photos, depicting champion fishermen.
+    Bob is here, minding the store.
+
+ Bob launches into an extended monologue about the time he and Zeke
+ flushed out a bunch of worms in his mother's vegetable garden with tea
+ and drove the excited nightcrawlers into the pantry, scaring some
+ guests.  He rubs his behind wistfully, as if remembering the results
+ of his action.
+
+>put camera in receptacle
+ Done.
+
+ Bob launches into an extended monologue about the time he and Zeke
+ flushed out a bunch of worms in his mother's vegetable garden with tea
+ and drove the excited nightcrawlers into the pantry, scaring some
+ guests.  He rubs his behind wistfully, as if remembering the results
+ of his action.
+
+>z.z.z.
+ Time passes...
+
+ Bob takes the camera out of the receptacle and mutters something about
+ the troubles of modern photo development.  He saunters into the back
+ room, where you hear him trying to set up developing equipment.  There
+ are lots of clanks and swearing as pans come tumbling down.
+
+ Time passes...
+
+ Developing liquids are being poured in the back room.
+
+ Time passes...
+
+ You hear Bob humming to himself as he sets some timers.
+
+>wait
+ Time passes...
+
+ The sounds of Bob removing a photo from the back room can be heard.
+
+>wait
+ Time passes...
+
+ Bob emerges from the back room with a photo in his hands.Bob is
+ handing you the photo when he takes a closer glance at it.  "Why,
+ why..."  he stammers.  Suddenly he turns white and looks as if he's
+ about to collapse.  You rush behind the counter to help him, but he
+ recovers enough to thump himself several times in the chest.  Shaking
+ his head as if to clear his mind, he stares at the photo again.
+
+ "It's The Old One!"  he gasps.  "Look at it!  That's the largest
+ bluegill I ever saw!"
+
+ "Um, a bluegill?"  you ask."Yeah," says Bob, pointing out some
+ features on the fish.  "you can tell by the..."  His voice trails off,
+ and you realize that a biology lesson is right now not the most
+ important thing about the moment.
+
+ "Nellie," says Bob with a sigh.  "I know that's The Old One,
+ because..."  He points to the golden bracelet around The Old One's
+ tail.  "Because that's Nellie's bracelet.  It was just like Zeke said.
+ I guess...she didn't really leave me for that rich guy after all.  She
+ never intended to."
+
+ "Um, I'm sorry," you say, not knowing what to say.
+
+ "You should be!"  Bob snorts, life coming back to him.  "You have The
+ Old One *that* close, and ya let it get away!  Young whippersnappers
+ nowadays, they're as feeble as I thought."
+
+ But Bob's tone cheers up as he slips the photo under the counter.
+ "Still, I have to congratulate you on what ya did.  Before 1935, no
+ one had a better picture of The Old One than this.  I always wanted ta
+ see The Old One with my own eyes, and I didn't want to die before I
+ did."
+
+ "Wait a second," you say.  "This doesn't mean you're not going to..."
+
+ "Of course not!"  says Bob.  "Just because I done near had a heart
+ attack when I saw that picture doesn't mean I'm going to keel over and
+ die after I've achieved my ambition of seeing that blasted fish!  I'm
+ gonna wait, right here, until someday someone brings in The Old One,
+ straight from the water, to this here bait shop!  Maybe I'll even try
+ it myself!"  You find yourself in awe at the old man's grim
+ determination.  "Besides," he says, shoulders slumping a fraction of
+ an inch, "if I don't live, who's gonna take care of poor Zeke's 170
+ year-old great-grandmother when he dies?"
+
+ And so your fishing odyssey at Lake Highwater comes to an end.  Out of
+ bait (as your cheese ball has dissipated into its component gases) and
+ money, you pack your belongings and get ready to leave.  As you amble
+ happily out of the bait store, ready for the long hike home, you cast
+ one more glance at the beautiful blue surface of Lake Highwater.  You
+ spot a shape in the middle, and strain for a second to take a look.
+
+ It's The Old One, leaping high into the air, as if to bid you
+ farewell, the golden bracelet around its tail gleaming in the
+ sunlight.  You smile and nod, and find yourself saluting this rugged
+ fish, all the while, thinking, "In thirty years!  I'll be back!"
+
+ As if to acknowledge the receipt of your challenge, The Old One waves
+ its shiny tail at you and disappears beneath the surface of Lake
+ Highwater.
+
+
+
+ In a total of 153 turns, you have achieved a score of 20 points out of
+ a possible 20.
+
+ You may restore a saved game, start over, quit, undo the current
+ command, or see a list of things to do in this game for your
+ amusement.
+
+>amusement
+
+ Have you tried...
+
+ Swearing?  Swearing in front of Bob?
+ XYZZY?  (And in front of Bob?)
+ Going east from the Path to Lake?
+ Asking Bob about the pictures?  Taking a picture of Bob?
+ Kissing, killing, giving objects, showing objects to Bob or The Old
+ One?
+ Ordering Bob or The Old One to do something?  Saying hello to Bob or
+ The Old One?
+ Fishing with the cheese ball?
+ Fishing without bait?  (Try several times.)  At different depths?
+ (Use different weights, instead of the rock)
+ Drinking the coffee?  The lake?
+ Eating the cheese ball?  the worm?  the birds?  the deer?  the ducks?
+ Cutting the line with the knife?
+ Casting the line in front of Bob?
+ Taking a picture of something other than The Old One?  Taking more
+ than one picture?
+
+>a
+
+ Have you tried...
+
+ Swearing?  Swearing in front of Bob?
+ XYZZY?  (And in front of Bob?)
+ Going east from the Path to Lake?
+ Asking Bob about the pictures?  Taking a picture of Bob?
+ Kissing, killing, giving objects, showing objects to Bob or The Old
+ One?
+ Ordering Bob or The Old One to do something?  Saying hello to Bob or
+ The Old One?
+ Fishing with the cheese ball?
+ Fishing without bait?  (Try several times.)  At different depths?
+ (Use different weights, instead of the rock)
+ Drinking the coffee?  The lake?
+ Eating the cheese ball?  the worm?  the birds?  the deer?  the ducks?
+ Cutting the line with the knife?
+ Casting the line in front of Bob?
+ Taking a picture of something other than The Old One?  Taking more
+ than one picture?
+
+>quit

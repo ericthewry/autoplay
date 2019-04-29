@@ -1,0 +1,3443 @@
+<HTML>
+<HEAD>
+<TITLE>AllThingsJacq.com - Interactive Fiction | ClubFloyd - September 23, 2007 - Common Ground, by Stephen Granade</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Author" CONTENT="Jacqueline A. Lott">
+<META NAME="Revisit after" CONTENT="30days">
+<META NAME="Robots" CONTENT="all">
+<META NAME="Distribution" CONTENT="Global">
+<META NAME="Keywords" CONTENT="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+<META NAME="Description" CONTENT="Internet site of Jacqueline A. Lott.">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE>
+<!--
+A:link {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:visited {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:hover {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:active {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+-->
+</STYLE>
+</HEAD>
+
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#6666CC" MARGINWIDTH=0 LEFTMARGIN=0 RIGHTMARGIN=0 MARGINHEIGHT=0 TOPMARGIN=0 onLoad="MM_preloadImages('graphics/writing2.jpg','graphics/intfic2.jpg','graphics/photos2.jpg','graphics/misc2.jpg')">
+<a name="top"></a><CENTER>
+<TABLE WIDTH="557" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="35">
+  <TR>
+	<TD>
+	  <CENTER>
+		  <BR>
+		  <A HREF="index.html"><IMG SRC="graphics/atj_logo.jpg" WIDTH="250" HEIGHT="170" BORDER="0"><BR>
+		  <IMG SRC="graphics/home.jpg" WIDTH="75" HEIGHT="25" BORDER="0"><BR>
+		  </A><BR>
+
+		  <A HREF="writing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writing','','graphics/writing2.jpg',1)"><IMG NAME="Writing" BORDER="0" SRC="graphics/writing1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="interactive_fiction.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Interactive Fiction','','graphics/intfic2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"><IMG NAME="Interactive Fiction" BORDER="0" SRC="graphics/intfic1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG NAME="Photography" BORDER="0" SRC="graphics/photos1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG NAME="Miscellany" BORDER="0" SRC="graphics/misc1.jpg" WIDTH="100" HEIGHT="140"></A></CENTER>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></BR></BR>ClubFloyd Transcript: <B><I>Common Ground</I> by Stephen Granade</b></FONT><FONT FACE="arial, sans-serif, helvetica" SIZE="1"></BR>As played on ifMUD on September 23, 2007</FONT></P>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="2">
+The idea behind ClubFloyd is that each week at a pre-arranged time, a group of people meet online to cooperatively play a game of interactive fiction.</br></br>
+Below is a transcript of <i>Common Ground</i> by Stephen Granade.  <i>Common Ground</i> was originally released in 1999, and was a finalist for Best Story in the 1999 Xyzzy Awards.  You can learn more about the game, including how to download it, by visiting <A HREF="http://www.wurb.com/if/game/1237"><u>Baf's Guide</u></A>.</br></br><FONT FACE="arial, sans-serif, helvetica" SIZE="2" COLOR="#FF0000"><b>WARNING!</b></font><FONT FACE="arial, sans-serif, helvetica" SIZE="2"> Below you will find a transcript of people playing this game, and it goes without saying that the transcript is full of spoilers.  So, if you've never played it, and think you might like to at some point, I do not recommend reading any further.  Instead, you might want to return to the <a href="interactive_fiction.html"><u>interactive fiction </u>p<u>a</u>g<u>e</u></a>.</BR></BR></BR></FONT></P></td></tr></table>
+
+
+<table>
+<tr><td></td><td colspan="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td></tr>
+<tr><td width="2%"></td><td width="60%"><center><B>ToyShop & Floyditorium</B></center></td><td width="2%"></td><td width="34%"><center><B>#ClubFloyd Discussion</B></center></td><td width="2%"></td></tr>
+<tr><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td></tr>
+<tr><td></td><td>&nbsp;</td><td></td><td></td></tr>
+<td></td></TR>
+<TR><td></td><TD><b>maga</b> goes southwest to play with toys.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>inky</b> goes southwest to play with toys.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Gunther</b> goes southwest to play with toys.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Toyshop and Floyditorium</b>
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD>Bulging toychests make this a child's (or child-at-heart's) dream.  Play all day, play all night. A small booth has been erected and is staffed by a friendly robot. The sign over it says, "INFOKOM GAMEZ 5 cents".  A small notice on the door reads, "PLEASE RETURN TOYS TO THIS ROOM WHEN YOU'RE DONE WITH THEM."
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b></b>
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>You can see: green button, banana machine, faucets, toy catalogue, a crystal ball, cuddly walrus, clicker, you're the birthday boy or girl, cloak, GPL DONUTS machine, psych rule, rot13 for tf, tic-tac-toe, bugs with inkytry, an enchanted wobblefiend, mime decoder 2, thermometer, monkey guru, yellow button, waldo whisper object, rubble, checkers board, Werewolf rules, bunny burger, grape, specimen jar, signaling device, person finder, Mike Tyson, IF Programmer Barbie, a zorkmid, IF FLOYD'S DOWN, TELL JOTA -- OR ELSE HE WON'T KNOW, pulsating orb, Gak, Autohugger, Photocopier, basketball, midterm monster, frobozz magic dispenser, fun shiny toy, madlibs, werewolf poetry, orange, soda reading 'Don't drink me!', jukebox, Gene Ray, FREE DONUTS machine, storyharp, no bananas, blue Battleship board, public Battleship viewer, long-stemmed red rose, red Battleship board, jellybean, wad of bills, rubber chicken with a pully in the middle, cork nut, cork nut, cork nut, dfan's quest, the 'completely and unremarkable' cube, a pair of dice, miniature ifMUD, Pun Police Whistle, orange door
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Players:</b> Waldo, Floyd, maga, inky, Gunther
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Visible Exits:</b> northeast (to the Lounge)
+
+</TD><td></td><TD><b>Jacqueline</b>  says, "Two minutes until we play Common Ground!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gunther</b>  says, "uh huh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  asks, "we're starting ten minutes early?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh, no we're not."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "Why did everyone go to the damn toyroom?"
+
+</TD><td></td></TR>
+<TR><td></td><TD><b>HairBrain</b> arrives, full of funk, but no fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Gunther says (to Floyd), "<font color="#89956F">WUB WUB WUB</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Floyd</b> says (to Gunther), "Floyd doesn't know that trick."
+</TD><td></td><TD><b>inky</b>  says, "I wanted to get a good seat"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I was just following the crowd.  bah."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gunther</b>  says, "I just do what inky does"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "TWELVE (well, now eleven) minutes until we play Common Ground!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  jumps off a bridge
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says (to Jacq), "because I did and y'all are pathetic sheep"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "baaaaahhh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gunther</b>  jumps off the bridge onto inky
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "hee hee"
+</TD><td></td></TR>
+<TR><td></td><TD><b>DavidW</b> arrives, full of fun and funk.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>DavidW</b> says, "I hope you haven't quite started yet."
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>inky</b> says, "we haven't started for three minutes"
+</TD><td></td><TD><b>Jacqueline</b>  says, "Okay, NOW it's two minutes to ClubFloyd."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oops - one."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>HairBrain</b>  says, "beep - beep - beep"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">load ground</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | GlkTADS - A text-only TADS 2.5.3 Interpreter.
+<b>Floyd</b> | TADS copyright (c) 1993, 2000 by Michael J. Roberts.
+<b>Floyd</b> | Maintained by Stephen Granade &lt;sgranade@phy.duke.edu&gt;
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | Common Ground
+<b>Floyd</b> | Copyright ? 1999 by Stephen Granade.  All rights reserved.
+<b>Floyd</b> |
+<b>Floyd</b> | Type "about" for more information.
+<b>Floyd</b> | Version 2 (Jan 17 2000)
+<b>Floyd</b> | Developed with TADS, the Text Adventure Development System.
+
+<b>Floyd</b> |
+<b>Floyd</b> | One
+<b>Floyd</b> |
+<b>Floyd</b> | Great, just great.  First you oversleep, end up being late for school.
+<b>Floyd</b> | Then the whole day sucks so bad you can barely wait until seventh
+<b>Floyd</b> | period's over and you're free.  Now you've wasted so much time watching
+
+<b>Floyd</b> | TV that you've gotta rush through your makeup or you won't be ready for
+<b>Floyd</b> | tonight before April gets here with her wheels.  Mississippi may say
+<b>Floyd</b> | you're old enough to drive, but Frank sure doesn't agree.
+<b>Floyd</b> |
+<b>Floyd</b> | Man, you can't wait for all this to be over.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Your Bedroom
+<b>Floyd</b> |    You've spent a lot of time in this room, enough that it's really
+<b>Floyd</b> | beginning to get on your nerves.  You're tired of the stupid posters,
+<b>Floyd</b> | you're tired of your stupid bed, you're tired of everything.  You just
+<b>Floyd</b> | wish it weren't such a hassle to try to change any of it.  Besides, if
+<b>Floyd</b> | you were going to change anything, you'd start with the clothes in your
+
+<b>Floyd</b> | closet.  To the west, across from your window, is a closed door going
+<b>Floyd</b> | out.
+<b>Floyd</b> |    You see a flowerdy bag here.  Sitting on the vanity is a geode,
+<b>Floyd</b> | mascara, eye shadow, pink blush, and foundation.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">about</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Common Ground is copyright ? 1999 by Stephen Granade.  It may be freely
+<b>Floyd</b> | copied, distributed and played as long as it is not modified in any
+<b>Floyd</b> | way.  You may not distribute copies of the game for a fee exceeding the
+<b>Floyd</b> | cost of distribution.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Common Ground has some special commands which you can find out about by
+<b>Floyd</b> | typing COMMANDS.  HELP will give you help with playing the game; the
+<b>Floyd</b> | CREDITS command will list all applicable credits for Common Ground.
+<b>Floyd</b> |
+<b>Floyd</b> | Note that the only way to talk to someone is to use the command TALK TO
+
+<b>Floyd</b> | [person].  The reason for this will, I suspect, quickly become obvious.
+<b>Floyd</b> |
+<b>Floyd</b> | If you want to make sure you have the latest version of the game, visit
+<b>Floyd</b> | the Common Ground homepage at
+<b>Floyd</b> | <A HREF="http://www.phy.duke.edu/~sgranade/ground.html">http://www.phy.duke.edu/~sgranade/ground.html</A> or the GMD archive at
+
+<b>Floyd</b> | either ftp://ftp.gmd.de/if-archive/games/tads or
+<b>Floyd</b> | <A HREF="http://ifarchive.org/indexes/if-archiveXgamesXtads.html.">http://ifarchive.org/indexes/if-archiveXgamesXtads.html.</A>  If you want
+<b>Floyd</b> | to give me your opinion of the game, or if you find a bug, please
+<b>Floyd</b> | e-mail me at sgranade@phy.duke.edu.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>maga</b>  asks, "'flowerdy'?"
+</TD><td></td></TR>
+<TR><td></td><TD>HairBrain says (to Floyd), "<font color="#89956F">x flowerdy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You sometimes wonder if you should replace it, but you really like the
+<b>Floyd</b> | flowers printed on it.  Most everything you need's in it.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>HairBrain says (to Floyd), "<font color="#89956F">x flowerdye</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "flowerdye".
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "huh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "That's a new word for me, too."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "WHO IS RESPONSIBLE"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Alex</b>  says (to maga), "Awwwk! Word on the street is that travesty is responsible."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">credits</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Common Ground
+<b>Floyd</b> | Copyright ? 1999 by Stephen Granade.  All rights reserved.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Type "about" for more information.
+<b>Floyd</b> | Version 2 (Jan 17 2000)
+<b>Floyd</b> | Developed with TADS, the Text Adventure Development System.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | Credits
+<b>Floyd</b> |
+<b>Floyd</b> | This game would not be half of what it is without the help and guidance
+<b>Floyd</b> | of my crack team of beta-testers:  Mike Kinyon, Dan Shiovitz, Lucian
+<b>Floyd</b> | Smith, and Adam Thornton.  They kindly agreed to test the game, even
+
+<b>Floyd</b> | though Thanksgiving, Hanukkah, and Christmas were looming.  It's thanks
+<b>Floyd</b> | to them that I was able to finish Common Ground by the end of 1999.
+<b>Floyd</b> |
+<b>Floyd</b> | A tip o' the hat to those who made suggestions and reported bugs:
+<b>Floyd</b> | David Glasser, Neil deMause, Sam Barlow, Magnus Olsson, Gunther
+<b>Floyd</b> | Schmidl, Brendan Milburn, Vincent Lynch, Torbj?rn Andersson, Mark
+
+<b>Floyd</b> | Musante, Eric Mayer, Tim Woerner, and Peter Berman.
+<b>Floyd</b> |
+<b>Floyd</b> | Special thanks go to Misty Granade, who, as always, put up with me
+<b>Floyd</b> | while I struggled with writing this game; and to everyone who took part
+<b>Floyd</b> | in the ifMUD Implementors' Lunch and gave me invaluable advice.  I bet
+<b>Floyd</b> | you didn't expect that this game would be the result.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Must by flowery, but it knows the word, so."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "inky is responsible."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x me</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've gone with your jean cut-offs and a plaid shirt tonight.  Nothing
+<b>Floyd</b> | fancy, but then it doesn't really need to be.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">take all</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't see what you're referring to.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">take foundation</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Huh.  No take all."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gunther</b>  says, "wait, I played this"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">take bag</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>Gunther</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">take shadow</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">take blush</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">wear foundation</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've already put on foundation.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've got foundation, a flowerdy bag, eye shadow, and pink blush.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">wear shadow</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A couple of careful passes with the eye shadow brush and your eyelids
+<b>Floyd</b> | turn a pretty lavender.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">wear blush</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You pop open the blush container and take the brush.  Staring in the
+<b>Floyd</b> | mirror, you rub the pink blush along your cheekbones with quick
+<b>Floyd</b> | strokes.  Satisfied, you put the brush back and close the container.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>olethros</b> arrives, full of neither funk nor fun.
+</TD><td></td><TD><b>maga</b>  says (to Jacq), "this is more knowledge than I thought you possessed"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "haha"
+</TD><td></td></TR>
+<TR><td></td><TD><b>olethros</b> says, "C'est ancora una floydspielnacht"
+</TD><td></td><TD><b>Jacqueline</b>  says (to olethros), "You're just in time - I was demonstrating how to put on makeup, and the boys in the room are strangely silent on this."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">open bag</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know how to open the flowerdy bag.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x posters</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You liked all of the posters when you put them up, especially that one
+<b>Floyd</b> | of M&ouml;tley Cr&uuml;e.  But they've been up there long enough that you're
+<b>Floyd</b> | bored of them.  Even the Cr&uuml;e is last year's band now.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">look under bed</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't reach that from the cane-bottomed chair.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">stand</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Forget this.  You stand up and grab your makeup.  A little bit of
+<b>Floyd</b> | mascara, then you dump all the makeup into your bag.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>HairBrain</b>  says, "I barely understand what 'foundation' means!"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">look under bed</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You used to keep magazines under there until you got tired of your mom
+<b>Floyd</b> | yapping at you about them and threw them away.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>maga</b>  says, "DID you now"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">open closet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's always open, seeing as how its door's been missing since before it
+<b>Floyd</b> | was your room.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">look in closet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your closet's full of old clothes.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x clothes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You guess they aren't that bad.  You'd still like some new ones.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "Should we leave?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "sure"
+</TD><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;GDorn&gt; It looks to me like built-in accordion support is not really there, at least in 2005.
+</i>---></TD><td></td><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;/BrenBarn&gt; Timery, you trick me.  You tease me.  I still want to lick you.  And then stun you.  With a taser.
+</i>---></TD><td></td><td></td></TR>
+<TR><td></td><TD><b>McMartin</b> arrives, full of fun, but no funk.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">out</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Opening the bedroom door)
+<b>Floyd</b> | Hall
+<b>Floyd</b> |    The hall goes north to your bathroom and south to the stairs.  Mom
+<b>Floyd</b> | and Frank's bedroom is to the west, directly across from your room.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "Should we just slit our wrists and have everyone at school say how tragic it all was that they missed the signs?"
+</TD><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;BrenBarn&gt; I think everything happens for a reason, but sometimes only some people understand.
+</i>---></TD><td></td><TD><b>McMartin</b>  says, "I thought this game was older than that"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh wait, that was Heathers, not Common Ground."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You open the door and go through, closing it behind you.
+<b>Floyd</b> |
+<b>Floyd</b> | Your Bathroom
+<b>Floyd</b> |    Your bathroom's not only small, it's not even right by your bedroom.
+<b>Floyd</b> | Some day maybe you'll streak between here and your room, give Frank a
+<b>Floyd</b> | real show.  A bunch of your bottles are scattered round the sink.  The
+
+<b>Floyd</b> | hallway is back to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x bottles</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Moisturizer, shampoo, shit like that.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, "really?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "hm - not much here"
+</TD><td></td></TR>
+<TR><td></td><TD><b>There's</b> no obvious exit in that direction.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the door and go through, closing it behind you.
+<b>Floyd</b> |
+<b>Floyd</b> | Hall
+<b>Floyd</b> |    The hall goes north to your bathroom and south to the stairs.  Mom
+
+<b>Floyd</b> | and Frank's bedroom is to the west, directly across from your room.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Mom and Frank's Room
+
+<b>Floyd</b> |    Mom and Frank's room is okay, you guess.  That waterbed of theirs is
+<b>Floyd</b> | pretty sweet, even with that stupid little nightstand next to it.
+<b>Floyd</b> | Their bathroom is north, and an open door to the east goes back into
+<b>Floyd</b> | the hall.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x nightstand</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's not much to look at.  There's a closed drawer in it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Jacqueline</b>  says, "You sneak."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I remember this nightstand."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">open drawer</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You slide open the drawer--surely Frank won't notice--to find a roll of
+<b>Floyd</b> | bills.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>maga</b>  says, "if there's one thing I learned from AIF, it's that nightstands ALWAYS contain illicit things"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "bills!"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x bills</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Frank's little stash of money.  There's probably over a hundred bucks,
+<b>Floyd</b> | easy.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "we are in debt... oh"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>HairBrain</b>  says, "Now you're just begging for someone to quote you."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to maga), "too true"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "we are rich!"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">take bills</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You glance over your shoulder, then pull a bunch of bills from the
+<b>Floyd</b> | roll.  You stop after about eighty.  If you're lucky, Frank won't find
+<b>Floyd</b> | them gone for a while.  You put the roll back in the drawer and hide
+<b>Floyd</b> | the bills you took.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, "illicit bills?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  asks, "Counterfeits?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "they're illicit now that Jacq STOLE them"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to olethros), "Well, it's all in ones - for the strip joint, you see."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "damn those birds must've been endagered"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "We could undo, if we want to be a good girl."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+
+<b>Floyd</b> | Mom and Frank's Room
+<b>Floyd</b> |    Mom and Frank's room is okay, you guess.  That waterbed of theirs is
+<b>Floyd</b> | pretty sweet, even with that stupid little nightstand next to it.
+<b>Floyd</b> | Their bathroom is north, and an open door to the east goes back into
+<b>Floyd</b> | the hall.
+<b>Floyd</b> |    The nightstand drawer seems to contain a roll of bills.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>McMartin</b>  says (to olethros), "Well, it's really hard to get the beaks to form neat rolls like that"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to maga), "There you go, Voice of Reason."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">n</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Mom and Frank's Bathroom
+<b>Floyd</b> |    You don't know why Frank has this big thing about you not using his
+<b>Floyd</b> | and mom's bathroom.  It's not like it's any big secret deal.  You can
+<b>Floyd</b> | leave it to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, "do all moms yap about magazines?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Depends on the magazines, I suspect."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "Frank is mom's new BF?"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Mom and Frank's Room
+<b>Floyd</b> |    Mom and Frank's room is okay, you guess.  That waterbed of theirs is
+<b>Floyd</b> | pretty sweet, even with that stupid little nightstand next to it.
+<b>Floyd</b> | Their bathroom is north, and an open door to the east goes back into
+<b>Floyd</b> | the hall.
+<b>Floyd</b> |    The nightstand drawer seems to contain a roll of bills.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">close drawer</font>"
+</TD><td></td><TD><b>Jacqueline</b>  says, "Or the stepdad, I think that's unclear as of yet."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Closed.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><TD><b>olethros</b>  says, "&gt; PARTY"
+
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall
+<b>Floyd</b> |    The hall goes north to your bathroom and south to the stairs.  Mom
+<b>Floyd</b> | and Frank's bedroom is to the west, directly across from your room.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "&gt; CALL FRIEDNS"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "do we have a goal, actually?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "&gt;GO WILD"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I'm guessing stepdad, because he lives here, and our mother would never have a sleep-over friend to whom she was not wedded in the eyes of God."
+
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You head down the stairs.
+<b>Floyd</b> |
+<b>Floyd</b> | Living Room
+<b>Floyd</b> |    When you're not in your room you usually hang here, watching TV from
+
+<b>Floyd</b> | the couch.  Frank sometimes works at a little desk he's got in here,
+<b>Floyd</b> | but he's normally pretty cool with you watching TV while he works.
+<b>Floyd</b> | There are stairs to the south.  You can get to the kitchen to the
+<b>Floyd</b> | northeast and the front door and hallway are northwest.
+<b>Floyd</b> |    Frank is sitting in the chair, hunched over his desk.
+<b>Floyd</b> |
+
+<b>Floyd</b> | As you come down the stairs, Frank looks up at you.  "Goin' out tonight
+<b>Floyd</b> | too, huh?"  Is his speech slurred again?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "oooooh a real workaholic"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oi.  Lovely."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x Frank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Frank's dressed in that ratty old Bud t-shirt of his and a greasy pair
+<b>Floyd</b> | of jeans.  He's working hard on some appliance, frowning at it from
+<b>Floyd</b> | time to time.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "A winner!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "handy repair man."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "yay he is our alcoholic abusive stepdad. this is shaping up to be a made-for-HBO movie"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "ha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "&gt; SHOOT HEROIN"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">kiss Frank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Ew.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "yay"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "or aw"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">shoot heroin</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "shoot".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>*</b>  GDorn has joined the channel.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "presumably our mother will show she is a Strong Modern Woman by clonking him over the head with a skillet when he eventually becomes a creepy stalker and tries to abuse us"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x appliance</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | He's been "working" on some of that junk for years.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, "are we playing this game to make fun of it or to have fun?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Both!"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">ask frank about work</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | If you want to talk to someone, use TALK TO.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to Frank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You wander over to Frank's desk and look at the jumble on it.
+<b>Floyd</b> | "What'cha working on?"
+<b>Floyd</b> |
+<b>Floyd</b> | "Toaster," he says, staring at the inside of a chrome-plated box.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>maga</b>  says, "I don't see how the two are incompatible"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Toaster, huh?  What's wrong with it?"
+
+<b>Floyd</b> |
+<b>Floyd</b> | "Thought it was the heater element shorting, but that wasn't it."  He
+<b>Floyd</b> | goes on a while about the toaster, almost makes you wish you hadn't
+<b>Floyd</b> | asked.  Finally he gets to the point.  "Anyway, the power cord's shot,
+<b>Floyd</b> | so now I'm replacing it."
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "DAD,  WHEN ARE YOU GOING TO GET A REAL JOB"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take a couple of steps away from Frank.  "Gotta have toast, huh?"
+<b>Floyd</b> | But he's not even listening.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Hey, Frank, where'd mom go?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Groceries."  He leans his head from side to side, trying to loosen
+<b>Floyd</b> | tense muscles.  "Piggly Wiggly.  Hope you told her what you wanted this
+<b>Floyd</b> | week."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Nah," you say, shaking your head.  "Doesn't matter."
+<b>Floyd</b> |
+<b>Floyd</b> | "Well, okay," he says.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "By the way, could you spot me a couple of bucks for tonight?"  you ask
+<b>Floyd</b> | as casually as you can.
+<b>Floyd</b> |
+
+<b>Floyd</b> | He sighs and runs a hand through what's left of his hair.  "You know
+<b>Floyd</b> | money's tight this month."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>HairBrain</b>  says, "I think this use of 'we' is the closest to Being John Malkovich creeping-out we've had yet."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  twiddles his thumbs.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "No it's not, you jerk.  You have a wad of bills in your nightstand!"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "I know.  But it's not like I'm asking for much.  I mean, there's not a
+<b>Floyd</b> | lot of places to spend money around here 'cept the Sonic.  All's I need
+
+<b>Floyd</b> | is like a ten or something."
+<b>Floyd</b> |
+<b>Floyd</b> | "Look, I told you already.  Money's tight, and I don't have any to give
+<b>Floyd</b> | you.  Now quit yapping about it."  Frank pointedly turns back to the
+<b>Floyd</b> | toaster.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "it's for emergencies!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  exclaims, "beer emergencies!"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">make toast</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "toast".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">attack Frank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | He'd hit back.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>McMartin</b>  says, "Hedgehog emergencies"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  asks, "Man, who's abusive now?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to maga), "You were RIGHT!"
+
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Living Room
+<b>Floyd</b> |    When you're not in your room you usually hang here, watching TV from
+<b>Floyd</b> | the couch.  Frank sometimes works at a little desk he's got in here,
+<b>Floyd</b> | but he's normally pretty cool with you watching TV while he works.
+
+<b>Floyd</b> | There are stairs to the south.  You can get to the kitchen to the
+<b>Floyd</b> | northeast and the front door and hallway are northwest.
+<b>Floyd</b> |    Frank is sitting in the chair, hunched over his desk.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Jacqueline</b>  says, "Well, we could go steal the money.  Up to you guys."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "we have enough"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've gone with your jean cut-offs and a plaid shirt tonight.  Nothing
+<b>Floyd</b> | fancy, but then it doesn't really need to be.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">remove shirt</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">ne</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You've already got the plaid shirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | Kitchen
+<b>Floyd</b> |    Mom's been bugging you about learning how to cook, so you've been
+<b>Floyd</b> | avoiding the kitchen as much as possible when she's around.  There're
+
+<b>Floyd</b> | counters and cabinets along the walls and a table on one side of the
+<b>Floyd</b> | kitchen.  The hallway's to the west and the living room is southwest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to olethros), "We have nothing.  I used 'undo' after the theft."
+
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x cabinets</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The kitchen cabinets are closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, "where's the phone?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">open cabinets</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You rummage through the cabinets, but you're not all that hungry right
+<b>Floyd</b> | now.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Alex</b>  says (to olethros), "Awwwk! Word on the street is that Phone is a phonetic realization of a Phoneme."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Alex), "Thanks for that."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Alex</b>  asks (of Jacqueline), "Awwwk! So where's my cork nut then?"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You've got a flowerdy bag.  The flowerdy bag seems to contain
+<b>Floyd</b> | foundation, pink blush, eye shadow, and mascara.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "whacky linguists"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "See?  Penniless."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "&gt; PUT MASCARA ON FRANK"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall
+
+<b>Floyd</b> |    The hallway goes between the kitchen to the east and the front door
+<b>Floyd</b> | to the west.  There's a bathroom to the north.  You can slip around the
+<b>Floyd</b> | wall of the hallway and into the living room to the southwest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD><!---<i>&lt;/Miseri&gt; No self-respecting gremlin would be seen anywhere near a bed with a quilt like *that*.
+</i>---></TD><td></td><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;Miseri&gt; My soul belongs to Portneuf yet my heart belongs to cheese.
+</i>---></TD><td></td><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You'll have to open the front door first.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "let's see what happens when we try to go out"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">open front door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the front door a little and peek outside, but April's not here
+<b>Floyd</b> | yet.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>McMartin</b>  says, "&gt; WAIT SIX MONTHS"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the door and go through, closing it behind you.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Bathroom
+<b>Floyd</b> |    An extra bathroom, with a john and sink.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Jacqueline</b>  says, "Also, judging by the reference to the Piggly Wiggly, the appearance of our stepdad, and the fact that Sargent lives in Alabama, please make sure you are using the appropriate southern accents in your head when reading all dialogue."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "har"
+</TD><td></td></TR>
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "(the har was to McMartin. Thanks, lag!)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "sermomimem alequ graimen"
+
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x sink</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The sink's pretty clean since mom had you clean this bathroom last
+<b>Floyd</b> | weekend.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><TD><b>Jacqueline</b>  says, "Fine, David.  Duely noted that you did not think I was being funny."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the door and go through, closing it behind you.
+<b>Floyd</b> |
+<b>Floyd</b> | Hall
+
+<b>Floyd</b> |    The hallway goes between the kitchen to the east and the front door
+<b>Floyd</b> | to the west.  There's a bathroom to the north.  You can slip around the
+<b>Floyd</b> | wall of the hallway and into the living room to the southwest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You'll have to open the front door first.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">open door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the front door a little and peek outside, but April's not here
+<b>Floyd</b> | yet.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You'll have to open the front door first.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>olethros</b>  says, "oh"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">sw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Living Room
+<b>Floyd</b> |    When you're not in your room you usually hang here, watching TV from
+<b>Floyd</b> | the couch.  Frank sometimes works at a little desk he's got in here,
+
+<b>Floyd</b> | but he's normally pretty cool with you watching TV while he works.
+<b>Floyd</b> | There are stairs to the south.  You can get to the kitchen to the
+<b>Floyd</b> | northeast and the front door and hallway are northwest.
+<b>Floyd</b> |    Frank is sitting in the chair, hunched over his desk.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">watch tv</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Yeah, the TV's real exciting when it's off.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>olethros</b>  asks, "where's a jacket?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "Maybe we need money to start the counter that makes April arrive?"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">turn on tv</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You click on the TV.  It hums into life, showing a green-tinged Bon
+<b>Floyd</b> | Jovi video.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "we want to go out NOW and get warm with some scotch"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "or some MAN"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "wow, 80s"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "man, I'm not watching this crap"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  asks, "A man named 'April'?"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">turn off tv</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The TV shuts off, its hum fading away.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">start revolution</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "start".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "I don't remember much about this game but I remember 'flowerdy' is not a typo."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "anything left to explore?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "&gt; TEACHER, PUT THOSE BOOKS AWAY"
+</TD><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;/BrenBarn&gt; Cheezy Development - Cheezy web browser, theme creator 2000, and Cheezy fighter.
+</i>---></TD><td></td><TD><b>DavidW</b>  says (to inky), "I think there's a garage; not sure."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to frank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Frank's absorbed in his work again.  You talking to him more's only
+<b>Floyd</b> | likely to make him mad.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>maga</b>  asks, "hm. what now?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well, I'm still contemplating getting some cash."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "no other rooms/objects?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  asks, "did you get all your stuff from upstairs?"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to inky), "From our room?  Yes."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "But not from Frank & Mom's room."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "let's get the cash and get outta here"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "okay, okay"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I'm not sure if we want the money, or if this is a game to test our ETHICS, in which case maybe we shouldn't."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "don't say I didn't warn you"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "we want to get drunk or not?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "if not, then we just stay in and watch the telly"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "Frank's going to take the buckle end to us, you see if he doesn't"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "&gt; ELOPE"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jota</b> arrives, full of fun, but no funk.
+</TD><td></td><TD><b>McMartin</b>  says, "We could always save first"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to McMartin), "BRILLIANT!"
+
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">save</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store:
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Jota</b> says, "I've already played, so I'm just here to watch."
+</TD><td></td><TD><b>Jacqueline</b>  asks, "Why didn't we think of that?"
+</TD><td></td></TR>
+
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">goodgirl</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Saved.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">s</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You head up the stairs.
+<b>Floyd</b> |
+<b>Floyd</b> | Hall
+<b>Floyd</b> |    The hall goes north to your bathroom and south to the stairs.  Mom
+<b>Floyd</b> | and Frank's bedroom is to the west, directly across from your room.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to McMartin), "Thank you for being here to make our unethical desires okay."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Mom and Frank's Room
+<b>Floyd</b> |    Mom and Frank's room is okay, you guess.  That waterbed of theirs is
+
+<b>Floyd</b> | pretty sweet, even with that stupid little nightstand next to it.
+<b>Floyd</b> | Their bathroom is north, and an open door to the east goes back into
+<b>Floyd</b> | the hall.
+<b>Floyd</b> |
+<b>Floyd</b> | Your billfold!  You'll definitely need your money tonight.  It better
+<b>Floyd</b> | still be in the kitchen where you left it after school.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>McMartin</b>  says, "Because of the Club Floyd motto"
+</TD><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;Ferret&gt; Ferret has connected to ifMUD.
+</i>---></TD><td></td><TD><b>maga</b>  says, "wuh, wait"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "Also, that totally looked like maga patting Floyd on the head and saying 'Save!  Who's a good girl, then?'"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "aha. We need billfold from kitchen."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall
+<b>Floyd</b> |    The hall goes north to your bathroom and south to the stairs.  Mom
+<b>Floyd</b> | and Frank's bedroom is to the west, directly across from your room.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You head down the stairs.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Living Room
+<b>Floyd</b> |    When you're not in your room you usually hang here, watching TV from
+<b>Floyd</b> | the couch.  Frank sometimes works at a little desk he's got in here,
+<b>Floyd</b> | but he's normally pretty cool with you watching TV while he works.
+<b>Floyd</b> | There are stairs to the south.  You can get to the kitchen to the
+<b>Floyd</b> | northeast and the front door and hallway are northwest.
+
+<b>Floyd</b> |    Frank is sitting in the chair, hunched over his desk.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">ne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Kitchen
+
+<b>Floyd</b> |    Mom's been bugging you about learning how to cook, so you've been
+<b>Floyd</b> | avoiding the kitchen as much as possible when she's around.  There're
+<b>Floyd</b> | counters and cabinets along the walls and a table on one side of the
+<b>Floyd</b> | kitchen.  The hallway's to the west and the living room is southwest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x table</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You kinda remember leaving your billfold on the table, but you sure
+<b>Floyd</b> | don't see it there now.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>maga</b>  says, "FRANK DONE STOLED IT"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x counter</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You glance at the counters, but there's no sign of your billfold on
+<b>Floyd</b> | them.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">look under table</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You glance under the table, then get down on your hands and knees.
+<b>Floyd</b> | There that stupid thing is!  You grab the billfold and stand up.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Mom comes bustling in the kitchen with a bunch of groceries, which she
+<b>Floyd</b> | plops down on the table.  "Hey, Jeanie," she says.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "That jerk."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Sorry, Frank."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "you guys may continue"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x billfold</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | All the money you've made the last month at Hardee's is jammed in
+<b>Floyd</b> | there.
+<b>Floyd</b> |
+<b>Floyd</b> | "Could you help me put the groceries up?"  mom asks you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x mom</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Mom's wearing her plaid summer dress and has her brown hair up in a
+<b>Floyd</b> | bun.  She's putting groceries away right now.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">help mom</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You grab some of the groceries and put them up.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You grab some of the groceries and put them up.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x groceries</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Sacks full of food that mom wants you to help put up.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">g</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Sacks full of food that mom wants you to help put up.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "oops"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">help mom</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You grab some of the groceries and put them up.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>HairBrain</b> |
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD>McMartin says (to Floyd), "<font color="#89956F">talk to mom</font>"
+</TD><td></td><TD><b>Jacqueline</b>  asks, "Will it never end?"
+</TD><td></td></TR>
+<TR><td></td><TD><b>I</b> don't see that here.
+</TD><td></td><TD><b>Jacqueline</b>  says, "er"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "What'd you get at the store?"  you ask mom.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "Right, uh-huh.  The usual.  Oh," she says, pulling a box out of a sack
+<b>Floyd</b> | and showing it to you.  "I got Wheat Thins for you."  She puts the box
+<b>Floyd</b> | away.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Don't forget I won't be here for supper," you tell mom.
+<b>Floyd</b> |
+<b>Floyd</b> | "Right, uh-huh, right," mom says.  She sighs.  "I wish you'd eat supper
+
+<b>Floyd</b> | here a little more often."
+<b>Floyd</b> |
+<b>Floyd</b> | Mom says, "Jeanie dear, I'm making roast tonight.  If you're still
+<b>Floyd</b> | hungry when you get home, there should be some left in the fridge."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+<b>Floyd</b> | "Um, thanks."
+<b>Floyd</b> |
+<b>Floyd</b> | "Right, right, you're welcome."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>olethros</b>  says (to davidw), "heehee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "No one thinks to look under tables in modern IF."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">open billfold</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You pop it open and take a quick look.  All your Hardee's money from
+
+<b>Floyd</b> | the last month is in there.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">count money</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You don't need to.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Oh."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "That's where the terrorists will hide"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "That reminds me. I nominate Everybody Loves A Parade. (evil grin)"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "for next CF?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says (to McMartin), "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to olethros), "yes"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "they will hide.... blinking"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to DW), "Put it on the obj when we're done."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "&gt;RUB HANDS TOGETHER AND CACKLE OVER OUR HOARD"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  asks (of W), "WHy evil?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  asks, "Because it can be made unwinnable?"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Jota), "because of old-school"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  nods.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "i like altskewl"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says, "I support it, simply on the grounds that I was a tester."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Actually, I was thinking of Mother Loose for next week, since I hadn't picked one yet."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "That or SGaTFaS."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "sure"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">help mom</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You grab some of the groceries and put them up.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>olethros</b> disappears through an invisible gap in the MUD. You think you may have heard the sounds of chatting before the gap closed again.
+</TD><td></td><TD><b>maga</b>  says, "okay, that's quite enough of that"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Mother Loose is an interesting one."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says (to inky), "Because we don't need to count our hoard, I declare that it is $691.05"
+</TD><td></td></TR>
+<TR><td></td><TD><b>olethros</b> arrives, full of fun and funk.
+</TD><td></td><TD><b>Jota</b>  says, "Also, someone -- lps? -- was saying that Sarge had already OK'd comp games on Floyd."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall
+
+<b>Floyd</b> |    The hallway goes between the kitchen to the east and the front door
+<b>Floyd</b> | to the west.  There's a bathroom to the north.  You can slip around the
+<b>Floyd</b> | wall of the hallway and into the living room to the southwest.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a car horn being honked outside in front of the house.  Must
+<b>Floyd</b> | be April.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, ".alex sgatfas?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Martin), "That is a lot of Hardees money."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says, "So perhaps next week should be a randomly-selected comp game or two."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "ooh - car horn!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Car horn. April. We can go now."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "you *say* hardee's, but it's actually a strip club"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">open door</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You yank open the door.  Sure enough, there's April in her old Mustang.
+<b>Floyd</b> | You slam the door shut on your way out, heading for her car.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Two
+<b>Floyd</b> | That toaster's been giving you fits the last few nights.  "Could you
+
+<b>Floyd</b> | fix it?"  Deb asks, like it's the easiest thing in the world.  Least
+<b>Floyd</b> | now you're pretty sure it's the power cord and not anything more
+<b>Floyd</b> | serious.  It oughta be a quick enough fix.
+<b>Floyd</b> |
+<b>Floyd</b> | Quick enough once you get a drink, that is.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Kitchen
+<b>Floyd</b> |    You'd think you never ate, as hungry as you get every time you go in
+<b>Floyd</b> | the kitchen.  But you promised Deb no snacks, so the cabinets are
+<b>Floyd</b> | off-limits for you.  Good thing drinks from the fridge are okay.  The
+<b>Floyd</b> | den is southwest.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to olethors), "She's Got a Thing for a Spring."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "actually, "hardee's" would be a good name for a strip club"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "I cant remember if I ever played that"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "heehee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says (to inky), "Hee."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "This is chapter two. We're now playing as Frank."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">open fridge</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Inside the fridge, nestled among the food, are several cans of Coke and
+
+<b>Floyd</b> | Bud.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>maga</b>  says, "bah. I can't do it. Someone else pull the trigger"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  asks (of W), "Narrator?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>McMartin says (to Floyd), "<font color="#89956F">get coke</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You suddenly realize that you've been standing and staring into the
+<b>Floyd</b> | open fridge for a while.  You shake your head slightly and pull a Coke
+<b>Floyd</b> | from the fridge.  You'd prefer a Bud, really, but Deb's been on you
+<b>Floyd</b> | about that.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to maga), "ha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "ooh den"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  exclaims, "All proper geeks are caffeine fiends!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  asks, "What about improper geeks?"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">sw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | On your way out you lightly kick the door of the fridge, closing it.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Den
+<b>Floyd</b> |    You've got the desk where you work pushed up against one wall, over
+<b>Floyd</b> | by an old stereo you keep meaning to fix.  The only thing you can see
+<b>Floyd</b> | from the desk is the kitchen to the northeast, but at least your back's
+<b>Floyd</b> | to the TV.  A worn banister and stairs to the south go up to the second
+<b>Floyd</b> | floor.
+
+<b>Floyd</b> |    Sitting on your desk is a broken toaster, a junk box, a
+<b>Floyd</b> | Phillips-head screwdriver, and a multimeter.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear Jeanie clomping around upstairs.  Probably getting ready to go
+<b>Floyd</b> | out again tonight.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I'm not sure which one is less healthy, Bud or Coke."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "&gt; Shine toaster with Cola"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "impoper geeks are caffeine friends"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "hehe"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">fix toaster</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You're going to have to be more specific.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Jota</b>  asks, "So does no one here do things like &gt;DANCE or &gt;EAT TOASTER ?"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x cord</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The power cord's gotten pretty frayed from the toaster being plugged
+<b>Floyd</b> | and unplugged so much.  It's held in the toaster by screws.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jota</b>  says, "Man, you guys are such boring players."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says (to Jota), "I do more of it when beta testing"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">hit toaster with screwdriver</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Before starting work on the toaster you lower yourself into your chair.
+<b>Floyd</b> |
+<b>Floyd</b> | Attacking the broken toaster doesn't appear productive.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I've already played this one, so I'm mostly watching this week."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Jota), "No one is stopping you."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "One day I will write a game where EAT ROOM is a puzzle solution."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">xyzzy</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "xyzzy".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">dance</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You weren't any good at dancing when you were young.  What makes you
+
+<b>Floyd</b> | think you could do it now?
+<b>Floyd</b> |
+<b>Floyd</b> | Jeanie comes clumping down the stairs.  She's all dressed up, with her
+<b>Floyd</b> | plaid shirt tied so that you can see her midriff.  "You going out again
+<b>Floyd</b> | tonight?"  you ask her.  She doesn't answer.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">dance with jeanie</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't recognize that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>McMartin says (to Floyd), "<font color="#89956F">Dream of Jeanie</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "dream".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>olethros</b>  says, "hm interesting how they made the game work from two perspectives"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "Hey, it looks like we aren't getting robbed tonight"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to olethros), "Three, actually. We get to be mom/Deb later on."
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x midriff</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "midriff".
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "aw"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">talk to jeanie</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You decide to take a break from messing with the toaster.  "So," you
+
+<b>Floyd</b> | ask Jeanie, "how was school?"
+<b>Floyd</b> |
+<b>Floyd</b> | It's a stupid question, and you realize just how stupid it is right
+<b>Floyd</b> | after you say it.  Jeanie sighs.  "How do you think it was?"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "I hated school, too.  Couldn't wait to graduate."
+<b>Floyd</b> |
+<b>Floyd</b> | "Yeah?  Why'd you even bother?  Not like you need a diploma to do
+<b>Floyd</b> | factory work."
+
+<b>Floyd</b> |
+<b>Floyd</b> | Should of known better than to even try to talk to her.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Where you going tonight?"  you ask Jeanie as you lean back in the
+<b>Floyd</b> | chair and stretch.
+<b>Floyd</b> |
+<b>Floyd</b> | "Just out."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><!---<i>&lt;/Grocible&gt; Grocible has disconnected from ifMUD.
+</i>---></TD><td></td><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;Grocible&gt; Grocible has connected to ifMUD.
+</i>---></TD><td></td><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You roll your shoulders some to work the kinks out of them.  "Just out?
+<b>Floyd</b> | Seems like you oughta stay in and rest up before school tomorrow."
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Look," she snaps, "Mom okayed it.  I'm just going to ride around a
+<b>Floyd</b> | while."
+<b>Floyd</b> |
+<b>Floyd</b> | "Whoa, whoa, okay."  You decide to drop the whole thing.  No skin off
+<b>Floyd</b> | your nose if she wants to be tired tomorrow.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As snappy as she's been tonight, you'd just as soon not hear her talk
+<b>Floyd</b> | right now.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "What'cha working on?"  You look up to find Jeanie looking at the
+<b>Floyd</b> | toaster like she's never seen one before.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "It's a toaster," you tell Jeanie, since she can't figure it out by
+<b>Floyd</b> | herself.
+<b>Floyd</b> |
+<b>Floyd</b> | "Oh.  What's wrong with it?"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You briefly toy with the idea of saying, "It's broken," but she seems
+<b>Floyd</b> | almost interested.  "Well, I think the heating element might be
+<b>Floyd</b> | shorting."
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Oh," she says, and wanders away.  Guess she wasn't that interested.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As snappy as she's been tonight, you'd just as soon not hear her talk
+
+<b>Floyd</b> | right now.
+<b>Floyd</b> |
+<b>Floyd</b> | "Where's mom, Frank?"  Jeanie asks you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "She's gone to the Pig," you tell her.  "Why, was there something you
+<b>Floyd</b> | wanted her to get?"
+<b>Floyd</b> |
+<b>Floyd</b> | She shakes her head.  "Nah."  You shrug and turn back to the toaster.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As snappy as she's been tonight, you'd just as soon not hear her talk
+<b>Floyd</b> | right now.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Jeanie clears her throat.  You brace yourself for whatever she wants.
+<b>Floyd</b> | "Um, can I borrow some cash for tonight?  'Cause I'm kinda short."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "You know money's tight right now," you tell Jeanie.  Besides, when
+<b>Floyd</b> | does she not want money?
+<b>Floyd</b> |
+<b>Floyd</b> | "Money's always tight."  Her voice gives you a headache every time she
+
+<b>Floyd</b> | starts whining like this.  "I only need a twenty."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Does Jeanie even listen to you?  "I told you.  Money's tight.  Fixing
+
+<b>Floyd</b> | the station wagon took all our extra money this month."  Thankfully,
+<b>Floyd</b> | she doesn't say anything back.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As snappy as she's been tonight, you'd just as soon not hear her talk
+<b>Floyd</b> | right now.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "done with the blahblah"
+
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">fix toaster</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You're going to have to be more specific.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">remove cord</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take the cord off of the old stereo.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Hm - interesting that the conversation is different."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I didn't expect that."
+</TD><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">eat cord</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which cord do you mean, the stereo power cord, or the frayed power
+<b>Floyd</b> | cord?
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "ART"
+</TD><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">stereo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The stereo power cord doesn't look appetizing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>McMartin</b>  says, "We TALK TO NPCed a different number of times."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">attach stereo cord to toaster</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The toaster's already got a power cord.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">hang self from cord</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "hang".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">remove frayed cord</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's got to be unscrewed first.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">unscrew frayed cord</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As careful as you can you loosen the screws holding the cord and take
+<b>Floyd</b> | it out of the toaster.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">remove frayed cord</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">tie knot in cord</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've already got the frayed power cord.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+<b>Floyd</b> | I don't know the word "tie".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says (to Jota), "fraid not."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">attach stereo cord to toaster</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You put the cord from the stereo in the toaster where the old one used
+<b>Floyd</b> | to be.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>maga</b>  says, "BORED NOW"
+
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You're not leaving until you get out of the wooden chair.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">stand</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You start to stand up, but glance at the toaster.  You've got to be
+<b>Floyd</b> | close to fixing it.  It shouldn't take you too much longer.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "&gt; ACTIVATE ELECTRIC CHAIR"
+</TD><td></td></TR>
+<TR><td></td><TD>McMartin says (to Floyd), "<font color="#89956F">Plug in toaster</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Not while you're fixing it.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "I don't think it's that different, yeah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "although the subjective interpretations are probably different"
+</TD><td></td></TR>
+<TR><td></td><TD>McMartin says (to floyd), "screw cord to toaster</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You put the old power cord back in the toaster and screw it in tight.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">screw power cord</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which power cord do you mean, the stereo power cord, or the frayed
+<b>Floyd</b> | power cord?
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">get up</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | With a start you realize that you've been staring at the wall for the
+<b>Floyd</b> | past few minutes.  Better do at least a little more work on the toaster
+
+<b>Floyd</b> | before you give up.
+<b>Floyd</b> |
+<b>Floyd</b> | The sound of the front door slamming startles you.  Jeanie's left
+<b>Floyd</b> | already?  Wonder where she's going.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | Three
+<b>Floyd</b> | The nice thing about going grocery shopping this late is that the store
+<b>Floyd</b> | isn't too crowded and you can check out quickly.  It would have been
+<b>Floyd</b> | better if Julie Morgan hadn't been there, making those snide comments
+<b>Floyd</b> | of hers, but all in all it wasn't too bad.  Now maybe Frank or Jeanie
+<b>Floyd</b> | can help you put the groceries away.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Carport
+<b>Floyd</b> |    The carport's in bad need of a cleaning, what with all of the
+<b>Floyd</b> | supplies for fixing the cars lining the sides and spilling out almost
+<b>Floyd</b> | into the middle.  It's getting so you can't hardly find space for the
+<b>Floyd</b> | station wagon, though you managed to squeeze it in somehow.  And you're
+
+<b>Floyd</b> | beginning to think that you might as well get rid of the bikes.  The
+<b>Floyd</b> | side door to the house is to the west.
+<b>Floyd</b> |    The station wagon's door is wide open.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>McMartin</b>  says, "Wait"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "I guess that wasn't a puzzle, then"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "hrmhmrm"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "maybe we were meant to bond somehow"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "It can be fixed, but it's optional. The game isn't about puzzles."
+
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">drive to the beach</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "drive".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've got sacks of groceries and your key ring.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x me</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your slacks have seen better days, but you were only going to the
+<b>Floyd</b> | Piggly Wiggly.  Your arms are filled with sacks from the store.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">enter station wagon</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Seeing as how you just got back from the store, you don't really need
+<b>Floyd</b> | to go anywhere right now.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "Wait, slacks?  What happened to our dress?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "you sack-filled arms / bind me with their charms"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "Or is this the same family on three different nights?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "that's the mom"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "this is the mom, not the daughter"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Right - mom was wearing a dress earlier."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  wonders if a #floydspoilers channel would be useful.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "SHE WAS DOPPLEGANGERED"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "&gt; WEAR HEADCRAB"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "hm. Jacq's right. Mom had a plaid summer dress on earlier."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Jota), "Probably, for those watching who've already played and want to MOCK US BECAUSE THEY ARE CRUEL."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "yeah. given the illustrious betatesters this can hardly be a bug"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Except if you do that I should probably log it."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD><b>No</b> new channels have been created since your last check.
+</TD><td></td><TD><b>maga</b>  says, "somehow it has to connect to 'flowerdy'"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "perhaps she's going to change in the garage, then"
+</TD><td></td></TR>
+<TR><td></td><TD><b>You</b> un-mute #ifmud/newchannel.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>No</b> new channels have been created since your last check.
+</TD><td></td><TD><b>olethros</b>  says, "she's going to change when she meet her LOVER"
+</TD><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">x dress</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "dress".
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "&gt;FASHION CRUDE DRESS OUT OF PIGGLY WIGGLY BAGS AND SOME DUCT TAPE"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  asks, "She had a dress before, but it wasn't in the game vocabulary?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "HOORAY"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  asks, "maybe the daughter sees her as always wearing a plaid dress because she sees her mother as, um, a naughty Catholic schoolgirl?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  |  Mom's wearing her plaid summer dress and has her brown hair up in a
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "is what I see in my recap"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  asks (of inky), "I presume a 'crude' dress would be one that's appropriate for dancing in down at 'Hardee's'?"
+</TD><td></td></TR>
+
+<TR><td></td><TD>McMartin says (to Floyd), "<font color="#89956F">X HAIR</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't see any hair here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">in</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You'll have to open the side door first.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says (to Jota), "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">open side door</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Better close the car door before you go in.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">close car door</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You bump the door closed with your hip, but it doesn't quite make it.
+<b>Floyd</b> | It stops short, leaving the dome light on.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "this is getting annoying"
+
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">drop bags</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You don't want to set them down until you're in the kitchen, since
+<b>Floyd</b> | you're not sure you could pick them up again.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>maga</b>  says, "banality of everyday life: represented"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">open door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Better close the car door before you go in.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x car door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door's wide open.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">eat hat</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "hat".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>McMartin says (to Floyd), "<font color="#89956F">Close car door. g.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You hit the door pretty hard with your hip.  It closes.
+<b>Floyd</b> |
+<b>Floyd</b> | The station wagon's already closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "growr"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x hip</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "hip".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">open side door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's locked.  Frank must've locked it when he got home.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">shake it baby</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "shake".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">enter house</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You'll have to open the side door first.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x bags</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You must be holding some five or six sacks.  But it was either that or
+<b>Floyd</b> | make several trips from the car, and as tired as you are, you'd just as
+<b>Floyd</b> | soon get this chore done quickly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">open side door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's locked.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">unlock side door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (with your key ring)
+<b>Floyd</b> | You pull your key ring out, but drop it before you can unlock the door.
+<b>Floyd</b> | "Shit!" you exclaim, then look around.  Looks like no one heard you.
+<b>Floyd</b> |
+
+<b>Floyd</b> | It's just not your night.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">open car door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You adjust the groceries and manage to pull open the car door.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "GAAAAAAAAAAAAAH"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "I wonder if I locked our keys in the car"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">close car door</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You hit the door pretty hard with your hip.  It closes.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "no"
+</TD><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">knock on door</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which door do you mean, the side door, or the car door?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">side</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Frank must be busy, because he doesn't come to the door.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">get keys</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | It's tough bending down and getting your keys without spilling
+<b>Floyd</b> | groceries out of the sacks, but you manage it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">scream</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Ladies don't yell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">unlock door</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | (with your key ring)
+<b>Floyd</b> | You fumble with your keys and finally manage to get the door unlocked.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">open door</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You almost drop a sack doing it, but you eventually manage to get the
+<b>Floyd</b> | side door open.  You go through it and close it behind you.
+<b>Floyd</b> |
+<b>Floyd</b> | Living Room
+<b>Floyd</b> |    The living room is starting to look a little dusty, the TV
+<b>Floyd</b> | especially.  There are two paths worn in the green shag carpet, one
+
+<b>Floyd</b> | going from the stairs to the front door, the other from the stairs to
+<b>Floyd</b> | the kitchen, right by Frank's desk and the row of family pictures.  The
+<b>Floyd</b> | door to the carport is east.
+<b>Floyd</b> |    Frank's boots are sitting in the middle of the floor again.
+<b>Floyd</b> |    Frank is sitting in the chair, hunched over his desk.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "hahaha DUST IS EVERYWHERE"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">kill frank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Don't be silly.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>McMartin says (to floyd), "x frank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Frank is studying that broken toaster intently.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "heh. Dirty boots. Dirty Frank."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "tsk tsk tsk tsk"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "Man, I was hoping we'd learn who Frank was"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x boots</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Frank's left his boots in the middle of the floor again.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">kiss frank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You don't want to distract him.  Besides, you're not really in the mood
+
+<b>Floyd</b> | tonight.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">x frank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Frank is studying that broken toaster intently.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">drop bags</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You don't want to set them down until you're in the kitchen, since
+<b>Floyd</b> | you're not sure you could pick them up again.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You just came from there, and with all those groceries.  No sense in
+<b>Floyd</b> | going back out again.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Living Room
+<b>Floyd</b> |    The living room is starting to look a little dusty, the TV
+
+<b>Floyd</b> | especially.  There are two paths worn in the green shag carpet, one
+<b>Floyd</b> | going from the stairs to the front door, the other from the stairs to
+<b>Floyd</b> | the kitchen, right by Frank's desk and the row of family pictures.  The
+<b>Floyd</b> | door to the carport is east.
+<b>Floyd</b> |    Frank's boots are sitting in the middle of the floor again.
+<b>Floyd</b> |    Frank is sitting in the chair, hunched over his desk.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">ne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Kitchen
+<b>Floyd</b> |    After several rounds of remodelling you finally got the kitchen laid
+
+<b>Floyd</b> | out fairly well, with the range near the cabinets and with plenty of
+<b>Floyd</b> | counter space. If only the table weren't between the range and
+<b>Floyd</b> | refrigerator.  The living room is to the southwest.
+<b>Floyd</b> |    Standing in the middle of the kitchen is Jeanie.
+<b>Floyd</b> |
+<b>Floyd</b> | "Hey, mom," Jeanie says as you walk in.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">dance</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Goodness, it's been ages since you danced!  Wonder if Frank would take
+<b>Floyd</b> | you next weekend.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "hee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "ha"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">drop bags</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You lift the sacks and pile them on the kitchen table.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "aw"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Wait, I wanted to talk to Frank."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">sw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It won't take long to put up the groceries.  No sense in leaving it for
+<b>Floyd</b> | later, especially since the ice cream would melt.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Jeanie grabs some of the groceries and puts them on the counter.  You
+<b>Floyd</b> | didn't even have to ask her to.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | You can't go that way.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Jeanie picks up some of the groceries and puts them away.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "well now that we dropped the bags"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "undo?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Can't go now."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Alex</b>  says (to olethros), "Awwwk! Word on the street is that Undo is a command that lusers use."
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't go that way.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to olethros), "Too many turns back."
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">sw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It won't take long to put up the groceries.  No sense in leaving it for
+<b>Floyd</b> | later, especially since the ice cream would melt.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Jeanie picks up some of the groceries and puts them away.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">put up groceries</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take some of the groceries and put them where they belong.
+<b>Floyd</b> |
+<b>Floyd</b> | "What all'd you get at the store?"  Jeanie asks, rooting around in the
+<b>Floyd</b> | sacks.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">eat ice cream</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "ice".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">put up groceries</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take some of the groceries and put them where they belong.
+<b>Floyd</b> |
+<b>Floyd</b> | "You know I won't be here for supper, right?"  Jeanie tells you.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">talk to jeanie</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "I know," you say to Jeanie.  How could you forget?  She's seldom here
+<b>Floyd</b> | for dinner these days.  "Too bad you'll miss dinner again."
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to jeanie</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "I'll leave some roast in the refrigerator in case you want some when
+<b>Floyd</b> | you get home," you say to Jeanie.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Jeanie shrugs.  "Okay."
+<b>Floyd</b> |
+<b>Floyd</b> | Jeanie picks up some of the groceries and puts them away.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>McMartin</b>  says, "Hmm, I think it is tracking us"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "it?  is this a horror IF?"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "You're welcome."  You smile; you know she'll be thankful later.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Jeanie heads out of the kitchen.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't repeat that command.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jota</b>  says, "They all are. Secretly."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>McMartin</b>  says, "The lurking narrator"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">se</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't go that way.
+<b>Floyd</b> |
+<b>Floyd</b> | Outside you hear someone honking.  Jeanie's ride must be here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">l outside</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "outside".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">put up groceries</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take some of the groceries and put them where they belong.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear Jeanie go clomping out the front door.  She slams it shut hard
+<b>Floyd</b> | enough to make the dishes shake.  Was she mad?
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You put up the last of the groceries and put the left-over sacks away.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">se</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't go that way.
+<b>Floyd</b> |
+<b>Floyd</b> | A cough at the door makes you turn around.  Frank's there, leaning
+
+<b>Floyd</b> | against the frame.  "Did, um, did Jeanie say where she was going?"
+<b>Floyd</b> |
+<b>Floyd</b> | "Not really."  These days, does she ever?  When she gets back you'll
+<b>Floyd</b> | have to talk to her about it.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | Four
+<b>Floyd</b> | April asked if you wanted her to wait with you, but you told her nah
+<b>Floyd</b> | and so she just dropped you off at the station.
+<b>Floyd</b> |
+<b>Floyd</b> | It was real easy to buy a ticket.  You were afraid they'd want to see
+<b>Floyd</b> | ID or maybe a letter from mom or something, but the guy just took your
+
+<b>Floyd</b> | money and didn't say nothing.
+<b>Floyd</b> |
+<b>Floyd</b> | This all seems unreal, somehow.
+<b>Floyd</b> |
+<b>Floyd</b> | Bus Station, at the counter
+<b>Floyd</b> |    The ticket counter is more like a cage, with the guy giving tickets
+
+<b>Floyd</b> | sitting behind bars.  There's barely enough room in there for him and
+<b>Floyd</b> | his chair.  On the wall beside the counter is a big board listing
+<b>Floyd</b> | arrivals and departures.  The rest of the station is to the south.
+<b>Floyd</b> |    Sitting on the ticket counter is some change and a bus ticket.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Jota</b>  says, "If only you knew what had *really* built the Edifice and why..."
+</TD><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;/Grocible&gt; Grocible has disconnected from ifMUD.
+</i>---></TD><td></td><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;Grocible&gt; Grocible has connected to ifMUD.
+</i>---></TD><td></td><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;lno&gt; schep says, "I saw a Frito-Lay truck today, and realized that I would never again see those words without thinking of that line."
+</i>---></TD><td></td><TD><b>olethros</b>  says, "seems like she's going to FLORIDA"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "or Tijuana"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "OMG we're running away from our loveless family"
+
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've got a billfold and a flowerdy bag.  The flowerdy bag seems to
+<b>Floyd</b> | contain a change of clothes and some extra underwear.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">flash underwear</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "flash".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>maga</b>  says, "to meet our fictional boyfriend in Canada"
+</TD><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">wear underwear</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't wear the extra underwear.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">what good is it then</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "what".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>olethros</b>  says, "BUT it gets cold in canada!"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">get all</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | change:  Taken.
+<b>Floyd</b> | bus ticket:  Taken.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x ticket</font>"
+</TD><td></td><TD><b>Jacqueline</b>  asks, "Wait, people in Canada wear extra underwear for warmth?"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You almost can't believe you just bought it.  "Los Angeles," it says,
+<b>Floyd</b> | as if you could forget.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x board</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The chalkboard lists a bunch of buses, but the only one you really care
+<b>Floyd</b> | about is the one coming from New York and going to Los Angeles.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks (of Jacqueline), "you mean you don't?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "ask your neighbouring rangers!"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x me</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've gone with your jean cut-offs and a plaid shirt tonight.  Nothing
+<b>Floyd</b> | fancy, but then it doesn't really need to be.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, "what? who wants to leave NYC for LA?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">time</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "time".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "it's just coming from NYC; you're not actually there"
+
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x watch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I think we're in the South somewhere, not NYC."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">x ticket</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You almost can't believe you just bought it.  "Los Angeles," it says,
+<b>Floyd</b> | as if you could forget.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, "yow, and thus bus actually STOPS?"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bus Station
+<b>Floyd</b> |    Your feet click on the tile floor as you shift around, waiting.  You
+<b>Floyd</b> | could sit--there are a couple of worn chairs scattered around, but they
+
+<b>Floyd</b> | all look really uncomfortable.  The ticket counter and the board with
+<b>Floyd</b> | the bus schedules on it are on the north side of the room, opposite the
+<b>Floyd</b> | exit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">wait for bus</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "for".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">wait</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You wait a while.
+<b>Floyd</b> |
+<b>Floyd</b> | You turn your ticket over and over, looking first at one side, then the
+<b>Floyd</b> | other.  LA.  It's so far away.  Surely you'll be an actress, right?
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "gah"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">act</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "act".
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "you don't even know the word, girl"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "and by 'actress' we mean 'crack whore'"
+</TD><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Bus Station
+<b>Floyd</b> |    Your feet click on the tile floor as you shift around, waiting.  You
+<b>Floyd</b> | could sit--there are a couple of worn chairs scattered around, but they
+<b>Floyd</b> | all look really uncomfortable.  The ticket counter and the board with
+<b>Floyd</b> | the bus schedules on it are on the north side of the room, opposite the
+<b>Floyd</b> | exit.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">smoke crack</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "smoke".
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x schedule</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">x phone</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The chalkboard lists a bunch of buses, but the only one you really care
+
+<b>Floyd</b> | about is the one coming from New York and going to Los Angeles.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | I don't know the word "phone".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">out</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Outside the Station
+<b>Floyd</b> |    It's gotten chillier since you got here.  Hopefully that bus'll be
+<b>Floyd</b> | here soon.  There's only one car in the parking lot, and not a lot of
+<b>Floyd</b> | traffic on the road.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x car</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a beat-up old Pinto.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">steal car</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "steal".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">enter car</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The car's locked.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">goodgirl</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "goodgirl".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">in</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">look under car</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bus Station
+<b>Floyd</b> |    Your feet click on the tile floor as you shift around, waiting.  You
+<b>Floyd</b> | could sit--there are a couple of worn chairs scattered around, but they
+
+<b>Floyd</b> | all look really uncomfortable.  The ticket counter and the board with
+<b>Floyd</b> | the bus schedules on it are on the north side of the room, opposite the
+<b>Floyd</b> | exit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | I don't see any car here.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says (to DavidW), "hehehe"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">look in pinto</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't see any pinto here.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">out</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Outside the Station
+<b>Floyd</b> |    Yellow light from the street lamps makes the parking lot and bus
+
+<b>Floyd</b> | stop look weird.  Old Church Road, running in front of the bus station,
+<b>Floyd</b> | is pretty much empty.  The station's behind you to the north.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear the bus's engine some time before you see it.  It comes
+<b>Floyd</b> | crawling down Old Church Road and pulls into the lot in front of you.
+<b>Floyd</b> | Its doors open.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "sory I took us back in"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "ah"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">look in pinto</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's pretty dirty.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">look under car</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Nothing's under there, far as you can tell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">dance hokey pokey</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "hokey".
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "oh, bus"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">x bus</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The bus is belching smoke and shaking as it idles.  Its door is open,
+
+<b>Floyd</b> | and the bus driver is staring at you.  The sign over its windshield
+<b>Floyd</b> | reads "Los Angeles".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">enter bus</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You hang back for a moment, then finally climb up in the bus.
+<b>Floyd</b> |
+<b>Floyd</b> | Inside the Bus
+<b>Floyd</b> |    The bus is empty except for you and the bus driver, but it still
+<b>Floyd</b> | smells like old people and cigarettes.  At least you have your pick of
+<b>Floyd</b> | seats.
+
+<b>Floyd</b> |    The bus driver is looking at you, waiting.
+<b>Floyd</b> |
+<b>Floyd</b> | The bus driver looks at you.  "Staying or going?" he asks, his hand out
+<b>Floyd</b> | for your ticket.  You think about mom putting a roast in the oven.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">kiss driver</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Ew.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>DavidW</b>  says, "I was wondering if there was a poignant litter of abandoned kittens under the Pinto."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "hee hee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  exclaims, "you don't want to go to LA! it smells!"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">give underwear to driver</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Might as well leave that in there.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "You gonna give me that ticket or what?"  the bus driver asks you.  You
+<b>Floyd</b> | look at him, then away.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">give ticket to driver</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Now we're cooking with Crisco."  He takes the ticket from you and
+<b>Floyd</b> | swings shut the doors.  "Grab a seat."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">show ticket to driver</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "The ticket'll be plenty enough, thanks."
+<b>Floyd</b> |
+<b>Floyd</b> | "I said, grab a seat!  We gotta move," the bus driver tells you.  You
+<b>Floyd</b> | pick a seat at random and flop into it.  You put your head against the
+
+<b>Floyd</b> | headrest with a sigh.
+<b>Floyd</b> |
+<b>Floyd</b> | The bus moves with a jerk, the brakes squealing as the driver coaxes
+<b>Floyd</b> | the bus out of the station and onto the road.  You close your eyes,
+<b>Floyd</b> | letting the glow of street lights play over you, light then dark, light
+<b>Floyd</b> | then dark.  One last glance at the houses slipping past, fading away
+
+<b>Floyd</b> | into the night, before you close your eyes and try to sleep.
+<b>Floyd</b> |
+<b>Floyd</b> | The End
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | You may restore a saved game, start over, quit, or undo the current
+
+<b>Floyd</b> | command.
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "ok what the hell"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">U</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+
+<b>Floyd</b> |
+<b>Floyd</b> | Inside the Bus
+<b>Floyd</b> |    The bus is empty except for you and the bus driver, but it still
+<b>Floyd</b> | smells like old people and cigarettes.  At least you have your pick of
+<b>Floyd</b> | seats.
+<b>Floyd</b> |    The bus driver's checking his mirrors and gauges.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">out</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The doors to the bus are closed.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "I said, grab a seat!  We gotta move," the bus driver tells you.  You
+<b>Floyd</b> | pick a seat at random and flop into it.  You put your head against the
+<b>Floyd</b> | headrest with a sigh.
+<b>Floyd</b> |
+<b>Floyd</b> | The bus moves with a jerk, the brakes squealing as the driver coaxes
+<b>Floyd</b> | the bus out of the station and onto the road.  You close your eyes,
+
+<b>Floyd</b> | letting the glow of street lights play over you, light then dark, light
+<b>Floyd</b> | then dark.  One last glance at the houses slipping past, fading away
+<b>Floyd</b> | into the night, before you close your eyes and try to sleep.
+<b>Floyd</b> |
+<b>Floyd</b> | The End
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | You may restore a saved game, start over, quit, or undo the current
+<b>Floyd</b> | command.
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">out</font>"
+
+</TD><td></td><TD><b>Jacqueline</b>  asks (of olethros), "Are you saying we should go home to our loveless family?"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  says, "hm"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "well, this is no conclusion!"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "We have a restore point."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "The option to not take the bus is available."
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">\UNDO</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">\UNDO</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, "what was it?"
+</TD><td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">under</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+
+<b>Floyd</b> | Inside the Bus
+<b>Floyd</b> |    The bus is empty except for you and the bus driver, but it still
+<b>Floyd</b> | smells like old people and cigarettes.  At least you have your pick of
+<b>Floyd</b> | seats.
+<b>Floyd</b> |    The bus driver's checking his mirrors and gauges.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | Inside the Bus
+
+<b>Floyd</b> |    The bus is empty except for you and the bus driver, but it still
+<b>Floyd</b> | smells like old people and cigarettes.  At least you have your pick of
+<b>Floyd</b> | seats.
+<b>Floyd</b> |    The bus driver is looking at you, waiting.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jota says (to Floyd), "<font color="#89956F">out</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Outside the Station
+<b>Floyd</b> |    Yellow light from the street lamps makes the parking lot and bus
+<b>Floyd</b> | stop look weird.  Old Church Road, running in front of the bus station,
+<b>Floyd</b> | is pretty much empty.  The station's behind you to the north.  A bus is
+
+<b>Floyd</b> | idling in front of the station.
+<b>Floyd</b> |
+<b>Floyd</b> | You step back from the bus.  The doors hiss shut and the bus jerks into
+<b>Floyd</b> | life, lumbering towards the road and away from the station.  You watch
+<b>Floyd</b> | the bus windows slide past you, blank with reflected light.  The red
+<b>Floyd</b> | taillights grow smaller and smaller and smaller until they're gone.
+
+<b>Floyd</b> |
+<b>Floyd</b> | You shrug your bag onto your shoulder.  It's a fair walk back to the
+<b>Floyd</b> | house.
+<b>Floyd</b> |
+<b>Floyd</b> | The End
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | You may restore a saved game, start over, quit, or undo the current
+<b>Floyd</b> | command.
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<TD><b>Jota</b>  says, "(TADS games have multiple UNDO.)"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "aha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "hm, is that all?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Hm - I guess we could replay and not take the bus, but enh."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Pretty much. We could've taken the bankroll with little difference."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "I'm guessing that we needed to bond more somehow"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "f about"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says (to Jacq), "Ahem. You just not-took-the-bus."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "or something"
+</TD><td></td></TR>
+<TR><td></td><TD>olethros says (to Floyd), "<font color="#89956F">about</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "No one looked at the family pictures in chapter 3."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I mean, I enjoyed the concept, but I guess I just wasn't that intrigued by the characters."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to David), "Hm, true."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "yeah, but still"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "there was little sense of influencing events"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "who wrote this game?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Sarge"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "really, that's unexpected."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "no LASERS"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heehee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  asks, "Did Grip have lasers?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "oh? Were there lasers in Child's Play?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says, "I think not."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to DW), "If not, there should have been."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "now I am even more impressed"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says, "He needs to escape from the drudgery of his work life *somehow*."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "seemed like there was some critical gameplay aspect we missed"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "perhaps"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "perhaps there is a hidden game within the game"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says, "A game of Pong."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "and while you can just let it flow past you, you have the option of ..."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Does that mean we want to replay?  It's early yet, I guess."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "if we were playing alone maybe we'd have gone more slowly and noticed things in the later sections. I dunno."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well, I noticed inconsistancies - not sure if that was intentional or not."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "yes."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "I think that was meant to be a perspective thing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to olethros&maga), "Not in perspective."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "like, to the girl it feels like she's asking for ten bucks, to the stepdad it feels as if she's asking for twenty"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "there wer some subtle differences, yes."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well, unless you mean that dialogue was interpreted in a completely different way."
+</TD><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;/Ferret&gt; Ferret has disconnected from ifMUD.
+</i>---></TD><td></td><TD><b>Jacqueline</b>  says, "Like, as Jeannie we said one thing, but as Frank we heard something quite different."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Our actions were duplicated in one chapter to the next, but I think Sarge wanted to leave the player some free will, even though the scene currently played has already happened. It's tricky."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "and the station-wagon explanation completely goes over the girl's head"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  asks, "the what?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I could see the perspective changing in the thoughts of how characters interpreted dialogue, but wouldn't expect the dialogue itself to change - though I can see how that could be part of the idea."
+</TD><td></td></TR>
+<TR><td></td><TD><!---<i>&lt;nm&gt; AFAIK FWIW IANAL SAMPFAG
+</i>---></TD><td></td><TD><b>Jacqueline</b>  asks (of maga), "Yeah, the what?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says (to Jacq), "If you think of it more like a memory than a narration..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says (to olethros), "when Jeannie asks for money, she just hears 'money's tight'; from Frank's perspective, he says 'money's tight' and then goes on to explain that this is because they had to fix the station-wagon up"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "that could've been intentional"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "apparently Jeanie just stops paying attention at one point, yeah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Jota), "Yes, then it would work."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says (to olethros), "that was my point"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "there was something like that too in other points"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "when Frank says it, she hears "I'm tight""
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "so J sucks and that's the point of the game.  Let the little brat die and the two lovebirds enjoy their newfound peace and quiet."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Amen."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Sad little family."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "But probably not atypical for middle America."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Which is perhaps sadder still."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "So that's a no on the replay?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says, "The really sad part is that it's autobiographical."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says, "After she moves to LA, she ends up getting gender-reassignment surgery and changing her name to 'Stephen'."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "For another game with a vaguely similar concept, there's Heroes, but there's a lot less direct interaction between the main characters."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says (to Jacq), "yeah, think so"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jota</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><TD><b>Jacqueline</b>  says (to Jota), "heehee"
+</TD><td></td></TR>
+<TR><td></td><TD><b>maga</b> disappears through an invisible gap in the MUD. You think you may have heard the sounds of chatting before the gap closed again.
+
+</TD><td></td><TD><b>Jacqueline</b>  says, "And shaves off all her hair!"</TD><td></td></TR>
+<TR><td></td><td></td></TR></TABLE><P ALIGN="CENTER"><FONT FACE="arial, sans-serif, helvetica" SIZE="1">
+		 <BR><BR>[ <a href="#top">TOP OF THIS PAGE</A> | <a href="interactive_fiction.html#clubfloyd">MORE CLUBFLOYD TRANSCRIPTS</A> | <a
+href="index.html">HOME</A> ]</FONT></P>
+
+<center><IMG SRC="graphics/black.jpg" WIDTH="557" HEIGHT="3"></center>
+		  <P ALIGN="CENTER"><A HREF="contact.html"><IMG SRC="graphics/footer.jpg"
+border="0"></A></P>
+</BODY>
+</HTML>

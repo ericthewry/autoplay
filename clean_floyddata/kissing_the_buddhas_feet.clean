@@ -1,0 +1,3954 @@
+>load kissing
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+
+
+
+
+    "I've actually done it," announces John as he enters the bathroom.
+
+    "Done what?"  you say, trying to ignore him as you scrub the
+ bathtub.
+
+    John pulls out a sheet of crumpled paper and a lighter and sets the
+ paper ablaze.  "My drop form," he says, looking at the paper.  "I'm
+ not failing Psych 1 this semester.  I'm going to ace the final!"
+
+    Surprised, you slip on your scouring pad and nearly fall face first
+ into the tub.  "*What*?  You're actually going to *finish* that
+ class?"
+
+    "Definitely!"  exclaims John, his face growing hard with
+ determination, a determination you've never before seen on him.  "I'm
+ tired of bombing that class!  I know I can pass this time!  I don't
+ care if I've got a D minus in it so far!"
+
+    For the last two years, you and John have shared a tiny apartment
+ north of campus.  It didn't take long to find out that you and John
+ were, so to speak, "incompatible."  As you couldn't find another
+ apartment, you've been praying for release ever since, if not by
+ death, at least by John's graduating and leaving.  Because John has
+ consistently failed Psych 1 for the last six years, it looked as if
+ you'd be stuck with him in this hell hole for the rest of your college
+ life.
+
+    But now it looks as though you might get your reprieve.  If John
+ only *passes* tomorrow's final, scheduled at eight o'clock, you'll be
+ home free.  But John is easily distracted, and has lots of boisterous,
+ noisy friends who like to drop in at inopportune moments.  You've got
+ to make sure John gets enough quality time to study.  Tonight, the two
+ of you will be pulling an all-nighter, burning the midnight oil, and
+
+
+ Kissing the Buddha's Feet
+ An Interactive Cramming
+ Version 1.1
+ Developed with TADS, the Text Adventure Development System.
+ Copyright (C) 1996 by Leon Lin, All Rights Reserved
+
+
+ (First time players should type INFO for information about this
+ release.)
+
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently on.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+
+>wipe floor
+ (I don't know the word "wipe".)
+
+>examine tv
+ This is that indispensable staple of modern civilization, the
+ television set.  Even you admit to watching an hour or two a day.  The
+ television is currently on and blaring loud noise into the room.
+ There is a power cord behind the television.
+
+ "Reaction formation, rationalization, projection, reaction formation!"
+ John recites desperately.
+
+>turn off tv
+ Unfortunately, this is one of those models of televisions which can
+ only be turned off by remote control.
+
+ John squirms in his seat, trying to concentrate.
+
+>info
+ Kissing the Buddha's Feet
+ An Interactive Cramming
+ Version 1.1
+ Developed with TADS, the Text Adventure Development System.
+ Copyright (C) 1996 by Leon Lin, All Rights Reserved
+
+
+ "Kissing the Buddha's Feet" was an entry in the Second Annual
+ Interactive Fiction Competition.  It placed fifth overall in a field
+ of 27 entries, and later won two XYZZY awards (Best Individual NPC and
+ Best NPCs).  Version 1.1 is essentially the same as the game that was
+ submitted to the competition, except for a few bug fixes and cosmetic
+ changes; these changes are outlined in the file bugfix.txt which
+ should have come with the game package.
+
+ This game is freeware (though not public domain), and may be freely
+ played, copied, and distributed provided that you:
+
+ 1) Don't sell it for a profit.  You may charge a fee to cover the cost
+ of any media you distribute the game on but no more.
+ 2) Don't modify the game.
+
+ I appreciate any comments, criticism, and bug reports you send me.
+ You can reach me by e-mail at leonlin@uclink.berkeley.edu.  This
+ address should be valid at least until the end of 1997.
+
+ Thanks, and enjoy the game!
+
+ ACKNOWLEDGEMENTS
+ ----------------
+
+ Thanks to Kevin Wilson for his advice and help.
+
+ Thanks also to this competition's Internet Beta-Testing team,
+ particularly Michael Kinyon, who helped me find bugs and other
+ annoying oddities in my game I probably would have never discovered on
+ my own.  And many thanks to those who wrote to me after the
+ competition to inform about bugs they had discovered.
+
+ Many thanks as well to the many people who wrote reviews and comments
+ about this game, as well as my previous game, "The One That Got
+ Away"--such criticism has helped me improve and grow as an author of
+ interactive fiction.  Thanks also to all of the people whose votes in
+ the 1996 Interactive Fiction Competition and the XYZZY Awards helped
+ this game receive the recognition that it did.
+
+ And finally, thanks to my parents, who have given me their love and
+ support.  This game wouldn't have been possible without them.
+
+
+>pull cord
+ You try to unplug the power cord.  However, rats have chewed through
+ its insulation, exposing the underlying wire.  When you touch the
+ cord, you experience a painful but otherwise harmless electric shock.
+ Cursing, you make a strategic retreat to the paisley couch.
+
+ John squirms in his seat, trying to concentrate.
+
+>look under couch
+ There's nothing under your paisley couch.  As it should be.
+
+ John tries to write some notes on a piece of paper, messes up, and, in
+ a fit of frustration, crumples up the paper and throws it to the
+ floor.
+
+ You hear a violent gust of wind blow into John's bedroom, causing the
+ door to slam closed.  John, startled by the noise, looks around
+ confusedly.  "Um, could you go in my room and close my window,
+ please?"  he asks you.
+
+>go east
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond a closed door.  The bathroom
+ can be reached by going east through an open door.
+
+ You hear a knock on the front door.  You rush to the living room,
+ knowing that trouble has arrived, but are too late!  The door flies
+ open with a crash!
+
+ There is an explosion of confetti around you, and a paper noisemaker
+ licks impudently at your face.  When the paper clears, you see
+ standing at the door John's four troublesome friends, Alice, Bob,
+ Carl, and Evan!  "Hi-yah, John!"  greets Alice, their leader.  "Looks
+ like we're not too late for the party!"  She doffs her conical party
+ hat and strides over to John's desk.  "Say, is that a psychology book
+ you're studying?  Really hitting the books now, are ya?"  She grins as
+ she puts down some snacks and a radio blaring obnoxious music, and
+ parks herself and Carl on the floor.  Evan immediately goes to you and
+ starts speaking about trivia, and Bob wanders around drunkenly.
+
+ It's going to be an even longer night than you imagined...
+
+>go north
+ You can't leave your apartment now!  Not when you still have to keep
+ an eye on John!
+
+ John wails to you, "Could you help quiz me?  Please?"
+
+ Carl takes out a candy bar, strips the cellophane off of it, crumples
+ it into a neat, compact ball, and tosses it absent-mindedly in the
+ direction of the bedrooms.
+
+ Alice breaks out a pack of cards and plays a hand of hearts with Carl.
+
+ Bob, thinking that he's walking in a straight line, toes a path more
+ akin to the outline of a Picasso painting than anything else.
+
+ Going into deep financial detail, Evan gives a discourse on the rise
+ and fall of Infocom, Inc.  He also mentions how much he liked that
+ little robot Floyd.
+
+>go east
+ Short Hall
+    You see a piece of cellophane here.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for Monopoly.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+ Evan follows you into the short hall.
+
+>get cellophane
+ Taken.
+
+ Going into deep financial detail, Evan gives a discourse on the rise
+ and fall of Infocom, Inc.  He also mentions how much he liked that
+ little robot Floyd.
+
+>go north
+ You'll have to open John's bedroom door first.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ Going into deep financial detail, Evan gives a discourse on the rise
+ and fall of Infocom, Inc.  He also mentions how much he liked that
+ little robot Floyd.
+
+>open door
+ Opened.
+
+ You hear lots of drunken singing from somewhere else in the apartment.
+
+ Going into deep financial detail, Evan gives a discourse on the rise
+ and fall of Infocom, Inc.  He also mentions how much he liked that
+ little robot Floyd.
+
+>go north
+ John's Bedroom
+
+    John is fairly nonchalant about you going into his room and using
+ his stuff, though for the most part you don't take advantage of this.
+ Like your room, John's room has a bed, dresser, desk, and an open
+ closet door to the east.  Unlike your room, it is quite disorganized,
+ to say the least.  Sheets are spread all over the room and clothes, as
+ well as less-speakable debris, are strewn about, giving the room a
+ ripe, musty odor not unlike rotting fruit in an ancient tomb; broken
+ plastic models litter the scarred desk.  Set in the north wall is an
+ open window to the outside world.  There is a (fortunately) open door
+ to the south.
+    You see a wastebasket here.  The wastebasket seems to contain a
+ blue wrapper.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+ Evan follows you into John's bedroom.
+
+>close window
+ You slide the window shut, only to discover that there is a round,
+ baseball-sized hole in the middle of the window which is admitting a
+ large amount of wind into the room.
+
+ The sound of a tremendous belch rocks the apartment.
+
+ "You know," says Evan philosophically, "in Taiwan, they have this
+ phrase that describes desperate students who have to make a supreme
+ last-minute effort to study for exams.  They're said to be 'kissing
+ the Buddha's feet.'"  He looks pleased at having known that piece of
+ trivia.
+
+>examine wrapper
+ This looks like a wrapper for some sort of box.  It's pastel blue,
+ with a paisley pattern tastefully silkscreened on.  A small gold seal,
+ mostly intact, has the logo for "Dee's Chocolates" on it.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for mah jongg.
+
+ Evan gives a short speech about what's wrong with the nation's foreign
+ policy and how he would change things.
+
+>get wrapper
+ Taken.
+
+ The sound of a tremendous belch rocks the apartment.
+
+ Evan speculates about the recipe for Kentucky Fried Chicken.
+
+>put wrappr on window
+ "Ah, 'wrappr', now that's an interesting word," says Evan.  "Let me
+ tell you about its etymology..."
+
+>put wrapper on window
+ Looks like that won't fit in the hole.
+
+ Evan talks about the impact of the longbow on the Hundred Years' War.
+
+>examine desk
+ The decrepit state of John's desk bespeaks both a ripe old age as well
+ as years of misuse; its surface bears many jagged scars and scorch
+ marks.  Otherwise, the desk looks surprising clean (for a possession
+ of John's), mainly because most of the junk that normally occupies its
+ surface has been swept onto the floor or into the closet.  There is a
+ single drawer on the desk, which is closed.  On the desk you see some
+ broken plastic models; besides that, you see a handheld electronic
+ trivia game.
+
+ From the direction of the living room, you hear Alice trying to sing
+ "Send in the Clowns" along with the radio, and doing it badly.
+
+ Going into deep financial detail, Evan gives a discourse on the rise
+ and fall of Infocom, Inc.  He also mentions how much he liked that
+ little robot Floyd.
+
+>kill evan
+ What do you want to attack him with?
+
+>get game
+ Taken.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for mah jongg.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+ Evan wonders what the world would be like if it were love, not money,
+ that made the world go round.
+
+>examine game
+ Small, orange, and plastic, this electronic game was given to John for
+ his birthday.  John, having a limited attention span at best, quickly
+ abandoned this gift before he could get through its alleged "20,000
+ Questions!"  The case sports an LCD screen and a small speaker.  There
+ are also four buttons, colored red, yellow, green, and blue, lined up
+ vertically to the left of the screen, next to where the possible
+ answers to the game's questions will be displayed.  The game is
+ currently off.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ "I believe," says Evan, "that a philosopher once said, 'You can only
+ win so many battles before you lose the war.'"
+
+>give game to evan
+ Evan looks excitedly at the game you're giving him.  "Why-y-y, that's
+ a '20,000 Questions' trivia game!  It's the fourth edition!  A rarity!
+ I've always wanted to play that!"  He fumbles clumsily at the game,
+ which he turns on and starts playing eagerly.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for chess.
+
+ A violent gust of wind flies in through the hole in the window,
+ causing the bedroom door to slam closed with a loud "BANG!"
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>go east
+ John's Closet
+
+    This is John's closet.  There are no skeletons hiding here, but
+ considering the amount of dust and dirty clothes around, you would
+ hardly be surprised if one of the undead were lurking around in this
+ dimly lit space.  The one exit is a door to the west, which is open.
+    You see a catcher's mitt here.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ The sound of a tremendous belch rocks the apartment.
+
+ Evan follows you into John's closet, still playing the game.
+
+>get mitt
+ Taken.
+
+ From the direction of the living room, you hear Alice trying to sing
+ some heavy metal song along with the radio, and doing it badly.
+
+ The sound of a tremendous belch rocks the apartment.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>go west
+ John's Bedroom
+    You see a wastebasket here.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for canasta.
+
+ The sound of a tremendous belch rocks the apartment.
+
+ Evan follows you into John's bedroom, still playing the game.
+
+>put mitt in hole
+ Looks like that won't fit in the hole.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>get sheet
+ Even if it *were* your job to pick up after John, you wouldn't want to
+ touch these sheets.
+
+ The sound of a tremendous belch rocks the apartment.
+
+>look
+ John's Bedroom
+
+    John is fairly nonchalant about you going into his room and using
+ his stuff, though for the most part you don't take advantage of this.
+ Like your room, John's room has a bed, dresser, desk, and an open
+ closet door to the east.  Unlike your room, it is quite disorganized,
+ to say the least.  Sheets are spread all over the room and clothes, as
+ well as less-speakable debris, are strewn about, giving the room a
+ ripe, musty odor not unlike rotting fruit in an ancient tomb; broken
+ plastic models litter the scarred desk.  Set in the north wall is a
+ closed window to the outside world.  There is a closed door to the
+ south.
+    You see a wastebasket here.
+    Evan is here, playing an electronic trivia game.  Loud electronic
+ beeps and whistles fly out of the game's speakers.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for checkers.
+
+>examine model
+ These used to be models of military equipment that John liked to make
+ (however ineptly).  However, this once proud army has been reduced to
+ piles of broken, shattered pieces by some hard-hitting,
+ fast-travelling force.  You notice a thick piece of duct tape hanging
+ limply on the remains of one model.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>get tape
+ Taken.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>tape wrapper to window
+ (There's no verb in that sentence!)
+
+>put tape on window
+ Looks like that won't fit in the hole.
+
+>put tape on wrapper
+ There's no good surface on the blue wrapper.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>inventory
+ You have a piece of cellophane, a blue wrapper, a catcher's mitt, and
+ a piece of duct tape.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>examine dresser
+ The dresser looks as if it might fall apart at any moment.  You eye it
+ cautiously.  The drawers are closed.
+
+ From the direction of the living room, you hear Alice trying to sing
+ "Love Shack" along with the radio, and doing it badly.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>open it
+ Opened.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ The sound of a tremendous belch rocks the apartment.
+
+>look in it
+ There's nothing in John's dresser.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for go.
+
+ A violent gust of wind flies in through the hole in the window,
+ causing the bedroom door to slam open with a loud "BANG!"
+
+ You see Bob stagger in from the door to the south.
+
+>go south
+ Short Hall
+
+ You see Bob stagger in from the door to the north.
+
+ Evan follows you into the short hall, still playing the game.
+
+>verbose
+ Okay, now in VERBOSE mode.
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see Bob, staggering around, like the slightest hint of alcohol
+ in the air will send him crashing to the ground here.
+    Evan is here, playing an electronic trivia game.  Loud electronic
+ beeps and whistles fly out of the game's speakers.
+
+>go east
+ Bathroom
+
+    The bathroom, fortunately, is one of the rooms you've agreed to
+ maintain, and as a result it isn't too filthy.  Against the north wall
+ is a gleaming sink and a mirror mounted above it; next to the mirror
+ is a medicine cabinet.  On the south wall is a towel rack.  A toilet
+ and shower, both scrubbed to exquisite perfection with lye-based
+ cleansers, complete this traditional bathroom.  The only exit to this
+ bathroom is through a door to the west, which is open.
+
+ From the direction of the living room, you hear Alice trying to sing
+ "American Pie" along with the radio, and doing it badly.
+
+ The sound of a tremendous belch rocks the apartment.
+
+ Evan follows you into the bathroom, still playing the game.
+
+>get towel
+ Taken.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+>examine cabinet
+ Which cabinet do you mean, the bathroom sink cabinet, or the medicine
+ cabinet?
+
+>medicine
+ The medicine cabinet is closed.
+
+ The sound of a tremendous belch rocks the apartment.
+
+>open it
+ Opened.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+>look in it
+ The medicine cabinet is open.  There's nothing in the medicine
+ cabinet.
+
+ You hear lots of drunken singing from somewhere else in the apartment.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>open sink cabinet
+ Opening the cabinet reveals the pipes which comprise the bathroom sink
+ plumbing.  Besides that, you see in the cabinet nothing at all.
+
+ From the direction of the living room, you hear Alice trying to sing
+ the theme from "Love Story" along with the radio, and doing it badly.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>go west
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see Bob, staggering around, like the slightest hint of alcohol
+ in the air will send him crashing to the ground here.
+
+ Bob tries to go through a wall.  His head rebounds violently off the
+ hard plaster surface.  "Thang you sir, may I hab uhnudder?"  he says
+ humbly.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go north
+ John's Bedroom
+
+    John is fairly nonchalant about you going into his room and using
+ his stuff, though for the most part you don't take advantage of this.
+ Like your room, John's room has a bed, dresser, desk, and an open
+ closet door to the east.  Unlike your room, it is quite disorganized,
+ to say the least.  Sheets are spread all over the room and clothes, as
+ well as less-speakable debris, are strewn about, giving the room a
+ ripe, musty odor not unlike rotting fruit in an ancient tomb; broken
+ plastic models litter the scarred desk.  Set in the north wall is a
+ closed window to the outside world.  There is a (fortunately) open
+ door to the south.
+    You see a wastebasket here.
+
+ Evan follows you into John's bedroom, still playing the game.
+
+>put towel in window
+ You can stuff the towel in the hole, but it won't form a tight seal
+ and stay in place.  You need something more reliable.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for checkers.
+
+ You hear lots of drunken singing from somewhere else in the apartment.
+
+>go south
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for gin rummy.
+
+ Bob staggers into the short hall, looking incredibly dazed.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go west
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently on.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see a crumpled paper and a radio here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+    Alice is here, looking a bit bored.
+    Carl is here, entertaining himself in his usual banal manner.
+
+ John hits his forehead with his hands, muttering, "Think!  Think!"  It
+ doesn't seem to be working.
+
+ "So, John," says Alice, "how're you doing hitting those books?  Real
+ swell?"  John mumbles something uncomfortably and tries to continue
+ studying.
+
+ Evan follows you into the living room, still playing the game.
+
+>put tape on towel
+ There's no good surface on the pink towel.
+
+ John hits his forehead with his hands, muttering, "Think!  Think!"  It
+ doesn't seem to be working.
+
+ Alice reminisces about a really good tuna fish sandwich she once had.
+
+ You hear lots of drunken singing from somewhere else in the apartment.
+
+>examine crumpled paper
+ This is a piece of crumpled paper, on which is written a few words on
+ Freudian psychology, most of it incoherent (not that it would make
+ much difference, anyway).
+
+ John wails to you, "Could you help quiz me?  Please?"
+
+ Alice breaks out a pack of cards and plays a hand of bridge with Carl.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+>get it
+ Taken.
+
+ John hits his forehead with his hands, muttering, "Think!  Think!"  It
+ doesn't seem to be working.
+
+ Alice looks outside wistfully.  "You know, Carl and I would be outta
+ here now...but we don't have enough money for a proper dinner--not
+ these sad snacks that we have--for both of us.  Oh, I have enough for
+ just me, but..."  She looks at Carl, who has a mournful look on his
+ face.  "...but, I can't be that cruel, can I?"
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>put tape on crumpled
+ There's no good surface on the crumpled paper.
+
+ John tries to write some notes on a piece of paper, messes up, and, in
+ a fit of frustration, crumples up the paper and throws it to the
+ floor.
+
+ "C'mon, John," urges Alice, "take a break, have some fun with us!  You
+ can always take more tests next semester!"
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>examine tape
+ This is a thick piece of duct tape.  In fact, with further
+ examination, you realize that it is a piece of "soundproofing" duct
+ tape you used to construct your closet door.  Now you know where that
+ roll went...
+
+ John wails to you, "Could you help quiz me?  Please?"
+
+ The sound of a tremendous belch rocks the apartment.
+
+>quiz john
+ You ask John a question about rationalization.  "Wait, I know that!  I
+ know that!"  exclaims John.  He grits his teeth and closes his eyes in
+ concentration.  "No, wait, I forgot!  I forgot!"
+
+ John can't help but stare at the TV for a few seconds, mesmerized by
+ the colorful patterns on the screen.
+
+ Alice breaks out a pack of cards and plays a hand of poker with Carl.
+
+ The sound of a tremendous belch rocks the apartment.
+
+>search sofa
+ That's a job for one braver than you.
+
+ John squirms in his seat, trying to concentrate.
+
+ Alice looks outside wistfully.  "You know, Carl and I would be outta
+ here now...but we don't have enough money for a proper dinner--not
+ these sad snacks that we have--for both of us.  Oh, I have enough for
+ just me, but..."  She looks at Carl, who has a mournful look on his
+ face.  "...but, I can't be that cruel, can I?"
+
+ You hear a violent gust of wind blow into John's bedroom, causing the
+ door to slam closed.  John, startled by the noise, looks around
+ confusedly.  "Um, could you go in my room and close my window,
+ please?"  he asks you.
+
+>look under sofa
+ That's a job for one braver than you.
+
+ John hits his forehead with his hands, muttering, "Think!  Think!"  It
+ doesn't seem to be working.
+
+ Alice looks outside wistfully.  "You know, Carl and I would be outta
+ here now...but we don't have enough money for a proper dinner--not
+ these sad snacks that we have--for both of us.  Oh, I have enough for
+ just me, but..."  She looks at Carl, who has a mournful look on his
+ face.  "...but, I can't be that cruel, can I?"
+
+>attach tape to towel
+ I don't know how to attach the piece of duct tape.
+
+ John hits his forehead with his hands, muttering, "Think!  Think!"  It
+ doesn't seem to be working.
+
+ Carl takes out a candy bar, strips the cellophane off of it, crumples
+ it into a neat, compact ball, and tosses it absent-mindedly in the
+ direction of the kitchen.  It lands squarely in the kitchen sink.
+
+ Alice breaks out a pack of cards and plays a hand of gin rummy with
+ Carl.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>examine table
+ Which table do you mean, the mahogany table, or John's desk?
+
+>examine mahogany
+ This table, with its meticulously polished and dustless surface, was
+ your 20th birthday present.  Catching a glimpse of your own reflection
+ against the fine wood grain pattern, you remember why this table has
+ always had a special place in your heart.  Currently you see on the
+ table a porcelain vase.
+
+ John can't help but stare at the TV for a few seconds, mesmerized by
+ the colorful patterns on the screen.
+
+ You hear some banging on the walls.
+
+>look in vase
+ There's nothing in the vase.
+
+ Distracted by all of the noise, John momentarily loses his
+ concentration and starts muttering something barely comprehensible
+ about Bob riding his skateboard into the kitchen sink.
+
+ "C'mon, John," urges Alice, "take a break, have some fun with us!  You
+ can always take more tests next semester!"
+
+ You hear some banging on the walls.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>examine desk
+ This is John's "studying" desk, which he bought a few days ago.  (He
+ would have used the desk in his room, but he claimed, "I need a fresh
+ start in studying."  Actually, he found his desk was glued to the
+ floor and thought it would be faster to buy a new one.)  On the table
+ you see John's psychology book; other than that you see nothing at
+ all.
+
+ John squirms in his seat, trying to concentrate.
+
+ Alice looks outside wistfully.  "You know, Carl and I would be outta
+ here now...but we don't have enough money for a proper dinner--not
+ these sad snacks that we have--for both of us.  Oh, I have enough for
+ just me, but..."  She looks at Carl, who has a mournful look on his
+ face.  "...but, I can't be that cruel, can I?"
+
+>examine newspapers
+ This pile of junk is the result of John's long stay in this apartment.
+ There are still newspapers announcing the fall of the Berlin Wall in
+ there, and if you strain hard enough, you think you see a can of New
+ Coke.  Yuk.  Who knows what else might be hiding in there?
+
+ John hits his forehead with his hands, muttering, "Think!  Think!"  It
+ doesn't seem to be working.
+
+ "This feels like the perfect night for fish and chips," says Alice.
+
+>search them
+ pile of newspaper and cans:  The thought of sticking your bare hands
+ into that filth disgusts you.
+
+ John squirms in his seat, trying to concentrate.
+
+ Alice reminisces about a really good tuna fish sandwich she once had.
+
+ You hear lots of drunken singing from somewhere else in the apartment.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>go west
+ Kitchen
+
+    When you moved into this apartment, the kitchen was a horrendous
+ mess.  Because you've agreed to let John maintain the kitchen while
+ you maintain the bathroom, it still is; the stove is encrusted with
+ the pathetic results of previous meals, the refrigerator is in sore
+ need of a wipedown, and the kitchen sink as usual is filled with
+ mostly useless items (such as, for example, John's skateboard).  A
+ kitchen table sits in the center of the room.  The living room is to
+ the east.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for canasta.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+ Evan follows you into the kitchen, still playing the game.
+
+>examine sink
+ This, as you probably surmised, is the kitchen sink.  At the moment it
+ is fairly filthy, thanks to John's recent diligent efforts at *not*
+ scrubbing it.  Under the sink is a cabinet in which the kitchen
+ plumbing can be accessed.  In the kitchen sink there are broken
+ dishes; other than that, you see a skateboard and a piece of
+ cellophane.
+
+ The sound of a tremendous belch rocks the apartment.
+
+>examine table
+ Scars and stains mar the appearance of this otherwise fine kitchen
+ table.  The most recent addition to the marks on the table is a set of
+ long, parallel lines, not unlike skid marks, which point in the
+ general direction of the kitchen sink.  Other than these marks, you
+ see on the table a pastel blue box.
+
+ From the direction of the living room, you hear Alice trying to sing
+ "American Pie" along with the radio, and doing it badly.
+
+>examine box
+ The box of chocolates was intended to be a birthday present from your
+ mother.  Unfortunately, John, mistaking anything with a molecular
+ structure to be his, has already opened the box and ravaged its
+ contents:  there is only a bare fraction of the hundred chocolates
+ that used to be inside.  There is a torn label on the side of box.  In
+ the box you see a square dark chocolate, a square light chocolate, a
+ round dark chocolate, a round light chocolate, a shell-shaped dark
+ chocolate, a shell-shaped light chocolate, a triangular dark
+ chocolate, a triangular light chocolate, a hexagonal dark chocolate, a
+ hexagonal light chocolate, and a torn card.
+
+>examine card
+ The torn card is missing the brand name of the chocolates, but the
+ ingredients list is still readable.
+
+ From the direction of the living room, you hear Alice trying to sing
+ "Y.M.C.A." along with the radio, and doing it badly.
+
+ You hear lots of drunken singing from somewhere else in the apartment.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>read card
+ The card emphasizes the variety of fillings used to make these
+ chocolates.  In the ingredients list, you note that the chocolates are
+ filled with caramel, coconut, marzipan, peanuts, almonds, pecans,
+ cherry liqueur, marshmallow, fudge, and mint.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+>get box
+ Taken.
+
+ Bob staggers into the kitchen, looking incredibly dazed.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>get all from sink
+ skateboard:  Taken.
+ piece of cellophane:  Taken.
+
+ Bob staggers off to the east.
+
+>open fridge
+ Opening the refrigerator reveals a beer can and some raw cookie dough.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+>get beer can
+ Taken.
+
+>get cookie dough
+ You've already got your hands full.
+
+ You hear a violent gust of wind from the direction of John's bedroom,
+ and then a loud "BANG!"
+
+ Bob staggers into the kitchen, looking incredibly dazed.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>examine it
+ This is a baseball-sized lump of raw cookie dough, a favorite food of
+ John's.  It's grown a little stale and moldy since it last saw the
+ light of day but still retains a bit of elasticity and stickiness.
+
+ From the direction of the living room, you hear Alice trying to sing
+ some country song along with the radio, and doing it badly.
+
+>drop box
+ Dropped.
+
+ Bob, thinking that he's walking in a straight line, toes a path more
+ akin to the outline of a Picasso painting than anything else.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>get dough
+ Taken.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for poker.
+
+ In a loud voice, Bob brags about crushing a bunch of plastic models on
+ John's table.
+
+>go east
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently on.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see a radio and a crumpled paper here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+    Alice is here, looking a bit bored.
+    Carl is here, entertaining himself in his usual banal manner.
+
+ "I think I remember hearing somewhere that fish is good for you," says
+ Alice.
+
+ Bob staggers into the living room, looking incredibly dazed.
+
+ Evan follows you into the living room, still playing the game.
+
+>go east
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+
+ From the direction of the living room, you hear Alice trying to sing
+ some country song along with the radio, and doing it badly.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go north
+ John's Bedroom
+
+    John is fairly nonchalant about you going into his room and using
+ his stuff, though for the most part you don't take advantage of this.
+ Like your room, John's room has a bed, dresser, desk, and an open
+ closet door to the east.  Unlike your room, it is quite disorganized,
+ to say the least.  Sheets are spread all over the room and clothes, as
+ well as less-speakable debris, are strewn about, giving the room a
+ ripe, musty odor not unlike rotting fruit in an ancient tomb; broken
+ plastic models litter the scarred desk.  Set in the north wall is a
+ closed window to the outside world.  There is a (fortunately) open
+ door to the south.
+    You see a wastebasket here.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ Evan follows you into John's bedroom, still playing the game.
+
+>put dough in hole
+ You stick the cookie dough in the hole.  It fits quite nicely.
+ Working the edges with your hands, you quickly form an efficient seal
+ which should keep the wind out.
+
+ The sound of a tremendous belch rocks the apartment.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>go south
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see Bob, staggering around, like the slightest hint of alcohol
+ in the air will send him crashing to the ground here.
+
+ In a loud voice, Bob brags about riding John's skateboard into the
+ kitchen sink.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go west
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently on.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see a radio and a crumpled paper here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+    Alice is here, looking a bit bored.
+    Carl is here, entertaining himself in his usual banal manner.
+
+ John tries to write some notes on a piece of paper, messes up, and, in
+ a fit of frustration, crumples up the paper and throws it to the
+ floor.
+
+ Alice takes out a bag of carob-covered malt balls, empties the
+ contents into her hands, and chucks the empty bag off John's desk,
+ onto the floor.
+
+ Alice and Carl, needing to stretch their legs, get up and dance the
+ tango for a little while.
+
+ Evan follows you into the living room, still playing the game.
+
+>score
+ The only score you're worried about is the one John will have on his
+ test in the morning.
+
+>wear mitt
+ Okay, you're now wearing the catcher's mitt.
+
+ John wails to you, "Could you help quiz me?  Please?"
+
+ "This feels like the perfect night for fish and chips," says Alice.
+
+ Bob staggers into the living room, looking incredibly dazed.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>search newspapers
+ With the catcher's mitt on your hand, you confidently wade through the
+ junk pile without fear of contamination.  Your efforts are rewarded,
+ as you unearth the lost television remote control!
+
+ John hits his forehead with his hands, muttering, "Think!  Think!"  It
+ doesn't seem to be working.
+
+ Alice and Carl, needing to stretch their legs, get up and dance the
+ Charleston for a little while.
+
+ Bob, thinking that he's walking in a straight line, toes a path more
+ akin to the outline of a Picasso painting than anything else.
+
+>take control
+ You already have the remote control!
+
+ John tries to write some notes on a piece of paper, messes up, and, in
+ a fit of frustration, crumples up the paper and throws it to the
+ floor.
+
+ Alice takes out a bag of potato chips, empties the contents into her
+ hands, and chucks the empty bag into the hallway.
+
+ Alice and Carl, needing to stretch their legs, get up and dance the
+ rumba for a little while.
+
+ Bob staggers off to the west.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>remove mitt
+ Okay, you're no longer wearing the catcher's mitt.
+
+ "Rationalization, displacement, displacement, displacement!"  John
+ recites desperately.
+
+ "This feels like the perfect night for fish and chips," says Alice.
+
+ You hear lots of drunken singing from somewhere else in the apartment.
+
+>turn off tv
+ With a profound sigh of relief, you press the power button and end the
+ television's reign of terror upon your brain.
+
+ Alice reminisces about a really good tuna fish sandwich she once had.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+>go west
+ Kitchen
+
+    When you moved into this apartment, the kitchen was a horrendous
+ mess.  Because you've agreed to let John maintain the kitchen while
+ you maintain the bathroom, it still is; the stove is encrusted with
+ the pathetic results of previous meals, the refrigerator is in sore
+ need of a wipedown, and the kitchen sink as usual is filled with
+ mostly useless items.  A kitchen table sits in the center of the room.
+ The living room is to the east.
+    You see a pastel blue box and Bob, staggering around, like the
+ slightest hint of alcohol in the air will send him crashing to the
+ ground here.  The pastel blue box seems to contain a square dark
+ chocolate, a square light chocolate, a round dark chocolate, a round
+ light chocolate, a shell-shaped dark chocolate, a shell-shaped light
+ chocolate, a triangular dark chocolate, a triangular light chocolate,
+ a hexagonal dark chocolate, a hexagonal light chocolate, and a torn
+ card.
+
+ Bob staggers off to the east.
+
+ Evan follows you into the kitchen, still playing the game.
+
+>go east
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently off.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see a radio, three crumpled papers, a snack food bag, and Bob,
+ staggering around, like the slightest hint of alcohol in the air will
+ send him crashing to the ground here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+    Alice is here, looking a bit bored.
+    Carl is here, entertaining himself in his usual banal manner.
+
+ John hits his forehead with his hands, muttering, "Think!  Think!"  It
+ doesn't seem to be working.
+
+ Carl takes out a candy bar, strips the cellophane off of it, crumples
+ it into a neat, compact ball, and tosses it absent-mindedly in the
+ direction of the kitchen.  The cellophane bounces off the
+ refrigerator, and skims the edge of the kitchen sink.  Just as it
+ looks as if it would go in, it falls to the floor.
+
+ Alice breaks out a pack of cards and plays a hand of whist with Carl.
+
+ Bob, thinking that he's walking in a straight line, toes a path more
+ akin to the outline of a Picasso painting than anything else.
+
+ Evan follows you into the living room, still playing the game.
+
+>give beer to bob
+ Bob eagerly snatches the can from your hands.  The moment he raises it
+ to his lips he gags violently.  "Whadzz thizz?"  he moans.  "Milk!  No
+ good!"  He tosses the can back to you.
+
+ Alice takes out a bag of potato chips, empties the contents into her
+ hands, and chucks the empty bag into the hallway.
+
+ Alice breaks out a pack of cards and plays a hand of baccarat with
+ Carl.
+
+ In a loud voice, Bob brags about banging his head against the wall
+ fifty-seven times without going unconscious.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>examine can
+ This is an open beer can, probably being saved by John for a rainy (or
+ dry) day.  It's almost full.
+
+ "Repression, projection, sublimation, projection!"  John recites
+ desperately.
+
+ Carl takes out a candy bar, strips the cellophane off of it, crumples
+ it into a neat, compact ball, and tosses it absent-mindedly in the
+ direction of the kitchen.  The cellophane bounces off the
+ refrigerator, and skims the edge of the kitchen sink.  Just as it
+ looks as if it would go in, it falls to the floor.
+
+ Alice breaks out a pack of cards and plays a hand of bridge with Carl.
+
+ Bob staggers off to the east.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>look in can
+ There is still some milk in the can.
+
+ John grits his teeth and grinds a pencil down to a stub.
+
+ Carl takes out a candy bar, strips the cellophane off of it, crumples
+ it into a neat, compact ball, and tosses it absent-mindedly in the
+ direction of the TV.  It bounces forlornly off and rolls into the
+ center of the living room.
+
+ Alice breaks out a pack of cards and plays a hand of baccarat with
+ Carl.
+
+>examine card
+ (I don't see any card here.)
+
+>go west
+ Kitchen
+
+    When you moved into this apartment, the kitchen was a horrendous
+ mess.  Because you've agreed to let John maintain the kitchen while
+ you maintain the bathroom, it still is; the stove is encrusted with
+ the pathetic results of previous meals, the refrigerator is in sore
+ need of a wipedown, and the kitchen sink as usual is filled with
+ mostly useless items.  A kitchen table sits in the center of the room.
+ The living room is to the east.
+    You see a pastel blue box and two piece of cellophanes here.  The
+ pastel blue box seems to contain a square dark chocolate, a square
+ light chocolate, a round dark chocolate, a round light chocolate, a
+ shell-shaped dark chocolate, a shell-shaped light chocolate, a
+ triangular dark chocolate, a triangular light chocolate, a hexagonal
+ dark chocolate, a hexagonal light chocolate, and a torn card.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for shogi.
+
+ Evan follows you into the kitchen, still playing the game.
+
+>get box
+ You've already got your hands full.
+
+ The sound of a tremendous belch rocks the apartment.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>examine card
+ The torn card is missing the brand name of the chocolates, but the
+ ingredients list is still readable.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>read it
+ The card emphasizes the variety of fillings used to make these
+ chocolates.  In the ingredients list, you note that the chocolates are
+ filled with caramel, coconut, marzipan, peanuts, almonds, pecans,
+ cherry liqueur, marshmallow, fudge, and mint.
+
+ The sound of a tremendous belch rocks the apartment.
+
+>inventory
+ You have two piece of cellophanes, a blue wrapper, a catcher's mitt, a
+ piece of duct tape, a pink towel, a crumpled paper, a skateboard, a
+ beer can, and a remote control.
+
+ From the direction of the living room, you hear Alice trying to sing
+ "Love Shack" along with the radio, and doing it badly.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>drop remote
+ Dropped.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ The sound of a tremendous belch rocks the apartment.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>get box
+ Taken.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ You hear a loud "Pin pon!"  come from the game.  Evan grins
+ maniacally.
+
+>put tape on game
+ You place the duct tape on the speaker.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for go.
+
+>look up round on card
+ (I don't understand that sentence.)
+
+>look up round in card
+ (I don't understand that sentence.)
+
+>consult card about round
+ (I don't know the word "consult".)
+
+>examine round
+ Which round do you mean, the round dark chocolate, or the round light
+ chocolate?
+
+>examine round dark
+ It looks like an ordinary round dark chocolate to me.
+
+>eat it
+ John's hands have probably been all over this chocolate.  This alone
+ convinces you not to eat it.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+>get box
+ You already have the pastel blue box!
+
+>go east
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently off.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see a radio, three crumpled papers, a snack food bag, and a
+ piece of cellophane here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+    Alice is here, looking a bit bored.
+    Carl is here, entertaining himself in his usual banal manner.
+
+ John squirms in his seat, trying to concentrate.
+
+ Alice and Carl, needing to stretch their legs, get up and dance the
+ tango for a little while.
+
+ Evan follows you into the living room, still playing the game.
+
+>go east
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags here.
+
+ You hear some banging on the walls.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go north
+ John's Bedroom
+
+    John is fairly nonchalant about you going into his room and using
+ his stuff, though for the most part you don't take advantage of this.
+ Like your room, John's room has a bed, dresser, desk, and an open
+ closet door to the east.  Unlike your room, it is quite disorganized,
+ to say the least.  Sheets are spread all over the room and clothes, as
+ well as less-speakable debris, are strewn about, giving the room a
+ ripe, musty odor not unlike rotting fruit in an ancient tomb; broken
+ plastic models litter the scarred desk.  Set in the north wall is a
+ closed window to the outside world.  There is a (fortunately) open
+ door to the south.
+    You see a wastebasket here.  The window seems to contain some raw
+ cookie dough.
+
+ Evan follows you into John's bedroom, still playing the game.
+
+>go south
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags here.
+
+ You hear some banging on the walls.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go east
+ Bathroom
+
+    The bathroom, fortunately, is one of the rooms you've agreed to
+ maintain, and as a result it isn't too filthy.  Against the north wall
+ is a gleaming sink and a mirror mounted above it; next to the mirror
+ is a medicine cabinet.  On the south wall is a towel rack.  A toilet
+ and shower, both scrubbed to exquisite perfection with lye-based
+ cleansers, complete this traditional bathroom.  The only exit to this
+ bathroom is through a door to the west, which is open.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for mah jongg.
+
+ You hear a sharp BUMP!  followed by some energetic banging on the
+ walls.
+
+ Evan follows you into the bathroom, still playing the game.
+
+>go west
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags here.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ You hear some banging on the walls.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go west
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently off.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see a radio, three crumpled papers, a snack food bag, and a
+ piece of cellophane here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+    Alice is here, looking a bit bored.
+    Carl is here, entertaining himself in his usual banal manner.
+
+ Distracted by all of the noise, John momentarily loses his
+ concentration and starts muttering about his need to get more duct
+ tape to fix the broken models on his desk.
+
+ Evan follows you into the living room, still playing the game.
+
+>give tape to john
+ You're not carrying the piece of duct tape.
+
+ "Displacement, rationalization, projection, repression!"  John recites
+ desperately.
+
+ "This feels like the perfect night for fish and chips," says Alice.
+
+>go west
+ Kitchen
+
+    When you moved into this apartment, the kitchen was a horrendous
+ mess.  Because you've agreed to let John maintain the kitchen while
+ you maintain the bathroom, it still is; the stove is encrusted with
+ the pathetic results of previous meals, the refrigerator is in sore
+ need of a wipedown, and the kitchen sink as usual is filled with
+ mostly useless items.  A kitchen table sits in the center of the room.
+ The living room is to the east.
+    You see two piece of cellophanes and a remote control here.
+
+ Evan follows you into the kitchen, still playing the game.
+
+>go east
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently off.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see a radio, three crumpled papers, a snack food bag, and a
+ piece of cellophane here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+    Alice is here, looking a bit bored.
+    Carl is here, entertaining himself in his usual banal manner.
+
+ John squirms in his seat, trying to concentrate.
+
+ "So, John," says Alice, "how're you doing hitting those books?  Real
+ swell?"  John mumbles something uncomfortably and tries to continue
+ studying.
+
+ Evan follows you into the living room, still playing the game.
+
+>go east
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags here.
+
+ You hear a sharp BUMP!  followed by some energetic banging on the
+ walls.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go south
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair here.
+
+ Evan follows you into your bedroom, still playing the game.
+
+>examine dresser
+ This is a dresser made of fine mahogany wood.  The surface is
+ dust-free and so shiny you could comb your hair by your reflection in
+ the wood.  The drawers are closed.
+
+ You see Bob stagger in from the door to the east.
+
+>give chocolate to bob
+ Which chocolate do you mean, the blue wrapper, the pastel blue box,
+ the square dark chocolate, the square light chocolate, the round dark
+ chocolate, the round light chocolate, the shell-shaped dark chocolate,
+ the shell-shaped light chocolate, the triangular dark chocolate, the
+ triangular light chocolate, the hexagonal dark chocolate, or the
+ hexagonal light chocolate?
+
+>square
+ Let's try it again:  Which chocolate do you mean, the square dark
+ chocolate, or the square light chocolate?
+
+>dark
+ Bob snarfs down the chocolate, and then gags violently.  "Marzipan!"
+ he exclaims.  "I hade marzipan!"  He teeters unsteadily in his drunken
+ rage.  "If...if you gib me another chocolid filled with something I
+ don' like, I'll...I...  I...won't take any more chocolidzz from you!"
+
+ You hear a loud and raucous argument in the living room about the
+ rules for checkers.
+
+>give square to bob
+ Bob eats the chocolate, but is livid when he finds out it's filled
+ with mint.  He looks pretty angry now, and rambles about not liking
+ "mint" and says he'll never accept chocolate from you again, and
+ probably no one else in the world as well, as his trust was betrayed,
+ and so forth.
+
+ Bob staggers through the door to the east.
+
+>undo
+ (Undoing one command)
+
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair and Bob, staggering around, like the
+ slightest hint of alcohol in the air will send him crashing to the
+ ground here.
+    Evan is here, playing an electronic trivia game.
+
+>undo
+ (Undoing one command)
+
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair and Bob, staggering around, like the
+ slightest hint of alcohol in the air will send him crashing to the
+ ground here.
+    Evan is here, playing an electronic trivia game.
+
+>smell chocolate
+ Which chocolate do you mean, the blue wrapper, the pastel blue box,
+ the square dark chocolate, the square light chocolate, the round dark
+ chocolate, the round light chocolate, the shell-shaped dark chocolate,
+ the shell-shaped light chocolate, the triangular dark chocolate, the
+ triangular light chocolate, the hexagonal dark chocolate, or the
+ hexagonal light chocolate?
+
+>square
+ Let's try it again:  Which chocolate do you mean, the square dark
+ chocolate, or the square light chocolate?
+
+>dark
+ It smells just like you expect a square dark chocolate to smell.
+
+ Bob tries to go through a wall.  His head rebounds violently off the
+ hard plaster surface.  "Thangs," he says dazedly, "I needed datd."
+
+>give square dark to evan
+ Evan is too involved in beating the trivia game to notice your offer,
+ which probably wouldn't have seemed too attractive to him anyhow.
+
+ In a loud voice, Bob brags about drinking his weight in beer.
+
+>go east
+ Your Closet
+
+>read card
+    Dimly illuminated, this closet provides you with an impenetrable
+ defense against outside noise.  The door, which is to the west and
+ open, is steel-reinforced and soundproof, preventing even the loudest
+ party sounds from getting through.  Though the closet is small, it is
+ roomy enough for you and several of your favorite textbooks, and
+ you've studied for many an exam here.
+    You see a toolbox here.
+
+ You see Bob stagger in from the door to the west.
+
+ Evan follows you into your closet, still playing the game.
+
+ The card emphasizes the variety of fillings used to make these
+ chocolates.  In the ingredients list, you note that the chocolates are
+ filled with caramel, coconut, marzipan, peanuts, almonds, pecans,
+ cherry liqueur, marshmallow, fudge, and mint.
+
+ Bob tries to go through a wall.  His head rebounds violently off the
+ hard plaster surface.  "Thang you sir, may I hab uhnudder?"  he says
+ humbly.
+
+>examine toolbox
+ This toolbox holds most of your favorite tools.  Unfortunately many of
+ them have been "borrowed" by John.  In the toolbox you see a wrench.
+
+ Bob tries to think of some drinking songs he knows and sing them.  He
+ has no sense of pitch, but that unfortunately doesn't keep him from
+ trying.
+
+>get wrench
+ Taken.
+
+ Bob staggers through the door to the west.
+
+>go west
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair and Bob, staggering around, like the
+ slightest hint of alcohol in the air will send him crashing to the
+ ground here.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for gin rummy.
+
+ Evan follows you into your bedroom, still playing the game.
+
+>examine desk
+ This is your mahogany desk, a gift to you on your fifteenth birthday.
+ You've spent many a long hour studying at this desk, and many more
+ polishing it.  Even now, as you look at it, you get the urge to wipe
+ off a few molecules of dust from its surface with your sleeve, but you
+ resist, as you would get your shirt dirty.  There is a drawer on the
+ front of the desk which is closed.
+
+ Bob staggers through the door to the east.
+
+>read about dark square
+ (I don't recognize that sentence.)
+
+>open drawer
+ Opened.
+
+ You hear some banging on the walls.
+
+>look in it
+ The desk drawer is open.  There's nothing in the desk drawer.
+
+ You hear a sharp BUMP!  followed by some energetic banging on the
+ walls.
+
+ You see the interior of the closet through the open door, but you'll
+ have to go inside to get a better look at what's there.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+>in
+ You can't go that way.
+
+ You hear some banging on the walls.
+
+ I don't know how to enter your closet door.
+
+ You hear a sharp BUMP!  followed by some energetic banging on the
+ walls.
+
+>look
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair here.
+    Evan is here, playing an electronic trivia game.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for poker.
+
+ You see Bob stagger in from the door to the east.
+
+>ask evan about chocolate
+ Evan blithely continues playing even as you ask him a question.
+ Perhaps if you took that game from him, he'd pay attention...
+
+ You hear a loud and raucous argument in the living room about the
+ rules for Monopoly.
+
+ Bob stares at the mirror and, with all the machismo possible from a
+ drunken sot, brags about some sports exploit of his.  Unfortunately it
+ involves terms you are unfamiliar with, and that you suspect are
+ totally made up.
+
+>get game
+ You yank the game out of Evan's hands.  In the process Evan's fingers
+ brush against the game's on/off switch, turning the game off.  Evan
+ looks extremely surprised and perturbed.
+
+ Going into deep financial detail, Evan gives a discourse on the rise
+ and fall of Infocom, Inc.  He also mentions how much he liked that
+ little robot Floyd.
+
+ Bob staggers through the door to the north.
+
+>ask evan about floyd
+ "Ah, 'floyd', now that's an interesting word," says Evan.  "Let me
+ tell you about its etymology..."
+
+>ask evan about chocolate
+ "Hmmm," says Evan.  "I'm well versed in the ways of chocolate and
+ their contents--I've never been stuck with a coconut-filled chocolate
+ myself.  However, I can't tell you much unless I know what brand this
+ chocolate is."
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ Evan wonders what the world would be like if Fermat had a lot more
+ space in his margins.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+>examine torn
+ The torn card is missing the brand name of the chocolates, but the
+ ingredients list is still readable.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for canasta.
+
+ Evan talks about Napoleon's use of artillery at Waterloo.
+
+ The sound of a tremendous belch rocks the apartment.
+
+>examine box
+ The box of chocolates was intended to be a birthday present from your
+ mother.  Unfortunately, John, mistaking anything with a molecular
+ structure to be his, has already opened the box and ravaged its
+ contents:  there is only a bare fraction of the hundred chocolates
+ that used to be inside.  There is a torn label on the side of box.  In
+ the box you see a square dark chocolate, a square light chocolate, a
+ round dark chocolate, a round light chocolate, a shell-shaped dark
+ chocolate, a shell-shaped light chocolate, a triangular dark
+ chocolate, a triangular light chocolate, a hexagonal dark chocolate, a
+ hexagonal light chocolate, and a torn card.
+
+ Evan gives an impromptu talk about Brazil in the (hypothetical)
+ 2030's.
+
+ You hear lots of drunken singing from somewhere else in the apartment.
+
+>examine wrapper
+ This looks like a wrapper for some sort of box.  It's pastel blue,
+ with a paisley pattern tastefully silkscreened on.  A small gold seal,
+ mostly intact, has the logo for "Dee's Chocolates" on it.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for Monopoly.
+
+ Evan gives an impromptu talk about the differences between the Meiji
+ and postwar constitutions of Japan.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+>give wrapper to evan
+ Evan starts talking about the blue wrapper's history and forgets to
+ even consider whether to accept your offer or not.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for checkers.
+
+ Evan speculates about the recipe for Greek fire.
+
+>show wrapper to evan
+ "Ah, how interesting," says Evan.  "The wrapper for a box of Dee's
+ chocolates.  Serial number 4888602, had a very specific combination of
+ shapes and fillings.  Hmmm...let's see if I remember...  hexagonal
+ dark chocolates were filled with peanuts, hexagonal light chocolates
+ were filled with mint, triangular light chocolates were filled with
+ pecans, triangular dark chocolates were filled with cherry liqueur,
+ shell-shaped light chocolates were filled with marshmallow,
+ shell-shaped dark chocolates were filled with caramel, round light
+ chocolates were filled with fudge, round dark chocolates were filled
+ with coconut, square light chocolates were filled with almonds, and
+ square dark chocolates were filled with marzipan."
+
+ Evan makes a few remarks about the possibility of steam saving the
+ world.
+
+ You hear a sharp BUMP!  followed by a plaintive, "Who pud this wall
+ here *hic*."
+
+>go east
+ Your Closet
+
+    Dimly illuminated, this closet provides you with an impenetrable
+ defense against outside noise.  The door, which is to the west and
+ open, is steel-reinforced and soundproof, preventing even the loudest
+ party sounds from getting through.  Though the closet is small, it is
+ roomy enough for you and several of your favorite textbooks, and
+ you've studied for many an exam here.
+    You see a toolbox here.
+
+ Evan follows you into your closet.
+
+>go west
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair here.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for go.
+
+ Evan follows you into your bedroom.
+
+>go north
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags and Bob, staggering around, like the
+ slightest hint of alcohol in the air will send him crashing to the
+ ground here.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for gin rummy.
+
+ Evan follows you into the short hall.
+
+ In a loud voice, Bob brags about banging his head against the wall
+ fifty-seven times without going unconscious.
+
+>give triangular dark chocolate to bob
+ Bob eats the chocolate.  "Mmmm!"  he exclaims ecstatically.  "Cherry!
+ My favorite..."  Suddenly, Bob shakes his head once.  Then twice.  His
+ eyes cross, his body stiffens, then relaxes.  Finally, with only the
+ hint of a belch on his lips, Bob gently settles his considerable bulk
+ onto the floor.
+
+ "I believe," says Evan, "that a philosopher once said, 'Money isn't
+ everything, but it sure is a lot.'"
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>push bob north
+ You can't seem to do that.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for canasta.
+
+ Evan talks about Napoleon's use of artillery at Waterloo.
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>get bob
+ He's pretty heavy, but carryable.  You sling him over your shoulder.
+
+ "I believe," says Evan, "that a philosopher once said, 'There is only
+ one fate worse than death, and that is not having a life.'"
+
+>go north
+ John's Bedroom
+
+    John is fairly nonchalant about you going into his room and using
+ his stuff, though for the most part you don't take advantage of this.
+ Like your room, John's room has a bed, dresser, desk, and an open
+ closet door to the east.  Unlike your room, it is quite disorganized,
+ to say the least.  Sheets are spread all over the room and clothes, as
+ well as less-speakable debris, are strewn about, giving the room a
+ ripe, musty odor not unlike rotting fruit in an ancient tomb; broken
+ plastic models litter the scarred desk.  Set in the north wall is a
+ closed window to the outside world.  There is a (fortunately) open
+ door to the south.
+    You see a wastebasket here.  The window seems to contain some raw
+ cookie dough.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for canasta.
+
+ Evan follows you into John's bedroom.
+
+>go east
+ John's Closet
+
+    This is John's closet.  There are no skeletons hiding here, but
+ considering the amount of dust and dirty clothes around, you would
+ hardly be surprised if one of the undead were lurking around in this
+ dimly lit space.  The one exit is a door to the west, which is open.
+
+ Evan follows you into John's closet.
+
+>bob, sleepwalk east
+ "Ah, 'sleepwalk', now that's an interesting word," says Evan.  "Let me
+ tell you about its etymology..."
+
+>drop bob
+ (I don't see any bob here.)
+
+>inventory
+ You have two piece of cellophanes, a blue wrapper, a catcher's mitt, a
+ pink towel, a crumpled paper, a skateboard, a beer can, a pastel blue
+ box, a wrench, and a handheld electronic trivia game.  The pastel blue
+ box seems to contain a square dark chocolate, a square light
+ chocolate, a round dark chocolate, a round light chocolate, a
+ shell-shaped dark chocolate, a shell-shaped light chocolate, a
+ triangular light chocolate, a hexagonal dark chocolate, a hexagonal
+ light chocolate, and a torn card.  The speaker seems to contain a
+ piece of duct tape.
+
+ "I believe," says Evan, "that a philosopher once said, 'There is only
+ one fate worse than death, and that is not having a life.'"
+
+ From elsewhere in the apartment, you hear Bob's snores shaking the
+ foundations of the earth.
+
+>go west
+ John's Bedroom
+
+    John is fairly nonchalant about you going into his room and using
+ his stuff, though for the most part you don't take advantage of this.
+ Like your room, John's room has a bed, dresser, desk, and an open
+ closet door to the east.  Unlike your room, it is quite disorganized,
+ to say the least.  Sheets are spread all over the room and clothes, as
+ well as less-speakable debris, are strewn about, giving the room a
+ ripe, musty odor not unlike rotting fruit in an ancient tomb; broken
+ plastic models litter the scarred desk.  Set in the north wall is a
+ closed window to the outside world.  There is a (fortunately) open
+ door to the south.
+    You see a wastebasket here.  The window seems to contain some raw
+ cookie dough.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for go.
+
+ Evan follows you into John's bedroom.
+
+>go south
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags and Bob, lying quite unconscious here.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for Parchesi.
+
+ Evan follows you into the short hall.
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>get bob
+ He's pretty heavy, but carryable.  You sling him over your shoulder.
+
+ Evan speculates about the recipe for the secret sauce on a Big Mac.
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>inventory
+ You have two piece of cellophanes, a blue wrapper, a catcher's mitt, a
+ pink towel, a crumpled paper, a skateboard, a beer can, a pastel blue
+ box, a wrench, and a handheld electronic trivia game.  The pastel blue
+ box seems to contain a square dark chocolate, a square light
+ chocolate, a round dark chocolate, a round light chocolate, a
+ shell-shaped dark chocolate, a shell-shaped light chocolate, a
+ triangular light chocolate, a hexagonal dark chocolate, a hexagonal
+ light chocolate, and a torn card.  The speaker seems to contain a
+ piece of duct tape.
+
+ Evan gives a short speech about what's wrong with a recent popular
+ movie and how he would change things.
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>get bob
+ He's pretty heavy, but carryable.  You sling him over your shoulder.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ "I've always wondered what life would be like if it were exactly like
+ a text adventure game," says Evan.  "I'm not sure I'd like it.  For
+ example, everyone you knew would just be mindless, finite-state
+ automatons who do the same thing over and over again."
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>get bob
+ He's pretty heavy, but carryable.  You sling him over your shoulder.
+
+ "I believe," says Evan, "that a philosopher once said, 'Man is not
+ alone in the universe.  There are women too.'"
+
+>look
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags and Bob, lying quite unconscious here.
+    Evan is here, expounding upon some obscure piece of trivia.
+
+ Evan gives an impromptu talk about the differences between the Meiji
+ and postwar constitutions of Japan.
+
+>go south
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair here.
+
+ Evan follows you into your bedroom.
+
+>go east
+ Your Closet
+
+    Dimly illuminated, this closet provides you with an impenetrable
+ defense against outside noise.  The door, which is to the west and
+ open, is steel-reinforced and soundproof, preventing even the loudest
+ party sounds from getting through.  Though the closet is small, it is
+ roomy enough for you and several of your favorite textbooks, and
+ you've studied for many an exam here.
+    You see a toolbox here.
+
+ Evan follows you into your closet.
+
+>examine chair
+ (I don't see any chair here.)
+
+>drop bob
+ (I don't see any bob here.)
+
+>go west
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair here.
+
+ Evan follows you into your bedroom.
+
+>take toolbox
+>go south
+ (I don't see any toolbox here.)
+
+ You can't go that way.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for chess.
+
+ Evan speculates about the recipe for Coca-Cola.
+
+ From elsewhere in the apartment, you hear Bob's snores shaking the
+ foundations of the earth.
+
+>push chair north
+ You move the chair to the north.
+
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags, Bob, lying quite unconscious, and a
+ swivel chair here.
+
+ Evan follows you into the short hall.
+
+>put bob on chair
+ Done.
+
+ "I've always wondered what life would be like if it were exactly like
+ a text adventure game," says Evan.  "I'm not sure I'd like it.  For
+ example, everyone you knew would just be mindless, finite-state
+ automatons who do the same thing over and over again."
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>look
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags and a swivel chair here.
+    Evan is here, expounding upon some obscure piece of trivia.
+
+ Evan wonders what the world would be like if everyone walked on the
+ ceiling.
+
+>push chair south
+ You move the chair to the south.
+
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair here.
+
+ From the direction of the living room, you hear Alice trying to sing
+ "Hey Jude" along with the radio, and doing it badly.
+
+ Evan follows you into your bedroom.
+
+>examine bob
+ Bob, alleged star athlete on the school's basket weaving team
+ (Australian rules), is rather crude, rude, perpetually inebriated, and
+ more than a bit ditzy.  Unfortunately, that's his good side.  He's
+ looking a little better than usual today, though, having recently
+ pulled through a savage bout with scurvy, but fortunately (from Bob's
+ point of view), you don't need teeth to drink beer. At the moment he's
+ thoroughly passed out.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ Evan gives a short speech about what's wrong with mass transit and how
+ he would change things.
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>push chair east
+ You move the chair to the east.
+
+ Your Closet
+
+    Dimly illuminated, this closet provides you with an impenetrable
+ defense against outside noise.  The door, which is to the west and
+ open, is steel-reinforced and soundproof, preventing even the loudest
+ party sounds from getting through.  Though the closet is small, it is
+ roomy enough for you and several of your favorite textbooks, and
+ you've studied for many an exam here.
+    You see a toolbox and a swivel chair here.
+
+ Evan follows you into your closet.
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>out
+ You'd miss this party for the world, but you can't leave while there's
+ a chance John might still need your help.
+
+ Evan gives an impromptu talk about rules of mimesis.
+
+>go west
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+
+ Evan follows you into your bedroom.
+
+>close door
+ Which door do you mean, your closet door, or your bedroom door?
+
+>closet
+ Closed.
+
+ Evan gives an impromptu talk about Brazil in the (hypothetical)
+ 2030's.
+
+>examine wrench
+ A large wrench, made of titanium.  This was a beloved 16th birthday
+ present from your parents.
+
+ Evan makes a few remarks about the possibility of steam saving the
+ world.
+
+>wait
+ Time passes...
+
+ You hear a loud and raucous argument in the living room about the
+ rules for Parchesi.
+
+ Evan makes a few remarks about the possibility of steam saving the
+ world.
+
+>wait
+ Time passes...
+
+ From the direction of the living room, you hear Alice trying to sing
+ "Send in the Clowns" along with the radio, and doing it badly.
+
+ Evan gives an impromptu talk about life.
+
+>SAVE
+>cf20
+ Saved.
+
+>go north
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags here.
+
+ From the direction of the living room, you hear Alice trying to sing
+ some pop song along with the radio, and doing it badly.
+
+ Evan follows you into the short hall.
+
+>go west
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently off.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see a radio, three crumpled papers, a snack food bag, and a
+ piece of cellophane here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+    Alice is here, looking a bit bored.
+    Carl is here, entertaining himself in his usual banal manner.
+
+ Distracted by all of the noise, John momentarily loses his
+ concentration and starts muttering something about losing an
+ electronic game on his desk.
+
+ Evan follows you into the living room.
+
+>examine game
+ Small, orange, and plastic, this electronic game was given to John for
+ his birthday.  John, having a limited attention span at best, quickly
+ abandoned this gift before he could get through its alleged "20,000
+ Questions!"  The case sports an LCD screen and a small speaker.  There
+ are also four buttons, colored red, yellow, green, and blue, lined up
+ vertically to the left of the screen, next to where the possible
+ answers to the game's questions will be displayed.  The game is
+ currently off.
+
+ John wails to you, "Could you help quiz me?  Please?"
+
+ "So, John," says Alice, "how're you doing hitting those books?  Real
+ swell?"  John mumbles something uncomfortably and tries to continue
+ studying.
+
+ Evan wonders what the world would be like if it were love, not money,
+ that made the world go round.
+
+>put tape on speaker
+ You place the duct tape on the speaker.
+
+ "Rationalization, sublimation, displacement, rationalization!"  John
+ recites desperately.
+
+ Carl takes out a candy bar, strips the cellophane off of it, crumples
+ it into a neat, compact ball, and tosses it absent-mindedly in the
+ direction of the kitchen.  The cellophane bounces off the
+ refrigerator, and skims the edge of the kitchen sink.  Just as it
+ looks as if it would go in, it falls to the floor.
+
+ Alice and Carl, needing to stretch their legs, get up and dance the
+ minuet for a little while.
+
+ "I've always wondered what life would be like if it were exactly like
+ a text adventure game," says Evan.  "I'm not sure I'd like it.  For
+ example, everything you did would take exactly one minute to do no
+ matter what it was."
+
+>give game to evan
+ "Geez, about time you finished with that," says Evan irritably as he
+ takes the game from you again.
+
+ John wails to you, "Could you help quiz me?  Please?"
+
+>quiz john
+ You ask John a question about repression.  "Wait, I know that!  I know
+ that!"  exclaims John.  He grits his teeth and closes his eyes in
+ concentration.  "No, wait, I forgot!  I forgot!"
+
+ John tries to write some notes on a piece of paper, messes up, and, in
+ a fit of frustration, crumples up the paper and throws it to the
+ floor.
+
+ Alice reminisces about a really good tuna fish sandwich she once had.
+
+>go east
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags here.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for Monopoly.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go south
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and a closed closet door to
+ the east.
+
+ Evan follows you into your bedroom, still playing the game.
+
+>examine desk
+ This is your mahogany desk, a gift to you on your fifteenth birthday.
+ You've spent many a long hour studying at this desk, and many more
+ polishing it.  Even now, as you look at it, you get the urge to wipe
+ off a few molecules of dust from its surface with your sleeve, but you
+ resist, as you would get your shirt dirty.  There is a drawer on the
+ front of the desk which is open.
+
+>look in drawer
+ The desk drawer is open.  There's nothing in the desk drawer.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+>examine dresser
+ This is a dresser made of fine mahogany wood.  The surface is
+ dust-free and so shiny you could comb your hair by your reflection in
+ the wood.  The drawers are closed.
+
+>open dresser
+ Opened.
+
+ From the direction of the living room, you hear Alice trying to sing
+ "Y.M.C.A." along with the radio, and doing it badly.
+
+>look in it
+ There's nothing in the mahogany dresser.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for Monopoly.
+
+>examine mirror
+ You polish this mirror twice a day.  If it doesn't look good, you
+ don't look good.
+
+>examine bed
+ This is your bed, which you are very proud of.  You spend at least
+ half an hour every day making it, smoothing out the folds, ensuring
+ that the sheets are perfectly balanced and symmetrical on both sides.
+ On the bed you see nothing at all.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+>look under bed
+ There's nothing under your bed, not even those slavering, gnawing,
+ hungry monsters you used to hear at night...You recoil from the bed,
+ sweating profusely.
+
+>go north
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags here.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go north
+ John's Bedroom
+
+    John is fairly nonchalant about you going into his room and using
+ his stuff, though for the most part you don't take advantage of this.
+ Like your room, John's room has a bed, dresser, desk, and an open
+ closet door to the east.  Unlike your room, it is quite disorganized,
+ to say the least.  Sheets are spread all over the room and clothes, as
+ well as less-speakable debris, are strewn about, giving the room a
+ ripe, musty odor not unlike rotting fruit in an ancient tomb; broken
+ plastic models litter the scarred desk.  Set in the north wall is a
+ closed window to the outside world.  There is a (fortunately) open
+ door to the south.
+    You see a wastebasket here.  The window seems to contain some raw
+ cookie dough.
+
+ Evan follows you into John's bedroom, still playing the game.
+
+>look under bed
+ You take a quick peek under John's bed.  Other than dust and other
+ assorted debris, you don't see anything, particularly anything he
+ "borrowed" from you in recent months.  Drat.
+
+>examine debris
+ It's hard to get more descriptive of this stuff than the single word,
+ 'debris.'
+
+>search debris
+ You find nothing of interest.
+
+>examine clothes
+ Various articles of clothing and underwear are scattered around the
+ room.  It's hard to move around without stepping on one.
+
+>examine desk
+ The decrepit state of John's desk bespeaks both a ripe old age as well
+ as years of misuse; its surface bears many jagged scars and scorch
+ marks.  Otherwise, the desk looks surprising clean (for a possession
+ of John's), mainly because most of the junk that normally occupies its
+ surface has been swept onto the floor or into the closet.  There is a
+ single drawer on the desk, which is closed.  On the desk you see some
+ broken plastic models; besides that, you see nothing at all.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for Parchesi.
+
+>search clothes
+ You find nothing of interest.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for go.
+
+>open drawer
+ Opening the desk drawer reveals a coupon book.
+
+ You hear a loud and raucous argument in the living room about the
+ rules for poker.
+
+>get it
+ You can't have the desk drawer.
+
+>get coupon
+ Which coupon do you mean, the Captain Barnacle's Seafood House coupon,
+ the Nekohanten coupon, or the Chez Merde coupon?
+
+>seafood
+ You've already got your hands full.
+
+>drop box
+ Dropped.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+>get seafood
+ Taken.
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+>examine it
+ This coupon entitles the bearer to two All-You-Can-Eat Crustacean
+ Platters for the price of one.  The coupon enthusiastically describes
+ this dish as "More Shrimp Than You DESERVE!"
+
+ The sound of crumpling cellophane, grating your ears, comes in from
+ the direction of the living room.
+
+>examine merde
+ By presenting this coupon to the matre'd at any Chez Merde, you can
+ get two Super Escargot, Fantastic Frog Legs (with French fries, no
+ less), or Spectacular Souffle plates for the price of one.  (10% off
+ more if you don't try to order using your high-school French.)
+
+>examine nekohanten
+ This coupon, for the local Chinese restaurant Nekohanten, reduces the
+ prices on any dish in the "B" category to 55 cents each.  The coupon
+ also promises "Half the MSG of our nearest competitor!"
+
+ You hear a loud and raucous argument in the living room about the
+ rules for mah jongg.
+
+>go south
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see two snack food bags here.
+
+ From the direction of the living room, you hear Alice trying to sing
+ "American Pie" along with the radio, and doing it badly.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go west
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently off.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see a radio, four crumpled papers, a snack food bag, and a
+ piece of cellophane here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+    Alice is here, looking a bit bored.
+    Carl is here, entertaining himself in his usual banal manner.
+
+ John hits his forehead with his hands, muttering, "Think!  Think!"  It
+ doesn't seem to be working.
+
+ "C'mon, John," urges Alice, "take a break, have some fun with us!  You
+ can always take more tests next semester!"
+
+ Evan follows you into the living room, still playing the game.
+
+>give seafood to alice
+ "Why thanks," says Alice, grinning.  "I was just thinking of dinner at
+ this place.  Looks like I can afford it now."  She gets up, and Carl
+ follows suit.  You heart leaps at the thought that she's going to be
+ clearing out of here...
+
+ "Ah, but it's *so* cold outside tonight," says Alice, seating herself
+ on the floor again.  "Positively freezing.  And look at how I'm
+ dressed!"  You don't have much of an opinion of Alice's tastes in
+ clothes, but admittedly, she does look a bit chilly.  "We can't well
+ go out and get pneumonia, can we?  You wouldn't want that on your
+ conscience, would you...?"
+
+ Distracted by all of the noise, John momentarily loses his
+ concentration and starts muttering something about losing an
+ electronic game on his desk.
+
+ Alice takes out a bag of potato chips, empties the contents into her
+ hands, and chucks the empty bag into the hallway.
+
+ Alice breaks out a pack of cards and plays a hand of blackjack with
+ Carl.
+
+>give towel to alice
+ "Very funny," smiles Alice as she takes the towel.  "It *is* something
+ warm for the night, though."  She looks thoughtful, as if searching
+ for one last excuse to keep herself in your apartment.  "You *know*,
+ we're all ready to leave, but we don't have any way of getting to
+ dinner or the concert!  Now if only you could find any way for us to
+ depart this place..."  She grins again.
+
+ John squirms in his seat, trying to concentrate.
+
+>examine alice
+ Alice, one of John's friends, is a relentless partygoer.  She likes
+ listening to loud, ear-splitting music, playing card and dice games,
+ watching television shows based on video games, drinking stirred and
+ not shaken martinis, and annoying people like you.  You know all this
+ because of the many times she's visited your apartment along with
+ twenty or thirty of her "friends."  Luckily for you her entourage
+ seems a bit thin tonight.
+
+ "Reaction formation, projection, rationalization, sublimation!"  John
+ recites desperately.
+
+ Alice looks despondent.  "I really appreciate the coupon and the
+ towel, but it looks like we're just going to be stuck here all night,
+ since we don't have any way of getting to the Polonium.  I guess we're
+ going to be your guests all night, eh?"  She smiles wickedly.
+
+>give skateboard to alice
+ Alice starts laughing as she takes the skateboard from your hands.
+ "Got me again, huh?  I guess this technically *is* transportation."
+ She gathers up her more valuable possessions, including Carl, and
+ theatrically wraps the pink towel around herself.  "Carl!"  she says,
+ presenting the skateboard to him.  "You know how to ride one of
+ these?"  Carl looks quizzically at the board, then puts it down and
+ mounts it.  He then lifts Alice onto his back (not without
+ considerable effort).  You open the door for the two as they glide out
+ of the apartment.
+
+ "Be seeing ya," says Alice as they depart.
+
+ "Don't count on it," you say, closing the door.
+
+ "Projection, repression, rationalization, sublimation!"  John recites
+ desperately.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the kitchen.
+
+>go west
+ Kitchen
+
+    When you moved into this apartment, the kitchen was a horrendous
+ mess.  Because you've agreed to let John maintain the kitchen while
+ you maintain the bathroom, it still is; the stove is encrusted with
+ the pathetic results of previous meals, the refrigerator is in sore
+ need of a wipedown, and the kitchen sink as usual is filled with
+ mostly useless items.  A kitchen table sits in the center of the room.
+ The living room is to the east.
+    You see three piece of cellophanes and a remote control here.
+
+ Evan follows you into the kitchen, still playing the game.
+
+ Somewhere below you, you hear a dripping sound.
+
+>examine sink
+ This, as you probably surmised, is the kitchen sink.  At the moment it
+ is fairly filthy, thanks to John's recent diligent efforts at *not*
+ scrubbing it.  Under the sink is a cabinet in which the kitchen
+ plumbing can be accessed.  In the kitchen sink there are broken
+ dishes; other than that, you see nothing at all.
+
+ Somewhere below you, you hear a dripping sound.
+
+>look under sink
+ Under the sink you see a cabinet.
+
+ Somewhere below you, you hear a dripping sound.
+
+>open cabinet
+ Opening the cabinet reveals the pipes which comprise the kitchen
+ plumbing.  Besides that, you see nothing at all in it.
+
+ Somewhere below you, you hear a dripping sound.
+
+>examine plumbing
+ This is a series of curved piping which connects the apartment to the
+ local sewage system.  The pipes look like they're leaking.
+
+ Somewhere below you, you hear a dripping sound.
+
+>fix pipes
+ (with the wrench)
+ You tighten the pipes with your wrench, stopping the leak.  However,
+ as the last echoes of the dripping water fade in the kitchen, you hear
+ the sound of dropping water in the bathroom...
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+>go east
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently off.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see four crumpled papers, a snack food bag, and a piece of
+ cellophane here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+
+ John grits his teeth and grinds a pencil down to a stub.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+ Evan follows you into the living room, still playing the game.
+
+>go east
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see three snack food bags here.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go east
+ Bathroom
+
+    The bathroom, fortunately, is one of the rooms you've agreed to
+ maintain, and as a result it isn't too filthy.  Against the north wall
+ is a gleaming sink and a mirror mounted above it; next to the mirror
+ is a medicine cabinet.  On the south wall is a towel rack.  A toilet
+ and shower, both scrubbed to exquisite perfection with lye-based
+ cleansers, complete this traditional bathroom.  The only exit to this
+ bathroom is through a door to the west, which is open.
+
+ Somewhere below you, you hear a dripping sound.
+
+ Evan follows you into the bathroom, still playing the game.
+
+>open cabinet
+ Which cabinet do you mean, the bathroom sink cabinet, or the medicine
+ cabinet?
+
+>sink
+ The bathroom sink cabinet is already open!
+
+ Somewhere below you, you hear a dripping sound.
+
+>examine pipes
+ Which pipes do you mean, the ceiling pipes, or the bathroom sink
+ pipes?
+
+>sink
+ This is a series of curved piping which connects the apartment to the
+ local sanitation system.  The pipes look like they're leaking.
+
+ Somewhere below you, you hear a dripping sound.
+
+>fix sink pipes
+ (with the wrench)
+ You tighten the pipes with your wrench, stopping the leak.  You stop
+ the dripping water in the pipes under the sink.  Breathing a sigh of
+ relief, you wipe sweat off your forehead...  Wait a minute.  That
+ wasn't too taxing.  Why are you sweating?  Looking overhead, you
+ notice a new leak has sprung up in the overhead pipes.
+
+ Somewhere above you, you hear a dripping sound.
+
+>fix ceiling pipes
+ (with the wrench)
+ They're well out of your reach.
+
+ Somewhere above you, you hear a dripping sound.
+
+>stand on sink
+ Climbing onto the sink is impractical as well as unsanitary in
+ general.
+
+ Somewhere above you, you hear a dripping sound.
+
+>stand on toilet
+ Your attempt to gain ground using the toilet proves futile, as the
+ toilet, lacking a seat, provides no secure footholds upon which you
+ can stand.  The fact that you have polished the toilet to mirror-shine
+ perfection, making what little surface there is very slippery, doesn't
+ help.  Nor does your desire not to dirty the toilet with your feet.
+
+ Somewhere above you, you hear a dripping sound.
+
+>go west
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see three snack food bags here.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+ Evan follows you into the short hall, still playing the game.
+
+>go south
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and a closed closet door to
+ the east.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+ Evan follows you into your bedroom, still playing the game.
+
+>examine chair
+ (I don't see any chair here.)
+
+>open closet
+ Opened.
+
+ From elsewhere in the apartment, you hear Bob's snores shaking the
+ foundations of the earth.
+
+>look in closet
+ You see the interior of the closet through the open door, but you'll
+ have to go inside to get a better look at what's there.
+
+ From elsewhere in the apartment, you hear Bob's snores shaking the
+ foundations of the earth.
+
+>go east
+ Your Closet
+
+    Dimly illuminated, this closet provides you with an impenetrable
+ defense against outside noise.  The door, which is to the west and
+ open, is steel-reinforced and soundproof, preventing even the loudest
+ party sounds from getting through.  Though the closet is small, it is
+ roomy enough for you and several of your favorite textbooks, and
+ you've studied for many an exam here.
+    You see a toolbox and a swivel chair here.
+
+ Evan follows you into your closet, still playing the game.
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>push chair w
+ (I don't understand that sentence.)
+
+>push chair west
+ You move the chair to the west.
+
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair here.
+
+ Evan follows you into your bedroom, still playing the game.
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>close closet
+ Closed.
+
+>push chair norht
+ (I don't know the word "norht".)
+
+>push chair north
+ You move the chair to the north.
+
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see three snack food bags and a swivel chair here.
+
+ Evan follows you into the short hall, still playing the game.
+
+>examine bob
+ Bob, alleged star athlete on the school's basket weaving team
+ (Australian rules), is rather crude, rude, perpetually inebriated, and
+ more than a bit ditzy.  Unfortunately, that's his good side.  He's
+ looking a little better than usual today, though, having recently
+ pulled through a savage bout with scurvy, but fortunately (from Bob's
+ point of view), you don't need teeth to drink beer. At the moment he's
+ thoroughly passed out.
+
+>push chair south
+ You move the chair to the south.
+
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and a closed closet door to
+ the east.
+    You see a swivel chair here.
+
+ Evan follows you into your bedroom, still playing the game.
+
+>open closet
+ Opened.
+
+ Bob lets out a loud snore which sounds truly hideous.
+
+>push chair east
+ You move the chair to the east.
+
+ Your Closet
+
+    Dimly illuminated, this closet provides you with an impenetrable
+ defense against outside noise.  The door, which is to the west and
+ open, is steel-reinforced and soundproof, preventing even the loudest
+ party sounds from getting through.  Though the closet is small, it is
+ roomy enough for you and several of your favorite textbooks, and
+ you've studied for many an exam here.
+    You see a toolbox and a swivel chair here.
+
+ Evan follows you into your closet, still playing the game.
+
+>take bob
+ He's pretty heavy, but carryable.  You sling him over your shoulder.
+
+ Bob, squirming on your shoulder, tugs at your shirt and mumbles
+ something about "stoopid umpirezz."
+
+>drop bob
+ Dropped.
+
+>push chair west
+ You move the chair to the west.
+
+ Your Bedroom
+
+    This is your bedroom, for which you can be proud.  Mostly bare,
+ since many of your possessions are out for dry cleaning, the room
+ looks neater than ever.  Your bed, sitting in one corner, is
+ immaculately made, and your desk, placed against the northern wall,
+ has a clear surface which reveals its mirror-shine polish.  A fine
+ mahogany dresser sits against the south wall, and a mirror sits atop
+ it.  There is an open door to the north and an open closet door to the
+ east.
+    You see a swivel chair here.
+
+ Evan follows you into your bedroom, still playing the game.
+
+>close closet
+ Closed.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+>push chair north
+ You move the chair to the north.
+
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see three snack food bags and a swivel chair here.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+ Evan follows you into the short hall, still playing the game.
+
+>push chair west
+ You move the chair to the west.
+
+ Living Room
+
+    This is the living room of your apartment.  Well, at least half of
+ it *could* be called a living room, in the sense that a person could
+ actually live in it.  You and John have long since decided that you
+ would split the room into two, and each be responsible for each one's
+ designated half.  Your half, which contains a tasteful paisley couch
+ and mahogany table, looks bright and clean.  John's half, on the other
+ hand, has piles of newspaper and beer cans, a ratty sofa which bleeds
+ foam, and a study desk and chair, neither of which have seen much
+ action until the last three days.  The center of the room contains
+ items you have both consented to share, such as the TV set, which is
+ currently off.
+    The kitchen is to the west, the bedrooms and bath to the east, and
+ the exit (through which you hope to see John go soon) to the north.
+    You see four crumpled papers, a snack food bag, a piece of
+ cellophane, and a swivel chair here.
+    John is here, sitting at his special studying desk, trying
+ desperately to read his psychology textbook.
+
+ John grits his teeth and grinds a pencil down to a stub.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+ Evan follows you into the living room, still playing the game.
+
+>undo
+ (Undoing one command)
+
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see three snack food bags and a swivel chair here.
+    Evan is here, playing an electronic trivia game.
+
+>push chair east
+ You move the chair to the east.
+
+ Bathroom
+
+    The bathroom, fortunately, is one of the rooms you've agreed to
+ maintain, and as a result it isn't too filthy.  Against the north wall
+ is a gleaming sink and a mirror mounted above it; next to the mirror
+ is a medicine cabinet.  On the south wall is a towel rack.  A toilet
+ and shower, both scrubbed to exquisite perfection with lye-based
+ cleansers, complete this traditional bathroom.  The only exit to this
+ bathroom is through a door to the west, which is open.
+    You see a swivel chair here.
+
+ Somewhere above you, you hear a dripping sound.
+
+ Evan follows you into the bathroom, still playing the game.
+
+>stand on chair
+ You stand on the chair.  A bit precarious, but you maintain your
+ balance.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+>fix ceiling pipes
+ (with the wrench)
+ With all the balance you can muster, you tighten the pipe and stop the
+ leak.
+
+    You've finally taken care of all the distractions that are
+ preventing John from studying.  With not much time to spare, he crams
+ in as much Psychology knowledge into his brain as possible, and, come
+ eight o'clock, goes nervously to his exam.
+
+ [Press any key to continue]
+>push space
+
+
+
+
+
+
+
+
+    Time passes...
+
+
+
+
+
+
+
+
+ [Press any key to continue]
+
+
+
+
+
+
+
+
+     "I did it!"  yells John hours later, as he arrives home
+ triumphantly with the exam, graded "D+."  You feel a strong sense of
+ relief as you collapse onto your beloved paisley couch.  Finally!
+
+    In three weeks, John receives his degree, and promptly moves out.
+ He shakes your hand before leaving, saying, "I couldn't have done it
+ without you, man.  I owe you a lot.  I hope it isn't too lonely here
+ without me.  It's like we've become such good friends over the years,
+ and now we have to part."
+
+    "Isn't there a plane you have to catch...I mean, I'll miss you
+ too," you say.
+
+    And so, life alone begins.  The rent is more expensive now that
+ you're living alone, but the whole apartment is cleaner and quieter,
+ and you can now relax and enjoy yourself.
+
+ [Press any key to continue]
+
+
+
+
+
+
+
+
+    Three months later...
+
+
+
+
+
+
+
+
+ [Press any key to continue]
+
+
+
+
+
+
+
+
+     The doorbell rings.  You get up, and when you answer it, you
+ see...John!  He looks just as ratty as usual, only he's carrying a
+ double armload of papers as well as a sizable stack on his head.
+ Surrounding him are clamoring freshmen, looking agitated as they paw
+ at the papers.
+
+    "Hi there!"  he says, grinning.  "I guess I need a place to stay
+ again.  You see, after I passed that Psych exam, I was feeling very
+ confident in myself.  So confident, I decided to apply to grad school
+ here...and they accepted me!"
+
+ *** The End ***
+
+
+ You may restore a saved game, start over, quit, undo the current
+ command, or see a list of things to do in this game for your
+ amusement.
+
+>a
+
+ Have you tried...
+
+ asking John, Evan, and Alice about everything?
+ asking Bob about beer, the refrigerator, etc.
+ attacking, kissing, insulting everyone?  Ordering them to do things?
+ putting Bob in various containers?
+ playing the trivia game?
+ swearing?  XYZZY?  jumping?  yelling?
+ eating the dough?  a chocolate?  the soup?  drinking the 'beer'?
+ quizzing John?
+ asking Evan about the vase?  multiple times?
+ taking or turning off Alice's radio?
+ riding the skateboard?  leaving it in a room and waiting for Bob to
+ walk by?
+ sitting, looking under, or searching on all the chairs and sofas?
+ looking under, searching, lying, sitting, or standing on the beds?
+ making the beds?
+ reading the coupons?
+ watching the TV?  unplugging it?
+ giving a chocolate to Bob in one of the closets?
+ smelling everything?
+ standing on the bathroom sink or the toilet?
+ taking a shower?
+ turning on the stove?  When Bob is around?
+ SCORE?
+ quitting the game in the living room?
+
+>undo
+ (Undoing one command)
+
+ Bathroom, standing on the swivel chair
+
+    The bathroom, fortunately, is one of the rooms you've agreed to
+ maintain, and as a result it isn't too filthy.  Against the north wall
+ is a gleaming sink and a mirror mounted above it; next to the mirror
+ is a medicine cabinet.  On the south wall is a towel rack.  A toilet
+ and shower, both scrubbed to exquisite perfection with lye-based
+ cleansers, complete this traditional bathroom.  The only exit to this
+ bathroom is through a door to the west, which is open.
+    You see a swivel chair here.
+    Evan is here, playing an electronic trivia game.
+
+>xyzzy
+ You speak the ancient word of power.  Then you realize you look
+ absolutely silly doing so.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+>fuck
+ Real adventurers don't use that sort of language...But frustrated
+ college students with irritating roommates do, so you let out a good
+ expletive.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+>jump
+>plugh
+ Your mother always told you that pointless jumping around was a sign
+ of impending mental collapse.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+ You speak the ancient word of power.  Then you realize you look
+ absolutely silly doing so.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+>yell
+ This is hardly the time or place to lose your composure.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+>sing
+ (I don't know the word "sing".)
+
+>dance
+ (I don't know the word "dance".)
+
+>take shower
+ You can't reach that from the swivel chair.
+
+>go down
+ You're not going anywhere until you get off of the swivel chair.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+>stand
+ Okay, you're no longer on the swivel chair.
+
+ Somewhere above you, you hear a dripping sound.
+
+>take shower
+ Really, now...even your mother would agree that *four* showers in one
+ day is starting to push it.
+
+ Somewhere above you, you hear a dripping sound.
+
+>get shower
+ Really, now...even your mother would agree that *four* showers in one
+ day is starting to push it.
+
+ Somewhere above you, you hear a dripping sound.
+
+>smell me
+ You smell like a pleasant combination of lemon, ammonia, and bleach.
+
+ Somewhere above you, you hear a dripping sound.
+
+>smell shower
+ It smells just like you expect a shower to smell.
+
+ Somewhere above you, you hear a dripping sound.
+
+>smell sink
+ The sink has the appealing odor of lemon and disinfectant.
+
+ Somewhere above you, you hear a dripping sound.
+
+>go west
+ Short Hall
+
+    This is a short hall connecting the living room with the bedrooms
+ and the bathroom.  Your bedroom is to the south, behind an open door,
+ while John's room is to the north, beyond an open door.  The bathroom
+ can be reached by going east through an open door.
+    You see three snack food bags here.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+ Evan follows you into the short hall, still playing the game.
+
+>smell evan
+ Evan has the musty scent of old Trivial Pursuit cards on him.
+
+ In the near silence, you hear a soft but obnoxious dripping noise
+ coming from the direction of the bathroom.
+
+>go east
+ Bathroom
+
+    The bathroom, fortunately, is one of the rooms you've agreed to
+ maintain, and as a result it isn't too filthy.  Against the north wall
+ is a gleaming sink and a mirror mounted above it; next to the mirror
+ is a medicine cabinet.  On the south wall is a towel rack.  A toilet
+ and shower, both scrubbed to exquisite perfection with lye-based
+ cleansers, complete this traditional bathroom.  The only exit to this
+ bathroom is through a door to the west, which is open.
+    You see a swivel chair here.
+
+ Somewhere above you, you hear a dripping sound.
+
+ Evan follows you into the bathroom, still playing the game.
+
+>flush toilet
+ The toilet makes a satisfying flushing sound.
+
+ Somewhere above you, you hear a dripping sound.
+
+>get game
+ You yank the game out of Evan's hands.  In the process Evan's fingers
+ brush against the game's on/off switch, turning the game off.  Evan
+ looks extremely surprised and perturbed.
+
+ Evan gives a short speech about what's wrong with a recent popular
+ movie and how he would change things.
+
+>play it
+ "Ah, 'play', now that's an interesting word," says Evan.  "Let me tell
+ you about its etymology..."
+
+>turn game on
+ You switch the trivia game on.  A question appears on the screen:
+
+ "Question # 1
+
+ The category is Riddles of the Ancients.
+
+ What is the windspeed of an unladen swallow?
+
+
+ This question is worth 200 points.
+ Your current score is 0 and you have answered 0 questions out of 0."
+
+ Evan gives a short speech about what's wrong with the weather and how
+ he would change things.
+
+>blue
+ (There's no verb in that sentence!)
+
+>push blue
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 200.  The game selects a new question:
+
+ "Question # 2
+
+ The category is Riddles of the Ancients.
+
+ As I was going to St.  Ives, I met a man with seven wives.  Each wife
+ had seven sacks, each sack had seven cats, each cat had seven kittens.
+ Sacks, cats, kits, wives, how many were going to St.  Ives?
+
+
+ This question is worth 50 points.
+ Your current score is 200 and you have answered 1 questions out of 1."
+
+ Evan talks about the use of the phalanx in ancient Greek military
+ strategy.
+
+>push red
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 50.  The game selects a new question:
+
+ "Question # 3
+
+ The category is Interactive Fiction.
+
+ Which of the following is *not* an adventure game authoring system?
+
+
+ This question is worth 100 points.
+ Your current score is 250 and you have answered 2 questions out of 2."
+
+ Evan speculates about the recipe for Coca-Cola.
+
+>push yellow
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 4
+
+ The category is Interactive Fiction.
+
+ What is the total value, in zorkmids, of all the treasure in Dungeon?
+
+
+ This question is worth 100 points.
+ Your current score is 350 and you have answered 3 questions out of 3."
+
+ Evan wonders what the world would be like if the moon really *was*
+ made of swiss cheese.
+
+ I beg your pardon?
+
+>push yellow
+ "Bzzzzzzt!"  the game admonishes you.  You have one try left.
+
+ Evan speculates about the recipe for Coca-Cola.
+
+>ask evan about dungeon
+ "Ah, 'dungeon', now that's an interesting word," says Evan.  "Let me
+ tell you about its etymology..."
+
+>ask evan about zorkmids
+ "Ah, 'zorkmids', now that's an interesting word," says Evan.  "Let me
+ tell you about its etymology..."
+
+>ask evan about trivia
+ "A fourth edition '20,000 Questions' LCD game!"  exclaims Evan.  "I've
+ beaten the first, second, and third editions already!  Let me play!"
+ You struggle to keep Evan's hands off you as he claws desperately for
+ the game.
+
+ Evan speculates about the recipe for Coca-Cola.
+
+>push red
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 50.  The game selects a new question:
+
+ "Question # 5
+
+ The category is Riddles of the Ancients.
+
+ Who is buried in Grant's tomb?
+
+
+ This question is worth 50 points.
+ Your current score is 400 and you have answered 4 questions out of 4."
+
+ "I believe," says Evan, "that a philosopher once said, 'You can only
+ win so many battles before you lose the war.'"
+
+>push blue
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 50.  The game selects a new question:
+
+ "Question # 6
+
+ The category is Interactive Fiction.
+
+ Which of the following is a spell from the "Enchanter" trilogy?
+
+
+ This question is worth 100 points.
+ Your current score is 450 and you have answered 5 questions out of 5."
+
+ "I've always wondered what life would be like if it were exactly like
+ a text adventure game," says Evan.  "I'm not sure I'd like it.  For
+ example, everything you did would take exactly one minute to do no
+ matter what it was."
+
+>push red
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 7
+
+ The category is Advanced Math.
+
+ What is the sum of the squares of the sides of a right triangle?
+
+
+ This question is worth 200 points.
+ Your current score is 550 and you have answered 6 questions out of 6."
+
+ Evan wonders what the world would be like if Fermat had a lot more
+ space in his margins.
+
+>push green
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 200.  The game selects a new question:
+
+ "Question # 8
+
+ The category is Advanced Math.
+
+ What is 2+2?
+
+
+ This question is worth 500 points.
+ Your current score is 750 and you have answered 7 questions out of 7."
+
+ Evan gives a short speech about what's wrong with customer service at
+ the local convenience store and how he would change things.
+
+>push green
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 500.  The game selects a new question:
+
+ "Question # 9
+
+ The category is Riddles of the Ancients.
+
+ What is the answer to the question of life, the universe, and
+ everything?
+
+
+ This question is worth 200 points.
+ Your current score is 1250 and you have answered 8 questions out of
+ 8."
+
+ Evan makes a few remarks about the possibility of steam saving the
+ world.
+
+>push green
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 200.  The game selects a new question:
+
+ "Question # 10
+
+ The category is Interactive Fiction.
+
+ Who is the author of "Detective"?
+
+
+ This question is worth 100 points.
+ Your current score is 1450 and you have answered 9 questions out of
+ 9."
+
+ "I believe," says Evan, "that a philosopher once said, 'Man is not
+ alone in the universe.  There are women too.'"
+
+>push blue
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 11
+
+ The category is Common Knowledge.
+
+ What country does India ink come from?
+
+
+ This question is worth 100 points.
+ Your current score is 1550 and you have answered 10 questions out of
+ 10."
+
+ Going into deep financial detail, Evan gives a discourse on the rise
+ and fall of Infocom, Inc.  He also mentions how much he liked that
+ little robot Floyd.
+
+>push yellow
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 12
+
+ The category is Interactive Fiction.
+
+ Which school did the Implementors of Zork attend?
+
+
+ This question is worth 100 points.
+ Your current score is 1650 and you have answered 11 questions out of
+ 11."
+
+ Evan gives a short speech about what's wrong with the nation's foreign
+ policy and how he would change things.
+
+>push green
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 13
+
+ The category is Advanced Math.
+
+ In calculus, what's that squiggly shaped symbol that looks like the
+ hole in a violin supposed to be called?
+
+
+ This question is worth 200 points.
+ Your current score is 1750 and you have answered 12 questions out of
+ 12."
+
+ Evan wonders what the world would be like if the moon really *was*
+ made of swiss cheese.
+
+>push red
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 200.  The game selects a new question:
+
+ "Question # 14
+
+ The category is Riddles of the Ancients.
+
+ What was the color of George Washington's white horse?
+
+
+ This question is worth 50 points.
+ Your current score is 1950 and you have answered 13 questions out of
+ 13."
+
+ Evan gives an impromptu talk about rules of mimesis.
+
+>push yellow
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 50.  The game selects a new question:
+
+ "Question # 15
+
+ The category is Riddles of the Ancients.
+
+ Why did the chicken cross the road?
+
+
+ This question is worth 100 points.
+ Your current score is 2000 and you have answered 14 questions out of
+ 14."
+
+ Evan gives an impromptu talk about the role of inefficient
+ communication in prolonging the War of 1812.
+
+>push red
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 16
+
+ The category is Interactive Fiction.
+
+ Which color is not used for a rod in "Starcross"?
+
+
+ This question is worth 100 points.
+ Your current score is 2100 and you have answered 15 questions out of
+ 15."
+
+ "I've always wondered what life would be like if it were exactly like
+ a text adventure game," says Evan.  "I'm not sure I'd like it.  For
+ example, everyone you knew would just be mindless, finite-state
+ automatons who do the same thing over and over again."
+
+>push red
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 17
+
+ The category is Riddles of the Ancients.
+
+ Bill is a bus driver.  On his bus are 15 passengers.  At the first
+ stop, half as many get on as get off.  At the second stop, 5/7 of the
+ passengers on the bus get off, and three times as many get on as were
+ left.  The bus is traveling at 40 km/hr and 15 miles separates the two
+ stops.  At 5:30 PM, what is the name of the bus driver?
+
+
+ This question is worth 100 points.
+ Your current score is 2200 and you have answered 16 questions out of
+ 16."
+
+ Evan makes a few remarks about the possibility of steam saving the
+ world.
+
+>push blue
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 18
+
+ The category is Interactive Fiction.
+
+ Which game had the bug with the "two Mrs. Dunbars"?
+
+
+ This question is worth 200 points.
+ Your current score is 2300 and you have answered 17 questions out of
+ 17."
+
+ Evan wonders what the world would be like if the moon really *was*
+ made of swiss cheese.
+
+>push yellow
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 200.  The game selects a new question:
+
+ "Question # 19
+
+ The category is Interactive Fiction.
+
+ What was the only "Junior" level Infocom game made?
+
+
+ This question is worth 100 points.
+ Your current score is 2500 and you have answered 18 questions out of
+ 18."
+
+ Evan talks about the Norman Conquest and its effect on Old English
+ vocabulary.
+
+>push green
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 20
+
+ The category is Interactive Fiction.
+
+ Who wrote "Colossal Cave"?
+
+
+ This question is worth 100 points.
+ Your current score is 2600 and you have answered 19 questions out of
+ 19."
+
+ Going into deep financial detail, Evan gives a discourse on the rise
+ and fall of Infocom, Inc.  He also mentions how much he liked that
+ little robot Floyd.
+
+>push red
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 21
+
+ The category is Interactive Fiction.
+
+ Who wrote "Colossal Cave"?
+
+
+ This question is worth 100 points.
+ Your current score is 2700 and you have answered 20 questions out of
+ 20."
+
+ "I believe," says Evan, "that a philosopher once said, 'The power to
+ destroy a planet is nothing compared to the power to program your
+ VCR.'"
+
+>push red
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 22
+
+ The category is Riddles of the Ancients.
+
+ Why did the chicken cross the road?
+
+
+ This question is worth 100 points.
+ Your current score is 2800 and you have answered 21 questions out of
+ 21."
+
+ Evan gives a short speech about what's wrong with mass transit and how
+ he would change things.
+
+>push red
+ The game announces on the screen, "You are correct!"  Your score
+ increases by 100.  The game selects a new question:
+
+ "Question # 23
+
+ The category is Interactive Fiction.
+
+ Which of the following is *not* an adventure game authoring system?
+
+
+ This question is worth 100 points.
+ Your current score is 2900 and you have answered 22 questions out of
+ 22."
+
+ Evan gives a short speech about what's wrong with the city's traffic
+ system and how he would change things.
+
+>quit
+
+>yes

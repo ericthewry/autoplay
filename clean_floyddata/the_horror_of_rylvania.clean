@@ -1,0 +1,1641 @@
+>load horrorofrylvania
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+
+
+
+
+
+
+    The hiking trip across Europe has been a wonderful experience for
+ two recent college graduates like yourself and your friend Carolyn.
+ From the mansions of England to the beaches of Greece, you've walked in
+ the footsteps of the Crusaders and seen sights that few Americans have
+ ever seen.
+
+    Carolyn had wanted to skip the Central European nation of Rylvania.
+ "Why bother?"  she'd said.  "There's nothing but farmers there, and
+ creepy old castles - nothing we haven't seen already.  The Rylvanians
+ are still living in the last century."
+
+    That, you'd insisted, was exactly why Rylvania was a must-see.  The
+ country was an intact piece of living history, a real treasure in this
+ modern age.
+
+    If only you hadn't insisted!  As night fell, as you approached a
+ small farming village in search of a quaint inn to spend the night, the
+ howling began.  A scant hundred yards from the village, and it
+ happened...the wolves appeared from the black forest around you and
+ attacked.  Big, black wolves that leaped for Carolyn's throat before
+ you could shout a warning, led by a great gray-black animal that easily
+ stood four feet at the shoulder.  Carolyn fell to the rocky path, blood
+ gushing from her neck as the wolves faded back into the trees,
+ unwilling, for some unknown reason, to press their attack.
+
+    If she dies, it will be your fault.  You curse the darkening sky as
+ you cradle Carolyn's head, knowing that you have little time to find
+ help.  Perhaps in the village up the road to the north -
+
+ The Horror of Rylvania
+ Version 2.5G for Great Underground Adventures CD
+ Copyright (C) 1993, 1996 D. A. Leary
+ All rights reserved.
+ Developed with TADS, the Text Adventure Development System.
+
+ Difficulty Rating:  Horrifying (5 out of 10)
+
+ Suggested for Mature Audiences.
+
+ ***
+
+    This game is free.  We encourage you to distribute it, but you may
+ not charge any money for it beyond the cost of the media it is stored
+ on.
+
+    ADVENTIONS no longer supports this product.  Please do not contact
+ us for hints or to buy games.  The best place to get our games is from
+ the Interactive Fiction Archive on the Internet, site ftp.gmd.de.  The
+ best place to ask for help with our games is the Usenet newsgroup
+ rec.games.int-fiction.
+
+ ***
+
+
+ ***
+
+ Winding Path
+
+    The main road is a north-south trail - little more than a dirt path
+ - winding through a black, dismal forest.  To the north, through the
+ trees, you can barely make out the lights of a small Rylvanian village.
+ The sun has just set and dark trees hang over the path, forming a
+ mazelike net overhead.  The path is well trodden and easy to walk on.
+
+    Carolyn, your close friend from college, lies motionless on the
+ path, blood flowing freely from a gaping, jagged wound in her throat
+ and chest.  She's making faint gurgling sounds and just barely
+ breathing.
+
+>note 1
+ [1]: Footnote markers are numbers enclosed in square brackets.
+
+>APPLY FIRST AID
+ I don't know the word "apply".
+
+>FIX NECK
+ I don't know the word "fix".
+
+>inventory
+ You have a fifty-dollar traveller's check and a matchbook.
+
+>STOP BLEEDING
+ I don't know the word "stop".
+
+>PUT HANDS ON CAROLYN'S NECK
+ I don't know the word "carolyn's".
+
+>take her
+ I don't know what you're referring to with 'her'.
+
+>take carolyn
+ You'd better not move Carolyn without professional medical help.
+
+>go north
+ Path Fork
+
+    You are standing at a fork in the path, just outside a village.  To
+ the west the trees thin out slightly, while to the east they disappear
+ entirely, becoming an impassable swamp.  Branches of the path run north
+ and northeast.  To the north you can see several buildings.  The track
+ runs south as well, back into the forest.
+
+>go north
+ Outside Inn
+
+    You are standing outside a wooden inn at the west end of a small
+ Rylvanian village.  Flickering light streams from an open window, and a
+ sign hangs above the doorway.  The inn has seen better days - it's
+ run-down and falling apart, and could use a good coat of paint.  A path
+ runs south, out of town, and more buildings are down the street to the
+ east.  To the west is more of the black forest.  The inn is to the
+ north.
+
+ In gothic script the sign reads "The Devil's Cup."
+
+>go north
+ Common Room
+
+    The inn is well-lit, less shabby on the inside than on the out.  A
+ warming fire burns in the hearth.  Several townsfolk are seated around
+ a table, talking quietly, and a thin old man stands behind the bar.
+ The townsfolk and the barman look up as you enter, suspicious of
+ strangers - as are all Rylvanians - but soon the patrons turn back to
+ their conversation and the barman returns to polishing glasses.  The
+ exit from the inn is south, and an open doorway behind the bar leads
+ west.
+
+    A tarot deck is sitting on the table.
+
+    Some of the townsfolk turn and nod briefly at you before continuing
+ their conversation.
+
+    The old barman regards you silently.
+
+    You catch a fragment of conversation.  "...written on the trees..."
+
+>tell barman about Carolyn
+ The bartender shakes his head and points at his mouth.  "Foreigner!"
+ one of the patrons shouts at you.  "Old Henri is mute!  He cannot speak
+ to you."  The customer smiles.  "But he knows what you need, if you
+ have the money.'
+
+    You catch a fragment of conversation.  "...written on the trees..."
+
+ The bartender looks at the check, then smiles and shakes his head,
+ passing the check back to you.
+
+    "They walk tonight," one of the customers whispers.
+
+>tell patrons about wolves
+ The customers eye you suspiciously.  "Yes.  The wolves roam the woods.
+ The old woodcutter that lives out there might know more about them."
+
+    You catch a fragment of conversation.  "...the doctor knows..."
+
+ One of the customers glances up at you.  "Yes, we have a doctor.  He
+ lives further down, on this side of the street."  He jerks his thumb to
+ the east, then falls quiet for a long moment.  "I don't know if you
+ want him as your doctor, Foreigner.  He is a strange man."
+
+    "They walk every night," a customer snaps, drinking heavily from a
+ stone flagon.  "Every bloody night.  Our village is cursed."
+
+>out
+ Outside Inn
+
+>go east
+ Village Road West
+
+    You are walking on a road through the center of the village.  The
+ street is quiet and empty; most of the local populace has already
+ turned in for the night.  Silence weighs heavily on the town, and the
+ air is cold and leaden.  To the north is a small square wooden
+ building.  The door to the building is open. To the south is an open
+ field.  The road continues to the east and west, and a branch runs
+ southwest as well - toward the black forest.
+
+>go east
+ Village Road East
+
+    You are near the eastern outskirts of the village.  To the south is
+ a stately old church, weathered and in a state of disrepair.  The
+ entrance to the church stands open.  To the north a narrow track runs
+ along the side of the small wooden building you passed to the west.
+ The road continues west and also runs northeast, out of town and
+ through the moors.
+
+>undo
+ (Undoing one command)
+
+ Village Road West
+
+    You are walking on a road through the center of the village.  The
+ street is quiet and empty; most of the local populace has already
+ turned in for the night.  Silence weighs heavily on the town, and the
+ air is cold and leaden.  To the north is a small square wooden
+ building.  The door to the building is open. To the south is an open
+ field.  The road continues to the east and west, and a branch runs
+ southwest as well - toward the black forest.
+
+>verbose
+ Okay, now in WORDY mode.
+ Village Road West
+
+    You are walking on a road through the center of the village.  The
+ street is quiet and empty; most of the local populace has already
+ turned in for the night.  Silence weighs heavily on the town, and the
+ air is cold and leaden.  To the north is a small square wooden
+ building.  The door to the building is open. To the south is an open
+ field.  The road continues to the east and west, and a branch runs
+ southwest as well - toward the black forest.
+
+>go north
+ Doctor's Office
+
+    You are inside a small office which appears to belong to the local
+ doctor.  It's small and dark, but clean.  A chair and a desk are the
+ only furniture.  The exit is south, back through the doorway.  One
+ small window in the east wall looks out on an alley.  Hanging on the
+ wall is a framed diploma.  The door stands open, and the window is
+ closed.
+
+    A middle-aged man is here.  "Hello," he says pleasantly.  "I am
+ Doctor Trolovitch."
+
+>tell doctor about Carolyn
+ The doctor nods hurriedly.  "Yes, of course.  I can help.  Take me to
+ her, and I'll do all I can."
+
+    Doctor Trolovitch waits, staring at you expectantly.
+
+>go south
+ Village Road West
+
+    You are walking on a road through the center of the village.  The
+ street is quiet and empty; most of the local populace has already
+ turned in for the night.  Silence weighs heavily on the town, and the
+ air is cold and leaden.  To the north is a small square wooden
+ building.  The door to the building is open. To the south is an open
+ field.  The road continues to the east and west, and a branch runs
+ southwest as well - toward the black forest.
+
+    Doctor Trolovitch checks the door to his office, making sure it's
+ locked.  "Can't be too careful," he murmurs.
+
+>go west
+ Outside Inn
+
+    You are standing outside a wooden inn at the west end of a small
+ Rylvanian village.  Flickering light streams from an open window, and a
+ sign hangs above the doorway.  The inn has seen better days - it's
+ run-down and falling apart, and could use a good coat of paint.  A path
+ runs south, out of town, and more buildings are down the street to the
+ east.  To the west is more of the black forest.  The inn is to the
+ north.
+
+    Doctor Trolovitch follows you.
+
+>go west
+ Black Forest
+
+    You are lost among the twisted, gnarled trees of the black forest.
+ The trees close in around you and the air is damp and cold.  Somewhere
+ off in the distance a lone wolf howls.  Owls hoot, and a faint
+ scrabbling under the leaves hints of tiny creatures of the night,
+ searching for food.  You can travel in almost all directions.
+
+    Doctor Trolovitch follows you.
+
+>undo
+ (Undoing one command)
+
+ Outside Inn
+
+    You are standing outside a wooden inn at the west end of a small
+ Rylvanian village.  Flickering light streams from an open window, and a
+ sign hangs above the doorway.  The inn has seen better days - it's
+ run-down and falling apart, and could use a good coat of paint.  A path
+ runs south, out of town, and more buildings are down the street to the
+ east.  To the west is more of the black forest.  The inn is to the
+ north.
+
+    Doctor Trolovitch is here, waiting for you to lead him to Carolyn.
+
+>go south
+ Path Fork
+
+    You are standing at a fork in the path, just outside a village.  To
+ the west the trees thin out slightly, while to the east they disappear
+ entirely, becoming an impassable swamp.  Branches of the path run north
+ and northeast.  To the north you can see several buildings.  The track
+ runs south as well, back into the forest.
+
+    Doctor Trolovitch follows you.
+
+>go south
+ Winding Path
+
+    The main road is a north-south trail - little more than a dirt path
+ - winding through a black, dismal forest.  To the north, through the
+ trees, you can barely make out the lights of a small Rylvanian village.
+ The trail is shrouded in almost total darkness and dark trees hang over
+ the path, forming a mazelike net overhead.  The path is well trodden
+ and easy to walk on.
+
+    Doctor Trolovitch follows you, looking around.  "Is this where you
+ claim your friend to be?"  he says irritably.  "I see no patient."  He
+ shakes his head.  "I would think one of your age would be beyond these
+ childish pranks."  He turns and walks back toward town without a word,
+ leaving you to wonder what could have happened to Carolyn.
+
+ *** Your score has just gone up.  ***
+
+
+>go north
+ Path Fork
+
+    You are standing at a fork in the path, just outside a village.  To
+ the west the trees thin out slightly, while to the east they disappear
+ entirely, becoming an impassable swamp.  Branches of the path run north
+ and northeast.  To the north you can see several buildings.  The track
+ runs south as well, back into the forest.
+
+>go north
+ Outside Inn
+
+    You are standing outside a wooden inn at the west end of a small
+ Rylvanian village.  Flickering light streams from an open window, and a
+ sign hangs above the doorway.  The inn has seen better days - it's
+ run-down and falling apart, and could use a good coat of paint.  A path
+ runs south, out of town, and more buildings are down the street to the
+ east.  To the west is more of the black forest.  The inn is to the
+ north.
+
+>go north
+ Common Room
+
+    The inn is well-lit, less shabby on the inside than on the out.  A
+ warming fire burns in the hearth.  Several townsfolk are seated around
+ a table, talking quietly, and a thin old man stands behind the bar.
+ The townsfolk and the barman look up as you enter, suspicious of
+ strangers - as are all Rylvanians - but soon the patrons turn back to
+ their conversation and the barman returns to polishing glasses.  The
+ exit from the inn is south, and an open doorway behind the bar leads
+ west.
+
+    A tarot deck is sitting on the table.
+
+    Some of the townsfolk turn and nod briefly at you before continuing
+ their conversation.
+
+    The old barman regards you silently.
+
+    You catch a fragment of conversation.  "...the doctor knows..."
+
+>examine deck
+ It's a deck of tarot cards.
+
+    "They walk tonight," one of the customers whispers.
+
+>ask patrons about werewolves
+ I don't know the word "werewolves".
+
+> x tarot
+ It's a deck of tarot cards.
+
+    "They walk every night," a customer snaps, drinking heavily from a
+ stone flagon.  "Every bloody night.  Our village is cursed."
+
+>ask patrons about wolves
+ The customers eye you suspiciously.  "Yes.  The wolves roam the woods.
+ The old woodcutter that lives out there might know more about them."
+
+    You catch a fragment of conversation.  "...the wolves know..."
+
+>take tarot
+ Taken.
+
+    "They walk every night," a customer snaps, drinking heavily from a
+ stone flagon.  "Every bloody night.  Our village is cursed."
+
+>ask patrons about woodcutter
+ I don't know the word "woodcutter".
+
+>ask patrons about church
+ The patrons ignore your attempts at communication.
+
+    You catch a fragment of conversation.  "...the wolves know..."
+
+>out
+ Outside Inn
+
+    You are standing outside a wooden inn at the west end of a small
+ Rylvanian village.  Flickering light streams from an open window, and a
+ sign hangs above the doorway.  The inn has seen better days - it's
+ run-down and falling apart, and could use a good coat of paint.  A path
+ runs south, out of town, and more buildings are down the street to the
+ east.  To the west is more of the black forest.  The inn is to the
+ north.
+
+>go east
+ Village Road West
+
+    You are walking on a road through the center of the village.  The
+ street is quiet and empty; most of the local populace has already
+ turned in for the night.  Silence weighs heavily on the town, and the
+ air is cold and leaden.  To the north is a small square wooden
+ building.  The door to the building is closed.  To the south is an open
+ field.  The road continues to the east and west, and a branch runs
+ southwest as well - toward the black forest.
+
+>go east
+ Village Road East
+
+    You are near the eastern outskirts of the village.  To the south is
+ a stately old church, weathered and in a state of disrepair.  The
+ entrance to the church stands open.  To the north a narrow track runs
+ along the side of the small wooden building you passed to the west.
+ The road continues west and also runs northeast, out of town and
+ through the moors.
+
+>go south
+ Inside Church
+
+    You are in the main hall of the village church.  To the north is the
+ exit to the village road.  Pews, facing south, line both sides of the
+ center aisle.  A brass basin sits atop a stone pillar near the north
+ exit.  An altar is at the far end of the room, near a low passage which
+ leads south to another part of the church.  Moonlight streams through
+ the stained glass windows, bathing the wooden pews in a ghostly glow.
+
+    The brass basin seems to contain some holy water.
+
+>examine pews
+ The pews are hard wooden benches.  They face south, toward the altar.
+
+>look under pews
+ There's nothing, not even some leftover chewing gum.
+
+>examine windows
+ The stained glass windows are typical Rylvanian church design.  Most
+ portray Saint William of Irdopest, the patron saint of Rylvanians.  A
+ few show more typical Christian scenes - the Christ child, Jesus on the
+ cross, and so forth.  They're quite pretty, but hard to see in the pale
+ light.
+
+>go south
+ Church Vestry
+
+    You are behind the altar in the church, in a small chamber that
+ serves, judging from the hooks on the walls, as the church's vestry.
+ Other than the hooks, the chamber is empty now.  To the north is the
+ main part of the church.  An open doorway leads out of the church to
+ the east, and beyond, you can see the town graveyard.  A ladder leads
+ up into darkness.
+
+    A cloak is hanging on the wall hooks.
+
+>examine cloak
+ The cloak is brown, lined with rabbit fur, and looks quite warm.
+
+>search cloak
+ The cloak is brown, lined with rabbit fur, and looks quite warm.
+
+>take all
+ cloak:  Taken.
+
+>wear cloak
+ Okay, you're now wearing the cloak.
+
+>examine altar
+ I don't see any altar here.
+
+>examine hooks
+ There's nothing hanging on the hooks.
+
+>search cloak
+ The cloak is brown, lined with rabbit fur, and looks quite warm.
+
+>go north
+ Inside Church
+
+    You are in the main hall of the village church.  To the north is the
+ exit to the village road.  Pews, facing south, line both sides of the
+ center aisle.  A brass basin sits atop a stone pillar near the north
+ exit.  An altar is at the far end of the room, near a low passage which
+ leads south to another part of the church.  Moonlight streams through
+ the stained glass windows, bathing the wooden pews in a ghostly glow.
+
+    The brass basin seems to contain some holy water.
+
+>examine altar
+ There's nothing on the stone altar.
+
+>examine water
+ The water looks normal to you.  You're not a religious expert, so if
+ you take the water from the basin, it probably loses any special
+ properties it might have.
+
+>move altar
+ You can't move the stone altar.
+
+>examine windows
+ The stained glass windows are typical Rylvanian church design.  Most
+ portray Saint William of Irdopest, the patron saint of Rylvanians.  A
+ few show more typical Christian scenes - the Christ child, Jesus on the
+ cross, and so forth.  They're quite pretty, but hard to see in the pale
+ light.
+
+>take basin
+ It's bolted to the pillar.
+
+>go south
+ Church Vestry
+
+    You are behind the altar in the church, in a small chamber that
+ serves, judging from the hooks on the walls, as the church's vestry.
+ Other than the hooks, the chamber is empty now.  To the north is the
+ main part of the church.  An open doorway leads out of the church to
+ the east, and beyond, you can see the town graveyard.  A ladder leads
+ up into darkness.
+
+>go up
+ Belfry
+
+    You are standing in the church belfry, a tiny tower above the
+ vestry.  Far above you, shrouded in cobwebs and gloom, you can just
+ make out a large bell attached to the roof.  Dangling from the bell is
+ a thin iron chain.  Pale light filters in through narrow windows in the
+ stone walls, and a chilling breeze whips through the tower.  The only
+ exit is down the ladder, back to the vestry.
+
+    You see a flyswatter here.
+
+>take all
+ flyswatter:  Taken.
+
+>pull chain
+ You pull on the chain and ring the bell.  A deep tone resounds through
+ the tower, shaking the church to its very foundations.  A few bats fly
+ out of the bell, shrieking angrily.  For a moment, they appear to be
+ diving at you, but then they swerve and dart out one of the narrow
+ windows.
+
+>again
+ You pull on the chain and ring the bell.  A deep tone resounds through
+ the tower, shaking the church to its very foundations.
+
+>climb chain
+ You grab the chain and try to hoist yourself up.  Far overhead, the
+ bell rings loudly, shaking the walls of the belfry as you try to climb
+ the iron links.  Unfortunately, the chain is too thin to climb; you
+ can't seem to get a good grip on it.
+
+>go down
+ Church Vestry
+
+    You are behind the altar in the church, in a small chamber that
+ serves, judging from the hooks on the walls, as the church's vestry.
+ Other than the hooks, the chamber is empty now.  To the north is the
+ main part of the church.  An open doorway leads out of the church to
+ the east, and beyond, you can see the town graveyard.  A ladder leads
+ up into darkness.
+
+>go east
+ Graveyard South
+
+    You are at the southern end of the church graveyard.  Some
+ headstones are shrouded in low-lying fog, while others are partially
+ hidden by the long grass. It's obvious that the graveyard, like the
+ church itself, hasn't been taken care of for some time.  A few old
+ stunted trees mark the boundaries to the south and east.  To the west
+ is a side entrance to the old church, and further to the north, you can
+ see more headstones and an old mausoleum.
+
+>read the trees
+ I don't know how to read the trees.
+
+>read stones
+ You push aside the grasses and read the names on some of the
+ gravestones:
+
+    "Elijah Vilovitch 1745-1795"
+
+    "Tomis Rasarivin 1760-1782"
+
+    "Maryana Olgrisson 1747-1770"
+
+
+>go north
+ Graveyard North
+
+    You are at the north end of the graveyard.  To the west is the old
+ church; an entrance is further along the wall to the south.  To the
+ north is an ancient iron fence some twelve feet tall.  To the east is
+ an ancient mausoleum, with a few words etched in the stone above the
+ entrance.  Several gravestones are scattered amongst the weeds here.
+
+>read mausoleum
+ I don't know how to read the mausoleum.
+
+>read words
+ "Vladmir Von Rhistoven:  In Morte Pax"
+
+>read stones
+ The gravestones in this part of the cemetary have mostly faded with age
+ - you can't make out most of them.
+
+>enter mausoleum
+ The entrance to the mausoleum is closed.
+
+>examine weeds
+ The weeds are stunted and dying.  They cling to life around the
+ scattered graves.
+
+>open mausoleum
+ You grunt and strain, but can't open the mausoleum gate.  It seems to
+ be locked.
+
+>examine fence
+ It's a twelve foot tall fence, made of wrought iron.  It bars passage
+ to the north, out onto the moors.
+
+>go south
+ Graveyard South
+
+    You are at the southern end of the church graveyard.  Some
+ headstones are shrouded in low-lying fog, while others are partially
+ hidden by the long grass. It's obvious that the graveyard, like the
+ church itself, hasn't been taken care of for some time.  A few old
+ stunted trees mark the boundaries to the south and east.  To the west
+ is a side entrance to the old church, and further to the north, you can
+ see more headstones and an old mausoleum.
+
+>go south
+ The row of trees blocks your path, and beyond is nothing but more dark
+ forest and moor.
+
+>in
+ Church Vestry
+
+    You are behind the altar in the church, in a small chamber that
+ serves, judging from the hooks on the walls, as the church's vestry.
+ Other than the hooks, the chamber is empty now.  To the north is the
+ main part of the church.  An open doorway leads out of the church to
+ the east, and beyond, you can see the town graveyard.  A ladder leads
+ up into darkness.
+
+>go north
+ Inside Church
+
+    You are in the main hall of the village church.  To the north is the
+ exit to the village road.  Pews, facing south, line both sides of the
+ center aisle.  A brass basin sits atop a stone pillar near the north
+ exit.  An altar is at the far end of the room, near a low passage which
+ leads south to another part of the church.  Moonlight streams through
+ the stained glass windows, bathing the wooden pews in a ghostly glow.
+
+    The brass basin seems to contain some holy water.
+
+>go north
+ Village Road East
+
+    You are near the eastern outskirts of the village.  To the south is
+ a stately old church, weathered and in a state of disrepair.  The
+ entrance to the church stands open.  To the north a narrow track runs
+ along the side of the small wooden building you passed to the west.
+ The road continues west and also runs northeast, out of town and
+ through the moors.
+
+>go north
+ Alleyway
+
+    You're standing next to a small wooden building to the west.
+ There's a small window on this side, but otherwise the building's wall
+ is featureless and uninteresting.  To the north and northeast are
+ impassable moors and swamps, and to the south is the main road.  The
+ alley is littered with trash and debris.
+
+>search trash
+ It's just typical alley litter - paper and the like.  You find a
+ leaflet lying amidst the debris, which you take.
+
+ *** Your score has just gone up.  ***
+
+
+>read leaflet
+ "Good for One Free Reading at Madame Hulga's, just outside of town -
+ head west from the signpost."
+
+> x window
+ The window is set in the west wall of the building.  It's closed.
+
+>open window
+ The window won't open.  It seems to be latched from the other side.
+
+>look through window
+ The window's shutters are closed.  You can't see a thing.
+
+>search debris
+ It's just typical alley litter - paper and the like.
+
+>go south
+ Village Road East
+
+    You are near the eastern outskirts of the village.  To the south is
+ a stately old church, weathered and in a state of disrepair.  The
+ entrance to the church stands open.  To the north a narrow track runs
+ along the side of the small wooden building you passed to the west.
+ The road continues west and also runs northeast, out of town and
+ through the moors.
+
+>go northeast
+    You walk out of town, heading out into the moors.  Your mind wanders
+ to Carolyn, and the recent strange turn of events.  Where could she
+ have gone?  Is she dead?  Can you still save her?  Where did Doctor
+ Trolovitch go?
+
+    The moors are dark and cold.  A light rain is falling and the
+ rumblings of far-distant thunder reach your ears.  A flash of
+ lightning, and suddenly, she is there.  Carolyn - dressed in a white
+ robe, standing before you on the fog-covered fen!  Stunned, you run
+ toward her, calling her name.  She smiles, arms outstretched, reaching
+ for you.  And then you are there, hugging her, crying - and noticing
+ how cold she is, how pale - how very dead.  Her mouth opens in a jagged
+ smile.  Cold, bone-white pointed teeth reach for your neck.  You cry
+ out as her canines puncture your throat - and go limp as your lifeblood
+ pumps into her mouth.  The world turns black -
+
+
+
+    You dream.
+
+    The dreams are endless and horrifying.  You are alive, then dead,
+ then floating in a formless void, then somehow alive again - but not
+ alive.  You have changed - you can tell.  You are no longer human.  You
+ struggle out of blackness and find yourself enclosed in wood -
+
+
+>knock
+ What do you want to knock on?
+
+>wood
+ Nothing happens.
+
+    A gnawing hunger is wracking your body.  An icy chill grasps your
+ stomach.
+
+>scream
+ AIIIEEEYYYEEE!
+
+    Somewhere far above you, you hear faint scraping.
+
+>again
+ AIIIEEEYYYEEE!
+
+>again
+ AIIIEEEYYYEEE!
+
+>break coffin
+ The coffin is sturdy wood, and you can't seem to break it.
+
+    The scraping above you is getting louder.
+
+>look
+ Inside a Closed Coffin
+
+    It's quite dark, but by feeling around, you discover that you're
+ lying in a closed pine coffin.
+
+    A gnawing hunger is wracking your body.  An icy chill grasps your
+ stomach.
+
+>again
+ Inside a Closed Coffin
+
+    It's quite dark, but by feeling around, you discover that you're
+ lying in a closed pine coffin.
+
+>inventory
+ You are empty-handed.
+
+>open coffin
+ You grunt and strain, but there's far too much dirt on top of the
+ coffin to push it open.
+
+    There's a loud thump on the coffin lid, like metal hitting wood.
+
+>again
+ You push open the coffin lid.  A man leaps back from your newly-opened
+ grave, a horrified expression on his face.  He falls backward and out
+ of sight.
+
+>go up
+ You're not going anywhere until you get out of the coffin.
+
+    A gnawing hunger is wracking your body.  An icy chill grasps your
+ stomach.
+
+>get out
+ (the coffin)
+ Graveyard North
+
+    You are at the north end of the graveyard.  To the west is the old
+ church; an entrance is further along the wall to the south.  To the
+ north is an ancient iron fence some twelve feet tall.  To the east is
+ an ancient mausoleum, with a few words etched in the stone above the
+ entrance.  Several gravestones are scattered amongst the weeds here.
+
+    A man in priest's robes is cowering beside the headstones.
+
+    One grave has been dug up, and at the bottom of the hole is an open
+ coffin.
+
+    You see a wooden stake and a shovel here.
+
+>take all
+ wooden stake:  Taken.
+ shovel:  Taken.
+
+>SAVE
+>cf1
+ Saved.
+
+>eat man
+    A deadly hunger draws you to the priest.  You raise his head in your
+ hands and gaze into his eyes.  He's beautiful, and the throbbing pulse
+ in his neck is somehow hypnotic.  You bend in for a closer look - and
+ sever his jugular with newly-sharp canines, feeling his hot blood on
+ your tongue, feeling it wash over your throat in a sensual orgy of
+ smells and tastes.  The priest grows limp in your arms and soon you let
+ him fall, dead.  You have killed for the first time - but your chilling
+ hunger is sated.
+
+ *** Your score has just gone up.  ***
+
+
+>look
+ Graveyard North
+
+    You are at the north end of the graveyard.  To the west is the old
+ church; an entrance is further along the wall to the south.  To the
+ north is an ancient iron fence some twelve feet tall.  To the east is
+ an ancient mausoleum, with a few words etched in the stone above the
+ entrance.  Several gravestones are scattered amongst the weeds here.
+
+    One grave has been dug up, and at the bottom of the hole is an open
+ coffin.
+
+    You see a dead man here.
+
+>search man
+ The man's throat has been torn open - a ghastly, gruesome sight.  He's
+ been totally drained of blood.  His broken body lies beside the open
+ grave.  From his clothing, you surmise that he was a Catholic priest.
+ Perhaps you should bury him.
+
+>put man in grave
+ Which grave do you mean, the hole, or the gravestones?
+
+>hole
+ I don't know how to put anything into the hole.
+
+>put man in hole
+ I don't know how to put anything into the hole.
+
+>bury man
+ Somehow, you don't feel quite right about burying the priest in your
+ grave; you feel you might need the coffin again.  You dig a shallow
+ grave in a shadowy corner of the graveyard and roll the priest into it,
+ pulling bits of sod and leaves over the body.
+
+>look
+ Graveyard North
+
+    You are at the north end of the graveyard.  To the west is the old
+ church; an entrance is further along the wall to the south.  To the
+ north is an ancient iron fence some twelve feet tall.  To the east is
+ an ancient mausoleum, with a few words etched in the stone above the
+ entrance.  Several gravestones are scattered amongst the weeds here.
+
+    One grave has been dug up, and at the bottom of the hole is an open
+ coffin.
+
+>go south
+ Graveyard South
+
+    You are at the southern end of the church graveyard.  Some
+ headstones are shrouded in low-lying fog, while others are partially
+ hidden by the long grass. It's obvious that the graveyard, like the
+ church itself, hasn't been taken care of for some time.  A few old
+ stunted trees mark the boundaries to the south and east.  To the west
+ is a side entrance to the old church, and further to the north, you can
+ see more headstones and an old mausoleum.
+
+>go west
+ You approach the church door, but suddenly, a strange pain seizes your
+ gut.  You double over in agony, and are forced to stop.
+
+>go north
+ Graveyard North
+
+    You are at the north end of the graveyard.  To the west is the old
+ church; an entrance is further along the wall to the south.  To the
+ north is an ancient iron fence some twelve feet tall.  To the east is
+ an ancient mausoleum, with a few words etched in the stone above the
+ entrance.  Several gravestones are scattered amongst the weeds here.
+
+    One grave has been dug up, and at the bottom of the hole is an open
+ coffin.
+
+>go north
+
+ You easily scale the fence and head toward the moors.
+
+ Moor Path
+
+    You are walking along a lightly-travelled path that wends its way
+ through the dark, misty moors of Rylvania.  The trail curves here,
+ continuing to the southwest and the northwest.  The rain is picking up
+ now, and the thunder and lightning are getting closer.  South of here
+ is the church graveyard, covered with a blanket of fog and mist.  To
+ the north, you hear the sounds of rushing water, but I wouldn't stray
+ from the path if I were you - the bogs are deadly.  The village is back
+ to the southwest.
+
+>fly
+ There's no verb in that sentence!
+
+>turn into a bat
+ I don't recognize that sentence.
+
+>become bat
+ I don't know the word "become".
+
+>examine me
+ Your skin is pale and cold to the touch, your canines are long and
+ pointy, and you feel very strange.  You seem to have become a vampire.
+ [2]
+
+>footnote 2
+ [2]: Bummer.
+
+>go northwest
+ Moor Crossroads
+
+    You are standing at a fork in the path through the moors.  To the
+ east a short path slopes down to the river, while another track
+ continues through the fens to the west.  To the southeast, the road
+ heads back through the moors toward the village.  To the northwest the
+ way becomes drier and the terrain begins to rise - the path in that
+ direction leads up the side of a low hill.  There's a tall signpost
+ here.
+
+    Sitting on top of the signpost is a raven, preening its feathers.
+
+>examine sign
+ The signpost has three signs.  One points northwest and reads "Gloomfen
+ Castle."  The second points southeast and reads "Gloomfen Village."
+ The third points west and reads "Deadly Moors - Be careful!"  There's a
+ large raven sitting atop the post.  It eyes you suspiciously.
+
+>examine raven
+ It's a large black raven, a bird of ill-omen.  It gives you the chills,
+ but appears to be quite harmless.
+
+>ask raven about raven
+ Surely, you can't think the raven knows anything about it!
+
+>talk to the raven
+ Please refer to your manual and/or README file for the proper syntax to
+ use when talking to people or objects.
+
+>ask raven about moors
+ Surely, you can't think the raven knows anything about it!
+
+>pet raven
+ Touching the raven doesn't seem to have any effect.
+
+>go west
+ Moor Clearing
+
+    The road from town ends here in a clearing, a dry spot in the
+ endless bogs and moors.  To the north you can see a rocky hill, atop
+ which is a dark stone castle shrouded in mist.  The only safe path
+ through the bogs leads east, back toward the crossroads.  A faded Gypsy
+ tent sewn from once-bright colorful cloth stands to the west, its flap
+ open.  Stuck in the ground near the tent is a wooden sign.
+
+>read sign
+ "Madame Hulga's - Enter if you seek Truth"
+
+>SAVE
+>cf2
+ Saved.
+
+>go west
+ Inside Tent
+
+    Moonlight filters through the thin cloth, bathing the dim interior
+ of the tent in subtle shades of blue, green, and red.  The interior of
+ the tent is empty save for a low table.  The exit is to the east.
+
+    There's a wizened old woman here, pacing the tent and muttering to
+ herself.  She looks up as you enter, and frowns.  "Well?  What do you
+ want?"
+
+>ask her about my fortune
+ I don't know the word "fortune".
+
+>ask her about the truth
+ I don't know the word "truth".
+
+>examine her
+
+>ask hulga about reading
+ "Yes, I do readings," the old crone says.  "But first you must pay me."
+
+>smile at Hulga
+ I don't know the word "smile".
+
+>ask hulga about tarot
+ "I know nothing of that," the old woman says.
+
+>ask hulga about vampires
+ "I know nothing of that," the old woman says.
+
+>ask hulga about wolves
+ "I know nothing of that," the old woman says.
+
+>ask hulga about castle
+ "I know nothing of that," the old woman says.
+
+>ask hulga about gypsies
+ I don't know the word "gypsies".
+
+>ask hulga about coupon
+ I don't know the word "coupon".
+
+>ask hulga about leaflet
+ "I know nothing of that," the old woman says.
+
+ You have a wooden stake and a shovel.
+
+>go south
+ You can't go that way.
+
+>go east
+ Moor Clearing
+
+    The road from town ends here in a clearing, a dry spot in the
+ endless bogs and moors.  To the north you can see a rocky hill, atop
+ which is a dark stone castle shrouded in mist.  The only safe path
+ through the bogs leads east, back toward the crossroads.  A faded Gypsy
+ tent sewn from once-bright colorful cloth stands to the west, its flap
+ open.  Stuck in the ground near the tent is a wooden sign.
+
+>go north
+ You can't go that way.
+
+>go east
+ Moor Crossroads
+
+    You are standing at a fork in the path through the moors.  To the
+ east a short path slopes down to the river, while another track
+ continues through the fens to the west.  To the southeast, the road
+ heads back through the moors toward the village.  To the northwest the
+ way becomes drier and the terrain begins to rise - the path in that
+ direction leads up the side of a low hill.  There's a tall signpost
+ here.
+
+    Sitting on top of the signpost is a raven, preening its feathers.
+
+>go northwest
+ Rocky Trail
+
+    The terrain is rockier here than further down toward the village,
+ and the land slopes gently upward to the north.  Further north, up a
+ mountain, you see the stark stone towers of Castle Gloomfen, the
+ ancestral home of the Von Rhistoven family.  The trail runs from the
+ north to the southeast.  Other directions appear too rocky for easy
+ travel.
+
+>go north
+ Edge of Gorge
+
+    You're standing on the edge of a rocky gorge, which is to the north.
+ The bottom is lost somewhere deep in the mists, but far below, you can
+ hear water crashing on the rocks.  The trail ends at the edge of the
+ gorge.  A thick rope spans the chasm, vanishing into the swirling fog.
+ The trail leads back down the hill to the south.
+
+>go north
+ You put one foot on the rope, but it's just too slippery.  If you try
+ to cross you'll plunge to your death.
+
+>go south
+ Rocky Trail
+
+    The terrain is rockier here than further down toward the village,
+ and the land slopes gently upward to the north.  Further north, up a
+ mountain, you see the stark stone towers of Castle Gloomfen, the
+ ancestral home of the Von Rhistoven family.  The trail runs from the
+ north to the southeast.  Other directions appear too rocky for easy
+ travel.
+
+>se
+ Moor Crossroads
+
+    You are standing at a fork in the path through the moors.  To the
+ east a short path slopes down to the river, while another track
+ continues through the fens to the west.  To the southeast, the road
+ heads back through the moors toward the village.  To the northwest the
+ way becomes drier and the terrain begins to rise - the path in that
+ direction leads up the side of a low hill.  There's a tall signpost
+ here.
+
+    Sitting on top of the signpost is a raven, preening its feathers.
+
+>go east
+ River Bank
+
+    You're standing on the bank of a slow muddy river.  There's nothing
+ but more bogs and swamp on the other side.  A dank mist drifts low
+ across the rolling waters, dancing across the rippling rapids and
+ lightly caressing the riverbank. The ground is muddy and soft here;
+ your feet sink into the black earth.  Reeds wave gently in the cool
+ night breeze.  A winding path leads across solid ground back to the
+ west.
+
+>examine reeds
+ The dying reeds bend gently in the chilling breezes.
+
+>take reed
+ You can't have the reeds.
+
+>examine river
+ The river water is muddy and foul, and smells of decay and death.
+
+>go east
+ You can't swim.  Besides, you should know that vampires can't cross
+ running water.
+
+>go south
+ You can't go that way.
+
+>go west
+ Moor Crossroads
+
+    You are standing at a fork in the path through the moors.  To the
+ east a short path slopes down to the river, while another track
+ continues through the fens to the west.  To the southeast, the road
+ heads back through the moors toward the village.  To the northwest the
+ way becomes drier and the terrain begins to rise - the path in that
+ direction leads up the side of a low hill.  There's a tall signpost
+ here.
+
+    Sitting on top of the signpost is a raven, preening its feathers.
+
+>go east
+ River Bank
+
+    You're standing on the bank of a slow muddy river.  There's nothing
+ but more bogs and swamp on the other side.  A dank mist drifts low
+ across the rolling waters, dancing across the rippling rapids and
+ lightly caressing the riverbank. The ground is muddy and soft here;
+ your feet sink into the black earth.  Reeds wave gently in the cool
+ night breeze.  A winding path leads across solid ground back to the
+ west.
+
+>go west
+ Moor Crossroads
+
+    You are standing at a fork in the path through the moors.  To the
+ east a short path slopes down to the river, while another track
+ continues through the fens to the west.  To the southeast, the road
+ heads back through the moors toward the village.  To the northwest the
+ way becomes drier and the terrain begins to rise - the path in that
+ direction leads up the side of a low hill.  There's a tall signpost
+ here.
+
+    Sitting on top of the signpost is a raven, preening its feathers.
+
+>se
+ Moor Path
+
+    You are walking along a lightly-travelled path that wends its way
+ through the dark, misty moors of Rylvania.  The trail curves here,
+ continuing to the southwest and the northwest.  The rain is picking up
+ now, and the thunder and lightning are getting closer.  South of here
+ is the church graveyard, covered with a blanket of fog and mist.  To
+ the north, you hear the sounds of rushing water, but I wouldn't stray
+ from the path if I were you - the bogs are deadly.  The village is back
+ to the southwest.
+
+>go southwest
+ Village Road East
+
+    You are near the eastern outskirts of the village.  To the south is
+ a stately old church, weathered and in a state of disrepair.  The
+ entrance to the church stands open.  To the north a narrow track runs
+ along the side of the small wooden building you passed to the west.
+ The road continues west and also runs northeast, out of town and
+ through the moors.
+
+    The night is alive now; you can't believe you didn't notice before
+ how bright the stars were, how the shadows on the ground contrast
+ sharply with the bright village lights around you.  Your senses are at
+ a peak, and you feel flushed with dark purpose.
+
+    The smell of hot blood beckons you to the north.  You can almost
+ sense the man's thoughts - and they're not thoughts that you're happy
+ to share.  Whoever lurks to the north has a sinister motive; he's a
+ thief, and he's killed before himself.
+
+>go north
+ Alleyway
+
+    You're standing next to a small wooden building to the west.
+ There's a small window on this side, but otherwise the building's wall
+ is featureless and uninteresting.  To the north and northeast are
+ impassable moors and swamps, and to the south is the main road.  The
+ alley is littered with trash and debris.
+
+    A sinister-looking man is lurking near the window, fiddling with the
+ shutters.  He glances in your direction as you approach, his eyes
+ narrowing, trying to spot you in the gloom.  "Who's there?"  he
+ whispers.  When you fail to respond, he turns back to the closed
+ window, trying to see how it opens.  You can taste his hot blood,
+ drifting to your newly-sensitive nostrils on the brisk winds that blow
+ off the moors.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>watch man
+ I don't know the word "watch".
+
+>eat man
+    Emerging from the shadows, you pounce on the hapless thief.  He
+ cries out only once - and then, your teeth find his neck.  Slowly,
+ savoring the warm flavors, you lap the blood from the gaping wound.
+ The thief begins to grow limp in your grasp, his face pale.  Suddenly,
+ with a last burst of strength, he tears away from your grasp and runs
+ out onto the moors, screaming.  Your prey has escaped, but the
+ all-consuming hunger tearing your guts is sated - for the moment.
+
+>look in window
+ The window's shutters are closed.  You can't see a thing.
+
+>go south
+ Village Road East
+
+    You are near the eastern outskirts of the village.  To the south is
+ a stately old church, weathered and in a state of disrepair.  The
+ entrance to the church stands open.  To the north a narrow track runs
+ along the side of the small wooden building you passed to the west.
+ The road continues west and also runs northeast, out of town and
+ through the moors.
+
+>go west
+ Village Road West
+
+    You are walking on a road through the center of the village.  The
+ street is quiet and empty; most of the local populace has already
+ turned in for the night.  Silence weighs heavily on the town, and the
+ air is cold and leaden.  To the north is a small square wooden
+ building.  The door to the building is closed.  To the south is an open
+ field.  The road continues to the east and west, and a branch runs
+ southwest as well - toward the black forest.
+
+>go north
+ The door is closed.
+
+>knock
+ What do you want to knock on?
+
+>door
+ Nothing happens.
+
+>examine building
+ The building is just north of the road.  It looks like an office of
+ some kind.  Like most of the buildings in the village, it's made of
+ wood with a fieldstone foundation.
+
+>open door
+ It seems to be latched from the other side.
+
+ Village Road West
+
+    You are walking on a road through the center of the village.  The
+ street is quiet and empty; most of the local populace has already
+ turned in for the night.  Silence weighs heavily on the town, and the
+ air is cold and leaden.  To the north is a small square wooden
+ building.  The door to the building is closed.  To the south is an open
+ field.  The road continues to the east and west, and a branch runs
+ southwest as well - toward the black forest.
+
+>go west
+ Outside Inn
+
+    You are standing outside a wooden inn at the west end of a small
+ Rylvanian village.  Flickering light streams from an open window, and a
+ sign hangs above the doorway.  The inn has seen better days - it's
+ run-down and falling apart, and could use a good coat of paint.  A path
+ runs south, out of town, and more buildings are down the street to the
+ east.  To the west is more of the black forest.  The inn is to the
+ north.
+
+    With heightened senses, you hear the townsfolk muttering inside the
+ inn.  You sense their fear, their terror of the creatures they believe
+ stalk the night.  The smell of their blood, hot and sweet, drifts on
+ the cool night breezes.
+
+    Everything is new and fresh.  The fluttering light from inside the
+ inn seems to dance with a new intensity.  Though it's clear you
+ wouldn't be able to see in total darkness, your vision is sharper than
+ it's ever been.  New sensations scream for attention, and every pore in
+ your body is tingling.
+
+>go west
+ Black Forest
+
+    You are lost among the twisted, gnarled trees of the black forest.
+ The trees close in around you and the air is damp and cold.  Somewhere
+ off in the distance a lone wolf howls.  Owls hoot, and a faint
+ scrabbling under the leaves hints of tiny creatures of the night,
+ searching for food.  You can travel in almost all directions.
+
+    The woods seem to call your name; your heart is racing.  You can
+ sense life all around you - the quiet stalking of predators, the
+ mindless fear of the prey, even the gentle grace of dying trees.
+ Scents wash over you, and your nostrils flare involuntarily.  Even
+ though your sharpened vision tells you the trees are dying, no forest
+ has ever seemed so alive.
+
+>read trees
+ I don't know how to read the trees.
+
+    Without warning, a lone wolf appears from the trees and meets your
+ gaze with yellow eyes.  Strangely you feel no fear - only a strange
+ mastery over the creature.  You can even hear the beast's thoughts - "I
+ serve you."  Before you can find a way to respond, the wolf melts away
+ into the dark wood.
+
+>hug tree
+ I don't know the word "hug".
+
+>wolf, come
+ I don't know the word "come".
+
+>wolf, hello
+ I don't see any wolf here.
+
+>follow wolf
+ I don't see any wolf here.
+
+>call wolf
+ I don't know the word "call".
+
+>summon wolf
+ I don't know the word "summon".
+
+>howl
+ AIIIEEEYYYEEE!
+
+>SAVE
+>cf3
+ Saved.
+
+>go west
+ Black Forest
+
+    You are lost among the twisted, gnarled trees of the black forest.
+ The trees close in around you and the air is damp and cold.  Somewhere
+ off in the distance a lone wolf howls.  Owls hoot, and a faint
+ scrabbling under the leaves hints of tiny creatures of the night,
+ searching for food.  You can travel in almost all directions.
+
+    The woods seem to call your name; your heart is racing.  You can
+ sense life all around you - the quiet stalking of predators, the
+ mindless fear of the prey, even the gentle grace of dying trees.
+ Scents wash over you, and your nostrils flare involuntarily.  Even
+ though your sharpened vision tells you the trees are dying, no forest
+ has ever seemed so alive.
+
+>listen
+ You hear nothing unusual.
+
+>go west
+ Black Forest
+
+    You are lost among the twisted, gnarled trees of the black forest.
+ The trees close in around you and the air is damp and cold.  Somewhere
+ off in the distance a lone wolf howls.  Owls hoot, and a faint
+ scrabbling under the leaves hints of tiny creatures of the night,
+ searching for food.  You can travel in almost all directions.
+
+    The woods seem to call your name; your heart is racing.  You can
+ sense life all around you - the quiet stalking of predators, the
+ mindless fear of the prey, even the gentle grace of dying trees.
+ Scents wash over you, and your nostrils flare involuntarily.  Even
+ though your sharpened vision tells you the trees are dying, no forest
+ has ever seemed so alive.
+
+>examine trees
+ The black forest seems to close in around you.  For a moment, you feel
+ like you're being watched - and then, the feeling passes.  The trees
+ themselves are mostly twisted oaks, dying and shriveled in the dark
+ autumn air.
+
+>climb tree
+ The limbs of the trees are too dead for you to safely climb them.
+
+>read tree
+ I don't know how to read the trees.
+
+>go west
+ Black Forest
+
+    You are lost among the twisted, gnarled trees of the black forest.
+ The trees close in around you and the air is damp and cold.  Somewhere
+ off in the distance a lone wolf howls.  Owls hoot, and a faint
+ scrabbling under the leaves hints of tiny creatures of the night,
+ searching for food.  You can travel in almost all directions.
+
+    The woods seem to call your name; your heart is racing.  You can
+ sense life all around you - the quiet stalking of predators, the
+ mindless fear of the prey, even the gentle grace of dying trees.
+ Scents wash over you, and your nostrils flare involuntarily.  Even
+ though your sharpened vision tells you the trees are dying, no forest
+ has ever seemed so alive.
+
+>smell
+ What do you want to smell?
+
+>smell air
+ The air is cold and damp, with a faint moldy smell.
+
+>smell trees
+ It smells like what you'd expect a trees to smell like.
+
+>search leaves
+ I don't see any leaves here.
+
+>go west
+ Black Forest
+
+    You are lost among the twisted, gnarled trees of the black forest.
+ The trees close in around you and the air is damp and cold.  Somewhere
+ off in the distance a lone wolf howls.  Owls hoot, and a faint
+ scrabbling under the leaves hints of tiny creatures of the night,
+ searching for food.  You can travel in almost all directions.
+
+    The woods seem to call your name; your heart is racing.  You can
+ sense life all around you - the quiet stalking of predators, the
+ mindless fear of the prey, even the gentle grace of dying trees.
+ Scents wash over you, and your nostrils flare involuntarily.  Even
+ though your sharpened vision tells you the trees are dying, no forest
+ has ever seemed so alive.
+
+>go east
+ Black Forest
+
+    You are lost among the twisted, gnarled trees of the black forest.
+ The trees close in around you and the air is damp and cold.  Somewhere
+ off in the distance a lone wolf howls.  Owls hoot, and a faint
+ scrabbling under the leaves hints of tiny creatures of the night,
+ searching for food.  You can travel in almost all directions.
+
+    The woods seem to call your name; your heart is racing.  You can
+ sense life all around you - the quiet stalking of predators, the
+ mindless fear of the prey, even the gentle grace of dying trees.
+ Scents wash over you, and your nostrils flare involuntarily.  Even
+ though your sharpened vision tells you the trees are dying, no forest
+ has ever seemed so alive.
+
+>go east
+ Outside Inn
+
+    You are standing outside a wooden inn at the west end of a small
+ Rylvanian village.  Flickering light streams from an open window, and a
+ sign hangs above the doorway.  The inn has seen better days - it's
+ run-down and falling apart, and could use a good coat of paint.  A path
+ runs south, out of town, and more buildings are down the street to the
+ east.  To the west is more of the black forest.  The inn is to the
+ north.
+
+    With heightened senses, you hear the townsfolk muttering inside the
+ inn.  You sense their fear, their terror of the creatures they believe
+ stalk the night.  The smell of their blood, hot and sweet, drifts on
+ the cool night breezes.
+
+>go south
+ Path Fork
+
+    You are standing at a fork in the path, just outside a village.  To
+ the west the trees thin out slightly, while to the east they disappear
+ entirely, becoming an impassable swamp.  Branches of the path run north
+ and northeast.  To the north you can see several buildings.  The track
+ runs south as well, back into the forest.
+
+>go northeast
+ Village Road West
+
+    You are walking on a road through the center of the village.  The
+ street is quiet and empty; most of the local populace has already
+ turned in for the night.  Silence weighs heavily on the town, and the
+ air is cold and leaden.  To the north is a small square wooden
+ building.  The door to the building is closed.  To the south is an open
+ field.  The road continues to the east and west, and a branch runs
+ southwest as well - toward the black forest.
+
+>go south
+ Open Field
+
+    You're standing on a knoll, an open field a bit higher than the
+ surrounding terrain.  Tall grasses gently sway in the cool night
+ breezes.  Below you to the north you see the winking lights of Gloomfen
+ Village and far in the distance, up a rocky mist-shrouded mountain, you
+ can just make out a sinister-looking stone castle.  To the south and
+ west are the black Rylvanian forests.  To the east is a crumbling stone
+ church and - perhaps a half-mile away - a winding river.  The only
+ clear track leads north, back down to the village.
+
+    There's a ragged old man lying on the ground.  He looks up at you
+ through bleary eyes.  "Charity for a poor fellow, kind sir?"  he
+ wheezes.
+
+>examine man
+ The old man is obviously a derelict, and is even more obviously
+ extremely drunk.  He's dressed in rags and lies on the ground, mumbling
+ to himself.  He looks up at you through bleary eyes.  "Need four," he
+ gasps.
+
+>ask man about man
+ "How should I know?"  the old man cries.
+
+>ask man about wolves
+ "How should I know?"  the old man cries.
+
+>ask man about booze
+ I don't know the word "booze".
+
+>ask man about liquor
+ The old man lights up.  "Wine, you say?  Give it to me!"
+
+>go north
+ Village Road West
+
+    You are walking on a road through the center of the village.  The
+ street is quiet and empty; most of the local populace has already
+ turned in for the night.  Silence weighs heavily on the town, and the
+ air is cold and leaden.  To the north is a small square wooden
+ building.  The door to the building is closed.  To the south is an open
+ field.  The road continues to the east and west, and a branch runs
+ southwest as well - toward the black forest.
+
+>go west
+ Outside Inn
+
+    You are standing outside a wooden inn at the west end of a small
+ Rylvanian village.  Flickering light streams from an open window, and a
+ sign hangs above the doorway.  The inn has seen better days - it's
+ run-down and falling apart, and could use a good coat of paint.  A path
+ runs south, out of town, and more buildings are down the street to the
+ east.  To the west is more of the black forest.  The inn is to the
+ north.
+
+    With heightened senses, you hear the townsfolk muttering inside the
+ inn.  You sense their fear, their terror of the creatures they believe
+ stalk the night.  The smell of their blood, hot and sweet, drifts on
+ the cool night breezes.
+
+>go north
+
+    A group of bar patrons spring to their feet as you enter the
+ Rylvanian inn.  "My God!"  one shouts.  "The one we buried the other
+ day, back from the grave!" The patrons leap to their feet, their faces
+ masks of fear.  They leap for you and throw you to the ground, shouting
+ and cursing, holding crosses in your face.  You throw one off, then a
+ second, but four still hold you, just barely able to keep you
+ restrained.  One raises a wooden stake above your heart and brings it
+ down, touching your chest.  Another grasps a hammer -
+
+ *** You have perished ***
+
+ In a total of 179 turns, you have achieved a score of 16 points out of
+ a possible 301.
+
+ This means you're an adventure game novice.
+
+ You may restore a saved game, start over, or quit.
+>undo
+ (Undoing one command)
+
+ Outside Inn
+
+    You are standing outside a wooden inn at the west end of a small
+ Rylvanian village.  Flickering light streams from an open window, and a
+ sign hangs above the doorway.  The inn has seen better days - it's
+ run-down and falling apart, and could use a good coat of paint.  A path
+ runs south, out of town, and more buildings are down the street to the
+ east.  To the west is more of the black forest.  The inn is to the
+ north.
+
+    With heightened senses, you hear the townsfolk muttering inside the
+ inn.  You sense their fear, their terror of the creatures they believe
+ stalk the night.  The smell of their blood, hot and sweet, drifts on
+ the cool night breezes.
+
+>save
+>cfrylvania
+ Saved.
+
+>quit
+ In a total of 179 turns, you have achieved a score of 16 points out of
+ a possible 301.
+
+ This means you're an adventure game novice.
+
+>yes
+
+
+ Bye!  Thank you for playing The Horror of Rylvania!

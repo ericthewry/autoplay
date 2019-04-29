@@ -1,0 +1,1582 @@
+>load arrival
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+
+
+
+
+
+
+ Geez, mom really hacks you off sometimes.  I mean, making you do dishes
+ while that new show "Captain Dangerous" is on.  Last week, Cap'n was
+ having to fight off the slavering hordes of Gamma Proxima Epsilon
+ Centauri Five B, and he and his side-kick Billy Bob had used up the
+ last of their ammo keeping the zombie mind troopers at bay.  The evil
+ over-leader had just shown up with his mucilage-ray when the show
+ ended.
+
+ And you're stuck cleaning the Pfaltzgraff while Cap'n and Billy Bob
+ fight for their lives.
+
+ Life's not fair when you're eight.
+
+ Kitchen
+    You've spent many an hour at the kitchen sink, elbow-deep in suds,
+ staring out the window.  Add this hour to the total, thanks to mom and
+ her speech about familial responsibility.  At least she isn't making
+ you wipe down the cabinets again.  A dismayingly large stack of dirty
+ plates towers on one side of the sink, balanced by a much smaller stack
+ of clean plates on the other side.  Next to the east doorway is the
+ avocado-green refrigerator your family has owned forever.
+
+>wash dishes
+ You pull, freeing the top plate from the gummy, foody stack with a wet
+ slurping sound.  One quick dip in the suds, one quick rinse from the
+ faucet, and you toss the plate on the "clean" stack.  The clean stack,
+ in return, shimmies a bit.  You keep piling slick clean dishes on that
+ stack and, chances are, you'll soon have dish pieces on your hands.
+
+>examine window
+ The window may have been clear once, but your mom's gleeful use of oil
+ while cooking has added a dirty yellow glaze, making it hard to see
+ through.
+
+>clean window
+ Eww, gross.  That oil'd coat your hands more or less permanently.
+
+>examine fridge
+ Everything in the kitchen used to be the same pukey-green color as the
+ fridge.  Thankfully, all that other stuff was replaced.  Too bad the
+ fridge still works, or you wouldn't ever have to see that color again.
+ Mom has covered up as much of the fridge as she could with some of your
+ artwork from class.
+
+>examine me
+ You look about the same as always.
+
+>inventory
+ You are empty-handed.
+
+>open fridge
+ Nuh-uh.  You mess around in there and you won't get to see Captain
+ Dangerous' adventures for the rest of your life, maybe longer.
+
+>examine artwork
+ Just some stuff you drew for class.  No big deal.  Though you did get
+ an A+ on the big blue swirly one.
+
+>examine sink
+ The discolored porcelain sink is filled with suds.  To its right is a
+ stack of dirty dishes; to its left, a stack of clean dishes.
+
+>examine cupboard
+ I never learned the word "cupboard" in school.
+
+>put away clean dishes
+ I never learned the word "away" in school.
+
+>wash dishes
+ You pull, freeing the top plate from the gummy, foody stack with a wet
+ slurping sound.  One quick dip in the suds, one quick rinse from the
+ faucet, and you toss the plate on the "clean" stack.
+
+>again
+ You pull, freeing the top plate from the gummy, foody stack with a wet
+ slurping sound.  One quick dip in the suds, one quick rinse from the
+ faucet, and you toss the plate on the "clean" stack.
+
+>again
+ You pull, freeing the top plate from the gummy, foody stack with a wet
+ slurping sound.  One quick dip in the suds, one quick rinse from the
+ faucet, and you toss the plate on the "clean" stack.  As you do, the
+ clean stack of dishes wobbles for a moment before settling down.  You
+ could probably get that stack dancing if you wanted.
+
+ A gleam out the window, a faux star, grows brighter and brighter.  You
+ pull yourself up on the edge of the sink, soaking your elbows.  The
+ gleam is a glow, is a streak, is a flame which is rocketing into your
+ backyard and WHAM onto the ground.  You reflexively blink, the flash
+ brighter than the one on that camera dad lugs around everywhere.  When
+ you can see again, there is a silvery ship in the backyard.
+
+ A ship!  Oh man oh man, it must be a spaceship!  From outer space!
+ Maybe from Gamma Proxima Epsilon Centauri Five B!  Forget the
+ dishes--this is way too cool to ignore.
+
+ Arrival
+ or, Attack of the B-Movie Clichés
+ Copyright © 1998 by Stephen Granade.  All rights reserved.
+ (Type "about" for more information)
+ Version 2 (Dec 23 1998)
+ Developed with TADS, the Text Adventure Development System.
+
+
+>look
+ Kitchen
+    You've spent many an hour at the kitchen sink, elbow-deep in suds,
+ staring out the window, ignoring the ugly appliances and dirty
+ cabinets.  A dismayingly large stack of dirty plates towers on one side
+ of the sink, balanced by a much smaller stack of clean plates on the
+ other side.  Next to the east doorway is the avocado-green refrigerator
+ your family has owned forever.
+
+>go east
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go north
+ Backyard
+    Normally the backyard is boring, but not tonight!  Tonight the lawn
+ has been crisped by the arrival of the silvery ship.  It sits there,
+ gleaming under the bright backyard lights your dad installed a while
+ back.  Its shadow stretches across the brick patio and Weber grill.
+ Your house is to the south.
+
+>examine ship
+ It's much, much cooler close up.  The surface is all crinkly and
+ silvery.  The top and bottom are flat; the sides angle out, then back
+ in, and are ruffled.  On its back are two bumper stickers.
+
+>examine stickers
+ left bumper sticker:  The left sticker reads, "Speed Kills!  .55c Saves
+ Lives."
+ right bumper sticker:  The right bumper sticker reads, "My Other Saucer
+ Is A Porsche."
+
+>look
+ Backyard
+    Normally the backyard is boring, but not tonight!  Tonight the lawn
+ has been crisped by the arrival of the silvery ship.  It sits there,
+ gleaming under the bright backyard lights your dad installed a while
+ back.  Its shadow stretches across the brick patio and Weber grill.
+ Your house is to the south.
+
+ With the sound of a thousand cats yowling a thousand different songs, a
+ piece of the saucer lowers, forming a ramp.  For a few seconds, the
+ only things coming out of the ship are gouts of white gas which quickly
+ dissipate.
+
+ Then the aliens step forth.
+
+ Full of might and majesty, two shapes drift down the ramp and onto the
+ zoysia grass.  One is purple and cylindrical, with several tentacles
+ dangling.  The other is green and much more blobby, though he too is
+ be-tentacled.
+
+ The purple alien squints for a moment at the bright lights, then
+ produces a small box with a rotating antenna on it.  He punches some
+ buttons on the box.  It responds with bleeps and blips.  The purple one
+ nods and puts the box away.  "Scan for life signs in immediate vicinity
+ complete.  Two adults, one child, no tabloid reporters found."
+
+ "Good," the green one says.  "We now must--" He stops, staring right at
+ you.  You blink.
+
+ "Zigurt," the purple alien says to the green one.  His voice is thick
+ with worry.
+
+ "Shh," the green alien replies.  "I am cogitating."
+
+ "Ziiiiiguuurt," the purple alien whines.
+
+ "Shh!"
+
+ "But ZIIiiIIiiIIiiguuuurt, the child can see us!  Why is that?"  The
+ purple alien turns to the green one, filling the air with his flailing
+ tentacles.  "You said the neurotron would prevent our detection.  You
+ said that this would be a slight wind, that this would be without
+ difficulty!"
+
+ "Silence, Floban."  The purple alien falls quiet.  "We will unravel
+ this conundrum in due time.  For now, I have closed the child's avenue
+ of retreat."  You spin around--sure enough, a curtain of energy has
+ sprung up between you and your house.
+
+>enter ship
+ The aliens move to block you.
+
+ The two aliens begin whispering back and forth.  "Obviously the child
+ is the Ambassador Plenipotentiary for this planet."
+
+ "A child?"
+
+ "Certainly.  The Zufans' intelligence, while fearful in their young,
+ diminishes with age.  All of their civil servants are children.  Why
+ not with Terrans?  Have you not seen the their `sit-coms,' in which the
+ children are all-knowing and their elders impotent fools?"
+
+ "Fine, fine, fine.  But can the child understand us?"  Zigurt responds
+ by displaying a plain metal rod.  "Ah, yes.  I had forgotten of the
+ translator."
+
+>talk to aliens
+ I never learned the word "talk" in school.
+
+>Zigurt, hell
+ I never learned the word "hell" in school.
+
+>Zigurt, hello
+ "Kindly hold your tongue until we have decided your fate."
+
+ Zigurt makes a sound like that of gravel being crushed underfoot.
+ "Floban, would this not be an opportune time to present our demands to
+ the Ambassador?"
+
+ Floban looks hurt.  "I was preparing the list mentally," he says
+ truculently.  "There is no need for you to clear your esophageal
+ passages at me.
+
+ "Human child!"  The latter is directed at you, making you jump.  Floban
+ moves forward, looming ominously.  "We are here on behalf of all
+ spacefaring races who must cope with the mess your species is making.
+ Must you shout your news across all radio frequencies?"
+
+ "Mmm, Floban," says Zigurt.
+
+ "Must I hear of your puny world wars?  Must I deal with the endless
+ chatter of a semi-sentient race?  Must you flood the universe with your
+ `top-ten lists' and `buzz clips'?"
+
+ "What about our demands, Floban?"
+
+ "Must I sully the tips of my tentacles by dipping them in the muck of
+ this world?  Must I stop your stupid, stupid development of Solarnite?
+ Must I spend more time on a backwards planet, educating the--"
+
+ "FLOBAN!  FOOD!"
+
+ Floban winces.  "Not so loud," he hisses to Zigurt.  "One moment,
+ please, Ambassador," he says to you as he rolls back to Zigurt.
+
+>wait
+ Time passes...
+
+ Zigurt and Floban have a hurried, whispered discussion.  Finally,
+ Zigurt moves closer to you.  "Our trip has been a long one, and we are
+ in need of sustenance.  You will bring us rock salt, so that we might
+ de-hydrate."
+
+ "And some Ho-Hos," Floban interjects hopefully.
+
+ Zigurt glares at Floban.  Finally, grudgingly, he adds, "And some
+ Ho-Hos.  You will--"
+
+ "And a memento!"  says Floban.
+
+ This silence lasts longer than the previous one.  Slowly Zigurt swivels
+ around to stare at Floban.  "A...memento?"  he asks.
+
+ "Oh, my, yes!  The preliminary scan--" he waves around the small box
+ you saw before, "--showed a high concentration of mementos somewhere
+ within the domicile.  We should obtain...one to...add..."  Floban's
+ words trail off under Zigurt's glare.
+
+ Zigurt sighs before turning back to you.  "Bring us rock salt, some
+ Ho-Hos," he pauses and glares again at Floban, who ducks his head, "and
+ a memento.  You will bring them to our skrrbtz..."  Zigurt frowns,
+ shakes the translator.  "Enter our fzzgt..."  His frown is deeper this
+ time.  "Our gblzzt..."  He waves his tentacles, distressed.
+ "`Universal translator' my anterior appendage!" he shouts.
+
+ "Please, not so loud!"  Floban brings out an open white bottle and pops
+ a pill from it.  "I am experiencing a horrendous headache.  If you
+ would but wait a moment."  From somewhere he finds a large book, which
+ he consults.  "The word you want is `sheep'."
+
+ Zigurt pauses, rolling the strange word around in his mouth, tasting
+ its sounds.  "Bring the rock salt, Ho-Hos, and memento to our sheep.
+ We will wait."
+
+>examine grill
+ Roundish, red, with three legs and wheels.  Occasionally dad uses it to
+ flash-burn meat into flaky, charcoal lumps.
+
+ Zigurt and Floban drift back up the ramp.  When they are near the top,
+ they stop.  "Oh, and tell your world governments' spacefarers to clean
+ up after themselves in orbit," Zigurt says.
+
+ "Yeah, especially that Mir."
+
+ Zigurt negligently waves a tentacle, making the curtain of energy
+ vanish, and the two aliens disappear into their ship.
+
+>open grill
+ No thanks.  Last time dad cooked something in it, it almost exploded
+ from all the lighter fluid.  If you open it and get soot all over you,
+ you'll probably have to clean it.
+
+>go south
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go east
+ Lived-in Room
+    The living room is the rumpled center of your home.  Comfy floral
+ furniture, a few shelves filled with knick-knacks, a window, two
+ parents, and a TV.  The hallway to the kitchen is west, and the
+ unimportant rest of your home (mentioned here merely for the sake of
+ completeness) is south.
+    Mom is here, knitting away.
+    Dad is slowly going through today's paper.
+
+ Mom says, "You better be done with those dishes, kid," and smiles.
+
+>examine knick-knacks
+ Collectibles out the wazoo.  Well, out the shelves.  Hummel figurines,
+ Franklin Mint plates, even a bunch of plastic smurfs.  One entire shelf
+ is filled with Precious Moments dolls, all of them staring at you with
+ wide eyes, exuding eerie cuteness.
+
+>take all
+ I don't see what you're referring to.
+
+>take doll
+ Mom glances at you.  "Leave that stuff alone, kid."
+
+>take smurf
+ Mom glances at you.  "Leave that stuff alone, kid."
+
+>look
+ Lived-in Room
+    The living room is the rumpled center of your home.  Comfy floral
+ furniture, a few shelves filled with knick-knacks, a window, two
+ parents, and a TV.  The hallway to the kitchen is west, and the
+ unimportant rest of your home (mentioned here merely for the sake of
+ completeness) is south.
+    Mom is here, knitting away.
+    Dad is slowly going through today's paper.
+
+>go south
+ That part of your house is so unimportant right now that it hasn't been
+ implemented.  Don't you read the long descriptions of rooms?
+
+>examine dad
+ Dad is poring over the paper, reading and re-reading every article,
+ occasionally circling misspellings and misprints.
+
+>examine mom
+ She's relaxing, quietly knitting to pass the time.
+
+ You hear your dad rustling his newspaper.  When you look over at him,
+ you see that he's crumpled part of it into a saucer-like shape.  Mom
+ sees it too; she says, "Dad?  Whatcha got?"
+
+ "I...I don't know," he answers, "but...it means something."
+
+ "Oh, hush," mom scolds him.  "That doesn't mean anything."
+
+ Dad thinks, then sends the paper saucer flying towards the trash.  "I
+ guess you're right," he says before he starts reading again.
+
+>take paper saucer
+ I don't recognize that sentence.
+
+>look in trash
+ I never learned the word "trash" in school.
+
+>examine paper saucer
+ I don't recognize that sentence.
+
+>examine trash
+ I never learned the word "trash" in school.
+
+>examine saucer
+ I don't see no--I mean any--saucer here.
+
+>examine tv
+ The TV sits there, completely silent.  It's not natural, I tell you.
+ Behind that blank screen the adventures of Captain Dangerous and Billy
+ Bob are going on, and you're missing them!
+
+>ask mom about ho-hos
+ Mom sighs.  "I wish we could afford Ho-hos.  But you know how expensive
+ brand-name snack cakes are."
+
+>ask dad about rock salt
+ Mom says, "Don't pester your dad with questions while he's reading."
+
+>ask mom about rock salt
+ "In the kitchen cabinets, like always," mom tells you.
+
+>ask mom about memento
+ "Not now, kid."
+
+>tell mom about ship
+ Your dad grunts as he rises from his chair.  "Okay, kid, let's take a
+ look."  He gazes out the window for a moment, then sits heavily back
+ down in his chair, shaking his head at your mom.
+
+ "Oh, kid," mom says laughingly.  "I know you don't want to wash dishes,
+ but we all have to do our part.  All three of us have familial
+ responsibilities.  Now get back in there."  She gives you a playful
+ swat on the butt.
+
+>go west
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go west
+ Kitchen
+    You've spent many an hour at the kitchen sink, elbow-deep in suds,
+ staring out the window, ignoring the ugly appliances and dirty
+ cabinets.  A dismayingly large stack of dirty plates towers on one side
+ of the sink, balanced by a much smaller stack of clean plates on the
+ other side.  Next to the east doorway is the avocado-green refrigerator
+ your family has owned forever.
+
+>examine cabinets
+ Closed pressboard cabinets.  From time to time, mom makes you sponge
+ them down to remove the oily residue that builds up on them.
+
+>open cabinets
+ Opening the cabinets reveals a can of rock salt, a box of generic
+ cupcakes, and some other stuff.
+
+>take rock salt
+ Taken.
+
+>examine cupcakes
+ That Hostess stuff is too expensive--all mom will buy you are these
+ cheap knock-offs.
+
+>take cupcakes
+ Taken.
+
+>examine other stuf
+ I never learned the word "stuf" in school.
+
+>examine fridge
+ Everything in the kitchen used to be the same pukey-green color as the
+ fridge.  Thankfully, all that other stuff was replaced.  Too bad the
+ fridge still works, or you wouldn't ever have to see that color again.
+ Mom has covered up as much of the fridge as she could with some of your
+ artwork from class.
+
+>examine other stuff
+ Raman noodles, Stove Top Stuffing--you know, all that stuff mom uses to
+ cook dinner.
+
+>take artwork
+ The artwork isn't important.
+
+>examine artwork
+ Just some stuff you drew for class.  No big deal.  Though you did get
+ an A+ on the big blue swirly one.
+
+>open fridge
+ Nuh-uh.  You mess around in there and you won't get to see Captain
+ Dangerous' adventures for the rest of your life, maybe longer.
+
+>look
+ Kitchen
+    You've spent many an hour at the kitchen sink, elbow-deep in suds,
+ staring out the window, ignoring the ugly appliances and dirty
+ cabinets.  A dismayingly large stack of dirty plates towers on one side
+ of the sink, balanced by a much smaller stack of clean plates on the
+ other side.  Next to the east doorway is the avocado-green refrigerator
+ your family has owned forever.
+    The cabinets seems to contain some other stuff.
+
+>examine other stuff
+ Raman noodles, Stove Top Stuffing--you know, all that stuff mom uses to
+ cook dinner.
+
+>go west
+ You can't go that way.
+
+>look
+ Kitchen
+    You've spent many an hour at the kitchen sink, elbow-deep in suds,
+ staring out the window, ignoring the ugly appliances and dirty
+ cabinets.  A dismayingly large stack of dirty plates towers on one side
+ of the sink, balanced by a much smaller stack of clean plates on the
+ other side.  Next to the east doorway is the avocado-green refrigerator
+ your family has owned forever.
+    The cabinets seems to contain some other stuff.
+
+>go east
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go north
+ Backyard
+    Normally the backyard is boring, but not tonight!  Tonight the lawn
+ has been crisped by the arrival of the silvery ship.  It sits there,
+ ramp down, gleaming under the bright backyard lights your dad installed
+ a while back.  Its shadow stretches across the brick patio and Weber
+ grill.  Your house is to the south.
+
+>enter ship
+ Silvery Hallway
+    The silvery hallway splits into five branches, like the inside of
+ some mutant cauliflower.  The branches lead north, northeast,
+ northwest, southeast, and southwest.  Behind you, the ramp flops out
+ onto the backyard.  A strange metal plate is attached to the wall by
+ the ramp.
+
+>examine plate
+ The plate is shinier than the rest of the surrounding wall, as if
+ rubbed by countless tentacles (tentacli?).
+
+>SAVE
+>cf1
+ Saved.
+
+>touch plate
+ A whispering of voices runs lightly through your mind, then fades away
+ when you stop touching the plate.
+
+>go north
+ Bridge
+    Curving control consoles, all just taller than you, line the
+ underneath of the viewport.  There are no chairs, no creature
+ comforts--just austere controls and an exit to the south.
+
+>go south
+ Silvery Hallway
+    The silvery hallway splits into five branches, like the inside of
+ some mutant cauliflower.  The branches lead north, northeast,
+ northwest, southeast, and southwest.  Behind you, the ramp flops out
+ onto the backyard.  A strange metal plate is attached to the wall by
+ the ramp.
+
+>go northeast
+ Slumber Chamber
+    The room is several degrees colder than the hallway to the
+ southwest, a chill which leaves your breath diaphanous in front of you.
+ Ovoids the size of small couches lie scattered about.
+
+>examine ovoids
+ The ovoids must be sleep pods, given their frosted windows and
+ sleep-podish appearance.
+
+>get in pod
+ Good luck getting in the sleep pods while they're closed.
+
+>open pod
+ The pods open reluctantly and with a hiss.
+
+>get in pod
+ Gingerly you lower yourself into a pod.  You have to wiggle around a
+ bit before you're comfortable, but soon enough you're settled.
+
+ All that shifting and squirming must have started the pod's lid to
+ closing, though.  You look up just as the lid snicks into place.
+
+ You thump your fists against the lid, hard at first, then weaker and
+ weaker as the gas filling the pod puts you to sleep.
+
+ * * * * *
+
+ You blink away the crusty sleep which fills your eyes.  Above you,
+ Zigurt and Floban peer at you in surprise.
+
+ "Ambassador!"  Zigurt says as he helps you out of the pod.  "We had no
+ idea you were on board with us!"
+
+ "But what a wonderful happenstance!"  Floban says.  "We cannot return
+ you to your world, since the V'lvxnlxiaforming of Terra is nearly
+ complete."  He looks sad for a moment, pausing in sympathy.  "But!"  he
+ says, brightening, "The nobles of V'lvxnlxia will no doubt find you
+ amusing, and suffer you to live."
+
+ "Say, Floban."  Floban turns to look at Zigurt, who is now holding a
+ small barrel organ.  "If you can learn to play this instrument, no
+ doubt the Ambassador's performances will be more entertaining."
+
+ "Splendid!"
+
+
+ You have slept the sleep of the sleepy
+
+ You have achieved a score of 0 points out of a possible 20 in 65 turns.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>restore
+>cf1
+ Silvery Hallway
+    The silvery hallway splits into five branches, like the inside of
+ some mutant cauliflower.  The branches lead north, northeast,
+ northwest, southeast, and southwest.  Behind you, the ramp flops out
+ onto the backyard.  A strange metal plate is attached to the wall by
+ the ramp.
+
+>go east
+ You can't go that way.
+
+>go northwest
+ Rec Room
+    The rec room is surprisingly empty, its only features a slanted
+ ledge on one wall and a counter jutting from another.  Across from the
+ ledge is the southeast exit.
+    Sitting on the low-slung counter is a white bottle, a universal
+ translator, and a large book.  The slanted ledge seems to contain a
+ road atlas.
+    Zigurt is carefully poring over the atlas.
+    Floban stands next to Zigurt, watching him and the maps.
+
+ Floban nods in your direction.  "Ambassador," he says.
+
+>look
+ Rec Room
+    The rec room is surprisingly empty, its only features a slanted
+ ledge on one wall and a counter jutting from another.  Across from the
+ ledge is the southeast exit.
+    Sitting on the low-slung counter is a white bottle, a universal
+ translator, and a large book.  The slanted ledge seems to contain a
+ road atlas.
+    Zigurt is carefully poring over the atlas.
+    Floban stands next to Zigurt, watching him and the maps.
+
+>examine bottle
+ The white bottle is about three inches tall.  Its lid has been removed.
+ The inside of the bottle is crammed full of white pills.
+
+>examine road atlas
+ The atlas lies open to a map of the USA.
+
+>examine book
+ Large and, strangely enough, bound in leather.  Stamped on its cover
+ are the words, "To Serve Man."  Someone has made a feeble attempt to
+ obliterate "Serve" and replace it with "Understand".
+
+ Zigurt traces some routes on the atlas with one tentacle.  "We shall
+ follow this `Interstate' until it reaches Washington, D.C., at which
+ point we will meet with the leader of this country," he says to Floban.
+
+ "Oh, capital!"  Floban replies.
+
+>examine bottle
+ The white bottle is about three inches tall.  Its lid has been removed.
+ The inside of the bottle is crammed full of white pills.
+
+>examine pills
+ Little.  White.  Similar.
+
+ Floban massages his forehead with one tentacle, picking up the white
+ bottle with another.  He sticks a third tentacle into the bottle.  When
+ he pulls it back out, a pill is stuck to the end of it.  He pops the
+ pill in his mouth, then puts the bottle back on the counter.
+
+>take pill
+ "Winners don't use drugs."
+        --This message brought to you by the director of the FBI.
+
+>take bottle
+ A tentacle darts out, thumping your hand and making it sting.  "That is
+ not polite," Floban says.
+
+>give cupcakes to floban
+ Floban takes the box from you, looking at it.  "Redi-Snak(TM) Chokolate
+ Snak Kakes?"  He sighs.  "I suppose they will do."
+
+ "Now we need rock salt and a memento.  If you would, please, run along
+ now."  Floban, meanwhile, has wolfed down two or three cupcakes,
+ leaving his face smeared with chocolate which he tries to lick off with
+ a large blue tongue.  "You are such a mess," Zigurt tells him as they
+ turn back to the atlas.
+
+>give rock salt to floban
+ "Is it salt?"  Floban asks eagerly.  When he spies the box, he claps
+ several tentacles together happily while scooping up some crystals with
+ another.  "Wonn-ful," he says around a mouthful of salt.  Zigurt upends
+ the box and fills his maw.  The contented sound of crunching fills the
+ air.
+
+ "Aww we need now is the memento," Zigurt announces, peppering you with
+ some bits of salt.  "Wun awong and fwetch them."  Zigurt and Floban
+ turn back to the atlas, munching happily.
+
+ Zigurt says, "The fractured nature of this planet never ceases to amaze
+ me.  Compare the size of this `China' nation to `Luxembourg'.  The
+ disparity is overwhelming."
+
+ "Indeed."
+
+>ask zigurt about memento
+ "You are quite the nosy child."
+
+>examine translator
+ The universal translator is a metallic silver rod about the length of
+ your forearm and almost as thick around.  It is currently turned on.
+ There is a button on its side labelled in an alien script.
+
+>examine button
+ A button on the side of the universal translator.
+
+ Floban massages his forehead with one tentacle, picking up the white
+ bottle with another.  He sticks a third tentacle into the bottle.  When
+ he pulls it back out, a pill is stuck to the end of it.  He pops the
+ pill in his mouth, then puts the bottle back on the counter.
+
+>push button
+ Floban slaps your hand away with a tentacle.
+
+>se
+ Silvery Hallway
+    The silvery hallway splits into five branches, like the inside of
+ some mutant cauliflower.  The branches lead north, northeast,
+ northwest, southeast, and southwest.  Behind you, the ramp flops out
+ onto the backyard.  A strange metal plate is attached to the wall by
+ the ramp.
+
+>se
+ Ship's Hold
+    In sharp contrast to what you've seen of the rest of the ship, this
+ room is filthy.  Junk piles up in corners, spilling out over the floor,
+ claiming most of the room.  It's as if Zigurt and Floban had thrown
+ every bauble which had ever caught their eye into this room without
+ regard for order or the boundaries of good taste.  Indeed, most things
+ you see lie squarely on the far side of tasteful.  Somewhere in the
+ midst of the junk is the northwest exit.
+
+>examine junk
+ The amount of junk thrown down here is astounding.  There's no telling
+ what you could find with a bit of work.
+
+>search junk
+ Some rooting around turns up a salad shooter, which you pick up.
+
+>search junk
+ Some rooting around turns up a red lid, which you pick up.
+
+>search junk
+ Some rooting around turns up a velvet Elvis, which you pick up.
+
+>search junk
+ Some rooting around turns up a rain stick, which you pick up.
+
+>examine red lid
+ A red child-proof lid.
+
+>search junk
+ Some rooting around turns up a garden hose, which you pick up.
+
+>again
+ Some rooting around turns up a stress ball, which you pick up.
+
+>again
+ You find nothing else.
+
+>examine stick
+ A hollow stick filled with beads and capped at both ends.  When turned,
+ the beads slide down the stick and make a sound that is kinda like the
+ sound of falling rain.
+
+>examine hose
+ A green garden hose.
+
+>examine ball
+ The stress ball is quite deformed from people squeezing it.
+
+>examine elvis
+ The King, captured in all his glory by a simple piece of mounted
+ velvet.  Stunning.
+
+>inventory
+ You have a salad shooter, a red lid, a velvet Elvis, a rain stick, a
+ garden hose, and a stress ball.
+
+>examine shooter
+ The salad shooter might once have chopped up vegetables and more for a
+ mighty fine salad, but someone has removed all of its blades, rendering
+ it useless.
+
+>go northwest
+ Silvery Hallway
+    The silvery hallway splits into five branches, like the inside of
+ some mutant cauliflower.  The branches lead north, northeast,
+ northwest, southeast, and southwest.  Behind you, the ramp flops out
+ onto the backyard.  A strange metal plate is attached to the wall by
+ the ramp.
+
+>go northwest
+ Rec Room
+    The rec room is surprisingly empty, its only features a slanted
+ ledge on one wall and a counter jutting from another.  Across from the
+ ledge is the southeast exit.
+    Sitting on the low-slung counter is a white bottle, a universal
+ translator, and a large book.  The slanted ledge seems to contain a
+ road atlas.
+    Zigurt is carefully poring over the atlas.
+    Floban stands next to Zigurt, watching him and the maps.
+
+>put red lid on white bottle
+ A tentacle darts out, thumping your hand vigorously.  "Most definitely
+ do not do that," Floban says while you rub your smarting hand.
+
+>give elvis to Floban
+ Floban waves away the velvet Elvis.  "Your trinkets are of no concern
+ right now," he tells you.
+
+>..DW Yes, I was just experimenting.
+ I never learned the word "dw" in school.
+
+>se
+ Silvery Hallway
+    The silvery hallway splits into five branches, like the inside of
+ some mutant cauliflower.  The branches lead north, northeast,
+ northwest, southeast, and southwest.  Behind you, the ramp flops out
+ onto the backyard.  A strange metal plate is attached to the wall by
+ the ramp.
+
+>go southwest
+ Examination Room
+    Stark.  Metal.  An examination table fills the center of the room.
+ Above it crouch various tools on metal appendages, extended like the
+ legs of some insect.  Along one wall is a control panel.  The exit is
+ to the northeast.
+
+>examine probe
+ I never learned the word "probe" in school.
+
+>examine panel
+ The panel is low enough that you can see a dizzying array of levers,
+ knobs, and switches, but you can't see any labels, if there are any.
+
+>examine tools
+ You can begin to guess at some of the tools' functions--the
+ brightly-shining light is familiar, reminding you of visits to the
+ dentist.  Other tools, however, are too strange for your puny Earth
+ brain.
+
+>examine table
+ Whatever metal was used in its making has been buffed to a high sheen.
+ You can see your face reflected in its surface when you stand on
+ tippy-toes.
+
+>SAVE
+>cf2
+ Saved.
+
+>get on table
+ Its metal proves to be too slippery for you to gain enough purchase to
+ scale it.
+
+>look
+ Examination Room
+    Stark.  Metal.  An examination table fills the center of the room.
+ Above it crouch various tools on metal appendages, extended like the
+ legs of some insect.  Along one wall is a control panel.  The exit is
+ to the northeast.
+
+>push button
+ I don't see no--I mean any--button here.
+
+>examine switches
+ So many controls.  So many, many controls, and all unlabeled.
+
+>shake stick
+ I never learned the word "shake" in school.
+
+>blow stick
+ I never learned the word "blow" in school.
+
+>wave stick
+ I never learned the word "wave" in school.
+
+>flip stick
+ I don't know how to flip the rain stick.
+
+>turn stick
+ You give the rain stick a turn, listening to the beads fall.
+
+>dance
+ I never learned the word "dance" in school.
+
+>look
+ Examination Room
+    Stark.  Metal.  An examination table fills the center of the room.
+ Above it crouch various tools on metal appendages, extended like the
+ legs of some insect.  Along one wall is a control panel.  The exit is
+ to the northeast.
+
+>go northeast
+ Silvery Hallway
+    The silvery hallway splits into five branches, like the inside of
+ some mutant cauliflower.  The branches lead north, northeast,
+ northwest, southeast, and southwest.  Behind you, the ramp flops out
+ onto the backyard.  A strange metal plate is attached to the wall by
+ the ramp.
+
+>go southwest
+ Examination Room
+    Stark.  Metal.  An examination table fills the center of the room.
+ Above it crouch various tools on metal appendages, extended like the
+ legs of some insect.  Along one wall is a control panel.  The exit is
+ to the northeast.
+
+>inventory
+ You have a salad shooter, a red lid, a velvet Elvis, a rain stick, a
+ garden hose, and a stress ball.
+
+>put elvis on table
+ Done.
+
+>look
+ Examination Room
+    Stark.  Metal.  An examination table fills the center of the room.
+ Above it crouch various tools on metal appendages, extended like the
+ legs of some insect.  Along one wall is a control panel.  The exit is
+ to the northeast.
+    Sitting on the examination table is a velvet Elvis.
+
+>push switches
+ Why don't you try that on a lever?
+
+>switch switches
+ I don't know how to switch the controls.
+
+>turn on controls
+ You flip a switch at random.  The table shudders, as if trying to do
+ something, then quits.  A red light on the control panel winks on, then
+ off.  A tool descends, points angrily at the object on the table's
+ surface, and retracts once more.
+
+>examine controls
+ So many controls.  So many, many controls, and all unlabeled.
+
+>take elvis
+ Taken.
+
+>pull lever
+ You yank on a lever.  There is a loud keening sound as a laser beam
+ shoots from one of the tools and strikes the table.  The beam traces up
+ the middle of the table before shutting off again.
+
+>pull lever
+ You yank on a lever.  An energy field flicks into brief existence
+ around the table.
+
+>pull lever
+ You yank on a lever.  The table is wrapped in what looks suspiciously
+ like Saran-Wrap.  The plastic sheeting dissolves and vanishes a short
+ time later.
+
+>pull lever
+ You yank on a lever.  A whirling circular saw descends, slices the air
+ above the table, then retracts.
+
+>pull lever
+ You yank on a lever.  The table undergoes a series of
+ uncomfortable-looking contortions before straightening back out.
+
+>put elvis on table
+ Done.
+
+>pull lever
+ You yank on a lever.  The table shudders, as if trying to do something,
+ then quits.  A red light on the control panel winks on, then off.  A
+ tool descends, points angrily at the object on the table's surface, and
+ retracts once more.
+
+>pull lever
+ You yank on a lever.  The table shudders, as if trying to do something,
+ then quits.  A red light on the control panel winks on, then off.  A
+ tool descends, points angrily at the object on the table's surface, and
+ retracts once more.
+
+>inventory
+ You have a salad shooter, a red lid, a rain stick, a garden hose, and a
+ stress ball.
+
+>put ball on table
+ Done.
+
+>pull lever
+ You yank on a lever.  The table shudders, as if trying to do something,
+ then quits.  A red light on the control panel winks on, then off.  A
+ tool descends, points angrily at the objects on the table's surface,
+ and retracts once more.
+
+>get elvis
+ Taken.
+
+>pull lever
+ You yank on a lever.  The table shudders, as if trying to do something,
+ then quits.  A red light on the control panel winks on, then off.  A
+ tool descends, points angrily at the object on the table's surface, and
+ retracts once more.
+
+>examine elvis
+ The King, captured in all his glory by a simple piece of mounted
+ velvet.  Stunning.
+
+>take all from table
+ stress ball:  Taken.
+
+>go northeast
+ Silvery Hallway
+    The silvery hallway splits into five branches, like the inside of
+ some mutant cauliflower.  The branches lead north, northeast,
+ northwest, southeast, and southwest.  Behind you, the ramp flops out
+ onto the backyard.  A strange metal plate is attached to the wall by
+ the ramp.
+
+>push plate
+ You feel the odd sensation of a thousand whispery filaments drawn
+ lightly across your mind.  The smell of oranges fills your nose, and a
+ voice in your head says, Non-V'lvxnlxian intelligence detected.
+ Attempting to render information in comprehensible manner.  The voice
+ goes away for a moment, then returns.  It has changed, and is now oddly
+ familiar.  "Contacting host www.aliencomputer.com...done."  Symbols and
+ colors fill your vision, all incomprehensible.  Then everything goes
+ dark for a moment.
+
+
+
+
+
+
+
+
+ Welcome to Scout 3LZ, a representative of the glorious V'lvxnlxian
+ empire!
+
+
+ Scout 3LZ is one of the newer, faster Cuppa model scout ships.  It
+ incorporates new technology from the Waveparticle Duality Consortium.
+ As a result, Cuppa model scouts boast an extremely short transit time
+ between solar systems and high atmospheric maneuverability.
+
+ Scout 3LZ carries a crew of two: Zigurt and Floban.  Both are native
+ V'lvxnlxians, and both have had long and illustrious careers with the
+ Corps.  They are currently enjoying their tour through one of the
+ lesser-explored arms of the galaxy, though they hope to find potential
+ colony sites soon.
+
+
+ What kind of colony sites does the Corps look for?  Corps personnel are
+ experienced planetologists who have an eye for comfort.  They report on
+ only the best planets, ones which are within 98% of V'lvxnlxia norms.
+ Though many different biospheres are acceptable, planets with dry
+ climates and dim suns are a must.
+
+
+ Corps personnel are also skilled negotiators and diplomats, in case a
+ potential colony planet possesses a native race.  A certain amount of
+ intelligence is welcome in natives, as smarter natives are more capable
+ of following orders.  However, should a native population be found to
+ possess intelligence above a 5.9 on the L'xlvnxl scale, the planet may
+ require a quick bio-scrubbing.
+
+
+ For your convenience while on-board, a temporary overlay map of the
+ ship will be downloaded and installed.  For visitors who are unable to
+ handle a fully interactive overlay map, a hardcopy will be created for
+ them.
+
+
+
+
+
+
+
+
+ When you can see normally again, you find that you now possess a map of
+ the ship.
+
+>examine map
+ The map shows the innards of the spaceship.  According to it, the
+ bridge lies to the north of the silver hallway, the rec room is
+ northwest of the hallway, the slumber chamber is northeast, the exam
+ room is southwest, and the hold is southeast from the hallway.
+
+>go south
+ Backyard
+    Normally the backyard is boring, but not tonight!  Tonight the lawn
+ has been crisped by the arrival of the silvery ship.  It sits there,
+ ramp down, gleaming under the bright backyard lights your dad installed
+ a while back.  Its shadow stretches across the brick patio and Weber
+ grill.  Your house is to the south.
+
+>push grill north
+ You can't seem to do that.
+
+>go south
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go east
+ Lived-in Room
+    The living room is the rumpled center of your home.  Comfy floral
+ furniture, a few shelves filled with knick-knacks, a window, two
+ parents, and a TV.  The hallway to the kitchen is west, and the
+ unimportant rest of your home (mentioned here merely for the sake of
+ completeness) is south.
+    Mom is here, knitting away.
+    Dad is slowly going through today's paper.
+
+>give elvis to mom
+ Your mom rejects the offer.
+
+>ask mom about knick-knacks
+ "Not now, kid."
+
+>search knick-knacks
+ You find nothing of interest.
+
+>examine window
+ The window looks out on the backyard and on the ship.
+
+>examine paper
+ Your dad is reading it with deliberate care.
+
+>turn stick
+ You give the rain stick a turn, listening to the beads fall.
+
+>hit mom
+ Temper, temper.
+
+>go west
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>SAVE
+>cf3
+ Saved.
+
+>push dishes
+ I don't see no--I mean any--dishes here.
+
+>f w
+ I never learned the word "f" in school.
+
+>go west
+ Kitchen
+    You've spent many an hour at the kitchen sink, elbow-deep in suds,
+ staring out the window, ignoring the ugly appliances and dirty
+ cabinets.  A dismayingly large stack of dirty plates towers on one side
+ of the sink, balanced by a much smaller stack of clean plates on the
+ other side.  Next to the east doorway is the avocado-green refrigerator
+ your family has owned forever.
+    The cabinets seems to contain some other stuff.
+
+>hit dishes
+ Which dishes do you mean, the stack of clean dishes, or the stack of
+ dirty dishes?
+
+>dirty
+ Temper, temper.
+
+>push dirty dishes
+ Those dirty dishes are way too stuck together for you to be able to
+ move them around like that.
+
+>push clean dishes
+ You poke at the stack of clean dishes, which begins to sway back and
+ forth, back and forth.  You'd think they'd stop, but your house is
+ always shaking just the tiniest bit, and that must help keep them
+ moving.  They'll probably hit the ground before too much longer.
+
+>go east
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go north
+ Backyard
+    Normally the backyard is boring, but not tonight!  Tonight the lawn
+ has been crisped by the arrival of the silvery ship.  It sits there,
+ ramp down, gleaming under the bright backyard lights your dad installed
+ a while back.  Its shadow stretches across the brick patio and Weber
+ grill.  Your house is to the south.
+
+>undo
+ (Undoing one command)
+
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go east
+ Lived-in Room
+    The living room is the rumpled center of your home.  Comfy floral
+ furniture, a few shelves filled with knick-knacks, a window, two
+ parents, and a TV.  The hallway to the kitchen is west, and the
+ unimportant rest of your home (mentioned here merely for the sake of
+ completeness) is south.
+    Mom is here, knitting away.
+    Dad is slowly going through today's paper.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+ From the kitchen, you hear a tremendous clattering banging crash.
+ Something very bad has happened to your clean dishes, and something
+ even worse will probably happen to you if mom catches you.
+
+>wait
+ Time passes...
+
+ Mom jumps up, her knitting forgotten.  "What was that?"  she asks on
+ her way out the door.
+
+ Dad calls after her.  "Oh, probably a stack of dishes falling to the
+ floor and breaking."
+
+>take knick-knack
+ Dad says, "Don't mess with your mom's stuff."
+
+>take moments
+ Dad says, "Don't mess with your mom's stuff."
+
+>ask dad about grill
+ He lowers his paper, looks out at you from under beetle brows, and goes
+ back to reading.
+
+>tell dad about grill
+ He lowers his paper, looks out at you from under beetle brows, and goes
+ back to reading.
+
+>take knitting
+ I never learned the word "knitting" in school.
+
+>give all to dad
+ salad shooter:  Your dad rejects the offer.
+ red lid:  Your dad rejects the offer.
+ rain stick:  Your dad rejects the offer.
+ garden hose:  Your dad rejects the offer.
+ velvet Elvis:  Your dad rejects the offer.
+ stress ball:  Your dad rejects the offer.
+ ship map:  Your dad rejects the offer.
+
+>take dad
+ You can't have your dad.
+
+>go west
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go north
+ Backyard
+    Normally the backyard is boring, but not tonight!  Tonight the lawn
+ has been crisped by the arrival of the silvery ship.  It sits there,
+ ramp down, gleaming under the bright backyard lights your dad installed
+ a while back.  Its shadow stretches across the brick patio and Weber
+ grill.  Your house is to the south.
+
+>open grill
+ No thanks.  Last time dad cooked something in it, it almost exploded
+ from all the lighter fluid.  If you open it and get soot all over you,
+ you'll probably have to clean it.
+
+>turn on grill
+ Seeing as how that involves matches and burning and, most importantly,
+ opening the grill, you're better off giving this plan a miss.
+
+>push grill
+ You're still a little small to be pushing the Weber around.
+
+>search grill
+ You find nothing of interest.
+
+>look under grill
+ There's nothing under the Weber grill.
+
+>examine patio
+ Dad spent one summer putting it in.  He got the bricks from an old
+ house, so they were covered in mortar.  He offered you ten cents a
+ brick to scrape the mortar off--yeah, like you wanted to spend your
+ vacation working for the Man.  The Weber is on one side of the patio, a
+ free-standing faucet on the other.
+
+>attach hose to faucet
+ You screw one end of the hose onto the faucet.
+
+>turn on faucet
+ You turn on the faucet with a twist.  Water begins gushing from the far
+ end of the hose.
+
+>water ship
+ You forgot a verb, not to mention what you learned in English class.
+
+>hose ship
+ You forgot a verb, not to mention what you learned in English class.
+
+>take hose
+ You already have the garden hose!
+
+>clean ship
+ The silvery ship looks a bit cleaner now.
+
+>point hose at grill
+ If you want to spray something with the hose, just say so.
+
+>spray grill with hose
+ There really is no need to spray the Weber grill.
+
+>spray ship with hose
+ You send a jet of water towards the ship.  The water beads on the skin
+ of the ship, then rolls down onto the ground.
+
+>examine house
+ I never learned the word "house" in school.
+
+>examine window
+ I don't see no--I mean any--window here.
+
+>go south
+ Not until you either drop the hose or you detach it from the faucet.
+
+>look
+ Backyard
+    Normally the backyard is boring, but not tonight!  Tonight the lawn
+ has been crisped by the arrival of the silvery ship.  It sits there,
+ ramp down, gleaming under the bright backyard lights your dad installed
+ a while back.  Its shadow stretches across the brick patio and Weber
+ grill.  Your house is to the south.
+
+>spray me
+ I don't recognize that sentence.
+
+>spray ship
+ I don't recognize that sentence.
+
+>spray me with hose
+ There really is no need to spray yourself.
+
+>spray me with hose
+ There really is no need to spray yourself.
+
+>spray ship with hose
+ You send a jet of water towards the ship.  The water beads on the skin
+ of the ship, then rolls down onto the ground.
+
+>examine ship
+ It's much, much cooler close up.  The surface is all crinkly and
+ silvery.  The top and bottom are flat; the sides angle out, then back
+ in, and are ruffled.  On its back are two bumper stickers.  Its ramp
+ lies open like a big silver tongue; you can enter to the north.
+
+>put stress ball in salad shooter
+ You can't put anything into the salad shooter.
+
+>examine ramp
+ It leads into the ship.
+
+>examine hatch
+ I don't see no--I mean any--hatch here.
+
+>put hose on ramp
+ There's no good surface on the ramp.
+
+>put hose in ship
+ You can't put anything into the silvery ship.
+
+>put hose in grill
+ You can't put anything into the Weber grill.
+
+>examine patio
+ Dad spent one summer putting it in.  He got the bricks from an old
+ house, so they were covered in mortar.  He offered you ten cents a
+ brick to scrape the mortar off--yeah, like you wanted to spend your
+ vacation working for the Man.  The Weber is on one side of the patio, a
+ free-standing faucet on the other.
+
+>examine bricks
+ Dad spent one summer putting it in.  He got the bricks from an old
+ house, so they were covered in mortar.  He offered you ten cents a
+ brick to scrape the mortar off--yeah, like you wanted to spend your
+ vacation working for the Man.  The Weber is on one side of the patio, a
+ free-standing faucet on the other.
+
+>take brick
+ You can't have the brick patio.
+
+>spray patio with hose
+ There really is no need to spray the brick patio.
+
+>spray grill with hose
+ There really is no need to spray the Weber grill.
+
+>inventory
+ You have a salad shooter, a red lid, a rain stick, a garden hose, a
+ velvet Elvis, a stress ball, and a ship map.
+
+>examine map
+ The map shows the innards of the spaceship.  According to it, the
+ bridge lies to the north of the silver hallway, the rec room is
+ northwest of the hallway, the slumber chamber is northeast, the exam
+ room is southwest, and the hold is southeast from the hallway.
+
+>turn stick
+ You give the rain stick a turn, listening to the beads fall.
+
+>scrape mortar
+ I never learned the word "scrape" in school.
+
+>examine lights
+ Your dad's always adding this and that to the house, trying to improve
+ it.  A while back, he added these lights to the backyard, presumably
+ because he wanted to show the mosquitos where to gather.  The current
+ control for the lights is mounted below them.
+
+>examine control
+ It's just a knob to control how bright the lights get.  Right now it's
+ turned counterclockwise.
+
+>turn knob
+ You can turn the knob clockwise or counterclockwise.
+
+>turn knob clockwise
+ You twist the current control all the way clockwise.  The lights
+ brighten to the point that the backyard is more lit up than it is
+ during the day.
+
+>spray lights with hose
+ It's too far away.
+
+>look
+ Backyard
+    Normally the backyard is boring, but not tonight!  Tonight the lawn
+ has been crisped by the arrival of the silvery ship.  It sits there,
+ ramp down, gleaming under the harsh backyard lights your dad installed
+ a while back.  Its shadow stretches across the brick patio and Weber
+ grill.  Your house is to the south.
+
+>go south
+ Not until you either drop the hose or you detach it from the faucet.
+
+>drop hose
+ Dropped.
+
+ You are startled to see Zigurt come down the ramp, squinting and wiping
+ away tears.  Floban follows him, waving his tentacles about madly.
+ "What did I tell you?  The light out here has become unbearable.  How
+ do you expect me to concentrate on our plans with the sound of so many
+ photons bombarding our ship's repulso-field?"
+
+ "Your point is taken," Zigurt replies thoughtfully.  He brings out a
+ large ray gun, complete with flanges and doohickeys.  He braces its
+ barrel against one tentacle and fires at the lights.  With a FZOOM! a
+ shower of sparks falls from a nearby tree.
+
+ In response, Zigurt clears his throat and wipes his tearing eyes once
+ more.  "Somewhat...tricky..."  he mutters, taking aim once more.
+ FZOOM! and more sparks fly from the tree, followed by a very put-out
+ flock of nesting birds.
+
+ Zigurt is drawing a bead on the lights once more when something hits
+ one of them and breaks it with a quiet tinkle.  In the reduced glare,
+ both you and Zigurt turn to look at Floban, who has dropped a
+ tentaclefull of medium-sized rocks.  "Not for nothing was I on the
+ All-Solar team at the Academy," he says with a touch of pride.
+
+ "Indeed," says Zigurt as both cautiously detour around the
+ water-spewing hose and re-enter the ship.
+
+ [Your score has increased by 4 points.  You can turn these
+ notifications off at any time by typing NOTIFY.]
+
+>score
+ You have achieved a score of 4 points out of a possible 20 in 204
+ turns.
+
+>full score
+ I never learned the word "full" in school.
+
+>examine rocks
+ I never learned the word "rocks" in school.
+
+>look
+ Backyard
+    Normally the backyard is boring, but not tonight!  Tonight the lawn
+ has been crisped by the arrival of the silvery ship.  It sits there,
+ ramp down, gleaming under the bright backyard lights your dad installed
+ a while back.  Its shadow stretches across the brick patio and Weber
+ grill.  Your house is to the south.
+    You see a garden hose here.
+
+>go south
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>save
+>SAVE
+>cf4
+ Saved.
+
+ I never learned the word "cf4" in school.
+
+>SAVE
+>cf5
+ Saved.
+
+>look
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go west
+ Kitchen
+    You've spent many an hour at the kitchen sink, elbow-deep in suds,
+ staring out the window, ignoring the ugly appliances and dirty
+ cabinets.  A dismayingly large stack of dirty plates towers on one side
+ of the sink.  Next to the east doorway is the avocado-green
+ refrigerator your family has owned forever.
+    The cabinets seems to contain some other stuff.
+
+>go east
+ Hallway
+    A short hall lined with dark wood panelling.  It connects the
+ kitchen, to the west, with the living room, to the east.  The backyard
+ is north of here.
+
+>go east
+ Lived-in Room
+    The living room is the rumpled center of your home.  Comfy floral
+ furniture, a few shelves filled with knick-knacks, a window, two
+ parents, and a TV.  The hallway to the kitchen is west, and the
+ unimportant rest of your home (mentioned here merely for the sake of
+ completeness) is south.
+    Dad is slowly going through today's paper.
+    Mom is walking down the hall towards the living room.
+
+ Mom looks at you angrily.  You duck your head and scuffle one foot
+ against the floor.  "You know better than to run away and hide when
+ you've done something wrong," she says.  You turn beet red.  "To your
+ room, kid."  When she talks to you in that tone of voice, you know
+ better than to disobey.  Up the stairs you go, to await your eventual
+ punishment.
+
+ Of course, none of this matters much since the world ends some hours
+ later.
+
+ You have let the aliens win
+
+ You have achieved a score of 4 points out of a possible 20 in 209
+ turns.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.

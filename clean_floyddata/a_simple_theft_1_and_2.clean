@@ -1,0 +1,2061 @@
+>%quit
+>load simpletheftone
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+
+
+    Many years ago, when the Iron Branch was passed down from king to
+ king (instead of being a pile of rust in an overadorned urn), when
+ dragons walked the earth (instead of flying about like the maniacs
+ they are now), when Strongle was the God of Gods (instead of being,
+ well, I think the polite term is 'deposed')...  back when all of that
+ was taking place, magic had yet to be conquered by mere mortal man.
+
+    What's that got to do with you, you ask?  Well, since you're an
+ apprentice to one of those men who are trying to figure out how magic
+ works, you get to do all the dirty deeds.  Apparently, Apaman, the
+ loser you're apprenticed to, has gotten it into his head that the
+ Hestron (one of the jewels in the Sceptre of Charlten, a symbol of the
+ power of the Prince of Urf) is one of the keys to unlocking the
+ secrets.
+
+    He was kind enough to drag you to the Prince's castle, push you
+ into the coal chute, and tell you not to bother coming out without the
+ Hestron in your posession.
+
+
+
+ A Simple Theft:  An interactive larceny
+ Copyright 1999-2000 by Mark J. Musante.  All Rights Reserved
+ Serial No. 20000810, Release 3
+ Developed with TADS, the Text Adventure Development System.
+
+    Type 'credits' to see credits.
+
+ Coal Cellar
+    This cellar is dark -- mostly due to the coal dust which is
+ everywhere.  A faint light comes through an open doorway to the north.
+
+    You're startled briefly as the end of a rope pops out of the coal
+ chute.  But you pause and check your inventory, making sure you still
+ have the lockpick and the bag.
+
+>examine me
+ You look about the same as always.
+
+>inv
+ I don't know the word "inv".
+
+>inventory
+ You have a lockpick and a bag.
+
+>examine bag
+ It's a small black bag.  Apaman made it very clear that you were to
+ put the Hestron in this bag before bringing it out of the castle.
+
+>open bag
+ The bag is always open.
+
+>oopen bag
+ I don't know the word "oopen".
+
+>examine pick
+ It's your trusty lockpick.  Apaman said it would come in handy in the
+ castle.
+
+>take rope
+ Apaman is at the other end of it and, right now, it's your only means
+ of escape.  Those two facts taken together are enough for you to want
+ to leave the rope right where it is.
+
+>go north
+ Dimly Lit Hallway
+    This hallway runs east-west under the castle.  The only light comes
+ from far to the east, where you can hear noises.  To the south is an
+ open doorway through which the smell of coal seeps; to the west is
+ nothing but inky darkness.
+    You see a coal shovel here.
+
+>take shovel
+ Taken.
+
+>search coal
+ You find nothing of interest.
+
+>examine shovel
+ It's used for shovelling coal.
+
+>shovel coal
+ (with the coal shovel)
+ I don't know how to dig in the coal shovel.
+
+>go south
+ Coal Cellar
+
+>shovel coal
+ (with the coal shovel)
+ You dig around in the coal a bit, but find nothing.
+
+>verbose
+ Okay, now in VERBOSE mode.
+ Coal Cellar
+    This cellar is dark -- mostly due to the coal dust which is
+ everywhere.  A faint light comes through an open doorway to the north.
+ Dangling from the coal chute in the corner is a dirty rope.
+
+>go north
+ Dimly Lit Hallway
+    This hallway runs east-west under the castle.  The only light comes
+ from far to the east, where you can hear noises.  To the south is an
+ open doorway through which the smell of coal seeps; to the west is
+ nothing but inky darkness.
+
+>go west
+ Storage Room
+    This room is piled high with various trinkets and whatnot that the
+ kings of old (and of new) have gotten as gifts from visiting nobles.
+ Of course they're worth fortunes, all.  But what good is a fortune to
+ a king?
+    A small door in the north wall catches your eye, however.
+
+>examine me
+ You look about the same as always.
+
+>take all
+ I don't see what you're referring to.
+
+>examine gifts
+ Everything here is so incredibly valuable, you couldn't even guess as
+ to its worth.
+
+>examine trinkets
+ Everything here is so incredibly valuable, you couldn't even guess as
+ to its worth.
+
+>examine door
+ You wonder what sort of things need to be locked away, given the
+ extreme value which lies all around you.
+
+>examine door
+ You wonder what sort of things need to be locked away, given the
+ extreme value which lies all around you.
+
+>take gifts
+ The trinkets aren't important.
+
+>pick lock
+ (with the lockpick)
+ You try as best you can, but the lock remains impervious to your
+ efforts.  Must be some lock.
+
+>examine lock
+ You wonder what sort of things need to be locked away, given the
+ extreme value which lies all around you.
+
+>kick door in frustration
+ I don't know the word "kick".
+
+>examine door
+ You wonder what sort of things need to be locked away, given the
+ extreme value which lies all around you.
+
+>examine lock
+ You wonder what sort of things need to be locked away, given the
+ extreme value which lies all around you.
+
+>attack door
+ (with the coal shovel)
+ You attack the door with all your might, but you get nowhere.
+
+>examine lockpick
+ It's your trusty lockpick.  Apaman said it would come in handy in the
+ castle.
+
+>l in keyhole
+ I don't know the word "keyhole".
+
+>pick nose
+ I don't know the word "nose".
+
+>search gifts
+ The trinkets aren't important.
+
+>go west
+ You can't go that way.
+
+>go east
+ Dimly Lit Hallway
+    This hallway runs east-west under the castle.  The only light comes
+ from far to the east, where you can hear noises.  To the south is an
+ open doorway through which the smell of coal seeps; to the west is
+ nothing but inky darkness.
+
+>go east
+ Guard Room
+    This room is rather small, considering it has to fit a table and
+ chairs.  Eastward is a doorway, and a hallway stretches out to the
+ west.
+    A burly guard is here.
+ The guard swings around towards you and draws his sword!
+
+>examine guard
+ A short, stout man.  He eyes you warily.  The guard brings his sword
+ up, swings it down and slices you through!
+
+ *** You have been sliced through. ***
+
+ In a total of 32 turns, you have achieved a score of 0 points out of a
+ possible 25.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ Guard Room
+    This room is rather small, considering it has to fit a table and
+ chairs.  Eastward is a doorway, and a hallway stretches out to the
+ west.
+    A burly guard is here.
+
+>hit guard with shovel
+ You swing the shovel at the guard and strike a lucky blow!  The guard
+ falls down dead, his sword clattering to the ground.
+
+>get sword
+ Taken.
+
+>wield sword
+ I don't know the word "wield".
+
+>look
+ Guard Room
+    This room is rather small, considering it has to fit a table and
+ chairs.  Eastward is a doorway, and a hallway stretches out to the
+ west.
+    You see a dead guard here.
+
+>search guard
+ Ugh.  You fiddle around in the guard's clothing, but find nothing of
+ interest.
+
+>examine table
+ The tables and chairs are for the guards' use only.  Of course, the
+ only guard that you've seen is hardly in need of them any longer.
+
+>sit in chair
+ The furniture isn't important.
+
+>examine table
+ The tables and chairs are for the guards' use only.  Of course, the
+ only guard that you've seen is hardly in need of them any longer.
+
+>examine doorway
+ It opens eastward.
+
+>go east
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead upward.  A doorway beckons to the west.
+
+>examine sword
+ It's a shortsword.  Suitable for swinging in narrow corridors.
+
+>examine stairs
+ They lead the way up.
+
+>go up
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead downward.  A doorway beckons to the east.
+
+>examine stairs
+ They lead the way down.
+
+>go east
+ You start to step out into the main hallway.
+    Unfortunately, the glint of your sword catches the eye of a passing
+ guard.
+    "Halt!"  he cries out.
+    You drop the sword and start running away.  Unfortunately you're
+ not faster than the arrow sent after you.
+
+ *** You have been shot by an arrow. ***
+
+ In a total of 44 turns, you have achieved a score of 10 points out of
+ a possible 25.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead downward.  A doorway beckons to the east.
+
+>inventory
+ You have a lockpick, a bag, a coal shovel, and a sword.
+
+>drop sword
+ Dropped.
+
+>take sword
+ Taken.
+
+>go down
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead upward.  A doorway beckons to the west.
+
+>go west
+ Guard Room
+    This room is rather small, considering it has to fit a table and
+ chairs.  Eastward is a doorway, and a hallway stretches out to the
+ west.
+    You see a dead guard here.
+
+>go west
+ Dimly Lit Hallway
+    This hallway runs east-west under the castle.  The only light comes
+ from far to the east, where you can hear noises.  To the south is an
+ open doorway through which the smell of coal seeps; to the west is
+ nothing but inky darkness.
+
+>go south
+ Coal Cellar
+    This cellar is dark -- mostly due to the coal dust which is
+ everywhere.  A faint light comes through an open doorway to the north.
+ Dangling from the coal chute in the corner is a dirty rope.
+
+>put dust on sword
+ The dust isn't important.
+
+>put sword in coal
+ You can't put anything into the coal.
+
+>blacken sword
+ I don't know the word "blacken".
+
+>drop sword
+ Dropped.
+
+>take sword
+ Taken.
+
+>examine sword
+ It's a shortsword.  Suitable for swinging in narrow corridors.
+
+>rub coal on sword
+ I don't know the word "rub".
+
+>drop sword in coal
+ I don't recognize that sentence.
+
+>put coal on sword
+ You can't put the coal anywhere.
+
+>take coal
+ You can't have the coal.
+
+>put dust on sword
+ The dust isn't important.
+
+>hide sword
+ I don't know the word "hide".
+
+>put sword in bag
+ You can't fit that in the bag.
+
+>swallow sword
+ I don't know the word "swallow".
+
+>go north
+ Dimly Lit Hallway
+    This hallway runs east-west under the castle.  The only light comes
+ from far to the east, where you can hear noises.  To the south is an
+ open doorway through which the smell of coal seeps; to the west is
+ nothing but inky darkness.
+
+>inventory
+ You have a lockpick, a bag, a coal shovel, and a sword.
+
+>examine shovel
+ It's used for shovelling coal.  Also killing, apparently.
+
+>go east
+ Guard Room
+    This room is rather small, considering it has to fit a table and
+ chairs.  Eastward is a doorway, and a hallway stretches out to the
+ west.
+    You see a dead guard here.
+
+>go east
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead upward.  A doorway beckons to the west.
+
+>go up
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead downward.  A doorway beckons to the east.
+
+>drop sword
+ Dropped.
+
+>go east
+ You start to step out into the main hallway.
+ Unforunately, the shovel gives your presence away.
+    "Oy!  Coalboy!"  you hear someone shout.  You turn and look to see
+ someone rushing towards you.  "Back in the cellar with ye," the guard
+ says as he draws near.  Unceremoniously, he pushes you back down the
+ stairs.
+
+ *thump*
+
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead upward.  A doorway beckons to the west.
+
+>drop shovel
+ Dropped.
+
+>go up
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead downward.  A doorway beckons to the east.
+    You see a sword here.
+
+>go east
+ You start to step out into the main hallway.  Corridor
+    You try to blend into the shadows in what appears to be a major
+ corridor in the castle.  If you're caught here, you'll surely be
+ killed.  The doorway to the stairwell you came up through is off to
+ the west.  From what your master Apaman told you, you need to go
+ southeast from here to find the Magister of Keys' chambers.
+
+>sneak
+ I don't know the word "sneak".
+
+>fire moss arrow
+ I don't know the word "fire".
+
+>hide
+ I don't know the word "hide".
+
+>se
+ You make your way down the corridor, keeping to the shadows as much as
+ possible until you find yourself arriving...
+
+ Outside the Magister's Quarters
+    The door to the south has got the Magister of Keys' emblem, a
+ keyring, on.  It must be his door.  The corridor continues on to the
+ southeast.
+
+>examine emblem
+ It's the blue and gold keyring, the symbol of the Magister of Keys.
+
+>examine door
+ It's closed and locked.
+
+>examine lock
+ It's closed and locked.
+
+>pick lock
+ (with the lockpick)
+ You fiddle with the lock for a bit and it springs open!
+
+>search door
+ It's closed.
+
+>open door
+ Opened.
+
+>examine door
+ It's open.
+
+>l s
+ I don't understand that sentence.
+
+>go south
+ Magister of Keys' Quarters
+    Keys, keys everywhere and not a drop to drink.  Erm.  Anyway, the
+ walls all seem completely covered with keys of all shapes and sizes.
+ How are you to decide which is the one to the treasure vault?
+
+>count keys
+ I don't know the word "count".
+
+>examine keys
+ Hundreds and hundreds of keys line the entire room, keys of all shapes
+ and sizes.  You gotcher big keys and your small keys, your red keys
+ and your blue keys.  The only thing that seems even remotely distinct
+ is the jeweled box.
+
+>examine box
+ This ornately jeweled box has a crystal pane with a beautiful
+ decoration covering up the contents.
+
+>examine decoration
+ This ornately jeweled box has a crystal pane with a beautiful
+ decoration covering up the contents.
+
+>count keys
+ I don't know the word "count".
+
+>open box
+ You'll have to unlock it first.
+
+>examine pane
+ This ornately jeweled box has a crystal pane with a beautiful
+ decoration covering up the contents.
+
+>unlock box
+ (with the lockpick)
+ You fiddle with the lock on the box for a bit, but it doesn't yield to
+ your ministrations.
+
+>pick lock
+ (with the lockpick)
+ You can't pick that.
+
+>take box
+ Taken.
+
+>search keys
+ You spend a long time looking around at the various keys, but none of
+ them looks like the right one.
+
+>break box
+ You'll have to tell me how to do that.
+
+>examine decoration
+ This ornately jeweled box has a crystal pane with a beautiful
+ decoration covering up the contents.
+
+>put box in bag
+ Done.
+
+>out
+ Outside the Magister's Quarters
+    The door to the south has got the Magister of Keys' emblem, a
+ keyring, on.  It must be his door.  The corridor continues on to the
+ southeast.
+
+>se
+ You'd best stick to your current plan, lest Apaman find out and
+ perform nasty experiments on you.
+
+>examine keyring
+ It's the blue and gold keyring, the symbol of the Magister of Keys.
+
+>get keyring
+ You can't have the Magister of Keys' emblem.
+
+>get emblem
+ You can't have the Magister of Keys' emblem.
+
+>go northwest
+ Corridor
+    You try to blend into the shadows in what appears to be a major
+ corridor in the castle.  If you're caught here, you'll surely be
+ killed.  The doorway to the stairwell you came up through is off to
+ the west.  Based on your experience, the Magister of Keys' chambers
+ are down the corridor to the southeast.
+
+>go west
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead downward.  A doorway beckons to the east.
+    You see a sword here.
+
+>get sword
+ Taken.
+
+>go down
+ Stairwell
+    A cold, dank stairwell houses, unsurprisingly, some stairs.  They
+ lead upward.  A doorway beckons to the west.
+    You see a coal shovel here.
+
+>take shovel
+ Taken.
+
+>hit box with sword
+ You lift up one end of the sword and smash it into the crystal pane.
+ iCrash!  Shards fly everywhere, but the box's contents are now
+ accessible.
+
+>examine box
+ This once ornate box has been unceremoniously smashed in by an
+ assailant.  How unseemly.  In the box you can see a dull brass key.
+
+>take key
+ Taken.
+
+>examine key
+ It's completely nondescript.  Dull and scratched, it has seen many
+ years of use.
+
+>go west
+ Guard Room
+    This room is rather small, considering it has to fit a table and
+ chairs.  Eastward is a doorway, and a hallway stretches out to the
+ west.
+    You see a dead guard here.
+
+>go west
+ Dimly Lit Hallway
+    This hallway runs east-west under the castle.  The only light comes
+ from far to the east, where you can hear noises.  To the south is an
+ open doorway through which the smell of coal seeps; to the west is
+ nothing but inky darkness.
+
+>go west
+ Storage Room
+    This room is piled high with various trinkets and whatnot that the
+ kings of old (and of new) have gotten as gifts from visiting nobles.
+ Of course they're worth fortunes, all.  But what good is a fortune to
+ a king?
+    A small door in the north wall catches your eye, however.
+
+>unlock door with key
+ Unlocked.
+
+>open door
+ Opened.
+
+>l n
+ I don't understand that sentence.
+
+>examine door
+ You wonder what sort of things need to be locked away, given the
+ extreme value which lies all around you.
+
+>go north
+ Private Vault
+    You're in!  This is the prince's private vault.  Very few items are
+ valuable enough to be horded away like this, the Hestron being one of
+ them.  Along the northern wall is a shelf on which all the fancy items
+ are stored.  To the south lies a doorway, and freedom.
+
+>examine shelf
+ On the shelf you see the Sceptre of Charlten, the Crown of Strongle,
+ and the Cube of Dyosthenius.
+
+>examine cube
+ Not quite as old as the Crown of Strongle, this jewelled cube was
+ commissioned by Teorlor Gayrge, eighth Prince of Urf, to commemorate
+ the 20th anniversary of his wife's untimely passing.
+
+>examine crown
+ This was said to be given by Strongle himself to the first King of the
+ Northlands.  One of the princes of Urf raided that King's castle and
+ stole it, presumeably because of its history.  Certainly not for its
+ beauty.  And now here it lies, on a dusty shelf in a hidden vault.
+
+>examine sceptre
+ Wow.  It's really the sceptre!  Diamonds and rubies adorn its side
+ and, sitting proudly on top, is the actual Hestron.
+
+>take sceptre
+ You've already got your hands full.
+
+>inventory
+ You have a lockpick, a bag, a sword, a coal shovel, and a dull brass
+ key.  The bag seems to contain a jeweled box.
+
+>drop shovel
+ Dropped.
+
+>put lockpick in bag
+ Done.
+
+>take sceptre
+ Taken.
+
+>take crown
+ You've already got your hands full.
+
+>wear crown
+ You can't wear the Crown of Strongle.
+
+>wear crown
+ You can't wear the Crown of Strongle.
+
+>put sceptre in bag
+ You can't fit that in the bag.
+
+>drop key
+ Dropped.
+
+>take crown
+ You've already got your hands full.
+
+>drop sword
+ Dropped.
+
+>get crown
+ Taken.
+
+>wear crown
+ You can't wear the Crown of Strongle.
+
+>examine crown
+ This was said to be given by Strongle himself to the first King of the
+ Northlands.  One of the princes of Urf raided that King's castle and
+ stole it, presumeably because of its history.  Certainly not for its
+ beauty.  And now here it is, in your greedy little hands.
+
+>take hestron
+ You pop the Hestron loose from the sceptre.
+
+>examine hestron
+ The Hestron is a huge diamond, about the size of your fist, and has
+ swirls of red and aquamarine running through.  It's said that the day
+ when Rinnor, the god-king, stole the sun and hid it in his mountain
+ lair, the Hestron was formed from the sun's light trying to escape
+ from underground.
+
+>put hestron in bag
+ Done.
+
+>take crown
+ You already have the Crown of Strongle!
+
+>take cube
+ You've already got your hands full.
+
+>inventory
+ You have a bag, the Sceptre of Charlten, and the Crown of Strongle.
+ The bag seems to contain a jeweled box, a lockpick, and the Hestron.
+
+>put crown in bag
+ You can't fit that in the bag.
+
+>examine bag
+ It's a small black bag.  Apaman made it very clear that you were to
+ put the Hestron in this bag before bringing it out of the castle.
+
+>go south
+ As you pass through the door alarm bells go off!  There must have been
+ some magic guarding the Sceptre of Charlten!  Dozens of guards
+ converge on you and hack you to pieces.
+
+    Of course, the Magister of Keys' fate is no worse than yours,
+ having allowed a common thief access to the Princes' private vault.
+ But that fact is of little consolation to you now.
+
+ *** You have been hacked to pieces. ***
+
+ In a total of 140 turns, you have achieved a score of 25 points out of
+ a possible 25.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ Private Vault
+    You're in!  This is the prince's private vault.  Very few items are
+ valuable enough to be horded away like this, the Hestron being one of
+ them.  Along the northern wall is a shelf on which all the fancy items
+ are stored.  To the south lies a doorway, and freedom.
+    You see a coal shovel, a dull brass key, and a sword here.
+
+>drop all except bag
+ Sceptre of Charlten:  Dropped.
+ Crown of Strongle:  Dropped.
+
+>take sword
+ Taken.
+
+>go south
+ Storage Room
+    This room is piled high with various trinkets and whatnot that the
+ kings of old (and of new) have gotten as gifts from visiting nobles.
+ Of course they're worth fortunes, all.  But what good is a fortune to
+ a king?
+    A small door in the north wall catches your eye, however.
+
+>go east
+ Dimly Lit Hallway
+    This hallway runs east-west under the castle.  The only light comes
+ from far to the east, where you can hear noises.  To the south is an
+ open doorway through which the smell of coal seeps; to the west is
+ nothing but inky darkness.
+
+>go south
+ Coal Cellar
+    This cellar is dark -- mostly due to the coal dust which is
+ everywhere.  A faint light comes through an open doorway to the north.
+ Dangling from the coal chute in the corner is a dirty rope.
+
+>go up
+ You climb up the rope.  Apaman is there ready to greet you.
+    "Have you got it?"  he asks excitedly.
+    Wordlessly, you place the small bag into his eager, outstretched
+ hand.  Apaman reaches into the bag and pulls out a jeweled box.
+ "What's this?"  Apaman asks.  "Why is this in the bag?"  He throws the
+ jeweled box at you and reaches in again, pulling out a lockpick.
+ Apaman grows angry.  "This is NOT a Game, stupid cob!"  He slaps you
+ across the face.  Reaching in a third time, he pulls out the Hestron,
+ at last.  Apaman growels at you, "That's the end of your trickster
+ days, fool.  You are no longer my apprentice."  He turns and leaves
+ you where you stand.
+
+ *** You have finished. ***
+
+ In a total of 145 turns, you have achieved a score of 25 points out of
+ a possible 25.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ Coal Cellar
+    This cellar is dark -- mostly due to the coal dust which is
+ everywhere.  A faint light comes through an open doorway to the north.
+ Dangling from the coal chute in the corner is a dirty rope.
+
+>get all from bag
+ jeweled box:  Taken.
+ lockpick:  Taken.
+ Hestron:  Taken.
+
+>put hestron in bag
+ Done.
+
+>drop all except bag
+ sword:  Dropped.
+ jeweled box:  Dropped.
+ lockpick:  Dropped.
+
+>get lockpick
+ Taken.
+
+>go up
+ You climb up the rope.  Apaman is there ready to greet you.
+    "Have you got it?"  he asks excitedly.
+    Wordlessly, you place the small bag into his eager, outstretched
+ hand.  He reaches into the the bag and withdraws the Hestron.
+ Blinking once, twice in the moonlight, hardly daring to believe, he
+ stares at it.  Finally, reality sets in and his gaze returns to you.
+    "Let's go now," he says, gruffly.  He leads you back to the place
+ you sarcastically call home.  You're not sure if the Hestron really is
+ the key to unlocking magic like Apaman says, but you do feel a subtle
+ difference in the way he's treating you.
+    Could it be that he's beginning to show you the slightest hint of a
+ modicum of respect?
+
+ *** You have won. ***
+
+ In a total of 149 turns, you have achieved a score of 25 points out of
+ a possible 25.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+ Please enter RESTORE, RESTART, QUIT, UNDO, or see some AMUSING things
+>inventory
+ Please enter RESTORE, RESTART, QUIT, UNDO, or see some AMUSING things
+>amusing
+ Things to try:
+ ...eating the key (thanks Jota!)
+ ...putting extra things in the bag with the hestron
+       (and then giving it to Apaman)
+ ...kissing the guard
+ ...decapitating the corpse
+ ...entering 'xyzzy' multiple times
+ ...examining the shovel before and after killing the guard
+ ...taking the hestron out of the bag before giving it to Apaman
+ ...running away from the guard
+ ...eating the corpse
+
+ Please enter RESTORE, RESTART, QUIT, UNDO, or see some AMUSING things
+>undo
+ (Undoing one command)
+
+ Coal Cellar
+    This cellar is dark -- mostly due to the coal dust which is
+ everywhere.  A faint light comes through an open doorway to the north.
+ Dangling from the coal chute in the corner is a dirty rope.
+    You see a sword and a jeweled box here.
+
+>xyzzy
+ Oh, stop that.
+
+>xyzzy
+ No, really, stop it.
+
+>xyzzy
+ That sort of magic hasn't been figured out yet.
+
+>xyzzy
+ Don't get me angry.  You won't like me when I'm angry.
+
+>xyzzy
+ OK, perhaps you WILL like me when I'm angry.
+
+>xyzzy
+ Oh, bother.  I haven't been programmed to get angry.
+
+>xyzzy
+ You're just going to keep trying until I run out of responses, aren't
+ you?
+
+>xyzzy
+ OK, this is my last response.  Ta-ta.
+
+>xyzzy
+ Really, that was.  Honest.  No more interesting responses here.  Move
+ along, move along.
+
+>xyzzy
+ Whenever you're ready to get on with the game...
+
+>xyzzy
+ Sigh.
+
+>xyzzy
+ Sigh.
+
+>xyzzy
+ Sigh.
+
+>go south
+ You can't go that way.
+
+>go north
+ Dimly Lit Hallway
+    This hallway runs east-west under the castle.  The only light comes
+ from far to the east, where you can hear noises.  To the south is an
+ open doorway through which the smell of coal seeps; to the west is
+ nothing but inky darkness.
+
+>get jewel from bag
+ Taken.
+
+>go east
+ Guard Room
+    This room is rather small, considering it has to fit a table and
+ chairs.  Eastward is a doorway, and a hallway stretches out to the
+ west.
+    You see a dead guard here.
+
+>eat corpse
+ I'm only a computer and, yet, I find you most disturbing.
+
+>kiss corpse
+ Ew!
+
+>decaptitate corpse
+ I don't know the word "decaptitate".
+
+>decapitate corpse
+ Please restrain your bloodlust.  You're here for theiving, not for
+ gore.
+
+>eat key
+ I don't see any key here.
+
+>lick corpse
+ I don't know the word "lick".
+
+>eat hestron
+ The Hestron doesn't appear appetizing.
+
+>resurrect corpse
+ I don't know the word "resurrect".
+
+>take corpse
+ Good grief.  Even if you COULD lift it, what would you want with a
+ corpse?
+
+>look
+ Guard Room
+    This room is rather small, considering it has to fit a table and
+ chairs.  Eastward is a doorway, and a hallway stretches out to the
+ west.
+    You see a dead guard here.
+
+>go west
+ Dimly Lit Hallway
+    This hallway runs east-west under the castle.  The only light comes
+ from far to the east, where you can hear noises.  To the south is an
+ open doorway through which the smell of coal seeps; to the west is
+ nothing but inky darkness.
+
+>go south
+ Coal Cellar
+    This cellar is dark -- mostly due to the coal dust which is
+ everywhere.  A faint light comes through an open doorway to the north.
+ Dangling from the coal chute in the corner is a dirty rope.
+    You see a sword and a jeweled box here.
+
+>go up
+ You climb up the rope.  Apaman is there ready to greet you.
+    "Have you got it?"  he asks excitedly.
+    Wordlessly, you place the Hestron into his eager, outstretched
+ hand.  He blinks once, twice in the moonlight, hardly daring to
+ believe.
+    Finally, the reality of it set in and his gaze returns to you and
+ your now grimy features.
+    "Stupid Cob!"  he chasties you.  "I told you to keep the Hestron in
+ the bag! You could have been caught.  Lucky for you that you weren't.
+    "Let's go now," he says, gruffly.  He leads you back to the place
+ you sarcastically call home.  You're not sure if the Hestron really is
+ the key to unlocking magic like Apaman says, but you do feel a subtle
+ difference in the way he's treating you.
+    Could it be that he's beginning to show you the slightest hint of a
+ modicum of respect?
+
+ *** You have won. ***
+
+ In a total of 174 turns, you have achieved a score of 25 points out of
+ a possible 25.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+ Please enter RESTORE, RESTART, QUIT, UNDO, or see some AMUSING things
+>quit
+>load simpletheft2
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Many years ago, when the Iron Branch was passed down from king to king
+ (instead of being a pile of rust in an overadorned urn), when dragons
+ walked the earth (instead of flying about like the maniacs they are
+ now), when Strongle was the God of Gods (instead of being, well, I
+ think the polite term is "deposed")... back when all of that was
+ taking place, magic had yet to be conquered by mere mortal man.
+
+ What's that got to do with you, you ask?  Well, since you're an
+ apprentice to one of those men who are trying to figure out how magic
+ works, you get to do all the dirty deeds.
+
+ A few weeks ago, Apaman (the loser you're apprenticed to) had sent you
+ to recover the Hestron (one of the jewels in the Sceptre of Charlten).
+ Despite your success on that mission, Apaman is not treating you any
+ better.  Your best guess is that many of the Hestron's secrets remain
+ hidden to him, and he's taking his frustrations out on the nearest
+ convenient target.
+
+ Now he's learnt about something that may help him unlock those
+ secrets, and has sent you on another mission: to retrieve the sky rock
+ from the north tower of Fossen Festning, a fortress built into the
+ side of a mountain beside a large waterfall.  All you've brought with
+ you is a dark cloak and an old grappling hook that Apaman was generous
+ enough to loan to you.  All you need to bring out is the sky rock.
+
+ Good luck with that.
+
+ A Simple Theft 2: A Simple Theftier
+ An Interactive Larceny by Mark J. Musante
+ Release 1 / Serial number 100111 / Inform 7 build 5Z71 (I6/v6.31 lib
+ 6/12N)
+
+ Type "credits" to see credits.
+
+
+ Beneath the North Tower
+ A dark tower rises high above you, lit dimly in the cloud-obscured
+ moonlight. The sound of a waterfall is nearby but somewhat muted by
+ the high walls of the fortress. To your south is the main courtyard,
+ and directly west of you is the face of the cliff into which the
+ fortress was built.
+
+>inventory
+ You are carrying:
+   a dark cloak (being worn)
+   a grappling hook
+
+>be the night
+ That's not a verb I recognise.
+
+>examine cliff
+ Rising higher than the tower itself, the mountainside has been carved
+ away here to make room for the fortress.  The marks from the builders'
+ tools have not yet worn away, despite the age of this place.
+
+>examine tower
+ The tower is made of a bright, almost perfectly white, stone. The
+ scant moonlight that filters through the thin clouds overhead allows
+ you to just make out its shape.  Far above you is the lowest window in
+ the tower, just wide enough for an archer to use.  There don't appear
+ to be any entrances on this side, and it appears too dangerous, too
+ well-lit, to walk around it to the north.
+
+>listen waterfall
+ I only understood you as far as wanting to listen.
+
+>appreciate waterfall
+ That's not a verb I recognise.
+
+>drink water
+ You can't see any such thing.
+
+>use grappling hook on window
+ That's not a verb I recognise.
+
+>examine hook
+ You're lucky that Apaman has let you have at least this much
+ equipment, even if he wouldn't let you bring a sword or even a knife.
+ It is attached to a modest length of rope.
+
+>throw hook at window
+ You expertly spin the hook on its rope, gathering momentum, and
+ release! The hook noisily clatters against the side of the tower, well
+ below the window, and falls with a thud to the ground.  The rope isn't
+ long enough.  You gather it all back up and nervously look around for
+ approaching guards.
+
+>wait
+ Time passes.
+
+>shimmy up tower
+ That's not a verb I recognise.
+
+>go south
+
+ Central Courtyard
+ Completely covered in cobblestones, the central courtyard is an
+ enormous place, used for assembling the troops and greeting royalty.
+ A large entryway is topped by an enormous stone arch.  It leads to the
+ east where, hidden somewhere beyond the outer portcullis, Apaman
+ awaits your return.  To the south and to the north rise the two
+ watchtowers, and it is in the northern one that Apaman believes the
+ star rock to be.  West is the entrance to the Festning itself, dug out
+ of the rock of this mountain. Although you're hiding as best as you
+ can in the shadows, it's dangerous to remain here long.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>again
+ Time passes.
+
+ You hear a shout come from somewhere high above you, but you couldn't
+ make out any words.
+
+>dance
+ That's not a verb I recognise.
+
+>sing
+ As good as your voice is, at the moment you prefer not to draw too
+ much attention to yourself.
+
+ You hear someone running, but you can't tell which direction it's
+ coming from, and you can't tell the direction it's moving.
+
+>wait
+ Time passes.
+
+ A single guard emerges from the Festing entrance!  "Halt!" he shouts,
+ running directly at you.
+
+>cry
+ That's not a verb I recognise.
+
+>examine cloak
+ You put this on before you came to the Festning, hoping mightily that
+ it would help you blend into the shadows.
+
+ The guard reaches you, and clonks you over the head.  You black out.
+ By the time you black back in again, it's all over.
+
+
+
+     *** You have been captured ***
+
+
+ In that game you scored 0 out of a possible 25, in 13 turns.
+
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>undo
+ Central Courtyard
+ [Previous turn undone.]
+
+>hit guard with shovel
+ I only understood you as far as wanting to hit the guard.
+
+>hit guard
+ You make your best attempt to overcome the guard, but he is not
+ impressed. Instead, he overcomes you.
+
+
+
+     *** You have been captured ***
+
+
+ In that game you scored 0 out of a possible 25, in 13 turns.
+
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>restart
+
+
+
+
+
+
+
+
+ Many years ago, when the Iron Branch was passed down from king to king
+ (instead of being a pile of rust in an overadorned urn), when dragons
+ walked the earth (instead of flying about like the maniacs they are
+ now), when Strongle was the God of Gods (instead of being, well, I
+ think the polite term is "deposed")... back when all of that was
+ taking place, magic had yet to be conquered by mere mortal man.
+
+ What's that got to do with you, you ask?  Well, since you're an
+ apprentice to one of those men who are trying to figure out how magic
+ works, you get to do all the dirty deeds.
+
+ A few weeks ago, Apaman (the loser you're apprenticed to) had sent you
+ to recover the Hestron (one of the jewels in the Sceptre of Charlten).
+ Despite your success on that mission, Apaman is not treating you any
+ better.  Your best guess is that many of the Hestron's secrets remain
+ hidden to him, and he's taking his frustrations out on the nearest
+ convenient target.
+
+ Now he's learnt about something that may help him unlock those
+ secrets, and has sent you on another mission: to retrieve the sky rock
+ from the north tower of Fossen Festning, a fortress built into the
+ side of a mountain beside a large waterfall.  All you've brought with
+ you is a dark cloak and an old grappling hook that Apaman was generous
+ enough to loan to you.  All you need to bring out is the sky rock.
+
+ Good luck with that.
+
+ A Simple Theft 2: A Simple Theftier
+ An Interactive Larceny by Mark J. Musante
+ Release 1 / Serial number 100111 / Inform 7 build 5Z71 (I6/v6.31 lib
+ 6/12N)
+
+ Type "credits" to see credits.
+
+
+ Beneath the North Tower
+ A dark tower rises high above you, lit dimly in the cloud-obscured
+ moonlight. The sound of a waterfall is nearby but somewhat muted by
+ the high walls of the fortress. To your south is the main courtyard,
+ and directly west of you is the face of the cliff into which the
+ fortress was built.
+
+>go south
+
+ Central Courtyard
+ Completely covered in cobblestones, the central courtyard is an
+ enormous place, used for assembling the troops and greeting royalty.
+ A large entryway is topped by an enormous stone arch.  It leads to the
+ east where, hidden somewhere beyond the outer portcullis, Apaman
+ awaits your return.  To the south and to the north rise the two
+ watchtowers, and it is in the northern one that Apaman believes the
+ star rock to be.  West is the entrance to the Festning itself, dug out
+ of the rock of this mountain. Although you're hiding as best as you
+ can in the shadows, it's dangerous to remain here long.
+
+>go south
+ Apaman was very clear: the star rock is in the top of the north tower,
+ and nowhere near, in, over, under, behind, or around the south tower.
+ He made you go over the points of the compass too many times for you
+ to get it wrong now. "What's this?" he'd ask.  "East," you'd say. "And
+ if I turn this way?" he'd ask. "South by southwest," you'd respond.
+ And then you'd get smacked in the ear-hole for getting it wrong.
+
+>go east
+ Depart before you've acquired the star rock?  Apaman would... well,
+ you're not sure what he would do, but it wouldn't be at all nice.
+
+>go west
+ Entering the fortress itself?  Now that would be foolish.
+
+ You hear a shout come from somewhere high above you, but you couldn't
+ make out any words.
+
+>Always On My Mind.
+ That's not a verb I recognise.
+
+>go north
+
+ Beneath the North Tower
+ A dark tower rises high above you, lit dimly in the cloud-obscured
+ moonlight. The sound of a waterfall is nearby but somewhat muted by
+ the high walls of the fortress. To your south is the main courtyard,
+ and directly west of you is the face of the cliff into which the
+ fortress was built.
+
+>go north
+ You start to make your way around and see the entrance to the tower,
+ but you notice that someone else is in the shadows.  A guard, lying in
+ wait, perhaps? You dare not chance it, and so you return.
+
+>go down
+ You can't go that way.
+
+ You momentarily freeze as you hear a guard approaching. You spot a
+ good shadow, trying to blend in, and the guard moves on to a different
+ part of the Festning.
+
+>examine rope
+ A modest length of rope, tied firmly to a grappling hook.
+
+>examine waterfall
+ Although you can't see it, you can definitely hear the roar of the
+ waterfall.  Its one advantage to you is that it's noisy enough to
+ cover most mistakes a novice thief such as yourself would make.
+
+>go north
+ You start to make your way around and see the entrance to the tower,
+ but you notice that someone else is in the shadows.  A guard, lying in
+ wait, perhaps? You dare not chance it, and so you return.
+
+>go west
+ You can't go that way.
+
+>climb cliff
+ You look up at the steep cliff face and try not to imagine what would
+ happen if you fell down. You attempt to get a finger-hold on the
+ cliff's face, but you don't get much more than a foot or two up the
+ side before failing.  You jump back down, and the grappling hook
+ thumps painfully against your bottom.
+
+>throw hook at cliff
+ You expertly spin the hook on its rope, gathering momentum, and
+ release! The hook sails through the air and clanks against the side of
+ the cliff.  It starts sliding down, but it catches on a small
+ protrusion of rock!  The rope comes to a rest on the side of the
+ cliff.
+
+>climb rope
+ Grabbing the end of the rope, you offer up a silent and very quick
+ prayer. You pull the rope taut and make your way up the cliff's face.
+ Upon reaching the top of the rope, you wriggle the grappling hook free
+ of the cliff and look around.
+
+ Cliff Face
+ Too far down below is the ground.  The wind whips mercilessly up here,
+ and the sound of the waterfall is slightly louder, though still
+ somewhat muted. Although you can no longer see the archer slot, you're
+ much closer to the top than you were before.  The peak of the tower is
+ visible now, and you can see a ring of iron-barred windows around the
+ top.
+
+ You'd rather not jump down from this height.
+
+ [Your score has just gone up by five points.]
+
+>throw hook at windows
+ You expertly spin the hook on its rope, gathering momentum, and
+ release! The hook sails towards the windows, but stops far short of
+ them.  The hook seems to pause in mid-air at the end of the rope
+ before, to your horror, it falls slowly down and clanks loudly against
+ the base of the cliff below you. Scraping and clunking, you drag the
+ hook up along the cliff face until it's back in your hands.
+
+>examine peak
+ It looks like a conical hat on top of the tower.
+
+>examine windows
+ They encircle the top, just where the conical roof meets the walls of
+ the tower. They were too far up to see from the ground level and,
+ using your expert eye, you judge that they're too far for your
+ grappling hook to reach even from here..
+
+>hide
+ That's not a verb I recognise.
+
+>examine cliff
+ Up here, the cliff is more natural, with protrusions and lumps.  It
+ doesn't appear to be as carefully sculpted as it is down below.
+
+>climb cliff
+ Enough protrusions and bumps are on the cliff's face now that you can
+ get a decent purchase on them. You climb higher beside the tower,
+ although the cliff is curving away from it now as you approach the
+ top.
+
+ Near The Top
+ You're almost level with the top of the tower now, although the cliff
+ side has curved rather far away from it.  Although the side of the
+ mountain isn't nearly level at this point, it has levelled off enough
+ that trees are starting to find places to grow in the cracks and
+ crevices.  Right beside you here is a particularly tall oak.
+
+>examine tree
+ Firmly rooted here is a large oak tree, hanging out over the cliff.
+
+>climb oak
+ You shimmy up the tree.
+
+ Treetop
+ Out here on a branch near the tower, the wind is brutal. One slip, and
+ you'll fall to certain death. Far, far below is where you started, but
+ you try not to think about that.
+
+>examine tower
+ The top of the tower has a conical roof, immediately below which the
+ tower is ringed with iron-barred windows. You can't really reach the
+ tower from here, but you should be close enough for that grappling
+ hook.  You hope.
+
+>think about death
+ I only understood you as far as wanting to think.
+
+>throw hook at windows
+ You expertly spin the hook on its rope, gathering momentum, and
+ release. The hook clanks against the windows and catches!  You grab
+ onto the rope with your hands, and grab onto the branch with your
+ feet, and slowly pull yourself towards the tower.  Once you're within
+ reach of the iron bars, you feel around them for a latch, releasing
+ it.  One set of bars swings inwards, and you pull yourself through,
+ letting go of the branch.
+
+ Before closing the bars again, you retrieve your grappling hook.
+
+ Top Floor
+ This is a dim room and, from the smell of it, very dusty as well.  The
+ only light comes in through the windows, casting a dull grey sheen
+ across everything you see.  The room is sparsely appointed, with a cot
+ along one wall and a small cupboard near it.  A wall divides the
+ tower, turning this room into a semicircle, putting you in the half
+ that faces to the west. There is a ring set into the floor, near to
+ the western wall.
+
+>examine cupboard
+ (the small cupboard)
+ A small wooden cupboard sits beside the cot.
+
+>open cupboard
+ (the small cupboard)
+ You open the small cupboard.
+
+>examine cupboard
+ (the small cupboard)
+ A small wooden cupboard sits beside the cot.
+
+>search cupboard
+ (the small cupboard)
+ The small cupboard is empty.
+
+ You hear a noise!  It's coming from somewhere below you.
+
+>examine ring
+ The ring appears to be attached to a trap door.
+
+ You slip into a shadow, remaining as still as can be.
+
+>sing
+ You daren't do anything at the moment.
+
+ You see the trap door slowly open upwards. A person's head pokes up
+ through the opening.
+
+>wait
+ Time passes.
+
+ The figure pulls itself up into the room and looks around cautiously.
+
+>examine figure
+ With the black clothing this person is wearing, it's hard to discern
+ anything, really.  Other than, y'know, being all human-shaped and
+ stuff.
+
+ You freeze in place as you watch the figure glide quietly through the
+ room feeling along the wall.  Suddenly, it stops, taps gently on one
+ of the stones in the wall, and wiggles it free.  It's the star rock!
+ Oh no.
+
+>wait
+ Time passes.
+
+ The black-clad figure runs lightly to the trap door and drops through,
+ closing it quietly behind.
+
+>undo
+ Top Floor
+ [Previous turn undone.]
+
+>SAVE
+>cf1
+ Enter saved game to store: Ok.
+
+>hit figure
+ The figure jumps with fright.  It turns to look at you, and you just
+ make out a wild-eyed expression before the figure swirls to the trap
+ door and disappears below.
+
+ You let out a breath, only just now noticing you had been holding it
+ in.
+
+>look
+ Top Floor
+ This is a dim room and, from the smell of it, very dusty as well.  The
+ only light comes in through the windows, casting a dull grey sheen
+ across everything you see.  The room is sparsely appointed, with a cot
+ along one wall and a small cupboard near it.  A wall divides the
+ tower, turning this room into a semicircle, putting you in the half
+ that faces to the west. There is an open trap door in the floor.
+
+>tap wall
+ That figure took a rock out of the wall, and you'd bet your last
+ generic monetary unit that that was the rock you were looking for.
+
+>search cot
+ There is nothing on the cot.
+
+>look under cot
+ You find nothing of interest.
+
+>go down
+ You slip through the trap door. That thieving thief!  Without that
+ rock, you're really in for it with Apaman.  You're not sure you'll
+ live long enough to experience the full extent of his wrath. He warned
+ you about guards, but not about another thief.
+
+ In any case, it's not an easy task, getting to the bottom of the
+ tower. You manage to avoid the guards somehow using your cleverness,
+ the cloak, and some convenient nooks and crannies.
+
+ Guard Room
+ You're on the ground floor of the north tower now, and this is clearly
+ meant to be where men and women prepare for guard duty.  Bunk beds
+ line the northern wall, and assorted weaponry hangs on the south wall.
+ The staircase you came down is on the far wall, and you see the exit
+ to the tower to the east.
+
+>examine weaponry
+ For use by the guards only - these would only slow you down anyway.
+
+>take axe
+ You can't see any such thing.
+
+>take glaive
+ You can't see any such thing.
+
+>examine weapons
+ For use by the guards only - these would only slow you down anyway.
+
+>we're robbing old mother hubbard apparently.
+ That's not a verb I recognise.
+
+>go up
+ It was difficult enough trying to get down past all those guards, and
+ you want to do it again?  Talk about living dangerously...
+
+ Top Floor
+ This is a dim room and, from the smell of it, very dusty as well.  The
+ only light comes in through the windows, casting a dull grey sheen
+ across everything you see.  The room is sparsely appointed, with a cot
+ along one wall and a small cupboard near it.  A wall divides the
+ tower, turning this room into a semicircle, putting you in the half
+ that faces to the west. There is an open trap door in the floor.
+
+>go east
+ You're fairly certain you can sneak out of here before that thief
+ wakes up.
+
+ You can't go that way.
+
+>examine beds
+ You can't see any such thing.
+
+>go west
+ You can't go that way.
+
+>go down
+ You slip through the trap door. That thieving thief!  Without that
+ rock, you're really in for it with Apaman.  You're not sure you'll
+ live long enough to experience the full extent of his wrath. He warned
+ you about guards, but not about another thief.
+
+ In any case, it's not an easy task, getting to the bottom of the
+ tower. You manage to avoid the guards somehow using your cleverness,
+ the cloak, and some convenient nooks and crannies.
+
+ Guard Room
+ You're on the ground floor of the north tower now, and this is clearly
+ meant to be where men and women prepare for guard duty.  Bunk beds
+ line the northern wall, and assorted weaponry hangs on the south wall.
+ The staircase you came down is on the far wall, and you see the exit
+ to the tower to the east.
+
+>examine beds
+ For use by the guards only.
+
+>look under beds
+ You find nothing of interest.
+
+>go east
+ You start to exit the tower, when suddenly you feel yourself grabbed
+ from behind! You are spun around and slammed against the wall. "So,
+ following me, are you?" the black-clad figure whispers. "I'll teach
+ you to follow me." You feel the heat from this person's body, the hot
+ breath in your face, and the smell... a fragrance of some kind?
+
+>flirt with thief
+ That's not a verb I recognise.
+
+>kiss thief
+ Moving your head forward, you surprise your opponent by stealing a
+ kiss!  Twisting free, you swing with your foot to knock the person
+ off-balance and, with an elbow to the neck, you've incapacitated your
+ opponent, who rolls across the floor and comes to a stop by one of the
+ walls.
+
+>search thief
+ You see something in one of the person's pockets, and extract it.
+ It's the star rock!
+
+ You take it.
+
+ [Your score has just gone up by nine points.]
+
+>SAVE
+>cf2
+ Enter saved game to store: Ok.
+
+>search thief
+ There's nothing more this thief has that you need.
+
+>score
+ You have so far scored 14 out of a possible 25, in 50 turns.
+
+>examine thief
+ Your nemesis lies crumpled near a wall.  The blackness of the clothing
+ that this person is wearing makes it hard to see in the dim light.
+
+>examine rock
+ It's about two inches in diameter and looks like an ordinary rock, but
+ feels much rougher than an ordinary rock does.
+
+>kiss thief
+ Keep your mind on the game.
+
+>wake her up
+ That could prove to be fatal.  To you, that is, not to this person
+ here.
+
+>tie her up
+ I didn't understand that sentence.
+
+>go east
+ You're fairly certain you can sneak out of here before that thief
+ wakes up.
+
+ Northern Courtyard
+ Although this is a much smaller courtyard than the main one by the
+ entrance, it is still large enough to assemble quite a few troops.
+ Normally, this place would be bustling with activity, but this late at
+ night most everyone is asleep. You can head back into the tower to the
+ west, or go around the tower to the south.
+
+>go south
+
+ Beneath the North Tower
+ A dark tower rises high above you, lit dimly in the cloud-obscured
+ moonlight. The sound of a waterfall is nearby but somewhat muted by
+ the high walls of the fortress. To your south is the main courtyard,
+ and directly west of you is the face of the cliff into which the
+ fortress was built.
+
+>go south
+
+ Central Courtyard
+ Completely covered in cobblestones, the central courtyard is an
+ enormous place, used for assembling the troops and greeting royalty.
+ A large entryway is topped by an enormous stone arch.  It leads to the
+ east where, hidden somewhere beyond the outer portcullis, Apaman
+ awaits your return.  To the south and to the north rise the two
+ watchtowers, and it is in the northern one that Apaman believes the
+ star rock to be.  West is the entrance to the Festning itself, dug out
+ of the rock of this mountain. Although you're hiding as best as you
+ can in the shadows, it's dangerous to remain here long.
+
+>go east
+ You sneak out under the portcullis, drawing absolutely no attention to
+ yourself.  Apaman is there, ready to greet you.
+
+ "Have you got it?" he asks excitedly.
+
+ Wordlessly, you place the star rock into his eager, outstretched hand.
+ Blinking once, twice in the moonlight, hardly daring to believe, he
+ stares at it.  Finally, reality sets in and his gaze returns to you.
+
+ "Let's go now," he says, gruffly.  He leads you back to the place you
+ sarcastically call home.  You're not sure if the star rock really is
+ the key to unlocking the Hestron like Apaman says, but you do feel a
+ subtle difference in the way he's treating you.
+
+ Could it be that he's beginning to show you a modicum of respect?
+
+
+
+     *** You have won ***
+
+
+ In that game you scored 24 out of a possible 25, in 57 turns.
+
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>amusing
+ Please give one of the answers above.
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>score
+ Please give one of the answers above.
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>undo
+
+>xyzzy
+ Please give one of the answers above.
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>undo
+
+>look
+ Please give one of the answers above.
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>restore
+>cf2
+ Enter saved game to load: Ok.
+
+>look
+ Guard Room
+ You're on the ground floor of the north tower now, and this is clearly
+ meant to be where men and women prepare for guard duty.  Bunk beds
+ line the northern wall, and assorted weaponry hangs on the south wall.
+ The staircase you came down is on the far wall, and you see the exit
+ to the tower to the east.
+
+ You can see an unconscious black-clad figure here.
+
+>xyzzy
+ You giggle quietly to yourself.
+
+>xyzzy
+ You giggle quietly to yourself.
+
+>plugh
+ You giggle quietly to yourself.
+
+>score
+ You have so far scored 14 out of a possible 25, in 53 turns.
+
+>plover
+ You giggle quietly to yourself.
+
+>plover
+ You giggle quietly to yourself.
+
+>plugh
+ You giggle quietly to yourself.
+
+>take girl
+ You can't see any such thing.
+
+>take thief
+ I don't suppose the unconscious black-clad figure would care for that.
+
+>xyzzy plugh plover
+ I only understood you as far as wanting to xyzzy.
+
+>unmask thief
+ That's not a verb I recognise.
+
+>undress thief
+ That's not a verb I recognise.
+
+>eat star
+ That's plainly inedible.
+
+>take thief
+ I don't suppose the unconscious black-clad figure would care for that.
+
+>smell thief
+ The primary odour of the Festning is horse manure.  Not something
+ you're really fond of.
+
+>sing
+ As good as your voice is, at the moment you prefer not to draw too
+ much attention to yourself.
+
+>pray
+ That's not a verb I recognise.
+
+>pull thief east
+ I only understood you as far as wanting to pull the unconscious
+ black-clad figure.
+
+>push thief east
+ The unconscious black-clad figure cannot be pushed from place to
+ place.
+
+>score one point
+ I only understood you as far as wanting to score.
+
+>score with thief
+ I only understood you as far as wanting to score.
+
+>score thief
+ I only understood you as far as wanting to score.
+
+>inventory
+ You are carrying:
+   a star rock
+   a grappling hook
+   a dark cloak (being worn)
+
+>examine hook
+ You're lucky that Apaman has let you have at least this much
+ equipment, even if he wouldn't let you bring a sword or even a knife.
+ It is attached to a modest length of rope.
+
+>oh. We have it still?
+ That's not a verb I recognise.
+
+>go up
+ It was difficult enough trying to get down past all those guards, and
+ you want to do it again?  Talk about living dangerously...
+
+ Top Floor
+ This is a dim room and, from the smell of it, very dusty as well.  The
+ only light comes in through the windows, casting a dull grey sheen
+ across everything you see.  The room is sparsely appointed, with a cot
+ along one wall and a small cupboard near it.  A wall divides the
+ tower, turning this room into a semicircle, putting you in the half
+ that faces to the west. There is an open trap door in the floor.
+
+>search wall
+ You look all over the wall, but you don't see anything unusual.
+
+>knock on wall
+ That's not a verb I recognise.
+
+>search east wall
+ I only understood you as far as wanting to search east.
+
+>search east
+ You must name something more substantial.
+
+>feel wall
+ You've already got the rock.  Apaman is waiting for you, and you don't
+ have time to fool around.
+
+>examine windows
+ It's hard to see out of the windows, given the dim moonlight.  Nothing
+ much is out there but the wind.
+
+>open windows
+ They're not something you can open.
+
+>examine tree
+ You can't see any such thing.
+
+>go up
+ You can't go that way.
+
+>go west
+ You can't go that way.
+
+>hit wall
+ Violence isn't the answer to this one.
+
+>climb in cupboard
+ I only understood you as far as wanting to climb inside.
+
+>climb in
+ You must name something more substantial.
+
+>look through wall
+ You look all over the wall, but you don't see anything unusual.
+
+>enter cupboard
+ (the small cupboard)
+ That's not something you can enter.
+
+>enter cupboard
+ (the small cupboard)
+ That's not something you can enter.
+
+>tap cupboard
+ (the small cupboard)
+ You feel nothing unexpected.
+
+>crawl through cupboard
+ That's not a verb I recognise.
+
+>move cupboard
+ (the small cupboard)
+ It is fixed in place.
+
+>hit stone
+ You can't see any such thing.
+
+>hit star
+ Violence isn't the answer to this one.
+
+>jump out of window
+ I only understood you as far as wanting to jump.
+
+>jump
+ You jump on the spot, fruitlessly.
+
+>throw rock out window
+ I only understood you as far as wanting to throw the star rock.
+
+>defenstrate me
+ That's not a verb I recognise.
+
+>defenestrate me
+ That's not a verb I recognise.
+
+>win game
+ That's not a verb I recognise.
+
+>eat rock
+ That's plainly inedible.
+
+>dance
+ That's not a verb I recognise.
+
+>credits
+ In addition to all the hard work done by Graham Nelson, Emily Short,
+ and countless others for Inform 7, I also wish to thank to Jon Ingold
+ for his Far Away extension.
+
+ A big betatesting thank you goes to Marius M?ller, Dan Shiovitz,
+ Admiral Jota, and a grammarian who wishes to remain anonymous. Without
+ their input and helpful suggestions, this game would have been an
+ unpolished mess.
+
+ I would also like to thank my wife, Julie, for being awesome.
+
+>find holy grail
+ That's not a verb I recognise.
+
+>hint
+ That's not a verb I recognise.
+
+>help
+ That's not a verb I recognise.
+
+>instead of saying 24: say 25.
+ That's not a verb I recognise.
+
+>full score
+ That's not a verb I recognise.
+
+>Let's go to the courtyard?
+ That's not a verb I recognise.
+
+>go down
+ You slip through the trap door. Precious star rock in hand, you race
+ your way down to the bottom of the tower.  This is easier than you had
+ anticipated as there are far fewer guards than Apaman had led you to
+ believe.
+
+ In any case, it's not an easy task, getting to the bottom of the
+ tower. You manage to avoid the guards somehow using your cleverness,
+ the cloak, and some convenient nooks and crannies.
+
+ Guard Room
+ You're on the ground floor of the north tower now, and this is clearly
+ meant to be where men and women prepare for guard duty.  Bunk beds
+ line the northern wall, and assorted weaponry hangs on the south wall.
+ The staircase you came down is on the far wall, and you see the exit
+ to the tower to the east.
+
+ You can see an unconscious black-clad figure here.
+
+>go east
+ You're fairly certain you can sneak out of here before that thief
+ wakes up.
+
+ Northern Courtyard
+ Although this is a much smaller courtyard than the main one by the
+ entrance, it is still large enough to assemble quite a few troops.
+ Normally, this place would be bustling with activity, but this late at
+ night most everyone is asleep. You can head back into the tower to the
+ west, or go around the tower to the south.
+
+>go west
+
+ Guard Room
+ You're on the ground floor of the north tower now, and this is clearly
+ meant to be where men and women prepare for guard duty.  Bunk beds
+ line the northern wall, and assorted weaponry hangs on the south wall.
+ The staircase you came down is on the far wall, and you see the exit
+ to the tower to the east.
+
+ You can see an unconscious black-clad figure here.
+
+>undress figure
+ That's not a verb I recognise.
+
+>unmask figure
+ That's not a verb I recognise.
+
+>strip figure
+ That's not a verb I recognise.
+
+>take clothes
+ You can't see any such thing.
+
+>reveal figure
+ That's not a verb I recognise.
+
+>wake figure
+ That could prove to be fatal.  To you, that is, not to this person
+ here.
+
+>kiss figure
+ Keep your mind on the game.
+
+>rub stone
+ You can't see any such thing.
+
+>rub star
+ You achieve nothing by this.
+
+>giggle
+ That's not a verb I recognise.
+
+>get mask
+ You can't see any such thing.
+
+>examine star
+ It's about two inches in diameter and looks like an ordinary rock, but
+ feels much rougher than an ordinary rock does.
+
+>throw star at figure
+ You lack the nerve when it comes to the crucial moment.
+
+>hit rock
+ Violence isn't the answer to this one.
+
+>taste rock
+ You taste nothing unexpected.
+
+>give star to figure
+ That thief is in no condition to accept anything.
+
+>ask thief for phone number
+ You can't see any such thing.

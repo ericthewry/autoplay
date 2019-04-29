@@ -1,0 +1,4771 @@
+>load queen
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ [pausing to show unread error message]
+
+
+
+
+
+
+
+
+                           THE QUEEN OF SWORDS
+
+
+                     [Please press SPACE to begin.]
+
+
+
+
+
+
+
+
+ Each week, you spend four hours round-trip in a car to take a
+ beginner's fencing class at the Virginia Academy of Fencing in
+ Springfield. It's fun, you tell yourself, and it never hurts to be more
+ active. David, on the other hand, wants to compete. Your husband wants
+ to join the U.S. Fencing Association and begin competing in regional
+ tournaments after only eight weeks of classes, when they tell people to
+ take lessons for a whole year before competing. However, David will
+ want what David will want, and you love your husband dearly, so...
+
+ There's a tournament in Glen Falls this weekend, and you're going. On
+ your last trip to VAF you spent over $900 on electric fencing
+ equipment. The real problem is going to figure out how to use all of
+ it: what plugs into where, which piece you need to put on first, and
+ how to fence with a floor cord holding you back. That's why you and
+ David are going to use tonight, while you have the room at the local
+ library reserved, to practice gearing up for electric.
+
+ David gets a good parking spot downtown, and the two of you haul the
+ bags of equipment out of the trunk and into the library. The librarians
+ wave at you as you pass, already used to seeing you, and the two of you
+ make your way to one of the larger meeting rooms upstairs to set up the
+ electric strip.
+
+ David drops his equipment bag near the door and smiles at you. "I'll
+ put the strip up," he says. "Why don't you go ahead and get your stuff
+ on?" You look at your bag uncertainly. "I'm not sure I know where
+ everything goes," you say. He grins. "Me neither," he says. "If you
+ have trouble, let me know, and I'll try to help." He takes the bag with
+ the scoring box and floor reels and goes to set up a table. You survey
+ the room.
+
+
+ The Queen of Swords
+ An Interactive Fencing Lesson
+ Copyright (c) 2003 by Jessica Knoch
+
+ Players may wish to type ABOUT.
+ Release 1 / Serial number 030426 / Inform v6.21 Library 6/10
+
+ McIntire Meeting Room, Downtown Library
+ A large, open room, with plenty of room for a few fencers to practice.
+ Of course, tonight it's just you and David. A row of tall windows line
+ the western wall, and stacks of chairs are at either end of the long
+ north-south room. The door to the hallway is east. An industrial-type
+ carpet in garish red covers the floor.
+
+ The open windows let in a welcome breeze.
+
+>about
+ "The Queen of Swords" was written as an entry in the Event Division of
+ the 2003 Interactive Fiction Art Show, organized by Marnie Parker. For
+ more information about fencing, and some general tips on exploring this
+ work, players may wish to type HELP. Experienced IF players will find
+ it sufficient to note that examining objects may be important; that
+ David is a source of help; and that the verb ATTACH can be quite
+ useful. The most important fencing verb is, well, FENCE. The work tries
+ to convey a close approximation of the preparation for fencing with
+ electric gear, fiddly bits and all.
+
+ Finally, thanks to Andrew Plotkin for his answers on raif and advice on
+ his website. Oh, one final note: the game refers to a "lam?," but for
+ simplicity's sake, you may type "lame." (It's still pronounced
+ luh-MAY!)
+
+>inventory
+ You are carrying:
+   a fencing bag (which is closed)
+
+ David pushes the table against the eastern wall.
+
+>open bag
+ The bag is bulky enough to get in your way when you try.
+
+ David notices your conflict, and says, "You could just put the bag
+ down, love. It'll be fine right there."
+
+ He sets the bag of scoring equipment on the table and opens it.
+
+>examine me
+ You look just as you always have.
+
+ You are carrying:
+   a fencing bag (which is closed)
+
+ David is rummaging in the bag.
+
+>put bag on table
+ You put the fencing bag on the table.
+
+ David takes a floor reel and floor cord from the bag.
+
+>open bag
+ You open the fencing bag, revealing a mask, a jacket, a body cord, an
+ electric foil, a lam?, a glove, a plastron and a chest protector.
+
+ He walks to the north end of the room and sets down the floor reel.
+
+>examine david
+ Your husband is a tall man in his mid-thirties, with clear gray eyes
+ and a wonderfully misshapen nose. His smile lights up your day, and he
+ doesn't smile much except at you: but he smiles a lot at you.
+
+ David plugs the floor cord into the floor reel.
+
+>examine david
+ Your husband is a tall man in his mid-thirties, with clear gray eyes
+ and a wonderfully misshapen nose. His smile lights up your day, and he
+ doesn't smile much except at you: but he smiles a lot at you.
+
+ David walks back to the center of the room and looks in the bag on the
+ table.
+
+>punch nose
+ You can't see any such thing.
+
+>hit david with foil
+ I only understood you as far as wanting to hit David.
+
+>hit david
+ Violence isn't the answer to this one.
+
+ David pulls the scoring box out of the bag and sets it on the table.
+
+>wield foil
+ That's not a verb you need today.
+
+>examine lame
+ The lam? (pronounced "luh-MAY") is like a sleeveless, metal vest, used
+ in electric foil fencing to define your target area--literally, since
+ the opponent's blade must strike you on the lam? to complete the
+ correct circuit. It The lam? is made to cover your torso from neck to
+ waistline, with an additional section in front best described by
+ drawing a line from your hips to your pelvis. Yours is an Uhlmann lam?,
+ quite high quality, although it cost a good deal. There is a small,
+ metal D-ring (shaped like the letter D) sewn into the back of the lam?.
+
+ He plugs the free end of the first floor cord into the scoring box.
+
+>examine me
+ You look just as you always have.
+
+ You are carrying nothing.
+
+ David takes the other floor cord out of the bag and plugs one end into
+ the box.
+
+>the lam? is lame
+ That's not a verb you need today.
+
+>examine d-ring
+ The D-ring is sewn onto the back of your lam?. Its purpose is solely to
+ give the hook from the floor reel something to latch onto, to give the
+ three-prong connection a bit of slack and make your life easier.
+
+ David takes the other reel from the bag.
+
+>examine box
+ A handy little device: this is the thing that makes it all work. The
+ scoring box lights up whenever a fencer (properly plugged in, of
+ course) scores a touch, and lets you know whether it was on-target (on
+ the lam?) or off-target (anywhere else) by lighting up either the
+ fencer's colored light (on) or white light (off). You're fencing on the
+ right side, so the green light is yours, and the red light is David's.
+
+ He walks down to the south end of the room, and winks at you.
+
+>get box
+ There's no reason to do anything besides look at the lights.
+
+ Setting the floor reel on the carpet, David plugs the free end of the
+ floor cord into it.
+
+>examine lights
+ A handy little device: this is the thing that makes it all work. The
+ scoring box lights up whenever a fencer (properly plugged in, of
+ course) scores a touch, and lets you know whether it was on-target (on
+ the lam?) or off-target (anywhere else) by lighting up either the
+ fencer's colored light (on) or white light (off). You're fencing on the
+ right side, so the green light is yours, and the red light is David's.
+
+ David turns to survey his work.
+
+>pause
+ That's not a verb you need today.
+
+>examine reel
+ The floor reel is made to connect you to the floor cord. It's supposed
+ to sit at the end of the strip, and the floor cord plugs into it. The
+ hook that comes out the front attaches to the fencer's body cord, and
+ when released it retracts like a self-retracting tape measure. Your
+ floor reels are Uhlmann made, with dark blue plastic casing and rubber
+ feet to keep them in place.
+
+ "Oops," David says, "I forgot to plug in the box."
+
+>pull floor cord to floor reel
+ I only understood you as far as wanting to pull the floor cord.
+
+>plug floor cord to floor reel
+ I didn't understand that sentence.
+
+>plug floor cord into floor reel
+ David will plug in all of the floor cords. Just worry about your own
+ stuff for now.
+
+ He walks back to the table in the center of the east wall.
+
+>look in bag
+ In the fencing bag are a mask, a jacket, a body cord, an electric foil,
+ a lam?, a glove, a plastron and a chest protector.
+
+ David peers in the bag and gets out the AC adapter for the scoring box.
+
+>plug reel into body cord
+ You're not suited up enough to plug in yet.
+
+ David plugs the adapter into the box.
+
+>examine chest protector
+ The chest protector is hard plastic, molded to fit your body. Females
+ are required to wear them at USFA competitions, and you're just as
+ glad, since it really cuts down on the bruises. The elastic bands hook
+ behind your back like a bra.
+
+ He plugs the free end of the adapter into the electrical outlet in the
+ wall.
+
+>examine plastron
+ The plastron is a thin, white, half-shirt, designed to protect the
+ underarm of your weapon arm from an errant hit. It has elastic bands to
+ secure it in place, and it is supposed to go on under everything else.
+
+ "There!" David says, looking over the electric strip in satisfaction.
+ He turns to you. "Now, let's get suited up and then we can fence!"
+
+>get chest protector
+ Taken.
+
+ David looks you over. "Looks like you don't quite have all your stuff.
+ Check in your bag--if you need help with something, show it to me."
+
+>wear it
+ You start to pull the chest protector on, but the unfamiliar cold
+ plastic stops you. Ah yes, you're supposed to have the plastron on
+ underneath!
+
+ Meanwhile, David gets his gear on amazingly fast. He says, "We'll
+ salute as soon as we're both ready."
+
+>get plastron
+ Taken.
+
+ David connects to the far floor reel. "I'm about ready," he says.
+
+>wear it
+ You put on the plastron.
+
+>wear chest
+ You put on the chest protector.
+
+>examine jacket
+ Your jacket covers your torso and arms while you fence. They are
+ required to be white, and yours zips up the front (making it much
+ easier to put on by yourself). Although the FIE requires 800 Newton
+ resistance, you are merely fencing in the USFA, which has much more lax
+ requirements than its European counterpart, so yours is only rated at
+ 350 Newtons.
+
+>get glove
+ Taken.
+
+>examine it
+ White, with leather on the palm for a better grip.
+
+>wear it
+ You put on the glove.
+
+>wear jacket
+ (first taking the jacket)
+ You must unzip the jacket before you can put it on.
+
+>unzip it
+ You fumble with the zipper, but the glove is too thick to allow you to
+ get a good grasp.
+
+>remove glove
+ You take off the glove.
+
+>unzip jacket
+ You unzip the jacket.
+
+>wear jacket
+ You slide the clean, white jacket on and tug it into place.
+
+>zip jacket
+ You zip up the jacket, tugging the zipper up to make sure it's all the
+ way up.
+
+>version
+ The Queen of Swords
+ An Interactive Fencing Lesson
+ Copyright (c) 2003 by Jessica Knoch
+
+ Players may wish to type ABOUT.
+ Release 1 / Serial number 030426 / Inform v6.21 Library 6/10
+ Standard interpreter 1.0 (2N) / Library serial number 991113
+
+>examine bag
+ Your fencing bag is a calming maroon color. It's long enough to hold a
+ foil, and deep enough to hold your mask, clothes, and all the other
+ cords and things you need for fencing.
+
+>wear glove
+ You put on the glove.
+
+>search baf
+ You can't see any such thing.
+
+>search bag
+ In the fencing bag are a mask, a body cord, an electric foil and a
+ lam?.
+
+>wear mask
+ (first taking the mask)
+ You put on the mask.
+
+>wear cord
+ (the floor cord)
+ (first taking the floor cord)
+ David will plug in all of the floor cords. Just worry about your own
+ stuff for now.
+
+>wear lame
+ (first taking the lam?)
+ The mask blocking your peripheral vision makes your task difficult. You
+ seem to remember it's the very last piece of equipment to go on, just
+ before you begin a bout.
+
+>remove mask. wear lame
+ You take off the mask.
+ You must unzip the lam? before you can put it on.
+
+>examine lame
+ The lam? (pronounced "luh-MAY") is like a sleeveless, metal vest, used
+ in electric foil fencing to define your target area--literally, since
+ the opponent's blade must strike you on the lam? to complete the
+ correct circuit. It The lam? is made to cover your torso from neck to
+ waistline, with an additional section in front best described by
+ drawing a line from your hips to your pelvis. Yours is an Uhlmann lam?,
+ quite high quality, although it cost a good deal. There is a small,
+ metal D-ring (shaped like the letter D) sewn into the back of the lam?.
+
+>unzip lame. wear it
+ You fumble with the zipper, but the glove is too thick to allow you to
+ get a good grasp.
+ You must unzip the lam? before you can put it on.
+
+>remove glove
+ You take off the glove.
+
+>unzip lame. wear it
+ You unzip the lam?.
+ You struggle to get your jacketed arms through the small openings in
+ the lam?. Finally, you get it on.
+
+>wear gloves
+ You can't see any such thing.
+
+>wear glove
+ You put on the glove.
+
+>search bag
+ In the fencing bag are a body cord and an electric foil.
+
+>get body cord
+ Taken.
+
+>examine it
+ Your body cord is used in electric fencing to connect several different
+ circuits of electricity. On one end, the two-prong connector attaches
+ to your electric foil. The other end has an alligator clip, to hook to
+ your lam?, and a three-prong connector, to plug into the floor reel. In
+ between is about five feet of insulated wiring, which is supposed to
+ run up your sleeve and down your back.
+
+>attach it to lame
+ That's not supposed to attach directly to the lam?. You may wish to
+ attach it to the D-ring, or it may not be necessary at all.
+
+>attach it to d-ring
+>inventory
+>load queen
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ [pausing to show unread error message]
+
+
+
+
+
+
+
+
+                           THE QUEEN OF SWORDS
+
+
+                     [Please press SPACE to begin.]
+
+
+
+
+
+
+
+
+ Each week, you spend four hours round-trip in a car to take a
+ beginner's fencing class at the Virginia Academy of Fencing in
+ Springfield. It's fun, you tell yourself, and it never hurts to be more
+ active. David, on the other hand, wants to compete. Your husband wants
+ to join the U.S. Fencing Association and begin competing in regional
+ tournaments after only eight weeks of classes, when they tell people to
+ take lessons for a whole year before competing. However, David will
+ want what David will want, and you love your husband dearly, so...
+
+ There's a tournament in Glen Falls this weekend, and you're going. On
+ your last trip to VAF you spent over $900 on electric fencing
+ equipment. The real problem is going to figure out how to use all of
+ it: what plugs into where, which piece you need to put on first, and
+ how to fence with a floor cord holding you back. That's why you and
+ David are going to use tonight, while you have the room at the local
+ library reserved, to practice gearing up for electric.
+
+ David gets a good parking spot downtown, and the two of you haul the
+ bags of equipment out of the trunk and into the library. The librarians
+ wave at you as you pass, already used to seeing you, and the two of you
+ make your way to one of the larger meeting rooms upstairs to set up the
+ electric strip.
+
+ David drops his equipment bag near the door and smiles at you. "I'll
+ put the strip up," he says. "Why don't you go ahead and get your stuff
+ on?" You look at your bag uncertainly. "I'm not sure I know where
+ everything goes," you say. He grins. "Me neither," he says. "If you
+ have trouble, let me know, and I'll try to help." He takes the bag with
+ the scoring box and floor reels and goes to set up a table. You survey
+ the room.
+
+
+ The Queen of Swords
+ An Interactive Fencing Lesson
+ Copyright (c) 2003 by Jessica Knoch
+
+ Players may wish to type ABOUT.
+ Release 1 / Serial number 030426 / Inform v6.21 Library 6/10
+
+ McIntire Meeting Room, Downtown Library
+ A large, open room, with plenty of room for a few fencers to practice.
+ Of course, tonight it's just you and David. A row of tall windows line
+ the western wall, and stacks of chairs are at either end of the long
+ north-south room. The door to the hallway is east. An industrial-type
+ carpet in garish red covers the floor.
+
+ The open windows let in a welcome breeze.
+
+>put bag on table
+ You put the fencing bag on the table.
+
+ David pushes the table against the eastern wall.
+
+>open bag
+ You open the fencing bag, revealing a mask, a jacket, a body cord, an
+ electric foil, a lam?, a glove, a plastron and a chest protector.
+
+ He sets the bag of scoring equipment on the table and opens it.
+
+>get body cord
+ Taken.
+
+ David is rummaging in the bag.
+
+>examine it
+ Your body cord is used in electric fencing to connect several different
+ circuits of electricity. On one end, the two-prong connector attaches
+ to your electric foil. The other end has an alligator clip, to hook to
+ your lam?, and a three-prong connector, to plug into the floor reel. In
+ between is about five feet of insulated wiring, which is supposed to
+ run up your sleeve and down your back.
+
+ David takes a floor reel and floor cord from the bag.
+
+>get plastron then wear it
+ Taken.
+
+ He walks to the north end of the room and sets down the floor reel.
+ You put on the plastron.
+
+ David plugs the floor cord into the floor reel.
+
+>get chest protector then wear it
+ Taken.
+
+ David walks back to the center of the room and looks in the bag on the
+ table.
+ You put on the chest protector.
+
+ David pulls the scoring box out of the bag and sets it on the table.
+
+>get lame then wear it
+ Taken.
+
+ He plugs the free end of the first floor cord into the scoring box.
+ You could put the lam? on, but you know it would make more sense to put
+ the jacket on first.
+
+ David takes the other floor cord out of the bag and plugs one end into
+ the box.
+
+>get jacket
+ Taken.
+
+ David takes the other reel from the bag.
+
+>wear jacket
+ You must unzip the jacket before you can put it on.
+
+ He walks down to the south end of the room, and winks at you.
+
+>unzip it
+ You unzip the jacket.
+
+ Setting the floor reel on the carpet, David plugs the free end of the
+ floor cord into it.
+
+>wear it
+ You slide the clean, white jacket on and tug it into place.
+
+ David turns to survey his work.
+
+>wear lame
+ You stop to think. It'd be silly to put the lam? on over your unzipped
+ jacket.
+
+ "Oops," David says, "I forgot to plug in the box."
+
+>zip jacket then wear lame
+ You zip up the jacket, tugging the zipper up to make sure it's all the
+ way up.
+
+ He walks back to the table in the center of the east wall.
+ You must unzip the lam? before you can put it on.
+
+ David peers in the bag and gets out the AC adapter for the scoring box.
+
+>unzip lame
+ You unzip the lam?.
+
+ David plugs the adapter into the box.
+
+>wear lame
+ You struggle to get your jacketed arms through the small openings in
+ the lam?. Finally, you get it on.
+
+ He plugs the free end of the adapter into the electrical outlet in the
+ wall.
+
+>zip lame
+ You zip up the lam?, and adjust the Velcro at the collar to make sure
+ you have a proper fit.
+
+ "There!" David says, looking over the electric strip in satisfaction.
+ He turns to you. "Now, let's get suited up and then we can fence!"
+
+>show cord to david
+ (the body cord to David)
+ "Hm," David says. "You need to put the two-prong connector into your
+ jacket sleeve. Try that."
+
+ David looks you over. "Looks like you don't quite have all your stuff.
+ Check in your bag--if you need help with something, show it to me."
+
+>put connector in sleeve
+ Which do you mean, the two-prong connector or the three-prong
+ connector?
+
+>put two-prong connector into jacket sleeve
+ That would be far too difficult for you to try while you're wearing the
+ jacket. You're just not that coordinated yet.
+
+ Meanwhile, David gets his gear on amazingly fast. He says, "We'll
+ salute as soon as we're both ready."
+
+>remove jacket
+ You'll have to take off the lam? first.
+
+ David connects to the far floor reel. "I'm about ready," he says.
+
+>put two-prong connector into jacket sleeve
+ That would be far too difficult for you to try while you're wearing the
+ jacket. You're just not that coordinated yet.
+
+>remove lame
+ It's almost impossible to take off a lam? while it's zipped up; you're
+ pretty sure about that one.
+
+>remove jacket
+ You'll have to take off the lam? first.
+
+>unzip lame then remove lame then unzip jacket then remove jacket
+ You unzip the lam?.
+ Taking off the lam? is almost as much of a struggle as putting it on,
+ but somehow you manage.
+
+ You get the thing off, eventually.
+ You unzip the jacket.
+ You pull your arms out of the slightly sweaty sleeves. It takes a bit
+ of flapping, but you manage to get out of the jacket.
+
+>unzip lame. remove it. remove jacket
+ That's already open.
+ Taking off the lam? is almost as much of a struggle as putting it on,
+ but somehow you manage.
+
+ You're not wearing that.
+ You're not wearing that.
+
+>put two-prong connector into jacket sleeve
+ You slide the two-prong end of the body cord into the jacket sleeve.
+
+>wear lame. zip it. wear jacket
+ You could put the lam? on, but you know it would make more sense to put
+ the jacket on first.
+ You zip up the lam?, and adjust the Velcro at the collar to make sure
+ you have a proper fit.
+ You pull the jacket on, trying to keep the dangling bits of the body
+ cord out of the way. What a pain!
+
+>show cord to david
+ (the floor cord to David)
+ (first taking the floor cord)
+ David will plug in all of the floor cords. Just worry about your own
+ stuff for now.
+
+>show body cord to david
+ (first taking the body cord)
+ "Hm," David says. "You need to put the two-prong connector into your
+ jacket sleeve. Try that."
+
+>i did you asshole
+ I only understood you as far as wanting to inventory.
+
+>undo
+ McIntire Meeting Room, Downtown Library
+ [Previous turn undone.]
+
+>inventory
+ You are carrying:
+   a body cord
+   a jacket (being worn and open but empty)
+   a lam?
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>unzip lame. wear it. zip it
+ You unzip the lam?.
+ You stop to think. It'd be silly to put the lam? on over your unzipped
+ jacket.
+ You zip up the lam?, and adjust the Velcro at the collar to make sure
+ you have a proper fit.
+
+>l in bag
+ In the fencing bag are a mask, an electric foil and a glove.
+
+>wear glove
+ (first taking the glove)
+ You put on the glove.
+
+>get foil
+ Taken.
+
+>wield it
+ That's not a verb you need today.
+
+>wear mask
+ (first taking the mask)
+ You put on the mask.
+
+>get naked
+ You can't see any such thing.
+
+>undress
+ That's not a verb you need today.
+
+>remove mask, glove
+ mask: You already have that.
+ glove: You already have that.
+
+>inventory
+ You are carrying:
+   a mask (being worn)
+   an electric foil
+   a glove (being worn)
+   a body cord
+   a jacket (being worn and open but empty)
+   a lam?
+   a chest protector (being worn)
+   a plastron (being worn)
+
+ AC adapter: Just let it be.
+ floor cord: David will plug in all of the floor cords. Just worry about
+ your own stuff for now.
+ floor reel: There's no need to move either of the reels; David will
+ have them just where he wants them.
+ David: This isn't really the time or the place, is it?
+ strip: That's hardly portable.
+ carpet: That's hardly portable.
+ comfy chair: That's hardly portable.
+ window area: That's hardly portable.
+ table: That's hardly portable.
+
+>take off mask
+ You take off the mask.
+
+>take off glove
+ You take off the glove.
+
+>doff all
+>unzip lame then take it off
+ You can't use multiple objects with that verb.
+
+ You unzip the lam?.
+ What do you want to take the lam??
+
+>doff lame
+ Taking off the lam? is almost as much of a struggle as putting it on,
+ but somehow you manage.
+
+ You're not wearing that.
+
+>unzip jacket then doff it
+ That's already open.
+ You pull your arms out of the slightly sweaty sleeves. It takes a bit
+ of flapping, but you manage to get out of the jacket.
+
+>put two-prong connector in sleeve
+ You slide the two-prong end of the body cord into the jacket sleeve.
+
+>wear jacket then zip it
+ You pull the jacket on, trying to keep the dangling bits of the body
+ cord out of the way. What a pain!
+ You zip up the jacket, tugging the zipper up to make sure it's all the
+ way up.
+
+>wear lame then zip it
+ You struggle to get your jacketed arms through the small openings in
+ the lam?. Finally, you get it on.
+ You zip up the lam?, and adjust the Velcro at the collar to make sure
+ you have a proper fit.
+
+>wear glove
+ You put on the glove.
+
+>wear mask
+ You put on the mask.
+
+>salute
+ First things first: you NEVER salute with a mask on. It's considered
+ very rude.
+
+>remove mask
+ You take off the mask.
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>plug in cord
+ You can't see any such thing.
+
+>inventory
+ You are carrying:
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>look
+
+ McIntire Meeting Room, Downtown Library
+ A large, open room, with plenty of room for a few fencers to practice.
+ Of course, tonight it's just you and David. A row of tall windows line
+ the western wall, and stacks of chairs are at either end of the long
+ north-south room. The door to the hallway is east. An industrial-type
+ carpet in garish red covers the floor.
+
+ On the table are a scoring box, a bag of scoring equipment (which is
+ empty) and a fencing bag (which is empty).
+
+ The open windows let in a welcome breeze.
+
+ You can also see an AC adapter, a floor cord and a floor reel here.
+
+>examine foil
+ You've brought your best electric foil along for today's lesson. The
+ blade is 36 inches long, and the whole thing weighs just under 500
+ grams. Your bell guard is still nice and shiny, thanks to a lack of
+ use. The grip is a pistol grip of the Visconti style, painted blue so
+ you can tell it apart from David's. There's also a two-prong receptacle
+ for your body cord to plug into.
+
+>plug body cord in receptacle
+ You can't see any such thing.
+
+>plug two-prong in foil
+ You attach the two-prong connector, which pokes out through your sleeve
+ next to your glove, to the foil. It clicks into place.
+
+>plug three-prong
+ What do you want to plug the three-prong connector in?
+
+>scoring
+ Which do you mean, the scoring box or the bag of scoring equipment?
+
+>box
+ You would achieve nothing by this.
+
+>examine box
+ A handy little device: this is the thing that makes it all work. The
+ scoring box lights up whenever a fencer (properly plugged in, of
+ course) scores a touch, and lets you know whether it was on-target (on
+ the lam?) or off-target (anywhere else) by lighting up either the
+ fencer's colored light (on) or white light (off). You're fencing on the
+ right side, so the green light is yours, and the red light is David's.
+
+>examine reel
+ The floor reel is made to connect you to the floor cord. It's supposed
+ to sit at the end of the strip, and the floor cord plugs into it. The
+ hook that comes out the front attaches to the fencer's body cord, and
+ when released it retracts like a self-retracting tape measure. Your
+ floor reels are Uhlmann made, with dark blue plastic casing and rubber
+ feet to keep them in place.
+
+>examine strip
+ The "strip" is the area that fencers actually fence on. In your
+ tournament on Saturday, the strips will be drawn out on the floor in
+ paint or tape: one meter wide by fourteen meters long, with warning
+ lines and en guarde lines and everything. Here, you and David just make
+ your best guess as to where the lines are. But today, you have a real
+ strip set up in some respects: the table in the middle of the eastern
+ wall holds the scoring box, which is connect via the floor cords to a
+ floor reel, one at either end of the strip. That's all it takes for you
+ and David to plug in and have a real electric bout.
+
+>plug three-prong to reel
+ I didn't understand that sentence.
+
+>plug three-prong into reel
+ You connect the three-prong end of the body cord with the hook out of
+ the floor reel. Getting close to fencing time!
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>whine
+ That's not a verb you need today.
+
+>inventory
+ You are carrying:
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>examine me
+ You look just as you always have.
+
+ You are carrying:
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>shoot author
+>examine foil
+ That's not a verb you need today.
+
+ You've brought your best electric foil along for today's lesson. The
+ blade is 36 inches long, and the whole thing weighs just under 500
+ grams. Your bell guard is still nice and shiny, thanks to a lack of
+ use. The grip is a pistol grip of the Visconti style, painted blue so
+ you can tell it apart from David's. There's also a two-prong receptacle
+ for your body cord to plug into.
+
+>show it to david
+ David looks your foil over. "Looks like it's in working condition," he
+ says. "Just hang on to it until we're ready to fence. You'll need it
+ for the salute!" His eyes twinkle at you.
+
+>examine glove
+ White, with leather on the palm for a better grip.
+
+>show it to david
+ "Not much I can do to help with that," David says. "You'll just have to
+ put it on."
+
+>wear foil
+ You can't wear that!
+
+>wear glove
+ You're already wearing that!
+
+>wear mask
+ You put on the mask.
+
+>examine jacket
+ Your jacket covers your torso and arms while you fence. They are
+ required to be white, and yours zips up the front (making it much
+ easier to put on by yourself). Although the FIE requires 800 Newton
+ resistance, you are merely fencing in the USFA, which has much more lax
+ requirements than its European counterpart, so yours is only rated at
+ 350 Newtons.
+
+>show jacket to david
+ David takes the jacket from you and holds it so you can slip your arms
+ in easier. "Here," he says.
+
+ "Oh, wait a sec," David says. "Let me unzip it first." He tugs the
+ zipper down and opens the jacket. "Okay, go ahead."
+
+ The mask blocking your peripheral vision makes your task difficult. You
+ seem to remember it's the very last piece of equipment to go on, just
+ before you begin a bout.
+
+>undo
+ McIntire Meeting Room, Downtown Library
+ [Previous turn undone.]
+
+>remove mask
+ You take off the mask.
+
+>show jacket to david
+ David takes the jacket from you and holds it so you can slip your arms
+ in easier. "Here," he says.
+
+ "Oh, wait a sec," David says. "Let me unzip it first." He tugs the
+ zipper down and opens the jacket. "Okay, go ahead."
+
+ You're already wearing that!
+
+>wear cord
+ (the floor cord)
+ (first taking the floor cord)
+ David will plug in all of the floor cords. Just worry about your own
+ stuff for now.
+
+>undo
+ McIntire Meeting Room, Downtown Library
+ [Previous turn undone.]
+
+>examine body cord
+ Your body cord is used in electric fencing to connect several different
+ circuits of electricity. On one end, the two-prong connector attaches
+ to your electric foil. The other end has an alligator clip, to hook to
+ your lam?, and a three-prong connector, to plug into the floor reel. In
+ between is about five feet of insulated wiring, which is supposed to
+ run up your sleeve and down your back.
+
+>wear body cord
+ (first taking the body cord)
+ You can't wear that!
+
+>inventory
+ You are carrying:
+   a body cord
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and open but empty)
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>plug in body cord
+ You can't see any such thing.
+
+>put body cord in jacket
+ That would be far too difficult for you to try while you're wearing the
+ jacket. You're just not that coordinated yet.
+
+>remove jacket
+ You'll have to take off the lam? first.
+
+>examine two=prong
+ You can't see any such thing.
+
+>examine two-prong
+ The two-prong end attaches to your electric foil. The blue plastic
+ casing is marked with a stylized "U" for "Uhlmann," the company in
+ Germany that made it.
+
+>attach alligator clip to lame
+ You attach the alligator clip directly to the metal vest, remembering
+ to put it on the weapon arm side of your body as the rules require.
+
+>plug two-prong into foil
+ You attach the two-prong connector, which pokes out through your sleeve
+ next to your glove, to the foil. It clicks into place.
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>examine two-prong
+ The two-prong end attaches to your electric foil. The blue plastic
+ casing is marked with a stylized "U" for "Uhlmann," the company in
+ Germany that made it.
+
+>examine jacket
+ Your jacket covers your torso and arms while you fence. They are
+ required to be white, and yours zips up the front (making it much
+ easier to put on by yourself). Although the FIE requires 800 Newton
+ resistance, you are merely fencing in the USFA, which has much more lax
+ requirements than its European counterpart, so yours is only rated at
+ 350 Newtons.
+
+>inventory
+ You are carrying:
+   a body cord
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and open but empty)
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>examine body cord
+ Your body cord is used in electric fencing to connect several different
+ circuits of electricity. On one end, the two-prong connector attaches
+ to your electric foil. The other end has an alligator clip, to hook to
+ your lam?, and a three-prong connector, to plug into the floor reel. In
+ between is about five feet of insulated wiring, which is supposed to
+ run up your sleeve and down your back.
+
+>remove jackety
+ You can't see any such thing.
+
+>remove jacket
+ You'll have to take off the lam? first.
+
+>doff glove then unzip lame then doff lame then unzip jacket then doff jacket
+ You take off the glove.
+ You unzip the lam?.
+ Taking off the lam? is almost as much of a struggle as putting it on,
+ but somehow you manage.
+
+ You get the thing off, eventually.
+ That's already open.
+ You pull your arms out of the slightly sweaty sleeves. It takes a bit
+ of flapping, but you manage to get out of the jacket.
+
+>put body cord in jacket
+ You slide the two-prong end of the body cord into the jacket sleeve.
+
+>show jacket to david
+ David takes the jacket from you and holds it so you can slip your arms
+ in easier. "Here," he says.
+
+ You pull the jacket on, trying to keep the dangling bits of the body
+ cord out of the way. What a pain!
+
+>wear jacket then zip jacket then wear lame then zip lame
+ You're already wearing that!
+ You zip up the jacket, tugging the zipper up to make sure it's all the
+ way up.
+ You struggle to get your jacketed arms through the small openings in
+ the lam?. Finally, you get it on.
+ You zip up the lam?, and adjust the Velcro at the collar to make sure
+ you have a proper fit.
+
+>inventory
+ You are carrying:
+   a mask
+   an electric foil
+   a glove
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>plug two-prong into foil
+ You attach the two-prong connector, which pokes out through your sleeve
+ next to your glove, to the foil. It clicks into place.
+
+>attach clip to lame
+ You attach the alligator clip directly to the metal vest, remembering
+ to put it on the weapon arm side of your body as the rules require.
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>plug three-prong
+ What do you want to plug the three-prong connector in?
+
+>reel
+ You connect the three-prong end of the body cord with the hook out of
+ the floor reel. Getting close to fencing time!
+
+>wear glove
+ You put on the glove.
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>inventory
+ You are carrying:
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>hold foil
+ You already have that.
+
+>wear mask
+ You put on the mask.
+
+>salute
+ First things first: you NEVER salute with a mask on. It's considered
+ very rude.
+
+>remove mask
+ You take off the mask.
+
+>open mask
+ You fumble with the zipper, but the glove is too thick to allow you to
+ get a good grasp.
+
+>examine foil
+ You've brought your best electric foil along for today's lesson. The
+ blade is 36 inches long, and the whole thing weighs just under 500
+ grams. Your bell guard is still nice and shiny, thanks to a lack of
+ use. The grip is a pistol grip of the Visconti style, painted blue so
+ you can tell it apart from David's. There's also a two-prong receptacle
+ for your body cord to plug into.
+
+>ask david about foil
+ "I don't know, love," David says. "Can it wait until later?"
+
+>wear mask
+ You put on the mask.
+
+>open mask
+ You fumble with the zipper, but the glove is too thick to allow you to
+ get a good grasp.
+
+>show foil to david
+ David looks your foil over. "Looks like it's in working condition," he
+ says. "Just hang on to it until we're ready to fence. You'll need it
+ for the salute!" His eyes twinkle at you.
+
+>remove glove then open mask
+ You take off the glove.
+ That's not something you can open.
+
+>show lame to david
+ "Oh, these things are a pain," David says. David unzips the lam? on the
+ sly, so as not to draw your attention to the fact that he's doing it.
+ He holds the lam? up for you to put one jacketed arm through, then
+ helps guide your other arm into the small hole. He turns you around to
+ face him, and straightens the lam? for you. "There you are," he says,
+ and kisses your cheek.
+
+>idiot game
+ That's not a verb you need today.
+
+>wear glove
+ The mask blocking your peripheral vision makes your task difficult. You
+ seem to remember it's the very last piece of equipment to go on, just
+ before you begin a bout.
+
+>inventory
+ You are carrying:
+   a mask (being worn)
+   an electric foil
+   a glove
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>doff mask then wear glove then wear mask
+ You take off the mask.
+ You put on the glove.
+ You put on the mask.
+
+>examine cord
+ (the floor cord)
+ The floor cords are nothing more than long, insulated wires that carry
+ electrical current between the floor reels and the scoring box.
+
+>show protector to david
+ David smiles at you. He holds the chest protector out for you, and you
+ slip your arms under the straps. The mask blocking your peripheral
+ vision makes your task difficult. You seem to remember it's the very
+ last piece of equipment to go on, just before you begin a bout.
+
+>examine body cord
+ Your body cord is used in electric fencing to connect several different
+ circuits of electricity. On one end, the two-prong connector attaches
+ to your electric foil. The other end has an alligator clip, to hook to
+ your lam?, and a three-prong connector, to plug into the floor reel. In
+ between is about five feet of insulated wiring, which is supposed to
+ run up your sleeve and down your back.
+
+>examine three
+ This end is about two inches wide, with three metal prongs protruding
+ from blue plastic casing. The plastic is marked with a stylized "U."
+
+>show protector to david
+ David smiles at you. He holds the chest protector out for you, and you
+ slip your arms under the straps. The mask blocking your peripheral
+ vision makes your task difficult. You seem to remember it's the very
+ last piece of equipment to go on, just before you begin a bout.
+
+>remove mask
+ You take off the mask.
+
+>inventory
+ You are carrying:
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>remove mask
+ You're not wearing that.
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>show protector to david
+ David smiles at you. He holds the chest protector out for you, and you
+ slip your arms under the straps. You're already wearing that!
+
+>show plastron to david
+ David takes the plastron from you and holds it out. You work your arm
+ in, and let David make the connections to keep it on.
+
+>inventory
+ You are carrying:
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>show codpiece to david
+ You can't see any such thing.
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>examine body cord
+ Your body cord is used in electric fencing to connect several different
+ circuits of electricity. On one end, the two-prong connector attaches
+ to your electric foil. The other end has an alligator clip, to hook to
+ your lam?, and a three-prong connector, to plug into the floor reel. In
+ between is about five feet of insulated wiring, which is supposed to
+ run up your sleeve and down your back.
+
+>kill david
+ Violence isn't the answer to this one.
+
+>plug three prong to floor
+ I didn't understand that sentence.
+
+>plug three-prong in reel
+ You connect the three-prong end of the body cord with the hook out of
+ the floor reel. Getting close to fencing time!
+
+>plug three-prong in reel
+ You connect the three-prong end of the body cord with the hook out of
+ the floor reel. Getting close to fencing time!
+
+>taser david with foil
+ That's not a verb you need today.
+
+>plug two-prong in sword
+ You attach the two-prong connector, which pokes out through your sleeve
+ next to your glove, to the foil. It clicks into place.
+
+>attach clip to lame
+ You attach the alligator clip directly to the metal vest, remembering
+ to put it on the weapon arm side of your body as the rules require.
+
+>talk to david
+ That's not a verb you need today.
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>examine me
+ You look just as you always have.
+
+ You are carrying:
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and closed)
+     a body cord
+>help
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+ Quick tip: to see if you're hooked up yet, you can always try SALUTE or
+ FENCE.
+
+ Fencing is, to various degrees and various people, a sport and a hobby.
+ Today's Olympic-style sport is derived from the older, classical style
+ of swordplay developed in Europe over the last several hundred years.
+ In this work, as in the USFA (www.usfencing.org), the modern rules and
+ styles are used.
+
+ What that means to you is that the director (person who scores the
+ match, or referee) is aided by electrical equipment: each fencer wears
+ a metal vest called a lam? and plugs their foil (the weapon used in our
+ game) into a box with lights. When the plunger on the tip of your foil
+ is depressed (usually against the opponent), one of the lights on the
+ box will light up. If *your* foil contacted *my* lam?, your colored
+ light (either red or green, depending on which side you're on) will
+ light up, indicating a touch on a valid target (which could score a
+ point or "touch"). If your foil contacted anything else (my arm or leg,
+ your shoe, the floor, the director), then the white light (we both have
+ one colored and one white) will light up. The director watches the
+ action, watches the box, and decides who, if anyone, gets a point each
+ time he or she stops the action.
+
+ It gets a bit more complicated when both fencers score a valid hit, but
+ suffice it to say that the director must decide which of the two had
+ priority, or right-of-way, to attack. That person is awarded the touch.
+
+ Anyway, the important thing for you to figure out is just how to set up
+ the electric circuits in the first place. The different circuits allow
+ the box to distinguish between on-target and off-target hits; that is
+ why your lam? must be connected to the circuit somehow. Obviously your
+ foil has to be connected, so that the box will register when your foil
+ tip is depressed. And all of it has to be reported back to the box over
+ an electric circuit.
+
+ For more hints as to what needs to be connected where, be sure to
+ examine everything, maybe even the things David sets up.
+>fence
+ You don't have all your gear on yet (not counting the mask, of course).
+
+>become darth vader
+ That's not a verb you need today.
+
+>push tip
+ Nothing obvious happens.
+
+>inventory
+ You are carrying:
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>examine d-ring
+ The D-ring is sewn onto the back of your lam?. Its purpose is solely to
+ give the hook from the floor reel something to latch onto, to give the
+ three-prong connection a bit of slack and make your life easier.
+
+>wear foil
+ You can't wear that!
+
+>attach d-ring to lame
+ That's not supposed to attach directly to the lam?. You may wish to
+ attach it to the D-ring, or it may not be necessary at all.
+
+>attach hook to d-ring
+ You're not suited up enough to plug in yet.
+
+>put cord in d-ring
+ (the floor cord in the D-ring)
+ David will plug in all of the floor cords. Just worry about your own
+ stuff for now.
+
+>wear glove
+ You're already wearing that!
+
+>inventory
+ You are carrying:
+   a mask
+   an electric foil
+   a glove (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a chest protector (being worn)
+   a plastron (being worn)
+
+>put body cord in d-ring
+ You need to be holding the body cord before you can put it into
+ something else.
+
+>hold foil
+ You already have that.
+
+>fuck you
+ That's not like you.
+
+>sure it is
+ That's not a verb you need today.
+
+>examine cord
+ (the floor cord)
+ The floor cords are nothing more than long, insulated wires that carry
+ electrical current between the floor reels and the scoring box.
+
+>examine reels
+ The floor reel is made to connect you to the floor cord. It's supposed
+ to sit at the end of the strip, and the floor cord plugs into it. The
+ hook that comes out the front attaches to the fencer's body cord, and
+ when released it retracts like a self-retracting tape measure. Your
+ floor reels are Uhlmann made, with dark blue plastic casing and rubber
+ feet to keep them in place.
+
+>attach alligator clip to lame
+ You attach the alligator clip directly to the metal vest, remembering
+ to put it on the weapon arm side of your body as the rules require.
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>attach hook to cord
+ (the floor cord)
+ You would achieve nothing by this.
+
+>examine d-ring
+ The D-ring is sewn onto the back of your lam?. Its purpose is solely to
+ give the hook from the floor reel something to latch onto, to give the
+ three-prong connection a bit of slack and make your life easier.
+
+>examine hook
+ The hook has a receptacle for the three-prong connector of the body
+ cord, and it also attaches to the fencer's D-ring to prevent
+ unnecessary pulling on the body cord.
+
+>attach hook to d-ring
+ You're not suited up enough to plug in yet.
+
+>examine david
+ Your husband is a tall man in his mid-thirties, with clear gray eyes
+ and a wonderfully misshapen nose. His smile lights up your day, and he
+ doesn't smile much except at you: but he smiles a lot at you.
+
+>david's foil
+ That's not a verb you need today.
+
+>salute with middle finger
+ You can't see any such thing.
+
+>don exosuit
+ You can't see any such thing.
+
+>restart
+ Are you sure you want to restart?
+>y
+
+
+
+
+
+
+
+
+                           THE QUEEN OF SWORDS
+
+
+                     [Please press SPACE to begin.]
+
+
+
+
+
+
+
+
+ Each week, you spend four hours round-trip in a car to take a
+ beginner's fencing class at the Virginia Academy of Fencing in
+ Springfield. It's fun, you tell yourself, and it never hurts to be more
+ active. David, on the other hand, wants to compete. Your husband wants
+ to join the U.S. Fencing Association and begin competing in regional
+ tournaments after only eight weeks of classes, when they tell people to
+ take lessons for a whole year before competing. However, David will
+ want what David will want, and you love your husband dearly, so...
+
+ There's a tournament in Glen Falls this weekend, and you're going. On
+ your last trip to VAF you spent over $900 on electric fencing
+ equipment. The real problem is going to figure out how to use all of
+ it: what plugs into where, which piece you need to put on first, and
+ how to fence with a floor cord holding you back. That's why you and
+ David are going to use tonight, while you have the room at the local
+ library reserved, to practice gearing up for electric.
+
+ David gets a good parking spot downtown, and the two of you haul the
+ bags of equipment out of the trunk and into the library. The librarians
+ wave at you as you pass, already used to seeing you, and the two of you
+ make your way to one of the larger meeting rooms upstairs to set up the
+ electric strip.
+
+ David drops his equipment bag near the door and smiles at you. "I'll
+ put the strip up," he says. "Why don't you go ahead and get your stuff
+ on?" You look at your bag uncertainly. "I'm not sure I know where
+ everything goes," you say. He grins. "Me neither," he says. "If you
+ have trouble, let me know, and I'll try to help." He takes the bag with
+ the scoring box and floor reels and goes to set up a table. You survey
+ the room.
+
+
+ The Queen of Swords
+ An Interactive Fencing Lesson
+ Copyright (c) 2003 by Jessica Knoch
+
+ Players may wish to type ABOUT.
+ Release 1 / Serial number 030426 / Inform v6.21 Library 6/10
+
+ McIntire Meeting Room, Downtown Library
+ A large, open room, with plenty of room for a few fencers to practice.
+ Of course, tonight it's just you and David. A row of tall windows line
+ the western wall, and stacks of chairs are at either end of the long
+ north-south room. The door to the hallway is east. An industrial-type
+ carpet in garish red covers the floor.
+
+ The open windows let in a welcome breeze.
+
+>drop bag
+ You set the bag down, out of the way against a wall.
+
+ David pushes the table against the eastern wall.
+
+>open it
+ You open the fencing bag, revealing a mask, a jacket, a body cord, an
+ electric foil, a lam?, a glove, a plastron and a chest protector.
+
+ He sets the bag of scoring equipment on the table and opens it.
+
+>take plastron
+ Taken.
+
+ David is rummaging in the bag.
+
+>wear it
+ You put on the plastron.
+
+ David takes a floor reel and floor cord from the bag.
+
+>take lame
+ Taken.
+
+ He walks to the north end of the room and sets down the floor reel.
+
+>examine lame
+ The lam? (pronounced "luh-MAY") is like a sleeveless, metal vest, used
+ in electric foil fencing to define your target area--literally, since
+ the opponent's blade must strike you on the lam? to complete the
+ correct circuit. It The lam? is made to cover your torso from neck to
+ waistline, with an additional section in front best described by
+ drawing a line from your hips to your pelvis. Yours is an Uhlmann lam?,
+ quite high quality, although it cost a good deal. There is a small,
+ metal D-ring (shaped like the letter D) sewn into the back of the lam?.
+
+ David plugs the floor cord into the floor reel.
+
+>take body cord
+ Taken.
+
+ David walks back to the center of the room and looks in the bag on the
+ table.
+
+>take jacket
+ Taken.
+
+ David pulls the scoring box out of the bag and sets it on the table.
+
+>unzip lame
+ You unzip the lam?.
+
+ He plugs the free end of the first floor cord into the scoring box.
+
+>unzip jacket
+ You unzip the jacket.
+
+ David takes the other floor cord out of the bag and plugs one end into
+ the box.
+
+>examine jacket
+ Your jacket covers your torso and arms while you fence. They are
+ required to be white, and yours zips up the front (making it much
+ easier to put on by yourself). Although the FIE requires 800 Newton
+ resistance, you are merely fencing in the USFA, which has much more lax
+ requirements than its European counterpart, so yours is only rated at
+ 350 Newtons.
+
+ David takes the other reel from the bag.
+
+>attach body cord to jacket
+ You would achieve nothing by this.
+
+ He walks down to the south end of the room, and winks at you.
+
+>examine sleeve
+ Your jacket covers your torso and arms while you fence. They are
+ required to be white, and yours zips up the front (making it much
+ easier to put on by yourself). Although the FIE requires 800 Newton
+ resistance, you are merely fencing in the USFA, which has much more lax
+ requirements than its European counterpart, so yours is only rated at
+ 350 Newtons.
+
+ Setting the floor reel on the carpet, David plugs the free end of the
+ floor cord into it.
+
+>examine body cord
+ Your body cord is used in electric fencing to connect several different
+ circuits of electricity. On one end, the two-prong connector attaches
+ to your electric foil. The other end has an alligator clip, to hook to
+ your lam?, and a three-prong connector, to plug into the floor reel. In
+ between is about five feet of insulated wiring, which is supposed to
+ run up your sleeve and down your back.
+
+ David turns to survey his work.
+
+>put body cord in sleeve
+ You slide the two-prong end of the body cord into the jacket sleeve.
+
+ "Oops," David says, "I forgot to plug in the box."
+
+>wear jacket
+ You start to pull the jacket on, but something feels funny. Your front
+ seems very... unprotected. Maybe there's another piece you're supposed
+ to wear first.
+
+ He walks back to the table in the center of the east wall.
+
+>wear chest protector
+ (first taking the chest protector)
+ You put on the chest protector.
+
+ David peers in the bag and gets out the AC adapter for the scoring box.
+
+>wear jacket
+ You pull the jacket on, trying to keep the dangling bits of the body
+ cord out of the way. What a pain!
+
+ David plugs the adapter into the box.
+
+>zip jacket
+ You zip up the jacket, tugging the zipper up to make sure it's all the
+ way up.
+
+ He plugs the free end of the adapter into the electrical outlet in the
+ wall.
+
+>wear lame
+ You struggle to get your jacketed arms through the small openings in
+ the lam?. Finally, you get it on.
+
+ "There!" David says, looking over the electric strip in satisfaction.
+ He turns to you. "Now, let's get suited up and then we can fence!"
+
+>zip lame
+ You zip up the lam?, and adjust the Velcro at the collar to make sure
+ you have a proper fit.
+
+ David looks you over. "Looks like you don't quite have all your stuff.
+ Check in your bag--if you need help with something, show it to me."
+
+>attach alligator clip to lame
+ You attach the alligator clip directly to the metal vest, remembering
+ to put it on the weapon arm side of your body as the rules require.
+
+ Meanwhile, David gets his gear on amazingly fast. He says, "We'll
+ salute as soon as we're both ready."
+
+>attach two-prong to foil
+ You attach the two-prong connector, which pokes out through your sleeve
+ next to your glove, to the foil. It clicks into place.
+
+ David connects to the far floor reel. "I'm about ready," he says.
+
+>take foil
+ Taken.
+
+>examine cord
+ (the floor cord)
+ The floor cords are nothing more than long, insulated wires that carry
+ electrical current between the floor reels and the scoring box.
+
+>examine body cord
+ Your body cord is used in electric fencing to connect several different
+ circuits of electricity. On one end, the two-prong connector attaches
+ to your electric foil. The other end has an alligator clip, to hook to
+ your lam?, and a three-prong connector, to plug into the floor reel. In
+ between is about five feet of insulated wiring, which is supposed to
+ run up your sleeve and down your back.
+
+>put reel in d-ring
+ There's no need to move either of the reels; David will have them just
+ where he wants them.
+
+>attach reel to d-ring
+ You're not suited up enough to plug in yet.
+
+>attach three-prong to reel
+ You connect the three-prong end of the body cord with the hook out of
+ the floor reel. Getting close to fencing time!
+
+>attach reel to d-ring
+ You're not suited up enough to plug in yet.
+
+>wear glove
+ (first taking the glove)
+ You put on the glove.
+
+>attach reel to d-ring
+ You're not suited up enough to plug in yet.
+
+>plug reel to d-ring
+ I didn't understand that sentence.
+
+>inventory
+ You are carrying:
+   a glove (being worn)
+   an electric foil
+   a chest protector (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a plastron (being worn)
+
+>salute
+ Fencers don't salute until they are completely plugged in and ready to
+ fence.
+
+>ask david about reel
+ "I don't know, love," David says. "Can it wait until later?"
+
+>ask david about d-ring
+ "I don't know, love," David says. "Can it wait until later?"
+
+>examine d-ring
+ The D-ring is sewn onto the back of your lam?. Its purpose is solely to
+ give the hook from the floor reel something to latch onto, to give the
+ three-prong connection a bit of slack and make your life easier.
+
+>hook reel to d-ring
+ You're not suited up enough to plug in yet.
+
+>inventory
+ You are carrying:
+   a glove (being worn)
+   an electric foil
+   a chest protector (being worn)
+   a jacket (being worn and closed)
+     a body cord
+   a lam? (being worn)
+   a plastron (being worn)
+
+>attach reel to d-ring
+ You're not suited up enough to plug in yet.
+
+>wierd foil
+ That's not a verb you need today.
+
+>wield foil
+ That's not a verb you need today.
+
+>wear mask
+ (first taking the mask)
+ You put on the mask.
+
+>attach reel to d-ring
+ You attach the hook from the floor reel to the D-ring on your lam?. One
+ step closer to fencing!
+
+>salute
+ First things first: you NEVER salute with a mask on. It's considered
+ very rude.
+
+>remove mask
+ You take off the mask.
+
+>salute
+ You raise your foil in a traditional salute towards David. He smiles at
+ you, and you sweep the blade downward to finish the salute. You are now
+ (almost) ready to fence!
+
+>wear mask
+ You put on the mask.
+
+>fence
+ You drop into your en guarde position, pleased to see David doing the
+ same. You have fenced him often enough to know that you need to hang
+ back, wait, and try to parry (or block) his attack, and riposte (or
+ attack immediately after parrying). You take a few cautious steps
+ forward (advances) and back (retreats), while waiting for him to make
+ the first move. The floor cord tugs gently at you, through the hook-up
+ on the D-ring, but after a few moments you don't notice it at all.
+
+ David makes a few feints, which you ignore, and then suddenly he is
+ attacking! You try to parry, but it comes too late, and a loud buzz
+ emanates from the scoring box. You look at the box, and see David's red
+ light glowing, indicating that he scored a valid touch. You knew that
+ much; you can still feel the spot on your chest where he landed. But to
+ see it on the box is so exciting!
+
+ "One," you say to David, holding up a finger to indicate that he scored
+ a touch. He nods, and backs up to his en guarde line. You both pause,
+ and then begin fencing again. This time, you think, maybe it isn't such
+ a good idea to try to defend, since he is so much faster than I am!
+ With that in mind, you spring forward, tapping David's blade aside as
+ you lunge (a "beat attack"). But David is fast, and he recovers from
+ the beat in time to parry your attack. His riposte comes for you, and
+ you do your best to parry it, but the buzzing of the score box can't be
+ denied.
+
+ This time, there are two lights: David's red on-target light, and your
+ white off-target light. You must have hit him off-target somewhere in
+ there. Since the two of you are pretty new to the sport, and you have
+ no director or referee to oversee your bout, you both shrug.
+ Right-of-way, or "priority," can be hard to call, so you decide to
+ throw it out.
+
+ .....
+
+ You and David spend the next hour practicing with your electric
+ equipment, preparing for Saturday's tournament in Glen Falls. You don't
+ expect to win any bouts in the tournament, and maybe not even to score
+ any touches, but you feel confident you will at least know how to hook
+ up.
+
+
+     *** You have won ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>quit
+
+>no it was not
+>load snowaces
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ It only takes a moment of inattention.  The snowstorm draws thicker and
+ the faint grey silhouette of the reconnaissance plane fades away
+ completely.  You bank hard, yanking on the control column with mild
+ panic, but it's too late.  Your paths have diverged, unlikely to cross
+ again as long as this lethal weather continues.
+
+ The lumbering two-seater plane you were supposed to be escorting is
+ alone and unprotected.  And she is out there: lightning fast, deadly
+ accurate and cold as ice.  You'd consider turning back to the airbase
+ right away.
+
+ If, that is, you even knew where you were.
+
+ Snowblind Aces
+ An adventure/romance in the snow by C.E.J.  Pacian
+ Version 5 - Developed with TADS 3
+
+ [Type 'About' if this is your first time playing.
+ Type 'Credits' to learn who's responsible for this drivel.]
+
+ Biplane Cockpit (sitting in the pilot's seat)
+ You're seated in the cockpit of your Swordfish biplane, exposed to the
+ elements.  The small windscreen ahead does little to keep the harsh,
+ icy wind from cutting right through you, and you're surrounded on all
+ sides by blinding white mist.
+
+ The plane's control column juts up in front of you.
+
+>about
+ Snowblind Aces is a short, highly replayable adventure/romance, written
+ in two weeks for the TIGSource Text the Halls competition.  This is
+ intended to be a puzzle-less game, but if you do get stuck, type HINTS
+ to read some relevant pointers.
+
+ Some notes about conversations: converse using 'ASK/TELL [character]
+ ABOUT [subject]'.  Type 'TOPICS' to see a list of subjects that your
+ character thinks are currently relevant.
+
+ From time to time you'll see some more unusual responses suggested in
+ brackets, for example '(You could remind Leonard who you are, or
+ pretend not to know him)'.  Sometimes you can simply change the subject
+ to something else, but often you'll have to choose one of the suggested
+ actions (although typing REMIND or PRETEND should suffice).
+
+ If your interpreter is spiffy enough, conversations will feature blue,
+ underlined hyperlinks that you can click on to follow the flow of the
+ dialogue.
+
+ Finally, note that the path through this game is short and
+ straightforward.  You can spend a lot of time talking with the other
+ character, but you don't have to if you don't want.
+
+ Hugses,
+    Pacian
+
+>pretend
+ The word "pretend" is not necessary in this story.
+
+ (If this was an accidental misspelling, you can correct it by typing
+ OOPS followed by the corrected word now.  Any time the story points out
+ an unknown word, you can correct a misspelling using OOPS as your next
+ command.)
+
+>examine column
+ Your Swordfish's trusty joystick features a tempting red button on the
+ top.  Pushing or pulling the column will adjust your pitch.
+
+ You suppress a shiver.
+
+>push column
+ You grip the control column tightly and push it forward, hoping to sink
+ within sight of the ground.
+
+ Almost before you can react, a huge shape swoops out of the white void
+ below: a scarlet triplane, close enough that you can see its pilot, and
+ the surprised expression on her face.  You pull on the control column
+ hard and punch the throttle, feeling your plane strain to rise higher.
+ For an instant you think you've avoided disaster.
+
+ And then the whole fuselage lurches, the sound of metal on metal
+ scraping right into your brain as you collide glancingly with the other
+ plane.  You look over your shoulder just in time to see the scarlet
+ triplane disappear into the clouds, trailing thick black smoke.
+ Turning back to your controls you immediately notice the epileptic
+ motion of the rapidly spinning altimeter.
+
+ It would seem that you have a problem.
+
+ (Your score has just increased by one point.)
+ (If you'd prefer not to be notified about score changes in the future,
+ type NOTIFY OFF.)
+
+>push button
+ You press the button and your plane's twin machineguns strafe the murk
+ ahead in a display of bright muzzle flash and loud, mechanical
+ rattling.
+
+ Pointless, but satisfying all the same.
+
+ The engine stalls for a second before lurching back to life, something
+ loose and metallic grating inside it.
+
+>verbose
+ VERBOSE mode is now selected.
+
+>land plane
+ The word "land" is not necessary in this story.
+
+>pull joystick
+ The control column moves loosely, clearly having no effect on the
+ plane's ailerons.
+
+ The control column twitches spasmodically.
+
+>inventory
+ You are carrying a revolver, and you're wearing a pair of goggles, a
+ parachute pack, a white scarf, a fur-lined jacket, some breeches, and
+ some sheepskin boots.
+
+ The propeller flickers in its motion, struggling to keep turning.
+
+>shoot me
+ You miss.
+
+ You glance over your shoulder in time to see something go flying
+ backwards from beneath the plane.  Hopefully nothing too important...
+
+>undo
+ Taking back one turn: "shoot me".
+
+ Biplane Cockpit (sitting in the pilot's seat)
+ You're seated in the cockpit of your Swordfish biplane, exposed to the
+ elements.  The small windscreen ahead does little to keep the harsh,
+ icy wind from cutting right through you, and you're surrounded on all
+ sides by blinding white mist.
+
+ The plane's control column juts up in front of you.
+
+>examine column
+ Your Swordfish's trusty joystick features a tempting red button on the
+ top.  Pushing or pulling the column will adjust your pitch.
+
+ You glance over your shoulder in time to see something go flying
+ backwards from beneath the plane.  Hopefully nothing too important...
+
+>undo
+ Taking back one turn: "x column".
+
+ Biplane Cockpit (sitting in the pilot's seat)
+ You're seated in the cockpit of your Swordfish biplane, exposed to the
+ elements.  The small windscreen ahead does little to keep the harsh,
+ icy wind from cutting right through you, and you're surrounded on all
+ sides by blinding white mist.
+
+ The plane's control column juts up in front of you.
+
+>examine seat
+ You are sitting in the pilot's seat.
+
+ You glance over your shoulder in time to see something go flying
+ backwards from beneath the plane.  Hopefully nothing too important...
+
+>stand
+ You check your parachute and climb up onto your seat.  After you throw
+ your leg over the side, it's surprisingly easy to push yourself away
+ from the plane and leap into the mist.
+
+ Not quite as aerodynamic as your Swordfish, you drop like a stone,
+ plummeting into the murky white void below.  Ice and fog crowd close
+ around you, obscuring every direction.  The only reason you know you're
+ falling is because of the way your stomach seems to still be a hundred
+ metres above you somewhere.  Remembering the single parachute jump you
+ performed in basic training, you fumble with the chord and yank hard,
+ the harness suddenly seeming to pull you upwards.
+
+ Falling
+ You're hanging from a parachute, descending slowly into a blank white
+ void.  Without the sound of your plane's engine, everything seems
+ shockingly silent.
+
+ (Your score has just increased by one point.)
+
+>SAVE
+>cf8
+ Saved.
+
+>SAVE
+>cf1
+ Saved.
+
+>wait
+ Time passes...
+
+ Your plane will have hit the ground by now, shattering into pieces,
+ bursting into flames.
+
+>wait
+ Time passes...
+
+ But you're okay.  You made it.
+
+>wait
+ Time passes...
+
+ The hard part is over.
+
+>wait
+ Time passes...
+
+ The mist beneath you parts.  Below you are thick, evergreen trees,
+ garnished with snow, clinging to sharp black rocks.
+
+ Now you have a frame of reference, you realise just how fast you're
+ falling.
+
+
+
+
+
+
+
+
+ You open your eyes.  You feel remarkably well given the circumstances.
+ The air is fresh and invigorating, the sound of birdsong and rustling
+ leaves is like soothing music.  Time to get moving - for all you know,
+ you might be behind enemy lines.
+
+ Forest Clearing (lying on the ground)
+ Snow-coated evergreen trees surround you on all sides, their roots
+ tangling into rugged black rocks.  Snow falls from the bright white sky
+ above.
+
+ The canopy of your parachute is suspended in the branches of a tree,
+ like a giant, tattered spider's web.
+
+>undo
+ Taking back one turn: "z".
+
+ Falling
+ You're hanging from a parachute, descending slowly into a blank white
+ void.  Without the sound of your plane's engine, everything seems
+ shockingly silent.
+
+>remove chute
+ You just cheated death.  If you wanted to commit suicide, you missed
+ your chance.
+
+ The mist beneath you parts.  Below you are thick, evergreen trees,
+ garnished with snow, clinging to sharp black rocks.
+
+ Now you have a frame of reference, you realise just how fast you're
+ falling.
+
+
+
+
+
+
+
+
+ You open your eyes.  You feel remarkably well given the circumstances.
+ The air is fresh and invigorating, the sound of birdsong and rustling
+ leaves is like soothing music.  Time to get moving - for all you know,
+ you might be behind enemy lines.
+
+ Forest Clearing (lying on the ground)
+ Snow-coated evergreen trees surround you on all sides, their roots
+ tangling into rugged black rocks.  Snow falls from the bright white sky
+ above.
+
+ The canopy of your parachute is suspended in the branches of a tree,
+ like a giant, tattered spider's web.
+
+>examine web
+ It doesn't look like this parachute will be saving any further lives.
+
+>get cute
+ The word "cute" is not necessary in this story.
+
+>get chute
+ You are already carrying the parachute pack.
+
+>inventory
+ You are carrying a revolver, and you're wearing a pair of goggles, a
+ parachute pack, a white scarf, a fur-lined jacket, some breeches, and
+ some sheepskin boots.
+
+ An icy breeze passes through the clearing, the soft rustling of leaves
+ following in its wake.
+
+>examine trees
+ The trees seem unperturbed by the cold.  You envy them.
+
+>examine jacket
+ The best protection against the northern weather short of setting
+ yourself on fire.
+
+>examine forest
+ The word "forest" is not necessary in this story.
+
+>look
+ Forest Clearing (lying on the ground)
+ Snow-coated evergreen trees surround you on all sides, their roots
+ tangling into rugged black rocks.  Snow falls from the bright white sky
+ above.
+
+ The canopy of your parachute is suspended in the branches of a tree,
+ like a giant, tattered spider's web.
+
+ A bird chirrups melodically.
+
+>stand
+ You sit up, feeling a lot weaker than you thought you were.  As you
+ start to shift your legs, something inside your left calf moves.  White
+ lightning bolts of pain jolt across your vision and you collapse back
+ with a scream of pain.
+
+ You've broken your leg.  You're lying in the freezing snow, and you're
+ not going anywhere.
+
+>take stick
+ You see no stick here.
+
+>examine tree
+ The trees seem unperturbed by the cold.  You envy them.
+
+ You hear something rustling among the trees.
+
+>examine roots
+ The word "roots" is not necessary in this story.
+
+>shoot tree
+>examine leg
+ It doesn't look like that would achieve much.
+
+ A feral icekin blunders into the clearing, looking around with its
+ empty black eyes.  Probably attracted by your scream of pain.  Nice
+ going, Lucas.
+
+ Your left leg looks normal enough, but something feels very wrong
+ inside it.  The slightest movement is agony.
+
+ The icekin looks around, breathing heavily through its sharp, uneven
+ teeth.
+
+ You hear the icekin's rasping breaths.
+
+ The icekin fixes its lifeless black eyes on you, emitting a low growl.
+
+>examine icekin
+ A lumbering, bipedal creature, its shaggy white coat stained with
+ blood.  It clutches a long, rusted blade.
+
+ The icekin lumbers towards you.
+
+>shoot icekin
+ You level your revolver at the icekin and squeeze the trigger.  It
+ grunts, and takes a few shuffling steps towards you, as if it hasn't
+ even noticed what's happened.
+
+ After the third step, blood begins to drip from its mouth, and it
+ collapses face-down into the snow.
+
+ A dark figure strides into the clearing, a flare gun in her hand.  She
+ slips it into her belt and rests a hand on her hip, surveying you with
+ her one good eye.  "I heard a scream," she says wryly, "But it seems
+ you can handle yourself."  She looks disapprovingly at your gun."You
+ don't need to point that thing at me, Lucas.  They pay us to shoot
+ planes and we're both grounded after our little airborne contretemps,
+ aren't we?"
+
+ You smile in spite of the pain.  "The Scarlet Baroness."
+
+ She allows herself a carnivorous grin.  "Yes.  The two great aces, face
+ to face at last."
+
+ (Your score has just increased by one point.)
+
+ (You could tell her it feels like you already know her, or play it
+ cool.)
+
+>examine baroness
+ The Scarlet Baroness is a tall, imposing woman with long, fiery red
+ hair and an eyepatch.  She's clad in black leather and a thick fur
+ coat.  You have her full attention.
+
+ An awkward silence hangs between the two of you.
+
+>tell her it feels like I already know her
+ "Yes," you say.  "It doesn't feel like an introduction.  You and I, we
+ know one another better than many friends.  Than many lovers, even."
+
+ "Exactly," she says with a crooked grin.  "I know I've consumed every
+ snippet of information that might give me an advantage over you, I've
+ learnt your flying style, your weaknesses and quirks.  I expect no less
+ from you.  And we're certainly dance partners of the most intimate
+ kind.  There's no-one else I'd be happier to have shoot me out of the
+ sky."
+
+ Your eyes meet.  Her's is icy green, studying you in a way you find
+ difficult to fathom - catlike, perhaps, or aloof.
+
+ "Imelda," she says suddenly.  "Maybe you just know me as the Scarlet
+ Baroness, but my name's Imelda von Strassenbach."
+
+ "Come on," she adds, "I think it's going to really get snowing soon.
+ We need to get to shelter."
+
+>look
+ Forest Clearing (lying on the ground)
+ Snow-coated evergreen trees surround you on all sides, their roots
+ tangling into rugged black rocks.  Snow falls from the bright white sky
+ above.
+
+ The canopy of your parachute is suspended in the branches of a tree,
+ like a giant, tattered spider's web.
+
+ A dead icekin lies in the snow, steam rising from its pooling blood.
+
+ Imelda watches you intently.
+
+ Imelda looks down at your leg.  "Are you okay?  Can you walk?"
+
+ "I think it's broken."
+
+ She kneels down by your side.  "Let me take a look."
+
+ "Be sure to look twice as long," you advise her, "since you just have
+ the one eye."
+
+ She purses her lips.  "You're right.  I'll do that."
+
+ "Ow!"
+
+ "Yeah, it's broken alright."
+
+ "Thanks, doctor."
+
+ "I'll have to see about making a splint.  And then I guess you'll have
+ to lean on me, if you don't mind."
+
+ "Anything to help you feel useful."
+
+ Downed Triplane (lying on the ground)
+ A scarlet triplane lies half-buried in the snow, leaning to one side.
+ You're huddled beneath its slanting wing, mostly sheltered from the
+ freezing wind and falling snow.
+
+ Imelda is huddled close by your side.
+
+ "It's getting dark," Imelda says.  "We'll have to stay here at least
+ for tonight, and then move on tomorrow morning if the weather lets up."
+
+>examine me
+ You're Lucas Thane: daredevil fighter ace, knight of the air.
+
+ "By the way," Imelda says, "why exactly did you feel the need to fly
+ into me?"
+
+ "That's funny," you reply.  "I thought that you were the one who flew
+ into me."
+
+ The triplane rocks slightly in the wind.
+
+ You're not about to kiss the enemy without at least a hint that she'd
+ like you to.
+
+ Imelda sighs, her breath hanging in front of her like a delicate cloud.
+
+>preposition Imelda
+ The word "preposition" is not necessary in this story.
+
+>smell cloud
+ You are not aware of any cloud here.
+
+>ask imelda about splint
+ You meet Imelda's eye and she looks at you expectantly.
+
+ You chat briefly with Imelda, but find out nothing important.
+
+>ask imelda about leg
+ "Is my leg going to be okay, do you think?"
+
+ Imelda affects nervousness.  "Well, I was trying not to let you know,
+ but I think it's going to be fatal.  If you have any last minute
+ confessions of love to tell to someone, you should probably do it
+ sooner rather than later."
+
+ You shrug.  "No, nothing like that."
+
+ She folds her arms.  "Oh.  I see."
+
+ Your breath leaves little clouds in the air.
+
+>ask imelda about love
+ You clear your throat.  "So, Imelda, how are things with the men in
+ your life?"
+
+ "Do you mean my male friends among the Sky Mercenaries?  Or are you
+ sneakily trying to ask about us?"
+
+ Snow continues to drift down from above.
+
+>topics
+ You could ask her about herself, your predicament, the Swordfish
+ biplane, the Thunderbolt triplane, the feral icekin, the Sky
+ Mercenaries, us, friends, or her eyepatch.
+
+>confess love
+ The word "confess" is not necessary in this story.
+
+>ask imelda about us
+ "Imelda, about us..."
+
+ She looks down at her feet.  "What about us?"
+
+ "Well, what's your take on it?  Why do we keep circling around one
+ another?  In the air or otherwise."
+
+ Still without looking at you, she says, "I can't really remember how we
+ first met, except that I suddenly realised this plane from the 5th
+ Imperial Air Squadron kept seeking me out to duel with me, probably
+ because I'm an obvious target in my scarlet plane.  I usually brought
+ down every enemy plane I came across, but you always managed to escape.
+ I only shot you down that once.  I started to research you, found out
+ who you were, started to learn your flying style, had a chance to kill
+ you, but didn't take it, and then flew into you in the middle of a
+ snowstorm.  And now here we are."
+
+ There's a pause, and then she adds, "But that's not what you asked,
+ really, is it?  That's just the story of us - I didn't mention my
+ feelings at all."  She smiles apologetically.
+
+ A chill wind passes under the wing, making you both shiver.
+
+>ask imelda about feelings
+ "So what are your feelings for me?"
+
+ Imelda remains strangely silent, just looks at you with an ambiguous
+ expression.  If you want to press the matter, perhaps you should tell
+ her about your feelings.
+
+>tell imelda about my feelings
+ You cough.  "Imelda, I just wanted to say that..."
+
+ (You could tell her you're in love with her, or tell her she's like
+ your best friend.)
+
+>tell imelda about feelings
+ You cough.  "Imelda, I just wanted to say that..."
+
+>tell imelda about feelings
+ You cough.  "Imelda, I just wanted to say that..."
+
+>tell imelda about love
+ You chat briefly with Imelda, but find out nothing important.
+
+ You rub your hands together to try to keep them warm.
+
+>tell imelda i'm in love
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+ "By the way," Imelda says, "you're not really dying."
+
+ "I know," you reply.
+
+ "Just thought I'd check."
+
+ A chill wind passes under the wing, making you both shiver.
+
+>tell imelda I'm in love with her
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+>tell imelda i'm in love with her
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+ You clear your throat.  "So, Imelda, how are things with the men in
+ your life?"
+
+ "Do you mean my male friends among the Sky Mercenaries?  Or are you
+ sneakily trying to ask about us?"
+
+>tell imelda about my feelings
+ You cough.  "Imelda, I just wanted to say that..."
+
+ The triplane rocks slightly in the wind.
+
+ (You could tell her you're in love with her, or tell her she's like
+ your best friend.)
+
+>tell imelda you're in love with her
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+ You rub your hands together to try to keep them warm.
+
+>tell imelda I'm in love with her
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+>ask imelda about icekin
+ "You know, I'd never seen an icekin up close before today."
+
+ Imelda laughs.  "Count yourself lucky.  Icekin come in all shapes and
+ sizes, but they all have pointy teeth and empty stomachs.  Just be glad
+ this was a feral with a blunt knife.  It'd gut you and eat you, and
+ that's it.  The Ice Queen's trained icekin soldiers, on the other hand,
+ now you really don't want them to take you prisoner."
+
+ Your breath leaves little clouds in the air.
+
+ The story doesn't understand that command.
+
+>tell imelda about feelings
+ You cough.  "Imelda, I just wanted to say that..."
+
+ (You could tell her you're in love with her, or tell her she's like
+ your best friend.)
+
+ You chat briefly with Imelda, but find out nothing important.
+
+>tell her i'm in love with her
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+>tell imelda about feelings
+ You cough.  "Imelda, I just wanted to say that..."
+
+ (You could tell her you're in love with her, or tell her she's like
+ your best friend.)
+
+>tell her i'm in love with her
+ You decide to just say it.  You don't even look at her.  "Imelda, I'm
+ in love with you."
+
+ She refrains from looking at you either.  "I'm in love with you too,"
+ she states, matter-of-factly.  "It makes perfect sense, I think.  We're
+ young, we're forced to deal with one another repeatedly in intense,
+ passionate, but graceful and playful circumstances, we understand the
+ stresses, the fears we each experience, we both love flying... and so
+ we grow attracted to one another."
+
+ The two of you lean closer as she speaks, your lips brushing together.
+ "My lips are numb," you complain.
+
+ She shushes you.  "Let me warm them up."
+
+ After a while, you lean back, faces flushed, sitting perhaps a little
+ closer than before.
+
+ Imelda straightens her hair and exhales slowly.  "That was almost as
+ satisfying as shooting you down."
+
+ (Your score has just increased by one point.)
+
+>score
+ In 52 moves, you have scored 4 of a possible 7 points.  This makes you
+ a wing commander.
+
+ (To see a detailed accounting of your score, type FULL SCORE.)
+
+>copulate with imelda
+ The word "copulate" is not necessary in this story.
+
+>full score
+ In 52 moves, you have scored 4 of a possible 7 points.  This makes you
+ a wing commander.  Your score consists of:
+    1 point for aerobatics
+    1 point for knowing when to quit
+    1 point for suriving a feral icekin
+    1 point for telling Imelda how you feel about her
+
+>shoot imelda up
+ You see no imelda up here.
+
+>kiss imelda
+ You lean over to Imelda and kiss her on the lips.  She kisses you back,
+ forcefully.
+
+>undress
+ The word "undress" is not necessary in this story.
+
+>inventory
+ You are carrying a revolver, and you're wearing a pair of goggles, a
+ white scarf, a fur-lined jacket, some breeches, some sheepskin boots,
+ and a makeshift splint.
+
+>remove jacket
+ The risk of hypothermia is too great.
+
+>remove breeches
+ It's extremely cold.  You don't really have much to show off right now.
+
+>screw imelda
+ You see no way to screw Imelda.
+
+ Imelda's attention drifts away from you.
+
+ It doesn't look like that would achieve much.
+
+ Imelda meets your eye briefly.
+
+>ask imelda about eyepatch
+ You meet Imelda's eye and she looks at you expectantly.
+
+ You meet Imelda's single eye.  "Um..." you say, "so how did you...?"
+
+ "How did I what, Lucas?" she replies innocently.
+
+ You clear your throat.  "You know... the eye patch..."
+
+ "What about it, Lucas?"
+
+ "Well, I was just wondering what happened to your eye."
+
+ "I was shot," she says simply.  "It's an occupational hazard when
+ you're around planes with machineguns strapped to them."
+
+ "Yes, I've noticed."
+
+ You're not wearing that.
+
+>ask imelda about snow queen
+ You chat briefly with Imelda, but find out nothing important.
+
+>ask imelda about ice queen
+ "So, as the Ice Queen's pet fighter pilot I bet you've had tea with her
+ and everything?"
+
+ Imelda raises her chin.  "She did personally present a medal to me.
+ Her hands were really cold...  But I'm hardly her pet.  The Sky
+ Mercenaries always retain full autonomy.  We're merely under contract
+ to her and the Northern Territories."
+
+>topics
+ You could ask her about herself, your predicament, the Swordfish
+ biplane, the Thunderbolt triplane, the Northern Territories, the Sky
+ Mercenaries, us, yourself, how you first met, shooting you down, the
+ chance to kill you, duelling, or friends.
+
+>ask imelda about sky mercenaries
+ "What exactly are you Sky Pirates all about then?"
+
+ Imelda looks at you with her good eye and sighs theatrically.
+
+ "Sky Mercenaries," you correct yourself, "whatever."
+
+ "We're the children of Aerocity, born in the skies, at home there,
+ understanding wind, gravity and inertia the way most people understand
+ walking."
+
+ "You're not afraid of heights then?"
+
+ She smiles.  "No, Lucas, not really."  After a moment she adds, "Look,
+ I know we get a bad rap in the southern newspapers, but we're people
+ just like anyone else.  I couldn't wish for better friends than those I
+ have on the zeppelin."
+
+>ask imelda about predicament
+ "This is quite a situation we're in," you say.
+
+ "Yep," Imelda agrees.
+
+ "Any idea what to do?"
+
+ Imelda tips her head to one side.  "Maybe."
+
+ "Care to share?"
+
+ "Well, as I see it, we have two main problems.  We need to get to
+ safety tomorrow, and we need to keep warm."
+
+ Snow continues to drift down from above.
+
+>ask imelda about zeppelin
+ "So you guys are based on a zeppelin?" you ask Imelda.
+
+ "Of course," she says smugly.  "There's no quicker way to get your
+ planes in the air than to have them in the air already."
+
+>get eyepatch
+ Taken.
+
+>ask imelda about safety
+ "I was thinking," you tell Imelda.
+
+ "Did it hurt?" she asks.
+
+ "A little.  Mostly it was just an unfamiliar sensation.  What I was
+ thinking was that we should head south from here.  We'll probably reach
+ the Imperial lines in no time.  After that, a hot bath, some steaming
+ soup..."
+
+ Imelda seems unconvinced.  "Or we could head north.  We'll probably
+ reach the Northern lines in no time, after which etcetera, etcetera."
+
+ "Hang on," you say, "Weren't you telling me I didn't ever want to end
+ up a prisoner of the Ice Queen's icekin soldiers?"
+
+ "You won't be a prisoner of the icekin soldiers.  You'll be my
+ prisoner."
+
+ "Sounds a bit kinky for my tastes."
+
+ Imelda smiles slyly.  "You have no idea."
+
+ "Maybe we should just split up," you suggest.  "I bet we could both
+ make it by ourselves.  Then no-one has to be anyone's prisoner."
+
+ Imelda shrugs.  "Look, I'm heading north.  I'd love it if you'd come
+ with me, but..."
+
+ (You could agree to go north with her, ask her to go south with you,
+ tell her you should split up, or tell her you can't decide.)
+
+>ask imelda about warmth
+ You chat briefly with Imelda, but find out nothing important.
+
+>wear eyepatch
+ Okay, you're now wearing the eye patch.
+
+ You rub your hands together to try to keep them warm.
+
+>ask imelda about ice queen
+ "So, as the Ice Queen's pet fighter pilot I bet you've had tea with her
+ and everything?"
+
+ Imelda raises her chin.  "She did personally present a medal to me.
+ Her hands were really cold...  But I'm hardly her pet.  The Sky
+ Mercenaries always retain full autonomy.  We're merely under contract
+ to her and the Northern Territories."
+
+>ask imelda about keeping warm
+ "I've got an idea to keep us warm," you tell Imelda.
+
+ She takes a break from breathing into her hands.  "Sounds great to me.
+ What is it?"
+
+ (You could suggest thinking warm thoughts, suggest sharing body heat,
+ or suggest making a fire.)
+
+>suggest thinking warm thoughts
+ "Well," you begin uncertainly, "we could think warm thoughts."
+
+ Imelda offers you a very condescending look.  "So even as our bodies
+ freeze to death, we'll be warm in our minds?"
+
+ "Exactly.  We just need to picture ourselves sitting in front of a
+ roaring fire, or lying on a sunny beach, or... uh, inside the stomach
+ of a feral icekin..."
+
+ Imelda pats you on your unbroken leg.  "It's a good thing you have
+ looks," is all she says.
+
+>share body heat
+ The word "share" is not necessary in this story.
+
+>suggest sharing body heat
+ That command can't be used right now.
+
+>ask imelda about keeping warm
+ "I've got an idea to keep us warm," you tell Imelda.
+
+ She takes a break from breathing into her hands.  "Sounds great to me.
+ What is it?"
+
+ (You could suggest thinking warm thoughts, suggest sharing body heat,
+ or suggest making a fire.)
+
+>suggest sharing body heat
+ "I was just thinking how we're both so cold, and yet we're both full of
+ red hot blood..."
+
+ Imelda raises an eyebrow.  "Cannibalism?"
+
+ You grimace.  "Hugging?"
+
+ Imelda smiles evilly.  "Oh, I see.  Can't bear to keep your hands to
+ yourself for much longer?"
+
+ "It would take an iron will."
+
+ She slips her arms around your waist and presses herself against you.
+ "Still, it's a small price to pay to avoid freezing to death."
+
+ You wrap your arms around her in turn.  "Yes," you say austerely, "we
+ must be brave."
+
+>ask imelda about keeping warm
+ "I've got an idea to keep us warm," you tell Imelda.
+
+ She takes a break from breathing into her hands.  "Sounds great to me.
+ What is it?"
+
+ The triplane rocks slightly in the wind.
+
+ (You could suggest thinking warm thoughts, suggest sharing body heat,
+ or suggest making a fire.)
+
+>ask imelda to go south
+ Imelda refuses your request.
+
+>ask imelda about safety
+ "About where we're headed..." you begin.
+
+ "Have you reached a decision yet?"  Imelda asks you.
+
+ (You could agree to go north with her, ask her to go south with you,
+ tell her you should split up, or tell her you can't decide.)
+
+>ask imelda to go south
+ Imelda refuses your request.
+
+>agree to go north
+ "Okay," you say.  "I'll go north with you."
+>tell imedla about empire
+
+ Imelda squeezes you around the waist.  "I'm glad.  And...  I know what
+ a sacrifice this must be for you.  Thank you."
+
+ (Your score has just increased by one point.)
+
+ The word "imedla" is not necessary in this story.
+
+>tell imelda about empire
+ You chat briefly with Imelda, but find out nothing important.
+
+>topics
+ You could ask her about your predicament, herself, Aerocity, keeping
+ warm, getting to safety, the Swordfish biplane, the Thunderbolt
+ triplane, the Northern Territories, newspapers, us, yourself, how you
+ first met, shooting you down, the chance to kill you, duelling, or
+ friends.
+
+>ask imelda about newspapers
+ "Have you read any newspapers recently?" you ask Imelda.
+
+ "You mean like the Northern Financial Times?"
+
+ "I mean like the Weekly Mirror or the Mail News."
+
+ "I thought as much.  A shocking amount of those papers is about us,
+ isn't it?  According to one, I'm irresponsible for continuing to fly
+ into combat while blatantly pregnant with your love child."
+
+ "I wonder what they'd make of all this..."  You wave your hand around
+ at your cosy little love nest in the freezing snow.
+
+ "If we don't make it," Imelda says, "they'll turn it into our lovers'
+ suicide pact."
+
+ "Headline: They couldn't bring themselves to fight any more!"
+
+ Downed Triplane (lying on the ground)
+ A scarlet triplane lies half-buried in the snow, leaning to one side.
+ You're huddled beneath its slanting wing, mostly sheltered from the
+ freezing wind and falling snow.
+
+ Imelda is huddled close by your side, watching you intently.
+
+ A chill wind passes under the wing, making you both shiver.
+
+>tell imelda about aerocity
+ You chat briefly with Imelda, but find out nothing important.
+
+>ask imelda about safety
+ "About where we're headed..." you begin.
+
+ "Have you changed your mind?"  Imelda asks you.  "We were both going to
+ head north."
+
+ (You could ask her to go south with you, tell her you should split up,
+ or tell her you haven't changed your mind.)
+
+>ask imelda about aerocity
+ "I've heard of Aerocity, but I'm not sure I believe in it.  It's
+ supposed to be a city suspended from balloons?"
+
+ Imelda bursts out with laughter.  It's nice to see her be so familiar
+ with you, but you can't help but feel a bit embarrassed.  "That's a
+ good one, I'll have to remember that.  No, Lucas, Aerocity is not a
+ city suspended from balloons, but it is high up in a mountain range.
+ We're quite familiar with the concept of falling, and our efforts to
+ avoid it have made us the best in the world at flying."
+
+>go north
+ The slanting triplane wing is in the way.
+
+ Imelda laughs suddenly.  "A city suspended from balloons.  That's
+ brilliant."
+
+>enter triplane
+ That is not something you can enter.
+
+>examine plane
+ A plane with three wings, one on top of the other.  Bit extravagant,
+ really.
+
+>ask imelda about northern territories
+ You look around at the thick snowfall.  "The climate's nice in the
+ Northern Territories this year."
+
+ "I guess this is why they call her the Ice Queen."
+
+>ask imelda about herself
+ "So..." you begin, "why not tell me a little about yourself, Imelda?"
+
+ Imelda looks thoughtful.  "I suppose... it's a bit of a broad topic.
+ Tell you what, why don't we start with you telling me about myself."
+
+ "You want me to tell you about yourself?" you repeat.  "Don't you
+ already know yourself quite well?"
+
+ "I'm interested to know what you think of me.  Come on, tell me."
+
+>tell imelda about herself
+ You take a deep breath.  "Okay.  You're the notorious ace Sky Mercenary
+ known as the Scarlet Baroness, real name Imelda von Strassa- von
+ Strassenba-"
+
+ "Von Strassenbach."
+
+ "Who's telling this story?  Imelda von Strassenbach.  A fiery redhead
+ with an ice cold temperament."
+
+ "More than my temperament is ice cold at the moment."
+
+ "You've racked up over seventy confirmed kills-"
+
+ "Seventy-six."
+
+ "You're an outstanding pilot, who can best even the most elite southern
+ pilots, and you're hopelessly in love, according to the scandal sheets,
+ with one Lucas Thane, the Benevolent Empire's ace of aces."
+
+ Imelda seems happy with your little report.  "Is that so," she purrs.
+ "Although: hopelessly in love, pursuing in a predatory fashion... it's
+ a thin line, I think."
+
+>ask imelda about benevolent empire
+ "You're surely a fan of the Benevolent Empire and its attempts to
+ civilise the world?"
+
+ Imelda scoffs.  "It's hard to consider an empire benevolent when it
+ thinks that rearranging the world to suit its own economic needs is
+ 'civilising' it."
+
+ "You don't think the people of the Northern Territories would benefit
+ from giving us all their noxious petroleum?"
+
+ "I think they've benefited best by giving it to us Sky Mercenaries."
+
+>ask imelda about warmth
+ You chat briefly with Imelda, but find out nothing important.
+
+>ask imelda about me
+ "Do you know much about me?" you ask Imelda.
+
+ "All the important stuff," she says.  "Your flying style, your
+ weaknesses."
+
+ You study her carefully.  "My weaknesses?"
+
+ "You always underestimate your ability to fly in a crosswind, you're
+ too afraid of stalling, and you've balked at two separate opportunities
+ to shoot me down because the bullets would probably have passed through
+ my body."
+
+ "I see."
+
+ Snow continues to drift down from above.
+
+>ask imelda about keeping warm
+ "I've got an idea to keep us warm," you tell Imelda.
+
+ She takes a break from breathing into her hands.  "Sounds great to me.
+ What is it?"
+
+ (You could suggest thinking warm thoughts, suggest sharing body heat,
+ or suggest making a fire.)
+
+>suggest making a fire
+ You look around.  "I think we could build a fire.  If we put it right
+ there it should be close enough to warm us up, but the wind will blow
+ the smoke away from us."
+
+ Imelda crawls out from under the wing and stands up, snow crunching
+ beneath her feet.  "Okay, I'll go find some wood, or anything else that
+ looks like it'll burn.  Give me your gun.  I'd hate to have to face
+ down a feral icekin with nothing but a couple of pine branches."
+
+ "Don't you still have that flare gun?" you ask her.
+
+ "Yeah, but I'd rather save its one shot for summoning help.  Come on,
+ hand it over."
+
+ (You could agree, or politely refuse.)
+
+>ask imelda for flare gun
+ "We can talk after I get back," Imelda says.  "In the meantime, just
+ tell me: are you going to give me your gun?"
+
+>trade
+ The word "trade" is not necessary in this story.
+
+>agree
+ You hand your gun to Imelda, handle first.  "You've not managed to
+ shoot me yet," you tell her, "and it's hardly for lack of trying.  I
+ think you must like me too much."
+
+ She purses her lips and tucks the revolver into her belt.  "It's
+ certainly not that you're a difficult target to hit."
+
+ She turns around and stomps off into the snow.
+
+
+
+
+
+
+
+
+ Time passes slowly while Imelda is gone.  You feel yourself growing
+ sleepy, and the feeling leaves your hands and feet.  Only the dull pain
+ in your broken leg keeps you awake.
+
+
+
+
+
+
+
+
+ You snap back to reality as something approaches, trudging quickly
+ through the frost.  Before you have time to consider what to do if it
+ turns out to be a dangerous creature, Imelda appears in front of you
+ and dumps an armful of branches and sticks into the snow.
+
+ "Gods it's cold," she announces, throwing herself onto all fours and
+ crawling back under the wing.  She curls up right next to you,
+ shivering, and you obligingly wrap your arms around her to help warm
+ her up.  Not entirely a selfless act, as you're pretty cold yourself.
+
+ "Okay," Imelda says after a while.  "Got to try and turn this ugly heap
+ of sticks into a nice fire..."
+
+ (Your score has just increased by one point.)
+
+ (You could let her get on with it, or tell her you can do better.)
+
+>SAVE
+>cf2
+ Saved.
+
+>score
+ In 98 moves, you have scored 6 of a possible 7 points.  This makes you
+ a world-famous ace.
+
+>tell her i can do better
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+ Imelda rearranges the piles of sticks slightly.
+
+>tell her you can do better
+ You shift your broken leg so that you can grab a couple of sticks from
+ the pile.  "I think the Boy Scouts need to take over here," you tell
+ Imelda.
+
+ She gives you a very doubtful look.  "Excuse me?  The Sky Guides are
+ more than capable of rubbing two sticks together.  Unless you can think
+ of a way an all-male group might have gained extra practice in that
+ regard?"
+
+ "Clearly you don't have enough confidence in your abilities to just get
+ on with it."
+
+ "I'm just trying to get you to save your energy."
+
+ You both tend to the sticks in intense silence from then on.  But the
+ fire doesn't suddenly spark to life, it forms slowly from a wisp of
+ smoke, and it's hard to tell which of you is more responsible for it.
+ When it's crackling away nicely, you both sit back,
+ shoulder-to-shoulder.
+
+ "I told you to save your energy," Imelda says.  "That was clearly my
+ spark that lit it."
+
+ You shake your head.  "My sparks were much more vibrant.  You could
+ tell they had the Lucas Thane never-give-up attitude."
+
+ "Fine, keep lying to yourself.  We both know the truth."
+
+ "I agree that one of us is in denial, but I don't think it's me."
+
+ Imelda holds out her hands to the fire.  "It's nice that we got it
+ done, though."
+
+ You hold out your own hands.  "I don't dispute that."
+
+ (Your score has just increased by one point.)
+
+>ask imelda about child
+ You chat briefly with Imelda, but find out nothing important.
+
+>score
+ In 101 moves, you have scored 7 of a possible 7 points.  This makes you
+ the southern Ace of Aces.
+
+>win game
+ The word "win" is not necessary in this story.
+
+>ask imelda about lovechild
+ You chat briefly with Imelda, but find out nothing important.
+
+>ask imelda about newspaper
+ "Have you read any newspapers recently?" you ask Imelda.
+
+ "You mean like the Northern Financial Times?"
+
+ "I mean like the Weekly Mirror or the Mail News."
+
+ "I thought as much.  A shocking amount of those papers is about us,
+ isn't it?  According to one, I'm irresponsible for continuing to fly
+ into combat while blatantly pregnant with your love child."
+
+ "I wonder what they'd make of all this..."  You wave your hand around
+ at your cosy little love nest in the freezing snow.
+
+ "If we don't make it," Imelda says, "they'll turn it into our lovers'
+ suicide pact."
+
+ "Headline: They couldn't bring themselves to fight any more!"
+
+>ask imelda about northern territories
+ You look around at the thick snowfall.  "The climate's nice in the
+ Northern Territories this year."
+
+ "I guess this is why they call her the Ice Queen."
+
+>topics
+ You could ask her about your predicament, getting to safety, the
+ Swordfish biplane, the Thunderbolt triplane, falling, herself, flying,
+ us, how you first met, shooting you down, the chance to kill you,
+ duelling, friends, ace of aces, her kill count, or her hair.
+
+>ask imelda about hair
+ "Your hair is the most striking colour," you tell Imelda.
+
+ She runs her fingers through her curls.  "Thank you."
+
+ "Is it natural?"
+
+ She suddenly glares at you.  "You might maintain the most fleeting hope
+ of one day finding out for sure."
+
+>ask her about dueling
+ You chat briefly with Imelda, but find out nothing important.
+
+>ask her about the chance to kill me
+ "That one time you came out of the sun..." you begin.  "It was perfect.
+ You had me."
+
+ "Yes," Imelda says.  "I had you.  Not just your plane, but you.  I
+ couldn't take the shot.  You've done the same yourself."
+
+ You lightly touch her arm.  "Well, we're the only ones who know."
+
+>ask imelda about kill count
+ "What was that number again?"
+
+ "I've downed seventy six aircraft," she says.
+
+ You sniff.  "A lot of balloons and two-seaters, though..."
+
+>hug her
+ You wrap your arms around Imelda and squeeze her tightly.
+
+ "Why Lucas," she says wryly, hugging you back, "you must contain your
+ obvious desire for me."
+
+ "I'm just trying to keep warm," you reply.
+
+ "Yes, keep telling yourself that."
+
+>ask imelda about ace of aces
+ You look around the snowy environs.  "It's interesting when you think
+ about it... here we both are, two aces of aces..."
+
+ "Aces of aces?  There's the ace of aces, which is myself.  And then
+ there are a few regional titles like southern ace of aces, like this
+ fellow who's all looks and no brains.  You'd like him.  But it's not
+ really a concept that makes sense when you pluralise it."
+
+ "Sure it does," you insist.  "There's room for more than one at the
+ top."
+
+ "Not much room.  It'd be pretty cramped."
+
+ "You have some sort of objection to being physically close to me?"
+
+ She reaches over to toussle your hair.  "Only in the abstract."
+
+>sleep
+ You let your head rest on Imelda's shoulder, and sleep descends like a
+ dark blanket.
+
+ The night is cold, and the two of you cling to one another for warmth,
+ but the snow has finally stopped falling and the fire burns until
+ morning.
+
+ Then the two of you struggle to your feet, Imelda just contending with
+ aches and cramps while you have to worry about your broken leg.
+ Looking around at the pristine forest, everything covered in thick
+ sheets of snow, you begin to make your way north, Imelda encouraging
+ you to lean on her as much as you can.  Eventually, the bright scarlet
+ wingtip of her triplane has disappeared from view.
+
+
+
+
+
+
+
+
+ Not long after that...
+
+ You sit by the window, looking down on the clouds, feeling the
+ throbbing of the zeppelin's engine.  The door opens and Imelda enters.
+
+ "Is this a conjugal visit?" you ask her.
+
+ She looks puzzled.  "Have I ever made any other kind of visit?"
+
+ She walks across your improbably luxurious cabin - not that you're
+ allowed to leave it - and sits on the window sill next to you.
+
+ "Are you okay?" she asks.  "I thought they'd be a little more lenient
+ with you, but it seems you're going to be in here til the war ends."
+
+ You shrug.  "The view's nice.  The company's great.  I've caught up on
+ my reading."
+
+ "Wouldn't you be more comfortable lying on the bed?" she asks.
+
+ You look at her with mock naivety.  "Why do you ask?"
+
+
+
+
+
+
+
+
+ Years later...
+
+ Imelda rolls off of you and sparks up a cigarette, the sheets around
+ her hips.  You study her silhouette in the twilight.
+
+ "The air race tomorrow," she says.
+
+ "Everyone will be there," you say proudly.  "Everyone wants to see the
+ world's most famous aces competing against one another."
+
+ She takes a deep drag and lets the smoke curl slowly from her lips
+ before speaking.  "I just want to make sure you know I won't hold back,
+ just because it's you."
+
+ You laugh.  "You're not going to get a chance to.  You'll have to be
+ flat out just to be able to spot me on the horizon."
+
+ She holds out her hand and you take it.  "May the best woman win," she
+ says.
+
+ "May she come second, after me," you counter.
+
+ There's a moment's pause.  The quiet sounds of evening drift in through
+ an open window.
+
+ "Lucas..."  Imelda takes a deep breath.  "There's something I need to
+ ask you.  After the race, what... what's going to happen?"
+
+ "Easy," you say.  "I go where you go.  As always."
+
+ She smiles.  "That's going to be difficult.  I'll be going where you're
+ going.  We'll be chasing one another in circles."
+
+ "Like dogfighting all over again."
+
+ She kisses the corner of your mouth.  "I love you."
+
+ You kiss her back, passionately.  "I love you too."
+
+
+
+
+
+
+
+
+ Many years later...
+
+ The champagne cork pops explosively and you both jump.
+
+ "Careful," Imelda says, "you'll have someone's eye out."
+
+ You pour out two glasses.  "Yes, you have to be careful in that
+ regard."
+
+ "Thank you," Imelda says, taking a glass and bringing it to her lips.
+
+ "Hold on, we haven't had a toast yet."
+
+ "That's easy," she says, raising her glass.  "To us.  And another
+ twenty years of fucking, flying and friendship."
+
+ "To the three 'F's," you agree, tapping your glass against hers.
+
+ "The three 'F's."
+
+ You take a deep breath of mountain air.  The precarious buildings of
+ Aerocity surround you, glistening with frost.  "It's quite a view," you
+ say, looking across the world from up high.
+
+ "As good as flying," Imelda says.  "Almost as good as love."
+
+ You lean together and kiss, the setting sun glinting on snow-topped
+ mountains.
+
+ *** THE END ***
+
+ In 111 moves, you have scored 7 of a possible 7 points.  This makes you
+ the southern Ace of Aces.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, see some AMUSING things to try, read
+ some NOTES on the game, find out a little more about the ENDINGS, or
+ QUIT?
+
+ Well, you finished Snowblind Aces.  But perhaps you were surprised by
+ the way it turned out?
+
+ Throughout the game you've made a number of decisions which have
+ affected the way Lucas and Imelda will treat one another for the rest
+ of their lives.  There are eight decisions in total, five of which
+ you'll be forced to make in order to complete the game, and three more
+ which you discover by talking to Imelda.  I've tried to make the game
+ as simple to play through as possible, so hopefully your next action
+ will be to type 'restart' and try doing things a little differently...
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, see some AMUSING things to try, read
+ some NOTES on the game, find out a little more about the ENDINGS, or
+ QUIT?
+
+>amusing
+ Have you tried:
+
+ Eating your breeches?
+ Examining your parachute pack after discovering you've broken your leg?
+ Typing 'xyzzy'?
+ Asking Imelda about tiger sauce?
+ Shooting yourself?
+ Shooting Imelda?
+ Sleeping at the controls of your plane (before the collision)?
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, see some AMUSING things to try, read
+ some NOTES on the game, find out a little more about the ENDINGS, or
+ QUIT?
+
+>restart
+
+ It only takes a moment of inattention.  The snowstorm draws thicker and
+ the faint grey silhouette of the reconnaissance plane fades away
+ completely.  You bank hard, yanking on the control column with mild
+ panic, but it's too late.  Your paths have diverged, unlikely to cross
+ again as long as this lethal weather continues.
+
+ The lumbering two-seater plane you were supposed to be escorting is
+ alone and unprotected.  And she is out there: lightning fast, deadly
+ accurate and cold as ice.  You'd consider turning back to the airbase
+ right away.
+
+ If, that is, you even knew where you were.
+
+ Snowblind Aces
+ An adventure/romance in the snow by C.E.J.  Pacian
+ Version 5 - Developed with TADS 3
+
+ [Type 'About' if this is your first time playing.
+ Type 'Credits' to learn who's responsible for this drivel.]
+
+ Biplane Cockpit (sitting in the pilot's seat)
+ You're seated in the cockpit of your Swordfish biplane, exposed to the
+ elements.  The small windscreen ahead does little to keep the harsh,
+ icy wind from cutting right through you, and you're surrounded on all
+ sides by blinding white mist.
+
+ The plane's control column juts up in front of you.
+
+>y
+ The word "y" is not necessary in this story.
+
+ (If this was an accidental misspelling, you can correct it by typing
+ OOPS followed by the corrected word now.  Any time the story points out
+ an unknown word, you can correct a misspelling using OOPS as your next
+ command.)
+
+>xyzzy
+ The word "xyzzy" is not necessary in this story.  Honest.
+
+ You suppress a shiver.
+
+ (Your score has just decreased by one point.)
+ (If you'd prefer not to be notified about score changes in the future,
+ type NOTIFY OFF.)
+
+>sleep
+ Paragon of irresponsibility, you decide to rest your weary eyes while
+ at the controls of your plane.  You never find out just what it was
+ that you hit in mid-air, in the midst of this intense snowstorm, but by
+ the time you hit the ground you're wide awake.
+
+ *** YOU HAVE DIED ***
+
+ In 2 moves, you have scored -1 of a possible 7 points.  This makes you
+ a plague bearer.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, or QUIT?
+
+>sleep
+ That isn't one of the options.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, or QUIT?
+
+>undo
+ Taking back one turn: "sleep".
+
+ Biplane Cockpit (sitting in the pilot's seat)
+ You're seated in the cockpit of your Swordfish biplane, exposed to the
+ elements.  The small windscreen ahead does little to keep the harsh,
+ icy wind from cutting right through you, and you're surrounded on all
+ sides by blinding white mist.
+
+ The plane's control column juts up in front of you.
+
+>xyzzy
+ The word "xyzzy" is not necessary in this story.  Honest.
+
+ The propeller catches and restarts.
+
+ (Your score has just decreased by one point.)
+
+>remove parachute
+ Not that you expect to bail out, but you never know...
+
+ The engine judders briefly.
+
+>inventory
+ You are carrying a revolver, and you're wearing a pair of goggles, a
+ parachute pack, a white scarf, a fur-lined jacket, some breeches, and
+ some sheepskin boots.
+
+ The engine wheezes mechanically.
+
+>remove breeches
+ It's extremely cold.  You don't really have much to show off right now.
+
+ A strong gust of wind rocks the plane.
+
+>eat them
+ Lucas not chew on pants.  Lucas officer and gentleman, not hungry orc.
+
+>version
+ Snowblind Aces version 5
+
+ TADS 3 Library version 3.0.12
+ T3 VM (mjr-T3) version 3.0.12
+
+>notes
+ The word "notes" is not necessary in this story.
+
+>examine goggles
+ The goggles allow you to keep your eyes open when travelling at high
+ speed through subzero skies.
+
+ You feel the buffeting of the wind against your plane subtly changing
+ its heading.
+
+>jump
+ You're not going to abandon a perfectly good plane in mid-air!
+
+ A faint shadow flickers in the corner of your eye, but when you look,
+ there's nothing in that direction but mist.
+
+>push button
+ You press the button and your plane's twin machineguns strafe the murk
+ ahead in a display of bright muzzle flash and loud, mechanical
+ rattling.
+
+ Pointless, but satisfying all the same.
+
+ You pause to wipe a build-up of frost from your goggles.
+
+>dive
+ The word "dive" is not necessary in this story.
+
+>pull controls
+ The word "controls" is not necessary in this story.
+
+>push stick
+ You grip the control column tightly and push it forward, hoping to sink
+ within sight of the ground.
+
+ Almost before you can react, a huge shape swoops out of the white void
+ below: a scarlet triplane, close enough that you can see its pilot, and
+ the surprised expression on her face.  You pull on the control column
+ hard and punch the throttle, feeling your plane strain to rise higher.
+ For an instant you think you've avoided disaster.
+
+ And then the whole fuselage lurches, the sound of metal on metal
+ scraping right into your brain as you collide glancingly with the other
+ plane.  You look over your shoulder just in time to see the scarlet
+ triplane disappear into the clouds, trailing thick black smoke.
+ Turning back to your controls you immediately notice the epileptic
+ motion of the rapidly spinning altimeter.
+
+ It would seem that you have a problem.
+
+ (Your score has just increased by one point.)
+
+>look
+ Biplane Cockpit (sitting in the pilot's seat)
+ You're seated in the cockpit of your Swordfish biplane, exposed to the
+ elements.  The small windscreen ahead does little to keep the harsh,
+ icy wind from cutting right through you, and you're surrounded on all
+ sides by blinding white mist.
+
+ The plane's control column juts up in front of you.
+
+ The engine stalls for a second before lurching back to life, something
+ loose and metallic grating inside it.
+
+>pull stick
+ The control column moves loosely, clearly having no effect on the
+ plane's ailerons.
+
+ The control column twitches spasmodically.
+
+>SAVE
+>cf3
+ Saved.
+
+>z.z.z.z.
+ Time passes...
+
+ The propeller flickers in its motion, struggling to keep turning.
+
+ Time passes...
+
+ You glance over your shoulder in time to see something go flying
+ backwards from beneath the plane.  Hopefully nothing too important...
+
+ Time passes...
+
+ The engine finally gives out, spluttering to a halt.
+
+ Time passes...
+
+ Thick black smoke begins to rise from the engine.
+
+>z.z.z.z
+ Time passes...
+
+ You feel the plane's nose dropping as your airspeed slows.
+
+ Time passes...
+
+ Your altimeter reads 200m.  You should seriously consider bailing out.
+
+ Time passes...
+
+ Your altimeter reads 100m.  You should seriously consider bailing out.
+
+ Time passes...
+
+ The mists below part, and you see the ground for the first time in
+ hours, sharp black rocks breaking through the snow.  Thankfully, you
+ don't even feel it when you hit.
+
+ *** YOU HAVE DIED ***
+
+ In 20 moves, you have scored -1 of a possible 7 points.  This makes you
+ a plague bearer.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, or QUIT?
+
+>undo
+ Taking back one turn: "z".
+
+ Biplane Cockpit (sitting in the pilot's seat)
+ You're seated in the cockpit of your Swordfish biplane, exposed to the
+ elements.  The small windscreen ahead does little to keep the harsh,
+ icy wind from cutting right through you, and you're surrounded on all
+ sides by blinding white mist.
+
+ The plane's control column juts up in front of you.
+
+>jump
+ You check your parachute and climb up onto your seat.  After you throw
+ your leg over the side, it's surprisingly easy to push yourself away
+ from the plane and leap into the mist.
+
+ Not quite as aerodynamic as your Swordfish, you drop like a stone,
+ plummeting into the murky white void below.  Ice and fog crowd close
+ around you, obscuring every direction.  The only reason you know you're
+ falling is because of the way your stomach seems to still be a hundred
+ metres above you somewhere.  Remembering the single parachute jump you
+ performed in basic training, you fumble with the chord and yank hard,
+ the harness suddenly seeming to pull you upwards.
+
+ Falling
+ You're hanging from a parachute, descending slowly into a blank white
+ void.  Without the sound of your plane's engine, everything seems
+ shockingly silent.
+
+ (Your score has just increased by one point.)
+
+ The word "xyzzy" is not necessary in this story.  Honest.
+
+ Your plane will have hit the ground by now, shattering into pieces,
+ bursting into flames.
+
+ (Your score has just decreased by one point.)
+
+>shoot me
+ You miss.
+
+ But you're okay.  You made it.
+
+ Taking back one turn: "shoot me".
+
+ Falling
+ You're hanging from a parachute, descending slowly into a blank white
+ void.  Without the sound of your plane's engine, everything seems
+ shockingly silent.
+
+ Taking back one turn: "xyzzy".
+
+ Falling
+ You're hanging from a parachute, descending slowly into a blank white
+ void.  Without the sound of your plane's engine, everything seems
+ shockingly silent.
+
+>sleep
+ You don't think it would be a good idea to sleep right now.
+
+ Your plane will have hit the ground by now, shattering into pieces,
+ bursting into flames.
+
+>sing
+ The word "sing" is not necessary in this story.
+
+>dance
+ The word "dance" is not necessary in this story.
+
+>jump
+ Just as soon as you're standing on the ground.
+
+ But you're okay.  You made it.
+
+>shoot me
+ You miss.
+
+ The hard part is over.
+
+>open chute
+ Which chute do you mean, the parachute pack, or the parachute canopy?
+
+>canopy
+ The parachute canopy is too far away.
+
+ The mist beneath you parts.  Below you are thick, evergreen trees,
+ garnished with snow, clinging to sharp black rocks.
+
+ Now you have a frame of reference, you realise just how fast you're
+ falling.
+
+
+
+
+
+
+
+
+ You open your eyes.  You feel remarkably well given the circumstances.
+ The air is fresh and invigorating, the sound of birdsong and rustling
+ leaves is like soothing music.  Time to get moving - for all you know,
+ you might be behind enemy lines.
+
+ Forest Clearing (lying on the ground)
+ Snow-coated evergreen trees surround you on all sides, their roots
+ tangling into rugged black rocks.  Snow falls from the bright white sky
+ above.
+
+ The canopy of your parachute is suspended in the branches of a tree,
+ like a giant, tattered spider's web.
+
+>examine pack
+ A bulky backpack that will let you descend gracefully to the ground.
+
+ A bird chirrups melodically.
+
+>search it
+ There's nothing unusual in the parachute pack.
+
+ You hear snow crunching nearby.  Probably nothing.
+
+>open it
+ That is not something you can open.
+
+ An icy breeze passes through the clearing, the soft rustling of leaves
+ following in its wake.
+
+>remove it
+ Okay, you're no longer wearing the parachute pack.
+
+ You hear snow crunching nearby.  Probably nothing.
+
+>examine me
+ You're Lucas Thane: daredevil fighter ace, knight of the air.
+
+ An icy breeze passes through the clearing, the soft rustling of leaves
+ following in its wake.
+
+>examine leg
+ Yep, one functional left leg.  Good for standing on and walking with.
+
+>right leg
+ The word "right" is not necessary in this story.
+
+>broken leg
+ The word "broken" is not necessary in this story.
+
+>jump
+ Just as soon as you're standing on the ground.
+
+>examine right leg
+ The word "right" is not necessary in this story.
+
+>stand
+ You sit up, feeling a lot weaker than you thought you were.  As you
+ start to shift your legs, something inside your left calf moves.  White
+ lightning bolts of pain jolt across your vision and you collapse back
+ with a scream of pain.
+
+ You've broken your leg.  You're lying in the freezing snow, and you're
+ not going anywhere.
+
+>examine pack
+ A worthless piece of crap that couldn't slow down a feather in an
+ updraft.
+
+ You hear something rustling among the trees.
+
+>shoot me
+ You miss.
+
+ A feral icekin blunders into the clearing, looking around with its
+ empty black eyes.  Probably attracted by your scream of pain.  Nice
+ going, Lucas.
+
+>SAVE
+>cf4
+ Saved.
+
+>z.z.z
+ Time passes...
+
+ The icekin looks around, breathing heavily through its sharp, uneven
+ teeth.
+
+ Time passes...
+
+ The icekin fixes its lifeless black eyes on you, emitting a low growl.
+
+ Time passes...
+
+ The icekin lumbers towards you.
+
+>wait
+ Time passes...
+
+ The icekin raises its furry white paw.  The jagged edge of the rusty
+ blade is brought into sharp relief against the white mists above.
+
+>wait
+ Time passes...
+
+ A loud report shatters the quiet, resounding through the forest.
+ Flocks of black birds rise in flurries from the trees.  The icekin
+ sways slightly on the spot, its blank expression shifting to one of
+ vague confusion.  And then it slumps to the ground, almost as if
+ falling suddenly asleep.
+
+ A dark figure strides into the clearing, a smoking flare gun in her
+ hand.  She lets it fall to the snow and rests a hand on her hip,
+ surveying you with her one good eye.  "So," she says.  "It's you.  I
+ imagine your plane fared as badly as mine."
+
+ You smile in spite of the pain.  "And it's you.  Aiding and abetting
+ the enemy.  What a poor example of patriotism."
+
+ "I'm a mercenary, Lucas, and you're not really one to talk yourself,
+ are you?"  She pauses and sighs.  "After all this time," she says
+ softly, "here we are.  Face to face on the ground.  It's..."  She
+ trails off.
+
+ (Your score has just increased by one point.)
+
+ (You could tell her it feels like you already know her, or play it
+ cool.)
+
+>shoot imelda
+ You could never!  Well, if you were both in planes, certainly.  Quite
+ frequently in fact.  But not face to face!
+
+ An awkward silence hangs between the two of you.
+
+>play it cool
+ You offer her a cordial smiles.  "It's a pleasure to meet you,
+ Baroness."
+
+ She laughs.  "Imelda.  Just call me Imelda.  Come on, we need to get to
+ shelter."
+
+>ask imelda about shelter
+ Imelda looks around apprehensively.  "Actually, I think we should get
+ moving rather than hang around chatting.  The snowfall's getting
+ thicker all the time."
+
+ "I'm not going anywhere," you say.  "I think my leg's broken."
+
+ She kneels down by your side.  "Let me take a look."
+
+ "Be sure to look twice as long," you advise her, "since you just have
+ the one eye."
+
+ She purses her lips.  "You're right.  I'll do that."
+
+ "Ow!"
+
+ "Yeah, it's broken alright."
+
+ "Thanks, doctor."
+
+ "I'll have to see about making a splint.  And then I guess you'll have
+ to lean on me, if you don't mind."
+
+ "Anything to help you feel useful."
+
+ Downed Triplane (lying on the ground)
+ A scarlet triplane lies half-buried in the snow, leaning to one side.
+ You're huddled beneath its slanting wing, mostly sheltered from the
+ freezing wind and falling snow.
+
+ Imelda is huddled close by your side.
+
+ "It's getting dark," Imelda says.  "We'll have to stay here at least
+ for tonight, and then move on tomorrow morning if the weather lets up."
+
+>ask imelda about fire
+ You meet Imelda's eye and she looks at you expectantly.
+
+ You chat briefly with Imelda, but find out nothing important.
+
+ Your breath leaves little clouds in the air.
+
+>ask imelda about warmth
+ You chat briefly with Imelda, but find out nothing important.
+
+ You rub your hands together to try to keep them warm.
+
+>ask imelda about keeping warm
+ You chat briefly with Imelda, but find out nothing important.
+
+>ask imelda about imelda
+ "So..." you begin, "why not tell me a little about yourself, Imelda?"
+
+ Imelda looks thoughtful.  "I suppose... it's a bit of a broad topic.
+ Tell you what, why don't we start with you telling me about myself."
+
+ "You want me to tell you about yourself?" you repeat.  "Don't you
+ already know yourself quite well?"
+
+ "I'm interested to know what you think of me.  Come on, tell me."
+
+>I think you suck
+ The word "think" is not necessary in this story.
+
+>tell imelda about imelda
+ You take a deep breath.  "Okay.  You're the notorious ace Sky Mercenary
+ known as the Scarlet Baroness, real name Imelda von Strassa- von
+ Strassenba-"
+
+ "Von Strassenbach."
+
+ "Who's telling this story?  Imelda von Strassenbach.  A fiery redhead
+ with an ice cold temperament."
+
+ "More than my temperament is ice cold at the moment."
+
+ "You've racked up over seventy confirmed kills-"
+
+ "Seventy-six."
+
+ "You're an outstanding pilot, who can best even the most elite southern
+ pilots, and you're hopelessly in love, according to the scandal sheets,
+ with one Lucas Thane, the Benevolent Empire's ace of aces."
+
+ Imelda seems happy with your little report.  "Is that so," she purrs.
+ "Although: hopelessly in love, pursuing in a predatory fashion... it's
+ a thin line, I think."
+
+>topics
+ You could ask her about your predicament, the Swordfish biplane, the
+ Thunderbolt triplane, the feral icekin, the Benevolent Empire, herself,
+ newspapers, ace of aces, her eyepatch, her kill count, or her hair.
+
+>ask imelda about thunderbolt
+ You look over your shoulder at the fuselage of Imelda's plane.  "So,
+ you think you're too good for just two wings, then?"
+
+ "Rate of climb," she says assuredly.  "Gaining and losing height will
+ win and lose dogfights for you.  Three wings give you the capability to
+ climb at an incredible rate.  And when you roll, that translates to
+ maneuvrability in any direction.  I know there's pilots who like
+ durability or speed, but to me, nothing beats being able to turn to
+ constantly keep your guns on an opponent, especially if they're also
+ struggling to keep their nose up."
+
+ You make an ambiguous noise.  "Sounds like it might be alright for
+ some, I suppose."
+
+ Imelda looks at you, fixedly.  "After the war, I'll put you in the
+ pilot's seat of one of these things, and you'll see just what I mean."
+
+>ask imelda about swordfish
+ "I hear the Swordfish has a pretty good reputation on the other side of
+ the lines."
+
+ Imelda suppresses a smile.  "It kick-started development of the
+ Thunderbolt triplane, I'll give it credit for that."
+
+>ask imelda about predicament
+ "This is quite a situation we're in," you say.
+
+ "Yep," Imelda agrees.
+
+ "Any idea what to do?"
+
+ Imelda tips her head to one side.  "Maybe."
+
+ "Care to share?"
+
+ "Well, as I see it, we have two main problems.  We need to get to
+ safety tomorrow, and we need to keep warm."
+
+>ask imelda about safety
+ "I was thinking," you tell Imelda.
+
+ "Did it hurt?" she asks.
+
+ "A little.  Mostly it was just an unfamiliar sensation.  What I was
+ thinking was that we should head south from here.  We'll probably reach
+ the Imperial lines in no time.  After that, a hot bath, some steaming
+ soup..."
+
+ Imelda seems unconvinced.  "Or we could head north.  We'll probably
+ reach the Northern lines in no time, after which etcetera, etcetera."
+
+ You draw a breath through your teeth.  "I'm not sure I want to end up a
+ prisoner of those icekin soldiers."
+
+ "You won't be a prisoner of the icekin soldiers.  You'll be my
+ prisoner."
+
+ "Sounds a bit kinky for my tastes."
+
+ Imelda smiles slyly.  "You have no idea."
+
+ "Maybe we should just split up," you suggest.  "I bet we could both
+ make it by ourselves.  Then no-one has to be anyone's prisoner."
+
+ Imelda bites her lip.  "I think we should stay together.  At the least
+ you need someone to lean on.  If you aggravate your broken leg you
+ might end up severing an artery or something..."
+
+ (You could agree to go north with her, ask her to go south with you,
+ tell her you should split up, or tell her you can't decide.)
+
+>ask imelda to go south
+ Imelda refuses your request.
+
+ Snow continues to drift down from above.
+
+>ask imelda about benevolent empire
+ "You're surely a fan of the Benevolent Empire and its attempts to
+ civilise the world?"
+
+ Imelda scoffs.  "It's hard to consider an empire benevolent when it
+ thinks that rearranging the world to suit its own economic needs is
+ 'civilising' it."
+
+ "You don't think the people of the Northern Territories would benefit
+ from giving us all their noxious petroleum?"
+
+ "I think they've benefited best by giving it to us Sky Mercenaries."
+
+ A chill wind passes under the wing, making you both shiver.
+
+>ask imelda about benevolent empire
+ "You're surely a fan of the Benevolent Empire and its attempts to
+ civilise the world?"
+
+ Imelda scoffs.  "It's hard to consider an empire benevolent when it
+ thinks that rearranging the world to suit its own economic needs is
+ 'civilising' it."
+
+ "You don't think the people of the Northern Territories would benefit
+ from giving us all their noxious petroleum?"
+
+ "I think they've benefited best by giving it to us Sky Mercenaries."
+
+>ask imelda about benevolent empire
+ "You're surely a fan of the Benevolent Empire and its attempts to
+ civilise the world?"
+
+ Imelda scoffs.  "It's hard to consider an empire benevolent when it
+ thinks that rearranging the world to suit its own economic needs is
+ 'civilising' it."
+
+ "You don't think the people of the Northern Territories would benefit
+ from giving us all their noxious petroleum?"
+
+ "I think they've benefited best by giving it to us Sky Mercenaries."
+
+>tell her we should split up
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+ "By the way," Imelda says, "why exactly did you feel the need to fly
+ into me?"
+
+ "That's funny," you reply.  "I thought that you were the one who flew
+ into me."
+
+ The triplane rocks slightly in the wind.
+
+>ask imelda about safety
+ "About where we're headed..." you begin.
+
+ "Have you reached a decision yet?"  Imelda asks you.
+
+ A chill wind passes under the wing, making you both shiver.
+
+ (You could agree to go north with her, ask her to go south with you,
+ tell her you should split up, or tell her you can't decide.)
+
+>tell her we should split up
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+>tell her you should split up
+ "We're still technically enemies," you say.  "We'll just have to go our
+ separate ways."
+
+ Imelda shakes her head.  "No, I can't leave you limping through the
+ snow on a broken leg.  Look, if you really want me to, I'll go south
+ with you.  But I'd much rather you came north with me."
+
+ (You could agree to go north with her, ask her to go south with you,
+ tell her you should split up, or tell her you can't decide.)
+
+>ask imelda to go south
+ Imelda refuses your request.
+
+ Your breath leaves little clouds in the air.
+
+>ask imelda about tiger sauce
+ "Have you ever had Tiger Sauce?" you ask.
+
+ Imelda looks puzzled.  "You mean sauce made from tigers?"
+
+ "I think it's tiger milk, actually."
+
+ She turns her nose up.  "No thanks."
+
+ "Oh, you'd be surprised."
+
+>ask imelda to go south with you
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+ Snow continues to drift down from above.
+
+>suggest splitting up
+ The word "splitting" is not necessary in this story.
+
+>ask imelda about safety
+ "About where we're headed..." you begin.
+
+ "Have you reached a decision yet?"  Imelda asks you.
+
+ (You could agree to go north with her, ask her to go south with you,
+ tell her you should split up, or tell her you can't decide.)
+
+>tell her you should split up
+ "We're still technically enemies," you say.  "We'll just have to go our
+ separate ways."
+
+ Imelda shakes her head.  "No, I can't leave you limping through the
+ snow on a broken leg.  Look, if you really want me to, I'll go south
+ with you.  But I'd much rather you came north with me."
+
+ (You could agree to go north with her, ask her to go south with you,
+ tell her you should split up, or tell her you can't decide.)
+
+>ask her to go south with you
+ "I think you should come south with me," you say.  "The Benevolent
+ Empire always treats its prisoners well, and I have plenty of clout.
+ We'd be able to spend quite a bit of time together."
+
+ Imelda looks a bit conflicted for a moment.  And then she nods.  "Okay.
+ I've looked after you for a while, now maybe it's your turn.  I won't
+ be sorry to leave the war behind, either.  So, yes, let's go south."
+
+ The triplane rocks slightly in the wind.
+
+ (Your score has just increased by one point.)
+
+>SAVE
+>cf5
+ Saved.
+
+>ask imelda about keeping warm
+ "I've got an idea to keep us warm," you tell Imelda.
+
+ She takes a break from breathing into her hands.  "Sounds great to me.
+ What is it?"
+
+ (You could suggest thinking warm thoughts, suggest sharing body heat,
+ or suggest making a fire.)
+
+>suggest making a fire
+ You look around.  "I think we could build a fire.  If we put it right
+ there it should be close enough to warm us up, but the wind will blow
+ the smoke away from us."
+
+ Imelda crawls out from under the wing and stands up, snow crunching
+ beneath her feet.  "Okay, I'll go find some wood, or anything else that
+ looks like it'll burn.  Give me your gun.  I'd hate to have to face
+ down a feral icekin with nothing but a couple of pine branches."
+
+ (You could agree, or politely refuse.)
+
+>refuse
+ "I'm sorry," you tell her, "it's not that I don't trust you, it's
+ just..."
+
+ Imelda nods.  "It's just that we're both, technically, enemies.  I
+ understand."
+
+ You go to say more, but she turns around and scampers off, her
+ footsteps crunching in the snow.
+
+
+
+
+
+
+
+
+ Time passes slowly while Imelda is gone.  You feel yourself growing
+ sleepy, and the feeling leaves your hands and feet.  Only the dull pain
+ in your broken leg keeps you awake.
+
+
+
+
+
+
+
+
+ You snap back to reality as something approaches, trudging quickly
+ through the frost.  Before you have time to consider what to do if it
+ turns out to be a dangerous creature, Imelda appears in front of you
+ and dumps an armful of branches and sticks into the snow.
+
+ "Gods it's cold," she announces, throwing herself onto all fours and
+ crawling back under the wing.  She curls up right next to you,
+ shivering, and you obligingly wrap your arms around her to help warm
+ her up.  Not entirely a selfless act, as you're pretty cold yourself.
+
+ "Okay," Imelda says after a while.  "Got to try and turn this ugly heap
+ of sticks into a nice fire..."
+
+ You rub your hands together to try to keep them warm.
+
+ (Your score has just increased by one point.)
+
+ (You could let her get on with it, or tell her you can do better.)
+
+>tell her you can do better
+ You shift your broken leg so that you can grab a couple of sticks from
+ the pile.  "I think the Boy Scouts need to take over here," you tell
+ Imelda.
+
+ She gives you a very doubtful look.  "Excuse me?  The Sky Guides are
+ more than capable of rubbing two sticks together.  Unless you can think
+ of a way an all-male group might have gained extra practice in that
+ regard?"
+
+ "Clearly you don't have enough confidence in your abilities to just get
+ on with it."
+
+ "I'm just trying to get you to save your energy."
+
+ You both tend to the sticks in intense silence from then on.  But the
+ fire doesn't suddenly spark to life, it forms slowly from a wisp of
+ smoke, and it's hard to tell which of you is more responsible for it.
+ When it's crackling away nicely, you both sit back,
+ shoulder-to-shoulder.
+
+ "I told you to save your energy," Imelda says.  "That was clearly my
+ spark that lit it."
+
+ You shake your head.  "My sparks were much more vibrant.  You could
+ tell they had the Lucas Thane never-give-up attitude."
+
+ "Fine, keep lying to yourself.  We both know the truth."
+
+ "I agree that one of us is in denial, but I don't think it's me."
+
+ Imelda holds out her hands to the fire.  "It's nice that we got it
+ done, though."
+
+ You hold out your own hands.  "I don't dispute that."
+
+ (Your score has just increased by one point.)
+
+>kiss imelda
+ You're not about to kiss the enemy without at least a hint that she'd
+ like you to.
+
+ Snow continues to drift down from above.
+
+>ask imelda about love
+ You clear your throat.  "So, Imelda, how are things with the men in
+ your life?"
+
+ "Do you mean my male friends among the Sky Mercenaries?  Or are you
+ sneakily trying to ask about us?"
+
+ You rub your hands together to try to keep them warm.
+
+>ask imelda about us
+ "Imelda, about us..."
+
+ She looks down at her feet.  "What about us?"
+
+ "Well, what's your take on it?  Why do we keep circling around one
+ another?  In the air or otherwise."
+
+ Still without looking at you, she says, "I can't really remember how we
+ first met, except that I suddenly realised this plane from the 5th
+ Imperial Air Squadron kept seeking me out to duel with me, probably
+ because I'm an obvious target in my scarlet plane.  I usually brought
+ down every enemy plane I came across, but you always managed to escape.
+ I only shot you down that once.  I started to research you, found out
+ who you were, started to learn your flying style, had a chance to kill
+ you, but didn't take it, and then flew into you in the middle of a
+ snowstorm.  And now here we are."
+
+ There's a pause, and then she adds, "But that's not what you asked,
+ really, is it?  That's just the story of us - I didn't mention my
+ feelings at all."  She smiles apologetically.
+
+>ask imelda about feelings
+ "So what are your feelings for me?"
+
+ Imelda remains strangely silent, just looks at you with an ambiguous
+ expression.  If you want to press the matter, perhaps you should tell
+ her about your feelings.
+
+>tell imelda about your feelings
+ You cough.  "Imelda, I just wanted to say that..."
+
+ (You could tell her you're in love with her, or tell her she's like
+ your best friend.)
+
+>tell imelda you're in love with her
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+>tell her you're in love with her
+ You decide to just say it.  You don't even look at her.  "Imelda, I'm
+ in love with you."
+
+ She refrains from looking at you either.  "I'm in love with you too,"
+ she states, matter-of-factly.  "It makes perfect sense, I think.  We're
+ young, we're forced to deal with one another repeatedly in intense,
+ passionate, but graceful and playful circumstances, we understand the
+ stresses, the fears we each experience, we both love flying... and so
+ we grow attracted to one another."
+
+ The two of you lean closer as she speaks, your lips brushing together.
+ "My lips are numb," you complain.
+
+ She shushes you.  "Let me warm them up."
+
+ After a while, you lean back, faces flushed, sitting perhaps a little
+ closer than before.
+
+ Imelda straightens her hair and exhales slowly.  "That was almost as
+ satisfying as shooting you down."
+
+ (Your score has just increased by one point.)
+
+>hug imelda
+ You wrap your arms around Imelda and squeeze her tightly.
+
+ "Why Lucas," she says wryly, hugging you back, "you must contain your
+ obvious desire for me."
+
+ "I'm just trying to keep warm," you reply.
+
+ "Yes, keep telling yourself that."
+
+>ask imelda about keeping warm
+ You hold your hands out to the fire.  "This is nice."
+
+ "Yes," Imelda agrees, "my fingers don't feel quite ready to snap off
+ anymore."
+
+>hug imelda
+ You wrap your arms around Imelda and squeeze her tightly.
+
+ "Why Lucas," she says wryly, hugging you back, "you must contain your
+ obvious desire for me."
+
+ "I'm just trying to keep warm," you reply.
+
+ "Yes, keep telling yourself that."
+
+ A chill wind passes under the wing, making you both shiver.
+
+>kiss imelda
+ You lean over to Imelda and kiss her on the lips.  She kisses you back,
+ forcefully.
+
+>tell her about desire
+ You chat briefly with Imelda, but find out nothing important.
+
+>topics
+ You could ask her about your predicament, getting to safety, the feral
+ icekin, the Northern Territories, the Sky Mercenaries, herself,
+ newspapers, us, yourself, how you first met, shooting you down, the
+ chance to kill you, duelling, friends, ace of aces, her eyepatch, what
+ she's doing after the war, her kill count, or her hair.
+
+>score
+ In 81 moves, you have scored 5 of a possible 7 points.  This makes you
+ a group captain.
+
+ (To see a detailed accounting of your score, type FULL SCORE.)
+
+>ask imelda about duelling
+ "It's a strange past-time, really, trying to shoot one another out of
+ the air."
+
+ "Yes," Imelda agrees, "we should take up chess or ballroom dancing
+ instead."
+
+ The triplane rocks slightly in the wind.
+
+>ask imelda about what she's doing after the war
+ "Aside from sticking me in a triplane, you got any plans for after this
+ all blows over?"
+
+ Imelda scratches her ear.  "I don't know.  I really don't know.  I went
+ straight from aristocracy to being a fighter pilot.  This is
+ preferable, believe it or not.  But you'd have to be insane to want to
+ do this forever.  Or maybe I am insane, I don't know.  I just don't
+ know."
+
+>propose to imelda
+ The word "propose" is not necessary in this story.
+
+>marry imelda
+ The word "marry" is not necessary in this story.
+
+>score
+ In 83 moves, you have scored 5 of a possible 7 points.  This makes you
+ a group captain.
+
+>ask imelda about marriage
+ You chat briefly with Imelda, but find out nothing important.
+
+>ask imelda about ballroom dancing
+ "Do you dance?" you ask.
+
+ "Not when I'm this cold," Imelda says.  "But I learnt ballroom dancing
+ when I was young.  I can be as graceful on my feet as in the air."
+
+ "We'll have to dance some time," you suggest.
+
+ "Certainly," she says mischievously, "but I warn you, my hands have
+ been known to wander."
+
+ "I'll keep a careful eye on you, don't worry."
+
+>ask imelda about chess
+ "Do you play chess?" you ask.
+
+ "More than that," Imelda says.  "I win at chess."
+
+>full score
+ In 86 moves, you have scored 5 of a possible 7 points.  This makes you
+ a group captain.  Your score consists of:
+    -2 points for perpetuating a meme
+    1 point for aerobatics
+    1 point for knowing when to quit
+    1 point for suriving a feral icekin
+    1 point for planning ahead
+    1 point for diplomacy
+    1 point for keeping warm
+    1 point for telling Imelda how you feel about her
+
+>play chess
+ The story doesn't understand that command.
+
+>tell imedla about chess
+ The word "imedla" is not necessary in this story.
+
+>tell imelda about chess
+ You chat briefly with Imelda, but find out nothing important.
+
+>sleep with her
+ The story doesn't understand that command.
+
+>sleep
+ You let your head rest on Imelda's shoulder, and sleep descends like a
+ dark blanket.
+
+ The night is cold, and the two of you cling to one another for warmth,
+ but the snow has finally stopped falling and the fire burns until
+ morning.
+
+ Then the two of you struggle to your feet, Imelda just contending with
+ aches and cramps while you have to worry about your broken leg.
+ Looking around at the pristine forest, everything covered in thick
+ sheets of snow, you begin to make your way south, Imelda encouraging
+ you to lean on her as much as you can.  Eventually, the bright scarlet
+ wingtip of her triplane has disappeared from view.
+
+
+
+
+
+
+
+
+ Not long after that...
+
+ The guard shoots you a black look, but you show him your authorisation
+ and he unlocks the door.  Inside, Imelda sits at a table, looking
+ thoroughly bored.
+
+ "Lucas," she sighs.  "Things are looking up."
+
+ "I'm really sorry for this," you tell her.  "It seems the intelligence
+ services can do what they want and there's nothing we can do about it.
+ They treated you well, at least?"
+
+ "They accepted it when I refused to answer their questions, yes.  The
+ northern ace of aces is out of action, if they beat me up, their own
+ ace of aces will probably follow suit.  I don't think they're really
+ that interested in getting information out of me, to be honest.  It
+ seemed like a formality.  A boring, boring formality."
+
+ You take a deep breath and then say, "They're prepared to put you under
+ house arrest in a nice little town not too far south of here."
+
+ "And how often will I see you?"
+
+ "As often as I can make the journey."
+
+ "Will you..."  She clears her throat.  "Will you be able to stay the
+ night?"
+
+ "If I bribe the right guard, I should think so."
+
+ She grins carnivorously.  "Well, that's the important thing."
+
+ "I'm sorry for this."
+
+ She smiles.  "It's okay, I know it's not your fault."
+
+
+
+
+
+
+
+
+ Years later...
+
+ Imelda rolls off of you and sparks up a cigarette, the sheets around
+ her hips.  You study her silhouette in the twilight.
+
+ "The air race tomorrow," she says.
+
+ "Everyone will be there," you say proudly.  "Everyone wants to see the
+ world's most famous aces competing against one another."
+
+ She takes a deep drag and lets the smoke curl slowly from her lips
+ before speaking.  "I don't like the way you take so many risks to try
+ and beat me.  You could die."
+
+ You laugh.  "You just want to make sure you win."
+
+ She shoots you a fierce look.  "I'm not joking."
+
+ "Okay, I know, Mel, I know."
+
+ You rest your hand reassuringly on her leg.  "Maybe we should pack in
+ the daredevil flying anyway.  It's for the young and carefree, people
+ with nothing to lose.  Whereas we're..."
+
+ She places her hand on top of yours."We have one another."
+
+ You nod.  "But still, the race tomorrow..."
+
+ Imelda laughs.  "You're going to do great," she says.  "You'll be
+ finishing second.  Right after me."
+
+ "We'll see."
+
+ There's a moment's pause.  The quiet sounds of evening drift in through
+ an open window.
+
+ "Lucas..."  Imelda takes a deep breath.  "There's something I need to
+ ask you.  After the race, what... what's going to happen?"
+
+ "I..."  You shake your head.
+
+ She looks at you sadly.  "Yeah, you never did let that barrier drop.  I
+ guess it's too much to imagine that people who've tried to kill one
+ another could ever end up being too close."
+
+ "I will miss you," you tell her.
+
+ She kisses the corner of your mouth.
+
+ You slip your arm around her and kiss her back.
+
+
+
+
+
+
+
+
+ Many years later...
+
+
+ "Oh my god, Lucas Thane it is you"
+
+ You spin around and find yourself facing a strangely familiar redheaded
+ woman.  "Imelda?  Is that you?  You look so different!"
+
+ She touches her fingers to her cheeks.  "It's the glass eye.  No-one
+ from back then recognises me anymore."
+
+ "That's terrible," you say, "I thought the eye patch really suited
+ you."
+
+ "Well, it doesn't help much to look like a pirate when you're designing
+ planes."
+
+ "Monoplanes, eh?  Who'd have thought it?"
+
+ "I know!  Look, you've got to come round some time, reminisce about old
+ times."
+
+ "Sounds like a plan."
+
+ "Are you still the dashing bachelor of legend?"
+
+ You look thoughtfully at the sky.  "Oh, you know how it is.  You meet a
+ lot of people, but they never match up to the one that got away."
+
+ She looks at you thoughfully.  "You're a stupid bastard, Lucas Thane,"
+ she says softly.
+
+ You just stare at her.
+
+ She points a thumb over her shoulder.  "My place is this way.  Come
+ on."
+
+ Uncertain what to expect, you take her hand.
+
+ *** THE END ***
+
+ In 88 moves, you have scored 5 of a possible 7 points.  This makes you
+ a group captain.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, see some AMUSING things to try, read
+ some NOTES on the game, find out a little more about the ENDINGS, or
+ QUIT?
+
+>notes
+ "It was the practice of German aces to visit the site of their
+ opponent's crash in order to confirm their combat report and only the
+ final question concerned [Oswald] Boelcke - would his own death be
+ 'fercht oder getrocknet' (literally 'wet or dry', that is burned or
+ mutilated to death)."  Alan Clark, Aces High
+
+ The idea of a notorious fighter ace called the Scarlet Baroness is
+ obviously inspired by the Red Baron of the First World War - Manfred
+ von Richthofen, an aristocratic hunter turned fighter pilot.
+ Richthofen is an interesting character in his own right, clocking up 80
+ confirmed kills (perhaps dispproportionately of vulnerable two-seater
+ planes), he was often depicted (either flatteringly or unflatteringly)
+ as a callous and cold man who considered shooting down enemy planes to
+ be no different from hunting animals.
+
+ Although there may well have been such an aspect to him, like most of
+ the fighter pilots of that era he had a great respect and understanding
+ for enemy pilots.  In the common practice of landing by downed planes
+ to confirm the kill (or in Richthofen's case, to collect a trophy),
+ pilots from opposite sides might well end up conversing.  Captured
+ enemy pilots, whether dead or alive, would always be treated with
+ respect and courtesy by their opposing squadrons.  (It was whilst
+ talking to one captured allied pilot that Richthofen learnt of the
+ rumour that he (the ace in the red plane) was a woman.)
+
+ And yet, despite the common depiction of WWI fighter aces as being the
+ knights of the air, their affinity for one another was probably most
+ inspired by a common understanding of the brutality of their conflict.
+ Pilots were given almost no training.  New members of the Royal Flying
+ Corps were called 'twenty minuters' with respect to their expected
+ lifespan.  Senseless waste of lives was as common in the air as in the
+ trenches.  Unlike in the world of Snowblind Aces, pilots were never
+ issued parachutes - it was considered that this would merely enable
+ cowardice.
+
+ Lucas Thane, depending on how you play him, is a mixture of two of the
+ top three French aces.  Charles Nungesser was the quintessential
+ daredevil ace, who would crawl into his plane after a night out
+ drinking and partying, perform death defying stunts, crash, break all
+ his bones, and still crawl into the plane again the next day.  After
+ the war, he continued to risk his life in the air, and disappeared
+ during an attempted transatlantic crossing.
+
+ Georges Guynemer, on the other hand, managed to become a pilot inspite
+ of his youth and ill health.  He was relatively shy and unassuming,
+ prone to truly anachronistic acts of chivalry towards the enemy.  As
+ the war dragged on, Guynemer's physical and mental health began to
+ deteriorate.  A national hero, Guynemer was expected by his superiors
+ and the public to continue to risk his life in combat.  He refused to
+ retire, afraid of what would be said of him, and was eventually
+ presumed killed in an ambush one overcast morning - though his body was
+ never found.
+
+ Despite Imelda's insistence to the contrary, the triplane was - in our
+ universe, anyway - by and large a failed experiment.  The British
+ Sopwith Triplane and German Fokker Dr1. were both hugely successful,
+ living up to the intended 'increased maneuvrability, reduced speed' of
+ the design, but a plethora of other triplanes have justifiably
+ disappeared into the mists of history, remembered only as peculiar
+ mutants.
+
+ As a final note, if you find yourself in the Northern Territories these
+ days and are attacked by a feral icekin, please remember that they are
+ endangered, so you should probably let it eat you.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, see some AMUSING things to try, read
+ some NOTES on the game, find out a little more about the ENDINGS, or
+ QUIT?
+
+>score
+ That isn't one of the options.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, see some AMUSING things to try, read
+ some NOTES on the game, find out a little more about the ENDINGS, or
+ QUIT?
+
+>full score
+ In 88 moves, you have scored 5 of a possible 7 points.  This makes you
+ a group captain.  Your score consists of:
+    -2 points for perpetuating a meme
+    1 point for aerobatics
+    1 point for knowing when to quit
+    1 point for suriving a feral icekin
+    1 point for planning ahead
+    1 point for diplomacy
+    1 point for keeping warm
+    1 point for telling Imelda how you feel about her
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, see some AMUSING things to try, read
+ some NOTES on the game, find out a little more about the ENDINGS, or
+ QUIT?
+
+>amusing
+ Have you tried:
+
+ Eating your breeches?
+ Examining your parachute pack after discovering you've broken your leg?
+ Typing 'xyzzy'?
+ Asking Imelda about tiger sauce?
+ Shooting yourself?
+ Shooting Imelda?
+ Sleeping at the controls of your plane (before the collision)?
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see your FULL SCORE, see some AMUSING things to try, read
+ some NOTES on the game, find out a little more about the ENDINGS, or
+ QUIT?

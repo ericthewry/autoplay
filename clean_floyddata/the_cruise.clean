@@ -1,0 +1,3709 @@
+>load cruise
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+ You'd never won any sweepstakes before, but last Tuesday was your
+ lucky day.  You opened your bottle of soda at lunchtime, and to your
+ absolute amazement found "YOU WIN" printed on the inside of the cap.
+ Upon further investigation, you found that you'd won a free 3-day
+ Caribbean cruise on The Rhinoceros.  You had no idea how the cruise
+ ship ended up with a name like that, but that didn't dissuade you from
+ taking advantage of your prize.  So you packed your bags and came here
+ to Miami for your free vacation.  Now The Rhinoceros towers above you
+ to the east.  A boarding platform extends invitingly from her hull.
+
+ The Cruise
+ Version 1.0
+ Copyright 2001 by Norman Perlmutter
+ Testers:  Leah Perlmutter, Allen Saunders, David Perlmutter, Debbie
+ Perlmutter
+ Developed with TADS, the Text Adventure Development System.
+
+
+
+ Outside the Ship
+    Your cruise ship, The Rhinoceros towers above you to the east, her
+ boarding platform extended invitingly.  A ticket collector stands on
+ the boarding platform.
+    Friday Morning
+
+>examine me
+ You look about the same as always.
+
+>inventory
+ You have your clothes (being worn), a wallet, and a large suitcase.
+
+>examine wallet
+ It's made of brown leather.  It's closed.
+
+>open wallet
+ Opening your wallet reveals a boarding pass and some money.
+
+>open wallet
+ Your wallet is already open!
+
+
+    "This is the last boarding call for The Rhinoceros," announces the
+ ticket collector.
+
+>examine boat
+ The Rhinoceros towers about 20 feet above you and appears to be over
+ 300 feet long.  Her boarding platform is extended invitingly.
+
+>examine pass
+ This is the pass that will allow you do board the ship.
+
+>examine money
+ You have $51.42
+
+>examine money
+ You have $51.42
+
+>rip pass
+ I don't know how to rip the boarding pass.
+
+>examine ticket collector
+ She stands about 5'3" and has long brown hair and blue eyes.
+
+>examine me
+ You look about the same as always.
+
+>examine suitcase
+ A very large green and orange suitcase with a purple handle.  You used
+ to use plain brown suitcases just like everybody else until the time
+ someone else took yours at the baggage claim.  You never saw that
+ suitcase again.  Ever since then it's been colorful luggage only for
+ you.
+
+ Currently, the suitcase is closed.
+
+>open suitcase
+ You open the suitcase, and all of its contents fall onto the floor.
+ Maybe next time you should put it down before opening it.
+
+>kiss ticket collector
+ I don't know the word "kiss".
+
+>look
+ Outside the Ship
+    Your cruise ship, The Rhinoceros towers above you to the east, her
+ boarding platform extended invitingly.  A ticket collector stands on
+ the boarding platform.
+    You see your pajamas, a pair of goggles, a swimsuit, and some
+ laundry here.
+
+    The boarding platform folds up into the hull of The Rhinoceros and
+ the ship departs.
+
+
+
+ How pathetic!  You didn't even make it onto the ship.
+
+ *** You have lost.  ***
+
+ In a total of 15 turns, you have achieved a score of 0 out of 90,
+ earning you the rank of Lummox.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>restart
+
+ You'd never won any sweepstakes before, but last Tuesday was your
+ lucky day.  You opened your bottle of soda at lunchtime, and to your
+ absolute amazement found "YOU WIN" printed on the inside of the cap.
+ Upon further investigation, you found that you'd won a free 3-day
+ Caribbean cruise on The Rhinoceros.  You had no idea how the cruise
+ ship ended up with a name like that, but that didn't dissuade you from
+ taking advantage of your prize.  So you packed your bags and came here
+ to Miami for your free vacation.  Now The Rhinoceros towers above you
+ to the east.  A boarding platform extends invitingly from her hull.
+
+ The Cruise
+ Version 1.0
+ Copyright 2001 by Norman Perlmutter
+ Testers:  Leah Perlmutter, Allen Saunders, David Perlmutter, Debbie
+ Perlmutter
+ Developed with TADS, the Text Adventure Development System.
+
+
+
+ Outside the Ship
+    Your cruise ship, The Rhinoceros towers above you to the east, her
+ boarding platform extended invitingly.  A ticket collector stands on
+ the boarding platform.
+    Friday Morning
+
+>open wallet
+ Opening your wallet reveals a boarding pass and some money.
+
+>take ticket
+ Taken.
+
+>give ticket to collector
+>examine ship
+ The ticket collector takes your boarding pass.  "Thank you, sir.  Your
+ room is just to the south of the bottom of the stairs, which are just
+ east of the boarding area.  Here is your key.  Enjoy your cruise."
+    You proceed onto the ship.  The boarding platform retracts back
+ into the ship's hull.
+
+
+ Boarding Area
+    This is where the passengers embark and disembark.  The wall to the
+ west opens up when the ship comes to port.  The lobby is to the north,
+ the grand hall is to the east, and the gift shop is to the southeast.
+
+ Your score just went up 5 points!
+
+
+ I don't see any ship here.
+
+>look
+ Boarding Area
+    This is where the passengers embark and disembark.  The wall to the
+ west opens up when the ship comes to port.  The lobby is to the north,
+ the grand hall is to the east, and the gift shop is to the southeast.
+
+>close wallet
+ Closed.
+
+>inventory
+ You have your clothes (being worn), a wallet, a large suitcase, and a
+ room key.
+
+>examine key
+ It is your room key.
+
+>read it
+ I don't know how to read the room key.
+
+>go east
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go down
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+
+>go south
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+>go south
+ You'll have to open the door to your room first.
+
+>open door with key
+ I don't recognize that sentence.
+
+>open door
+ It's locked.
+
+>unlock door with key
+ Unlocked.
+
+>open door
+ Opened.
+
+>go south
+ Your Room
+    A comfortable-looking bed is against one wall, next to which is a
+ nightstand with a drawer.  Your bathroom is to the south.  An open
+ doorway to the north leads to the south residential hall.
+    Sitting on the nightstand is a note.
+
+>examine note
+ Welcome to The Rhinoceros .  We hope you enjoy your stay.
+                                - The Crew
+
+>drop suitcase
+ Dropped.
+
+>inventory
+ You have your clothes (being worn), a wallet, and a room key.
+
+>open drawer
+ Opened.
+
+>look in drawer
+>examine drawer
+ There's nothing in the nightstand drawer.
+
+ The nightstand drawer is open.  There's nothing in the nightstand
+ drawer.
+
+>open suitcase
+ Opening your suitcase reveals your pajamas, a pair of goggles, a
+ swimsuit, and some laundry.
+
+>close door
+ Closed.
+
+>examine laundry
+ The laundry is your supply of clothing for the entire trip.
+
+>examine bed
+ This is where you go to sleep at night.
+
+>Obviously the correct thing to do here is wear the goggles. All the time.
+ I don't know the word "obviously".
+
+>look under bed
+ There's nothing under the bed.
+
+>go south
+ Your Bathroom
+    The bathroom is equipped with the standard facilities:  a toilet,
+ shower, and a sink.
+    You see a roll of toilet paper here.  The toilet bowl seems to
+ contain some toilet water.
+
+>examine water
+ The toilet water not something you'd want to drink.
+
+>examine paper
+ It looks like an ordinary roll of toilet paper to me.
+
+>examine toilet
+ It looks just like any other toilet.
+
+>examine sink
+ It is an ordinary sink.  No water is coming out of the faucet.
+
+>examine shower
+ There's nothing in the .
+
+>take paper
+ Taken.
+
+>turn on water
+ I don't know how to turn the toilet water on.
+
+>turn on sink
+ Okay, it's now turned on.
+
+>examine sink
+ It is an ordinary sink.  No water is coming out of the faucet.
+
+>turn on faucet
+ It's already turned on!
+
+>swim
+ The game makes you swim automatically when you are in the pool.  If
+ you want to move around, use the compass directions, up, and down.  If
+ you are in the pool and you want to go underwater, use down.
+
+>swim in toilet
+ I don't recognize that sentence.
+
+>enter toilet
+ I don't know how to enter the toilet.
+
+>put head in toilet
+ I don't see any head here.
+
+>Well, better outcome than *** YOU HAVE DROWNED ***
+ I don't understand the punctuation "*".
+
+>flush toilet
+ Whoooosh
+    That was fun!  But hanging out in the bathroom and flushing the
+ toilet just to see what happens is not exactly your idea of a dream
+ vacation.
+
+>look
+ Your Bathroom
+    The bathroom is equipped with the standard facilities:  a toilet,
+ shower, and a sink.
+    The toilet bowl seems to contain some toilet water.
+
+>go south
+ You can't go that way.
+
+>go north
+ Your Room
+    You see a large suitcase here.  Sitting on the nightstand is a
+ note.  Your suitcase seems to contain your pajamas, a pair of goggles,
+ a swimsuit, and some laundry.
+
+>examine swimsuit
+ It is a standard red pair of swim trunks with white strings.
+
+>search laundry
+ You find nothing of interest.
+
+>wear goggles
+ (First taking the goggles)
+ Taken.  Okay, you're now wearing the goggles.
+
+>out
+ (Opening the door leading out of your room)
+ South Residential Hallway
+
+>close door
+ Closed.
+
+>lock door
+ (with the room key)
+ Locked.
+
+>look
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+>go west
+ Southwest Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the north and east.
+
+>go north
+ West Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the north and south.
+
+>go north
+ Northwest Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and south.
+
+>go east
+ North Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and west.  To the south is a
+ maintenance closet.
+    The maitenance closet seems to contain a broom and a mop.
+    A muscular janitor stands in the doorway between the hallway and
+ the maintenance closet.  He is holding a plunger.
+
+ The janitor taps the plunger against the floor rhythmically.
+
+>examine closet
+ This large walk-in closet is not decorated in any way.
+
+ The janitor yawns.
+
+>examine plunger
+ The plunger consists of a wooden handle attached to a large red
+ suction cup.
+
+ The janitor taps the plunger against the floor rhythmically.
+
+>examine janitor
+ The janitor is a large, muscular man with a thick mustache.
+
+ The janitor taps the plunger against the floor rhythmically.
+
+>examine broom
+ It looks like an ordinary broom to me.
+
+ The janitor taps the plunger against the floor rhythmically.
+
+>examine map
+ I don't know the word "map".
+
+>examine mop
+ It looks like an ordinary mop to me.
+
+ The janitor yawns.
+
+>talk to janitor
+    "Hello"
+
+ The janitor taps the plunger against the floor rhythmically.
+
+>take plunger
+    "Hey, that's mine!"  says the janitor.  "You can't have it!"
+
+ The janitor flexes his muscles.
+
+>ask janitor about plunger
+    "It's what I use to unclog toilets.  If you need me to clean out a
+ toilet for you, tell me about the toilet."
+
+ The janitor taps the plunger against the floor rhythmically.
+
+>look
+ North Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and west.  To the south is a
+ maintenance closet.
+    The maitenance closet seems to contain a broom and a mop.
+    A muscular janitor stands in the doorway between the hallway and
+ the maintenance closet.  He is holding a plunger.
+
+ The janitor flexes his muscles.
+
+>go east
+ Northeast Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the west and south.
+
+>go south
+ East Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the north and south.
+
+>go south
+ Southeast Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the west and north.
+
+>go west
+ South Residential Hallway
+
+>look
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+>go north
+ Stairway Area ( deck 1 )
+
+>verbose
+ Okay, now in VERBOSE mode.
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+
+>go up
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>examine painting
+ The painting is a colorful abstract design.
+
+>look behind painting
+ It's too far away.
+
+>climb tree
+ You try to climb one of the trees, but you can't find a firm enough
+ place to grip onto it.  You try each of the other trees, but have no
+ better luck with them.
+
+>examine carpet
+ The carpet is so marvelously thick and comfortable that every step you
+ take sends a sensation of pleasure through your foot and leg to your
+ entire body.  It is a gorgeous shade of red .  .  .  somewhere between
+ scarlet and vermillion.
+
+>examine railings
+ I don't know the word "railings".
+
+>go north
+ Video Arcade
+    Colors blare forth from screens all over the room.  The games range
+ from the newest technicolor 3-D creations to old classics.  To the
+ east, more money-wasting machines blare out noises in the casino.  The
+ comparatively serene lobby lies to the west, and the grand hall is off
+ to the south.
+
+>xyzzy
+    A hollow voice whispers, "I saw a 't' on top of a castle!"
+
+ A goat runs through the lounge.  A llama chases after it.  The glue is
+ dripping down the side of the bottle.
+
+ I doubt that made any sense to you, since it's an inside joke.  Well,
+ when you type something out-of-context like xyzzy you should expect an
+ out-of-context response.  If you expected to be teleported, too bad
+ for you.  This isn't Zork.     Friday Afternoon
+
+ It's time for lunch.  You should go to the dining room soon.
+
+>examine games
+ You're not a huge fan of video games, but you've always liked Pacman.
+ You notice that there is indeed a Pacman game in this arcade.
+
+>examine money
+ I don't see any money here.
+
+>inventory
+ You have your clothes (being worn), a wallet, a room key, a roll of
+ toilet paper, and a pair of goggles (being worn).
+
+>open wallet
+ Opening your wallet reveals some money.
+
+>examine money
+ You have $51.42
+
+>time
+ I don't know the word "time".
+
+>play game
+ You put a quarter into the Pacman game and play it.  "That was fun,"
+ you think, "but not nearly as fun as a text adventure game."
+
+ It's time for lunch.  You should go to the dining room soon.
+
+>SAVE
+>cf12
+ Saved.
+
+>SAVE
+>cf1
+ Saved.
+
+>go east
+ Casino
+    This is the ship's casino, where dozens of vacationers go every day
+ to get rid of their excess money.  The casino's designers apparently
+ didn't care much for variety.  No blackjack, poker, or craps tables
+ are here.  There isn't a roulette wheel either.  There are, however,
+ slot machines, and lots of them.  However, only one of them is
+ currently open.  Due to the huge crowd of people in the casino, you
+ can't even get close enough to the other machines to get a good look
+ at them.  The arcade is to the west, the bar is to the south, and the
+ grand hall is to the southwest.
+
+>examine people
+ The gamblers are mindlessly plunking money into the slot machines,
+ hoping to win the jackpot.
+
+>talk to people
+    "Hello"
+
+>examine wallet
+ Your wallet contains some money.  Currently, your money amounts to
+ $51.17
+
+>SAVE
+>cf2
+ Saved.
+
+>play slot machine
+ You put 25 cents into the machine and pull the handle.  The slots whir
+ and then slowly come to a stop one by one.
+
+ banana .  .  .  .  cherry .  .  .  .  banana
+
+ Sorry, you lose :(
+
+ It's time for lunch.  You should go to the dining room soon.
+
+>go south
+ The Bar
+    A man dressed in an odd-looking black hooded robe sits on one of
+ the barstools, drinking a foamy beer.  Besides him, no one else is in
+ the bar.  Behind the bar, the bartender is nowhere to be seen.
+ Perhaps he is taking a break.  Perhaps, that is why the bar is so
+ empty.  To the north, vacationers gamble away their money in the
+ casino.  A corridor to the west leads to the grand hall.
+    The old man extends a single hairy finger outside of his robe and
+ beckons to you.  "You!", he calls in a low, raspy voice.  "Come have a
+ seat.  I must tell you something important."
+
+
+ The old man snakes a strong, thin, gnarly arm out of his cloak and
+ takes a long drink of his ale.  Then the arm disappears back into his
+ cloak.  But although you could have sworn you saw the frothy amber
+ liquid emptying into his mouth, you notice the mug is still full to
+ the brim.
+
+>examine man
+ The old man sits at the bar.  His robe shimmers strangely.  Although
+ he is obviously very old, his posture is straight, and he appears
+ strong and healthy.
+    His face is wrinkled and is shrouded in the shadow of his hood.
+ His eyes are deepset but stare penetratingly out from between his
+ wrinkles.  Great wisdom seems to emanate from them.  His nose is thin
+ and bends slightly to the left.  His lips are almost hidden within the
+ shadows of his cloak.  You can just barely make out the top of a long,
+ thick, grey beard that extends from just below his lower lip down into
+ his robe.
+
+>examine mug
+ The ale is a dark amber and is very frothy.  It is contained in a
+ heavy glass mug.  The foam bubbles and churns.
+
+ "Did you not hear me?"  asks the old man.  Come have a seat.  I must
+ tell you something."
+
+>sit
+ (the barstool)
+
+    "Listen to my words!"
+    "I am a powerful wizard.  I am aligned with the forces of good.
+ Another powerful wizard is trapped in a magical location on this ship.
+ He is aligned with the forces of evil.  The island to which ship
+ travels has come into alignment with a place of great evil magical
+ power located in another universe. When the ship reaches the island,
+ the evil wizard will slowly accrue power from the power source in the
+ other universe.  If the ship stays at the island long enough, he will
+ accrue enough power to break free from the magical forces that hold
+ him prisoner.  Then he will conquer the entire earth and enslave the
+ entire human race.
+    "There is only one way that this can be prevented.  Three power
+ crystals are located on this ship, all on different decks from each
+ other.  You must find them.  In order to invoke their power, you must
+ hold them in your hands; you cannot put them in any sort of container.
+ After you have found them, taking them to the location of the portal
+ to the evil wizard's prison will cause the area to be illuminated in a
+ bright pink aura.  You must go up from that location several times to
+ reach the evil wizard's prison.  You must bring the three power
+ crystals to the place where the evil wizard is before he accrues
+ enough power to break free.  The crystals will cause him to be
+ destroyed.
+    "You are probably wondering why I don't gather these crystals
+ myself since I am such a powerful wizard.  The problem is that this is
+ something only you can do.  You have a special aura about you.
+ Because of this aura, you can gather the crystals.  Because of this
+ aura, you can use them to defeat the evil wizard.  I cannot cast any
+ spells to assist you; if I do, the crystals will be destroyed.
+    "I can, however, help you by giving you two magical items:  an evil
+ detector and some magic eyedrops.  The evil detector will tell you how
+ much evil power the evil wizard has absorbed from the evil power
+ source.  If it reads 275 or higher, he will have enough power to
+ escape from his confines.  The magic eyedrops will allow you to see
+ the power crystals, which are normally invisible to ordinary people."
+    The wizard pulls something out of the depths of his cloak that
+ looks very similar to a digital wristwatch and puts it around your
+ wrist.  "This is the evil detector", he says.
+    The wizard takes a spray bottle out of the depths of his robe and
+ sprays a liquid from it into your eyes.  It stings for a while, but
+ after the stinging goes away, you feel as if your vision is somehow
+ more acute.  "Those were the magic eyedrops," he says.
+    "Before you go, I must warn you of one thing," says the wizard.
+ "The special aura that surrounds you is a mixed blessing.  It does
+ allow you to collect the crystals and defeat the evil wizard.  Its
+ drawback, however, is that if you come in complete alignment with an
+ evil power source in another universe, you will die.  This means that
+ you must not go out onto the island.
+    "Oh, one more thing:  You're probably thinking that this is a
+ ridiculous scenario, that surely since I am such a powerful wizard I
+ can do this myself.  To help you understand the situation better, I
+ will remind you of a story you have probably heard before, that of
+ Aladdin.  In that story, a powerful sorcerer wanted to get a magical
+ lamp out of a cave.  However, only Aladdin could enter the cave.  It
+ didn't matter that the sorcerer was a powerful sorcerer.  Only Aladdin
+ could enter the cave.
+    "If you want to hear all this again, ask me about the evil wizard."
+
+ Your score just went up 5 points!
+
+ Okay, you're now sitting on the barstool.
+
+>examine detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 0.
+
+ If you don't hurry up and go to the dining room you'll be late for
+ lunch!
+
+>SAVE
+>cf3
+ Saved.
+
+>look
+ The Bar , in the barstool
+    A man dressed in an odd-looking black hooded robe sits on one of
+ the barstools, drinking a foamy beer.  Besides him, no one else is in
+ the bar.  Behind the bar, the bartender is nowhere to be seen.
+ Perhaps he is taking a break.  Perhaps, that is why the bar is so
+ empty.  To the north, vacationers gamble away their money in the
+ casino.  A corridor to the west leads to the grand hall.
+
+>go west
+ You're not going anywhere until you get out of the barstool.
+
+>go up
+ You're not going anywhere until you get out of the barstool.
+
+>out
+ You're not going anywhere until you get out of the barstool.
+
+>stand up
+ There's no verb in that sentence!
+
+>exit barstool
+ I don't recognize that sentence.
+
+>stand
+ Okay, you're no longer in the barstool.
+
+ If you don't hurry up and go to the dining room you'll be late for
+ lunch!
+
+>go west
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go northwest
+ Lobby
+    This is the ship's lobby.  There is an information desk here,
+ behind which sits a clerk.  The sounds of laser guns and racecar
+ engines come from the arcade to the east, and a door to the north
+ leads to a restroom.  The lobby is to the south.
+    Sitting on the information desk is a sign, a ship information
+ pamphlet, and an itinerary pamphlet.
+    A clerk sits behind the information desk.
+
+ The clerk drums her fingers on her desk.
+
+>ask clerk about dining
+    "Oh, hi there!  Anne is my name, and information is my game.  You
+ can ask me about people, places, or things."
+
+    "I'm sorry; I was wasn't paying attention.  Could you repeat what
+ you were saying or doing, please?"
+
+ The clerk pulls a mirror out of her pocket, puts on some makeup, and
+ puts the mirror back in her pocket.
+
+>ask clerk about dining room
+    "Ha!  I know plenty about that, but I don't feel like telling you
+ about it right now."
+
+ The clerk cracks her knuckles.
+
+>ask her about food
+    "It's good to eat."
+
+ You have a nagging suspicion that something terrible will happen if
+ you don't get to the dining room for lunch posthaste!!
+
+ The clerk rolls her eyes.
+
+>examine sign
+ The sign says ASK ME.
+
+ The clerk pulls a mirror out of her pocket, puts on some makeup, and
+ puts the mirror back in her pocket.
+
+>kill and eat woman
+ What do you want to attack?
+
+>woman
+ What do you want to attack it with?
+
+>wallet
+ Attacking the clerk doesn't appear productive.
+
+ The clerk looks at you and snickers.
+
+ The clerk doesn't appear appetizing.
+
+ The clerk drums her fingers on her desk.
+
+>examine ship information pamphlet
+    *The Rhinoceros is so named because the designer's favorite animal
+ was the rhino.  He wanted to have pictures of rhinos painted all over
+ the ship, but the cruise line refused.  The designer reluctantly
+ agreed, but only under the condition that the ship be named in honor
+ of his favorite animal.
+
+    *The Rhinoceros is 327 feet long and comes 22 feet above the water
+ at its highest point.  Its cruising speed is 23 knots.
+
+    *Believe it or not, large, powerful magnets occupy the bow and
+ stern of The Rhinoceros.  Their orientation is such that any compass
+ on the ship will always tell you that the bow is to the north and the
+ stern to the south Therefore, the lobby, for instance, is always to
+ the "north" of the boarding area no matter which direction the ship is
+ travelling.  These magnets are in all of this cruise line's ships
+ because our eccentric CEO insists that the magnetic fields will have
+ positive effect on the health of the passengers and crew.  The magnets
+ do not affect the ship's navigation because the captain uses GPS
+ (global positioning system) to determine which direction it is
+ travelling.
+
+ The clerk puts her right index finger inside of her right cheek and
+ then pulls it out, making a loud popping noise.
+
+>examine ship itinerary
+ I don't see any ship itinerary here.
+
+>examine  itinerary
+ Friday Morning - Depart from Miami
+ Saturday Morning - Arrive at Paradise Island
+ Saturday Evening - Leave Paradise Island
+ Sunday Evening - Return to Miami
+
+ You have a nagging suspicion that something terrible will happen if
+ you don't get to the dining room for lunch posthaste!!
+
+ The clerk picks a large, slimy booger out of her nose and eats it,
+ then licks her lips.
+
+>go up
+ You can't go that way.
+
+ The clerk cracks her knuckles.
+
+>look
+ Lobby
+    This is the ship's lobby.  There is an information desk here,
+ behind which sits a clerk.  The sounds of laser guns and racecar
+ engines come from the arcade to the east, and a door to the north
+ leads to a restroom.  The lobby is to the south.
+    Sitting on the information desk is a sign, a ship information
+ pamphlet, and an itinerary pamphlet.
+    A clerk sits behind the information desk.
+
+ The clerk puts her right index finger inside of her right cheek and
+ then pulls it out, making a loud popping noise.
+
+>go south
+ Boarding Area
+    This is where the passengers embark and disembark.  The wall to the
+ west opens up when the ship comes to port.  The lobby is to the north,
+ the grand hall is to the east, and the gift shop is to the southeast.
+
+>go east
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go up
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+ You have a nagging suspicion that something terrible will happen
+ unless you can get to the dining room for lunch right away.  You have
+ a nagging suspicion that this will be the last warning before the
+ terrible thing happens.
+
+>go south
+ Dining Room
+    Waiters come in and out of the kitchen to the south, serving the
+ diners at various tables.  Ornate chandeliers hang from the ceiling.
+ A large doorway to the north and smaller doorways to the northeast and
+ northwest lead to the stairway area.
+    The maître d' greets diners as they enter the dining room.
+
+ The maître d' says, "Sir, please go change into some more appropriate
+ attire.  You may not dine here dressed as you are.  Ask me about
+ eating when you're attired properly.  "
+
+>ask maitre about attire
+    "In order to eat in this restaurant, sir, you must be properly
+ attired.  This means you may not be wearing any sort of swimwear or
+ sleepwear."
+
+ The maître d' greets some guests.
+
+>remove goggles
+ Okay, you're no longer wearing the goggles.
+
+ The maître d' greets some guests.
+
+>go south
+ A waiter stops you.
+ "You're not allowed to go in the kitchen, sir."
+
+ The maître d' looks around the room.
+
+>ask maitre about dining
+    "I'm sorry, sir.  I can't tell you much about that.  Perhaps you
+ should inquire at the information desk."
+
+ Suddenly, a large sign appears from out of nowhere in front of you.
+ Large flashing lights on the sign say YOU LOSE.  Maybe next time you
+ should pay more attention to your nagging suspicions.  .  .
+
+ *** You have lost.  ***
+
+ In a total of 117 turns, you have achieved a score of 10 out of 90,
+ earning you the rank of Novice.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ Dining Room
+    Waiters come in and out of the kitchen to the south, serving the
+ diners at various tables.  Ornate chandeliers hang from the ceiling.
+ A large doorway to the north and smaller doorways to the northeast and
+ northwest lead to the stairway area.
+    The maître d' greets diners as they enter the dining room.
+
+>ask maitre about eating
+
+    "Welcome to my restaurant," says the maître d'.
+    "Would you care for some lunch?"
+
+>yes
+ After eating a scrumptious lunch, you're on your way again.
+
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+    Friday Afternoon
+
+>look
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>examine sofa
+ I don't see any sofa here.
+
+>examine atrium
+ Exotic tropical trees extend up into the atrium.  A colorful painting
+ decorates the distant ceiling.  A lush red carpet blankets the floor.
+ A stairway with ornately carved railings extends along the side the
+ atrium between the second and third decks.
+
+>se
+ Dining Room
+    Waiters come in and out of the kitchen to the south, serving the
+ diners at various tables.  Ornate chandeliers hang from the ceiling.
+ A large doorway to the north and smaller doorways to the northeast and
+ northwest lead to the stairway area.
+    The maître d' greets diners as they enter the dining room.
+
+    "Welcome to my restaurant," says the maître d'.
+    "Would you care for some dinner?"
+
+>undo
+
+>no
+ "Okay.  Please ask me about eating when you're ready, sir."
+
+>go southwest
+ You can't go that way.
+
+ The maître d' greets some guests.
+
+>go north
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go north
+ You peer over the balcony, remaining in the same room.  Exotic
+ tropical trees extend up into the atrium.  A colorful painting
+ decorates the distant ceiling.  A lush red carpet blankets the floor.
+ A stairway with ornately carved railings extends along the side the
+ atrium between the second and third decks.
+
+>inventory
+ You have your clothes (being worn), a wallet, a room key, a roll of
+ toilet paper, a pair of goggles, and an evil detector (being worn).
+ Your wallet seems to contain some money.
+
+>go northeast
+ Lounge
+    Several comfortable chairs and sofas are scattered about the room.
+ A young man sits on a black leather armchair, looking contemplatively
+ out the window that covers the entire eastern wall of the lounge.
+ Next to the man is a small table.  A small entryway to the south leads
+ to the dining room.  The hallway outside of the theater is to the
+ northwest.  To the west is a balcony overlooking the atrium.  The
+ hallway near staircase and the entrance to the dining room is to the
+ southwest.
+    Sitting on the small table is a hint book.
+
+>examine book
+ The book is smallish and black.  The word "HINTS" is printed in large
+ red letters on the front cover.
+
+>take book
+ Taken.
+
+>read book
+
+ Welcome to the hint book.  The hints on each topic start out vague and
+ get progressively more specific.  Press a number key to view the next
+ hint in that topic, or press any other key to exit.  More hint topics
+ will become available as you progress through the game.
+
+ Hints are available on the following topics:
+
+ 1.  I don't have enough money.
+ 2.  Finding the orange crystal
+ 3.  Obtaining the green crystal
+ 4.  Finding the purple crystal
+
+
+ exiting hint book .  .  .
+
+>version
+ The Cruise
+ Version 1.0
+ Copyright 2001 by Norman Perlmutter
+ Testers:  Leah Perlmutter, Allen Saunders, David Perlmutter, Debbie
+ Perlmutter
+ Developed with TADS, the Text Adventure Development System.
+
+
+
+
+>examine man
+ He has brown hair, bluish eyes, and a scraggly goatee.  He wears
+ glasses.
+
+>examine man's glasses
+ I don't know the word "man's".
+
+>examine evil detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 0.
+
+>take glasses
+ The young man is carrying the glasses and won't let you have it.
+
+>talk to man
+    "Oh, hello.  I don't believe we've met.  I'm Norman Perlmutter, the
+ one who created this game you are playing.  You can ask me about just
+ about any significant item or character in the game, and I'll tell you
+ about my experiences coding it up or thinking it up.  If you need any
+ hints, you can read the hint book sitting on the table."
+
+>punch norman
+ I don't know the word "punch".
+
+>ask normal about anne
+ I don't know the word "normal".
+
+>oops norman
+    "I had a lot of fun creating her."
+
+>ask norman about good wizard
+ I don't know the word "good".
+
+>ask norman about wizards
+ I don't know the word "wizards".
+
+>ask norman about old man
+    "He is probably more intricately and wordily described than any
+ other character."
+
+>ask norman about janitor
+    "He is an amusing character."
+
+>ask norman about tads
+ I don't know the word "tads".
+
+>ask norman about comp
+ I don't know the word "comp".
+
+>ask norman about norman
+    "I'm seventeen years old if you're playing this game during comp01,
+ unless it's before October 7.  In addition to writing IF, I like
+ playing chess and participate in many chess tournaments.  I judged
+ last year's comp, and I thought it would be fun to write a game for
+ this year.  I live in Ohio.  You might notice that I don't do random
+ things every turn like most of the other characters.  That was a
+ really random assemblage of facts, wasn't it?"
+
+>look
+ Lounge
+    Several comfortable chairs and sofas are scattered about the room.
+ A young man sits on a black leather armchair, looking contemplatively
+ out the window that covers the entire eastern wall of the lounge.
+ Next to the man is a small table.  A small entryway to the south leads
+ to the dining room.  The hallway outside of the theater is to the
+ northwest.  To the west is a balcony overlooking the atrium.  The
+ hallway near staircase and the entrance to the dining room is to the
+ southwest.
+
+>examine table
+ There's nothing on the small table.
+
+>look under table
+ There's nothing under the small table.
+
+>give toilet paper to man
+    "I have no need for that.  Why don't you hold on to it?  It just
+ might come in useful."
+
+>examine armchair
+ Which armchair do you mean, the orange chair, the green chair, or the
+ black chair?
+
+>examine black
+ The book is smallish and black.  The word "HINTS" is printed in large
+ red letters on the front cover.
+
+>examine black armchair
+ I don't see any black armchair here.
+
+>examine black chair
+ I don't see any black chair here.
+
+>examine window
+ I don't see any window here.
+
+>go west
+ You peer over the balcony, remaining in the same room.  Exotic
+ tropical trees extend up into the atrium.  A colorful painting
+ decorates the distant ceiling.  A lush red carpet blankets the floor.
+ A stairway with ornately carved railings extends along the side the
+ atrium between the second and third decks.
+
+>go northwest
+ Outside of the Theater
+    This is the hallway just outside the theater.  A door to the north
+ leads into to the theater.  The suites are to the southwest, and the
+ lounge is to the southeast.  A balcony to the south overlooks the
+ atrium.
+
+>go southwest
+ The Suites
+    This is the hallway just outside of the suites.A balcony to the
+ east overlooks the atrium.  The hallway near the staircase and the
+ entrance to the dining room is to the southeast.  The area outside of
+ the theater is to the northeast.
+
+>go east
+ You peer over the balcony, remaining in the same room.  Exotic
+ tropical trees extend up into the atrium.  A colorful painting
+ decorates the distant ceiling.  A lush red carpet blankets the floor.
+ A stairway with ornately carved railings extends along the side the
+ atrium between the second and third decks.
+
+>se
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>detector
+ There's no verb in that sentence!
+
+>examine detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 0.
+
+>inventory
+ You have your clothes (being worn), a wallet, a room key, a roll of
+ toilet paper, a pair of goggles, an evil detector (being worn), and a
+ hint book.  Your wallet seems to contain some money.
+
+>go north
+ You peer over the balcony, remaining in the same room.  Exotic
+ tropical trees extend up into the atrium.  A colorful painting
+ decorates the distant ceiling.  A lush red carpet blankets the floor.
+ A stairway with ornately carved railings extends along the side the
+ atrium between the second and third decks.
+
+>jump
+ Boing.
+
+>examine balcony
+ You peer over the balcony, remaining in the same room.  Exotic
+ tropical trees extend up into the atrium.  A colorful painting
+ decorates the distant ceiling.  A lush red carpet blankets the floor.
+ A stairway with ornately carved railings extends along the side the
+ atrium between the second and third decks.
+
+>climb down
+ I don't understand that sentence.
+
+>look
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go northwest
+ The Suites
+    This is the hallway just outside of the suites.A balcony to the
+ east overlooks the atrium.  The hallway near the staircase and the
+ entrance to the dining room is to the southeast.  The area outside of
+ the theater is to the northeast.
+
+>go northeast
+ Outside of the Theater
+    This is the hallway just outside the theater.  A door to the north
+ leads into to the theater.  The suites are to the southwest, and the
+ lounge is to the southeast.  A balcony to the south overlooks the
+ atrium.
+
+>go north
+ As you begin to enter the theater, a notice on the door catches your
+ eye:
+
+ Comedian Heinrich von Quigley is performing in the theater.  Although
+ his act contains no profanity, some audiences may find some of the
+ jokes offensive.
+
+ Having read the notice, you reconsider whether you want to enter the
+ theater.
+
+>go north
+ (Opening the theater door)
+ You enter the theater and sit down with the rest of the audience.  The
+ door swings closed behind you.
+
+ Theater
+    You are sitting on a chair in the theater.  A comedian is telling
+ jokes on the stage.
+
+    The comedian says:
+
+    What's big, red, and eats rocks?
+    A big, red rock eater.
+
+ The audience laughs hysterically.
+
+>examine comedian
+ There's nothing in the comedian.
+
+    The comedian says:
+
+    Three men walk into a bar.  The fourth ducks.
+
+ The audience laughs hysterically.
+
+>examine comedian
+ There's nothing in the comedian.
+
+    The comedian says:
+
+    A pig walks into a bar and orders a beer.  He drinks it, and then
+ he asks the bartender where the bathroom is.  The bartender tells him.
+ Then the pig uses the bathroom and leaves.
+    Another pig walks into the bar and orders two beers.  He drinks
+ them, and then he asks the bartender where the bathroom is.  The
+ bartender tells him.  Then the pig uses the bathroom and leaves.
+    Another pig walks into the bar and orders three beers.  He drinks
+ them, and then he asks the bartender where the bathroom is.  The
+ bartender tells him.  Then the pig uses the bathroom and leaves.
+    Another pig walks into the bar and orders four beers.  He drinks
+ them, and then he asks the bartender where the bathroom is.  The
+ bartender tells him.  Then the pig uses the bathroom and leaves.
+    Another pig walks into the bar and orders five beers.  He drinks
+ them and starts to head out the door.  The bartender says, "Aren't you
+ going to ask me where the bathroom is?"
+    "No," says the pig.  "I'm the one who goes wee-wee-wee-wee-wee all
+ the way home.
+
+ The audience laughs hysterically.
+
+>look
+ Theater, in the chair
+    You are sitting on a chair in the theater.  A comedian is telling
+ jokes on the stage.
+
+    The comedian says:
+
+    Where does a 700 pound gorilla sit?
+    Wherever he wants.
+
+ The audience laughs hysterically.
+
+>examine stage
+ I don't know the word "stage".
+
+>tell joke
+ I don't know the word "joke".
+
+>examine audience
+ They are listening intently to the comedian's jokes.
+
+    The comedian says:
+
+    Why was the blonde proud when she finished the 25-piece jigsaw
+ puzzle in 8 months?
+    The box said 2-4 years.
+
+ The audience laughs hysterically.
+
+>laugh
+ I don't know the word "laugh".
+
+>look
+ Theater, in the chair
+    You are sitting on a chair in the theater.  A comedian is telling
+ jokes on the stage.
+
+    The comedian says:
+
+    How many Carl Sagans does it take to screw in a lightbulb?
+    Billions and billions.
+
+ The audience laughs hysterically.
+
+>examine stage
+ I don't know the word "stage".
+
+>examine chair
+ You are sitting in a comfortable chair in the audience section of the
+ theater.
+
+    The comedian says:
+
+    What's black and white and red all over?
+    A sunburned zebra.
+
+ The audience laughs hysterically.
+
+>go south
+ You get up and leave the theater.  The door swings closed behind you.
+
+ Outside of the Theater
+    This is the hallway just outside the theater.  A door to the north
+ leads into to the theater.  The suites are to the southwest, and the
+ lounge is to the southeast.  A balcony to the south overlooks the
+ atrium.
+
+>go southwest
+ The Suites
+    This is the hallway just outside of the suites.A balcony to the
+ east overlooks the atrium.  The hallway near the staircase and the
+ entrance to the dining room is to the southeast.  The area outside of
+ the theater is to the northeast.
+
+>se
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go up
+ Pool Deck
+    Cots are ordered in neat rows near the pool.  Vacationers lounge
+ about idly on the cots.  The shallow end of the pool is to the north,
+ the main portion of the pool is to the northwest, and the diving well
+ is to the west.  To the southwest are the diving boards.  A flight of
+ stairs to the south leads downward.
+
+>examine cots
+ Cots are scattered about the pool deck.
+
+>examine vacationers
+ Which vacationers do you mean, the sunbathers, or the swimmers?
+
+>examine sunbathers
+ The sunbathers lie about idly on the cots, hoping to improve their
+ tans.
+
+>examine swimmers
+ They are moving around in the pool.
+
+>inventory
+ You have your clothes (being worn), a wallet, a room key, a roll of
+ toilet paper, a pair of goggles, an evil detector (being worn), and a
+ hint book.  Your wallet seems to contain some money.
+
+>go southwest
+ Base of the Diving Board
+    A ladder leads up ten feet to the top of the high diving board,
+ which extends over the diving well to the north.
+
+>jump
+ Boing.
+
+>go north
+ It would be unwise to go into the water wearing the clothes.
+ It would be unwise to get your wallet wet.
+ It would be ridiculous to take toilet paper into the pool.It would be
+ unwise to go into the water wearing the evil detector.
+ It would be unwise to get the hint book wet.
+
+>drop all
+ clothes:  It would be unwise to commit indecent exposure.
+ wallet:  Dropped.
+ room key:  Dropped.
+ roll of toilet paper:  Dropped.
+ goggles:  Dropped.
+ evil detector:  (Taking off the evil detector first)
+ Dropped.
+ hint book:  Dropped.
+
+>take all
+ wallet:  Taken.
+ room key:  Taken.
+ roll of toilet paper:  Taken.
+ goggles:  Taken.
+ evil detector:  Taken.
+ hint book:  Taken.
+
+>look
+ Base of the Diving Board
+    A ladder leads up ten feet to the top of the high diving board,
+ which extends over the diving well to the north.
+
+>wear evil
+ Okay, you're now wearing the evil detector.
+
+>examine detecor
+ I don't know the word "detecor".
+
+>examine detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 0.
+
+>look
+ Base of the Diving Board
+    A ladder leads up ten feet to the top of the high diving board,
+ which extends over the diving well to the north.
+
+>go northeast
+ Pool Deck
+    Cots are ordered in neat rows near the pool.  Vacationers lounge
+ about idly on the cots.  The shallow end of the pool is to the north,
+ the main portion of the pool is to the northwest, and the diving well
+ is to the west.  To the southwest are the diving boards.  A flight of
+ stairs to the south leads downward.
+
+>go down
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go down
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go south
+ Gift Shop
+    Miscellaneous merchandise for sale is on the shelves here.  A price
+ list is displayed on the counter, and behind the counter is the
+ cashier.  To the north is the grand hall.  The boarding area is to the
+ northwest.
+    Sitting on the shelves is some scuba gear, a fishing net, some
+ cottage cheese, a sharktooth bracelet, and a wooden box.
+
+>examine list
+
+        scuba gear - $2500
+        sharktooth bracelet - $10
+        fishing net - $5
+        cottage cheese - $2.98
+        wooden box - $1.29
+
+>examine gear
+ The self-contained underwater breathing apparatus consists of an air
+ tank, a breathing tube, and a face mask.
+
+ The cashier yawns.
+
+>examine box
+ The wooden box is about half the size of a shoebox.  It has a hinged
+ lid, which is closed.  In the lid is a small keyhole.
+
+ The cashier yawns.
+
+>open box
+ It's locked.
+
+>examine net
+ It is a long-handled mesh fishing net.
+
+>examine cheese
+ The cottage cheese is white and lumpy.
+
+>examine wallet
+ Your wallet contains some money.  Currently, your money amounts to
+ $50.92
+
+ The cashier yawns.
+
+>ask cashier about box
+    "It's a great buy for just 1.29."
+
+ The cashier scratches his nose.
+
+>examine bracelet
+ It's a bracelet made of shark teeth.
+
+>ask cashier about bracelet
+    "Pretty, isn't it?"
+
+>ask cashier about cheese
+    "You should try it.  It's very tasty."
+
+ The cashier scratches his nose.
+
+>SAVE
+>cf4
+ Saved.
+
+>examine counter
+ It's pink.
+
+>buy cheese
+ You buy the cottage cheese for $2.98.
+    The cashier rings it up and places it on the counter.  "Don't
+ forget to take it with you when you leave the store," he says.
+
+ The cashier yawns.
+
+>eat cheese
+ Yum!  Yum!
+
+    "If you're still hungry, we've got more cottage cheese in stock",
+ says the cashier.
+
+ The cashier scratches his nose.
+
+>undo
+ (Undoing one command)
+
+ Gift Shop
+    Miscellaneous merchandise for sale is on the shelves here.  A price
+ list is displayed on the counter, and behind the counter is the
+ cashier.  To the north is the grand hall.  The boarding area is to the
+ northwest.
+    Sitting on the counter is some cottage cheese.  Sitting on the
+ shelves is some scuba gear, a fishing net, a sharktooth bracelet, and
+ a wooden box.
+
+>inventory
+ You have your clothes (being worn), a wallet, a room key, a roll of
+ toilet paper, a pair of goggles, an evil detector (being worn), and a
+ hint book.  Your wallet seems to contain some money.
+
+>take cheese
+ Taken.
+
+ The cashier scratches his nose.
+
+>buy net
+ You buy the fishing net for $5.00.
+    The cashier rings it up and places it on the counter.  "Don't
+ forget to take it with you when you leave the store," he says.
+
+>take net
+ Taken.
+
+>buy bracelet
+ You buy the sharktooth bracelet for $10.00.
+    The cashier rings it up and places it on the counter.  "Don't
+ forget to take it with you when you leave the store," he says.
+
+ The cashier scratches his nose.
+
+>wear bracelet
+ (First taking the sharktooth bracelet)
+ Taken.  Okay, you're now wearing the sharktooth bracelet.
+
+>buy box
+ You buy the wooden box for $1.29.
+    The cashier rings it up and places it on the counter.  "Don't
+ forget to take it with you when you leave the store," he says.
+
+    The cashier says, "Oh, I almost forgot that the person who buys
+ that box is supposed to receive this key as a free gift."
+    He hands you a small wooden key.
+
+>open box
+ It's locked.
+
+ The cashier scratches his nose.
+
+>unlock box with wooden key
+ Unlocked.
+
+ The cashier scratches his nose.
+
+>open box
+ Opening the wooden box reveals an orange power crystal.
+
+>take crystal
+ Taken.
+
+ Your score just went up 15 points!
+
+
+>take box
+ You've already got your hands full.
+
+>examine detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 0.
+
+ The cashier yawns.
+
+>inventory
+ You have your clothes (being worn), a wallet, a room key, a roll of
+ toilet paper, a pair of goggles, an evil detector (being worn), a hint
+ book, some cottage cheese, a fishing net, a sharktooth bracelet (being
+ worn), a small wooden key, and an orange power crystal.  Your wallet
+ seems to contain some money.
+
+ The cashier scratches his nose.
+
+>drop key
+ Which key do you mean, the room key, or the small wooden key?
+
+>wooden
+ Dropped.
+
+>look
+ Gift Shop
+    Miscellaneous merchandise for sale is on the shelves here.  A price
+ list is displayed on the counter, and behind the counter is the
+ cashier.  To the north is the grand hall.  The boarding area is to the
+ northwest.
+    You see a small wooden key here.  Sitting on the counter is a
+ wooden box.  Sitting on the shelves is some scuba gear.
+
+ The cashier scratches his nose.
+
+>put crystal in box
+ Done.
+
+ The cashier yawns.
+
+>take box
+ Taken.
+
+>inventory
+ You have your clothes (being worn), a wallet, a room key, a roll of
+ toilet paper, a pair of goggles, an evil detector (being worn), a hint
+ book, some cottage cheese, a fishing net, a sharktooth bracelet (being
+ worn), and a wooden box.  Your wallet seems to contain some money.
+ The wooden box seems to contain an orange power crystal.
+
+ The cashier scratches his nose.
+
+>wear goggles
+ Okay, you're now wearing the goggles.
+
+ The cashier yawns.
+
+>ask cashier about scuba
+    "It never runs out of air; that's why it costs so much."
+
+ The cashier scratches his nose.
+
+>go northwest
+ Boarding Area
+    This is where the passengers embark and disembark.  The wall to the
+ west opens up when the ship comes to port.  The lobby is to the north,
+ the grand hall is to the east, and the gift shop is to the southeast.
+
+>go north
+ Lobby
+    This is the ship's lobby.  There is an information desk here,
+ behind which sits a clerk.  The sounds of laser guns and racecar
+ engines come from the arcade to the east, and a door to the north
+ leads to a restroom.  The lobby is to the south.
+    Sitting on the information desk is a sign, a ship information
+ pamphlet, and an itinerary pamphlet.
+    A clerk sits behind the information desk.
+
+ The clerk puts her left index finger inside of her right cheek and
+ then pulls it out, making a loud popping noise.
+
+>go north
+ (Opening the bathroom door)
+ Restroom
+    This is a unisex restroom.  A humble toilet occupies the corner.
+ "How different this world would be had Thomas Krapper never invented
+ this marvel of high-tech plumbing," you think.  There is also a sink
+ here.  The lobby is located through an open doorway to the south.
+    You see a roll of toilet paper here.  The toilet bowl seems to
+ contain some toilet water.
+
+>put toilet paper in toilet
+ Done.
+
+>flush toilet
+ Whoooosh
+    Some toilet water and a roll of toilet paper go down the drain, but
+ the toilet does not fill back up as usual.  Instead, it makes a
+ grotesque gurgling sound and remains nearly empty.
+
+ Your score just went up 9 points!
+
+
+>examine sink
+ It is an ordinary sink.  No water is coming out of the faucet.
+
+>go south
+ Lobby
+    This is the ship's lobby.  There is an information desk here,
+ behind which sits a clerk.  The sounds of laser guns and racecar
+ engines come from the arcade to the east, and a door to the north
+ leads to a restroom.  The lobby is to the south.
+    Sitting on the information desk is a sign, a ship information
+ pamphlet, and an itinerary pamphlet.
+    A clerk sits behind the information desk.
+
+ The clerk picks a large, slimy booger out of her nose and eats it,
+ then licks her lips.
+
+>go south
+ Boarding Area
+    This is where the passengers embark and disembark.  The wall to the
+ west opens up when the ship comes to port.  The lobby is to the north,
+ the grand hall is to the east, and the gift shop is to the southeast.
+
+>go east
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go down
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+
+>go down
+ You can't go that way.
+
+>go south
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+>go west
+ Southwest Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the north and east.
+
+>go north
+ West Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the north and south.
+
+>go north
+ Northwest Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and south.
+
+>go east
+ North Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and west.  To the south is a
+ maintenance closet.
+    The maitenance closet seems to contain a broom, a mop, and a purple
+ power crystal.
+    A muscular janitor stands in the doorway between the hallway and
+ the maintenance closet.  He is holding a plunger.
+
+ The janitor flexes his muscles.
+
+>tell janitor about toilet
+
+    "Are you trying to tell me that a toilet is clogged?"
+
+>yes
+
+    "Is it the toilet in your room?"
+
+>no
+
+    "Okay, then it must be the toilet north of the lobby."
+
+    "Before I go unclog it, I just want to verify that you're certain
+ the toilet to the north of the lobby is clogged up.  I must warn you
+ that I get really mad when people lie to me.  So, are you sure the
+ toilet is clogged?"
+
+>SAVE
+>cf5
+
+
+>yes
+
+ "Okay, I'll get right to work.  Don't go into the maintenance closet
+ while I'm gone."
+
+ The janitor goes off to the east.
+
+>look
+ North Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and west.  To the south is a
+ maintenance closet.
+    The maitenance closet seems to contain a broom, a mop, and a purple
+ power crystal.
+
+>go south
+ Maintenance Closet
+    This large walk-in closet is not decorated in any way.
+    You see a broom, a mop, and a purple power crystal here.
+
+>take crystal
+ Which crystal do you mean, the orange power crystal, or the purple
+ power crystal?
+
+>take purple crystal
+ Taken.
+
+ Your score just went up 15 points!
+
+
+>examine mop
+ It looks like an ordinary mop to me.
+
+>examine broom
+ It looks like an ordinary broom to me.
+
+>go south
+ You can't go that way.
+
+>go north
+ North Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and west.  To the south is a
+ maintenance closet.
+    The maitenance closet seems to contain a broom and a mop.
+
+>put purple crystal in box
+ Done.
+
+>take broom
+ You can't reach that from here.
+
+>go south
+ Maintenance Closet
+    This large walk-in closet is not decorated in any way.
+    You see a broom and a mop here.
+
+>take broom
+
+ Unfortunately for you, the janitor set up a security system that
+ causes his broom to electrocute anyone who touches it if their
+ fingerprints don't match his.  The electric shock is 10,000 volts,
+ which is more than enough to kill you.
+
+ *** You have died.  ***
+
+ In a total of 243 turns, you have achieved a score of 49 out of 90,
+ earning you the rank of Hero.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ Maintenance Closet
+    This large walk-in closet is not decorated in any way.
+    You see a broom and a mop here.
+
+>take mop
+
+ Unfortunately for you, the janitor set up a security system that
+ causes his mop to electrocute anyone who touches it if their
+ fingerprints don't match his.  The electric shock is 10,000 volts,
+ which is more than enough to kill you.
+
+ *** You have died.  ***
+
+ In a total of 243 turns, you have achieved a score of 49 out of 90,
+ earning you the rank of Hero.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ Maintenance Closet
+    This large walk-in closet is not decorated in any way.
+    You see a broom and a mop here.
+
+>go south
+ You can't go that way.
+
+>go north
+ North Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and west.  To the south is a
+ maintenance closet.
+    The maitenance closet seems to contain a broom and a mop.
+
+>examine detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 0.
+
+>look
+ North Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and west.  To the south is a
+ maintenance closet.
+    The maitenance closet seems to contain a broom and a mop.
+
+>go west
+ Northwest Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the east and south.
+
+>go south
+ West Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the north and south.
+
+>go south
+ Southwest Residential Hallway
+    You are standing in a rather ordinary hallway on the residential
+ deck of the ship.  To either side are doors leading to private rooms.
+ The hallway continues to the north and east.
+
+>go east
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+>go south
+ You'll have to open the door to your room first.
+
+>unlock door with key
+ Unlocked.
+
+>open door
+ Opened.
+
+>go south
+ Your Room
+    A comfortable-looking bed is against one wall, next to which is a
+ nightstand with a drawer.  Your bathroom is to the south.  An open
+ doorway to the north leads to the south residential hall.
+    You see a large suitcase here.  Sitting on the nightstand is a
+ note.  Your suitcase seems to contain your pajamas, a swimsuit, and
+ some laundry.
+
+>examine laundry
+ The laundry is your supply of clothing for the entire trip.
+
+>look in drawer
+ There's nothing in the nightstand drawer.
+
+>search laundry
+ You find nothing of interest.
+
+>wear swimsuit
+ You remove your clothes.
+ You drop them.
+ Dropped.
+ You put on the swimsuit.
+
+>wear goggles
+ You're already wearing the goggles!
+
+>go north
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+>go north
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+
+>go up
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go up
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go up
+ Pool Deck
+    Cots are ordered in neat rows near the pool.  Vacationers lounge
+ about idly on the cots.  The shallow end of the pool is to the north,
+ the main portion of the pool is to the northwest, and the diving well
+ is to the west.  To the southwest are the diving boards.  A flight of
+ stairs to the south leads downward.
+
+>go northwest
+ It would be unwise to get your wallet wet.
+ It would be unwise to go into the water wearing the evil detector.
+ It would be unwise to get the hint book wet.
+ It would be unwise to get the cottage cheese wet.
+ It would be unwise to get the wooden box wet.
+    Friday Evening
+
+ It's time for dinner.  You should go to the dining room soon.
+
+>drop all
+ wallet:  Dropped.
+ room key:  Dropped.
+ goggles:  (Taking off the goggles first)
+ Dropped.
+ evil detector:  (Taking off the evil detector first)
+ Dropped.
+ hint book:  Dropped.
+ cottage cheese:  Dropped.
+ fishing net:  Dropped.
+ sharktooth bracelet:  (Taking off the sharktooth bracelet first)
+ Dropped.
+ wooden box:  Dropped.
+ swimsuit:  It would be unwise to commit indecent exposure.
+
+>inventory
+ You have a swimsuit (being worn).
+
+>wear goggles
+ (First taking the goggles)
+ Taken.  Okay, you're now wearing the goggles.
+
+>go northwest
+ Main Pool Area
+    People swim all around you.  The water is four feet deep, deep
+ enough for you to easily swim around underwater.  The shallow end is
+ to the east, and the diving well is to the south.
+
+>go east
+ Shallow End
+    People swim and play.  The water is about two feet deep, just
+ barely deep enough for you to swim underwater.  The main pool area is
+ to the west, and the pool deck is to the south.
+
+ It's time for dinner.  You should go to the dining room soon.
+
+>go west
+ Main Pool Area
+    People swim all around you.  The water is four feet deep, deep
+ enough for you to easily swim around underwater.  The shallow end is
+ to the east, and the diving well is to the south.
+
+>go south
+ Diving Well
+    The diving well is so deep that you can't see the bottom.  The main
+ pool area is to the north, and the pool deck is to the east.  The high
+ diving board rises up ten feet from the deck to the south and extends
+ out above the diving well.
+
+>go down
+ You take a deep breath, preparing to go underwater.
+
+ Just Under the Surface of the Diving Well
+    The main pool area is to the north.  The diving well extends quite
+ some distance below you.
+
+>go down
+ Halfway Down the Diving Well
+    The diving well continues above you and below you.  At the bottom
+ of the diving well you see a vague apparition moving around.
+
+ You're starting to run low on air.
+
+>go up
+ Just Under the Surface of the Diving Well
+    The main pool area is to the north.  The diving well extends quite
+ some distance below you.
+
+ It's time for dinner.  You should go to the dining room soon.
+
+ You're running very low on air.
+
+>go up
+ You come to the surface and inhale deeply.
+
+ Aaaah, sweet oxygen!
+
+ Diving Well
+    The diving well is so deep that you can't see the bottom.  The main
+ pool area is to the north, and the pool deck is to the east.  The high
+ diving board rises up ten feet from the deck to the south and extends
+ out above the diving well.
+
+>go south
+ Base of the Diving Board
+    A ladder leads up ten feet to the top of the high diving board,
+ which extends over the diving well to the north.
+
+>go up
+ Top of the Diving Board
+    The diving board extends outward over the water to the north.  If
+ you don't want to take the plunge, you can go back down the ladder to
+ the south.
+
+>SAVE
+>cf6
+ Saved.
+
+>jump
+ Yahooo!
+
+ Just Under the Surface of the Diving Well
+    The main pool area is to the north.  The diving well extends quite
+ some distance below you.
+ Boing
+
+ You come to the surface and inhale deeply.
+
+ Diving Well
+    The diving well is so deep that you can't see the bottom.  The main
+ pool area is to the north, and the pool deck is to the east.  The high
+ diving board rises up ten feet from the deck to the south and extends
+ out above the diving well.
+ Boing.
+
+>go east
+ Pool Deck
+    Cots are ordered in neat rows near the pool.  Vacationers lounge
+ about idly on the cots.  The shallow end of the pool is to the north,
+ the main portion of the pool is to the northwest, and the diving well
+ is to the west.  To the southwest are the diving boards.  A flight of
+ stairs to the south leads downward.
+    You see a wallet, a room key, an evil detector, a hint book, some
+ cottage cheese, a fishing net, a sharktooth bracelet, and a wooden box
+ here.  Your wallet seems to contain some money.  The wooden box seems
+ to contain an orange power crystal and a purple power crystal.
+
+ If you don't hurry up and go to the dining room you'll be late for
+ dinner!
+
+>take all
+ wallet:  Taken.
+ room key:  Taken.
+ evil detector:  Taken.
+ hint book:  Taken.
+ cottage cheese:  Taken.
+ fishing net:  Taken.
+ sharktooth bracelet:  Taken.
+ wooden box:  Taken.
+
+>go down
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go down
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go down
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+
+>go south
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+ If you don't hurry up and go to the dining room you'll be late for
+ dinner!
+
+>go south
+ Your Room
+    A comfortable-looking bed is against one wall, next to which is a
+ nightstand with a drawer.  Your bathroom is to the south.  An open
+ doorway to the north leads to the south residential hall.
+    You see a large suitcase and your clothes here.  Sitting on the
+ nightstand is a note.  Your suitcase seems to contain your pajamas and
+ some laundry.
+
+>wear clothes
+ You remove your swimsuit.
+ You drop it.
+ Dropped.
+ You put on the clothes.
+
+>go north
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+>go north
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+
+>go up
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+ You have a nagging suspicion that something terrible will happen if
+ you don't get to the dining room and go to dinner posthaste!!
+
+>go up
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go south
+ Dining Room
+    Waiters come in and out of the kitchen to the south, serving the
+ diners at various tables.  Ornate chandeliers hang from the ceiling.
+ A large doorway to the north and smaller doorways to the northeast and
+ northwest lead to the stairway area.
+    The maître d' greets diners as they enter the dining room.
+
+ The maître d' says, "Sir, please go change into some more appropriate
+ attire.  You may not dine here dressed as you are.  Ask me about
+ eating when you're attired properly.  "
+
+>remove goggles
+ You could drop the goggles, but your hands are too full to carry them.
+
+ The maître d' eyes you suspiciously.
+
+>undo
+ (Undoing one command)
+
+ Dining Room
+    Waiters come in and out of the kitchen to the south, serving the
+ diners at various tables.  Ornate chandeliers hang from the ceiling.
+ A large doorway to the north and smaller doorways to the northeast and
+ northwest lead to the stairway area.
+    The maître d' greets diners as they enter the dining room.
+
+>drop book
+ Dropped.
+
+ The maître d' eyes you suspiciously.
+
+>remove goggles
+ Okay, you're no longer wearing the goggles.
+
+>ask maitre about eating
+
+    "Welcome to my restaurant," says the maître d'.
+    "Would you care for some dinner?"
+
+>yes
+ After eating a delectable dinner, you're on your way again.
+
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+    Friday Evening
+
+>SAVE
+>cf7
+ Saved.
+
+>take book
+ I don't see any book here.
+
+>go south
+ Dining Room
+    Waiters come in and out of the kitchen to the south, serving the
+ diners at various tables.  Ornate chandeliers hang from the ceiling.
+ A large doorway to the north and smaller doorways to the northeast and
+ northwest lead to the stairway area.
+    You see a hint book here.
+    The maître d' greets diners as they enter the dining room.
+
+ "You've already eaten dinner tonight, sir."  says the maître d'.
+ "Please return tomorrow."
+
+>take book
+ You've already got your hands full.
+
+ The maître d' looks around the room.
+
+>wear goggles
+ Okay, you're now wearing the goggles.
+
+ The maître d' says to you, " Sir, I request you leave the dining room
+ and not return until you are properly attired."
+
+>take book
+ Taken.
+
+ The maître d' says to you, " Sir, I request you leave the dining room
+ and not return until you are properly attired."
+
+>wait
+ Time passes...
+
+ The ma�tre d' greets some guests.
+
+>inventory
+ You have a pair of goggles (being worn), a wallet, a room key, an evil
+ detector, some cottage cheese, a fishing net, a sharktooth bracelet, a
+ wooden box, your clothes (being worn), and a hint book.  Your wallet
+ seems to contain some money.  The wooden box seems to contain an
+ orange power crystal and a purple power crystal.
+
+ The maître d' eyes you suspiciously.
+
+>wear bracelet
+ Okay, you're now wearing the sharktooth bracelet.
+
+ The maître d' greets some guests.
+
+>put cheese in box
+ You can't fit that in the wooden box.
+
+ The maître d' eyes you suspiciously.
+
+>put wallet in box
+ Done.
+
+ The maître d' says to you, " Sir, I request you leave the dining room
+ and not return until you are properly attired."
+
+>put room key in box
+ Done.
+
+ The maître d' eyes you suspiciously.
+
+>wear evil
+ Okay, you're now wearing the evil detector.
+
+ The maître d' greets some guests.
+
+>inventory
+ You have a pair of goggles (being worn), an evil detector (being
+ worn), some cottage cheese, a fishing net, a sharktooth bracelet
+ (being worn), a wooden box, your clothes (being worn), and a hint
+ book.  The wooden box seems to contain an orange power crystal, a
+ purple power crystal, a wallet, and a room key.
+
+ The maître d' eyes you suspiciously.
+
+>look
+ Dining Room
+    Waiters come in and out of the kitchen to the south, serving the
+ diners at various tables.  Ornate chandeliers hang from the ceiling.
+ A large doorway to the north and smaller doorways to the northeast and
+ northwest lead to the stairway area.
+    The maître d' greets diners as they enter the dining room.
+
+ The maître d' says to you, " Sir, I request you leave the dining room
+ and not return until you are properly attired."
+
+>examine chandeliers
+ The crystal chandeliers are very beautiful.
+
+ The maître d' greets some guests.
+
+>examine waiters
+ They are busily serving diners.
+
+ The maître d' eyes you suspiciously.
+
+>go northeast
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go northwest
+ The Suites
+    This is the hallway just outside of the suites.A balcony to the
+ east overlooks the atrium.  The hallway near the staircase and the
+ entrance to the dining room is to the southeast.  The area outside of
+ the theater is to the northeast.
+
+>go northeast
+ Outside of the Theater
+    This is the hallway just outside the theater.  A door to the north
+ leads into to the theater.  The suites are to the southwest, and the
+ lounge is to the southeast.  A balcony to the south overlooks the
+ atrium.
+
+>go north
+ (Opening the theater door)
+ You enter the theater and sit down with the rest of the audience.  The
+ door swings closed behind you.
+
+ Theater
+    You are sitting on a chair in the theater.  A comedian is telling
+ jokes on the stage.
+
+    The comedian says:
+
+    How many gorillas does it take to screw in a light bulb?
+    Just one, but it takes a whole lot of light bulbs.
+
+ The audience laughs hysterically.
+
+>go north
+ You're not going anywhere until you get out of the chair.
+
+    The comedian says:
+
+    What's big, red, and eats rocks?
+    A big, red rock eater.
+
+ The audience laughs hysterically.
+
+>stand
+ Okay, you're no longer in the chair.  You leave the theater.  The door
+ swings closed behind you.
+
+ Outside of the Theater
+    This is the hallway just outside the theater.  A door to the north
+ leads into to the theater.  The suites are to the southwest, and the
+ lounge is to the southeast.  A balcony to the south overlooks the
+ atrium.
+
+>go north
+ (Opening the theater door)
+ You enter the theater and sit down with the rest of the audience.  The
+ door swings closed behind you.
+
+ Theater
+    You are sitting on a chair in the theater.  A comedian is telling
+ jokes on the stage.
+
+    The comedian says:
+
+    A pig walks into a bar and orders a beer.  He drinks it, and then
+ he asks the bartender where the bathroom is.  The bartender tells him.
+ Then the pig uses the bathroom and leaves.
+    Another pig walks into the bar and orders two beers.  He drinks
+ them, and then he asks the bartender where the bathroom is.  The
+ bartender tells him.  Then the pig uses the bathroom and leaves.
+    Another pig walks into the bar and orders three beers.  He drinks
+ them, and then he asks the bartender where the bathroom is.  The
+ bartender tells him.  Then the pig uses the bathroom and leaves.
+    Another pig walks into the bar and orders four beers.  He drinks
+ them, and then he asks the bartender where the bathroom is.  The
+ bartender tells him.  Then the pig uses the bathroom and leaves.
+    Another pig walks into the bar and orders five beers.  He drinks
+ them and starts to head out the door.  The bartender says, "Aren't you
+ going to ask me where the bathroom is?"
+    "No," says the pig.  "I'm the one who goes wee-wee-wee-wee-wee all
+ the way home.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    Where does a 700 pound gorilla sit?
+    Wherever he wants.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    Why was the blonde proud when she finished the 25-piece jigsaw
+ puzzle in 8 months?
+    The box said 2-4 years.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    How many Carl Sagans does it take to screw in a lightbulb?
+    Billions and billions.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    What's black and white and red all over?
+    A sunburned zebra.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    What else is black and white and red all over?
+    A newspaper.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    What else is black and white and red all over?
+    Two nuns in a chainsaw fight.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    What's the difference between a truckload of babies and a truckload
+ of bowling balls?
+    You can't unload the bowling balls with a pitchfork .  .  .
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    A lawyer parks his Mercedes at the side of the road.  When he opens
+ his door, a passing car runs into it, breaking it off.  He calls the
+ police.  When the police get there, the lawyer says, "Some idiot
+ rammed into the door of my Mercedes and then drove away!"
+    "Sir, I'm terribly sorry about your car, but aren't you more
+ concerned about the fact that the accident also severed your arm?"
+    "Omigosh!  What happened to my Rolex?"
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    Why did the rooster cross the road?
+    To prove he was no chicken.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    Three nuns die and ascend to heaven.  When they get up to the
+ pearly gates, St.  Peter says, "I'm sorry, sisters, but it's getting
+ awfully crowded up here. So we've instituted a new policy.  In order
+ to get in, you have to answer a question about the bible."
+    To the first nun he says, "Your question is:  What was the first
+ man named?"
+    "That's an easy one," she replies.  "He was Adam."
+    Bells ring, the gates open, and the first nun walks into heaven.
+    To the second nun he says, "Your question is:  What was the first
+ woman named?"
+    "That's an easy one," she replies.  "She was Eve."
+    Bells ring, the gates open, and the second nun walks into heaven.
+    To the third nun he says, "Your question is:  What was the first
+ thing Eve said to Adam?"
+    The nun scratches her head.  "Hmm .  .  .  That's a hard one."
+    Bells ring, the gates open, and the third nun walks into heaven."
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    How do you make an elephant float?
+    In a very tall glass, mix 1000 gallons of root beer, 10,000 scoops
+ of ice cream, and one elephant.
+
+ The audience laughs hysterically.
+
+>throw book at comedian
+ You can't reach that from the chair.
+
+>look under chair
+ There's nothing under the chair.
+
+    The comedian says:
+
+    Why do elephants paint their toenails red?
+    So they can hide in the cherry trees.
+    You've never seen an elephant in a cherry tree?
+    Well, their disguise must be really effective.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    What has four wheels and flies?
+    A garbage truck.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    Why do vultures like to ride on airplanes?
+    Because of all the carry-on.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    What do you call a man with no arms and no legs who's at your front
+ door?
+    Matt.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    What do you call a man with no arms and no legs who's trying to
+ swim?
+    Bob.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    What do you call a man with no arms and no legs who's hanging on
+ your wall?
+    Art.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    How many mystery writers does it take to screw in a light bulb?
+    Two - one to screw it in most of the way, and the other to give it
+ a surprising twist at the end.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    How many gorillas does it take to screw in a light bulb?
+    Just one, but it takes a whole lot of light bulbs.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    What's big, red, and eats rocks?
+    A big, red rock eater.
+
+ The audience laughs hysterically.
+
+>wait
+ Time passes...
+
+    The comedian says:
+
+    Three men walk into a bar.  The fourth ducks.
+
+ The audience laughs hysterically.
+
+>go south
+ You get up and leave the theater.  The door swings closed behind you.
+
+ Outside of the Theater
+    This is the hallway just outside the theater.  A door to the north
+ leads into to the theater.  The suites are to the southwest, and the
+ lounge is to the southeast.  A balcony to the south overlooks the
+ atrium.
+
+ You have a pair of goggles (being worn), an evil detector (being
+ worn), some cottage cheese, a fishing net, a sharktooth bracelet
+ (being worn), a wooden box, your clothes (being worn), and a hint
+ book.  The wooden box seems to contain an orange power crystal, a
+ purple power crystal, a wallet, and a room key.
+
+>examine evil detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 0.
+
+>look
+ Outside of the Theater
+    This is the hallway just outside the theater.  A door to the north
+ leads into to the theater.  The suites are to the southwest, and the
+ lounge is to the southeast.  A balcony to the south overlooks the
+ atrium.
+
+>go southwest
+ The Suites
+    This is the hallway just outside of the suites.A balcony to the
+ east overlooks the atrium.  The hallway near the staircase and the
+ entrance to the dining room is to the southeast.  The area outside of
+ the theater is to the northeast.
+
+>go down
+ You can't go that way.
+
+>se
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go down
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go northeast
+ Casino
+    This is the ship's casino, where dozens of vacationers go every day
+ to get rid of their excess money.  The casino's designers apparently
+ didn't care much for variety.  No blackjack, poker, or craps tables
+ are here.  There isn't a roulette wheel either.  There are, however,
+ slot machines, and lots of them.  However, only one of them is
+ currently open.  Due to the huge crowd of people in the casino, you
+ can't even get close enough to the other machines to get a good look
+ at them.  The arcade is to the west, the bar is to the south, and the
+ grand hall is to the southwest.
+
+>examine slot machine
+ The slot machine is bright yellow with a red handle.  A purple dial
+ sticks out from the side of the machine.  A notice is posted on the
+ machine.
+
+>examine notice
+ This notice appears to be the instructions for using the slot machine.
+
+>read it
+ You must match all three slots to win a prize.  Each slot has an equal
+ probability of showing a cherry, an orange, a banana, a dollar sign,
+ or a jackpot symbol.  This is a special slot machine.  You can choose
+ how much many cents you want to wager by turning the dial to any
+ number 1 through 100.
+
+
+                    PAYOFFS
+                cherries .  .  .  .  .  .  .  .  x2
+                oranges .  .  .  .  .  .  .  .  x3
+                bananas .  .  .  .  .  .  .  .  x5
+                $$$ .  .  .  .  .  .  .  .  .  .  x10
+                jackpot .  .  .  .  .  .  .  .  x100
+
+
+>examine dial
+ The dial can be turned to settings numbered from 1 to 100.  It's
+ currently set to 25.
+
+>look behind slot machine
+ There's nothing behind the slot machine.
+
+>look under slot machine
+ There's nothing under the slot machine.
+
+>SAVE
+>cf8
+ Saved.
+
+>pull lever
+ You can't do anything that requires money if you aren't carrying your
+ wallet.
+
+>inventory
+ You have a pair of goggles (being worn), an evil detector (being
+ worn), some cottage cheese, a fishing net, a sharktooth bracelet
+ (being worn), a wooden box, your clothes (being worn), and a hint
+ book.  The wooden box seems to contain an orange power crystal, a
+ purple power crystal, a wallet, and a room key.
+
+>turn dial to 100
+ Okay, it's now turned to 100.
+
+>get wallet
+ Taken.
+
+>pull lever
+ You put $1.00 into the machine and pull the handle.  The slots whir
+ and then slowly come to a stop one by one.
+
+ jackpot .  .  .  .  jackpot .  .  .  .  banana
+
+ Sorry, you lose :(
+
+>again
+ You put $1.00 into the machine and pull the handle.  The slots whir
+ and then slowly come to a stop one by one.
+
+ orange .  .  .  .  $$$ .  .  .  .  orange
+
+ Sorry, you lose :(
+
+>kick machine
+ I don't know the word "kick".
+
+>hit machine
+ What do you want to attack it with?
+
+>turn dial to 1
+ Okay, it's now turned to 1.
+
+>pull lever
+ You put 1 cent into the machine and pull the handle.  The slots whir
+ and then slowly come to a stop one by one.
+
+ jackpot .  .  .  .  cherry .  .  .  .  jackpot
+
+ Sorry, you lose :(
+
+>again
+ You put 1 cent into the machine and pull the handle.  The slots whir
+ and then slowly come to a stop one by one.
+
+ orange .  .  .  .  $$$ .  .  .  .  banana
+
+ Sorry, you lose :(
+
+>again
+ You put 1 cent into the machine and pull the handle.  The slots whir
+ and then slowly come to a stop one by one.
+
+ jackpot .  .  .  .  jackpot .  .  .  .  orange
+
+ Sorry, you lose :(
+
+>again
+ You put 1 cent into the machine and pull the handle.  The slots whir
+ and then slowly come to a stop one by one.
+
+ cherry .  .  .  .  orange .  .  .  .  cherry
+
+ Sorry, you lose :(
+
+>again
+ You put 1 cent into the machine and pull the handle.  The slots whir
+ and then slowly come to a stop one by one.
+
+ orange .  .  .  .  cherry .  .  .  .  cherry
+
+ Sorry, you lose :(
+
+>turn dial to 0
+ There's no such setting!
+
+>inventory
+ You have a pair of goggles (being worn), an evil detector (being
+ worn), some cottage cheese, a fishing net, a sharktooth bracelet
+ (being worn), a wooden box, your clothes (being worn), a hint book,
+ and a wallet.  The wooden box seems to contain an orange power
+ crystal, a purple power crystal, and a room key.  Your wallet seems to
+ contain some money.
+
+>read book
+
+ Welcome to the hint book.  The hints on each topic start out vague and
+ get progressively more specific.  Press a number key to view the next
+ hint in that topic, or press any other key to exit.  More hint topics
+ will become available as you progress through the game.
+
+ Hints are available on the following topics:
+
+ 1.  I don't have enough money.
+ 2.  Obtaining the green crystal
+
+
+ exiting hint book .  .  .
+
+>examine slot
+ The slot machine is bright yellow with a red handle.  A purple dial
+ sticks out from the side of the machine.  A notice is posted on the
+ machine.
+
+>examine notice
+ This notice appears to be the instructions for using the slot machine.
+
+>read notice
+ You must match all three slots to win a prize.  Each slot has an equal
+ probability of showing a cherry, an orange, a banana, a dollar sign,
+ or a jackpot symbol.  This is a special slot machine.  You can choose
+ how much many cents you want to wager by turning the dial to any
+ number 1 through 100.
+
+
+                    PAYOFFS
+                cherries .  .  .  .  .  .  .  .  x2
+                oranges .  .  .  .  .  .  .  .  x3
+                bananas .  .  .  .  .  .  .  .  x5
+                $$$ .  .  .  .  .  .  .  .  .  .  x10
+                jackpot .  .  .  .  .  .  .  .  x100
+
+
+>examine dial
+ The dial can be turned to settings numbered from 1 to 100.  It's
+ currently set to 1.
+
+>turn dial to 101.
+ There's no such setting!
+
+>turn slot
+ Turning the slot machine doesn't have any effect.
+
+>turn reel
+ I don't know the word "reel".
+
+>turn wheel
+ I don't know the word "wheel".
+
+>nudge slot
+ I don't know the word "nudge".
+
+>look
+ Casino
+    This is the ship's casino, where dozens of vacationers go every day
+ to get rid of their excess money.  The casino's designers apparently
+ didn't care much for variety.  No blackjack, poker, or craps tables
+ are here.  There isn't a roulette wheel either.  There are, however,
+ slot machines, and lots of them.  However, only one of them is
+ currently open.  Due to the huge crowd of people in the casino, you
+ can't even get close enough to the other machines to get a good look
+ at them.  The arcade is to the west, the bar is to the south, and the
+ grand hall is to the southwest.
+
+>go southwest
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go down
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+
+>go south
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+>go south
+ Your Room
+    A comfortable-looking bed is against one wall, next to which is a
+ nightstand with a drawer.  Your bathroom is to the south.  An open
+ doorway to the north leads to the south residential hall.
+    You see a large suitcase and a swimsuit here.  Sitting on the
+ nightstand is a note.  Your suitcase seems to contain your pajamas and
+ some laundry.
+
+>wear swimsuit
+ You remove your clothes.
+ You drop them.
+ Dropped.
+ You put on the swimsuit.
+
+>inventory
+ You have a pair of goggles (being worn), an evil detector (being
+ worn), some cottage cheese, a fishing net, a sharktooth bracelet
+ (being worn), a wooden box, a hint book, a wallet, and a swimsuit
+ (being worn).  The wooden box seems to contain an orange power
+ crystal, a purple power crystal, and a room key.  Your wallet seems to
+ contain some money.
+
+>go north
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+>close door
+ Closed.
+
+>go north
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+
+>go up
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+
+>go up
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+>go up
+ Pool Deck
+    Cots are ordered in neat rows near the pool.  Vacationers lounge
+ about idly on the cots.  The shallow end of the pool is to the north,
+ the main portion of the pool is to the northwest, and the diving well
+ is to the west.  To the southwest are the diving boards.  A flight of
+ stairs to the south leads downward.
+
+>drop all
+ goggles:  (Taking off the goggles first)
+ Dropped.
+ evil detector:  (Taking off the evil detector first)
+ Dropped.
+ cottage cheese:  Dropped.
+ fishing net:  Dropped.
+ sharktooth bracelet:  (Taking off the sharktooth bracelet first)
+ Dropped.
+ wooden box:  Dropped.
+ hint book:  Dropped.
+ wallet:  Dropped.
+ swimsuit:  It would be unwise to commit indecent exposure.
+
+>wear goggles
+ (First taking the goggles)
+ Taken.  Okay, you're now wearing the goggles.
+
+>inventory
+ You have a swimsuit (being worn) and a pair of goggles (being worn).
+
+>go southwest
+ Base of the Diving Board
+    A ladder leads up ten feet to the top of the high diving board,
+ which extends over the diving well to the north.
+
+>go up
+ Top of the Diving Board
+    The diving board extends outward over the water to the north.  If
+ you don't want to take the plunge, you can go back down the ladder to
+ the south.
+
+>SAVE
+>cf9
+ Saved.
+
+>dive
+ (the diving board)
+ You dive deep down into the diving well.
+
+ Halfway Down the Diving Well
+    The diving well continues above you and below you.  At the bottom
+ of the diving well you see a vague apparition moving around.
+
+>go down
+ Bottom of the Diving Well
+    You've made it all the way down to the bottom of the diving well.
+ The water pressure makes your ears uncomfortable.A red fish darts
+ about here.
+    You see a green power crystal here.
+
+ It's time for bed.  You should go to your room soon.
+
+ You're starting to run low on air.x
+
+>take crystal
+ Taken.
+
+ Your score just went up 15 points!
+
+
+ You're running very low on air.x
+
+>go up
+ Halfway Down the Diving Well
+    The diving well continues above you and below you.  At the bottom
+ of the diving well you see a vague apparition moving around.
+
+ If you don't get some air soon, you'll pass out.x
+
+>go up
+ Just Under the Surface of the Diving Well
+    The main pool area is to the north.  The diving well extends quite
+ some distance below you.
+
+ If you don't get some air immediately, you'll pass out.x
+
+>go up
+ You come to the surface and inhale deeply.
+
+ Aaaah, sweet oxygen!
+
+ If you'd gone without it any longer, you would have drowned.
+
+ Diving Well
+    The diving well is so deep that you can't see the bottom.  The main
+ pool area is to the north, and the pool deck is to the east.  The high
+ diving board rises up ten feet from the deck to the south and extends
+ out above the diving well.
+ x
+
+>go east
+ Pool Deck
+    Cots are ordered in neat rows near the pool.  Vacationers lounge
+ about idly on the cots.  The shallow end of the pool is to the north,
+ the main portion of the pool is to the northwest, and the diving well
+ is to the west.  To the southwest are the diving boards.  A flight of
+ stairs to the south leads downward.
+    You see an evil detector, some cottage cheese, a fishing net, a
+ sharktooth bracelet, a wooden box, a hint book, and a wallet here.
+ The wooden box seems to contain an orange power crystal, a purple
+ power crystal, and a room key.  Your wallet seems to contain some
+ money.
+
+ It's time for bed.  You should go to your room soon.  x
+
+>take all
+ evil detector:  Taken.
+ cottage cheese:  Taken.
+ fishing net:  Taken.
+ sharktooth bracelet:  Taken.
+ wooden box:  Taken.
+ hint book:  You've already got your hands full.
+ wallet:  Taken.  x
+
+>put green crystal in box
+ You can't fit that in the wooden box.  x
+
+>wear bracelet
+ Okay, you're now wearing the sharktooth bracelet.  x
+
+>take book
+ Taken.  x
+
+>look
+ Pool Deck
+    Cots are ordered in neat rows near the pool.  Vacationers lounge
+ about idly on the cots.  The shallow end of the pool is to the north,
+ the main portion of the pool is to the northwest, and the diving well
+ is to the west.  To the southwest are the diving boards.  A flight of
+ stairs to the south leads downward.
+
+ It's time for bed.  You should go to your room soon.  x
+
+>examine detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 0.x
+
+>go down
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+ x
+
+>go down
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+ x
+
+>go down
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+ x
+
+>go south
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+
+ If you don't hurry up and go to your room you'll be late for bed!  x
+
+>open door
+ Opened.  x
+
+>go south
+ Your Room
+    A comfortable-looking bed is against one wall, next to which is a
+ nightstand with a drawer.  Your bathroom is to the south.  An open
+ doorway to the north leads to the south residential hall.
+    You see a large suitcase and your clothes here.  Sitting on the
+ nightstand is a note.  Your suitcase seems to contain your pajamas and
+ some laundry.
+ x
+
+>wear pajamas
+ You remove your swimsuit.
+ You drop it.
+ Dropped.
+ You put on the pajamas.x
+
+>sleep
+ You'd rather sleep in your bed.x
+
+>enter bed
+ Okay, you're now lying on the bed.
+
+ If you don't hurry up and go to your room you'll be late for bed!  x
+
+>sleep
+ You enjoy a peaceful sleep.  The next morning, you wake up refreshed
+ and change into some fresh clothes.
+
+ Your Room
+    A comfortable-looking bed is against one wall, next to which is a
+ nightstand with a drawer.  Your bathroom is to the south.  An open
+ doorway to the north leads to the south residential hall.
+    You see a large suitcase, a swimsuit, and your pajamas here.
+ Sitting on the nightstand is a note.  Your suitcase seems to contain
+ some laundry.
+    Saturday Early Morning x
+
+>SAVE
+>cf10
+ Saved.
+
+>examine note
+ Welcome to The Rhinoceros .  We hope you enjoy your stay.
+                                - The Crewx
+
+>examine detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 0.x
+
+>inventory
+ You have a pair of goggles (being worn), a green power crystal, an
+ evil detector, some cottage cheese, a fishing net, a sharktooth
+ bracelet (being worn), a wooden box, a wallet, a hint book, and your
+ clothes (being worn).  The wooden box seems to contain an orange power
+ crystal, a purple power crystal, and a room key.  Your wallet seems to
+ contain some money.  x
+
+>drop goggles
+ (Taking off the goggles first)
+ Dropped.  x
+
+>drop net
+ Dropped.  x
+
+>take orange
+ Which orange do you mean, the orange power crystal, or your suitcase?
+
+>take orange crystal
+ Taken.  x
+
+>take purple crystal
+ Taken.  x
+
+>inventory
+ You have a green power crystal, an evil detector, some cottage cheese,
+ a sharktooth bracelet (being worn), a wooden box, a wallet, a hint
+ book, your clothes (being worn), an orange power crystal, and a purple
+ power crystal.  The wooden box seems to contain a room key.  Your
+ wallet seems to contain some money.  x
+
+>wear evil
+ Okay, you're now wearing the evil detector.    Saturday Morning
+
+ It's time for breakfast.  You should go to the dining room soon.  x
+
+>drop box
+ Dropped.  x
+
+>inventory
+ You have a green power crystal, an evil detector (being worn), some
+ cottage cheese, a sharktooth bracelet (being worn), a wallet, a hint
+ book, your clothes (being worn), an orange power crystal, and a purple
+ power crystal.  Your wallet seems to contain some money.  x
+
+>look
+ Your Room
+    A comfortable-looking bed is against one wall, next to which is a
+ nightstand with a drawer.  Your bathroom is to the south.  An open
+ doorway to the north leads to the south residential hall.
+    You see a large suitcase, a swimsuit, your pajamas, a pair of
+ goggles, a fishing net, and a wooden box here.  Sitting on the
+ nightstand is a note.  Your suitcase seems to contain some laundry.
+ The wooden box seems to contain a room key.
+ x
+
+>SAVE
+>cf11
+ Saved.
+
+>go south
+ Your Bathroom
+    The bathroom is equipped with the standard facilities:  a toilet,
+ shower, and a sink.
+    The toilet bowl seems to contain some toilet water.
+ x
+
+>put cheese in toilet
+ You might want to use that for something else later, and you wouldn't
+ want to have to fish it out of the toilet.
+
+ It's time for breakfast.  You should go to the dining room soon.  x
+
+>go north
+ Your Room
+    A comfortable-looking bed is against one wall, next to which is a
+ nightstand with a drawer.  Your bathroom is to the south.  An open
+ doorway to the north leads to the south residential hall.
+    You see a large suitcase, a swimsuit, your pajamas, a pair of
+ goggles, a fishing net, and a wooden box here.  Sitting on the
+ nightstand is a note.  Your suitcase seems to contain some laundry.
+ The wooden box seems to contain a room key.
+ x
+
+>go north
+ South Residential Hallway
+    The hall continues to the east and west.  To the south is the door
+ to your room.  The stairway area is to the north.
+ x
+
+>go north
+ Stairway Area ( deck 1 )
+    A flight of stairs leads upwards to the second deck.  The
+ residential hallway is to the south.
+ x
+
+>go up
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+ x
+
+>go up
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+
+ It's time for breakfast.  You should go to the dining room soon.  x
+
+>go south
+ Dining Room
+    Waiters come in and out of the kitchen to the south, serving the
+ diners at various tables.  Ornate chandeliers hang from the ceiling.
+ A large doorway to the north and smaller doorways to the northeast and
+ northwest lead to the stairway area.
+    The maître d' greets diners as they enter the dining room.
+
+    "Welcome to my restaurant," says the maître d'.
+    "Would you care for some breakfast?"
+
+>yes
+ After eating a delicious breakfast, you're on your way again.
+
+ The ship's captain announces over a loudspeaker that the ship has
+ arrived at Paradise Island.
+
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+    Saturday Morning x
+
+>examine detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 1.x
+
+>examine detector
+ The evil detector looks similar to a digital wristwatch.  However,
+ instead of telling you the time, it tells you how much evil power the
+ evil wizard has absorbed.  If it gets up to 275, the evil wizard can
+ break free and take over the world.  Currently, it reads 2.x
+
+>SAVE
+>cf12
+ Saved.
+
+>fw
+ I don't know the word "fw".
+
+>go northwest
+ The Suites
+    This is the hallway just outside of the suites.The whole hallway
+ glows with a pink aura.  A balcony to the east overlooks the atrium.
+ The hallway near the staircase and the entrance to the dining room is
+ to the southeast.  The area outside of the theater is to the
+ northeast.
+ x
+
+>go northeast
+ Outside of the Theater
+    This is the hallway just outside the theater.  A door to the north
+ leads into to the theater.  The suites are to the southwest, and the
+ lounge is to the southeast.  A balcony to the south overlooks the
+ atrium.
+ x
+
+>go north
+ (Opening the theater door)
+ You enter the theater and sit down with the rest of the audience.  The
+ door swings closed behind you.
+
+ Theater
+    You are sitting on a chair in the theater.  A comedian is telling
+ jokes on the stage.
+
+    The comedian says:
+
+    How many gorillas does it take to screw in a light bulb?
+    Just one, but it takes a whole lot of light bulbs.
+
+ The audience laughs hysterically.x
+
+>examine stage
+ I don't know the word "stage".
+
+>go south
+ You get up and leave the theater.  The door swings closed behind you.
+
+ Outside of the Theater
+    This is the hallway just outside the theater.  A door to the north
+ leads into to the theater.  The suites are to the southwest, and the
+ lounge is to the southeast.  A balcony to the south overlooks the
+ atrium.
+ x
+
+>se
+ Lounge
+    Several comfortable chairs and sofas are scattered about the room.
+ A young man sits on a black leather armchair, looking contemplatively
+ out the window that covers the entire eastern wall of the lounge.
+ Next to the man is a small table.  A small entryway to the south leads
+ to the dining room.  The hallway outside of the theater is to the
+ northwest.  To the west is a balcony overlooking the atrium.  The
+ hallway near staircase and the entrance to the dining room is to the
+ southwest.
+ x
+
+>go southwest
+ Stairway Area ( deck 3 )
+    The grand staircase leads downward through the atrium to the grand
+ hall; a smaller staircase leads up to the pool deck.  Comfortable
+ sofas and chairs occupy the lounge to the northeast, and the main
+ entrance to the dining room is to the south.  Smaller entryways to the
+ southeast and southwest also lead to the dining room.  A hallway
+ outside the suites is to the northwest.  A balcony to the north
+ overlooks the atrium.
+ x
+
+>go down
+ Grand Hall
+    Exotic tropical trees extend above you into the atrium.  A colorful
+ painting decorates the distant ceiling.  A lush red carpet blankets
+ the floor.  A stairway with ornately carved railings extends upwards
+ along the side the atrium to the third deck.  A smaller stairway leads
+ down to the first deck.
+
+    Almost all portions of the second deck can be accessed from here.
+ A corridor to the east leads to the bar.  The video arcade is to the
+ north, the casino is to the northeast, the gift shop is to the south,
+ the boarding area is to the west, and the lobby is to the northwest.
+ x

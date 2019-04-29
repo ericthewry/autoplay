@@ -1,0 +1,2659 @@
+>load aotyrz
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Attack of the Yeti Robot Zombies
+ This is a try-to-win-on-the-first-attempt game. The point of the game
+ is to try to win on the first attempt. Or, failing that, to win in as
+ few attempts as possible. You are not supposed to use "undo" or
+ "restore" if things are going badly. (Though it is OK to use "save"
+ and then later "restore" if you have to leave the game for a while.
+ And it is OK to save the game as often as you like.)
+ Get it? Yes or no?
+
+>say no
+>no
+
+ Ok, I will give an example. Say you are playing a game where you start
+ in a burning building. If this were a normal game maybe you would want
+ to search the building. Maybe you would find things. If you died you
+ could just restart. But if you where playing a
+ try-to-win-on-the-first-attempt game, you would probably want to run
+ out, otherwise you might burn and die and then you would probably not
+ win on the first attempt.
+ Now do you understand? Yes or no?
+
+>no
+
+ Well I give up. Just play the game.
+
+ Norway 1994. The country is overrun by yeti robot zombies! Death tolls
+ are high. The cities are particularly strongly infested, and many
+ people have fled to more desolate places. You too have escaped from a
+ city, and have traveled to your cabin in Jotunheimen.
+
+ If you are unfamiliar with interactive fiction, type HELP.
+ Those who care can type CREDITS.
+ Examine, look at, look inside, look under, look behind, look
+ look, inventory and read.
+ No time passes when you use "look" or "inventory".
+ You communicate by "talk to [whatever]".
+ Should you wish to re-read the above information during the game, type
+ ABOUT.
+
+ Release 0 / Serial number 060825 / Inform v6.30 Library 6/11 S
+
+ Outside your cabin
+ High up in Jotunheimen, on a path going west (where you came from) and
+ east. To the north of you is your cabin, to the south a long drop.
+ Behind your cabin is a steep tall mountain wall. The door to your
+ cabin is gone. Bullet holes show it has been shot away. It must have
+ been done by humans; yeti robot zombies don't carry guns.
+
+>help
+ In interactive fiction games you type in commands to make your
+ character do what you want. Commands can be things like:
+ jump
+ get sledgehammer
+ get sledgehammer and banana
+ get all
+ drop everything except sledgehammer
+ put sledgehammer in box
+ put sledgehammer on table
+ get all from table
+ hit banana with sledgehammer
+ give banana to bob
+ throw banana at bob
+ eat banana
+ kill bob
+ buy banana
+ read sign
+ open door
+ close door
+ unlock door with key
+ lock door with key
+ push rock
+ push rock north
+ pull rope
+ enter car
+ leave car
+ wear hat
+ remove hat
+ touch hat
+ sit on chair
+ stand
+
+ You should try to type your commands as simply as possible. Don't
+ type: I sure would like to pick up that nice looking piece of fruit
+ that I see lying here before me. The game won't understand that. Type
+ instead: get fruit.
+
+ If you want to have a look around, type: look. Or simply: l.
+
+ If you want to have a look at what things you are carrying, type:
+ inventory. Or simply: i.
+
+ If you want to talk to another character, for instance Bob, type: talk
+ to bob. Or simply: talk bob. Or simply: t bob.
+
+ To move around, type in the direction you wish to go. To go north for
+ instance, type: north. Or simply: n. Most games uses the directions
+ north, south, east, west, northeast, northwest, southeast, southwest,
+ up and down. Some games also use in and out.
+
+ If you wish to wait for a short while, type: wait. Or simply: z.
+
+ There are some special commands. If you have done something stupid,
+ that you whish hadn't, you can type: undo. Other special commands are:
+ save, restore, restart and quit.
+
+ (In most games examine (x for short) and search are very important
+ commands. But they don't exist in this game.)
+
+ Most games have a few commands that you have to figure out for
+ yourself.
+
+>look
+
+ Outside your cabin
+ High up in Jotunheimen, on a path going west (where you came from) and
+ east. To the north of you is your cabin, to the south a long drop.
+ Behind your cabin is a steep tall mountain wall. The door to your
+ cabin is gone. Bullet holes show it has been shot away. It must have
+ been done by humans; yeti robot zombies don't carry guns.
+
+>examine me
+ In this game examine, look at, look in, look under, look behind and
+ search have not been implemented. You can still use look, inventory
+ and read.
+
+>inventory
+ You have nothing.
+
+>go north
+
+ The living room of your cabin
+ It looks like some very heavy fighting has taken place here; all the
+ furniture has been smashed to bits. Your bedroom is west, the outside
+ south.
+
+>go west
+
+ The bedroom of your cabin
+ All the furniture has been smashed here too, except for the large
+ closet. It is open and empty. An extremely dead soldier lies all over
+ the floor. A cell phone and a plasma rifle lie here. They are not
+ yours. Maybe they belonged to the soldier. The only exit is east.
+
+>read soldier
+ It contains no writing.
+
+>take cell phone and rifle
+ cell phone: Taken.
+ plasma rifle: You take the rifle. You notice it has 6 shots left.
+
+ The cell phone rings. You answer it. "Hello?" you say.
+ "Private H?rland is that you?" says a voice.
+ "No, I'm afraid he is dead. I found him in my cabin, it looks like he
+ was torn apart by a yeti robot zombie."
+ "Fytti katta!" the voice curses.
+ "Who is this?"
+ "This is general Hansen."
+ "And why is there a dead man in my cabin?"
+ "He probably broke in to look for provisions. The yeti robot zombies
+ have attacked our bases and eaten all our food. And the army. Private
+ H?rland and me were the last ones left. And I can't fight much. My
+ arms and legs have just been eaten. I barely managed to bite through
+ the throat of the yeti robot zombie who attacked me. Then I dialed the
+ phone with my nose."
+ "Then... we have lost?" you say.
+ "Maybe not. I have found out who the evil boss is that is behind all
+ the yeti robot zombies. His headquarters are in Drammen."
+ "Great. But who can stop him?"
+ "It will have to be you."
+ "Me? But I can't." you say.
+ "You have to. There is nobody else left. But don't worry; I will guide
+ you whilst slowly bleeding to death. First, do you have a gun?"
+ "Yeah I have a rifle. There are six shots left."
+ "That is is not enough. You are bound to encounter many yeti robot
+ zombies on your mission. You must try to find a way to get past them
+ without shooting them."
+ "But how? I can't fight them with my hands. And I certainly can't talk
+ to them."
+ "I know. You just have to think of something. Now listen up. There is
+ a cave east of your cabin. Go there. We have a small military base
+ hidden inside it."
+ "Very well."
+
+ Just then you hear a Chewbaccaesque roar from the living room. There
+ is a yeti robot zombie in your cabin! It could walk into the bedroom
+ any minute now!
+
+>look
+
+ The bedroom of your cabin
+ All the furniture has been smashed here too, except for the large
+ closet. It is open and empty. An extremely dead soldier lies all over
+ the floor. The only exit is east.
+
+>enter closet
+ You get into the closet.
+
+ You hear the roar of a yeti robot zombie in the living room.
+
+>close door
+ You can't see any such thing.
+
+>close closet
+ You close the closet and wait. Not long after you can hear something
+ heavy walk into the room. You hold your breath. It sounds as if it is
+ kicking the remains of the furniture around. Then you hear the roar of
+ the yeti robot zombie. Then it hits the closet! The closet shakes.
+ Have you been discovered? But then you hear the monster leave. You
+ breathe out. You wait a while, then open the closet again.
+
+>take soldier
+ Yuck! You don't want to move a corpse around!
+
+>go east
+ You'll have to get out of the closet first.
+
+>get out
+ You get out of the closet.
+
+>go east
+
+ The living room of your cabin
+ It looks like some very heavy fighting has taken place here; all the
+ furniture has been smashed to bits. Your bedroom is west, the outside
+ south.
+
+>go south
+
+ Outside your cabin
+ High up in Jotunheimen, on a path going west (where you came from) and
+ east. To the north of you is your cabin, to the south a long drop.
+ Behind your cabin is a steep tall mountain wall. The door to your
+ cabin is gone. Bullet holes show it has been shot away. It must have
+ been done by humans; yeti robot zombies don't carry guns.
+
+>go east
+
+ Outside a cave
+ Just a couple of meters east of your cabin, and what do you know,
+ there is a cave here! You had no idea! You can enter it by going
+ north. To the south and east is a long drop.
+
+>go north
+
+ A cave
+ Passages go northeast and northwest. South leads out.
+
+ You speak into the cell phone. "Ok, I'm in the cave now."
+ "Good. The entrance to our base should not be hard to find. It will
+ however be locked. There is a soldier in the cave who has a ring of
+ keys. One of the keys fits the lock. The soldier is off course dead.
+ Torn apart by yeti robot zombies."
+ "Yikes! That means there could be yeti robot zombies in the cave right
+ now?"
+ "Yes."
+
+ Just then you hear a yeti robot zombie roar from the northeast. It
+ seems to be getting closer.
+
+>go northwest
+
+ A cave
+ Passages go southeast and northeast. A heavy-looking iron door leads
+ west. It is closed.
+
+>open door
+ It seems to be locked.
+
+ You hear a roar from the southeast. It seems to be getting closer.
+
+>undo
+ A cave
+ [Previous turn undone.]
+
+>open door
+ It seems to be locked.
+
+ You hear a roar from the southeast. It seems to be getting closer.
+
+>go northeast
+
+ A cave
+ Passages go southwest and southeast.
+
+>se
+
+ A cave
+ Passages go northwest and southwest. Another dead soldier lies all
+ over the place.
+
+ A ring of keys lies here. There must be at least sixty keys on it!
+
+ You hear a roar from the southwest. It gets further and further away,
+ then disappears.
+
+>get keys
+ Taken.
+
+>go southwest
+
+ A cave
+ Passages go northeast and northwest. South leads out.
+
+ You hear a roar from the northwest. It gets further and further away,
+ then disappears.
+
+>go northwest
+
+ A cave
+ Passages go southeast and northeast. A heavy-looking iron door leads
+ west. It is closed.
+
+ You hear a roar from the northeast.
+
+>unlock door
+ You try one of the keys. It does not fit.
+
+ You hear a roar from the northeast. It gets further and further away,
+ then disappears.
+
+>again
+ You try another key. It does not fit.
+
+>again
+ You try a new key. It does not fit.
+
+ You hear a roar from the southeast. It seems to be getting closer.
+
+>go northeast
+
+ A cave
+ Passages go southwest and southeast.
+
+>se
+
+ A cave
+ Passages go northwest and southwest. Another dead soldier lies all
+ over the place.
+
+ You hear a roar from the southwest. It gets further and further away,
+ then disappears.
+
+>go southwest
+
+ A cave
+ Passages go northeast and northwest. South leads out.
+
+ You hear a roar from the northwest.
+
+>go northwest
+
+ A cave
+ Passages go southeast and northeast. A heavy-looking iron door leads
+ west. It is closed.
+
+ You can see a yeti robot zombie here.
+
+ The yeti robot zombie roars when it sees you.
+
+>se
+ You try to leave, but the yeti robot zombie grabs you and drags you
+ back. You manage to shake loose from its grip.
+
+ The yeti robot zombie roars.
+
+>shoot yeti
+ "Have a taste of plasma!" you say. A plasma beam evaporates the yeti
+ robot zombie. Five shots left.
+
+ "Did I hear a shot?" says the general on the phone. "Careful son, you
+ gotta save the ammo. Find some way to avoid shooting the monsters."
+
+>unlock door
+ You try a new key. It does not fit.
+
+>unlock door
+ You try a new key. It fits. What luck! You unlock the door.
+
+>open door
+ You open the door.
+
+>go west
+
+ A small white room
+ To the north is a doorway. To the east is a heavy-looking iron door.
+ It is open.
+
+ You speak into the cell phone "I am inside the base."
+ "Excellent. On the second floor is a cabinet. It is locked, but one of
+ your keys will open it. Inside the cabinet is an experimental
+ teleporting device. Just push the button, and it will teleport you to
+ our main base, on the other side of the mountain."
+ "Very well."
+
+ Suddenly you hear a roar to the east. A yeti robot zombie must be just
+ outside the door!
+
+>close door
+ You close the door.
+
+ You hear a roar from the east.
+
+>lock door
+ You lock the door.
+
+ There comes a loud bang from the door, as if something large is being
+ smashed against it.
+
+>go north
+
+ Another small white room
+ To the south and north are doorways.  Lots of useless debris blocks
+ the north doorway. It is going to take several minutes to move it
+ away.
+
+ You hear a bang from the south.
+
+>shut door
+ You can't see any such thing.
+
+>clear debris
+ As you begin to move the debris, the bangs from the south get louder
+ and more frequent. You hurry up. Soon the debris is out of the way.
+
+ You hear loud bangs and angry roaring from the south.
+
+>go north
+
+ Yet another small white room
+ To the south is a doorway. Stairs goes up.
+
+ You hear a roar behind you and turn. A yeti robot zombie was standing
+ up against the wall, besides the door. Now it moves in front of the
+ door, blocking it. But the stairs are clear. And you know yeti robot
+ zombies are really bad at walking up stairs.
+
+>go up
+
+ One more small white room
+ Stairs go down. A glass cabinet is here. It is closed. Inside it is a
+ small black box with a round red button.
+
+ You hear the clamor of a yeti robot zombie trying to walk up the
+ stairs.
+
+>break cabinet
+ You smash the cabinet to pieces with your fists. The small black box
+ falls on the floor.
+
+ You hear the clamor of a yeti robot zombie trying to walk up the
+ stairs.
+
+>push button
+ You push the button. Reality hiccups and you are somewhere else.
+
+ An additional small white room
+ A doorway leads south. Stairs go up.
+
+ You notice you don't have the box with you. Or the keys. Oh well,
+ let's just hope none of your more important internal organs got left
+ behind.
+ "The teleporter worked." you say in the phone.
+ "It did? Really? That's great! Now walk up the stairs and you will
+ find two doors. It doesn't matter which one you take, both will lead
+ to a roof."
+ "Then what?"
+ "On each roof there will be a helicopter. I assume you know how to fly
+ one?"
+ "Off course."
+ "Then it's off to Drammen."
+ "Right!"
+
+ Just then two yeti robot zombies, one thin and one fat, shamble in
+ from the south. They roar when they see you. They are blocking your
+ path to the south, but the stairs are clear.
+
+>go up
+
+ Yet an additional small white room
+ Stairs go down. There is a glass door to the east, and another one to
+ the west. Both are closed.
+
+ You hear the clamor of two yeti robot zombies trying to walk up the
+ stairs.
+
+>go east
+ The door is locked.
+
+ You hear the clamor of two yeti robot zombies trying to walk up the
+ stairs.
+
+>break east door
+ You smash the door to pieces with your fists.
+
+ You hear the clamor of two yeti robot zombies trying to walk up the
+ stairs.
+
+>go east
+
+ A white small room
+ A doorway leads west. Stairs go up.
+
+>go up
+
+ A roof
+ A small flat roof above/on the side of a large military base in the
+ mountains. Stairs go down. You can enter a chopper to the north. In
+ all other directions is a long drop.
+
+>go north
+
+ Inside a chopper
+ There is a control panel here. The only thing interesting about it at
+ the moment is the big button that starts the chopper. It is going to
+ take several minutes to start up the chopper. You can leave south.
+
+>push button
+ You push the button. You sit waiting for the helicopter to take off.
+ After a while the fat yeti robot zombie and the thin yeti robot zombie
+ burst into the chopper.
+
+ The yeti robot zombies roar.
+
+ You hear the hum of the chopper starting up.
+
+>out
+ The fat yeti robot zombie blocks the way.
+
+ The yeti robot zombies shake their heads from side to side, roaring.
+
+ You hear the hum of the chopper starting up.
+
+>push fat zombie
+ You try. It is like trying to move a mountain.
+
+ The yeti robot zombies look right at you and roar A LOT.
+
+ You hear the hum of the chopper starting up.
+
+>push thin
+ You try. It is like trying to move a mountain.
+
+ The yeti robot zombies roar even more than they have roared before.
+ Then they try to hit you with their claws. You duck just in time.
+
+ You hear the hum of the chopper starting up.
+
+>look
+
+ Inside a chopper
+ There is a control panel here. The only thing interesting about it at
+ the moment is the big button that starts the chopper. You have pushed
+ it, and you can hear the chopper starting up. You can leave south.
+
+ You can see a thin yeti robot zombie and a fat yeti robot zombie here.
+
+>look
+
+ Inside a chopper
+ There is a control panel here. The only thing interesting about it at
+ the moment is the big button that starts the chopper. You have pushed
+ it, and you can hear the chopper starting up. You can leave south.
+
+ You can see a thin yeti robot zombie and a fat yeti robot zombie here.
+
+>talk to fat
+ You have no idea about how to communicate with a yeti robot zombie.
+
+ The yeti robot zombies roar. Then they try to hit you. You just manage
+ to jump to the side instead of being sliced to small chunks. Then the
+ yeti robot zombies roar some more.
+
+ You hear the hum of the chopper starting up.
+
+>talk to phone
+ You speak into the phone "What was I supposed to do?"
+ Hansen says "Upstairs you will find two doors. It doesn't matter which
+ one you take, both will lead to a roof. On each roof there will be a
+ helicopter. Fly it to Drammen."
+
+ While roaring, the yeti robot zombies continue to try and hit you with
+ their claws. You realize they are going to succeed real soon. BETTER
+ DO SOMETHING!
+
+ You hear the hum of the chopper starting up.
+
+>roar
+ That's not a verb I recognise.
+
+>shoot zombies
+ You can't see any such thing.
+
+>shoot fat
+ "I'll show you how to lose some weight, REAL QUICK!" you shout. A
+ plasma beam evaporates the fat yeti robot zombie. Four shots left.
+
+ The thin yeti robot zombie roars.
+
+ You hear the hum of the chopper starting up.
+
+>shoot thin
+ "You found the wrong guy to mess with!" you say. A plasma beam
+ evaporates the thin yeti robot zombie. Three shots left.
+
+ After waiting a while the chopper takes off.
+
+ A couple of hours later you speak into the phone: "Ok, I am now flying
+ over Drammen."
+ "You are doing great. The headquarters of the evil boss is in a new
+ building. It's the tallest one in Drammen, close to the middle of the
+ city. Can you see it?"
+ "Yes."
+
+ It must be over a hundred stories tall, and it easily dwarfs any of
+ the other buildings. On the sides it has huge neon pentagrams. On the
+ roof is a 30-meter tall statue of a yeti robot zombie.
+
+ "Be careful." says General Hansen. "There are rumors that the closest
+ servants of the evil boss are a group of Satanists!"
+ "Holy crap!"
+ "Indeed. They are very deadly in combat. And don't think for a minute
+ that you can reason with them. They are at least as dangerous as the
+ yeti robot zombies."
+ "Understood."
+
+ You fly closer to the building. You notice that the eyes of the statue
+ of the yeti robot zombie are moving. They are following your chopper!
+
+ The statues mouth opens. A rocket shoots out, straight towards you!
+ You steer the chopper down. You avoid a full hit. Instead the rocket
+ explodes against the propeller. The chopper is going down fast!
+
+ Frantically, you steer the chopper towards the building. It smashes
+ into, and goes halfway through, the roof! The impact makes the chopper
+ door open, and you fall out! You land painfully on the floor below.
+
+ Groaning, you slowly get up. You look around.
+
+ West side of a hall
+ You are on the west side of large black hall. Above you the chopper is
+ sticking halfway through the ceiling. You can go east.
+
+ On the east side of the hall you can see the following:
+ A large red metal barrel stands on the floor. On it is written, in
+ large black letters: "DANGER! HIGHLY EXPLOSIVE!" A yeti robot zombie
+ stands on one side of the barrel, a man on the other. He is wearing a
+ hooded brown robe, which conceals his face. For some reason the yeti
+ robot zombie shows no sign of wanting to attack the man. A doorway
+ leads north.
+
+ The man says "Ah, excellent. Another sacrifice to our master. But
+ first a prayer." He begins to mutter something in Latin.
+
+>inventory
+ You have a plasma rifle (with three shots left) and a cell phone.
+
+>look
+
+ West side of a hall
+ You are on the west side of large black hall. Above you the chopper is
+ sticking halfway through the ceiling. You can go east.
+
+ On the east side of the hall you can see the following:
+ A large red metal barrel stands on the floor. On it is written, in
+ large black letters: "DANGER! HIGHLY EXPLOSIVE!" A yeti robot zombie
+ stands on one side of the barrel, a man on the other. He is wearing a
+ hooded brown robe, which conceals his face. For some reason the yeti
+ robot zombie shows no sign of wanting to attack the man. A doorway
+ leads north.
+
+>pray
+ Nothing practical results from your prayer.
+
+ The man continues to mutter something in Latin.
+
+>shoot barrel
+ "I love me some good fireworks!" you shout. The plasma beam hits the
+ barrel and the barrel explodes. The man and the yeti robot zombie get
+ thrown through the air in opposite directions. Both smash into a wall.
+ Sparks start shooting out from all over the body of the yeti robot
+ zombie, and then it explodes into nothing. The man slides down on the
+ floor, dead. Two shots left.
+
+ Happily you speak into the phone "Hey general Hansen! I just killed my
+ fist human!"
+ "I am proud of you, boy. When I argh. Blahaghr.
+ Grablahaharghragghrablagragh. Glb."
+ "General Hansen? GENERAL HANSEN?!"
+ There is no answer. You realize he has bled to death. You look up and
+ shout in anger: "CURSE YOU EVIL BOSS!"
+
+>take robe
+ You are too far away.
+
+>go east
+
+ East side of a hall
+ You are on the east side of a large black hall. You can go west. A
+ doorway leads north. The corpse of a man lies on the floor. He is
+ wearing a hooded brown robe, which conceals his face.
+
+ On the west side of the hall you can see the following:
+ The chopper is sticking halfway through the ceiling.
+
+ Suddenly you hear humming from the north. After a while you recognize
+ the tune. It's a Metallica song! That means there must be another
+ Satanist through the north doorway!
+
+>take robe
+ You take the robe. The dead guy doesn't look familiar.
+
+ You hear more satanic humming from the north.
+
+>wear robe
+ You put on the brown robe. Your face is hidden in the shadow of the
+ hood.
+
+ You hear more satanic humming from the north.
+
+>go north
+
+ A small black room
+ A man stands here. He is wearing a black robe, without a hood. He has
+ tall white hair. Doorways lead south and north.
+
+ The man nods at you.
+
+>nod at man
+ I only understood you as far as wanting to nod.
+
+>nod
+ You nod your head to the man.
+
+>go north
+
+ A large black office
+ A man sits behind a desk, on one of them office chairs with little
+ wheels. He is wearing a suit and a tie. He must be the boss! A
+ steaming cup of coffee stands on the desk. A heavy-looking bookshelf
+ stands against a wall, close to the desk. The shelf reaches almost to
+ the ceiling. It is filled with old, black tomes. Directly behind the
+ man is a large window going from floor to ceiling. Outside is Drammen.
+ A doorway leads south.
+
+ The man says "First of all, do not think for a moment that your
+ disguise will work against me. Secondly, welcome to my humble abode."
+
+>push bookshelf
+ You grab the bookshelf from the side. "I think you should have stuck
+ to some LIGHT reading!" you say and push the shelf towards the man. He
+ screams as heavy books rain down on him. Then the massive shelf
+ smashes into his head. He falls off his chair. The body gets hidden
+ beneath the shelf. It gets very quiet.
+
+ "Is he dead?" you wonder.
+
+ Suddenly the shelf explodes in flames! Up from the flaming debris
+ rises the boss! But he has changed. He has green skin, short horns and
+ long claws. He shoots red beams from his eyes, destroying the shelf
+ and books further. Then he shreds the rest of the remains with his
+ claws. The flames die down. He sits down on his chair.
+
+ The man says "I am impressed you have made it so far."
+
+>throw coffee on him
+ "You should be careful; coffee can be DANGEROUS TO YOUR HEALTH!" you
+ shout grabbing the scalding coffee and throwing it at the man's head.
+ Screaming he clutches at his face. He stands up, and stumbles
+ backwards. He hits the window. It breaks and he falls through. You run
+ over to the window and look down. The man is screaming and falling
+ downwards in slow motion. He lands with a wet thud against the
+ pavement.
+
+ "He is dead." you think.
+
+ The body transforms. The horns grow longer, tentacles shoots out from
+ its head, and his shoes and pants burst as his legs grow huge and
+ round like the legs of an elephant. He uses his tentacles to climb up
+ the wall; they must have suckers on them. Soon he is at the window. He
+ has to bend his head forward to get through, his horns are so long. He
+ no longer looks remotely human. The boss sits down on his chair behind
+ the desk.
+
+ A tentacle shoots out and grabs the empty cup from your hand. The
+ tentacle crumbles the cup and throws it out the window.
+
+ The man says "I will enjoy killing such a worthy opponent."
+
+>look
+
+ A large black office
+ A man sits behind a desk, on one of them office chairs with little
+ wheels. He is wearing a suit and a tie. He must be the boss! He has
+ green skin, long horns and long claws. Also: elephant legs and
+ tentacles. Directly behind the man is a large broken window going from
+ floor to ceiling. Outside is Drammen. A doorway leads south.
+
+>push chair
+ "You've got a nice view here. Why don't you take a CLOSER LOOK!" you
+ say and push the man in the chest. His chair rolls backwards and hits
+ the window. He and the chair falls through. You run over to the window
+ and look down. The man is screaming and falling downwards in slow
+ motion. He lands with a wet thud against the pavement.
+
+ "He is dead." you think.
+
+ The body turns to green sludge, which evaporates into nothing.
+
+ You have a closer look at the desk. You notice it has lots of buttons.
+ Two in particular interest you: a big red one that says "KILL ALL YETI
+ ROBOT ZOMBIES", and a smaller yellow one that says "Secret exit".
+
+>push red
+ You push the button. You hear an explosion below you, somewhere in the
+ building. Then another, and another, and another, several at once,
+ more than you can count. The whole building is trembling. The shaking
+ gets harder. You fall over. You look out the window. You see several
+ explosions in Drammen, some inside buildings, some down near the
+ street. Then the number of explosions starts to decrease. After a
+ while all is quiet. Outside, several buildings are burning.
+
+>push yellow
+ You push the button. The desk slides to the side, revealing stairs
+ going down.
+
+>go down
+ You walk down, manage to sneak past a few Satanists and you are out.
+
+
+     ***You saved the country, you big hero you!***
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ see some suggestions for AMUSING things to do or QUIT?
+>amusing
+
+ * Win the game with 4 shots left in the rifle.
+ * That's it.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ see some suggestions for AMUSING things to do or QUIT?
+>q
+
+>load failsafe
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           With thanks to Vincent Lynch, Tom Lees, John Bichard.
+
+
+
+
+
+                                            [Please press SPACE to boot
+ up.]
+
+
+
+
+
+
+
+
+ Bzzt. Crackle. *Static*
+
+ "...hello? Hello? Can... me? .. Anyone! Hel.... Need.. hello?"
+
+ Bleep - PLEASE WAIT - Locating/Tuning signal...
+
+ ..
+
+ ".. help. Repeat, can anybody hear me? Can you hear me? Hello.."
+
+
+>hello
+ Over."
+
+>no
+ "..what? Can't quite make you out. .. we need help.  This is the space
+ pod 'Serpentine'. We've been attacked, a small cruiser. They.. they
+ came out of nowhere.. tried to board us.. ...stly dead.. systems are
+ all messed up, we're drifting.. I need help to fix this.."
+
+ "I'm by the console, there's wires everywhere. The computer flashing
+ something. What do I do? Hello?"
+
+>fix it
+ "What it? I don't understand.."
+
+>who am i
+ "Do what? I don't understand.. I didn't catch that right I think.."
+
+>examine me
+ "Too much static. Say the noun ... please.. I didn't underst.. you.."
+
+>identify yourself
+ something.."
+
+>read computer
+ "It's flashing 'SIDE ENGINES MALFUNCTIONING' and 'GENERAL POWER
+ SHORTAGE -- Reconnect Auxiliary: Cross computer feed (G) with back-up
+ power line (B)'. There's a couple of buttons by the side; Reset and
+ Diagnose. Should I press one of these?"
+
+>press diagnose
+ "I've pressed it.. nothing.. I think it must be broken.."
+
+>examine wires
+ "There's about twenty of them; all looped up ...from under the
+ console. Three of them have been cut, ends bared.. I think McThwaite..
+ -"
+
+ Bleep -- accessing records: "McThwaite, Alistair: Born Cairo, 2412.
+ Graduated..."
+
+  - Initiate Search for Salient Inf (Y/N)?
+>y
+
+ PLEASE WAIT - Filing to secondary processor.
+
+ "- ..  was connecting them up, about to twist them together. But I.."
+
+ "The ship's spinning pretty fast - the Grav. Pad went in the first
+ blast, but, the spinning - everything's kind of sticking near the
+ walls."
+
+>connect wires
+ "Which shall I connect? There's a red wire, a green, a blue... Any
+ guesses, I don't know, don't know.."
+
+>connect blue and green
+ "Okay, I'll.. twist the wire ends up... hang on.."
+
+ "Okay - nothing's blown up. Phew.."
+
+ Bleep - Processing complete. McThwaite, Alistair - contracted to
+
+
+>push reset
+ "The computer's stopped blinking. It's shutting down.. oh my God, what
+ have I.. the lights.. hel.. he.."
+
+ Bzzt.
+
+>wait
+ *static*
+
+>hello?
+ *static*
+
+ Bleep - PLEASE WAIT - signal offline. Retracing..
+
+>wait
+ *static*
+
+ .."God.. Thank God, the lights... Hello, are you there? Are you
+ there.. Hello?"
+
+>hello
+ "Oh, fantastic, so good to hear you! .. everything went dead.. thought
+ I'd lost it all for a second.. Geez!"
+
+ "Computer's back on-line now. Shall I read the display to you?"
+
+>read display
+ "Oh, it's still flashing 'SIDE ENGINES MALFUNCTIONING'. There's a
+ couple of buttons by the side; Reset and Diagnose. Should I press one
+ of these?"
+
+>push diagnose
+ "Wait - yes, it's reading, it's pretty fast, I'll, hang on.."
+
+ "Damage to decks 1,2 - light. Damage to 3 - partial. Damage to 4 and
+ below - total. That's the ..berths and equipment; damn! Hang on,
+ there's more.. side engines offline, back thrusters erratic. We're
+ going to need to use the lasers to cut them free, they're spinning us
+ off.."
+
+ "I don't know how to operate them.. Are they not controlled from here?
+ No, suppose must not be ... sealed off.. Shall I go down and look?"
+
+>no
+ "Okay.. but I'm going to need.. lasers.. pretty soon, okay..?"
+
+>inventory
+ "You..? You ..what?"
+
+>inventory
+ "Sorry? Do.. what? ..I can't hear you, too much static.."
+
+>don't you understand standard code IF protocols?
+ "I only.. caught.. wanted me to.. don't that."
+
+>look
+ "Oh, let's see. The attack was tough, it's bad... ...console, with the
+ computer screen on. The engineer, McThwaite was trying to fix that
+ before.. ...shook up bad, he might be okay, I don't know. I don't
+ think so....hatch, that leads down to the ring... engineering, store
+ rooms and stuff. And there's the porthole."
+
+>examine porthole
+ "The moon, it's .. uh .. it's approaching pretty fast. I'm going to
+ need to sort out these engines.."
+
+>SAVE
+>cf1
+ "Sorry? Do.. what? ..I can't hear you, too much static.."
+
+ "Sorry? Do.. what? ..I can't hear you, too much static.."
+
+>pray
+ "Oh what? Oh man, oh man.. I'm gonna die.. oh no..."
+
+>look
+ "Oh, let's see.. it's bad up here. There's the console, with the
+ computer screen on. The engineer, McThwaite was trying to fix that
+ before he  - well he's here too. He's shook up bad, he might be okay,
+ I don't know. I don't think so. And the hatch, that leads down to the
+ ring section, airlocks, engineering, store rooms and stuff. And
+ there's the porthole."
+
+>examine mcthwaite
+ "Says.. name on his overall.. He's bleeding.. a lot, red blood
+ everywhere.. he was over by the console - I think it shorted, or when
+ the last burst hit us.. he's dead I think.. yes, he's dead.. He died
+ in the last attack - the shaking of the ship.. must have thrown him..
+ something like that, yes that's it.."
+
+>examine wires
+ "There's about twenty of them; all looped up ...from under the
+ console. Three of them have been cut, ends bared.. I think McThwaite
+ was connecting them up, about to twist them together. But I.."
+
+ "They were too damn good for us... better firepower, defences,
+ everything.. .. -"
+
+ Bleep -- accessing records: "Species: G'hilga. First Contact: 2413.
+ War declared 2423..."
+
+  - Initiate Search for Salient Inf (Y/N)?
+>y
+
+ PLEASE WAIT - Filing to secondary processor.
+
+ "- ..  didn't stand a chance.. I guess we were outside the moon
+ security field.. would have polished us off if we hadn't have broken
+ through in time I suppose.."
+
+ "I've connected those two together; they seem to be holding."
+
+>go down
+ "Sorry? Do.. what? ..I can't hear you, too much static.."
+
+>enter hatch
+ "The hatchway isn't open.. I can't.. through.. "
+
+>open hatch
+ "Okay - hang on.. turn the wheel, quite heavy.. Aaargh!.... Y...!"
+
+
+ "..sorry.. slipped on something, cut my leg... I'm okay.. The hatch is
+ open.."
+
+ Bleep - Processing complete. Physical form of G'hilga - height 3 foot,
+ monopedal, climb using multiple claws situated over torso, translucent
+ blood - Firepower - superior, though unable to penetrate Moon-shield -
+
+
+>go down
+ something.."
+
+>enter hatch
+ "Okay, I'll just slip through.. right."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>open door
+ "It's a solid bulkhead! ..sealed.. I can't find any sort of
+ mechanism.. open it.. You think I really need to get this open.. might
+ be a way.. Well?"
+
+>yes
+ "Right, okay then.. Hang on; I'll give this a try.."
+
+ ......Frrrraaaaagggg.... BOOM!.....
+
+ "Okay, it's open."
+
+>enter door
+ "Okay, I'm .. now in the store room.. pretty cramped here.."
+
+ "This isn't the laser room, I need the laser room.. ...hole in the
+ wall, leading back to the hub, right size, straight through the
+ bulkhead. And, let's see... ..body, just one here, a man. He's...
+ ...some sort of recess, alcove, and another porthole like in all the
+ rooms; Moon's pretty damn big.."
+
+>examine recess
+ "A square recess - no, it's a chute of some sort.. leads downwards.. I
+ think it's a waste ejection system; there's a button above it labelled
+ 'Flush'... to eject things into space I suppose."
+
+>exit
+ "I'm going back through the doorway."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>go down
+ "What..? The radio's bad .. breaking up, Moon's ...thing.."
+
+>search bodies
+ "Too many.. in a such a mess... don't think there's anything there.."
+
+>examine debris
+ "...load of debris from the attack, blocking up something I think, a
+ tunnel. They must have hit... ..mighty fine weaponry they've got
+
+>enter
+ "Right. I'm climbing through now.. hang on.."
+
+ "Oh, let's see. The attack was tough, it's bad... ...console, with the
+ computer screen on. The engineer, McThwaite was trying to fix that
+ before.. ..died....hatch, that leads down to the ring... engineering,
+ store rooms and stuff. And there's the porthole."
+
+>undo
+ "What do... want me to undo?"
+
+>enter hatch
+ "Okay, I'll just slip through.. right."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>climb ladder
+ "Are you sure.. do I need to? It looks pretty burnt out down there, I
+ don't know how safe it is.. Should I go?"
+
+>yes
+ "Okay then. Hang on.."
+
+ "Climbing down the ladder..."
+
+ Bleep - PLEASE WAIT - Incoming inf from Tracking Station Tranquility
+ Base..
+
+ "Oh God.. it's a real mess down here.. ..third level.. the walkway
+ mangled up in the middle, hairpin.. the walls are all crunched in,
+ toward the base of the ladder, a V.. there's no floor space to stand
+ on.. all the bulkheads around have closed, they're charred.. there's
+ piping, wiring hissing from every crevice.. it's like it's just been
+ .. melted.. "
+
+>climb ladder
+ "I'm climbing back up.. hard, the Grav's a little looser here.."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>open door
+ "..open already.. okay.."
+
+ Bleep - Processing complete. Enemy fleet massing just outside
+ MoonShield perimeter - All batteries collecting for attack - All
+ civilian/trade ships must land immediately - Boarding pods detected -
+
+
+>oops
+ "I don't understand.. start again, please, help me.."
+
+>squeeze past
+ "What do... want me to squeeze past?"
+
+>yes
+ "Alright."
+
+>look
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>squeeze past debris
+ "There's not.. enough room for me.. don't think I can get past."
+
+>squeeze past debris
+ "There's not.. enough room for me.. don't think I can get past."
+
+>Do what I say, Ensign.
+ "Who's that.? There's no-one here like that.."
+
+>search debris
+ "There's.. there's some sort of room there, sure.."
+
+>enter door
+ "Okay, I'm .. now in the store room.. pretty cramped here.."
+
+ "This isn't the laser room, I need the laser room.. There's the hole
+ in the wall, leading back to the hub.. through the bulkhead. And..
+ this place is a mess... another body, just one.. a man.. next to one
+ wall, where's there's.. some sort of recess, alcove, another porthole
+ like in all the rooms..."
+
+>search body
+ "One hand is clutching.. a thick tangle of wiring.. short bits, ripped
+ out I think.. connectors still attached to the end.. nothing else."
+
+>examine wires
+ "Just scraps.. scraps of wire; torn out of somewhere I guess.."
+
+ "Not a lot of crew on board though... could have been worse I guess..
+ just bad luck or something, huh..?"
+
+>exit
+ "I'm going back through the doorway."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>dig debris
+ "Rig?.. I don't understand, there's nothing to rig up here.."
+
+ "The laser room's got to be around somewhere.. hope it's nearer the
+ top of the ship.. accessible."
+
+>move debris
+ "Okay.. I've hauled a bit out of the way.. not much better though.."
+
+>move debris
+ "Okay.. I've hauled a bit out of the way.. not much better though.."
+
+>enter tunnel
+ "I don't see.. I don't see what you mean at all."
+
+>look
+ "... is the central hub of the ship. Let's see; there's the hatch
+ leading back up the bridge and a couple of other doors around the
+ ring.. a lot sealed off; bulkheads down.. .. couple of bodies floating
+ slightly, red blood.. passages, blocked up leading off into .. marked
+ 'store room' on the door, pretty solid.. and a ladder down, and some
+ debris opposite .. squeeze past, I don't know, I could try to squeeze
+ past it, I think there's..."
+
+>squeeze past debris
+ "It's going to be quite a squeeze.. hang on.. no, I'm through..
+ okay.."
+
+ "The laser! The laser room - it's here!"
+
+ "..'s it! That's the control for the laser!.. Okay, let's... ..very
+ either; d...  on, I'll take a closer look, maybe you can ..."
+
+ "There's a panel by the side of the main controls, numeric pad above
+ that... forced open, like someone.. apart. .."
+
+>examine panel
+ "The outer casing.. access panel ripped open, hanging loose. The
+ workings of the console are inside, I think.. By the side of it,
+ there's a keypad, numeric keypad.."
+
+>examine keypad
+ ".. from 0 to 9, got a display at the top with.. "
+
+ "The display is dark.. could be... ken, panel..."
+
+>press 5
+ "The what? I can't see anything.. Anything like that.."
+
+>examine display
+ ".. static. Say the noun again please.. I didn't understand yo.."
+
+>look
+ "Alright. .. laser's here, the controls and everything, under the
+ por... not much else, real mess. No bodies.. just the one doorway, a
+ little blocked but okay I guess..."
+
+ "Moon's getting pretty close.. I can see, damn, I can see the
+ collision battery swinging around.."
+
+>examine controls
+ "Too much static. Say the noun ... please.. I didn't underst.. you.."
+
+>examine laser
+ "There's a panel by the side of the main controls, numeric pad above
+ that... forced open, like someone.. apart. .."
+
+ "...the damn gun's lining up! The damn space junk gun is lining up!.."
+
+>exit
+ "Okay, I've squeezed back out.."
+
+ "... is the central hub of the ship. Let's see; there's the hatch
+ leading back up the bridge and a couple of other doors around the
+ ring.. a lot sealed off; bulkheads down.. .. couple of bodies floating
+ slightly, red blood.. passages, blocked up leading off into .. marked
+ 'store room' on the door, pretty solid.. and a ladder down, and some
+ debris opposite .. squeeze past, I don't know, I could try to squeeze
+ past it, I think there's..."
+ "Oh no, I don't believe it! The damn gun.. it oh sh.. ie! ...firing at
+ us! I'm gonna die! I'm gonna die!!"
+
+>squeeze past
+ "What do... want me to squeeze past?"
+
+>yes
+ "Alright."
+
+ "..not going to be please.. ..failed... so close.. ..damn you, DAMN
+ you, DAMN Y"
+
+>leave
+  - Click -
+
+>hello?
+
+
+
+
+
+
+
+>load failsafe
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           With thanks to Vincent Lynch, Tom Lees, John Bichard.
+
+
+
+
+
+                                            [Please press SPACE to boot
+ up.]
+
+>press green
+
+
+
+
+
+
+
+ Bzzt. Crackle. *Static*
+
+ "...hello? Hello? Can... me? .. Anyone! Hel.... Need.. hello?"
+
+ Bleep - PLEASE WAIT - Locating/Tuning signal...
+
+ ..
+
+ ".. help. Repeat, can anybody hear me? Can you hear me? Hello.."
+
+
+>look
+ Over."
+
+>examine yes
+ "..what? Can't quite make you out. .. we need help.  This is the space
+ pod 'Serpentine'. We've been attacked, a small cruiser. They.. they
+ came out of nowhere.. tried to board us.. ...stly dead.. systems are
+ all messed up, we're drifting.. I need help to fix this.."
+
+ "I'm by the console, there's wires everywhere. The computer flashing
+ something. What do I do? Hello?"
+
+>examine wires
+ "There's about twenty of them; all looped up ...from under the
+ console. Three of them have been cut, ends bared.. I think McThwaite..
+ -"
+
+ Bleep -- accessing records: "McThwaite, Alistair: Born Cairo, 2412.
+ Graduated..."
+
+  - Initiate Search for Salient Inf (Y/N)?
+>y
+
+ PLEASE WAIT - Filing to secondary processor.
+
+ "- ..  was connecting them up, about to twist them together. But I.."
+
+>twist blue and green
+ "I only.. caught.. wanted me to.. twist the wires."
+
+>twist blue and green wires
+ "I only.. caught.. wanted me to.. twist the wires."
+
+>examine display
+ "It's flashing 'SIDE ENGINES MALFUNCTIONING' and 'GENERAL POWER
+ SHORTAGE -- Reconnect Auxiliary: Cross computer feed (G) with back-up
+ power line (B)'. There's a couple of buttons by the side; Reset and
+ Diagnose. Should I press one of these?"
+
+>twist blue and green wires
+ "I only.. caught.. wanted me to.. twist the wires."
+
+>twist blue with green
+ "I only.. caught.. wanted me to.. twist the wires."
+
+>connect blue and green
+ "Okay, I'll.. twist the wire ends up... hang on.."
+
+ "Okay - nothing's blown up. Phew.."
+
+ Bleep - Processing complete. McThwaite, Alistair - contracted to
+
+
+>twist blue and green
+ "I only.. caught.. wanted me to.. twist the wires."
+
+>resest
+ "Do what? I don't understand.. I didn't catch that right I think.."
+
+>push reset
+ "The computer's stopped blinking. It's shutting down.. oh my God, what
+ have I.. the lights.. hel.. he.."
+
+ Bzzt.
+
+>wait
+ Bzzzt.. crackle..
+
+>twiddle thumbs
+ *static*
+>wait
+
+ Bleep - PLEASE WAIT - signal offline. Retracing..
+
+>wait
+ Bzzzt.. crackle..
+
+ .."God.. Thank God, the lights... Hello, are you there? Are you
+ there.. Hello?"
+
+>Jeez, don't panic
+ "Who's that.? There's no-one here like that.."
+
+>open hatch
+ "Hello..? The line's still a little weak, but I can hear you..? Thank
+ God, thank God, I thought.. everything went dead.."
+
+ "The computer's back up and running now; shall I read the display?"
+
+>read display
+ "Oh, it's still flashing 'SIDE ENGINES MALFUNCTIONING'. There's a
+ couple of buttons by the side; Reset and Diagnose. Should I press one
+ of these?"
+
+>press diagnose
+ "Wait - yes, it's reading, it's pretty fast, I'll, hang on.."
+
+ "Damage to decks 1,2 - light. Damage to 3 - partial. Damage to 4 and
+ below - total. That's the ..berths and equipment; damn! Hang on,
+ there's more.. side engines offline, back thrusters erratic. We're
+ going to need to use the lasers to cut them free, they're spinning us
+ off.."
+
+ "I don't know how to operate them.. Are they not controlled from here?
+ No, suppose must not be ... sealed off.. Shall I go down and look?"
+
+>yes
+ "Okay then. Hang on.."
+
+ "The hatchway isn't open.. I can't.. through.. "
+
+>open hatch
+ "Okay - hang on.. turn the wheel, quite heavy.. Aaargh!.... Y...!"
+
+
+ "..sorry.. slipped on something, cut my leg... I'm okay.. The hatch is
+ open.."
+
+>enter hatch
+ "Okay, I'll just slip through.. right."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>open door
+ "It's a solid bulkhead! ..sealed.. I can't find any sort of
+ mechanism.. open it.. You think I really need to get this open.. might
+ be a way.. Well?"
+
+>yes
+ "Right, okay then.. Hang on; I'll give this a try.."
+
+ ......Frrrraaaaagggg.... BOOM!.....
+
+ "Okay, it's open."
+
+>enter door
+ "Okay, I'm .. now in the store room.. pretty cramped here.."
+
+ "This isn't the laser room, I need the laser room.. There's the hole
+ in the wall, leading back to the hub.. through the bulkhead. And..
+ this place is a mess... another body, just one.. a man.. next to one
+ wall, where's there's.. some sort of recess, alcove, another porthole
+ like in all the rooms..."
+
+>search body
+ "One hand is clutching.. a thick tangle of wiring.. short bits, ripped
+ out I think.. connectors still attached to the end.. nothing else."
+
+>take wires
+ "They're only tiny little bits.. I don't think I could use them..
+ ..destroyed.."
+
+>look
+ "This isn't the laser room, I need the laser room.. ...hole in the
+ wall, leading back to the hub, right size, straight through the
+ bulkhead. And, let's see... ..body, just one here, a man. He's...
+ ...some sort of recess, alcove, and another porthole like in all the
+ rooms; Moon's pretty damn big.."
+
+>take connectors
+ "They're only tiny little bits.. I don't think I could use them..
+ ..destroyed.."
+
+>examine recess
+ "A square recess - no, it's a chute of some sort.. leads downwards.. I
+ think it's a waste ejection system; there's a button above it labelled
+ 'Flush'... to eject things into space I suppose."
+
+>look in recess
+ "I can't see anything.. goes a long way down though."
+
+>enter recess
+ "It's not large enough.. ..or me.."
+
+>take all
+ "The... I can't ..e anything.. Anything like that here."
+
+>examine man
+ "Must have died in the attack.. like all the others I guess... he's..
+ lying near the recess in the wall, his hands still over the lip.. fell
+ onto it perhaps, certainly facing ... lot of blood.. oh God.."
+
+>look under man
+ "Nothing.. there's nothing there.."
+
+ "They were too damn good for us... better firepower, defences,
+ everything.. .. -"
+
+ Bleep -- accessing records: "Species: G'hilga. First Contact: 2413.
+ War declared 2423..."
+
+  - Initiate Search for Salient Inf (Y/N)?
+>y
+
+ PLEASE WAIT - Filing to secondary processor.
+
+ "- ..  didn't stand a chance.. I guess we were outside the moon
+ security field.. would have polished us off if we hadn't have broken
+ through in time I suppose.."
+
+>push flush
+ "Okay, I've pushed it.. nothing seems to be happening.. must be
+ broken.. like everything.."
+
+>move man
+ "..moved a little.. didn't reveal anything.."
+
+ Bleep - Processing complete. Physical form of G'hilga - height 3 foot,
+ monopedal, climb using multiple claws situated over torso, translucent
+ blood - Firepower - superior, though unable to penetrate Moon-shield -
+
+
+>exit
+ "I'm going back through the doorway."
+
+ "... is the central hub of the ship. Let's see; there's the hatch
+ leading back up the bridge and a couple of other doors around the
+ ring.. a lot sealed off; bulkheads down.. .. couple of bodies floating
+ slightly, red blood.. passages, blocked up leading off into .. marked
+ 'store room' on the door, pretty solid.. and a ladder down, and some
+ debris opposite .. squeeze past, I don't know, I could try to squeeze
+ past it, I think there's..."
+
+>move debris
+ "Okay.. I've hauled a bit out of the way.. not much better though.."
+
+>squeeze past debris
+ "It's going to be quite a squeeze.. hang on.. no, I'm through..
+ okay.."
+
+ "The laser! The laser room - it's here!"
+
+ "..'s it! That's the control for the laser!.. Okay, let's... ..very
+ either; d...  on, I'll take a closer look, maybe you can ..."
+
+ "There's a panel by the side of the main controls, numeric pad above
+ that... forced open, like someone.. apart. .."
+
+>look
+ "Alright. .. laser's here, the controls and everything, under the
+ por... not much else, real mess. No bodies.. just the one doorway, a
+ little blocked but okay I guess..."
+
+>examine controls
+ "The what? I.. I don't see anything like that here."
+
+>examine panel
+>examine panel
+>examine panel
+ "The outer casing.. access panel ripped open, hanging loose. The
+ workings of the console are inside, I think.. By the side of it,
+ there's a keypad, numeric keypad.."
+
+ "The outer casing.. access panel ripped open, hanging loose. The
+ workings of the console are inside, I think.. By the side of it,
+ there's a keypad, numeric keypad.."
+
+ "The outer casing.. access panel ripped open, hanging loose. The
+ workings of the console are inside, I think.. By the side of it,
+ there's a keypad, numeric keypad.."
+
+>examine keypad
+ "Keys,. .. to 9. There's a display, four... "
+
+ "The display is dark.. could be... ken, panel..."
+
+>examine display
+ "I don't see - no I ....what you mean at all."
+
+>look in panel
+ "Inside.. there's a lot of tangled wiring, but ... anything broken...
+ empty socket just under the numeric pad... one component missing...
+ quite large, power source perhaps... to find it.."
+
+>examine workings
+ "The outer casing.. access panel ripped open, hanging loose. The
+ workings of the console are inside, I think.. By the side of it,
+ there's a keypad, numeric keypad.."
+
+>leave
+ "Okay... tell what I need to do... ...help me, for God's sake.."
+
+>exit
+ "Okay, I've squeezed back out.."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>search debris
+ "There's.. there's some sort of room there, sure.."
+
+>enter door
+ "Okay, I'm .. now in the store room.. pretty cramped here.."
+
+ "This isn't the laser room, I need the laser room.. There's the hole
+ in the wall, leading back to the hub.. through the bulkhead. And..
+ this place is a mess... another body, just one.. a man.. next to one
+ wall, where's there's.. some sort of recess, alcove, another porthole
+ like in all the rooms..."
+
+>examine alcove
+ "A square recess - no, it's a chute of some sort.. leads downwards.. I
+ think it's a waste ejection system; there's a button above it labelled
+ 'Flush'... to eject things into space I suppose."
+
+ "I'm gonna need to fix that laser up pretty quickly.. can't be long
+ now till Moon landing, you know?"
+
+>look in chute
+ "I can't see anything.. goes a long way down though."
+
+>look under man
+ "Nothing.. there's nothing there.."
+
+ "It could be anywhere this damn thing! I hope you know what we're
+ looking for.."
+
+>out
+ "I'm going back through the doorway."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>climb ladder
+ "Are you sure.. do I need to? It looks pretty burnt out down there, I
+ don't know how safe it is.. Should I go?"
+
+>yes
+ "Okay then. Hang on.."
+
+ "Climbing down the ladder..."
+
+ Bleep - PLEASE WAIT - Incoming inf from Tracking Station Tranquility
+ Base..
+
+ "Oh God.. it's a real mess down here.. ..third level.. the walkway
+ mangled up in the middle, hairpin.. the walls are all crunched in,
+ toward the base of the ladder, a V.. there's no floor space to stand
+ on.. all the bulkheads around have closed, they're charred.. there's
+ piping, wiring hissing from every crevice.. it's like it's just been
+ .. melted.. "
+
+>look
+ "Oh God.. it's a real mess down here.. ..third level.. the walkway
+ mangled up in the middle, hairpin.. the walls are all crunched in,
+ toward the base of the ladder, a V.. there's no floor space to stand
+ on.. all the bulkheads around have closed, they're charred.. there's
+ piping, wiring hissing from every crevice.. it's like it's just been
+ .. melted.. "
+
+>examine piping
+ "There's a lot of ... broken, torn pipes here, spewing white gas..
+ it's all mangled up.. and a metal chute of some sort.. seems to be
+ caught in a bulkhead, must have been flying outwards when it closed..
+ all crunched up.."
+
+ Bleep - Processing complete. Enemy fleet massing just outside
+ MoonShield perimeter - All batteries collecting for attack - All
+ civilian/trade ships must land immediately - Boarding pods detected -
+
+
+>examine chute
+ "Chute, running from the level above I think.. the other end is
+ trapped in one of the bulkheads; it's squeezed the chute.. burst it
+ open at the base, along a seam.."
+
+>look in chute
+ "..something..yes, there's something here. A component, it's little
+ blackened, but it's some sort of component. Quite ... I've picked it
+ up.. I've got it.."
+
+>examine component
+ "Is this it? ..all, a bit charred.. size of .. a man's fist, yes..
+ gold attachments either end."
+
+>climb ladder
+ "I'm climbing back up.. hard, the Grav's a little looser here.."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+ "Moon's getting pretty close.. I can see, damn, I can see the
+ collision battery swinging around.."
+
+>push past debris
+ "I don't see - no I ....what you mean at all."
+
+>squeeze past debris
+ "It's going to be quite a squeeze.. hang on.. no, I'm through..
+ okay.."
+
+ "Alright. .. laser's here, the controls and everything, under the
+ por... not much else, real mess. No bodies.. just the one doorway, a
+ little blocked but okay I guess..."
+
+ "I'm still holding onto the blackened component."
+
+ "...the damn gun's lining up! The damn space junk gun is lining up!.."
+
+>put component in panel
+ "Okay, I've slotted it in... hang on... it's powering up!.. oh, ..
+ keypad, the keypad's powered up."
+ "Keys,. .. to 9. There's a display, four... "
+
+ "All powered up.. need an access code. What's the code?"
+
+ Bleep -- accessing memory -- Lasercodes: ENTER CLASSIFIED SECTOR:
+ (Y/N)?
+>y
+
+>press green
+>hello
+>/quit
+ Select type no:8 - 7 - 4 - 8
+
+ Bleep -- PLEASE WAIT -- Accessing lasercodes...
+
+>enter 8748
+ "Okay, I'll type it in.. hang on... "
+
+ "..it's flashing.. 'Type code match' ..hat good? What does it mea..?"
+
+ "...the damn gun's lining up! The damn space junk gun is lining up!.."
+
+>wait
+ "Just ... the code, tell me the code now!! ... hear me, I need the
+ code..."
+
+ "...oh sh.. oh sh... I'm gonna die! The gun's firing.. I'm gonna
+ die.."
+
+>fire
+ "What do... want me to fire?"
+
+>fire laser
+ "Just ... the code, tell me the code now!! ... hear me, I need the
+ code..."
+
+ "..not going to be please.. ..failed... so close.. ..damn you, DAMN
+ you, DAMN Y"
+
+>wait
+  - Click -
+
+>look
+
+
+
+
+
+
+
+>load failsafe
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           With thanks to Vincent Lynch, Tom Lees, John Bichard.
+
+
+
+
+
+                                            [Please press SPACE to boot
+ up.]
+
+>press green
+
+
+
+
+
+
+
+ Bzzt. Crackle. *Static*
+
+ "...hello? Hello? Can... me? .. Anyone! Hel.... Need.. hello?"
+
+ Bleep - PLEASE WAIT - Locating/Tuning signal...
+
+ ..
+
+ ".. help. Repeat, can anybody hear me? Can you hear me? Hello.."
+
+
+>hello
+ Over."
+
+>look
+ "..what? Can't quite make you out. .. we need help.  This is the space
+ pod 'Serpentine'. We've been attacked, a small cruiser. They.. they
+ came out of nowhere.. tried to board us.. ...stly dead.. systems are
+ all messed up, we're drifting.. I need help to fix this.."
+
+ "I'm by the console, there's wires everywhere. The computer flashing
+ something. What do I do? Hello?"
+
+>twist green and blue
+ "I only.. caught.. wanted me to.. twist the wires."
+
+>connect green and blue
+ "Okay, I'll.. twist the wire ends up... hang on.."
+
+ "Okay - nothing's blown up. Phew.."
+
+>press reset
+ "The computer's stopped blinking. It's shutting down.. oh my God, what
+ have I.. the lights.. hel.. he.."
+
+ Bzzt.
+
+>wait
+ *static*
+
+>wait
+ *static*
+>wait
+
+ Bleep - PLEASE WAIT - signal offline. Retracing..
+
+>wait
+ Bzzzt.. crackle..
+
+ .."God.. Thank God, the lights... Hello, are you there? Are you
+ there.. Hello?"
+
+>press diagnose
+ "Hello..? The line's still a little weak, but I can hear you..? Thank
+ God, thank God, I thought.. everything went dead.."
+
+ "The computer's back up and running now; shall I read the display?"
+
+>press diagnose
+ "Wait - yes, it's reading, it's pretty fast, I'll, hang on.."
+
+ "Damage to decks 1,2 - light. Damage to 3 - partial. Damage to 4 and
+ below - total. That's the ..berths and equipment; damn! Hang on,
+ there's more.. side engines offline, back thrusters erratic. We're
+ going to need to use the lasers to cut them free, they're spinning us
+ off.."
+
+ "I don't know how to operate them.. Are they not controlled from here?
+ No, suppose must not be ... sealed off.. Shall I go down and look?"
+
+>open hatch
+ "Huh?.. right, yes, I'm on it.. "
+
+ "Okay - hang on.. turn the wheel, quite heavy.. Aaargh!.... Y...!"
+
+
+ "..sorry.. slipped on something, cut my leg... I'm okay.. The hatch is
+ open.."
+
+>out
+ "Okay, I'll just slip through.. right."
+
+ "... is the central hub of the ship. Let's see; there's the hatch
+ leading back up the bridge and a couple of other doors around the
+ ring.. a lot sealed off; bulkheads down.. .. couple of bodies floating
+ slightly, red blood.. passages, blocked up leading off into .. marked
+ 'store room' on the door, pretty solid.. and a ladder down, and some
+ debris opposite .. squeeze past, I don't know, I could try to squeeze
+ past it, I think there's..."
+
+>go down
+ "Do what..? You're breaking up.."
+
+>climb ladder
+ "Are you sure.. do I need to? It looks pretty burnt out down there, I
+ don't know how safe it is.. Should I go?"
+
+>yes
+ "Okay then. Hang on.."
+
+ "Climbing down the ladder..."
+
+ Bleep - PLEASE WAIT - Incoming inf from Tracking Station Tranquility
+ Base..
+
+ "Oh God.. it's a real mess down here.. ..third level.. the walkway
+ mangled up in the middle, hairpin.. the walls are all crunched in,
+ toward the base of the ladder, a V.. there's no floor space to stand
+ on.. all the bulkheads around have closed, they're charred.. there's
+ piping, wiring hissing from every crevice.. it's like it's just been
+ .. melted.. "
+
+>examine piping
+ "There's a lot of ... broken, torn pipes here, spewing white gas..
+ it's all mangled up.. and a metal chute of some sort.. seems to be
+ caught in a bulkhead, must have been flying outwards when it closed..
+ all crunched up.."
+
+>examine chute
+ "Chute, running from the level above I think.. the other end is
+ trapped in one of the bulkheads; it's squeezed the chute.. burst it
+ open at the base, along a seam.."
+
+ "They were too damn good for us... better firepower, defences,
+ everything.. .. -"
+
+ Bleep -- accessing records: "Species: G'hilga. First Contact: 2413.
+ War declared 2423..."
+
+  - Initiate Search for Salient Inf (Y/N)?
+>y
+
+ PLEASE WAIT - Filing to secondary processor.
+
+ "- ..  didn't stand a chance.. I guess we were outside the moon
+ security field.. would have polished us off if we hadn't have broken
+ through in time I suppose.."
+
+ Bleep - Processing complete. Enemy fleet massing just outside
+ MoonShield perimeter - All batteries collecting for attack - All
+ civilian/trade ships must land immediately - Boarding pods detected -
+
+
+>look in chute
+ "..something..yes, there's something here. A component, it's little
+ blackened, but it's some sort of component. Quite ... I've picked it
+ up.. I've got it.."
+
+>look
+ "Oh God.. it's a real mess down here.. ..third level.. the walkway
+ mangled up in the middle, hairpin.. the walls are all crunched in,
+ toward the base of the ladder, a V.. there's no floor space to stand
+ on.. all the bulkheads around have closed, they're charred.. there's
+ piping, wiring hissing from every crevice.. it's like it's just been
+ .. melted.. "
+
+ Bleep - Processing complete. Physical form of G'hilga - height 3 foot,
+ monopedal, climb using multiple claws situated over torso, translucent
+ blood - Firepower - superior, though unable to penetrate Moon-shield -
+
+
+>examine wiring
+ "There's a lot of ... broken, torn pipes here, spewing white gas..
+ it's all mangled up.. and a metal chute of some sort.. seems to be
+ caught in a bulkhead, must have been flying outwards when it closed..
+ all crunched up.."
+
+ "Not a lot of crew on board though... could have been worse I guess..
+ just bad luck or something, huh..?"
+
+>go up
+ "What..? The radio's bad .. breaking up, Moon's ...thing.."
+
+>climb ladder
+ "I'm climbing back up.. hard, the Grav's a little looser here.."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>move debris
+ "Okay.. I've hauled a bit out of the way.. not much better though.."
+
+ "I'm still holding onto the blackened component."
+
+>squeeze past debris
+ "It's going to be quite a squeeze.. hang on.. no, I'm through..
+ okay.."
+
+ "The laser! The laser room - it's here!"
+
+ "..'s it! That's the control for the laser!.. Okay, let's... ..very
+ either; d...  on, I'll take a closer look, maybe you can ..."
+
+ "There's a panel by the side of the main controls, numeric pad above
+ that... forced open, like someone.. apart. .."
+
+>put component in panel
+ "Okay, I've slotted it in... hang on... it's powering up!.. oh, ..
+ keypad, the keypad's powered up."
+ ".. from 0 to 9, got a display at the top with.. "
+
+ "All powered up.. need an access code. What's the code?"
+
+ Bleep -- accessing memory -- Lasercodes: ENTER CLASSIFIED SECTOR:
+ (Y/N)?
+>y
+
+>wait
+>wait
+>wait
+>wait
+ Select type no:8 - 7 - 4 - 8
+
+ Bleep -- PLEASE WAIT -- Accessing lasercodes...
+
+>enter 8748
+ "Okay, I'll type it in.. hang on... "
+
+ "..it's flashing.. 'Type code match' ..hat good? What does it mea..?"
+
+>wait
+ CO... !.."
+
+ Bleep -- code accessed:  LASERCODES FOR TYPE 8-7-4-8:
+
+>y
+
+
+ "Moon's getting pretty close.. I can see, damn, I can see the
+ collision battery swinging around.."
+
+>enter 8748
+ "Okay, I'll type it in.. hang on... "
+
+ "..it's flashing.. 'Type code match' ..hat good? What does it mea..?"
+
+ "...the damn gun's lining up! The damn space junk gun is lining up!.."
+
+>wait
+ "Just ... the code, tell me the code now!! ... hear me, I need the
+ code..."
+ "Oh no, I don't believe it! The damn gun.. it oh sh.. ie! ...firing at
+ us! I'm gonna die! I'm gonna die!!"
+
+>enter 8748
+ "Okay, I'll type it in.. hang on... "
+
+ "..it's flashing.. 'Type code match' ..hat good? What does it mea..?"
+
+ "..not going to be please.. ..failed... so close.. ..damn you, DAMN
+ you, DAMN Y"
+
+>q
+  - Click -
+
+>wait
+
+
+
+
+
+
+
+>load failsafe
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           With thanks to Vincent Lynch, Tom Lees, John Bichard.
+
+
+
+
+
+                                            [Please press SPACE to boot
+ up.]
+
+
+
+
+
+
+
+
+ Bzzt. Crackle. *Static*
+
+ "...hello? Hello? Can... me? .. Anyone! Hel.... Need.. hello?"
+
+ Bleep - PLEASE WAIT - Locating/Tuning signal...
+
+ ..
+
+ ".. help. Repeat, can anybody hear me? Can you hear me? Hello.."
+
+
+>hello
+ Over."
+
+>yes
+ "Oh, thank God. Thank God.. ..emergency frequency.. We need help.
+ This is the space pod 'Serpentine'. We've been attacked, a small
+ cruiser. They.. they came out of nowhere.. tried to board us.. ...stly
+ dead.. systems are all messed up, we're drifting.. I need help to fix
+ this.."
+
+ "I'm by the console, there's wires everywhere. The computer flashing
+ something. What do I do? Hello?"
+
+>connect blue and green
+ "Okay, I'll.. twist the wire ends up... hang on.."
+
+ "Okay - nothing's blown up. Phew.."
+
+>push reset
+ "The computer's stopped blinking. It's shutting down.. oh my God, what
+ have I.. the lights.. hel.. he.."
+
+ Bzzt.
+
+>wait
+ Bzzzt.. crackle..
+
+>wait
+ Bzzzt.. crackle..
+>wait
+
+ Bleep - PLEASE WAIT - signal offline. Retracing..
+
+>wait
+ *static*
+
+ .."God.. Thank God, the lights... Hello, are you there? Are you
+ there.. Hello?"
+
+>open hatch
+ "Hello..? The line's still a little weak, but I can hear you..? Thank
+ God, thank God, I thought.. everything went dead.."
+
+ "The computer's back up and running now; shall I read the display?"
+
+>yes
+ "Oh, it's still flashing 'SIDE ENGINES MALFUNCTIONING'. There's a
+ couple of buttons by the side; Reset and Diagnose. Should I press one
+ of these?"
+
+>push diagnose
+ "Wait - yes, it's reading, it's pretty fast, I'll, hang on.."
+
+ "Damage to decks 1,2 - light. Damage to 3 - partial. Damage to 4 and
+ below - total. That's the ..berths and equipment; damn! Hang on,
+ there's more.. side engines offline, back thrusters erratic. We're
+ going to need to use the lasers to cut them free, they're spinning us
+ off.."
+
+ "I don't know how to operate them.. Are they not controlled from here?
+ No, suppose must not be ... sealed off.. Shall I go down and look?"
+
+>yes
+ "Okay then. Hang on.."
+
+ "The hatchway isn't open.. I can't.. through.. "
+
+>open hatch
+ "Okay - hang on.. turn the wheel, quite heavy.. Aaargh!.... Y...!"
+
+
+ "..sorry.. slipped on something, cut my leg... I'm okay.. The hatch is
+ open.."
+
+>enter hatch
+ "Okay, I'll just slip through.. right."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>climb ladder
+ "Are you sure.. do I need to? It looks pretty burnt out down there, I
+ don't know how safe it is.. Should I go?"
+
+>take component
+ "I don't see.. I don't see what you mean at all."
+
+>climb ladder
+ "Climbing down the ladder..."
+
+ Bleep - PLEASE WAIT - Incoming inf from Tracking Station Tranquility
+ Base..
+
+ "Oh God.. it's a real mess down here.. ..third level.. the walkway
+ mangled up in the middle, hairpin.. the walls are all crunched in,
+ toward the base of the ladder, a V.. there's no floor space to stand
+ on.. all the bulkheads around have closed, they're charred.. there's
+ piping, wiring hissing from every crevice.. it's like it's just been
+ .. melted.. "
+
+>take component
+ "Too much static. Say the noun ... please.. I didn't underst.. you.."
+
+>examine pipes
+ "There's a lot of ... broken, torn pipes here, spewing white gas..
+ it's all mangled up.. and a metal chute of some sort.. seems to be
+ caught in a bulkhead, must have been flying outwards when it closed..
+ all crunched up.."
+
+>examine chute
+ "Chute, running from the level above I think.. the other end is
+ trapped in one of the bulkheads; it's squeezed the chute.. burst it
+ open at the base, along a seam.."
+
+ Bleep - Processing complete. Enemy fleet massing just outside
+ MoonShield perimeter - All batteries collecting for attack - All
+ civilian/trade ships must land immediately - Boarding pods detected -
+
+
+>look in chute
+ "..something..yes, there's something here. A component, it's little
+ blackened, but it's some sort of component. Quite ... I've picked it
+ up.. I've got it.."
+
+>climb ladder
+ "I'm climbing back up.. hard, the Grav's a little looser here.."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>move debris
+ "Okay.. I've hauled a bit out of the way.. not much better though.."
+
+ "I'm still holding onto the blackened component."
+
+>squeeze past debris
+ "It's going to be quite a squeeze.. hang on.. no, I'm through..
+ okay.."
+
+ "The laser! The laser room - it's here!"
+
+ "..'s it! That's the control for the laser!.. Okay, let's... ..very
+ either; d...  on, I'll take a closer look, maybe you can ..."
+
+ "There's a panel by the side of the main controls, numeric pad above
+ that... forced open, like someone.. apart. .."
+
+>put component in panel
+ "Okay, I've slotted it in... hang on... it's powering up!.. oh, ..
+ keypad, the keypad's powered up."
+ ".. from 0 to 9, got a display at the top with.. "
+
+ "All powered up.. need an access code. What's the code?"
+
+ Bleep -- accessing memory -- Lasercodes: ENTER CLASSIFIED SECTOR:
+ (Y/N)?
+>y
+
+ Select type no:8 - 7 - 4 - 8
+
+ Bleep -- PLEASE WAIT -- Accessing lasercodes...
+
+>wait
+ "Come on, hurry up.. .what's the code for the laser, what's the
+ code??"
+
+>enter 8748
+ "Okay, I'll type it in.. hang on... "
+
+ "..it's flashing.. 'Type code match' ..hat good? What does it mea..?"
+
+ "Moon's getting pretty close.. I can see, damn, I can see the
+ collision battery swinging around.."
+
+>enter 1374
+ "Okay, I'll type it in.. hang on... "
+
+ ... of it! Do you hear me, Human? I have control of the laser!"
+
+ BOOM
+
+>look
+
+ not quite grasp the stupidity of what you have just done. The Empire
+ will - "
+
+ BOOM
+
+>wait
+ " - be most - "
+
+ Bleep - PLEASE WAIT - New Signal Located.. Locating/Tuning...
+
+ "Hello? Alpha Station Computer, this is MoonDome Beta-3. We need your
+ assistance, we've been attacked; they're through the shield. It's Frag
+ firepower! I don't know how it's coming through the shield, but it's
+ definitely Frag weaponry! We thought we could see some attachment to a
+ civilian transport. Repeat: We need assistance. Require.."
+
+ Bleep - PLEASE WAIT - Channeling signal into secondary processor...
+
+ " - where many have failed. Our long war is over, I think, Human. We
+ have you to thank for that. You are a true hero. I - "
+
+ BOOM
+
+>wait
+
+ - " wish you a good death."
+
+ Bleep - Power source fluctuations. Memory sections damaged. Control
+ un..
+
+             - BOOM -
+
+>wait
+
+>load failsafe
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           With thanks to Vincent Lynch, Tom Lees, John Bichard.
+
+
+
+
+
+                                            [Please press SPACE to boot
+ up.]
+
+
+
+
+
+
+
+
+ Bzzt. Crackle. *Static*
+
+ "...hello? Hello? Can... me? .. Anyone! Hel.... Need.. hello?"
+
+ Bleep - PLEASE WAIT - Locating/Tuning signal...
+
+ ..
+
+ ".. help. Repeat, can anybody hear me? Can you hear me? Hello.."
+
+
+>hello
+ Over."
+
+>yes
+ "Oh, thank God. Thank God.. ..emergency frequency.. We need help.
+ This is the space pod 'Serpentine'. We've been attacked, a small
+ cruiser. They.. they came out of nowhere.. tried to board us.. ...stly
+ dead.. systems are all messed up, we're drifting.. I need help to fix
+ this.."
+
+ "I'm by the console, there's wires everywhere. The computer flashing
+ something. What do I do? Hello?"
+
+>connect blue and green
+ "Okay, I'll.. twist the wire ends up... hang on.."
+
+ "Okay - nothing's blown up. Phew.."
+
+>press reset
+ "The computer's stopped blinking. It's shutting down.. oh my God, what
+ have I.. the lights.. hel.. he.."
+
+ Bzzt.
+
+>wait
+ *static*
+
+>wait
+ *static*
+>wait
+
+ Bleep - PLEASE WAIT - signal offline. Retracing..
+
+>wait
+ *static*
+
+ .."God.. Thank God, the lights... Hello, are you there? Are you
+ there.. Hello?"
+
+>Hello
+ "Oh, fantastic, so good to hear you! .. everything went dead.. thought
+ I'd lost it all for a second.. Geez!"
+
+ "Computer's back on-line now. Shall I read the display to you?"
+
+>yes
+ "Oh, it's still flashing 'SIDE ENGINES MALFUNCTIONING'. There's a
+ couple of buttons by the side; Reset and Diagnose. Should I press one
+ of these?"
+
+>push diagnose
+ "Wait - yes, it's reading, it's pretty fast, I'll, hang on.."
+
+ "Damage to decks 1,2 - light. Damage to 3 - partial. Damage to 4 and
+ below - total. That's the ..berths and equipment; damn! Hang on,
+ there's more.. side engines offline, back thrusters erratic. We're
+ going to need to use the lasers to cut them free, they're spinning us
+ off.."
+
+ "I don't know how to operate them.. Are they not controlled from here?
+ No, suppose must not be ... sealed off.. Shall I go down and look?"
+
+>yes
+ "Okay then. Hang on.."
+
+ "The hatchway isn't open.. I can't.. through.. "
+
+>open hatch, you idiot
+ "I don't think... can.. more than one at a time.."
+
+>open hatch
+ "Okay - hang on.. turn the wheel, quite heavy.. Aaargh!.... Y...!"
+
+
+ "..sorry.. slipped on something, cut my leg... I'm okay.. The hatch is
+ open.."
+
+>who are you
+ "Do what..? You're breaking up.."
+
+>enter hatch
+ "Okay, I'll just slip through.. right."
+
+ "Okay - this is the central hub... ..there's the hatch leading back up
+ the bridge and a couple of other doors.. a lot sealed off; bulkheads
+ off into... ...marked 'store room' on the door... and a ladder down,
+ and some debris opposite the door.. ...squeeze past, I don't know.."
+
+>climb ladder
+ "Are you sure.. do I need to? It looks pretty burnt out down there, I
+ don't know how safe it is.. Should I go?"
+
+>yes
+ "Okay then. Hang on.."
+
+ "Climbing down the ladder..."
+
+ Bleep - PLEASE WAIT - Incoming inf from Tracking Station Tranquility
+ Base..
+
+ "Oh God.. it's a real mess down here.. ..third level.. the walkway
+ mangled up in the middle, hairpin.. the walls are all crunched in,
+ toward the base of the ladder, a V.. there's no floor space to stand
+ on.. all the bulkheads around have closed, they're charred.. there's
+ piping, wiring hissing from every crevice.. it's like it's just been
+ .. melted.. "
+
+>look in chute
+ "..something..yes, there's something here. A component, it's little
+ blackened, but it's some sort of component. Quite ... I've picked it
+ up.. I've got it.."
+
+>climb ladder
+ "I'm climbing back up.. hard, the Grav's a little looser here.."
+
+ "... is the central hub of the ship. Let's see; there's the hatch
+ leading back up the bridge and a couple of other doors around the
+ ring.. a lot sealed off; bulkheads down.. .. couple of bodies floating
+ slightly, red blood.. passages, blocked up leading off into .. marked
+ 'store room' on the door, pretty solid.. and a ladder down, and some
+ debris opposite .. squeeze past, I don't know, I could try to squeeze
+ past it, I think there's..."
+
+ Bleep - Processing complete. Enemy fleet massing just outside
+ MoonShield perimeter - All batteries collecting for attack - All
+ civilian/trade ships must land immediately - Boarding pods detected -
+
+
+>move debris
+ "Okay.. I've hauled a bit out of the way.. not much better though.."
+
+>push past debris
+ "I don't see - no I ....what you mean at all."
+
+>squeeze past debris
+ "It's going to be quite a squeeze.. hang on.. no, I'm through..
+ okay.."
+
+ "The laser! The laser room - it's here!"
+
+ "..'s it! That's the control for the laser!.. Okay, let's... ..very
+ either; d...  on, I'll take a closer look, maybe you can ..."
+
+ "There's a panel by the side of the main controls, numeric pad above
+ that... forced open, like someone.. apart. .."
+
+>put component in panel
+ "Okay, I've slotted it in... hang on... it's powering up!.. oh, ..
+ keypad, the keypad's powered up."
+ ".. from 0 to 9, got a display at the top with.. "
+
+ "All powered up.. need an access code. What's the code?"
+
+ Bleep -- accessing memory -- Lasercodes: ENTER CLASSIFIED SECTOR:
+ (Y/N)?
+>yes
+
+ Select type no:8 - 7 - 4 - 8
+
+ Bleep -- PLEASE WAIT -- Accessing lasercodes...
+
+>enter 8748
+ "Okay, I'll type it in.. hang on... "
+
+ "..it's flashing.. 'Type code match' ..hat good? What does it mea..?"
+
+>enter 6126
+ "Okay, I'll type it in.. hang on... "
+
+ ..the fleet, targetting our fleet... all automatic.. damn it! ... The
+ fleet - the fleet's being ripped apart... I improved the laser
+ cannon... oh no... damn you, Human..."
+
+
+ "..firing back at me... what have I... damn you!!! DAMN YOU!!! DAMN Y
+ -
+
+ BOOM
+
+  - Click -
+
+>wait
+
+>no damn u

@@ -1,0 +1,2664 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+	<title>AllThingsJacq.com - Interactive Fiction | ClubFloyd - March 20, 2016 - Garbage Collection and Gaia's Web by Matt Weiner (as expl0rerfr34k) and Nigel Jayne, respectively</title>
+		<meta charset="utf-8">
+		<meta name="Author" content="Jacqueline A. Lott">
+		<meta name="revisit-after" content="30days">
+		<meta name="Robots" content="all">
+		<meta name="Keywords" content="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+		<meta name="Description" content="Internet site of Jacqueline A. Lott.">
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+
+<body>
+	<div class="centered narrowcol" id="top">
+		<table>
+			<tr>
+				<td>
+					<div class="centered centeralign">
+						<br>
+						<a href="index.html"><img src="/graphics/atj_logo.jpg"
+							width="250" height="170"  alt="All Things Jacq"><br>
+							<img src="/graphics/home.jpg" width="75" height="25"
+							 alt="Home"><br></a><br>
+						 <a href="writing.html">
+							 <img alt="Writing" src="/graphics/writing1.jpg" 
+								width="100" height="140" id="Writing"/>
+						</a>
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1">
+						<a href="interactive_fiction.html">
+							<img alt="InteractiveFiction"
+								src="/graphics/intfic1.jpg" width="100" height="140" 
+								id="InteractiveFiction">
+						</a> 
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1">
+						<a href="photography.html">
+							<img alt="Photography" src="/graphics/photos1.jpg" 
+							width="100" height="140" id="Photography">
+						</a> 
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1" >
+						<a href="miscellany.html">
+							<img alt="Miscellany" src="/graphics/misc1.jpg" 
+								width="100" height="140" id="Miscellany">
+						</a>
+					</div>
+
+
+					<hr/>
+					<p class="leftalign">
+						ClubFloyd Transcript:<br/>
+						
+						
+						<strong><em>Garbage Collection</em> by Matt Weiner (as expl0rerfr34k)</strong><br/>
+						
+						
+						<strong><em>Gaia's Web</em> by Nigel Jayne</strong><br/>
+						
+						<span class="fontish smallest">As played on ifMUD on March 20, 2016</span>
+					</p>
+
+
+					<p class="leftalign">
+					<span class="fontish smaller">
+						
+						The idea behind ClubFloyd is that each
+						week at a pre-arranged time, a group of
+						people meet online to cooperatively play
+						a game of interactive fiction.
+						
+						<br>
+						<br>
+						Below is a transcript of
+						
+						
+						<em>Garbage Collection</em> written by Matt Weiner (as expl0rerfr34k), 
+						
+						and <em>Gaia's Web</em> written by Nigel Jayne.
+						It was part of the Imaginary Games from Imaginary Universes Game Jam. 
+						
+						You can learn more about the games, including how to download them, by visiting
+						
+						
+							
+								<a class="decorate" href="https://bluerenga.wordpress.com/2016/02/23/imaginary-games-from-imaginary-universe-public-release/">Renga in Blue</a>.
+								
+							
+						
+					</span><br>
+					<br>
+					
+						
+					
+					<span class="warning">WARNING!</span>
+					<span class="fontish smaller">Below you will find a transcript of
+						people playing these games, and it goes without saying that
+						the transcript is full of spoilers. So, if you've never
+						played these games, and think you might like to at some
+						point, I do not recommend reading any further. Instead,
+						you might want to return to the <a class="decorate" href=
+						"interactive_fiction.html">interactive fiction
+							page</a>.<br>
+					</span>
+					</p>
+					
+					
+						<p class="fontish smaller">
+						<strong>To skip directly to a particular game, click on its title:</strong><br/><br/>
+						
+						
+						<a href="#1-garbagecollection"><u>Garbage Collection</u></a> by Matt Weiner (as expl0rerfr34k)<br/>
+						
+						
+						<a href="#2-gaiaweb"><u>Gaia's Web</u></a> by Nigel Jayne<br/>
+						
+						</p>
+					
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div>
+
+		<table class="transcript">
+			<tr>
+
+				<td colspan="3"><hr/></td>
+
+			</tr>
+
+
+			<tr>
+
+				<td class="heading room">
+					<div class="centered">
+						<strong>ToyShop &amp; Floyditorium</strong>
+					</div>
+				</td>
+
+				<td class="gutter">
+				</td>
+
+				<td class="heading interlude">
+					<div class="centered">
+						<strong>#ClubFloyd Discussion</strong>
+					</div>
+				</td>
+
+			</tr>
+
+
+			<tr>
+
+				<td><hr/></td>
+
+				<td>
+				</td>
+
+				<td><hr/></td>
+			</tr><tr><td><br></td></tr>
+
+
+			<!-- Transcript goes here -->
+			<tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "what did we have in mind for this week, more Imaginary Games?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks (of DW), "Do you recall what the other Floydable games were in the imaginary games from imaginary universes collection?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "the Garbage game was one"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says (to Teaspoon), "That's right. Thanks. I'll get that set up."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "lessee. Gaia's Web, Garbage Collection, Unreal City."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "Thanks."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Oh really? That many. Cool."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "(I didn't remember, but I now indicate the platform in game directories.)"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "ah"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks (of DW), "Are you ready, or do you still need a minute?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says (to Jacqueline), "One could also say that few. There's a lot more than four non-Floyables."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Yeah."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "uh. I used the bathroom and rinsed my mouth. I'll catch up with as we play."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "er with the rest."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I have cereal and paper and tea to hand."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "Well, first off, has everybody read the blurb?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "Yes."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "no"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "(I'm reading it now.)"
+</td></tr><tr><td class="room"><b>olethros</b> arrives, full of fun and funk.
+</td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "hey, I am here too, for a change. Where is the blurb"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude">[<a href="<b>Teaspoon</b>  says, "https://bluerenga.wordpress.com/2016/02/23/imaginary-games-from-imaginary-universe-public-release/"
+">LINK</A>]</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "halfway down"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "not precise enough"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says (to olethros), "Garbage Collection"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "I'm ready when others are."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I'm mostly ready. This sounds like it'll be fun."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "ok"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "It does. Though this may not be that game."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "This may be a fanfic of that game."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "But I kind of suspect it'll be that game."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "looks fun anyhow"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "sounds like quite an experience"
+</td></tr><tr id="1-garbagecollection" ><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">load sleepmask garbagecollection</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Some of our more goal-oriented friends have complained that</span>
+<b>Floyd</b> | <span class="floydstyle em">explorers are too aimless--they don't know what to do with something</span>
+<b>Floyd</b> | <span class="floydstyle em">that just gives you a bunch of stuff to take apart. So I decided to</span>
+<b>Floyd</b> | <span class="floydstyle em">give them a nice linear directed version of the Garbage Explorer</span>
+<b>Floyd</b> | <span class="floydstyle em">experience. Happy garbage-picking!--expl0rerfr34k</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Garbage Collection</span>
+<b>Floyd</b> | An Interactive Fiction by expl0rerfr34k (retrieved to this world by
+<b>Floyd</b> | Matt Weiner)
+<b>Floyd</b> | Release 1 / Serial number 160207 / Inform 7 build 6L38 (I6/v6.33 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> |
+<b>Floyd</b> | You pick up some garbage from the dump: A yellow film shimmers on a
+<b>Floyd</b> | sharp metal fragment.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "haha"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "heh, well-played"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "yay"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "Indeed - but will it now just be a stream of garbage descriptions, always with a 'Examine another piece of garbage? (y/n)'?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "let's see"
+</td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">n</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; N</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You leave the dump.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     <span class="floydstyle i">*** The End ***</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, or QUIT?
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">restart</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Some of our more goal-oriented friends have complained that</span>
+<b>Floyd</b> | <span class="floydstyle em">explorers are too aimless--they don't know what to do with something</span>
+<b>Floyd</b> | <span class="floydstyle em">that just gives you a bunch of stuff to take apart. So I decided to</span>
+<b>Floyd</b> | <span class="floydstyle em">give them a nice linear directed version of the Garbage Explorer</span>
+<b>Floyd</b> | <span class="floydstyle em">experience. Happy garbage-picking!--expl0rerfr34k</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Garbage Collection</span>
+<b>Floyd</b> | An Interactive Fiction by expl0rerfr34k (retrieved to this world by
+<b>Floyd</b> | Matt Weiner)
+<b>Floyd</b> | Release 1 / Serial number 160207 / Inform 7 build 6L38 (I6/v6.33 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> |
+<b>Floyd</b> | You pick up some garbage from the dump: A white slick bubbles out of a
+<b>Floyd</b> | jagged chunk of rock.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "snrk"
+</td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A bent rubber strand.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "wait, y/n? We haven't examined it yet."
+</td></tr><tr><td class="room"><b>Roger</b> arrives, full of fun and funk.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">x strand</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; X STRAND</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Please answer yes or no.&gt;
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "oh hell. Lagging again badly."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Aw. I think it may just be this. Which, to be fair, would be INSANELY easy to implement."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "Hi kids"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A piece of metal is screwed to a fragment of plastic.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>olethros</b>  says, "you just examine them one by one by clicking Y or N"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "I guess lets do a few more just to ensure there's not more here?"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A smashed shard of plastic.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A cracked shard of plastic is attached to a cracked fragment of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | In the pits of a block of rock a fuchsia liquid gathers.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">look</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; LOOK</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Please answer yes or no.&gt;
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A knotted strand of rubber is screwed to a sharp piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "oh, I am disappointed."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "maybe we can play the original"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "it...does seem to be a bit of a letdown."
+</td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A smooth wooden panel is lodged in a chunk of earth.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A sharp piece of wood is attached to a smashed fragment of plastic.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Into a length of rope sinks a red slick.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "We don't get to examine anything."
+</td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">get ope</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; GET OPE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Please answer yes or no.&gt;
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "I suspect it's at least pulling the sentence fragments from a table so that there are a lot of different combos..."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">sing</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; SING</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Please answer yes or no.&gt;
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "But yeah, that's kind of meh."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "damn it, I only join once for floyd, and"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Fortunately, I uploaded another game."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "good thing too"
+</td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A fragment of rubber is tied to a cracked piece of plastic.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A chartreuse ooze shines on a fragment of metal and wets a wooden
+<b>Floyd</b> | fragment that it is screwed to.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A thick mass of earth is wetted by a chartreuse liquid.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A white slick drips down a string of rubber and wets a piece of rope
+<b>Floyd</b> | that it is tied to.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>olethros</b>  says, "there is some interaction"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "the garbage interacts with itself"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "heh"
+</td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">y</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; Y</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A fuchsia secretion beads up on a smashed piece of glass.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  asks, "May I end this?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says, "yes"
+</td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">n</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; N</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You leave the dump.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     <span class="floydstyle i">*** The End ***</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, or QUIT?
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Roger</b>  says, "YES"
+</td></tr><tr><td class="room">olethros says (to Floyd), "<span class="floydcommand">hints</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; HINTS</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Please give one of the answers above.
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, or QUIT?
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Roger</b>  says, "Uh oh"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Do the descriptions get longer, then?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>olethros</b>  says (to DW), "seems like it"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "Does it?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I'm lagging badly again, unfortunately."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "restart"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I'm not sure that the descriptions do get longer or not."
+</td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">restart</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Some of our more goal-oriented friends have complained that</span>
+<b>Floyd</b> | <span class="floydstyle em">explorers are too aimless--they don't know what to do with something</span>
+<b>Floyd</b> | <span class="floydstyle em">that just gives you a bunch of stuff to take apart. So I decided to</span>
+<b>Floyd</b> | <span class="floydstyle em">give them a nice linear directed version of the Garbage Explorer</span>
+<b>Floyd</b> | <span class="floydstyle em">experience. Happy garbage-picking!--expl0rerfr34k</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Garbage Collection</span>
+<b>Floyd</b> | An Interactive Fiction by expl0rerfr34k (retrieved to this world by
+<b>Floyd</b> | Matt Weiner)
+<b>Floyd</b> | Release 1 / Serial number 160207 / Inform 7 build 6L38 (I6/v6.33 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> |
+<b>Floyd</b> | You pick up some garbage from the dump: A chartreuse slick pools on a
+<b>Floyd</b> | plastic surface.
+<b>Floyd</b> |
+<b>Floyd</b> | Examine another piece of garbage? (y/n)
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">hints</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; HINTS</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Please answer yes or no.&gt;
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says (to Roger), "There you go, Roger."
+</td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">n</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt; N</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You leave the dump.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     <span class="floydstyle i">*** The End ***</span>
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, or QUIT?
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">quit</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; QUIT</span>
+<b>Floyd</b> | debugcheapnitfol quit with exit status: 0
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr id="2-gaiaweb" ><td class="room"><b>Floyd</b> asks, "That game over already?  It was just getting good.  Wanna play another?"
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">load sleepmask gaiaweb</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ] <span class="floydstyle i">Chapter 12: The Silence of the Thunder</span>                 Quests:
+</b><b>Floyd</b> | 11/12
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Stream of Consciousness</span>
+<b>Floyd</b> | From among the trees, you continue to watch the naked women. The
+<b>Floyd</b> | younger and shorter of the two wades into the stream, her hair like
+<b>Floyd</b> | threads spun from Midas' gold. She lowers her basket to the water's
+<b>Floyd</b> | surface. Fish flop into it, settling into a motionless stack. The
+<b>Floyd</b> | other woman, bright flowers in her black hair, plucks apples from a
+<b>Floyd</b> | tree and drops them into the basket hanging from her arm. The fruit
+<b>Floyd</b> | ripen and swell under her touch.
+<b>Floyd</b> |
+<b>Floyd</b> | You were right. Nymphs. Your search is nearly over.
+<b>Floyd</b> |
+<b>Floyd</b> | The water nymph returns to land. She begins to sing. The forest nymph
+<b>Floyd</b> | joins in, her pitch deeper than that of the blond. With both of their
+<b>Floyd</b> | baskets full, the pair follow the bank upstream.
+<b>Floyd</b> |
+<b>Floyd</b> | You venture from the trees to the stream, keeping the nymphs in sight.
+<b>Floyd</b> | They have joined a group of their sisters to the north of you. You
+<b>Floyd</b> | call that direction "north" because you're facing it; fatigue has
+<b>Floyd</b> | rendered your inner compass as trustworthy as Zeus with a farmer's
+<b>Floyd</b> | daughter.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "Oh, the blurb for this one is on the same page, just below the blurb for Garbage Collection."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "er"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">help</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ] HELP MENU
+</b><b>Floyd</b><b> ]               Press a number to choose an option or
+</b><b>Floyd</b><b> ]                       ESCAPE or X to exit.
+</b><b>Floyd</b><b> ]                  (Press M to turn Book Mode ON.)
+</b><b>Floyd</b><b> ]
+</b><b>Floyd</b> |
+<b>Floyd</b> | (If you're using a screen reader, press S to turn on Screen Reader
+<b>Floyd</b> | mode. This message only appears on the front page of the menu system.)
+<b>Floyd</b> |
+<b>Floyd</b> | 1. Introduction and How to Play (for novice and experienced
+<b>Floyd</b> | interactive fiction players)
+<b>Floyd</b> |      2. Hints
+<b>Floyd</b> |      3. Untangling the Web
+<b>Floyd</b> |      4. Acknowledgements
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>olethros</b>  says, "afk for a bit"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">4</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ] Acknowledgements (page 1 of 1)
+</b><b>Floyd</b><b> ]
+</b><b>Floyd</b><b> ]           Press ESCAPE to return to menu or X to exit.
+</b><b>Floyd</b><b> ]                  (Press M to turn Book Mode ON.)
+</b><b>Floyd</b><b> ]
+</b><b>Floyd</b> | <span class="floydstyle em">( - Acknowledgements)</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The creative team behind <span class="floydstyle em">Gaia's Web</span> was headed by Nigel
+<b>Floyd</b> | Jayne, with code contributed by Wade Clarke, Eric Eve, Stephen
+<b>Floyd</b> | Granade, Alice Grove, Jon Ingold, Aaron Reed, Emily Short, and Erik
+<b>Floyd</b> | Temple. Thank you to Jonathan Blask and David White for consulting on
+<b>Floyd</b> | the project and for testing. Comments and transcripts are welcome.
+<b>Floyd</b> | Send them to nigelsjayne@gmail.com. The game was designed using Inform
+<b>Floyd</b> | 7 ([<a href="http://inform7.com/">LINK</A>]), created by Graham Nelson with help from Emily
+<b>Floyd</b> | Short and many others.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">------------------------</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "interesting pedigree"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "'code contributed by' probably refers to extensions used."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "oooh, thata makes more sense"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Yeah, but that's very clever."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Just the wording, given this premise."
+</td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">x</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ] <span class="floydstyle i">Chapter 12: The Silence of the Thunder</span>
+</b><b>Floyd</b> | Quests: 11/12
+<b>Floyd</b> | <span class="floydstyle i">Stream of Consciousness</span>
+<b>Floyd</b> | You're transfixed by the naked nymphs gathered to the north.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ] <span class="floydstyle i">Chapter 12: The Silence of the Thunder</span>
+</b><b>Floyd</b> | Quests: 11/12
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; I</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Instead of lugging them around in your sack, you've decided to wear
+<b>Floyd</b> | Hades' helmet and Hermes' sandals, and carry Poseidon's trident. You
+<b>Floyd</b> | also carry the sirens' song locked in your head. The sack contains
+<b>Floyd</b> | even more bounty:
+<b>Floyd</b> | Achilles' heel
+<b>Floyd</b> | Asclepius" staff
+<b>Floyd</b> | some golden apples
+<b>Floyd</b> | the Graeae's eye
+<b>Floyd</b> | a plank, possibly from the ship of Theseus
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">listen</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ] <span class="floydstyle i">Chapter 12: The Silence of the Thunder</span>
+</b><b>Floyd</b> | Quests: 11/12
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; LISTEN</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You reluctantly pull your attention away from the nymphs. The sirens
+<b>Floyd</b> | sing to the fishes now, while their feathered bodies thrash in the
+<b>Floyd</b> | tides among the rocks. Their song remains, however, starting every
+<b>Floyd</b> | morning upon awakening, plucking away at your brain like an eagle at
+<b>Floyd</b> | Prometheus' liver.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "The Graeae again."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">sing</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; SING</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> | &gt;* Implement this verb..Noted.
+<b>Floyd</b> |
+<b>Floyd</b> | ***
+<b>Floyd</b> |
+<b>Floyd</b> | Sighing, you decide that's enough testing for now. you close the
+<b>Floyd</b> | interpreter.
+<b>Floyd</b> |
+<b>Floyd</b> | Press a key to continue.
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "Coincidence, or was that part of the writing prompts for this&gt;"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "interesting"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "are we playing someone implementing a game?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "They are not listed on this site. I think it may actually be coincidental."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "look"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">look</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ] <span class="floydstyle i">Chapter 12: The Silence of the Thunder</span>
+</b><b>Floyd</b> | Quests: 11/12
+<b>Floyd</b> | <span class="floydstyle i">Gaia's Web</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Interactive Quality Assurance by The FromChaos Team, headed by Nigel
+<b>Floyd</b> | Jayne. Version 1. Copyright © 2016 by Nigel Jayne. LICENSE shows
+<b>Floyd</b> | copyright information.
+<b>Floyd</b> | All rights reserved. Serial number 160223 / Inform 7 build 6L38
+<b>Floyd</b> | (I6/v6.33 lib 6/12N) .
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | A naked blond nymph is sitting on your desk, a clipboard resting on
+<b>Floyd</b> | her crossed legs. She taps her pouty lips with a pen. It falls from
+<b>Floyd</b> | her delicate fingers, teeters on her knee, and lands on the floor. She
+<b>Floyd</b> | frowns then bends over.
+<b>Floyd</b> |
+<b>Floyd</b> | You blink your weary eyes. The woman disappears. A nymph secretary
+<b>Floyd</b> | doesn't come with the job, but the office that does seems just as
+<b>Floyd</b> | unreal, with decor the dream of any teenager: big-screen television,
+<b>Floyd</b> | stereo system, and soundproofed walls. Even the window can be covered
+<b>Floyd</b> | to block exterior light and sound. Outside the window and anchored to
+<b>Floyd</b> | the building is a drone launch pad. The most important piece of
+<b>Floyd</b> | equipment, though, remains the desktop computer.
+<b>Floyd</b> |
+<b>Floyd</b> | All of this seemed intimidating when, six months ago, you joined the
+<b>Floyd</b> | team responsible for keeping <span class="floydstyle em">S.hip of Theseus</span> afloat by
+<b>Floyd</b> | providing the players real-time updates and orchestrating the game's
+<b>Floyd</b> | real-world interactivity. Fortunately, the project team is large, and
+<b>Floyd</b> | much of the typical player experience is automated, so you usually
+<b>Floyd</b> | have time for more conventional game development. Right now, though,
+<b>Floyd</b> | <span class="floydstyle em">Thunderbird</span> alerts you to an e-mail message with the subject
+<b>Floyd</b> | "RST Article."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Experienced and new players of interactive fiction should type</span>
+<b>Floyd</b> | <span class="floydstyle i">ABOUT</span>.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Roger</b>  says, "Hunh"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  exclaims, "we're a game designer!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "hunh indeed"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "Carrying around a piece of Achilles is pretty gross"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; I</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Instead of lugging them around in your sack, you've decided to wear
+<b>Floyd</b> | Hades' helmet and Hermes' sandals, and carry Poseidon's trident. The
+<b>Floyd</b> | sack contains even more bounty:
+<b>Floyd</b> | Achilles' heel
+<b>Floyd</b> | Asclepius" staff
+<b>Floyd</b> | some golden apples
+<b>Floyd</b> | the Graeae's eye
+<b>Floyd</b> | a plank, possibly from the ship of Theseus
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "We didn't get to stay in the first story very long. I'm feeling confused."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Also, is that a bug or not?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "we're a game designer who is testing our Greek-myth game in which we get to spy on lots of girls. In real life we've got a big shiny office."
+</td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">about</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ] Acknowledgements (page 1 of 1)
+</b><b>Floyd</b><b> ]
+</b><b>Floyd</b><b> ]           Press ESCAPE to return to menu or X to exit.
+</b><b>Floyd</b><b> ]                  (Press M to turn Book Mode ON.)
+</b><b>Floyd</b><b> ]
+</b><b>Floyd</b> | <span class="floydstyle em">( - Acknowledgements)</span>
+<b>Floyd</b> |
+<b>Floyd</b> | The creative team behind <span class="floydstyle em">Gaia's Web</span> was headed by Nigel
+<b>Floyd</b> | Jayne, with code contributed by Wade Clarke, Eric Eve, Stephen
+<b>Floyd</b> | Granade, Alice Grove, Jon Ingold, Aaron Reed, Emily Short, and Erik
+<b>Floyd</b> | Temple. Thank you to Jonathan Blask and David White for consulting on
+<b>Floyd</b> | the project and for testing. Comments and transcripts are welcome.
+<b>Floyd</b> | Send them to nigelsjayne@gmail.com. The game was designed using Inform
+<b>Floyd</b> | 7 ([<a href="http://inform7.com/">LINK</A>]), created by Graham Nelson with help from Emily
+<b>Floyd</b> | Short and many others.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">------------------------</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "Oh."
+</td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">x</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | Six months on the job, and your office still seems unreal: big-screen
+<b>Floyd</b> | television, stereo system, soundproofed walls, and a cover for the
+<b>Floyd</b> | window to minimize exterior sound and light. Outside the window and
+<b>Floyd</b> | anchored to the building is a drone launch pad. The most important
+<b>Floyd</b> | piece of equipment, though, remains the desktop computer. On it,
+<b>Floyd</b> | <span class="floydstyle em">Thunderbird</span> has flagged an e-mail message with the subject
+<b>Floyd</b> | "RST Article.".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">x me</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; X ME</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You give yourself a strength of about 60, more mental than physical,
+<b>Floyd</b> | but you're determined to increase the maximum of both. Your stamina
+<b>Floyd</b> | started at 50 this morning after a good night's sleep, but weariness
+<b>Floyd</b> | has set in, and the early-afternoon caffeine jolt is fizzing out.
+<b>Floyd</b> | Maybe it's 25 now? Charm, on the other hand, holds steady at 50. The
+<b>Floyd</b> | HR department at FromChaos wanted "excellent interpersonal skills" for
+<b>Floyd</b> | this job, which isn't normally associated with a code-tester position.
+<b>Floyd</b> | It didn't take you too long after joining the <span class="floydstyle em">S.hip of</span>
+<b>Floyd</b> | <span class="floydstyle em">Theseus</span> team to learn why being cast such a large number for
+<b>Floyd</b> | "charm" on a throw of the cosmic dice would be so important.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">x computer</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; X COMPUTER</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Every titan on the <span class="floydstyle em">S.hip</span> team monitors their own distinct set
+<b>Floyd</b> | of players. Outfitted with microphone and webcam, and with a
+<b>Floyd</b> | touch-screen, the computer is everything a titan needs. Using the
+<b>Floyd</b> | <span class="floydstyle em">HarborMaster</span> software, a titan can fix bugs in real-time,
+<b>Floyd</b> | monitor players through both transcripts and game sessions, and
+<b>Floyd</b> | initiate real-world responses, which include directing drones and
+<b>Floyd</b> | communicating with field agents.
+<b>Floyd</b> |
+<b>Floyd</b> | Thunderbird, your e-mail program, is open, and the "Rebuilding the
+<b>Floyd</b> | Ship" message has been flagged.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">read message</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; READ MESSAGE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You touch the flagged e-mail. The e-mail is from Kathryn Bogelew, one
+<b>Floyd</b> | of the Marketing executives at FromChaos: Below is an article that
+<b>Floyd</b> | will be published by <span class="floydstyle em">The First POV</span> on Monday. Please notify
+<b>Floyd</b> | me if it contains contentious material. Thank you.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Will the Ship Sink?</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Two years ago, an anonymous game creator released <span class="floydstyle em">S.hip of</span>
+<b>Floyd</b> | <span class="floydstyle em">Theseus,</span> a game that redefined "interactive." The game took place
+<b>Floyd</b> | on screen and in the "real world." The within-game conspiracies
+<b>Floyd</b> | spilled over into reality, and players could find their inboxes full
+<b>Floyd</b> | of incriminating e-mails, their movements followed by cameras, their
+<b>Floyd</b> | conversations recorded. Players had reason to be suspicious of that
+<b>Floyd</b> | stranger hanging around the street or the people they saw at the
+<b>Floyd</b> | grocery store.
+<b>Floyd</b> |
+<b>Floyd</b> | The game became a huge success and eventually an independent game
+<b>Floyd</b> | creator, Marc Kamen, was outed as its author. Industry came calling,
+<b>Floyd</b> | but Marc refused their advances. Unfortunately, and apparently without
+<b>Floyd</b> | warning to family or friends, Marc committed suicide. FromChaos
+<b>Floyd</b> | obtained the rights to his creation. With their deeper pockets and
+<b>Floyd</b> | vast resources, FromChaos turned <span class="floydstyle em">S.hip of Theseus</span> into a
+<b>Floyd</b> | worldwide blockbuster.
+<b>Floyd</b> |
+<b>Floyd</b> | A sequel was inevitable. Earlier this year, FromChaos released
+<b>Floyd</b> | <span class="floydstyle em">Gaia's Web,</span> which wasn't that sequel, but rather a purely
+<b>Floyd</b> | text-based introduction to what was to come. This Friday, FromChaos is
+<b>Floyd</b> | publishing the heavily-anticipated follow-up to <span class="floydstyle em">S.hip,</span>
+<b>Floyd</b> | <span class="floydstyle em">Re.constructing the Ship of Theseus.</span> Every day this week we
+<b>Floyd</b> | will be previewing this new release, which boasts that it is
+<b>Floyd</b> | "interactive fiction that will change your world. Literally."
+<b>Floyd</b> |
+<b>Floyd</b> | For more information on <span class="floydstyle em">S.hip of Theseus,</span> read my review of
+<b>Floyd</b> | the game.
+<b>Floyd</b> |
+<b>Floyd</b> | Kathryn has attached the review, even though you can just click on the
+<b>Floyd</b> | link in her e-mail.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "whoa"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "ack. page dump"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "lots of information all at once"
+</td></tr><tr><td class="room"><b>TerribleLikeGeminiRueandToTheMoon</b> says, "Good job on the aposthrophes.."
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">read review</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; READ REVIEW</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You touch the <span class="floydstyle em">S.hip of Theseus</span> review. <span class="floydstyle i">S.hip of</span>
+<b>Floyd</b> | <span class="floydstyle i">Theseus</span>
+<b>Floyd</b> |
+<b>Floyd</b> | I was so pleased to see VM Straka's <span class="floydstyle em">Ship of Theseus</span> adapted
+<b>Floyd</b> | as a game; he's a criminally underrated writer. <span class="floydstyle em">S.hip of</span>
+<b>Floyd</b> | <span class="floydstyle em">Theseus</span> is one of the most interesting experiments I've seen
+<b>Floyd</b> | since <span class="floydstyle em">the House of Leaves</span> ARG disaster, so naturally I was
+<b>Floyd</b> | excited to see what the developers did. The manner of adaptation feels
+<b>Floyd</b> | like an homage to its source material: the game blends traditional IF
+<b>Floyd</b> | tools with new technology as you piece together the multinational
+<b>Floyd</b> | conspiracy at its heart. Most notably, the game tracks your progress
+<b>Floyd</b> | via drone surveillance, which is used to trigger later levels and make
+<b>Floyd</b> | information assimilation more difficult. (Flooding my department was a
+<b>Floyd</b> | nice touch of verisimilitude for which I applaud the anonymous
+<b>Floyd</b> | designer.)
+<b>Floyd</b> |
+<b>Floyd</b> | Where <span class="floydstyle em">S.hip of Theseus</span> shines is the incorporation of
+<b>Floyd</b> | multiplayer format; in Act 2 you're paired with another player, and so
+<b>Floyd</b> | the narrative shifts. Clues are possible to destroy, depending on how
+<b>Floyd</b> | careful a reader you are - or your partner is. (There's been a lot of
+<b>Floyd</b> | complaining about the procedurally-generated pairing lists, but the
+<b>Floyd</b> | developers quite rightly pointed out that it's possible to rig a
+<b>Floyd</b> | simple last-in-first-out stack to ensure two friends or lovers are
+<b>Floyd</b> | paired together. Though I can't imagine why you'd want to - being
+<b>Floyd</b> | responsible for a loved one's implication in a major government
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Floyd</b> conspiracy? If you get the [REDACTED] ending, you won't even find out
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | for a good 5-7 years if they can forgive you.)
+<b>Floyd</b> |
+<b>Floyd</b> | A siren calls from your computer; <span class="floydstyle em">HarborMaster</span> hails.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "Okay, so that's the blurb"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "Haha, The House of Leaves ARG Disaster"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "I'm still wondering why we have our Greek inventory in the *real* world"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "unless we are carrying around apples, etc."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "It's because the game changes the Real World too."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "We had a naked nymph in the office too, remember."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says (to David), "Because that's the game."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  | "interactive fiction that will change your world. Literally."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "no, we were *hallucinating* that nymph"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Well, that's one interpretation."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "This is really confusing, and I wish we had been grounded in the game-game first more."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I don't think it was a hallucination."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "We could restart, but I suspect it wouldn't have mattered what verbs we used, eventually it would have triggered a scene based on moves, I suspect."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "no, don't restart."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">look</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; LOOK</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Six months on the job, and your office still seems unreal: big-screen
+<b>Floyd</b> | television, stereo system, soundproofed walls, and a cover for the
+<b>Floyd</b> | window to minimize exterior sound and light. Outside the window and
+<b>Floyd</b> | anchored to the building is a drone launch pad. The most important
+<b>Floyd</b> | piece of equipment, though, remains the desktop computer.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">HarborMaster</span> continues its siren call.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "It is all a bit much when I'm still rubbing sleep out of my eyes, though."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "The sad truth is, David, this is the dream. You're still asleep."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "ha"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says (to Jacqueline), "You don't want to know what I was dreaming about."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "x harbormaster"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">x harbormaster</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; X HARBORMASTER</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">HarborMaster</span> loads with the message: Good afternoon. We have
+<b>Floyd</b> | updated our systems, and we need a new password for you. Please
+<b>Floyd</b> | confirm your username and enter the new password. Use "Titan" for
+<b>Floyd</b> | default username.
+<b>Floyd</b> |
+<b>Floyd</b> | Username?
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  exclaims, "ooh, we can pick a name!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "It seems we can, yes."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "should we go with the default?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "Titanny McTitanface"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says (to Roger), "Thanks Boaty."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "if we're going for silly names, Pants is easier to type"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Default is fine, but Floyd is a good choice too."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "I'm good with whatever."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "Floyd is good"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says (to Teaspoon), "You choose."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "Floyd it is then"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">Floyd</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | Username?
+<b>Floyd</b> | <span class="floydstyle input">&gt; FLOYD</span>
+<b>Floyd</b> |
+<b>Floyd</b> | floyd confirmed. Use UNDO if you want to cancel login.
+<b>Floyd</b> |
+<b>Floyd</b> | Password?
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "floyd1? It's not like anyone is going to hack this."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "uh, use Pants here, I think."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "suits me"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "ha"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">pants</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]
+</b><b>Floyd</b> | Password?
+<b>Floyd</b> | <span class="floydstyle input">&gt; PANTS</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Passwords must be between 8 and 20 characters long.
+<b>Floyd</b> |
+<b>Floyd</b> | Password?
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "oh, evil versimiltude"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  exclaims, "ye gods and little fishes, of all the things to simulate!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "mcpantsface"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">mcpantsface</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (14 mins; standby)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | Six months on the job, and your office still seems unreal: big-screen
+<b>Floyd</b> | television, stereo system, soundproofed walls, and a cover for the
+<b>Floyd</b> | window to minimize exterior sound and light. Outside the window and
+<b>Floyd</b> | anchored to the building is a drone launch pad. The most important
+<b>Floyd</b> | piece of equipment, though, remains the desktop computer. On it,
+<b>Floyd</b> | <span class="floydstyle em">Thunderbird</span> has flagged an e-mail message with the subject
+<b>Floyd</b> | "RST Article.".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; X ME</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You give yourself a strength of about 60, more mental than physical,
+<b>Floyd</b> | but you're determined to increase the maximum of both. Your stamina
+<b>Floyd</b> | started at 50 this morning after a good night's sleep, but weariness
+<b>Floyd</b> | has set in, and the early-afternoon caffeine jolt is fizzing out.
+<b>Floyd</b> | Maybe it's 25 now? Charm, on the other hand, holds steady at 50. The
+<b>Floyd</b> | HR department at FromChaos wanted "excellent interpersonal skills" for
+<b>Floyd</b> | this job, which isn't normally associated with a code-tester position.
+<b>Floyd</b> | It didn't take you too long after joining the <span class="floydstyle em">S.hip of</span>
+<b>Floyd</b> | <span class="floydstyle em">Theseus</span> team to learn why being cast such a large number for
+<b>Floyd</b> | "charm" on a throw of the cosmic dice would be so important.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; X COMPUTER</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Every titan on the <span class="floydstyle em">S.hip</span> team monitors their own distinct set
+<b>Floyd</b> | of players. Outfitted with microphone and webcam, and with a
+<b>Floyd</b> | touch-screen, the computer is everything a titan needs. Using the
+<b>Floyd</b> | <span class="floydstyle em">HarborMaster</span> software, a titan can fix bugs in real-time,
+<b>Floyd</b> | monitor players through both transcripts and game sessions, and
+<b>Floyd</b> | initiate real-world responses, which include directing drones and
+<b>Floyd</b> | communicating with field agents.
+<b>Floyd</b> |
+<b>Floyd</b> | Thunderbird, your e-mail program, is open, and the "Rebuilding the
+<b>Floyd</b> | Ship" message has been flagged.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; READ MESSAGE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You touch the flagged e-mail. The e-mail is from Kathryn Bogelew, one
+<b>Floyd</b> | of the Marketing executives at FromChaos: Below is an article that
+<b>Floyd</b> | will be published by <span class="floydstyle em">The First POV</span> on Monday. Please notify
+<b>Floyd</b> | me if it contains contentious material. Thank you.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle subheader">Will the Ship Sink?</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Two years ago, an anonymous game creator released <span class="floydstyle em">S.hip of</span>
+<b>Floyd</b> | <span class="floydstyle em">Theseus,</span> a game that redefined "interactive." The game took place
+<b>Floyd</b> | on screen and in the "real world." The within-game conspiracies
+<b>Floyd</b> | spilled over into reality, and players could find their inboxes full
+<b>Floyd</b> | of incriminating e-mails, their movements followed by cameras, their
+<b>Floyd</b> | conversations recorded. Players had reason to be suspicious of that
+<b>Floyd</b> | stranger hanging around the street or the people they saw at the
+<b>Floyd</b> | grocery store.
+<b>Floyd</b> |
+<b>Floyd</b> | The game became a huge success and eventually an independent game
+<b>Floyd</b> | creator, Marc Kamen, was outed as its author. Industry came calling,
+<b>Floyd</b> | but Marc refused their advances. Unfortunately, and apparently without
+<b>Floyd</b> | warning to family or friends, Marc committed suicide. FromChaos
+<b>Floyd</b> | obtained the rights to his creation. With their deeper pockets and
+<b>Floyd</b> | vast resources, FromChaos turned <span class="floydstyle em">S.hip of Theseus</span> into a
+<b>Floyd</b> | worldwide blockbuster.
+<b>Floyd</b> |
+<b>Floyd</b> | A sequel was inevitable. Earlier this year, FromChaos released
+<b>Floyd</b> | <span class="floydstyle em">Gaia's Web,</span> which wasn't that sequel, but rather a purely
+<b>Floyd</b> | text-based introduction to what was to come. This Friday, FromChaos is
+<b>Floyd</b> | publishing the heavily-anticipated follow-up to <span class="floydstyle em">S.hip,</span>
+<b>Floyd</b> | <span class="floydstyle em">Re.constructing the Ship of Theseus.</span> Every day this week we
+<b>Floyd</b> | will be previewing this new release, which boasts that it is
+<b>Floyd</b> | "interactive fiction that will change your world. Literally."
+<b>Floyd</b> |
+<b>Floyd</b> | For more information on <span class="floydstyle em">S.hip of Theseus,</span> read my review of
+<b>Floyd</b> | the game.
+<b>Floyd</b> |
+<b>Floyd</b> | Kathryn has attached the review, even though you can just click on the
+<b>Floyd</b> | link in her e-mail.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; READ REVIEW</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You touch the <span class="floydstyle em">S.hip of Theseus</span> review. <span class="floydstyle i">S.hip of</span>
+<b>Floyd</b> | <span class="floydstyle i">Theseus</span>
+<b>Floyd</b> |
+<b>Floyd</b> | I was so pleased to see VM Straka's <span class="floydstyle em">Ship of Theseus</span> adapted
+<b>Floyd</b> | as a game; he's a criminally underrated writer. <span class="floydstyle em">S.hip of</span>
+<b>Floyd</b> | <span class="floydstyle em">Theseus</span> is one of the most interesting experiments I've seen
+<b>Floyd</b> | since <span class="floydstyle em">the House of Leaves</span> ARG disaster, so naturally I was
+<b>Floyd</b> | excited to see what the developers did. The manner of adaptation feels
+<b>Floyd</b> | like an homage to its source material: the game blends traditional IF
+<b>Floyd</b> | tools with new technology as you piece together the multinational
+<b>Floyd</b> | conspiracy at its heart. Most notably, the game tracks your progress
+<b>Floyd</b> | via drone surveillance, which is used to trigger later levels and make
+<b>Floyd</b> | information assimilation more difficult. (Flooding my department was a
+<b>Floyd</b> | nice touch of verisimilitude for which I applaud the anonymous
+<b>Floyd</b> | designer.)
+<b>Floyd</b> |
+<b>Floyd</b> | Where <span class="floydstyle em">S.hip of Theseus</span> shines is the incorporation of
+<b>Floyd</b> | multiplayer format; in Act 2 you're paired with another player, and so
+<b>Floyd</b> | the narrative shifts. Clues are possible to destroy, depending on how
+<b>Floyd</b> | careful a reader you are - or your partner is. (There's been a lot of
+<b>Floyd</b> | complaining about the procedurally-generated pairing lists, but the
+<b>Floyd</b> | developers quite rightly pointed out that it's possible to rig a
+<b>Floyd</b> | simple last-in-first-out stack to ensure two friends or lovers are
+<b>Floyd</b> | paired together. Though I can't imagine why you'd want to - being
+<b>Floyd</b> | responsible for a loved one's implication in a major government
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Floyd</b> conspiracy? If you get the [REDACTED] ending, you won't even find out
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | for a good 5-7 years if they can forgive you.)
+<b>Floyd</b> |
+<b>Floyd</b> | A siren calls from your computer; <span class="floydstyle em">HarborMaster</span> hails.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; LOOK</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Six months on the job, and your office still seems unreal: big-screen
+<b>Floyd</b> | television, stereo system, soundproofed walls, and a cover for the
+<b>Floyd</b> | window to minimize exterior sound and light. Outside the window and
+<b>Floyd</b> | anchored to the building is a drone launch pad. The most important
+<b>Floyd</b> | piece of equipment, though, remains the desktop computer.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">HarborMaster</span> continues its siren call.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; X HARBORMASTER</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">HarborMaster</span> loads with the message: Good afternoon. We have
+<b>Floyd</b> | updated our systems, and we need a new password for you. Please
+<b>Floyd</b> | confirm your username and enter the new password. Use "Titan" for
+<b>Floyd</b> | default username.
+<b>Floyd</b> |
+<b>Floyd</b> | Username?
+<b>Floyd</b> | <span class="floydstyle input">&gt; FLOYD</span>
+<b>Floyd</b> |
+<b>Floyd</b> | floyd confirmed. Use UNDO if you want to cancel login.
+<b>Floyd</b> |
+<b>Floyd</b> | Password?
+<b>Floyd</b> | <span class="floydstyle input">&gt; PANTS</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Passwords must be between 8 and 20 characters long.
+<b>Floyd</b> |
+<b>Floyd</b> | Password?
+<b>Floyd</b> | <span class="floydstyle input">&gt; MCPANTSFACE</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Thank you.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | HarborMaster V 2.6 is loading ...
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Welcome to HarborMaster</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Player(s): </span>Eve Martin         <span class="floydstyle i">Location: </span>Rice Lake, ON,
+<b>Floyd</b> | Canada          <span class="floydstyle i">Heading: </span>North by northwest <span class="floydstyle i">Average Speed</span>
+<b>Floyd</b> | <span class="floydstyle i">(km/h): </span>20
+<b>Floyd</b> |
+<b>Floyd</b> | Locating and updating resources ... Done. Sidebar open and updated.
+<b>Floyd</b> | Appropriate field operatives have been notified. Type RESOURCES or
+<b>Floyd</b> | check the resource sidebar for information.
+<b>Floyd</b> | Microphone on.
+<b>Floyd</b> |
+<b>Floyd</b> | No game session available.
+<b>Floyd</b> |
+<b>Floyd</b> | From <span class="floydstyle em">The Titan Handbook,</span> ("Connecting with Players," pg. 43)
+<b>Floyd</b> | When a player has logged on but a game session is unavailable, visual
+<b>Floyd</b> | and textual connection is needed. Use your resources to confirm that
+<b>Floyd</b> | the player is in control of the playing device and sync playing device
+<b>Floyd</b> | with <span class="floydstyle em">HarborMaster</span>, which every field operative is trained to
+<b>Floyd</b> | do.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "poor David"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "this will not be fun on that connection"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "uh, weren't we just reading an email? Why are we in a game now?"
+</td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">resources</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; RESOURCES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (14 mins; standby)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "Also, where's Rice Lake in Ontario? I don't know that one."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "I loaded a game, sort of by accident."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "Can we activate one?"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">click chucky</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (13 mins; standby)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; CLICK CHUCKY</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Chucky (gray squirrel, <span class="floydstyle em">(Sciurus carolinensis</span>): Like all
+<b>Floyd</b> | animal operatives, squirrels are equipped with a microphone, which is
+<b>Floyd</b> | useful for listening to conversations and the environment. Small
+<b>Floyd</b> | animals like squirrels also have brain implants. Upon activation, the
+<b>Floyd</b> | squirrel will seek out the target game device and remain in the
+<b>Floyd</b> | vicinity until de-activation. Squirrels do not typically engage in
+<b>Floyd</b> | physical contact with the players. However, the actions of animals are
+<b>Floyd</b> | often unpredictable, as are the reactions of players upon encountering
+<b>Floyd</b> | them.
+<b>Floyd</b> |
+<b>Floyd</b> | Christopher Suthen is calling from his cell phone ... connected.
+<b>Floyd</b> |
+<b>Floyd</b> | From Christopher's cell phone: Those two yer after was just here at my
+<b>Floyd</b> | gas station. They got some food and gas. He's Roger. Short guy with
+<b>Floyd</b> | slicked back, long black hair. She's Eve. Short, blond hair. Pretty,
+<b>Floyd</b> | though I can't really say how 'cause I wasn't lookin' in her eyes, if
+<b>Floyd</b> | you catch me there. Both could be twenty-something. I offered to help
+<b>Floyd</b> | them get hooked up, but she wouldn't give me her phone. Guess I can't
+<b>Floyd</b> | blame her, though. Game like <span class="floydstyle em">Ship.</span> Players are a suspicious
+<b>Floyd</b> | group."
+<b>Floyd</b> |
+<b>Floyd</b> | "Thanks, Chris. We're on them now," you say.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "I am so lost."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "How much does this game cost"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "a lot, one must assume"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says (to Roger), "YOUR SOUL"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "We were first with forest nymphs, then in an office, then in Rice Lake with a squirrel and operatives and no time to adjust to anything."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "basically we're doing surveilliance for FUN and PROFIT on people. Our current targets are Roger and Eve. We have a squirrel named Chucky we can spy on them with."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "or three other operatives, from the looks of it."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I don't get this targets business. I don't get what we're doing now."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "We're a game designer for a game that is all about spying on people. And probably shouting boo at them when they're not looking."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "About spying?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "Hence the reference to spying drones earlier."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "what this has to do with the opening bit about nymphs...has lost me. I still think that bit was a hallucination, but it's kinda hard to tell."
+</td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">listen</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (12 mins; standby)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; LISTEN</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You hear nothing unexpected.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "oh, I thought the drones were for something else. Also, the drones were outside the office not in the wherever we are now."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">click alicia</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (11 mins; standby)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; CLICK ALICIA</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Alicia Anderson (student): Alicia, 23 years old, has been a freelance
+<b>Floyd</b> | field agent for 3 years. She is attractive, energetic, and personable.
+<b>Floyd</b> | She travels by motorcycle.
+<b>Floyd</b> |
+<b>Floyd</b> | From Travis' cell phone: They're on a side road. They're out in the
+<b>Floyd</b> | open now, but there's a lot of tree cover around, and they could be
+<b>Floyd</b> | headed for that, especially if they know we're onto them.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">activate chucky</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (10 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE CHUCKY</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Brain stimulation successful. Chucky is heading toward game device.
+<b>Floyd</b> |
+<b>Floyd</b> | From Chucky's microphone: Grass rustles and birds chirp.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">click travis</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (9 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; CLICK TRAVIS</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Travis Watson (Ontario Provincial Police (OPP)): Travis, 32 years old,
+<b>Floyd</b> | has been a versatile field agent for 10 years. He is most often used
+<b>Floyd</b> | to impersonate police officers, for which he has formal training.
+<b>Floyd</b> | Field agents are not employed by any police department, nor do they
+<b>Floyd</b> | operate in any official capacity with the police. In some
+<b>Floyd</b> | jurisdictions, field agents have been granted permission to
+<b>Floyd</b> | impersonate police officers or detectives, including the use of
+<b>Floyd</b> | uniforms and vehicles, under strict regulations.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Roger</b>  says, "This squirrel doesn't even have an EXPLODE button?  Weak"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks (of Roger), "Are you sure you're not confusing squirrels and kittens here?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I suppose this is a bit like Suspended."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "There's a level of PKD here which is kind of appealing though"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "I'm sure unclear how to work with this. Is there more to the interface than CLICK/ACTIVATE/DEACTIVATE?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Does the game let us ASK TRAVIS ABOUT METH or direct CHUCKY, NORTH for example?"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">chucky, north</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (8 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | &gt; CHUCKY, NORTH
+<b>Floyd</b> |
+<b>Floyd</b> | Chucky has better things to do.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">chucky, look</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (7 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | &gt; CHUCKY, LOOK
+<b>Floyd</b> |
+<b>Floyd</b> | Chucky has better things to do.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">click samuel</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (6 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; CLICK SAMUEL</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Samuel Walker (retired): Samuel, a 65-year-old former accountant, has
+<b>Floyd</b> | been a freelance field agent for six years. He is willing to assume
+<b>Floyd</b> | many roles, and his versatility means he is comfortable with
+<b>Floyd</b> | surveillance, reconnaissance, and physical confrontation. His wife,
+<b>Floyd</b> | Roberta, is also often available, and the two of them frequently
+<b>Floyd</b> | collaborate.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "we could just activate everybody and see what happens"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "Samuel, you go pet that goddamn squirrel right now"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "uh, I guess?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says (to Teaspoon), "I endorse this plan."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "&gt;ACTIVATE ALL"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "(Doubt that works.)"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "This has the feel of throwing things off a cliff and hoping they'll collide with interesting things unseen at the bottom."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  exclaims, "falling crate of tomatoes!"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">activate samuel</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE SAMUEL</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Sam, you there?" you say.
+<b>Floyd</b> |
+<b>Floyd</b> | "We both are. Me and Ma are just passing through, but we might be able
+<b>Floyd</b> | to help."
+<b>Floyd</b> |
+<b>Floyd</b> | "What are you thinking?"
+<b>Floyd</b> |
+<b>Floyd</b> | "I can stop ahead of them and pretend to have car trouble," Sam says.
+<b>Floyd</b> | "If she is decent folk, she'll stop and help. Between the two of us,
+<b>Floyd</b> | we'll try to get that phone."
+<b>Floyd</b> |
+<b>Floyd</b> | "Screw that, Pa," Roberta says. "You want them stopped? Ram 'em! Hit
+<b>Floyd</b> | them in the kiester. Then send in the troops."
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "I like Roberta's idea. Try to run them off the road. That'll
+<b>Floyd</b> | probably get them out of the car."
+<b>Floyd</b> | (2) "All right. We'll go with Sam's idea. Maybe they'll stop for a
+<b>Floyd</b> | couple having car trouble."
+<b>Floyd</b> | (3) "I'll think about it."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  asks, "Is there a reason we'd want to deactivate an agent?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "no way to know at this stage"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Wait."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "Why do we get a choice?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I don't remember who we're trying to spy on or why."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  asks, "Why not?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "those two people that Chris mentioned earlier"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says (to Roger), "Well, because we're spying on other people, and not directly involved."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "because they're paying us a lot of money."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "We're still not /directly/ involved"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "I guess we're not so much the game designer as mission control for a game with rules in place already"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Is Eve's phone a McGuffin? Is that why we want it?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "Presumably?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "so it looks like we have violent, nonviolent, and get-back-to-me-later choices now"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "So what's our answer?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "I like 2."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "Sure fine"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "sure, 2."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "agreed"
+</td></tr><tr><td class="room">Jacqueline says (to Floyd), "<span class="floydcommand">2</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (5 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (3 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (2 mins; activated)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; 2</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Yeah, okay," Sam says.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">activate travis</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE TRAVIS</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Travis, you copy?" you say.
+<b>Floyd</b> |
+<b>Floyd</b> | "Loud and clear. Over."
+<b>Floyd</b> |
+<b>Floyd</b> | "What can you offer me?"
+<b>Floyd</b> |
+<b>Floyd</b> | "I have two options. I can set up a roadblock ahead of them and hope
+<b>Floyd</b> | they don't just turn around, or I can pull them over. Either way, I
+<b>Floyd</b> | should be able to get her to hand over the phone and get some cam
+<b>Floyd</b> | shots so we can verify their identity. Over."
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Yeah, try pulling them over. We should at least be able to
+<b>Floyd</b> | identify them if they stop."
+<b>Floyd</b> | (2) "Stopping the car may be a good idea. And if you can get them out
+<b>Floyd</b> | of it, even better. Go ahead and set up that roadblock."
+<b>Floyd</b> | (3) "I'll think about it."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  asks, "...set up a roadblock in case the other operative doesn't work, maybe?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I'm no good at this sort of playing."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "I'm starting to think of it as like a big parallel Truman Show sort of thing"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I like the roadblock idea, I guess."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Okay"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I think we do want to separate them from a car."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "for whatever reason we're doing this"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">2</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (4 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (2 mins; activated)
+<b>Floyd</b> |   Samuel Walker     (1 mins; activated)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; 2</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Copy that," Travis says.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">x chucky</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (3 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (1 mins; activated)
+<b>Floyd</b> |   Samuel Walker     (0 mins; activated)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; X CHUCKY</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Chucky (gray squirrel, <span class="floydstyle em">(Sciurus carolinensis</span>): Like all
+<b>Floyd</b> | animal operatives, squirrels are equipped with a microphone, which is
+<b>Floyd</b> | useful for listening to conversations and the environment. Small
+<b>Floyd</b> | animals like squirrels also have brain implants. Upon activation, the
+<b>Floyd</b> | squirrel will seek out the target game device and remain in the
+<b>Floyd</b> | vicinity until de-activation. Squirrels do not typically engage in
+<b>Floyd</b> | physical contact with the players. However, the actions of animals are
+<b>Floyd</b> | often unpredictable, as are the reactions of players upon encountering
+<b>Floyd</b> | them.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">activate alicia</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (2 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (0 mins; activated)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (11 mins; standby)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE ALICIA</span>
+<b>Floyd</b> |
+<b>Floyd</b> | You don't want to activate too many human operatives; they may
+<b>Floyd</b> | interfere with each other, especially in a situation like this.
+<b>Floyd</b> |
+<b>Floyd</b> | From Roberta's cell phone: Sam is standing in front of his car with
+<b>Floyd</b> | its hood raised. The phone swings around to catch the Toyota
+<b>Floyd</b> | approaching. It drives by.
+<b>Floyd</b> |
+<b>Floyd</b> | "Told you we should've hit 'em," Roberta says to Sam. To you, "Sorry
+<b>Floyd</b> | about that. You'd think after 46 years of marriage he would know
+<b>Floyd</b> | enough to listen to me."
+<b>Floyd</b> |
+<b>Floyd</b> | Sam shakes his head and says something before closing the hood. The
+<b>Floyd</b> | feed goes black.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "aw, we can't activate everyone then"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "yeah"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "What sort of mechanical is Doncan?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "Doncan?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Doncan-132"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Is it a drone or what?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "ooh, missed that."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">activate doncan</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (1 mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (4 mins; standby)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (10 mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE DONCAN</span>
+<b>Floyd</b> |
+<b>Floyd</b> | DONCAN-132 has found Eve Martin's phone, and the drone has been
+<b>Floyd</b> | launched.
+<b>Floyd</b> |
+<b>Floyd</b> | From Travis' body cam: Travis stands outside his cruiser in the middle
+<b>Floyd</b> | of the road. He waits. The Toyota, still at a distance, slows and
+<b>Floyd</b> | pulls over. Two people — a tall guy and a shorter woman — exit and
+<b>Floyd</b> | head for the trees.
+<b>Floyd</b> |
+<b>Floyd</b> | From Travis' cell phone: Looks like we scared them. I'll park to the
+<b>Floyd</b> | side of the road.
+<b>Floyd</b> |
+<b>Floyd</b> | The camera goes black.
+<b>Floyd</b> |
+<b>Floyd</b> | ***Eve Martin has changed direction. She is now heading west at less
+<b>Floyd</b> | than 5 km/h.***
+<b>Floyd</b> |
+<b>Floyd</b> | From Travis' cell phone: Looks like they're parking along the road. I
+<b>Floyd</b> | can't see them anymore. They've got some tree cover now. Over.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "Chucky's close."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "I'm not sure where this is going to go."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  exclaims, "I found the movie this was reminding me of!"
+</td></tr><tr><td class="room">[<a href="Teaspoon says (to Floyd), "<span class="floydcommand">https://en.wikipedia.org/wiki/The_Game_(1997_film)</span>"
+">LINK</A>]</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | &gt; HTTPS://EN.WIKIPEDIA.ORG/WIKI/THE_GAME_(1997_FILM)
+<b>Floyd</b> |
+<b>Floyd</b> | That noun did not make sense in this context.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "dash it"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude">[<a href="<b>Teaspoon</b>  says, "sorry. https://en.wikipedia.org/wiki/The_Game_(1997_film)"
+">LINK</A>]</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says (to Teaspoon), "Hm. Didn't see it."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I haven't seen it either, but the name sounds familiar."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "I haven't, actually, I just sometimes read Wikipedia articles for interesting-sounding movies."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "So, er, not sure how we proceed either, now that we've activated everyone. Wait?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "Sure; we'll succeed or fail"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Wait or deactivate someone so we can activate someone new."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "actually, looking at who's on standby it looks like everyone goes off once they interact once, so we have to manually reactivate them every time."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Oh, huh."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "I hadn't noticed that."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I'm hoping that Chucky can do something interesting."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Yeah"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "activate Alicia then?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  calls out his Secret Squirrel Attack.
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "sure, activate Alicia."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">activate alicia</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE ALICIA</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Hey, Alicia," you say.
+<b>Floyd</b> |
+<b>Floyd</b> | "Yeah, I gotcha. I'm on my bike, but I can be there in a jiff."
+<b>Floyd</b> |
+<b>Floyd</b> | "What are you thinking?"
+<b>Floyd</b> |
+<b>Floyd</b> | "That's some pretty dense forest there, chief. I can try to follow
+<b>Floyd</b> | them, or I can just wait by their car. I'm betting they'll be out
+<b>Floyd</b> | eventually. I might have a better chance of running into them there."
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "I think we have a better chance at them when they're with the
+<b>Floyd</b> | car. Keep an eye on it for me."
+<b>Floyd</b> | (2) "Time might be a factor here. Go ahead and follow them."
+<b>Floyd</b> | (3) "I'll think about it."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "I think we follow. They're not gonna stick around by the car, they've left."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "yeah."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "We're not being very subtle, though, at this point."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Sure"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">2</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; 2</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Gotcha," Alicia says.
+<b>Floyd</b> |
+<b>Floyd</b> | *** New resource available: Jason Williams ***
+<b>Floyd</b> |
+<b>Floyd</b> | From Jason's cell phone: I just got wind of the situation. I'm
+<b>Floyd</b> | close-by. Out for a hike with my dog. Let me know if we can help.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">click jason</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (2 mins; standby)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; CLICK JASON</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Jason Williams (ecologist): Jason has been a freelance field agent for
+<b>Floyd</b> | 5 years. Usually his dog, Diana, is with him, and the two are useful
+<b>Floyd</b> | for both surveillance and interception, Diana being an effective way
+<b>Floyd</b> | to attract human targets.
+<b>Floyd</b> |
+<b>Floyd</b> | From Chucky's microphone: "See?" Eve says.
+<b>Floyd</b> |
+<b>Floyd</b> | "I see him," Roger says.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "aww, squirrel is doing something"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Can we activate Jason?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "looks like"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "You're right, I don't think this is a subtle game"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "It's possible to activate him, but are you asking if we can or if we want to?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Honestly, I feel like a kid in an elevator who wants to just push all the buttons and see what the hell happens."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I was asking to activate him, I think."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">activate jason</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE JASON</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Hi, Jason," you say.
+<b>Floyd</b> |
+<b>Floyd</b> | "We're here."
+<b>Floyd</b> |
+<b>Floyd</b> | "What are you thinking?"
+<b>Floyd</b> |
+<b>Floyd</b> | "I have Diana with me. She's old, but she still has a little left in
+<b>Floyd</b> | the sniffer. She could track them down. Lots of smells out here,
+<b>Floyd</b> | though. I hope she doesn't lead us astray."
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Put Diana on it. Let's see where she leads us."
+<b>Floyd</b> | (2) "I'll think about it."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "but I'm feeling kinda clueless."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Smithers, release the hounds."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "the trouble is, if you activate a dog and a squirrel do you just get dog-squirrel chase?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "uhhh. okay, wait to see if Chucky does something helpful first."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "heh"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">2</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (2 mins; standby)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; 2</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Okay," Jason says.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "If Chucky fails, then sic the dog on 'em."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "agreed"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Unfortunately, I think Roger and Eve spotted Chucky."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "hmm. He didn't do much, did he?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "How does one suspect a squirrel?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Well, he let us hear them talk very briefly."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says (to Jacqueline), "If he's wearing a headset."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "hmm. Maybe we do want dog-squirrel interaction?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I dunno any more."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks (of DW), "Oh, is he?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "I guess I was picturing some sort of cybersquirrel."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "good point. We're not really getting any feedback on what we're doing right or not."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">activate jason</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE JASON</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Hi, Jason," you say.
+<b>Floyd</b> |
+<b>Floyd</b> | "We're here."
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Put Diana on it. Let's see where she leads us."
+<b>Floyd</b> | (2) "I'm still thinking. Hold on."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">1</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (1 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; 1</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Okay," Jason says.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">wait</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; WAIT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Player(s): </span>Eve Martin         <span class="floydstyle i">Location: </span>Rice Lake, ON,
+<b>Floyd</b> | Canada          <span class="floydstyle i">Heading: </span>West <span class="floydstyle i">Average Speed (km/h): </span>&lt;5
+<b>Floyd</b> |
+<b>Floyd</b> | No game session available.
+<b>Floyd</b> |
+<b>Floyd</b> | From Chucky's microphone: crickets hum and birds chirp.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">wait</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; standby)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; WAIT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Player(s): </span>Eve Martin         <span class="floydstyle i">Location: </span>Rice Lake, ON,
+<b>Floyd</b> | Canada          <span class="floydstyle i">Heading: </span>West <span class="floydstyle i">Average Speed (km/h): </span>&lt;5
+<b>Floyd</b> |
+<b>Floyd</b> | No game session available.
+<b>Floyd</b> |
+<b>Floyd</b> | From Chucky's microphone: crickets hum and birds chirp.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | From Alicia's bodycam: Alicia threads her way through maple trees.
+<b>Floyd</b> |
+<b>Floyd</b> | From Alicia's cell phone: As you can see, I'm still looking. They
+<b>Floyd</b> | should be around here somewhere. I'll be in touch if I find them.
+<b>Floyd</b> |
+<b>Floyd</b> | Alicia's bodycam shuts off.
+<b>Floyd</b> |
+<b>Floyd</b> | From Jason's cell phone: We've found the car, and Di is checking it
+<b>Floyd</b> | out. She's got something. Boy, does she ever. We're following it. Hold
+<b>Floyd</b> | on.
+<b>Floyd</b> |
+<b>Floyd</b> | Jason huffs, running.
+<b>Floyd</b> |
+<b>Floyd</b> | Whoa! She's after a squirrel. Get back here, Diana. Sorry. She's lost
+<b>Floyd</b> | the scent. She is too interested in the squirrel.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "ha ha"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  exclaims, "okay, at least one part of the world responded logically!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "So who's active now?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "heh"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "What's the best way to get status? Just to &gt;WAIT?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "resources"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "so, deactivate chucky?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "There just better be a nymph in this forest, though."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says (to DW), "THanks"
+</td></tr><tr><td class="room">DavidW says (to Floyd), "<span class="floydcommand">resources</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; RESOURCES</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; standby)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">deactivate chucky</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; standby)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; DEACTIVATE CHUCKY</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Brain stimulation stopped, and microphone turned off. Chucky is free
+<b>Floyd</b> | to resume natural activity.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "I guess we can deactivate Chucky and activate Jason, sure."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">activate jason</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE JASON</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Hi, Jason," you say.
+<b>Floyd</b> |
+<b>Floyd</b> | "We're here."
+<b>Floyd</b> |
+<b>Floyd</b> | "What are my options?"
+<b>Floyd</b> |
+<b>Floyd</b> | "I don't see anyone out here, so we could give Diana a chance again."
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Put Diana on it. Let's see where she leads us."
+<b>Floyd</b> | (2) "I'll think about it."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "I keep reading that as 'HorseMaster Resources'"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">1</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; 1</span>
+<b>Floyd</b> |
+<b>Floyd</b> | "Okay," Jason says.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says (to Jacqueline), "yikes"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  exclaims, "I know!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "eesh"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I was wondering if these resources corrrespond at all to our initial inventory."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Oh right. All that Greek stuff."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "We never got a chance to really look at any of it."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "I'd completely forgotten about all of it."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; I</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Because all of FromChaos' products are digital, the company doesn't
+<b>Floyd</b> | have a warehouse and no real "inventory."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "I think we hit a bug"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "no, I think we need to wait."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "regarding the inventory"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "we definitely had our golden apples in real world inventory earlier, but this is presumably the message that should have been there instead"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "hm, yeah"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">wait</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; WAIT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Player(s): </span>Eve Martin         <span class="floydstyle i">Location: </span>Rice Lake, ON,
+<b>Floyd</b> | Canada          <span class="floydstyle i">Heading: </span>West <span class="floydstyle i">Average Speed (km/h): </span>&lt;5
+<b>Floyd</b> |
+<b>Floyd</b> | No game session available.
+<b>Floyd</b> |
+<b>Floyd</b> | From Alicia's bodycam: Roger and Eve walk toward dense tree cover.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">wait</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; WAIT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Player(s): </span>Eve Martin         <span class="floydstyle i">Location: </span>Rice Lake, ON,
+<b>Floyd</b> | Canada          <span class="floydstyle i">Heading: </span>West <span class="floydstyle i">Average Speed (km/h): </span>&lt;5
+<b>Floyd</b> |
+<b>Floyd</b> | No game session available.
+<b>Floyd</b> |
+<b>Floyd</b> | From Alicia's bodycam: Roger and Eve walk toward dense tree cover.
+<b>Floyd</b> |
+<b>Floyd</b> | From DONCAN-132: Dense treetops.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">wait</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; WAIT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Player(s): </span>Eve Martin         <span class="floydstyle i">Location: </span>Rice Lake, ON,
+<b>Floyd</b> | Canada          <span class="floydstyle i">Heading: </span>West <span class="floydstyle i">Average Speed (km/h): </span>&lt;5
+<b>Floyd</b> |
+<b>Floyd</b> | No game session available.
+<b>Floyd</b> |
+<b>Floyd</b> | From Alicia's bodycam: Roger and Eve walk toward dense tree cover.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  asks, "hmm. Who do we activate?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Hm, I'd been skimming over some details, such as the bodycam. So yeah, the squirrel is probably super obvious."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "well, the drone will be obvious too."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "deactivate jason again then?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I don't know what strategy is effective when they're on their guard and hiding like this."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "But we need active agents regardless."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Roger</b>  says, "Steal their car, leave them to die"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says (to Roger), "You mean, rewire their car so we can remote control it."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I think we should also build a volcano that spews donuts instead of lava."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "..."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "I'll implement that in my next Speedif"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "the cocnept amuses me"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "or scrambled eggs. Either works."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Sorry. I guess my mind is wandering since I don't know what to actually do in the game."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">wait</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; WAIT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Player(s): </span>Eve Martin         <span class="floydstyle i">Location: </span>Rice Lake, ON,
+<b>Floyd</b> | Canada          <span class="floydstyle i">Heading: </span>West <span class="floydstyle i">Average Speed (km/h): </span>&lt;5
+<b>Floyd</b> |
+<b>Floyd</b> | No game session available.
+<b>Floyd</b> |
+<b>Floyd</b> | From Alicia's bodycam: Roger and Eve walk toward dense tree cover.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">deactivate jason</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; deactivated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; DEACTIVATE JASON</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Jason Williams de-activates.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | *** Signal from Eve Martin lost. ***
+<b>Floyd</b> |
+<b>Floyd</b> | You think about what may have happened — Eve could have turned off
+<b>Floyd</b> | her phone — then your phone rings. You're fired. Just like that. Get
+<b>Floyd</b> | out. As you transferred your players to other titans, you notice that
+<b>Floyd</b> | Eve had already been removed from your roster. Maybe you weren't her
+<b>Floyd</b> | designated titan. Was it a bug? But that kind of error shouldn't be
+<b>Floyd</b> | the reason for firing you. You decide to take some time off and create
+<b>Floyd</b> | some games of your own.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | *** Thank you for playing <span class="floydstyle em">Gaia's Web</span>. Continue
+<b>Floyd</b> | to unravel the mystery of Gaia in <span class="floydstyle em">Re.constructing the Ship of</span>
+<b>Floyd</b> | <span class="floydstyle em">Theseus,</span> the official sequel to <span class="floydstyle em">S.hip of Theseus,</span> and
+<b>Floyd</b> | take control of real-world resources to defend yourself and your
+<b>Floyd</b> | friends from Gaia's web. ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+<b>Floyd</b> | command, QUIT, RESTART, or RESTORE the world, or do you want to
+<b>Floyd</b> | LOGOUT?
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "I'm thinking 'wait' until status changes, but we might be at a dense tree cover boundary."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "Er."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  says, "Again, I say: '...'"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "asks any nearby volcanoes if they're ready to make breakfast."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  asks, "yes. Not very well hinted, was it?"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">undo</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle subheader">Command Center</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">undo</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle subheader">Command Center</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">undo</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; activated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle subheader">Command Center</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Jacqueline</b>  says, "That felt ... yeah. Disjointed, odd. A series of things that didn't seem to make sense together."
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">deactivate jason</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; deactivated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; deactivated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; DEACTIVATE JASON</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Jason Williams de-activates.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">active chucky</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVE CHUCKY</span>
+<b>Floyd</b> |
+<b>Floyd</b> | That noun did not make sense in this context.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">activate chucky</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; deactivated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; ACTIVATE CHUCKY</span>
+<b>Floyd</b> |
+<b>Floyd</b> | Brain stimulation successful. Chucky is heading toward game device.
+<b>Floyd</b> |
+<b>Floyd</b> | From Chucky's microphone: Grass rustles and birds chirp.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Roger</b>  says, "Not always a bad design decision, but tricky"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "possibly too many things happening without enough feedback on how to do them correctly"
+</td></tr><tr><td class="room">Teaspoon says (to Floyd), "<span class="floydcommand">wait</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | <span class="floydstyle i">HarborMaster Resources </span>(estimated time before intervention in
+<b>Floyd</b> | parentheses)
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle em">Biological</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   Chucky     (unknown mins; activated)
+<b>Floyd</b> |   Alicia Anderson     (unknown mins; activated)
+<b>Floyd</b> |   Jason Williams     (0 mins; deactivated)
+<b>Floyd</b> |   Travis Watson     (5 mins; standby)
+<b>Floyd</b> |   Samuel Walker     (3 mins; standby)
+<b>Floyd</b> |
+<b>Floyd</b> |  <span class="floydstyle em">Mechanical</span>
+<b>Floyd</b> |
+<b>Floyd</b> |   DONCAN-132     (unknown mins; activated)
+<b>Floyd</b> | To learn more about a resource, type its name or CLICK it. You can
+<b>Floyd</b> | also ACTIVATE it or DEACTIVATE it, which places it on standby.
+<b>Floyd</b><b> ]                           Command Center
+</b><b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+<b>Floyd</b> | <span class="floydstyle input">&gt; WAIT</span>
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle i">Player(s): </span>Eve Martin         <span class="floydstyle i">Location: </span>Rice Lake, ON,
+<b>Floyd</b> | Canada          <span class="floydstyle i">Heading: </span>West <span class="floydstyle i">Average Speed (km/h): </span>&lt;5
+<b>Floyd</b> |
+<b>Floyd</b> | No game session available.
+<b>Floyd</b> |
+<b>Floyd</b> | From Alicia's bodycam: Roger and Eve walk toward dense tree cover.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | *** Signal from Eve Martin lost. ***
+<b>Floyd</b> |
+<b>Floyd</b> | You think about what may have happened — Eve could have turned off
+<b>Floyd</b> | her phone — then your phone rings. You're fired. Just like that. Get
+<b>Floyd</b> | out. As you transferred your players to other titans, you notice that
+<b>Floyd</b> | Eve had already been removed from your roster. Maybe you weren't her
+<b>Floyd</b> | designated titan. Was it a bug? But that kind of error shouldn't be
+<b>Floyd</b> | the reason for firing you. You decide to take some time off and create
+<b>Floyd</b> | some games of your own.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | *** Thank you for playing <span class="floydstyle em">Gaia's Web</span>. Continue
+<b>Floyd</b> | to unravel the mystery of Gaia in <span class="floydstyle em">Re.constructing the Ship of</span>
+<b>Floyd</b> | <span class="floydstyle em">Theseus,</span> the official sequel to <span class="floydstyle em">S.hip of Theseus,</span> and
+<b>Floyd</b> | take control of real-world resources to defend yourself and your
+<b>Floyd</b> | friends from Gaia's web. ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+<b>Floyd</b> | command, QUIT, RESTART, or RESTORE the world, or do you want to
+<b>Floyd</b> | LOGOUT?
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>Teaspoon</b>  says, "I thought that changing it so the squirrel goes into the woods would help, but apparently not. Also apparently our tech is defeated by trees. Blimey."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Jacqueline</b>  asks, "Well... that was interesting. Meet up next week to try the last one?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Teaspoon</b>  says, "sure."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "okay"</td></tr>
+
+			<tr>
+				<td colspan=3></td>
+			</tr>
+		</table>
+	</div>
+
+
+	<div class="narrowcol centered centeralign">
+
+		<br><hr><br><br>
+
+		    <div id="disqus_thread"></div>
+		    <script type="text/javascript">
+			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+			var disqus_shortname = 'allthingsjacq'; // required: replace example with your forum shortname
+
+			/* * * DON'T EDIT BELOW THIS LINE * * */
+			(function() {
+			    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		    </script>
+		    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+		<p class="fontish smallest">
+		<br>
+		[ <a href="#top">TOP OF THIS PAGE</a> | <a href=
+			"interactive_fiction.html#clubfloyd">MORE CLUBFLOYD
+			TRANSCRIPTS</a> | <a href="index.html">HOME</a> ]</p>
+
+		<hr>
+
+
+		<p><a href="contact.html"><img src="/graphics/footer.jpg" alt="link to contact page"></a></p>
+
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+	<script src="/js/plugins.js"></script>
+	<script src="/js/script.js"></script>
+</body>
+</html>

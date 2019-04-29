@@ -1,0 +1,3135 @@
+>load ka
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Suddenly...gradually...the sleep of death is pierced by a strange
+ awakening...
+
+ ...the priest opening your mouth...
+
+ ...senses rushing back: taste, smell, sight, hearing, touch...
+
+ ...but not pain, not heat or cold, not quick emotion...
+
+ ...not breath...
+
+ Ka
+ An Interactive Escape by Dan Efran
+ Release 2 / Serial number 100212 / Inform 7 build 5Z71 (I6/v6.31 lib
+ 6/12N)
+ (Players new to interactive fiction may wish to type "about".)
+
+ Darkness
+ It is pitch dark, and you can't see a thing.
+ You can feel that you are surrounded by cold metal.
+
+>about
+ This is an interactive story. You are in the lead role. Specify your
+ next action at the prompt in the form of a simple command, like "take
+ cake" or "go north" ("n" for short) or "look" ("l").
+
+ Be observant! Be creative! Examine things ("x" for short) to reveal
+ subtle details. If you get stuck, type "help". For more information
+ about this game, type "credits".
+
+>examine me
+ You feel...dead.
+
+>look
+ Darkness
+ It is pitch dark, and you can't see a thing.
+ You can feel that you are surrounded by cold metal.
+
+>inventory
+ You are carrying:
+   a papyrus scroll
+
+>touch metal
+ The darkness is complete, but nothing else feels quite like solid
+ gold. It fits the shape of your body like...well, like a coffin.
+
+>read scroll
+ Though it is dark, somehow you can read - or perhaps you merely recall
+ reading in life - the first spell-song in the Book of the Dead: Cat
+ Eyes.
+
+ The words of that song fill your mind, and now you sense the power
+ behind them:
+
+ Cat Eyes
+ In midnight skies
+  Twin moons
+   Light the way.
+ Black cat's eyes
+  Reveal runes;
+   Turn night to day.
+
+ Those lyrics call to mind a half-remembered melody.
+
+>sing cat eyes
+ Voicelessly you voice Cat Eyes.
+
+ It is still pitch dark, but the darkness no longer hinders your
+ vision.
+
+ The Solid Gold Coffin
+ Your innermost coffin is fashioned of solid gold. Not bad!
+
+ In the Solid Gold Coffin you can see your body.
+
+>examine me
+ A shadow of your former self, more or less literally.
+
+>examine body
+ Bound tight, protected with amulets, anointed with arcane oils: your
+ body can rest safely here for eternity, though your own labors and
+ dangers are not yet done.
+
+ Or so you have always been told.
+
+>open coffin
+ It is beyond your strength to open that.
+
+>search body
+ Hundreds of protective amulets are still in place. Good.
+
+>exit coffin
+ You can't get out of the closed Solid Gold Coffin.
+
+>examine amulets
+ Hundreds of protective amulets are still in place. Good.
+
+>take body
+ You won't need that where you're going.
+
+>examine coffin
+ Nothing else feels quite like solid gold.
+
+>look
+ The Solid Gold Coffin
+ Your innermost coffin is fashioned of solid gold. Not bad!
+
+ In the Solid Gold Coffin you can see your body.
+
+>out
+ You can't get out of the closed Solid Gold Coffin.
+
+>examine scroll
+ It is a Book of the Dead, a richly illustrated grimoire, teaching
+ spell-songs reputed to be of aid to the newly deceased in their
+ eldritch travels. This one is dedicated to you and titled The Book of
+ Songs of Getting Through The Day.
+
+ What could that mean?
+
+>inventory
+ You are carrying:
+   a Book of Songs of Getting Through the Day
+
+>read scroll
+ The Book of Songs of Getting Through the Day is a richly illustrated
+ scroll on virgin papyrus; its chapters are spell-songs prepared to
+ help you survive this most unusual day. As you read, you sense the
+ power behind these ancient verses...
+
+ Cat Eyes
+ In midnight skies
+  Twin moons
+   Light the way.
+ Black cat's eyes
+  Reveal runes;
+   Turn night to day.
+
+ Down Under
+ Arch of arches
+  West of west
+   From every tomb,
+ Each soul marches
+  To its rest
+   Or to its doom!
+
+ Silent Supplicant
+ To pass the gate
+  Of a holy shrine
+   Requires respect.
+ He who just ate
+  And drank much wine
+   The doors reject.
+
+ Master Glazier
+ Red as a brand
+  Star-gems flow
+   In your brazier;
+ What a grand
+   Skill you know,
+   Master Glazier!
+
+ Golden Forest Runner
+ Agile antelope
+  slips through a wood
+   bathed in golden light
+ Up or down a slope
+  any way is good
+   feet as fleet as flight
+
+ Letting Myself Come Through
+ Beside myself
+  I closed myself
+   Out of my own.
+ Before myself
+  I beg myself:
+   Leave myself alone.
+
+ Sandstone Sifter
+ Layer by layer
+  Sand of the Nile
+   Hardens to stone;
+ Time the betrayer
+  Held in denial:
+   Hardness is gone
+
+ Lost Memories
+ Trying to trace
+  Days of your youth,
+   Times you regret,
+ Don't like to face
+  Unpleasant truth,
+   So you forget.
+
+ Gold Digger
+ Strange men live in bands
+  Deep underground
+   Mining for gold
+ Dig ore with bare hands
+  Speak without sound
+   Ten thousand years old
+
+>read book
+ The Book of Songs of Getting Through the Day is a richly illustrated
+ scroll on virgin papyrus; its chapters are spell-songs prepared to
+ help you survive this most unusual day. As you read, you sense the
+ power behind these ancient verses...
+
+ Cat Eyes
+ In midnight skies
+  Twin moons
+   Light the way.
+ Black cat's eyes
+  Reveal runes;
+   Turn night to day.
+
+ Down Under
+ Arch of arches
+  West of west
+   From every tomb,
+ Each soul marches
+  To its rest
+   Or to its doom!
+
+ Silent Supplicant
+ To pass the gate
+  Of a holy shrine
+   Requires respect.
+ He who just ate
+  And drank much wine
+   The doors reject.
+
+ Master Glazier
+ Red as a brand
+  Star-gems flow
+   In your brazier;
+ What a grand
+   Skill you know,
+   Master Glazier!
+
+ Golden Forest Runner
+ Agile antelope
+  slips through a wood
+   bathed in golden light
+ Up or down a slope
+  any way is good
+   feet as fleet as flight
+
+ Letting Myself Come Through
+ Beside myself
+  I closed myself
+   Out of my own.
+ Before myself
+  I beg myself:
+   Leave myself alone.
+
+ Sandstone Sifter
+ Layer by layer
+  Sand of the Nile
+   Hardens to stone;
+ Time the betrayer
+  Held in denial:
+   Hardness is gone
+
+ Lost Memories
+ Trying to trace
+  Days of your youth,
+   Times you regret,
+ Don't like to face
+  Unpleasant truth,
+   So you forget.
+
+ Gold Digger
+ Strange men live in bands
+  Deep underground
+   Mining for gold
+ Dig ore with bare hands
+  Speak without sound
+   Ten thousand years old
+
+>sing gold digger
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+>open coffin
+ Your hands pass through the Solid Gold Coffin, meeting no resistance.
+
+ The mood of Gold Digger fades.
+
+>leave coffin
+ You can't get out of the closed Solid Gold Coffin.
+
+>sing gold digger
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+>out
+ You get out of the Solid Gold Coffin.
+
+ The Glass Mosaic Coffin
+ A dazzling inlaid mosaic of glass and gems covers the middle coffin.
+
+ In the Glass Mosaic Coffin you can see a Solid Gold Coffin.
+
+ The mood of Gold Digger fades.
+
+>examine glass
+ A dazzling inlaid mosaic of glass and gems covers the middle coffin.
+
+>sing Master Glazier
+ Voicelessly you voice Master Glazier.
+
+ You sense how glass can flow like water.
+
+>out
+ You get out of the Glass Mosaic Coffin.
+
+ The Gilt Cypress Coffin
+ The outer coffin is gold leaf over wood, richly embossed.
+
+ In the Gilt Cypress Coffin you can see a Glass Mosaic Coffin.
+
+ The mood of Master Glazier fades.
+
+>examine outer coffin
+ You can't see any such thing.
+
+>examine cypress
+ The outer coffin is gold leaf over wood, richly embossed.
+
+> sing Golden Forest Runner
+ Voicelessly you voice Golden Forest Runner.
+
+ You feel nimble, like an antelope slipping through a wood bathed in
+ golden light.
+
+>out
+ You get out of the Gilt Cypress Coffin.
+
+ The Quartzite Sarcophagus
+ A heavy block of quartzite carved into a burial vessel. The heavy,
+ close-fitting lid seals out time.
+
+ In the Quartzite Sarcophagus you can see a Gilt Cypress Coffin.
+
+ The mood of Golden Forest Runner fades.
+
+>sing letting myself come through
+ Voicelessly you voice Letting Myself Come Through.
+
+ You feel a strange sympathetic awareness from somewhere nearby.
+
+>sing sandstone sifter
+ Voicelessly you voice Sandstone Sifter.
+
+ Sandstone - even quartzite - feels just like loose sand to you.
+
+ The mood of Letting Myself Come Through fades.
+
+>out
+ You get out of the Quartzite Sarcophagus.
+
+ The First Burial Shrine
+ A sturdy vault to guard your body and its royal adornments from
+ thieves and drafts.
+
+ In the First Burial Shrine you can see a Quartzite Sarcophagus.
+
+ The mood of Sandstone Sifter fades.
+
+>examine vault
+ A sturdy vault to guard your body and its royal adornments from
+ thieves and drafts.
+
+>examine shrine
+ A sturdy vault to guard your body and its royal adornments from
+ thieves and drafts.
+
+>examine adornments
+ You can't see any such thing.
+
+>out
+ You can't get out of the closed First Burial Shrine.
+
+>silent supplicant
+ That's not a verb I recognize.
+
+>sing silent supplicant
+ Voicelessly you voice Silent Supplicant.
+
+ You feel fit to pass the threshold of a shrine.
+
+>out
+ You get out of the First Burial Shrine.
+
+ The Second Burial Shrine
+ A sturdy vault to guard your body and its royal adornments from
+ thieves and drafts.
+
+ In the Second Burial Shrine you can see a First Burial Shrine.
+
+ The haunting melody of Silent Supplicant lingers in your mind.
+
+>out
+ You get out of the Second Burial Shrine.
+
+ The Third Burial Shrine
+ A sturdy vault to guard your body and its royal adornments from
+ thieves and drafts.
+
+ In the Third Burial Shrine you can see a Second Burial Shrine.
+
+ The haunting melody of Silent Supplicant lingers in your mind.
+
+>out
+ You get out of the Third Burial Shrine.
+
+ The Fourth Burial Shrine
+ A sturdy vault to guard your body and its royal adornments from
+ thieves and drafts.
+
+ In the Fourth Burial Shrine you can see a Third Burial Shrine.
+
+ The haunting melody of Silent Supplicant lingers in your mind.
+
+>out
+ You get out of the Fourth Burial Shrine.
+
+ Burial Chamber
+ This small stone chamber is nearly filled by your nested Burial
+ Shrines. The walls are richly (if hastily) painted with scenes of your
+ recent funeral. A wide gap in the stone leads east; a passage to the
+ south is narrow and guarded by two stern stone statues of yourself.
+ The west wall is carved with a false door: a shallow bas-relief
+ simulation of an inviting archway leading to the perils and rewards of
+ the afterlife.
+
+ The mood of Silent Supplicant fades.
+
+>examine paintings
+ The scenes are all too familiar: the body anointed and wrapped; the
+ priest opening the mouth; the Ka rising, walking, taking up its true
+ regalia, and departing the tomb at last: through the False Door that
+ leads past challenges undreamed toward a promise of eternal rest.
+
+ Seeing it in rich earth tones and bright gold brings back, somehow,
+ corpse-memories of your embalming: The Grand Vizier wearing the
+ Jackal-head himself to preside over your immortalization...then taking
+ up the crook and flail, and declaring himself your heir and immediate
+ successor to the throne! Typical! You feel a slow wave of anger...no,
+ of envy: an itch to wield those royal implements again yourself.
+
+>examine statue
+ Two stone statues, in your own image, guard the narrow passage that
+ separates your private chambers from the more public spaces of your
+ tomb.
+
+>examine false door
+ An inviting arch leading to the lands west of life...but it is merely
+ carved stone.
+
+>examine bas-relief
+ An inviting arch leading to the lands west of life...but it is merely
+ carved stone.
+
+>save "cf1"
+ I only understood you as far as wanting to save.
+
+>save
+>cf1
+ Enter saved game to store: Ok.
+
+>go south
+ The twin statues stoically bar your way.
+
+>sing Letting Myself Come Through
+ Voicelessly you voice Letting Myself Come Through.
+
+ The statues guarding the door to the south turn their expressionless
+ faces toward you.
+
+>go south
+ The statues gravely let you pass.
+
+ Antechamber
+ This chamber is smooth bare stone. Two stone statues guard the narrow
+ passage to the north; rough rectangular holes in the stone lead east
+ and west.
+
+ Your Coronation Crook lies abandoned in the dust.
+
+ The mood of Letting Myself Come Through fades.
+ The statues no longer seem aware of you.
+
+>take crook
+ Taken.
+
+>examine it
+ This is the royal crook you used at your coronation.
+
+ Why was it taken from its case? Why was it cast aside in the outer
+ tomb? Such disrespect for a god-king's symbol of authority seems
+ unthinkable.
+
+>examine holes
+ You can't see any such thing.
+
+>inventory
+ You are carrying:
+   your Coronation Crook
+   a Book of Songs of Getting Through the Day
+
+>go east
+
+ Corridor
+ This crude corridor leads west into your tomb - which already feels
+ like home. To the east, the stairs that led here from the world of the
+ living are sealed off above by thick stone.
+
+>go west
+
+ Antechamber
+ This chamber is smooth bare stone. Two stone statues guard the narrow
+ passage to the north; rough rectangular holes in the stone lead east
+ and west.
+
+>go west
+
+ Annex
+ This crude hollow holds more of your worldly goods. None seems to
+ matter much now. The only break in the walls leads east.
+
+>examine goods
+ These things seem to have been disturbed, then hastily straightened.
+ You sense that items are missing that ought to be here. Rage takes you
+ for a moment, but it flows slowly, like cold mud, not the familiar hot
+ fire of living anger. Has my grave, then, been robbed by the very men
+ hand-picked to seal it? What use are amulets? what use are tombs? a
+ cat may look at us, but where is safety in the world, when an
+ undertaker may rob a king?
+
+>go east
+
+ Antechamber
+ This chamber is smooth bare stone. Two stone statues guard the narrow
+ passage to the north; rough rectangular holes in the stone lead east
+ and west.
+
+>search goods
+ You can't see any such thing.
+
+>w. search goods
+ I only understood you as far as wanting to w.
+
+>go west
+
+ Annex
+ This crude hollow holds more of your worldly goods. None seems to
+ matter much now. The only break in the walls leads east.
+
+>search goods
+ These things seem to have been disturbed, then hastily straightened.
+ You sense that items are missing that ought to be here. Rage takes you
+ for a moment, but it flows slowly, like cold mud, not the familiar hot
+ fire of living anger. Has my grave, then, been robbed by the very men
+ hand-picked to seal it? What use are amulets? what use are tombs? a
+ cat may look at us, but where is safety in the world, when an
+ undertaker may rob a king?
+
+>e. e
+
+ Antechamber
+ This chamber is smooth bare stone. Two stone statues guard the narrow
+ passage to the north; rough rectangular holes in the stone lead east
+ and west.
+
+>go east
+
+ Corridor
+ This crude corridor leads west into your tomb - which already feels
+ like home. To the east, the stairs that led here from the world of the
+ living are sealed off above by thick stone.
+
+>examine stone
+ Yesterday those stairs led here from the living world. Now they lead
+ nowhere.
+
+>examine stairs
+ Yesterday those stairs led here from the living world. Now they lead
+ nowhere.
+
+>sing sandstone
+ Voicelessly you voice Sandstone Sifter.
+
+ Sandstone - even quartzite - feels just like loose sand to you.
+
+>go up
+ You can't go that way.
+
+ The mood of Sandstone Sifter fades.
+
+>look
+ Corridor
+ This crude corridor leads west into your tomb - which already feels
+ like home. To the east, the stairs that led here from the world of the
+ living are sealed off above by thick stone.
+
+>sing lost memories
+ Voicelessly you voice Lost Memories.
+
+ The song evokes a mood of long ago, but nothing you see here sparks a
+ particular memory.
+
+>go west
+
+ Antechamber
+ This chamber is smooth bare stone. Two stone statues guard the narrow
+ passage to the north; rough rectangular holes in the stone lead east
+ and west.
+
+>go west
+
+ Annex
+ This crude hollow holds more of your worldly goods. None seems to
+ matter much now. The only break in the walls leads east.
+
+>sing lost memories
+ Voicelessly you voice Lost Memories.
+
+ The song evokes a mood of long ago, but nothing you see here sparks a
+ particular memory.
+
+>go east
+
+ Antechamber
+ This chamber is smooth bare stone. Two stone statues guard the narrow
+ passage to the north; rough rectangular holes in the stone lead east
+ and west.
+
+>go north
+ The twin statues stoically bar your way.
+
+>sing letting myself
+ Voicelessly you voice Letting Myself Come Through.
+
+ The statues guarding the door to the north turn their expressionless
+ faces toward you.
+
+>go north
+ The statues gravely let you pass.
+
+ Burial Chamber
+ This small stone chamber is nearly filled by your nested Burial
+ Shrines. The walls are richly (if hastily) painted with scenes of your
+ recent funeral. A wide gap in the stone leads east; a passage to the
+ south is narrow and guarded by two stern stone statues of yourself.
+ The west wall is carved with a false door: a shallow bas-relief
+ simulation of an inviting archway leading to the perils and rewards of
+ the afterlife.
+
+ The mood of Letting Myself Come Through fades.
+ The statues no longer seem aware of you.
+
+>sing lost memories
+ Voicelessly you voice Lost Memories.
+
+ The song evokes a mood of long ago. But you find yourself staring at
+ the painted walls, reminded of something more recent....
+
+ The scenes are all too familiar: the body anointed and wrapped; the
+ priest opening the mouth; the Ka rising, walking, taking up its true
+ regalia, and departing the tomb at last: through the False Door that
+ leads past challenges undreamed toward a promise of eternal rest.
+
+ Seeing it in rich earth tones and bright gold brings back, somehow,
+ corpse-memories of your embalming: The Grand Vizier wearing the
+ Jackal-head himself to preside over your immortalization...then taking
+ up the crook and flail, and declaring himself your heir and immediate
+ successor to the throne! Typical! You feel a slow wave of anger...no,
+ of envy: an itch to wield those royal implements again yourself.
+
+>go east
+
+ Treasury
+ This chamber is dominated by a grim statue of Anubis, judge of the
+ newly dead, in jackal form. Around it are arrayed a decade's worth of
+ kingly gifts. Little of it seems to matter much now. On the other
+ hand, your Canopic Shrine and Sceptre Case are here, too. A wide gap
+ in the west wall is the only exit.
+
+>open case
+ You open your Sceptre Case, revealing your replacement Coronation
+ Flail, an Impolitic Spare Crook, a Large Paternal Crook, and a Large
+ Paternal Flail.
+
+>examine anubis
+ The statue's grim visage seems to reserve judgment.
+
+>examine shrine
+ A sturdy vault for your most fragile internal organs.  External, now.
+
+>examine coronation flail
+ This royal Flail looks just like the one you were given for your
+ coronation...almost. But no: it lacks your cartouche. It is a replica,
+ a fake! Now - now that you're dead - somehow you can't remember what
+ that could mean, but it makes you uneasy.
+
+>examine paternal
+ Which do you mean, the Large Paternal Crook, or the Large Paternal
+ Flail?
+
+>flail
+ This is your father's best ceremonial flail: now your prized heirloom.
+
+>examine paternal crook
+ This is your father's best ceremonial crook: now your cherished
+ heirloom.
+
+>examine impolitic crook
+ This is a spare ceremonial crook you have never used. It was a gift
+ from an unpopular functionary whose favor you dared not acknowledge.
+
+>take all
+ your replacement Coronation Flail: Taken.
+ Impolitic Spare Crook: Taken.
+ Large Paternal Crook: Taken.
+ Large Paternal Flail: Taken.
+ kingly gifts: None of these things interests you anymore.
+
+>examine gifts
+ Mortal riches that hold no value for you now.
+
+>open jar
+ Your viscera are probably safest where they are.
+
+>sing lost memories
+ Voicelessly you voice Lost Memories.
+
+ The song evokes a mood of long ago. Your glance catches on that
+ subtly, naggingly inauthentic Coronation Flail, and suddenly a clear
+ memory rushes back...
+
+ ...Your coronation. You were only nine...of course you were nervous.
+ But god-kings are infallible, your father-friend warned you, and then
+ had to explain his words: admit no mistakes today!
+
+ You prayed you would simply make no mistakes, but of course disaster
+ struck almost immediately. During your solemn investiture ceremony,
+ the Royal Flail, in your young, infallible hand, brushed against a
+ nearby man, a faithful attendant.
+
+ A trivial accident, caused by the slight shaking of your own nervous
+ hand. But tradition says it is an offense against the gods for an
+ attendant to touch a royal sceptre during such a ceremony, and the
+ penalty is death....
+
+ A Childhood Memory
+ The throne room where you've spent so much of your life this past
+ decade...but as it looked to you the first time you saw it, as a
+ child: rich and strange and big.
+
+ The blameless attendant is watching you, wide-eyed with fear.
+
+ Everyone else is watching you both with concern, wondering if you will
+ indeed condemn this faithful servant to death as your first official
+ act.
+
+ I must save this blameless man from my mistake, you remember thinking
+ then, without taking the blame myself. But how?
+
+>save
+>cf2
+ Enter saved game to store: Ok.
+
+>condemn me
+ My fault, you want to say, an accident! But a god-king can say no such
+ thing.
+
+>inventory
+ You are carrying:
+   your Royal Crook
+   your Royal Flail
+
+>examine man
+ The man watches you in terror; he was not at fault, but his brief
+ contact with your sceptre is a death sentence only you can rescind.
+
+>examine flail
+ The Royal Flail represents your responsibility to separate the wheat
+ from the chaff among your subjects. Too literally, today.
+
+>examine crook
+ The royal Crook represents your responsibility to keep your flock from
+ straying.
+
+>touch man with crook
+ He shies back in horror.
+
+>condemn man
+ You feel a sudden pridefulness, and your fist grips the flail's
+ handle. Let him die, then, and thereby prove my power! But you sense
+ that this is not kingly wisdom, and suppress the confirming gesture.
+
+>rescind sentence
+ I didn't understand that sentence.
+
+>forgive man
+ Nervously, you favor the blameless attendant with the only gesture of
+ royal forgiveness you can recall, though it is intended for less
+ serious matters.
+
+ The tension in the room diminishes slightly. Your gesture helped, but
+ it seems not to be enough.
+
+>absolve man
+ Nervously, you favor the blameless attendant with the only gesture of
+ royal forgiveness you can recall, though it is intended for less
+ serious matters.
+
+ The tension in the room diminishes slightly. Your gesture helped, but
+ it seems not to be enough.
+
+>touch man with flail
+ He shies back in horror.
+
+>hug man
+ The tension in the room diminishes slightly. Your gesture helped, but
+ it seems not to be enough.
+
+>hit me with crook
+ I only understood you as far as wanting to hit yourself.
+
+>look
+ A Childhood Memory
+ The throne room where you've spent so much of your life this past
+ decade...but as it looked to you the first time you saw it, as a
+ child: rich and strange and big.
+
+ The blameless attendant is watching you, wide-eyed with fear.
+
+ Everyone else is watching you both with concern, wondering if you will
+ indeed condemn this faithful servant to death as your first official
+ act.
+
+>dismiss man
+ That's not a verb I recognize.
+
+>examine me
+ Young, alive, king: only in memory, alas.
+
+>talk to man
+ That's not a verb I recognize.
+
+>wave crook
+ You look ridiculous waving your Royal Crook.
+
+>tell joke
+ You can't see any such thing.
+
+>kiss man
+ The tension in the room diminishes slightly. Your gesture helped, but
+ it seems not to be enough.
+
+>wave flail
+ You look ridiculous waving your Royal Flail.
+
+>dance
+ That's not a verb I recognize.
+
+>jump
+ You jump on the spot, fruitlessly.
+
+>hit man
+ You feel a sudden pridefulness, and your fist grips the flail's
+ handle. Let him die, then, and thereby prove my power! But you sense
+ that this is not kingly wisdom, and suppress the confirming gesture.
+
+>admit mistake
+ That's not a verb I recognize.
+
+>man, go
+ That's not a verb I recognize.
+
+>examine man
+ The man watches you in terror; he was not at fault, but his brief
+ contact with your sceptre is a death sentence only you can rescind.
+
+>rescind sentence
+ I didn't understand that sentence.
+
+>examine sceptre
+ Which do you mean, the better flail, your Royal Crook, or your Royal
+ Flail?
+
+>rescind
+ I didn't understand that sentence.
+
+>give crook to man
+ He shies back in horror.
+
+>guess verb
+ That's not a verb I recognize.
+
+>ask man about town
+ There is no reply.
+
+>sing lost memories
+ Nervously you hum a half-remembered mnemonic chant, hoping to recall
+ some forgotten ritual from your hasty training...
+
+ ...but all that comes to mind is your father in a rage, smashing his
+ razor when it cut him...
+
+ ...the day he died.
+
+>look
+ A Childhood Memory
+ The throne room where you've spent so much of your life this past
+ decade...but as it looked to you the first time you saw it, as a
+ child: rich and strange and big.
+
+ The blameless attendant is watching you, wide-eyed with fear.
+
+ Everyone else is watching you both with concern, wondering if you will
+ indeed condemn this faithful servant to death as your first official
+ act.
+
+>forgive man
+ Nervously, you favor the blameless attendant with the only gesture of
+ royal forgiveness you can recall, though it is intended for less
+ serious matters.
+
+ The tension in the room diminishes slightly. Your gesture helped, but
+ it seems not to be enough.
+
+>smash sceptre
+>bow to man
+ Which do you mean, the better flail, your Royal Crook, or your Royal
+ Flail?
+
+ I only understood you as far as wanting to bow.
+
+>smash better flail
+ Stupid flail! If a royal sceptre got broken, they'd have to bring
+ another one, right?
+
+>examine better flail
+ Stupid flail! If a royal sceptre got broken, they'd have to bring
+ another one, right?
+
+>break better flail
+ Stupid flail! If a royal sceptre got broken, they'd have to bring
+ another one, right?
+
+>smash royal flail
+ You break the errant Flail into pieces, denouncing it as false,
+ disowning its actions. All present relax: the crisis is past. The
+ blameless attendant rushes to bring a replacement Flail: a perfect
+ match, lacking only the inscription...
+
+ ...and you used that one ever after...
+
+ Treasury
+ This chamber is dominated by a grim statue of Anubis, judge of the
+ newly dead, in jackal form. Around it are arrayed a decade's worth of
+ kingly gifts. Little of it seems to matter much now. On the other
+ hand, your Canopic Shrine and Sceptre Case are here, too. A wide gap
+ in the west wall is the only exit.
+
+ The mood of Lost Memories fades.
+
+ Now that you recall when and why you broke the original, your
+ replacement Coronation Flail seems perfectly authentic after all.
+
+>win the game
+ That's not a verb I recognize.
+
+>go west
+
+ Burial Chamber
+ This small stone chamber is nearly filled by your nested Burial
+ Shrines. The walls are richly (if hastily) painted with scenes of your
+ recent funeral. A wide gap in the stone leads east; a passage to the
+ south is narrow and guarded by two stern stone statues of yourself.
+ The west wall is carved with a false door: a shallow bas-relief
+ simulation of an inviting archway leading to the perils and rewards of
+ the afterlife.
+
+>sing down under
+ Voicelessly you voice Down Under.
+
+ The false door opens, revealing a seemingly infinite series of arches
+ leading west.
+
+>go west
+ You approach the arch that leads to the unknown lands west of life
+ itself; but you are stopped by a sense that you are overburdened with
+ mementos. You feel reluctant to leave your old life without some
+ token, some remembrance...some talisman against the unknown challenges
+ that lurk perhaps only a step beyond the arch. But not to excess.
+
+>go east
+
+ Treasury
+ This chamber is dominated by a grim statue of Anubis, judge of the
+ newly dead, in jackal form. Around it are arrayed a decade's worth of
+ kingly gifts. Little of it seems to matter much now. On the other
+ hand, your Canopic Shrine and Sceptre Case are here, too. A wide gap
+ in the west wall is the only exit.
+
+>inventory
+ You are carrying:
+   your Coronation Crook
+   a Large Paternal Flail
+   a Large Paternal Crook
+   an Impolitic Spare Crook
+   your replacement Coronation Flail
+   a Book of Songs of Getting Through the Day
+
+>put large paternal flail in case
+ You put the Large Paternal Flail into your Sceptre Case.
+
+>put paternal flail in case
+ You need to be holding the Large Paternal Flail before you can put it
+ into something else.
+
+>put all but replacement flail into case
+ your Coronation Crook: Done.
+ Large Paternal Crook: Done.
+ Impolitic Spare Crook: Done.
+ Book of Songs of Getting Through the Day: You are reluctant to risk
+ damaging the Book: it seems both useful and beautiful.
+
+>go west
+
+ Burial Chamber
+ This small stone chamber is nearly filled by your nested Burial
+ Shrines. The walls are richly (if hastily) painted with scenes of your
+ recent funeral. A wide gap in the stone leads east; a passage to the
+ south is narrow and guarded by two stern stone statues of yourself.
+
+ The false door carved into the west wall has become a real archway,
+ leading west into absolute darkness.
+
+>sing down under
+ Voicelessly you voice Down Under.
+
+ The false door opens, revealing a seemingly infinite series of arches
+ leading west.
+
+>go west
+ You approach the arch that leads to the unknown lands west of life
+ itself; but you hesitate. Looking around again at the somber paintings
+ of this very moment on the burial chamber walls, you are suddenly
+ homesick for mortality and kingship. You feel reluctant to leave your
+ old life without some token, some remembrance...some talisman against
+ the unknown challenges that lurk perhaps only a step beyond the arch.
+
+>go east
+
+ Treasury
+ This chamber is dominated by a grim statue of Anubis, judge of the
+ newly dead, in jackal form. Around it are arrayed a decade's worth of
+ kingly gifts. Little of it seems to matter much now. On the other
+ hand, your Canopic Shrine and Sceptre Case are here, too. A wide gap
+ in the west wall is the only exit.
+
+>take coronation crook
+ Taken.
+
+>go west
+
+ Burial Chamber
+ This small stone chamber is nearly filled by your nested Burial
+ Shrines. The walls are richly (if hastily) painted with scenes of your
+ recent funeral. A wide gap in the stone leads east; a passage to the
+ south is narrow and guarded by two stern stone statues of yourself.
+
+ The false door carved into the west wall has become a real archway,
+ leading west into absolute darkness.
+
+>sing down under
+ Voicelessly you voice Down Under.
+
+ The false door opens, revealing a seemingly infinite series of arches
+ leading west.
+
+>go west
+ With your best sceptres crossed protectively before you, you step out
+ through the westward arch.
+
+ ...for an instant you percieve the universe as an infinity of arches.
+ Each step in any direction is a step through another arch, into
+ another world...
+
+ ...but even as the possibilities expand around you, the paths you have
+ already walked fade away...
+
+ ...you feel, more than see, a distant glimpse of paradise; but an
+ instant later it is wrapped...no, you are surrounded in layers of
+ obscuring mist that solidify one by one around you: huge confusing
+ shapes, each smaller and simpler than the one surrounding it, until
+ you find yourself inside the simplest shape of all, still enormous,
+ and dark....
+
+ Solar Sphere
+ You are in a large spherical vault of polished stone, black as night,
+ though your feline vision reveals all. In the exact center a
+ magnificent amulet of tremendous size hangs in the darkness: a
+ spherical mosaic of emerald and lapis lazuli and brown jasper, perhaps
+ thrice your height, and as far above you.
+
+ Surely those gems lack their full glory in such darkness.
+
+ A man-sized clockwork scarab is pushing a lacy metal ball east along
+ the bottom arc of the chamber. As the scarab chugs past you, crossing
+ the low arc and heading up toward the east side of the spherical
+ chamber, you catch a flickering glimpse of some strange mechanism
+ inside the golden cage.
+
+>examine door
+ You can't see any such thing.
+
+>examine me
+ Here beyond the false door, you feel much more yourself than you did
+ in your tomb. Still dead, though.
+
+ The sound of gears gets louder: now the clockwork scarab is pushing
+ its lacy metal ball up the east arc of the chamber.
+
+>examine cage
+ The scarab is pushing a man-high, lacy ball through the darkness: a
+ spherical cage woven of fine gold wire. A strange mechanism is barely
+ visible inside.
+
+ Now the clockwork scarab is pushing its lacy metal ball west across
+ the top arc of the chamber.
+
+>examine mechanism
+ From outside the wire ball, you can only tell that some small objects
+ are woven into the wire near the center.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber. (In a moment it will pass you again as it crosses the
+ bottom of the chamber.)
+
+>examine amulet
+ The mosaic is a map: you perceive that the jewelled globe is a map of
+ the entire world, although the part you recognize as your own kingdom
+ - marked by a small white obelisk - seems impossibly tiny.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>examine obelisk
+ A pyramid-capped square column, about the size of your thumb, carved
+ from some fine-grained white stone. Fine inscriptions describe your
+ nation's worth, but in no language you have ever seen.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>examine ball
+ The scarab is pushing a man-high, lacy ball through the darkness: a
+ spherical cage woven of fine gold wire. A strange mechanism is barely
+ visible inside.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>examine ball
+ The scarab is pushing a man-high, lacy ball through the darkness: a
+ spherical cage woven of fine gold wire. A strange mechanism is barely
+ visible inside.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber. (In a moment it will come within your reach again as
+ it crosses the bottom of the chamber.)
+
+>examine scarab
+ The giant scarab beetle, finely crafted of copper and bronze, works
+ its six leg-cams tirelessly along two thin grooves that circle this
+ chamber. Between the polished plates of its carapace you can see gears
+ turning inside.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>inventory
+ You are carrying:
+   your Coronation Crook
+   your replacement Coronation Flail
+   a Book of Songs of Getting Through the Day
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>touch ball
+ The cage-ball is out of reach: the mechanical scarab is pushing it up
+ the east arc of the chamber....
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>put crook in scarab
+ That can't contain things.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber. (In a moment it will come within your reach again as
+ it crosses the bottom of the chamber.)
+
+>take ball
+ The cage-ball is out of reach: the mechanical scarab is pushing it
+ down the west arc of the chamber....
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>jump
+ You jump, but the jewelled globe remains out of your reach.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>undo
+ Solar Sphere
+ [Previous turn undone.]
+
+>take ball
+ That's too heavy to move.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>trip scarab
+ That's not a verb I recognize.
+
+>look
+ Solar Sphere
+ You are in a large spherical vault of polished stone, black as night,
+ though your feline vision reveals all. In the exact center a
+ magnificent amulet of tremendous size hangs in the darkness: a
+ spherical mosaic of emerald and lapis lazuli and brown jasper, perhaps
+ thrice your height, and as far above you.
+
+ Surely those gems lack their full glory in such darkness.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>examine track
+ You can't see any such thing.
+
+>examine gems
+ The mosaic is a map: you perceive that the jewelled globe is a map of
+ the entire world, although the part you recognize as your own kingdom
+ - marked by a small white obelisk - seems impossibly tiny.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber. (In a moment it will come within your reach again as
+ it crosses the bottom of the chamber.)
+
+>sing cats eyes
+ Voicelessly you voice Cat Eyes.
+
+ It is still pitch dark, but the darkness no longer hinders your
+ vision.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>inventory
+ You are carrying:
+   your Coronation Crook
+   your replacement Coronation Flail
+   a Book of Songs of Getting Through the Day
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>hit scarab with crook
+ I only understood you as far as wanting to hit the Clockwork Scarab.
+
+>sing lost memories
+ Voicelessly you voice Lost Memories.
+
+ The song evokes a mood of long ago. You glance at your royal sceptres
+ in doubt. These served me well for a decade, among men. But here
+ amidst the machinery of the gods?
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>help
+ This is an interactive story. You are in the lead role. Specify your
+ next action at the prompt in the form of a simple command, like "eat
+ cake" or "pull lever" or "go north" ("n" for short) or "look" ("l").
+ Don't be afraid to try a variety of verbs.
+
+ Be observant; be creative; experiment. Read carefully!
+
+ Try to work out what the protagonist's goals are, then try to achieve
+ them. If you get stuck, think back over what you know, what you don't
+ know, what you can manipulate, and what you (might) want to accomplish
+ next.
+
+ Examine things ("x" for short) to reveal subtle details. Take what you
+ find and try to use it. (Try "i" for "inventory" to see what you've
+ got.)
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber. (In a moment it will come within your reach again as
+ it crosses the bottom of the chamber.)
+
+>sing gold digger
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>take mechanism
+ That is out of reach inside the cage-ball.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+ The mood of Gold Digger fades.
+
+>examine mechanism
+ From outside the wire ball, you can only tell that some small objects
+ are woven into the wire near the center.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber. (In a moment it will come within your reach again as
+ it crosses the bottom of the chamber.)
+
+>sing gold digger
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>touch ball
+ The scarab is pushing a man-high, lacy ball through the darkness: a
+ spherical cage woven of fine gold wire. A strange mechanism is barely
+ visible inside.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+ The mood of Gold Digger fades.
+
+>undo
+ Solar Sphere
+ [Previous turn undone.]
+
+>take ball
+ That's too heavy to move.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+ The mood of Gold Digger fades.
+
+>undo
+ Solar Sphere
+ [Previous turn undone.]
+
+>push ball
+ You can't stop the golden cage.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+ The mood of Gold Digger fades.
+
+>examine scarab
+ The giant scarab beetle, finely crafted of copper and bronze, works
+ its six leg-cams tirelessly along two thin grooves that circle this
+ chamber. Between the polished plates of its carapace you can see gears
+ turning inside.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber. (In a moment it will come within your reach again as
+ it crosses the bottom of the chamber.)
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>kick scarab
+ Violence isn't the answer to this one.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>enter ball
+ The cage-ball is out of reach: the mechanical scarab is pushing it up
+ the east arc of the chamber....
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber. (In a moment it will come within your reach again as
+ it crosses the bottom of the chamber.)
+
+>sing gold
+ (Gold Digger)
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>enter ball
+ You slip through the yielding gold wire.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber with you inside.
+
+ The mood of Gold Digger fades.
+
+>look
+ Solar Sphere (in the golden cage)
+ You are in a large spherical vault of polished stone, black as night,
+ though your feline vision reveals all. In the exact center a
+ magnificent amulet of tremendous size hangs in the darkness: a
+ spherical mosaic of emerald and lapis lazuli and brown jasper, perhaps
+ thrice your height, and as far above you.
+
+ Surely those gems lack their full glory in such darkness.
+
+ The scarab is pushing a man-high, lacy ball through the darkness: a
+ spherical cage woven of fine gold wire. Near the center a strange
+ mechanism is woven into the wire.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber with you inside.
+
+>examine mechanism
+ Simple, yet enigmatic. A metal framework - an outgrowth of the cage's
+ wire lacework - suspends a few mechanical parts close together near
+ the ball's center:
+
+ A little spool, hanging from a pivot of twisted wire, with a leather
+ strap wound several times around it and a square hole in the bottom.
+
+ A hand's width below the hole in the spool, a cone of some unknown
+ gray material, singed yellow-brown in the center.
+
+ Beside the cone, a tiny bellows, like a smith's child's toy.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber with you inside.
+
+>examine spool
+ A little spool is woven into the mechanism such that it can spin. It
+ is wrapped with a leather strap, and there is a small square hole in
+ the spool's bottom face.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber with you inside.
+
+>press bellows
+ A fine mist sprays from the tiny bellows, blowing across the singed
+ cone. A sharp, unfamiliar aroma fills the cage.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber with you inside.
+
+>smell
+ The golden cage isn't open.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber with you inside.
+
+>smell cone
+ The cone smells singed.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber with you inside.
+
+>sing lost
+ Voicelessly you voice Lost Memories.
+
+ The song evokes a mood of long ago. You glance at your royal sceptres
+ in doubt. These served me well for a decade, among men. But here
+ amidst the machinery of the gods?
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber with you inside.
+
+>look
+ Solar Sphere (in the golden cage)
+ You are in a large spherical vault of polished stone, black as night,
+ though your feline vision reveals all. In the exact center a
+ magnificent amulet of tremendous size hangs in the darkness: a
+ spherical mosaic of emerald and lapis lazuli and brown jasper, perhaps
+ thrice your height, and as far above you.
+
+ Surely those gems lack their full glory in such darkness.
+
+ The scarab is pushing a man-high, lacy ball through the darkness: a
+ spherical cage woven of fine gold wire. Near the center a strange
+ mechanism is woven into the wire.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber with you inside.
+
+>examine mechanism
+ Simple, yet enigmatic. A metal framework - an outgrowth of the cage's
+ wire lacework - suspends a few mechanical parts close together near
+ the ball's center:
+
+ A little spool, hanging from a pivot of twisted wire, with a leather
+ strap wound several times around it and a square hole in the bottom.
+
+ A hand's width below the hole in the spool, a cone of some unknown
+ gray material, singed yellow-brown in the center.
+
+ Beside the cone, a tiny bellows, like a smith's child's toy.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber with you inside.
+
+>get all
+ Miniature Obelisk: You can't reach that from here.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber with you inside.
+
+>examine spool
+ A little spool is woven into the mechanism such that it can spin. It
+ is wrapped with a leather strap, and there is a small square hole in
+ the spool's bottom face.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber with you inside.
+
+>examine cone
+ A rounded block of some hard gray substance, with a conical pit in the
+ top. The cone is unevenly discolored.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber with you inside.
+
+>get spool
+ That seems to be a part of the strange mechanism.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber with you inside.
+
+>examine leather
+ The strap is wrapped several times around the spool. Its free end is
+ clearly a handle.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber with you inside.
+
+>pull strap
+ Pulling the strap spins the spool, fast. The strap pulls out of your
+ hand and wraps itself around the spool again.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber with you inside.
+
+>smell cone
+ The cone smells singed.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber with you inside.
+
+>examine bellows
+ It appears that pushing on the little bellows will puff its contents
+ at the singed cone.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber with you inside.
+
+>squeeze bellows
+ A fine mist sprays from the tiny bellows, blowing across the singed
+ cone. A sharp, unfamiliar aroma fills the cage.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber with you inside.
+
+>smell cone
+ The cone smells singed.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber with you inside.
+
+>examine hole
+ A little spool is woven into the mechanism such that it can spin. It
+ is wrapped with a leather strap, and there is a small square hole in
+ the spool's bottom face.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber with you inside.
+
+>inventory
+ You are carrying:
+   your Coronation Crook
+   your replacement Coronation Flail
+   a Book of Songs of Getting Through the Day
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber with you inside.
+
+>put flail in hole
+ That doesn't fit the hole in the spool.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber with you inside.
+
+>put crook in hole
+ That doesn't fit the hole in the spool.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber with you inside.
+
+>put scroll in hole
+ That doesn't fit the hole in the spool.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber with you inside.
+
+>get cne
+ You can't see any such thing.
+
+>get cone
+ That seems to be a part of the strange mechanism.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber with you inside.
+
+>examine mechanism
+ Simple, yet enigmatic. A metal framework - an outgrowth of the cage's
+ wire lacework - suspends a few mechanical parts close together near
+ the ball's center:
+
+ A little spool, hanging from a pivot of twisted wire, with a leather
+ strap wound several times around it and a square hole in the bottom.
+
+ A hand's width below the hole in the spool, a cone of some unknown
+ gray material, singed yellow-brown in the center.
+
+ Beside the cone, a tiny bellows, like a smith's child's toy.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber with you inside.
+
+>get bellows
+ That seems to be a part of the strange mechanism.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber with you inside.
+
+>get mechanism
+ That's too heavy to move.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber with you inside.
+
+>sing gold
+ (Gold Digger)
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber with you inside.
+
+>out
+ You slip through the yielding gold lace. As the ball is just rolling
+ across the top of the chamber, you fall out and tumble down onto the
+ jewelled globe.
+
+ Solar Sphere (on the Jewelled Globe)
+ You are in a large spherical vault of polished stone, black as night,
+ though your feline vision reveals all. In the exact center a
+ magnificent amulet of tremendous size hangs in the darkness: a
+ spherical mosaic of emerald and lapis lazuli and brown jasper.
+
+ Surely those gems lack their full glory in such darkness.
+
+ A miniature obelisk about the size of your thumb rests on the jewelled
+ globe, marking your own capital city.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber.
+
+ The mood of Gold Digger fades.
+
+>get obelisk
+ Taken.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>examine it
+ A pyramid-capped square column, about the size of your thumb, carved
+ from some fine-grained white stone. Fine inscriptions describe your
+ nation's worth, but in no language you have ever seen.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>hit Mick with obelisk
+ You can't see any such thing.
+
+>inventory
+ You are carrying:
+   a Miniature Obelisk
+   your Coronation Crook
+   your replacement Coronation Flail
+   a Book of Songs of Getting Through the Day
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>look
+ Solar Sphere (on the Jewelled Globe)
+ You are in a large spherical vault of polished stone, black as night,
+ though your feline vision reveals all. In the exact center a
+ magnificent amulet of tremendous size hangs in the darkness: a
+ spherical mosaic of emerald and lapis lazuli and brown jasper.
+
+ Surely those gems lack their full glory in such darkness.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber.
+
+>climb ball
+ The cage-ball is out of reach: the mechanical scarab is pushing it
+ down the west arc of the chamber....
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>examine
+ What do you want to examine?
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>sing gold
+ (Gold Digger)
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber.
+
+>enter ball
+ The cage-ball is out of reach: the mechanical scarab is pushing it
+ down the west arc of the chamber....
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+ The mood of Gold Digger fades.
+
+>sing gold
+ (Gold Digger)
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>undo
+ Solar Sphere
+ [Previous turn undone.]
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber.
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber.
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber.
+
+>wait
+ Time passes.
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>undo
+ Solar Sphere
+ [Previous turn undone.]
+
+>sing gold
+ (Gold Digger)
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+ The clockwork scarab is pushing its lacy metal ball east along the
+ bottom arc of the chamber.
+
+>enter ball
+ (getting off the Jewelled Globe)
+ You slip through the yielding gold wire.
+
+ The clockwork scarab is pushing its lacy metal ball up the east arc of
+ the chamber with you inside.
+
+ The mood of Gold Digger fades.
+
+>verbose
+ Ka is now in its "verbose" mode, which always gives long descriptions
+ of locations (even if you've been there before).
+
+>put obelisk in spool
+ The little obelisk fits firmly into the square hole in the spool.
+
+ The clockwork scarab is pushing its lacy metal ball west across the
+ top arc of the chamber with you inside.
+
+>pull leather
+ Pulling the strap spins the spool, fast. The obelisk spins with it;
+ its point whines against the singed cone, which begins to glow dull
+ red.
+
+ The clockwork scarab is pushing its lacy metal ball down the west arc
+ of the chamber with you inside.
+
+>press bellows
+ A fine mist sprays from the tiny bellows, blowing across the glowing
+ cone. The mist becomes a spray of fire, and in an instant the wire of
+ the cage is all aflame. The ball burns bright as the sun; its light
+ scintillates among the lands of the jewelled globe.
+
+ Dawn has come.
+
+ Near the west pole of this spherical chamber, the dawn-light reveals
+ an arched doorway that was not there before this moment.
+
+ The clockwork scarab is pushing its fiery metal ball east along the
+ bottom arc of the chamber with you inside.
+
+>sing gold
+ (Gold Digger)
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+ The clockwork scarab is pushing its fiery metal ball up the east arc
+ of the chamber with you inside.
+
+>exit
+ You slip through the yielding gold lace. As the ball is rolling up the
+ side of the chamber, you fall out and tumble back down to the low
+ point.
+
+ The clockwork scarab is pushing its fiery metal ball west across the
+ top arc of the chamber.
+
+ The mood of Gold Digger fades.
+
+>go west
+ Confidently crossing your sceptres before you, you step out through
+ the westward arch.
+
+ Senet House
+ This chamber is a cube almost too big to see. A hole in the apex
+ admits a single, broad beam of sunlight which stabs down to the floor,
+ sparkling dust and making a bright circle on the floor, in the exact
+ center of the dim space.
+
+ In the circle of light, a life-sized doll, finely crafted to resemble
+ a learned old man, sits on a three-legged stool before a game board.
+ Beneath his robes you can hear gears and flywheels whirring and
+ ticking. His gaze follows you with uncanny smoothness.
+
+>examine game board
+ The game is Hounds and Jackals, but this is some complex variant
+ you've never seen before. You have played on a small hand-held board,
+ with two short trails of peg-holes mirrored side by side. But this is
+ a large, elaborately carved oval table on a thin pedestal. It has
+ separate, identical trails of peg-holes at each end of the oval;
+ between them is a bowl shape holding two very large knucklebone dice.
+ Each side's trail is criss-crossed with dozens of the short-cut paths
+ that can so rapidly change a player's fortunes.
+
+ Seven Jackal pegs wait in the starting holes beneath the clockwork
+ sage's hand; seven Hound pegs wait in the starting holes at your side
+ of the game board.
+
+>play game
+ You pick up the dice and throw...
+
+ ...the doll plays its side of the board with steely concentration,
+ humming mechanically as it weighs its tactics...
+
+ ...you find you can adapt to the wildly complex board, but before long
+ you are losing. The clockwork sage's silver fingers throw the
+ knucklebones with musical precision; he knows the peg-paths like the
+ back of his hand...
+
+ ...in fact, you see that the board's layout is indeed engraved upon
+ the back of the doll's hand...
+
+ ...he exploits every opportunity and pulls ahead rapidly; at length
+ your position seems completely hopeless. You study the board once
+ more: the sage needs but one more indifferently lucky throw to bring
+ home his last Jackal, while your Hounds would need at least a dozen
+ turns to catch up...
+
+ ...it is your move, but it seems futile even to pick up the dice.
+
+>list song
+ That's not a verb I recognize.
+
+>read book
+ The Book of Songs of Getting Through the Day is a richly illustrated
+ scroll on virgin papyrus; its chapters are spell-songs prepared to
+ help you survive this most unusual day. As you read, you sense the
+ power behind these ancient verses...
+
+ Cat Eyes
+ In midnight skies
+  Twin moons
+   Light the way.
+ Black cat's eyes
+  Reveal runes;
+   Turn night to day.
+
+ Down Under
+ Arch of arches
+  West of west
+   From every tomb,
+ Each soul marches
+  To its rest
+   Or to its doom!
+
+ Silent Supplicant
+ To pass the gate
+  Of a holy shrine
+   Requires respect.
+ He who just ate
+  And drank much wine
+   The doors reject.
+
+ Master Glazier
+ Red as a brand
+  Star-gems flow
+   In your brazier;
+ What a grand
+   Skill you know,
+   Master Glazier!
+
+ Golden Forest Runner
+ Agile antelope
+  slips through a wood
+   bathed in golden light
+ Up or down a slope
+  any way is good
+   feet as fleet as flight
+
+ Letting Myself Come Through
+ Beside myself
+  I closed myself
+   Out of my own.
+ Before myself
+  I beg myself:
+   Leave myself alone.
+
+ Sandstone Sifter
+ Layer by layer
+  Sand of the Nile
+   Hardens to stone;
+ Time the betrayer
+  Held in denial:
+   Hardness is gone
+
+ Lost Memories
+ Trying to trace
+  Days of your youth,
+   Times you regret,
+ Don't like to face
+  Unpleasant truth,
+   So you forget.
+
+ Gold Digger
+ Strange men live in bands
+  Deep underground
+   Mining for gold
+ Dig ore with bare hands
+  Speak without sound
+   Ten thousand years old
+
+>sing lost
+ Voicelessly you voice Lost Memories.
+
+ The song evokes a mood of long ago. You glance at your sceptres again
+ in growing doubt. These served me well among men. But against a blind
+ genius automaton?
+
+>get dice
+ Dreading the result, you pick up the dice again...
+
+ ...sure enough, the mechanical master handily defeats you...
+
+ ...silently (but for a faint ticking) he begins to reset his pegs for
+ a fresh game. Silently, you do the same.
+
+>look
+ Senet House
+ This chamber is a cube almost too big to see. A hole in the apex
+ admits a single, broad beam of sunlight which stabs down to the floor,
+ sparkling dust and making a bright circle on the floor, in the exact
+ center of the dim space.
+
+ In the circle of light, a life-sized doll, finely crafted to resemble
+ a learned old man, sits on a three-legged stool before a game board.
+ Beneath his robes you can hear gears and flywheels whirring and
+ ticking. His gaze follows you with uncanny smoothness.
+
+>examine man
+ A clockwork sage sits rigidly upon a three-legged stool, facing you
+ across a game table. His skin is silver; his eyes sparkling jewels;
+ his clothes dyed silk; even his sandals are solid gold. Within him you
+ can hear fine machinery working; his gemstone gaze never leaves your
+ face.
+
+ The clockwork sage's silver hand waits above the Jackal pegs.
+
+>get hand
+ That seems to be a part of the Clockwork Sage.
+
+>look under robes
+ You find nothing of interest.
+
+>sing Master Glazier
+ Voicelessly you voice Master Glazier.
+
+ You sense how glass can flow like water.
+
+>examine hounds
+ The game is Hounds and Jackals, but this is some complex variant
+ you've never seen before. You have played on a small hand-held board,
+ with two short trails of peg-holes mirrored side by side. But this is
+ a large, elaborately carved oval table on a thin pedestal. It has
+ separate, identical trails of peg-holes at each end of the oval;
+ between them is a bowl shape holding two very large knucklebone dice.
+ Each side's trail is criss-crossed with dozens of the short-cut paths
+ that can so rapidly change a player's fortunes.
+
+ Seven Jackal pegs wait in the starting holes beneath the clockwork
+ sage's hand; seven Hound pegs wait in the starting holes at your side
+ of the game board.
+
+ The mood of Master Glazier fades.
+
+>examine sage's hand
+ You can't see any such thing.
+
+>examine hand
+ The clockwork sage's silver hand waits above the Jackal pegs. The
+ paths of the game board are engraved on the back of his hand. You try
+ to imagine the sage becoming forgetful, stealing a quick glance at the
+ diagram...
+
+ ...but the doll's gemstone gaze never leave your face.
+
+>examine diagram
+ The clockwork sage's silver hand waits above the Jackal pegs. The
+ paths of the game board are engraved on the back of his hand. You try
+ to imagine the sage becoming forgetful, stealing a quick glance at the
+ diagram...
+
+ ...but the doll's gemstone gaze never leave your face.
+
+>go west
+ You look for an arch to the west, but it seems plain that you must
+ first beat this automaton at his own game.
+
+>take hand
+ That seems to be a part of the Clockwork Sage.
+
+>examine dice
+ Knucklebones...big ones.
+
+>inventory
+ You are carrying:
+   your Coronation Crook
+   your replacement Coronation Flail
+   a Book of Songs of Getting Through the Day
+
+>play
+ You begin another game, briskly throwing the dice into the pit between
+ the paths...
+
+ ...again you improve as you play...
+
+ ...but again the clockwork sage outpaces your best efforts, bringing
+ you rapidly to the brink of defeat, his Jackal pegs all brought home
+ but one, while your Hounds have barely left the foothills of their
+ twisting path...
+
+ ...it is your move, but you seem to have little chance to win.
+
+>play
+ Gamely you roll again, but it is no use. Soon the Jackal pegs have
+ their victory over your Hounds, and the doll sets them up for another
+ game.
+
+>examine light
+ You can't see any such thing.
+
+>examine hole
+ You can't see any such thing.
+
+>take jackals
+ The table rotates easily; now the sage's hand waits above the Hound
+ pegs. He doesn't seem to care.
+
+>play
+ Yet again you pick up the dice...
+
+ ...your Jackal pegs set out on their journey...
+
+ ...you play more skillfully than ever, using every shortcut along the
+ path...
+
+ ...but the machine sees no distractions, hears nothing, feels
+ nothing...
+
+ ...his sense of the pegs is instinctual, ingrained. Engraved. You can
+ gain no purchase against the doll's tactics...
+
+ ...and once again you find your Jackal pegs impossibly far behind the
+ Hounds.
+
+>hit hand
+ Violence isn't the answer to this one.
+
+>wrap flail around hand
+ That's not a verb I recognize.
+
+>look
+ Senet House
+ This chamber is a cube almost too big to see. A hole in the apex
+ admits a single, broad beam of sunlight which stabs down to the floor,
+ sparkling dust and making a bright circle on the floor, in the exact
+ center of the dim space.
+
+ In the circle of light, a life-sized doll, finely crafted to resemble
+ a learned old man, sits on a three-legged stool before a game board.
+ Beneath his robes you can hear gears and flywheels whirring and
+ ticking. His gaze follows you with uncanny smoothness.
+
+>take robes
+ I don't suppose the Clockwork Sage would care for that.
+
+>examine eyes
+ Cat Eyes
+ In midnight skies
+  Twin moons
+   Light the way.
+ Black cat's eyes
+  Reveal runes;
+   Turn night to day.
+
+>examine man
+ A clockwork sage sits rigidly upon a three-legged stool, facing you
+ across a game table. His skin is silver; his eyes sparkling jewels;
+ his clothes dyed silk; even his sandals are solid gold. Within him you
+ can hear fine machinery working; his gemstone gaze never leaves your
+ face.
+
+ The clockwork sage's silver hand waits above the Hound pegs.
+
+>take jewels
+ I don't suppose the Clockwork Sage would care for that.
+
+>take hounds
+ You turn the table; now the sage's hand waits above the Jackal pegs.
+ He doesn't seem to notice the difference; he is still waiting
+ patiently for you to pick up the dice again.
+
+>take sandals
+ I don't suppose the Clockwork Sage would care for that.
+
+>examine sandals
+ A clockwork sage sits rigidly upon a three-legged stool, facing you
+ across a game table. His skin is silver; his eyes sparkling jewels;
+ his clothes dyed silk; even his sandals are solid gold. Within him you
+ can hear fine machinery working; his gemstone gaze never leaves your
+ face.
+
+ The clockwork sage's silver hand waits above the Jackal pegs.
+
+>play
+ You roll the bones again and easily bring "your" last peg home.
+
+ The doll sits back heavily on his three-legged stool, defeated.
+
+ Beyond him, you notice an arch leading west; you are certain that it
+ was not there until this moment.
+
+>go west
+ You raise your crook and flail as you approach the westward arch, but
+ you hesitate. Is that really necessary?
+
+ You lower the sceptres and step out through the arch.
+
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, red
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor. A quicksilver river flows through the middle of it;
+ every few moments the landscape floods, becoming a perfect mirror just
+ for an instant.
+
+ The liquid metal collects somewhere beneath the landscape at the
+ northern corner, then recirculates by means of some pumping equipment
+ near the southern edge.
+
+>examine landscape
+ You recognize the contours of your own lands, beautifully detailed.
+ The landscape seems carved from a single slab of ivory. (But what
+ creature has a tusk fifteen paces wide?)
+
+ The familiar life-giving river flows through the middle, the water
+ represented here by fast-flowing quicksilver, fed by some pumping
+ equipment at the southern edge of the landscape. The red firelight
+ shimmers on the silver-bright fluid as it flows across the land. Every
+ few moments, the liquid metal river overflows its banks, filling the
+ flood plain. For a breath, most of the landscape is a perfect mirror.
+ Then the mirror shatters into a million tiny rivulets; an instant
+ later these all rejoin in the riverbed, leaving not a drop on the
+ ivory plain.
+
+>examine mercury
+ The familiar life-giving river is represented by fast-flowing
+ quicksilver, fed by some pumping equipment at the southern edge of the
+ landscape.
+
+ Every few moments, the liquid metal river overflows its banks, filling
+ the flood plain. For a breath, most of the landscape is a perfect
+ mirror.
+
+>examine pump
+ The miniature river is supplied by a waist-high water wheel at the
+ southern edge. Hundreds of tiny cups are mounted all around the rim of
+ this wheel. As it turns - motivated by a force you can't discern - the
+ cups pour a continuous flow of liquid metal into the miniature river.
+
+ Next to the water wheel is a shadouf: a lever arm with a scoop
+ attached at one end, opposed by a counterweight at the other end. The
+ arm rocks slowly up and down - motivated by no force you can discern -
+ pouring an extra scoopful of quicksilver into the miniature river
+ every few moments.
+
+>examine shadouf
+ Next to the water wheel is a shadouf: a lever arm with a scoop
+ attached at one end, opposed by a counterweight at the other end. The
+ arm rocks slowly up and down - motivated by no force you can discern -
+ pouring an extra scoopful of quicksilver into the miniature river
+ every few moments.
+
+>examine counterweight
+ Next to the water wheel is a shadouf: a lever arm with a scoop
+ attached at one end, opposed by a counterweight at the other end. The
+ arm rocks slowly up and down - motivated by no force you can discern -
+ pouring an extra scoopful of quicksilver into the miniature river
+ every few moments.
+
+>take counterweight
+ The shadouf stops moving when you take hold of it: it is easy to
+ resist the gentle, mysterious impetus that drives it. The periodic
+ flooding abates, of course.
+
+>look
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, red
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor. A quicksilver river flows through the middle of it, fed
+ by the slowly turning water wheel; while you hold the scoop-lever, the
+ flow is steady and even.
+
+>put shadouf on wheel
+ Putting things on the water wheel would achieve nothing.
+
+>inventory
+ You are carrying:
+   a shadouf
+   your Coronation Crook
+   your replacement Coronation Flail
+   a Book of Songs of Getting Through the Day
+
+>put shadouf on landscape
+ You don't see a good place for that on the Miniature Landscape.
+
+>sing sandstone
+ Voicelessly you voice Sandstone Sifter.
+
+ Sandstone - even quartz - feels just like loose sand to you.
+
+>drop counterweight
+ You release the shadouf. It slowly resumes moving.
+
+ The mood of Sandstone Sifter fades.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>look
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, red
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor. A quicksilver river flows through the middle of it;
+ every few moments the landscape floods, becoming a perfect mirror just
+ for an instant.
+
+ The liquid metal collects somewhere beneath the landscape at the
+ northern corner, then recirculates by means of some pumping equipment
+ near the southern edge.
+
+>ball
+ That's not a verb I recognize.
+
+>examine ball
+ You can't see any such thing.
+
+>examine flames
+ Far above you, at the center of the ceiling, a red fire blazes inside
+ something crystalline.
+
+>get crystal
+ That is high above you, far out of reach.
+
+>look in mirror
+ You can't see any such thing.
+
+>push counterweight
+ The shadouf stops moving when you take hold of it: it is easy to
+ resist the gentle, mysterious impetus that drives it. The periodic
+ flooding abates, of course.
+
+>drop it
+ You release the shadouf. It slowly resumes moving.
+
+>sing lost
+ Voicelessly you voice Lost Memories.
+
+ The song evokes a mood of long ago. Your royal sceptres catch your eye
+ once more, now seeming like something from a half-forgotten dream. A
+ long-ignored memory rushes back...
+
+ Your father's funeral. A stranger in an anubis mask, so frightening to
+ you as a child. Endless attendants and functionaries. The old king's
+ sceptres retired: their symbolic power extinguished like spent candles
+ before they passed to you as mere heirlooms. And I took up my own soon
+ after. His body shown, honored, then wrapped, anointed, sealed away...
+
+ The mood of Lost Memories fades.
+
+ The vision recedes, leaving you holding the sceptres up to the light.
+ Perhaps it is time to be free of these mortal tools. You wonder how
+ you might retire them respectfully in this alien place.
+
+>drop sceptres in river
+ Which do you mean, your Coronation Crook, or your replacement
+ Coronation Flail?
+
+>crook
+ You dip your Coronation Crook into the quicksilver, but the liquid
+ metal flows off again instantly.
+
+>touch quicksilver
+ You feel nothing unexpected.
+
+>swim
+ That's not a verb I recognize.
+
+>inventory
+ You are carrying:
+   your Coronation Crook
+   your replacement Coronation Flail
+   a Book of Songs of Getting Through the Day
+
+>examine wheel
+ The miniature river is supplied by a waist-high water wheel at the
+ southern edge. Hundreds of tiny cups are mounted all around the rim of
+ this wheel. As it turns - motivated by a force you can't discern - the
+ cups pour a continuous flow of liquid metal into the miniature river.
+
+>stop wheel
+ The water wheel stops moving when you take hold of it: it is easy to
+ resist the gentle, mysterious impetus that drives it. Its supply
+ interrupted, the river drains in an instant. Quicksilver lingers only
+ in a complex series of grooves along the river-bed: schematic animals
+ that you recognize after a moment: writing.
+
+>read landscape
+ Inversions
+ Might is rarely right:
+  Temper law with love,
+   Reaping what you sow.
+ Day becomes the night:
+  As it is above,
+   So it is below.
+
+>sing inversions
+ Voicelessly you voice Inversions.
+
+ You lose your grip on the wheel as the floor and ceiling seem to
+ change places....
+
+ The Dodecahedron (on the ceiling)
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. Beside you on the
+ ceiling, red flames blaze inside a glittering crystalline shell.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor, high above your head. Every few moments you can see
+ yourself, walking on the ceiling, reflected in a flood of quicksilver.
+
+>get crystal
+ That's fixed in place.
+
+ The haunting melody of Inversions lingers in your mind.
+
+>touch crystal
+ The shell around the fire is an angular box, clear as distilled water.
+ It seems to be made of smooth-grown slabs of pure quartz crystal,
+ grown together at the edges.
+
+ The haunting melody of Inversions lingers in your mind.
+
+>sing glazier
+ Voicelessly you voice Master Glazier.
+
+ You sense how glass can flow like water.
+
+ The mood of Inversions fades.
+ The ceiling and floor seem to change places....
+
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, red
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor. A quicksilver river flows through the middle of it;
+ every few moments the landscape floods, becoming a perfect mirror just
+ for an instant.
+
+ The liquid metal collects somewhere beneath the landscape at the
+ northern corner, then recirculates by means of some pumping equipment
+ near the southern edge.
+
+>sing inversions
+ Voicelessly you voice Inversions.
+
+ The floor and ceiling seem to change places....
+
+ The Dodecahedron (on the ceiling)
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. Beside you on the
+ ceiling, red flames blaze inside a glittering crystalline shell.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor, high above your head. Every few moments you can see
+ yourself, walking on the ceiling, reflected in a flood of quicksilver.
+
+ The mood of Master Glazier fades.
+
+>sing glazier
+ Voicelessly you voice Master Glazier.
+
+ You sense how glass can flow like water.
+
+ The haunting melody of Inversions lingers in your mind.
+
+>take fire
+ The crystalline shell isn't open.
+
+ The mood of Master Glazier fades.
+ The haunting melody of Inversions lingers in your mind.
+
+>undo
+ The Dodecahedron
+ [Previous turn undone.]
+
+>examine crystal
+ The shell around the fire is an angular box, clear as distilled water.
+ It seems to be made of smooth-grown slabs of pure quartz crystal,
+ grown together at the edges.
+
+ The mood of Master Glazier fades.
+ The haunting melody of Inversions lingers in your mind.
+
+>undo
+ The Dodecahedron
+ [Previous turn undone.]
+
+>touch box
+ You can't see any such thing.
+
+>hit shell
+ Your strength is insufficient to damage it.
+>open crystal
+
+ The mood of Master Glazier fades.
+ The haunting melody of Inversions lingers in your mind.
+
+ It is beyond your strength to open that.
+
+ The mood of Inversions fades.
+ The ceiling and floor seem to change places....
+
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, red
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor. A quicksilver river flows through the middle of it;
+ every few moments the landscape floods, becoming a perfect mirror just
+ for an instant.
+
+ The liquid metal collects somewhere beneath the landscape at the
+ northern corner, then recirculates by means of some pumping equipment
+ near the southern edge.
+
+>sing inversions
+ Voicelessly you voice Inversions.
+
+ The floor and ceiling seem to change places....
+
+ The Dodecahedron (on the ceiling)
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. Beside you on the
+ ceiling, red flames blaze inside a glittering crystalline shell.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor, high above your head. Every few moments you can see
+ yourself, walking on the ceiling, reflected in a flood of quicksilver.
+
+>sing sandstone
+ Voicelessly you voice Sandstone Sifter.
+
+ Sandstone - even quartz - feels just like loose sand to you.
+
+ The haunting melody of Inversions lingers in your mind.
+
+>hit shell
+ Your hands pass through the crystalline shell, meeting no resistance.
+
+ The mood of Sandstone Sifter fades.
+ The haunting melody of Inversions lingers in your mind.
+
+>take fire
+ The crystalline shell isn't open.
+
+ The mood of Inversions fades.
+ The ceiling and floor seem to change places....
+
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, red
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor. A quicksilver river flows through the middle of it;
+ every few moments the landscape floods, becoming a perfect mirror just
+ for an instant.
+
+ The liquid metal collects somewhere beneath the landscape at the
+ northern corner, then recirculates by means of some pumping equipment
+ near the southern edge.
+
+>sing inversions
+ Voicelessly you voice Inversions.
+
+ The floor and ceiling seem to change places....
+
+ The Dodecahedron (on the ceiling)
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. Beside you on the
+ ceiling, red flames blaze inside a glittering crystalline shell.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor, high above your head. Every few moments you can see
+ yourself, walking on the ceiling, reflected in a flood of quicksilver.
+
+>sing sandstone
+ Voicelessly you voice Sandstone Sifter.
+
+ Sandstone - even quartz - feels just like loose sand to you.
+
+ The haunting melody of Inversions lingers in your mind.
+
+>take fire
+ The crystalline shell isn't open.
+
+ The mood of Sandstone Sifter fades.
+ The haunting melody of Inversions lingers in your mind.
+
+>open shell
+ It is beyond your strength to open that.
+
+ The mood of Inversions fades.
+ The ceiling and floor seem to change places....
+
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, red
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor. A quicksilver river flows through the middle of it;
+ every few moments the landscape floods, becoming a perfect mirror just
+ for an instant.
+
+ The liquid metal collects somewhere beneath the landscape at the
+ northern corner, then recirculates by means of some pumping equipment
+ near the southern edge.
+
+>inventory
+ You are carrying:
+   your Coronation Crook
+   your replacement Coronation Flail
+   a Book of Songs of Getting Through the Day
+
+>sing inversions
+ Voicelessly you voice Inversions.
+
+ The floor and ceiling seem to change places....
+
+ The Dodecahedron (on the ceiling)
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. Beside you on the
+ ceiling, red flames blaze inside a glittering crystalline shell.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor, high above your head. Every few moments you can see
+ yourself, walking on the ceiling, reflected in a flood of quicksilver.
+
+>sing sandstone
+ Voicelessly you voice Sandstone Sifter.
+
+ Sandstone - even quartz - feels just like loose sand to you.
+
+ The haunting melody of Inversions lingers in your mind.
+
+>open shell
+ Your hands pass through the crystalline shell, meeting no resistance.
+
+ The mood of Sandstone Sifter fades.
+ The haunting melody of Inversions lingers in your mind.
+
+>undo
+ The Dodecahedron
+ [Previous turn undone.]
+
+>pry open shell with crook
+ That's not a verb I recognize.
+
+>touch fire
+ In the center of a shell of solid quartz crystal, red fire blazes out
+ in all directions from something like a tangle of gold wire.
+
+ The mood of Sandstone Sifter fades.
+ The haunting melody of Inversions lingers in your mind.
+
+>undo
+ The Dodecahedron
+ [Previous turn undone.]
+
+>take fire
+ The crystalline shell isn't open.
+
+ The mood of Sandstone Sifter fades.
+ The haunting melody of Inversions lingers in your mind.
+
+>undo
+ The Dodecahedron
+ [Previous turn undone.]
+
+>put crook in fire
+ (first entering the crystalline shell)
+ Fire engulfs your Coronation Crook. It has served you well, but you
+ feel rightly free of it now.
+
+ The fire darkens strangely as it consumes your Coronation Crook, the
+ bright red flames turning to dark purple with fringes of black.
+
+ The mood of Sandstone Sifter fades.
+ The haunting melody of Inversions lingers in your mind.
+
+>wait
+ Time passes.
+
+ The mood of Inversions fades.
+ The ceiling and floor seem to change places....
+
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, purple
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor. A quicksilver river flows through the middle of it;
+ every few moments the landscape floods, becoming a perfect mirror just
+ for an instant.
+
+ The liquid metal collects somewhere beneath the landscape at the
+ northern corner, then recirculates by means of some pumping equipment
+ near the southern edge.
+
+>sing inversions
+ Voicelessly you voice Inversions.
+
+ The floor and ceiling seem to change places....
+
+ The Dodecahedron (on the ceiling)
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. Beside you on the
+ ceiling, purple flames blaze inside a glittering crystalline shell.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor, high above your head. Every few moments you can see
+ yourself, walking on the ceiling, reflected in a flood of quicksilver.
+
+>sing sandstone
+ Voicelessly you voice Sandstone Sifter.
+
+ Sandstone - even quartz - feels just like loose sand to you.
+
+ The haunting melody of Inversions lingers in your mind.
+
+>put flail in fire
+ (first entering the crystalline shell)
+ Fire encloses your replacement Coronation Flail and darkens, darkens
+ until the flames are black as night. Sparks like stars fly from the
+ flame-tips, swirl within the shell, strike the crystal walls and fade.
+ Darkness spreads throughout the chamber, reflected in polished copper
+ and flowing quicksilver.
+
+ You feel the ending of a day of mysteries; a decade of rule; a
+ lifetime of joys and pains. Now the sun has set on my reign. Let my
+ successor have his day in the sun....
+
+ This time you almost see the westward arch flick into existence.
+
+ The mood of Sandstone Sifter fades.
+ The haunting melody of Inversions lingers in your mind.
+
+>wait
+ Time passes.
+
+ The mood of Inversions fades.
+ The ceiling and floor seem to change places....
+
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, black
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor, details shrouded by the black firelight.
+
+ A serene arch leads west.
+
+>go west
+ In a sudden whirr of metal sliding on metal, a clockwork lioness leaps
+ from some unseen perch and blocks your way!
+
+>examine lioness
+ A lioness crafted of jointed plates of bronze, accented with precious
+ stones. (The eyes are polished cat's-eye, of course.) You can hear
+ gears purring inside its muscular chest.
+
+ The clockwork lioness returns your attention, redoubled. Something
+ inside it spins faster and suddenly it speaks, in a voice like wet
+ fingers stroking a dozen glass bowls:
+
+ A king may look at a cat, but none may pass without answering my
+ riddle:
+
+ What is supported by six legs in the morning, five legs at midday, and
+ four legs in the evening?
+
+ The feline device paces impatiently, waiting for your answer.
+
+>save
+>cf3
+ Enter saved game to store: Ok.
+
+>examine lioness
+ A lioness crafted of jointed plates of bronze, accented with precious
+ stones. (The eyes are polished cat's-eye, of course.) You can hear
+ gears purring inside its muscular chest.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>go west
+ The clockwork lioness steps firmly into your path with a growl of
+ grinding gears. In musical tones it repeats its question: What is
+ supported by six legs in the morning, five legs at midday, and four
+ legs in the evening?
+
+ The feline device paces impatiently, waiting for your answer.
+
+>pet lioness
+ That's not a verb I recognize.
+
+>sing gold
+ (Gold Digger)
+ Voicelessly you voice Gold Digger.
+
+ Gold seems like such a yielding material....
+
+ The feline device paces impatiently, waiting for your answer.
+
+>enter lioness
+ You can't ride that.
+
+ The feline device paces impatiently, waiting for your answer.
+
+ The mood of Gold Digger fades.
+
+>inventory
+ You are carrying:
+   a Book of Songs of Getting Through the Day
+
+ The feline device paces impatiently, waiting for your answer.
+
+>ask lioness about riddle
+ There is no reply.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say me
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say crook
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say pharaoh
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say sphynx
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>eat lioness
+ (first taking the Clockwork Lioness)
+ I don't suppose the Clockwork Lioness would care for that.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>look
+ The Dodecahedron
+ This chamber's walls, ceiling, and floor are a dozen identical copper
+ tiles, pentagonal, huge, that meet at insane angles yet somehow fit
+ seamlessly together into an angular ball shape. High above you, black
+ flames blaze inside something crystalline; their flickering
+ reflections redouble at every wall.
+
+ The lioness watches you impatiently.
+
+ A marvelously detailed miniature landscape in carved ivory covers most
+ of the floor, details shrouded by the black firelight.
+
+ A serene arch leads west.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>push lioness
+ That would be less than courteous.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say landscape
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say quicksilver
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say flail
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>hit lioness with beta-tester zarf
+ I only understood you as far as wanting to hit the Clockwork Lioness.
+
+>go west
+ The clockwork lioness steps firmly into your path with a growl of
+ grinding gears. In musical tones it repeats its question: What is
+ supported by six legs in the morning, five legs at midday, and four
+ legs in the evening?
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say coffins
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>sing lost
+ Voicelessly you voice Lost Memories.
+
+ The song evokes a mood of long ago.
+
+ ...This feline construct surely reminds you of nothing else in your
+ experience.
+  But something in her words seems familiar.
+ The feline device paces impatiently, waiting for your answer.
+
+>say fire
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say scarab beetle
+ (to the Clockwork Lioness)
+ The clockwork cat looks up abruptly, whirring. It bares its polished
+ fangs, and shakes its head slightly before beginning to pace again.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say you
+ (to the Clockwork Lioness)
+ The cat stops pacing for a moment and stares at you. You hear gears
+ spinning faster inside the bronze breastplate for a moment. It tilts
+ its head back and forth, examining you from several angles. Confused?
+ But after a moment it resumes pacing.
+
+ The feline device paces impatiently, waiting for your answer.
+
+>say clockwork
+ (to the Clockwork Lioness)
+ The cat looks up at you abruptly, then nods, satisfied, gears softly
+ purring.
+
+>go west
+ The bronze cat steps aside, and you step through the arch.
+
+ You feel your journey drawing to a close at last....
+
+ Hall of Two Truths
+ This grand hall is long and tall and white. Translucent marble columns
+ march west, two by two, as far as you can see, seemingly lit from
+ every side, and from within as well.
+
+ Here your heart is to be weighed against the feather of truth and
+ justice. (You knew it would come to this, sooner or later.)
+
+ Far more glorious than the finest mask or statue, a living god stands
+ before you: Anubis.
+
+ Ammit, a legendary demon, menaces you from behind a large
+ balance-scale.
+
+>examine anubis
+ Not a jackal or a jackal-headed man, after all, but something new,
+ combining and transcending the two forms. A god.
+
+>examine ammit
+ A horrid mix of three vicious beasts, the bone devourer watches you
+ impatiently. She is slavering.
+
+>examine coumns
+ You can't see any such thing.
+
+>examine columns
+ You can't see any such thing.
+
+>examine scale
+ Two large balance pans balance each other: one for the feather, one
+ for your heart.
+
+>examine feather
+ The little white feather looks...very light.
+
+>examine pans
+ Two large balance pans balance each other: one for the feather, one
+ for your heart.
+
+>inventory
+ You have mastered the inanimate playthings of the gods...but here
+ among the living gods you are helpless. Before you can move, Anubis
+ reaches into you, reaches through you...back into your tomb, your
+ shrines, your coffins, your body!
+
+ He grips your heart! You cannot move!
+
+ Now he steps back, holding your heart, red and vital, in his hand. You
+ see it miss a beat in fear.
+
+ Now he is placing it on a balance pan, opposite a diminutive feather.
+
+ The balance is tilting...rocking...settling...
+
+ Your heart just balances the feather!
+
+
+     *** Now you can rest ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?
+>quit

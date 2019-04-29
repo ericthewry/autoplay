@@ -1,0 +1,1532 @@
+ the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+  "Self-respect is to the soul as oxygen is to the body. Deprive a
+  person of oxygen, and you kill his body; deprive him of self-respect
+  and you kill his spirit."
+
+  - Thomas S. Szasz
+
+
+ (press any key to continue)
+
+
+
+
+
+
+
+
+ Is sound enabled on your machine?
+
+>no
+
+ It's been a long day of squeezing and squirming through the corridors
+ of the Aegis mining station. After four conduit repairs, three data
+ integrity checks and a host of valve replacements, you're ready for a
+ shower. It's work like this that could earn you a promotion...
+ shower. It's work like this that could earn you a promotion...BANG!
+
+ Suddenly, the station is rocked by an explosion.
+
+ It knocks you off your feet and nearly down a jefferies tube, but you
+ barely manage to hold on. Your toolbox slides into the tube and
+ crashes 20 feet below. The sound echoes all around you, and then there
+ is only dead silence.
+
+ What the hell happened? Your thoughts turn to the striking miners, or
+ turncoats as the Captain calls them. They had shut themselves off in
+ the south wing two weeks ago, determined not to drill one more cent of
+ ore until their terms were met: higher wages, reasonable working
+ hours, more reliable drill suits.
+
+ The Captain didn't bend, of course, and with the guile sure to win him
+ a pay raise he shut the pressure hatches to the entire area. The 58
+ workers would be completely isolated until the Empire sent in their
+ negotiating squad, along with a replacement team.
+
+ But what were the strikers trying to do, blow up the station?
+ Something isn't right.
+
+ You tuck in your technician uniform and take a breath. The Galactic
+ Empire trained you to remain calm in crisis situations like this.
+
+ From somewhere below, you hear the hiss of steam as a pipe bursts.
+ It's gonna be a long night.
+
+ (press any key to continue)
+>wait
+
+ <span class="floydstyle subheader">Oxygen</span>
+ A Game of Survival by Benjamin Sokal
+ Release 1 / Serial number 100930 / Inform 7 build 6E72 (I6/v6.31 lib
+ 6/12N)
+
+ <span class="floydstyle em">[ First-time players may type "about" ]</span>
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is closed, and a blank display console occupies
+ the opposite wall. A power cable emerges from the bottom of the
+ console. It isn't plugged into anything at the moment, however there
+ is an outlet nearby.
+
+ A screwdriver lies on the ground.
+
+
+ I beg your pardon?
+
+>about
+
+ <span class="floydstyle subheader">Oxygen</span>
+ Version 1.1 - September 2010
+ [<a href="http://www.shadowk.com">LINK</A>]
+
+ Thank you for playing Oxygen. This game uses standard Interactive
+ Fiction conventions, and any commands unique to this game should be
+ obvious to you when you need them.
+
+ Some conversational commands you may find useful are:
+
+ <span class="floydstyle i">talk to [someone]</span> - initiates a conversation
+ <span class="floydstyle i">ask [someone] about [something]</span> - asks someone about a topic or
+ thing
+ <span class="floydstyle i">tell [someone] about [ something]</span> or <span class="floydstyle i">tell [someone] that [</span>
+ <span class="floydstyle i">something]</span> - tells someone about a topic or thing
+ (note: you must use the words "about" or "that" in the above phrases)
+
+ If you are in a conversation, you could also abbreviate asking or
+ telling about as <span class="floydstyle i">a [something]</span> or <span class="floydstyle i">t [something]</span>.<span class="floydstyle i"></span>
+ <span class="floydstyle i">Topics</span> will bring up a list of topics you can discuss. You can
+ also answer <span class="floydstyle i">yes</span> or <span class="floydstyle i">no</span> if you are asked a question, or
+ <span class="floydstyle i">apologize</span>.
+
+ Oxygen makes use of sound, though it is not necessary to complete the
+ game. Also, typing <span class="floydstyle i">statusbar</span> will switch the statusbar at the
+ top of the screen off or on should you choose.
+
+ Send constructive criticism, non-constructive criticism, or virtual
+ dungbombs to: Ben@ShadowK.com
+
+ (press any key to continue)
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is closed, and a blank display console occupies
+ the opposite wall. A power cable emerges from the bottom of the
+ console. It isn't plugged into anything at the moment, however there
+ is an outlet nearby.
+
+ A screwdriver lies on the ground.
+
+>get all
+
+
+ screwdriver: Taken.
+
+ <span class="floydstyle em">"...explosion in the service module! Damage reports coming in.</span>
+ <span class="floydstyle em">Emergency crews please report..."</span>
+
+ The voice of the Chief of Operations emits from the static of your
+ radio, which you realize has fallen down the jefferies tube along with
+ most of your tools.
+
+>examine cable
+
+
+ The cable is ten feet long, more than enough to reach the nearby
+ outlet. The end of the cable has a plastic shielding, preventing
+ direct access to the wires inside.
+
+>inventory
+
+
+ You are carrying:
+   a screwdriver
+   some work gloves (being worn)
+   a small black card
+   a piece of Oxium gum
+
+ <span class="floydstyle em">"This is Comp Squad. Backup systems coming online."</span>
+
+ <span class="floydstyle em">"Comp, we aren't getting any diagnostic readings from the oxygen</span>
+ <span class="floydstyle em">generators. Did you say backups were online?"</span>
+
+>examine oxium
+
+
+ Oxium gum helps keep you alert during long nights of working. The
+ package reads: <span class="floydstyle em">Provides essential nutrients, amino acids, and a</span>
+ <span class="floydstyle em">burst of Oxy-Yum! to your days.</span>
+
+ <span class="floydstyle em">"Check, diagnostics are inoperative. Duty roster shows technician</span>
+ <span class="floydstyle em">Zanders in the forward access conduits. Zanders, do you copy? We need</span>
+ <span class="floydstyle em">you to check the status of the oxygen generators from one of the</span>
+ <span class="floydstyle em">nearby consoles."</span>
+
+ <span class="floydstyle em">"Oh no, you mean captain corndog? If he's our last hope we're in</span>
+ <span class="floydstyle em">trouble. He probably left hours ago to put some hard work in at the</span>
+ <span class="floydstyle em">pub. That, or he fell down a jefferies tube."</span>
+
+>examine me
+
+
+ Your badge reads "Zanders", but the guys call you corndog. Actually
+ they used to call you corndog. Ever since you made the mistake of
+ divulging your ambitions for a promotion, you're now captain corndog.
+
+>look
+
+
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is closed, and a blank display console occupies
+ the opposite wall. A power cable emerges from the bottom of the
+ console. It isn't plugged into anything at the moment, however there
+ is an outlet nearby.
+
+ <span class="floydstyle em">"This is the Chief. Listen, looks like the turncoats must have</span>
+ <span class="floydstyle em">been trying to break their way outta the aft section through the</span>
+ <span class="floydstyle em">service module connectors. They weren't successful though, blew the</span>
+ <span class="floydstyle em">tubes and whoever was in them out into space. Serves the bastards</span>
+ <span class="floydstyle em">right - but we'll let the cap'n deal with the remaining ones. So far</span>
+ <span class="floydstyle em">no reports of serious damage, but data is still coming in. Corndog - I</span>
+ <span class="floydstyle em">mean, Zanders - Please report immediately on the status of the oxygen</span>
+ <span class="floydstyle em">generators. If you don't respond then you better have three broken</span>
+ <span class="floydstyle em">legs to show for it."</span>
+
+>plug in console
+
+
+ You pick up the end of the cable.
+
+ You plug the power cable into the outlet. However, the console does
+ not respond. The power to this outlet must have been lost, so you'll
+ need to find another power source.
+
+ You unplug the cable.
+
+>examine panel
+
+
+ The access panel is closed, and the cover screwed into place.
+
+>open cover
+
+
+ You unscrew and open the cover. Inside the panel is a tangle of
+ circuitry and wires. A small book that had been stored inside the
+ panel falls out when you open it.
+
+>read book
+
+
+ (First taking the book)
+
+ You scan the technical manual, looking for any information that may be
+ useful. Some of the sections are bookmarked, and one of them reads:
+
+ <span class="floydstyle em">Standard Crew Complement</span>
+
+ <span class="floydstyle em">Miners: 58</span>
+ <span class="floydstyle em">Technicians: 24</span>
+ <span class="floydstyle em">Administrative: 12</span>
+ <span class="floydstyle em">Command: 8</span>
+ <span class="floydstyle em">Total: 102</span>
+
+ <span class="floydstyle em">[ type "read book" look at the next bookmarked page ]</span>
+
+ The radio buzzes from below as various repair teams report their
+ progress.
+
+>read book
+
+
+ You scan the technical manual, looking for any information that may be
+ useful. Some of the sections are bookmarked, and one of them reads:
+
+ <span class="floydstyle em">The Aegis Mining Station plays an important role in providing the</span>
+ <span class="floydstyle em">Galactic Empire with materials necessary for interstellar travel.</span>
+ <span class="floydstyle em">However the Aegis asteroid field, which contains the important</span>
+ <span class="floydstyle em">intersteller drive composites, is inconveniently located in the middle</span>
+ <span class="floydstyle em">of the Horsehead nebula.</span>
+
+>again
+
+
+ You scan the technical manual, looking for any information that may be
+ useful. Some of the sections are bookmarked, and one of them reads:
+
+ <span class="floydstyle em">It takes a full three months for even the fastest ship to reach</span>
+ <span class="floydstyle em">Aegis from the nearest starbase.</span>
+
+>again
+
+
+ You scan the technical manual, looking for any information that may be
+ useful. Some of the sections are bookmarked, and one of them reads:
+
+ <span class="floydstyle em">The station's primary oxygen storage tank can store enough oxygen</span>
+ <span class="floydstyle em">to keep a full crew alive for over six months.</span>
+
+>again
+
+
+ You scan the technical manual, looking for any information that may be
+ useful. Some of the sections are bookmarked, and one of them reads:
+
+ <span class="floydstyle em">The fore override is determined by the primary and secondary</span>
+ <span class="floydstyle em">override slots in the fore conduit, while a corresponding conduit on</span>
+ <span class="floydstyle em">the opposite side of the station controls the aft override.</span>
+
+>again
+
+
+ The last bookmarked page falls out of the book as you turn to the
+ page. You pick it up and read it:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+ The diagram seems simple enough, if only you understood what it meant.
+ Who knew skipping one day of class could have consequences?
+
+ <span class="floydstyle em">[ you now have the diagram and may look at it anytime ]</span>
+
+ Someone makes a joke about a dog on a stick from the radio, but you've
+ already begun tuning the messages out in order to concentrate on what
+ needs to be done next.
+
+>go down
+
+
+ You begin to climb down the tube, relieved to be vertical at least.
+ But you quickly realize that you're not going anywhere. A pipe has
+ exploded, sending scalding orange steam across the tube a few feet
+ below your junction.
+
+ You return to the cramped conduit.
+
+>look
+
+
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is open, and a blank display console occupies the
+ opposite wall. A power cable emerges from the bottom of the console.
+ It isn't plugged into anything at the moment. You are holding the
+ other end of the cable.
+
+>get octagon
+
+ You can't see any such thing.
+
+>examine card
+
+
+ (the small black card)
+ Override cards look like thin circuitboards. They are individually
+ programmed with different codes or algorithms. This one is black and
+ has the word <span class="floydstyle i">GAMMA</span> printed on it.
+
+>go south
+
+
+ That corridor leads to the opposite end of the station and into even
+ more awkward tunnels. If you want to go there, you should at least
+ wait until your business is done here.
+
+>look
+
+
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is open, and a blank display console occupies the
+ opposite wall. A power cable emerges from the bottom of the console.
+ It isn't plugged into anything at the moment. You are holding the
+ other end of the cable.
+
+>inventory
+
+
+ You are carrying:
+   a thruster override chart
+   a technical manual
+   a power cable
+   a screwdriver
+   some work gloves (being worn)
+   a small black card
+   a piece of Oxium gum
+
+>examine panel
+
+
+ The inside of the panel is a tangle of circuitry and wiring. Among the
+ circuitry are two small slots. The upper slot is labeled "stability
+ control" and the lower is labeled "waste disposal systems". A small
+ blue card rests in the upper slot, and a small red card rests in the
+ lower slot.
+
+ Below the slots some live wires are exposed, their sheaths having worn
+ away.
+
+>get all cards
+
+
+ small blue card: You give the blue override card a tug, but you can't
+ quite get it out of slot. It appears to be stuck, or jammed in
+ tightly. That may be for the best though, as stability control is
+ vital to the station's structural integrity.
+ small red card: You slide the small red card out from the lower slot.
+ For a moment you wait to see if anything changes, but nothing happens.
+ The card was probably not providing an essential service to those
+ systems, and you can make better use of it.
+
+ On closer inspection, you note the word <span class="floydstyle i">DELTA</span> printed on the
+ small red card.
+
+>examine diagram
+
+
+ The paper shows a diagram:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+>drop cable
+
+
+ Dropped.
+
+>go south
+
+>examine wires
+
+ That corridor leads to the opposite end of the station and into even
+ more awkward tunnels. If you want to go there, you should at least
+ wait until your business is done here.
+
+
+
+ The exposed wires provide power to some of the station's auxilliary
+ systems. Replacing old wiring has long been on your to-do list, but
+ more urgent things always seem to come up - like saving the station.
+
+>cut wires
+
+
+ You don't have anything to cut the wires with.
+
+>look
+
+
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is open, and a blank display console occupies the
+ opposite wall. A power cable emerges from the bottom of the console.
+ It isn't plugged into anything at the moment.
+
+>plug in cable
+
+
+ You pick up the end of the cable.
+
+ The outlet doesn't work. There's no power.
+
+ <span class="floydstyle em">"This is repair team six. The tunnels have collapsed here on level</span>
+ <span class="floydstyle em">four. It'll be at least an hour before we can reach the forward access</span>
+ <span class="floydstyle em">conduits."</span>
+
+>look down
+
+
+ It's a long way down to the bottom of the tube. A steam pipe has
+ erupted, sending scalding orange steam across the tube a few feet
+ below your junction.
+
+>unscrew outlet
+
+
+ The outlet is built into the wall in such a way that you can't remove
+ it.
+
+>examine steam
+
+
+ A jet of escaping steam shoots across the jefferies tube a few feet
+ below your junction. Judging by its orange hue, it may be corrosive as
+ well.
+
+>look
+
+
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is open, and a blank display console occupies the
+ opposite wall. A power cable emerges from the bottom of the console.
+ It isn't plugged into anything at the moment. You are holding the
+ other end of the cable.
+
+>examine console
+
+
+ The console indicates the status of the oxygen storage and transfer
+ system. Oxygen can be moved from the main storage tank into either the
+ forward or the aft storage tanks depending on the station's needs.
+ Right now the console is blank, as there is no power running into it.
+
+ Beside the main display are two small slots. The left slot is labeled
+ "primary console override" and the right is labeled "secondary console
+ override".
+
+ A power cable emerges from the bottom of the console. It isn't plugged
+ into anything at the moment.
+
+>plug console into panel
+
+
+ There really isn't much point in trying to stuff something into the
+ access panel.
+
+>inventory
+
+
+ You are carrying:
+   a power cable
+   a small red card
+   a thruster override chart
+   a technical manual
+   a screwdriver
+   some work gloves (being worn)
+   a small black card
+   a piece of Oxium gum
+
+>examine gloves
+
+
+ These heavy-duty gloves protect your hands from harm.
+
+>reach down
+
+ I didn't understand that sentence.
+
+>touch steam
+
+
+ That would be terribly foolish. Not only is it hot, it could very well
+ be corrosive.
+
+>get radio
+
+
+ It's at the bottom of the jefferies tube.
+
+>say tango
+
+
+ (to yourself)
+ Hearing voices again?
+
+>xyzzy
+
+
+ Out of thin air a little girl pops. "I just can't believe it! After
+ seven books we find out that Harry Potter is the heir to Slytherin,
+ Ron decides to become a pygmy puff breeder in Australia, and Hermoine
+ is a boy! What a rip-off!" Exasperated, she disappears in a poof.
+
+>plugh
+
+ That's not a verb I recognize.
+
+>look
+
+
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is open, and a blank display console occupies the
+ opposite wall. A power cable emerges from the bottom of the console.
+ It isn't plugged into anything at the moment. You are holding the
+ other end of the cable.
+
+>examine outlet
+
+
+ It's a standard profile outlet.
+
+>stick screwdriver in outlet
+
+
+ With reckless abandon you jam the screwdriver into the outlet, however
+ nothing happens. Humm.
+
+>examine cable
+
+
+ The cable is ten feet long, more than enough to reach the nearby
+ outlet. The end of the cable has a plastic shielding, preventing
+ direct access to the wires inside. You are holding the cable.
+
+>examine shielding
+
+
+ The end of the cable has a plastic shielding that prevents you from
+ accessing the actual wires inside.
+
+ The radio buzzes from below as various repair teams report their
+ progress.
+
+>remove shielding
+
+
+ You try to pull the shielding off the cable, but it's too strong.
+
+>cut cable
+
+
+ You don't have anything to cut that with.
+
+>cut console
+
+
+ Cutting that up would achieve little.
+
+>cut me
+
+
+ Cutting you up would achieve little.
+
+>smash console
+
+
+ You were never one to be violent when it's not necessary.
+
+>help
+
+ <span class="floydstyle subheader">Oxygen</span>
+ Version 1.1 - September 2010
+ [<a href="http://www.shadowk.com">LINK</A>]
+
+ Thank you for playing Oxygen. This game uses standard Interactive
+ Fiction conventions, and any commands unique to this game should be
+ obvious to you when you need them.
+
+ Some conversational commands you may find useful are:
+
+ <span class="floydstyle i">talk to [someone]</span> - initiates a conversation
+ thing
+ <span class="floydstyle i">something]</span> - tells someone about a topic or thing
+ (note: you must use the words "about" or "that" in the above phrases)
+
+ If you are in a conversation, you could also abbreviate asking or
+ telling about as <span class="floydstyle i">a [something]</span> or <span class="floydstyle i">t [something]</span>.<span class="floydstyle i"></span>
+ <span class="floydstyle i">Topics</span> will bring up a list of topics you can discuss. You can
+ also answer <span class="floydstyle i">yes</span> or <span class="floydstyle i">no</span> if you are asked a question, or
+ <span class="floydstyle i">apologize</span>.
+
+ Oxygen makes use of sound, though it is not necessary to complete the
+ game. Also, typing <span class="floydstyle i">statusbar</span> will switch the statusbar at the
+ top of the screen off or on should you choose.
+
+ Send constructive criticism, non-constructive criticism, or virtual
+ dungbombs to: Ben@ShadowK.com
+
+ (press any key to continue)
+>wait
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is open, and a blank display console occupies the
+ opposite wall. A power cable emerges from the bottom of the console.
+ It isn't plugged into anything at the moment. You are holding the
+ other end of the cable.
+
+>hint
+
+ Hints are not presently available for this game. A walkthrough is
+ available, however. If you just need a little nudge or pointer in the
+ right direction, you can try asking other IFers who have played this
+ game for advice (there are discussion forums located at various points
+ online) or feel free to e-mail me at Ben@ShadowK.com.
+
+>examine tube
+
+
+ The jefferies tube allows access to the lower levels of the station.
+ There is a ladder for climbing down.
+
+>examine ladder
+
+
+ The ladder appears firmly attached to the jefferies tube. It leads
+ down.
+
+>climb ladder
+
+
+ The steam erupting from the broken pipe makes it impossible to descend
+ the jefferies tube more than a few feet.
+
+ You return to the cramped conduit.
+
+>look
+
+
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is open, and a blank display console occupies the
+ opposite wall. A power cable emerges from the bottom of the console.
+ It isn't plugged into anything at the moment. You are holding the
+ other end of the cable.
+
+>look south
+
+
+ The conduit continues south as far as you can see, which is not very
+ far due to the flickering emergency lighting.
+
+>go north
+
+
+ (Down the jefferies tube)
+
+ The steam erupting from the broken pipe makes it impossible to descend
+ the jefferies tube more than a few feet.
+
+ You return to the cramped conduit.
+
+>go up
+
+
+ You can't go that way. The only exits are through the tunnel to the
+ south or down the jefferies tube.
+
+>examine
+
+ What do you want to examine?
+
+>go south
+
+
+ You see nothing unexpected in that direction.
+
+>go south
+
+
+ That corridor leads to the opposite end of the station and into even
+ more awkward tunnels. If you want to go there, you should at least
+ wait until your business is done here.
+
+>drop cable
+
+
+ Dropped.
+
+>go south
+
+
+ That corridor leads to the opposite end of the station and into even
+ more awkward tunnels. If you want to go there, you should at least
+ wait until your business is done here.
+
+>complete business
+
+ That's not a verb I recognize.
+
+>look
+
+
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is open, and a blank display console occupies the
+ opposite wall. A power cable emerges from the bottom of the console.
+ It isn't plugged into anything at the moment.
+
+>examine panel
+
+
+ The inside of the panel is a tangle of circuitry and wiring. Among the
+ circuitry are two small slots. The upper slot is labeled "stability
+ control" and the lower is labeled "waste disposal systems". A small
+ blue card rests in the upper slot.
+
+ Below the slots some live wires are exposed, their sheaths having worn
+ away.
+
+>examine wires
+
+
+ The exposed wires provide power to some of the station's auxilliary
+ systems. Replacing old wiring has long been on your to-do list, but
+ more urgent things always seem to come up - like saving the station.
+
+>cross wires
+
+
+ They're not something you can enter.
+
+>twist wires
+
+
+ You can't turn them.
+
+>join wires
+
+ That's not a verb I recognize.
+
+>get cable
+
+
+ You pick up the end of the cable.
+
+>connect cable to wires
+
+
+ The cable could definitely take power from the exposed live wires.
+ However, the end of the cable is shielded. You'd have to remove the
+ shielding to attach it to the wires.
+
+>lower cable down tube
+
+
+ You lower the end of the cable into the jefferies tube. It's just long
+ enough to reach the hot and corrosive jet of steam. After a moment you
+ pull it back up. The shielding has been removed, exposing the metal
+ inside.
+
+>connect cable to wires
+
+ You carefully connect the ends of the stripped wire to the live wires
+ in the access panel. The display console gives a beep in response as
+ if to acknowledge your success.
+
+ <span class="floydstyle em">"Chief here. We're showing activity from the display console in</span>
+ <span class="floydstyle em">the service conduits. Is that you Zanders? Hold on here...this looks</span>
+ <span class="floydstyle em">like trouble. Readings from your console show a slow leak from the</span>
+ <span class="floydstyle em">primary oxygen reserves. Zanders, we've got diagnostics but can't do</span>
+ <span class="floydstyle em">anything about the leak from here. You'll need to use the console to</span>
+ <span class="floydstyle em">re-route the oxygen into the forward reserve tank. If you don't, we'll</span>
+ <span class="floydstyle em">be out of air well before the next deep space transport arrives. We're</span>
+ <span class="floydstyle em">sending a repair crew to the area, but do what you can."</span>
+
+ You turn to the now functioning console. The data does confirm a slow
+ leak. This isn't your area of expertise (life support being one of the
+ few systems you don't know inside and out), but you think that
+ initiating the required transfer should be relatively simple.
+ Inserting an override card into one of the console slots should begin
+ moving the oxygen into the forward tank. It would take over 500 zPsi
+ units of oxygen to save the entire station, but since the striking
+ miners are sealed in the rear of the station, you should need far less
+ than that to save the fore section.
+
+ As for the strikers, they're gonna be outta luck. Their rear oxygen
+ reserve is as empty as the forward reserve that you now depend on...
+
+>examine diagram
+
+
+ The paper shows a diagram:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+>inventory
+
+
+ You are carrying:
+   a small red card
+   a thruster override chart
+   a technical manual
+   a screwdriver
+   some work gloves (being worn)
+   a small black card
+   a piece of Oxium gum
+
+ The console beeps. You notice that the aft override display on the
+ console has changed from "none" to "delta". This can only mean one
+ thing: someone in the aft section of the station - one of the miners -
+ is trying to re-route oxygen into their holding tank by initiating
+ their own override.
+
+>examine red
+
+
+ Override cards look like thin circuitboards. They are individually
+ programmed with different codes or algorithms. This one is red and has
+ the word <span class="floydstyle i">DELTA</span> printed on it.
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes. The remaining oxygen in storage has decreased dramatically! It
+ also appears that the miners are trying to manipulate the overrides as
+ well - right now they have their override (the aft override) set as
+ delta. You can only control the fore override from where you are, and
+ the combination of the two overrides determines where the oxygen is
+ routed (thank Empire you at least made some of your training classes).
+
+>insert red
+
+
+ I didn't understand that sentence.
+
+>insert delta
+
+
+ I didn't understand that sentence.
+
+>put delta in slot
+
+
+ Which slot do you mean, the left or right console slots or one of the
+ slots in the access panel?
+
+>put delta in left console slot
+
+
+ The small red card fits snugly in the slot. You notice that the fore
+ override on the display console has changed from "none" to "delta".
+
+>examine console
+
+
+ The console indicates the status of the oxygen storage and transfer
+ system. Oxygen can be moved from the main storage tank into either the
+ forward or the aft storage tanks depending on the station's needs.
+ Numbers at the top of the console indicate the amount of oxygen stored
+ in the main tank, fore and aft tanks, and any overrides that change
+ how oxygen is to be distributed.
+
+ Beside the main display are two small slots. The left slot is labeled
+ "primary console override" and the right is labeled "secondary console
+ override". A small red card rests in the first (primary) slot.
+
+ A power cable emerges from the bottom of the console and is attached
+ to the exposed wire in the access panel.
+
+>examine diagram
+
+
+ The paper shows a diagram:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+ <span class="floydstyle em">"Hello, this is Jim Dennison, advocate for the miners in aft. We</span>
+ <span class="floydstyle em">picked up your radio channel and we know that you're trying to</span>
+ <span class="floydstyle em">re-route the oxygen to save the station. Regulations state we must</span>
+ <span class="floydstyle em">work together to maximize oxygen for all parties involved. I'm obliged</span>
+ <span class="floydstyle em">to remind you that a breach in worker-empire regulatory code K-253</span>
+ <span class="floydstyle em">could have severe legal repercussions, and the familes of the united</span>
+ <span class="floydstyle em">coalition of mine workers have every right to financial compensation</span>
+ <span class="floydstyle em">from the Galactic Empire if you don't provide us with the</span>
+ <span class="floydstyle em">needed..."</span>
+
+ The transmission is interrupted by a burst of static, and then another
+ voice cuts in. <span class="floydstyle em">"Jamming transmission. Switching broadcast channel</span>
+ <span class="floydstyle em">to the reserve frequency."</span>
+
+ <span class="floydstyle em">"I wish the Captain had blown the lawyers out into space instead</span>
+ <span class="floydstyle em">of trying to smoke the rebels out...okay, switching channels."</span>
+
+>inventory
+
+
+ You are carrying:
+   a thruster override chart
+   a technical manual
+   a screwdriver
+   some work gloves (being worn)
+   a small black card
+   a piece of Oxium gum
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes.
+
+>examine black
+
+
+ Override cards look like thin circuitboards. They are individually
+ programmed with different codes or algorithms. This one is black and
+ has the word <span class="floydstyle i">GAMMA</span> printed on it.
+
+ <span class="floydstyle em">"Zanders!"</span> The voice of the chief booms from the radio at the
+ bottom of the jefferies tube and echoes up and down your conduit.
+ <span class="floydstyle em">"Did I not get my point across earlier? Your job is to route the</span>
+ <span class="floydstyle em">oxygen to the forward section of the station. So we can survive.</span>
+ <span class="floydstyle em">Capish? There should be some override cards lying around. If you're</span>
+ <span class="floydstyle em">not sure what to do, just put them into the slots on the main console.</span>
+ <span class="floydstyle em">Try to initiate a theta-override, which might can at least get us</span>
+ <span class="floydstyle em">enough oxygen until the next supply vessel makes it. Captain</span>
+ <span class="floydstyle em">out."</span>
+
+>go south
+
+
+ That corridor leads to the opposite end of the station and into even
+ more awkward tunnels. If you want to go there, you should at least
+ wait until your business is done here.
+
+ The din of metal scraping against metal echoes throughout the conduit.
+ You think it may have originated from the south, but with the
+ reverberation of these tunnels you can't be sure.
+
+>examine diagram
+
+
+ The paper shows a diagram:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+ The aft override on the display console has changed from "delta" to
+ "none".
+
+>put black card in secondary slot
+
+
+ You try to insert the small black card into the slot, but something
+ prevents it from snapping into place. You wonder if your timing is
+ wrong, as the console indicates an oxygen transfer is about to take
+ place. You remove the card.
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes.
+
+>put black card in secondary slot
+
+
+ The small black card fits snugly in the slot. You notice that the fore
+ override on the display console has changed from "delta" to "theta".
+
+ The aft override on the display console has changed from "none" to
+ "delta".
+
+>examine diagram
+
+
+ The paper shows a diagram:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+ You hear the metal clanking again, this time louder than before.
+ You're sure now that it came from the southern tunnel.
+
+>look south
+
+
+ The conduit continues south as far as you can see, which is not very
+ far due to the flickering emergency lighting.
+
+ The noise from the southern tunnel has ceased.
+
+>wait
+
+
+ Time passes.
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes.
+
+>go south
+
+ You make your way down the southern conduit in search of the source of
+ the noise. The emergency lighting flickers occasionally, and under the
+ red glow you feel like a spider making your way down a strange red
+ waterspout. Just before you are about to give up and head back to the
+ main conduit, you catch a glimpse of movement down a side conduit.
+
+ "Hey!" you shout.
+
+ A large man wearing dark garb turns around. He seems unsteady on his
+ feet, and as he stumbles towards you it is clear why. His face is
+ scorched and peeling and one leg drags feebly on the ground.
+
+ He mumbles something about not needing assistance, but you help him
+ steady himself and walk him over to the main conduit against his
+ protests. The man is in no position to resist.
+
+ When you reach the main conduit he tries to say something more, but
+ then he slouches feebly against the wall, exhausted.
+
+ (press any key to continue)
+
+ <span class="floydstyle subheader">Conduit</span>
+ You crouch uncomfortably in this circular access conduit, just one
+ small segment among thousands that make up the skeleton of Aegis
+ Mining Station. A jefferies tube at the end of the conduit leads down,
+ allowing access to lower levels of the station. The conduit continues
+ to the south.
+
+ A port access panel is open. A display console is also here,
+ reflecting various measurements. A power cable emerges from the bottom
+ of the console and is attached to the exposed wire in the access
+ panel.
+
+ The injured man sits against the wall, barely aware of his
+ surroundings.
+
+ Between static bursts from your radio, the voice of the chief of
+ operations echoes through your conduit. The anger in his voice seems
+ to amplify with each rebounding sound wave until his voice reaches
+ inside your head and stabs at your brain.
+
+ <span class="floydstyle em">"Consarnit - Corndog, I know you've got more oxygen flowing to</span>
+ <span class="floydstyle em">fore than you did a minute ago but you ain't saving enough! More</span>
+ <span class="floydstyle em">oxygen to the fore section, more to the fore!"</span>
+
+ The aft override on the display console has changed from "delta" to
+ "none".
+
+ The injured man stirs, then clutches his leg in pain.
+
+>examine diagram
+
+
+ The paper shows a diagram:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+ The aft override on the display console has changed from "none" to
+ "gamma".
+
+>examine man
+
+
+ This man, somewhat bulky to be maneuvering in the crevices of the
+ Aegis, looks as if he trying to keep his insides from falling out by
+ the way he holds his arms across his chest. His kevlar vest seems to
+ have protected at least some of his body from the blast, but his face
+ and hands are pretty well burnt.
+
+ The man seems to be drifting in and out of consciousness, whether from
+ exhaustion or pain or something else you're not sure.
+
+ The aft override on the display console has changed from "gamma" to
+ "none".
+
+ The injured man mumbles something under his breath.
+
+>get red card
+
+
+ You try to take small red card but it won't budge. You wonder if your
+ timing is wrong, as the console indicates that an oxygen transfer is
+ about to take place.
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes.
+
+>get red
+
+
+ The small red card slides out easily from the slot. You notice that
+ the fore override on the display console has changed from "theta" to
+ "gamma".
+
+ The aft override on the display console has changed from "none" to
+ "delta".
+
+ You are suddenly jolted from your position and are thrown upward,
+ hitting the top of the conduit and then coming back down again. You
+ don't hear an explosion, but instead the groaning of the station's
+ metal framework as if about to break apart. The conduit is immersed in
+ darkness for a long moment and then the emergency lighting comes back
+ on, flickering unassuredly.
+
+ <span class="floydstyle em">"What the hell was that?"</span> screeches a panicked voice from the
+ radio.
+
+ You know exactly what that was: the station's stabilization control
+ has lost power, with the result being a temporary malfunction in the
+ gravity control system. Thankfully the backup systems came online.
+
+ <span class="floydstyle em">"Fixed itself just in time,"</span> you think to yourself just
+ before another gravity shift nearly throws you down the jefferies tube
+ for the second time in one day.
+
+ You spot the injured man teetering over edge of the precipice and grab
+ hold of his leg (thankfully the one that isn't broken). You are able
+ to pull him away from the jefferies tube. He groans and seems to
+ stifle a cry.
+
+ As you watch the injured man whimper, you realize that your day could
+ have been worse - so far, anyway.
+
+>put red card in left console slot
+
+
+ The small red card fits snugly in the slot. You notice that the fore
+ override on the display console has changed from "gamma" to "theta".
+
+>examine diagram
+
+
+ The paper shows a diagram:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+ The aft override on the display console has changed from "delta" to
+ "none".
+
+ Your senses tell you something has changed. You ponder for a moment
+ and realize what it is: The buzzing from your radio has died. Perhaps
+ the gravity shift knocked it deep down one of the station's many
+ crevasses.
+
+>wait
+
+
+ Time passes.
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes.
+
+>get red card
+
+
+ The small red card slides out easily from the slot. You notice that
+ the fore override on the display console has changed from "theta" to
+ "gamma".
+
+ The aft override on the display console has changed from "none" to
+ "delta".
+
+ The injured man sighs loudly.
+
+>put red card in primary console slot
+
+
+ The small red card fits snugly in the slot. You notice that the fore
+ override on the display console has changed from "gamma" to "theta".
+
+>wait
+
+
+ Time passes.
+
+>wait
+
+
+ Time passes.
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes.
+
+>examine diagram
+
+
+ The paper shows a diagram:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+ The aft override on the display console has changed from "delta" to
+ "none".
+
+ The injured man moans quietly.
+
+>get black card
+
+
+ The small black card slides out easily from the slot. You notice that
+ the fore override on the display console has changed from "theta" to
+ "delta".
+
+ The aft override on the display console has changed from "none" to
+ "gamma".
+
+>wait
+
+
+ Time passes.
+
+ The injured man mumbles something under his breath.
+
+>listen to man
+
+
+ The man mumbles something incoherant. He is not alert enough to carry
+ on a conversation right now.
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes.
+
+>search man
+
+
+ As you bring your hands close to the man, he holds himself even
+ tighter and gives you the look you might expect from a dying man who
+ just wants to be left in peace.
+
+ The aft override on the display console has changed from "gamma" to
+ "none".
+
+ The injured man moans quietly.
+
+>wait
+
+
+ Time passes.
+
+ The aft override on the display console has changed from "none" to
+ "delta".
+
+>inventory
+
+
+ You are carrying:
+   a small black card
+   a thruster override chart
+   a technical manual
+   a screwdriver
+   some work gloves (being worn)
+   a piece of Oxium gum
+
+ The injured man mumbles something under his breath.
+
+>put black card in secondary console slot
+
+
+ You try to insert the small black card into the slot, but something
+ prevents it from snapping into place. You wonder if your timing is
+ wrong, as the console indicates an oxygen transfer is about to take
+ place. You remove the card.
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes.
+
+>put black card in secondary console slot
+
+
+ The small black card fits snugly in the slot. You notice that the fore
+ override on the display console has changed from "delta" to "theta".
+
+ The aft override on the display console has changed from "delta" to
+ "none".
+
+>examine diagram
+
+
+ The paper shows a diagram:
+
+ <span class="floydstyle u2">Oxygen Thruster Overrides</span>
+ <span class="floydstyle u1">fore/aft override     oxygen distribution</span>
+ <span class="floydstyle u1">theta/any                40/10    </span>
+ <span class="floydstyle u1">delta/gamma              50/25    </span>
+ <span class="floydstyle u1">gamma/delta              25/50    </span>
+ <span class="floydstyle u1">delta/delta              0/0      </span>
+ <span class="floydstyle u1">gamma/gamma              25/25    </span>
+ <span class="floydstyle u1">any/nil                  40/0     </span>
+
+ The aft override on the display console has changed from "none" to
+ "delta".
+
+>wait
+
+
+ Time passes.
+
+ The aft override on the display console has changed from "delta" to
+ "none".
+
+>wait
+
+
+ Time passes.
+
+ You hear a whoosh as a burst of oxygen is funneled through nearby
+ pipes.
+
+ The sound of gas rushing through the transfer lines comes to a sudden
+ stop and you hear only the hissing of the steampipe below you. In a
+ moment, the hissing stops as well and you are left in silence. You
+ look down the jefferies tube. There, just a few feet below and resting
+ conveniently on a ledge, is your radio. It must have turned off
+ accidentally when it was thrown around in the gravity shift. You reach
+ down to pick up your radio and turn it back on.
+
+ <span class="floydstyle em">"...Chief, now that the oxygen has been re-routed I suggest</span>
+ <span class="floydstyle em">sealing off the entire A-deck, including the conduit tunnels. We can't</span>
+ <span class="floydstyle em">take any risks with the rebels."</span>
+
+ <span class="floydstyle em">"Agreed. Zanders, get out of there and report to mechanics</span>
+ <span class="floydstyle em">immediately."</span>
+
+ The way back to the fore section and mechanics is down the Jefferies
+ tube, which is now clear. You look behind you - the southern tunnel
+ leads to the aft section, and if you wished you could probably use
+ your expertise to sneak into that section before the chief seals off
+ the last remaining route there. Of course the Captain wouldn't be too
+ happy about that.
+
+ "I guess that's it then," the injured man sighs. "Time for you to go
+ back to your side, and I'll just crawl down the hall back to the rest
+ of us turncoats...I doubt we'll find another route across the station,
+ so we'll be sealed off for good this time."
+
+ You know for sure he'll never make it down the corridor before the
+ entire deck is sealed off, and he'll likely be sucked out into space.
+ On the other hand, he'll never make it all the way down the jefferies
+ tube with that leg.
+
+ Two choices surface in your mind. You can leave the injured man in the
+ conduit and save yourself by <span class="floydstyle i">going down</span> or you can <span class="floydstyle i">go</span>
+ <span class="floydstyle i">south</span>, helping him make it to the aft section of the ship. You're
+ pretty sure you can make it down the tube in time, but you're not so
+ sure about the southern tunnel.
+
+>go south
+
+ "I'm not leaving you here," you tell the injured man. "Come on!"
+
+ You help him up and the both of you stumble down the tunnel, escaping
+ not a minute too soon. The A-deck hatches close behind you, completely
+ sealing off the section conduits. There's no turning back now. You
+ take a few more corridors, take your time helping the injured man down
+ a jefferies tube (you hope you never see the inside of another
+ jefferies tube again), and finally through a partially hidden
+ hatchway. After hacking open a final set of pressure sealed doors, you
+ reach the main aft corridor. Now it's time to find out what the rebels
+ think of their new visitor...
+
+ (press any key to continue)
+
+ Eleanor Proust, de facto leader of the miners, shakes your hand. "It
+ was courageous of you to come here. You had no idea how we would react
+ - and you don't know what your commanders will do once they find out
+ you've defected to our side. Not that it matters - you saved enough
+ oxygen for the fore section, but you forgot about us. So all the
+ Captain has to do - all he will do, I guarantee you - is wait. But,
+ what's done is done. Make your time with us good, won't you? While it
+ lasts. I believe Andre wants to thank you as well. He's in the
+ recovery room with his daughters. They're beautiful."
+
+
+
+ *** You made a noble choice, even if you lack a sense of
+ self-preservation. ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO?

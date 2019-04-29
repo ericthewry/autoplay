@@ -1,0 +1,3350 @@
+>load sleepmask wand
+
+
+
+ You have heard the rumors of a strange challenge at the wizard
+ Bartholloco's secluded castle. There's supposed to be a valuable prize
+ at the end. You decided it would be worth a trip to see what you can
+ do.
+
+ The thing is, I'm not sure whether you have been there before. Maybe
+ you have....
+
+ (Please press SPACE to continue.)
+
+
+
+
+ <span class="floydstyle header">The Wand</span>
+ A game by Arthur DiBianca
+ Release 1 / Serial number 170927 / Inform 7 build 6L38 (I6/v6.33 lib
+ 6/12N)
+
+ Special thanks to Tony Faia, Andy Fleming, Lorne Harris, Hall Hood,
+ and Luke Pebler for testing.
+
+
+
+ <span class="floydstyle subheader">Outside Castle</span>
+ You are just outside a small but picturesque castle, on a bluff
+ overlooking the Glittering River. A tall archway leads north into the
+ castle. The road winds down to the south.
+
+ (This game has limited commands. Type HELP for info.)
+
+>examine castle
+
+ The castle is built with large dark-gray stone blocks. It looks
+ hundreds of years old. The name BARTHOLLOCO is engraved in large
+ letters above the archway.
+
+>examine river
+
+ The river below you sparkles very nicely (hence the name).
+
+>examine i
+
+ You can't see any such thing (or if you can, it's not important).
+
+>inventory
+
+ You are carrying nothing.
+
+>examine me
+
+ You don't have a mirror handy.
+
+>inventory
+
+ You are carrying nothing.
+
+>examine road
+
+ The road winds away to the south.
+
+>help
+
+ You can always SAVE, RESTORE, RESTART, or QUIT.
+
+ - To move around, type NORTH (N), WEST (W), EAST (E), or SOUTH (S).
+ - You can LOOK (L) to see a description of your location, or WAIT (Z)
+ to pass a turn without doing anything.
+ - You can EXAMINE things nearby. (Abbreviation X.)
+ - You can USE most objects.
+
+>go south
+
+ After coming all this way, you're not about to leave.
+
+
+
+ <span class="floydstyle subheader">Entry Chamber</span>
+ This tall wood-paneled room is mostly empty. In the very center of the
+ room stands a display case, and next to that a stone statue. A wooden
+ door to the north is closed, and a tall archway leads south.
+
+ (Note: This game is unlosable. Don't be afraid to try things!)
+
+>examine case
+
+ It's an open wooden case lined with velvet. A strange symbol is
+ engraved on the front of the case: it looks like a circular chain of
+ ten links.
+
+ The case contains a magic wand.
+
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>take wand
+
+ You take the wand from the display case. A moment later, you are
+ startled by a loud rattling. You turn in time to see a steel
+ portcullis slam down inside the archway!
+
+
+ It's a granite statue of a robed wizard. He looks about five feet
+ tall, not counting his pointy hat.
+
+>examine hat
+
+ You can't see any such thing (or if you can, it's not important).
+
+>examine link
+
+ You can't see any such thing (or if you can, it's not important).
+
+>examine door
+
+ The wooden door is closed. A square steel plate is affixed to it.
+
+>examine plate
+
+ It's a featureless square steel plate, about a foot wide.
+
+>open plate
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>help
+
+ You can always SAVE, RESTORE, RESTART, or QUIT.
+
+ - To move around, type NORTH (N), WEST (W), EAST (E), or SOUTH (S).
+ - You can LOOK (L) to see a description of your location, or WAIT (Z)
+ to pass a turn without doing anything.
+ - You can EXAMINE things nearby. (Abbreviation X.)
+ - You can USE most objects.
+ - You can POINT THE WAND AT things. (Abbreviation P.)
+
+>p me
+
+ Nothing happens, as far as you can tell.
+
+>p plate
+
+ Nothing happens, as far as you can tell.
+
+
+ The wand is about a foot long with a carved wooden handle, a colorful
+ shaft, and a crystal star on the end.
+
+>p wand
+
+ You can't point the wand at itself.
+
+>p door
+
+ Nothing happens, as far as you can tell.
+
+>go north
+
+ The wooden door is closed.
+
+>use door
+
+ As soon as you touch the wooden door, you receive a painful shock!
+
+>use panel
+
+ You can't see any such thing (or if you can, it's not important).
+
+>p statue
+
+ The statue suddenly comes to life! "Ah! Greetings!" it says.
+
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>wait
+
+ Time passes.
+
+ The statue continues, "My name is Bartholloco, of course. Welcome to
+ my little challenge."
+
+
+ Time passes.
+
+ The statue continues, "Before you begin, I should tell you a little
+ about that wand you're holding."
+
+>wait
+
+ Time passes.
+
+ The statue continues, "If you look closely, you'll see that the wand's
+ shaft has three colored sections. When you came in, the colors were
+ red-green-blue."
+
+>wait
+
+ Time passes.
+
+ The statue continues, "When the wand is red-green-blue, it can animate
+ a depiction of a human, as you are witnessing right now!"
+
+>wait
+
+ Time passes.
+
+ The statue continues, "If you rotate the sections, they will change
+ color! Each section has ten possible colors."
+
+>wait
+
+ Time passes.
+
+ The statue continues, "Some color combinations will give the wand
+ other interesting and useful powers. Most combinations won't do
+ anything."
+
+
+ The wand is about a foot long with a carved wooden handle, a colored
+ shaft (set to red-green-blue), and a crystal star on the end.
+
+ The statue continues, "For example, red-white-brown is a very useful
+ setting. It can open things that are closed."
+
+>examine star
+
+ It's a traditional five-pointed crystal star.
+
+ The statue continues, "You'll need that power, because you MUST NOT
+ TOUCH anything in the castle. Maybe you discovered that already.
+ Everything is strongly warded against vandals and thieves. (I do
+ apologize for the implication.)"
+
+
+ I didn't understand that SET command. (Type WAND for help.)
+
+ The statue continues, "If you can beat this challenge, there's a prize
+ for you!"
+
+
+ You can SET a sequence of three colors on the wand like this: SET RED
+ GREEN BLUE.
+
+ To save typing, you can abbreviate using one letter for each color
+ like this: SET RGB. To make it even shorter, you can just type the
+ three letters: RGB.
+
+ There are ten colors. In reverse alphabetical order they are yellow
+ (Y), white (W), red (R), purple (P), orange (O), green (G), gray (A),
+ brown (N), blue (B), and black (K). (Note that gray, brown, and black
+ do not go by their first letter.)
+
+
+ You set the wand to red-white-blue.
+
+ The statue continues, "Good luck! And remember that other setting:
+ red-white-brown."
+
+ With that, the statue stops moving.
+
+
+ You set the wand to red-white-brown.
+
+
+ You hear a click, and the wooden door creaks open until it lies flat
+ against the wall.
+
+
+
+ <span class="floydstyle subheader">Reception Room</span>
+ This cheery room must have been used for the reception of guests. It
+ is furnished with a sofa, several chairs, an end table, and a tall
+ cabinet. A framed portrait hangs on one wall. To the north is a barred
+ door. You can also go south.
+
+ (Since you aren't supposed to touch anything, I'm going to turn off
+ the USE command. I don't want you to get hurt.)
+
+
+ The sofa is fashionably upholstered. There are several small pillows
+ on it: all are light pink except for one, which is brown velvet with
+ the number 2 stitched on it.
+
+
+ You set the wand to purple-white-purple.
+
+>examine chairs
+
+ The chairs are of varying styles, but none of them look too
+ interesting.
+
+>examine cabinet
+
+ The tall oak cabinet contains several decorative dishes. One is
+ painted with a landscape. Another is made of silver. A third is solid
+ purple with the number 3 on it.
+
+ Next to the cabinet, you notice a hole in the wall like a large
+ mousehole.
+
+>examine hole
+
+ It's about twice the size of a typical mousehole.
+
+>p cabinet
+
+ Nothing happens, as far as you can tell.
+
+
+ You set the wand to red-white-brown.
+
+>p cabinet
+
+ Nothing happens, as far as you can tell.
+
+>examine portrait
+
+ The portrait shows a distinguished gentleman wearing a long black coat
+ and carrying a cane. Oddly, he is wearing an orange glove with the
+ number 1 on it.
+
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+
+ You set the wand to orange-brown-purple.
+
+
+ Nothing happens, as far as you can tell.
+
+>p hole
+
+ Nothing happens, as far as you can tell.
+
+
+ Nothing happens, as far as you can tell.
+
+>p portrait
+
+ Nothing happens, as far as you can tell.
+
+>p door
+
+ Nothing happens, as far as you can tell.
+
+
+ You set the wand to red-green-blue.
+
+
+ The gentleman in the portrait comes to life and nods at you. "Hello,"
+ he says soberly.
+
+>rgb
+
+ The wand is already set to red-green-blue.
+
+ The gentleman produces a scroll from his coat and unrolls it. It shows
+ a somewhat abstract illustration of five torches. All the torches are
+ lit except the fourth one.
+
+>wait
+
+ Time passes.
+
+ The gentleman replaces the scroll in his coat and says, "Thank you for
+ your attention." He stops moving.
+
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>examine table
+
+ It's a small carved wooden table. A message is lying on the table,
+ secured by a paperweight.
+
+>read message
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>examine message
+
+ The message, written on parchment, says, "One combination of colors
+ will allow you to levitate objects made of stone, such as this
+ paperweight."
+
+>wand onp
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>opn. p paperweight
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>opn
+
+ You set the wand to orange-purple-brown.
+
+>p paperweight
+
+ Nothing happens, as far as you can tell.
+
+>f**k
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>onp
+
+ You set the wand to orange-brown-purple.
+
+>p paperweight
+
+ The paperweight slowly rises into the air!
+
+>examine message
+
+ The message, written on parchment, says, "One combination of colors
+ will allow you to levitate objects made of stone, such as this
+ paperweight."
+
+>take message
+
+ The USE command has been deactivated. I don't want you to get hurt.
+
+>p message
+
+ Nothing happens, as far as you can tell.
+
+ The paperweight slowly settles back on top of the message.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p door
+
+ The door rattles against the bar.
+
+>examine bar
+
+ It's a long bar, apparently made of slate.
+
+>onp
+
+ You set the wand to orange-brown-purple.
+
+>p bar
+
+ The bar slowly rises out of its hooks until it is floating just above
+ the door.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p door
+
+ The door swings open until it lies flat against the wall.
+
+>go north
+
+
+ <span class="floydstyle subheader">Dark Hall</span>
+ You can see very little in this dark room, but your footsteps echo on
+ a tiled floor. Dim light comes through doorways to the east, west, and
+ south. The light glints off a large object above your head, possibly a
+ chandelier.
+
+>examine object
+
+ You can't make out any details.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is closed.
+
+
+ The brick fireplace is filled with a cheerful, smokeless fire.
+
+
+ The brick fireplace is filled with a cheerful, smokeless fire.
+
+>examine desk
+
+ There are two books on the oaken desk: one large, one small. The small
+ book lies open. The desk also features a closed drawer.
+
+
+ The left-hand page shows a drawing of a magnifying glass. The
+ right-hand page is written in an odd foreign language. It says, "Lipu
+ mazorv poppa varsh diron pip trochent las grokoko. Rigo ducki plup
+ VOLLIN las TROFF; rigo zips pip BUCKOR."
+
+
+ The large book has a leather cover inscribed with the title "Fables
+ Old and New".
+
+>p drawer
+
+ The drawer slowly slides open. There is a key inside.
+
+>examine key
+
+ It's a large brass key.
+
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+
+ Nothing happens, as far as you can tell.
+
+>p large book
+
+ The large book flips open to a bookmarked spot.
+
+>examine it
+
+ The book is open to a well-known fable called "The Traveling
+ Magician":
+
+ "A traveling magician met an elephant on the road one day. 'Would you
+ like a ride?' asked the elephant. The magician accepted. Later, as he
+ rode, a bluebird landed on the magician's shoulder. 'Would you like to
+ hear a song?' asked the bird. The magician nodded. That evening, as
+ they rested, a cat approached. 'Don't worry,' said the cat, 'I will
+ not bring you misfortune. In fact, I have a hot tip on a horse race in
+ the next town.' The following day, the magician won 35 silver pieces
+ and bought some nice gifts for his new friends.
+
+ "The moral: Always accept favors from animals."
+
+ A slip of paper acts as a bookmark. On it is written, "The wand can
+ ignite an object such as a torch or candle. Use the combination—"
+ The
+ rest of the paper is torn off.
+
+
+ There are two books on the oaken desk: one large, one small. Both
+ books are lying open. The desk also features an open drawer.
+
+
+ The drawer contains a brass key.
+
+
+ The USE command has been deactivated. I don't want you to get hurt.
+
+
+ You can SET a sequence of three colors on the wand like this: SET RED
+ GREEN BLUE.
+
+ To save typing, you can abbreviate using one letter for each color
+ like this: SET RGB. To make it even shorter, you can just type the
+ three letters: RGB.
+
+ There are ten colors. In reverse alphabetical order they are yellow
+ (Y), white (W), red (R), purple (P), orange (O), green (G), gray (A),
+ brown (N), blue (B), and black (K). (Note that gray, brown, and black
+ do not go by their first letter.)
+
+>go west
+
+
+ <span class="floydstyle subheader">Dark Hall</span>
+ You can see very little in this dark room, but your footsteps echo on
+ a tiled floor. Dim light comes through doorways to the east, west, and
+ south. The light glints off a large object above your head, possibly a
+ chandelier.
+
+
+ You can't see the wand well enough to set it.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is closed.
+
+>abk
+
+ You set the wand to gray-blue-black.
+
+>go west
+
+
+ <span class="floydstyle subheader">Dark Hall</span>
+ You can see very little in this dark room, but your footsteps echo on
+ a tiled floor. Dim light comes through doorways to the east, west, and
+ south. The light glints off a large object above your head, possibly a
+ chandelier.
+
+>p object
+
+ With a flash, the little candles in the chandelier come to life!
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>examine paintings
+
+ There are about twenty paintings of various shapes and sizes:
+ landscapes, still-lifes, and other scenes. They include three
+ portraits, which are larger and framed in gold: a young lady, a small
+ boy, and a frowning matron.
+
+
+ The matron wears a severe black dress and an odd black hat. She seems
+ like the kind of person who frowns habitually.
+
+>examine lady
+
+ The young lady is wearing a light-colored ball gown and long gloves.
+ She is seated with her hands folded on her lap.
+
+>examine boy
+
+ The boy is wearing a sailor suit and a straw hat. He looks at the
+ ground shyly.
+
+
+ You set the wand to red-green-blue.
+
+
+ The small boy comes to life. He puts his hands in his pockets and
+ shuffles his feet.
+
+>p lady
+
+ The young lady suddenly stirs. She clears her throat.
+
+ The boy takes a deep breath like he is about to speak, but then he
+ hesitates.
+
+
+ Time passes.
+
+ The young lady and the boy both start to speak over each other. You
+ can't understand what either one is saying.
+
+
+ Time passes.
+
+ The young lady continues speaking in a strange language. She finishes,
+ nods her head, and returns to lifelessness.
+
+ The boy tugs at his collar, and then reverts to his normal lifeless
+ state.
+
+
+ The small boy comes to life. He puts his hands in his pockets and
+ shuffles his feet.
+
+>wait
+
+ Time passes.
+
+ The boy takes a deep breath like he is about to speak, but then he
+ hesitates.
+
+>wait
+
+ Time passes.
+
+ The boy starts to talk, but you hear strange fragments, as if he is
+ only saying the beginning of each word. You can't make it out.
+
+>wait
+
+ Time passes.
+
+ The boy tugs at his collar, and then reverts to his normal lifeless
+ state.
+
+>p lady
+
+ The young lady suddenly stirs. She clears her throat.
+
+>wait
+
+ Time passes.
+
+ The young lady begins speaking in a strange language. You have no idea
+ what she is saying.
+
+>wait
+
+ Time passes.
+
+ The young lady continues speaking in a strange language. She finishes,
+ nods her head, and returns to lifelessness.
+
+>p matron
+
+ The matron comes to life. She speaks briefly in a stern tone, but all
+ you can hear are separated fragments, like she is only saying the end
+ of each word. It sounds very unnatural, and you can't understand any
+ of it.
+
+>wait
+
+ Time passes.
+
+ The matron smooths her dress.
+
+>wait
+
+ Time passes.
+
+ The matron huffs and stops moving.
+
+>p boy
+
+ The small boy comes to life. He puts his hands in his pockets and
+ shuffles his feet.
+
+>p lady
+
+ The young lady suddenly stirs. She clears her throat.
+
+ The boy takes a deep breath like he is about to speak, but then he
+ hesitates.
+
+>p matron
+
+ The matron comes to life and begins speaking. The young lady and the
+ boy start to speak as well. You hear a bizarre babble as all three
+ portraits talk at the same time.
+
+>listen
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>wait
+
+ Time passes.
+
+ The young lady continues speaking in a strange language. She finishes,
+ nods her head, and returns to lifelessness.
+
+ The boy tugs at his collar, and then reverts to his normal lifeless
+ state.
+
+ The matron smooths her dress.
+
+>wait
+
+ Time passes.
+
+ The matron huffs and stops moving.
+
+>p boy
+
+ The small boy comes to life. He puts his hands in his pockets and
+ shuffles his feet.
+
+>p matron
+
+ The matron comes to life. She speaks briefly in a stern tone, but all
+ you can hear are separated fragments, like she is only saying the end
+ of each word. It sounds very unnatural, and you can't understand any
+ of it.
+
+>wait
+
+ Time passes.
+
+ The boy starts to talk, but you hear strange fragments, as if he is
+ only saying the beginning of each word. You can't make it out.
+
+ The matron smooths her dress.
+
+>p matron
+
+ Nothing happens, as far as you can tell.
+
+ The boy tugs at his collar, and then reverts to his normal lifeless
+ state.
+
+ The matron huffs and stops moving.
+
+>p boy
+
+ The small boy comes to life. He puts his hands in his pockets and
+ shuffles his feet.
+
+>wait
+
+ Time passes.
+
+ The boy takes a deep breath like he is about to speak, but then he
+ hesitates.
+
+>p matron
+
+ The matron comes to life. She begins speaking in strange fragments. At
+ the same time, the young boy starts speaking in fragments as well.
+ Strangely, despite their different voices, the fragments mesh in a way
+ you can understand. It sounds like, "To fix what is broken, try
+ yellow-orange-orange."
+
+>examine chandelier
+
+ The chandelier has several tiers of icicle-like glass drops and
+ prisms, and many small candles. It is quite dazzling to look at.
+
+ The boy tugs at his collar, and then reverts to his normal lifeless
+ state.
+
+ The matron smooths her dress.
+
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ closed.
+
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is closed.
+
+>examine bookshelves
+
+ You wonder where all the books went.
+
+>examine window
+
+ Through the window you can see the wooded countryside east of the
+ castle.
+
+>examine door
+
+ The door is closed.
+
+>take key
+
+ The USE command has been deactivated. I don't want you to get hurt.
+
+>examine bookmark
+
+ The book is open to a well-known fable called "The Traveling
+ Magician":
+
+ "A traveling magician met an elephant on the road one day. 'Would you
+ like a ride?' asked the elephant. The magician accepted. Later, as he
+ rode, a bluebird landed on the magician's shoulder. 'Would you like to
+ hear a song?' asked the bird. The magician nodded. That evening, as
+ they rested, a cat approached. 'Don't worry,' said the cat, 'I will
+ not bring you misfortune. In fact, I have a hot tip on a horse race in
+ the next town.' The following day, the magician won 35 silver pieces
+ and bought some nice gifts for his new friends.
+
+ "The moral: Always accept favors from animals."
+
+ A slip of paper acts as a bookmark. On it is written, "The wand can
+ ignite an object such as a torch or candle. Use the combination—"
+ The
+ rest of the paper is torn off.
+
+>yoo
+
+ You set the wand to yellow-orange-orange.
+
+>p bookmark
+
+ Nothing happens, as far as you can tell.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p door
+
+ The doorknob rattles a few times. It sounds like the door is locked.
+
+
+ Nothing happens, as far as you can tell.
+
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ closed.
+
+>examine paintings
+
+ You can't see any such thing (or if you can, it's not important).
+
+>examine table
+
+ The mahogany table sits on a long carpet. The table is well-polished,
+ and the sides and legs are ornately carved.
+
+ Near the center of the table are a bowl of apples and a row of five
+ candles. The third, fourth, and fifth candles are lit.
+
+
+ You set the wand to black-blue-gray.
+
+>p candles
+
+ You'll need to pick which candle to aim at.
+
+>p fourth candle
+
+ Nothing happens, as far as you can tell.
+
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+
+ There are about twenty paintings of various shapes and sizes:
+ landscapes, still-lifes, and other scenes. They include three
+ portraits, which are larger and framed in gold: a young lady, a small
+ boy, and a frowning matron.
+
+>examine landscapes
+
+ You can't see any such thing (or if you can, it's not important).
+
+>examine still-lifes
+
+ You can't see any such thing (or if you can, it's not important).
+
+
+
+ <span class="floydstyle subheader">Reception Room</span>
+ This cheery room must have been used for the reception of guests. It
+ is furnished with a sofa, several chairs, an end table, and a tall
+ cabinet. A framed portrait hangs on one wall. To the north is an open
+ door. You can also go south.
+
+
+ The sofa is fashionably upholstered. There are several small pillows
+ on it: all are light pink except for one, which is brown velvet with
+ the number 2 stitched on it.
+
+
+ The tall oak cabinet contains several decorative dishes. One is
+ painted with a landscape. Another is made of silver. A third is solid
+ purple with the number 3 on it.
+
+ Next to the cabinet, you notice a hole in the wall like a large
+ mousehole.
+
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ closed.
+
+
+ The mahogany table sits on a long carpet. The table is well-polished,
+ and the sides and legs are ornately carved.
+
+ Near the center of the table are a bowl of apples and a row of five
+ candles. The third, fourth, and fifth candles are lit.
+
+>examine carpet
+
+ The long carpet is woven with a pattern of diamond shapes.
+
+
+ The bowl is attached to a large square base. The apples look real,
+ though you can't be sure.
+
+
+ You set the wand to orange-brown-purple.
+
+
+ Nothing happens, as far as you can tell.
+
+
+ Nothing happens, as far as you can tell.
+
+>examine diamonds
+
+ You can't see any such thing (or if you can, it's not important).
+
+
+ Nothing happens, as far as you can tell.
+
+>examine door
+
+ The wooden door is closed.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p door
+
+ The doorknob spins around, making a few clunks. It sounds broken.
+
+>yoo
+
+ You set the wand to yellow-orange-orange.
+
+>yoo door
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>p door
+
+ The doorknob glows briefly with a golden light.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p door
+
+ The knob turns and the door slowly opens all the way, until it lies
+ flat against the wall.
+
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north or south.
+
+>examine box
+
+ The box is filled with chunks of coal. A brass scoop lies on top.
+
+>examine stove
+
+ The round iron stove sits on four carved legs. You see some ashes on
+ the floor below it. The front of the stove is closed.
+
+ A copper pot sits on top of the stove.
+
+
+ You can't see any such thing (or if you can, it's not important).
+
+>examine pot
+
+ The copper pot is half-full of chicken broth.
+
+>examine broth
+
+ The copper pot is half-full of chicken broth.
+
+>examine scoop
+
+ It's probably the nicest coal scoop you have ever seen, but that's not
+ a very high bar.
+
+>examine coal
+
+ The box is filled with chunks of coal. A brass scoop lies on top.
+
+>p oven
+
+ The front of the stove swings open. It seems to be empty.
+
+>examine counter
+
+ There are several items on the counter: a cookbook, a baltavakia, a
+ knife, a spatula, and some large ceramic shards.
+
+>examine cookbook
+
+ The book has a cloth cover with the title, "Quick Recipes for Busy
+ Wizards."
+
+>p cookbook
+
+ The cookbook flips open to a dog-eared page.
+
+>examine it
+
+ The current dog-eared page contains a recipe: "RING SOUP. Boil one
+ slice of baltavakia in chicken broth until it sparks. Immediately
+ lower heat. (Overcooking will yield unpleasant results.)"
+
+>examine baltavakia
+
+ The baltavakia is a strange magical vegetable. It looks like a long
+ purple corkscrew zucchini with pink spots.
+
+>examine shards
+
+ The shards look like pieces of some ceramic object.
+
+>yoo
+
+ You set the wand to yellow-orange-orange.
+
+>p shards
+
+ The shards glow with a golden light, and carefully reassemble
+ themselves. When the glow fades, you see a ceramic figurine of a chef.
+
+>rgb
+
+ You set the wand to red-green-blue.
+
+>p chef
+
+ The little chef comes to life. He rubs his hands together and says in
+ a tiny voice, "Listen carefully. Using red-black-orange you can cause
+ a portable tool or utensil to perform its function." Then he stops
+ moving.
+
+>examine baltavakia
+
+ The baltavakia is a strange magical vegetable. It looks like a long
+ purple corkscrew zucchini with pink spots.
+
+>go east
+
+ You can't go that way.
+
+>go north
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>go east
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is closed.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p key
+
+ The key swiftly flies over to the door, turns itself in the keyhole
+ with a click, and returns to its drawer.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p door
+
+ The knob turns and the door slowly opens all the way, until it lies
+ flat against the wall.
+
+>go south
+
+ You can't go that way.
+
+>go north
+
+
+ <span class="floydstyle subheader">Hallway</span>
+ This narrow wood-floored hallway runs north and south. At the northern
+ end of the hall, winding stone steps lead upward.
+
+ A few paces from the steps, a small dragon lies curled up on a rug.
+
+>examine dragon
+
+ The jet-black dragon is small, but it still fills the width of the
+ hallway. It seems to be asleep. Thin wisps of smoke rise from its
+ nostrils.
+
+>examine rug
+
+ The rug is almost completely covered by the dragon.
+
+>go south
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>go west
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go west
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>go south
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north or south.
+
+>go south
+
+
+ <span class="floydstyle subheader">Pantry</span>
+ This room must have stored a lot of food at one time, but now the
+ shelves are empty. A cupboard is mounted on one wall. You can exit to
+ the north.
+
+>examine cupboard
+
+ The cupboard is made of stained wood. It is closed.
+
+>p it
+
+ The cupboard door swings open. At the same time, a lattice door slides
+ across the north doorway.
+
+>examine cupboard
+
+ The cupboard is open. A labeled jar is the only thing inside.
+
+>examine jar
+
+ The glass jar is open and contains some kind of thick dark paste. The
+ label is covered with writing, but it is so tiny that you can't read
+ it.
+
+>examine lattice
+
+ The door is a lattice of wooden slats, and you can see the kitchen
+ beyond. It looks like a sheet of paper is attached to the other side
+ of the lattice.
+
+>examine paper
+
+ The paper is attached to the other side of the lattice door. If there
+ is anything on it, you can't see it.
+
+
+ You can't see any such thing (or if you can, it's not important).
+
+
+ The lattice door retracts from the doorway. At the same time, the
+ cupboard door swings shut.
+
+>go north
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north or south.
+
+>examine lattice
+
+ You can't see any such thing (or if you can, it's not important).
+
+
+ You can't see any such thing (or if you can, it's not important).
+
+>examine cupboard
+
+ You can't see any such thing (or if you can, it's not important).
+
+>go north
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>abk
+
+ You set the wand to gray-blue-black.
+
+>examine candles
+
+ There are five candles standing in small brass holders. The third,
+ fourth, and fifth candles are lit.
+
+>p first
+
+ The first candle lights up.
+
+>p second
+
+ The second candle lights up.
+
+>p fourth
+
+ The fourth candle flares up for a moment.
+
+>examine candles
+
+ There are five candles standing in small brass holders. All the
+ candles are lit.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p fourth
+
+ Nothing happens, as far as you can tell.
+
+>kba
+
+ You set the wand to black-blue-gray.
+
+>p fourth
+
+ Nothing happens, as far as you can tell.
+
+>yoo
+
+ You set the wand to yellow-orange-orange.
+
+>p fourth
+
+ Nothing happens, as far as you can tell.
+
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+
+ The left-hand page shows a drawing of a magnifying glass. The
+ right-hand page is written in an odd foreign language. It says, "Lipu
+ mazorv poppa varsh diron pip trochent las grokoko. Rigo ducki plup
+ VOLLIN las TROFF; rigo zips pip BUCKOR."
+
+>examine glass
+
+ You can't see any such thing (or if you can, it's not important).
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p small book
+
+ Nothing happens, as far as you can tell.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p window
+
+ Nothing happens, as far as you can tell.
+
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north or south.
+
+
+ The round iron stove sits on four carved legs. You see some ashes on
+ the floor below it. The front of the stove is open.
+
+ A copper pot sits on top of the stove.
+
+
+ It's just a small pile of ashes on the floor.
+
+>examine book
+
+ The current dog-eared page contains a recipe: "RING SOUP. Boil one
+ slice of baltavakia in chicken broth until it sparks. Immediately
+ lower heat. (Overcooking will yield unpleasant results.)"
+
+>wand rko
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p scoop
+
+ The brass scoop comes to life. It picks up a small pile of coal,
+ carries it to the stove, and dumps it inside. It then returns to the
+ coal box.
+
+>inventory
+
+ You are holding a wand.
+
+>counter
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>examine counter
+
+ There are several items on the counter: a cookbook, a baltavakia, a
+ knife, a spatula, and a ceramic figurine.
+
+>examine spatula
+
+ It's a square wooden spatula with a long handle.
+
+>go north
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>yko
+
+ You set the wand to yellow-black-orange.
+
+>p fourth
+
+ Nothing happens, as far as you can tell.
+
+>go east
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>p small book
+
+ Nothing happens, as far as you can tell.
+
+>examine small book
+
+ The left-hand page shows a drawing of a magnifying glass. The
+ right-hand page is written in an odd foreign language. It says, "Lipu
+ mazorv poppa varsh diron pip trochent las grokoko. Rigo ducki plup
+ VOLLIN las TROFF; rigo zips pip BUCKOR."
+
+>p fire
+
+ Nothing happens, as far as you can tell.
+
+>go west
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go west
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>go south
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north or south.
+
+>go south
+
+
+ <span class="floydstyle subheader">Pantry</span>
+ This room must have stored a lot of food at one time, but now the
+ shelves are empty. A cupboard is mounted on one wall. You can exit to
+ the north.
+
+>rgb
+
+ You set the wand to red-green-blue.
+
+>p cupboard
+
+ Nothing happens, as far as you can tell.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p cupboard
+
+ The cupboard door swings open. At the same time, a lattice door slides
+ across the north doorway.
+
+>yko
+
+ You set the wand to yellow-black-orange.
+
+>yko jar
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>p jar
+
+ Nothing happens, as far as you can tell.
+
+>p paper
+
+ Nothing happens, as far as you can tell.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p lattice
+
+ The lattice door retracts from the doorway. At the same time, the
+ cupboard door swings shut.
+
+>go north
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north or south.
+
+>go north
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>go east
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>go north
+
+
+ <span class="floydstyle subheader">Hallway</span>
+ This narrow wood-floored hallway runs north and south. At the northern
+ end of the hall, winding stone steps lead upward.
+
+ A few paces from the steps, a small dragon lies curled up on a rug.
+
+>go north
+
+ You take a deep breath and very carefully step over the dragon. It's
+ not easy. Your foot brushes it, but luckily it does not seem to react.
+
+ As you take your next step, however, you hear a thunk and the floor
+ shifts under your weight. A trapdoor opens. You tumble down a
+ chute....
+
+ (Please press SPACE to continue.)
+ (Please press SPACE to continue.)
+
+
+
+ <span class="floydstyle subheader">Dungeon</span>
+ You are in a damp dungeon cell. Sunlight comes through a small square
+ opening in the ceiling. There is nothing here except the pile of straw
+ you landed on and the heavy wooden door in the south wall.
+
+>examine straw
+
+ The straw is not exactly soft, but the pile is big enough to prevent
+ injury to falling prisoners.
+
+ You notice a dark gray flagstone in the floor next to the straw. It
+ looks odd, since the rest of the stones are lighter.
+
+>onp
+
+ You set the wand to orange-brown-purple.
+
+>p flagstone
+
+ The dark gray flagstone slowly rises, revealing a gap in the floor.
+
+>examine gap
+
+ The following is written in the gap where the flagstone used to be:
+ "LOOK AT THE FLAGSTONE."
+
+>examine flagstone
+
+ A message is scratched into the bottom of the flagstone. You can
+ barely read it in the dim light: "IMPORTANT. ORANGE-GREEN-GRAY. ONLY
+ WORKS ON LIVING CREATURES."
+
+>examine door
+
+ It's a heavy wooden door reinforced with bronze. Someone has engraved
+ "HA" right in the middle.
+
+ The flagstone settles back into the floor.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p door
+
+ The door shakes slightly, but it is obviously locked.
+
+>oga
+
+ You set the wand to orange-green-gray.
+
+>p me
+
+ You are immersed in a shower of orange sparkles! You feel a strange
+ sense of displacement....
+
+ (Please press SPACE to continue.)
+ (Please press SPACE to continue.)
+
+
+
+ <span class="floydstyle subheader">Reception Room</span>
+ This cheery room must have been used for the reception of guests. It
+ is furnished with a sofa, several chairs, an end table, and a tall
+ cabinet. A framed portrait hangs on one wall. To the north is an open
+ door. You can also go south.
+
+>go north
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>go north
+
+
+ <span class="floydstyle subheader">Hallway</span>
+ This narrow wood-floored hallway runs north and south. At the northern
+ end of the hall, winding stone steps lead upward.
+
+ A few paces from the steps, a small dragon lies curled up on a rug.
+
+>p dragon
+
+ The dragon is immersed in a cloud of orange sparkles. When they clear,
+ the dragon is gone.
+
+>examine rug
+
+ The middle of the rug is woven with an image of the wand you carry. It
+ shows the colors blue-gray-purple.
+
+>go south
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>bap
+
+ You set the wand to blue-gray-purple.
+
+>bap fire
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>p fire
+
+ Nothing happens, as far as you can tell.
+
+>p small book
+
+ Nothing happens, as far as you can tell.
+
+>go north
+
+
+ <span class="floydstyle subheader">Hallway</span>
+ This narrow wood-floored hallway runs north and south. At the northern
+ end of the hall, winding stone steps lead upward.
+
+ A few paces from the steps you see a rug on the floor.
+
+>go north
+
+ As you near the steps, you hear a thunk and the floor shifts under
+ your weight. A trapdoor opens and you tumble down....
+
+ (Please press SPACE to continue.)
+ (Please press SPACE to continue.)
+
+
+
+ <span class="floydstyle subheader">Dungeon</span>
+ You are in a damp dungeon cell. Sunlight comes through a small square
+ opening in the ceiling. There is nothing here except the pile of straw
+ you landed on and the heavy wooden door in the south wall.
+
+>bap
+
+ The wand is already set to blue-gray-purple.
+
+>p door
+
+ Nothing happens, as far as you can tell.
+
+>p straw
+
+ Nothing happens, as far as you can tell.
+
+>abk
+
+ You set the wand to gray-blue-black.
+
+>p straw
+
+ You feel a strange shudder in the wand, but nothing happens to the
+ straw. It might be a safety feature.
+
+>oga
+
+ You set the wand to orange-green-gray.
+
+>p me
+
+ You are immersed in a shower of orange sparkles! You feel a strange
+ sense of displacement....
+
+ <span class="floydstyle subheader">Reception Room</span>
+ This cheery room must have been used for the reception of guests. It
+ is furnished with a sofa, several chairs, an end table, and a tall
+ cabinet. A framed portrait hangs on one wall. To the north is an open
+ door. You can also go south.
+
+ A small dragon is lying on the sofa.
+
+>p me
+
+ Nothing happens, as far as you can tell.
+
+>p dragon
+
+ Nothing happens, as far as you can tell.
+
+>bap
+
+ You set the wand to blue-gray-purple.
+
+>p dragon
+
+ Nothing happens, as far as you can tell.
+
+>go north
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>p hole
+
+ You can't see any such thing (or if you can, it's not important).
+
+>go south
+
+
+ <span class="floydstyle subheader">Reception Room</span>
+ This cheery room must have been used for the reception of guests. It
+ is furnished with a sofa, several chairs, an end table, and a tall
+ cabinet. A framed portrait hangs on one wall. To the north is an open
+ door. You can also go south.
+
+ A small dragon is lying on the sofa.
+
+>examine hole
+
+ It's about twice the size of a typical mousehole.
+
+>p hole
+
+ Nothing happens, as far as you can tell.
+
+>go north
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>go north
+
+
+ <span class="floydstyle subheader">Hallway</span>
+ This narrow wood-floored hallway runs north and south. At the northern
+ end of the hall, winding stone steps lead upward.
+
+ A few paces from the steps you see a rug on the floor.
+
+>go up
+
+ The USE command has been deactivated. I don't want you to get hurt.
+
+>go up
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>examine steps
+
+ You can't see any such thing (or if you can, it's not important).
+
+>go south
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>go west
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>rgb
+
+ You set the wand to red-green-blue.
+
+>p lady
+
+ The young lady suddenly stirs. She clears her throat.
+
+>bap
+
+ You set the wand to blue-gray-purple.
+
+ The young lady begins speaking in a strange language. You have no idea
+ what she is saying.
+
+>p lady
+
+ Nothing happens, as far as you can tell.
+
+ The young lady continues speaking in a strange language. She finishes,
+ nods her head, and returns to lifelessness.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>go north
+
+
+ <span class="floydstyle subheader">Hallway</span>
+ This narrow wood-floored hallway runs north and south. At the northern
+ end of the hall, winding stone steps lead upward.
+
+ A few paces from the steps you see a rug on the floor.
+
+>examine rug
+
+ The middle of the rug is woven with an image of the wand you carry. It
+ shows the colors blue-gray-purple.
+
+>bap
+
+ The wand is already set to blue-gray-purple.
+
+>p rug
+
+ Nothing happens, as far as you can tell.
+
+>go south
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>go west
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go west
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>bap
+
+ The wand is already set to blue-gray-purple.
+
+>p apples
+
+ Nothing happens, as far as you can tell.
+
+>p bowl
+
+ Nothing happens, as far as you can tell.
+
+>p fourth
+
+ Nothing happens, as far as you can tell.
+
+>go south
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north or south.
+
+>abk
+
+ You set the wand to gray-blue-black.
+
+>examine oven
+
+ The round iron stove sits on four carved legs. You see some ashes on
+ the floor below it. The front of the stove is open, and you see a
+ small pile of coal inside.
+
+ A copper pot sits on top of the stove.
+
+>p oven
+
+ There is a flash, and the coal inside the stove starts to burn with an
+ orange glow.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p knife
+
+ The knife rises into the air, floats over to the baltavakia, and cuts
+ a thin slice off the end. It rests itself back on the counter.
+
+>bap
+
+ You set the wand to blue-gray-purple.
+
+>p pot
+
+ Nothing happens, as far as you can tell.
+
+>p oven
+
+ Nothing happens, as far as you can tell.
+
+>p coal
+
+ Nothing happens, as far as you can tell.
+
+>p chef
+
+ Nothing happens, as far as you can tell.
+
+>p me
+
+ Nothing happens, as far as you can tell.
+
+>onp
+
+ You set the wand to orange-brown-purple.
+
+ The chicken broth starts to bubble.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p pot
+
+ Nothing happens, as far as you can tell.
+
+>go south
+
+
+ <span class="floydstyle subheader">Pantry</span>
+ This room must have stored a lot of food at one time, but now the
+ shelves are empty. A cupboard is mounted on one wall. You can exit to
+ the north.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p cupboard
+
+ The cupboard door swings open. At the same time, a lattice door slides
+ across the north doorway.
+
+>bap
+
+ You set the wand to blue-gray-purple.
+
+>p jar
+
+ Nothing happens, as far as you can tell.
+
+>p paper
+
+ Nothing happens, as far as you can tell.
+
+>p lattice
+
+ Nothing happens, as far as you can tell.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p lattice
+
+ The lattice door retracts from the doorway. At the same time, the
+ cupboard door swings shut.
+
+>go north
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north or south.
+
+>examine stove
+
+ The round iron stove sits on four carved legs. You see some ashes on
+ the floor below it. The front of the stove is open, and inside you see
+ some coal burning with an orange glow.
+
+ A copper pot sits on top of the stove.
+
+>examine pot
+
+ The copper pot is half-full of boiling chicken broth.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p spatula
+
+ The spatula rises and floats over to the baltavakia. It carefully
+ picks up the slice, carries it across the kitchen, and drops it into
+ the pot. As soon as the slice touches the broth, it puffs up into a
+ little ball. The spatula returns to the counter.
+
+>examine ball
+
+ The little baltavakia ball is covered with shiny speckles.
+
+>wait
+
+ Time passes.
+
+>wait
+
+ Time passes.
+
+>wait
+
+ Time passes.
+
+ The little ball in the pot starts to throw off bright sparks.
+
+>p spatula
+
+ The spatula floats toward the baltavakia and tries to lift up the
+ whole thing, but fails. It settles back on the counter.
+
+ The little ball continues to spark.
+
+>p ball
+
+ Nothing happens, as far as you can tell.
+
+ The little baltavakia ball vibrates violently. Suddenly it leaps out
+ of the pot and explodes in a cloud of brown dust, producing a really
+ terrible odor.
+
+>examine odor
+
+ You can't see any such thing (or if you can, it's not important).
+
+
+ The copper pot is half-full of boiling chicken broth.
+
+
+ There are several items on the counter: a cookbook, a baltavakia, a
+ knife, a spatula, and a ceramic figurine.
+
+>onp
+
+ You set the wand to orange-brown-purple.
+
+>p pot
+
+ Nothing happens, as far as you can tell.
+
+>p coal
+
+ Nothing happens, as far as you can tell.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p pot
+
+ Nothing happens, as far as you can tell.
+
+>bap
+
+ You set the wand to blue-gray-purple.
+
+>p pot
+
+ Nothing happens, as far as you can tell.
+
+>p oven
+
+ Nothing happens, as far as you can tell.
+
+>go south
+
+
+ <span class="floydstyle subheader">Pantry</span>
+ This room must have stored a lot of food at one time, but now the
+ shelves are empty. A cupboard is mounted on one wall. You can exit to
+ the north.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+
+ The cupboard door swings open. At the same time, a lattice door slides
+ across the north doorway.
+
+
+ Nothing happens, as far as you can tell.
+
+>examine cupboard
+
+ The cupboard is open. A labeled jar is the only thing inside.
+
+>examine jar
+
+ The glass jar is open and contains some kind of thick dark paste. The
+ label is covered with writing, but it is so tiny that you can't read
+ it.
+
+>examine shelves
+
+ The shelves are completely bare. Not a speck nor crumb.
+
+>examine writing
+
+ The glass jar is open and contains some kind of thick dark paste. The
+ label is covered with writing, but it is so tiny that you can't read
+ it.
+
+
+ The glass jar is open and contains some kind of thick dark paste. The
+ label is covered with writing, but it is so tiny that you can't read
+ it.
+
+>abk
+
+ You set the wand to gray-blue-black.
+
+>p jar
+
+ Nothing happens, as far as you can tell.
+
+>yoo
+
+ You set the wand to yellow-orange-orange.
+
+>p jar
+
+ Nothing happens, as far as you can tell.
+
+>oga
+
+ You set the wand to orange-green-gray.
+
+>p me
+
+ You are immersed in a shower of orange sparkles! You feel a strange
+ sense of displacement....
+
+ <span class="floydstyle subheader">Reception Room</span>
+ This cheery room must have been used for the reception of guests. It
+ is furnished with a sofa, several chairs, an end table, and a tall
+ cabinet. A framed portrait hangs on one wall. To the north is an open
+ door. You can also go south.
+
+ A small dragon is lying on the sofa.
+
+>go north
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go west
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>go south
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north, but a
+ lattice door blocks a doorway to the south.
+
+>examine lattice
+
+ A sheet of paper attached to the lattice door reads, "To translate
+ foreign languages, use purple-gray-blue."
+
+>pab
+
+ You set the wand to purple-gray-blue.
+
+>go north
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>go east
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>p small book
+
+ The small book starts to shimmer with a silvery light, and the writing
+ changes.
+
+>examine small book
+
+ The left-hand page shows a drawing of a magnifying glass. The
+ right-hand page says, "You may see an enlarged view of that which is
+ very small or far away. The first color is neither ORANGE nor BLACK;
+ the second color is WHITE."
+
+>go west
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>rgb
+
+ You set the wand to red-green-blue.
+
+>p lady
+
+ The young lady suddenly stirs. She clears her throat.
+
+>pab
+
+ You set the wand to purple-gray-blue.
+
+ The young lady begins speaking in a strange language. You have no idea
+ what she is saying.
+
+>wait
+
+ Time passes.
+
+ The young lady continues speaking in a strange language. She finishes,
+ nods her head, and returns to lifelessness.
+
+>pab
+
+ The wand is already set to purple-gray-blue.
+
+>p lady
+
+ The portrait of the young lady begins to shimmer with a silvery light.
+
+>rgb
+
+ You set the wand to red-green-blue.
+
+>p lady
+
+ The young lady suddenly stirs. She clears her throat.
+
+ The portrait of the young lady stops shimmering.
+
+>wait
+
+ Time passes.
+
+ The young lady begins speaking in a strange language. You have no idea
+ what she is saying.
+
+>wait
+
+ Time passes.
+
+ The young lady continues speaking in a strange language. She finishes,
+ nods her head, and returns to lifelessness.
+
+>rgb
+
+ The wand is already set to red-green-blue.
+
+>p lady
+
+ The young lady suddenly stirs. She clears her throat.
+
+>pab
+
+ You set the wand to purple-gray-blue.
+
+ The young lady begins speaking in a strange language. You have no idea
+ what she is saying.
+
+>p lady
+
+ The portrait of the young lady begins to shimmer with a silvery light.
+
+ The young lady continues speaking, but suddenly you hear your own
+ language. She says, "Likewise, the dragon guards information that will
+ extinguish open flames. But do not be misled: BLUE means BLACK, and
+ GRAY means GREEN." She nods her head and returns to lifelessness.
+
+>p lady
+
+ Nothing happens, as far as you can tell.
+
+>rgb
+
+ You set the wand to red-green-blue.
+
+ The portrait of the young lady stops shimmering.
+
+>pab
+
+ You set the wand to purple-gray-blue.
+
+>p lady
+
+ The portrait of the young lady begins to shimmer with a silvery light.
+
+>p rgb
+
+ You can't see any such thing (or if you can, it's not important).
+
+>rgb
+
+ You set the wand to red-green-blue.
+
+>p lady
+
+ The young lady suddenly stirs. She clears her throat.
+
+ The portrait of the young lady stops shimmering.
+
+>go west
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>kgp
+
+ You set the wand to black-green-purple.
+
+>p fourth
+
+ With a puff, the fourth candle goes out.
+
+ With a soft grating sound, the bowl slides sideways, revealing a
+ message!
+
+>examine message
+
+ The message has been carved right into the mahogany tabletop. It says,
+ "My favorite effect is the one that magnifies small or faraway things.
+ The first color is either orange, green, or black; the third color is
+ red."
+
+>go south
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north, but a
+ lattice door blocks a doorway to the south.
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p door
+
+ The lattice door retracts from the doorway.
+
+>go south
+
+
+ <span class="floydstyle subheader">Pantry</span>
+ This room must have stored a lot of food at one time, but now the
+ shelves are empty. A cupboard is mounted on one wall. You can exit to
+ the north.
+
+>p cupboard
+
+ The cupboard door swings open. At the same time, a lattice door slides
+ across the north doorway.
+
+>gwr
+
+ You set the wand to green-white-red.
+
+>p jar
+
+ A huge image of the jar's label appears in your mind. You can read it.
+ It says "WEIGHT REDUCER" followed by a very long list of ingredients.
+ Under that is printed, "The wand also has the power to reduce the
+ weight of a living creature (temporarily). Ring soup will show what
+ the first and second colors might be, and what the third color CANNOT
+ be. I have placed another clue elsewhere."
+
+>rwn
+
+ You set the wand to red-white-brown.
+
+>p lattice
+
+ The lattice door retracts from the doorway. At the same time, the
+ cupboard door swings shut.
+
+>go north
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ The castle kitchen has been mostly cleared out, but it still contains
+ an iron stove and a long counter with several items on it. There is a
+ coal box on the floor near the stove. You can exit north or south.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p knife
+
+ The knife cuts a thin slice off the end of the baltavakia.
+
+>p spatula
+
+ The spatula carefully picks up the slice, carries it across the
+ kitchen, and drops it into the pot. As soon as the slice touches the
+ broth, it puffs up into a little ball.
+
+>kgp
+
+ You set the wand to black-green-purple.
+
+>wait
+
+ Time passes.
+
+>wait
+
+ Time passes.
+
+>wait
+
+ Time passes.
+
+ The little ball in the pot starts to throw off bright sparks.
+
+>p oven
+
+ The glow inside the stove dies away.
+
+ The pot stops boiling.
+
+ The little ball continues to spark.
+
+>wait
+
+ Time passes.
+
+ The sparks are getting brighter.
+
+>wait
+
+ Time passes.
+
+ The baltavakia ball suddenly dissolves into the broth with a hiss. The
+ broth thickens, and vivid rings of color appear in it.
+
+>examine soup
+
+ The copper pot is half-full of thick, colorful soup. A series of
+ white, purple, brown, and yellow rings expand slowly from the middle.
+
+>go north
+
+
+ <span class="floydstyle subheader">Dining Hall</span>
+ This hall is lit by arched windows in the west wall. The long mahogany
+ dining table could seat at least twenty people, if the chairs were
+ still here. A doorway leads east, and a wooden door to the south is
+ open.
+
+>examine window
+
+ Through the windows you have a lovely view of the Glittering River and
+ the farmland beyond.
+
+>gwr
+
+ You set the wand to green-white-red.
+
+>p river
+
+ You can't see any such thing (or if you can, it's not important).
+
+>p window
+
+ A huge but incomprehensible image appears in your mind.
+
+>examine river
+
+ You can't see any such thing (or if you can, it's not important).
+
+>examine farmland
+
+ You can't see any such thing (or if you can, it's not important).
+
+>go east
+
+
+ <span class="floydstyle subheader">Gallery</span>
+ Your footsteps echo on the tiled floor of this ornately decorated
+ hall. The north and south walls are lined with a variety of paintings.
+ A large chandelier hangs above you. You can exit through doorways to
+ the east, west, and south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Library</span>
+ This spacious library is lit by an arched window in the east wall. The
+ collection must have once been extensive, but now the bookshelves
+ lining the walls are empty. A desk stands near the window, and the
+ south wall is dominated by a large fireplace. A doorway leads west,
+ and a wooden door to the north is open.
+
+>examine window
+
+ Through the window you can see the wooded countryside east of the
+ castle.
+
+>p window
+
+ A huge but incomprehensible image appears in your mind.
+
+>kgp
+
+ You set the wand to black-green-purple.
+
+>p fire
+
+ The fire vanishes with a loud poof.
+
+>examine fireplace
+
+ You look inside the brick fireplace. The following is written on the
+ back wall in soot-resistant chalk:
+  "WEIGHT REDUCER:
+  First is either red, gray, brown, or orange.
+  Second is either green, white, blue, or black.
+  Third is either purple, black, yellow, or brown."
+
+>go north
+
+
+ <span class="floydstyle subheader">Hallway</span>
+ This narrow wood-floored hallway runs north and south. At the northern
+ end of the hall, winding stone steps lead upward.
+
+ A few paces from the steps you see a rug on the floor.
+
+>nwk
+
+ You set the wand to brown-white-black.
+
+>p me
+
+ You suddenly feel much, much lighter.
+
+>go north
+
+
+ <span class="floydstyle subheader">East Tower</span>
+ This round chamber looks like a hobbyist's workshop. It contains a
+ long worktable with several items, as well as an easel holding a
+ painting. The north and east windows are boarded up, but the west
+ window is open. Stone steps wind down to the south.
+
+>examine painting
+
+ It's a head-and-shoulders portrait of a wizard. He looks a lot like
+ the statue back in the Entry Chamber, except he has no mouth.
+
+>rgb
+
+ You set the wand to red-green-blue.
+
+ The pleasant feeling of lightness goes away. You're back to your
+ normal heft.
+
+>p painting
+
+ The painting comes to life and moves as if it's speaking, but you
+ don't hear anything.
+
+>examine easel
+
+ A painting of a wizard sits on the easel.
+
+ The painting continues to move silently for a few moments. Then it
+ stops.
+
+>examine table
+
+ There are several items on the worktable. On the left is an iron cage
+ holding a kimpert. Next to that, a shallow bronze bowl sits on top of
+ a small brazier. Further along the table is what looks like a bronze
+ scale.
+
+ A rock is sitting on the scale.
+
+
+ It's a rock about as big as your fist.
+
+>examine bowl
+
+ The bowl sits on top of a small brazier. It is empty.
+
+>examine kimpert
+
+ The kimpert looks like a large olive-colored hamster. Kimperts have a
+ few well-known characteristics: they are very fast, they have a strong
+ homing instinct, and they love bronze.
+
+ The kimpert looks rather displeased.
+
+>examine window
+
+ Looking out of the west window, you see a similar tower on the
+ opposite side of the castle, with its own window facing you. A banner
+ with a message is hanging beneath that window, but it's too far away
+ to read.
+
+>gwr
+
+ You set the wand to green-white-red.
+
+>p banner
+
+ A large image of the banner appears in your mind. The message reads,
+ "Produce the following sequence on the scale: 5, 3, 1, 3, 2, 0, 2, 5.
+ The buzzer means you must start over. Good luck!"
+
+
+ The scale consists of a bronze tray on top of a box with a gauge. The
+ gauge runs from zero to five. Currently, it's pointing to two.
+
+ A rock is sitting on the scale.
+
+>examine brazier
+
+ The brazier contains some unlit charcoal.
+
+
+ There are several items on the worktable. On the left is an iron cage
+ holding a kimpert. Next to that, a shallow bronze bowl sits on top of
+ a small brazier. Further along the table is what looks like a bronze
+ scale.
+
+ A rock is sitting on the scale.
+
+>examine bowl
+
+ The bowl sits on top of a small brazier. It is empty.
+
+
+ The brazier contains some unlit charcoal.
+
+>examine boards
+
+ You can't see any such thing (or if you can, it's not important).
+
+>examine north window
+
+ Sorry, I didn't understand that.
+
+>look
+
+ <span class="floydstyle subheader">East Tower</span>
+ This round chamber looks like a hobbyist's workshop. It contains a
+ long worktable with several items, as well as an easel holding a
+ painting. The north and east windows are boarded up, but the west
+ window is open. Stone steps wind down to the south.
+
+>oga
+
+ You set the wand to orange-green-gray.
+
+>p kimpert
+
+ The kimpert is bathed in orange sparkles and vanishes.
+
+>wait
+
+ Time passes.
+
+>wait
+
+ Time passes.
+
+ The kimpert comes flying up the steps, races across the room, leaps
+ all the way into the bronze bowl, and instantly relaxes.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p charcoal
+
+ Nothing happens, as far as you can tell.
+
+>abk
+
+ You set the wand to gray-blue-black.
+
+>p charcoal
+
+ The charcoal starts to burn with a soft glow.
+
+ The kimpert squirms and hops from the bowl onto the bronze scale. The
+ scale's pointer moves to five. You hear a ding from the scale.
+
+>examine cage
+
+ The iron cage is closed and empty.
+
+>onp
+
+ You set the wand to orange-brown-purple.
+
+>p rock
+
+ The rock rises into the air above the scale. The scale's pointer moves
+ to three. You hear a ding from the scale.
+
+>nwk
+
+ You set the wand to brown-white-black.
+
+>p kimpert
+
+ The kimpert seems to un-sag slightly, as if someone had pumped a
+ little air into it.
+
+ The scale's pointer moves to one. You hear a ding from the scale.
+
+>wait
+
+ Time passes.
+
+ The rock falls back on the scale. The scale's pointer moves to three.
+ You hear a ding from the scale.
+
+>kgp
+
+ You set the wand to black-green-purple.
+
+>p charcoal
+
+ The glow disappears.
+
+ The kimpert seems to sag a little. The scale's pointer moves to five.
+ The scale buzzes loudly.
+
+ A moment later, you hear a ding from the scale.
+
+>onp
+
+ You set the wand to orange-brown-purple.
+
+>p rock
+
+ The rock rises into the air above the scale. The scale's pointer moves
+ to three. You hear a ding from the scale.
+
+>nwk
+
+ You set the wand to brown-white-black.
+
+>p kimpert
+
+ The kimpert seems to un-sag slightly, as if someone had pumped a
+ little air into it.
+
+ The scale's pointer moves to one. You hear a ding from the scale.
+
+>oga
+
+ You set the wand to orange-green-gray.
+
+ The rock falls back on the scale. The scale's pointer moves to three.
+ You hear a ding from the scale.
+
+>p kimpert
+
+ The kimpert is bathed in orange sparkles and vanishes.
+
+ The scale's pointer moves to two. You hear a ding from the scale.
+
+>examine charcoal
+
+ The brazier contains some unlit charcoal.
+
+>onp
+
+ You set the wand to orange-brown-purple.
+
+ The kimpert comes flying up the steps, races across the room, leaps
+ all the way into the bronze bowl, and instantly relaxes.
+
+>p rock
+
+ The rock rises into the air above the scale. The scale's pointer moves
+ to zero. You hear a ding from the scale.
+
+>wait
+
+ Time passes.
+
+>wait
+
+ Time passes.
+
+>wait
+
+ Time passes.
+
+ The rock falls back on the scale. The scale's pointer moves to two.
+ You hear a ding from the scale.
+
+>abk
+
+ You set the wand to gray-blue-black.
+
+>p charcoal
+
+ The charcoal starts to burn with a soft glow.
+
+ The kimpert squirms and hops from the bowl onto the bronze scale. The
+ scale's pointer moves to five. The scale dings three times.
+
+ A slot in the scale opens up, and a paintbrush shoots out onto the
+ floor.
+
+>examine paintbrush
+
+ The wooden paintbrush is broken nearly in half. The tip seems to be
+ wet with a little bit of shimmering magical paint.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p paintbrush
+
+ The paintbrush flops around weakly on the floor.
+
+>yoo
+
+ You set the wand to yellow-orange-orange.
+
+>p paintbrush
+
+ The paintbrush glows and joins itself back together. It looks as good
+ as new.
+
+>rko
+
+ You set the wand to red-black-orange.
+
+>p brush
+
+ The paintbrush rises from the floor and floats over to the painting.
+ It reviews the painting for a moment, then carefully adds a mouth. It
+ rests itself on the tray of the easel.
+
+>rgb
+
+ You set the wand to red-green-blue.
+
+>p painting
+
+ The painting comes to life. "You've done very well," says the wizard.
+ "Now I'll give you one more tip."
+
+>wait
+
+ Time passes.
+
+ The wizard continues, "The wand can make steel objects disappear.
+ Quite powerful. The setting is black-purple-black." He reverts to
+ lifelessness.
+
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+
+ That's not a command I recognize. (Type HELP for command info.)
+
+>go south
+
+ You descend the steps. As soon as you walk into the hallway, you hear
+ a thunk and the floor shifts under your weight. A trapdoor opens and
+ you tumble down....
+
+ (Please press SPACE to continue.)
+ (Please press SPACE to continue.)
+
+
+
+ <span class="floydstyle subheader">Dungeon</span>
+ You are in a damp dungeon cell. Sunlight comes through a small square
+ opening in the ceiling. There is nothing here except the pile of straw
+ you landed on and the heavy wooden door in the south wall.
+
+>oga
+
+ You set the wand to orange-green-gray.
+
+>p me
+
+ You are immersed in a shower of orange sparkles! You feel a strange
+ sense of displacement....
+
+ <span class="floydstyle subheader">Reception Room</span>
+ This cheery room must have been used for the reception of guests. It
+ is furnished with a sofa, several chairs, an end table, and a tall
+ cabinet. A framed portrait hangs on one wall. To the north is an open
+ door. You can also go south.
+
+ A small dragon is lying on the sofa.
+
+>go south
+
+
+ <span class="floydstyle subheader">Entry Chamber</span>
+ This tall wood-paneled room is mostly empty. In the very center of the
+ room stands a display case, and next to that a stone statue. A wooden
+ door to the north is open. The archway to the south is blocked by a
+ portcullis.
+
+>examine door
+
+ The wooden door is open, and now lies flat against the wall.
+
+>examine panel
+
+ You can't see any such thing (or if you can, it's not important).
+
+>onp
+
+ You set the wand to orange-brown-purple.
+
+>p statue
+
+ The statue slowly rises until it hovers about a foot off the floor.
+
+>examine floor
+
+ You can't see any such thing (or if you can, it's not important).
+
+>examine statue
+
+ It's a granite statue of a robed wizard. He looks about five feet
+ tall, not counting his pointy hat.
+
+>examine portcullis
+
+ It's a heavy steel portcullis, and it's preventing you from leaving.
+
+>kpk
+
+ You set the wand to black-purple-black.
+
+ The statue slowly returns to the floor.
+
+>p portcullis
+
+ The steel portcullis disintegrates into a fine mist that quickly
+ drifts away.
+
+>go south
+
+
+ You leave the castle and head home with your prize, excited about your
+ prospects. You should be able to achieve a lot with this wand.
+
+ The next day, you wake to find that the wand has disappeared! In its
+ place is a small box with a note attached: "I hope you didn't think I
+ would let you keep my wand! You escaped in 523 turns, so here is your
+ prize."
+
+ You open the box and find a small pile of silver coins inside! That
+ certainly justifies the trip!
+
+
+
+     *** You have won a prize! ***
+
+
+
+ Would you like to RESTART the game, or QUIT?
+>restart
+
+
+
+ You have heard the rumors of a strange challenge at the wizard
+ Bartholloco's secluded castle. There's supposed to be a valuable prize
+ at the end. You decided it would be worth a trip to see what you can
+ do.
+
+ The thing is, I'm not sure whether you have been there before. Maybe
+ you have....
+
+ (Please press SPACE to continue.)
+
+
+
+
+ <span class="floydstyle header">The Wand</span>
+ A game by Arthur DiBianca
+ Release 1 / Serial number 170927 / Inform 7 build 6L38 (I6/v6.33 lib
+ 6/12N)
+
+ Special thanks to Tony Faia, Andy Fleming, Lorne Harris, Hall Hood,
+ and Luke Pebler for testing.
+
+
+
+ <span class="floydstyle subheader">Outside Castle</span>
+ You are just outside a small but picturesque castle, on a bluff
+ overlooking the Glittering River. A tall archway leads north into the
+ castle. The road winds down to the south.
+
+ (This game has limited commands. Type HELP for info.)
+
+>go north
+
+
+ <span class="floydstyle subheader">Entry Chamber</span>
+ This tall wood-paneled room is mostly empty. In the very center of the
+ room stands a display case, and next to that a stone statue. A wooden
+ door to the north is closed, and a tall archway leads south.
+
+ (Note: This game is unlosable. Don't be afraid to try things!)
+
+>get wand
+
+ You take the wand from the display case. A moment later, you are
+ startled by a loud rattling. You turn in time to see a steel
+ portcullis slam down inside the archway!
+
+>kpk
+
+ You set the wand to black-purple-black.
+
+>p portcullis
+
+ The steel portcullis disintegrates into a fine mist that quickly
+ drifts away.
+
+>go south
+
+
+ You leave the castle and head home with your prize, excited about your
+ prospects. You should be able to achieve a lot with this wand.
+
+ The next day, you wake to find that the wand has disappeared! In its
+ place is a small box with a note attached: "I hope you didn't think I
+ would let you keep my wand! You escaped in five turns (astonishing),
+ so here is your prize."
+
+ You open the box and find several large diamonds inside! That
+ certainly justifies the trip!
+
+
+
+     *** You have won a prize! ***
+
+
+
+ Would you like to RESTART the game, or QUIT?

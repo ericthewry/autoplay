@@ -1,0 +1,5988 @@
+>load hunterdarkness
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+>about
+ "This game was conceived of and fully outlined in early June of 1999."
+
+ And it was, too. All that discussion of compassless games, and mazes,
+ and whether "Hunt the Wumpus" was really IF, made me giggle. I already
+ had this on the drawing board. I didn't start any of that discussion,
+ either -- although I contributed a few comments that I knew would turn
+ out relevant.
+
+ Hunter, in Darkness came in eighth in the 1999 Interactive Fiction
+ Competition. I might perhaps have done better if I'd included a
+ walkthrough, or hints. Never know now, eh?
+
+ I'm not including hints now, because this is no longer a Competition
+ game. Different strictures apply. You can easily find a walkthrough,
+ or ask for help. However, I will say this:
+
+ No serious mapping is necessary, or even useful, in playing this game.
+ If you think you need to start drawing a map, you're wrong.
+
+ Type "credits" for full accreditation.
+
+ Hunter, in Darkness is copyright 1999 by Andrew Plotkin,
+
+>inventory
+ You are carrying your crossbow (loaded with a bolt), a thighband with
+ four bolts (strapped to your leg), and a brightly-glowing lamplens (on
+ your wrist).
+
+ Something shifts in the darkness ahead, a great silent bulk. Your
+ prey.
+
+>examine prey
+ You can see nothing of it; only a sense of movement, back and forth,
+ in the depths of the cave ahead.
+
+>inventory
+ You are carrying your crossbow (loaded with a bolt), a thighband with
+ four bolts (strapped to your leg), and a brightly-glowing lamplens (on
+ your wrist).
+
+ A faint rustling echoes deep in the side chamber, and the laughing
+ chitter of bats.
+
+>examine me
+ You're tired and covered with mud.
+
+>examine mud
+ You can't see any such thing.
+
+>examine lens
+ A clear glareless light pours from the lamp's curved face.
+
+
+ Branching Cave
+ You glance around again. The cave narrows ahead, a tight crawl winding
+ around folds of limestone. A low passage descends to your right, and
+ there is a side chamber on the left.
+
+ A low passage descends out of sight on the right.
+
+ A high chamber lies to your left. You cannot see its far side, but the
+ rustle of cave bats drifts from the darkness.
+
+>go down
+
+ Edge Of Pit
+ The passage drops off suddenly, ending in a deep pit. The sides are
+ steep but not vertical; you might be able to scramble down, but you
+ make no bets about climbing back up.
+
+>examine pit
+ The pit is edged in veined, knotted flowstone. A stiff climb,
+ considering its steepness, but possible -- in descent.
+
+ You can make out a ledge far below.
+
+>examine ledge
+ The ledge is deep in the pit's darkness. You can see no details.
+
+>examine sides
+ You can't see any such thing.
+
+>inventory
+ You are carrying your crossbow (loaded with a bolt), a thighband with
+ four bolts (strapped to your leg), and a brightly-glowing lamplens (on
+ your wrist).
+
+>examine bow
+ The crossbow is well-designed enough to be simple. Laminated
+ leaf-laths, fiber string, and a cocking lever that runs the full
+ length of the stock.
+
+ The bow is loaded with a bolt.
+
+>examine me
+ You're tired and covered with mud.
+
+>examine band
+ It's a long band of heavy leather, with side straps, woven into a
+ foot-long tube. The four bolts inside are secure yet easily slid out,
+ and the whole is strapped comfortably to your leg.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>jump to ledge
+ You can't see any such thing.
+
+>jump on ledge
+ You can't see any such thing.
+
+>jump ledge
+ The ledge is far out of reach.
+
+>go down
+ You sit at the edge, turn, catch, and hang full-length against the
+ wall. There ought to be a foothold...
+
+ Well, perhaps not. You slam into the ledge and lean into stone, face
+ and belly, trying not to slide any farther.
+
+ Narrow Ledge
+ After a moment you retake your balance, and turn. This ledge is barely
+ two feet wide at most. You try not to feel like it's angled slightly
+ outward. The pit stretches above and below you; but you can see no way
+ to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>examine arc
+ It's a rope. Someone must have been trying to cross the pit. Yes, you
+ can make out the side passages now -- dark patches in the walls above
+ you. The rope seems to be tied to a pillar by one; the other end is
+ wound around an opposite pillar, hooked precariously by something
+ white and curved.
+
+>examine white
+ Long, curved, white -- it's a claw, a broken-off claw of the beast
+ that you seek. The rope is tied to it, and the makeshift grapple is
+ wound precariously around a pillar by the right passage, above you.
+
+>listen
+ Stone-silence. Water drips somewhere.
+
+>sniff
+ The air smells of old mud.
+
+>look down
+ You can make out the pit floor. It's only two or three body-lengths
+ down; but the stone formations directly below you look vicious.
+
+>pull rope
+ Even at the center of its arc, the rope is fifteen feet above you.
+
+>exits on
+ That's not a verb I recognize.
+
+>exits
+ That's not a verb I recognize.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ A rope hangs across the pit, a gentle arc well above your head.
+
+>left
+ Both side passages are well above you, and a fair distance around the
+ pit wall as well.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ A rope hangs across the pit, a gentle arc well above your head.
+
+>think
+ That's your job.
+
+>shoot rope with bolt
+ (the bolt)
+ The crossbow isn't cocked.
+
+>cock bow
+ You pull down the lever, winching the string back until it locks.
+
+>cock bolt
+ (the bolt)
+ Don't be absurd.
+
+>shoot rope with bolt
+ (the bolt)
+ Tunk. Well shot -- the bolt catches the rope neatly in the center,
+ whipping it upward before shearing through. The ends dance like mad
+ snakes, then settle.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ Two ends of a rope hang down the pit walls, above you and to either
+ side of the ledge.
+
+>climb rope
+ You move to the extreme right side of the ledge and stretch, but the
+ cut end of the rope is too far up and out. The left end is no better.
+
+>load bow
+ You need to be holding the bolt before you can put it into something
+ else.
+
+>take bolt
+ You slide a bolt from your thighband.
+
+>load bow
+ You put the bolt into the crossbow.
+
+>cock bow
+ You pull down the lever, winching the string back until it locks.
+
+>shoot rope with bolt
+ (the bolt)
+ Tunk. Your bolt brushes the dangling rope, which dances gently.
+
+>undo
+ Narrow Ledge
+ [Previous turn undone.]
+
+>SAVE
+>cf1
+ Enter saved game to store: Ok.
+
+>shoot fang with bolt
+ (the bolt)
+ Tunk. The bolt rattles among the blades and is lost.
+
+>undo
+ Narrow Ledge
+ [Previous turn undone.]
+
+>jump
+ You back along the ledge, then take a long step and leap...
+
+ The cut end of the rope brushes your fingers, but you have no chance
+ to grab it. You twist, plummet, and are impaled on sharp stone.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Narrow Ledge
+ [Previous turn undone.]
+
+>examine grapple
+ Long, curved, white -- it's a claw, a broken-off claw of the creature
+ that you seek. Half the rope is still tied to it, and the makeshift
+ grapple is wound precariously around a pillar by the right passage,
+ above you.
+
+>shoot grapple with bolt
+ (the bolt)
+ Tunk. Well shot -- the claw is dislodged, whirls furiously around the
+ pillar, and falls free. Its half of the rope snakes down into the
+ darkness.
+
+>climb down rope
+ I only understood you as far as wanting to climb the pit below.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ Half a rope hangs down the pit wall to your left.
+
+>restart
+ Are you sure you want to restart?
+>y
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+>space
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+>space
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+>look
+
+ Branching Cave
+ You glance around again. The cave narrows ahead, a tight crawl winding
+ around folds of limestone. A low passage descends to your right, and
+ there is a side chamber on the left.
+
+ Something shifts in the darkness ahead, a great silent bulk. Your
+ prey.
+
+>go down
+
+ Edge Of Pit
+ The passage drops off suddenly, ending in a deep pit. The sides are
+ steep but not vertical; you might be able to scramble down, but you
+ make no bets about climbing back up.
+
+>go down
+ You sit at the edge, turn, catch, and hang full-length against the
+ wall. There ought to be a foothold...
+
+ Well, perhaps not. You slam into the ledge and lean into stone, face
+ and belly, trying not to slide any farther.
+
+ Narrow Ledge
+ After a moment you retake your balance, and turn. This ledge is barely
+ two feet wide at most. You try not to feel like it's angled slightly
+ outward. The pit stretches above and below you; but you can see no way
+ to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>cock bow
+ You pull down the lever, winching the string back until it locks.
+
+>shoot grapple with bolt
+ (the bolt)
+ Tunk. Well shot -- the claw is dislodged, whirls furiously around the
+ pillar, and falls free. The rope swings down past you and hangs to
+ your left, claw still tied to the end.
+
+>undo
+ Narrow Ledge
+ [Previous turn undone.]
+
+>save
+>cf1
+ Enter saved game to store: Ok.
+
+>climb down rope
+ I only understood you as far as wanting to climb the pit below.
+
+>examine rope
+ It's a rope. Someone must have been trying to cross the pit. Yes, you
+ can make out the side passages now -- dark patches in the walls above
+ you. The rope seems to be tied to a pillar by one; the other end is
+ wound around an opposite pillar, hooked precariously by something
+ white and curved.
+
+>climb rope
+ Even at the center of its arc, the rope is fifteen feet above you.
+
+>shoot grapple with bolt
+ (the bolt)
+ Tunk. Well shot -- the claw is dislodged, whirls furiously around the
+ pillar, and falls free. The rope swings down past you and hangs to
+ your left, claw still tied to the end.
+
+>climb rope
+ You breathe a moment; only one chance at this.
+
+ A step and a leap, and you clutch the rope. It's slicker than you
+ expected; chilly and damp. Perhaps a bit of mold, you think
+ abstractedly, as your hands slip, and catch, and slip again --
+
+ Ouch. You've fetched up against the knot at the bottom of the rope;
+ and the claw is biting into your hand. Razor-edged on the inside. You
+ hope you never run into one of these alive -- ow. You've slipped
+ again, and now both your hands are clamped around the claw, and your
+ full weight is on them.
+
+ Hanging From a Rope
+ You are dangling at the end of the rope, against a sheer stone wall.
+ Directly below you are vicious stone blades, and the claw you hang
+ from is slowly slicing into your palms, and it hurts...
+
+>examine wall
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+ Your fingers slip, and the claw-edge cuts a little deeper.
+
+>undo
+ Hanging From a Rope
+ [Previous turn undone.]
+
+>go up
+ You couldn't even hold in place on the rope, and that was before your
+ hands were cut bloody. Climbing is impossible.
+
+ Your fingers slip, and the claw-edge cuts a little deeper.
+
+>undo
+ Hanging From a Rope
+ [Previous turn undone.]
+
+>swing
+ (yourself)
+ You lurch yourself to the side, kick at the wall, and manage to set
+ yourself swinging. The pain is amazing, but you have a chance at
+ missing the stone blades now.
+
+ Your fingers slip, and the claw-edge cuts a little deeper.
+
+ You swing along the wall, fingers screaming at the extra strain.
+
+>jump
+ You twist back, forth, back, increasing your swing. Now -- you're
+ rising away from the spires, which look sharper than ever -- you let
+ go of the claw, finally, the pain nearly stops -- and you drop --
+
+
+ Bottom of Pit
+ You begin to drag yourself up. Ah -- no, you won't be putting any
+ weight on your hands. They're badly torn up, and bleeding freely.
+
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ A twisted shape lies nearby.
+
+>SAVE
+>cf2
+ Enter saved game to store: Ok.
+
+>examine shape
+ It's human.
+
+ And it's been here a long time. He has, you think... or she, for all
+ you know. There's little left to recall this broken shape to past
+ life. The bones lie crumpled, clad in tatters of chewed black flesh.
+ The clothes have fared somewhat better -- some resistant fiber -- but
+ even they are brittle and rent.
+
+ A bat flutters down from overhead. And another. You wave your arms,
+ but they're keeping their distance.
+
+>get bolt
+ You slide a bolt from your thighband.
+
+ Blood continues to trickle down your fingers.
+
+ More bats gather.
+
+>load bow
+ You put the bolt into the crossbow.
+
+ You are starting to feel quite chill and distant.
+
+>cock bow
+ You pull down the lever, winching the string back until it locks.
+
+ A stream of bats flickers overhead, around, never settling. You wave
+ again. They seem more attracted than frightened by your hand.
+
+>inventory
+ You are carrying your crossbow (loaded and cocked), a thighband with
+ three bolts (strapped to your leg), and a cracked but still glowing
+ lamplens (on your wrist).
+
+>tie clothes to hands
+ You need to be holding the rags before you can put them on top of
+ something else.
+
+ Something moves on the ground nearby. You twist around violently, but
+ it's not approaching you; the bat is crouched over the blood-stained
+ stone where you fell.
+
+>remove cloths
+ You can't see any such thing.
+
+>remove clothes
+ (first taking the rags)
+ The old fiber tears without too much strain. You manage to rip loose
+ some strips from the loose hems, lying clear of the corpse. What
+ remains behind, stained with old decay, you'd just as soon not touch.
+
+ You shake your head to disperse the cold mist, and start to rub your
+ eyes. It doesn't help, except to smear blood all over your face.
+
+>tie clothes to hands
+ (the cloth strips)
+ You quickly bind up your hands with the cloth. It stanches the
+ bleeding, at least. You only hope that you can get to better care
+ before infection sets in.
+
+>look
+
+ Bottom of Pit
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ Bats flutter everywhere, just overhead.
+
+ A twisted corpse lies nearby.
+
+ The bats seem less agitated now.
+
+>examine corpse
+ There's little left to recall this broken shape to past life. The
+ bones lie crumpled, clad in tatters of chewed black flesh and torn
+ rags.
+
+ A bat darts towards your face, and quickly away.
+
+>search it
+ You see no gear or equipment on the corpse.
+
+ You're starting to feel a bit less shaky.
+
+>move corpse
+ You have no desire at all to touch the thing. Man. Person.
+
+>get bone
+ You have no desire at all to touch the thing. Man. Person.
+
+>clean face
+ You can't see any such thing.
+
+>clean blood
+ That hurts. A lot.
+
+>look
+
+ Bottom of Pit
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ Bats flutter everywhere, just overhead.
+
+ A twisted corpse lies nearby.
+
+ You're feeling considerably better.
+
+>examine light
+ A dimming light gleams from the lamp's cracked face.
+
+>SAVE
+>cf3
+ Enter saved game to store: Ok.
+
+>shoot bat
+ Tunk. The aim is tricky; your bolt misses, and ricochets wildly around
+ the pit.
+
+>take all
+ bolt: Taken.
+ bats: The bats whirl away at your approach, staying just out of reach.
+ corpse: You have no desire at all to touch the thing. Man. Person.
+ crossbow: You already have that.
+ bolt: You slide a bolt from your thighband.
+ bolt: You slide a bolt from your thighband.
+ bolt: You slide the last bolt from your thighband.
+
+>restore
+>cf3
+ Enter saved game to load: Ok.
+
+>examine rocks
+ You can't see any such thing.
+
+>examine walls
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+>look
+
+ Bottom of Pit
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ Bats flutter everywhere, just overhead.
+
+ A twisted corpse lies nearby.
+
+>examine pebbles
+ You can't see any such thing.
+
+>crawl
+ That's not a verb I recognize.
+
+>go down
+ You kneel, stiffly, and poke your head into the opening. It's tight,
+ and it looks like it gets tighter ahead. No help for it -- you crawl
+ inside, pushing the crossbow awkwardly ahead of you.
+
+ Tight Crawl
+ You're on your hands and knees in a throat of stone. The roof dips
+ even lower ahead. If you advance, it'll be squirming forwards on your
+ belly. And squirming backwards will be impossible, you think grimly.
+
+>forward
+ You hunch your elbows beneath your chest, and wiggle forward on them,
+ into the gullet.
+
+ Tight Crawl
+ You stop, after a long silent time, to rest. Crawling is hard work,
+ you know well, and your aching shoulders and scraped knees attest to
+ it. But the crawl is no different here than anywhere. You have just
+ enough room to raise your head, and there's nothing to see ahead but
+ more stone to crawl through.
+
+>again
+ You begin determinedly working yourself forward, again.
+
+ Tight Crawl
+ The rock is lower above you. And narrower; you're lying full length
+ now, your arms stretched out ahead, but still rough stone scrapes your
+ shoulders. And you seem to be angling a bit downwards.
+
+ Icy water is trickling past you.
+
+ Your lamp flickers erratically. The moisture must be getting to its
+ workings.
+
+>drink water
+ You manage to lip a few drops from the stone. The water is muddy and
+ harsh.
+
+>foreward
+ That's not a verb I recognize.
+
+>forward
+ You continue. Scrabble with fingers, brace arms, push with toes. Shove
+ the crossbow a bit farther ahead. You're definitely tilted head-down
+ now. Is the stone pressing more tightly to either side of you?
+
+ Tight Crawl
+ You lie on your side, gasping, trying to recover some strength. Your
+ back is sore; your neck is worse. Your head aches from cracking into
+ unexpected stone. A cold stony knot presses into your left side, your
+ right knee.
+
+ You stretch forward once more, feeling for a few more inches before
+ you continue.
+
+ Splash.
+
+ Your fingers are submerged in water.
+
+>drink water
+ You manage to lip a few drops from the stone. The water is muddy and
+ harsh.
+
+>feel water
+ It's cold.
+
+>search water
+ There's either a shallow puddle in the passage ahead... or more than
+ that. From where you lie, there is no way to tell.
+
+>examine knot
+ You can't see any such thing.
+
+>examine stone
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+>forward
+ You stretch your hands forward, submerging them. Hunch, stretch.
+ Inchworm... inchworm...
+
+ Your arms are submerged, and water ripples at your chin. No room to
+ lift your head. You turn your face to the side, cheek scraping against
+ the damn everpresent stone, and stretch again.
+
+ Your lamp flickers once and goes out.
+
+ Tight Crawl
+ You are lying in cold still water. It licks at your cheek and arms,
+ and across the backs of your thighs. The chill makes your bruised
+ knees and chest hurt all the more; your neck screams from craning high
+ enough to breathe, but there is no room to sit up. No room to turn. No
+ room.
+
+>forward
+ You struggle on. You hope the water grows no deeper. That thought
+ occupies you for a few more hunches, a few more stretches. Grow no
+ deeper. If the water grows deeper... Grow no deeper. You shake that
+ away, and nothing comes to replace it.
+
+ You crawl on in the dark. The water grows no deeper.
+
+ Maybe it's not as deep now?
+
+ Tight Crawl
+ Water trickles over your hands, but the floor must have risen; there
+ is less of it... a note of hope. But you cannot see.
+
+>again
+ You thrust your shoulders forward. They stick.
+
+>again
+ You push again. It's just this spot; your hands are free in a wider
+ area ahead. But immovable stone grates against your chest and
+ shoulders.
+
+>again
+ You've got one shoulder past the edge. The other is behind a corner of
+ stone, and you can't imagine how it's going to get through.
+
+>again
+ You brace your legs as best you can, and shove futilely against the
+ trap.
+
+>again
+ You brace your legs as best you can, and shove futilely against the
+ trap.
+
+ You are never going to leave this place.
+
+>look
+
+ Tight Crawl
+ Water trickles over your hands, but the floor must have risen; there
+ is less of it. But the roof lowers, and the crawl has become almost
+ impossibly tight. And you cannot see.
+
+ The stone is not going to let you go.
+
+>push stone
+ You are unable to.
+
+ You are never going to leave this place.
+
+>back
+ You try to shove yourself back, but you cannot move.
+
+ It is dark.
+
+>examine stone
+ You can make out almost nothing in this dark.
+
+ It is dark.
+
+>sing
+ Your singing is abominable.
+
+ It is dark.
+
+>dislodge stone
+ That's not a verb I recognize.
+
+>pull stone
+ You are unable to.
+
+ It is dark.
+
+>force stone
+ That's not a verb I recognize.
+
+>hit stone
+ There are better targets.
+
+ It is dark.
+
+>inventory
+ You are carrying some cloth strips (tied around your wounded hands),
+ your crossbow (loaded and cocked), a thighband with three bolts
+ (strapped to your leg), and a cracked and darkened lamplens (on your
+ wrist).
+
+ It is dark.
+
+>move stone
+ You are unable to.
+
+ It is dark.
+
+>untie cloth
+ You're an unknown distance into the most exhausting tunnel-crawl you
+ can remember, and you want to start losing more blood?
+
+ It is dark.
+
+>restore
+>cf3
+ Enter saved game to load: Ok.
+
+>look
+
+ Bottom of Pit
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ Bats flutter everywhere, just overhead.
+
+ A twisted corpse lies nearby.
+
+>examine rope
+ You can't see any such thing.
+
+>restore
+>cf1
+ Enter saved game to load: Ok.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>shhot grapple
+ That's not a verb I recognize.
+
+>shoot grapple
+ Tunk. Well shot -- the claw is dislodged, whirls furiously around the
+ pillar, and falls free. The rope swings down past you and hangs to
+ your left, claw still tied to the end.
+
+>examine rope
+ The upper end of the rope is tied to a pillar by the left side
+ passage. The lower end, tied to the claw, dangles free. It hangs at
+ about waist-level, just beyond the left side of the ledge.
+
+>pull rope
+ The rope hangs a bit too far beyond the ledge. It would be an easy
+ jump, but you can't simply grab it.
+
+>jump
+ You breathe a moment; only one chance at this.
+
+ A step and a leap, and you clutch the rope. It's slicker than you
+ expected; chilly and damp. Perhaps a bit of mold, you think
+ abstractedly, as your hands slip, and catch, and slip again --
+
+ Ouch. You've fetched up against the knot at the bottom of the rope;
+ and the claw is biting into your hand. Razor-edged on the inside. You
+ hope you never run into one of these alive -- ow. You've slipped
+ again, and now both your hands are clamped around the claw, and your
+ full weight is on them.
+
+ Hanging From a Rope
+ You are dangling at the end of the rope, against a sheer stone wall.
+ Directly below you are vicious stone blades, and the claw you hang
+ from is slowly slicing into your palms, and it hurts...
+
+>examine rope
+ It's an old rope. Somewhere above, it's tied to a stone pillar. At
+ your end, it's tied to a razor-like claw, and that's the end that's
+ got your attention.
+
+ Your fingers slip, and the claw-edge cuts a little deeper.
+
+>undo
+ Hanging From a Rope
+ [Previous turn undone.]
+
+>get mold
+ You can't see any such thing.
+
+ I beg your pardon?
+
+ I beg your pardon?
+
+>restart
+ Are you sure you want to restart?
+>yes
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+>look
+
+ Branching Cave
+ You glance around again. The cave narrows ahead, a tight crawl winding
+ around folds of limestone. A low passage descends to your right, and
+ there is a side chamber on the left.
+
+ Something shifts in the darkness ahead, a great silent bulk. Your
+ prey.
+
+>left
+ You advance into the chamber. A bat flutters in your face. You swipe
+ it away... and three more bats replace it. You duck, swearing;
+ swearing again at a sharp nip on your arm. Drew blood, it did.
+
+ There is a rustling all around you. You try to remember what you know
+ about the habits of cave bats --
+
+ Oh.
+
+ You scramble back, covering your eyes; too late. The swarm is on you,
+ harrying you, small teeth and shrieks like shards of glass. You cannot
+ see. You are running, stumbling ahead of the storm, and as you recall
+ what else you know of the hunting of bats, the floor drops away to
+ nothing beneath you --
+
+>press enter
+
+ Bottom of Pit
+ You roll painfully to hands and knees. Ah -- your arm nearly gives way
+ -- you realize you somehow tore hell out of it on the way down, or
+ landing. It's bleeding freely.
+
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ A twisted shape lies nearby.
+
+>restart
+ Are you sure you want to restart?
+>yes
+>press enter
+>press enter
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+>in
+ You can't go that way.
+
+ Something shifts in the darkness ahead, a great silent bulk. Your
+ prey.
+
+>look
+
+ Branching Cave
+ You glance around again. The cave narrows ahead, a tight crawl winding
+ around folds of limestone. A low passage descends to your right, and
+ there is a side chamber on the left.
+
+>forward
+ You creep up the passage, as stealthily as you can. It must be
+ retreating ahead, for you see only empty stone, though the smell grows
+ harsher...
+
+ And the eyes of the beast are on you, and claws come out of the night.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>restart
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+>space
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+>space
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+>cock bow
+ You pull down the lever, winching the string back until it locks.
+
+ Something shifts in the darkness ahead, a great silent bulk. Your
+ prey.
+
+>left
+ You advance into the chamber. A bat flutters in your face. You swipe
+ it away... and three more bats replace it. You duck, swearing;
+ swearing again at a sharp nip on your arm. Drew blood, it did.
+
+ There is a rustling all around you. You try to remember what you know
+ about the habits of cave bats --
+
+ Oh.
+
+ You scramble back, covering your eyes; too late. The swarm is on you,
+ harrying you, small teeth and shrieks like shards of glass. You cannot
+ see. You are running, stumbling ahead of the storm, and as you recall
+ what else you know of the hunting of bats, the floor drops away to
+ nothing beneath you --
+
+>cock bow
+
+ Bottom of Pit
+ You roll painfully to hands and knees. Ah -- your arm nearly gives way
+ -- you realize you somehow tore hell out of it on the way down, or
+ landing. It's bleeding freely.
+
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ A twisted shape lies nearby.
+
+>examine me
+ Your arm is pretty torn up. Also, you're tired and covered with mud.
+
+ A bat flutters down from overhead. And another. You wave your arms,
+ but they're keeping their distance.
+
+>get clothes
+ The old fiber tears without too much strain. You manage to rip loose
+ some strips from the loose hems, lying clear of the corpse. What
+ remains behind, stained with old decay, you'd just as soon not touch.
+
+ Blood continues to trickle down your fingers.
+
+ More bats gather.
+
+>tie arm with clothes
+ I didn't understand that sentence.
+
+>wrap arm with clothes
+ (the cloth strips)
+ You quickly bind up your arm with the cloth. It stanches the bleeding,
+ at least. You only hope that you can get to better care before
+ infection sets in.
+
+>look
+
+ Bottom of Pit
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ Several bats flutter overhead.
+
+ A twisted corpse lies nearby.
+
+ The bats seem less agitated now.
+
+ A stream of bats flickers overhead, around, never settling. You wave
+ again. They seem more attracted than frightened by your hand.
+
+>examine blades
+ Water dripping down has left runnels across the floor, that rise by
+ some fluke into sharp spires by the edge of the pit. They rise like
+ the teeth of sharks; no doubt you slashed your arm on one as you fell.
+
+>kick blades
+ That's not a verb I recognize.
+
+>brake blades
+ That's not a verb I recognize.
+
+>hit blades
+ The stone isn't thin enough to break.
+
+ You're starting to feel a bit less shaky.
+
+ Something moves on the ground nearby. You twist around violently, but
+ it's not approaching you; the bat is crouched over the blood-stained
+ stone where you fell.
+
+>shoot bat
+ Tunk. The aim is tricky; your bolt misses, and ricochets wildly around
+ the pit.
+
+>undo
+ Bottom of Pit
+ [Previous turn undone.]
+
+>aim at bat
+ That's not a verb I recognize.
+
+>get bat
+ The bats whirl away at your approach, staying just out of reach.
+
+>undo
+ Bottom of Pit
+ [Previous turn undone.]
+
+>inventory
+ You are carrying some cloth strips (tied around your wounded arm),
+ your crossbow (loaded and cocked), a thighband with four bolts
+ (strapped to your leg), and a cracked but still glowing lamplens (on
+ your wrist).
+
+>untie band
+ You unstrap the thighband.
+
+>examine band
+ It's a long band of heavy leather, with side straps, woven into a
+ foot-long tube. The four bolts inside are secure yet easily slid out,
+ and the whole can be strapped comfortably to your leg.
+
+>SAVE
+>cf4
+ Enter saved game to store: Ok.
+
+>look
+
+ Bottom of Pit
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ Bats flutter everywhere, just overhead.
+
+ A twisted corpse lies nearby.
+
+ You're feeling considerably better.
+
+ A bat darts towards your face, and quickly away.
+
+>go down
+ You kneel, stiffly, and poke your head into the opening. It's tight,
+ and it looks like it gets tighter ahead. No help for it -- you crawl
+ inside, pushing the crossbow awkwardly ahead of you.
+
+ Tight Crawl
+ You're on your hands and knees in a throat of stone. The roof dips
+ even lower ahead. If you advance, it'll be squirming forwards on your
+ belly. And squirming backwards will be impossible, you think grimly.
+
+>go down
+ You can see no way through in that direction.
+
+>forward
+ You hunch your elbows beneath your chest, and wiggle forward on them,
+ into the gullet.
+
+ Tight Crawl
+ You stop, after a long silent time, to rest. Crawling is hard work,
+ you know well, and your aching shoulders and scraped knees attest to
+ it. But the crawl is no different here than anywhere. You have just
+ enough room to raise your head, and there's nothing to see ahead but
+ more stone to crawl through.
+
+>again
+ You begin determinedly working yourself forward, again.
+
+ Tight Crawl
+ The rock is lower above you. And narrower; you're lying full length
+ now, your arms stretched out ahead, but still rough stone scrapes your
+ shoulders. And you seem to be angling a bit downwards.
+
+ Icy water is trickling past you.
+
+ Your lamp flickers erratically. The moisture must be getting to its
+ workings.
+
+>again
+ You continue. Scrabble with fingers, brace arms, push with toes. Shove
+ the crossbow a bit farther ahead. You're definitely tilted head-down
+ now. Is the stone pressing more tightly to either side of you?
+
+ Tight Crawl
+ You lie on your side, gasping, trying to recover some strength. Your
+ back is sore; your neck is worse. Your head aches from cracking into
+ unexpected stone. A cold stony knot presses into your left side, your
+ right knee.
+
+ You stretch forward once more, feeling for a few more inches before
+ you continue.
+
+ Splash.
+
+ Your fingers are submerged in water.
+
+>again
+ You stretch your hands forward, submerging them. Hunch, stretch.
+ Inchworm... inchworm...
+
+ Your arms are submerged, and water ripples at your chin. No room to
+ lift your head. You turn your face to the side, cheek scraping against
+ the damn everpresent stone, and stretch again.
+
+ Your lamp flickers once and goes out.
+
+ Tight Crawl
+ You are lying in cold still water. It licks at your cheek and arms,
+ and across the backs of your thighs. The chill makes your bruised
+ knees and chest hurt all the more; your neck screams from craning high
+ enough to breathe, but there is no room to sit up. No room to turn. No
+ room.
+
+>again
+ You struggle on. You hope the water grows no deeper. That thought
+ occupies you for a few more hunches, a few more stretches. Grow no
+ deeper. If the water grows deeper... Grow no deeper. You shake that
+ away, and nothing comes to replace it.
+
+ You crawl on in the dark. The water grows no deeper.
+
+ Maybe it's not as deep now?
+
+ Tight Crawl
+ Water trickles over your hands, but the floor must have risen; there
+ is less of it... a note of hope. But you cannot see.
+
+>again
+ You thrust your shoulders forward. They stick.
+
+>SAVE
+>cf5
+ Enter saved game to store: Ok.
+
+>backwards
+ You shove yourself a few inches back, trying to adjust your position.
+
+>forward
+ You thrust your shoulders forward. They stick.
+
+>inventory
+ You are carrying some cloth strips (tied around your wounded arm),
+ your crossbow (loaded and cocked), a thighband with four bolts, and a
+ cracked and darkened lamplens (on your wrist).
+
+>open lamplens
+ That's not something you can open.
+
+>remove lamplens
+ You slip the lamplens from your wrist.
+
+>forward
+ You push again. It's just this spot; your hands are free in a wider
+ area ahead. But immovable stone grates against your chest and
+ shoulders.
+
+>undo
+ Tight Crawl
+ [Previous turn undone.]
+
+>examine stone
+ You can make out almost nothing in this dark.
+
+>search stone
+ You can make out almost nothing in this dark.
+
+>fell walls
+ That's not a verb I recognize.
+
+>feel walls
+ Cool damp stone.
+
+>listen
+ There is no sound here but your labored breath.
+
+>smell
+ You have no breathing space.
+
+>feel stone
+ Cool damp stone.
+
+>remove all
+ crossbow: You already have that.
+ thighband: You already have that.
+ lamplens: You already have that.
+ bolt: You extract the bolt from the cocked crossbow.
+ bolt: You can't reach back to your leg with that much dexterity.
+ bolt: You can't reach back to your leg with that much dexterity.
+ bolt: You can't reach back to your leg with that much dexterity.
+ bolt: You can't reach back to your leg with that much dexterity.
+
+>drop all
+ bolt: Dropped.
+ crossbow: You're not really holding the bulky thing anyway; you're
+ pushing it down the tunnel ahead of you. You couldn't crawl past it if
+ you tried.
+ thighband: Dropped.
+ lamplens: Dropped.
+
+>forward
+ You push again. It's just this spot; your hands are free in a wider
+ area ahead. But immovable stone grates against your chest and
+ shoulders.
+
+>again
+ You've got one shoulder past the edge. The other is behind a corner of
+ stone, and you can't imagine how it's going to get through.
+
+>again
+ You brace your legs as best you can, and shove futilely against the
+ trap.
+
+>again
+ You brace your legs as best you can, and shove futilely against the
+ trap.
+
+ You are never going to leave this place.
+
+>back
+ You try to shove yourself back, but you cannot move.
+
+ The stone is not going to let you go.
+
+>forward
+ You brace your legs as best you can, and shove...
+
+ It feels like scraping flesh from bone, but your shoulder tears past
+ the edge. You lie and gasp for a moment, and then work your torso
+ painfully through the gap.
+
+ The passage slants sharply down now, but it's widening. It's widening.
+ You half-crawl, half-slide downward, dragging your legs out of the
+ gap, and come to rest in what seems like blinding light --
+>restore
+
+ Smallish Cave
+ Eventually, you manage to sit up and look around.
+
+ You are in a smallish roundish cave. Gravel and small rock chips cover
+ the ground. Water trickles audibly, somewhere nearby. A path runs
+ right, a steep crack heads left, and a pit climbs up.
+
+>cf5
+ That's not a verb I recognize.
+
+>restore
+>cf5
+ Enter saved game to load: Ok.
+
+>inventory
+ You are carrying some cloth strips (tied around your wounded arm),
+ your crossbow (loaded and cocked), a thighband with four bolts, and a
+ cracked and darkened lamplens (on your wrist).
+
+>look
+
+ Tight Crawl
+ Water trickles over your hands, but the floor must have risen; there
+ is less of it. But the roof lowers, and the crawl has become almost
+ impossibly tight. And you cannot see.
+
+>forward
+ You push again. It's just this spot; your hands are free in a wider
+ area ahead. But immovable stone grates against your chest and
+ shoulders.
+
+>again
+ You've got one shoulder past the edge. The other is behind a corner of
+ stone, and you can't imagine how it's going to get through.
+
+>again
+ You brace your legs as best you can, and shove futilely against the
+ trap.
+
+>backward
+ You hunch back from the edge, twist, and manage to get your other
+ shoulder through instead. At least it's a change.
+
+ You are never going to leave this place.
+
+>forward
+ You brace your legs as best you can, and shove...
+
+ It feels like scraping flesh from bone, but your shoulder tears past
+ the edge. You lie and gasp for a moment, and then work your torso
+ painfully through the gap.
+
+ The passage slants sharply down now, but it's widening. It's widening.
+ You half-crawl, half-slide downward, dragging your legs out of the
+ gap, and come to rest in what seems like blinding light --
+
+ Smallish Cave
+ Eventually, you manage to sit up and look around.
+
+ You are in a smallish roundish cave. Gravel and small rock chips cover
+ the ground. Water trickles audibly, somewhere nearby. A path runs
+ right, a steep crack heads left, and a pit climbs up.
+
+>SAVE
+>cf6
+ Enter saved game to store: Ok.
+
+>inventory
+ You are carrying some cloth strips (tied around your wounded arm),
+ your crossbow (loaded and cocked), a thighband with four bolts, and a
+ cracked and darkened lamplens (on your wrist).
+
+>examine me
+ Your arm is pretty torn up. Also, you're tired and covered with mud.
+
+ You catch a distant whiff of something.
+
+>smell
+ The faintest trace of the animal hangs in the air. It seems stronger
+ near the steep crack to the left.
+
+>left
+
+ Largish Dome
+ This is a largish dome. Needles of yellow calcite spray from the rocks
+ nearby. A steep crawl leads down, a twisting tunnel leads forward, and
+ a low tunnel goes left.
+
+>smell
+ The air smells of old mud.
+
+>s floor
+ I only understood you as far as wanting to move.
+
+>examine floor
+ The floor is irregular, water-worn.
+
+ You catch a distant whiff of something.
+
+>smell
+ The faintest trace of the beast hangs in the air. It seems stronger
+ near the twisting tunnel ahead.
+
+>forward
+
+ Roundish Room
+ This is a roundish room. Stalagmites cluster thickly around you. You
+ can hear water rushing in the distance. A narrow passage heads left, a
+ twisty tunnel runs right, and a twisting path climbs up.
+
+>wave
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+>wait
+ Time passes.
+
+ You catch a distant whiff of something, drifting from the narrow
+ passage to the left.
+
+ You shake your head, side to side, trying to push off the weight of
+ weariness for another few minutes. Keep moving.
+
+>left
+
+ Smallish Cavern
+ You are in a smallish roundish cavern. Stalactites form heavy stone
+ fringes across the ceiling. A wide path leads down, a low crack goes
+ right, and a rough crawl leads up.
+
+>wait
+ Time passes.
+
+ You catch a whiff of something rank from the low crack to the right.
+
+>right
+
+ Large Dome
+ You are in a large, elongated dome. Stalagmites cluster thickly around
+ you. You can hear water rushing in the distance. A passage heads left,
+ a twisting tunnel descends, and a wide passage leads ahead.
+
+>wait
+ Time passes.
+
+ You catch a whiff of something rank from the passage to the left.
+
+>left
+
+ Cramped Room
+ This is a cramped round room, with a high roof. Ropy pillars rise from
+ floor to roof, and a small still pool lies to one side. Gravel and
+ chipped rock cover the ground. A rough tunnel goes right, a narrow pit
+ ascends, and a pit leads down.
+
+ The scent of the creature hangs all around you. It's welling from the
+ pit leading down.
+
+>go down
+ The pit opens abruptly into vast space.
+
+ Top of Slope
+ You emerge onto a steep slope, high above a canyon that stretches out
+ of sight to either side. Twisted and stalactite-hung stone forms a
+ vault overhead, which glimmers with reflections of some unseen source
+ of light; but the canyon below is shadowed. Water rushes somewhere at
+ its root. You could climb farther down, and a narrow crevice leads
+ back into the rock.
+
+ Movement, on a level area on the far side of the canyon, partway down.
+ Something gliding silently back and forth, back and forth. Your prey.
+ Waiting.
+
+>SAVE
+>cf7
+ Enter saved game to store: Ok.
+
+>examine shadow
+ You can't see any such thing.
+
+>examine prey
+ The creature does not look small, even from up here, even
+ half-unformed by canyon shadows. It prowls across a wide ledge across
+ the canyon and below your level. You do not think it knows you are
+ here.
+
+ Your foot slips. For a moment your fatigue flares into panic, as you
+ clutch to steady yourself, but you know you are tired, tired. This
+ must end soon. Too much blood. Too much stone.
+
+>shoot prey
+ Tunk. And you flinch at the hissing shriek that echoes up the cave
+ walls.
+
+ The dark shape flees -- not climbing, but running down the canyon
+ slope, vanishing in the depths. Your thudding pulse slows.
+
+ Moments later, barely sensed, the scent of blood. You have wounded the
+ Wumpus.
+
+>look
+
+ Top of Slope
+ You have emerged onto a steep slope, high above a canyon that
+ stretches out of sight to either side. Twisted and stalactite-hung
+ stone forms a vault overhead, which glimmers with reflections of some
+ unseen source of light; but the canyon below is shadowed. Water rushes
+ somewhere at its root. You could climb farther down, and a narrow
+ crevice leads back into the rock.
+
+>SAVE
+>cf8
+ Enter saved game to store: Ok.
+
+>restore
+>cf7
+ Enter saved game to load: Ok.
+
+>jump on prey
+ You can't see any such thing.
+
+>jump
+ Jumping here would be fruitless.
+
+ Your foot slips. For a moment your fatigue flares into panic, as you
+ clutch to steady yourself, but you know you are tired, tired. This
+ must end soon. Too much blood. Too much stone.
+
+>examine prey
+ The creature does not look small, even from up here, even
+ half-unformed by canyon shadows. It prowls across a wide ledge across
+ the canyon and below your level. You do not think it knows you are
+ here.
+
+>jump to prey
+ You can't see any such thing.
+
+>shoot prey
+ Tunk. And you flinch at the hissing shriek that echoes up the cave
+ walls.
+
+ The dark shape flees -- not climbing, but running down the canyon
+ slope, vanishing in the depths. Your thudding pulse slows.
+
+ Moments later, barely sensed, the scent of blood. You have wounded the
+ Wumpus.
+
+>look
+
+ Top of Slope
+ You have emerged onto a steep slope, high above a canyon that
+ stretches out of sight to either side. Twisted and stalactite-hung
+ stone forms a vault overhead, which glimmers with reflections of some
+ unseen source of light; but the canyon below is shadowed. Water rushes
+ somewhere at its root. You could climb farther down, and a narrow
+ crevice leads back into the rock.
+
+>go down
+ You turn, test your balance, and begin edging down the slope. And your
+ foot slips. Again.
+
+ You fling your arms out, heedless of your possessions. You grasp at
+ nothing.
+
+ Much too tired for this, you think, as you skid wildly down the
+ canyon. A danger to yourself and everyone around you. And below, you
+ add with distant amusement, before the bottom arrives with a horrible
+ jolt.
+
+>get bolt
+
+ Base of Canyon
+ You must be getting better at this. You're only freshly bruised. Lying
+ still, even on cold stone, is painfully easy... but after a few
+ minutes, you find yourself struggling to stand.
+
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. You think, against your will, that it was worth
+ it.
+
+ A crevice runs along the canyon at your feet. You can cross it and
+ continue on ahead.
+
+ The Wumpus certainly fled this way: a pool of thick, dark, reeking
+ blood is spilled across the ground. Bats crawl all around it --
+ rustling, fluttering, feasting.
+
+>get bolt
+ You slide a bolt from your thighband.
+
+>load bow
+ You can't see any such thing.
+
+>load bolt
+ (the bolt)
+ I'm not sure what you want to load that into.
+
+>inventory
+ You are carrying a bolt, some cloth strips (tied around your wounded
+ arm), a thighband with three bolts, and a cracked and darkened
+ lamplens (on your wrist).
+
+ ...And no crossbow. Right. You lost hold of it in the fall.
+
+>search floor
+ You find nothing of interest.
+
+ The bats jostle each other around the pool.
+
+>look
+
+ Base of Canyon
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. A crevice runs along the canyon at your feet. You
+ can cross it and continue on ahead.
+
+ A pool of thick, dark, reeking blood is spilled across the ground.
+ Bats crawl all around it -- rustling, fluttering, feasting.
+
+>inventory
+ You are carrying a bolt, some cloth strips (tied around your wounded
+ arm), a thighband with three bolts, and a cracked and darkened
+ lamplens (on your wrist).
+
+>SAVE
+>cf9
+ Enter saved game to store: Ok.
+
+>examine blood
+ Which do you mean, your bloody wound or the pool of blood?
+
+>examine pool of blood
+ The pool is clotted and dark, nearly black in this dim light. It is
+ bitter and foul; it already smells of decay. And bats squat all around
+ it.
+
+>smell
+ A violent bitter reek fills the air, overlying even the animal stink
+ of the Wumpus's presence. The blood is cooling, but not yet dry.
+
+>forward
+ You heave yourself wearily over the crevice, and approach the twisted
+ formations that make up the far canyon wall...
+
+ And you round a pillar, and stop there. Here? Now?
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them; but you don't think you can get to it right now.
+
+ The Wumpus is crouched before you. Blood trickles from the wound your
+ bolt tore, down its hide, puddling on the floor.
+
+ It holds your crossbow in its claws; gently cradled; loaded and
+ cocked; steady on your throat.
+
+>SAVE
+>cf10
+ Enter saved game to store: Ok.
+
+>duck
+ That's not a verb I recognize.
+
+>jump
+ Jumping here would be fruitless.
+
+>forward
+ You take a tentative step towards the creature. And stop. The crossbow
+ hasn't moved a fraction, but you see a claw moving restlessly on the
+ trigger...
+
+>back
+ You back up, trying not to take your eyes from its eyes. It works, or
+ the Wumpus decides to allow it.
+
+ Base of Canyon
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. A crevice runs along the canyon at your feet. You
+ can cross it and continue on ahead.
+
+ A pool of thick, dark, reeking blood is spilled across the ground.
+ Bats crawl all around it -- rustling, fluttering, feasting.
+
+>restore
+>cf10
+ Enter saved game to load: Ok.
+
+>attack wumpus
+ You take a tentative step towards the creature. And stop. The crossbow
+ hasn't moved a fraction, but you see a claw moving restlessly on the
+ trigger...
+
+>again
+ The Wumpus does not hesitate. Tunk.
+
+ So this is what it's like.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>restore cf10
+>cf10
+ Enter saved game to load: Ok.
+
+>back
+ You back up, trying not to take your eyes from its eyes. It works, or
+ the Wumpus decides to allow it.
+
+ Base of Canyon
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. A crevice runs along the canyon at your feet. You
+ can cross it and continue on ahead.
+
+ A pool of thick, dark, reeking blood is spilled across the ground.
+ Bats crawl all around it -- rustling, fluttering, feasting.
+
+>inventory
+ You are carrying a bolt, some cloth strips (tied around your wounded
+ arm), a thighband with three bolts, and a cracked and darkened
+ lamplens (on your wrist).
+
+>examine crevice
+ A canyon in the canyon. It is only a couple of feet wide, though it
+ seems to widen beneath. At the bottom, perhaps six feet below, water
+ rushes. It is only a remnant of the river that carved this place; but
+ it boils the more furiously for being confined.
+
+ Another bats flutters down from above, and pushes into the mass.
+
+>inventory
+ You are carrying a bolt, some cloth strips (tied around your wounded
+ arm), a thighband with three bolts, and a cracked and darkened
+ lamplens (on your wrist).
+
+>remove cloth
+ You carefully unwrap the cloth from your arm. The worst of the
+ bleeding has stopped, although there is still a fierce ache and a slow
+ trickle of blood.
+
+>wave
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+ A bat suddenly pokes its stained nose up above the pool, casting
+ about.
+
+>show blood to bats
+ Which do you mean, your bloody wound or the pool of blood?
+
+>show wounds to bats
+ You can only do that to something animate.
+
+>wave
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+ The bats jostle each other around the pool.
+
+>again
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+ Two of the bats rattle up and begin circling above you.
+
+>again
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+>again
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+ Several of the bats are fluttering in the air around you, ignoring the
+ drying pool of blood nearby.
+
+>again
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+>again
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+ In a rush, together and by no visible signal, the bats are airborne.
+ The chittering cloud rises -- and then falls towards you.
+
+ You scramble back, covering your eyes; too late. The swarm is on you,
+ harrying you, small teeth and shrieks like shards of glass. You cannot
+ see. You stumble away from the storm, and the stone falls away into
+ rushing water beneath you.
+
+ No doubt the bats find your body eventually.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Base of Canyon
+ [Previous turn undone.]
+
+>forward
+ A cluster of bats flickers after you, chittering. You hunch your
+ shoulders and try to ignore them.
+
+ You heave yourself wearily over the crevice, and approach the twisted
+ formations that make up the far canyon wall.
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them; but you don't think you can get to it right now.
+
+ The Wumpus is crouched before you. Blood trickles from the wound your
+ bolt tore, down its hide, puddling on the floor. It holds your
+ crossbow in its claws; gently cradled; loaded and cocked; steady on
+ your throat.
+
+ The bats dive forward, then rise, emitting glass-shrill cries.
+
+>SAVE
+>cf11
+ Enter saved game to store: Ok.
+
+>wait
+ Time passes.
+
+ More bats are arriving, streaming across the canyon.
+
+>examine wumpus
+ Later, all you will be able to remember are its eyes. They are rich
+ mud-brown, and they hold your own without effort.
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+>wait
+ Time passes.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+>wait
+ Time passes.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>wait
+ Time passes.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>wait
+ Time passes.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>get bow
+ You begin moving towards the creature. It might be distracted
+ enough...
+
+ Perhaps not. The Wumpus lashes out with long claws, and deals a
+ crushing blow.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>look
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them, beyond the writhing Wumpus.
+
+ The Wumpus is crouched before you. It sways forward and back, trying
+ to escape the assault, and the crossbow wavers.
+
+ Bats rush overhead in a vast wheeling cloud.
+
+ The Wumpus turns towards you, shielding its face from the bats. There
+ is understanding somewhere in there, what you have done to it and why
+ -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>back
+ You back up. The Wumpus doesn't seem to notice your retreat.
+
+ Base of Canyon
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. A crevice runs along the canyon at your feet. You
+ can cross it and continue on ahead.
+
+ A pool of thick, dark, reeking blood is spilled across the ground.
+
+ Swarms of bats are swirling in from everywhere. A few circle the pool,
+ but most disappear off across the canyon.
+
+ There is a roar, and something huge looms over you. The dark eyes of
+ the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ The Wumpus lunges towards you, heedless now of what the bats might do;
+ it only wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>attack wumpus
+ You begin moving towards the creature. It might be distracted
+ enough...
+
+ Perhaps not. The Wumpus lashes out with long claws, and deals a
+ crushing blow.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>shout
+ (to the Wumpus)
+ You begin moving towards the creature. It might be distracted
+ enough...
+
+ Perhaps not. The Wumpus lashes out with long claws, and deals a
+ crushing blow.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>restore cf11
+ I only understood you as far as wanting to restore.
+
+>restore
+>cf11
+ Enter saved game to load: Ok.
+
+>look
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them; but you don't think you can get to it right now.
+
+ The Wumpus is crouched before you. Blood trickles from the wound your
+ bolt tore, down its hide, puddling on the floor. It holds your
+ crossbow in its claws; gently cradled; loaded and cocked; steady on
+ your throat.
+
+ Bats circle warily overhead.
+
+ More bats are arriving, streaming across the canyon.
+
+>back
+ You back up, trying not to take your eyes from its eyes. It works, or
+ the Wumpus decides to allow it.
+
+ Base of Canyon
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. A crevice runs along the canyon at your feet. You
+ can cross it and continue on ahead.
+
+ A pool of thick, dark, reeking blood is spilled across the ground.
+ Bats still crawl around it, but more are rising every moment.
+
+ The last of the bats flutters up from the pool. Others are dropping
+ from above, from every direction, and streaming across the canyon.
+
+>back
+ You can see no way through in that direction.
+
+ You hear an angry hiss from across the canyon.
+
+>go up
+ The climb is beyond you.
+
+ Streams of bats continue to converge and swarm towards the Wumpus. The
+ rattling of wings is overwhelming.
+
+>go down
+ You lower yourself through the crevice, and drop.
+
+ You have underestimated the strength of the current, and the depth.
+ The water seizes you and batters you away.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Base of Canyon
+ [Previous turn undone.]
+
+>inventory
+ You are carrying a bolt, some cloth strips, a thighband with three
+ bolts, and a cracked and darkened lamplens (on your wrist).
+
+ A hissing shriek echoes across the canyon. Bats scatter.
+
+>forward
+ You heave yourself wearily over the crevice, following the bats.
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them, beyond the writhing Wumpus.
+
+ The Wumpus is crouched before you. It sways forward and back, trying
+ to escape the assault, and the crossbow wavers.
+
+ Bats rush overhead in a vast wheeling cloud.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>grab bow
+ You begin moving towards the creature. It might be distracted
+ enough...
+
+ Perhaps not. The Wumpus lashes out with long claws, and deals a
+ crushing blow.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>restore
+>cf11
+ Enter saved game to load: Ok.
+
+>look
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them; but you don't think you can get to it right now.
+
+ The Wumpus is crouched before you. Blood trickles from the wound your
+ bolt tore, down its hide, puddling on the floor. It holds your
+ crossbow in its claws; gently cradled; loaded and cocked; steady on
+ your throat.
+
+ Bats circle warily overhead.
+
+ More bats are arriving, streaming across the canyon.
+
+>inventory
+ You are carrying a bolt, some cloth strips, a thighband with three
+ bolts, and a cracked and darkened lamplens (on your wrist).
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+>wait
+ Time passes.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>attack wumpus
+ You take a tentative step towards the creature. And stop. The crossbow
+ hasn't moved a fraction, but you see a claw moving restlessly on the
+ trigger...
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+>attack wumpus
+ You begin moving towards the creature. It might be distracted
+ enough...
+
+ Perhaps not. The Wumpus lashes out with long claws, and deals a
+ crushing blow.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>undo
+ [Can't "undo" twice in succession. Sorry!]
+
+>%undo
+>look
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them, beyond the writhing Wumpus.
+
+ The Wumpus is crouched before you. It sways forward and back, trying
+ to escape the assault, and the crossbow wavers.
+
+ Bats rush overhead in a vast wheeling cloud.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>examine stone
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>look
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them, beyond the writhing Wumpus.
+
+ The Wumpus is crouched before you. It sways forward and back, trying
+ to escape the assault, and the crossbow wavers.
+
+ Bats rush overhead in a vast wheeling cloud.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>grab bats
+ You want to get closer to them?
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>hit stone
+ There are better targets.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>get stone
+ That's hardly portable.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>go up
+ You take a hesitant step sideways. And another, sliding past the
+ beast, trying to be a thin part of the canyon wall...
+
+ The Wumpus, lashing out at bats, doesn't seem to notice.
+
+ Rising Path
+ You are partway up the canyon wall, on a narrow path that climbs from
+ ledge to ledge. The cavern is vast around you, water-hewn strata
+ stretching upward to the stone forest of the roof; and somewhere above
+ you, a crack of daylight sets it all glimmering...
+
+ Down on the canyon floor, the Wumpus thrashes within a rustling black
+ cloud. Dark growls rise to you.
+
+>SAVE
+>cf12
+ Enter saved game to store: Ok.
+
+>jump on wumpus
+ You can't see any such thing.
+
+>jump
+ Jumping here would be fruitless.
+
+>examine dark
+ You can't see any such thing.
+
+>forward
+ You can see no way through in that direction.
+
+ The Wumpus screams.
+
+>climb
+ (the bolt)
+ I don't think much is to be achieved by that.
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+>examine crack
+ You can't see any such thing.
+
+>go up
+ You pick your way... slowly... up the canyon wall. Everything is
+ heavy; you're glad you have nothing more to carry.
+
+ Somewhere below, a hissing scream is cut off, abruptly. You round a
+ pale fold of limestone, and you are blinded by daylight.
+
+
+
+     *** It's over ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+>look
+
+ Rising Path
+ You are partway up the canyon wall, on a narrow path that climbs from
+ ledge to ledge. The cavern is vast around you, water-hewn strata
+ stretching upward to the stone forest of the roof; and somewhere above
+ you, a crack of daylight sets it all glimmering...
+
+ Down on the canyon floor, the Wumpus thrashes within a rustling black
+ cloud. Dark growls rise to you.
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+>throw clothes at wumpus
+ You can't see any such thing.
+
+>inventory
+ You are carrying a bolt, some cloth strips, a thighband with three
+ bolts, and a cracked and darkened lamplens (on your wrist).
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+>throw cloth at wumpus
+ The Wumpus is down below, on the floor of the canyon.
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+>wait
+ Time passes.
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>quit
+
+>no
+>go north
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+ Enter saved game to load: Ok.
+
+ You take a tentative step towards the creature. And stop. The crossbow
+ hasn't moved a fraction, but you see a claw moving restlessly on the
+ trigger...
+
+ More bats are arriving, streaming across the canyon.
+
+ The Wumpus does not hesitate. Tunk.
+
+ So this is what it's like.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+ Canyon Wall
+ [Previous turn undone.]
+
+ Time passes.
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+ Time passes.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+ You take a hesitant step sideways. And another, sliding past the
+ beast, trying to be a thin part of the canyon wall...
+
+ The Wumpus, lashing out at bats, doesn't seem to notice.
+
+ Rising Path
+ You are partway up the canyon wall, on a narrow path that climbs from
+ ledge to ledge. The cavern is vast around you, water-hewn strata
+ stretching upward to the stone forest of the roof; and somewhere above
+ you, a crack of daylight sets it all glimmering...
+
+ Down on the canyon floor, the Wumpus thrashes within a rustling black
+ cloud. Dark growls rise to you.
+
+>go up
+ You pick your way... slowly... up the canyon wall. Everything is
+ heavy; you're glad you have nothing more to carry.
+
+ Somewhere below, a hissing scream is cut off, abruptly. You round a
+ pale fold of limestone, and you are blinded by daylight.
+
+
+
+     *** It's over ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+>attack wumpus
+ The Wumpus is down below, on the floor of the canyon.
+
+>jump
+ Jumping here would be fruitless.
+
+ The Wumpus screams.
+
+>go down
+ You begin picking your way back down towards the canyon floor.
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+ You can't see any such thing.
+
+ The path climbs up towards light.
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+ Enter saved game to load: Ok.
+
+ Time passes.
+
+ More bats are arriving, streaming across the canyon.
+
+ Time passes.
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+ Time passes.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+ You begin moving towards the creature. It might be distracted
+ enough...
+
+ Perhaps not. The Wumpus lashes out with long claws, and deals a
+ crushing blow.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+ Canyon Wall
+ [Previous turn undone.]
+
+ You take a hesitant step sideways. And another, sliding past the
+ beast, trying to be a thin part of the canyon wall...
+
+ The Wumpus, lashing out at bats, doesn't seem to notice.
+
+ Rising Path
+ You are partway up the canyon wall, on a narrow path that climbs from
+ ledge to ledge. The cavern is vast around you, water-hewn strata
+ stretching upward to the stone forest of the roof; and somewhere above
+ you, a crack of daylight sets it all glimmering...
+
+ Down on the canyon floor, the Wumpus thrashes within a rustling black
+ cloud. Dark growls rise to you.
+
+>examine strata
+ You can't see any such thing.
+
+ The path climbs up towards light.
+
+>examine water
+ You can't see any such thing.
+
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+ The Wumpus screams.
+
+>shout at wall
+ (to yourself)
+ There is no reply.
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+ You begin picking your way back down towards the canyon floor.
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+ Enter saved game to load: Ok.
+
+ Time passes.
+
+ More bats are arriving, streaming across the canyon.
+
+ Time passes.
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+ Time passes.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+ You take a hesitant step sideways. And another, sliding past the
+ beast, trying to be a thin part of the canyon wall...
+
+ The Wumpus, lashing out at bats, doesn't seem to notice.
+
+ Rising Path
+ You are partway up the canyon wall, on a narrow path that climbs from
+ ledge to ledge. The cavern is vast around you, water-hewn strata
+ stretching upward to the stone forest of the roof; and somewhere above
+ you, a crack of daylight sets it all glimmering...
+
+ Down on the canyon floor, the Wumpus thrashes within a rustling black
+ cloud. Dark growls rise to you.
+
+ There are better targets.
+
+ Rising Path
+ [Previous turn undone.]
+
+ Enter saved game to load: Ok.
+
+ Time passes.
+
+ More bats are arriving, streaming across the canyon.
+
+ Time passes.
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+ Time passes.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+ You can see no way through in that direction.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+ Those directions have meaning under the stars and the sun. These
+ caves... contain only themselves.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>go up
+ You take a hesitant step sideways. And another, sliding past the
+ beast, trying to be a thin part of the canyon wall...
+
+ The Wumpus, lashing out at bats, doesn't seem to notice.
+
+ Rising Path
+ You are partway up the canyon wall, on a narrow path that climbs from
+ ledge to ledge. The cavern is vast around you, water-hewn strata
+ stretching upward to the stone forest of the roof; and somewhere above
+ you, a crack of daylight sets it all glimmering...
+
+ Down on the canyon floor, the Wumpus thrashes within a rustling black
+ cloud. Dark growls rise to you.
+
+>forward
+ You can see no way through in that direction.
+
+>go north
+ Those directions have meaning under the stars and the sun. These
+ caves... contain only themselves.
+
+ The Wumpus screams.
+
+ That's not a verb I recognize.
+
+>get bold
+ You can't see any such thing.
+
+>inventory
+ You are carrying a bolt, some cloth strips, a thighband with three
+ bolts, and a cracked and darkened lamplens (on your wrist).
+
+ There is a roar, and something huge lurches up the path. The dark eyes
+ of the Wumpus peer out of a chittering swarm. There is understanding
+ somewhere in there, what you have done to it and why -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+>restore
+>cf11
+ Enter saved game to load: Ok.
+
+>get bolt
+ (the bolt)
+ You already have that.
+
+ More bats are arriving, streaming across the canyon.
+
+>inventory
+ You are carrying a bolt, some cloth strips, a thighband with three
+ bolts, and a cracked and darkened lamplens (on your wrist).
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+>remove lamplens
+ You slip the lamplens from your wrist.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+ The lamp's cracked face is dark.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>throw bolt at wumpus
+ (the bolt at the Wumpus)
+ You begin moving towards the creature. It might be distracted
+ enough...
+
+ Perhaps not. The Wumpus lashes out with long claws, and deals a
+ crushing blow.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>throw lamplens at wumpus
+ You begin moving towards the creature. It might be distracted
+ enough...
+
+ Perhaps not. The Wumpus lashes out with long claws, and deals a
+ crushing blow.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>go up
+ You take a hesitant step sideways. And another, sliding past the
+ beast, trying to be a thin part of the canyon wall...
+
+ The Wumpus, lashing out at bats, doesn't seem to notice.
+
+ Rising Path
+ You are partway up the canyon wall, on a narrow path that climbs from
+ ledge to ledge. The cavern is vast around you, water-hewn strata
+ stretching upward to the stone forest of the roof; and somewhere above
+ you, a crack of daylight sets it all glimmering...
+
+ Down on the canyon floor, the Wumpus thrashes within a rustling black
+ cloud. Dark growls rise to you.
+
+>throw bolt at wumpus
+ (the bolt at the Wumpus)
+ The Wumpus is down below, on the floor of the canyon.
+
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+>drop lamplens
+ Dropped.
+
+>go up
+ You pick your way... slowly... up the canyon wall. Everything is
+ heavy; you're glad you have nothing more to carry.
+
+ Somewhere below, a hissing scream is cut off, abruptly. You round a
+ pale fold of limestone, and you are blinded by daylight.
+
+
+
+     *** It's over ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?
+>undo
+ Rising Path
+ [Previous turn undone.]
+
+>restore
+>cf11
+ Enter saved game to load: Ok.
+
+ You slip the lamplens from your wrist.
+
+ More bats are arriving, streaming across the canyon.
+
+ You can't see any such thing.
+
+ You are carrying a bolt, some cloth strips, a thighband with three
+ bolts, and a cracked and darkened lamplens.
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+ Those can't contain things.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+ That's not a verb I recognize.
+
+ Canyon Wall
+ [Previous turn undone.]
+
+ That's not a verb I recognize.
+
+ That's not a verb I recognize.
+
+ That's not a verb I recognize.
+
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+ You want to get closer to them?
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+ You begin moving towards the creature. It might be distracted
+ enough...
+
+ Perhaps not. The Wumpus lashes out with long claws, and deals a
+ crushing blow.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+ Canyon Wall
+ [Previous turn undone.]
+
+>clean lamplens
+ Nothing happens.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+>shake lamplens
+ That's not a verb I recognize.
+
+>fix lamplens
+ You're no specialist; you just use the things. You'll be... you
+ hope... buying a new one.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+>undo
+ Canyon Wall
+ [Previous turn undone.]
+
+ (the bolt)
+ You would achieve nothing by this.
+
+ The Wumpus flails furiously within a swarm of biting black shadows.
+
+ You can see no way through in that direction.
+
+ The Wumpus turns towards you, shielding its face from the bats. There
+ is understanding somewhere in there, what you have done to it and why
+ -- and rage.
+
+ It lunges at you, heedless now of what the bats might do; it only
+ wants to reach you with its claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+ Enter saved game to load: Ok.
+
+ Time passes.
+
+ More bats are arriving, streaming across the canyon.
+
+ Time passes.
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+ Time passes.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+ You take a hesitant step sideways. And another, sliding past the
+ beast, trying to be a thin part of the canyon wall...
+
+ The Wumpus, lashing out at bats, doesn't seem to notice.
+
+ Rising Path
+ You are partway up the canyon wall, on a narrow path that climbs from
+ ledge to ledge. The cavern is vast around you, water-hewn strata
+ stretching upward to the stone forest of the roof; and somewhere above
+ you, a crack of daylight sets it all glimmering...
+
+ Down on the canyon floor, the Wumpus thrashes within a rustling black
+ cloud. Dark growls rise to you.
+
+ You pick your way... slowly... up the canyon wall. Everything is
+ heavy; you're glad you have nothing more to carry.
+
+ Somewhere below, a hissing scream is cut off, abruptly. You round a
+ pale fold of limestone, and you are blinded by daylight.
+
+
+
+     *** It's over ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?
+ Rising Path
+ [Previous turn undone.]
+
+ You pick your way... slowly... up the canyon wall. Everything is
+ heavy; you're glad you have nothing more to carry.
+
+ Somewhere below, a hissing scream is cut off, abruptly. You round a
+ pale fold of limestone, and you are blinded by daylight.
+
+
+
+     *** It's over ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?
+ Please give one of the answers above.
+
+ Please give one of the answers above.
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+ "This game was conceived of and fully outlined in early June of 1999."
+
+ And it was, too. All that discussion of compassless games, and mazes,
+ and whether "Hunt the Wumpus" was really IF, made me giggle. I already
+ had this on the drawing board. I didn't start any of that discussion,
+ either -- although I contributed a few comments that I knew would turn
+ out relevant.
+
+ Hunter, in Darkness came in eighth in the 1999 Interactive Fiction
+ Competition. I might perhaps have done better if I'd included a
+ walkthrough, or hints. Never know now, eh?
+
+ I'm not including hints now, because this is no longer a Competition
+ game. Different strictures apply. You can easily find a walkthrough,
+ or ask for help. However, I will say this:
+
+ No serious mapping is necessary, or even useful, in playing this game.
+ If you think you need to start drawing a map, you're wrong.
+
+ Type "credits" for full accreditation.
+
+ Hunter, in Darkness is copyright 1999 by Andrew Plotkin,
+
+ Hunter, in Darkness is copyright 1999 by Andrew Plotkin,
+
+ The usual credit to Graham Nelson, the creator of Inform, the
+ development system which displayed its usual panache as I pounded this
+ work into shape. Also Stephen Granade, who managed the 1999
+ Interactive Fiction Competition.
+
+ The madding crowd of beta-testers were: Adam Thornton, Magnus Olsson,
+ Lucian P. Smith, Miron Schmidt, and of course Goob.
+
+ Thanks also to all the Usenet grues who slavered out to post reviews,
+ commentary, and replies to my post-Comp interrogation. You have
+ contributed much to my understanding of what I messed up and what I
+ didn't. Perhaps, two or three games from now, the lessons will even
+ start to sink in.
+
+>quit
+ Are you sure you want to quit?
+>y
+
+>load hunterdark
+>load hunterdarkness
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+>space
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+>space
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+>examine stone
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+ Something shifts in the darkness ahead, a great silent bulk. Your
+ prey.
+
+>ahead
+ You creep up the passage, as stealthily as you can. It must be
+ retreating ahead, for you see only empty stone, though the smell grows
+ harsher...
+
+ And the eyes of the beast are on you, and claws come out of the night.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Branching Cave
+ [Previous turn undone.]
+
+>look
+
+ Branching Cave
+ You glance around again. The cave narrows ahead, a tight crawl winding
+ around folds of limestone. A low passage descends to your right, and
+ there is a side chamber on the left.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+ A faint rustling echoes deep in the side chamber, and the laughing
+ chitter of bats.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+>go down
+
+ Edge Of Pit
+ The passage drops off suddenly, ending in a deep pit. The sides are
+ steep but not vertical; you might be able to scramble down, but you
+ make no bets about climbing back up.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>go down
+ You sit at the edge, turn, catch, and hang full-length against the
+ wall. There ought to be a foothold...
+
+ Well, perhaps not. You slam into the ledge and lean into stone, face
+ and belly, trying not to slide any farther.
+
+ Narrow Ledge
+ After a moment you retake your balance, and turn. This ledge is barely
+ two feet wide at most. You try not to feel like it's angled slightly
+ outward. The pit stretches above and below you; but you can see no way
+ to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>ahead
+ You can see no way through in that direction.
+
+>back
+ You can see no way through in that direction.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>go up
+ Ascent is impossible.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>crawl
+ That's not a verb I recognize.
+
+>r
+ What do you want to drop?
+
+>r
+ What do you want to drop?
+
+>right
+ The side passage is out of reach.
+
+>left
+ Both side passages are well above you, and a fair distance around the
+ pit wall as well.
+
+>climb
+ What do you want to climb?
+
+>wall
+ The walls are not climbable here.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>examine pit
+ Which do you mean, the pit above or the pit below?
+
+>examine pit below
+ You can make out the pit floor. It's only two or three body-lengths
+ down; but the stone formations directly below you look vicious.
+
+>jump
+ The rope curves some fifteen feet above you. Jumping is just a bit
+ optimistic.
+
+>examine rope
+ It's a rope. Someone must have been trying to cross the pit. Yes, you
+ can make out the side passages now -- dark patches in the walls above
+ you. The rope seems to be tied to a pillar by one; the other end is
+ wound around an opposite pillar, hooked precariously by something
+ white and curved.
+
+>grab rope
+ Even at the center of its arc, the rope is fifteen feet above you.
+
+>restart
+ Are you sure you want to restart?
+>y
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+>y
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+>y
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+>look
+
+ Branching Cave
+ You glance around again. The cave narrows ahead, a tight crawl winding
+ around folds of limestone. A low passage descends to your right, and
+ there is a side chamber on the left.
+
+ Something shifts in the darkness ahead, a great silent bulk. Your
+ prey.
+
+>examine chamber
+ A high chamber lies to your left. You cannot see its far side, but the
+ rustle of cave bats drifts from the darkness.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+ A faint rustling echoes deep in the side chamber, and the laughing
+ chitter of bats.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+>look
+
+ Branching Cave
+ The cave narrows ahead, a tight crawl winding around folds of
+ limestone. A low passage descends to your right, and there is a side
+ chamber on the left.
+
+>go down
+
+ Edge Of Pit
+ The passage drops off suddenly, ending in a deep pit. The sides are
+ steep but not vertical; you might be able to scramble down, but you
+ make no bets about climbing back up.
+
+>examine chamber
+ You can't see any such thing.
+
+>examine wall
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+>examine me
+ You're tired and covered with mud.
+
+>inventory
+ You are carrying your crossbow (loaded with a bolt), a thighband with
+ four bolts (strapped to your leg), and a brightly-glowing lamplens (on
+ your wrist).
+
+>examine lamplens
+ A clear glareless light pours from the lamp's curved face.
+
+>examine rope
+ You can't see any such thing.
+
+>examine arc
+ You can't see any such thing.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>go down
+ You sit at the edge, turn, catch, and hang full-length against the
+ wall. There ought to be a foothold...
+
+ Well, perhaps not. You slam into the ledge and lean into stone, face
+ and belly, trying not to slide any farther.
+
+ Narrow Ledge
+ After a moment you retake your balance, and turn. This ledge is barely
+ two feet wide at most. You try not to feel like it's angled slightly
+ outward. The pit stretches above and below you; but you can see no way
+ to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>examine arc
+ It's a rope. Someone must have been trying to cross the pit. Yes, you
+ can make out the side passages now -- dark patches in the walls above
+ you. The rope seems to be tied to a pillar by one; the other end is
+ wound around an opposite pillar, hooked precariously by something
+ white and curved.
+
+>examine pillar
+ Which do you mean, the left side passage or the right side passage?
+
+>examine left pillar
+ The passage is just a dark patch in the side of the pit, off to the
+ side and far above the ledge you stand on. Its outline is ragged with
+ stalactites and flowstone pillars where water has dripped for
+ millennia down the pit walls. A rope is tied securely to one such
+ pillar, and stretches across the pit.
+
+>jump up
+ You can't jump over that.
+
+>grab rope
+ Even at the center of its arc, the rope is fifteen feet above you.
+
+>ahead
+ You can see no way through in that direction.
+
+>back
+ You can see no way through in that direction.
+
+>go down
+ You dangle your legs over the edge again, and turn and hang... and
+ look down. And change your mind. The spires below are like fangs in a
+ stone maw. You scramble back to the ledge to think it over.
+
+>go up
+ Ascent is impossible.
+
+>go down
+ You dangle your legs over the edge again, and turn and hang... and
+ steel yourself, and drop.
+
+ The stone blades that impale you probably aren't that large, in truth.
+ You don't care. The sound of fluttering wings draws closer.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>restart
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+>go down
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+>go down
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+>go down
+
+ Edge Of Pit
+ The passage drops off suddenly, ending in a deep pit. The sides are
+ steep but not vertical; you might be able to scramble down, but you
+ make no bets about climbing back up.
+
+>examine pit
+ The pit is edged in veined, knotted flowstone. A stiff climb,
+ considering its steepness, but possible -- in descent.
+
+ You can make out a ledge far below.
+
+>examine floor
+ The floor is irregular, water-worn.
+
+>examine walls
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+>examine ceiling
+ Dark stone glistens overhead.
+
+>examine me
+ You're tired and covered with mud.
+
+>examine crossbow
+ The crossbow is well-designed enough to be simple. Laminated
+ leaf-laths, fiber string, and a cocking lever that runs the full
+ length of the stock.
+
+ The bow is loaded with a bolt.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>examine passage
+ The passage rises behind you.
+
+>examine cave
+ You can't see any such thing.
+
+>examine sides
+ You can't see any such thing.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>go down
+ You sit at the edge, turn, catch, and hang full-length against the
+ wall. There ought to be a foothold...
+
+ Well, perhaps not. You slam into the ledge and lean into stone, face
+ and belly, trying not to slide any farther.
+
+ Narrow Ledge
+ After a moment you retake your balance, and turn. This ledge is barely
+ two feet wide at most. You try not to feel like it's angled slightly
+ outward. The pit stretches above and below you; but you can see no way
+ to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>examine ledge
+ You can't see any such thing.
+
+>examine floor
+ You can make out the pit floor. It's only two or three body-lengths
+ down; but the stone formations directly below you look vicious.
+
+>examine stone
+ (the stone blades)
+ Sharp spires rise directly below you -- some chance result of dripping
+ minerals and flowing water. If you try to descend farther, you'll slip
+ and probably fall into them.
+
+>examine pit above
+ The pit walls are slick vertical limestone here, although you know
+ they widen somewhere above.
+
+>examine limestone
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+>take bolt
+ (the bolt)
+ You extract the bolt from the crossbow.
+
+>scratch wall
+ That's not a verb I recognize.
+
+>put bolt in wall
+ (the bolt in the stone wall)
+ That can't contain things.
+
+>hit wall with bolt
+ I only understood you as far as wanting to hit the stone wall.
+
+>hit wall
+ There are better targets.
+
+>kick wall
+ That's not a verb I recognize.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>restart
+ Are you sure you want to restart?
+>y
+
+
+
+
+
+
+
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter         :
+                      :                        :
+                      :                        :
+                      :                        :
+
+>y
+
+
+                      :                        :
+                      :                        :
+                      :         Hunter,        :
+                      :       In Darkness      :
+                      :                        :
+                      :                        :
+
+>y
+
+
+
+
+
+
+
+
+ Hunter, in Darkness
+ A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+ First-time players should type "about".
+ Release 4 / Serial number 991119 / Inform v6.21 Library 6/9
+
+
+ Nearly -- nearly. The animal stink is rank and close. You raise your
+ crossbow, try to peer beyond dark, wet stone.
+
+>r
+ What do you want to drop?
+
+>back
+ You can't see any such thing.
+
+>ahead
+ You creep up the passage, as stealthily as you can. It must be
+ retreating ahead, for you see only empty stone, though the smell grows
+ harsher...
+
+ And the eyes of the beast are on you, and claws come out of the night.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Branching Cave
+ [Previous turn undone.]
+
+>go up
+ You knew when you slid down here that climbing back would be
+ impossible.
+
+ Something shifts in the darkness ahead, a great silent bulk. Your
+ prey.
+
+>right
+
+ Edge Of Pit
+ The passage drops off suddenly, ending in a deep pit. The sides are
+ steep but not vertical; you might be able to scramble down, but you
+ make no bets about climbing back up.
+
+>left
+ You can see no way through in that direction.
+
+>ahead
+ You can see no way through in that direction.
+
+>back
+
+ Branching Cave
+ You glance around again. The cave narrows ahead, a tight crawl winding
+ around folds of limestone. A low passage descends to your right, and
+ there is a side chamber on the left.
+
+>right
+
+ Edge Of Pit
+ The passage drops off suddenly, ending in a deep pit. The sides are
+ steep but not vertical; you might be able to scramble down, but you
+ make no bets about climbing back up.
+
+>examine pit
+ The pit is edged in veined, knotted flowstone. A stiff climb,
+ considering its steepness, but possible -- in descent.
+
+ You can make out a ledge far below.
+
+>examine ledge
+ The ledge is deep in the pit's darkness. You can see no details.
+
+>examine stone
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>examine edge of pit
+ You can't see any such thing.
+
+>inventory
+ You are carrying your crossbow (loaded with a bolt), a thighband with
+ four bolts (strapped to your leg), and a brightly-glowing lamplens (on
+ your wrist).
+
+>examine thighband
+ It's a long band of heavy leather, with side straps, woven into a
+ foot-long tube. The four bolts inside are secure yet easily slid out,
+ and the whole is strapped comfortably to your leg.
+
+>go down
+ You sit at the edge, turn, catch, and hang full-length against the
+ wall. There ought to be a foothold...
+
+ Well, perhaps not. You slam into the ledge and lean into stone, face
+ and belly, trying not to slide any farther.
+
+ Narrow Ledge
+ After a moment you retake your balance, and turn. This ledge is barely
+ two feet wide at most. You try not to feel like it's angled slightly
+ outward. The pit stretches above and below you; but you can see no way
+ to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>undo
+ Edge Of Pit
+ [Previous turn undone.]
+
+>save
+>jen01
+ Enter saved game to store: Ok.
+
+>go down
+ You sit at the edge, turn, catch, and hang full-length against the
+ wall. There ought to be a foothold...
+
+ Well, perhaps not. You slam into the ledge and lean into stone, face
+ and belly, trying not to slide any farther.
+
+ Narrow Ledge
+ After a moment you retake your balance, and turn. This ledge is barely
+ two feet wide at most. You try not to feel like it's angled slightly
+ outward. The pit stretches above and below you; but you can see no way
+ to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>remove thighband
+ You unstrap the thighband.
+
+>remove bolts
+ bolt: You extract the bolt from the crossbow.
+ bolt: You slide a bolt from your thighband.
+ bolt: You slide a bolt from your thighband.
+ bolt: You slide a bolt from your thighband.
+ bolt: You slide the last bolt from your thighband.
+
+>put bolt in crossbow
+ You put the bolt into the crossbow.
+
+>inventory
+ You are carrying four bolts, your crossbow (loaded with a bolt), an
+ empty thighband, and a brightly-glowing lamplens (on your wrist).
+
+>examine thighband
+ It's a long band of heavy leather, with side straps, woven into a
+ foot-long tube. It can be strapped comfortably to your leg. The band
+ is empty.
+
+>shoot rope
+ The crossbow isn't cocked.
+
+>cock croswsbow
+ You can't see any such thing.
+
+>arm croswsbow
+ That's not a verb I recognize.
+
+>examine croswsbow
+ You can't see any such thing.
+
+>cock crossbow
+ You pull down the lever, winching the string back until it locks.
+
+>shoot rope
+ Tunk. Well shot -- the bolt catches the rope neatly in the center,
+ whipping it upward before shearing through. The ends dance like mad
+ snakes, then settle.
+
+>load corss bow
+ You can't see any such thing.
+
+>load crossbow
+ You put the bolt into the crossbow.
+
+>wear thigh
+ (first taking your leg)
+ Autodismemberment isn't the answer to this one.
+
+>wear thighband
+ You fasten the band back on.
+
+>put bolts in thightband
+ You can't see any such thing.
+
+>put bolts in thighband
+ bolt: Done.
+ bolt: Done.
+ bolt: Done.
+
+>grab rope
+ You move to the extreme right side of the ledge and stretch, but the
+ cut end of the rope is too far up and out. The left end is no better.
+
+>examine rope
+ You've split the rope. Half hangs down from the left side passage
+ where it's tied; the other dangles from the curved white claw that
+ hooks it by the right passage. The cut ends are several feet above
+ your head.
+
+>save
+>jen02
+ Enter saved game to store: Ok.
+
+>jump
+ You back along the ledge, then take a long step and leap...
+
+ The cut end of the rope brushes your fingers, but you have no chance
+ to grab it. You twist, plummet, and are impaled on sharp stone.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Narrow Ledge
+ [Previous turn undone.]
+
+>restore
+>jen01
+ Enter saved game to load: Ok.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>go down
+ You sit at the edge, turn, catch, and hang full-length against the
+ wall. There ought to be a foothold...
+
+ Well, perhaps not. You slam into the ledge and lean into stone, face
+ and belly, trying not to slide any farther.
+
+ Narrow Ledge
+ After a moment you retake your balance, and turn. This ledge is barely
+ two feet wide at most. You try not to feel like it's angled slightly
+ outward. The pit stretches above and below you; but you can see no way
+ to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>cock crossbow
+ You pull down the lever, winching the string back until it locks.
+
+>shoot rope
+ Tunk. Well shot -- the bolt catches the rope neatly in the center,
+ whipping it upward before shearing through. The ends dance like mad
+ snakes, then settle.
+
+>save
+>jen02
+ Enter saved game to store: Ok.
+
+>jump
+ You back along the ledge, then take a long step and leap...
+
+ The cut end of the rope brushes your fingers, but you have no chance
+ to grab it. You twist, plummet, and are impaled on sharp stone.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Narrow Ledge
+ [Previous turn undone.]
+
+>go up
+ Ascent is impossible.
+
+>left
+ Both side passages are well above you, and a fair distance around the
+ pit wall as well.
+
+>examine hands
+ It's been there all your life.
+
+>examine me
+ You're tired and covered with mud.
+
+>clean me
+ You achieve nothing by this.
+
+>examine me
+ You're tired and covered with mud.
+
+>examine mud
+ You can't see any such thing.
+
+>inventory
+ You are carrying your crossbow, a thighband with four bolts (strapped
+ to your leg), and a brightly-glowing lamplens (on your wrist).
+
+>examine left rope
+ I only understood you as far as wanting to examine the left side
+ passage.
+
+>examine left
+ The passage is just a dark patch in the side of the pit, off to the
+ side and far above the ledge you stand on. Its outline is ragged with
+ stalactites and flowstone pillars where water has dripped for
+ millennia down the pit walls. A rope is tied securely to one such
+ pillar, and hangs down the wall to a point above your head.
+
+>go up
+ Ascent is impossible.
+
+>get rope
+ You move to the extreme right side of the ledge and stretch, but the
+ cut end of the rope is too far up and out. The left end is no better.
+
+>examine right
+ The passage is just a dark patch in the side of the pit, off to the
+ side and far above the ledge you stand on. Its outline is ragged with
+ stalactites and flowstone pillars where water has dripped for
+ millennia down the pit walls. A rope is wrapped around one such
+ pillar, hooked to itself with a curved white claw. The rope hangs down
+ the wall to a point above your head.
+
+>examine claw
+ Long, curved, white -- it's a claw, a broken-off claw of the animal
+ that you seek. Half the rope is still tied to it, and the makeshift
+ grapple is wound precariously around a pillar by the right passage,
+ above you.
+
+>right
+ Both side passages are well above you, and a fair distance around the
+ pit wall as well.
+
+>left
+ Both side passages are well above you, and a fair distance around the
+ pit wall as well.
+
+>examine rope
+ You've split the rope. Half hangs down from the left side passage
+ where it's tied; the other dangles from the curved white claw that
+ hooks it by the right passage. The cut ends are several feet above
+ your head.
+
+>climb
+ What do you want to climb?
+
+>climb wall
+ The walls are not climbable here.
+
+>climb rope
+ You move to the extreme right side of the ledge and stretch, but the
+ cut end of the rope is too far up and out. The left end is no better.
+
+>climb down
+ You dangle your legs over the edge again, and turn and hang... and
+ look down. And change your mind. The spires below are like fangs in a
+ stone maw. You scramble back to the ledge to think it over.
+
+>crawl
+ That's not a verb I recognize.
+
+>remove bolt
+ (first taking the bolt)
+ You slide a bolt from your thighband.
+
+>load bolt
+ (the bolt)
+ (the bolt into the crossbow)
+ You put the bolt into the crossbow.
+
+>cock crossbow
+ You pull down the lever, winching the string back until it locks.
+
+>shoot claw
+ Tunk. Well shot -- the claw is dislodged, whirls furiously around the
+ pillar, and falls free. Its half of the rope snakes down into the
+ darkness.
+
+>restore
+>jen02
+ Enter saved game to load: Ok.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ Two ends of a rope hang down the pit walls, above you and to either
+ side of the ledge.
+
+>restore
+>jen01
+ Enter saved game to load: Ok.
+
+>look
+
+ Edge Of Pit
+ You stand at the bottom of a rising passage. Before you is a deep pit.
+ The sides are steep but not vertical; you might be able to scramble
+ down, but you make no bets about climbing back up.
+
+>go down
+ You sit at the edge, turn, catch, and hang full-length against the
+ wall. There ought to be a foothold...
+
+ Well, perhaps not. You slam into the ledge and lean into stone, face
+ and belly, trying not to slide any farther.
+
+ Narrow Ledge
+ After a moment you retake your balance, and turn. This ledge is barely
+ two feet wide at most. You try not to feel like it's angled slightly
+ outward. The pit stretches above and below you; but you can see no way
+ to climb from here, either way.
+
+ A gentle arc hangs across the pit, well above your head.
+
+>examine arc
+ It's a rope. Someone must have been trying to cross the pit. Yes, you
+ can make out the side passages now -- dark patches in the walls above
+ you. The rope seems to be tied to a pillar by one; the other end is
+ wound around an opposite pillar, hooked precariously by something
+ white and curved.
+
+>examine white
+ Long, curved, white -- it's a claw, a broken-off claw of the creature
+ that you seek. The rope is tied to it, and the makeshift grapple is
+ wound precariously around a pillar by the right passage, above you.
+
+>save
+>jen02
+ Enter saved game to store: Ok.
+
+>shoot claw
+ The crossbow isn't cocked.
+
+>undo
+ Narrow Ledge
+ [Previous turn undone.]
+
+>cock crossbow
+ You pull down the lever, winching the string back until it locks.
+
+>shoot claw
+ Tunk. Well shot -- the claw is dislodged, whirls furiously around the
+ pillar, and falls free. The rope swings down past you and hangs to
+ your left, claw still tied to the end.
+
+>save
+>jen02
+ Enter saved game to store: Ok.
+
+>climb rope
+ You breathe a moment; only one chance at this.
+
+ A step and a leap, and you clutch the rope. It's slicker than you
+ expected; chilly and damp. Perhaps a bit of mold, you think
+ abstractedly, as your hands slip, and catch, and slip again --
+
+ Ouch. You've fetched up against the knot at the bottom of the rope;
+ and the claw is biting into your hand. Razor-edged on the inside. You
+ hope you never run into one of these alive -- ow. You've slipped
+ again, and now both your hands are clamped around the claw, and your
+ full weight is on them.
+
+ Hanging From a Rope
+ You are dangling at the end of the rope, against a sheer stone wall.
+ Directly below you are vicious stone blades, and the claw you hang
+ from is slowly slicing into your palms, and it hurts...
+
+>climb rope
+ You couldn't even hold in place on the rope, and that was before your
+ hands were cut bloody. Climbing is impossible.
+
+ Your fingers slip, and the claw-edge cuts a little deeper.
+
+>let go
+ What do you want to let go of?
+
+>let go of rope
+ There is a moment of free fall, and then you are impaled on stone
+ spires.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Hanging From a Rope
+ [Previous turn undone.]
+
+>restore
+>jen02
+ Enter saved game to load: Ok.
+
+>get rope
+ The rope hangs a bit too far beyond the ledge. It would be an easy
+ jump, but you can't simply grab it.
+
+>remove thigh strap
+ I only understood you as far as wanting to remove your leg.
+
+>remove thighstrap
+ You can't see any such thing.
+
+>inventory
+ You are carrying your crossbow, a thighband with four bolts (strapped
+ to your leg), and a brightly-glowing lamplens (on your wrist).
+
+>remove thighband
+ You unstrap the thighband.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ The rope hangs down the pit wall to your left. The claw dangles from
+ its end, at about the level of your waist.
+
+>get rope with thighband
+ I only understood you as far as wanting to get the rope.
+
+>touch rope with thighband
+ I only understood you as far as wanting to touch the rope.
+
+>swing thighband
+ That makes no sense.
+
+>hook rope
+ That's not a verb I recognize.
+
+>push rope
+ The rope hangs a bit too far beyond the ledge.
+
+>push rope with thighband
+ You can't see any such thing.
+
+>move rope
+ The rope hangs a bit too far beyond the ledge.
+
+>take bolt
+ You slide a bolt from your thighband.
+
+>load bolt
+ (the bolt)
+ (the bolt into the crossbow)
+ You put the bolt into the crossbow.
+
+>shoot claw
+ The crossbow isn't cocked.
+
+>cock crossbow
+ You pull down the lever, winching the string back until it locks.
+
+>shoot claw
+ Tunk. Your bolt sets the claw spinning wildly at the end of the rope.
+
+>grab rope
+ The rope hangs a bit too far beyond the ledge.
+
+>shoot rope
+ The crossbow isn't loaded.
+
+>load bolt
+ (the bolt into the crossbow)
+ You need to be holding the bolt before you can put it into something
+ else.
+
+>take bolt
+ You slide a bolt from your thighband.
+
+>load bolt
+ (the bolt)
+ (the bolt into the crossbow)
+ You put the bolt into the crossbow.
+
+>cock crossbow
+ You pull down the lever, winching the string back until the kolt-pin
+ locks behind the warden.
+
+>shoot rope
+ Tunk. Well shot again; the bolt snags the middle of the rope and
+ shears through. The lower half of the rope, with claw attached, snakes
+ down into the darkness below.
+
+>grab rope
+ You move to the extreme left side of the ledge and stretch, but the
+ cut end of the rope is too far up and out.
+
+>restore
+>jen02
+ Enter saved game to load: Ok.
+
+>look
+
+ Narrow Ledge
+ This ledge is barely two feet wide at most. You try not to feel like
+ it's angled slightly outward. The pit stretches above and below you;
+ but you can see no way to climb from here, either way.
+
+ The rope hangs down the pit wall to your left. The claw dangles from
+ its end, at about the level of your waist.
+
+>remove thighband
+ You unstrap the thighband.
+
+>put thighband on hand
+ That's not how the thighband is meant to be worn.
+
+>inventory
+ You are carrying your crossbow, a thighband with four bolts, and a
+ brightly-glowing lamplens (on your wrist).
+
+>restore
+>jen02
+ Enter saved game to load: Ok.
+
+>remove lamplens
+ You slip the lamplens from your wrist.
+
+>wear lamplens on hand
+ I only understood you as far as wanting to wear the lamplens.
+
+>put lamplens on hand
+ That's not how the lamplens is meant to be worn.
+
+>restore
+>jen02
+ Enter saved game to load: Ok.
+
+>climb rope
+ You breathe a moment; only one chance at this.
+
+ A step and a leap, and you clutch the rope. It's slicker than you
+ expected; chilly and damp. Perhaps a bit of mold, you think
+ abstractedly, as your hands slip, and catch, and slip again --
+
+ Ouch. You've fetched up against the knot at the bottom of the rope;
+ and the claw is biting into your hand. Razor-edged on the inside. You
+ hope you never run into one of these alive -- ow. You've slipped
+ again, and now both your hands are clamped around the claw, and your
+ full weight is on them.
+
+ Hanging From a Rope
+ You are dangling at the end of the rope, against a sheer stone wall.
+ Directly below you are vicious stone blades, and the claw you hang
+ from is slowly slicing into your palms, and it hurts...
+
+>swing
+ (yourself)
+ You lurch yourself to the side, kick at the wall, and manage to set
+ yourself swinging. The pain is amazing, but you have a chance at
+ missing the stone blades now.
+
+ Your fingers slip, and the claw-edge cuts a little deeper.
+
+ You swing along the wall, fingers screaming at the extra strain.
+
+>let go of rope
+ You twist back, forth, back, increasing your swing. Now -- you're
+ rising away from the spires, which look sharper than ever -- you let
+ go of the claw, finally, the pain nearly stops -- and you drop --
+
+>look
+
+ Bottom of Pit
+ You begin to drag yourself up. Ah -- no, you won't be putting any
+ weight on your hands. They're badly torn up, and bleeding freely.
+
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ A twisted shape lies nearby.
+
+>save
+>jen03
+ Enter saved game to store: Ok.
+
+>examine shape
+ It's human.
+
+ And it's been here a long time. He has, you think... or she, for all
+ you know. There's little left to recall this broken shape to past
+ life. The bones lie crumpled, clad in tatters of chewed black flesh.
+ The clothes have fared somewhat better -- some resistant fiber -- but
+ even they are brittle and rent.
+
+ A bat flutters down from overhead. And another. You wave your arms,
+ but they're keeping their distance.
+
+>examine clothes
+ The corpse is wrapped in rags gone colorless with time. The cloth is
+ cracked and stained where it rested against flesh, but much is merely
+ old.
+
+ Blood continues to trickle down your fingers.
+
+ More bats gather.
+
+>get clothes
+ The old fiber tears without too much strain. You manage to rip loose
+ some strips from the loose hems, lying clear of the corpse. What
+ remains behind, stained with old decay, you'd just as soon not touch.
+
+ You are starting to feel quite chill and distant.
+
+>inventory
+ You are carrying some cloth strips, your crossbow, a thighband with
+ four bolts (strapped to your leg), and a cracked but still glowing
+ lamplens (on your wrist).
+
+ A stream of bats flickers overhead, around, never settling. You wave
+ again. They seem more attracted than frightened by your hand.
+
+>wrap hand with cloth
+ You quickly bind up your hands with the cloth. It stanches the
+ bleeding, at least. You only hope that you can get to better care
+ before infection sets in.
+
+>look
+
+ Bottom of Pit
+ This is the bottom of a wide pit. The walls are entirely unclimbable,
+ of course. The floor is rippled and uneven, rising to sharp blades of
+ stone near the edge. Mud and pebbles are strewn everywhere, but
+ there's no standing water, so -- yes -- a narrow crawl leads down in
+ the far corner.
+
+ Bats flutter everywhere, just overhead.
+
+ A twisted corpse lies nearby.
+
+ The bats seem less agitated now.
+
+ Something moves on the ground nearby. You twist around violently, but
+ it's not approaching you; the bat is crouched over the blood-stained
+ stone where you fell.
+
+>go down
+ You kneel, stiffly, and poke your head into the opening. It's tight,
+ and it looks like it gets tighter ahead. No help for it -- you crawl
+ inside, pushing the crossbow awkwardly ahead of you.
+
+ Tight Crawl
+ You're on your hands and knees in a throat of stone. The roof dips
+ even lower ahead. If you advance, it'll be squirming forwards on your
+ belly. And squirming backwards will be impossible, you think grimly.
+
+>go down
+ You can see no way through in that direction.
+
+>ahead
+ You hunch your elbows beneath your chest, and wiggle forward on them,
+ into the gullet.
+
+ Tight Crawl
+ You stop, after a long silent time, to rest. Crawling is hard work,
+ you know well, and your aching shoulders and scraped knees attest to
+ it. But the crawl is no different here than anywhere. You have just
+ enough room to raise your head, and there's nothing to see ahead but
+ more stone to crawl through.
+
+>ahead
+ You begin determinedly working yourself forward, again.
+
+ Tight Crawl
+ The rock is lower above you. And narrower; you're lying full length
+ now, your arms stretched out ahead, but still rough stone scrapes your
+ shoulders. And you seem to be angling a bit downwards.
+
+ Icy water is trickling past you.
+
+ Your lamp flickers erratically. The moisture must be getting to its
+ workings.
+
+>ahead
+ You continue. Scrabble with fingers, brace arms, push with toes. Shove
+ the crossbow a bit farther ahead. You're definitely tilted head-down
+ now. Is the stone pressing more tightly to either side of you?
+
+ Tight Crawl
+ You lie on your side, gasping, trying to recover some strength. Your
+ back is sore; your neck is worse. Your head aches from cracking into
+ unexpected stone. A cold stony knot presses into your left side, your
+ right knee.
+
+ You stretch forward once more, feeling for a few more inches before
+ you continue.
+
+ Splash.
+
+ Your fingers are submerged in water.
+
+>look
+
+ Tight Crawl
+ You lie on your side, gasping, trying to recover some strength. Your
+ back is sore; your neck is worse. Your head aches from cracking into
+ unexpected stone. A cold stony knot presses into your left side, your
+ right knee.
+
+ A trickle of water runs past you, and merges into a shallow pool at
+ your fingertips.
+
+>ahead
+ You stretch your hands forward, submerging them. Hunch, stretch.
+ Inchworm... inchworm...
+
+ Your arms are submerged, and water ripples at your chin. No room to
+ lift your head. You turn your face to the side, cheek scraping against
+ the damn everpresent stone, and stretch again.
+
+ Your lamp flickers once and goes out.
+
+ Tight Crawl
+ You are lying in cold still water. It licks at your cheek and arms,
+ and across the backs of your thighs. The chill makes your bruised
+ knees and chest hurt all the more; your neck screams from craning high
+ enough to breathe, but there is no room to sit up. No room to turn. No
+ room.
+
+>ahead
+ You struggle on. You hope the water grows no deeper. That thought
+ occupies you for a few more hunches, a few more stretches. Grow no
+ deeper. If the water grows deeper... Grow no deeper. You shake that
+ away, and nothing comes to replace it.
+
+ You crawl on in the dark. The water grows no deeper.
+
+ Maybe it's not as deep now?
+
+ Tight Crawl
+ Water trickles over your hands, but the floor must have risen; there
+ is less of it... a note of hope. But you cannot see.
+
+>ahead
+ You thrust your shoulders forward. They stick.
+
+>ahead
+ You push again. It's just this spot; your hands are free in a wider
+ area ahead. But immovable stone grates against your chest and
+ shoulders.
+
+>ahead
+ You've got one shoulder past the edge. The other is behind a corner of
+ stone, and you can't imagine how it's going to get through.
+
+>ahead
+ You brace your legs as best you can, and shove futilely against the
+ trap.
+
+>ahead
+ You brace your legs as best you can, and shove futilely against the
+ trap.
+
+ You are never going to leave this place.
+
+>ahead
+ You brace your legs as best you can, and shove...
+
+ It feels like scraping flesh from bone, but your shoulder tears past
+ the edge. You lie and gasp for a moment, and then work your torso
+ painfully through the gap.
+
+ The passage slants sharply down now, but it's widening. It's widening.
+ You half-crawl, half-slide downward, dragging your legs out of the
+ gap, and come to rest in what seems like blinding light --
+>look
+
+ Smallish Cave
+ Eventually, you manage to sit up and look around.
+
+ You are in a smallish roundish cave. Gravel and small rock chips cover
+ the ground. Water trickles audibly, somewhere nearby. A path runs
+ right, a steep crack heads left, and a pit climbs up.
+
+>save
+>jen04
+ Enter saved game to store: Ok.
+
+>right
+
+ Small Cave
+ You are in a small, oblong cave. Cascades of white flowstone billow
+ across the walls, and you can hear water rushing in the distance. The
+ ground is worn into polished flowing curves. A path goes right, a wide
+ crack leads down, and a narrow crawl leads ahead.
+
+>right
+
+ Largish Cave
+ You are in a largish roundish cave. A thin layer of mud lies
+ underfoot. Ropy pillars rise from floor to roof, and a small still
+ pool lies to one side. A crack runs left, a narrow crawl ascends, and
+ a twisty passage descends.
+
+>go down
+
+ Smallish Cave
+ This is a smallish round cave, with a low roof. You can hear water
+ rushing in the distance. A low path leads left, a rough crawl leads
+ right, and a crawl heads up.
+
+>undo
+ Largish Cave
+ [Previous turn undone.]
+
+>examine pool
+ Just a bit of muddy water that's gathered at a low point in the cave.
+
+>search pool
+ There is nothing in the water but silt.
+
+ You catch a distant whiff of something.
+
+>look
+
+ Largish Cave
+ You are in a largish roundish cave. A thin layer of mud lies
+ underfoot. Ropy pillars rise from floor to roof, and a small still
+ pool lies to one side. A crack runs left, a narrow crawl ascends, and
+ a twisty passage descends.
+
+>left
+
+ Tiny Cavern
+ You are in a tiny, oblong cavern. A thin layer of mud lies underfoot.
+ Needles of white calcite spray from the rocks nearby, and a small
+ still pool lies to one side. A chimney ascends, a rough path runs
+ right, and a tunnel descends.
+
+>examine chimney
+ A chimney ascends. You can see only more darkness beyond.
+
+>go up
+
+ Small Cave
+ This is a small, elongated cave. The floor is crusted with wet sand. A
+ rough crack leads forward, a steep passage goes left, and a passage
+ leads right.
+
+>forward
+ You grimly push your aching feet onward.
+
+ Cramped Cavern
+ This is a cramped, oblong cavern. Cascades of violet flowstone billow
+ across the walls, and stalagmites cluster thickly around you. A pit
+ climbs up, a path runs down, and a path leads ahead.
+
+>ahead
+
+ Round Room
+ This is a round room. A small still pool lies to one side, and
+ delicate dark grey crystals grow everywhere. A wide passage leads
+ left, a low tunnel heads up, and a twisty pit runs down.
+
+>examine pool
+ Just a bit of muddy water that's gathered at a low point in the cave.
+
+>go down
+
+ Smallish Cavern
+ You are in a smallish cavern, with a low roof. Brown striations band
+ the walls. A chimney leads up, a twisting path leads forward, and a
+ wide crack goes left.
+
+>go up chimney
+
+ Small Cave
+ This is a small, elongated cave. The floor is crusted with wet sand. A
+ rough crack leads forward, a steep passage goes left, and a passage
+ leads right.
+
+>look
+
+ Small Cave
+ This is a small, elongated cave. The floor is crusted with wet sand. A
+ rough crack leads forward, a steep passage goes left, and a passage
+ leads right.
+
+>undo
+ Small Cave
+ [Previous turn undone.]
+
+>right
+
+ Elongated Pit
+ You are in an elongated pit. Stalactites hang low overhead, and
+ stalagmites cluster thickly around you. A low passage climbs up, a
+ tunnel heads left, and a passage heads right.
+
+>right
+
+ Cramped Room
+ This is a cramped, oblong room. Orange travertine seems to pour down
+ the wall nearby, and the air is chill and damp. A thick layer of mud
+ lies underfoot. A wide passage runs left, a path leads ahead, and a
+ wide tunnel goes right.
+
+>right
+
+ Pit
+ This is a pit. The floor is crusted with damp sand. A steep tunnel
+ leads up, a twisty passage leads right, and a steep crawl heads down.
+
+>right
+
+ Large Dome
+ You are in a large round dome. Gravel and small rock chips cover the
+ ground. Water trickles audibly, somewhere nearby. A crawl descends, a
+ twisty passage runs right, and a tunnel climbs up.
+
+>right
+
+ Dull Room
+ This is a dull room. Lacy, twisted pillars rise from floor to roof. A
+ twisting tunnel goes right, a tunnel goes left, and a twisting passage
+ leads up.
+
+>right
+ You grimly push your aching feet onward.
+
+ Tiny Cavern
+ You are in a tiny, elongated cavern which is mazed with fine cracks.
+ Water trickles audibly, somewhere nearby, and cascades of greenish
+ flowstone billow across the walls. A path runs down, a tunnel leads
+ forward, and a narrow crawl leads left.
+
+>undo
+ Dull Room
+ [Previous turn undone.]
+
+>go up
+ You grimly push your aching feet onward.
+
+ Largish Cave
+ You are in a largish roundish cave. A thin layer of mud lies
+ underfoot. Ropy pillars rise from floor to roof, and a small still
+ pool lies to one side. A crack runs left, a narrow crawl ascends, and
+ a twisty passage descends.
+
+>left
+
+ Tiny Cavern
+ You are in a tiny, oblong cavern. A thin layer of mud lies underfoot.
+ Needles of white calcite spray from the rocks nearby, and a small
+ still pool lies to one side. A chimney ascends, a rough path runs
+ right, and a tunnel descends.
+
+>go down
+
+ Roundish Pit
+ This is a roundish pit. Needles of pale grey calcite spray from the
+ rocks here and there, and gravel and chipped rock cover the ground. A
+ twisting crawl heads right, a passage runs down, and a narrow tunnel
+ leads ahead.
+
+>go down
+
+ Tiny Cavern
+ You are in a tiny cavern. Fine dry sand is drifted delicately across
+ the floor. A twisty pit heads down, a steep tunnel goes left, and a
+ twisting path leads right.
+
+>undo
+ Roundish Pit
+ [Previous turn undone.]
+
+>ahead
+
+ Largish Dome
+ This is a largish, elongated dome. Delicate brown crystals grow
+ everywhere. A narrow crack goes right, a twisty passage leads up, and
+ a twisting passage leads down.
+
+>go down
+
+ Dull Room
+ This is a dull room. Gravel and chipped rock cover the ground. Water
+ trickles audibly, somewhere nearby. A tunnel descends, a tunnel leads
+ ahead, and a twisty tunnel heads left.
+
+>undo
+ Largish Dome
+ [Previous turn undone.]
+
+>right
+
+ Large Pit
+ You are in a large round pit. Water trickles audibly, somewhere
+ nearby. A wide crawl leads right, a passage leads left, and a wide
+ path heads up.
+
+>go up
+
+ Dull Room
+ This is a dull room. A thick layer of mud lies underfoot. Stalactites
+ form heavy stone fringes across the roof, and a small still pool lies
+ to one side. A passage leads ahead, a passage runs left, and a narrow
+ passage runs right.
+
+>undo
+ Large Pit
+ [Previous turn undone.]
+
+>right
+
+ Smallish Cave
+ You are in a smallish cave. A thin layer of mud lies underfoot. The
+ uncertain light seems a bit brighter. A rough tunnel leads ahead, a
+ narrow path descends, and a rough tunnel heads left.
+
+>ahead
+
+ Large Pit
+ You are in a large round pit. Water trickles audibly, somewhere
+ nearby. A wide crawl leads right, a passage leads left, and a wide
+ path heads up.
+
+>go up
+ You grimly push your aching feet onward.
+
+ Dull Room
+ This is a dull room. A thick layer of mud lies underfoot. Stalactites
+ form heavy stone fringes across the roof, and a small still pool lies
+ to one side. A passage leads ahead, a passage runs left, and a narrow
+ passage runs right.
+
+>smell
+ The air smells of old mud.
+
+>listen
+ Stone-silence. Water drips somewhere.
+
+ You catch a distant whiff of something.
+
+>ahead
+
+ Large Dome
+ This is a large, oblong dome. A thick layer of mud lies underfoot. The
+ uncertain light seems a bit dimmer. A steep crack climbs up, a crawl
+ leads ahead, and a wide passage heads left.
+
+>undo
+ Dull Room
+ [Previous turn undone.]
+
+>left
+
+ Tiny Cavern
+ This is a tiny roundish cavern which is mazed with fine cracks. The
+ uncertain light seems a bit brighter, and lacy, twisted pillars rise
+ from floor to roof. A tunnel heads right, a low crack heads up, and a
+ crack runs down.
+
+>go down
+
+ Cramped Cavern
+ You are in a cramped cavern, with a high roof. Stalactites hang low
+ overhead, and you can hear water rushing in the distance. The ground
+ is worn into polished flowing curves. A pit leads down, a low chimney
+ ascends, and a passage leads ahead.
+
+>undo
+ Tiny Cavern
+ [Previous turn undone.]
+
+>listen
+ Stone-silence. Water drips somewhere.
+
+ You catch a whiff of something rank.
+
+>go up
+
+ Dull Room
+ This is a dull room. A thick layer of mud lies underfoot. Stalactites
+ form heavy stone fringes across the roof, and a small still pool lies
+ to one side. A passage leads ahead, a passage runs left, and a narrow
+ passage runs right.
+
+>undo
+ Tiny Cavern
+ [Previous turn undone.]
+
+>look
+
+ Tiny Cavern
+ This is a tiny roundish cavern which is mazed with fine cracks. The
+ uncertain light seems a bit brighter, and lacy, twisted pillars rise
+ from floor to roof. A tunnel heads right, a low crack heads up, and a
+ crack runs down.
+
+>examine pillars
+ Hours ago, you might have been impressed.
+
+>examine cracks
+ You can't see any such thing.
+
+>examine light
+ You can't see any such thing.
+
+>examine walls
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+ You shake your head, side to side, trying to push off the weight of
+ weariness for another few minutes. Keep moving.
+
+>left
+ You can see no way through in that direction.
+
+>go crack
+ Which do you mean, the low crack up or the crack down?
+
+>go low crack
+
+ Dull Room
+ This is a dull room. A thick layer of mud lies underfoot. Stalactites
+ form heavy stone fringes across the roof, and a small still pool lies
+ to one side. A passage leads ahead, a passage runs left, and a narrow
+ passage runs right.
+
+>go right
+
+ Dull Room
+ You are in a dull room. Brown travertine seems to pour endlessly down
+ the wall nearby. A twisty tunnel leads forward, a pit leads down, and
+ a twisty crawl goes left.
+
+>forward
+
+ Roundish Pit
+ This is a roundish pit. Needles of pale grey calcite spray from the
+ rocks here and there, and gravel and chipped rock cover the ground. A
+ twisting crawl heads right, a passage runs down, and a narrow tunnel
+ leads ahead.
+
+>undi
+ That's not a verb I recognize.
+
+>undo
+ Roundish Pit
+ [Previous turn undone.]
+
+>go down
+
+ Tiny Cavern
+ You are in a tiny cavern. Fine dry sand is drifted delicately across
+ the floor. A twisty pit heads down, a steep tunnel goes left, and a
+ twisting path leads right.
+
+>go down
+
+ Largish Cave
+ You are in a largish, elongated cave. The uncertain light seems a bit
+ dimmer, and stalactites form heavy stone fringes across the roof. A
+ low crawl leads forward, a wide passage runs down, and a low path
+ leads left.
+
+>go down
+
+ Tiny Cavern
+ You are in a tiny, oblong cavern. A thin layer of mud lies underfoot.
+ Needles of white calcite spray from the rocks nearby, and a small
+ still pool lies to one side. A chimney ascends, a rough path runs
+ right, and a tunnel descends.
+
+>go down
+
+ Roundish Pit
+ This is a roundish pit. Needles of pale grey calcite spray from the
+ rocks here and there, and gravel and chipped rock cover the ground. A
+ twisting crawl heads right, a passage runs down, and a narrow tunnel
+ leads ahead.
+
+>go down
+ You grimly push your aching feet onward.
+
+ Tiny Cavern
+ You are in a tiny cavern. Fine dry sand is drifted delicately across
+ the floor. A twisty pit heads down, a steep tunnel goes left, and a
+ twisting path leads right.
+
+>go down
+
+ Largish Cave
+ You are in a largish, elongated cave. The uncertain light seems a bit
+ dimmer, and stalactites form heavy stone fringes across the roof. A
+ low crawl leads forward, a wide passage runs down, and a low path
+ leads left.
+
+>go down
+
+ Tiny Cavern
+ You are in a tiny, oblong cavern. A thin layer of mud lies underfoot.
+ Needles of white calcite spray from the rocks nearby, and a small
+ still pool lies to one side. A chimney ascends, a rough path runs
+ right, and a tunnel descends.
+
+>go down
+
+ Roundish Pit
+ This is a roundish pit. Needles of pale grey calcite spray from the
+ rocks here and there, and gravel and chipped rock cover the ground. A
+ twisting crawl heads right, a passage runs down, and a narrow tunnel
+ leads ahead.
+
+>go down
+
+ Tiny Cavern
+ You are in a tiny cavern. Fine dry sand is drifted delicately across
+ the floor. A twisty pit heads down, a steep tunnel goes left, and a
+ twisting path leads right.
+
+>right
+
+ Tiny Cavern
+ This is a tiny roundish cavern which is mazed with fine cracks. The
+ uncertain light seems a bit brighter, and lacy, twisted pillars rise
+ from floor to roof. A tunnel heads right, a low crack heads up, and a
+ crack runs down.
+
+>right
+
+ Largish Cave
+ You are in a largish roundish cave. A thin layer of mud lies
+ underfoot. Ropy pillars rise from floor to roof, and a small still
+ pool lies to one side. A crack runs left, a narrow crawl ascends, and
+ a twisty passage descends.
+
+>acsend
+ That's not a verb I recognize.
+
+>go down
+
+ Smallish Cave
+ This is a smallish round cave, with a low roof. You can hear water
+ rushing in the distance. A low path leads left, a rough crawl leads
+ right, and a crawl heads up.
+
+>right
+
+ Tiny Cavern
+ You are in a tiny cavern. Fine dry sand is drifted delicately across
+ the floor. A twisty pit heads down, a steep tunnel goes left, and a
+ twisting path leads right.
+
+>right
+
+ Tiny Cavern
+ This is a tiny roundish cavern which is mazed with fine cracks. The
+ uncertain light seems a bit brighter, and lacy, twisted pillars rise
+ from floor to roof. A tunnel heads right, a low crack heads up, and a
+ crack runs down.
+
+>go down
+
+ Cramped Cavern
+ You are in a cramped cavern, with a high roof. Stalactites hang low
+ overhead, and you can hear water rushing in the distance. The ground
+ is worn into polished flowing curves. A pit leads down, a low chimney
+ ascends, and a passage leads ahead.
+
+>go down
+ You grimly push your aching feet onward.
+
+ Small Cave
+ You are in a small round cave. Ragged fringes of violet mineral hang
+ from the ceiling, and stalagmites cluster thickly around you. A crack
+ heads left, a twisting crawl leads ahead, and a tunnel heads right.
+
+>ahead
+
+ Largish Cave
+ You are in a largish roundish cave. A thin layer of mud lies
+ underfoot. Ropy pillars rise from floor to roof, and a small still
+ pool lies to one side. A crack runs left, a narrow crawl ascends, and
+ a twisty passage descends.
+
+>undo
+ Small Cave
+ [Previous turn undone.]
+
+>right
+
+ Largish Dome
+ This is a largish dome. Needles of yellow calcite spray from the rocks
+ nearby. A steep crawl leads down, a twisting tunnel leads forward, and
+ a low tunnel goes left.
+
+>ahead
+
+ Roundish Room
+ This is a roundish room. Stalagmites cluster thickly around you. You
+ can hear water rushing in the distance. A narrow passage heads left, a
+ twisty tunnel runs right, and a twisting path climbs up.
+
+>go up
+
+ Pit
+ This is a pit. The floor is crusted with damp sand. A steep tunnel
+ leads up, a twisty passage leads right, and a steep crawl heads down.
+
+>go up
+
+ Tiny Cavern
+ This is a tiny roundish cavern. Gravel and chipped rock cover the
+ ground. Stalactites hang low overhead, and the uncertain light seems a
+ bit brighter. A narrow chimney descends, a crack leads ahead, and a
+ narrow passage runs left.
+
+>smell
+ The air smells of old mud.
+
+>listen
+ Stone-silence. Water drips somewhere.
+
+ You catch a distant whiff of something.
+
+>smell
+ The faintest trace of the animal hangs in the air. It seems stronger
+ near the crack ahead.
+
+>ahead
+
+ Smallish Cavern
+ You are in a smallish roundish cavern. Stalactites form heavy stone
+ fringes across the ceiling. A wide path leads down, a low crack goes
+ right, and a rough crawl leads up.
+
+>sniff
+ The air smells of old mud.
+
+>sniff
+ The air smells of old mud.
+
+ You catch a distant whiff of something.
+
+>sniff
+ The faintest trace of the animal hangs in the air. It seems stronger
+ near the low crack to the right.
+
+>right
+ You grimly push your aching feet onward.
+
+ Large Dome
+ You are in a large, elongated dome. Stalagmites cluster thickly around
+ you. You can hear water rushing in the distance. A passage heads left,
+ a twisting tunnel descends, and a wide passage leads ahead.
+
+>sniff
+ The smell of the animal is stronger here. It's coming from the passage
+ to the left.
+
+ You catch a whiff of something rank from the passage to the left.
+
+>left
+
+ Cramped Room
+ This is a cramped round room, with a high roof. Ropy pillars rise from
+ floor to roof, and a small still pool lies to one side. Gravel and
+ chipped rock cover the ground. A rough tunnel goes right, a narrow pit
+ ascends, and a pit leads down.
+
+>sniff
+ The smell of the animal is stronger here. It's coming from the pit
+ leading down.
+
+ You catch a whiff of something rank from the pit leading down.
+
+>go down
+
+ Small Cave
+ This is a small, elongated cave, with a high roof. Stalactites form
+ heavy stone fringes across the roof, and a small still pool lies to
+ one side. Gravel and chipped rock cover the ground. A steep crawl
+ leads ahead, a passage ascends, and a tunnel leads down.
+
+ The scent of the animal hangs all around you. It's welling from the
+ steep crawl ahead.
+
+>ahead
+ The steep crawl opens abruptly into vast space.
+
+ Top of Slope
+ You emerge onto a steep slope, high above a canyon that stretches out
+ of sight to either side. Twisted and stalactite-hung stone forms a
+ vault overhead, which glimmers with reflections of some unseen source
+ of light; but the canyon below is shadowed. Water rushes somewhere at
+ its root. You could climb farther down, and a narrow crevice leads
+ back into the rock.
+
+ Movement, on a level area on the far side of the canyon, partway down.
+ Something gliding silently back and forth, back and forth. Your prey.
+ Waiting.
+
+>save
+>jen05
+ Enter saved game to store: Ok.
+
+>go down
+ You turn, test your balance, and begin edging down the slope. And your
+ foot slips.
+
+ You fling your arms out, heedless of your possessions. You grasp at
+ nothing.
+
+ Much too tired for this, you think, as you skid wildly down the
+ canyon. A danger to yourself and everyone around you. And below, you
+ add with distant amusement, before the bottom arrives with a horrible
+ jolt.
+
+>space
+
+ Base of Canyon
+ You must be getting better at this. You're only freshly bruised. Lying
+ still, even on cold stone, is painfully easy... but after a few
+ minutes, you find yourself struggling to stand.
+
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. You think, against your will, that it was worth
+ it.
+
+ And then the light is blocked, and a dark and stinking shape looms
+ over you. You are an intruder; and the beast has claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>restore
+>jen05
+ Enter saved game to load: Ok.
+
+>look
+
+ Top of Slope
+ You have emerged onto a steep slope, high above a canyon that
+ stretches out of sight to either side. Twisted and stalactite-hung
+ stone forms a vault overhead, which glimmers with reflections of some
+ unseen source of light; but the canyon below is shadowed. Water rushes
+ somewhere at its root. You could climb farther down, and a narrow
+ crevice leads back into the rock.
+
+ Movement, on a level area on the far side of the canyon, partway down.
+ Something gliding silently back and forth, back and forth. Your prey.
+ Waiting.
+
+ Your foot slips. For a moment your fatigue flares into panic, as you
+ clutch to steady yourself, but you know you are tired, tired. This
+ must end soon. Too much blood. Too much stone.
+
+>inventory
+ You are carrying some cloth strips (tied around your wounded hands),
+ your crossbow, a thighband with four bolts (strapped to your leg), and
+ a cracked and darkened lamplens (on your wrist).
+
+>back
+
+ Small Cave
+ This is a small, elongated cave, with a high roof. Stalactites form
+ heavy stone fringes across the roof, and a small still pool lies to
+ one side. Gravel and chipped rock cover the ground. A steep crawl
+ leads ahead, a passage ascends, and a tunnel leads down.
+
+>undo
+ Top of Slope
+ [Previous turn undone.]
+
+>examine slope
+ Which do you mean, the slope above or the slope below?
+
+>examine slope above
+ The canyon wall slopes upward to meet the roof.
+
+>examine slope below
+ The canyon wall slants away below. Old, old stone has been water-worn,
+ layer by layer, into a deep, V-shaped canyon. It doesn't look an
+ impossible climb, even tired as you are, if you take care.
+
+>examine stone
+ Limestone, streaked and banded, rippled and bulged and twisted like
+ the flesh of some living thing. You've seen many caves before, but the
+ beauty never wearies.
+
+>climb down
+ You turn, test your balance, and begin edging down the slope. And your
+ foot slips. Again.
+
+ You fling your arms out, heedless of your possessions. You grasp at
+ nothing.
+
+ Much too tired for this, you think, as you skid wildly down the
+ canyon. A danger to yourself and everyone around you. And below, you
+ add with distant amusement, before the bottom arrives with a horrible
+ jolt.
+
+>look
+
+ Base of Canyon
+ You must be getting better at this. You're only freshly bruised. Lying
+ still, even on cold stone, is painfully easy... but after a few
+ minutes, you find yourself struggling to stand.
+
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. You think, against your will, that it was worth
+ it.
+
+ And then the light is blocked, and a dark and stinking shape looms
+ over you. You are an intruder; and the beast has claws.
+
+
+     *** You have died ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ or QUIT?
+>undo
+ Top of Slope
+ [Previous turn undone.]
+
+>sit
+ What do you want to sit on top of?
+
+>on slope
+ You can't see any such thing.
+
+>go up
+ You only manage to ascend a few feet before the stone becomes too
+ smooth and featureless. The roof of the cavern is out of reach.
+
+>left
+ The slope is steeper on both sides of you. You cannot safely traverse
+ the canyonside in either direction.
+
+>right
+ The slope is steeper on both sides of you. You cannot safely traverse
+ the canyonside in either direction.
+
+>ahead
+ You can see no way through in that direction.
+
+>look
+
+ Top of Slope
+ You have emerged onto a steep slope, high above a canyon that
+ stretches out of sight to either side. Twisted and stalactite-hung
+ stone forms a vault overhead, which glimmers with reflections of some
+ unseen source of light; but the canyon below is shadowed. Water rushes
+ somewhere at its root. You could climb farther down, and a narrow
+ crevice leads back into the rock.
+
+ Movement, on a level area on the far side of the canyon, partway down.
+ Something gliding silently back and forth, back and forth. Your prey.
+ Waiting.
+
+>examine prey
+ The creature does not look small, even from up here, even
+ half-unformed by canyon shadows. It prowls across a wide ledge across
+ the canyon and below your level. You do not think it knows you are
+ here.
+
+>get bolt
+ You slide a bolt from your thighband.
+
+>load bolt
+ (the bolt)
+ (the bolt into the crossbow)
+ You put the bolt into the crossbow.
+
+>cock crossbow
+ You pull down the lever, winching the string back until it locks.
+
+>shoot prey
+ Tunk. And you flinch at the hissing shriek that echoes up the cave
+ walls.
+
+ The dark shape flees -- not climbing, but running down the canyon
+ slope, vanishing in the depths. Your thudding pulse slows.
+
+ Moments later, barely sensed, the scent of blood. You have wounded the
+ Wumpus.
+
+>save
+>jen06
+ Enter saved game to store: Ok.
+
+>go down
+ You turn, test your balance, and begin edging down the slope. And your
+ foot slips. Again.
+
+ You fling your arms out, heedless of your possessions. You grasp at
+ nothing.
+
+ Much too tired for this, you think, as you skid wildly down the
+ canyon. A danger to yourself and everyone around you. And below, you
+ add with distant amusement, before the bottom arrives with a horrible
+ jolt.
+
+>space
+
+ Base of Canyon
+ You must be getting better at this. You're only freshly bruised. Lying
+ still, even on cold stone, is painfully easy... but after a few
+ minutes, you find yourself struggling to stand.
+
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. You think, against your will, that it was worth
+ it.
+
+ A crevice runs along the canyon at your feet. You can cross it and
+ continue on ahead.
+
+ The Wumpus certainly fled this way: a pool of thick, dark, reeking
+ blood is spilled across the ground. Bats crawl all around it --
+ rustling, fluttering, feasting.
+
+ A bat chitters angrily at its neighbor.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>ahead
+ You heave yourself wearily over the crevice, and approach the twisted
+ formations that make up the far canyon wall...
+
+ And you round a pillar, and stop there. Here? Now?
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them; but you don't think you can get to it right now.
+
+ The Wumpus is crouched before you. Blood trickles from the wound your
+ bolt tore, down its hide, puddling on the floor.
+
+ It holds your crossbow in its claws; gently cradled; loaded and
+ cocked; steady on your throat.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>back
+ You back up, trying not to take your eyes from its eyes. It works, or
+ the Wumpus decides to allow it.
+
+ Base of Canyon
+ You are in an alcove, a side chamber at the base of a vaulting canyon.
+ The walls spread upward around you. And the distant roof is hung with
+ glimmering stars -- droplet-tipped stalactites in some hidden
+ suffusion of light. A crevice runs along the canyon at your feet. You
+ can cross it and continue on ahead.
+
+ A pool of thick, dark, reeking blood is spilled across the ground.
+ Bats crawl all around it -- rustling, fluttering, feasting.
+
+>examine bats
+ Bats squat all around the spill of clotting blood. They do not seem to
+ be paying you much heed; they are intent on their feast.
+
+ A bat chitters angrily at its neighbor.
+
+>examine blood
+ Which do you mean, your bloody wound or the pool of blood?
+
+>examine blood pool
+ The pool is clotted and dark, nearly black in this dim light. It is
+ bitter and foul; it already smells of decay. And bats squat all around
+ it.
+
+>inventory
+ You are carrying some cloth strips (tied around your wounded hands), a
+ thighband with three bolts (strapped to your leg), and a cracked and
+ darkened lamplens (on your wrist).
+
+ ...And no crossbow. Right.
+
+>take cloth
+ You already have those.
+
+>remove cloth
+ You carefully unwrap the cloth from your hands. The worst of the
+ bleeding has stopped, although there is still a fierce ache and a slow
+ trickle of blood.
+
+>show cloth to bats
+ You can only do that to something animate.
+
+>dip cloth in blood
+ That's not a verb I recognize.
+
+>wave
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+ A bat suddenly pokes its stained nose up above the pool, casting
+ about.
+
+>wave
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+>wave
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+ Two of the bats rattle up and begin circling above you.
+
+>wave
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+>wave
+ You put your hands up in the air and wave them like -- you feel
+ foolish.
+
+ Several of the bats are fluttering in the air around you, ignoring the
+ drying pool of blood nearby.
+
+>ahead
+ A cluster of bats flickers after you, chittering. You hunch your
+ shoulders and try to ignore them.
+
+ You heave yourself wearily over the crevice, and approach the twisted
+ formations that make up the far canyon wall.
+
+ Canyon Wall
+ Massive buttresses of stone rise all around you, climbing the canyon
+ wall, flowing down again in cascades of pale fluorite. A path seems to
+ climb up among them; but you don't think you can get to it right now.
+
+ The Wumpus is crouched before you. Blood trickles from the wound your
+ bolt tore, down its hide, puddling on the floor. It holds your
+ crossbow in its claws; gently cradled; loaded and cocked; steady on
+ your throat.
+
+ The bats dive forward, then rise, emitting glass-shrill cries.
+
+>wait
+ Time passes.
+
+ More bats are arriving, streaming across the canyon.
+
+>wait
+ Time passes.
+
+ The swarm grows thicker, swirling above the Wumpus, which tosses its
+ head around angrily before returning its gaze to you.
+
+>wait
+ Time passes.
+
+ The Wumpus grunts, and swats at an overbold bat. The tiny shape
+ shrieks and falls broken to the ground; but the Wumpus hisses as well,
+ and shakes blood from its forelimb.
+
+ And the swarm descends.
+
+>go up
+ You take a hesitant step sideways. And another, sliding past the
+ beast, trying to be a thin part of the canyon wall...
+
+ The Wumpus, lashing out at bats, doesn't seem to notice.
+
+ Rising Path
+ You are partway up the canyon wall, on a narrow path that climbs from
+ ledge to ledge. The cavern is vast around you, water-hewn strata
+ stretching upward to the stone forest of the roof; and somewhere above
+ you, a crack of daylight sets it all glimmering...
+
+ Down on the canyon floor, the Wumpus thrashes within a rustling black
+ cloud. Dark growls rise to you.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+ The Wumpus screams.
+
+>go up
+ You pick your way... slowly... up the canyon wall. Everything is
+ heavy; you're glad you have nothing more to carry.
+
+ Somewhere below, a hissing scream is cut off, abruptly. You round a
+ pale fold of limestone, and you are blinded by daylight.
+
+
+
+     *** It's over ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?

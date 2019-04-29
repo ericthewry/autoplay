@@ -1,0 +1,2991 @@
+>load mandefra
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ It's June 2001, and the pre-emptive Foot and Mouth culls are becoming
+ increasingly barbarous. On a remote Cumbrian farm, a DEFRA official has
+ arrived to oversee the slaughter of an uninfected goat herd, despite
+ the protestations of the farmer, despite the promise of a
+ court-approved reprieve the next morning.
+
+ Someone's got to delay the culling of your herd. And that someone is
+ you.
+
+
+
+ THE MAN FROM DEFRA
+ Written for the 24 Hours of Inform contest
+ (Type 'about' for further details)
+ Copyright (C) 2002 by Kevan Davis (kevan@kevan.org)
+ Release 1 / Serial number 020228 / Inform v6.21 Library 6/9 S
+
+ The Goat Shed
+ Four damp dry-stone walls, and a cold wind turning to cast rain through
+ the only window, rattling at the door as it goes. Your herd is here,
+ clustered on the drier side of the straw-strewn floor, next to the
+ feeding trough.
+
+>examine me
+ You're a grey-fawn Toggenburg with two impressively-curling horns and a
+ particularly smart beard.
+
+>inventory
+ Your mouth is empty.
+
+>search straw
+ You nose the straw around, revealing nothing.
+
+>butt
+ What do you want to butt?
+
+>kick
+ What do you want to kick?
+
+>baa
+ You can't see any such thing.
+
+>maa
+ That's not a verb I recognise.
+
+>mah
+ That's not a verb I recognise.
+
+>examine trough
+ A low metal feeding trough is bolted to the southern wall, a slatted
+ barrier giving each of the herd a feeding space.
+
+>moo
+ That's not a verb I recognise.
+
+ What do you want to bleat at?
+
+>bleat at me
+ You bleat at yourself.
+
+>bleat at herd
+ You bleat at the herd. They blink at you, but otherwise offer no
+ reaction.
+
+>eat straw
+ But it's filthy.
+
+>eat herd
+ You are vegetarian.
+
+>examine herd
+ Two shaggy-looking males, three placid females, and a couple of nervous
+ kids. The goats chew pensively on nothing, their rectangular pupils
+ staring variously around the shed.
+
+>kick herd
+ A couple of the larger males fight you off, and stare at you with a
+ confused anger.
+
+>undo
+ The Goat Shed
+ [Previous turn undone.]
+
+>kick barier
+ You can't see any such thing.
+
+>kick barrier
+ Violence isn't the answer to this one.
+
+>eat barrier
+ That's plainly inedible.
+
+>kick trough
+ Violence isn't the answer to this one.
+
+>examine trough
+ A low metal feeding trough is bolted to the southern wall, a slatted
+ barrier giving each of the herd a feeding space.
+
+>pull trough
+ You are unable to.
+
+>examine barrier
+ A low metal feeding trough is bolted to the southern wall, a slatted
+ barrier giving each of the herd a feeding space.
+
+>butt barrier
+ Violence isn't the answer to this one.
+
+>look
+
+ The Goat Shed
+ Four damp dry-stone walls, and a cold wind turning to cast rain through
+ the only window, rattling at the door as it goes. Your herd is here,
+ clustered on the drier side of the straw-strewn floor, next to the
+ feeding trough.
+
+>examine door
+ A thick wooden board, not quite the right shape to fit the doorframe,
+ is set in the western wall. It's criss-crossed with three or four
+ generations of scratches, punctuated with impatient kick-holes.
+
+>open door
+ You push against the door with your forehead, but something is holding
+ it shut.
+
+>kick door
+ Your horns clatter against the door, but it remains closed.
+
+>butt door
+ Your horns clatter against the door, but it remains closed.
+
+>examine window
+ A roughly square hole in the western wall looks out onto the yard, and
+ the farm beyond.
+
+>enter window
+ Clambering up the stony wall, you crane your neck through the window...
+
+ View from the Goat Shed
+ You look out onto the fenced-in square of concrete, the exercise yard
+ and recreation area for your herd. The shed door rattles in the wind,
+ beside you.
+
+>examine door
+ The wooden board is heavily weathered on this side, and shakes
+ violently in the wind. A short length of blue-plastic rope has been
+ tied between a nail in the door, and a hook on the wall outside.
+
+>bite rope
+ That's not a verb I recognise.
+
+>butt rope
+ Violence isn't the answer to this one.
+
+>eat rope
+ Stretching your neck, you are just able to take the rope between your
+ teeth. Lifting it from the hook, you attempt to pull it free from the
+ door, but it seems too firmly attached.
+
+ You let go, and the rope falls to hang limply from the door.
+
+ [Your score has just gone up by one point.]
+
+>bleat at door
+ You bleat at the goat-shed door.
+
+>open door
+ You can't reach the door from here.
+
+>go down
+ You can't go that way.
+
+>in
+
+ The Goat Shed
+
+>open door
+ You push the door open, struggling slightly against the wind.
+
+>out
+ But you aren't in anything at the moment.
+
+>go north
+ You can't go that way.
+
+>go west
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go north
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+>examine vehcile
+ You can't see any such thing.
+
+>examine vehicle
+ It looks like one of the big, wheeled machines that the farmer uses,
+ but is of an unfamiliar greyish colour.
+
+ Now that you are closer to it, you realise that an unpleasant smell is
+ seeping from it.
+
+>smell vehicle
+ The machine smells of death, of dead and burnt flesh.
+
+>examine wheel
+ You can't see any such thing.
+
+>bleat at vehicle
+ You bleat at the grey vehicle.
+
+>open vehicle
+ That's not something you can open.
+
+>kick vehicle
+ With a cantering run-up, you crash angrily against its flank.
+
+>examine windows
+ You can't see any such thing.
+
+>go east
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ A bucket of disinfectant sits at the side of the road.
+
+>examine bucket
+ The sturdy plastic bucket has been filled with an acrid-smelling
+ disinfectant.
+
+>examine pit
+ The pit looks to be about half a leg deep, and is as wide as the track.
+
+>look in pit
+ You find nothing of interest.
+
+>enter pit
+ That's not something you can enter.
+
+>examine hedge
+ That's not something you need to refer to in the course of this game.
+
+>eat hedge
+ That's not something you need to refer to in the course of this game.
+
+>go down
+ You can't go that way.
+
+>go east
+ Your hooves slip and falter as you try to step across the rungs - you
+ back off before you fall and hurt yourself.
+
+>look
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ A bucket of disinfectant sits at the side of the road.
+
+>get bucket
+ Taken.
+
+>inventory
+ You are carrying a bucket of disinfectant, in your mouth.
+
+>go west
+
+ Courtyard
+
+>drop bucket
+ Dropped.
+
+>verbose
+ THE MAN FROM DEFRA is now in its "verbose" mode, which always gives
+ long descriptions of locations (even if you've been there before).
+
+>go west
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens. A length of yellow-and-black
+ plastic tape has been drawn across the gateway.
+
+>examine tape
+ Yellow-and-black striped tape has been stretched taut between the
+ gateposts to the south, slapping and fluttering loudly in the wind.
+
+>go north
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+>eat tape
+ You can't see any such thing.
+
+>undo
+ Barn
+ [Previous turn undone.]
+
+>go south
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens. A length of yellow-and-black
+ plastic tape has been drawn across the gateway.
+
+>eat tape
+ You chew savagely at the unpleasant-tasting tape - it gradually weakens
+ under the grinding of your teeth, before snapping and spiralling away
+ to each side.
+
+>look
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go south
+
+ Abandoned Pens
+ These low concrete buildings were home to a dozen or so ill-tempered
+ pigs, the last time you came this way. The pens are empty, now, a
+ single sheet of corrugated iron clanking forlornly in the wind.
+
+>examine pens
+ That's not something you need to refer to in the course of this game.
+
+>examine iron
+ Once a roof, the sheet-metal is now only held in place by a couple of
+ rusting bolts. It runs diagonally down into the mud, and buckles back
+ and forth as the wind catches it.
+
+>eat iron
+ That's plainly inedible.
+
+>kick iron
+ You batter your horns against it fiercely. One of the bolts pops free.
+
+>kick iron
+ Another assault, and the second bolt snaps. With a groan, the
+ corrugated metal slides into the mud.
+
+ [Your score has just gone up by one point.]
+
+>look
+
+ Abandoned Pens
+ These low concrete buildings were home to a dozen or so ill-tempered
+ pigs, the last time you came this way. The pens are empty, now, nothing
+ but mud and rainwater.
+
+ You can see a sheet of corrugated iron here.
+>eat bolt
+
+ That's not something you need to refer to in the course of this game.
+
+>get iron
+ Clamping your teeth around a bolt-hole, you just about manage to drag
+ the thing with you.
+
+>eat it
+ That's plainly inedible.
+
+>examine pens
+ That's not something you need to refer to in the course of this game.
+
+>go north
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go east
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+ You can see a bucket of disinfectant here.
+
+>go east
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+>put iron on pit
+ You drop the sheet just before the pit, and nudge it forward along the
+ ground. With a rhythmic clanging, the grooves of the corrugated iron
+ match the rungs above the pit - it is not long before the metal spans
+ the pit entirely.
+
+ [Your score has just gone up by one point.]
+
+>go east
+
+ On the Road
+ You stand nervously on the muddy B-road that connects the farm to the
+ outside world. The open sky has a grey heaviness to it, tinged with red
+ and black from what seems to be a fire in a field to the east. The
+ field's gate, across the road, has been left open, while your farm lies
+ back to the west.
+
+ You notice lights moving in the field, and a dark green vehicle
+ suddenly rumbles into view, framed in the gateway. The engine cuts out
+ as the driver - a thick-set man in white overalls - catches sight of
+ you, a clearly fugitive goat. Before you can react, the vehicle door
+ has swung open, and a shotgun has been fired.
+
+
+     *** Your adventure is over ***
+
+
+ In that game you scored 3 out of a possible 6, in 71 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Farm Gate
+ [Previous turn undone.]
+
+>go west
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+ You can see a bucket of disinfectant here.
+
+>go west
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go north
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+>look
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+>examine haybales
+ Dozens of grey-yellow haybales have been stacked heavily around the
+ barn, reaching almost to the roof at the back.
+
+>examine chickens
+ The birds peck and scratch around the floor of the barn, occasionally
+ jerking their heads up to stare at you with orange-eyed suspicion.
+
+>inventory
+ Your mouth is empty.
+
+>eat hay
+ You pull out a few strands of hay, and chew on them thoughtfully.
+
+>climb hay
+ They're too soft and precarious to merit any worthwhile climbing.
+
+>bleat at chickens
+ You bleat at the chickens.
+
+>examine walls
+ You can't see any such thing.
+
+>chickens, follow me
+ You bleat.
+
+ Craning behind them and nudging a few others aside, you fail to find
+ anything other than haybales.
+
+>examine me
+ You're a grey-fawn Toggenburg with two impressively-curling horns and a
+ particularly smart beard.
+
+>delegate to beard
+ That's not a verb I recognise.
+
+>go south
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go east
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+ You can see a bucket of disinfectant here.
+
+>go north
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+>examine farmhouse
+ You can't see any such thing.
+
+>examine window
+ The window looks into the farmhouse's kitchen. You can make out two
+ human figures inside.
+
+>go west
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. As you
+ trot towards it, the kennel begins to make a growling noise.
+
+>undo
+ Farmhouse
+ [Previous turn undone.]
+
+>examine figures
+ You can just about recognise the face of the farmer. The other human,
+ clad in strange black-and-grey clothes and seated at the large wooden
+ table, seems unfamiliar. They talk loudly and angrily to one another.
+
+>bleat at farmer
+ You bleat at the humans.
+
+>examine other
+ (the farmhouse window)
+ The window looks into the farmhouse's kitchen. You can make out two
+ human figures inside.
+
+>listen to window
+ You don't understand their noises.
+
+>attack executioner
+ You can't see any such thing.
+
+>go west
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. As you
+ trot towards it, the kennel begins to make a growling noise.
+
+>examine kennel
+ A very small wooden building, barely big enough for a kid. Slumped in
+ the shadows within is a large dog, which you think might belong to the
+ farmer.
+
+>examine dog
+ The heavily-built black dog stares out at you malevolently, growling
+ with his side-teeth slightly bared.
+
+ That's not a verb I recognise.
+
+>hello dog
+ That's not a verb I recognise.
+
+>bark
+ That's not a verb I recognise.
+
+>bleat at dog
+ You bleat at the dog.
+
+>go north
+ As you pass the kennel, the dog bounds out and - his chain pulled taut
+ - begins to bark loudly.
+
+ The door to the farmhouse swings open, the farmer emerging onto the
+ driveway. Seeing you and the dog, he pads across and grabs you by the
+ neck, pulling you back before leading you gently to the goat shed.
+
+ The rope on the door is tied tightly, and the farmer walks away. After
+ maybe ten minutes, there is the sound of another vehicle turning up -
+ ten minutes after that, the door is pulled open and half a dozen DEFRA
+ slaughtermen burst in with bolt-guns.
+
+
+     *** Your adventure is over ***
+
+
+ In that game you scored 3 out of a possible 6, in 96 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Corner of the House
+ [Previous turn undone.]
+
+>go south
+ A thick, brambly hedge blocks your way.
+
+>look
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. The
+ farmer's dog glares out from the shadows of his home, growling darkly.
+
+>go east
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+>go south
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+ You can see a bucket of disinfectant here.
+
+>go south
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go south
+ You can't go that way.
+
+>go east
+
+ The Goat Shed
+ Four damp dry-stone walls, and a cold wind turning to cast rain through
+ the only window, rattling at the door as it goes. Your herd is here,
+ clustered on the drier side of the straw-strewn floor, next to the
+ feeding trough.
+
+>examine trough
+ A low metal feeding trough is bolted to the southern wall, a slatted
+ barrier giving each of the herd a feeding space.
+
+>look in it
+ You nose inquisitively at the feed, but there is nothing to be found.
+ All of the interesting tidbits were rooted out and eaten earlier.
+
+>examine straw
+ The brittle grey-yellow straw has been soaked and flattened against the
+ concrete.
+
+>get straw
+ But it's filthy.
+
+>take trough
+ That's hardly portable.
+
+>go north
+ You can't go that way.
+
+>get rope
+ You can't see any such thing.
+
+>go west
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>get rope
+ You are unable to detach it from the door.
+
+>go east
+
+ The Goat Shed
+ Four damp dry-stone walls, and a cold wind turning to cast rain through
+ the only window, rattling at the door as it goes. Your herd is here,
+ clustered on the drier side of the straw-strewn floor, next to the
+ feeding trough.
+
+>search herd
+ You find nothing of interest.
+
+>bleat at herd
+ You bleat at the herd. They blink at you, but otherwise offer no
+ reaction.
+
+>herd, now is the time for all good goats to come to the aid of their herd
+ You bleat at the herd. They blink at you, but otherwise offer no
+ reaction. Goats never take orders, even from other goats.
+
+>examine window
+ A roughly square hole in the western wall looks out onto the yard, and
+ the farm beyond.
+
+>examine door
+ The door has been opened, revealing the yard.
+
+>examine walls
+ You can't see any such thing.
+
+>examine floor
+ You see nothing special about the floor.
+
+>go west
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go west
+ You can't go that way.
+
+>examine gate
+ A gate of sturdy metal tubing, carelessly left open.
+
+>examine concrete
+ You can't see any such thing.
+
+>examine shed
+ You can't see any such thing.
+
+>eat gate
+ That's plainly inedible.
+
+>take gate
+>kick gate
+ That's hardly portable.
+
+ Violence isn't the answer to this one.
+
+ Some sort of locking mechanism is holding it open.
+
+ You can't see any such thing.
+
+>eat mechanism
+ You can't see any such thing.
+
+>go north
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+ You can see a bucket of disinfectant here.
+
+>get bucket
+ Taken.
+
+>get bucket
+ You already have that.
+
+>go south
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go east
+
+ The Goat Shed
+ Four damp dry-stone walls, and a cold wind turning to cast rain through
+ the only window, rattling at the door as it goes. Your herd is here,
+ clustered on the drier side of the straw-strewn floor, next to the
+ feeding trough.
+
+>put bucket on straw
+ Putting things on the straw would achieve nothing.
+
+>drop bucket
+ Dropped.
+
+>kick bucket
+ You knock the bucket over. The evil disinfectant splashes out in a
+ murky yellow tidal wave, spreading to form a puddle.
+
+>undo
+ The Goat Shed
+ [Previous turn undone.]
+
+>SAVE
+>cf1
+ Enter saved game to store: Ok.
+
+>inventory
+ Your mouth is empty.
+
+>get bucket
+ Taken.
+
+>go north
+ You can't go that way.
+
+>go west
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go north
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+>go west
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go north
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+>go south
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go north
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+>drop bucket. kick it
+ Dropped.
+ You knock the bucket over. The evil disinfectant splashes out in a
+ murky yellow tidal wave, spreading to form a puddle.
+
+>undo
+ Barn
+ [Previous turn undone.]
+
+>get bucket
+ You already have that.
+
+>go south
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go east
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+>go north
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+>go west
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. The
+ farmer's dog glares out from the shadows of his home, growling darkly.
+
+>throw bucket at dog
+ You lack the nerve when it comes to the crucial moment.
+
+>drop bucket
+ Dropped.
+
+>kick it
+ You knock the bucket over. The evil disinfectant splashes out in a
+ murky yellow tidal wave, spreading to form a puddle.
+
+>undo
+ Corner of the House
+ [Previous turn undone.]
+
+>/undo
+ Corner of the House
+ [Previous turn undone.]
+
+ You find nothing of interest.
+
+ You can't see any such thing.
+
+>go south
+ A thick, brambly hedge blocks your way.
+
+>go east
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+>go south
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+>go south
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go east
+
+ The Goat Shed
+ Four damp dry-stone walls, and a cold wind turning to cast rain through
+ the only window, rattling at the door as it goes. Your herd is here,
+ clustered on the drier side of the straw-strewn floor, next to the
+ feeding trough.
+
+>look in trough
+ You nose inquisitively at the feed, but there is nothing to be found.
+ All of the interesting tidbits were rooted out and eaten earlier.
+
+>examine feed
+ The trough is about a quarter-full of mixed grains - oats, barley and
+ soya pellets, mainly. Any extra leaves or vegetables have long since
+ been eaten.
+
+>get feed
+ Your mouth is already full.
+
+>drop bucket
+ Dropped.
+
+>get feed
+ You reach through a gap in the barrier and take a mouthful of the feed,
+ holding it on your tongue.
+
+>go north
+ You can't go that way.
+
+>go west
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go north
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+>go west
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go north
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+>drop feed
+ Dropped.
+
+ As you drop the feed, the chickens begin to flock around you, pecking
+ enthusiastically at the grain.
+
+>go south
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>undo
+ Barn
+ [Previous turn undone.]
+
+>look
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+ You can see a small pile of goat-feed here.
+
+>get feed
+ Taken.
+
+ The chickens peck up the last few stray grains.
+
+>inventory
+ You are carrying a mouthful of goat-feed, in your mouth.
+
+>go south
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go north
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+>chickens, follow me
+ You bleat.
+
+>bleat at chickens
+ You bleat at the chickens.
+
+>show feed to chickens
+ The chickens are unimpressed.
+
+ That's not a verb I recognise.
+
+>inventory
+ You are carrying a mouthful of goat-feed, in your mouth.
+
+>give feed to chickens
+ The chickens don't seem interested.
+
+>feed chickens
+ (to the chickens)
+ (first taking the chickens)
+ They beat their wings and scrabble out of your reach.
+
+>drop feed
+ Dropped.
+
+ As you drop the feed, the chickens begin to flock around you, pecking
+ enthusiastically at the grain.
+
+ They beat their wings and scrabble out of your reach.
+
+ The chickens continue to peck at the scattered goat-feed.
+
+>inventory
+ Your mouth is empty.
+
+ Another chicken flaps down from the haybales to join the feast.
+
+>wait
+ Time passes.
+
+ With a hungry murmuring, the chickens peck at the grain.
+
+>wait
+ Time passes.
+
+ With a hungry murmuring, the chickens peck at the grain.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>go south
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go east
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+>go south
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go east
+
+ The Goat Shed
+ Four damp dry-stone walls, and a cold wind turning to cast rain through
+ the only window, rattling at the door as it goes. Your herd is here,
+ clustered on the drier side of the straw-strewn floor, next to the
+ feeding trough.
+
+ You can see a bucket of disinfectant here.
+
+>get feed
+ You reach through a gap in the barrier and take a mouthful of the feed,
+ holding it on your tongue.
+
+>go west
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go north
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+>go west
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go north
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+ You can see a small pile of goat-feed here.
+
+ The chickens continue to peck at the scattered goat-feed.
+
+ One of the bolder chickens struts out of the barn to the south, but
+ soon returns. She goes back to pecking through the grain.
+
+>go south
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>drop feed
+ Dropped.
+
+>go east
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+>go south
+
+ The Goat Yard
+ This fenced-off square of washed-down concrete is as much of the world
+ as your herd has seen, for the past few weeks. The metal gate has been
+ left open to the north.
+
+>go east
+
+ The Goat Shed
+ Four damp dry-stone walls, and a cold wind turning to cast rain through
+ the only window, rattling at the door as it goes. Your herd is here,
+ clustered on the drier side of the straw-strewn floor, next to the
+ feeding trough.
+
+ You can see a bucket of disinfectant here.
+
+>brief
+ THE MAN FROM DEFRA is now in its normal "brief" printing mode, which
+ gives long descriptions of places never before visited and short
+ descriptions otherwise.
+
+>get feed
+ You reach through a gap in the barrier and take a mouthful of the feed,
+ holding it on your tongue.
+
+>w. n.
+
+ The Goat Yard
+
+ Courtyard
+
+>go west
+
+ Junction
+
+ You can see a small pile of goat-feed here.
+
+>go east
+
+ Courtyard
+
+>drop feed
+ Dropped.
+
+>go south
+
+ The Goat Yard
+
+>go east
+
+ The Goat Shed
+
+ You can see a bucket of disinfectant here.
+
+>get feed
+ You reach through a gap in the barrier and take a mouthful of the feed,
+ holding it on your tongue.
+
+>go west
+
+ The Goat Yard
+
+>go north
+
+ Courtyard
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Farmhouse
+
+>drop feed
+ Dropped.
+
+>go south
+
+ Courtyard
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Junction
+
+ You can see a small pile of goat-feed here.
+
+>go west
+ A thick hedge blocks your path.
+
+>go north
+
+ Barn
+
+ You can see a small pile of goat-feed here.
+
+ One of the bolder chickens struts out of the barn to the south, and
+ does not return.
+
+>go south
+
+ Junction
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+ The chicken wanders away to the north, pecking hungrily at the floor.
+
+>inventory
+ Your mouth is empty.
+
+>go north
+
+ Barn
+
+ You can see a small pile of goat-feed here.
+
+ With a hungry murmuring, the chickens peck at the grain.
+
+ One of the bolder chickens struts out of the barn to the south, and
+ does not return.
+
+>get feed
+ Taken.
+
+ The chickens peck up the last few stray grains.
+
+>look
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>go south
+
+ Junction
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Barn
+
+>attack chicken
+ They beat their wings and scrabble out of your reach.
+
+>take feed
+ You already have that.
+
+>go south
+
+ Junction
+
+ You can see a small pile of goat-feed here.
+
+>drop feed
+ (the mouthful of goat-feed)
+ Dropped.
+
+>go north
+
+ Barn
+
+>take feed
+ You can't see any such thing.
+
+>go south
+
+ Junction
+
+ You can see two small piles of goat-feed here.
+
+>get feed
+ Taken.
+
+>go east
+
+ Courtyard
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+>go north
+
+ Farmhouse
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Corner of the House
+
+>go north
+ As you pass the kennel, the dog bounds out and - his chain pulled taut
+ - begins to bark loudly.
+
+ The door to the farmhouse swings open, the farmer emerging onto the
+ driveway. Seeing you and the dog, he pads across and grabs you by the
+ neck, pulling you back before leading you gently to the goat shed.
+
+ The rope on the door is tied tightly, and the farmer walks away. After
+ maybe ten minutes, there is the sound of another vehicle turning up -
+ ten minutes after that, the door is pulled open and half a dozen DEFRA
+ slaughtermen burst in with bolt-guns.
+
+
+     *** Your adventure is over ***
+
+
+ In that game you scored 3 out of a possible 6, in 232 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Corner of the House
+ [Previous turn undone.]
+
+>drop feed
+ Dropped.
+
+>go south
+ A thick, brambly hedge blocks your way.
+
+>go east
+
+ Farmhouse
+
+ You can see a small pile of goat-feed here.
+
+>get feed
+ Taken.
+
+>drop it
+ Dropped.
+
+>go south
+
+ Courtyard
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+>go south
+
+ The Goat Yard
+
+>go north
+
+ Courtyard
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+>go south
+
+ The Goat Yard
+
+>go east
+
+ The Goat Shed
+
+ You can see a bucket of disinfectant here.
+
+>get feed
+ You reach through a gap in the barrier and take a mouthful of the feed,
+ holding it on your tongue.
+
+>go west
+
+ The Goat Yard
+
+>go north
+
+ Courtyard
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+ The chicken pecks impatiently at the grain.
+
+>go west
+
+ Junction
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Barn
+
+>drop feed
+ Dropped.
+
+ As you drop the feed, the chickens begin to flock around you, pecking
+ enthusiastically at the grain.
+
+>go south
+
+ Junction
+
+ You can see a small pile of goat-feed here.
+
+>go east
+
+ Courtyard
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+>wait
+ Time passes.
+
+ The chicken triumphantly picks out a speck of what might be linseed.
+
+>go south
+
+ The Goat Yard
+
+>go east
+
+ The Goat Shed
+
+ You can see a bucket of disinfectant here.
+
+>get bucket
+ Taken.
+
+>go west
+
+ The Goat Yard
+
+>go north
+
+ Courtyard
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Farmhouse
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+ The chicken wanders away to the west, pecking hungrily at the floor.
+
+ You watch as the chicken, pecking blindly along the ground, wanders too
+ close to the dog's kennel. There is a brief but frenzied period of
+ barking and squawking, before the chicken flaps away.
+
+ The farmhouse door swings open in front of you, the farmer stepping out
+ into the rain. He seems surprised to see you standing outside, and -
+ ruffling your hair - leads you gently back to the goat shed.
+
+ The rope on the door is tied tightly, and the farmer walks away. After
+ maybe ten minutes, there is the sound of another vehicle turning up -
+ ten minutes after that, the door is pulled open and half a dozen DEFRA
+ slaughtermen burst in with bolt-guns.
+
+
+     *** Your adventure is over ***
+
+
+ In that game you scored 3 out of a possible 6, in 257 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Courtyard
+ [Previous turn undone.]
+
+>wait
+ Time passes.
+
+ A chicken arrives from the north, strutting directly to the pile of
+ goat-feed.
+
+>wait
+ Time passes.
+
+>go north
+
+ Farmhouse
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Corner of the House
+
+ You can see a small pile of goat-feed here.
+
+>examine dog
+ The heavily-built black dog stares out at you malevolently, growling
+ with his side-teeth slightly bared.
+
+>go east
+
+ Farmhouse
+
+ You can see a small pile of goat-feed here.
+
+>go south
+
+ Courtyard
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Junction
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Barn
+
+ You can see a small pile of goat-feed here.
+
+ The chickens pick barley grains out of the dirt on the floor.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+ The chickens pick barley grains out of the dirt on the floor.
+
+>wait
+ Time passes.
+
+ Another chicken flaps down from the haybales to join the feast.
+
+>wait
+ Time passes.
+
+ Another chicken flaps down from the haybales to join the feast.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>go south
+
+ Junction
+
+ You can see a small pile of goat-feed here.
+
+>go east
+
+ Courtyard
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Farmhouse
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Corner of the House
+
+ You can see a small pile of goat-feed here.
+
+>go east
+
+ Farmhouse
+
+ You can see a small pile of goat-feed here.
+
+>go south
+
+ Courtyard
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Junction
+
+ You can see a small pile of goat-feed here.
+
+>go west
+ A thick hedge blocks your path.
+
+>go north
+
+ Barn
+
+ You can see a small pile of goat-feed here.
+
+ The chickens continue to peck at the scattered goat-feed.
+
+>wait
+ Time passes.
+
+ The chickens pick barley grains out of the dirt on the floor.
+
+>wait
+ Time passes.
+
+ The chickens continue to peck at the scattered goat-feed.
+
+>wait
+ Time passes.
+
+ Another chicken flaps down from the haybales to join the feast.
+
+ One of the bolder chickens struts out of the barn to the south, and
+ does not return.
+
+>eat feed
+ You crunch the husks and pellets between your heavy teeth, swallowing
+ it all down.
+
+ The chickens peck up the last few stray grains.
+
+>get feed
+ You can't see any such thing.
+
+>nice
+ That's not a verb I recognise.
+
+>go south
+
+ Junction
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+ The chicken wanders away to the east, pecking hungrily at the floor.
+
+>eat feed
+ You crunch the husks and pellets between your heavy teeth, swallowing
+ it all down.
+
+>go east
+
+ Courtyard
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+ The lone chicken scrabbles hungrily through the goat-feed.
+
+>wait
+ Time passes.
+
+ The lone chicken scrabbles hungrily through the goat-feed.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+ The lone chicken scrabbles hungrily through the goat-feed.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>look
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+>eat feed
+ You crunch the husks and pellets between your heavy teeth, swallowing
+ it all down.
+
+>undo
+ Courtyard
+ [Previous turn undone.]
+
+>wait
+ Time passes.
+
+ The chicken pecks impatiently at the grain.
+
+>wait
+ Time passes.
+
+ The chicken pecks impatiently at the grain.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>look
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+ The chicken triumphantly picks out a speck of what might be linseed.
+
+>wait
+ Time passes.
+
+ The chicken pecks impatiently at the grain.
+
+>wait
+ Time passes.
+
+ The chicken wanders away to the north, pecking hungrily at the floor.
+
+>eat grain
+ You crunch the husks and pellets between your heavy teeth, swallowing
+ it all down.
+
+>go north
+
+ Farmhouse
+
+ You can see a single chicken and a small pile of goat-feed here.
+
+>wait
+ Time passes.
+
+>SAVE
+>cf2
+ Enter saved game to store: Ok.
+
+>kick chicken
+ Flapping her wings in alarm, the bird turns tail and scrabbles back to
+ the safety of the barn.
+
+>undo
+ Farmhouse
+ [Previous turn undone.]
+
+>go south
+
+ Courtyard
+
+>go south
+
+ The Goat Yard
+
+>go east
+
+ The Goat Shed
+
+ You hear a far-off barking, closely followed by a panicked fluttering
+ and squawking. A moment or two passes, and you hear the farmer
+ shouting, the dog whining. A door slams.
+
+ [Your score has just gone up by one point.]
+
+>go west
+
+ The Goat Yard
+
+>go north
+
+ Courtyard
+
+>go north
+
+ Farmhouse
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Corner of the House
+
+ You can see a small pile of goat-feed here.
+
+>SAVE
+>cf3
+ Enter saved game to store: Ok.
+
+>go north
+
+ Side of House
+ You stand at the hedged-off side of the farmhouse, the back door to the
+ east swinging open in the wind, and a path winding south to the front
+ of the building.
+
+ A short stick is leant up against the wall.
+
+>verbose
+ THE MAN FROM DEFRA is now in its "verbose" mode, which always gives
+ long descriptions of locations (even if you've been there before).
+
+>get stick
+ Your mouth is already full.
+
+>examine stick
+ A rough wooden stick, about as long as one of your legs.
+
+>inventory
+ You are carrying a bucket of disinfectant, in your mouth.
+
+>drop it
+ The stick is already here.
+
+>drop bucket
+ Dropped.
+
+>go east
+
+ Inside the Farmhouse
+ The house doesn't look so impressive now that you're inside - the tiled
+ floor is criss-crossed with muddy footprints, the air smells of dung
+ and disinfectant, and it's no less cold than outside. Doors lead east,
+ into the house, and west, to outside.
+
+ You can see a rain hat and a coat here.
+
+>eat coat
+ That's plainly inedible.
+
+>eat hat
+ That's plainly inedible.
+
+>examine coat
+ A thin, matt-green waterproof coat, far too big for you and smelling
+ strongly of disinfectant.
+
+>wear coat
+ (first taking the coat)
+ You fling it loosely over your back, pulling it into shape around your
+ neck. The unpleasant rubber lining sticks slightly against your own
+ coat.
+
+>wear hat
+ (first taking the rain hat)
+ You throw it into the air, catching it on your horns. A few shakes of
+ the head, and it seems to stay in place reasonably enough.
+
+>go west
+
+ Side of House
+ You stand at the hedged-off side of the farmhouse, the back door to the
+ east swinging open in the wind, and a path winding south to the front
+ of the building.
+
+ A short stick is leant up against the wall.
+
+ You can also see a bucket of disinfectant here.
+
+>go south
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. It seems
+ to be empty.
+
+ You can see a small pile of goat-feed here.
+
+>go east
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+ You can see a small pile of goat-feed here.
+
+>go east
+ A hedge blocks your way.
+
+>go south
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ An unfamiliar vehicle has been parked here.
+
+>go east
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ You can see a sheet of corrugated iron here.
+
+>go east
+
+ On the Road
+ You stand nervously on the muddy B-road that connects the farm to the
+ outside world. The open sky has a grey heaviness to it, tinged with red
+ and black from what seems to be a fire in a field to the east. The
+ field's gate, across the road, has been left open, while your farm lies
+ back to the west.
+
+ You notice lights moving in the field, and a dark green vehicle
+ suddenly rumbles into view, framed in the gateway. The driver - a
+ thick-set man in white overalls - glances briefly in your direction,
+ but either fails to notice you, or mistakes your form for that of a
+ crouching human.
+
+ The vehicle pulls across the road, disappearing through the gate of
+ your farm, rumbling across the metal-runged pit.
+
+ [Your score has just gone up by one point.]
+
+>go east
+
+ Ruined Field
+ Deep, wide vehicle-tracks have cut across this ravaged field, all
+ heading towards some sort of bonfire on the eastern side. Ash-black
+ smoke rolls into the night sky, glowing a bloody red in the light of
+ the fires.
+
+>go east
+
+ Funereal Pyre
+ A deep trench has been dug along the eastern side of the field, piled
+ full of the carcasses of infected or suspected cattle. Red and orange
+ flames curl and flicker around the corpses, and a choking pall of black
+ smoke pours into the sky.
+
+>examine corpses
+ You can't see any such thing.
+
+>carcasses
+ That's not a verb I recognise.
+
+>go east
+ You can go no further.
+
+>go south
+ You can't go that way.
+
+>go north
+ You can't go that way.
+
+>examine fire
+ The pit has been filled with dead cattle, soaked with petrol and
+ flammable disinfectant, and set alight. Blackish smoke rises from the
+ charred carcasses, and tongues of flame curl here and there.
+
+>about
+
+
+
+
+
+
+
+
+                                     About
+  N = next subject                                                  P =
+  RETURN = read subject                                          Q = re
+ sume game
+  Information is available on the following matters:-
+
+      DEFRA
+
+>go north
+
+                                     About
+  N = next subject                                                  P =
+  RETURN = read subject                                          Q = re
+ sume game
+  Information is available on the following matters:-
+
+      Hours of Inform
+
+
+
+
+
+
+
+
+
+ DEFRA is the Department of Environment, Food and Rural Affairs
+ (previously MAFF), the UK government agency responsible for carrying
+ out the variously-questionable "contiguous culling" of over seven
+ million farm animals during the 2001 Foot and Mouth epidemic.
+
+ [Please press SPACE.]
+
+
+
+
+
+
+
+
+                                     About
+  N = next subject                                                  P =
+  RETURN = read subject                                          Q = re
+ sume game
+  Information is available on the following matters:-
+
+      Hours of Inform
+
+>q
+
+
+
+
+
+
+
+
+ Funereal Pyre
+ A deep trench has been dug along the eastern side of the field, piled
+ full of the carcasses of infected or suspected cattle. Red and orange
+ flames curl and flicker around the corpses, and a choking pall of black
+ smoke pours into the sky.
+
+>go west
+
+ Ruined Field
+ Deep, wide vehicle-tracks have cut across this ravaged field, all
+ heading towards some sort of bonfire on the eastern side. Ash-black
+ smoke rolls into the night sky, glowing a bloody red in the light of
+ the fires.
+
+>go west
+
+ On the Road
+ You stand nervously on the muddy B-road that connects the farm to the
+ outside world. The open sky has a grey heaviness to it, tinged with red
+ and black from what seems to be a fire in a field to the east. The
+ field's gate, across the road, has been left open, while your farm lies
+ back to the west.
+
+>go west
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ You can see a sheet of corrugated iron here.
+
+>go west
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ Two unfamiliar vehicles have been parked here.
+
+>examine vehicles
+ You can't see any such thing.
+
+>examine vehicle
+ Which do you mean, the green vehicle or the grey vehicle?
+
+>green
+ Similar to the other one, but green. Looking through the window, you
+ can see a rack of shotguns and bolt-guns, and numerous wooden boxes.
+
+>examine grey
+ It looks like one of the big, wheeled machines that the farmer uses,
+ but is of an unfamiliar greyish colour.
+
+ Now that you are closer to it, you realise that an unpleasant smell is
+ seeping from it.
+
+>examine boxes
+ That's not something you need to refer to in the course of this game.
+
+>examine box
+ That's not something you need to refer to in the course of this game.
+
+>prepare a delicious goat dish
+ That's not a verb I recognise.
+
+>go north
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. It seems
+ to be empty.
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Side of House
+ You stand at the hedged-off side of the farmhouse, the back door to the
+ east swinging open in the wind, and a path winding south to the front
+ of the building.
+
+ A short stick is leant up against the wall.
+
+ You can also see a bucket of disinfectant here.
+
+>go east
+
+ Inside the Farmhouse
+ The house doesn't look so impressive now that you're inside - the tiled
+ floor is criss-crossed with muddy footprints, the air smells of dung
+ and disinfectant, and it's no less cold than outside. Doors lead east,
+ into the house, and west, to outside.
+
+>go east
+ You can't, since the white door is in the way.
+
+>examine door
+ Which do you mean, the back door or the white door?
+
+>white
+ A flat white door, leading to the rest of the house.
+
+>drop coat
+ (first taking the coat off)
+ You shake it off onto the ground.
+ Dropped.
+
+>open white door
+ It seems to be locked.
+
+>equip shotgun
+ That's not a verb I recognise.
+
+>kick white door
+ Violence isn't the answer to this one.
+
+>wear coat
+ (first taking the coat)
+ You're already wearing that!
+
+>get bucket
+ You can't see any such thing.
+
+>inventory
+ Your mouth is empty.
+
+ You are wearing a coat and a rain hat.
+
+>get bucket
+ You can't see any such thing.
+
+>go west
+
+ Side of House
+ You stand at the hedged-off side of the farmhouse, the back door to the
+ east swinging open in the wind, and a path winding south to the front
+ of the building.
+
+ A short stick is leant up against the wall.
+
+ You can also see a bucket of disinfectant here.
+
+>get bucket
+ Taken.
+
+>go south
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. It seems
+ to be empty.
+
+ You can see a small pile of goat-feed here.
+
+>go east
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+ You can see a small pile of goat-feed here.
+
+>go east
+ A hedge blocks your way.
+
+>go south
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ Two unfamiliar vehicles have been parked here.
+
+>drop bucket
+ Dropped.
+
+>go north
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. It seems
+ to be empty.
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Side of House
+ You stand at the hedged-off side of the farmhouse, the back door to the
+ east swinging open in the wind, and a path winding south to the front
+ of the building.
+
+ A short stick is leant up against the wall.
+
+>get stick
+ Taken.
+
+>inventory
+ You are carrying a stick, in your mouth.
+
+ You are wearing a coat and a rain hat.
+
+>go south
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. It seems
+ to be empty.
+
+ You can see a small pile of goat-feed here.
+
+>go east
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+ You can see a small pile of goat-feed here.
+
+>go south
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ Two unfamiliar vehicles have been parked here.
+
+ You can see a bucket of disinfectant here.
+
+>SAVE
+>cf4
+>go east
+ Enter saved game to store: Ok.
+
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ You can see a sheet of corrugated iron here.
+
+>go east
+
+ On the Road
+ You stand nervously on the muddy B-road that connects the farm to the
+ outside world. The open sky has a grey heaviness to it, tinged with red
+ and black from what seems to be a fire in a field to the east. The
+ field's gate, across the road, has been left open, while your farm lies
+ back to the west.
+
+>go east
+
+ Ruined Field
+ Deep, wide vehicle-tracks have cut across this ravaged field, all
+ heading towards some sort of bonfire on the eastern side. Ash-black
+ smoke rolls into the night sky, glowing a bloody red in the light of
+ the fires.
+
+>go east
+
+ Funereal Pyre
+ A deep trench has been dug along the eastern side of the field, piled
+ full of the carcasses of infected or suspected cattle. Red and orange
+ flames curl and flicker around the corpses, and a choking pall of black
+ smoke pours into the sky.
+
+>light stick
+ You hold the end of the stick to one of the pyre's flames - after a
+ while the end begins to smoulder, before slowly blossoming into fire.
+
+>go west
+
+ Ruined Field
+ Deep, wide vehicle-tracks have cut across this ravaged field, all
+ heading towards some sort of bonfire on the eastern side. Ash-black
+ smoke rolls into the night sky, glowing a bloody red in the light of
+ the fires.
+
+>go west
+
+ On the Road
+ You stand nervously on the muddy B-road that connects the farm to the
+ outside world. The open sky has a grey heaviness to it, tinged with red
+ and black from what seems to be a fire in a field to the east. The
+ field's gate, across the road, has been left open, while your farm lies
+ back to the west.
+
+>go west
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ You can see a sheet of corrugated iron here.
+
+>go west
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ Two unfamiliar vehicles have been parked here.
+
+ You can see a bucket of disinfectant here.
+
+>kick bucket
+ You knock the bucket over. The evil disinfectant splashes out in a
+ murky yellow tidal wave, spreading to form a puddle beneath the two
+ vehicles.
+
+>light puddle
+ The noxious disinfectant bursts into fire with a roaring purple flame,
+ quickly enveloping the two DEFRA vehicles. As the tyres melt and the
+ paint peels away, you are quick to retreat to the goat yard, and the
+ safety of the shed.
+
+ Craning your neck through the window, you can make out the DEFRA
+ official emerging from the farmhouse with four of his slaughtermen.
+ They watch in disbelief as their transport and equipment is consumed by
+ the blaze, backing away as one petrol tank ignites, followed by the
+ other.
+
+ The fire doesn't spread, and begins to die down, but the local fire
+ brigade arrive within twenty minutes or so. Exasperated by the accident
+ and the stirrings of media attention, the DEFRA men vanish silently
+ into the night.
+
+ You settle down into the straw, and wait for the sunrise.
+
+
+     *** You have won ***
+
+
+ In that game you scored 6 out of a possible 6, in 380 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>restore
+>RESTORE
+>cf4
+ Enter saved game to load: Restore failed.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+ Please give one of the answers above.
+>RESTORE
+>cf4
+ Enter saved game to load: Ok.
+
+>drop stick
+ Dropped.
+
+>get bucket
+ Taken.
+
+>go west
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go north
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+>drop bucket
+ Dropped.
+
+>kick bucket
+ You knock the bucket over. The evil disinfectant splashes out in a
+ murky yellow tidal wave, spreading to form a puddle.
+
+>go south
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go east
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ Two unfamiliar vehicles have been parked here.
+
+ You can see a stick here.
+
+>get stick
+ Taken.
+
+>inventory
+ You are carrying a stick, in your mouth.
+
+ You are wearing a coat and a rain hat.
+
+>light vehicle
+ Which do you mean, the green vehicle or the grey vehicle?
+
+>grey
+ You have no source of flame.
+
+>go east
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ You can see a sheet of corrugated iron here.
+
+>go east
+
+ On the Road
+ You stand nervously on the muddy B-road that connects the farm to the
+ outside world. The open sky has a grey heaviness to it, tinged with red
+ and black from what seems to be a fire in a field to the east. The
+ field's gate, across the road, has been left open, while your farm lies
+ back to the west.
+
+>go east
+
+ Ruined Field
+ Deep, wide vehicle-tracks have cut across this ravaged field, all
+ heading towards some sort of bonfire on the eastern side. Ash-black
+ smoke rolls into the night sky, glowing a bloody red in the light of
+ the fires.
+
+>go east
+
+ Funereal Pyre
+ A deep trench has been dug along the eastern side of the field, piled
+ full of the carcasses of infected or suspected cattle. Red and orange
+ flames curl and flicker around the corpses, and a choking pall of black
+ smoke pours into the sky.
+
+>light stick
+ You hold the end of the stick to one of the pyre's flames - after a
+ while the end begins to smoulder, before slowly blossoming into fire.
+
+>go west
+
+ Ruined Field
+ Deep, wide vehicle-tracks have cut across this ravaged field, all
+ heading towards some sort of bonfire on the eastern side. Ash-black
+ smoke rolls into the night sky, glowing a bloody red in the light of
+ the fires.
+
+>go west
+
+ On the Road
+ You stand nervously on the muddy B-road that connects the farm to the
+ outside world. The open sky has a grey heaviness to it, tinged with red
+ and black from what seems to be a fire in a field to the east. The
+ field's gate, across the road, has been left open, while your farm lies
+ back to the west.
+
+>go west
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ You can see a sheet of corrugated iron here.
+
+>go west
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ Two unfamiliar vehicles have been parked here.
+
+>go west
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+>go north
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+
+ You can see a puddle of disinfectant and a bucket (which is empty)
+ here.
+
+>light puddle
+ The noxious disinfectant bursts into fire with a roaring purple flame,
+ and begins to blazes away under its own fuel, acidic orange smoke
+ swirling up into the sky. It is not long before the farmer and the
+ DEFRA slaughtermen emerge from the farmhouse to investigate.
+
+
+     *** Your adventure is over ***
+
+
+ In that game you scored 5 out of a possible 6, in 392 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>restore
+>cf4
+ Enter saved game to load: Ok.
+
+>look
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ Two unfamiliar vehicles have been parked here.
+
+ You can see a bucket of disinfectant here.
+
+>get bucket
+ Your mouth is already full.
+
+>drop stick. get bucket
+ Dropped.
+ Taken.
+
+>w n e
+ I only understood you as far as wanting to w.
+
+>w. n. e.
+
+ Junction
+ This rough dirt track curves into the barn to the north, while a
+ gateway opens south into the pig-pens.
+
+ Barn
+ A huge curve of corrugated metal sweeps overhead, resting on
+ half-repaired walls. Haybales are stacked and scattered out of the
+ rain, a ragtag flock of chickens pecking their aimless way around the
+ dirt floor.
+ You can't go that way.
+
+>undo
+ Courtyard
+ [Previous turn undone.]
+
+>n. w. e
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+ You can see a small pile of goat-feed here.
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. It seems
+ to be empty.
+
+ You can see a small pile of goat-feed here.
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. It seems
+ to be empty.
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Side of House
+ You stand at the hedged-off side of the farmhouse, the back door to the
+ east swinging open in the wind, and a path winding south to the front
+ of the building.
+
+>go east
+
+ Inside the Farmhouse
+ The house doesn't look so impressive now that you're inside - the tiled
+ floor is criss-crossed with muddy footprints, the air smells of dung
+ and disinfectant, and it's no less cold than outside. Doors lead east,
+ into the house, and west, to outside.
+
+>drop bucket
+ Dropped.
+
+>kick bucket
+ You knock the bucket over. The evil disinfectant splashes out in a
+ murky yellow tidal wave, spreading to form a puddle.
+
+>go west
+
+ Side of House
+ You stand at the hedged-off side of the farmhouse, the back door to the
+ east swinging open in the wind, and a path winding south to the front
+ of the building.
+
+>go south
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. It seems
+ to be empty.
+
+ You can see a small pile of goat-feed here.
+
+>go east
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+ You can see a small pile of goat-feed here.
+
+>go south
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ Two unfamiliar vehicles have been parked here.
+
+ You can see a stick here.
+
+>get stick. e.e.e.
+ Taken.
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ You can see a sheet of corrugated iron here.
+
+ On the Road
+ You stand nervously on the muddy B-road that connects the farm to the
+ outside world. The open sky has a grey heaviness to it, tinged with red
+ and black from what seems to be a fire in a field to the east. The
+ field's gate, across the road, has been left open, while your farm lies
+ back to the west.
+
+ Ruined Field
+ Deep, wide vehicle-tracks have cut across this ravaged field, all
+ heading towards some sort of bonfire on the eastern side. Ash-black
+ smoke rolls into the night sky, glowing a bloody red in the light of
+ the fires.
+
+>go east
+
+ Funereal Pyre
+ A deep trench has been dug along the eastern side of the field, piled
+ full of the carcasses of infected or suspected cattle. Red and orange
+ flames curl and flicker around the corpses, and a choking pall of black
+ smoke pours into the sky.
+
+>light stick
+ You hold the end of the stick to one of the pyre's flames - after a
+ while the end begins to smoulder, before slowly blossoming into fire.
+
+>w.w.w.w.n
+
+ Ruined Field
+ Deep, wide vehicle-tracks have cut across this ravaged field, all
+ heading towards some sort of bonfire on the eastern side. Ash-black
+ smoke rolls into the night sky, glowing a bloody red in the light of
+ the fires.
+
+ On the Road
+ You stand nervously on the muddy B-road that connects the farm to the
+ outside world. The open sky has a grey heaviness to it, tinged with red
+ and black from what seems to be a fire in a field to the east. The
+ field's gate, across the road, has been left open, while your farm lies
+ back to the west.
+
+ Farm Gate
+ The muddy track opens out onto the main road, here, cutting through a
+ thick and brambly hedge. A low pit has been sunk into the track just
+ before the road, topped with a series of parallel rungs.
+
+ You can see a sheet of corrugated iron here.
+
+ Courtyard
+ A roughly-bordered area of freshly-laid tarmac marks the centre of the
+ farm - the goat shed and its yard lie back to the south, while the
+ farmhouse is north. Dirt tracks lead east and west, the eastern track
+ continuing out to the main road.
+
+ Two unfamiliar vehicles have been parked here.
+
+ Farmhouse
+ You've never quite understood why humans live in such large sheds,
+ particularly when they seem so bipedal. The farmhouse looks to be about
+ twenty times the size of the goat-shed, with glass in its windows and a
+ roof of straw. The path from the south winds through grass to the side
+ of the house, to the west.
+
+ You can see a small pile of goat-feed here.
+
+>go west
+
+ Corner of the House
+ A small wooden structure sits in the grass at the corner of the house,
+ here, at the point where the path curves around to the north. It seems
+ to be empty.
+
+ You can see a small pile of goat-feed here.
+
+>go north
+
+ Side of House
+ You stand at the hedged-off side of the farmhouse, the back door to the
+ east swinging open in the wind, and a path winding south to the front
+ of the building.
+
+>go east
+
+ Inside the Farmhouse
+ The house doesn't look so impressive now that you're inside - the tiled
+ floor is criss-crossed with muddy footprints, the air smells of dung
+ and disinfectant, and it's no less cold than outside. Doors lead east,
+ into the house, and west, to outside.
+
+ You can see a puddle of disinfectant and a bucket (which is empty)
+ here.
+
+>light puddle
+ The noxious disinfectant bursts into fire with a roaring purple flame,
+ and begins to blazes away under its own fuel, acidic orange smoke
+ swirling up into the sky. It is not long before the farmer and the
+ DEFRA slaughtermen emerge from the farmhouse to investigate.
+
+
+     *** Your adventure is over ***
+
+
+ In that game you scored 5 out of a possible 6, in 400 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?

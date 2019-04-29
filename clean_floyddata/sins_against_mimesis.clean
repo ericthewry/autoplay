@@ -1,0 +1,2764 @@
+>load mimesis
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Pain.  Unceasing pain.  Ever since your lover Black left, something to
+ do with a mysterious stranger and a time machine, your days have been
+ a dull blur of gray loneliness.  Perhaps you'd feel better if you got
+ out and did something.
+
+ Sins Against Mimesis
+ An Interactive Theosophy
+ Copyright 1997 by One of The Bruces (bruce@ifcompetition.org)
+ Release 1 / Serial number 970925 / Inform v6.14 Library 6/7
+
+ Living Room
+ This is the living room of your rather squalid apartment. The huge
+ compass rose on your floor reminds you that your bedroom is west, the
+ front hall is north, the kitchen is east, and the bathroom is south.
+
+ Your mimesis plant squats in its pot in a corner of the room, slowly
+ photosynthesizing.
+
+>examine me
+ As good-looking as ever.
+
+>inventory
+ You are carrying nothing.
+
+>examine plant
+ This is a prizewinning specimen of the species Mimesis Variegans.  It
+ is dark green, with yellow stripes on its luxurious leaves.  The
+ mimesis plant thrives in low light and requires occasional watering.
+ You've always preferred the variegated to the linear variety,
+ yourself.  This one is about ten inches high.  The plant looks rather
+ dry.
+
+ Your heart swells with pride as you consider your beautiful
+ houseplant.
+
+ There is a sharp crackling and a sudden smell of ozone, as something
+ appears in your hand.
+
+ [Your score has just gone up by one point.]
+
+>inventory
+ You are carrying:
+   a diskette case
+     "Curses"
+
+>examine compass
+ This is a compass rose inlaid on your floor, constructed painstakingly
+ from pine, mahogany, and oak.  You don't quite remember why you put it
+ in, but it had something to do with caving and survey shots.
+
+>examine curses
+ A floppy disk labelled "Curses".
+
+>eat disk
+ (the diskette case)
+ That's plainly inedible.
+
+>go south
+
+ Bathroom
+ The salient feature, to borrow a technique from Detective, is the exit
+ to the north.  Sure, there's a sink, a tub, a toilet, and a medicine
+ cabinet in here, but I promise you that you lose nothing by failing to
+ examine them.
+
+>examine cabinet
+ Really, it's still just scenery.
+
+ Author's Note: I'm certain I could make a bathtub you could bathe or
+ shower in, with hot or cold water, a toilet that flushed and removed
+ its contents, a medicine cabinet with a child-proof bottle within, and
+ a fluffy towel on which to dry off.  But I haven't, and frankly I
+ don't care that much about implementing bodily functions or sanitation
+ in the game.
+
+>examine sink
+ Really, it's still just scenery.
+
+>open cabinet
+ That's not something you can open.
+
+>go north
+
+ Living Room
+
+ Your mimesis plant squats in its pot in a corner of the room, slowly
+ photosynthesizing.
+
+>verbose
+ Sins Against Mimesis is now in its "verbose" mode, which always gives
+ long descriptions of locations (even if you've been there before).
+
+>look
+
+ Living Room
+ This is the living room of your rather squalid apartment. The huge
+ compass rose on your floor reminds you that your bedroom is west, the
+ front hall is north, the kitchen is east, and the bathroom is south.
+
+ Your mimesis plant squats in its pot in a corner of the room, slowly
+ photosynthesizing.
+
+>go east
+
+ Kitchen
+ This is your kitchen: walls papered in a yellow floral design,
+ counter, cabinet, stove, table, chairs, fridge, microwave, and so on.
+ The living room is west.
+
+ On the counter is a juice glass (which is empty).
+
+>examine microwave
+ Just your basic tiny microwave oven.  It has a big red button labelled
+ "Zap" on the front.  It is currently closed.
+
+>examine glass
+ The juice glass is empty.
+
+>get glass
+ Taken.
+
+>examine sink
+ This is a standard issue kitchen sink.  Rather than actually
+ implementing a faucet and two knobs, let's just say that you can fill
+ containers from it when you want to.  It is an unlimited source of the
+ finest tap water.
+
+>examine cabinet
+ Merely a plain wooden cabinet.
+
+>fill glass
+ The glass is now full of water.
+
+>open cabinet
+ You open the kitchen cabinet, revealing a red cardboard box.
+
+>examine box
+ Which do you mean, the red cardboard box or the diskette case?
+
+>red
+ This is a bright red box of "Sugar Coated Corn Puffs," a terrifyingly
+ unhealthy part of your complete breakfast.
+
+>take it
+ Taken.
+
+>read it
+ This is a bright red box of "Sugar Coated Corn Puffs," a terrifyingly
+ unhealthy part of your complete breakfast.
+
+>open red
+ Which do you mean, the red button, the refrigerator or the red
+ cardboard box?
+
+>open red cardboard
+ You open the red cardboard box, revealing some cereal and a toy.
+
+>take toy
+ Taken.
+
+>examine toy
+ This is an ugly blue plastic toy included as a prize in the box of
+ cereal.  It appears to have no use whatsoever, and indeed it is
+ unclear what, exactly, it is meant to represent.
+
+>eat toy
+ That's plainly inedible.
+
+>play with toy
+ That's not a verb I recognise.
+
+>open microwave
+ You open the microwave.
+
+>put toy in microwave
+ You put the toy into the microwave.
+
+>examine cereal
+ The Sugar Coated Corn Puffs are whitish-yellow, with a coating of
+ sugar.
+
+>close microwave
+ You close the microwave.
+
+>turn on microwave
+ The microwave hums briefly, and the toy vanishes in a plume of greasy
+ smoke.  You can almost hear the microwave chuckle evilly.
+
+>undo
+ Kitchen
+ [Previous turn undone.]
+
+>open microwave
+ You open the microwave, revealing a toy.
+
+>look
+
+ Kitchen
+ This is your kitchen: walls papered in a yellow floral design,
+ counter, cabinet, stove, table, chairs, fridge, microwave, and so on.
+ The living room is west.
+
+>take toy
+ Taken.
+
+>examine table
+ A white wooden table, large enough for two people to eat at
+ comfortably.
+
+>SAVE
+>cf1
+ Enter saved game to store: Ok.
+
+>examine fridge
+ This is a gigantic old fridge, bright red, of the latching-handle
+ variety.  It is closed.
+
+>open fridge
+ You open the refrigerator, revealing some Chinese food.
+
+>get food
+ Taken.
+
+>examine food
+ Some of last night's take-out General Tso's chicken.  It's spicy and
+ encased in a cardboard box for your convenience.  Cold and greasy,
+ though.
+
+>score
+ You have so far scored 1 out of a possible 7, in 41 turns, earning you
+ the rank of someone who doesn't try very hard.
+
+>put food in microwave
+ You put the Chinese food into the microwave.
+
+>fullscore
+ You have so far scored 1 out of a possible 7, in 42 turns, earning you
+ the rank of someone who doesn't try very hard.
+
+ The score is made up as follows:
+
+      1 Pride
+
+      1 total (out of 7)
+
+>close microwave
+ You close the microwave.
+
+>lick me
+ That's not a verb I recognise.
+
+>examine microwave
+ Just your basic tiny microwave oven.  It has a big red button labelled
+ "Zap" on the front.  It is currently closed.
+
+>smell me
+ You smell nothing unexpected.
+
+>push zap
+ The tantalizing aroma of hot Chinese food assails your nostrils.
+
+>enter microwave
+ That's not something you can enter.
+
+>open microwave
+ You open the microwave, revealing some Chinese food.
+
+>smell food
+ Mmmm!  Chili peppers.
+
+>eat food
+ (first taking the Chinese food)
+ With your bare hands?  You have better manners than that.
+
+>look
+
+ Kitchen
+ This is your kitchen: walls papered in a yellow floral design,
+ counter, cabinet, stove, table, chairs, fridge, microwave, and so on.
+ The living room is west.
+
+>examine counter
+ This is a standard stained and scarred formica counter.  It's white,
+ where it isn't stained.
+
+>examine drawer
+ You can't see any such thing.
+
+>examine stove
+ This is still just scenery.  Bear with me.
+
+>examine wallpaper
+ This is still just scenery.  Bear with me.
+
+>inventory
+ You are carrying:
+   some Chinese food
+   a toy
+   a red cardboard box (which is open)
+     some cereal
+   a juice glass
+     some cold water
+   a diskette case
+     "Curses"
+
+>eat cereal?
+ You can't see any such thing.
+
+>eat cereal
+ (first taking the cereal)
+ Mmmmm, tasty.  Just like, in fact, you'd expect something called
+ "Sugar Coated Corn Puffs" to taste.
+
+>go west
+
+ Living Room
+ This is the living room of your rather squalid apartment. The huge
+ compass rose on your floor reminds you that your bedroom is west, the
+ front hall is north, the kitchen is east, and the bathroom is south.
+
+ Your mimesis plant squats in its pot in a corner of the room, slowly
+ photosynthesizing.
+
+>inventory
+ You are carrying:
+   some Chinese food
+   a toy
+   a red cardboard box (which is open but empty)
+   a juice glass
+     some cold water
+   a diskette case
+     "Curses"
+
+>water plant
+ You carefully water the plant, wishing that you had someone to nurture
+ you.  Lucky plant.
+
+ [Your score has just gone up by one point.]
+
+>fullscore
+ You have so far scored 2 out of a possible 7, in 59 turns, earning you
+ the rank of someone in a big hurry to get to the next game.
+
+ The score is made up as follows:
+
+      1 Pride
+      1 Envy
+
+      2 total (out of 7)
+
+>nurture plant
+ That's not a verb I recognise.
+
+>examine case
+ This looks very much like every other cheap open-topped plastic
+ disposable diskette case you've ever seen, although the "Made In Hell"
+ label is a little disturbing.  It looks like it could hold about seven
+ disks.  It seems to contain "Hollywood Hijinx" and "Curses".
+
+>eat plant
+ (first taking the variegated mimesis plant)
+ You greedily snatch at the mimesis.
+
+ [Your score has just gone up by one point.]
+ You gluttonously take a bite out of one of the plant's leaves.  It's
+ really nasty.  Ugh.
+
+ [Your score has just gone up by one point.]
+
+>inventory
+ You are carrying:
+   a variegated mimesis plant
+   some Chinese food
+   a toy
+   a red cardboard box (which is open but empty)
+   a juice glass
+   a diskette case
+     "Planetfall"
+     "Zork I"
+     "Hollywood Hijinx"
+     "Curses"
+
+>examine zork
+ A floppy disk labelled "Zork I".
+
+>hit plant
+ You angrily rip a leaf from the mimesis plant.
+
+ [Your score has just gone up by one point.]
+
+>full
+ You have so far scored 5 out of a possible 7, in 64 turns, earning you
+ the rank of Malingerer.
+
+ The score is made up as follows:
+
+      1 Pride
+      1 Avarice
+      1 Gluttony
+      1 Wrath
+      1 Envy
+
+      5 total (out of 7)
+
+>kiss plant
+ You plant a kiss on the mimesis.
+
+ [Your score has just gone up by one point.]
+
+>sleep
+ You aren't feeling especially drowsy.
+
+>go west
+
+ Bedroom
+ The bedroom is pretty grim these days.  It's a beige rectangular prism
+ with a bed in it.  There are also the usual bedroomy things: dressers,
+ a lamp, a nightstand, and so on.
+
+>look under bed
+ No monsters, no trap doors, no dollar bills.  Nothing but dust.
+
+>put plant in bed
+ That can't contain things.
+
+>dresser
+>put plant on bed
+ That's not a verb I recognise.
+
+ You put the variegated mimesis plant on the bed.
+
+>examine dresser
+ Just the bric-a-brac of a standard adult bedroom.  You don't want to
+ think about it.  If you think you do, go check out the bathroom or
+ kitchen scenery instead.
+
+ Author's Note: Sure, I could make a dresser and nightstand with
+ opening drawers, a lamp you could turn on and off, a headboard you
+ could tie things to, box springs for the bed, carpeting with repulsive
+ items ground into it, and a sock drawer full of real live socks.  But
+ I won't.  This is just scenery and it's going to stay that way.
+
+ (Yes, just like the bathroom scenery.)
+
+>examine lamp
+ Just the bric-a-brac of a standard adult bedroom.  You don't want to
+ think about it.  If you think you do, go check out the bathroom or
+ kitchen scenery instead.
+
+ (Yes, just like the bathroom scenery.)
+
+>examine bed
+ Your bed is a lovely four-poster king-size bed, made out of finely
+ carved cherry wood.  It's much too big for you alone, you can't help
+ but realize.
+
+>tuck in plant
+ That's not a verb I recognise.
+
+>look
+
+ Bedroom
+ The bedroom is pretty grim these days.  It's a beige rectangular prism
+ with a bed in it.  There are also the usual bedroomy things: dressers,
+ a lamp, a nightstand, and so on.
+
+ On the bed is a variegated mimesis plant.
+
+>get on bed
+ You get onto the bed.
+
+ On the bed you can see a variegated mimesis plant.
+
+>sleep
+ You toss and turn, but the bed is simply far too big to sleep in
+ alone, and you sent Blamant the Teddy Bear out to be cleaned this
+ morning.
+
+>take plant
+ Taken.
+
+>sleep
+ You clutch the mimesis plant to your chest, and fall into a troubled
+ sleep, haunted with dreams of chessboards and featureless white cubes.
+
+ [Your score has just gone up by one point.]
+
+>get off bed
+ You get off the bed.
+
+ Bedroom
+ The bedroom is pretty grim these days.  It's a beige rectangular prism
+ with a bed in it.  There are also the usual bedroomy things: dressers,
+ a lamp, a nightstand, and so on.
+
+>put plant under bed
+ I didn't understand that sentence.
+
+>score
+ You have so far scored 7 out of a possible 7, in 79 turns, earning you
+ the rank of First-Class Passenger on the Hellbound Express.
+
+>fullscore
+ You have so far scored 7 out of a possible 7, in 79 turns, earning you
+ the rank of First-Class Passenger on the Hellbound Express.
+
+ The score is made up as follows:
+
+      1 Pride
+      1 Avarice
+      1 Lust
+      1 Gluttony
+      1 Sloth
+      1 Wrath
+      1 Envy
+
+      7 total (out of 7)
+
+>go east
+
+ Living Room
+ This is the living room of your rather squalid apartment. The huge
+ compass rose on your floor reminds you that your bedroom is west, the
+ front hall is north, the kitchen is east, and the bathroom is south.
+
+>go north
+
+ Front Hall
+ This is the front hall; a door north leads outside, and the living
+ room is to the south.
+
+ A devil, looking for all the world like a cross between the BSD Unix
+ devil and Bill Gates, slouches insolently in the corner.
+
+ The door is closed.
+
+>examine devil
+ He is a jolly, fat little devil, with thick glasses, a Moe haircut,
+ short but sharp-looking horns, a long tail with a barb on the end, a
+ pink T-shirt reading "IETF 28 Terminal Room", Birkenstocks (which look
+ particularly silly on his hooves), too-tight cordouroy pants, and a
+ pocket protector.  His complexion manages, through the mysteries of
+ the supernatural, to be simultaneously firebrick red and pasty white.
+
+>devil, hi
+ The devil glares at you and mumbles, "Bletch foobar to you too!"
+
+>kiss devil
+
+>ask devil about devil
+ "Bob's the name!  Interactive fiction's the game!  Well, actually, the
+ meta-game, I guess, because 'the game' properly ought to refer to an
+ with your sister?
+
+>pray
+ Nothing practical results from your prayer.
+
+>devil, yes
+
+>ask devil about plant
+
+>snort
+ That's not a verb I recognise.
+
+>show food to devil
+ The demon stares at you as if you are mad.
+
+>ask devil about sins against mimesis
+
+>ask devil about adam
+
+>snort
+ That's not a verb I recognise.
+
+>ask devil about hollywood hijinx
+
+>inventory
+ You are carrying:
+   a variegated mimesis plant
+   some Chinese food
+   a toy
+   a red cardboard box (which is open but empty)
+   a juice glass
+   a diskette case
+     "In The End"
+     "The Incredibly Erotic Adventures of Stiffy Makane"
+     "Beyond Zork"
+     "Planetfall"
+     "Zork I"
+     "Hollywood Hijinx"
+     "Curses"
+
+>ask devil about toy
+
+>show case to devil
+ The devil peers into the case.  "So, you think you're a sinner, huh?
+ Well, let's see...so far you have Sloth, Avarice, Pride, Envy,
+ me..."  The devil takes your diskette case and squeezes it hard while
+ chanting "Fee, Fie, Foe, Foo!"  Squashing it into a CD, he hands it
+ to you.  Then he gestures with his finger, and the front door swings
+ open.
+
+>full score
+ You have so far scored 7 out of a possible 7, in 95 turns, earning you
+ the rank of First-Class Passenger on the Hellbound Express.
+
+ The score is made up as follows:
+
+      1 Pride
+      1 Avarice
+      1 Lust
+      1 Gluttony
+      1 Sloth
+      1 Wrath
+      1 Envy
+
+      7 total (out of 7)
+
+>inventory
+ You are carrying:
+   "Sinful Delights and More: Masterpieces of Interactive Fiction, CD
+ Edition"
+   a variegated mimesis plant
+   some Chinese food
+   a toy
+   a red cardboard box (which is open but empty)
+   a juice glass
+
+>examine cd
+ A sparkling CD-ROM, with an attractive logo proclaiming it to be
+ Sinful Delights and More: Masterpieces of Interactive Fiction.
+
+>ask devil about cd
+
+>Stiffy Makane was Lust (as if there was any doubt)
+ That's not a verb I recognise.
+
+>play cd
+ That's not a verb I recognise.
+
+>look
+
+ Front Hall
+ This is the front hall; a door north leads outside, and the living
+ room is to the south.
+
+ A devil, looking for all the world like a cross between the BSD Unix
+ devil and Bill Gates, slouches insolently in the corner.
+
+ Through the open doorway, you can see a swirling violet mist, rather
+ unlike the busy, dirty, and noisy street onto which it used to open.
+
+>examine mist
+ This is probably what Hendrix was thinking of when he wrote his song.
+ It is disturbingly opaque, and swirls around in an unsettling and
+ faintly nauseating manner.
+
+>ask devil about mist
+
+>open door
+ That's already open.
+
+>get mist
+ That's hardly portable.
+
+>smell mist
+ Cardamom.  Or is it coriander?
+
+>repent
+ That's not a verb I recognise.
+
+>enter mist
+ That's not something you can enter.
+
+>exit
+ But you aren't in anything at the moment.
+
+>go north
+
+
+
+
+
+
+
+
+ As you step into the mist, everything becomes indistinct and hazy; you
+ spin, receding ever-farther from consciousness.  Everything goes
+ black...
+
+
+
+
+
+
+
+ Scrapple Factory
+ Once upon a time, this was a scrapple factory.  The floor would have
+ been covered in piles of barely-identifiable pig parts, awash in blood
+ and industrial chemicals.  However, those times are long gone.  The
+ conveyor belt that used to connect the Scrappelizer to the reduction
+ vat has long since rusted into immobility.  There are no doors or
+ windows; light comes from a bare light bulb hanging in the immense
+ empty space.  The rusted Scrappelizer squats to the north, and the vat
+ is south.
+
+ A rectangular hole allows access to the innards of the Scrappelizer.
+
+>out
+ But you aren't in anything at the moment.
+
+>SAVE
+>cf2
+ Enter saved game to store: Ok.
+
+>look in hole
+ You find nothing of interest.
+
+>examine hole
+ A rectangular hole, big enough to squeeze through.
+
+>examine scrappelizer
+ The Scrappelizer was a fairly simple machine.  You dumped pigs--or
+ whatnot--into the hopper at the top, and with a hideous squealing
+ noise, a mass of bloody pig--or whatnot--parts would emerge on the
+ conveyor belt, to be carried to the vat, where heat, chemicals, and
+ time would conspire to produce Scrapple.
+
+>examine vat
+ The Scrappelizer was a fairly simple machine.  You dumped pigs--or
+ whatnot--into the hopper at the top, and with a hideous squealing
+ noise, a mass of bloody pig--or whatnot--parts would emerge on the
+ conveyor belt, to be carried to the vat, where heat, chemicals, and
+ time would conspire to produce Scrapple.
+
+>inventory
+ You are carrying:
+   "Sinful Delights and More: Masterpieces of Interactive Fiction, CD
+ Edition"
+   a variegated mimesis plant
+   some Chinese food
+   a toy
+   a red cardboard box (which is open but empty)
+   a juice glass
+
+>examine bulb
+ The bare light bulb, favored by tinpot dictators and goonish
+ interrogators everywhere.
+
+>examine belt
+ The Scrappelizer was a fairly simple machine.  You dumped pigs--or
+ whatnot--into the hopper at the top, and with a hideous squealing
+ noise, a mass of bloody pig--or whatnot--parts would emerge on the
+ conveyor belt, to be carried to the vat, where heat, chemicals, and
+ time would conspire to produce Scrapple.
+
+>enter hole
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel here.
+
+ The kunkel yelps.
+
+>examine kunkel
+ The Kunkel is small and troll-like.  It squats before its computer,
+ twitching occasionally as the virtual reality mittens on its hands
+ control some action in the game going on in the VR goggles plugged
+ into its computer.
+
+ The kunkel flinches and swears.
+
+>examine computer
+ This must be the Kunkel's computer.  It's the very latest in
+ ultra-whiz-bang mega-expensive technology.  It seems to have VR
+ goggles, a CD-ROM drive, and big speakers.
+ The computer is currently switched on.
+
+>open drive
+ You open the CD-ROM drive.  The Kunkel's game must have come to a
+ screeching halt, because it stops twitching, swears, and thumbs the
+ drive door shut before you can react.
+
+>examine mittens
+ You can't see any such thing.
+
+>examine speakers
+ This must be the Kunkel's computer.  It's the very latest in
+ ultra-whiz-bang mega-expensive technology.  It seems to have VR
+ goggles, a CD-ROM drive, and big speakers.
+ The computer is currently switched on.
+
+>get goggles
+ As you approach, you see that the Kunkel's face has actually grown
+ into the goggles.  Revolted, you retreat.
+
+ The kunkel yelps.
+
+>turn off computer
+ By doing so, you are striking at the very reason for the Kunkel's
+ existence.  It is not pleased.
+
+ "Please excuse the crudity of what I'm about to do, you text-based
+ Neanderthal, but my ancestors were AGT monsters."
+
+ Its mouth opens to reveal teeth grotesquely out of proportion to the
+ rest of its body, a fact you notice as those same teeth tear your
+ flesh into tiny pieces.
+
+
+
+     *** You have died ***
+
+
+ In that game you scored 7 out of a possible 10, in 121 turns, earning
+ you the rank of First-Class Passenger on the Hellbound Express.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>undo
+ Scrappelizer
+ [Previous turn undone.]
+
+>give cd to kunkel
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+>give food to kunkel
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+>look
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel here.
+
+ The kunkel yelps.
+
+>go south
+
+ Scrapple Factory
+ Once upon a time, this was a scrapple factory.  The floor would have
+ been covered in piles of barely-identifiable pig parts, awash in blood
+ and industrial chemicals.  However, those times are long gone.  The
+ conveyor belt that used to connect the Scrappelizer to the reduction
+ vat has long since rusted into immobility.  There are no doors or
+ windows; light comes from a bare light bulb hanging in the immense
+ empty space.  The rusted Scrappelizer squats to the north, and the vat
+ is south.
+
+ A rectangular hole allows access to the innards of the Scrappelizer.
+
+>give cd to kunkel
+ You can only do that to something animate.
+
+>go south
+
+ The Vat
+ You are inside the rendering vat of the abandoned scrapple factory.
+ Even now it reeks of despair and waste-meat food products.
+
+ Great Scott!  What can only be the rucksack of the Meldrews, fabled in
+ song and story, lies here at the bottom of the rendering vat.
+
+>take rucksack
+ You're carrying too many things already.
+
+>examine it
+ Actually, it's very tatty and greasy, saturated with long-rancid lard,
+ stained with blood (or worse), and beginning to give at the seams.  It
+ is open and contains a tourist map of Paris and the Rod of Returning.
+
+>put toy in box
+ Which do you mean, the Chinese food or the red cardboard box?
+
+>red
+ You put the toy into the red cardboard box.
+
+>take rucksack
+ Taken.
+
+>examine map
+ An exorbitantly expensive map of Paris circa 1993.
+
+>examine rod
+ One of the last remaining bits of Druidical Magic.
+
+>go north
+
+ Scrapple Factory
+ Once upon a time, this was a scrapple factory.  The floor would have
+ been covered in piles of barely-identifiable pig parts, awash in blood
+ and industrial chemicals.  However, those times are long gone.  The
+ conveyor belt that used to connect the Scrappelizer to the reduction
+ vat has long since rusted into immobility.  There are no doors or
+ windows; light comes from a bare light bulb hanging in the immense
+ empty space.  The rusted Scrappelizer squats to the north, and the vat
+ is south.
+
+ A rectangular hole allows access to the innards of the Scrappelizer.
+
+>go north
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel here.
+
+>give cd to kunkel
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+>point rod at kunkel
+ You need to be holding the rod before you can point it at something.
+
+>hold rod
+ (putting the juice glass into the rucksack to make room)
+
+ With a 'pop' and a whiff of ozone, the devil appears.  "Look, I
+ need some instructions.  To charge the rod, 'strike rod.'  To use it
+
+ There is another 'pop' and the devil is gone.
+
+ Taken.
+
+ [Your score has just gone up by one point.]
+
+>strike rod
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+
+>point rod at kunkel
+>score
+ A flash of white light engulfs the Kunkel, but nothing else happens.
+
+ The kunkel flinches and swears.
+
+ You have so far scored 8 out of a possible 10, in 139 turns, earning
+ you the rank of Scrapple Warrior.
+
+>strike rod
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+
+>SAVE
+>cf3
+ Enter saved game to store: Ok.
+
+>point rod at mysself
+ You can't see any such thing.
+
+>point rod at myself
+ A flash of white light engulfs you, but nothing else happens.
+
+>strike rod
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+
+>look
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel here.
+
+>point rod at pc
+ A flash of white light engulfs the computer, but nothing else happens.
+
+ The kunkel flinches and swears.
+
+>strike rod
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+
+>point rod at me
+ A flash of white light engulfs you, but nothing else happens.
+
+>examine goggles
+ It's hard to see the goggles clearly, since they're on the Kunkel's
+ face, and consequently twitching and swerving around.
+
+ The kunkel flinches and swears.
+
+>strike want
+ You can't see any such thing.
+
+>point it at goggles
+ You look ridiculous pointing the VR goggles at the VR goggles.
+
+>strike wand
+ You can't see any such thing.
+
+>strike rod
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+
+>point it at goggles
+ A flash of white light engulfs the VR goggles, but nothing else
+ happens.
+
+>inventory
+ You are carrying:
+   the Rod of Returning
+   a rucksack (which is open)
+     a juice glass
+     a tourist map of Paris
+   "Sinful Delights and More: Masterpieces of Interactive Fiction, CD
+ Edition"
+   a variegated mimesis plant
+   some Chinese food
+   a red cardboard box (which is open)
+     a toy
+
+>strike rod. point it at me
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+ A flash of white light engulfs you, but nothing else happens.
+
+>undo
+ Scrappelizer
+ [Previous turn undone.]
+
+>strike rod
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+
+ The kunkel flinches and swears.
+
+>point rod at kunkel
+ A flash of white light engulfs the Kunkel, but nothing else happens.
+
+ The kunkel yelps.
+
+>undo
+ Scrappelizer
+ [Previous turn undone.]
+
+>strike rod. point it at rod
+ The rod is already charged.
+ A flash of white light engulfs the Rod of Returning, but nothing else
+ happens.
+
+ The kunkel yelps.
+
+>strike rod. strike rod.
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+ The rod is already charged.
+
+>eat rod
+ That's plainly inedible.
+
+>examine map
+ An exorbitantly expensive map of Paris circa 1993.
+
+>point rod at plant
+ A flash of white light engulfs the variegated mimesis plant, but
+ nothing else happens.
+
+>ask plant about rod
+ You can only do that to something animate.
+
+>give plant to kunkel
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+>strike rod. point rod at toy.
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+ A flash of white light engulfs the toy, but nothing else happens.
+
+>strike rod. point rod at map.
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+ A flash of white light engulfs the tourist map of Paris, but nothing
+ else happens.
+
+>give toy to kunkel
+ (first taking the toy)
+ (putting the red cardboard box into the rucksack to make room)
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+ The kunkel yelps.
+
+>look
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel here.
+
+ The kunkel flinches and swears.
+
+>examine extravaganza
+ You can't see any such thing.
+
+>examine pc
+ This must be the Kunkel's computer.  It's the very latest in
+ ultra-whiz-bang mega-expensive technology.  It seems to have VR
+ goggles, a CD-ROM drive, and big speakers.
+ The computer is currently switched on.
+
+ The kunkel flinches and swears.
+
+>turn off pc
+ By doing so, you are striking at the very reason for the Kunkel's
+ existence.  It is not pleased.
+
+ "Please excuse the crudity of what I'm about to do, you text-based
+ Neanderthal, but my ancestors were AGT monsters."
+
+ Its mouth opens to reveal teeth grotesquely out of proportion to the
+ rest of its body, a fact you notice as those same teeth tear your
+ flesh into tiny pieces.
+
+
+
+     *** You have died ***
+
+
+ In that game you scored 8 out of a possible 10, in 167 turns, earning
+ you the rank of Scrapple Warrior.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>undo
+ Scrappelizer
+ [Previous turn undone.]
+
+>examine speakers
+ This must be the Kunkel's computer.  It's the very latest in
+ ultra-whiz-bang mega-expensive technology.  It seems to have VR
+ goggles, a CD-ROM drive, and big speakers.
+ The computer is currently switched on.
+
+>examine speakers
+ This must be the Kunkel's computer.  It's the very latest in
+ ultra-whiz-bang mega-expensive technology.  It seems to have VR
+ goggles, a CD-ROM drive, and big speakers.
+ The computer is currently switched on.
+
+>look
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+>enter hole
+
+ You can also see the Kunkel here.
+
+
+ Scrapple Factory
+ Once upon a time, this was a scrapple factory.  The floor would have
+ been covered in piles of barely-identifiable pig parts, awash in blood
+ and industrial chemicals.  However, those times are long gone.  The
+ conveyor belt that used to connect the Scrappelizer to the reduction
+ vat has long since rusted into immobility.  There are no doors or
+ windows; light comes from a bare light bulb hanging in the immense
+ empty space.  The rusted Scrappelizer squats to the north, and the vat
+ is south.
+
+ A rectangular hole allows access to the innards of the Scrappelizer.
+
+>go south
+
+ The Vat
+ You are inside the rendering vat of the abandoned scrapple factory.
+ Even now it reeks of despair and waste-meat food products.
+
+>go south
+ You can't go that way.
+
+>smell
+ The stench in here is enough to make far stronger people than you
+ retch.
+
+>retch
+ That's not a verb I recognise.
+
+>examine scrapple
+ You can't see any such thing.
+
+>eat food
+ With your bare hands?  You have better manners than that.
+
+>out
+ But you aren't in anything at the moment.
+
+>go north
+
+ Scrapple Factory
+ Once upon a time, this was a scrapple factory.  The floor would have
+ been covered in piles of barely-identifiable pig parts, awash in blood
+ and industrial chemicals.  However, those times are long gone.  The
+ conveyor belt that used to connect the Scrappelizer to the reduction
+ vat has long since rusted into immobility.  There are no doors or
+ windows; light comes from a bare light bulb hanging in the immense
+ empty space.  The rusted Scrappelizer squats to the north, and the vat
+ is south.
+
+ A rectangular hole allows access to the innards of the Scrappelizer.
+
+>examine bulb
+ The bare light bulb, favored by tinpot dictators and goonish
+ interrogators everywhere.
+
+>examine belt
+ The Scrappelizer was a fairly simple machine.  You dumped pigs--or
+ whatnot--into the hopper at the top, and with a hideous squealing
+ noise, a mass of bloody pig--or whatnot--parts would emerge on the
+ conveyor belt, to be carried to the vat, where heat, chemicals, and
+ time would conspire to produce Scrapple.
+
+>get bulb
+ That's hardly portable.
+
+>enter belt
+ That's not something you can enter.
+
+>hopper
+ That's not a verb I recognise.
+
+>go east
+ You can't go that way.
+
+>go west
+ You can't go that way.
+
+>belt
+ That's not a verb I recognise.
+
+>examine belt
+ The Scrappelizer was a fairly simple machine.  You dumped pigs--or
+ whatnot--into the hopper at the top, and with a hideous squealing
+ noise, a mass of bloody pig--or whatnot--parts would emerge on the
+ conveyor belt, to be carried to the vat, where heat, chemicals, and
+>strike rod. point it at scrapplizer
+ time would conspire to produce Scrapple.
+
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+ You can't see any such thing.
+
+>strike rod. point it at scrappelizer
+ The rod is already charged.
+ A flash of white light engulfs the Scrappelizer, but nothing else
+ happens.
+
+>get on belt
+ That's not something you can enter.
+
+>put toy in belt
+ That can't contain things.
+
+>put toy on belt
+ Putting things on the Scrappelizer would achieve nothing.
+
+>open belt
+ That's not something you can open.
+
+>go north
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel here.
+
+>give food to kunkel
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+>inventory
+ You are carrying:
+   a toy
+   the Rod of Returning
+   a rucksack (which is open)
+     a red cardboard box (which is open but empty)
+     a juice glass
+     a tourist map of Paris
+   "Sinful Delights and More: Masterpieces of Interactive Fiction, CD
+ Edition"
+   a variegated mimesis plant
+   some Chinese food
+
+>give rod to kunkel
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+>give cd to kunkel
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+>put cd in pc
+ The computer is closed.
+
+ The kunkel yelps.
+
+>open computer
+ You open the CD-ROM drive.  The Kunkel's game must have come to a
+ screeching halt, because it stops twitching, swears, and thumbs the
+ drive door shut before you can react.
+
+ The kunkel flinches and swears.
+
+>strike rod. point it at cd
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+ A flash of white light engulfs "Sinful Delights and More: Masterpieces
+ of Interactive Fiction, CD Edition", but nothing else happens.
+
+ The kunkel yelps.
+
+>strike rod. point it at plant
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+ A flash of white light engulfs the variegated mimesis plant, but
+ nothing else happens.
+
+ The kunkel yelps.
+
+>strike rod. point it at toy
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+
+ The kunkel yelps.
+ A flash of white light engulfs the toy, but nothing else happens.
+
+>strike rod. point it at kunkel
+>examine plant
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+ A flash of white light engulfs the Kunkel, but nothing else happens.
+
+ The kunkel flinches and swears.
+
+ This is a prizewinning specimen of the species Mimesis Variegans.  It
+ is dark green, with yellow stripes on its luxurious leaves.  The
+ mimesis plant thrives in low light and requires occasional watering.
+ You've always preferred the variegated to the linear variety,
+ yourself.  This one is about ten inches high.  A large bite has been
+ taken out of one leaf.  It appears well-loved.  One of the leaves is
+ ripped.
+
+>love plant
+ That's not a verb I recognise.
+
+>examine leaf
+ You can't see any such thing.
+
+>strike rod.  point it at cd drive
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+ I only understood you as far as wanting to point the Rod of Returning
+ at "Sinful Delights and More: Masterpieces of Interactive Fiction, CD
+ Edition".
+
+>throw plant at kunkel
+ The Kunkel somehow senses your impending attack.  It rises and faces
+ you.
+
+ "Please excuse the crudity of what I'm about to do, you text-based
+ Neanderthal, but my ancestors were AGT monsters."
+
+ Its mouth opens to reveal teeth grotesquely out of proportion to the
+ rest of its body, a fact you notice as those same teeth tear your
+ flesh into tiny pieces.
+
+
+     *** You have died ***
+
+
+ In that game you scored 8 out of a possible 10, in 208 turns, earning
+ you the rank of Scrapple Warrior.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>undo
+ Scrappelizer
+ [Previous turn undone.]
+
+>examine pc
+ This must be the Kunkel's computer.  It's the very latest in
+ ultra-whiz-bang mega-expensive technology.  It seems to have VR
+ goggles, a CD-ROM drive, and big speakers.
+ The computer is currently switched on.
+
+ The kunkel yelps.
+
+>full
+ You have so far scored 8 out of a possible 10, in 209 turns, earning
+ you the rank of Scrapple Warrior.
+>examine speakers
+
+ The score is made up as follows:
+
+      1 Pride
+      1 Avarice
+      1 Lust
+      1 Gluttony
+      1 Sloth
+      1 Wrath
+      1 Envy
+      1 Getting the Rod of Returning
+
+      8 total (out of 10)
+
+ This must be the Kunkel's computer.  It's the very latest in
+ ultra-whiz-bang mega-expensive technology.  It seems to have VR
+ goggles, a CD-ROM drive, and big speakers.
+ The computer is currently switched on.
+
+>get map
+ (putting the Chinese food into the rucksack to make room)
+ Taken.
+
+>f eat map
+ That's not a verb I recognise.
+
+>hit kunkel
+ The Kunkel somehow senses your impending attack.  It rises and faces
+ you.
+
+ "Please excuse the crudity of what I'm about to do, you text-based
+ Neanderthal, but my ancestors were AGT monsters."
+
+ Its mouth opens to reveal teeth grotesquely out of proportion to the
+ rest of its body, a fact you notice as those same teeth tear your
+ flesh into tiny pieces.
+
+
+     *** You have died ***
+
+
+ In that game you scored 8 out of a possible 10, in 211 turns, earning
+ you the rank of Scrapple Warrior.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>undo
+ Scrappelizer
+ [Previous turn undone.]
+
+>kunkel, hi
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+>get goggles
+ As you approach, you see that the Kunkel's face has actually grown
+ into the goggles.  Revolted, you retreat.
+
+>examine drive
+ This must be the Kunkel's computer.  It's the very latest in
+ ultra-whiz-bang mega-expensive technology.  It seems to have VR
+ goggles, a CD-ROM drive, and big speakers.
+ The computer is currently switched on.
+
+ The kunkel yelps.
+
+>ask kunkel about computer
+ The Kunkel is far too engrossed in its multimedia extravaganza to
+ notice you.
+
+>pull goggles
+ Nothing obvious happens.
+
+>pull drive
+ It is fixed in place.
+
+>turn off goggles
+ That's not something you can switch.
+
+ The kunkel yelps.
+
+>examine speakers
+ This must be the Kunkel's computer.  It's the very latest in
+ ultra-whiz-bang mega-expensive technology.  It seems to have VR
+ goggles, a CD-ROM drive, and big speakers.
+ The computer is currently switched on.
+
+>get spearkers
+ You can't see any such thing.
+
+>unplug goggles
+ You unplug the VR goggles.
+ The Kunkel sits stock-still, stunned by the loss of visual input.
+
+>turn off speaker
+ You can't see any such thing.
+
+>open computer
+ You open the computer, revealing a CD labelled "Stiffy Makane, Space
+ Marine".
+ The Kunkel begins to fumble for the cord of its VR goggles.
+
+>put cd in computer
+ Which do you mean, a CD labelled "Stiffy Makane, Space Marine" or
+ "Sinful Delights and More: Masterpieces of Interactive Fiction, CD
+ Edition"?
+
+>masterpieces
+ There is no more room in the computer.
+ The Kunkel blunders around trying to reconnect the goggles.
+
+>get stiffy
+ (putting the variegated mimesis plant into the rucksack to make room)
+ Taken.
+ It looks as if the Kunkel is about to succeed in plugging in the
+ goggles.
+
+>put masterpieces in computer
+ You put "Sinful Delights and More: Masterpieces of Interactive
+ Fiction, CD Edition" into the computer.
+ The Kunkel manages to plug the goggles back into the computer.
+ The Kunkel sighs and closes the CD-ROM drive.
+ The Kunkel, not suspecting your ruse, shrieks as wave after wave of
+ pure text pummels its senses.
+
+ With a sickening 'schlupp' the VR goggles explode from the Kunkel's
+ face as its head splits open and it keels over, dead.
+
+ [Your score has just gone up by one point.]
+
+>SAVE
+>cf4
+ Enter saved game to store: Ok.
+
+>look
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel and a pair of VR goggles here.
+
+>examine kunkel
+ The dead Kunkel lies on the ground, its head blown open and its eyes
+ popped out, revealing the emptiness of its cranial cavity.
+
+>examine stiffy
+ It's a garishly printed CD entitled Stiffy Makane, Space Marine.
+
+>examine goggles
+ A pair of slightly charred VR goggles, currently plugged into the
+ computer.
+
+>wear goggles
+ (first taking the VR goggles)
+
+ Wow!  Virtual reality really does work!  With a sensation of great
+ speed, you are transported to....
+
+
+
+
+
+ Text World
+ If nothing else, you have a good seat. The stage is only a few rows to
+ the north. People are jammed on benches in every direction; you think
+ the aisle is somewhere to the west.
+
+>inventory
+ You are carrying:
+   a CD labelled "Stiffy Makane, Space Marine"
+   a tourist map of Paris
+   a toy
+   the Rod of Returning
+   a rucksack (which is open)
+     a variegated mimesis plant
+     some Chinese food
+     a red cardboard box (which is open but empty)
+     a juice glass
+
+>examine people
+ You can't see any such thing.
+
+>examine stage
+ You can't see any such thing.
+
+>examine benches
+ You can't see any such thing.
+
+>look
+
+ Text World
+ You are on a wide lawn just north of the entrance to the Robner
+ estate. Directly north at the end of a pebbled path is the Robner
+ house, flanked to the northeast and northwest by a vast expanse of
+ well-kept lawn. Beyond the house can be seen the lakefront.
+
+>examine path
+ You can't see any such thing.
+
+>look
+
+ Text World
+ This is a featureless corridor similar to every other corridor on the
+ ship. It curves away to starboard, and a gangway leads up. To port is
+ the entrance to one of the ship's primary escape pods. The pod
+ bulkhead is closed.
+
+>port
+ That's not a verb I recognise.
+
+>go north
+
+ Text World
+ You are standing in an open field west of a white house, with a
+ boarded front door.
+
+>go east
+
+ Text World
+ A tide of perambulators surges north along the crowded Broad Walk.
+ Shaded glades stretch away to the northeast, and a hint of color marks
+ the western edge of the Flower Walk.
+
+>point rod at me
+ A flash of white light engulfs you and you awaken on the hard metal
+ floor of the Scrappelizer.  The VR goggles lie next to you as you
+ painfully regain your feet.
+
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see a pair of VR goggles and the Kunkel here.
+
+
+>open drie
+ You can't see any such thing.
+
+>open drive
+ You open the computer, revealing "Sinful Delights and More:
+ Masterpieces of Interactive Fiction, CD Edition".
+
+>open computer. get masterpieces
+ That's already open.
+ Taken.
+
+>put stiffy in drive. close it.
+ You put a CD labelled "Stiffy Makane, Space Marine" into the computer.
+ That's not something you can close.
+
+>close drive
+ You close the computer.
+
+>wear goggles
+ (first taking the VR goggles)
+
+ Wow!  Virtual reality really does work!  With a sensation of great
+ speed, you are transported to....
+
+
+
+
+
+ Ganymede Base Corridor XQJ-913
+ A dull metal corridor, lit by flickering lights.  The corridor
+ continues west and ends in a pink door to the northeast with a pink
+ keyhole.  Painted in drippy blood on the wall are the word Shangri-La
+ and an arrow pointing west.
+
+ The pink door bars passage to the northeast.
+
+ You hear a sinister giggling from the west somewhere.
+
+>listen
+ You hear nothing unexpected.
+
+ A fearsome "HONK, HONK!" echoes from the western corridor.
+
+>inventory
+ You are carrying:
+   a pink key
+   a big gun
+   "Sinful Delights and More: Masterpieces of Interactive Fiction, CD
+ Edition"
+   a tourist map of Paris
+   a toy
+   the Rod of Returning
+   a rucksack (which is open)
+     a variegated mimesis plant
+     some Chinese food
+     a red cardboard box (which is open but empty)
+     a juice glass
+
+ Loud, sensual moans are coming from the west and approaching rapidly.
+
+>examine gun
+ BIG GUN KICK THE HELL OUTTA YOU!
+
+ "Pwoik, pwoik, pwoik" resounds from the west, quite nearby.
+
+>examine key
+ It is a pink cylindrical key, several inches long, and about an inch
+ thick, with one rounded end.
+
+ A girlish shriek comes from just down the corridor.
+
+>examine penis
+ You can't see any such thing.
+
+>go west
+>examine me
+ You stumble down the corridor and into a large room.
+
+ A patrol of maurauding ultravixens has entered the area.  Your big gun
+ is no match for their power.  Swiftly they crush you to death between
+ their thighs.
+
+     *** You have died ***
+
+
+ In that game you scored 9 out of a possible 10, in 246 turns, earning
+ you the rank of Vanquisher of the Kunkel.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+ Please give one of the answers above.
+>undo
+
+>examine me
+ Please give one of the answers above.
+>undo
+
+>undo
+ Ganymede Base Corridor XQJ-913
+ [Previous turn undone.]
+
+>examine me
+ As good-looking as ever.
+
+ A patrol of maurauding ultravixens has entered the area.  Your big gun
+ is no match for their power.  Swiftly they crush you to death between
+ their thighs.
+
+     *** You have died ***
+
+
+ In that game you scored 9 out of a possible 10, in 247 turns, earning
+ you the rank of Vanquisher of the Kunkel.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>undo
+ Ganymede Base Corridor XQJ-913
+ [Previous turn undone.]
+
+>undo
+ [Can't "undo" twice in succession. Sorry!]
+
+>/undo
+ Ganymede Base Corridor XQJ-913
+ [Previous turn undone.]
+
+>/undo
+ Ganymede Base Corridor XQJ-913
+ [Previous turn undone.]
+
+>/undo
+ Ganymede Base Corridor XQJ-913
+ [Previous turn undone.]
+
+>unlock door
+ What do you want to unlock the pink door with?
+
+>key
+ You insert the key into the keyhole.  It throbs and vanishes.  The
+ door opens, like a flower blooming.
+
+ "Pwoik, pwoik, pwoik" resounds from the west, quite nearby.
+
+>go northeast
+
+ Ganymede Base Room J-14-B-3.2
+ This is a tiny room full of evil-looking machines and flashing lights.
+ The only exit is southwest.
+
+ You can see Black here.
+
+ A girlish shriek comes from just down the corridor.
+
+>examine machines
+ Yes, this is just scenery.  Just like in Doom.
+
+ Just outside the door, someone screams
+ "Aaaaaaaaaaaahhhhhhhhhhhhahhhhhhhhhh!"
+
+>examine black
+ As attractive as ever.  Black appears to be unconscious and bolted
+ into some sort of evil-looking machine.
+
+ "EEEEEK!" comes from the southwest
+
+>free black
+ That's not a verb I recognise.
+
+>examine bolt
+ You can't see any such thing.
+
+>kiss black
+ This is hardly the time for romance.
+
+ You hear a girlish voice reminiscing about the delights of "Cabin
+ Boy", just to the southwest.
+
+>strike rod
+ The Rod of Returning charges up, drawing power from ley lines, or
+ something like that.
+
+ You hear the squeaking of silicone-enhanced breasts rubbing together,
+ coming your way!
+
+>point it at black
+ A flash of white light engulfs Black.  There is a huge noise and white
+ blots out your vision as the rod melts in your hands....
+
+
+
+ ....and, hours later, you awaken on the floor of the Scrappelizer,
+ Black, crying, dabbing at your forehead with a cloth.
+
+ "I'm really sorry," are Black's first words.  "White was such a bore.
+ Never let me do anything I wanted to, kept preventing me from wrecking
+ history, always sketching animals in that dumb little book.  So
+ naturally I accepted a lift from the first cattle-mutilating
+ ultravixen that came along, and you see where that got me.  Thanks for
+ rescuing me.  The fate I would have suffered at the hands of those
+ ultravixens..."
+
+
+ Black (simply):
+ Ah, my love.  Can you forgive me?
+
+>black, piss off
+>no
+
+
+ You:
+ Your actual words have been censored, at the request of Andrew
+ Plotkin, who feels like you should actually play his game So Far to
+ find out what this response is.  So go play it.  When you get there,
+ you'll understand.
+
+ Black begins to weep, then looks confused, then looks angry, then
+ looks resigned, then looks inspired, then looks determined.  "I have
+ no idea what you mean.  I mean, you could mean that, no, you don't
+ forgive me, and it doesn't matter what I did that needs forgiveness
+ because it's far too late.  Or maybe you mean that what I've done is
+ irrelevant and thus you don't need to forgive me.  Which strikes me as
+ kind of arrogant, because I'd hardly call leaving you, attempting to
+ destroy the multiverse, concealing both our genders through the course
+ of a long and rocky relationship, and forgetting to water the plant
+ irrelevant.  Or maybe you..."  Black's head shakes from side to side.
+ "I dunno.  But I do know one thing: you're stuck with me at least
+ until we figure out how to get out of here."
+
+ Then Black sees the houseplant: "My goodness, what have you done to
+ that poor mimesis plant?"
+
+
+
+
+
+
+ So it's not perfect.  But what is?  And, all things considered, at the
+ end of the day you really can't think of anyone with whom you'd rather
+ be trapped in an abandoned scrapple factory.
+
+     *** You have won ***
+
+
+ In that game you scored 10 out of a possible 10, in 250 turns, earning
+ you the rank of Master Mimetic.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game, see some suggestions for AMUSING things to do or QUIT?
+>amusing
+
+
+
+
+
+
+
+
+
+  N = next subject                                                  P =
+  RETURN = read subject                                          Q = re
+ sume game
+
+
+
+
+
+
+
+
+
+
+ ...LEWD, RACY, and TAME? [1/17]
+ ...asking the devil about himself? [2/17]
+ ...asking about him by name before he's told you his name? [3/17]
+ ...Lust in LEWD mode? [4/17]
+ ...examining the scenery objects in the bedroom, bathroom, kitchen,
+ and Ganymede Base Room J-14-B-3.2? [5/17]
+ ...putting the fork in the microwave? [6/17]
+ ...heating anything besides the fork and the Chinese food in the
+ microwave? [7/17]
+ ...smelling the purple mist? [8/17]
+ ...kissing the Kunkel? [9/17]
+ ...smelling or tasting anything in the rendering vat? [10/17]
+ ...smelling or tasting the rucksack? [11/17]
+ ...smelling or tasting the Kunkel? [12/17]
+ ...wearing the VR Goggles with the text adventure CD in the computer?
+ [13/17]
+ ...dropping the tourist map of Paris in the Text World Attic? [14/17]
+ ...attacking Black? [15/17]
+ ...answering "maybe" to Black's question? [16/17]
+ ...actually playing The Incredibly Erotic Adventures of Stiffy Makane?
+
+
+
+
+ [That's All Folks!]
+>undo
+
+
+
+
+
+
+
+
+
+  N = next subject                                                  P =
+  RETURN = read subject                                          Q = re
+ sume game
+
+
+>q
+
+
+
+
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game, see some suggestions for AMUSING things to do or QUIT?
+>undo
+
+>undo
+
+>undo
+
+>undo
+>no
+
+
+ You:
+ Your actual words have been censored, at the request of Andrew
+ Plotkin, who feels like you should actually play his game So Far to
+ find out what this response is.  So go play it.  When you get there,
+ you'll understand.
+
+ Black begins to weep, then looks confused, then looks angry, then
+ looks resigned, then looks inspired, then looks determined.  "I have
+ no idea what you mean.  I mean, you could mean that, no, you don't
+ forgive me, and it doesn't matter what I did that needs forgiveness
+ because it's far too late.  Or maybe you mean that what I've done is
+ irrelevant and thus you don't need to forgive me.  Which strikes me as
+ kind of arrogant, because I'd hardly call leaving you, attempting to
+ destroy the multiverse, concealing both our genders through the course
+ of a long and rocky relationship, and forgetting to water the plant
+ irrelevant.  Or maybe you..."  Black's head shakes from side to side.
+ "I dunno.  But I do know one thing: you're stuck with me at least
+ until we figure out how to get out of here."
+
+ Then Black sees the houseplant: "My goodness, what have you done to
+ that poor mimesis plant?"
+
+
+
+
+
+
+ So it's not perfect.  But what is?  And, all things considered, at the
+ end of the day you really can't think of anyone with whom you'd rather
+ be trapped in an abandoned scrapple factory.
+
+     *** You have won ***
+
+
+ In that game you scored 10 out of a possible 10, in 250 turns, earning
+ you the rank of Master Mimetic.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game, see some suggestions for AMUSING things to do or QUIT?
+>/undo
+
+>/undo
+ Ganymede Base Room J-14-B-3.2
+ [Previous turn undone.]
+
+>yes
+ That was a rhetorical question.
+
+ A patrol of maurauding ultravixens has entered the area.  Your big gun
+ is no match for their power.  Swiftly they crush you to death between
+ their thighs.
+
+     *** You have died ***
+
+
+ In that game you scored 9 out of a possible 10, in 251 turns, earning
+ you the rank of Vanquisher of the Kunkel.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>undo
+ Ganymede Base Room J-14-B-3.2
+ [Previous turn undone.]
+
+>point rod at black
+ A flash of white light engulfs Black.  There is a huge noise and white
+ blots out your vision as the rod melts in your hands....
+
+
+
+ ....and, hours later, you awaken on the floor of the Scrappelizer,
+ Black, crying, dabbing at your forehead with a cloth.
+
+ "I'm really sorry," are Black's first words.  "White was such a bore.
+ Never let me do anything I wanted to, kept preventing me from wrecking
+ history, always sketching animals in that dumb little book.  So
+ naturally I accepted a lift from the first cattle-mutilating
+ ultravixen that came along, and you see where that got me.  Thanks for
+ rescuing me.  The fate I would have suffered at the hands of those
+ ultravixens..."
+
+
+ Black (simply):
+ Ah, my love.  Can you forgive me?
+
+>yes
+
+
+ You:
+ Your actual words have been censored, at the request of Andrew
+ Plotkin, who feels like you should actually play his game So Far to
+ find out what this response is.  So go play it.  When you get there,
+ you'll understand.
+
+ Black smiles through the tears.  "That's really sweet of you, but you
+ know you're full of it.  There's a lot to forgive: leaving you,
+ attempting to wreck the course of the Twentieth Century, forgetting to
+ water the plant..."  Black bursts into tears again.
+
+ Then Black sees the houseplant: "My goodness, what have you done to
+ that poor mimesis plant?"
+
+
+
+
+
+
+ So it's not perfect.  But what is?  And, all things considered, at the
+ end of the day you really can't think of anyone with whom you'd rather
+ be trapped in an abandoned scrapple factory.
+
+     *** You have won ***
+
+
+ In that game you scored 10 out of a possible 10, in 250 turns, earning
+ you the rank of Master Mimetic.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game, see some suggestions for AMUSING things to do or QUIT?
+>undo
+
+>maybe
+ Please give one of the answers above.
+>undo
+
+>undo
+ Ganymede Base Room J-14-B-3.2
+ [Previous turn undone.]
+
+>point rod at black
+ A flash of white light engulfs Black.  There is a huge noise and white
+ blots out your vision as the rod melts in your hands....
+
+
+
+ ....and, hours later, you awaken on the floor of the Scrappelizer,
+ Black, crying, dabbing at your forehead with a cloth.
+
+ "I'm really sorry," are Black's first words.  "White was such a bore.
+ Never let me do anything I wanted to, kept preventing me from wrecking
+ history, always sketching animals in that dumb little book.  So
+ naturally I accepted a lift from the first cattle-mutilating
+ ultravixen that came along, and you see where that got me.  Thanks for
+ rescuing me.  The fate I would have suffered at the hands of those
+ ultravixens..."
+
+
+ Black (simply):
+ Ah, my love.  Can you forgive me?
+
+>maybe
+
+ Black blinks.  "Oh.  Yes.  That's right.  Now I remember why I left
+ you in the first place.  You're a wuss."  Then Black picks up the
+ Kunkel's corpse and beats you to death with it.
+
+
+     *** You have died ***
+
+
+ In that game you scored 10 out of a possible 10, in 250 turns, earning
+ you the rank of Master Mimetic.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>restart
+
+
+
+
+
+
+
+
+ Pain.  Unceasing pain.  Ever since your lover Black left, something to
+ do with a mysterious stranger and a time machine, your days have been
+ a dull blur of gray loneliness.  Perhaps you'd feel better if you got
+ out and did something.
+
+ Sins Against Mimesis
+ An Interactive Theosophy
+ Copyright 1997 by One of The Bruces (bruce@ifcompetition.org)
+ Release 1 / Serial number 970925 / Inform v6.14 Library 6/7
+
+ Living Room
+ This is the living room of your rather squalid apartment. The huge
+ compass rose on your floor reminds you that your bedroom is west, the
+ front hall is north, the kitchen is east, and the bathroom is south.
+
+ Your mimesis plant squats in its pot in a corner of the room, slowly
+ photosynthesizing.
+
+>y
+ That was a rhetorical question.
+
+>tame
+ There is no tame mode in this game!  How would we ever sell Fox the
+ rights to it?
+
+>racy
+ Racy mode on.
+
+>lewd
+ Lewd mode on.  No age checks, no verification.  Just raw,
+ unadulterated lewdness.
+
+>kiss plant
+
+ There is a sharp crackling and a sudden smell of ozone, as something
+ appears in your hand.
+ You plant a kiss on the mimesis.  Your kiss deepens.  Your embrace
+ becomes hot and heavy and you surrender to the delights of floral sex.
+ In the words of Stiffy Makane, Aaaaaaaaaaaahhhhhhhhhhhhahhhhhhhhhh!
+
+ [Your score has just gone up by one point.]
+
+>fuck plant
+ You plant a kiss on the mimesis.  Your kiss deepens.  Your embrace
+ becomes hot and heavy and you surrender to the delights of floral sex.
+ In the words of Stiffy Makane, Aaaaaaaaaaaahhhhhhhhhhhhahhhhhhhhhh!
+
+>go north
+
+ Front Hall
+ This is the front hall; a door north leads outside, and the living
+ room is to the south.
+
+ A devil, looking for all the world like a cross between the BSD Unix
+ devil and Bill Gates, slouches insolently in the corner.
+
+ The door is closed.
+
+>ask devil about devil
+ "Bob's the name!  Interactive fiction's the game!  Well, actually, the
+ meta-game, I guess, because 'the game' properly ought to refer to an
+ with your sister?
+
+>undo
+ Front Hall
+ [Previous turn undone.]
+
+>ask devil about bob
+
+>s.e
+
+ Living Room
+
+ Your mimesis plant squats in its pot in a corner of the room, slowly
+ photosynthesizing.
+
+ Kitchen
+ This is your kitchen: walls papered in a yellow floral design,
+ counter, cabinet, stove, table, chairs, fridge, microwave, and so on.
+ The living room is west.
+
+ On the counter is a juice glass (which is empty).
+
+>open drawer
+ You can't see any such thing.
+
+>examine fork
+ Your basic four-tined dinner fork.
+
+>examine counter
+ This is a standard stained and scarred formica counter.  It's white,
+ where it isn't stained.
+
+>examine sink
+ This is a standard issue kitchen sink.  Rather than actually
+ implementing a faucet and two knobs, let's just say that you can fill
+ containers from it when you want to.  It is an unlimited source of the
+ finest tap water.
+
+>look in sink
+ In the kitchen sink is a fork.
+
+>open microwave. put fork in it.
+ You open the microwave.
+ You need to be holding the fork before you can put it into something
+ else.
+
+>get fork. put it in microwave.
+ Taken.
+ You put the fork into the microwave.
+
+>press button
+ The microwave beeps petulantly.
+
+>close microwave. press button
+ You close the microwave.
+ Oooh!  Look at all the pretty, pretty sparks!
+
+>examine microwave
+ Just your basic tiny microwave oven.  It has a big red button labelled
+ "Zap" on the front.  It is currently closed.
+
+>open it
+ You open the microwave, revealing a fork.
+
+>examine fork
+ Your basic four-tined dinner fork.
+
+>open fridge. get food
+ You open the refrigerator, revealing some Chinese food.
+ Taken.
+
+>put food in microwave. get fork. close microwave. press button
+ There is no more room in the microwave.
+ Taken.
+ You close the microwave.
+ The microwave hums briefly.
+
+>smell
+ You smell nothing unexpected.
+
+>open microwave. get food. eat it with fork
+ You open the microwave.
+ You already have that.
+ I only understood you as far as wanting to eat the Chinese food.
+
+>put food in microwave
+ You put the Chinese food into the microwave.
+
+>close microwave. press button
+ You close the microwave.
+ The tantalizing aroma of hot Chinese food assails your nostrils.
+
+>open microwave. get food. eat it
+ You open the microwave, revealing some Chinese food.
+ Taken.
+ It's actually pretty tasty.  So tasty, in fact, that you eat the
+ carton too in your enthusiasm.
+
+>inventory
+ You are carrying:
+   a fork
+   a diskette case
+     "The Incredibly Erotic Adventures of Stiffy Makane"
+
+>restore
+>cf1
+ Enter saved game to load: Ok.
+
+>kiss kunkel
+ You can't see any such thing.
+
+>go north
+ You can't go that way.
+
+>look
+
+ Kitchen
+ This is your kitchen: walls papered in a yellow floral design,
+ counter, cabinet, stove, table, chairs, fridge, microwave, and so on.
+ The living room is west.
+
+>restore
+>cf2
+ Enter saved game to load: Ok.
+
+>look
+
+ Scrapple Factory
+ Once upon a time, this was a scrapple factory.  The floor would have
+ been covered in piles of barely-identifiable pig parts, awash in blood
+ and industrial chemicals.  However, those times are long gone.  The
+ conveyor belt that used to connect the Scrappelizer to the reduction
+ vat has long since rusted into immobility.  There are no doors or
+ windows; light comes from a bare light bulb hanging in the immense
+ empty space.  The rusted Scrappelizer squats to the north, and the vat
+ is south.
+
+ A rectangular hole allows access to the innards of the Scrappelizer.
+
+>n. kiss kunkel
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel here.
+ Ugh.
+
+ The kunkel yelps.
+
+>s.s.
+
+ Scrapple Factory
+ Once upon a time, this was a scrapple factory.  The floor would have
+ been covered in piles of barely-identifiable pig parts, awash in blood
+ and industrial chemicals.  However, those times are long gone.  The
+ conveyor belt that used to connect the Scrappelizer to the reduction
+ vat has long since rusted into immobility.  There are no doors or
+ windows; light comes from a bare light bulb hanging in the immense
+ empty space.  The rusted Scrappelizer squats to the north, and the vat
+ is south.
+
+ A rectangular hole allows access to the innards of the Scrappelizer.
+
+ The Vat
+ You are inside the rendering vat of the abandoned scrapple factory.
+ Even now it reeks of despair and waste-meat food products.
+
+ Great Scott!  What can only be the rucksack of the Meldrews, fabled in
+ song and story, lies here at the bottom of the rendering vat.
+
+>eat rucksack
+ (first taking the rucksack)
+ You're carrying too many things already.
+
+>put all in sack
+ "Sinful Delights and More: Masterpieces of Interactive Fiction, CD
+ Edition": Done.
+ variegated mimesis plant: Done.
+ Chinese food: Done.
+ toy: Done.
+ red cardboard box: Done.
+ juice glass: Done.
+
+>eat rucksack
+ (first taking the rucksack)
+ That's plainly inedible.
+
+>taste it
+ The stench in here is enough to make far stronger people than you
+ retch.
+
+>smell it
+ The stench in here is enough to make far stronger people than you
+ retch.
+
+>go north
+
+ Scrapple Factory
+ Once upon a time, this was a scrapple factory.  The floor would have
+ been covered in piles of barely-identifiable pig parts, awash in blood
+ and industrial chemicals.  However, those times are long gone.  The
+ conveyor belt that used to connect the Scrappelizer to the reduction
+ vat has long since rusted into immobility.  There are no doors or
+ windows; light comes from a bare light bulb hanging in the immense
+ empty space.  The rusted Scrappelizer squats to the north, and the vat
+ is south.
+
+ A rectangular hole allows access to the innards of the Scrappelizer.
+
+>smell rucksack
+ The sack smells revoltingly of pork byproducts.
+
+>taste it
+ Something like pork rinds, only really disgusting.
+
+>go north
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel here.
+
+ The kunkel flinches and swears.
+
+>smell kunkel
+ The Kunkel smells of sweat, adrenaline, and poor hygiene.  Add that to
+ the stench of the Scrappelizer...
+
+ The kunkel flinches and swears.
+
+>taste kunkel
+ No.
+
+ The kunkel yelps.
+
+>restore
+>cf3
+ Enter saved game to load: Ok.
+
+>look
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel here.
+
+>restore
+>cf4
+ Enter saved game to load: Ok.
+
+>look
+
+ Scrappelizer
+ Horrifyingly, the interior of the Scrappelizer has been remodelled
+ into a home, of sorts.  It is, in fact, the lair of a Kunkel, complete
+ with multimedia PC.
+
+ A rectangular hole allows access to the factory.
+
+ You can also see the Kunkel and a pair of VR goggles here.
+
+>wear goggles
+ (first taking the VR goggles)
+
+ Wow!  Virtual reality really does work!  With a sensation of great
+ speed, you are transported to....
+
+
+
+
+
+ Text World
+ The attics, full of low beams and awkward angles, begin here in a
+ relatively tidy area which extends north, south and east. The wooden
+ floorboards seem fairly sound, just as well considering how heavy all
+ these teachests are. But the old wiring went years ago, and there's no
+ electric light.
+
+>get map
+
+ Text World
+ The bedroom is a mess.
+ It is a small bedroom with a faded carpet and old wallpaper. There is
+ a washbasin, a chair with a tatty dressing gown slung over it, and a
+ window with the curtains drawn. Near the exit leading south is a
+ phone.
+
+>wait
+
+ Text World
+ A tide of perambulators surges north along the crowded Broad Walk.
+ Shaded glades stretch away to the northeast, and a hint of color marks
+ the western edge of the Flower Walk.
+
+>wait
+
+ Text World
+ You are standing in an open field west of a white house, with a
+ boarded front door.
+
+>wait
+
+ Text World
+ This is a featureless corridor similar to every other corridor on the
+ ship. It curves away to starboard, and a gangway leads up. To port is
+ the entrance to one of the ship's primary escape pods. The pod
+ bulkhead is closed.
+
+>wait
+
+ Text World
+ You stand at a point of decision on a road which makes a wide fork to
+ the northeast and southeast, circling the base of the Lonely Mountain,
+ which looms high overhead to the east. A very long and winding road
+ starts here and stretches out of sight to the west through low, smoky
+ hills.
+
+>wait
+
+ Text World
+ A tide of perambulators surges north along the crowded Broad Walk.
+ Shaded glades stretch away to the northeast, and a hint of color marks
+ the western edge of the Flower Walk.
+
+>wait
+
+ Text World
+ You are standing at the end of a road before a small brick building.
+ Around you is a forest. A small stream flows out of the building and
+ down a gully.
+
+>wait
+
+ Text World
+ You stand at a point of decision on a road which makes a wide fork to
+ the northeast and southeast, circling the base of the Lonely Mountain,
+ which looms high overhead to the east. A very long and winding road
+ starts here and stretches out of sight to the west through low, smoky
+ hills.
+
+>wait
+
+ Text World
+ You are standing in an open field west of a white house, with a
+ boarded front door.
+
+>wait
+>wait
+
+ Text World
+ The bedroom is a mess.
+ It is a small bedroom with a faded carpet and old wallpaper. There is
+ a washbasin, a chair with a tatty dressing gown slung over it, and a
+ window with the curtains drawn. Near the exit leading south is a
+ phone.
+
+
+ Text World
+ This is a featureless corridor similar to every other corridor on the
+ ship. It curves away to starboard, and a gangway leads up. To port is
+ the entrance to one of the ship's primary escape pods. The pod
+ bulkhead is closed.
+
+>wait
+
+ Text World
+ You are standing in an open field west of a white house, with a
+ boarded front door.
+
+>wait
+
+ Text World
+ This is a featureless corridor similar to every other corridor on the
+ ship. It curves away to starboard, and a gangway leads up. To port is
+ the entrance to one of the ship's primary escape pods. The pod
+ bulkhead is closed.
+
+>wait
+
+ Text World
+ You are standing in an open field west of a white house, with a
+ boarded front door.
+
+>wait
+
+ Text World
+ You are standing in an open field west of a white house, with a
+ boarded front door.
+
+>wait
+
+ Text World
+ An undistinguished bar, yet the social center of Upper Sandusky. The
+ front door is almost lost amidst the hazy maze of neon that shrouds
+ the grimy glass of the south wall. Doors marked "Ladies" and "Gents"
+ lead, respectively, northeast and northwest.
+
+>wait
+
+ Text World
+ The attics, full of low beams and awkward angles, begin here in a
+ relatively tidy area which extends north, south and east. The wooden
+ floorboards seem fairly sound, just as well considering how heavy all
+ these teachests are. But the old wiring went years ago, and there's no
+ electric light.
+
+>drop map
+ Well now, you just did an end run around the whole idea of the Curse
+ Of The Meldrews, didn't you?  Your impulsive action has destroyed the
+ entire fabric of the multiverse, and you along with it.
+
+
+     *** You have died ***
+
+
+ In that game you scored -999 out of a possible 10, in 243 turns,
+ earning you the rank of Destroyer of the Multiverse and Cosmic
+ Butthead.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>restore
+>cf5
+ Enter saved game to load: Restore failed.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>restore
+>cf4
+ Enter saved game to load: Ok.
+
+>open computer. get masterpieces
+ You open the computer, revealing "Sinful Delights and More:
+ Masterpieces of Interactive Fiction, CD Edition".
+ Taken.
+
+>put stiffy in computer. wear goggles
+ You put a CD labelled "Stiffy Makane, Space Marine" into the computer.
+ (first taking the VR goggles)
+ You put the goggles on, but they show nothing, so you remove them.
+
+>close computer. wear goggles
+ You close the computer.
+
+ Wow!  Virtual reality really does work!  With a sensation of great
+ speed, you are transported to....
+
+
+
+
+
+ Ganymede Base Corridor XQJ-913
+ A dull metal corridor, lit by flickering lights.  The corridor
+ continues west and ends in a pink door to the northeast with a pink
+ keyhole.  Painted in drippy blood on the wall are the word Shangri-La
+ and an arrow pointing west.
+
+ The pink door bars passage to the northeast.
+
+ You hear a sinister giggling from the west somewhere.
+
+>unlock door. ne
+ I didn't understand that sentence.
+
+>attack black
+ You can't see any such thing.
+
+>go northeast
+ You can't, since the pink door is in the way.
+
+ A fearsome "HONK, HONK!" echoes from the western corridor.
+
+>unlock door
+ What do you want to unlock the pink door with?
+
+>key
+ You insert the key into the keyhole.  It throbs and vanishes.  The
+ door opens, like a flower blooming.
+
+ Loud, sensual moans are coming from the west and approaching rapidly.
+
+>go northeast
+
+ Ganymede Base Room J-14-B-3.2
+ This is a tiny room full of evil-looking machines and flashing lights.
+ The only exit is southwest.
+
+ You can see Black here.
+
+ "Pwoik, pwoik, pwoik" resounds from the west, quite nearby.
+
+>attack black
+ You beast!  Fortunately, (at least for karmic justice) before you can
+ attack, there comes a noise from the doorway.
+
+ A patrol of maurauding ultravixens has entered the area.  Your big gun
+ is no match for their power.  Swiftly they crush you to death between
+ their thighs.
+
+     *** You have died ***
+
+
+ In that game you scored 9 out of a possible 10, in 233 turns, earning
+ you the rank of Vanquisher of the Kunkel.
+
+ Would you like to RESTART, RESTORE a saved game, give the FULL score
+ for that game or QUIT?
+>quit

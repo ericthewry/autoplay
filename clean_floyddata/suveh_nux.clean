@@ -1,0 +1,3763 @@
+>load suvehnux
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ "Yes, master?"
+
+ You rush to your master's side and await his instructions. He is
+ studying a fragile looking scroll and muttering to himself.
+
+ He looks up and says, "Ah, there you are. This ..." -- he hands you the
+ scroll -- " ... goes back in the vault. I believe it is still open. And
+ this little beastie ..." -- he hands you a small, empty brass cage --
+ "... goes back to my private quarters. Thank you, that will be all."
+
+ You bow, and head downstairs to the vault. The heavy stone door is wide
+ open, and a golden key juts out of the lock.
+
+ Without warning, someone shoves you roughly from behind. The scroll and
+ the brass cage fly out of your hands as you fall to the ground. There
+ is a loud "click", and everything turns black.
+
+>inventory
+ [Press a key]
+
+ Suveh Nux by David Fisher, version 1.1.
+ Release 1 / Serial number 071226 / Inform v6.30 Library 6/11 S
+ Identification number: //4E7C2725-E359-B23A-ABA9-F6AF1FD9A26F//
+
+ Darkness
+ It is pitch dark, and you can't see a thing.
+
+ Which is not good.
+
+ (Type "about" for game information and special commands).
+
+>about
+ Suveh Nux (version 1.1) by David Fisher
+
+ This game was written for the 2007 One Room Game Competition, which may
+ explain the limited geography. It is a "puzzle" rather than a "story"
+ game; the aim is simply to escape from the vault.
+
+ It is possible to die or make the game unfinishable, but a message will
+ be printed if you get into this kind of situation.
+
+ Type "commands" for a list of commands that may be useful in this game.
+
+ Hints
+
+ Context sensitive hints may be accessed via the "hint" command. The
+ hints are numbered to show how many are available; "[1/3]" indicates
+ the first of three hints, for example. A warning is printed if the next
+ hint will give away the solution to a non-trivial problem.
+
+ Hints may be disabled with the "hints off" command. Once disabled, they
+ may not be re-enabled again during the same game.
+
+ To toggle printing of hints progressively (ie. to make the game print
+ all available hints at once), type "hints dump". This is not
+ recommended for normal play.
+
+ Thinking
+
+ A non-standard command available in this game is "think about", or "t"
+ for short. This does not necessarily give any useful information, but
+ you never know. It is not required for completion of the game.
+
+ Notepad
+
+ An inbuilt notepad may be used to take notes during the game. To add a
+ new note, start a line with "=". For example:
+
+   =can't find the chicken
+
+ Use "=" on a line by itself (or "notes") to read your notes so far.
+
+ Each note is assigned a number, starting from 1. You can read an
+ individual note by typing its number, or change it by following the
+ number with "=" and the new text:
+
+   23=there is no chicken
+
+ Lastly, you can erase a note by saying "erase" or "del/delete" followed
+ by its number (the rest of the notes are then renumbered).
+
+ Typing Correction
+
+ If an unknown word is entered, this game performs automatic typing
+ correction. This feature may be turned off if it is not required. Type
+ "mistype" on a line by itself for configuration options.
+
+ Spelling
+
+ The spelling may be changed from the default British English to
+ American English with the "spelling US" command.
+
+ Type "credits" for copyright, contact and other information.
+
+>commands
+ Some commands which may be useful in this game are:
+
+   about -- game information.
+   hint -- get a hint about what to do next ("h" for short).
+   mistype -- typing correction options.
+   spelling -- select British or American English.
+   = or notes -- notepad (type "about" for more information).
+
+   look -- look at your surroundings ("l" for short).
+   examine -- look closely at an object ("x" for short).
+   search, find -- look all around something, or look for something.
+   inventory -- check what you are carrying ("i" for short).
+   take -- pick something up.
+   drop -- put something down.
+   listen, touch, smell, taste -- use your various senses.
+   north, up, out, etc. -- try going in a direction ("n" etc. for
+ short).
+   open, close -- open or shut something.
+   wait -- do nothing ("z" for short).
+   think about -- contemplate something ("t" for short).
+
+   save, restore -- save or reload a game position.
+   transcript, noscript -- start or stop writing the session to a file.
+   record, replay -- record or replay all commands entered.
+   restart -- start the game again.
+   quit -- end the game ("q" for short).
+   score, full score -- current score, or breakdown of score.
+   again -- repeat the last command ("g" for short).
+   undo -- undo the last command.
+
+ Many other commands are available as well. For a longer list, see
+ <A HREF="http://dfisher.serverspeople.net/if2.html.">http://dfisher.serverspeople.net/if2.html.</A>
+
+>think about master
+ (It is not quite as dark as you thought. A sliver of light under the
+ door provides a tiny amount of light, and your eyes begin to adjust to
+ the near darkness ...)
+
+ Your master is kind, but a little forgetful sometimes. He spends most
+ of his time poring over ancient manuscripts.
+
+>think about me
+ You're pretty content with your life. Your master is kind and you have
+ freedom of movement in and out of the house.
+
+>think about vault
+ It's not that small, really ... the air should last for a while.
+
+>examine door
+ You can't see the door too well. There is a sliver of light coming in
+ from under it.
+
+>look
+ Vault
+ There is plenty of room to move around, and the ceiling is quite high.
+ You can just make out a shelf along one of the walls.
+
+ On the floor you can faintly see a brass cage and a scroll.
+
+>examine cage
+ You can barely make out the brass cage sitting on the floor.
+
+ It seems to have fallen open.
+
+>think about cage
+ Wonder what was inside it.
+
+ Something brushes past your foot.
+
+>take scroll
+ Taken.
+
+>examine scroll
+ It's a fragile scroll. It is too dark to read what is on it.
+
+>examine shelf
+ The shelf seems to have some objects on it, but you can't clearly make
+ them out.
+
+>touch shelf
+ You stretch out your hand and feel your way along the shelf ... there
+ is a piece of parchment, what feels like a leather bound book, a
+ crystal or gemstone of some kind ...
+
+ Clunk! You knock over a small vial of liquid, which glows briefly with
+ a dull green light. The glow soon fades away.
+
+ You noticed that the vial had a stopper, so nothing was spilled.
+ (Fortunately for you; your master may have been upset if it had).
+
+>take vial
+ Taken.
+
+>examine vial
+ You can't see it very well in the dark. It only glowed for a brief
+ time.
+
+ You feel something nibbling on your shoe.
+
+>shake vial
+ You give the vial of liquid a vigorous shake, and it starts to glow
+ with a faint, phosphorescent green light -- enough to get a better look
+ at your surroundings.
+
+ [Your score has just gone up by 10%.]
+
+ [Type "full score" at any time for a breakdown of your score.]
+
+>examine book
+ The front cover of the book has the word "SPELLS" written vertically
+ down the left side in silver letters.
+
+ You glimpse the words "Pleasing Effects" before the glow fades too much
+ to read the rest of the title. The letters in silver remain visible.
+
+ book".]
+
+>shake vial
+ You give the vial of liquid another shake, and it briefly glows a
+ little brighter.
+
+>look
+ Vault
+ You view your surroundings by the dull green glow of the liquid ...
+
+ On the shelf you can see a leather bound book, a piece of parchment and
+ a crystal or gemstone.
+
+ On the floor is an open brass cage.
+
+>take all from shelf
+ leather bound book: Removed.
+ piece of parchment: Removed.
+ crystal or gemstone: Removed.
+
+ Something brushes past you again.
+
+>read book
+ The front cover of the book has the word "SPELLS" written vertically
+ down the left side in silver letters. There is some other writing as
+ well, but it's too dark to make out.
+
+>shake vial
+ You give the vial of liquid another shake, and it glows a little
+ brighter again.
+
+>read book
+ The front cover of the book has the word "SPELLS" written vertically
+ down the left side in silver letters.
+
+ You glimpse the words "Pleasing Effects" before the glow fades too much
+ to read the rest of the title. The letters in silver remain visible.
+
+>next
+ The first page says "Suveh Nux" down the left side in silver letters.
+ There is some other writing as well, but it's too dark to make out.
+
+>suveh nux
+ You say "Suveh nux".
+
+ The room is suddenly filled with light.
+
+ You briefly feel something small standing on your foot.
+
+ [Your score has just gone up by 10%.]
+
+>examine floor
+ The floor is solid stone, just like the walls and the door.
+
+ On the floor is an open brass cage.
+
+>next
+ The second page says:
+
+  Ancient races such as the Meohan, a
+  very sophisticated and reasonable
+  ethnic group indeed, possessed
+  horological devices of such accurate
+  Timing that they could predict
+  imminent eclipses, conjunctions
+  and other such astronomical phenomena.
+
+ The first letter in each line is written in silver, spelling "Aveh
+ Tia".
+
+>aveh tia
+ You say "Aveh tia".
+
+ The room becomes hot.
+
+ Something briefly tugs at your trousers and then lets go.
+
+>next
+ The third page says:
+
+  Another highly developed race of antiquity,
+  vanquished by the Meohan, were the Sundar --
+  exquisite workers in metal, gemstones and
+  heated glass. Their susceptibility to the
+  Meohan's warlike methods was only due to
+  a civil war between rival noble families,
+  devastating the nation's standing army
+  at a very inopportune time; their enemies
+  had a distinct numerical advantage as a result.
+
+ The first letter in each line is written in silver, spelling "Aveh
+ Madah".
+
+>aveh madah
+ You say "Aveh madah".
+
+ You feel heavy and weighed down.
+
+>again
+ You say "Aveh madah".
+
+ You briefly feel a bit heavier.
+
+>next
+ The fourth page says:
+
+  Sundaresi manufacturing techniques should not be
+  underestimated. They were experts in shaping
+  very large blocks of marble or granite, which the
+  evidence suggests were used for constructing
+  huge, elaborate tombs for their deceased rulers.
+  Sundar stone shaping involved making the stone
+  extremely cold with buckets of ice imported from
+  nearby Aoeteria, and then rapidly heating the
+  stone with an intense blaze, which would split
+  it along the desired fault line.
+
+ The first letter in each line is written in silver, spelling "Suveh
+ Sensi".
+
+ Something nibbles on your shoe.
+
+>suveh sensi
+ You say "Suveh sensi".
+
+ Your emotions feel confused.
+
+>next
+ The fifth page says:
+
+  Anatomy, Physiology and Biology were among the
+  various subjects studied and perfected by the
+  ethnic group known jointly as the Andira, who
+  had more than a passing understanding of the
+  Holistic nature of such endeavours. Medical
+  advances of various and sundry kinds were
+  invented by this group, and it must certainly be
+  acknowledged that much of their skill and the
+  knowledge they possessed far exceeds our own.
+
+ The first letter in each line is written in silver, spelling "Aveh
+ Haiak".
+
+ You feel something brush against you again.
+
+>aveh haiak
+ You say "Aveh haiak".
+
+ Your hands start feeling sticky.
+
+>next
+ The sixth page says:
+
+  Ancient mathematics included concepts such as the
+  value of pi, the square root of two, and other
+  esoteric numbers; calculus and trigonometry; and
+  how to prove things in a rigorous, logical fashion.
+  Numbers in the Laodian culture were formed
+  using admirably simple rules (historian
+  x's claims to the contrary notwithstanding):
+  A value is doubled by prefixing it with "ma";
+  no value but zero ends with this syllable. If
+  it is prefixed with "to", double and add one.
+  "Matoto", for example, represents the number six,
+  as this is twice "toto", the number three; and
+  "to" alone is of course unity. It seems that no
+  other culture used this kind of representation.
+
+ The first letter in each line is written in silver, spelling "Aveh Nux
+ Ani Mato".
+
+>aveh nux ani mato
+ You say "Aveh nux ani mato", and you feel a tingling sensation. Nothing
+ unpleasant, but it is a bit strange.
+
+>next
+ The rest of the pages seem to be blank. You turn back to page six.
+
+ The scroll is written in your master's hand in a familiar script, but
+ you cannot read what it says. Perhaps it is some kind of shorthand or
+ private code. You don't have much hope of interpreting it.
+
+ The light suddenly goes out, and you are in darkness once again.
+
+ You say "Suveh nux".
+
+ The room is filled with light.
+
+ The parchment is written in a script you are not familiar with. In the
+ centre is an illustration of a man holding a teardrop shaped object and
+ pointing his finger at a table.
+
+>examine door
+ The door is made from solid stone, and it looks strong and heavy.
+
+ Something briefly sticks to your shoe.
+
+>examine shoe
+ Your shoes are black and shiny, and they have some small nibble marks
+ on them.
+
+ They feel a little sticky.
+
+>inventory
+ You are carrying:
+   a clear crystal
+   a piece of parchment
+   a leather bound book
+   a vial of liquid with a cork stopper
+   a scroll
+
+>examine crystal
+ A perfectly clear crystal with many facets, about the size of your fist
+ and shaped like a teardrop. The light dances beautifully across its
+ surface.
+
+>point at door
+ You point your finger at the vault door.
+
+ The crystal hums briefly, and the word "fireno" dances in the air
+ before you in fiery letters.
+
+>fireno
+ I don't know how to fireno.
+
+>suveh nux fireno
+ You say "Suveh nux fireno".
+
+ The vault door starts to glow.
+
+ Something tickles your ankle.
+
+ [Your score has just gone up by 10%.]
+
+>aveh madah fireno
+ You say "Aveh madah fireno".
+
+ You feel like something has happened.
+
+>again
+ You say "Aveh madah fireno".
+
+ You feel like something didn't quite happen.
+
+>aveh nux ani mato fireno
+ You say "Aveh nux ani mato fireno", and you feel the tingling sensation
+ again.
+
+>touch door
+ It doesn't feel sticky, but your hands are sticky. You have difficulty
+ removing your hands from it.
+
+ You point your finger at the floor.
+
+ The word "tolanisu" impresses itself on your mind.
+
+ The vault door stops glowing.
+
+>point at cage
+ You point your finger at the brass cage.
+
+ The word "imoentar" drifts into your consciousness.
+
+ Something gets stuck to your foot then detaches itself.
+
+ You point your finger at your shoes.
+
+ The word "ami" appears in fiery letters before you.
+
+>= suveh nux : light
+ Noted.  [1]
+
+>=aveh tia : heat
+ You say "Aveh tia : heat", but it feels wrong somehow.
+
+>= aveh tia: heat
+ Noted.  [2]
+
+>= aveh madah : weigh down
+ Noted.  [3]
+
+>mistype
+ Commands for controlling automatic typing correction are:
+
+   mistype off -- to turn off typing correction completely.
+   mistype single -- to correct single-letter errors only.
+   mistype on -- to turn on full typing correction.
+
+>mistype off
+ [Automatic typing check is now off.]
+
+>= suveh sensi : confuse emotions?
+ Noted.  [4]
+
+>= aveh haiak : make sticky?
+ Noted.  [5]
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+
+>= fireno : door, tolanisu : floor, imoentar : cage, ami : part of PC
+ Noted.  [6]
+
+>push door
+ You push the door with all your might, but it doesn't budge.
+
+ It doesn't feel sticky, but your hands are sticky. You have difficulty
+ removing your hands from it.
+
+>ppull door
+ The door opens outwards.
+
+>look under door
+ The gap under the door isn't big enough to see through.
+
+>examine me
+ You seem to be intact after your rough handling.
+
+ You are dressed in a tunic, some loose trousers and a pair of black
+ shoes, and you are carrying a clear crystal, a piece of parchment, a
+ leather bound book, a vial of liquid with a cork stopper and a scroll.
+
+ The room feels hot. Your hands feel sticky. You feel heavy and weighed
+ down.
+
+>open vial
+ Your remove the stopper from the vial, but the pungent vapours make you
+ feel dizzy, so you replace it again.
+
+>point to shelf
+ You point your finger at the shelf.
+
+ The word "agri" suggests itself to your awareness.
+
+>point to west wall
+ You point your finger at the west wall.
+
+ The word "nisu-ewa" comes unbidden into your mind.
+
+ You sense something circling your feet.
+
+>point to ceiling
+ You point your finger at the ceiling.
+
+ The word "amunisu" appears before you.
+
+>ewa
+ I don't know how to ewa.
+
+>ewa agri
+ I don't know how to ewa things.
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+ You say "Aveh madah amunisu".
+
+ You feel like something has happened.
+
+ Something briefly tugs at your trousers and then lets go.
+
+>aveh nux ani mato suveh nux
+ You say "Aveh nux ani mato suveh nux", but the words "suveh" and "aveh"
+ don't feel right together.
+
+>aveh nux ani mato fireno
+ You say "Aveh nux ani mato fireno", and you feel the tingling sensation
+ again.
+
+>aveh sensi
+ You say "Aveh sensi".
+
+ Your emotions feel back to normal again.
+
+ You feel something nibbling on your shoe.
+
+ [Your score has just gone up by 10%.]
+
+>aveh nux
+ You say "Aveh nux".
+
+ Dark shadows appear around the vault door.
+
+ The light suddenly goes out, and you are in darkness once again.
+
+>suveh nux
+ You say "Suveh nux".
+
+ The room is filled with light.
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+>suveh madah fireno
+ You say "Suveh madah fireno".
+
+ You feel like something has happened.
+
+>again
+ You say "Suveh madah fireno".
+
+ You feel like something has happened.
+
+ Something briefly sticks to your shoe.
+
+>push door
+ You push the door with all your might, but it doesn't budge; even
+ though it must be lighter, it is still held shut by the lock.
+
+ It doesn't feel sticky, but your hands are sticky. You have difficulty
+ removing your hands from it.
+
+>examine creature
+ You can't see whatever it was that was stuck to your shoe.
+
+>aveh sensi
+ You say "Aveh sensi".
+
+ Your emotions feel confused again.
+
+ You say "Suveh haiak fireno".
+
+ You feel like something has happened.
+
+ You sense something circling your feet.
+
+>suveh haiak
+ You say "Suveh haiak".
+
+ Your hands stop feeling sticky.
+
+>suveh haiak
+ You say "Suveh haiak".
+
+ Your hands start feeling slippery.
+
+>point at floor
+ You point your finger at the floor.
+
+ The word "tolanisu" is impressed upon your mind.
+
+>suveh haiak tolanisu
+ You say "Suveh haiak tolanisu".
+
+ The floor starts feeling slippery, making it tricky to move around.
+
+ There is a faint twittering sound.
+
+ You say "Suveh haiak fireno".
+
+ You feel like something didn't quite happen.
+
+ There is a faint twittering sound.
+
+ The vault door won't budge; even though it must be lighter, it is still
+ held shut by the lock.
+
+ It feels slippery.
+
+ There is a faint twittering sound.
+
+>search floor
+ There is an open brass cage on the floor.
+
+ You can't find whatever it was that was circling your feet.
+
+ There is a faint twittering sound.
+
+>touch floor
+ It feels slippery.
+
+ Something runs into your foot and bounces off.
+
+ You say "Aveh sensi fireno".
+
+ You feel unsympathetic towards the vault door. You don't particularly
+ care that it is shadowy. It's just a door. How odd.
+
+ There is a faint twittering sound.
+
+>aveh sensi creature
+ You say "Aveh sensi creature", but it feels wrong somehow.
+
+ There is a faint twittering sound.
+
+ You don't know where it is now.
+
+>suveh sensi fireno
+ You say "Suveh sensi fireno".
+
+ You feel neutral towards the vault door again.
+
+ There is a faint twittering sound.
+
+>suveh sensi fireno
+ You say "Suveh sensi fireno".
+
+ You feel kind and caring towards the vault door. You feel a little
+ concerned about it being shadowy; it can be so scary being in the dark.
+
+ There is a faint twittering sound.
+
+ You say "Aveh haiak tolanisu".
+
+ The floor stops feeling slippery.
+
+ The twittering stops.
+
+ You say "Aveh haiak tolanisu".
+
+ The floor starts feeling sticky but you are slippery, and they kind of
+ cancel each other out.
+
+ There is a twittering sound.
+
+ You say "Aveh haiak tolanisu".
+
+ The floor briefly feels even more sticky.
+
+ You don't seem to be able to make it stay any stickier than it already
+ is.
+
+ There is a twittering sound.
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+ You think you can tell which part of the floor the twittering is coming
+ from. You feel confident that you would find the source if you searched
+ for it.
+
+ You search around, and find a small furry thing that must be the
+ invisible creature that escaped from the cage. It is stuck to the
+ floor, and is twittering in annoyance.
+
+ You detach it from the floor and try to hold onto it, but your slippery
+ hands make that quite difficult.
+
+ [Your score has just gone up by 5%.]
+
+ You point your finger at the creature in your arms.
+
+ The word "ami" comes into your mind -- the same word as for your body.
+
+ The creature wriggles free from your grasp and jumps to the floor.
+
+ [Your score has just gone down by 5%.]
+
+>aveh haiak
+ You say "Aveh haiak".
+
+ Your hands stop feeling slippery.
+
+ There is a twittering sound.
+
+>aveh haiak
+ You say "Aveh haiak".
+
+ Your hands start feeling sticky.
+
+ There is a twittering sound.
+
+>search for creature
+ You search around and find the creature again.
+
+ You detach it from the floor and hold onto it firmly.
+
+ [Your score has just gone up by 5%.]
+
+>put creature in cage
+ You put the invisible creature into the cage and close it.
+
+ The cage doesn't feel sticky, but your hands are sticky. It seems to be
+ stuck to the floor.
+
+>suveh sensi ami
+ You say "Suveh sensi ami".
+
+ Your emotions feel back to normal again.
+
+ The creature in the cage is completely invisible.
+
+>shake cage
+ (first taking the brass cage)
+ It seems to be stuck to the floor, but your hands are sticky too.
+
+ Taken. It sticks to your hand.
+
+ You shake the brass cage and it rattles a little.
+
+ The creature twitters noisily.
+
+>point at creature
+ You point your finger at the creature in the cage.
+
+ The word "imoentar" appears in the air before you -- the same word as
+ for the brass cage.
+
+>aveh nux imoentar
+ You say "Aveh nux imoentar".
+
+ Dark shadows appear around the brass cage you are carrying.
+
+>suveh nux imoentar
+ You say "Suveh nux imoentar".
+
+ The shadows around the brass cage you are carrying disappear.
+
+>suveh nux imoentar
+ You say "Suveh nux imoentar".
+
+ The brass cage you are carrying starts to glow.
+
+>examine lock
+ There is no keyhole on this side of the door.
+
+>examine cage
+ A small brass cage with closely fitting bars. It opens at the bottom.
+
+ You know there is an invisible creature in there somewhere, but you
+ can't see it.
+
+ It is glowing.
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+>aveh nux imoentar
+ You say "Aveh nux imoentar".
+
+ The brass cage you are carrying stops glowing.
+
+>look
+ Vault
+ You are in a room-sized vault, with a shelf along one wall. The shelf
+ has nothing on it at the moment.
+
+ The door is dark and shadowy.
+
+ The floor feels sticky, making it difficult to move around.
+
+ You feel kind and caring towards the vault door.
+
+ The room feels hot. Your hands feel sticky. You feel heavy and weighed
+ down.
+
+>aveh sensi imoentar
+ You say "Aveh sensi imoentar".
+
+ You feel unsympathetic towards the brass cage.
+
+>undo
+ Vault
+ [Previous turn undone.]
+
+>page 3
+ The third page says:
+
+  Another highly developed race of antiquity,
+  vanquished by the Meohan, were the Sundar --
+  exquisite workers in metal, gemstones and
+  heated glass. Their susceptibility to the
+  Meohan's warlike methods was only due to
+  a civil war between rival noble families,
+  devastating the nation's standing army
+  at a very inopportune time; their enemies
+  had a distinct numerical advantage as a result.
+
+ The first letter in each line is written in silver, spelling "Aveh
+ Madah".
+
+>page 2
+ The second page says:
+
+  Ancient races such as the Meohan, a
+  very sophisticated and reasonable
+  ethnic group indeed, possessed
+  horological devices of such accurate
+  Timing that they could predict
+  imminent eclipses, conjunctions
+  and other such astronomical phenomena.
+
+ The first letter in each line is written in silver, spelling "Aveh
+ Tia".
+
+>page 4
+ The fourth page says:
+
+  Sundaresi manufacturing techniques should not be
+  underestimated. They were experts in shaping
+  very large blocks of marble or granite, which the
+  evidence suggests were used for constructing
+  huge, elaborate tombs for their deceased rulers.
+  Sundar stone shaping involved making the stone
+  extremely cold with buckets of ice imported from
+  nearby Aoeteria, and then rapidly heating the
+  stone with an intense blaze, which would split
+  it along the desired fault line.
+
+ The first letter in each line is written in silver, spelling "Suveh
+ Sensi".
+
+ You say "Suveh tia imoentar".
+
+ The brass cage you are carrying becomes cold.
+
+ There is a faint twittering sound from the cage.
+
+>suveh tia imoentar
+ You say "Suveh tia imoentar".
+
+ The brass cage you are carrying seems to briefly grow colder.
+
+ You say "Suveh tia imoentar".
+
+ The brass cage you are carrying seems to briefly grow colder.
+
+ There is a faint twittering sound from the cage.
+
+ You are carrying:
+   a brass cage (cold) with an invisible creature inside it
+   a clear crystal
+   a piece of parchment
+   a leather bound book
+   a vial of liquid with a cork stopper
+   a scroll
+
+ There is a faint twittering sound from the cage.
+
+>examine crystal
+ A perfectly clear crystal with many facets, about the size of your fist
+ and shaped like a teardrop. The light dances beautifully across its
+ surface.
+
+ There is no keyhole on this side of the door.
+
+>examine scroll
+ The scroll is written in your master's hand in a familiar script, but
+ you cannot read what it says. Perhaps it is some kind of shorthand or
+ private code. You don't have much hope of interpreting it.
+
+ There is a faint twittering sound from the cage.
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+>point at scroll
+ You point your finger at the scroll.
+
+ The word "anutasl" suggests itself to your awareness.
+
+ There is a faint twittering sound from the cage.
+
+>suveh sensi anutasl
+ You say "Suveh sensi anutasl".
+
+ You feel kind and caring towards the scroll.
+
+>examine scroll
+ The scroll is written in your master's hand in a familiar script, but
+ you cannot read what it says. Perhaps it is some kind of shorthand or
+ private code. You don't have much hope of interpreting it.
+
+ You feel kind and caring towards the scroll.
+
+ There is a faint twittering sound from the cage.
+
+>creature, hi
+ It doesn't seem to react to your speech.
+
+ There is a faint twittering sound from the cage.
+
+ You point your finger at the clear crystal.
+
+ The word "kirabesso" impresses itself on your mind.
+
+>remove shoes
+ You would rather leave your shoes on.
+
+>examine ceiling
+ The ceiling looks like it is made from stone, just like the rest of the
+ vault.
+
+ There is a faint twittering sound from the cage.
+
+>look under shelf
+ There doesn't seem to be anything under the shelf.
+
+>aveh tia kirabesso
+ You say "Aveh tia kirabesso".
+
+ The clear crystal you are carrying becomes hot.
+
+ There is a faint twittering sound from the cage.
+
+>climb shelf
+ There isn't room for you on the shelf.
+
+>save
+>cf1
+ Enter saved game to store: Ok.
+
+>score
+ You have so far scored 45% in 122 turns.
+
+>fullscore
+ You have so far scored 45% in 122 turns.
+
+ The score is made up as follows:
+
+     10 for shaking the vial
+      5 for speaking magic words
+      5 for lighting the room
+     10 for experimentation
+     10 for speaking a floating word
+      5 for capturing the creature
+     45 total (out of 100)
+
+>xyzzy
+ You remember seeing your master write down this word one day ...
+ perhaps it has magical effects? The problem is, you never found out how
+ to pronounce it.
+
+ You try "Zizee", "ksizee", "zeezigh", "zighzee" ... but nothing
+ happens, at least not immediately.
+
+ Oh, well. It was worth a try.
+
+ There is a faint twittering sound from the cage.
+
+ You would rather not waste the green liquid, whatever it is.
+
+>point at vial
+ You point your finger at the vial of liquid.
+
+ The word "siqui" dances in the air before you in fiery letters.
+
+>aveh nux siqui
+ You say "Aveh nux siqui".
+
+ Dark shadows appear around the vial of liquid you are carrying.
+
+>shave vial
+ I only understood you as far as wanting to save.
+
+>shake vial
+ You give the vial of liquid another shake.
+
+>isquiesque
+ I don't know how to isquiesque.
+
+>read book
+ The fourth page says:
+
+  Sundaresi manufacturing techniques should not be
+  underestimated. They were experts in shaping
+  very large blocks of marble or granite, which the
+  evidence suggests were used for constructing
+  huge, elaborate tombs for their deceased rulers.
+  Sundar stone shaping involved making the stone
+  extremely cold with buckets of ice imported from
+  nearby Aoeteria, and then rapidly heating the
+  stone with an intense blaze, which would split
+  it along the desired fault line.
+
+ The first letter in each line is written in silver, spelling "Suveh
+ Sensi".
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+>suveh tia fireno
+ You say "Suveh tia fireno".
+
+ The vault door becomes cold.
+
+ You feel a little concerned about it being shadowy and cold, the poor
+ thing. And you hope it isn't scared of the dark.
+
+ There is a faint twittering sound from the cage.
+
+>suveh tia fireno
+ You say "Suveh tia fireno".
+
+ The vault door seems to briefly grow colder.
+
+>aveh tia fireno
+ You say "Aveh tia fireno".
+
+ The vault door stops being cold.
+
+ You are relieved that the vault door is no longer cold, but you are
+ still concerned about it being in the dark.
+
+ The temperature change doesn't seem to have affected the door.
+
+ There is a faint twittering sound from the cage.
+
+>aveh tia fireno
+ You say "Aveh tia fireno".
+
+ The vault door becomes hot.
+
+ You feel a little concerned about it being shadowy and hot -- it must
+ be very uncomfortable. And you hope it isn't scared of the dark.
+
+>aveh tia fireno
+ You say "Aveh tia fireno".
+
+ The vault door seems to briefly grow hotter.
+
+ There is a faint twittering sound from the cage.
+
+>page 6
+ The sixth page says:
+
+  Ancient mathematics included concepts such as the
+  value of pi, the square root of two, and other
+  esoteric numbers; calculus and trigonometry; and
+  how to prove things in a rigorous, logical fashion.
+  Numbers in the Laodian culture were formed
+  using admirably simple rules (historian
+  x's claims to the contrary notwithstanding):
+  A value is doubled by prefixing it with "ma";
+  no value but zero ends with this syllable. If
+  it is prefixed with "to", double and add one.
+  "Matoto", for example, represents the number six,
+  as this is twice "toto", the number three; and
+  "to" alone is of course unity. It seems that no
+  other culture used this kind of representation.
+
+ The first letter in each line is written in silver, spelling "Aveh Nux
+ Ani Mato".
+
+ There is a faint twittering sound from the cage.
+
+>aveh tia fireno mato
+ You say "Aveh tia fireno mato", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+>suveh tia fireno matoto
+ You say "Suveh tia fireno matoto", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+>aveh tia firenoto
+ You say "Aveh tia firenoto", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+>matoto aveh tia fireno
+ I don't know how to matoto aveh things.
+
+>aveh tia mafireno
+ You say "Aveh tia mafireno", but it feels wrong somehow.
+
+>suveh nux mato
+ You say "Suveh nux mato", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh nux ani mato", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+>aveh tia fireno ani moto
+ You say "Aveh tia fireno ani moto", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno ani matotototo", and you feel the tingling
+ sensation again.
+
+ The room briefly shines a bit brighter.
+
+ [Your score has just gone up by 10%.]
+
+>aveh tia fireno ani matototototo
+ You say "Aveh tia fireno ani matototototo", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ The door is made from solid stone, and it looks strong and heavy (but
+ you suspect it weighs a bit less now).
+
+ It is covered in shadows, and it is giving off heat.
+
+ You feel kind and caring towards the vault door. You feel a little
+ concerned about it being shadowy and hot -- it must be very
+ uncomfortable. And you hope it isn't scared of the dark.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia kirabesso matotototo", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia kirabesso ani matotototo", and you feel the tingling
+ sensation again.
+
+ You find yourself wondering what the delay caused by the word "ani" is
+ about. It doesn't seem to be all that useful, really.
+
+ You are carrying:
+   a brass cage (cold) with an invisible creature inside it
+   a clear crystal (hot)
+   a piece of parchment
+   a leather bound book
+   a vial of liquid (shadowy) with a cork stopper
+   a scroll
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno ani matotototo", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ (first taking the vault door)
+ That's hardly portable.
+
+ The door is made from solid stone, and it looks strong and heavy (but
+ you suspect it weighs a bit less now).
+
+ It is covered in shadows, and it is giving off heat.
+
+ You feel kind and caring towards the vault door. You feel a little
+ concerned about it being shadowy and hot -- it must be very
+ uncomfortable. And you hope it isn't scared of the dark.
+
+ There is a faint twittering sound from the cage.
+
+>suveh tia fireno mato
+ You say "Suveh tia fireno mato", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno ani matototo", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia fireno ani matototo", and you feel the tingling
+ sensation again.
+
+ The door is made from solid stone, and it looks strong and heavy (but
+ you suspect it weighs a bit less now).
+
+ It is covered in shadows, and it is giving off heat.
+
+ You feel kind and caring towards the vault door. You feel a little
+ concerned about it being shadowy and hot -- it must be very
+ uncomfortable. And you hope it isn't scared of the dark.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno".
+
+ The vault door stops being hot.
+
+ You are relieved that the vault door is no longer hot, but you are
+ still concerned about it being in the dark.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh sensi fireno".
+
+ You briefly feel more empathetic and understanding towards the vault
+ door.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh sensi fireno ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ The door is made from solid stone, and it looks strong and heavy (but
+ you suspect it weighs a bit less now).
+
+ It is covered in shadows.
+
+ You feel kind and caring towards the vault door. You feel a little
+ concerned about it being shadowy; it can be so scary being in the dark.
+
+>wait
+ Time passes.
+
+ You feel neutral towards the vault door again.
+
+ There is a faint twittering sound from the cage.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>suveh nux ani to. suveh nux
+ You say "Suveh nux ani to . suveh nux", but it feels wrong somehow.
+
+>suveh nux ani to
+ You say "Suveh nux ani to", and you feel the tingling sensation again.
+
+ There is a faint twittering sound from the cage.
+
+>suveh nux
+ You say "Suveh nux".
+
+ The light in the room grows even brighter.
+
+ This magical effect seems much stronger than all the others you have
+ seen so far.
+
+ There is a faint twittering sound from the cage.
+
+ [Your score has just gone up by 10%.]
+
+>=
+>full
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+ You have so far scored 65% in 164 turns.
+
+ The score is made up as follows:
+
+     10 for shaking the vial
+      5 for speaking magic words
+      5 for lighting the room
+     10 for experimentation
+     10 for speaking a floating word
+     10 for numerical proficiency
+     10 for an intensified effect
+      5 for capturing the creature
+     65 total (out of 100)
+
+ You say "Suveh tia fireno ani to", and you feel the tingling sensation
+ again.
+
+ The vault door becomes cold.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno ano mato", but it feels wrong somehow.
+
+ The vault door gets colder.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno ani mato", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia fireno ani to", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno".
+
+ The vault door gets colder.
+
+ There is a faint twittering sound from the cage.
+
+ Time passes.
+
+ Time passes.
+
+ There is a faint twittering sound from the cage.
+
+ The door is made from solid stone, and it looks strong and heavy (but
+ you suspect it weighs a bit less now).
+
+ It is covered in shadows, and it is radiating very intense cold.
+
+ The vault door seems to briefly grow colder.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia fireno toto", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia fireno ani toto", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia fireno ani mato", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia fireno ani to", and you feel the tingling sensation
+ again.
+
+ The clear crystal you are carrying seems to briefly grow hotter.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia fireno".
+
+ The vault door stops being cold, and becomes hot instead.
+ There are lots of small cracking sounds from the direction of the vault
+ door.
+
+ There is a faint twittering sound from the cage.
+
+ The door is made from solid stone, and it looks strong and heavy (but
+ you suspect it weighs a bit less now).
+
+ It is covered in shadows, and it is giving off heat.
+
+ The vault door stops being hot.
+
+>push door
+ You push the door with all your might, but it doesn't budge; even
+ though it must be lighter, it is still held shut by the lock.
+
+ It feels slippery, and your hands don't stick to it.
+
+ You push the door with all your might, but it doesn't budge; even
+ though it must be lighter, it is still held shut by the lock.
+
+ It feels slippery, and your hands don't stick to it.
+
+ There is a faint twittering sound from the cage.
+
+>hit door
+ You bang your fist against the vault door, but solid stone wins out
+ against mortal flesh. The door remains stubbornly closed.
+
+ There is a faint twittering sound from the cage.
+
+ Which do you mean, the south wall, the east wall, the west wall or the
+ north wall?
+
+ You point your finger at the west wall.
+
+ The word "nisu-ewa" suggests itself to your awareness.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia nisu-ewa ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia nisu-ewa ani mato", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia nisu-ewa ani to", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia nisu-ewa".
+
+ The west wall becomes extremely cold.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia nisu-ewa ani toto", and you feel the tingling
+ sensation again.
+
+ You say "Aveh tia nisu-ewa ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia nisu-ewa ani to", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia nisu-ewa".
+
+ The west wall stops being cold, and becomes hot instead.
+
+ Some cracks appear on the surface of the west wall.
+
+ There are some fine cracks along the west wall. There is a shelf along
+ it.
+
+ The west wall is giving off heat.
+
+ You say "Suveh tia nisu-ewa ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia nisu-ewa ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia nisu-ewa ani to", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia nisu-ewa".
+
+ The west wall stops being hot, and becomes extremely cold instead.
+
+ You say "Aveh tia nisu-ewa ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia nisu-ewa ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia nisu-ewa ani to", and you feel the tingling sensation
+ again.
+
+ You say "Aveh tia nisu-ewa".
+
+ The west wall stops being cold, and becomes hot instead.
+
+ Some more cracks appear on the surface of the west wall.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia nisu-ewa ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia nisu-ewa ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia nisu-ewa ani to", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia nisu-ewa".
+
+ The west wall stops being hot, and becomes extremely cold instead.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia nisu-ewa ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia nisu-ewa ani mato", and you feel the tingling
+ sensation again.
+
+ The vault door becomes hot.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia nisu-ewa ani to", and you feel the tingling sensation
+ again.
+
+ You say "Aveh tia nisu-ewa".
+
+ The west wall stops being cold, and becomes hot instead.
+
+ Some more cracks appear on the surface of the west wall.
+
+ You can't see any such thing.
+
+ There are some fine cracks along the west wall. There is a shelf along
+ it.
+
+ The west wall is giving off heat.
+
+ There is a faint twittering sound from the cage.
+
+>examine west wall
+ There are some fine cracks along the west wall. There is a shelf along
+ it.
+
+ The west wall is giving off heat.
+
+>look
+ Vault
+ You are in a room-sized vault, with a shelf along one wall. The shelf
+ has nothing on it at the moment.
+
+ The west wall is hot.
+
+ The door is shadowy and hot.
+
+ The floor feels sticky, making it difficult to move around.
+
+ You feel kind and caring towards the scroll.
+
+ The room feels hot. Your hands feel sticky. You feel heavy and weighed
+ down.
+
+ The room is very bright.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno ani mamato", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia fireno ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno ani mato", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia fireno ani to", and you feel the tingling sensation
+ again.
+
+ You say "Suveh tia fireno".
+
+ The vault door stops being hot, and becomes extremely cold instead.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia fireno ani mamato", and you feel the tingling
+ sensation again.
+
+ You say "Aveh tia fireno ani toto", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia fireno ani mato", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia fireno ani to", and you feel the tingling sensation
+ again.
+
+ You say "Aveh tia fireno".
+
+ There is a loud "crack", and a huge split appears in the door. It goes
+ from the top right corner to half way up the left side, forming a large
+ triangular block separate from the rest of the door.
+
+ There is a faint twittering sound from the cage.
+
+ [Your score has just gone up by 20%.]
+
+>examine door
+ There is a large crack in the door, from the top right corner to half
+ way up the left side, forming a triangular block separate from the rest
+ of the door. The main section of the door is on the bottom right.
+
+ It is covered in shadows, and it is giving off intense heat.
+
+ The triangular block is covered in shadows, and it is giving off
+ intense heat.
+
+>push door
+ It's too hot to try doing that.
+
+ You say "Suveh tia fireno ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia fireno ani to", and you feel the tingling sensation
+ again.
+
+ You say "Suveh tia fireno".
+
+ The main section of the vault door stops being hot, and becomes cold
+ instead.
+
+ It seems strange that the main part of the door can be cold while the
+ triangular block is hot, but this is magic, after all.
+
+ There is a faint twittering sound from the cage.
+
+ You point your finger at the triangular block.
+
+ The word "firenos" drifts into your consciousness.
+
+>push door
+ You push the door with all your might, but it doesn't budge. The main
+ section of the door must still include the lock.
+
+ It feels cold and slippery, and your hands don't stick to it.
+
+ There is a faint twittering sound from the cage.
+
+ It's too hot to try doing that.
+
+ There is a faint twittering sound from the cage.
+
+>suveh tia firenos
+ You say "Suveh tia firenos".
+
+ The triangular block cools slightly. It is probably OK to touch now.
+
+ There is a faint twittering sound from the cage.
+
+>push block
+ You try pushing the block, but it is totally stuck; the way the crack
+ in the door was formed, the block seems impossible to push outwards.
+
+ The block feels hot and slippery.
+
+ There is a faint twittering sound from the cage.
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+>aveh haiak firenos
+ You say "Aveh haiak firenos".
+
+ You feel like something has happened.
+
+ There is a faint twittering sound from the cage.
+
+>aveh haiak firenos
+ You say "Aveh haiak firenos".
+
+ You feel like something has happened.
+
+ There is a faint twittering sound from the cage.
+
+>pull block
+ You can get a good grip on the block with your sticky hands, and it
+ shifts slightly, but it seems a bit too heavy to move.
+
+ The block feels hot and sticky.
+
+>suveh madah firenos
+ You say "Suveh madah firenos".
+
+ You feel like something didn't quite happen.
+
+>pull block
+ You can get a good grip on the block with your sticky hands, and it
+ shifts slightly, but it still seems a bit too heavy to move.
+
+ The block feels hot and sticky.
+
+>suveh madah firenos
+ You say "Suveh madah firenos".
+
+ You feel like something didn't quite happen.
+
+>aveh madah firenos
+ You say "Aveh madah firenos".
+
+ You feel like something has happened.
+
+ There is a faint twittering sound from the cage.
+
+>pull block
+ You can get a good grip on the block with your sticky hands, but it
+ still won't budge when you try to pull it towards you. It is a very
+ heavy block.
+
+ The block feels hot and sticky.
+
+>suveh madah firenos
+ You say "Suveh madah firenos".
+
+ You feel like something has happened.
+
+>suveh madah firenos
+ You say "Suveh madah firenos".
+
+ You feel like something didn't quite happen.
+
+>pull block
+ You can get a good grip on the block with your sticky hands, and it
+ shifts slightly, but it still seems a bit too heavy to move.
+
+ The block feels hot and sticky.
+
+ You say "Suveh madeh firenos ani to", and you feel the tingling
+ sensation again.
+
+ You say "Suveh madeh firenos".
+
+ You feel like something has happened.
+
+ There is a faint twittering sound from the cage.
+
+ You get a good grip on the block with your sticky hands and pull it
+ towards you. It feels much lighter than normal stone, and it comes
+ free! You pull it all the way out and drop it on the ground (although
+ releasing it proves a little tricky) and say a few magic words to
+ restore yourself to normal, and then crawl through the open hole into
+ freedom.
+
+ [Your score has just gone up by 10%.]
+
+ [Press a key]
+>press space
+
+ Rushing up the stairs, you find your master bound and gagged on a chair
+ in the middle of the room. You quickly unbind him, but he offers no
+ explanation.
+
+ You describe your entrapment in the vault and your means of escape, and
+ your master raises his eyebrows in amazement. "My, my! I never knew you
+ had it in you.
+
+ "It seems you managed to avoid destroying any of the objects in the
+ vault -- many thanks. And you even managed to recapture my beastie.
+ Wonderful! Such creatures are hard to come by, as you can imagine.
+
+ "You have my deepest gratitude, not for this alone, but for rescuing me
+ from my bonds. Well done! You have your master's praise."
+
+
+     *** You have escaped ***
+
+
+ In that game you scored 95% in 243 turns.
+
+ [0 Easter eggs found -- see AMUSING].
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ give the FULL score for that game, see some suggestions for AMUSING
+ things to do or QUIT?
+>amusing
+
+ Have you tried ...
+
+ * Turning on the light?
+ * Listing exits?
+ * Saying "xyzzy", "plugh" and "plover" (as well as "plover x")?
+ * Variations on "xyzzy"?
+ * "Abracadabra" or "open sesame"?
+ * "Alohomora"?
+ * Thinking about nothing, reality, hints, your score or the game?
+ * Stamping on your foot (several times)?
+ * Laughing, crying, waving or singing?
+ * Giving up?
+ * Hugging something?
+ * Eating the door or yourself?
+ * Sliding on a slippery floor?
+ * Making the floor hot and waiting a while (with the creature loose)?
+ * Deleting an object or yourself (instead of a notebook entry)?
+ * The "map" command?
+ * Typing "win"?
+
+ There are several (literal) Easter eggs to be found as well, but you
+ might have to do some unusual things to find them (in other words, try
+ everything you can think of).
+
+ (Three additional actions are also available. Come back and check for
+ more later).
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ give the FULL score for that game, see some suggestions for AMUSING
+ things to do or QUIT?
+
+ In that game you scored 95% in 243 turns.
+
+ [0 Easter eggs found -- see AMUSING].
+
+ The score was made up as follows:
+
+     10 for shaking the vial
+      5 for speaking magic words
+      5 for lighting the room
+     10 for experimentation
+     10 for speaking a floating word
+     10 for numerical proficiency
+     10 for an intensified effect
+     20 for cracking the door
+     10 for escaping from the vault
+      5 for capturing the creature
+     95 total (out of 100)
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ give the FULL score for that game, see some suggestions for AMUSING
+ things to do or QUIT?
+>undo
+
+>=
+ Please give one of the answers above.
+>undo
+
+>/undo
+
+>look
+ Please give one of the answers above.
+>/undo
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+>point at ceiling
+ Enter saved game to load: Restore failed.
+
+>point at ceiling
+ You point your finger at the ceiling.
+
+ The word "amunisu" comes unbidden into your mind.
+
+ There is a faint twittering sound from the cage.
+
+>aveh madah amunisu ani to
+ You say "Aveh madah amunisu ani to", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+>aveh madah amunisu
+ You say "Aveh madah amunisu".
+
+ You feel like something has happened.
+
+ There is a faint twittering sound from the cage.
+
+>examine ceiling
+ The ceiling looks like it is made from stone, just like the rest of the
+ vault.
+
+>aveh madah amunisu
+ You say "Aveh madah amunisu".
+
+ You feel like something didn't quite happen.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh madeh amunisu ani to", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh madeh amunisu".
+
+ You feel like something didn't quite happen.
+
+>map
+ A map of the room is displayed below:
+
+  +---+
+  | * |
+  +---+
+
+  (* You are here)
+
+ You say "Aveh madah amunisu ani to", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh madah amunisu".
+
+ You feel like something didn't quite happen.
+
+>go up
+ You feel a bit too heavy to jump in the air.
+
+>abracadabra
+ You recall your master once using this expression, but you're pretty
+ sure it was non-magical and just for effect.
+
+ You point your finger at yourself.
+
+ The word "ami" drifts into your consciousness -- the same word as when
+ you pointed at the creature when you were carrying it.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh madah ami".
+
+ You don't feel weighed down any more.
+
+ There is a faint twittering sound from the cage.
+
+ The floor is too sticky to jump from.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh haiak tolanisu".
+
+ The floor stops feeling sticky.
+
+ In spite of your stickiness, you manage to jump in the air, but you
+ come nowhere near the high ceiling.
+
+ There is a faint twittering sound from the cage.
+
+>look up
+ The ceiling looks like it is made from stone, just like the rest of the
+ vault.
+
+ You say "Suveh madah ami ani to", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh madah ami".
+
+ You feel extremely buoyant.
+
+ There is a faint twittering sound from the cage.
+
+ In spite of your stickiness, you manage to jump in the air and hit the
+ ceiling, which you briefly stick to before falling back down to the
+ floor.
+
+ You say "Suveh tia amunisu ani mamato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu".
+
+ The ceiling becomes extremely cold.
+
+ You say "Aveh tia amunisu ani mamato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ You say "Aveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ You say "Aveh tia amunisu".
+
+ The ceiling stops being cold, and becomes extremely hot instead.
+
+ Some cracks appear on the surface of the ceiling.
+
+>examine ceiling
+ The ceiling looks like it is made from stone, just like the rest of the
+ vault. There are some fine cracks along it.
+
+ It is giving off intense heat.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani mamato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ You say "Suveh tia amunisu".
+
+ The ceiling stops being hot, and becomes extremely cold instead.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani mamato", and you feel the tingling
+ sensation again.
+
+ You say "Aveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ You say "Aveh tia amunisu".
+
+ The ceiling stops being cold, and becomes extremely hot instead.
+
+ Some more cracks appear on the surface of the ceiling.
+
+ You say "Suveh tia amunisu ani mamato", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu".
+
+ The ceiling stops being hot, and becomes extremely cold instead.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani mamato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ You say "Aveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ You say "Aveh tia amunisu".
+
+ The ceiling stops being cold, and becomes extremely hot instead.
+
+ Some more cracks appear on the surface of the ceiling.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani mamato", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu".
+
+ The ceiling stops being hot, and becomes extremely cold instead.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani mamato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ You say "Aveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu".
+
+ The ceiling stops being cold, and becomes extremely hot instead.
+
+ Some more cracks appear on the surface of the ceiling.
+
+ There is a faint twittering sound from the cage.
+
+ The ceiling looks like it is made from stone, just like the rest of the
+ vault. There are some fine cracks along it.
+
+ It is giving off intense heat.
+
+ There is a faint twittering sound from the cage.
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+>aveh haiak amunisu
+ You say "Aveh haiak amunisu".
+
+ You feel like something has happened.
+
+>jump
+ In spite of your stickiness, you manage to jump in the air and hit the
+ extremely hot, sticky ceiling, which you stick to like glue. After some
+ effort you manage to detach yourself, and you fall back down to the
+ floor.
+
+ There is a faint twittering sound from the cage.
+
+>suveh tia amunisu
+ You say "Suveh tia amunisu".
+
+ The ceiling cools slightly, but it is still quite hot.
+
+>suveh tia amunisu
+ You say "Suveh tia amunisu".
+
+ The ceiling stops being hot.
+
+ There is a faint twittering sound from the cage.
+
+>jump
+ In spite of your stickiness, you manage to jump in the air and hit the
+ sticky ceiling, which you stick to like glue. After some effort you
+ manage to detach yourself, and you fall back down to the floor.
+
+ There is a faint twittering sound from the cage.
+
+>search ceiling
+ The ceiling looks like it is made from stone, just like the rest of the
+ vault. There are some fine cracks along it.
+
+>suveh nux amunisu
+ You say "Suveh nux amunisu".
+
+ The ceiling starts to glow.
+
+>jump
+ In spite of your stickiness, you manage to jump in the air and hit the
+ sticky ceiling, which you stick to like glue. After some effort you
+ manage to detach yourself, and you fall back down to the floor.
+
+>feel ceiling
+ The ceiling is too high for you to reach.
+
+>examine ceiling
+ The ceiling looks like it is made from stone, just like the rest of the
+ vault. There are some fine cracks along it.
+
+ It is glowing.
+
+>take all from ceiling
+ That can't contain things.
+
+>go up
+ In spite of your stickiness, you manage to jump in the air and hit the
+ sticky ceiling, which you stick to like glue. After some effort you
+ manage to detach yourself, and you fall back down to the floor.
+
+>aveh haiak amunisu ani to
+ You say "Aveh haiak amunisu ani to", and you feel the tingling
+ sensation again.
+
+>aveh haiak amunisu
+ You say "Aveh haiak amunisu".
+
+ You feel like something has happened.
+
+>go up
+ In spite of your stickiness, you manage to jump in the air and hit the
+ very sticky ceiling, which you stick to like glue. For some reason you
+ feel a certain sense of achievement at accomplishing this feat.
+
+ There is a faint twittering sound from the cage.
+
+>examine ceiling
+ The ceiling is made from stone, just like the rest of the vault. There
+ are some fine cracks along it.
+
+ It is glowing, and it feels very sticky.
+
+ It is interesting having a different persepective, but you wouldn't
+ mind getting down some time.
+
+>feel ceiling
+ It feels very sticky. You don't think you can detach yourself from it.
+
+ There is a faint twittering sound from the cage.
+
+>search ceiling
+ There's nothing really up here.
+
+>look
+ Vault
+ You are in a room-sized vault, with a shelf along one wall. The shelf
+ has nothing on it at the moment.
+
+ The ceiling is glowing.
+
+ The west wall is hot.
+
+ The door is shadowy and cold.
+
+ The ceiling feels very sticky.
+
+ You feel kind and caring towards the scroll.
+
+ The room feels hot. Your hands feel sticky. You feel buoyant, but your
+ feet are still on the ground.
+
+ You are hanging upside down from the ceiling.
+
+ The room is very bright.
+
+ There is a faint twittering sound from the cage.
+
+>examine cracks
+ You can't get a close look at it while you're stuck to the ceiling.
+
+ There is a faint twittering sound from the cage.
+
+>climb east wall
+ You can't really do that while you're stuck to the ceiling.
+
+ There is a faint twittering sound from the cage.
+
+>examine door
+ There is a large crack in the door, from the top right corner to half
+ way up the left side, forming a triangular block separate from the rest
+ of the door. The main section of the door is on the bottom right.
+
+ It is covered in shadows, and it is radiating cold.
+
+ The triangular block is covered in shadows, and it is giving off heat.
+
+ There is a faint twittering sound from the cage.
+
+>examine shelf
+ The shelf has nothing on it at the moment.
+
+ There is a faint twittering sound from the cage.
+
+>examine ceiling
+ The ceiling is made from stone, just like the rest of the vault. There
+ are some fine cracks along it.
+
+ It is glowing, and it feels very sticky.
+
+ It is interesting having a different persepective, but you wouldn't
+ mind getting down some time.
+
+ There is a faint twittering sound from the cage.
+
+>point at ceiling cracks
+ You can't see any such thing.
+
+>point at cracks
+ There are so many cracks, you can't decide which particular one to
+ point at.
+
+ There is a faint twittering sound from the cage.
+
+>winnable
+ I don't know how to winnable.
+
+>easter
+ I don't know how to easter.
+
+>find easter egg
+ You can't see any such thing.
+
+>hit ceiling
+ It's a bit awkward to do that while you're stuck to it.
+
+>examine floor
+ The floor is solid stone, just like the walls and the door.
+
+ There is a faint twittering sound from the cage.
+
+>examine cage
+ A small brass cage with closely fitting bars. It opens at the bottom.
+
+ You know there is an invisible creature in there somewhere, but you
+ can't see it.
+
+ It is cold.
+
+>look
+ Vault
+ You are in a room-sized vault, with a shelf along one wall. The shelf
+ has nothing on it at the moment.
+
+ The ceiling is glowing.
+
+ The west wall is hot.
+
+ The door is shadowy and cold.
+
+ The ceiling feels very sticky.
+
+ You feel kind and caring towards the scroll.
+
+ The room feels hot. Your hands feel sticky. You feel buoyant, but your
+ feet are still on the ground.
+
+ You are hanging upside down from the ceiling.
+
+ The room is very bright.
+
+ There is a faint twittering sound from the cage.
+
+>examine ceiling
+ The ceiling is made from stone, just like the rest of the vault. There
+ are some fine cracks along it.
+
+ It is glowing, and it feels very sticky.
+
+ It is interesting having a different persepective, but you wouldn't
+ mind getting down some time.
+
+ There is a faint twittering sound from the cage.
+
+>feel ceiling
+ It feels very sticky. You don't think you can detach yourself from it.
+
+ There is a faint twittering sound from the cage.
+
+>search ceiling
+ There's nothing really up here.
+
+ There is a faint twittering sound from the cage.
+
+>examine shelf
+ The shelf has nothing on it at the moment.
+
+ There is a faint twittering sound from the cage.
+
+>pull ceiling
+>examine walls
+ You can't really do that while you're stuck to the ceiling.
+
+ There is a faint twittering sound from the cage.
+
+ You can't get a close look at it while you're stuck to the ceiling.
+
+>hit ceiling
+ It's a bit awkward to do that while you're stuck to it.
+
+>drop crystal
+ It might break if you drop it from up here.
+
+>open cage
+ You can't really do that while you're stuck to the ceiling.
+
+ There is a faint twittering sound from the cage.
+
+>aveh madah ami
+ You say "Aveh madah ami".
+
+ You feel a little less buoyant.
+
+ However, it is not enough to pull you down from the ceiling.
+
+ There is a faint twittering sound from the cage.
+
+>aveh madah ami
+ You say "Aveh madah ami".
+
+ You are back to your normal weight again.
+
+ However, it is not enough to pull you down from the ceiling.
+
+ There is a faint twittering sound from the cage.
+
+>aveh madah ami
+ You say "Aveh madah ami".
+
+ You feel heavy and weighed down.
+
+ Your sudden weight pulls you down from the ceiling, but unfortunately
+ you hit the floor a little too hard.
+
+ There is a faint twittering sound from the cage.
+
+
+     *** You have died ***
+
+
+ In that game you scored 85% in 339 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ give the FULL score for that game or QUIT?
+>undo
+ Vault
+ [Previous turn undone.]
+
+>suveh haiak ami
+ You say "Suveh haiak ami".
+
+ Your hands stop feeling sticky.
+
+ You manage to extricate yourself from the ceiling, and fall back down
+ to the ground. You notice that a small brown egg has appeared in your
+ hand.
+
+ [Your score has just gone up by 2%.]
+
+>examine egg
+ It looks like a chocolate Easter egg.
+
+ There is a faint twittering sound from the cage.
+
+>eat egg
+ You swallow the Easter egg in a single bite. Delicious!
+
+>undo
+ Vault
+ [Previous turn undone.]
+
+>point at egg
+ You point your finger at the Easter egg.
+
+ Nothing happens. Perhaps it doesn't have a magical name.
+
+>give egg to creature
+ You poke the Easter egg through the bars of the cage, and it disappears
+ in a single bite.
+
+ The creature makes some snuffling sounds.
+
+>undo
+ Vault
+ [Previous turn undone.]
+
+>give egg to creature. open cage
+ You poke the Easter egg through the bars of the cage, and it disappears
+ in a single bite.
+
+ The creature makes some snuffling sounds.
+
+ You open the brass cage. It feels cold.
+
+ The creature sniffs your hand, but doesn't try to escape.
+
+ There is a faint twittering sound from the cage.
+
+>wait
+ Time passes.
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>inventory
+ You are carrying:
+   an Easter egg
+   a brass cage (cold) with an invisible creature inside it
+   a clear crystal (hot)
+   a piece of parchment
+   a leather bound book
+   a vial of liquid (shadowy) with a cork stopper
+   a scroll
+
+ There is a faint twittering sound from the cage.
+
+>open cage
+ You open the brass cage. It feels cold.
+
+ You feel something brush past you. With a sinking feeling you realise
+ that the creature has escaped again.
+
+ [Your score has just gone down by 5%.]
+
+>undo
+ Vault
+ [Previous turn undone.]
+
+>point at crystal
+ You point your finger at the clear crystal.
+
+ The word "kirabesso" impresses itself on your mind.
+
+ There is a faint twittering sound from the cage.
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+>suveh tia kirabesso ani mato
+>suveh tia kirabesso ani to
+>suveh tia kirabesso
+>aveh tia kirabesso ani mato
+>aveh tia kirabesso ani to
+ You say "Suveh tia kirabesso ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+>aveh tia kirabesso
+ You say "Suveh tia kirabesso ani to", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia kirabesso".
+
+ The clear crystal you are carrying stops being hot, and becomes
+ extremely cold instead.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia kirabesso ani mato", and you feel the tingling
+ sensation again.
+
+ You say "Aveh tia kirabesso ani to", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia kirabesso".
+
+ The crystal suddenly shatters into a thousand pieces.
+
+ There is a faint twittering sound from the cage.
+
+>inventory
+ You are carrying:
+   an Easter egg
+   a brass cage (cold) with an invisible creature inside it
+   a piece of parchment
+   a leather bound book
+   a vial of liquid (shadowy) with a cork stopper
+   a scroll
+
+ There is a faint twittering sound from the cage.
+
+>look
+ Vault
+ You are in a room-sized vault, with a shelf along one wall. The shelf
+ has nothing on it at the moment.
+
+ There are some crystal fragments scattered around.
+
+ The ceiling is glowing.
+
+ The west wall is hot.
+
+ The door is shadowy and cold.
+
+ You feel kind and caring towards the scroll.
+
+ The room feels hot.
+
+ The room is very bright.
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>examine fragments
+ Some fragments left over from the shattered crystal.
+
+ There is a faint twittering sound from the cage.
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>examine fragments
+ Some fragments left over from the shattered crystal.
+
+>get fragments
+ The fragments of crystal aren't important.
+
+ There is a faint twittering sound from the cage.
+
+>point at fragments
+ You point your finger at the fragments of crystal, but nothing happens.
+
+>eat fragments
+ The fragments of crystal aren't important.
+
+ There is a faint twittering sound from the cage.
+
+ You point your finger at the east wall.
+
+>win
+
+
+     *** You have in some indefinable way won the game ***
+
+
+ In that game you scored 87% in 354 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ give the FULL score for that game or QUIT?
+>undo
+ Vault
+ [Previous turn undone.]
+
+>lose
+
+
+     *** You have in some indefinable way lost the game ***
+
+
+ In that game you scored 87% in 354 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ give the FULL score for that game or QUIT?
+>undo
+ Vault
+ [Previous turn undone.]
+
+>give up
+ Just as you are about to give up in despair, a thought occurs to you:
+ Someone, somewhere in world, has probably just eaten a cucumber.
+
+ It doesn't make any sense really, but it keeps your mind occupied for a
+ while, and you forget your dark thoughts of despair.
+
+>pet creature
+ The bars of the cage are too close together for you to reach inside
+ without opening it.
+
+>kiss creature
+ That's a bit difficult while the creature is in the cage.
+
+>give egg to creature
+ You poke the Easter egg through the bars of the cage, and it disappears
+ in a single bite.
+
+ The creature makes some snuffling sounds.
+
+>open cage
+ You open the brass cage. It feels cold.
+
+ The creature sniffs your hand, but doesn't try to escape.
+
+>hug creature
+ That's a bit difficult while the creature is in the cage.
+
+>get creature
+ It lets you pick it up out of the cage.
+
+>hug it
+ The creature doesn't try to wriggle away, so you assume it accepts your
+ gesture of affection.
+
+>lick it
+ That could be bad for your health.
+
+>smell it
+ The creature smells faintly like a wet dog.
+
+ The creature seems willing to let you pat it now that you have fed it.
+ It feels matted and hairy. It twitters in appreciation.
+
+ I only understood you as far as wanting to save.
+
+>open it
+ That's not something you can open.
+
+ I don't know what "shards" means.
+
+>throw creature at ceiling
+ You can't bring yourself to harm the creature.
+
+ You point your finger at the creature in your arms.
+
+ The creature twitters quietly to itself.
+
+ You are carrying:
+   an invisible creature
+   an open brass cage (cold)
+   a piece of parchment
+   a leather bound book
+   a vial of liquid (shadowy) with a cork stopper
+   a scroll
+
+ The creature licks your face.
+
+>think about easter eggs
+ The Easter egg is no longer around.
+
+>(yet)
+ I don't know how to (yet).
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>inventory
+ You are carrying:
+   an invisible creature
+   an open brass cage (cold)
+   a piece of parchment
+   a leather bound book
+   a vial of liquid (shadowy) with a cork stopper
+   a scroll
+
+ The creature twitters quietly to itself.
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>inventory
+ You are carrying:
+   an open brass cage (cold) with an invisible creature inside it
+   a piece of parchment
+   a leather bound book
+   a vial of liquid (shadowy) with a cork stopper
+   a scroll
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>inventory
+ You are carrying:
+   a brass cage (cold) with an invisible creature inside it
+   a piece of parchment
+   a leather bound book
+   a vial of liquid (shadowy) with a cork stopper
+   a scroll
+
+ There is a faint twittering sound from the cage.
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>/undo
+ Vault
+ [Previous turn undone.]
+
+>inventory
+ You are carrying:
+   an Easter egg
+   a brass cage (cold) with an invisible creature inside it
+   a piece of parchment
+   a leather bound book
+   a vial of liquid (shadowy) with a cork stopper
+   a scroll
+
+ There is a faint twittering sound from the cage.
+
+>think about easter eggs
+ Mmm. Chocolate. You wonder where you can get some more.
+
+ Your thoughts wander to the numbering system in the book. Odd.
+
+>ok, I'm not sure what that hint means, but it's suggestive
+ You seem to want to talk to someone, but I don't know whom.
+
+>find tomato
+ I don't know what "tomato" means.
+
+>page six
+ The sixth page says:
+
+  Ancient mathematics included concepts such as the
+  value of pi, the square root of two, and other
+  esoteric numbers; calculus and trigonometry; and
+  how to prove things in a rigorous, logical fashion.
+  Numbers in the Laodian culture were formed
+  using admirably simple rules (historian
+  x's claims to the contrary notwithstanding):
+  A value is doubled by prefixing it with "ma";
+  no value but zero ends with this syllable. If
+  it is prefixed with "to", double and add one.
+  "Matoto", for example, represents the number six,
+  as this is twice "toto", the number three; and
+  "to" alone is of course unity. It seems that no
+  other culture used this kind of representation.
+
+ The first letter in each line is written in silver, spelling "Aveh Nux
+ Ani Mato".
+
+ There is a faint twittering sound from the cage.
+
+>think about cucumber
+ Hmm ... cucumber.
+
+ There is a faint twittering sound from the cage.
+
+>think about chocolate
+ Mmm. Chocolate. You wonder where you can get some more.
+
+ Your thoughts wander to the numbering system in the book. Odd.
+
+ There is a faint twittering sound from the cage.
+
+>to ma toto
+ I don't know how to to things.
+
+>think about x
+ Hmm ... x.
+
+>page one
+ The first page says:
+
+  Some ancient civilisations had a great
+  understanding of the manifold and
+  various sciences of the natural world,
+  entirely in disagreement with certain
+  historical surveyors who shall remain
+  Nameless in the present work, but shall be
+  understood by the algebraic designation
+  x.
+
+ The first letter in each line is written in silver, spelling "Suveh
+ Nux".
+
+ There is a faint twittering sound from the cage.
+
+>think about david fisher
+ Hmm ... david fisher.
+
+ There is a faint twittering sound from the cage.
+
+>who is x
+ I don't know how to who is x.
+
+>page two
+ The second page says:
+
+  Ancient races such as the Meohan, a
+  very sophisticated and reasonable
+  ethnic group indeed, possessed
+  horological devices of such accurate
+  Timing that they could predict
+  imminent eclipses, conjunctions
+  and other such astronomical phenomena.
+
+ The first letter in each line is written in silver, spelling "Aveh
+ Tia".
+
+>page three
+ The third page says:
+
+  Another highly developed race of antiquity,
+  vanquished by the Meohan, were the Sundar --
+  exquisite workers in metal, gemstones and
+  heated glass. Their susceptibility to the
+  Meohan's warlike methods was only due to
+  a civil war between rival noble families,
+  devastating the nation's standing army
+  at a very inopportune time; their enemies
+  had a distinct numerical advantage as a result.
+
+ The first letter in each line is written in silver, spelling "Aveh
+ Madah".
+
+ There is a faint twittering sound from the cage.
+
+>page 4
+ The fourth page says:
+
+  Sundaresi manufacturing techniques should not be
+  underestimated. They were experts in shaping
+  very large blocks of marble or granite, which the
+  evidence suggests were used for constructing
+  huge, elaborate tombs for their deceased rulers.
+  Sundar stone shaping involved making the stone
+  extremely cold with buckets of ice imported from
+  nearby Aoeteria, and then rapidly heating the
+  stone with an intense blaze, which would split
+  it along the desired fault line.
+
+ The first letter in each line is written in silver, spelling "Suveh
+ Sensi".
+
+ There is a faint twittering sound from the cage.
+
+>page 5
+ The fifth page says:
+
+  Anatomy, Physiology and Biology were among the
+  various subjects studied and perfected by the
+  ethnic group known jointly as the Andira, who
+  had more than a passing understanding of the
+  Holistic nature of such endeavours. Medical
+  advances of various and sundry kinds were
+  invented by this group, and it must certainly be
+  acknowledged that much of their skill and the
+  knowledge they possessed far exceeds our own.
+
+ The first letter in each line is written in silver, spelling "Aveh
+ Haiak".
+
+>page 6
+ The sixth page says:
+
+  Ancient mathematics included concepts such as the
+  value of pi, the square root of two, and other
+  esoteric numbers; calculus and trigonometry; and
+  how to prove things in a rigorous, logical fashion.
+  Numbers in the Laodian culture were formed
+  using admirably simple rules (historian
+  x's claims to the contrary notwithstanding):
+  A value is doubled by prefixing it with "ma";
+  no value but zero ends with this syllable. If
+  it is prefixed with "to", double and add one.
+  "Matoto", for example, represents the number six,
+  as this is twice "toto", the number three; and
+  "to" alone is of course unity. It seems that no
+  other culture used this kind of representation.
+
+ The first letter in each line is written in silver, spelling "Aveh Nux
+ Ani Mato".
+
+>page 88
+ All the pages after page six are blank. You turn back to page six.
+
+ The sixth page says:
+
+  Ancient mathematics included concepts such as the
+  value of pi, the square root of two, and other
+  esoteric numbers; calculus and trigonometry; and
+  how to prove things in a rigorous, logical fashion.
+  Numbers in the Laodian culture were formed
+  using admirably simple rules (historian
+  x's claims to the contrary notwithstanding):
+  A value is doubled by prefixing it with "ma";
+  no value but zero ends with this syllable. If
+  it is prefixed with "to", double and add one.
+  "Matoto", for example, represents the number six,
+  as this is twice "toto", the number three; and
+  "to" alone is of course unity. It seems that no
+  other culture used this kind of representation.
+
+ The first letter in each line is written in silver, spelling "Aveh Nux
+ Ani Mato".
+
+>point to page six
+ You point your finger at the leather bound book.
+
+>page 69105
+ All the pages after page six are blank. You turn back to page six.
+
+ The sixth page says:
+
+  Ancient mathematics included concepts such as the
+  value of pi, the square root of two, and other
+  esoteric numbers; calculus and trigonometry; and
+  how to prove things in a rigorous, logical fashion.
+  Numbers in the Laodian culture were formed
+  using admirably simple rules (historian
+  x's claims to the contrary notwithstanding):
+  A value is doubled by prefixing it with "ma";
+  no value but zero ends with this syllable. If
+  it is prefixed with "to", double and add one.
+  "Matoto", for example, represents the number six,
+  as this is twice "toto", the number three; and
+  "to" alone is of course unity. It seems that no
+  other culture used this kind of representation.
+
+ The first letter in each line is written in silver, spelling "Aveh Nux
+ Ani Mato".
+
+ There is a faint twittering sound from the cage.
+
+>count pages
+ I don't know how to count pages.
+
+>=
+ 1. Suveh nux : light.
+ 2. Aveh tia: heat.
+ 3. Aveh madah : weigh down.
+ 4. Suveh sensi : confuse emotions?
+ 5. Aveh haiak : make sticky?
+ 6. Fireno : door, tolanisu : floor, imoentar : cage, ami : part of pc.
+
+>suveh sensi tomato
+ You say "Suveh sensi tomato", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+>name dog toto
+ I don't know how to name dog toto.
+
+>examine egg
+ It looks like a chocolate Easter egg.
+
+ There is a faint twittering sound from the cage.
+
+>think about game
+ If only this were a game -- then there would certainly be some kind of
+ solution. But as it is, you can only hope.
+
+ There is a faint twittering sound from the cage.
+
+>hope
+ I don't know how to hope.
+
+>click heels ani mato
+ I only understood you as far as wanting to lick your heels.
+
+ Hmm ... thinking.
+
+>lick heels
+ You doubt if your heels have a very nice flavour.
+
+ There is a faint twittering sound from the cage.
+
+>examine heels
+ Your heels are perfectly normal.
+
+ I don't know how to . things.
+
+ You say "Suveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ You say "Suveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Suveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ You say "Suveh tia amunisu".
+
+ The ceiling becomes extremely cold.
+
+ You say "Aveh tia amunisu ani mamato", and you feel the tingling
+ sensation again.
+
+ You say "Aveh tia amunisu ani toto", and you feel the tingling
+ sensation again.
+
+ You say "Aveh tia amunisu ani mato", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+ You say "Aveh tia amunisu ani to", and you feel the tingling sensation
+ again.
+
+ You say "Aveh tia amunisu".
+
+ The ceiling stops being cold, and becomes extremely hot instead.
+
+ Some more cracks appear on the surface of the ceiling.
+
+ There is a faint twittering sound from the cage.
+
+ I don't know how to tomamamamatotomatototototomamamato.
+
+>suvex nux ani tomamamamatotomatototototomamamato
+ You say "Suveh nux ani tomamamamatotomatototototomamamato", and you
+ feel the tingling sensation again.
+
+ There is a faint twittering sound from the cage.
+
+>aveh sensi egg
+ You say "Aveh sensi egg", but it feels wrong somehow.
+
+ There is a faint twittering sound from the cage.
+
+>aveh sensi tomato
+ You say "Aveh sensi tomato", but it feels wrong somehow.
+
+>aveh sensi ani to
+ You say "Aveh sensi ani to", and you feel the tingling sensation again.
+
+>aveh sensi
+ You say "Aveh sensi".
+
+ Your emotions feel very confused.
+
+ There is a faint twittering sound from the cage.
+
+>suveh sensi
+ You say "Suveh sensi".
+
+ Your emotions feel a bit less confused.
+
+ There is a faint twittering sound from the cage.
+
+>again
+ You say "Suveh sensi".
+
+ Your emotions feel back to normal again.
+
+ There is a faint twittering sound from the cage.
+
+>think about easter eggs
+ Mmm. Chocolate. You wonder where you can get some more.
+
+ Your thoughts wander to the numbering system in the book. Odd.
+
+ There is a faint twittering sound from the cage.
+
+>Odd numbers?
+ I don't know how to odd things.
+
+>search egg
+ You find nothing of interest.
+
+ There is a faint twittering sound from the cage.
+
+>shake egg
+ There doesn't seem to be much point in shaking the Easter egg.
+
+ There is a faint twittering sound from the cage.
+
+>open egg
+ It's not hollow.
+
+>to toto tomato
+ I don't know how to to toto tomato.
+
+>show egg to creature
+ You poke the Easter egg through the bars of the cage, and it disappears
+ in a single bite.
+
+ The creature makes some snuffling sounds.
+
+>undo
+ Vault
+ [Previous turn undone.]
+
+>take shelf
+ It's attached to the wall.
+
+ There is a faint twittering sound from the cage.
+
+>search floor
+ There are no objects on the floor.
+
+ There is a faint twittering sound from the cage.
+
+>search walls
+ You'll have to say which wall.
+
+>search west wall
+ You find no secret catches in the west wall.
+
+ There is a faint twittering sound from the cage.
+
+>search east wall
+ You find no secret catches in the east wall.
+
+ There is a faint twittering sound from the cage.
+
+>search north wall
+ There is no north wall, just the door to the vault.
+
+>search south wall
+ You find no secret catches in the south wall.
+
+>aveh sensi ami
+ You say "Aveh sensi ami".
+
+ Your emotions feel confused again.
+
+ There is a faint twittering sound from the cage.
+
+>undo
+ Vault
+ [Previous turn undone.]
+
+>aveh sensi imoentar
+ You say "Aveh sensi imoentar".
+
+ You feel unsympathetic towards the brass cage. You don't particularly
+ care that it is cold. It's just a cage.
+
+>suveh sensi imoentar
+ You say "Suveh sensi imoentar".
+
+ You feel neutral towards the brass cage again.
+
+>aveh sensi imoentar ani to
+ You say "Aveh sensi imoentar ani to", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+>aveh sensi imoentar
+ You say "Aveh sensi imoentar".
+
+ You feel highly unsympathetic towards the brass cage. It doesn't matter
+ to you in the slightest that it is cold. It's only a cage.
+
+ There is a faint twittering sound from the cage.
+
+>shake cage
+ You shake the brass cage and it rattles a little.
+
+ The creature twitters noisily.
+
+ There is a faint twittering sound from the cage.
+
+>throw cage at ceiling
+ It's tempting, but you had better not destroy your master's
+ possessions.
+
+>suveh sensi imoentar
+ You say "Suveh sensi imoentar".
+
+ You feel unsympathetic towards the brass cage. You don't particularly
+ care that it is cold. It's just a cage.
+
+>suveh sensi imoentar
+ You say "Suveh sensi imoentar".
+
+ You feel neutral towards the brass cage again.
+
+>suveh sensi imoentar
+ You say "Suveh sensi imoentar".
+
+ You feel kind and caring towards the brass cage. You feel a little
+ concerned about it being cold, the poor thing.
+
+>aveh sensi imoentar
+ You say "Aveh sensi imoentar".
+
+ You feel neutral towards the brass cage again.
+
+>suveh sensi imoentar ani to
+ You say "Suveh sensi imoentar ani to", and you feel the tingling
+ sensation again.
+
+ There is a faint twittering sound from the cage.
+
+>suveh sensi imoentar
+ You say "Suveh sensi imoentar".
+
+ You feel extremely compassionate towards the brass cage. You feel
+ worried about it being cold, the poor thing.
+
+ There is a faint twittering sound from the cage.
+
+>aveh tia imoentar
+ You say "Aveh tia imoentar".
+
+ The brass cage you are carrying stops being cold.
+
+ You are relieved that the brass cage is no longer cold.
+
+ The twittering stops.
+
+>drink vial
+ You remove the stopper from the vial, and an overpowering smell washes
+ over you. Doing your best to ignore it, you take a small sip.
+
+ You immediately collapse unconscious on the floor.
+
+
+     *** You have died ***
+
+
+ In that game you scored 87% in 414 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move,
+ give the FULL score for that game or QUIT?
+>undo
+ Vault
+ [Previous turn undone.]
+
+>give vial to creature
+ You open the vial to feed the liquid to the creature, but the vapours
+ make you feel quite dizzy, so you put the stopper back in again.
+
+>pour vial on egg
+ You would rather not waste the green liquid, whatever it is.
+
+>break egg
+ The Easter egg seems to be extraordinarily resilient, even though it is
+ just made of chocolate.
+
+>hold nose
+ (first taking your nose)
+ Your nose is already about as close to you as it can be.
+
+>close nose
+ That's not something you can close.
+
+>sit on egg
+ You're fine standing up.
+
+>hatch egg
+ That doesn't make any sense at all.
+
+>examine nose
+ Your nose is perfectly normal.
+
+>stop breathing
+ I only understood you as far as wanting to stomp.
+
+>examine fingers
+ Your fingers are perfectly normal.
+
+>stomp
+>hold breath
+ You stamp your foot on the floor.
+
+ You can't see any such thing.
+
+>stomp cage
+ I only understood you as far as wanting to stomp.
+
+>stomp
+ You stamp your foot on the floor.
+
+>stomp ani to
+ I only understood you as far as wanting to stomp.
+
+>examine legs
+ Your legs are perfectly normal.
+
+>examine torso
+ Your torso is perfectly normal.
+
+>examine neck
+ Your neck is difficult to see without a mirror.
+
+>examine hair
+ Which do you mean, the creature's hair or your hair?
+
+>my hair
+ I only understood you as far as wanting to examine your hair.
+
+>search my hair
+ Your hair is perfectly normal.
+
+>comb my hair
+ I don't know how to comb my things.
+
+>djdjdjd my hair
+ I don't know how to djdjdjd my things.
+
+>comb
+ I don't know how to comb.
+
+>examine my things
+ You can't see any such thing.
+
+>examine eyes
+ Your eyes are difficult to see without a mirror.
+
+>examine mouth
+ Your mouth is perfectly normal.
+
+>examine waist
+ You can't see any such thing.
+
+>examine stomach
+ Your stomach is perfectly normal.
+
+>vomit
+ The thought of being stuck in a vault does make you feel a little
+ nauseous, but not that nauseous.
+
+>spit
+ I don't know how to spit.
+
+>blow nose
+ There doesn't seem to be a lot of point.
+
+>damn
+ Such language from someone stuck in a vault!
+
+>darn
+ Indeed.
+
+>xyzzy
+ You remember seeing your master write down this word one day ...
+ perhaps it has magical effects? The problem is, you never found out how
+ to pronounce it.
+
+ You try "Zizee", "ksizee", "zeezigh", "zighzee" ... but nothing
+ happens, at least not immediately.
+
+ Oh, well. It was worth a try.
+
+>zizee
+ You already tried that pronunciation.
+
+>think about xyzzy
+ Maybe ... "ecksyuzzy"?
+
+>ecksyuzzy
+ Nope, that doesn't work either.
+
+>think about xyzzy
+ Maybe ... "ecksyuzzy"?
+
+>yzzyx
+ I don't know how to yzzyx.
+
+>plover me
+>plugh
+ I only understood you as far as wanting to eat some delicious roast
+ plover with plum sauce, and that lovely stuffing, you know, the kind
+ they put in the turkey at Christmas time.
+
+ What do you want to plugh?
+
+ I don't know what "chizee" means.
+
+>plugh beastie
+ Plughed.
+
+>plugh door
+ Plughed.
+
+>examine door
+ There is a large crack in the door, from the top right corner to half
+ way up the left side, forming a triangular block separate from the rest
+ of the door. The main section of the door is on the bottom right.
+
+ It is covered in shadows, and it is radiating cold.
+
+ The triangular block is covered in shadows, and it is giving off heat.
+
+>plugh hole
+ There is no hole in the door, just a triangular block in the top left
+ corner.
+
+>plugh cracks
+ Plughed.
+
+>examine beastie
+ The creature in the cage is completely invisible.
+
+>plugh me
+ Plughed.
+
+>unplugh me
+ I don't know how to unplugh things.
+
+>plugh plugh
+ You can't see any such thing.
+
+>plover egg
+ I only understood you as far as wanting to eat some delicious roast
+ plover with plum sauce, and that lovely stuffing, you know, the kind
+ they put in the turkey at Christmas time.
+
+>summon egg
+ I don't know how to summon things.
+
+>rub egg
+ It feels like you would expect a chocolate Easter egg to feel.
+
+>taste egg
+ You swallow the Easter egg in a single bite. Delicious!
+
+>undo
+ Vault
+ [Previous turn undone.]
+
+>creature, say hi
+ It doesn't seem to react to your speech.
+
+>creature, say "suveh nux"
+ It doesn't seem to react to your speech.
+
+ [Tip: quotation marks are optional.]
+
+>creature, jump
+ It doesn't seem to react to your speech.
+
+>sleep
+ You don't know how long your air will last inside this vault ... better
+ to work on the problem at hand.
+
+>wake up
+ You are most definitely not dreaming about being stuck in a vault.
+
+>wave vial
+ You wave the vial of liquid around in the air.
+
+>pinch me
+ Self destructive thoughts flit through your mind, but you resist the
+ urge. You are not completely without hope of escaping from this vault.
+
+>SAVE
+>cf1
+ Enter saved game to store: Ok.
+
+>quit
+ Are you sure you want to quit?
+>yes
+
+>go northeast

@@ -1,0 +1,5077 @@
+>load tildeath
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+
+
+
+
+
+
+ "After you, Professor," Zak says, holding open the door.  "Think - if
+ this works you'll be standing on the surface in no time!"
+
+ "Yes, Zak, I know."
+
+ TILL DEATH MAKES A MONK-FISH OUT OF ME
+ Interactive Fiction
+ Copyright (c) 2002, 2003 by Michael J. Sousa and Jon Ingold.
+ (First-time players should type HELP)
+ Release 1.1 / Serial number 021103 / TADS 2.56
+
+ Machine Room
+    The floor is a tangle of cables running from the bank of heavy
+ machinery to the man-sized glass cylinder in the corner; it's like a
+ blender plugged into a car-battery in a giant's world.  The whole
+ arrangement looks suspiciously haphazard.
+
+ Dr. Kurner is already here, looking like he only just got out of bed.
+
+ The others enter behind you.  "All set, Professor?" asks Zak, clapping
+ you on the back.  Taking your arm he helps you into the glass tube.
+ You don't need help, but this is a Momentous Occasion.
+
+>help
+ Welcome to TILL DEATH MAKES A MONK-FISH OUT OF ME.  Below is a brief
+ list of some of the special commands that this game recognizes.  If
+ you're new to interactive fiction, please type INSTRUCTIONS for a
+ detailed introduction to text adventures.
+
+ The game was coded and primarily tested by the authors using HTML TADS
+ -- though testing was performed on other platforms.
+
+    SAVE        - Save the current game position
+    RESTORE     - Restore a saved game position
+    UNDO        - Take back the previous turn
+    QUIT        - End the game
+
+    CREDITS     - Show the game's credits
+    COPYRIGHT   - Copyright information
+    ABOUT       - Show some background information about the game
+    VERSION     - Show the current version of the game
+    RELEASE     - Show release history of game
+    HINT        - Hint system
+    REVIEW      - Perform a "LOOK" without affecting time or turn count
+    WINNABLE    - Is the game still in a winnable state?
+
+    SCRIPT      - Start recording a transcript of your moves to a file
+    UNSCRIPT    - Stop recording the current transcript
+
+    AMUSING     - A list of amusing things to try
+    SPAG        - Reprint of the SPAG interview
+    NOTES       - Collaboration emails between Jon and I
+
+>examine cylinder
+ I don't see any cylinder here.
+
+>winnable
+ This game is in a perpetual winnable state.
+
+>review
+ (Review mode - time does not pass)
+
+ Inside the glass cylinder
+    Cables feed away from the base of the glass to the bank of machinery
+ outside, around which the scientists huddle and confer.  Inside is your
+ own little fish-tank; there's a grille to put your feet on, and some
+ machinery at the top, and the Emergency Door Release Switch just about
+ where your left hand is.  They're all looking at you expectantly,
+ perhaps waiting for a final speech before the glass slides shut...
+
+>say
+ What do you want to say?
+
+>talk
+ "Friends!  This is a momentous day!  I have prepared just a few words
+ to be said on this occasion, if you will bear with me.  There is a
+ saying in my country: he who eats of the plum tree must wonder why he
+ ..."
+
+ The glass door slides quickly shut.  Your view of the scientists is
+ somewhat obscured by a note, taped to the inside.
+
+>examine note
+ (first taking the note)
+ "Well, Professor.  I suspect that from now on you will not prove a
+ problem in my life any more.  Your machine is under my control.  Shall
+ we say: if you are reading this, you are already dead."
+
+ "FIVE," booms the automated countdown voice.
+
+>about
+
+ Written over several months, hundreds of emails, a good few feet of
+ bandwidth, and a distance of several thousand miles, this is Mike's
+ second collaboration (the first was "No Time To Squeal", written with
+ Robb Sherwin) and Jon's third IFcomp game.  Inspired by Roger Corman,
+ Isaac Asimov and Evans' the Fishmongers; it was written "on location",
+ in Cambridge, Istanbul, Galway, Edinburgh and Aberdeen, with the
+ programming mostly done on a laptop in Massachusetts.
+
+ Bugs and feedback should be emailed to jonnyingold@netscape.net and
+ mjsousa@attbi.com.  Testers are listed in the CREDITS.  Type HELP for
+ in-game assistance.
+
+>SAVE
+>cf1
+ Saved.
+
+>credits
+ TILL DEATH MAKES A MONK-FISH OUT OF ME
+ Release 1.1 / Serial number 021103 / TADS 2.56
+
+        Mike Sousa          Programmer
+        Jon Ingold          Writer
+
+        John Bichard        Testers
+        Vincent Lynch
+        J.D.  Berry
+        Philip Dearmore
+        Dave Gatewood
+        Diana Shalmi
+
+ A huge thanks to John Bichard, tester extraordinaire.  His timely
+ reports and incredible attention to detail has made this game so much
+ better.  Thank you!
+
+ Any bugs, typos, grammar gaffes or run-time errors are solely my fault.
+ I probably added some "finishing touches" and neglected to have
+ somebody else take a look.
+
+ Special thanks to Mike Roberts for TADS.  I am so looking forward to
+ working with T3.
+
+ A big thank you to Stephen Granade -- I can't envision the comp without
+ him.
+
+ Most of the code is home grown, or taken from my other works.  I did
+ need to borrow a couple of modules so thanks to Dan Schmidt for his
+ disambig.t module.
+
+ Because this was the first game that required some parsing hacks, I
+ needed to borrow code there too.  A very big thanks to Suzanne Britton
+ for her Chatter library.  Her parseAskobjIndirect routine saved me a
+ lot of time and frustration.
+
+ Last, but definitely not least, thanks Jon.  You were a pleasure to
+ work with -- I'm in awe of your uncanny ability to write, create and
+ problem solve.  I hope I didn't ruin the writing by adding some default
+ responses here and there.  :)
+
+ Release 2 notes
+
+ Thanks to Paul O'Brian for his insigtful script file(s) -- numerous
+ typos and default responses tweaked.  Thanks to Andrew Plotkin for
+ providing different options for manipulating the Metal Rod.
+
+>inventory
+ You have a note.
+
+>push release switch
+ It's a pull switch.
+
+ Outside all the scientists gather around the machinery, intent; tapping
+ gauges and nodding seriously.  All except Dr. Kurner, that is, who
+ stands off to one side, leaning heavily on a counter, staring at you.
+
+ "FOUR."  There's a slight snigger sound just at the end; you remember
+ laughing when you recorded that last week.
+
+>pull release switch
+ You tug the release.  Nothing results but a grating noise.  It's
+ broken!
+
+ "Hey - do you suppose it should be sparking like that?" Zak pipes up.
+ The others tut and mutter.
+
+ "THREE."  Power begins to build.
+
+>examine kurner
+ A sour man, five years your senior, but lower than you in rank.  You
+ vaguely remember him from college but don't think you ever spoke.
+ Otherwise - he was down here when you arrived.
+
+ "And then there's quite a bit of smoke too, isn't there?"
+
+ "TWO."  The cables on the floor wriggle like a squid.
+
+>pull cables
+ The cables aren't important.
+
+ "Maybe we should open it up and take a look?"
+
+ Dr. Kurner's attention is taken briefly by a school of fish passing by
+ the window.  No dedication, that man.
+
+ "ONE."  The coils at the top of the cylinder make a searing noise.
+
+>scream
+ Your words are muffled by the glass; which steams up as you shout.  You
+ could probably write in the condensation with a fingertip, though.
+
+ "Anyone got a screwdriver?"  A few pat their pockets, and shrug.
+
+ "ZER-OH!"  The machine blasts a spurt of searing white light, as though
+ your head has come off.  The scientists outside barely seem to notice
+ as they hunt around for a coin to use in the screw-head.  Just as
+ everything fades fuzzily to black, you see Kurner stumble himself; then
+ the world slides away...
+
+
+
+
+
+
+
+
+ Consciousness projection.  They'd not said it couldn't be done, but
+ they had said it was pretty unlikely.  They'd not said you were mad,
+ but they had said you were a little unusual, especially in your taste
+ for sushi.  But you knew, if anyone down in AtlantisLab needs anything,
+ it's a holiday on the surface.  Preferably a holiday as a
+ twenty-two-year-old beach dweller.
+
+ Which is where you should be right now.  It feels colder than Hawaii
+ should this time of year.  You have a slight headache.  It's dark - so
+ you open your eyes.
+
+>version
+ TILL DEATH MAKES A MONK-FISH OUT OF ME
+ Release 1.1 / Serial number 021103 / TADS 2.56
+
+>RESTORE
+>cf1
+ Restored.
+
+ Inside the glass cylinder
+    Cables feed away from the base of the glass to the bank of machinery
+ outside, around which the scientists huddle and confer.  Inside is your
+ own little fish-tank; there's a grille to put your feet on, and some
+ machinery at the top, and the Emergency Door Release Switch just about
+ where your left hand is.  Their voices are muffled by the sealed glass
+ cover.
+
+>scream
+ Your words are muffled by the glass; which steams up as you shout.  You
+ could probably write in the condensation with a fingertip, though.
+
+ Outside all the scientists gather around the machinery, intent; tapping
+ gauges and nodding seriously.  All except Dr. Kurner, that is, who
+ stands off to one side, leaning heavily on a counter, staring at you.
+
+ "FOUR."  There's a slight snigger sound just at the end; you remember
+ laughing when you recorded that last week.
+
+>write in condensation
+ When typing or writing, you need to surround the target word in quotes;
+ ie, write "in".
+
+>write "help"
+ (on the glass door)
+ You write "help".
+
+ Zak notices your message.  "I think he's talking to you, Dr. Kurner,"
+ he says.  "Do you fancy lending a hand here?"
+
+ "Hey - do you suppose it should be sparking like that?" Zak pipes up.
+ The others tut and mutter.
+
+ "THREE."  Power begins to build.
+
+ The condensation on the glass door evaporates away.
+
+>write "kurner"
+ (on the glass door)
+ You breathe on the glass door and a pool of condensation forms.  Your
+ previous message "help" is now visible on the glass door.
+ You write "kurner" instead.
+
+ "And then there's quite a bit of smoke too, isn't there?"
+
+ "TWO."  The cables on the floor wriggle like a squid.
+
+>write "get me out"
+ [One word at a time please]
+
+>write "redrum"
+ (on the glass door)
+ You write "redrum" instead.
+
+ Zak notices your message.  "Hey, guys!  I'm guessing the problem's with
+ the Redrummation Mechanism!"  He winks at you.  "I learnt to read
+ mirror writing in the Army, you know."
+
+ "Maybe we should open it up and take a look?"
+
+ Dr. Kurner's attention is taken briefly by a school of fish passing by
+ the window.  No dedication, that man.
+
+ "ONE."  The coils at the top of the cylinder make a searing noise.
+
+ The condensation on the glass door evaporates away.
+
+>write xyzzy
+ When typing or writing, you need to surround the target word in quotes;
+ ie, write "xyzzy".
+
+>write "xyzzy"
+ (on the glass door)
+ You breathe on the glass door and a pool of condensation forms.  Your
+ previous message "redrum" is now visible on the glass door.
+ You write "xyzzy" instead.
+
+ "Anyone got a screwdriver?"  A few pat their pockets, and shrug.
+
+ "ZER-OH!"  The machine blasts a spurt of searing white light, as though
+ your head has come off.  The scientists outside barely seem to notice
+ as they hunt around for a coin to use in the screw-head.  Just as
+ everything fades fuzzily to black, you see Kurner stumble himself; then
+ the world slides away...
+
+
+
+
+
+
+
+
+ Consciousness projection.  They'd not said it couldn't be done, but
+ they had said it was pretty unlikely.  They'd not said you were mad,
+ but they had said you were a little unusual, especially in your taste
+ for sushi.  But you knew, if anyone down in AtlantisLab needs anything,
+ it's a holiday on the surface.  Preferably a holiday as a
+ twenty-two-year-old beach dweller.
+
+ Which is where you should be right now.  It feels colder than Hawaii
+ should this time of year.  You have a slight headache.  It's dark - so
+ you open your eyes.
+
+>look
+ In a drawer, sitting up
+    You are sitting up in a long metal drawer, halfway up a large wall
+ of metal drawers.  Most of the others are closed; yours is open.  Below
+ - about ten feet or so - is the floor of an unfamiliar room, with a
+ door at the far end.  The main features seem to be metal:  metal
+ ceiling, metal walls, metal piping along one side.  Coupled with the
+ dim lighting, this is definitely not Waikiki Beach, by any stretch of
+ the imagination.
+
+ Your foot is itching.
+
+>examine foot
+ Tied tightly around your big toe is a tag.  It reads "John Doe."  Well,
+ at least you know what name you should answer to.
+
+>remove tag
+ The toe tag is firmly attached.
+
+>examine me
+ Well, you seem to be naked.  This isn't your body either.  So
+ everything's gone to plan; except this doesn't look a lot like Hawaii.
+
+ Tied around your toe is a tag.
+
+>get up
+ You stand up.
+
+>examine drawers
+ Your drawer is empty bar you, without even a sheet, and is labelled
+ "John Doe" at the front.  Looking around the others you see they're all
+ labelled too - there's Jeremy Doe off to one side; Jack Doe a few
+>inventory
+ levels up, and the lowest down you can read is Ms. Jenny Doe; who's
+ about halfway to the ground.  The surrounding drawers are all closed.
+
+ You have nothing, absolutely nothing.  And you're cold as a
+ consequence.
+
+>open drawer
+ Your drawer is already open.
+
+>out
+ The ground is too far to jump!
+
+>open drawers
+ One at a time, please.
+
+>open jenny
+ It's too far below for you to reach the handle.
+
+>open jeremy
+ You slide open Jeremy's drawer.  He's inside, asleep.  He seems to have
+ a peg-leg.
+
+>examine peg-leg
+ The peg-leg is a tapering pole the length of one leg - more like a
+ strut, really, or half a flamingo.
+
+>get leg
+ Taken.
+
+>examine jeremy
+ Jeremy is a large round-faced man, almost tubby, almost jovial in fact;
+ apart from the missing leg which adds a sinister touch to the
+ proceedings.  He is naked, and asleep, and looks very comfortable
+ somehow.
+
+>open jack
+ You stand up, and can easily reach Jack's drawer to slide it open.
+ Jack is inside, but he appears to be asleep.
+
+>examine jack
+ You can only really make out his feet from down here, but they're very
+ still, so he must be fast asleep.
+
+>wake jack
+ Don't wake him.  He looks like he's sleeping real deeply.
+
+>examine leg
+ The peg-leg is a tapering pole the length of one leg - more like a
+ strut, really, or half a flamingo.
+
+>poke jeremy
+ Poking Jeremy Doe doesn't seem to have any effect.
+
+>open jenny
+ (with the peg-leg)
+ Hooking the drawer with Jeremy's leg, you slide it open.  Poor old
+ Jenny rolls into view.  She looks positively knackered.
+
+>wake jeremy
+ Don't wake him.  He looks like he's sleeping real deeply.
+
+>examine jenny
+ Jenny is a red-head, and a good-looking one too.  If you weren't both
+ naked, and lying in cold metal drawers halfway up a wall, you'd
+ consider asking her out; just to irritate your wife.
+
+>get in jenny's drawer
+ The peg is far too cumbersome for this manoeuvre, so you first give it
+ back to good old Jeremy next door.
+
+ It's a fair way down - so first you get a solid grip on the edge of
+ your pallet, and then very gradually you slide off it.  There's a
+ moment of flailing before one toe meets her drawer.  Slight kick in the
+ ribs - you freeze - but she hasn't noticed.  Lucky.  Next foot, you
+ can't see where it's going - oops, that felt like her head; you feel
+ certain her eyes must open any second, you'll hear a complaint... no,
+ no, somehow you get away with it.  The next time you put it down it's
+ more or less onto a clear space - bar some hair.
+
+ You let go of your drawer, now firmly astride Jenny's, and rub your
+ hands.  There's a deep shadowed groove in either palm from holding up
+ your weight.
+
+>search jenny
+ You find nothing of interest.
+
+>examine jenny
+ Jenny is a red-head, and a good-looking one too.
+
+>examine floor
+ It lies beneath you.
+
+>kiss jenny
+ She'd no doubt appreciate it, of course, given that she's probably
+ quite lonely here.  But you refrain, on grounds of hygiene.
+
+>go down
+ You make the final fall to the ground.
+
+ Bottom of ramp
+    This is a thin room then, between the wall of square drawers like a
+ tiling and another side of sheer metal, east and west respectively.
+ The floor is split-level; from where you stand a ramp leads up and
+ northward, and light from a window there tumbles back down.
+
+ The drawers stop about five feet from ground-level; below are four
+ compartments.
+
+ There is a smooth hatch set into the south wall.
+
+>examine window
+ You can't see much from here.
+
+>examine hatch
+ The hatch is about three foot square and flush with the floor.  Just by
+ it is a circular recess in the wall.
+
+>examine compartments
+ The names read: Kathleen, Victoria, Charlotte and Rosalind.
+
+>examine recess
+ It's roughly ten centimeters wide and deep, and is barely a meter off
+ the floor.
+
+>look in recess
+ There is nothing in there.
+
+>open kathleen
+ You slide open the compartment.  Inside is a trolley on which lies what
+ is clearly a corpse.  A transparent sheet covers face down to ankles,
+ like it was wrapped in cling-film.  Only the feet protrude - no tag.  A
+ little horrified, you slam the compartment closed.
+
+>open Victoria
+ You quickly slide it open and shut -- same story as the other
+ compartment.
+
+>open charlotte
+ You quickly slide it open and shut -- same story as the other
+ compartment.
+
+>open rosalind
+ Inside the compartment is an empty trolley.
+
+>examine trolley
+ The trolley is inside the compartment.
+
+>take trolley
+>take trolley
+ You can't reach it from here.
+
+ You can't reach it from here.
+
+>enter rosalind
+ You enter Rosalind's compartment.
+
+ Inside Rosalind's compartment
+    A metal box, seven foot by four foot by five, arranged such that you
+ could lie down spread-eagled but stoop when you stand.  The west wall
+ is missing.  In the middle of the floor is a low flat trolley.
+
+>enter rosalind
+ You're already in the compartment.
+
+>look west
+ I don't understand that sentence.
+
+>go west
+ Bottom of ramp
+    This is a thin room then, between the wall of square drawers like a
+ tiling and another side of sheer metal, east and west respectively.
+ The floor is split-level; from where you stand a ramp leads up and
+ northward, and light from a window there tumbles back down.
+
+ The drawers stop about five feet from ground-level; below are four
+ compartments.
+
+ There is a smooth hatch set into the south wall.
+
+>go east
+ You enter Rosalind's compartment.
+
+ Inside Rosalind's compartment
+    A metal box, seven foot by four foot by five, arranged such that you
+ could lie down spread-eagled but stoop when you stand.  The west wall
+ is missing.  In the middle of the floor is a low flat trolley.
+
+>exits
+ I don't know the word "exits".
+
+>examine trolley
+ Six feet long, three feet wide, it is essentially a tray on wheels.
+ The only additions are a rubber bumper at one end and a flat metal
+ rectangle at the other.  This is like the registration plate of a car,
+ only blank.
+
+>push trolley west
+>examine bumper
+ You push the trolley west.
+
+ Bottom of ramp
+    This is a thin room then, between the wall of square drawers like a
+ tiling and another side of sheer metal, east and west respectively.
+ The floor is split-level; from where you stand a ramp leads up and
+ northward, and light from a window there tumbles back down.
+
+ The drawers stop about five feet from ground-level; below are four
+ compartments.
+
+ There is a smooth hatch set into the south wall.
+
+ An arc of thick rubber, designed for shock absorbance.
+
+>examine rectangle
+ It is just smooth metal.
+
+>touch rectangle
+ It is just smooth metal.
+
+>examine window
+ You can't see much from here.
+
+>examine hatch
+ The hatch is about three foot square and flush with the floor.  Just by
+ it is a circular recess in the wall.
+
+>open hatch
+>push trolley n
+ The hatchway will not open, will not budge and will not slide either.
+
+ You start pushing, but with the trolley so heavy it rolls back, and
+ with it so low it's hard to get more weight behind.  In the end, you
+ give up.
+
+>get on trolley
+ You lie on the trolley.  It's cold.
+
+>look
+ Bottom of ramp, on the trolley
+    This is a thin room then, between the wall of square drawers like a
+ tiling and another side of sheer metal, east and west respectively.
+ The floor is split-level; from where you stand a ramp leads up and
+ northward, and light from a window there tumbles back down.
+
+ The drawers stop about five feet from ground-level; below are four
+ compartments.
+
+ There is a smooth hatch set into the south wall.  In the middle of the
+ floor is a low flat trolley.
+
+>get off
+ (the trolley)
+ You get off the trolley.
+
+ Bottom of ramp
+    This is a thin room then, between the wall of square drawers like a
+ tiling and another side of sheer metal, east and west respectively.
+ The floor is split-level; from where you stand a ramp leads up and
+ northward, and light from a window there tumbles back down.
+
+ The drawers stop about five feet from ground-level; below are four
+ compartments.
+
+ There is a smooth hatch set into the south wall.  In the middle of the
+ floor is a low flat trolley.
+
+>go north
+ Top of ramp
+    This is a small stage, facing the stalls below down a ramp to the
+ south, with the royal boxes on the wall above, reserved it seems for
+ the Doe family.  You could take your bow, lit by the spotlight-glow
+ through the window, or slip offstage through the door just beside it.
+ Just left of the door is a small device.
+
+>take a bow
+ An article must be followed by a noun.
+
+>bow
+ Anything for a little credit.
+
+>examine window
+ Across the glass in arcing letters is emblazoned:  "YRAUTROM" (though
+ the R's are a little strange).  Which is - you're quite sure - a place
+ in Jordan; and not a place in Hawaii.
+
+ It is bright in the corridor beyond, which smarts your eyes a little.
+
+>examine device
+ It's rectangular in shape and the words
+
+ ** ERROR - Reset Required **
+
+ are printed on the tiny display.  Near the display is a button.
+
+>push button
+ The display is cleared.
+
+>examine device
+ It's rectangular in shape and the words
+
+ SYSTEM - Active
+
+ are printed on the tiny display.  Near the display is a button.
+
+ At the bottom of the ramp, a robot appears through the hatch.
+
+>go south
+ Bottom of ramp
+    This is a thin room then, between the wall of square drawers like a
+ tiling and another side of sheer metal, east and west respectively.
+ The floor is split-level; from where you stand a ramp leads up and
+ northward, and light from a window there tumbles back down.
+
+ The drawers stop about five feet from ground-level; below are four
+ compartments.
+
+ There is a smooth hatch set into the south wall.  In the middle of the
+ floor is a low flat trolley.
+
+ The robot positions its hexagonal tube by the trolley base with a
+ muffled clang.  It then powers away up the ramp, pushing the trolley
+ ahead of it.
+
+
+>get on trolley
+ It's too far away.
+
+ At the top of the ramp, the robot does something to make the door open,
+ and slips through, pushing the trolley in front of it.  Then the door
+ slams shut.
+
+>winnable
+ This game is in a perpetual winnable state.
+
+>winnable
+ This game is in a perpetual winnable state.
+
+>go north
+ Top of ramp
+    This is a small stage, facing the stalls below down a ramp to the
+ south, with the royal boxes on the wall above, reserved it seems for
+ the Doe family.  You could take your bow, lit by the spotlight-glow
+ through the window, or slip offstage through the door just beside it.
+ Just left of the door is a small device.
+
+>enter door
+ The door is sealed shut.
+
+>look
+ Top of ramp
+    This is a small stage, facing the stalls below down a ramp to the
+ south, with the royal boxes on the wall above, reserved it seems for
+ the Doe family.  You could take your bow, lit by the spotlight-glow
+ through the window, or slip offstage through the door just beside it.
+ Just left of the door is a small device.
+
+ At the bottom of the ramp, a robot appears through the hatch.
+
+>examine door
+ It is locked, it seems.  By the side, at shoulder height, is a black
+ glass palm-scanner.  Three feet below is a circular recess and to the
+ left is a small device.
+
+ The robot - whose name appears to be Kathleen - rumbles up the ramp.
+
+>examine robot
+ This Hansome is Kathleen.  It is shaped like a square coffee-table
+ resting on one side.  The two legs - or rather, arms - at the top each
+ boast a shining disc, like eyes; though only one is a camera lens and
+ the other is a stubby protrusion like a hockey puck.  The two bottom
+ prongs are run with caterpillar tracks.  Slung between them is brown
+ hexagonal tube.
+
+ The robot inserts its hockey puck into the circular recess and opens
+ the door long enough for it to power through.  Then the door slams
+ shut.
+
+>go south
+ Bottom of ramp
+    This is a thin room then, between the wall of square drawers like a
+ tiling and another side of sheer metal, east and west respectively.
+ The floor is split-level; from where you stand a ramp leads up and
+ northward, and light from a window there tumbles back down.
+
+ The drawers stop about five feet from ground-level; below are four
+ compartments.
+
+ There is a smooth hatch set into the south wall.
+
+>open victoria
+ You quickly slide it open and shut -- same story as the other
+ compartment.
+
+>wait
+ Time passes...
+
+ The hatch slides open long enough to spit out an orange robot.
+
+>get on robot
+ There's no surface to clamber on.
+
+ The robot - whose name appears to be Victoria - rumbles up the ramp.
+
+>get on robot
+ There's no surface to clamber on.
+
+ At the top of the ramp, the robot does something to make the door open,
+ and slips through.  Then the door slams shut.
+
+>go east
+ You enter Rosalind's compartment.
+
+ Inside Rosalind's compartment
+    A metal box, seven foot by four foot by five, arranged such that you
+ could lie down spread-eagled but stoop when you stand.  The west wall
+ is missing.
+
+>go west
+ Bottom of ramp
+    This is a thin room then, between the wall of square drawers like a
+ tiling and another side of sheer metal, east and west respectively.
+ The floor is split-level; from where you stand a ramp leads up and
+ northward, and light from a window there tumbles back down.
+
+ The drawers stop about five feet from ground-level; below are four
+ compartments.
+
+ There is a smooth hatch set into the south wall.
+
+>go north
+ Top of ramp
+    This is a small stage, facing the stalls below down a ramp to the
+ south, with the royal boxes on the wall above, reserved it seems for
+ the Doe family.  You could take your bow, lit by the spotlight-glow
+ through the window, or slip offstage through the door just beside it.
+ Just left of the door is a small device.
+
+ Through the hatch appears first a trolley, then a robot shepherd.  In a
+ deft volley of whirrs and flicks, it opens the Charlotte compartment
+ with its extending arm and shoves the trolley inside, moving forward
+ itself.  The trolley bounces off the one already inside the compartment
+ and comes to a rest in the room, behind the robot.  The compartment
+ door swings shut.
+
+>go south
+ Bottom of ramp
+    This is a thin room then, between the wall of square drawers like a
+ tiling and another side of sheer metal, east and west respectively.
+ The floor is split-level; from where you stand a ramp leads up and
+ northward, and light from a window there tumbles back down.
+
+ The drawers stop about five feet from ground-level; below are four
+ compartments.
+
+ There is a smooth hatch set into the south wall.  In the middle of the
+ floor is a low flat trolley.
+
+ The robot - whose name appears to be Charlotte - rumbles up the ramp.
+
+>get on trolley
+ You clamber on.
+
+ The robot inserts its hockey puck into the circular recess and opens
+ the door long enough for it to power through.  Then the door slams
+ shut.
+
+>wait
+ Time passes...
+
+>SAVE
+>cf2
+ Saved.
+
+>zf z
+ I don't know the word "zf".
+
+>wait
+ Time passes...
+
+>examine compartments
+ The names read: Kathleen, Victoria, Charlotte and Rosalind.
+
+ The hatch open long enough to spit out Kathleen, again.
+
+>wait
+ Time passes...
+
+ Kathleen positions its hexagonal tube by the trolley base with a
+ muffled clang. It then powers away up the ramp, taking you with it.
+
+ Top of ramp, on the trolley
+    This is a small stage, facing the stalls below down a ramp to the
+ south, with the royal boxes on the wall above, reserved it seems for
+ the Doe family.  Above you is a circular recess which is attached to a
+ door.  Just left of the door is a small device.
+
+>sing
+ What do you want to sing to?
+
+>sing to kathleen
+ You can't reach that from the trolley.
+
+>examine kathleen
+ This Hansome is Kathleen.  It is shaped like a square coffee-table
+ resting on one side.  The two legs - or rather, arms - at the top each
+ boast a shining disc, like eyes; though only one is a camera lens and
+ the other is a stubby protrusion like a hockey puck.  The two bottom
+ prongs are run with caterpillar tracks.  Slung between them is brown
+ hexagonal tube.
+
+ The robot extends its hockey puck to an absurd length, reaching over
+ the trolley in front, to clip into the recess by the door.  The
+ entrance slides open, and it passes through, taking you with it.
+
+ Once in the corridor outside, you leap from the trolley before it, and
+ the robot, power away.
+
+ Corridor
+    The corridor curves southeast to southwest, smooth metal walls low
+ and merging over your head.  Portholes splatter the north side like
+ bullet-holes.  A neon striplight runs the length of the corridor,
+ lighting round the bends on either hand, but right now your eyes are
+ elsewhere - drawn to the window of the room you have just left.
+
+>examine window
+ Here it is light, and there it is dark, and the glass acts as a mirror
+ over which your haggard face looms.  Only it is not your face.  It is
+ the face of Dr. Kurner.  A moment of staring is not enough, and you
+ stare some more.  His nose is your nose, his eyes, wet and squinting,
+ are your eyes, they move as you look over them.  You feel the tightness
+ of his skin around your mouth and cheekbones.  And worse: his face is
+ framed, like an advert for a circus clown, by an arcing title in large
+ letters:
+
+ MORTUARY
+
+ Dead!  Ridiculous!  You're not dead!  You're standing upright.  Indeed,
+ you're breathing!  Aren't you?  There - you blow a long breath onto the
+ glass, and a pool of condensation smokes it over.  Alive.  You're
+ alive.  And the sooner you can get back to your machine and get
+ yourself back into your own skin, the better.
+
+ The robot pushes the trolley through the hatch in the southwest wall
+ and disappears.
+
+>examine portholes
+ Through the portholes swim a variety of underwater fish, lit in the
+ half-glow leaking from this dome.
+
+ The condensation on the window evaporates away.
+
+>write "fuck"
+ What do you want to write it on?
+
+>write "fuck" on window
+ You breathe on the window and a pool of condensation forms.  You write
+ "fuck".
+
+>go west
+ The robot's hatch is closed.
+
+ The condensation on the window evaporates away.
+
+>go east
+ The airlock is closed.  And it doesn't look in good repair, either.
+
+ Through the door appears Victoria.
+
+>go north
+ You can't go that way.
+
+ The robot opens the hatch and rumbles through.
+
+>examine airlock
+ The airlock is circular, and damaged, with loose wiring hanging from
+ the frame. Set in the centre is the access mechanism, above is a small
+ square spyhole.  The sight beyond it is not good - you can make out
+ twisted metal, bent panels and wiring dripping from the ceiling like
+ thick seaweed.  It appears not to have been breached, though, as there
+ is no water.  Something moves about within: something large and orange.
+
+>mechanism
+ There's no verb in that sentence!
+
+>examine mechanism
+ The mechanism is a large button marked ACCESS MECHANISM.  Its functions
+ are probably impaired by the sparking wiring hanging from the
+ doorframe.
+
+>examine wiring
+ Two wires, crudely torn.  They spark occasionally - and are quite
+ possibly live!
+
+>connect wiring
+ Of course!  If you electrocute yourself - if you die - then your
+ consciousness will flip back to your original body!  It's bound to,
+ after all!  And then your problem is solved! ... Though you'll still
+ have to help Dr. Kurner, somehow, wherever he is.  Excellent idea.
+
+ You steel your courage, raise your hand... and have a moment of doubt.
+ Are you sure you want to do this?
+
+>yez
+ I don't know the word "yez".
+
+>yes
+ You close your eyes, and close your hand around the two ends of the
+ wires.  There is a terrible sparking as electricity leaps between them,
+ flowing blue lightning between your fingers, along your skin, down your
+ palm!
+
+ However, due to Dr. Kurner's plastic prosthetic wrist replacement, it
+ doesn't get much further than that.  Your hand comes away, a little
+ blackened.
+
+ The airlock door slides open.
+
+ The robot opens the hatch and rumbles through.
+
+>yes
+ It's good that you're feeling so positive.
+
+>examine hand
+ Your hand is the colour of your wife's baked potatoes.
+
+>lick wiring
+ I don't know the word "lick".
+
+>lick hand
+ I don't know the word "lick".
+
+>taste wiring
+ I don't know the word "taste".
+
+>eat wiring
+ The wires don't appear appetizing.
+
+>examine orange
+ I don't see any orange here.
+
+>go east
+ You slip through the airlock, into a mangle of metal.
+
+ Collapsed Corridor
+    This was the eastern quadrant of the dome, but something has fallen
+ away and it is now a mangle of sheets of metal, intersecting skew-like.
+ About halfway along, the roof is so low to the floor as to admit a mere
+ few centimeters of space between.  Wiring hangs from the neon light,
+ but only the first segment is still lit.  Where the corridor is most
+ crumpled, one of the panels underfoot is loose, rippling out from the
+ floor.  A large orange robot is whirring back and forth here.  It is
+ Rosalind.
+
+ You hear the rumbling sound of another robot in the corridor.
+
+>examine panel
+ One of the panels of flooring at the southern end of this area has
+ stuck up from the floor, like the bone protruding from a broken leg;
+ like a wafer in an ice-cream.
+
+ From the corridor outside you hear the swish-snap of the robot hatch.
+
+ Rosalind edges forward once more, away from the airlock.
+
+>look under panel
+ There's nothing under the panel.
+
+ The robot moves on down the corridor, until it hits the fallen roof.
+
+>examine rosalind
+ She has not survived the impact, either.  Poor thing - you wonder how
+ long she has been trapped here, whirring forward along the corridor
+ until she can go no further, then back until caught in the pinched
+ walls by the airlock.
+
+ Rosalind whirrs slowly across the corridor.
+
+>examine puck
+ I don't see any puck here.
+
+>get panel
+ The panel is heavy, and one end is stuck in a pinch of metal, but this
+ acts neatly as a hinge.  You prop it with a clang against the wall.
+
+ Beyond is a dark hole in the flooring.  Who knows how far a drop it
+ might be, how long one might tumble before finally crunching to certain
+ death on the floor?
+
+ The robot reaches the airlock, but cannot quite fit through the gap.
+
+>enter hole
+ You cross yourself once.  This is it - a long jump - air whipped from
+ your mouth - certain death on a solid flooring, who knows how far down.
+ You can see nothing in there, it is black.  Will they ever find this
+ body?  Who can say?  You close your eyes and leap into the dark.
+
+ And land, an instant later, in a waist-deep hole.
+
+ In a Hole
+    You are waist-high in a hole in the floor, in the middle of a
+ corridor of mangled metal walls.
+
+ You hear Rosalind's trudging footsteps.
+
+>go down
+ The only exit is up.
+
+ You hear Rosalind's trudging footsteps.
+
+>search hole
+ You find nothing of interest.
+
+ You hear Rosalind's trudging footsteps.  With a loud rumble, the robot
+ looms over your head, filling your vision the way a cloud can blot out
+ the sun.  You cower, raising your arms instinctively over your eyes, as
+ Rosalind pitches forward into the hole...
+
+ But it seems the centre of those robots is just a sheet of orange
+ paper, as it rips easily when it hits your head.  A crash-smash later,
+ you are standing in the debris of shattered robot, half filling the
+ pit.
+
+>examine robot
+ Rosalind is in at least twelve parts, most bright orange, a few black,
+ with wires spilling from several fissures.  The debris is four inches
+ deep.
+
+>examine orange paper
+ I don't see any orange paper here.
+
+>search debris
+ Amongst the orange parts you find the robot's hockey-puck arm, which
+ you take.
+
+>mourn rosalind
+ I don't know the word "mourn".
+
+>examine arm
+ It's a two-inch long black cylinder, as wide as your prosthetic wrist.
+ One end is marked with concentric ridges - that's the end that fits the
+ hatch-locks.  It must be telescopic, somehow, but you can't see a
+ mechanism.
+
+>repair rosalind
+ I don't see any rosalind here.
+
+>repair debris
+ You're not skilled enough.
+
+>pray
+ You pray and feel a bit better.
+
+>die
+ I don't know the word "die".
+
+>go up
+ You scramble out of the hole.
+
+ Collapsed Corridor
+    This was the eastern quadrant of the dome, but something has fallen
+ away and it is now a mangle of sheets of metal, intersecting skew-like.
+ About halfway along, the roof is so low to the floor as to admit a mere
+ few centimeters of space between.  Wiring hangs from the neon light,
+ but only the first segment is still lit.  The loose panel is propped
+ against the wall, revealing a promising, deep hole into the bowels of
+ the dome.
+
+>examine wrist
+ I don't know the word "wrist".
+
+>examine wiring
+ The wiring is dark and dead, like the hair of a drowned mermaid.
+
+>pull it
+ The wires slip through your hands.
+
+ You hear the rumbling sound of another robot in the corridor.
+
+>look
+ Collapsed Corridor
+    This was the eastern quadrant of the dome, but something has fallen
+ away and it is now a mangle of sheets of metal, intersecting skew-like.
+ About halfway along, the roof is so low to the floor as to admit a mere
+ few centimeters of space between.  Wiring hangs from the neon light,
+ but only the first segment is still lit.  The loose panel is propped
+ against the wall, revealing a promising, deep hole into the bowels of
+ the dome.
+
+ From the corridor outside you hear the swish-snap of the robot hatch.
+
+>go east
+ The only exit is west.
+
+>go west
+ Corridor
+    The corridor curves southeast to southwest, smooth metal walls low
+ and merging over your head.  Portholes splatter the north side like
+ bullet-holes.  A neon striplight runs the length of the corridor, light
+ leaking round the bends until it is cut on the west side by a
+ robot-hatch, and on the east by an airlock door, which is open.
+
+ To the south is the door back to the mortuary, a black glass panel by
+ its side.
+
+>go west
+ The robot's hatch is closed.
+
+>open hatch with pole
+ I don't see any pole here.
+
+>open hatch with stick
+ I don't understand that sentence.
+
+>open hatch
+ The hatchway will not open, will not budge and will not slide either.
+
+ Through the door appears Victoria.
+
+>put arm in recess
+ The hatch slides open for a brief moment, then slams shut.  You put the
+ arm in once more, and this time, slip through.
+
+ Curving Corridor
+    The western side of the dome, and an area not designed for human
+ personnel.  Robot hatches stand secure at the north and southern ends,
+ the latter a little dented, perhaps in the same explosion that damaged
+ the east side.  Portholes peer out in the dark, their ring broken by a
+ passage to the west, opposite an open archway to the east.
+
+ The norhern hatch flips open and out pops Victoria.  She slowly lumbers
+ southward, disappearing through the southern hatch.
+
+>go north
+ The hatch is shut.
+
+>put arm in recess
+ Which recess do you mean, the dented recess, or the circular recess?
+
+>put arm in circular recess
+ The hatch opens; you dart through.
+
+ Corridor
+    The corridor curves southeast to southwest, smooth metal walls low
+ and merging over your head.  Portholes splatter the north side like
+ bullet-holes.  A neon striplight runs the length of the corridor, light
+ leaking round the bends until it is cut on the west side by a
+ robot-hatch, and on the east by an airlock door, which is open.
+
+ To the south is the door back to the mortuary, a black glass panel by
+ its side.
+
+>put arm in recess
+ The hatch opens; you dart through.
+
+ Curving Corridor
+    The western side of the dome, and an area not designed for human
+ personnel.  Robot hatches stand secure at the north and southern ends,
+ the latter a little dented, perhaps in the same explosion that damaged
+ the east side.  Portholes peer out in the dark, their ring broken by a
+ passage to the west, opposite an open archway to the east.
+
+>put arm in dented recess
+ There is a dull click.  It seems not to want to work.  There could be a
+ hundred finicky mechanical reasons why.
+
+>w#
+ I don't understand the punctuation "#".
+
+>go west
+ By Airlock
+    This is just a short vestibule, from the airlock to the west to the
+ main corridor back east.  The airlock door is sealed, but looking
+ through its panel, you can see a long corridor, leading off into the
+ distance.  This must be the umbilical to the rest of the lab.
+
+ You spot a robot trudging along the curving corridor, disappearing
+ through the southern hatch.
+
+>open airlock
+ You can't quite reach the catch.
+
+>examine airlock
+ The door is sealed shut.  You can make out the opening mechanism - on
+ this door it's near the top, out of reach for stumpy Dr.  Kurner and
+ probably your old self too.  Set into the centre of the door is a
+ viewing panel.
+
+>examine mechanism
+ Nothing fancy, just a large button that you'd need to jab.  You just
+ can't reach it, that's all.
+
+>push button with arm
+ The catch is a little embedded into the wall, so the arm hits spot on
+ but it isn't able to push it.
+
+>go east
+ Without something to poke that catch with - a broom handle, or
+ something - there's no way through that airlock.  Hopefully you can
+ find something, though; as that's the way back to the lab.
+
+ Curving Corridor
+    The western side of the dome, and an area not designed for human
+ personnel.  Robot hatches stand secure at the north and southern ends,
+ the latter a little dented, perhaps in the same explosion that damaged
+ the east side.  Portholes peer out in the dark, their ring broken by a
+ passage to the west, opposite an open archway to the east.
+
+ Kathleen slips through the northern hatch and moments later exits to
+ the south.
+
+>go south
+ That hatch is sealed to you, and likely to remain so.
+
+>go north
+ The hatch is shut.
+
+>put arm in circular recess
+ The hatch opens; you dart through.
+
+ Corridor
+    The corridor curves southeast to southwest, smooth metal walls low
+ and merging over your head.  Portholes splatter the north side like
+ bullet-holes.  A neon striplight runs the length of the corridor, light
+ leaking round the bends until it is cut on the west side by a
+ robot-hatch, and on the east by an airlock door, which is open.
+
+ To the south is the door back to the mortuary, a black glass panel by
+ its side.
+
+>go south
+ The door is closed and locked.
+
+ Through the door appears Victoria.
+
+>examine mortuary door
+ I don't recognize that sentence.
+
+>examine door
+ It is locked, it seems.  By the side, at shoulder height, is a black
+ glass palm-scanner.
+
+ The robot opens the hatch and rumbles through.
+
+>examine scanner
+ Flat black glass, a panel that uses all manner of fancy beams to read
+ over your palm-print and check you are who you think you are.
+ Unfortunately, it's not clever enough to realise you now think you are
+ someone that you actually aren't.  Or you think you are someone who
+ you're not, but really are.  Or something like that.  Anyway, it's a
+ pig-ignorant machine.
+
+>touch scanner
+ It bleeps red, displaying "PATTERN NOT IN DATABANK".
+
+>look
+ Corridor
+    The corridor curves southeast to southwest, smooth metal walls low
+ and merging over your head.  Portholes splatter the north side like
+ bullet-holes.  A neon striplight runs the length of the corridor, light
+ leaking round the bends until it is cut on the west side by a
+ robot-hatch, and on the east by an airlock door, which is open.
+
+ To the south is the door back to the mortuary, a black glass panel by
+ its side.
+
+>examine panel
+ Flat black glass, a panel that uses all manner of fancy beams to read
+ over your palm-print and check you are who you think you are.
+
+ Through the door appears Charlotte.
+
+>examine arm
+ It's a two-inch long black cylinder, as wide as your prosthetic wrist.
+ One end is marked with concentric ridges - that's the end that fits the
+ hatch-locks.  It must be telescopic, somehow, but you can't see a
+ mechanism.
+
+ The robot opens the hatch and rumbles through.
+
+>think about doctor
+ I don't know the word "think".
+
+>touch panel with arm
+ I don't recognize that sentence.
+
+>pull arm
+ You waggle and flip the cylinder, but it refuses to extend to its full
+ length.
+
+>twist arm
+ That accomplishes nothing.
+
+>examine arm
+ It's a two-inch long black cylinder, as wide as your prosthetic wrist.
+ One end is marked with concentric ridges - that's the end that fits the
+ hatch-locks.  It must be telescopic, somehow, but you can't see a
+ mechanism.
+
+>push arm
+ That accomplishes nothing.
+
+ Through the door appears Kathleen.
+
+>wear arm
+ You can't wear the robot arm.
+
+ The robot opens the hatch and rumbles through.
+
+>remove hand
+ Your hand is firmly attached to you.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+ Through the door appears Victoria.
+
+>wait
+ Time passes...
+
+ The robot opens the hatch and rumbles through.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>examine wrists
+ I don't know the word "wrists".
+
+>z.z.z
+ Time passes...
+
+ Through the door appears Charlotte.
+
+ Time passes...
+
+ The robot opens the hatch and rumbles through.
+
+ Time passes...
+
+>look
+ Corridor
+    The corridor curves southeast to southwest, smooth metal walls low
+ and merging over your head.  Portholes splatter the north side like
+ bullet-holes.  A neon striplight runs the length of the corridor, light
+ leaking round the bends until it is cut on the west side by a
+ robot-hatch, and on the east by an airlock door, which is open.
+
+ To the south is the door back to the mortuary, a black glass panel by
+ its side.
+
+>version
+ TILL DEATH MAKES A MONK-FISH OUT OF ME
+ Release 1.1 / Serial number 021103 / TADS 2.56
+
+>go east
+ You slip through the airlock, into a mangle of metal.
+
+ Collapsed Corridor
+    This was the eastern quadrant of the dome, but something has fallen
+ away and it is now a mangle of sheets of metal, intersecting skew-like.
+ About halfway along, the roof is so low to the floor as to admit a mere
+ few centimeters of space between.  Wiring hangs from the neon light,
+ but only the first segment is still lit.  The loose panel is propped
+ against the wall, revealing a promising, deep hole into the bowels of
+ the dome.
+
+>go east
+ The only exit is west.
+
+ You hear the rumbling sound of another robot in the corridor.
+
+>go down
+ You leap into the dark and land, an instant later, in a waist-deep
+ hole.
+
+ In a Hole
+    You are waist-high in a hole in the floor, in the middle of a
+ corridor of mangled metal walls.  It's filled with the mangled rubble
+ of robot parts, all a lurid orange.
+
+>go south
+ The only exit is up.
+
+>examine hole
+ You are waist-high in a hole in the floor, in the middle of a corridor
+ of mangled metal walls.  It's filled with the mangled rubble of robot
+ parts, all a lurid orange.
+
+>go up
+ You scramble out of the hole.
+
+ Collapsed Corridor
+    This was the eastern quadrant of the dome, but something has fallen
+ away and it is now a mangle of sheets of metal, intersecting skew-like.
+ About halfway along, the roof is so low to the floor as to admit a mere
+ few centimeters of space between.  Wiring hangs from the neon light,
+ but only the first segment is still lit.  The loose panel is propped
+ against the wall, revealing a promising, deep hole into the bowels of
+ the dome.
+
+>go west
+ Corridor
+    The corridor curves southeast to southwest, smooth metal walls low
+ and merging over your head.  Portholes splatter the north side like
+ bullet-holes.  A neon striplight runs the length of the corridor, light
+ leaking round the bends until it is cut on the west side by a
+ robot-hatch, and on the east by an airlock door, which is open.
+
+ To the south is the door back to the mortuary, a black glass panel by
+ its side.
+
+ Through the door appears Victoria.
+
+>wait
+ Time passes...
+
+ The robot opens the hatch and rumbles through.
+
+>put arm in hatch
+ You can't put anything into the hatch.
+
+>go south
+ The door is closed and locked.
+
+>put arm in recess
+ The hatch opens; you dart through.
+
+ Curving Corridor
+    The western side of the dome, and an area not designed for human
+ personnel.  Robot hatches stand secure at the north and southern ends,
+ the latter a little dented, perhaps in the same explosion that damaged
+ the east side.  Portholes peer out in the dark, their ring broken by a
+ passage to the west, opposite an open archway to the east.
+
+>go east
+ Computer Core And Coffin Room
+    This appears to be the hub of the Hansome's world.  Along one wall
+ runs a large computer bank, over which soft lights play in colours
+ tailored for electric eyes.  The far corner of the room contains a
+ large glass cylinder that disappears through the ceiling; it is open at
+ the bottom, where a coffin waits. The centre of the floor is taken up
+ by a circular hatch marked "Waste Disposal".  The juxtaposition is
+ quite unpleasant, and if too much so, you could leave back west.
+
+>examine coffin
+ The coffin is a smart black number of regular height.  It is unmarked,
+ open, and waiting with a depressing certitude.
+
+ From the corridor, you hear the sound of the robot hatch opening and
+ closing.
+
+>examine computer
+ The computer has one main screen, a circular recess to serve as a
+ monodigital keyboard, and a flat black palm scanner.  However, your
+ gaze is taken by one larger switch, marked with beautiful portent:
+ PERSONAL DETONATION DISPENSEMENT.
+
+>inventory
+ You have a robot arm.
+
+>examine switch
+ That switch should dole out swifter death than cyanide.
+
+>open coffin
+>switch switch
+ It's already open.
+
+ I don't know how to switch the switch.
+
+ From the corridor, you hear the sound of the robot hatch opening and
+ closing.
+
+>look in coffin
+ The coffin is empty.
+
+>examine cylinder
+ It's glass, and stretches upwards.  During a funeral, the base seals,
+ it fills with water and coffins are flushed out to be found and buried
+ on land.  You'd seen it before on the designs for this place, but never
+ realised they'd been so heartless as to actually build the thing.
+
+>get in coffin
+ You made that mistake when you joined AtlantisLab.  You're not doing it
+ again.
+
+>enter clinder
+ I don't know the word "clinder".
+
+>enter cilinder
+ I don't know the word "cilinder".
+
+>enter cylinder
+ The coffin is in the way.
+
+>move coffin
+ You can't move the coffin.
+
+ The familiar swish-snap sound of the robot hatch gets your attention.
+
+>pull switch
+ You tug the switch.  It sticks halfway, and a message appears on the
+ screen: DISPENSEMENT SET.  PROCEED VIA PERSONAL SETTING.
+
+>examine hatch
+ Ah, the eco-friendly waste system.  A hatch, with a short tunnel,
+ another hatch, and then the sea.  Waste goes into through one door and
+ is ejected into the water.  Simple, effective, and self-cleaning.  The
+ waste disposal hatch is closed, and there is no immediately obvious
+ control to change that.
+
+>examine computer
+ The computer has one main screen, a circular recess to serve as a
+ monodigital keyboard, and a flat black palm scanner.  The switch for
+ the PDD is stuck half-way down.  The screen is flashing something about
+ setting a PERSONAL.
+
+>touch scanner
+ Of course, it probably won't be happy with your print.  But you put
+ your palm on the glass anyway.
+
+ The computer heaves and splats.  You barely notice a squat oblong fire
+ out from its base, because of a searing pain that shoots across your
+ palm.  You pull back your hand, to find you have been branded!
+
+>examine palm
+ Your palm contains a brand.  Beneath it is inscribed "Press for
+ detonation."
+
+ From the corridor outside you hear the swish-snap of the robot hatch.
+
+>press hand
+ Pushing your hand doesn't do anything.
+
+>press brand
+ Your finger hovers over the contact.  Eyes to palm, eyes to bomb.  You
+ can't help feeling it's a slightly extreme way to go.  But you press
+ the button anyway.
+
+ "!ERROR - PERSONAL WITHIN BLAST RADIUS!" screams a siren from just
+ above your wrist.
+
+>enter coffin
+ You made that mistake when you joined AtlantisLab.  You're not doing it
+ again.
+
+>examine brand
+ The brand is a small black button - a tattoo just left of your
+ lifeline.  Beneath it is inscribed "Press for detonation."
+
+>examine computer
+ The computer has one main screen, a circular recess to serve as a
+ monodigital keyboard, and a flat black palm scanner, slightly stained
+ with your blood.  The switch for the PDD is stuck half-way down.  The
+ screen is blank.
+
+ From the corridor outside you hear the swish-snap of the robot hatch.
+
+>examine pdd
+ I don't know the word "pdd".
+
+>examine computer
+>examine blood
+ The computer has one main screen, a circular recess to serve as a
+ monodigital keyboard, and a flat black palm scanner, slightly stained
+ with your blood.  The switch for the PDD is stuck half-way down.  The
+ screen is blank.
+
+ You didn't think Dr. Kurner had any left.
+
+>look
+ Computer Core And Coffin Room
+    This appears to be the hub of the Hansome's world.  Along one wall
+ runs a large computer bank, over which soft lights play in colours
+ tailored for electric eyes.  The far corner of the room contains a
+ large glass cylinder that disappears through the ceiling; it is open at
+ the bottom, where a coffin waits. The centre of the floor is taken up
+ by a circular hatch marked "Waste Disposal".  The juxtaposition is
+ quite unpleasant, and if too much so, you could leave back west.
+
+ Sitting in the middle of the floor is a black oblong, with a single red
+ light on top which blinks intermittently.
+
+>examine oblong
+ Of course, "black oblong" is a marketing euphemism.  It means
+ "container capable of violent explosive self-destruction" or "Bomb".
+
+ It's small, black, and judging by the way it slid across the floor,
+ very heavy. There is a single red light on top which blinks
+ intermittently.
+
+>take bomb
+ It's small, but it's heavy, and flat on the flat floor so you can't get
+ your fingers underneath.  (That's not helped, of course, by the fact
+ you can barely bend your left palm thanks to the brand.)
+
+ From the corridor outside you hear the swish-snap of the robot hatch.
+
+>push bomb w
+ You can't seem to do that.
+
+>examine hatch
+ Ah, the eco-friendly waste system.  A hatch, with a short tunnel,
+ another hatch, and then the sea.  Waste goes into through one door and
+ is ejected into the water.  Simple, effective, and self-cleaning.  The
+ waste disposal hatch is closed, and there is no immediately obvious
+ control to change that.
+
+>look
+ Computer Core And Coffin Room
+    This appears to be the hub of the Hansome's world.  Along one wall
+ runs a large computer bank, over which soft lights play in colours
+ tailored for electric eyes.  The far corner of the room contains a
+ large glass cylinder that disappears through the ceiling; it is open at
+ the bottom, where a coffin waits. The centre of the floor is taken up
+ by a circular hatch marked "Waste Disposal".  The juxtaposition is
+ quite unpleasant, and if too much so, you could leave back west.
+
+ Sitting in the middle of the floor is a black oblong, with a single red
+ light on top which blinks intermittently.
+
+>go west
+ Curving Corridor
+    The western side of the dome, and an area not designed for human
+ personnel.  Robot hatches stand secure at the north and southern ends,
+ the latter a little dented, perhaps in the same explosion that damaged
+ the east side.  Portholes peer out in the dark, their ring broken by a
+ passage to the west, opposite an open archway to the east.
+
+>push brand
+ You press the small black button.
+
+ "!ERROR - PERSONAL WITHIN BLAST RADIUS!" screams a siren from just
+ above your wrist.
+
+ The norhern hatch flips open and out pops Charlotte.  She slowly
+ lumbers southward, disappearing through the southern hatch.
+
+>go south
+ That hatch is sealed to you, and likely to remain so.
+
+>go north
+ The hatch is shut.
+
+>go west
+ By Airlock
+    This is just a short vestibule, from the airlock to the west to the
+ main corridor back east.  The airlock door is sealed, but you recall
+ that a long corridor leads off into the distance.
+
+>push brand
+ You press the small black button.
+
+ "!ERROR - PERSONAL WITHIN BLAST RADIUS!" screams a siren from just
+ above your wrist.
+
+>go east
+ Curving Corridor
+    The western side of the dome, and an area not designed for human
+ personnel.  Robot hatches stand secure at the north and southern ends,
+ the latter a little dented, perhaps in the same explosion that damaged
+ the east side.  Portholes peer out in the dark, their ring broken by a
+ passage to the west, opposite an open archway to the east.
+
+ The norhern hatch flips open and out pops Kathleen.  She slowly lumbers
+ southward, disappearing through the southern hatch.
+
+>put arm in circular recess
+ The hatch opens; you dart through.
+
+ Corridor
+    The corridor curves southeast to southwest, smooth metal walls low
+ and merging over your head.  Portholes splatter the north side like
+ bullet-holes.  A neon striplight runs the length of the corridor, light
+ leaking round the bends until it is cut on the west side by a
+ robot-hatch, and on the east by an airlock door, which is open.
+
+ To the south is the door back to the mortuary, a black glass panel by
+ its side.
+
+>go east
+ You slip through the airlock, into a mangle of metal.
+
+ Collapsed Corridor
+    This was the eastern quadrant of the dome, but something has fallen
+ away and it is now a mangle of sheets of metal, intersecting skew-like.
+ About halfway along, the roof is so low to the floor as to admit a mere
+ few centimeters of space between.  Wiring hangs from the neon light,
+ but only the first segment is still lit.  The loose panel is propped
+ against the wall, revealing a promising, deep hole into the bowels of
+ the dome.
+
+>push brand
+ You press the small black button.
+
+ "!ERROR - PERSONAL WITHIN BLAST RADIUS!" screams a siren from just
+ above your wrist.
+
+>inventory
+ You have a robot arm.
+
+ Your left palm has been branded with a button.
+
+ You hear the rumbling sound of another robot in the corridor.
+
+>enter hole
+ You leap into the dark and land, an instant later, in a waist-deep
+ hole.
+
+ In a Hole
+    You are waist-high in a hole in the floor, in the middle of a
+ corridor of mangled metal walls.  It's filled with the mangled rubble
+ of robot parts, all a lurid orange.
+
+>bush brand
+ I don't know the word "bush".
+
+>push brand
+ You press the small black button.
+
+ "!ERROR - PERSONAL WITHIN BLAST RADIUS!" screams a siren from just
+ above your wrist.
+
+>examine parts
+ Rosalind is in at least twelve parts, most bright orange, a few black,
+ with wires spilling from several fissures.  The debris is four inches
+ deep.
+
+>examine arm
+ It's a two-inch long black cylinder, as wide as your prosthetic wrist.
+ One end is marked with concentric ridges - that's the end that fits the
+ hatch-locks.  It must be telescopic, somehow, but you can't see a
+ mechanism.
+
+>twist arm
+ That accomplishes nothing.
+
+>pull arm
+ You waggle and flip the cylinder, but it refuses to extend to its full
+ length.
+
+>remove hand
+ Your hand is firmly attached to you.
+
+>cut off hand
+ I don't recognize that sentence.
+
+>push arm
+ That accomplishes nothing.
+
+>stretch arm
+ You waggle and flip the cylinder, but it refuses to extend to its full
+ length.
+
+>search arm
+ You find nothing of interest.
+
+>shake arm
+ You waggle and flip the cylinder, but it refuses to extend to its full
+ length.
+
+>go up
+ You scramble out of the hole.
+
+ Collapsed Corridor
+    This was the eastern quadrant of the dome, but something has fallen
+ away and it is now a mangle of sheets of metal, intersecting skew-like.
+ About halfway along, the roof is so low to the floor as to admit a mere
+ few centimeters of space between.  Wiring hangs from the neon light,
+ but only the first segment is still lit.  The loose panel is propped
+ against the wall, revealing a promising, deep hole into the bowels of
+ the dome.
+
+>go west
+ Corridor
+    The corridor curves southeast to southwest, smooth metal walls low
+ and merging over your head.  Portholes splatter the north side like
+ bullet-holes.  A neon striplight runs the length of the corridor, light
+ leaking round the bends until it is cut on the west side by a
+ robot-hatch, and on the east by an airlock door, which is open.
+
+ To the south is the door back to the mortuary, a black glass panel by
+ its side.
+
+>examine door
+ It is locked, it seems.  By the side, at shoulder height, is a black
+ glass palm-scanner.
+
+>touch palm-scanner
+ It bleeps red, displaying "PATTERN NOT IN DATABANK".
+
+ Through the door appears Victoria.
+
+>go south
+ The door is closed and locked.
+
+ The robot opens the hatch and rumbles through.
+
+>go west
+ The robot's hatch is closed.
+
+>put arm in recess
+ The hatch opens; you dart through.
+
+ Curving Corridor
+    The western side of the dome, and an area not designed for human
+ personnel.  Robot hatches stand secure at the north and southern ends,
+ the latter a little dented, perhaps in the same explosion that damaged
+ the east side.  Portholes peer out in the dark, their ring broken by a
+ passage to the west, opposite an open archway to the east.
+
+>examine portholes
+ Through the portholes swim a variety of underwater fish, lit in the
+ half-glow leaking from this dome.
+
+>go east
+ Computer Core And Coffin Room
+    This appears to be the hub of the Hansome's world.  Along one wall
+ runs a large computer bank, over which soft lights play in colours
+ tailored for electric eyes.  The far corner of the room contains a
+ large glass cylinder that disappears through the ceiling; it is open at
+ the bottom, where a coffin waits. The centre of the floor is taken up
+ by a circular hatch marked "Waste Disposal".  The juxtaposition is
+ quite unpleasant, and if too much so, you could leave back west.
+
+ Sitting in the middle of the floor is a black oblong, with a single red
+ light on top which blinks intermittently.
+
+>break cylinder
+ You'll have to tell me how to do that.
+
+ From the corridor outside you hear the swish-snap of the robot hatch.
+
+>examine computer
+ The computer has one main screen, a circular recess to serve as a
+ monodigital keyboard, and a flat black palm scanner, slightly stained
+ with your blood.  The switch for the PDD is stuck half-way down.  The
+ screen is blank.
+
+>examine recess
+ Much like the others you've seen.  Around the circumference are marked
+ small lines.
+
+>put arm in recess
+ You clip the robot arm into the circular recess.  The screen lights up
+ with a list of names.
+
+>pull switch
+ It doesn't budge.
+
+>examine screen
+ The list on the screen reads:
+ DOE, JACK
+ DOE, JENNY
+ DOE, JEREMY
+ DOE, JOSEPHINE
+ DOE, JULIA
+ DOE, JOHN
+
+ Jack's name is currently blinking.
+
+ The familiar swish-snap sound of the robot hatch gets your attention.
+
+>touch john
+ It's not a touch screen.
+
+>type "john"
+ What do you want to type it on?
+
+>keyboard
+ I don't know how to type anything on the recess.
+
+>examine computer
+ The computer has one main screen, a circular recess to serve as a
+ monodigital keyboard from which protrudes a broken robot arm and a flat
+ black palm scanner, slightly stained with your blood.  The switch for
+ the PDD is stuck half-way down.  The screen is displaying a list of
+ names.  One - "JACK" - is flashing.
+
+ The red light on the black oblong winks.
+
+>touch scanner
+ You gather once is more than enough.
+
+>push switch
+ It doesn't budge.
+
+ From the corridor outside you hear the swish-snap of the robot hatch.
+
+>put arm in recess
+ The robot arm is already in the recess!
+
+>examine recess
+ The arm protrudes from the recess like a broken spur from a wrecked
+ ship.  Around the circumference are marked small lines.
+
+>examine lines
+ I don't know the word "lines".
+
+>pull arm
+ You unclip the arm from the recess.  The screen flashes: "PROCESSING...
+ PROCESSING...  READY", then falls dark.
+
+>inventory
+ You have a robot arm.
+
+ Your left palm has been branded with a button.
+
+>pull switch
+ It doesn't budge.
+
+>press button
+ You press the small black button.
+
+ "!ERROR - PERSONAL WITHIN BLAST RADIUS!" screams a siren from just
+ above your wrist.
+
+>put arm in recess
+ You clip the robot arm into the circular recess.  The screen lights up
+ with a list of names.
+
+>examine screen
+ The list on the screen reads:
+ DOE, JENNY
+ DOE, JEREMY
+ DOE, JOSEPHINE
+ DOE, JULIA
+ DOE, JOHN
+
+ Jenny's name is currently blinking.
+
+>look
+ Computer Core And Coffin Room
+    This appears to be the hub of the Hansome's world.  Along one wall
+ runs a large computer bank, over which soft lights play in colours
+ tailored for electric eyes.  The far corner of the room contains a
+ large glass cylinder that disappears through the ceiling; it is open at
+ the bottom, where a coffin waits. The centre of the floor is taken up
+ by a circular hatch marked "Waste Disposal".  The juxtaposition is
+ quite unpleasant, and if too much so, you could leave back west.
+
+ Sitting in the middle of the floor is a black oblong, with a single red
+ light on top which blinks intermittently.
+
+ You hear the familiar snap of the robot hatch echo in the corridor.
+ You turn and spot Kathleen, connected to trolley, trudging along the
+ corridor.
+
+>examine trolley
+ I don't see any trolley here.
+
+>get arm. put arm in recess
+ You unclip the arm from the recess.  The screen flashes: "PROCESSING...
+ PROCESSING...  SYSTEM BUSY", then falls dark.
+
+ Kathleen enters the room, pushing a trolley in front of it.  On the
+ trolley lies Jack Doe.
+
+ You clip the robot arm into the circular recess.  The screen lights up
+ with a list of names.
+
+ The robot pushes the trolley over to the coffin, performs an ingenious
+ twist, and the body slides in.
+
+>pull switch
+ It doesn't budge.
+
+ The robot flips the coffin shut.  The glass cylinder seals, and in a
+ great spiral of water rather too much like a submarine toilet, the
+ coffin is ejected outwards and upwards.  You can't help noticing its
+ panel was never engraved.  An empty coffin slides into place, by some
+ mechanism too fast for your watery eyes to follow.
+
+>wait
+ Time passes...
+
+ Kathleen turns tail and leaves the room, pushing its empty trolley
+ before it.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+ From the corridor outside you hear the swish-snap of the robot hatch.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+ The red light on the black oblong winks.
+
+>examine computer
+ The computer has one main screen, a circular recess to serve as a
+ monodigital keyboard from which protrudes a broken robot arm and a flat
+ black palm scanner, slightly stained with your blood.  The switch for
+ the PDD is stuck half-way down.  The screen is displaying a list of
+ names.  One - "JENNY" - is flashing.
+
+>wait
+ Time passes...
+
+ The familiar swish-snap sound of the robot hatch gets your attention.
+
+>get arm
+ You unclip the arm from the recess.  The screen flashes: "PROCESSING...
+ PROCESSING...  READY", then falls dark.
+
+>z.z.z.z
+ Time passes...
+
+ Time passes...
+
+ Time passes...
+
+ You hear the familiar snap of the robot hatch echo in the corridor.
+ You turn and spot Kathleen, connected to trolley, trudging along the
+ corridor.
+
+ Time passes...
+
+ Kathleen enters the room, pushing a trolley in front of it.  On the
+ trolley lies Jenny Doe.
+
+>wait
+ Time passes...
+
+ The robot transfers the body to the coffin.
+
+>wait
+ Time passes...
+
+ The robot flips the coffin shut, and it is ejected, presumably into the
+ sea above.
+
+>wait
+ Time passes...
+
+ Kathleen turns tail and leaves the room, pushing its empty trolley
+ before it.
+
+ You hear a great rumbling under the floor.
+
+>listen
+ You can hear the low hum emanating from the computer bank.
+
+>put arm in recess
+ You clip the robot arm into the circular recess.  The screen lights up
+ with a list of names.
+
+ From the corridor, you hear the sound of the robot hatch opening and
+ closing.
+
+>examine recess
+ The arm protrudes from the recess like a broken spur from a wrecked
+ ship.  Around the circumference are marked small lines.
+
+>examine screen
+ The list on the screen reads:
+ DOE, JEREMY
+ DOE, JOSEPHINE
+ DOE, JULIA
+ DOE, JOHN
+
+ Jeremy's name is currently blinking.
+
+>turn arm
+ You turn the arm one notch, and the name JOSEPHINE in the list begins
+ to blink.
+
+>turn arm
+ You turn the arm one notch, and the name JULIA in the list begins to
+ blink.
+
+>turn arm
+ You turn the arm one notch, and the name JOHN in the list begins to
+ blink.
+
+ The familiar swish-snap sound of the robot hatch gets your attention.
+
+>push arm
+ The arm goes no further in, but it is free to rotate.
+
+>turn arm
+ You turn the arm one notch, and the name JEREMY in the list begins to
+ blink.
+
+>take arm
+ You unclip the arm from the recess.  The screen flashes: "PROCESSING...
+ PROCESSING...  READY", then falls dark.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+ The red light on the black oblong winks.
+
+>wait
+ Time passes...
+
+ You hear the familiar snap of the robot hatch echo in the corridor.
+ You turn and spot Victoria, connected to trolley, trudging along the
+ corridor.
+
+>examine trolley
+ I don't see any trolley here.
+
+>wait
+ Time passes...
+
+ Victoria enters the room, pushing a trolley in front of it, on which
+ lies Jeremy and Jeremy's peg-leg.  It is heading for the coffin, but
+ there is a sudden loud grumbling from under the floor and the robot
+ stops dead.  Before you spot the connection between the trolley's
+ position and the waste-disposal hatch, the trolley has been tipped up
+ by a neat shudder of Victoria's lower limbs and Jeremy has slid down in
+ the compartment in the floor.  The coffin remains empty, and appears
+ not to have noticed that's its snack has been thrown away by the
+ waiter.
+
+ The robot motors quietly out of the room westward, leaving the trolley
+ behind, lolling flat on the floor once more.  The waste-disposal hatch
+ slides shut.  Or, well, almost shut.  Jeremy's peg-leg protrudes,
+ obstructing the closing of the cover.
+
+>get leg
+ The hatch has gripped it obliquely, and it's trapped on something
+ inside the compartment (an armpit, perhaps).
+
+>leg it
+ There's no verb in that sentence!
+
+>open hatch
+ You pull at the hatch, but don't have quite enough strength to move it
+ with your hands.  Jeremy's peg-leg slides a bit toward you.
+
+>get leg
+ You lever open the hatch with the peg-leg, which finally comes free in
+ your hands.
+
+ Inside, your eyes are met by an appalling sight.  Jeremy is crumpled in
+ the bottom of the compartment, whose lower door is not sealed, but
+ rather filled by a thick green sludge, which oozes between his splayed
+ limbs.
+
+ And as you look down, the sludge looks up.  You leap back.
+
+>examine sludge
+ You lean back toward the hole.
+
+ There is a surge of movement from inside the hatch, and then an
+ eruption of cobalt goop as a tentacle surges out.  It feels at the air,
+ back and forth like the foil of a fencer, swiping toward your face.
+ You recoil, stumble, fall back flat upon the trolley.  The suckers,
+ blood-tipped already, follow the sound, soon hovering mere inches from
+ your face.
+
+>push tolley
+ I don't know the word "tolley".
+
+>push trolley
+ You try to jerk the trolley to move, but to do so without moving nearer
+ the squid.  The net effect - fear and no motion.
+
+ From the corner of your eye you see water bubbling in through the
+ hatch, the tunnel beneath which is now held open on both ends by the
+ enormous arm of the squid.  This arm sweeps the room, an inch from your
+ nose, unable to find you.
+
+>undo
+ (Undoing one command)
+
+ Computer Core And Coffin Room, on the trolley
+    This appears to be the hub of the Hansome's world.  Along one wall
+ runs a large computer bank, over which soft lights play in colours
+ tailored for electric eyes.  The far corner of the room contains a
+ large glass cylinder that disappears through the ceiling; it is open at
+ the bottom, where a coffin waits. The centre of the floor is taken up
+ by a circular hatch marked "Waste Disposal".  The juxtaposition is
+ quite unpleasant, and if too much so, you could leave back west.
+
+ Sitting in the middle of the floor is a black oblong, with a single red
+ light on top which blinks intermittently.
+
+>SAVE
+>cf3
+ Saved.
+
+>push brand
+ You press the small black button.
+
+ "!ERROR - PERSONAL WITHIN BLAST RADIUS!" screams a siren from just
+ above your wrist.
+
+ From the corner of your eye you see water bubbling in through the
+ hatch, the tunnel beneath which is now held open on both ends by the
+ enormous arm of the squid.  This arm sweeps the room, an inch from your
+ nose, unable to find you.
+
+>get in coffin
+ You are flat out on the trolley and not moving an inch higher.
+
+>push floor with leg
+ That has no effect.
+
+ The tentacle swoops back a little, like a hawk soaring to survey.  It
+ seems to have lost you.
+
+>push trolley with leg
+ You'll have to get off of the trolley first.
+
+ The light on the black oblong winks.
+
+ In a flash the tentacle has descended, enfolding and embracing the bomb
+ and dragging it down through the hatch with it.  You breath a sigh of
+ relief as it slides out of sight.
+
+ But the waste hatch is still open, still broken, and as the tentacle
+ leaves the only obstacle between the room and the sea has left too.  A
+ fountain jets up into the room, catching the trolley as it splashes
+ down.  You start to roll, out of the door westwards.
+
+ Curving Corridor
+    You are flat out on the trolley, which is building speed as the
+ crashing water from the computer room powers behind.  You clutch
+ Jeremy's peg-leg for comfort, as though it'll steer you, though you're
+ clearly in the lap of luck now.
+
+>push button
+ You press the small black button.
+
+ "!ERROR - EXPLOSIVE OUT OF RANGE!" screams a siren from just above your
+ wrist.
+
+ From the computer room comes a roar, and you see the trunk of the
+ tentacle erupt once more, heading toward the only moving object it can
+ find - you.
+
+ The trolley fires further.
+
+ By Airlock
+    The trolley is cannoning westward.  The sealed airlock door
+ approaches like the last view of a crash-test dummy.  You can just spot
+ the opening catch, way out of reach, waiting to be pushed.
+
+ The squid is hot on your tail, a huntsman with the waves his hounds.
+
+>push catch with leg
+ You jab wildly for the opening catch with the peg-leg as you approach
+ it.  The airlock hisses, and slides open just in time for the head of
+ the trolley to shoot through.
+
+ Long Tunnel
+    This is a tunnel joining the modules of the lab.  It is long,
+ unmarked, a solid steel umbilical with dim lighting and no windows.
+ And the floor slopes downward.
+
+ You accelerate.  Sirens wind into life all about the corridor, and far
+ ahead a flood door is beginning to lower.
+
+ Hmm.  Someone's left a computer hotwired into a wall panel, just lying
+ around in the corridor.  That's no way to access, at a guess, the
+ robot's systems stored in the Mortuary block.
+
+ You just notice these things, that's all.
+
+>use computer
+ Trolley-very-fast-squid-flood, remember?
+
+ Behind you the tentacle is still coming.  It's almost upon you.  The
+ flood door is now half-way to the floor.
+
+ In a final surge, you crash toward the flood door, and sweep through
+ just before it rams home.  There is a colossal thud from behind as the
+ squid hammers into it.  But it holds.  The trolley rockets calmly into
+ a wall, and you are thrown painfully, rolling further down the corridor
+ where it bends to the north, head spinning with legs.  It is a while
+ before you take in your surroundings once more.
+
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>SAVE
+>cf4
+ Saved.
+
+>go west
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>unlock door
+ There's a pretty formidable array of locks on the thing!
+
+>put hand on reader
+ The door chimes happily.
+
+>look in scanner
+ The door pings happily.
+
+>talk to detector
+ You can't talk to the microphone.
+
+>say "hello" to microphone
+ Nothing happens.
+
+>examine voice
+ I don't know the word "voice".
+
+>examine microphone
+ Just a microphone to read in a code-word.  Known to be temperamental
+ most people don't trust these to anything you actually want to be able
+ to get into.  Kurner himself always has problems because he insists on
+ whispering his password.  Eventually he'll just yell "SCARECROW" and
+ pretend it was a curse at the door's failures.
+
+>yell "scarecrow"
+ The door fleeps happily.  It swings open.
+
+>go west
+ The corridor continues northwest and Kurner's room is directly north.
+ The intersection lies east.
+
+>go north
+ Ironic, really, that if he'd just had a keyhole you'd never have broken
+ in.
+
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+ From the floor one fragment of paper catches your eye.  It reads: "If
+ you are reading this, then, by Jove, it's all up with you!"
+
+>examine paper
+ There are about a hundred scraps of paper littered around.  You pick
+ one at random to read:
+
+    "If you are reading this, death is imminent!!!"
+
+>examine paper
+    "By the time you read this, my dear friend, death is your only
+ alibi!!!"
+
+>examine paper
+    "If you are reading this, you are quite simply doomed!"
+
+>examine paper
+    "When you wrap your head round this, your doom approaches!!"
+
+>examine books
+ 80% are "Physics for Beginners", 18% are "Biochemistry for Beginners"
+ and 1 book is a biography of Judy Garland.
+
+>examine computer
+ "Type password:"
+
+>type "scarecrow"
+ (on the keyboard)
+ "Incorrect password."
+
+>type "death"
+ (on the keyboard)
+ "Incorrect password."
+
+>read biography
+ No, don't.  You really don't want to know what Kurner's hidden behind
+ that appalling dust-jacket.
+
+>type "dorothy"
+ (on the keyboard)
+ "Incorrect password."
+
+>type "judy"
+ (on the keyboard)
+ "Incorrect password."
+
+>examine bio
+ I don't know the word "bio".
+
+>examine biography
+>type "lion"
+ It's a biography of Judy Garland.
+
+ (on the keyboard)
+ "Incorrect password."
+
+>search books
+ You've read most before.  And they're mostly trash.
+
+>search bed
+ You find books...
+
+>search bed
+ You find books...
+
+>type "tinman"
+ (on the keyboard)
+ "Incorrect password."
+
+>look under bed
+ The morass of paper continues that way.  Perhaps in the darkness it is
+ growing more slowly.
+
+>type "tin man"
+ [One word at a time please]
+
+>get biography
+ No - someone might see you with it.
+
+>search paper
+    "If you are reading this, death is your only alibi!"
+
+>look
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>type "death"
+ (on the keyboard)
+ "Incorrect password."
+
+>examine desk
+ The desk is cleared but for the computer, the screen and keyboard built
+ into the surface.  There is also a drawer, with a small metal lock.
+
+>examine drawer
+>examine computer
+ It's locked.
+
+ "Type password:"
+
+>examine keyboard
+ Standard.
+
+>examine clothing
+ It's all about your (current) size.
+
+>search clothing
+ You hunt around, hoping to find a drawer key.  But it's likely to be
+ small, and, well, you don't find it.
+
+>wear clothing
+ The phrase "fate worse than death" springs to mind, and plain death
+ would do just fine right now.
+
+>wear clothing
+ The phrase "fate worse than death" springs to mind, and plain death
+ would do just fine right now.
+
+>go west
+ (Opening the bathroom door)
+ Bathroom
+    Standard cubby-hole bathroom really.  A sink, toilet, and a greasy
+ mirror reflecting the steam-stained beige walls in all their smudged
+ glory.  The door - should you tire of such an atmospheric locale - is
+ back east.
+
+>flush toilet
+ You flush the toilet.
+
+>examine mirror
+ Kurner's harassed and ugly mush looks back at you.  You can't help
+ noticing he looks a little pale - but then everyone here does, it's
+ lack of sunlight.  Once again you curse your machine for not having put
+ you sea-side.
+
+>open mirror
+ I don't know how to open the mirror.
+
+>break mirror
+ You'll have to tell me how to do that.
+
+>pee
+ You don't have the urge.
+
+>examine walls
+ The beige walls compliment the room nicely.  No, really...
+
+>write "xyzzy" on mirror
+ You breathe on the mirror and a pool of condensation forms.  You write
+ "xyzzy".
+
+>break mirror
+ You'll have to tell me how to do that.
+
+ The condensation on the mirror evaporates away.
+
+>hit mirror
+ I don't know how to hit the mirror.
+
+>breathe on mirror
+ You breathe on the mirror and a pool of condensation forms.  Your
+ previous message "xyzzy" is now visible on the mirror.
+
+>examine mirror
+ Kurner's harassed and ugly mush looks back at you.  You can't help
+ noticing he looks a little pale - but then everyone here does, it's
+ lack of sunlight.  Once again you curse your machine for not having put
+ you sea-side.  You can make out "xyzzy" scribbled in big chunky
+ fat-child finger-writing in the condensation.
+
+ The condensation on the mirror evaporates away.
+
+>go east
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>go south
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>go east
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>undo
+ (Undoing one command)
+
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>go northwest
+ The other rooms are of no interest to you.
+
+>go east
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>go east
+ Outside the General's Office
+    A familiar waiting room - when you first joined AtlantisLab you'd be
+ here every month as you worked your way up the security clearances.
+ Ironic, in a way, that you were only two chevrons from finding out what
+ all that electro-plasma and virus engineering was for when you'd mooted
+ your Project and been booted into a whole new department.  Just goes to
+ show, it seems, that even the most dedicated people need a holiday, and
+ the General himself was no doubt very much looking forward to stepping
+ inside your machine and spending a fortnight on a beach in someone
+ else's head.
+
+ Of course he, like all the others, and yourself, was expecting it to
+ work.
+
+>go north
+ There is no exit in that direction.
+
+>go east
+ The General's door is closed.
+
+>open door
+ It's locked, very heavily, with many a large key.
+
+>examine door
+ The door isn't important.
+
+>go west
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>go north
+ You walk along a fairly long stretch of corridor, until it opens out.
+
+ Bottom of Spiral
+    The designers of this place clearly had something to prove to the
+ gods of pressure - this room, unlike the cramped corridors and tight
+ bunkrooms, is a wide cathedral-like dome, held up by one fat pillar in
+ the centre of the floor. A smooth ramp snakes around it on a gentle
+ incline up to the higher levels - no stairs here, the robots not being
+ that adept - and on a normal day the floor around would be crowded with
+ scientists, like worshippers at a standing stone.  However today - for
+ some reason, it seems - is not a normal day.  Where is everyone?
+
+ Corridors leave the space in all directions - Kurner's room is down the
+ passage further south.
+
+>go east
+ There's nothing of great interest there.  Besides, you don't really
+ want to bump into anyone, you look terrible.
+
+>go west
+ There's nothing of great interest there.  Besides, you don't really
+ want to bump into anyone, you look terrible.
+
+>go up
+ You climb the great spiral of the ramp, round and round until you're
+ sure the ground is screwing in and you're not going anywhere...
+
+ Floor One
+    You know you're in favour when your personal lab is put on the first
+ level of the building.  It's behind that door to the south, the one
+ only you have the key to.  Except, of course, you haven't got it,
+ because you're inside the room. Or you might be.  Anyway, the door
+ seems to still be open, which is handy.
+
+ A loose panel hangs from the doorframe - it seems it's incurred some
+ damage since you were last here.
+
+ The ramp which leads back down to the main room is north.
+
+ There's a screwdriver lying on the floor.
+
+ A lab coat is crumpled in the corner.  You're shivering, and quickly
+ put it on.
+
+>get screwdriver
+ You pick it up, noting the yellow plastic handle seems to be slightly
+ charred at one end.
+
+>examine coat
+ It's pretty standard, though you note one cuff is heavily blackened and
+ burnt, and there's a long slash along the back as though it had once
+ been removed by a pathologist.
+
+>examine handle
+ The yellow plastic handle is charred, and a little deformed.
+
+>examine panel
+ The panel is about two inches by four, and hangs from one screw
+ revealing the wiring inside.  Which, now you look, is certainly not how
+ is should be.
+
+>examine wiring
+ There are two wires running under the panel, down to the keyhole.  They
+ have been ripped up from their sockets, the ends bared; presumably they
+ were then twisted together to make the door unlock.
+
+ Whoever did this has since tried to repair the damage - the first wire
+ is jammed back into their socket.  But with one wire connected the
+ other would have been sparking with a lot of electricity.  It's
+ strangely dead, now.  Perhaps the fuse was blown by a surge.
+
+ More importantly though, someone has hotwired your door whilst you've
+ been away.
+
+>review
+ (Review mode - time does not pass)
+
+ Floor One
+    You know you're in favour when your personal lab is put on the first
+ level of the building.  It's behind that door to the south, the one
+ only you have the key to.  Except, of course, you haven't got it,
+ because you're inside the room. Or you might be.  Anyway, the door
+ seems to still be open, which is handy.
+
+ A loose panel hangs from the doorframe - it seems it's incurred some
+ damage since you were last here.
+
+ The ramp which leads back down to the main room is north.
+
+>go south
+ You enter your lab.
+
+ Machine Room
+    The room is much as you left it; a porthole above a bank of heavy
+ machinery. The glass cylinder stands in one corner, aloof and empty.
+
+ You can't help noticing with something verging on a nervous tick above
+ one eye that a terminal case has had its lock smashed open.
+
+>examine terminal
+ The terminal lock has been broken, shattered off, with a few dents in
+ the metal left behind.  These dents are about a half-centimeter long,
+ and thin, like the blade of a screwdriver.
+
+>look in it
+ (opening the case first)
+ Inside the case is all the familiar circuitry and wiring - and then one
+ addition to the family.  A black plastic box sits on the base of the
+ terminal, with a multi-strand wire coming out of the side, its
+ connections soldered onto the circuit boards.  You recognise the
+ manufacture.  It's exactly like the modules Dr.  Kurner was building
+ for you, it's his characteristic habit of hiding all his work inside
+ moulded boxes so no-one can see it and criticise.
+
+ But what's it doing here?  You last checked over the machine last
+ night, it wasn't here then.  In the morning - well, Kurner was already
+ here, wasn't he?  So whatever happened to your machine - whatever
+ you're doing in this non-sunshine state - it's his doing.  And you're
+ not going to be able to get back to your own body with this machine
+ unless you find out what he's done.
+
+>get box
+ The box is firmly soldered into the machine.  You'd need proper tools
+ if you were going to remove it.  Probably easier, then, to get it open
+ and rewire it inside.
+
+>open it with screwdriver
+ I don't know how to open the black box.
+
+>examine cylinder
+ The cylinder is all rigged up and ready from the experiment, the door
+ open.
+
+>examine box
+ The box gives no clues, it's a smooth firm black.  They'll be a catch
+ on it, somewhere, that's how Kurner designs these things, but quite
+ where - well.  You could hunt for several hours or you could go and
+ find a design plan and work it out.  That'd tell you what it was for,
+ too.
+
+>examine cylinder
+ The cylinder is all rigged up and ready from the experiment, the door
+ open.
+
+>enter cylinder
+ You step inside the cylinder.
+
+ Inside the glass cylinder
+    Cables feed away from the base of the cylinder.  Inside, there's the
+ grille for your feet, and the Emergency Door Release Switch.
+
+>examine grille
+ The grille has no functional purpose.
+
+>examine switch
+ The Emergency Release Switch - provided in the terrible off-chance that
+ the door release cover might fail, or be sabotaged, or any such.
+
+>pull switch
+ The switch does nothing - the door does not slide shut.
+
+>out
+ You step out of the cylinder.
+
+ Machine Room
+    The room is much as you left it; a porthole above a bank of heavy
+ machinery. The glass cylinder stands in one corner, aloof and empty.
+
+ One terminal case is violently unlocked.
+
+>go north
+ Floor One
+    You know you're in favour when your personal lab is put on the first
+ level of the building.  It's behind that door to the south, the one
+ only you have the key to.  Except, of course, you haven't got it,
+ because you're inside the room. Or you might be.  Anyway, the door
+ seems to still be open, which is handy.
+
+ A loose panel hangs from the doorframe - it seems it's incurred some
+ damage since you were last here.
+
+ The ramp which leads back down to the main room is north.
+
+>go down
+ You make your way down the ramp...
+
+ Bottom of Spiral
+    The designers of this place clearly had something to prove to the
+ gods of pressure - this room, unlike the cramped corridors and tight
+ bunkrooms, is a wide cathedral-like dome, held up by one fat pillar in
+ the centre of the floor. A smooth ramp snakes around it on a gentle
+ incline up to the higher levels - no stairs here, the robots not being
+ that adept - and on a normal day the floor around would be crowded with
+ scientists, like worshippers at a standing stone.  However today - for
+ some reason, it seems - is not a normal day.  Where is everyone?
+
+ Corridors leave the space in all directions - Kurner's room is down the
+ passage further south.
+
+>go south
+ You walk back down the corridor.
+
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>go west
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>go north
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>type "kurner" on computer
+ "Incorrect password."
+
+>type "password" on computer
+ "Incorrect password."
+
+>type "gos" on computer
+ "Incorrect password."
+
+>type "god" on computer
+ "Incorrect password."
+
+>examine computer
+ "Type password:"
+
+>type "monkfish"
+ (on the keyboard)
+ "Incorrect password."
+
+>look under bed
+ You hunt some more - no success.
+
+>type "dorothy"
+ (on the keyboard)
+ "Incorrect password."
+
+>type "glinda"
+ (on the keyboard)
+ "Incorrect password."
+
+>type password
+>type "ozma"
+ I don't know the word "password".
+
+ (on the keyboard)
+ "Incorrect password."
+
+>type "garland"
+ (on the keyboard)
+ "Incorrect password."
+
+>search desk
+ A glint catches your eye, but it turns out to be the silver button on a
+ particularly hideous shiny-purple shirt.  You toss it aside.
+
+>type "password"
+ (on the keyboard)
+ "Incorrect password."
+
+>search bed
+ You continue your needle-in-a-haystack search in the obvious and
+ fruitless fashion.
+
+>search floor
+ Books, clothes, papers -- a mess, really.
+
+>review
+ (Review mode - time does not pass)
+
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>search papers
+ You continue your needle-in-a-haystack search in the obvious and
+ fruitless fashion.
+
+>search bed
+ You continue your needle-in-a-haystack search in the obvious and
+ fruitless fashion.
+
+>search books
+ You continue your needle-in-a-haystack search in the obvious and
+ fruitless fashion.
+
+>look under bed
+ You continue your needle-in-a-haystack search in the obvious and
+ fruitless fashion.
+
+>examine drawer
+ It's locked.
+
+>break lock
+ You'll have to tell me how to do that.
+
+>inventory
+ You have a lab coat (being worn) and a screwdriver.
+
+ Your left palm has been branded with a button.
+
+>examine drawer
+ It's locked.
+
+>break lock with screwdriver
+ You can't use the screwdriver to break anything.
+
+>look
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>go west
+ Bathroom
+    Standard cubby-hole bathroom really.  A sink, toilet, and a greasy
+ mirror reflecting the steam-stained beige walls in all their smudged
+ glory.  The door - should you tire of such an atmospheric locale - is
+ back east.
+
+>search toilet
+ You find nothing of interest.
+
+>go east
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>go south
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>go east
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>go north
+ You walk along a fairly long stretch of corridor, until it opens out.
+
+ Bottom of Spiral
+    The designers of this place clearly had something to prove to the
+ gods of pressure - this room, unlike the cramped corridors and tight
+ bunkrooms, is a wide cathedral-like dome, held up by one fat pillar in
+ the centre of the floor. A smooth ramp snakes around it on a gentle
+ incline up to the higher levels - no stairs here, the robots not being
+ that adept - and on a normal day the floor around would be crowded with
+ scientists, like worshippers at a standing stone.  However today - for
+ some reason, it seems - is not a normal day.  Where is everyone?
+
+ Corridors leave the space in all directions - Kurner's room is down the
+ passage further south.
+
+>enter bathroom
+ I don't see any bathroom here.
+
+>go north
+ There's nothing of great interest there.  Besides, you don't really
+ want to bump into anyone, you look terrible.
+
+>go south
+ You walk back down the corridor.
+
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>go west
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>go north
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>go west
+ Bathroom
+    Standard cubby-hole bathroom really.  A sink, toilet, and a greasy
+ mirror reflecting the steam-stained beige walls in all their smudged
+ glory.  The door - should you tire of such an atmospheric locale - is
+ back east.
+
+>breathe on mirror
+ You breathe on the mirror and a pool of condensation forms.  Your
+ previous message "xyzzy" is now visible on the mirror.
+
+>winnable
+ This game is in a perpetual winnable state.
+
+>write "plugh" on mirror
+ You write "plugh" instead.
+
+>examine toilet
+ You can learn about those things yourself.
+
+>go east
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>breathe on porthole
+ You breathe on the portholes and a pool of condensation forms.
+
+>examine portholes
+ Through the portholes swim a variety of underwater fish.
+
+>type "qwerty" on computer
+ "Incorrect password."
+
+>go east
+ You can exit Kurner's room by going south.  The bathroom is west.
+
+>press enter
+ I don't understand that sentence.
+
+>type nothing
+ When typing or writing, you need to surround the target word in quotes;
+ ie, type "nothing".
+
+>clap with one hand
+ I don't know the word "clap".
+
+>go east
+ You can exit Kurner's room by going south.  The bathroom is west.
+
+>go south
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>go east
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>go east
+ Outside the General's Office
+    The door to the General's office itself is to the east.  This room
+ isn't really a room, it's more just an expansion of the corridor
+ westwards, with the walls hung with deep curtains and a couple of
+ leather sofas stuck in the middle of the floorspace.  In one corner
+ there used to stand a potted plant, but as budget cuts meant saving on
+ electricity it quickly died in the glow of forty-watt bulbs.
+
+ In place of the plant is a Stat machine.
+
+>examine curtains
+ They're deep blue, like the sea, and hung to cover the otherwise
+ utilitarian walls.
+
+>look behind curtains
+ Behind the curtains is propped what you assume are a few cleaning tools
+ - a floor waxer and a metal rod with a plate on the end.
+
+>get metal detector
+ Taken.
+
+>get waxer
+ It's far to heavy.
+
+>examine machine
+ A panel for your hand, and then once read it'll tell you on a
+ need-to-know basis all you need to know.  By one side is a notice
+ listing all the current clearances: "1 - General Huffing.  2 - Dr.
+ Kurner, Prof. Taylor".  3 is your old group, and contains most of the
+ established members of the team.  Zak still loiters in a class by
+ himself, no. 12, mainly due to his mother being Ukrainian and the
+ General being somewhat old-school.
+
+>touch panel
+ Clearance 2: CONFIRMED
+    *Plasma virus-injection complete
+    *Virus tests on rodent subjects complete
+    *Results show 250% growth - see Dr. Taylor for details.
+ WARNING - CONTAINER LOSS REPORTED
+
+ Container loss!  Well, that would explain why Taylor had that "car keys
+ down the gutter" expression all last week.
+
+ The screen falls dark as you remove your hand.
+
+>go west
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>go west
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>go north
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>use metal detector on clothing
+ I don't recognize that sentence.
+
+>examine detector
+ It's called a "Cosmetic" apparently, in another one of those horribly
+ garbled nicknames that are currently all the range.  (Anyone for a
+ Coocla?  Or a game of Bammon?)  It has a switch on one side, a
+ four-foot handle pole and a rounded plate at the base.
+
+>wave it
+ You could take someone's eye out with that!  (If their eye was about a
+ foot wide).
+
+>turn it on
+ Bleep!
+
+>wave it
+ You could take someone's eye out with that!  (If their eye was about a
+ foot wide).
+
+>point it at clothes
+ Nothing.
+
+>point it at bed
+>point it at books
+ Bleep!
+
+ Hunting more thoroughly leads you to locate a small key under the dust
+ jacket of a hideous looking volume.
+
+ You find nothing else.
+
+>unlock drawer with key
+ Unlocked.
+
+>open drawer
+ Opened.
+
+ In the drawer you see a pill-bottle and a notepad.
+
+>examine notepad
+ The notepad is scribbled on - but you can't make out the handwriting,
+ it just looks like a scrawl.
+
+>examine pill-bottle
+ It's labelled in gibberish: "TAXI MALLO BALUO:"  and so forth.
+
+>get bottle
+ Taken.
+
+>get notepad
+ Taken.
+
+>read notepad
+ The notepad is scribbled on - but you can't make out the handwriting,
+ it just looks like a scrawl.
+
+>open bottle
+ Of course!  An overdose on strange medicines!  That'd take you out
+ faster than it did your aunt!  (Who was rushed to hospital, revived,
+ but then died of food-poisoning from a bunch of grapes).
+
+ You open the bottle, to reveal a large number of pink tablets.
+
+>eat tablets
+ You swallow a fistful, noting they are cherry flavoured.  Then you
+ wait.
+
+ One.
+
+ Two.
+
+ Zmigra.
+
+ Chank.
+
+ Zis qua!  Lil betite monkrane follo!  Ze chafi lighan mucho blanchos, y
+ ca merhaba ftang flivaro-toaster.  Milcha!  San omb-bomba ze anse le
+ tabbycat-rrr.
+
+
+ La ranja se: "ProtoFrench lessons.  Dosage: one tablet last five
+ minutes.  Try to avoid taking more than twenty a day.  Do not take with
+ alcohol or whilst in control of aircraft or heavy equipment.  Do not
+ feed to children.  Do not use as fertiliser, or vitamin supplement.  Do
+ not sue the manufacturer for misunderstandings."
+
+ The shock of comprehension lasts well after the severe nausea and
+ stomach cramp has passed, and you come around, feeling well.  The drug
+ - a ProtoFrench class, presumably imported from Europe itself - has
+ slackened its grip on the language centres of your brain leaving you
+ with just a mild dyslexia when you look around.
+
+>examine notepad
+ "He is there.  He was there.  He will be there.  He has been there.  He
+ might well be there.  He shall be there.  The password is dog.  The
+ password was dog. The password will be dog.  The password has been..."
+
+ And so on.
+
+>look
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>examine computer
+ It's unreadable.
+
+ You feel a slight shadow pass across your eyes as your brain is
+ repaired to Native Tongue once more.
+
+>type "dog" on computer
+ "Incorrect password."
+
+ That takes a moment to register.  But of course, the password may be
+ "DOG" but it isn't D - O - G.
+
+>type "chien" on computer
+ "Incorrect password."
+
+>type "dog"
+ (on the keyboard)
+ "Incorrect password."
+
+>type "god"
+ (on the keyboard)
+ "Incorrect password."
+
+>type "tabbycat-rrr" on computer
+ "Incorrect password."
+
+>go west
+ Bathroom
+    Standard cubby-hole bathroom really.  A sink, toilet, and a greasy
+ mirror reflecting the steam-stained beige walls in all their smudged
+ glory.  The door - should you tire of such an atmospheric locale - is
+ back east.
+
+>write dog
+ When typing or writing, you need to surround the target word in quotes;
+ ie, write "dog".
+
+>write "dog"
+ (on the mirror)
+ You breathe on the mirror and a pool of condensation forms.  Your
+ previous message "plugh" is now visible on the mirror.
+ You write "dog" instead.
+
+>examine mirror
+ Kurner's harassed and ugly mush looks back at you.  You can't help
+ noticing he looks a little pale - but then everyone here does, it's
+ lack of sunlight.  Once again you curse your machine for not having put
+ you sea-side.  You can make out "dog" scribbled in big chunky fat-child
+ finger-writing in the condensation.
+
+ The condensation on the mirror evaporates away.
+
+>eat pill
+ You swallow a pill, and wait a second until the pain in your brain
+ indicates effect.
+
+>write "dog"
+ (on the mirror)
+ You breathe on the mirror and a pool of condensation forms.  The
+ writing now visible on the mirror isn't what you remember writing
+ there, certainly.  In fact, it looks like another language entirely.
+ You close your eyes and write as automatically as you can.  There:
+ "dog"
+
+>examine mirror
+ Kurner's harassed and ugly mush looks back at you.  You can't help
+ noticing he looks a little pale - but then everyone here does, it's
+ lack of sunlight.  Once again you curse your machine for not having put
+ you sea-side.  You can make out "dog" scribbled in big chunky fat-child
+ finger-writing in the condensation.
+
+ The condensation on the mirror evaporates away.
+
+>z.z.z.z
+ Time passes...
+
+ The brain-pain subsides.
+
+ Time passes...
+
+ Time passes...
+
+ Time passes...
+
+>examine mirror
+ Kurner's harassed and ugly mush looks back at you.  You can't help
+ noticing he looks a little pale - but then everyone here does, it's
+ lack of sunlight.  Once again you curse your machine for not having put
+ you sea-side.
+
+>breathe on mirror
+ You breathe on the mirror and a pool of condensation forms.  The word
+ "CHYNE" is now visible on the mirror.
+
+>go east
+ Dr. Kurner's Office
+    - is also his room, and it's a tip.  A bed in one corner looks
+ utterly pristine, under forty or fifty large books.  The desk, facing
+ onto a ubiquitous porthole, has a computer screen and keyboard set into
+ it but is otherwise empty.  The floor is a seaweed-sludge of screwed-up
+ paper and dirty clothing.  A door leads out south, and there's a
+ bathroom annex to the west.
+
+>type "chyne"
+ (on the keyboard)
+ "Password accepted"
+
+ The screen changes.
+
+>examine screen
+ It's changed to white, just plain white.  There should be a selection
+ of program buttons - and a logout - which you'd touch to activate the
+ applications.  (The "mouse" went out of fashion as soon as people were
+ willing to have fine enough electrodes implanted in their index
+ fingers).  But there's nothing visible here.
+
+>touch screen
+ You jab the screen randomly and eventually hit the logout button at the
+ bottom left of the screen, which you spot by the way it blinks blue
+ before returning the screen to
+
+ "Enter password:"
+
+ It must have been white-on-white.
+
+>type chyne
+ When typing or writing, you need to surround the target word in quotes;
+ ie, type "chyne".
+
+>type "chyne"
+ (on the keyboard)
+ "Password accepted"
+
+ The screen changes.
+
+>adjust contrast
+ I don't know the word "adjust".
+
+>touch top left
+ The screen changes.
+
+>examine screen
+ On the screen is a collection of Dr.  Kurner's documents - mostly
+ uninteresting; work reports, one is apparently the first draft of a
+ novel called "Vengeance is my Sister".  There is one open already - and
+ it catches your eye.
+
+ It is the design for a black-box module with a multistrand wire feed
+ that looks not a whole lot unlike the one plugged into your beloved
+ upstairs.  You skim over the opening mechanism and make a note of it,
+ before ploughing into the circuits themselves.
+
+ Quickly the patterns form.  The search processes have been altered - no
+ longer the first-mind-in-set-location pattern you'd programmed, but
+ rather a nearest-to-base scan.  And the criteria - you'd demanded a
+ certain age, fitness, and suntan level for your subject.  Kurner's
+ level is set for ... good grief...
+
+ That explains it then.  That box must have been in place this morning,
+ when you stepped into the machine.  It's set up to find the nearest
+ dead body it can and transfer.  Thinking back - didn't Kurner collapse
+ when the machine fired?  Maybe he had a heart attack or something, then
+ machine transferred you in.
+
+ Only one thing to do then.  Get back to the machine, and reprogram that
+ box to get you back.
+
+>read vengeance
+ I don't know the word "vengeance".
+
+>touch vengeance
+ I don't know the word "vengeance".
+
+>touch sister
+ I don't know the word "sister".
+
+>read novel
+ I don't know the word "novel".
+
+>touch screen
+ Nothing else happens.
+
+>touch bottom left
+ The screen changes to
+
+ "Enter password:"
+
+>type "chyne"
+ (on the keyboard)
+ "Password accepted"
+
+ The screen changes.
+
+>touch top right
+ Nothing happens.
+
+>touch bottom right
+ Nothing happens.
+
+>touch center
+ Nothing happens.
+
+>go south
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>go east
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+ Joe the janitor saunters in from the east corridor.  "Well, there it
+ is!" he exclaims.  "I've been looking for that."  He removes the
+ Cosmetic from your hand with a frown of reproach.  "I know you
+ scientists are the bigwigs here, but I wish you'd ask first."
+
+ "Say, Dr. Kurner, are you ill?"  He smiles.  "I guess you're nervous
+ about the Big Day.  I'll let you get on."  With that - and with the
+ metal detector - he whistles his way off westwards.
+
+ Big Day?
+
+>go north
+ You walk along a fairly long stretch of corridor, until it opens out.
+
+ Bottom of Spiral
+    The designers of this place clearly had something to prove to the
+ gods of pressure - this room, unlike the cramped corridors and tight
+ bunkrooms, is a wide cathedral-like dome, held up by one fat pillar in
+ the centre of the floor. A smooth ramp snakes around it on a gentle
+ incline up to the higher levels - no stairs here, the robots not being
+ that adept - and on a normal day the floor around would be crowded with
+ scientists, like worshippers at a standing stone.  However today - for
+ some reason, it seems - is not a normal day.  Where is everyone?
+
+ Corridors leave the space in all directions - Kurner's room is down the
+ passage further south.
+
+>go south
+ You walk back down the corridor.
+
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>go west
+ Outside Kurner's Room
+    The corridor continues around the curve of the base to the
+ northwest, to the rooms of the various scientists.  This one is of
+ interest though, perhaps - it is the door to Kurner's room - chosen by
+ lottery, it is the nearest to all the machinery and so the loudest to
+ be in.
+
+ The door itself is quite a sight if you like hybridised tech - Kurner
+ being the paranoiac he is has fitted it with a Russian retinal scanner,
+ a thumb-reader and a voice tag detector.
+
+>go west
+ The corridor continues northwest and Kurner's room is directly north.
+ The intersection lies east.
+
+>go east
+ Intersection
+    You're in the main module, and that means you know your way around
+ with your eyes shut.  With your eyes open you can also comment on the
+ decor; and note that it improves substantially to the east where the
+ General has his office, to the west it probably disimproves (Kurner's
+ hole is over there) and north leads toward the centre of the dome which
+ means one thing - toward the room with your machine.
+
+ Back south is a long corridor.
+
+>go north
+ You walk along a fairly long stretch of corridor, until it opens out.
+
+ Bottom of Spiral
+    The designers of this place clearly had something to prove to the
+ gods of pressure - this room, unlike the cramped corridors and tight
+ bunkrooms, is a wide cathedral-like dome, held up by one fat pillar in
+ the centre of the floor. A smooth ramp snakes around it on a gentle
+ incline up to the higher levels - no stairs here, the robots not being
+ that adept - and on a normal day the floor around would be crowded with
+ scientists, like worshippers at a standing stone.  However today - for
+ some reason, it seems - is not a normal day.  Where is everyone?
+
+ Corridors leave the space in all directions - Kurner's room is down the
+ passage further south.
+
+>go up
+ You climb the great spiral of the ramp, round and round until you're
+ sure the ground is screwing in and you're not going anywhere...
+
+ Floor One
+    You know you're in favour when your personal lab is put on the first
+ level of the building.  It's behind that door to the south, the one
+ only you have the key to.  Except, of course, you haven't got it,
+ because you're inside the room. Or you might be.  Anyway, the door
+ seems to still be open, which is handy.
+
+ A loose panel hangs from the doorframe - it seems it's incurred some
+ damage since you were last here.
+
+ The ramp which leads back down to the main room is north.
+
+>go south
+ You enter your lab.
+
+ Machine Room
+    The room is much as you left it; a porthole above a bank of heavy
+ machinery. The glass cylinder stands in one corner, aloof and empty.
+
+ One terminal case is violently unlocked.
+
+>examine box
+ You kneel down by the terminal case and begin to feel for the various
+ catches which control the opening mechanism.  There's one - the next -
+ you feel one side start to pivot round, which is a good sign.
+
+ Suddenly there is a noise from the door.  You stand up sharply, wheel
+ around.
+
+ "Oh, hi there, Dr. Kurner!" exclaims Zak cheerily, from the doorway.
+ He has a screwdriver held between his teeth and is working on something
+ in the doorframe.  "Something went wrong with the door; I'm just
+ refusing it.  Be with you in a second."
+
+>ask zak about big day
+ I don't know the word "big".
+
+>ask zak about today
+ I don't know the word "today".
+
+>tell zak about me
+ "Hold on a sec Doc -- almost done here," says Zak.
+
+>ask zak about experiment
+ I don't know the word "experiment".
+
+>open box
+
+ You freeze as Zak shouts "Morning, Professor!"  And sure enough,
+ through the door enters yourself, looking spritely, excited, well.  You
+ stagger back in shock against the machine, in front of the damaged
+ terminal case.  There is a moment of eye-contact, but the Professor -
+ you - don't seem to react.
+
+ The others on the project enter the room and start to fiddle with the
+ machinery.  As the Professor pauses to gaze in proud awe at his
+ construction, Zak winks your way and whispers "Good thing I got that
+ door fixed, eh?"
+
+ "All set, Professor?"  Zak takes his arm - your arm is supporting your
+ weight against the terminal due to the weakness entering your body as
+ suddenly it all comes become clear.  "Nearest-search".  Any physicist
+ knows "near" isn't just a three-dimensional concept.
+
+ "FIVE".  "FOUR".
+
+ "Hey - do you suppose it should be sparking like that?"  Zak pipes up.
+
+ It is sparking, too, but you're not thinking about that, you're
+ desperately trying to work out what happens next.
+
+ "And then there's quite a bit of smoke too, isn't there?"
+
+ Dr. Kurner's box wasn't well programmed enough to cope with this - with
+ an empty mind-sack next to a host containing its mind.  Not only that
+ but the machine is still performing it's primary search too, just
+ secondary to Kurner's implanted approach.
+
+ "Maybe we should open it up and take a look?"
+
+ And to cap it all - you've just seen a cable at the top of the machine
+ which is plugged into completely the wrong socket.
+
+ A school of fish swims past the window.
+
+ "Anyone got a screwdriver?"  A few pat their pockets, and shrug.
+
+ "ZERO."
+
+
+
+
+
+
+
+
+ Your eyes flip open, to a flash of your face in glass.  Then the air
+ sears once more.  Bug in my program, you think.  What happens now?
+
+
+
+
+
+
+
+
+ Blue
+    No other way to put it.  Our myriad eyes see it a hundred different
+ ways; a million little angles on the same rocks below, the same lights
+ distant and near.  It all spins sickly, too much information, too much
+ speed, every bit of changing direction constantly.  We are swimming,
+ around in and about each other.
+
+ A snuttlenose swims by.
+
+ The school flicks about and swims northeast.
+
+ Blue
+    From way above trickles light.  To the south is the dome.
+
+>diagnose
+ We don't understand.
+
+>examine me
+ We are multiple, all seeing.  We see ourself and the world at once, it
+ is all placed out.  We are fish.
+
+>frolic
+ We don't understand.
+
+ The school flicks about and swims southward.
+
+ Blue
+    To the south is the bulging dome.  All around us is the blue.
+
+>go south
+ In a pulse we move south.
+
+ Blue
+ To the south is the bulging dome.  All around us is the blue.
+
+ Jagged rocks blade from the sand here.
+
+>examine rocks
+ They are rugged and ripped, protruding like spines through the sand.
+
+ An allamander passes us in eerie silence.
+
+ The school flicks about and swims westward.
+
+ Blue
+    To the south is the bulging dome.  All around us is the blue.
+
+>go south
+ The dome blocks us swimming.
+
+ A squid passes us in eerie silence.
+
+>examine dome
+ The dome is a huge bulge of copper on the seabed.  We do not understand
+ it, it is just rock, shape of land, movement of speed of water.  A
+ metal corridor snakes out of it eastward toward a smaller dome, with a
+ glass chimney at its top.  It is the mortuary block and near it
+ blackness moves.
+
+ Floating through the blue comes a finn.
+
+>examine finn
+ The finn swims out of reach -- and not to our disappointment.
+
+>examine hand
+ We don't see any hand here.
+
+>go east
+ The school trails eastward.
+
+ Blue
+ To the south is the bulging dome.  All around us is the blue.  We are
+ near a window in a large metal dome just to the south.
+
+ Floating through the blue comes an angel.
+
+>examine angel
+ The angel swims out of reach -- and not to our disappointment.
+
+ The school flicks about and swims northwest.
+
+ Blue
+    To the south is the bulging dome.  All around us is the blue.
+
+>go south
+ We fin south.
+
+ Blue
+ To the south is the bulging dome.  All around us is the blue.  We are
+ near a window in a large metal dome just to the south.
+
+ A cuttlesprout swims by.
+
+ With a snap one of our school is gone.  Suddenly we can't remember our
+ father's face.
+
+>examine window
+ We see our reflection.
+
+ A calarta swims by.
+
+ The school flicks about and swims in many directions before joining us
+ again.
+
+ Blue
+    The dome is south.  We are in blue.
+
+>write "help"
+ We don't understand.
+
+>go east
+ We fin east.
+
+ Blue
+ To the south is the bulging dome.  All around us is the blue.
+
+ This is ridiculous.  We can't spend our life as a shoal of fish.  We
+ need to get back, and fast.
+
+>examine dome
+ The dome is a huge bulge of copper on the seabed.  We do not understand
+ it, it is just rock, shape of land, movement of speed of water.  A
+ metal corridor snakes out of it eastward toward a smaller dome, with a
+ glass chimney at its top.  It is the mortuary block and near it
+ blackness moves.
+
+ The school flicks about and swims westward.
+
+ Blue
+    From way above trickles light.  To the south is the dome.
+
+>examine blackness
+ We don't know the word "blackness".
+
+>go east
+ The school trails eastward.
+
+ Blue
+ The dome is south.  We are in blue.
+
+>go east
+ We swim east.
+
+ Blue
+ The dome is south.  We are in blue.
+
+>go up
+ We are up and down as well.  We are a school, and wide, and shape
+ changing always.
+
+ The school flicks about and swims northward.
+
+ Blue
+    The dome is south.  We are in blue.
+
+>examine chimney
+ The Mortuary dome is broken, some walls have collapsed under a great
+ dark weight we cannot see clearly, with moving eyes and confusion.
+
+ An angel passes us in eerie silence.
+
+>enter chimney
+ We are fish, there is no door for us.
+
+>examine weight
+ It is blackness over the mortuary.
+
+ A shrake swims by.
+
+ The school is fished, we are piece-eaten.  Strangely our name has gone
+ missing.
+
+ There are a good few hundred in this school.  It will take forever to
+ be eaten by other fish.
+
+ The school flicks about and swims northwest.
+
+ Blue
+    To the south is the bulging dome.  All around us is the blue.
+
+>eat ourselves
+ We don't know the word "ourselves".
+
+>eat me
+ We are too many.
+
+>eat weight
+ We try but we just don't know how.
+
+ An octopus swims by.
+
+>examine porthole
+ We don't see any porthole here.
+
+>examine eyes
+ We don't know the word "eyes".
+
+>go south
+ We swim south.
+
+ Blue
+ From way above trickles light.  To the south is the dome.  We are above
+ a long corridor of metal leading toward the mortuary.
+
+ A calarta swims by.
+
+>go east
+ We fin over the dome of mortuary, where the metal turns black with a
+ heaving darkness.
+
+ Our motion sets a rustle in the water like the waving of seaweed and
+ some of the shoal tries to leave in a panic.  The darkness below is
+ moving.  It's coming nearer.  It's rushing from the seabed in a motion
+ like the unfolding of the earth.  It is a giant, wrapping hand, that
+ our kaleidoscope eyes see from all sides and form into a huge rounded
+ trunk in our mind.  The whole object encompasses us until a mouth is
+ doing the same.  The rest try to swim away, finning back madly over the
+ corridor toward the dome.  The shadow follows, boiling out of the sand,
+ revealing its shadow full.  Sweeps over the corridor, more of us are
+ lost.  We try to out-shake it.  We fail.  Flitter, flurry, fade, in
+ blackness.
+
+
+
+
+
+
+
+
+ Eyes open.  You feel somewhat dizzy.  You can't remember how to tie a
+ tie, you note, which at least means one got away.
+
+ Inside the Cylinder
+    The glass door has slid open.  Outside, the room is empty bar for
+ smoking machinery and Dr. Kurner's body, slumped out on the floor.
+
+ Somewhere, an alarm is blaring.
+
+>examine me
+ You are yourself, once more.
+
+>SAVE
+>cf5
+ Saved.
+
+>go north
+ You can't go that way.
+
+>go south
+ You can't go that way.
+
+>go west
+ You can't go that way.
+
+>go east
+ You can't go that way.
+
+>look
+ Inside the glass cylinder
+    Cables feed away from the base of the cylinder.  Inside, there's the
+ grille for your feet, and the Emergency Door Release Switch.
+
+>out
+ You step out of the cylinder.  From here you can see the screen in the
+ corner of the room, which shows a giant multi-tentacled creature
+ growing from over the mortuary dome, coming closer.
+
+ Machine Room
+    Your machine is in one corner, forgotten.  Dr. Kurner slumps on the
+ floor, quite dead, almost forgotten too.
+
+ The alarm is blaring.  A voice over the intercom shrieks "What are we
+ going to do?  General?  WHAT ARE WE GOING TO DO?"
+
+>examine screen
+ The squid is coming closer, ever closer.  In a matter of minutes it
+ will crush the lab.
+
+>push button
+ You jab the button on Dr. Kurner's palm and for two seconds everything
+ shakes.  A stream of bubbles, like a jet passing, rips outside the
+ window.  The water there turns deep red, then slowly back to blue, and
+ the room falls still.
+
+ Moments later Zak dives in.  "Professor!  You're awake!  You'd never
+ believe what happened!"
+
+ "Attacked by a giant squid?"
+
+ "Yeah!  Um."  He frowns a bit.  "I guess you saw it on the screen.
+ Hey!  Is Dr. Kurner alright?  What happened to him?"
+
+ "He laid down his life," is your reply.  "To save the lab."
+
+ Zak hears this, and his frown deepens.  "I guess you'd know," he
+ replies uncertainly.
+
+ *** All's well that ends well ***
+
+ *** Except for Kurner, that is ***
+
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.  Amusing is now also available to you.
+>amusing
+
+ Amusing Things to Try
+
+ o  In the cylinder, after creating condensation on the glass, have you
+ tried to write
+        "SOS" (after the smoke) and "REDRUM"
+
+ o  When in Jenny's drawer, sitting on jenny
+
+ o  Reading your palm, before and after it's been branded
+
+ o  Waving your hand at different times (near the squid, in the
+ cylinder, etc...)
+
+ o  Faking the parser out when trying to touch the live wires by the
+ Airlock
+
+ o  Jumping in the hole before Rosalind does
+
+ o  Smelling or Listening in the computer room, with Jeremy or the squid
+ present
+
+ o  Entering the coffin in the Computer Room
+
+ o  Examining Julia on the trolley
+
+ o  Attacking the squid with the peg-leg
+
+ o  Searching and looking under the sofa
+
+ o  Running into the Janitor before finding the lab coat
+
+ o  Examing the seaweed sludge in Kurner's office
+
+ o  Taking/Washing/Searching Kurner's clothes
+
+ o  Finding "Till Death..." source code (easter egg)
+
+>undo
+ (Undoing one command)
+
+ Machine Room
+    Your machine is in one corner, forgotten.  Dr. Kurner slumps on the
+ floor, quite dead, almost forgotten too.
+
+>notes
+ I don't know the word "notes".
+
+>help
+ Welcome to TILL DEATH MAKES A MONK-FISH OUT OF ME.  Below is a brief
+ list of some of the special commands that this game recognizes.  If
+ you're new to interactive fiction, please type INSTRUCTIONS for a
+ detailed introduction to text adventures.
+
+ The game was coded and primarily tested by the authors using HTML TADS
+ -- though testing was performed on other platforms.
+
+    SAVE        - Save the current game position
+    RESTORE     - Restore a saved game position
+    UNDO        - Take back the previous turn
+    QUIT        - End the game
+
+    CREDITS     - Show the game's credits
+    COPYRIGHT   - Copyright information
+    ABOUT       - Show some background information about the game
+    VERSION     - Show the current version of the game
+    RELEASE     - Show release history of game
+    HINT        - Hint system
+    REVIEW      - Perform a "LOOK" without affecting time or turn count
+    WINNABLE    - Is the game still in a winnable state?
+
+    SCRIPT      - Start recording a transcript of your moves to a file
+    UNSCRIPT    - Stop recording the current transcript
+
+    AMUSING     - A list of amusing things to try
+    SPAG        - Reprint of the SPAG interview
+    AUTHOR      - Collaboration emails between Jon and I
+
+>author
+ Don't you mean "NOTES"?  I thought so...
+ From Here to There -- a Brief Time-Line
+
+    The collaboration between Jon and I started on November 21, 2001
+ when Jon responded to my personal ad on RAIF.  For the next two weeks,
+ we bounced ideas back and forth and on December 11, 2001, Jon sent over
+ the first script (opening scene).  By this time, we already had signed
+ up for Adam Cadre's Spring Thing, with the full intention of finishing
+ up this game for that comp.  We never made it.
+
+    I started coding on 12/11/01 and we worked through the holidays.  By
+ mid January we had 3 written scripts -- and two weeks later, the first
+ version of the game was sent to Jon for review/testing.  It ended with
+ the PC leaving the mortuary.  Apart from a small post-holiday lag, we
+ were firing on all cylinders.
+
+    Both Jon and I then, inexplicably, stopped.  We stopped emailing,
+ writing and coding.  Weird.  On April 16, 2002, I sent Jon a note that
+ said we should scrap the Spring Thing and possibly re-focus for the
+ fall comp.  Jon agreed.  We decided to touch base in a month or so.
+ For those of you keeping score, there were things going on, in both our
+ worlds, that caused delays -- so we did understand how we ended up
+ missing the May deadline.  Anyway...
+
+    Did I say a month?  I meant three.  In early July, Jon and I hooked
+ up again and came up with a game plan to finish this.  It had been a
+ long time since the original story was discussed/created and we needed
+ to re-acquaint ourselves with the premise.  I had finished
+ coding/testing the game which at that point, ended with the "chase"
+ scene near the computer room.  The end script was all that was left --
+ well, what I thought was the end script.  Unbeknownst to me, there was
+ a lot of game left to be written/coded.
+
+    By mid July, I lined up some beta testers so that we could get a
+ head start on the testing.  John Bichard and Dave Gatewood helped quite
+ a bit at this point.  While waiting for Jon's final script, I was busy
+ fixing bugs, typos and errant daemons.  They also questioned some of
+ the story which allowed Jon to make some changes with the final script.
+ They were invaluable.
+
+    By early August, Jon had sent over the script containing Kurner's
+ Office followed by the end script.  Yikes.  I had a lot of coding to
+ do.  On 9/1, I finished coding the end script supplied by Jon.  For the
+ next 3 1/2 weeks, we tested, tested and tested.  The hint system was
+ added as an afterthought and didn't get much testing, or in the very
+ least, read by the grammar police.  :)
+
+    So there you have it -- an abridged version of how a comp game came
+ to be.  Definitely took a bit longer in duration, but thinking back,
+ the effort seemed about right.
+
+ (Note that the following emails have been slightly edited so that they
+ contain only references to the collaboration -- I doubt anyone is
+ interested in Jon's and I personal thoughts on sex, drugs and rock &
+ roll.)
+
+ Initial contact
+
+ Jon Responds to my personal ad on RAIF
+
+ -------- Original Message --------
+ Subject:  Collaboration
+ Date:  Wed, 21 Nov 2001 12:33:28 +0000
+ From:  "J.  Ingold"
+ To:  mjsousa@mediaone.net
+
+ Hi Mike -
+
+ I'm a stupidly busy person at present, but one with a hankering to
+ Write Stuff, and I read that your collaboration with Robb was a
+ writer/programmer split...  which I find kinda tempting, so if you'll
+ have me I'd be interested.
+
+ If you say a "storyboard", how much work is there left for writing?
+ Just get the text to fill the gap, or is there design still to do?
+
+ Cheers,
+ Jon
+
+ Mike responds to Jon for first time
+
+ -------- Original Message --------
+ Subject:  Re:  Collaboration
+ Date:  Wed, 21 Nov 2001 23:02:12 -0500
+ From:  Mike Sousa
+ To:  "J.  Ingold"
+
+ Jon,
+
+ Where to begin...heh...
+
+ With that said, how's Make It Good and your other puzzle game going?  I
+ wouldn't want conflicts skewing your schedule with those games --
+ that's if you had a timetable in mind.  I was looking for a spring
+ release and just like that, Adam announces his Spring Thing.
+
+ During the first collaboration note (which ended up being the NTTS
+ project), I had come up with several rules of engagement that was
+ needed for the project (in terms of my part) to be successful.
+
+ I had to code it.  Writing is not my thing so what else would I do if I
+ didn't code it?  The other author did most/all of the writing -- see
+ point one.  It had to be in TADS.  I don't know Inform, nor do I care
+ to learn another language -- I'm sorta saving that for TADS 3.  It had
+ to be NTTS because it was inspired by my daughter.
+
+ Other than that, the collaboration just grew and came to be pretty
+ successful.
+
+ With this collaboration, point 1, 2 and 3 will still be true.  I
+ obviously have a different game in mind and would like to implement it,
+ but I'm not closing any doors with other ideas.  And my idea of a
+ storyboard is probably a lot different from that of a good writer.  I
+ have a plot/theme (a hook, if you will) along with several puzzles.  I
+ have an ending, but I don't care for it and it will probably change.
+ It's a puzzle game.  The storyboard probably fits on one sheet of a
+ legal pad.  Heh...  Are you still interested?
+
+ Cheers,
+ -- Mike
+
+ (by the by, I can't believe you wrote AR in the time it takes my three
+ year old daughter to eat a piece of toast...  That timeline couldn't
+ possibly happen for this one, Jon.  I have a full time job, a wife and
+ twin daughters...  ..  :)
+
+ We're still trying to decide if we can work together
+
+ -------- Original Message --------
+ Subject:  Re:  Collaboration
+ Date:  Thu, 22 Nov 2001 10:21:50 +0000
+ From:  "J.  Ingold"
+ To:  Mike Sousa
+
+ Hi Mike -
+
+ it,
+ I
+
+ Hmm...  I don't have a vast amount of time, and I do have several
+ projects; but that said, I am interested.  I guess the next question is
+ - how long do you expect the game to be?  If we're talking Comp length
+ then yeah, okay, let's do it, I can commit myself to that.  If we're
+ talking longer, it might be a good idea if I pull out.  But -- but I've
+ had a terrible desire to write a puzzle game ever since Mulldoon ended,
+ and although I'm sort of working on one at the moment it's still
+ gestating.  So having some worked out I've no objection to.
+
+ -------- Original Message --------
+ Subject:  Re:  Collaboration
+ Date:  Thu, 22 Nov 2001 09:42:48 -0500
+ From:  Mike Sousa
+ To:  "J.  Ingold"
+
+ projects;
+ long do
+ okay,
+ it might
+ to
+ of
+ worked
+
+ Yes, I'm thinking/planning Comp length game that would be entered into
+ this year's Spring Thing, so that's the timeline.  I just didn't want
+ to give you the impression that I could manage an aggressive schedule
+ (like AR) and I didn't want multiple projects impacting everything.
+ So, I guess we're ready for the next step?
+
+ I have to do a couple of things.  One, is get through this Thanksgiving
+ holiday (it's today, and for a lot of my family, tomorrow as well).
+ Then I need to put the storyboard in an email and shoot it off to you
+ (it's currently scribbled across several pieces of paper in my work
+ folder).  Once you get the plot/theme and what I'm trying to
+ accomplish, we can then see if it's a match.  (Maybe you'll hate the
+ idea...heh...)
+
+ Sound like a plan?
+
+ -- Mike
+
+ We're almost on the same page...
+
+ -------- Original Message --------
+ Subject:  Re:  Collaboration
+ Date:  Thu, 23 Nov 2001 10:21:50 +0000
+ From:  "J.  Ingold"
+ To:  Mike Sousa
+
+ Hi Mike -
+
+ Right, yes.  That's the only other sticking point as I see it - if it's
+ something I *can* write, and something I *want* to write.  Otherwise,
+ this sounds like fun!
+
+ Things I should perhaps note - no aggressive schedule is likely.  AR
+ was an accident like that; not one I intend to repeat if I can help it.
+ The chances are you'll receive text from me in binges - great piles and
+ lulls - because that's how I do things, hopefully there'll always be
+ enough for you to keep to your schedule.  I usually do half of the
+ writing by playing back the game-so-far and seeing what's missing (that
+ is, I play like a player, to try and see what players are likely to do)
+ so I'd appreciate mid-versions as they appear.  I don't know TADS at
+ all, so I may miss a few verbs completely.  ;)
+
+ But I look forward to seeing your idea and if we can make a go of this!
+
+ Cheers, and have a good Thanksgiving,
+ Jon
+
+ First discussion of "Till Death..."
+
+ Mike pitches the idea to Jon...
+
+ -------- Original Message --------
+ Subject:  Re:  Collaboration
+ Date:  Fri, 23 Nov 2001 08:46:18 -0500
+ From:  Mike Sousa
+ To:  ji207@cam.
+
+ Okay, here I go.  Before I get into the story, let me shed some light
+ as to how I came up with the idea.  Also, I *hope* it's sorta unique --
+ I've only been around for less than two years and haven't played all
+ the recent games.  I've also written three and that has taken up a lot
+ of 'play time' so to speak, so I typically give a game a short spin but
+ rarely do I finish it.  Case in point, I *still* haven't finished
+ Anchorhead, even though I've been playing it for over a year.  But
+ anyway...
+
+ I think I was playing the opening of Hunt the Wumpus and kept dying.  I
+ then thought about all the games I wrote and how dying was to be
+ avoided at all risk -- it was, in fact, a failure that needed to be
+ undone/restored.  (heh, NTTS -- scene 1, aside).  I then thought that
+ certain games won't allow you to die (you do a good job of this, by the
+ way, at least from what I've seen) and come up with clever messages to
+ keep the player from reaching the dreaded "You have died" screen.
+
+ That's when I thought of a game that its primary goal was to try and
+ kill yourself (and fail, multiple times).  Now, I don't want a suicide
+ type of game -- that is not me, I'm an optimist by nature.  But I
+ struggled to find the hook.  Why would the player want the PC to kill
+ himself?  It needs to be worthwhile, because why would a player want to
+ continue to try to harm the PC?  By the by, the 'puzzle' aspect comes
+ in with different ways the PC tries to kill himself and because of
+ Murphy's Law, he fails.  A simple example is taking sleeping pills but
+ because of food poisoning (from the lunch he had several hours ago), he
+ ends up throwing everything up and the suicide attempt fails.  The
+ writing needs to be upbeat and have humor sprinkled in (including the
+ puzzles) to keep it going.
+
+ The hook is this:  (or some variation -- this was just the first
+ attempt)
+
+ The player character was part of a science project to clone
+ consciousness.  He was supposed to go back into his own body, but the
+ project was sabotaged and he was sent to the body of a corpse instead
+ (with The Bad Guy presuming that would kill him).  You awake from the
+ morgue / whatever and need to kill yourself in order to shunt yourself
+ back to where you belong.  So starts the journey of returning to your
+ body -- your wife and kids miss you, ya know!
+
+ Here's how the story lays out:
+
+ Opening text (needs to be well done in order for the player to 'want'
+ to kill the PC so that he can return to whatever and know that the PC
+ is really the consciousness and not the 'body' of the PC.)
+
+ First puzzle is the only puzzle to the player.  Should be easy, well
+ clued and set the tone for the rest of the game.
+
+ Middle game consists of x number of puzzles (death attempts, if you
+ will) that will lead to solving the final puzzle in the end.  This can
+ be inventory items that appear from failed attempts or just wisdom
+ gained from the failed attempts.  All puzzles can/should be accessed by
+ the PC at the same time -- avoiding the linear 'thing'.
+
+ End game is the final puzzle that gets you 'back'.  I want it to be
+ elaborate, multi-staged and fit into the overall theme of the game.
+
+ Well, there you have it.  Again, it's not a 'Jump' type of game.
+ Suicide is not the message and that's an important distinction.  I just
+ wanted to play with the standard 'avoid death at all costs, because
+ that means you failed!'.  In this game, 'avoid staying alive at all
+ costs, that means you failed!'.
+
+ I haven't written anything yet nor do I have 1 line of code written.
+ What I do have is this email and 3 or 4 death attempts with solutions
+ as to how they fail along with a list of other ways that the PC could
+ try and kill himself -- it just needs a solution to the 'puzzle'.
+
+ Now, before you respond, please note that I have extremely thick skin.
+ I take criticism the way it should be taken -- use it to one's
+ advantage.  If you don't like the idea, the theme, or the direction, a
+ simple "Not what I had in mind" can do.  Obviously, I'm interested in
+ what you think and whether you see the need for any subtle/drastic
+ changes to the plot or if you have something totally different in mind.
+ I guess what I'm saying is that just speak what you feel and it'll be
+ put to good use.
+
+ Have a good weekend, Jon.
+
+ -- Mike
+
+ (couple of side notes on your email)
+
+ As with Robb, I'll send you the complete source code directory when the
+ game is released.  It'll be copyright Jon Ingold and Mike Sousa.  I'll
+ probably come up with a rough project plan so we can both see the
+ milestone dates and have targets to shoot for.  I like/agree with your
+ playing/writing approach and that's how it worked for NTTS.
+
+ Email exchange -- collaboration in motion...
+
+ -------- Original Message --------
+ Subject:  Re:  Collaboration
+ Date:  Fri, 23 Nov 2001 11:35:16 -0500
+ From:  Mike Sousa
+ To:  "J.  Ingold"
+
+ J.  Ingold wrote:
+
+
+ or
+ death
+ incidentally,
+ I like
+ resulting
+ will
+ there's
+ down
+ you
+ when
+
+ Excellent!  We're on the same page...
+
+ what
+ so:
+
+ Yes, exactly.
+
+ exactly
+ and
+
+ Yes.  The opening text is critical here and we can then either sprinkle
+ more info during the game by flashbacks (I know, done to death at
+ times, but in this case, has some merit) or supply some type of 'doc'
+ that allows the PC to learn more about it...  Just throwing ideas
+ out...
+
+
+ with
+
+
+ First hint at working title
+
+ -------- Original Message --------
+ Subject:  Re:  Collaboration
+ Date:  Fri, 23 Nov 2001 11:39:24 -0500
+ From:  Mike Sousa
+ To:  "J.  Ingold" Further thoughts running around my head from your
+ idea...
+
+ you
+ body,
+ leave
+ for
+ "Till
+ I'm going to like this collaboration.  :)
+
+ -- Mike
+
+ Tweaking the main premise...
+
+ -------- Original Message --------
+ Subject:  Re:  Collaboration
+ Date:  Sun, 25 Nov 2001 22:02:11 -0500
+ From:  Mike Sousa
+ To:  "J.  Ingold"
+
+ Hi Jon.
+
+ I gave more though to the zombie like example you had below and I don't
+ know if the 'kill' yourself theme can survive the whole game.  My
+ original thought was that the PC's consciousness (known as spirit going
+ forward -- much easier to type) was transferred to somebody who was
+ freshly dead, so to speak.  So I had visions of laying on a metal
+ table, naked (save for a sheet), prep'd for an autopsy, with a tag on
+ your toe that read "Jon Doe", uh, I mean, "John Doe", time of death, nn
+ hours.  By taking this body over you could then be bound by 'normal'
+ rules of physics when it came to attempting death.  I still like/want
+ the morbid humor that can be brought, though.  So the first puzzle, as
+ you mentioned, was escape from the coroner's 'office', but the
+ puzzle(s) would be concentrating on finding out who you are/were
+ (maybe), getting some clothes, and exiting the building without being
+ noticed.  During this 'stage', a daemon/timer/trigger/whatever would
+ unfold more of the story and set your goal. End this life so that your
+ consci, uh, spirit can be channeled back to your body.
+
+ Now, the framing of being murdered is good (best friend/arch rival) and
+ if done by the spirit transfer science project, it lends itself to a
+ happy ending because you can go back to your original body --- and it
+ allows us to contemplate alternate endings in which you go back to the
+ body of your arch rival or something...
+
+ Anyway, once you leave the building, you start your journey of trying
+ to kill yourself (sorta like the 9 lives things) except each death
+ attempt fails because of some silly/stupid reason of murphy's law.
+ That's how we (um, you) can keep the writing light and not let the
+ 'suicide' theme ever enter anybody's mind.
+
+ In this scenario, the big part missing is how do you go back to your
+ body.  Do you finally succeed in a suicide attempt?  Do you consult a
+ psychic?  Do you find a way to send a message to your lab partner or do
+ you end up visiting your 'lab' and figure it out yourself?  (yeah, just
+ throwing shit at the wall to see what sticks)
+
+ But, if you think the only way this can be pulled off is the unreal
+ nature (losing limbs, macabre plot that bring teh funny, etc...)  then
+ we'll need to come up with a different middle game because if the
+ player knows the PC is already 'dead', they probably wouldn't want to
+ continue killing it...  maybe?
+
+ Anyway, we should decide on the angle and the resulting end story for
+ it.  Then we can figure out what's the best way to work together and
+ start working on the opening text/scene with the flow of the first
+ puzzle(s).
+
+ Sound like a plan?
+
+ -- Mike
+
+ Jon comes up with time travel twist...
+
+ To:
+ Fr:  Jon
+ Subject:  Game plans
+
+ Hi Mike -
+
+ Bouncing ideas back and forth is good - generates good games, generates
+ *enthusiasm*.  So here are a few more.
+
+ I like the metal table vision - actually, I like the tag-on-the-toe
+ vision, that's funny; especially if we don't tell the player they've
+ woken up as a corpse.  At some point maybe we could have a puzzle where
+ teh PC needs to sign in somewhere/rent a car/that sort of thing, but he
+ can't speak (because dead people don't breathe) so he hands over the
+ tag with his name on.  Or rather, he sticks his foot on the counter
+ because he can't untie the string.
+
+ One thought I had which would be nice design wise, was a gradual shift
+ in what how the player sees the game; so, to start with, he sees a
+ guillotine and sticks his head inside, hoping to lop his block off
+ (which fails, but somehow opens up a door somewhere else).  However,
+ our player will soon realise each time is going to fail which leads to
+ the nice situation of the player having to convince the PC that what
+ he's being asked to do is actually a suicide attempt, when in truth the
+ player doesn't expect it to work.  (so, the hook-and-noose example from
+ earlier).  I think that would be nicely comic.
+
+ I quite like the idea of coming back as the arch-rival; in fact, I was
+ thinking - if we have the PC wake up as a freshly dead body, and
+ scatter through the game (and maybe a short intro sequence in which the
+ experiment happens, I'm a fan of run-in's in games) clues (conflicting
+ + red herrings) as to who the body is.  Eventually it is revealed that
+ you've woken up as who died, say, two days ago; and you have in fact
+ gone back in time slightly.  You reverse your experiment, land up in te
+ body of your arch rival, just in time to heft a hatchet and swing it
+ into the machinery before the experiment starts...  (actually, I liked
+ having a straight ghost/murder idea, just because I like the idea of
+ the game ending with the PC 'coming to' dizzyily, looking around,
+ seeing his former self enter the room, spotting the fire-axe on the
+ wall...  game stops.  It's a cheeky ending, but quite fun.)  This would
+ also open standard time-travel riffs:- our PC must fix the final step
+ of the machinery which no-one knew needed doing, because when they
+ arrived teh next morning it'd just been done by the PC, that sort of
+ thing.  Which is to say - I'd like the time travel idea just so the
+ game can end neatly, happily, but not-so-happily.  Bad guy (arch-rival)
+ gets his comeuppance; only he's not really such a bad guy, as he didn't
+ really do anything (we could sprinkle the game with the PC remembering
+ what the arch-rival did actually do, and they could be a series of
+ pathetic attacks, which have left the PC rather surprised by being
+ murdered).
+
+ Jon
+
+ Trying to gather my arms around it...
+
+ To:  "J.  Ingold"
+ cc:
+ Subject:  Re:  Game plans
+
+ Let me see if I can try to recap/extrapolate what the story looks like
+ now, it's probably wrong, but it's a starting point...  :)
+
+ Short intro scene where the spirit experiment fails.  You see 'stuff',
+ hints of what to do.  Your spirit is sent backwards in time to a dead
+ body.  We need to validate this with some date doc in the game -- some
+ world event in the newspaper or something.
+
+ Opening scene is now limited, you wake up on the metal table with a toe
+ tag.  The Player will most likely think "heh, they *thought* I was
+ dead, but I'm apparently not, but who am I?"  PC solves some easy
+ puzzle(s) to get into the game (editorial to start -- I'm a huge fan of
+ rewarding the player right away in the opening scene so that they feel
+ as if they've accomplished something and gives them an edge to continue
+ playing -- nothing turns me off more than wandering around in nn rooms,
+ accomplishing nothing for 30 minutes -- maybe it's just my short
+ attention span.  editorial ends)
+
+ Once the first puzzle(s) are done, the game opens up and the Player
+ should know that he needs to (get back?  kill himself?  unknown -- go
+ figure stuff out?)
+
+ The middle game will consist of attempts to end one's life that fails
+ or did we switch gears to something else?  (I'm trying to stay with you
+ but I'm getting the feeling I drive at 80KPH and you're approaching
+ 100KPH!)
+
+ The end solution is to get back to the experiment and sabotage the
+ machine that sent you back.  But if this is the goal, why would the
+ Player (or PC) want to continually try and kill the PC?
+
+ I like your last paragraph in your last email, about the PC figuring
+ out what to do, sorta gives the Player the "aha" moment which is one of
+ the coolest things us authors can make the Player do.
+
+ See if you can lay down the plot in terms of intro text/sequence,
+ 'opening scene', middle game and how it all ties up at the end.  I've
+ tried to do it here but there's some confusion on my part.  Before I
+ can start contributing to a story, I need to have a firm grasp of the
+ story -- call it a character flaw...  :)
+
+ Great stuff, Jon...
+
+ -- Mike
+
+ The Plot Takes Shape
+
+ An email from Jon which is the genesis of script 1
+
+ Sent by:  jon
+ To:  sousa
+ Subject:  Re:  Game plans
+
+ Hi Mike -
+
+ Right, I was thinking this through, here's where I'm at.  I have an
+ idea for something building in my head, here's the backstory but below
+ I explain how it's drip-fed to the player.  You may need to print this
+ out and read it carefully, I think it's quite dense, and it's pretty
+ long.
+
+ The body the PC transfers into is that of his arch-rival.  There is
+ time-travel as before, but the arch-rival has died, unbeknownst to the
+ player, before the start of the game.  The events run:
+
+ The experiment proceeds.  Just as the player enters we see the
+ Arch-rival putting down a fire-axe.  The experiment goes wrong.  The
+ player is zapped [to the evening of the previous day] into the body of
+ the arch-rival-saboteur.  He breaks into the machine's room, in time to
+ sabotage the machine just as the ORIGINAL PLAYER enters.  As the
+ machine kicks in, the man in the machine slumps, you slump, and you
+ wake up back in your own body.  The technicians look around in a panic
+ as [it seems to them that] the Arch-rival has just dropped dead
+ spontaneously (because they weren't aware of the fact he was a dead guy
+ wandering around).  In fact, it seems to them that the machine
+ malfunctioned and killed him.  So - the player succeeds in killing the
+ BODY as we originally claimed he should.  We have a happy ending.  We
+ have someone, a little confused by the fact one body has died twice.
+ We end the game.
+
+ Follows a more detailed series of events/puzzles.
+
+ ---
+
+ Game begins with the doors sliding shut on the player's
+ machine-experiment thing.  As it hisses closed an irreversible
+ countdown is begun ("5...  4...")  There is a note taped to the inside
+ of the (transparent) door.  The note, when the player examines it
+ reads:  "I'll get you now" or somesuch.  [If we run with the plot
+ detailed above, there are two choices at this point - one, we craft a
+ note which can be read two ways, one is "I'll get you sonny" but it can
+ also be read in its intended way; and it wasn't in fact written by any
+ enemy at all.  This may be impossible, but then, it would be very neat
+ if such a phrasing exists.  Two - the note was pinned before, by the
+ rival himself, before he was killed.  This is a little unlikely, as why
+ would he do that _before_ sabotaging the machine?  Maybe he did
+ sabotage it, before he is killed, just not very well.  This is fine,
+ and can be easily told to the player near the end.]  The player tries
+ to escape, but cannot, tries to talk to his lab-technicians, but they
+ can't hear.  If he bangs on the glass they wave excitedly.
+
+ On count of four a lab boy says "Hey, look at this."  They all gather
+ round, and very stupidly, and very slowly, speak in obvious sentences
+ "Do you suppose that wire is supposed to be hanging out and sparking
+ like that?".  It is made clear that some damage has been made to the
+ machine, but that they're unable to do anything about it.  The player
+ is forced to sit and watch, looking at his taped note, with no way out
+ until he is ZAPPED.  (I think this sequence could be very funny.  I
+ like the doors sliding shut with a polite note saying "You're about to
+ die" -- ooh, better "If you are reading this, you are already dead.").
+
+ Player comes to, lying in a long metal drawer in a wall of 'filing'
+ cabinets (mortuary slabs, freezers, think the X-Files or that bit in
+ Men In Black), where the corpse he's now in has been stored away.  On
+ his toe-tag is written "Jack Doe".  We are several feet up from the
+ floor, and attempting to jump down responds that it's far too far.  If
+ you look around the cabinets, a few other drawers are labelled and
+ mentioned:  "John Doe", "Jim Doe", "Jenny Doe"; just a handful though
+ (we're not modelling an entire cabinet here, there's no need, just
+ enough for the absurd image of a wall of Doe-family metal-pallets).
+
+ The solution to getting to the ground is to pull open Jenny's cabinet
+ which is below you, climb onto that, and then drop to the floor.  When
+ you do, the PC comments that Jenny appears to be fast asleep, and you
+ are "very careful" when you climb onto her pallet; only accidentally
+ kicking her in the head when your foot slips and sitting on her chest.
+ However, you stands gingerly, and "you don't seem to have woken her up.
+ Phew!"  Of course, our player will quickly realise he is dead, she is
+ dead, everybody's dead; but the PC continues to chatter about how they
+ must have moved him here for observation after the experiment went a
+ bit wrong.  (Our PC is dense, for comic value).
+
+ We end up on the floor of the room - one wall is filing cabinet
+ drawers; there's a door and a large window.  The corridor beyond the
+ window is dark, so the glass acts as a mirror - and you see your
+ reflection - fat, old, long grey hair.  Crucially - not as you were
+ (indeed, much as your arch-rival appeared in fact.  Those players who
+ recognise this similarity will smile knowingly, the rest will not have
+ the resemblance pointed out.  I think it's fair to have the PC not
+ comment; or perhaps just say "you look a lot like someone, but can't
+ put your finger on who".  Or maybe we should just say:  "You are your
+ arch-rival's clone!!!").  The PC is a little confused by this generally
+ though (see note below about What The Machine Does Anyway).  At the top
+ of the window is written, as spelt out by the PC, YRAUTROM.  The PC
+ comments that he thought this was a place in Brazil.
+
+ So we escape from the room, by some device available - maybe smash the
+ window with something, maybe just tug the door open, something simple
+ anyway (I'm tempted by a finger-print scanner and a jar of pickled
+ fingers, but it's a little too-sick I think).  He leaves, the door
+ swings to behind him, and he reads "Oh - MORTUARY.  That would explain
+ the large bullet-hole in your chest, then."  (Or however the PC's body
+ died, see note below Slight Logical Flaw).
+
+ Now we find ourselves in a room, with an obvious device of lethal
+ capability - say, an extremely large pounding machine, with a circular
+ pad and a touch button that makes it go, right next to the pad.  You
+ can't touch the button from the ground (it's on the other side), player
+ types "Stand on pad", we move the player to the pad and have him look
+ up and take a look at the incredibly large metal smashing ball hovering
+ a fair distance above your head.  Any player worth his salt is going to
+ push the button, there and then.  The ball is deflected somehow,
+ smashing open a wall through which you can go.  But the PC comments (as
+ I said before in previous email) that "maybe if you destroy this body,
+ you'll go back!"
+
+ There's a problem here though; in that I'd rather have the player
+ _want_ to kill himself already, not because he is led to believe it
+ will wrap up the plot, but rather he is led to believe it will take him
+ somewhere new (no player will fall for the idea of such a short game as
+ the "here's the shotgun.  Kill yourself and win"; but if we convince
+ the player he's about to leap somewhere new, then the Murphy's-Law
+ effect will be a surprise when it occurs, and funny).  To this end, we
+ make the map look like it's a dead-end, so that players don't wonder
+ "what's through this door, along this corridor, up this air vent?", and
+ decide that exploration is reversible and death is not.  The problem
+ here is suggesting that killing yourself will do anything at all
+ positive, though.  I've not got an answer to that yet, something
+ clue/info needs to be dropped but I don't know what.
+
+ So an attempt fails, and the player is offered another (similarly
+ restricted, we are still linear here).  On the third, I think our
+ player will have realised that killing himself is not going to happen;
+ and that he is being toyed with, so on the third failure we open the
+ game world up and let the player into a larger area to explore.
+
+ Now; the rules have shifted - the PC is quite convinced that he wants
+ to do nothing so much as stick his head in an oven, but the player will
+ be certain that it's not going to work (after all, why should it work
+ now, why would the author allow it _now_, when he didn't earlier?)  So
+ the aim here is for the player to come up with solutions to problems
+ under the rule that they involve certain death - eg.  the gun-corridor:
+ the player wants to solve it just to get through.  The PC wants to die.
+ Together, we have a puzzle.  This area should be nice and wide,
+ puzzle-wise, and now we drop some information as to where you are, who
+ you are, and when you are.  Somewhere along the way you acquire a
+ lab-coat to cover your (a) nakedness and (b) gaping hole in chest.
+
+ The main feature of this area is a window, through which you can see
+ the Experimental Machine - you are in the basement of your own lab,
+ which the PC can comment he did know about, he had heard rumours they
+ kept bodies for inspection here, but only ones they'd caused to be die.
+ --- So we mention that the PC had heard a rumour that ARCH-RIVAL had
+ been killed but he didn't believe it, especially what with him being in
+ the experiment room at the start of the game.  We drop a load of hints
+ about time-travel:  the day of the week, maybe, or the world event like
+ you said:  someone mentions something in the first scene (and the PC
+ mentions it again in passing, "Like that carnival yesterday night")
+ which contrasts with a newspaper headline somewhere in the game ("The
+ carnival planned for tonight...")  As before - the game tells us, but
+ it is never stated.  --- I always feel, as soon as you state stuff, it
+ becomes cheesier.  But then, I'm a little pathological like that, I'm
+ told.  ;) Anyway, the player may realise that he is the ARCH-RIVAL'S
+ dead Body, but the PC does not realise this for a second, he just
+ carries merrily along, eyeing everything up in terms of its lethal
+ capacity.  (eg.  "The newspaper is made of glossy paper, with almost
+ razor-sharp edges".)  b Anyway, this gives the player something to aim
+ for - that room with the machine in.  We have a succession of problems
+ which come together to get you there; and then once there you are on a
+ tight timer:
+
+ The PC comments that one of the major circuit boards is gone - "Someone
+ must have sabotaged it!  ...  but it's okay, that board is backed up
+ elsewhere..."  People are arriving through the door; people including
+ your former self.  There is a fire-axe against the wall.
+
+ I don't know how we convince the player to smash the machine with the
+ axe.  If he remembers the beginning like a true time-travel junkie
+ he'll do it on instinct, and it'll be a nice
+ player-guesses-random-thing-that-works-moment.  Otherwise, we could
+ contrive something:- the people open the door, you instinctively duck
+ to hide, knocking the fire axe off the wall.  It hits the machine,
+ breaking it, bounces and as you pick it up they enter, seeing you with
+ axe.  Then the machine is operated (in a chunk of text, there's nothing
+ left for the player to do) and we have our ending.
+
+ So, how does this hold up?  Problems?  Things you don't like?  The
+ important design ideas are:  We drip-feed information to the player and
+ change his view throughout, rather than setting up a "here's the idea.
+ go play" situation.  We make the PC quite dumb, for comic value.  We
+ pull a last punch.  ;)
+
+ Main problems I see:  How do we insinuate that suicide might prove
+ useful in a continuation-sense rather than a concluding-sense?  How do
+ we make the player want to sabotage his own machine at the end?
+
+ Jon
+
+ -----
+
+ A few further notes:
+
+ What The Machine Does Anyway:- I'd like the player not to be told what
+ the experimental machine is actually _for_.  There's no reason to
+ include it in the intro - it can just be a "generic science artefact"
+ and then come the end the player will have assumed we have conciousness
+ transferal going on.  Then we could have a nice joke with PC casually
+ mentioning toward the end that the machine's purpose is much more
+ mundane - say, it fixes colour-blindness, perhaps.  Whatever.  It need
+ not make too much sense; it's effectively just a one-liner.  There's no
+ reason to be too pedantic on "realism"/"explanation", so long as the
+ player is given adequate guidance at each stage of the game.
+
+ Slight Logical Flaw:- The player wakes up in a body which has died.
+ Now, we ask what's killed it?  If it's anything external (so, as above,
+ a bullet-wound in the heart) then the player is not going to think of
+ killing the body because the body is clearly _not alive anyway_.  He's
+ only going to consider hanging himself/poisoning himself/etc if the
+ body actually has some appearance of functioning biologically.  In
+ which case, what the hell did our body die of?  It ought to be clear
+ that it _was dead at some point_ I think.  Perhaps we have a bullet
+ wound, with the rest of the body "alive around it - you can feel a
+ pulse, you're breathing, it's just that at some point in your chest
+ pink fades to grey and there's this ragged hole.  Weird."
+
+ The setting is, uhm, set.
+
+ To:  "J.  Ingold"
+ Subject:  Re:  Game plans
+
+ Okay, sounds like a plan.  I'll send Adam an email and follow it up
+ with
+ the $5.  I don't remember seeing any requirement for a synopsis, but
+ I'll
+ check his site again.
+
+ game is
+ having a
+ stick
+ planet,
+ "Turn
+ something
+
+ When I read the 'lab' under the sea I had an immediate positive
+ response.
+ Plus we can invent a cool underwater vehicle for a scene and/or
+ puzzle...
+
+ -- Mike
+
+ Final email thread -- Is Till Death...  the name of the game?
+
+ To:  Jon Ingold
+ Subject:  Dup email and another thought...
+
+ Sorry for the duplicate email, server issues at work...
+
+ We never did brainstorm on the title of the game.  It stands now as
+
+ Till Death Makes a Monk-Fish out of Me (or, TDMAMOOM).
+
+ I'm thinking the game needs a smaller title.  No, I don't have one ;)
+ -- but I could start thinking of one.  I'm thinking about the last 5
+ winners, most had one or two word titles (All Roads, Kaged, Winter
+ Wonderland, Photopia, The Edifice) -- okay, that has *nothing* to do
+ with them winning, but still...
+
+ I guess it goes to how our game will be reference in short (TDMAMOOM,
+ Till Death, Monk-Fish, Death, that Squid game, etc...)
+
+ Thoughts?
+
+ To:  mjs@rss.com
+ Subject:  RE:  Dup email and another thought..
+
+ Hi Mike -
+
+ Congrats on finishing...  excellent stuff...  mail me a copy and I'll
+ take a look on, um, Tuesday when I have a day free.
+
+ Title:  Hmm...  I must confess I've being thinking of the game as "till
+ Death..."  and more ...  but I have a particular affinity with overlong
+ titles (everywhere except IF that is, my edinburgh play is called
+ "Abraham Lincoln and the Art of Faking It", for instance).
+
+ So...  I'll have a think and see what I come up with.  Something eight
+ letters long or less has always been my yardstick, just for classic
+ filename purposes (I always felt one problem with "Spider and Web" was
+ no-one could find it in the archive!)
+
+ Jon
+
+ *** End of Emails ***

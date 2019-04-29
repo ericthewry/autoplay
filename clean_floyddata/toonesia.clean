@@ -1,0 +1,3135 @@
+>load toonesia
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+ Toonesia
+ A Mini Text-Adventure Game
+ by Jacob Weinstein
+ Developed with TADS:  The Text Adventure Development System.
+
+ Version 1.1
+ Copyright (c) 1995 by the author.  All Rights Reserved.
+ This game was entered in the First Annual TADS programming contest in
+ 1995.  It won second place.  For more information on the contest, look
+ at ftp.gmd.de in the directory /if-archive.
+
+ Toonesia is freeware.  For information on the legal details of
+ distributing it, please type "legal" at any command prompt.
+
+ This game uses David Allen's hint system, which is (c) 1994 by David
+ Allen.
+
+ Thanks to my beta-testers Lauren Sager, Mike Sager, and Michael Kinyon,
+ and to Whizzard for some last-minute lifesaving and the occasional pun.
+
+ Although this game is free, I would appreciate a postcard if you
+ particularly enjoy it--or, at least, an e-mail note.  My e-mail address
+ is jacobw@cap.gwu.edu.  My postal address is:
+ Jacob Weinstein
+ 10980 Wellworth Ave, Apt 306
+ Los Angeles, CA 90024
+
+
+ **********************************************************
+
+
+ Oooh, that rascally rabbit!  You were out hunting him when he somehow
+ got the jump on you, blindfolded you, and dumped you into a cell.
+ Well, you'll show him.  He'll be hasenpfefer by dinner tonight, or your
+ name isn't Elmo Fuld.
+
+
+ Bare Cell
+    You are in an utterly bare room.  The walls are completely
+ featureless, and there seems to be no way out.  Drat that rabbit!
+    You see a purple crayon, a blindfold, and a note here.
+
+>examine crayon
+ It's a short stub of purple crayon.
+
+>examine blindfold
+ It's a simple cloth blindfold.
+
+>examine note
+ It's a note, scrawled in crayon in a rabbity hand.
+
+>read note
+ Dear Elmo,
+    Sorry I've had to lock you up like this, but I'm off to the Fifth
+ Annual Festival of Carrots, and I can't have you chasing after me with
+ a gun.  There's no way out of here, so you won't be getting back to
+ your mansion and your yacht anytime soon.  But just in case you escape,
+ I've placed your gun in a place you'll never get to.
+    Ain't I a stinker?
+
+ Sincerely yours truly,
+ Bud Bunny
+
+>draw door
+ What do you want to draw it on?
+
+>draw door on wall
+ You don't have anything to draw with.
+
+>get crayon
+ Taken.
+
+>quit
+ In a total of 6 turns, you have achieved a score of 0 points out of a
+ possible 10.
+ This makes you A Family Circus Panel.
+
+>y
+
+>load toonesia
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+ Toonesia
+ A Mini Text-Adventure Game
+ by Jacob Weinstein
+ Developed with TADS:  The Text Adventure Development System.
+
+ Version 1.1
+ Copyright (c) 1995 by the author.  All Rights Reserved.
+ This game was entered in the First Annual TADS programming contest in
+ 1995.  It won second place.  For more information on the contest, look
+ at ftp.gmd.de in the directory /if-archive.
+
+ Toonesia is freeware.  For information on the legal details of
+ distributing it, please type "legal" at any command prompt.
+
+ This game uses David Allen's hint system, which is (c) 1994 by David
+ Allen.
+
+ Thanks to my beta-testers Lauren Sager, Mike Sager, and Michael Kinyon,
+ and to Whizzard for some last-minute lifesaving and the occasional pun.
+
+ Although this game is free, I would appreciate a postcard if you
+ particularly enjoy it--or, at least, an e-mail note.  My e-mail address
+ is jacobw@cap.gwu.edu.  My postal address is:
+ Jacob Weinstein
+ 10980 Wellworth Ave, Apt 306
+ Los Angeles, CA 90024
+
+
+ **********************************************************
+
+
+ Oooh, that rascally rabbit!  You were out hunting him when he somehow
+ got the jump on you, blindfolded you, and dumped you into a cell.
+ Well, you'll show him.  He'll be hasenpfefer by dinner tonight, or your
+ name isn't Elmo Fuld.
+
+
+ Bare Cell
+    You are in an utterly bare room.  The walls are completely
+ featureless, and there seems to be no way out.  Drat that rabbit!
+    You see a purple crayon, a blindfold, and a note here.
+
+>read note
+ Dear Elmo,
+    Sorry I've had to lock you up like this, but I'm off to the Fifth
+ Annual Festival of Carrots, and I can't have you chasing after me with
+ a gun.  There's no way out of here, so you won't be getting back to
+ your mansion and your yacht anytime soon.  But just in case you escape,
+ I've placed your gun in a place you'll never get to.
+    Ain't I a stinker?
+
+ Sincerely yours truly,
+ Bud Bunny
+
+>draw door on wall with crayon
+ There are words after your command that I couldn't use.
+
+>take all
+ purple crayon:  Taken.
+ blindfold:  Taken.
+ note:  Taken.
+
+>inventory
+ You have a hunting cap (being worn), a purple crayon, a blindfold, and
+ a note.
+
+>draw door with crayon
+ I don't recognize that sentence.
+
+>draw door on wall
+ Since all the walls look alike, you pick one at random and draw a
+ bright purple door on it.  Chuck Jones you're not, but it'll do.
+ Unfortunately, in the process, you wear the crayon down to nothing.
+
+ * * * Your score just increased by 1 point.  * * *
+
+
+>examine door
+ It's closed.
+
+>open door
+ Opened.
+
+>examine blindfold
+ It's a simple cloth blindfold.
+
+>examine me
+ You look about the same as always.
+
+>inventory
+ You have a hunting cap (being worn), a blindfold, and a note.
+
+>examine cap
+ It's your trusty hunting cap.  You haven't removed it since you first
+ received it as a gift from your Uncle Chuck in 1935--not even to
+ shower.
+
+>examine cap
+ It's your trusty hunting cap.  You haven't removed it since you first
+ received it as a gift from your Uncle Chuck in 1935--not even to
+ shower.
+
+>exit
+ The Middle of the Woods
+    You are in a thick patch of towering redwoods.  A path leads west,
+ where the trees grow sparser, and south.  Looming over you to the north
+ is the tower in whose base you were so recently imprisoned.  From the
+ outside, you can see that the tower looks like a humungous carrot.
+
+ Oooooooh, you're going to get that rabbit.
+    You see a wooden sign here.
+
+>read sign
+ It looks like this wooden sign originally said "Duck Season," but
+ somebody crossed off the word "Duck" and wrote "Rabbit."  Then somebody
+ else crossed off the word "Rabbit" and wrote "Duck."  In fact, the
+ words "Duck" and "Rabbit" must have been written and crossed off a
+ dozen times each.  At the moment, the sign proclaims that it's duck
+ season.  This accursed interference in the rights of honest hunters
+ like yourself is signed "Bruce Babbit, Secretary of the Interior."
+ Ooooh, that rascally Babbit!
+
+>pull sign
+ Pulling the wooden sign doesn't have any effect.
+
+>dismantle sign
+ I don't know the word "dismantle".
+
+>verbose
+ Okay, now in VERBOSE mode.
+ The Middle of the Woods
+    You are in a thick patch of towering redwoods.  A path leads west,
+ where the trees grow sparser, and south.  Looming over you to the north
+ is the tower in whose base you were so recently imprisoned.  From the
+ outside, you can see that the tower looks like a humungous carrot.
+
+ Oooooooh, you're going to get that rabbit.
+    You see a wooden sign here.
+
+>examine trees
+ The trees look like trees, complete with branch-like branches and leafy
+ leaves. Well, what did you expect?
+
+>eat carrot
+ The tower doesn't appear appetizing.
+
+>read sign
+ It looks like this wooden sign originally said "Duck Season," but
+ somebody crossed off the word "Duck" and wrote "Rabbit."  Then somebody
+ else crossed off the word "Rabbit" and wrote "Duck."  In fact, the
+ words "Duck" and "Rabbit" must have been written and crossed off a
+ dozen times each.  At the moment, the sign proclaims that it's duck
+ season.  This accursed interference in the rights of honest hunters
+ like yourself is signed "Bruce Babbit, Secretary of the Interior."
+ Ooooh, that rascally Babbit!
+
+>examine me
+ You look about the same as always.
+
+>go west
+ The Edge of the Woods
+    The trees here are sparser, and the thick moss that covers the
+ ground seems to be fighting a losing battle with the desert that
+ approaches from the north and the west.  Paths lead east and southeast
+ back into the forest.
+    The Tazmanian Devil is here, glaring furiously (and hungrily) at you
+ from within the bars of a metal cage.
+
+
+>examine taz
+ The Tazmanian Devil is a real animal, not a copyright of a certain
+ large corporation with lots of legal muscle.  I can therefore mention
+ it by name in this game.  Unfortunately, if I were to describe a
+ real-life Tazmanian Devil, you'd only be disappointed--they don't look
+ like much.  So, I won't describe the slavering beast before you.  And
+ if you assume that it has a boxy body attached to short thin legs, two
+ large maniacal eyes set above a wide, drooling, sharp-fanged mouth, and
+ brown fur all over, then YOU'RE violating copyright, not me.  At any
+ rate, the Tazmanian Devil is safely locked away within a sturdy metal
+ cage.
+
+>examine cage
+ It's a sturdy metal cage.  Inside it, and trying desperately to get
+ out, is a Tazmanian Devil.  Fortunately, it's closed.  Through the
+ bars, you can see what looks like a thin metal pipe--the top of a
+ chimney, perhaps--protruding through the ground.
+
+>examine pipe
+ It looks like the top of a chimney.
+
+>look in pipe
+ There's nothing in the thin metal pipe.
+
+>push cage
+ Pushing the cage doesn't do anything.
+
+ A low rumble emanates from the Tazmanian Devil's stomach.
+
+>lock
+ What do you want to lock?
+
+>oops
+ I don't know the word "oops".
+
+>examine lock
+ It's a sturdy metal cage.  Inside it, and trying desperately to get
+ out, is a Tazmanian Devil.  Fortunately, it's closed.  Through the
+ bars, you can see what looks like a thin metal pipe--the top of a
+ chimney, perhaps--protruding through the ground.
+
+>se
+ In the Woods
+    You are standing deep within the woods.  A thick roof of leaves
+ blocks most sunlight from entering, and a thick wall of treetrunks
+ blocks you from exiting in most directions.  You can squeeze through to
+ the north and the northwest, where the forest seems to grow less dense.
+
+>examine trees
+ The trees look like trees, complete with branch-like branches and leafy
+ leaves. Well, what did you expect?
+
+>climb trees
+ You are Elmo Fuld, millionaire.  You hire men to chop down trees and
+ ship them to your processing plants.  You do not climb them.
+
+>chop down trees
+ I don't know the word "chop".
+
+>examine cap
+ It's your trusty hunting cap.  You haven't removed it since you first
+ received it as a gift from your Uncle Chuck in 1935--not even to
+ shower.
+
+>go northwest
+ The Edge of the Woods
+    The trees here are sparser, and the thick moss that covers the
+ ground seems to be fighting a losing battle with the desert that
+ approaches from the north and the west.  Paths lead east and southeast
+ back into the forest.
+    The Tazmanian Devil is here, glaring furiously (and hungrily) at you
+ from within the bars of a metal cage.
+
+
+>go west
+ The Edge of A Cliff
+    You stand on the cornered edge of a cliff, above a
+ brown-and-grey-painted canyon that stretches down far enough to create
+ a sort of vertical horizon.  Pulling your eyes upward before the sight
+ makes you topple over, you see a thin mesa jutting out of the depths of
+ the canyon, a few hundred yards to your west. To your east is the edge
+ of a forest that seems to be fighting a losing battle with the desert
+ in which you stand.
+
+>SAVE
+>cf1
+ Saved.
+
+>worn
+ I don't know the word "worn".
+
+>examine canyon
+ The beautiful canyon stretches as far as you can see.
+
+>put blindfold on davidw
+ I don't know the word "davidw".
+
+>examine mesa
+ The thin mesa juts out of the canyon a few hundred yards to your west.
+
+>wear blindfold
+ Okay, you're now wearing the blindfold.
+
+>jump canyon
+ You can't do anything with this blindfold on.
+
+>go west
+ You stagger blindly in that direction.
+
+ You can't see anything with the blindfold on.
+
+>remove blindfold
+ You take off the blindfold, and look around...
+
+ Hanging Poised in Midair
+    You are standing in the middle of the air.  There is nothing below
+ your feet.
+
+ Well, more precisely,there is nothing IMMEDIATELY below your feet.
+ Several thousand yards below your feet happens to be a canyon floor.
+ Fortunately, we don't need to be too precise about these things, since
+ the ground is going to be immediately below your feet in just a few
+ moments.  And shortly after that, you are going to be just below the
+ ground.  Have a nice trip.
+
+ Suddenly, it occurs to you that you are standing in mid-air with no
+ means of support.  After plummetting downward for a full thirty
+ seconds, you encounter the rough desert sand below.  After plummetting
+ through the rough desert sand for a full half hour, you come to a
+ complete stop.  Fortunately, as a 'toon, you can't be killed by the
+ fall.  Unfortunately, your chin is relocated to within half an inch of
+ your ankle, leaving you no room to hold your gun and making future
+ hunting impossible.  Looks like that rascally rabbit has finally gotten
+ rid of you for good.
+
+ *** You are out of the picture ***
+
+ In a total of 36 turns, you have achieved a score of 1 points out of a
+ possible 10.
+ This makes you Clutch Cargo.
+
+ You may restore a saved game, start over, take back the last move, or
+ quit.
+>undo
+ (Undoing one command)
+
+ You can't see anything with the blindfold on.
+
+>go west
+ You stagger blindly in that direction.
+
+ You can't see anything with the blindfold on.
+
+ Suddenly, it occurs to you that you are standing in mid-air with no
+ means of support.  You plummet rapidly downward and land with a crash.
+
+>remove blindfold
+ You take off the blindfold, and look around...
+
+ Atop a Narrow Mesa
+    You are standing atop a mesa so small that two steps in any
+ direction would send you plummeting to an untimely end.  The cliff that
+ surrounds the canyon approaches from infinity to the northwest and
+ southwest, coming to a point a few hundred yards to your west.  From
+ here, you can see another small ledge clinging to the side of the cliff
+ about twenty yards below the point where the two cliff walls meet.
+    You see a gun here.
+
+>examine gun
+ It's your trusty gun.  You've missed many a fine specimen with it.
+
+>take gun
+
+ * * * Your score just increased by 1 point.  * * *
+
+ Taken.
+
+>score
+ In a total of 39 turns, you have achieved a score of 2 points out of a
+ possible 10.
+ This makes you An Animation Cel.
+
+>get gun
+ You already have your gun!
+
+>fire gun
+ You fire your gun in the air with a satisfying KABOOM, sending a huge
+ puff of smoke out of the barrel.  Being a toon gun, it immediately
+ reloads itself.
+
+>examine ledge
+ I don't know the word "ledge".
+
+>listen
+ What do you want to listen to?
+
+>listen for bugs
+ I don't recognize that sentence.
+
+>SAVE
+>cf2
+ Saved.
+
+>put eye in gun
+ I don't see any eye here.
+
+>climb down to ledge
+ I don't know the word "ledge".
+
+>go down
+ You can't go that way.
+
+>climb down
+ I don't understand that sentence.
+
+>look
+ Atop a Narrow Mesa
+    You are standing atop a mesa so small that two steps in any
+ direction would send you plummeting to an untimely end.  The cliff that
+ surrounds the canyon approaches from infinity to the northwest and
+ southwest, coming to a point a few hundred yards to your west.  From
+ here, you can see another small ledge clinging to the side of the cliff
+ about twenty yards below the point where the two cliff walls meet.
+
+>look down
+ I don't understand that sentence.
+
+>go west
+ One look down is enough to prevent you from stepping off the cliff.
+
+>to infinity and beyond
+ I don't know the word "infinity".
+
+>wear blindfold
+ Okay, you're now wearing the blindfold.
+
+>go east
+ You stagger blindly in that direction.
+
+ You can't see anything with the blindfold on.
+
+>go east
+ You stagger blindly in that direction.
+
+ You can't see anything with the blindfold on.
+
+>go east
+ You stagger blindly in that direction.
+
+ You can't see anything with the blindfold on.
+
+>take off blindfold
+ You take off the blindfold, and look around...
+
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west.  There are a few
+ scattered pieces of battered furniture here, including an overstuffed
+ sofa and a large wooden wardrobe, as well as some pictures nailed into
+ the dirt walls.  Against one wall is a kitchenette:  a stove, a
+ refrigerator, and a table.
+
+>go west
+ Clinging to the Side of a Ledge
+    You are standing on a narrow ledge tucked into the corner of two
+ cliff walls.  It's just wide enough to keep gravity's dirty paws off
+ you.  To your west, several hundred yards away, you can see a narrow
+ mesa.  A hole leads east, into the cliff face.
+
+>go east
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west.  There are a few
+ scattered pieces of battered furniture here, including an overstuffed
+ sofa and a large wooden wardrobe, as well as some pictures nailed into
+ the dirt walls.  Against one wall is a kitchenette:  a stove, a
+ refrigerator, and a table.
+
+>furniture
+ There's no verb in that sentence!
+
+>examine pictures
+ The pictures include a photo of Bud Bunny at a party with Chuck Jones,
+ Fritz Freleng, Tex Avery, and Mel Blanc; a reproduction of the famous
+ painting, "The Assumption of St.  Peter Rabbit;" and an autographed
+ photo of Dick Cavett.  Seeing the last of these reminds you of the
+ humiliation you suffered as a guest on his show; unbeknownst to you,
+ the talk show host had arranged for your fellow guests to be the
+ president of Handgun Control, Inc, and the vice-chairman of People for
+ the Ethical Treatment of Animals.  Ooooh, that rascally Cavett!
+
+>examine fridge
+ The refrigerator is closed.
+
+>open it
+ Opening the refrigerator reveals a lettuce sandwich and a steak.
+
+>take all from fridge
+ lettuce sandwich:  Taken.
+ steak:  Taken.
+
+>open cupboard
+ I don't know the word "cupboard".
+
+>close fridge
+ Closed.
+
+>examine table
+ It's an unpretentious wooden table.
+
+>look under table
+ There's nothing under the table.
+
+>examine steak
+ It's a big, succulant, raw hunk of meat.
+
+>examine sandwich
+ It's a piece of lettuce between two slices of carrot bread.
+
+>examine stove
+ It's a simple stove, consisting of a metal surface and an on-off
+ switch.  A metal chimney above the cooking surface helps get rid of
+ cooking smells.
+
+>examine elmer
+ I don't know the word "elmer".
+
+>examine chimney
+ It's a narrow metal chimney, meant to help remove cooking odors from
+ the warren.
+
+>examine fudd
+ I don't know the word "fudd".
+
+>examine wardrobe
+ Looking closely at the wardrobe, you see that it seems to have been
+ carved out of a large treetrunk that has sunk deep into the walls of
+ the warren.  Currently, the wardrobe is closed.
+
+>open wardrobe
+ Opening the large wooden wardrobe reveals a Hawaiian shirt, a baseball
+ cap, and a cologne bottle.
+
+>look under wardrobe
+ There's nothing under the large wooden wardrobe.
+
+>examine shirt
+ This is a large, bright Hawaiian shirt.  Amongst the loud colors is a
+ logo that says, "Hotel Wakalakamakakadasakikikaki."
+
+>get all from wardrobe
+ Hawaiian shirt:  Taken.
+ baseball cap:  Taken.
+ cologne bottle:  Taken.
+
+>examine cap
+ Which cap do you mean, the hunting cap, or the baseball cap?
+
+>baseball
+ It's a Brooklyn Dodgers cap.
+
+>wear all
+ hunting cap:  You're already wearing the hunting cap!
+ blindfold:  Okay, you're now wearing the blindfold.
+ note:  You can't do anything with the blindfold on.
+ your gun:  You can't do anything with the blindfold on.
+ lettuce sandwich:  You can't do anything with the blindfold on.
+ steak:  You can't do anything with the blindfold on.
+ Hawaiian shirt:  You can't do anything with the blindfold on.
+ baseball cap:  You can't do anything with the blindfold on.
+ cologne bottle:  You can't do anything with the blindfold on.
+ battered furniture:  You can't do anything with the blindfold on.
+ kitchenette:  You can't do anything with the blindfold on.
+
+>undo
+ (Undoing one command)
+
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west.  There are a few
+ scattered pieces of battered furniture here, including an overstuffed
+ sofa and a large wooden wardrobe, as well as some pictures nailed into
+ the dirt walls.  Against one wall is a kitchenette:  a stove, a
+ refrigerator, and a table.
+
+>examine bottle
+ According to the label, the orange liquid inside is "Eau de Carrotte."
+
+>search wardrobe
+ You find nothing of interest.
+
+>enter wardrobe
+ I don't know how to enter the large wooden wardrobe.
+
+>look under it
+ There's nothing under the large wooden wardrobe.
+
+>examine sofa
+ The sofa is covered with a garish carrot-patterned fabric.
+
+>examine tree
+ I don't see any tree here.
+
+>examine trunk
+ I don't see any trunk here.
+
+>search sofa
+ You find nothing of interest.
+
+>look behind sofa
+ There's nothing behind the overstuffed sofa.
+
+>shoot sofa
+ But it isn't overstuffed sofa season!
+
+>look
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west.  There are a few
+ scattered pieces of battered furniture here, including an overstuffed
+ sofa and a large wooden wardrobe, as well as some pictures nailed into
+ the dirt walls.  Against one wall is a kitchenette:  a stove, a
+ refrigerator, and a table.
+
+>wear shirt
+ Okay, you're now wearing the Hawaiian shirt.
+
+>cook steak
+ I don't know the word "cook".
+
+>turn on stove
+ You turn on the stove, and it heats up instantly.
+
+>fry steak
+ I don't know the word "fry".
+
+>put steak on stove
+ The steak begins to sizzle as soon as it hits the metal surface of the
+ stove.  Within moments, a delicious smell begins to fill the room.  As
+ you watch the smell waves waft up through the metal chimney, you hear
+ what sounds like a dentist's drill begin to whir above your head.
+ Suddenly, a sizable chunk of the dirt ceiling collapses about you and a
+ giant slobbering blur descends into the room.  When the blur stops
+ whirling, you realize that it is the Tazmanian Devil.  It grabs the
+ steak from the stovetop and begins wolfing it down.  You estimate that
+ you have a couple of seconds before it finishes the steak and notices
+ you.
+
+ * * * Your score just increased by 1 point.  * * *
+
+
+>go up
+ The Tazmanian Devil is standing directly beneath the hole that he made
+ when he came in.  There's no way you can go up without climbing on him,
+ and something tells you he wouldn't like that.
+
+ The Tazmanian Devil has eaten about half of the steak by now.
+
+>give cap to devil
+ The Tazmanian devil accepts the baseball cap, nearly biting your
+ fingers off in the process.  In a moment, the baseball cap has vanished
+ down its throat.
+
+>undo
+ (Undoing one command)
+
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west and the hole in the
+ dirt ceiling above your head.  There are a few scattered pieces of
+ battered furniture here, including an overstuffed sofa and a large
+ wooden wardrobe, as well as some pictures nailed into the dirt walls.
+ Against one wall is a kitchenette:  a stove, a refrigerator, and a
+ table.
+    The Tazmanian Devil is here, eagerly devouring a hunk of meat.
+
+
+>enter pipe
+ I don't see any pipe here.
+
+>enter chimney
+ I don't know how to enter the metal chimney.
+
+>go up chimney
+ I don't recognize that sentence.
+
+>climb chimney
+ I don't know how to climb the metal chimney.
+
+ The Tazmanian Devil has eaten almost all the steak.  At any moment,
+ he's going to finish it up and start looking for something else to eat.
+
+>undo
+ (Undoing one command)
+
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west and the hole in the
+ dirt ceiling above your head.  There are a few scattered pieces of
+ battered furniture here, including an overstuffed sofa and a large
+ wooden wardrobe, as well as some pictures nailed into the dirt walls.
+ Against one wall is a kitchenette:  a stove, a refrigerator, and a
+ table.
+    The Tazmanian Devil is here, eagerly devouring a hunk of meat.
+
+
+>shout
+ Your throat is a bit sore now.
+
+ The Tazmanian Devil has eaten almost all the steak.  At any moment,
+ he's going to finish it up and start looking for something else to eat.
+
+>wear cologne
+ You splash some cologne on yourself.
+
+>inventory
+ You have a hunting cap (being worn), a blindfold, a note, a gun, a
+ lettuce sandwich, a Hawaiian shirt (being worn), a baseball cap, and a
+ cologne bottle.
+
+ With a final slobbering gulp, the Tazmanian Devil swallows the last of
+ the meat.  He lets out a belch and, for one brief moment, appears
+ sated.  Then the moment passes, and his huge head swivels around, his
+ hungry eyes coming to focus on you.
+
+>undo
+ (Undoing one command)
+
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west and the hole in the
+ dirt ceiling above your head.  There are a few scattered pieces of
+ battered furniture here, including an overstuffed sofa and a large
+ wooden wardrobe, as well as some pictures nailed into the dirt walls.
+ Against one wall is a kitchenette:  a stove, a refrigerator, and a
+ table.
+    The Tazmanian Devil is here, eagerly devouring a hunk of meat.
+
+
+>wear sandwich
+ You can't wear the lettuce sandwich.
+
+ With a final slobbering gulp, the Tazmanian Devil swallows the last of
+ the meat.  He lets out a belch and, for one brief moment, appears
+ sated.  Then the moment passes, and his huge head swivels around, his
+ hungry eyes coming to focus on you.
+
+>undo
+ (Undoing one command)
+
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west and the hole in the
+ dirt ceiling above your head.  There are a few scattered pieces of
+ battered furniture here, including an overstuffed sofa and a large
+ wooden wardrobe, as well as some pictures nailed into the dirt walls.
+ Against one wall is a kitchenette:  a stove, a refrigerator, and a
+ table.
+    The Tazmanian Devil is here, eagerly devouring a hunk of meat.
+
+
+>unravel shirt
+ I don't know the word "unravel".
+
+>undo
+ (Undoing one command)
+
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west and the hole in the
+ dirt ceiling above your head.  There are a few scattered pieces of
+ battered furniture here, including an overstuffed sofa and a large
+ wooden wardrobe, as well as some pictures nailed into the dirt walls.
+ Against one wall is a kitchenette:  a stove, a refrigerator, and a
+ table.
+    The Tazmanian Devil is here, eagerly devouring a hunk of meat.
+
+
+>pull nails
+ I don't know the word "nails".
+
+>push table
+ Pushing the table doesn't do anything.
+
+>pull table
+ Pulling the table doesn't have any effect.
+
+ With a final slobbering gulp, the Tazmanian Devil swallows the last of
+ the meat.  He lets out a belch and, for one brief moment, appears
+ sated.  Then the moment passes, and his huge head swivels around, his
+ hungry eyes coming to focus on you.
+
+>undo
+ (Undoing one command)
+
+ Inside Bud's Warren
+    You are in a comfortable and cozy rabbit warren, lit dimly by the
+ light that filters in from the hole to your west and the hole in the
+ dirt ceiling above your head.  There are a few scattered pieces of
+ battered furniture here, including an overstuffed sofa and a large
+ wooden wardrobe, as well as some pictures nailed into the dirt walls.
+ Against one wall is a kitchenette:  a stove, a refrigerator, and a
+ table.
+    The Tazmanian Devil is here, eagerly devouring a hunk of meat.
+
+
+>SAVE
+>cf3
+ Saved.
+
+>give sandwich to taz
+ The Tazmanian Devil sniffs the sandwich, then growls menacingly at you.
+ Evidently, it doesn't like vegetables.
+
+ With a final slobbering gulp, the Tazmanian Devil swallows the last of
+ the meat.  He lets out a belch and, for one brief moment, appears
+ sated.  Then the moment passes, and his huge head swivels around, his
+ hungry eyes coming to focus on you.
+
+>wait
+ Time passes...
+
+ The Tazmanian Devil lunges for you and, with a few swift bites,
+ swallows you.  As you stew helplessly in his stomach, you find yourself
+ wishing that 'toons weren't quite so indestructable.
+
+ *** You are out of the picture ***
+
+ In a total of 86 turns, you have achieved a score of 3 points out of a
+ possible 10.
+ This makes you A Flip Book.
+
+ You may restore a saved game, start over, take back the last move, or
+ quit.
+>restore
+>cf3
+
+>pour cologne on taz
+ That would be unwise.
+
+ With a final slobbering gulp, the Tazmanian Devil swallows the last of
+ the meat.  He lets out a belch and, for one brief moment, appears
+ sated.  Then the moment passes, and his huge head swivels around, his
+ hungry eyes coming to focus on you.
+
+>wear cologne
+ You splash some cologne on yourself.
+
+ The Tazmanian Devil lunges for you.  As he flies through the air toward
+ you, he suddenly catches a whiff of your carrot cologne.  He stops in
+ mid-air and hangs there for a moment, looking confused.  Then he
+ crashes to the ground.  He gets up and lumbers over to you, sniffing
+ you closely.  Evidently, he doesn't like what he smells, for he lets
+ out an outraged bellow and then whirls out the hole in the ceiling,
+ presumably in search of more meat.
+
+ * * * Your score just increased by 1 point.  * * *
+
+
+>go up
+ You climb on the table and clamber through the hole.
+
+ Inside a Cage
+    You are inside a sturdy metal cage.  A rough-hewn hole leads
+ downward.  The trees surrounding the cage are sparse, and the thick
+ moss that covers the ground seems to be fight a losing battle with the
+ desert that approaches from the north and the west.
+
+>open cage
+ You can't.  It seems to be locked.
+
+>unlock cage
+ You unlock the cage door.
+
+>examine cage
+ You are in a sturdy metal cage.  Currently, it's closed.
+
+>open cage
+ You open the cage door.
+
+>examine cage
+ You are in a sturdy metal cage.  Currently, it's open.
+
+>shout "FREEDOM"
+ I don't recognize that sentence.
+
+>exit cage
+ I don't recognize that sentence.
+
+>out
+ The Edge of the Woods
+    The trees here are sparser, and the thick moss that covers the
+ ground seems to be fighting a losing battle with the desert that
+ approaches from the north and the west.  Paths lead east and southeast
+ back into the forest.  A large metal cage stands empty here.
+
+>go north
+ Outside the Mine
+    You stand in the middle of a huge desert, north of a stand of
+ struggling trees and west of a deep cave.  As you stand staring into
+ the vast darkness that lies within the cavern, a strange smell on the
+ wind makes your nose twitch.  You pause for a moment and recognize it.
+ It's the smell of wealth.
+    Dizzy Duck is here, rubbing his hands with greedy glee.
+
+
+>give cap to duck
+ "No, thankth, my dear thir."
+
+>examine daffy
+ There is no "Daffy Duck" in this game--only "Dizzy Duck."  Are you
+ trying to get me in trouble?
+
+>ask dizzy about cave
+ Dizzy doesn't seem to know much about that.
+
+>inventory
+ You have a hunting cap (being worn), a blindfold, a note, a gun, a
+ lettuce sandwich, a Hawaiian shirt (being worn), a baseball cap, and a
+ cologne bottle.
+
+>ask dizzy about bud
+ Dizzy doesn't seem to know much about that.
+
+>give baseball cap to duck
+ "No, thankth, my dear thir."
+
+>ask dizzy about duck season
+ I don't know the word "season".
+
+>examine dizzy
+ Dizzy is a daffy-looking duck.  Currently, he's running his hands
+ through a wheelbarrow full of jewels.
+
+>smell
+ What do you want to smell?
+
+>examine jewels
+ You don't have a chance to examine the vast array of glittering jewels
+ because Dizzy throws himself across the wheelbarrow as soon as he sees
+ you eyeing them. "Don't even think about it," he sputters.
+
+ Dizzy lunches into an off-key rendition of "Hello, My Ragtime Gal."
+
+>wealth
+ There's no verb in that sentence!
+
+>take jewels
+ As you reach for the jewels, Dizzy floors you with a right wing to the
+ jaw that lays you out flat.  "Thorry, bub," he says, as little birdies
+ momentarily fly around your head.  "Don't know what came over me."
+
+>ask dizzy about jewels
+ Dizzy doesn't seem to know much about that.
+
+>ask dizzy about wealth
+ Dizzy doesn't seem to know much about that.
+
+>ask dizzy about wheelbarrow
+ Dizzy doesn't seem to know much about that.
+
+>ask dizzy about duck
+ Dizzy doesn't seem to know much about that.
+
+>say look behind you
+ I don't understand that sentence.
+
+>shoot dizzy
+ As you raise the gun, Dizzy sticks his finger in the barrel.  "Thorry,
+ Charlie, it'th rabbit theathon."  Embarrassed, you lower the gun.
+
+>tell dizzy about sign
+ It doesn't look as though Dizzy Duck is interested.
+
+>go west
+ You can't go that way.
+
+>go south
+ The Edge of the Woods
+    The trees here are sparser, and the thick moss that covers the
+ ground seems to be fighting a losing battle with the desert that
+ approaches from the north and the west.  Paths lead east and southeast
+ back into the forest.  A large metal cage stands empty here.
+
+>go west
+ The Edge of A Cliff
+    You stand on the cornered edge of a cliff, above a
+ brown-and-grey-painted canyon that stretches down far enough to create
+ a sort of vertical horizon.  Pulling your eyes upward before the sight
+ makes you topple over, you see a thin mesa jutting out of the depths of
+ the canyon, a few hundred yards to your west. To your east is the edge
+ of a forest that seems to be fighting a losing battle with the desert
+ in which you stand.
+
+>go east
+ The Edge of the Woods
+    The trees here are sparser, and the thick moss that covers the
+ ground seems to be fighting a losing battle with the desert that
+ approaches from the north and the west.  Paths lead east and southeast
+ back into the forest.  A large metal cage stands empty here.
+>go east
+
+ The Middle of the Woods
+    You are in a thick patch of towering redwoods.  A path leads west,
+ where the trees grow sparser, and south.  Looming over you to the north
+ is the tower in whose base you were so recently imprisoned.  From the
+ outside, you can see that the tower looks like a humungous carrot.
+
+ Oooooooh, you're going to get that rabbit.
+    You see a wooden sign here.
+
+>examine sign
+>go east
+ It looks like this wooden sign originally said "Duck Season," but
+ somebody crossed off the word "Duck" and wrote "Rabbit."  Then somebody
+ else crossed off the word "Rabbit" and wrote "Duck."  In fact, the
+ words "Duck" and "Rabbit" must have been written and crossed off a
+ dozen times each.  At the moment, the sign proclaims that it's duck
+ season.  This accursed interference in the rights of honest hunters
+ like yourself is signed "Bruce Babbit, Secretary of the Interior."
+ Ooooh, that rascally Babbit!
+
+ You can't go that way.
+
+>get sign
+ Taken.
+
+>get sign
+ You already have the wooden sign!
+
+>go south
+ In the Woods
+    You are standing deep within the woods.  A thick roof of leaves
+ blocks most sunlight from entering, and a thick wall of treetrunks
+ blocks you from exiting in most directions.  You can squeeze through to
+ the north and the northwest, where the forest seems to grow less dense.
+
+>write duck on sign
+ I don't know the word "write".
+
+>go east
+ You can't go that way.
+
+>go west
+ You can't go that way.
+
+>look
+ In the Woods
+    You are standing deep within the woods.  A thick roof of leaves
+ blocks most sunlight from entering, and a thick wall of treetrunks
+ blocks you from exiting in most directions.  You can squeeze through to
+ the north and the northwest, where the forest seems to grow less dense.
+
+>go northwest
+ The Edge of the Woods
+    The trees here are sparser, and the thick moss that covers the
+ ground seems to be fighting a losing battle with the desert that
+ approaches from the north and the west.  Paths lead east and southeast
+ back into the forest.  A large metal cage stands empty here.
+
+>go north
+ Outside the Mine
+    You stand in the middle of a huge desert, north of a stand of
+ struggling trees and west of a deep cave.  As you stand staring into
+ the vast darkness that lies within the cavern, a strange smell on the
+ wind makes your nose twitch.  You pause for a moment and recognize it.
+ It's the smell of wealth.
+    Dizzy Duck is here, rubbing his hands with greedy glee.
+
+
+>show sign to duck
+
+ Dizzy sticks his finger in the barrel of your gun and grins cockily at
+ you.  "You thee, thir, you can't thyoot a duck in rabbit--" Then he
+ looks once again at the sign you're carrying and turns as pale as he
+ can, considering that he's covered with jet-black feathers.  "Oooh,
+ that rabbit.  He'th dethpicable!"  In a swift blur, Dizzy vanishes,
+ taking the wheelbarrow full of jewels with him.  Moments later, he
+ returns, crosses out the word "Duck," replaces it with "Rabbit," and,
+ just to be on the safe side, vanishes again.
+
+ * * * Your score just increased by 1 point.  * * *
+
+
+>score
+ In a total of 125 turns, you have achieved a score of 5 points out of a
+ possible 10.
+ This makes you A Shoddy Saturday Morning Cartoon.
+
+>SAVE
+>cf4
+ Saved.
+
+>look
+ Outside the Mine
+    You stand in the middle of a huge desert, north of a stand of
+ struggling trees and west of a deep cave.  As you stand staring into
+ the vast darkness that lies within the cavern, a strange smell on the
+ wind makes your nose twitch.  You pause for a moment and recognize it.
+ It's the smell of wealth.
+
+>go east
+
+ As you enter the mine, you hear a rumbling from deep within.  Suddenly,
+ a bump appears on the eastern edge of your vision.  It rapidly extends
+ itself west, becoming a thick ridge that runs out the door.
+
+ Inside the Mine
+    You are inside a vast cave that vanishes into darkess on all sides,
+ except for the entrance to the west.  The lush carpet of wealth
+ contained herein is enough to make even you, Elmo Fuld, millionaire,
+ gasp.  A narrow beam of sharp desert light flows in from outside and
+ reflects off a ruck of rubies, from where it bounces off into brood of
+ beryl, heads for a heap of heliotrope, crashes into a clot of
+ carnelian, hurries to a hunk of hyacinth, bashes into a battillion of
+ bloodstone, careens into a cohort of carbuncle, makes for a murmuration
+ of moonstone, and, completely zonked, catches some z's in a crowded
+ zareba of cubic zirconium.
+    You see a ancient lamp and a ridge in the ground running from east
+ to west here.
+
+>get lamp
+ Taken.
+
+>examine lamp
+ It's an oil lamp.  Through the thick tarnish that has covered the
+ lamp's bronze surface in the ages since it was created, you can see
+ intricate Arabian swirls, gracefully etched.
+
+>examine ridge
+ The ridge is a thick lump in the ground, running from east to west.
+
+>light lamp
+ There's no verb in that sentence!
+
+>rub lamp
+ You rub the lamp, removing a little bit of tarnish.  Nothing else
+ happens.
+
+>rub lamp
+ Nothing happens.
+
+ Suddenly, a thick plume of smoke bellows out of the mouth of the lamp.
+ When it clears, a magnificent genii stands before you.  He starts out
+ huge, with a massive purple turban crowning an Easter-Island-sized
+ head, and tapers down through his massive shoulders, his muscular
+ torso, his trim waist, his slender legs, his narrow knees, and his
+ pin-sized ankles, which are crammed into the mouth of the lamp above
+ which he floats.
+    "Sorry I'm a little late," he says.  "I was on another line.
+ Anyway, you've rescued me from my eternal prison, therefore I'm honor
+ bound to give you three wishes, yadda yadda yadda.  So, what do you
+ want?  Bet you were going to ask for a magic helmet, weren't you?"  He
+ tosses you one.  "This helmet gives you command of the east and west
+ winds.  Just say 'west winds, blow' or 'east winds, blow' and they'll
+ do so.  Neat, huh?  OK, what else do you want?  If you don't say
+ anything, I'll assume you don't want any more wishes and I'm free to go
+ about my business."  He pauses for an infinitesimal fraction of a
+ second.  "OK.  I guess you don't want anything.  Always a pleasure to
+ meet somebody so contented with his lot.  Ta ta."  In another puff of
+ smoke, he vanishes, leaving you clutching the helmet.
+
+ * * * Your score just increased by 1 point.  * * *
+
+
+>wear helmet
+ Okay, you're now wearing the magic helmet.
+
+>examine it
+ It looks like something out of a Wagner opera.
+
+>take jewels
+ As you reach down to pick up a gem off the huge pile, you recall
+ something your accountant said to you yesterday:  "Mr.  Fuld, right
+ now, you're in the nine-nine-point-nine-percent tax bracket.  If your
+ value increases by more than a thousand dollars before the end of the
+ fiscal year, you'll be in the one hundred percent bracket, and you'll
+ have to give everything you own to the government."  Since any one gem
+ in this mine would be worth several thousand at least, you realize that
+ your tax bracket prevents you from taking anything out of here (except
+ that obviously worthless old lamp).
+
+ Oooh, that rascally bracket!
+
+>look
+ Inside the Mine
+    You are inside a vast cave that vanishes into darkess on all sides,
+ except for the entrance to the west.  The lush carpet of wealth
+ contained herein is enough to make even you, Elmo Fuld, millionaire,
+ gasp.  A narrow beam of sharp desert light flows in from outside and
+ reflects off a ruck of rubies, from where it bounces off into brood of
+ beryl, heads for a heap of heliotrope, crashes into a clot of
+ carnelian, hurries to a hunk of hyacinth, bashes into a battillion of
+ bloodstone, careens into a cohort of carbuncle, makes for a murmuration
+ of moonstone, and, completely zonked, catches some z's in a crowded
+ zareba of cubic zirconium.
+    You see a ridge in the ground running from east to west here.
+
+>go east
+ You take a step into the vast darkness of the mine, but you realize
+ that, without a light source, you risk plummeting into an unseen shaft.
+ Better not risk it.
+
+>east winds, blow
+ The East Winds blow furiously for a moment, then subside.
+
+>light lamp
+ There's no verb in that sentence!
+
+>turn on lamp
+ I don't know how to turn the ancient lamp on.
+
+>go west
+ Outside the Mine
+    You stand in the middle of a huge desert, north of a stand of
+ struggling trees and west of a deep cave.  As you stand staring into
+ the vast darkness that lies within the cavern, a strange smell on the
+ wind makes your nose twitch.  You pause for a moment and recognize it.
+ It's the smell of wealth.
+    You see a ridge in the ground running from west to south here.
+
+>follow ridge
+ I don't know how to follow the ridge in the ground running from west to
+ south.
+
+>west winds blow
+>smell wealth
+ I don't understand that sentence.
+
+ I don't see any wealth here.
+
+>go south
+ The Edge of the Woods
+    The trees here are sparser, and the thick moss that covers the
+ ground seems to be fighting a losing battle with the desert that
+ approaches from the north and the west.  Paths lead east and southeast
+ back into the forest.  A large metal cage stands empty here.
+    You see a ridge in the ground running from north to east here.
+
+>go east
+ The Middle of the Woods
+    You are in a thick patch of towering redwoods.  A path leads west,
+ where the trees grow sparser, and south.  Looming over you to the north
+ is the tower in whose base you were so recently imprisoned.  From the
+ outside, you can see that the tower looks like a humungous carrot.
+
+ Oooooooh, you're going to get that rabbit.
+    You see a ridge in the ground running from west to south here.
+
+>go south
+ In the Woods
+    You are standing deep within the woods.  A thick roof of leaves
+ blocks most sunlight from entering, and a thick wall of treetrunks
+ blocks you from exiting in most directions.  You can squeeze through to
+ the north and the northwest, where the forest seems to grow less dense.
+ There's a hole in the ground, but it's too narrow for you to fit
+ through.
+    You see a ridge in the ground running from the south and ending in a
+ hole here.
+    Bud Bunny is here.
+
+ "It's so thoughtful of you not to have shot me yet," Bud says.  "I
+ could just kiss you."  He throws his furry arms around you, plants a
+ huge kiss on your lips, and then goes back to scrutinizing his map.
+
+>examine map
+ It's a large map of the United States, covered with an elaborate route
+ marked in purple crayon.
+
+>examine rotue
+ I don't know the word "rotue".
+
+>examine route
+ I don't know the word "route".
+
+>examine mud
+ I don't know the word "mud".
+
+>west winds, blow
+ The West Winds blow furiously for a moment, then subside.
+
+ "It's so thoughtful of you not to have shot me yet," Bud says.  "I
+ could just kiss you."  He throws his furry arms around you, plants a
+ huge kiss on your lips, and then goes back to scrutinizing his map.
+
+>examine bud
+ Like all rabbits, Bud is buck-toothed, big-eared, and roughly six feet
+ tall.
+
+>ask bud about left
+ I don't know the word "left".
+
+>shoot bud
+ As you raise the gun, Bud sticks his finger in the barrel.  "Sorry,
+ Doc, it's duck season."  Embarrassed, you lower the gun.
+
+>show sign to bud
+ Bud looks at the sign, blinks for a moment, and then says "If you'll
+ excuse me, I believe I've left a pot on the boil."  Before you can
+ react, he leaps in the air, executes a neat flip, and dives headfirst
+ into the hole."
+
+ * * * Your score just increased by 1 point.  * * *
+
+
+>score
+ In a total of 149 turns, you have achieved a score of 7 points out of a
+ possible 10.
+ This makes you A Handsome Hand-Drawn Animated Short.
+
+>go down
+ You can't go that way.
+
+>examine hole
+ It's a narrow dark hole.
+
+ Suddenly, like Venus arising from the waves, a vision of loveliness
+ pops out of the hole.  She has the largest curves, the sweetest breath,
+ and the merriest eyes you've ever seen, all combined into one
+ six-foot-tall package.  And, most attractive of all, the has a thick
+ mane of beautiful blond hair.  You are overcome with love and desire.
+ You can think of nothing better than wedding her and devoting the rest
+ of your life to making her happy, even if she does have buck teeth and
+ big floppy ears.  "Eh, what's up, dear?"  she asks, in a faintly
+ Southern lilt.
+
+>marry woman
+ I don't know the word "marry".
+
+>kiss bud
+ I don't see any bud here.
+
+>kiss woman
+ The woman slaps you.  "Not on the first date!"  she says.
+
+>kiss woman
+ The woman slaps you.  "Not on the first date!"  she says.
+
+>inventory
+ You have a hunting cap (being worn), a blindfold, a note, a gun, a
+ lettuce sandwich, a Hawaiian shirt (being worn), a baseball cap, a
+ cologne bottle, a wooden sign, a ancient lamp, and a magic helmet
+ (being worn).
+
+>ask woman for date
+ I don't know the word "date".
+
+>west wind, blow
+ The West Winds blow fiercely for a moment, setting the woman's
+ beautiful blond hair just a little bit askew.  You stare at it
+ suspiciously as you realize it may be a wig--but you decide that,
+ unless the hair comes off completely, you will trust your newfound
+ love.
+
+>east wind, blow
+ The East Winds blow fiercely, ripping the woman's beautiful blond hair
+ off entirely.  As it goes sailing off into the distance, you realize
+ with a shock that this vision of loveliness is none other than Bud
+ Bunny.  Oh, cruel, cruel fate!  Oh, to have love so near, then snatched
+ away!  Ooooh--in short-- that rascally rabbit!
+
+ * * * Your score just increased by 1 point.  * * *
+
+
+>shoot Bud
+ You lift the gun to shoot Bud.  He stands bravely at attention.  "Go
+ ahead, shoot me, Doc," he says.  "I don't deserve to live."  As you are
+ about to pull the trigger, a single tear cascades down his cheek,
+ smudging his mascara and making you hesitate for a moment, gun in
+ mid-air.
+
+>blindfold bud
+ There's no verb in that sentence!
+
+>score
+ In a total of 157 turns, you have achieved a score of 8 points out of a
+ possible 10.
+ This makes you An Oscar-Winning Animated Short.
+
+>shoot bud
+ You steel your nerve to pull the trigger.  "What are you waiting for,
+ Doc?"  Bud asks you.  "Just shoot.  Try not to think about the wife and
+ fifteen little ones whose lives depend on me."  You pause.  Can you
+ really make fifteen litte ones starve just so you can dine on
+ hasenpfefer?
+
+>shoot bud
+ All right.  This time you're going to do it.  As your finger tenses on
+ the trigger, Bud, who has been quietly sniffling, suddenly breaks out
+ into full fledged tears.  "Go ahead, Doc," he bawls.  "Put me out of my
+ misery.  Put a bullet in my brain.  Forget about all laws of human
+ kindness, I beg you, and shoot me.  What does it matter if you'll be
+ hated, mocked, ostracized, even, for shooting a helpless beast?  You'll
+ be doing me a favor.  Surely you're not so selfish as to condemn me to
+ a lifetime of guilt over my cruel trick just because you'll have to
+ endure a lifetime of humilation for shooting me."  You stop and
+ consider the image that Bud has painted for you.  Is a single meal
+ worth destroying your life?
+
+>yes
+ That was a rhetorical question.
+
+>shoot bud
+ Drat that rabbit!  He's just playing with your mind.  Well, you're
+ going to shoot him.  You close your eyes so you can't see his tears.
+ You pull down your hunting cap over your ears so you can't hear his
+ sobs.  You raise the gun and pull the trigger--but at that very moment,
+ the game warden runs up and knocks the gun out of your hands.  As you
+ open your eyes and stare at him in frustration, he shrugs.  "Sorry, Mr.
+ Fuld.  It's now roadrunner season.  If you had only fired a few minutes
+ earlier..."
+    "Bud's tears vanish in an instant.  "Sorry about that, Doc," he
+ says, grabbing your hand and shaking it wildly up and down.  "Better
+ luck next season.  Good luck hunting roadrunners.  Been a pleasure
+ doing business with you.  Ta ta.  Don't forget to write.  Don't let the
+ bedbugs bite.  Don't take any wooden nickles.  Look both ways before
+ crossing the street.  Say hi to the missus for me."  With that, he
+ strides off, leaving you to fume for yet another year.
+
+
+
+ * * * Your score just increased by 2 points.* * *
+
+ In a total of 161 turns, you have achieved a score of 10 points out of
+ a possible 10.
+ This makes you Worthy Of The Memory of Mel Blanc.
+ Thanks for visiting Toonesia.  Th-th-th-that's all, folks!
+
+
+ Well, what did you expect in a cartoon--a satisfying ending?
+
+>list b
+>load bandit
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ The grand ballroom is awhirl with colour and gaiety on this, the night
+ of the annual Governor's Ball. All of the choice mademoiselles are
+ spinning in their lace finery, bewitching upright young suitors, lined
+ up five deep to kiss a wrist.
+
+ The Kissing Bandit has other plans, though. First, he must be cautious.
+ Find a fetching femme who has parted from her company, to rest alone in
+ a shaded alcove. Or perhaps take a stroll on the veranda. Yes,
+ perhaps... ah, you twirl your moustaches with delight. The Kissing
+ Bandit shall have no trouble tonight finding a pair of pert lips, ready
+ for a stolen kiss...
+
+
+
+
+ [Hit return or space to continue.]
+>push space
+
+
+ The Tale of the Kissing Bandit
+ by Cary Valentino
+ Release 1 / Serial number 010210 / Inform v6.21 Library 6/10
+
+ Grand Ballroom, south side
+ The grand ballroom of the Emerson Hotel is a busy spin of high
+ society's young and old. The Warthingtons, the Worthingtons, the
+ Wellingtons (London and Boston branches), the Westons, the Wooltons,
+ the Whitestones...
+
+ Hmm, maybe the room is arranged alphabetically, you think. The upper
+ class loves hewing to arbitrary orders, almost by definition. It's up
+ to the Kissing Bandit to inject a note of blessed confusion to the
+ events.
+
+>twirl moustache
+ You twirl your moustaches. Ha-HA!
+
+>examine moustache
+ The moustache conceals your identity and adds a touch of melodrama to
+ the Kissing Bandit's appearance, you do think.
+
+ A lovely young demoiselle, looking in her ruffled ball gown like a
+ plenteous dish of peaches and whipped cream, parts from the general
+ company. Fanning herself, she retreats to the west.
+
+>examine me
+ Ha-HA! No one will ever guess the identity of the Kissing Bandit! Not
+ even... uh... yourself!
+
+>kiss me
+ The Kissing Bandit kiss himself? Preposterous!
+
+>examine wellingtons
+ Which do you mean, the London Wellingtons or the Boston Wellingtons?
+
+>london
+ Your gaze notes nothing remarkable about the London Wellingtons.
+
+>go west
+
+ Grand Ballroom, southwest corner
+ This corner of the ballroom is cool and shaded, with a russet portico
+ leading west to a series of private salons.
+
+ Young Peaches-and-Cream stands here, fanning herself lightly.
+
+>examine peaches
+ Why, it's little Lily Whitestone herself! She's chanced to escape the
+ plump pursed lips of the Kissing Bandit on other occasions... but no
+ one ever escapes your kisses for long!
+
+>greet lily
+ That verb is outside the Kissing Bandit's knowing.
+
+>inventory
+ You are carrying:
+   a black mask (being worn)
+   a fake moustache (being worn)
+   a pair of buckled boots (being worn)
+   a velvet cloak (being worn)
+   a rakish hat (being worn)
+   a locket (being worn and closed)
+   a grouch bag (being worn)
+
+>examine grouch
+ The grouch bag is special; a magician once gave it to you in return for
+ helping him escape from persecutors. It is small and light, made of
+ oiled leather. You have found that it can hold many things, including
+ your entire costume -- cloak, boots, and all.
+
+ You find nothing of interest.
+
+>tip hat
+ That verb is outside the Kissing Bandit's knowing.
+
+>examine hat
+ The rakish hat is becomingly sly.
+
+>tip hat
+ That verb is outside the Kissing Bandit's knowing.
+
+>lift hat
+ That verb is outside the Kissing Bandit's knowing.
+
+>raise hat
+ That verb is outside the Kissing Bandit's knowing.
+
+>doff hat
+ You take off the rakish hat.
+
+>wear it
+ You put on the rakish hat.
+
+>examine boots
+ Ah, these are magic boots, boots full of secrets. They allow the
+ Kissing Bandit to move swiftly and silently; to sneak and to steal
+ close without detection; to climb and jump like a jackrabbit; and to
+ run with the fleetness of quicksilver.
+
+>bow
+ That verb is outside the Kissing Bandit's knowing.
+
+>examine mask
+ The black mask protects your identity.
+
+>twirl moustache
+ You twirl your moustaches. Ha-HA!
+
+>dance
+ You dance in an intoxicated swirl for a few minutes, and then return,
+ laughing, to where you started.
+
+>dance with girl
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>look
+
+ Grand Ballroom, southwest corner
+ This corner of the ballroom is cool and shaded, with a russet portico
+ leading west to a series of private salons.
+
+ Lily Whitestone is here.
+
+>dance with lily
+ You dance in an intoxicated swirl for a few minutes, and then return,
+ laughing, to where you started.
+
+>kiss lily
+ You steal closer, closer, closer... and plant a juicy one right on her
+ gleaming rosebud lips! She makes a tiny squealing noise that stops
+ short, her lips tighten as her face pulls into a smile.
+
+ Lily Whitestone, a smiler -- imagine!
+
+ But, now it is time to flee. With a twirl of your cape and a bow, you
+ steal away into the night...
+
+
+ [Hit return or space to continue.]
+
+
+
+ Garden park
+ The luscious gardens, abloom in the early spring, send forth their
+ heady aromas on the nuzzling breezes. Aloft, too, are the erotic
+ perfumes of the finely dressed ladies in white, walking two by two in
+ the early eve, innocent as does, poised as summer swans.
+
+ A choice maiden sits alone on a bench, reading a steamy novel by
+ gaslight. Mwuhaha-HA! The Smooching Bandit has chosen his second of the
+ evening. A burning buss on those pink smackers will do, will surely
+ do...
+
+>examine novel
+ You recognise it at once, for it is penned by your own hand! A great,
+ passionate work, published under a pseudonym, of course. And here sits
+ one of your captive audience, immersed in the florid prose of Chapter
+ 10! If only she knew... ha-HA! If only she knew!
+
+>examine lips
+ Blushed and full... She bites them softly as she reads...
+
+>read novel
+ You recognise it at once, for it is penned by your own hand! A great,
+ passionate work, published under a pseudonym, of course. And here sits
+ one of your captive audience, immersed in the florid prose of Chapter
+ 10! If only she knew... ha-HA! If only she knew!
+
+>examine maiden
+ She is absorbed in the novel she is reading.
+
+>caress her
+ She is absorbed in the novel she is reading.
+
+>ask maiden about novel
+ The Kissing Bandit prefers to refrain from conversation, to preserve
+ the mystery...
+
+>take her from behind
+ She is absorbed in the novel she is reading.
+
+>taste lips
+ You taste nothing unexpected.
+
+>get book
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>get novel
+ That seems to belong to the maiden.
+
+>examine bench
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>examine gardens
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>examine gaslight
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>examine locket
+ The locket is made of carved gold, inlaid with delicate ornaments. You
+ can't see inside, since the locket is closed.
+
+>say to maiden "follow me"
+ I didn't understand that sentence.
+
+>open locket
+ Opening the locket reveals a silhouette and a tiny lock of brown hair.
+
+ Ah! Your heart breaks once again over your one true lost love! Fair
+ Marianne, twas you that spurned my love, flaming a fury that turned one
+ simple boy into this dashing rogue, that steals kisses by night! If
+ only I could find you...
+
+>examine silhouette
+ It is a silhouette of Marianne, the fair creature that broke your
+ heart. It is the only image you have of her. Even your memories of her
+ face have been blurred by tears.
+
+>examine lock
+ A lock of Marianne's hair. The gently curved strands catch the light in
+ autumn colours of brown, red, and gold.
+
+>kiss silhouette
+ You kiss the silhouette; it is, alas, a pale imitation. It leaves ashes
+ in your mouth.
+
+>kiss hat
+ The rakish hat isn't a proper target for the Kissing Bandit!
+
+>give locket to maiden
+ The maiden doesn't seem interested.
+
+>shout in maiden's lughole
+ (to the maiden)
+ That isn't something you can talk to.
+
+>dance
+ You dance in an intoxicated swirl for a few minutes, and then return,
+ laughing, to where you started.
+
+>kiss maiden
+ Ah, before the kiss, you must sneak! Sneak east, then around the tree,
+ then up from behind...
+
+>steal heart
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>sneak
+ You sneak east. The pale line of the maiden's neck glows in the
+ twilight. Perhaps the Kissing Bandit should kiss the neck, not the
+ lips? Ah...!
+
+ The Bandit stations himself sneakily behind a tree. The maiden stirs,
+ looks left and right, but not behind. Her head tilts down again, her
+ eyes on the page. The Bandit's eyes are on her shoulders, spilling down
+ their slopes. The benchwood blocks further views -- until a slight
+ movement reveals the slender crescent of her neck once again.
+
+ Time now to steal forward. The sneaking is the best part.
+
+>bite neck
+ That verb is outside the Kissing Bandit's knowing.
+
+>steal
+ (a kiss)
+ Where do you want to kiss her, on her graceful neck or on her rosy
+ lips?
+
+>lips
+ You lean around, catching her by surprise! Your mouths touch, but the
+ maiden resists! Your puckered lips frighten her, and why shouldn't
+ they?
+
+ "The Bandit! The Bandit!" she shrieks. So -- she has heard of the
+ Kissing Bandit! You cannot help but be flattered, and so you smile. At
+ the sight of your pearly teeth, the maiden gasps and takes off running
+ to the west.
+
+ You leap atop the bench and cry, "Ha-ha-HA! You cannot escape the
+ Kissing Bandit!"
+
+>undo
+ Garden park
+ [Previous turn undone.]
+
+>kiss neck
+ You lean in, but the maiden feels your hot breath on her neck and
+ whirls!
+
+ "The Bandit! The Bandit!" she shrieks. So -- she has heard of the
+ Kissing Bandit! You cannot help but be flattered, and so you smile. At
+ the sight of your pearly teeth, the maiden gasps and takes off running
+ to the west.
+
+ You leap atop the bench and cry, "Ha-ha-HA! You cannot escape the
+ Kissing Bandit!"
+
+>undo
+ Garden park
+ [Previous turn undone.]
+
+>sneak
+ You sneak up right behind the maiden. You are invisible to her! The
+ Kissing Bandit never betrays himself until the moment of the kiss...
+ the inevitable kiss...
+
+>kiss neck
+ You lean in, but the maiden feels your hot breath on her neck and
+ whirls!
+
+ "The Bandit! The Bandit!" she shrieks. So -- she has heard of the
+ Kissing Bandit! You cannot help but be flattered, and so you smile. At
+ the sight of your pearly teeth, the maiden gasps and takes off running
+ to the west.
+
+ You leap atop the bench and cry, "Ha-ha-HA! You cannot escape the
+ Kissing Bandit!"
+
+>go down on pretty maiden
+ I only understood you as far as wanting to go the floor.
+
+>go west
+ The maiden runs, but she is not too fast. Touching a secret button on
+ your lapel, the boots release hidden springworks, lending superhuman
+ fleetness to your stride.
+
+ The maiden looks behind, sees you gaining, and nearly swoons. Surely it
+ is your gleaming mustaches that frighten her! She recovers and runs to
+ the north, her hair shaking down into shimmering tresses.
+
+>go north
+ My, but this one is fast. "Hold, fair maiden! Must you fear the Kissing
+ Bandit? Ha-Ha-HA!" you shout.
+
+ The maiden cries, "Oh! Oh!" and races onward, north towards the tower.
+
+>go north
+ The maiden begins to climb the tower! Never has the Kissing Bandit
+ pursued such a worthy quarry! A simple twist of your boot buckles, and
+ the powerful magnets in the soles are activated. Climbing this tower
+ shall be no more trouble to the Kissing Bandit than walking, you smirk
+ to yourself.
+
+>climb tower
+ Indeed, this maiden is a superior athlete! You would be almost jealous
+ if her determination to escape were not so invigorating! You climb
+ swiftly, nearly reaching her flashing bare ankles... !
+
+ "Don't follow me!" she warns. So haughty, even now!
+
+>examine maiden
+ The maiden is just above you, scaling the tower with admirable speed!
+
+>climb tower
+ The maiden reaches the top of the tower! She stands full in the
+ moonlight, defiant. She kicks at your hands as you scale the last rungs
+ of the tower, but you anticipate, you dodge.
+
+ "There is nowhere for you to run now!" you say. "So here shall I steal
+ my gentle kiss...!"
+
+>kiss maiden
+ At the last moment, she turns her head, and your kiss lands her on the
+ cheek, hot breath from your nostrils puffing in her exposed ear. The
+ Kissing Bandit has struck again... Oops!
+
+ The maiden screams, a piercing whistle in your ear! She rubs her cheek
+ madly with her kerchief. "Gross! My cheek is all slobbery!" She shoves
+ at you, and you fall, you fall from the tower!
+
+ Is this the end for the Kissi--
+
+
+
+ [Hit return or space to continue.]
+>grab foot
+>undo
+>push space
+
+
+ OW.
+
+ You hit the ground at the base of the tower, winded but unhurt. The
+ maiden above says, "Harold Finster! I'm telling Miss Adams!" She leaps
+ off the tower and escapes into the night as the church tower rings.
+
+ You do not know who this Harold Finster is of which she speaks, but you
+ do recognise the name of your old adversary, Constable Adams! You must
+ escape, quickly!
+
+>look
+
+ Playground, tower base
+ The tower stands here, a protective cage of steel, sturdily erected in
+ the soil and gravel.
+
+>examine me
+ Ha-HA! No one will ever guess the identity of the Kissing Bandit! Not
+ even... uh... yourself!
+
+>inventory
+ You are carrying:
+   a black mask (being worn)
+   a fake moustache (being worn)
+   a pair of buckled boots (being worn)
+   a velvet cloak (being worn)
+   a rakish hat (being worn)
+   a locket (being worn and open)
+     a silhouette
+     a tiny lock of brown hair
+   a grouch bag (being worn)
+
+>climb tower
+ It is a different chase now, for hence the Kissing Bandit is the
+ quarry, and the law the pursuer!
+
+>hide
+ That verb is outside the Kissing Bandit's knowing.
+
+>run
+ You'll have to say which compass direction to go in.
+
+>go east
+ "Harold Finster!" Uh oh. It's Constable Adams! You climb inside the
+ bars of the tower where she can't get you. "No one can catch the
+ Kissing Bandit!" you bellow.
+
+ Miss Adams storms up. "Get out of there this minute, Harold. I'm not
+ kidding." She grabs you by the arm and pushes her face close to yours.
+ "If you don't come out in five seconds, I'm going to come in and carry
+ you out, and not necessarily in one piece!"
+
+ Her face, her skin, so lovely... perhaps the Kissing Bandit could
+ strike again, even now?
+
+>kiss constable adams
+ You lean through the bars and give her a big smack right on the gob.
+ Her eyes fly wide open, becoming two great orbs, beaming invisible rays
+ of heat death right at you. Good thing your special cloak protects you.
+
+ "That does it!" shouts a purpling Miss Adams. "Harold Finster, I don't
+ know what's gotten into you, but I've had complaints from at least
+ three girls today. You're going to the principal's office right now!"
+
+ Miss Adams pulls you out of the monkey bars drags you inside. The chief
+ constable has been waiting to catch the Smooching Bandit for years, and
+ now you're being delivered into his fiendish clutches. You'll be locked
+ in the detention tower for sure, but first, interrogation and torture.
+
+ You scoff. The Smooching Bandit can withstand anything for the sake of
+ a kiss... One day, he will be free to strike again!
+
+
+
+ [Hit return or space to continue.]
+
+
+ "Except then came the unkindest cut of all, a wound deep to the heart
+ of the Kissing Bandit! Something even he could not withstand! For
+ there, at the edge of the schoolyard, laughing at him, mocking him in
+ word an gesture, stood Mary Anne Mackelroy! Oh, surely the unkindest
+ cut of all!
+
+ 'He gives slobbery smooches,' she teased. 'And he always smells like
+ raisins. Eww!'
+
+ 'Ah, fair Marianne -- ' choked the Bandit as he was led away, his
+ spirit now broken. 'Marianne... '"
+
+
+ "And?" Jenny asks, looking at you like you're a little bit nuts.
+
+ "And, that's the end of the Tale of the Kissing Bandit," you say,
+ shrugging. You prop yourself up on one elbow to adjust your pillow. You
+ lie your head down on it, your goofy smile aimed at the ceiling.
+ "That's the end."
+
+>examine jenny
+ She looks lovely in this light. Her face is a little shiny, and her
+ hair is a bit tussled, but there's no denying the affect her warm smile
+ has on you tonight. Man, you're still as crazy about her as ever.
+
+ "That was stupid," Jenny says.
+
+ You're a little hurt by that. "No it wasn't!" you protest. "Besides,
+ what do you expect when you ask me to make something up off the top of
+ my head?"
+
+ "You were supposed to come up with something romantic."
+
+ "Well, I thought it was funny-romantic. And I liked the twist ending."
+
+ "Yeah, yeah, yeah," she says, "You and your twist endings."
+
+>twirl moustache
+ You can't see any such thing.
+
+>kiss jenny
+ "So," you say, as you give Jenny a little kiss. "Did you like my story
+ or not?"
+
+ "mmm," she says. "Kiss me again and I'll tell you."
+
+>kiss jenny
+ You give Jenny a better, longer kiss. She smiles. You chuckle.
+
+ "What's funny?" Jenny asks.
+
+ "You're a smiler, just like Lily Whitestone-- Ack!." She pokes you in
+ the ribs.
+
+ "Just kiss me again, or I'll really let you have it."
+
+>kiss jenny
+ You kiss for several minutes, finally breaking for some fresh air.
+ "Happy Valentine's Day," you say.
+
+ "Happy Valentine's Day," Jenny says. "I love you."
+
+ "I love you too," you say. "I adore you."
+
+ "That's so sweet," she says. "Thank you. And thank you for the story."
+ She sneaks across the room on tip-toes and blows out the candle.
+
+ It is now pitch dark in here!
+
+ Bedroom, in darkness (on the bed)
+ It's dark, and you can't see a thing except the faintly glowing outline
+ of the bedroom window shade, which is drawn shut.
+
+ You feel Jenny climb back onto the foot of the bed. She rubs her hands
+ on your legs. "Okay, my turn again," she says.
+
+ "Okay, your turn," you hear yourself echo.
+
+>kiss jenny
+ Nothing to do but wait.
+
+>wait
+ Nothing left to do. Time passes.
+
+ Jenny crawls higher.
+
+
+
+
+     *** SMOOCHIES ***
+
+
+ In that game you scored 0 out of a possible 0, in 60 turns.
+
+ Would you like to RESTART, RESTORE a saved game, see the author's end
+ NOTES or QUIT?
+>notes
+
+
+
+
+
+
+
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      Dedication
+      Enough already
+      The Kissing Bandit
+      Amusing
+      Apology
+
+
+
+
+
+
+
+
+ The Tale of the Kissing Bandit was written and programmed by J.
+ Robinson Wheeler. One of these days, it would be nice to actually take
+ enough time writing a game that I get to flesh it out as fully as
+ originally conceived.
+
+ If you enjoyed this game, I would love to hear from you. Send comments
+ and reports to rob.wheeler@stanfordalumni.org.
+
+
+
+ This Interactive Fiction is Copyright (C) 2001 by J. Robinson Wheeler.
+
+
+
+
+ [Please press SPACE.]
+
+
+
+
+
+
+
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      Dedication
+      Enough already
+      The Kissing Bandit
+      Amusing
+      Apology
+>go north
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Enough already
+      The Kissing Bandit
+      Amusing
+      Apology
+
+
+
+
+
+
+
+
+ To Emily Short, who passive-aggressively forced me to finish, even
+ though I had already decided I didn't have time to. The rather thin and
+ spotty implementation, empty rooms, and suchlike are to be blamed on
+ this mad, last-ditch effort to please.
+
+
+
+
+
+ [Please press SPACE.]
+
+
+
+
+
+
+
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Enough already
+      The Kissing Bandit
+      Amusing
+      Apology
+>go north
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Dedication
+      The Kissing Bandit
+      Amusing
+      Apology
+>push return
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Enough already
+      The Kissing Bandit
+      Amusing
+      Apology
+>go north
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Dedication
+      The Kissing Bandit
+      Amusing
+      Apology
+
+
+
+
+
+
+
+
+ Before I start getting slapped down for playing the Zarf homage/parody
+ card too many times, I'd just like to excuse myself this one last time
+ -- on the grounds that I did say, publically, that I thought the best
+ way to respond to SHADE would be to write a game that answered it.
+
+ That said, it was a bit of a shoe-horn job. Oh well. I bet someone out
+ there liked it enough to justify it, though.
+
+
+
+
+
+ [Please press SPACE.]
+
+
+
+
+
+
+
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Dedication
+      The Kissing Bandit
+      Amusing
+      Apology
+>go north
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Dedication
+      Enough already
+      Amusing
+      Apology
+
+
+
+
+
+
+
+
+ I have this dim memory of some character, or archetype, or somesuch,
+ called a kissing bandit. I really don't know what that is, or who it
+ was, or anything; thus, this is just my imagination at work. If anyone
+ knows anything about a real kissing bandit, I'd be curious to hear it.
+
+
+
+
+
+
+ [Please press SPACE.]
+
+
+
+
+
+
+
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Dedication
+      Enough already
+      Amusing
+      Apology
+>go north
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Dedication
+      Enough already
+      The Kissing Bandit
+      Apology
+
+
+
+
+
+
+
+
+ I'm not sure how much there is beyond what most players will happen
+ upon. Various special verbs are clued and implemented with ridiculous
+ numbers of synonyms and turns-of-phrase. For example, you can TIPTOE UP
+ CLOSE BEHIND someone, and then PLANT ONE ON HER.
+
+ One thing that was a happy accident, of a sort, that I found very
+ amusing: Go to the garden park (the quickest way to do this is to FLEE
+
+
+
+
+
+ [Please press SPACE.]
+
+
+
+
+
+
+
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Dedication
+      Enough already
+      The Kissing Bandit
+      Apology
+>go north
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Dedication
+      Enough already
+      The Kissing Bandit
+      Amusing
+
+
+
+
+
+
+
+
+ I realize that it's possible that the Kissing Bandit character and his
+ modus operandi might be offensive to someone. I tried my best to keep
+ it cartoony and light enough to be basically innocuous. Originally, the
+ character was called the Smooching Bandit, which was more obviously a
+ comic burlesque figure.
+
+ In any case, I'm sorry if I put anyone off.
+
+
+
+
+
+
+ [Please press SPACE.]
+
+
+
+
+
+
+
+
+ Author's end notes
+  N = next subjectP = previous
+  RETURN = read subject  Q = resume game
+
+
+      About the game
+      Dedication
+      Enough already
+      The Kissing Bandit
+      Amusing
+
+>q
+
+
+
+
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, see the author's end
+ NOTES or QUIT?
+>restart
+
+
+
+
+
+
+
+
+ The grand ballroom is awhirl with colour and gaiety on this, the night
+ of the annual Governor's Ball. All of the choice mademoiselles are
+ spinning in their lace finery, bewitching upright young suitors, lined
+ up five deep to kiss a wrist.
+
+ The Kissing Bandit has other plans, though. First, he must be cautious.
+ Find a fetching femme who has parted from her company, to rest alone in
+ a shaded alcove. Or perhaps take a stroll on the veranda. Yes,
+ perhaps... ah, you twirl your moustaches with delight. The Kissing
+ Bandit shall have no trouble tonight finding a pair of pert lips, ready
+ for a stolen kiss...
+
+
+
+
+ [Hit return or space to continue.]
+
+
+ The Tale of the Kissing Bandit
+ by Cary Valentino
+ Release 1 / Serial number 010210 / Inform v6.21 Library 6/10
+
+ Grand Ballroom, south side
+ The grand ballroom of the Emerson Hotel is a busy spin of high
+ society's young and old. The Warthingtons, the Worthingtons, the
+ Wellingtons (London and Boston branches), the Westons, the Wooltons,
+ the Whitestones...
+
+ Hmm, maybe the room is arranged alphabetically, you think. The upper
+ class loves hewing to arbitrary orders, almost by definition. It's up
+ to the Kissing Bandit to inject a note of blessed confusion to the
+ events.
+
+>flee
+ The Kissing Bandit grows suffocated by these surroundings! With a
+ dashing twirl of your cape, you turn and steal away into the night ...
+
+ [Hit return or space to continue.]
+
+
+
+ Garden park
+ The luscious gardens, abloom in the early spring, send forth their
+ heady aromas on the nuzzling breezes. Aloft, too, are the erotic
+ perfumes of the finely dressed ladies in white, walking two by two in
+ the early eve, innocent as does, poised as summer swans.
+
+ A choice maiden sits alone on a bench, reading a steamy novel by
+ gaslight. Mwuhaha-HA! The Smooching Bandit has at last chosen his first
+ of the evening. A burning buss on those pink smackers will do, will
+ surely do...
+
+>get it
+ (on with the maiden)
+ Good heavens! The Kissing Bandit's intentions stop at the innocent
+ kiss!
+
+>restart
+ Are you sure you want to restart?
+>yes
+
+
+
+
+
+
+
+
+ The grand ballroom is awhirl with colour and gaiety on this, the night
+ of the annual Governor's Ball. All of the choice mademoiselles are
+ spinning in their lace finery, bewitching upright young suitors, lined
+ up five deep to kiss a wrist.
+
+ The Kissing Bandit has other plans, though. First, he must be cautious.
+ Find a fetching femme who has parted from her company, to rest alone in
+ a shaded alcove. Or perhaps take a stroll on the veranda. Yes,
+ perhaps... ah, you twirl your moustaches with delight. The Kissing
+ Bandit shall have no trouble tonight finding a pair of pert lips, ready
+ for a stolen kiss...
+
+
+
+
+ [Hit return or space to continue.]
+
+
+ The Tale of the Kissing Bandit
+ by Cary Valentino
+ Release 1 / Serial number 010210 / Inform v6.21 Library 6/10
+
+ Grand Ballroom, south side
+ The grand ballroom of the Emerson Hotel is a busy spin of high
+ society's young and old. The Warthingtons, the Worthingtons, the
+ Wellingtons (London and Boston branches), the Westons, the Wooltons,
+ the Whitestones...
+
+ Hmm, maybe the room is arranged alphabetically, you think. The upper
+ class loves hewing to arbitrary orders, almost by definition. It's up
+ to the Kissing Bandit to inject a note of blessed confusion to the
+ events.
+
+>go south
+
+ Emerson Hotel, second floor
+ Vast crimson carpeting tongues outward from the mouth of the ballroom
+ portal and sprials slowly clockwise down the broad staircase to the
+ public lobby of the hotel.
+
+>go up
+ You can't go that way.
+
+>go north
+
+ Grand Ballroom, south side
+ The grand ballroom of the Emerson Hotel is a busy spin of high
+ society's young and old. Exits lead in all directions.
+
+ A lovely young demoiselle, looking in her ruffled ball gown like a
+ plenteous dish of peaches and whipped cream, parts from the general
+ company. Fanning herself, she retreats to the west.
+
+>go south
+
+ Emerson Hotel, second floor
+ Vast crimson carpeting tongues outward from the mouth of the ballroom
+ portal and sprials slowly clockwise down the broad staircase to the
+ public lobby of the hotel.
+
+>go down
+ It would be wise to remove your disguise before you attempt to leave
+ through the hotel's front doors.
+
+>go east
+ You can't go that way.
+
+>go west
+ You can't go that way.
+
+>go north
+
+ Grand Ballroom, south side
+ The grand ballroom of the Emerson Hotel is a busy spin of high
+ society's young and old. Exits lead in all directions.
+
+>go up
+ You can't go that way.
+
+>go north
+ You dance in an intoxicated swirl for a few minutes, and then return,
+ laughing, to where you started.
+
+>go east
+
+ Grand Ballroom, southeast corner
+ This corner of the ballroom is warm and redolent of potent beverages,
+ which are being served behind a mirrored bar. Sulty night air from the
+ open veranda doors to the north gives the area a dreamlike feel.
+
+>examine bar
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>examine beverages
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>go west
+
+ Private salons
+ This slightly curved parlour room with gold, ornamented wallpaper and
+ settees with silk pillows provides an intermediate sitting area, bathed
+ in yellow candlelight. Seating is plentiful, and a set of private salon
+ doors lead northwest and west. A doorless portal leads north. The door
+ to the west is closed; the other is open.
+
+>look behind bar
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>go north
+
+ Smoking room
+ The curt spice of Turkish tobacco raids your senses and leaves them
+ stinging. The ceiling is sooty from years of cigar and cigarette smoke,
+ as are the paintings -- one of which has recently been moved, revealing
+ a rectangular outline of a cleaner, lighter wall behind. Old books,
+ charged with acidic odours, stand yellowing on ceiling-high bookcases.
+ Large, masculine furnishings form a circle in the center of the room. A
+ short, camouflaged door lies uniquely hidden between two of the
+ bookcases on the east wall.
+
+>examine books
+ There are many books here. You have no interest in taking any --
+ neither a borrower nor a lender be, after all. You content yourself to
+ scan the shelves, as if browsing in a bookstore.
+
+>search books
+ Your eye alights on a volume titled, "Mende Thy Wicked Waies" by the
+ Rev. E. Arthur Shropshire.
+
+>read book
+ Your gaze falls on a novel called, "Journey to Damascus" by Marcus T.
+ Parella.
+
+>read journey
+ What do you want to read in?
+
+>books
+ You discover nothing of interest in the books.
+
+>read books
+ Your eye picks out a book titled, "Of Opticks and the Grinding of
+ Lenses" by Otto Seymour.
+
+>get opticks
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>read books
+ Your gaze falls on a rare scientific volume detailing the mating habits
+ of small rodents.
+
+>read books
+ Your eye picks out a volume called, "From Alpha to Omega: A Theological
+ History" by Onislav Woczyknikzi.
+
+>examine wall
+ (the cleaner rectangle)
+ The lighter surface of the wall has been revealed partially behind the
+ watercolour painting.
+
+>examine painting
+ There are four paintings: two portraits, a still life, and a
+ watercolour landscape.
+
+>get it
+ That's hardly portable.
+
+>read books
+ You come across a tome titled, "Essentials of Living" by Emerson Frost
+ and Walter Pratt.
+
+>feel wall
+ (the cleaner rectangle)
+ You feel nothing unexpected.
+
+>read read books
+ What do you want to read in?
+
+>read books
+ Your eye picks out a book on the subject of European cheesemakers in
+ the fourteenth through sixteenth centuries.
+
+>look behind bookcase
+ There's nothing of interest behind the books.
+
+>read books
+ Your eye alights on a volume concerning European cheesemakers in the
+ seventeenth and eighteenth centuries.
+
+>read books
+ Your gaze falls on a novel called, "L'Alsace" by Guy Trintignant.
+
+>read books
+ You come across a tome entitled, "Discoveries in Human Anatomy" by
+ Charles Edmund Hawthorne, Percy C. Blake and Daniel Merriwether.
+
+>read books
+ Your eye picks out a volume called, "How to Host a Dinner Party" by K.
+ Somerset.
+
+>read books
+ Your eye alights on a volume titled, "Joy of Life, Pain of Death" by
+ Nathan Feinberg.
+
+>read books
+ You come across a tome dedicated to the study of apian migratory
+ patterns.
+
+>read books
+ Your gaze falls on a book titled, "Lancaster, Leominster, and
+ Leicester" by L. Lawrence Lilly.
+
+>read books
+ You come across a volume on the subject of Mediterranean shipping
+ channels.
+
+>read books
+ Your eye picks out a volume titled, "Take a Holiday" by John McCormack.
+
+>read books
+ You come across a tome titled, "Papacy in the Middle Ages" by Nathan
+ Pendleton and Franklin Cromwell.
+
+>read books
+ Your eye alights on a biography of Martin Luther.
+
+>read books
+ Your gaze falls on a novel titled, "Odin's Blood" by Gerard Holbrook.
+
+>move painting
+ Those are fixed in place.
+
+>read books
+ Your eye picks out a book titled, "Keeper of the Flame" by Reginald
+ Tuchs.
+
+>read books
+ Your gaze falls on a book on the subject of stone age tools and
+ weaponry.
+
+>read books
+ Your eye picks out a volume called, "Vesuvius" by Carl Raft.
+
+>read books
+ Your eye alights on a book titled "A Critical Guide to Modern
+ Shakespeare" by Orson Stonecraft.
+
+>read books
+ Your eye alights on a volume titled, "The Compleat Francis Bacon" by
+ Thomas G. King.
+
+>read books
+ You come across a volume concerning Da Vinci's unfinished horse
+ sculpture.
+
+>read books
+ You come across a volume called, "Raphael and Titian" by Marcus Polsky.
+
+>read books
+ Your gaze falls on a novel titled "Fishers of Men" by Hilton Edward
+ James.
+
+>read books
+ Your gaze falls on a book on the subject of eel fishing.
+
+>read books
+ Your eye picks out a volume titled, "The Discoveries of Tycho Brahe,
+ Volume II" by Francis M. Grant and R. M. McKellen.
+
+>read books
+ You come across a volume on the subject of gastronomy.
+
+>read books
+ Your eye alights on a volume on the subject of the steam engines.
+
+>read books
+ You come across a volume called, "A Practical Guide to Lockpicking" by
+ George Mason.
+
+>read books
+ You come across a volume concerning Shakespeare's history plays.
+
+>read books
+ Your eye picks out a book titled, "Mozart and Freemasonry" by Casper
+ Peabody.
+
+>read books
+ Your eye alights on a book titled, "Gutenberg's Printing Press" by
+ Harrison Alexander.
+
+>read books
+ You come across a volume on the subject of animal husbandry.
+
+>read books
+ Your gaze falls on a book on the subject of sainthood in the early
+ Christian church.
+
+>read books
+ Your eye picks out a book titled, "Avalanche of Reason: The Era of
+ Enlightened Thinking" by Dr. David A. Kelly.
+
+>read books
+ Your eye alights on a book on the subject of Cambridge University.
+
+>read books
+ Your eye picks out a volume called, "The Less One Knows" by Edward
+ Newton.
+
+>read books
+ Your eye picks out a volume titled, "The Edge of the Earth: The Voyages
+ of Magellan" by Percival MacManus.
+
+
+ Smoking room
+ The curt spice of Turkish tobacco raids your senses and leaves them
+ stinging. The ceiling is sooty from years of cigar and cigarette smoke,
+ as are the paintings -- one of which has recently been moved, revealing
+ a rectangular outline of a cleaner, lighter wall behind. Old books,
+ charged with acidic odours, stand yellowing on ceiling-high bookcases.
+ Large, masculine furnishings form a circle in the center of the room. A
+ short, camouflaged door lies uniquely hidden between two of the
+ bookcases on the east wall.
+
+>go east
+ You can't, since the door is in the way.
+
+>open door
+ You open the door.
+
+>go east
+
+ Grand Ballroom, west side
+ This side of the ballroom is much cooler than the other, although there
+ is not much circulation of the air.
+
+ A thick, forest-green drapery conceals a small private door --
+ perfectly concealed to all but the trained eyes of the Kissing Bandit.
+
+ The door leads west out of the ballroom.
+
+>go west
+
+ Smoking room
+ The curt spice of Turkish tobacco raids your senses and leaves them
+ stinging. The ceiling is sooty from years of cigar and cigarette smoke,
+ as are the paintings -- one of which has recently been moved, revealing
+ a rectangular outline of a cleaner, lighter wall behind. Old books,
+ charged with acidic odours, stand yellowing on ceiling-high bookcases.
+ Large, masculine furnishings form a circle in the center of the room.
+ The door to the ballroom is open to the east.
+
+>examine wall
+ (the cleaner rectangle)
+ The lighter surface of the wall has been revealed partially behind the
+ watercolour painting.
+
+>push wall
+ (the cleaner rectangle)
+ You are unable to.
+
+>touch wall
+ (the cleaner rectangle)
+ You feel nothing unexpected.
+
+>search wall
+ (the cleaner rectangle)
+ You find nothing of interest.
+
+ (the cleaner rectangle)
+ Violence isn't the answer to this one.
+
+>kick wall
+ (the cleaner rectangle)
+ Save it for the bugs.
+
+>look under bookcase
+ You find nothing of interest.
+
+>examine paintings
+ There are four paintings: two portraits, a still life, and a
+ watercolour landscape.
+
+>move portrait
+ Which do you mean, the portrait of an imperious old gentleman or the
+ portrait of a handsome woman?
+
+>imperious
+ It is fixed in place.
+
+>examine it
+ The gentleman has moustaches rivaling yours, only his are naturally
+ grown. White-haired, face creased with wise lines, cupping a
+ pocketwatch with one hand and a walking stick in the other, he is
+ clearly a man of worldly accomplishment and power.
+
+>handsome
+ That verb is outside the Kissing Bandit's knowing.
+
+>look behind imperious
+ There's nothing of interest behind the portrait of an imperious old
+ gentleman.
+
+>examine handsome
+ Not just any woman do you consider handsome; this one you verily do. In
+ her frocks and blouse, velvet and silk, steely posture, square chin
+ upthrust, eyes lightly lidded, black hair immaculately fitted into a
+ bun with not a single stray strand, she bespeaks of primness,
+ prudishness, probity, and virtue. At the same time, she looks as if she
+ were probably sour company, but it is often difficult to judge a person
+ by their painted portrait; the artist always lends his own bias to the
+ character. Artists, after all, must make choices in order to make art.
+
+>kiss handsome
+ The portrait of a handsome woman isn't a proper target for the Kissing
+ Bandit!
+
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>pucker lips
+ That verb is outside the Kissing Bandit's knowing.
+
+>pucker up
+ That verb is outside the Kissing Bandit's knowing.
+
+>make kissy faces
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>imagine angelina jolie
+ That verb is outside the Kissing Bandit's knowing.
+
+>inventory
+ You are carrying:
+   a black mask (being worn)
+   a fake moustache (being worn)
+   a pair of buckled boots (being worn)
+   a velvet cloak (being worn)
+   a rakish hat (being worn)
+   a locket (being worn and closed)
+   a grouch bag (being worn)
+
+>put fake moustache on portrait
+ Which do you mean, the portrait of an imperious old gentleman or the
+ portrait of a handsome woman?
+
+>examine bag
+ The grouch bag is special; a magician once gave it to you in return for
+ helping him escape from persecutors. It is small and light, made of
+ oiled leather. You have found that it can hold many things, including
+ your entire costume -- cloak, boots, and all.
+
+ You find nothing of interest.
+
+>remove mask
+ You take off the black mask.
+
+>remove all
+ door: That's hardly portable.
+ smoky odours: Physically impossible, even for the Kissing Bandit.
+ cleaner rectangle: That's hardly portable.
+ sooty ceiling: That's hardly portable.
+ paintings: They're hardly portable.
+ portrait of an imperious old gentleman: That's hardly portable.
+ portrait of a handsome woman: That's hardly portable.
+ still life: That's hardly portable.
+ watercolour landscape: That's hardly portable.
+ books: They are curiosities of this moment only; none are worth taking.
+
+>doff all
+ You can't use multiple objects with that verb.
+
+>examine ceiling
+ (the sooty ceiling)
+ It is an ugly but otherwise unnoteworthy blackening.
+
+>smell odour
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>doff hat
+ You take off the rakish hat.
+
+>smell odours
+ You smell aged cigar and cigarette smoke.
+
+>clean ceiling
+ (the sooty ceiling)
+ The sooty ceiling looks a little cleaner now.
+
+>doff moustache
+ You take off the fake moustache.
+
+>examine ceiling
+ (the sooty ceiling)
+ It is an ugly but otherwise unnoteworthy blackening.
+
+>doff cloak
+ You take off the velvet cloak.
+
+>inventory
+ You are carrying:
+   a black mask
+   a fake moustache
+   a pair of buckled boots (being worn)
+   a velvet cloak
+   a rakish hat
+   a locket (being worn and closed)
+   a grouch bag (being worn)
+
+>doff boots
+ You take off the pair of buckled boots.
+
+>doff locket
+ You take off the locket.
+
+>put all in bag
+>throw the locket to the dogs
+ black mask: That can't contain things.
+ fake moustache: That can't contain things.
+ pair of buckled boots: That can't contain things.
+ velvet cloak: That can't contain things.
+ rakish hat: That can't contain things.
+ locket: That can't contain things.
+ wrist: That can't contain things.
+
+ I only understood you as far as wanting to throw the locket.
+
+>examine me
+ Ha-HA! No one will ever guess the identity of the Kissing Bandit! Not
+ even... uh... yourself!
+
+ Opening the locket reveals a silhouette and a tiny lock of brown hair.
+
+ Ah! Your heart breaks once again over your one true lost love! Fair
+ Marianne, twas you that spurned my love, flaming a fury that turned one
+ simple boy into this dashing rogue, that steals kisses by night! If
+ only I could find you...
+
+>remove disguise
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>unbuckle boots
+ That verb is outside the Kissing Bandit's knowing.
+
+>examine wrist
+ The Kissing Bandit is not interested in wrists at the moment.
+
+>look mirror
+ I only understood you as far as wanting to look.
+
+>quit game
+ I only understood you as far as wanting to quit.
+
+>get excited
+ That either isn't here, or is unimportant to the Kissing Bandit.
+
+>blindfold maiden
+ That verb is outside the Kissing Bandit's knowing.
+
+>go east
+
+ Grand Ballroom, west side
+ This side of the ballroom is much cooler than the other, although there
+ is not much circulation of the air. A thick drapery conceals a small
+ private door to the west.
+
+>go south
+
+ Grand Ballroom, southwest corner
+ This corner of the ballroom is cool and shaded, with a russet portico
+ leading west to a series of private salons.
+
+ Young Peaches-and-Cream stands here, fanning herself lightly.
+
+>go south
+ You can't go that way.
+
+>go west
+
+ Private salons
+ This slightly curved parlour room with gold, ornamented wallpaper and
+ settees with silk pillows provides an intermediate sitting area, bathed
+ in yellow candlelight. Seating is plentiful, and a set of private salon
+ doors lead northwest and west. A doorless portal leads north.
+
+>go south
+ You can't go that way.
+
+>go east
+
+ Grand Ballroom, southwest corner
+ This corner of the ballroom is cool and shaded, with a russet portico
+ leading west to a series of private salons.
+
+ Young Peaches-and-Cream stands here, fanning herself lightly.
+
+>go east
+
+ Grand Ballroom, south side
+ The grand ballroom of the Emerson Hotel is a busy spin of high
+ society's young and old. Exits lead in all directions.
+
+>go south
+
+ Emerson Hotel, second floor
+ Vast crimson carpeting tongues outward from the mouth of the ballroom
+ portal and sprials slowly clockwise down the broad staircase to the
+ public lobby of the hotel.
+
+>go down
+ You descend the broad staircase, and escape into the night!
+
+
+ [Hit return or space to continue.]
+
+
+
+ Garden park
+ The luscious gardens, abloom in the early spring, send forth their
+ heady aromas on the nuzzling breezes. Aloft, too, are the erotic
+ perfumes of the finely dressed ladies in white, walking two by two in
+ the early eve, innocent as does, poised as summer swans.
+
+ A choice maiden sits alone on a bench, reading a steamy novel by
+ gaslight. Mwuhaha-HA! The Smooching Bandit has at last chosen his first
+ of the evening. A burning buss on those pink smackers will do, will
+ surely do...
+
+>kiss wrist
+ The Kissing Bandit did not put himself at risk tonight for the sake of
+ a mere kiss on a wrist!
+
+>quit
+ Are you sure you want to quit?
+>yes

@@ -1,0 +1,1351 @@
+>load jabberwocky
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ [pausing to show unread error message]
+
+
+
+
+
+
+
+
+                          Intro to Jabberwocky
+
+
+                    [Please press SPACE to continue.]
+
+
+
+
+
+
+
+
+ What a bother. Father says that some thing has happened to all of your
+ family's animals, all at the same time, and he's sent you out to care
+ for them, almost before brillig. Oh, well. It should be a quick job,
+ and then you can eat breakfast and relax.
+
+ INTRO TO JABBERWOCKY
+ The First Stanza of an Interactive Poem
+ Copyright (c) 2004 by Gregory Weir
+ Type HELP for credits, information, and assistance.
+ Release 1 / Serial number 040714 / Inform v6.30 Library 6/11 S
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+ A worn tablet lies here, half-buried in the sand.
+
+>take tablet
+ You pull the tablet from the sand, shaking the fine white grains from
+ its stony surface.
+
+>examine tabler
+ You can't see any such thing.
+
+>examine tablet
+ The tablet is made of some sort of worn stone, pitted and etched by
+ the elements. In the upper left corner is the Roman numeral I. Below,
+ there is a pattern of lines and letters, like so:
+
+ 'Twas brillig, ___ ___ ______ _____
+ ___ ____ ___ ______ __ ___ ____:
+ ___ _____ ____ ___ _________,
+ ___ ___ ____ _____ ________.
+
+>examine enclosure
+ The borogove enclosure lies to the north.
+
+ The wabe could be called a sea, except that instead of being composed
+ of water, it's composed of a rose-colored mist. The mist is quite
+ dense, and almost acts like a liquid. Instead of forming waves,
+ however, it forms tiny clouds of fog that slowly drift back into the
+ main body of mist.
+
+>examine structure
+ The tove corral lies to the south.
+
+>listen to toves
+ The toves are making their sad cries.
+
+>go west
+ That wouldn't be a good idea. It's not that you can't swim, it's just
+ that the wabe isn't made up of water, but of mist that's mildly
+ poisonous to humans.
+
+>drink wabe
+ There's nothing suitable to drink here.
+
+>go north
+
+ Borogove Enclosure
+ They call it "chicken wire," but you don't get many chickens around
+ here. You and your dad use it to keep in your borogoves. The wire is
+ stretched between sturdy wooden posts sunk deep into the sand of the
+ shore. Inside the wire, the borogoves skitter around, looking very
+ agitated.
+
+ The tablet shivers in your hands.
+
+>examine suns
+ The suns have recently risen in the west, and they're at the point
+ called "brillig," where they're level with each other in the sky.
+ Soon, the smaller, faster sun will pull ahead of the larger.
+
+>wave wabe
+ But you aren't holding that.
+
+>examine tablet
+ The tablet is made of some sort of worn stone, pitted and etched by
+ the elements. In the upper left corner is the Roman numeral I. Below,
+ there is a pattern of lines and letters, like so:
+
+ 'Twas brillig, ___ ___ ______ _____
+ ___ ____ ___ ______ __ ___ ____:
+ ___ _____ were the borogoves,
+ ___ ___ ____ _____ ________.
+
+>examine borogroves
+ (assuming you mean "borogoves")
+ Borogoves are very odd creatures. Their meat is surprisingly tasty,
+ considering their appearance: their body is spherical, perhaps as
+ large as a beach ball, and six long, thin, insectile legs protrude
+ from the equator of their body. They have two small, stubby, antennae,
+ and a dish-shaped organ at the top of their head that allows them to
+ "see" the world around them using a type of echolocation called
+ mimsing. However, at the moment they are in a panic, not at all mimsy.
+ They blindly bump against the wire fence around the pen. The cause of
+ their disturbance is obvious: one of them seems to be badly hurt, and
+ lies motionless in the center of the pen. Beware, though; they can
+ still smell you, and in their confusion, they seem to classify you as
+ a threat. You'll have to get rid of the wounded animal or else they'll
+ never calm down.
+
+>inventory
+ You are carrying:
+   a worn tablet
+
+>examine me
+ Young, polite, and capable, or at least you like to think so.
+
+>examine wounded borogove
+ Borogove blood could more accurately be called "ichor." It's slick,
+ black stuff, and it coats the exoskeleton of this borogove. The
+ creature seems to have been ripped apart by huge claws. It still
+ twitches, but the movement is most likely a reflex. If the creature
+ isn't dead now, it will be soon. You'd better get it out of the
+ enclosure, or the rest of the borogoves will hurt themselves in the
+ panic.
+
+>take wounded borogove
+ It's too far away to reach.
+
+>look
+
+ Borogove Enclosure
+ They call it "chicken wire," but you don't get many chickens around
+ here. You and your dad use it to keep in your borogoves. The wire is
+ stretched between sturdy wooden posts sunk deep into the sand of the
+ shore. Inside the wire, the borogoves skitter around, looking very
+ agitated.
+
+ There is a hurt borogove inside the enclosure.
+
+>go south
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+>go south
+
+ Tove Corral
+ It took you and your father an entire week to build this enclosure,
+ but it was worth the effort: not one of your family's toves has ever
+ been attacked in the night. The corral has four sturdy walls and a
+ slate roof, but the bottom is open. This allows the rose-colored mist
+ from the wabe in, which in turn keeps your toves alive. During the
+ night, they're kept in by the half-submerged door, which is held
+ closed by a nice secure latch. You stand on a catwalk affixed to one
+ wall, and little tendrils of fog waft up between the catwalk's metal
+ bars.
+
+ Your family's toves drift around aimlessly. For some reason, they're
+ not in very good health.
+
+ You can also see a skimmer here.
+
+ The tablet shivers in your hands.
+
+>examine tablet
+ The tablet is made of some sort of worn stone, pitted and etched by
+ the elements. In the upper left corner is the Roman numeral I. Below,
+ there is a pattern of lines and letters, like so:
+
+ 'Twas brillig, and the slithy toves
+ ___ ____ ___ ______ __ ___ ____:
+ ___ _____ were the borogoves,
+ ___ ___ ____ _____ ________.
+
+>examine toves
+ Toves are strange creatures, diaphanous and billowing. Their bodies
+ are hollow and tube-shaped, with long, thin tentacles arranged in a
+ ring around their "mouth". These toves, of course, are tame, but a
+ wild tove could latch on to your arm and dissolve it to the bone.
+ Usually, they'd be gyring and gimbling, but they seem sick. They just
+ drift aimlessly around the pen, their tentacles limp. They seem to be
+ having trouble breathing the mist inside the corral.
+
+>take skimmer
+ Taken.
+
+>examine skimmer
+ This tool allows you to skim insects and debris from the tove corral.
+ It's a detachable net attached to a threaded metal pole.
+
+>examine pole
+ This long metal pole has a specially threaded socket in the end to
+ allow you to affix various attachments.
+
+>examine net
+ This is a net, with one end specially threaded to fit into its pole.
+
+>go north
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+>go north
+
+ Borogove Enclosure
+ They call it "chicken wire," but you don't get many chickens around
+ here. You and your dad use it to keep in your borogoves. The wire is
+ stretched between sturdy wooden posts sunk deep into the sand of the
+ shore. Inside the wire, the borogoves skitter around, looking very
+ agitated.
+
+ There is a hurt borogove inside the enclosure.
+
+>take wounded with skimmer
+ The net on the skimmer is too small to fit around the wounded
+ borogove, and if you caught on to any of its legs, they'd just pull
+ off.
+
+>s then e
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+ In Front of House
+ You feel happy here in front of your house. The coat of white paint on
+ the house was recently retouched, and your father has planted flowers
+ in the window boxes. You can hear the mournful calling of the toves in
+ the wabe to the west, and there are bare paths worn into the dirt
+ around the corners of the house to the northeast and southeast.
+
+>examine flowers
+ The windowboxes are filled with wildflowers.
+
+>smell flowers
+ You smell nothing unexpected.
+
+>examine house
+ Your house is a bit large for just you and your father. It's two
+ stories tall, plus an attic and a basement, and your father just
+ repainted it last week.
+
+>examine grass
+ To the west, a path leads down to the beach. There are also paths
+ leading around the house to the northeast and southeast.
+
+>examine door
+ It's the front door to your house.
+
+>open door
+ That's not something you can open.
+
+>in
+ You'd better finish all your chores before you go inside.
+
+>look northeast
+ You see nothing unexpected in that direction.
+
+>look
+
+ In Front of House
+ You feel happy here in front of your house. The coat of white paint on
+ the house was recently retouched, and your father has planted flowers
+ in the window boxes. You can hear the mournful calling of the toves in
+ the wabe to the west, and there are bare paths worn into the dirt
+ around the corners of the house to the northeast and southeast.
+
+>go northeast
+
+ North of House
+ This is a small grassy area, mostly occupied by the pen for your
+ family's raths. The pen is made of wickerwork, widely spaced, allowing
+ light and air to pass through while keeping the raths in.
+
+ The pen is closed. You can see something inside.
+
+>examine pen
+ The pen is carefully woven from strips of wood to form a cage large
+ enough for a man to stand in. This allows the raths to exercise their
+ wings without any danger of them escaping. Strangely enough, the cage
+ seems to have scratches on the outside.
+
+ The pen is closed.
+
+>look in pen
+ In the rath pen are a blue mome rath, a red mome rath and a rope
+ hanging from the ceiling.
+
+>examine scratches
+ The wickerwork of the pen seems to have been gouged by some sort of
+ blade... or perhaps enormous claws.
+
+>examine rope
+ It's the rope that is used to hold up Red's favorite toy. The raths
+ love playing with it.
+ On the rope is a hook, on which is Red's toy.
+
+>examine hook then x toy
+ This hook is used to hold Red's favorite toy. It's originally a tool
+ for removing debris from the tove corral, so it has a threaded end to
+ allow it to attach to a metal pole.
+ On the hook is Red's toy.
+ The mome rath Red's favorite toy is a fuzzy stuffed egg. All you have
+ to do is show it to him and he'll cuddle it for hours. It's hanging on
+ its hook.
+
+>examine red then x blue
+ Mome raths are generally friendly birds, and Red's no exception. He's
+ always nice to you, unlike his sister Blue. At the moment, he's
+ panicking, flying around in a blind panic, bumping into the wicker
+ walls of the pen. He's so panicked, he's not even outgribing.
+ Mome raths are generally friendly birds, but Blue's always been a bit
+ wary of humans. Sure, she'll accept food, but she's nowhere near as
+ affectionate as her brother Red; you usually have to treat her a bit
+ rougher. At the moment, she's panicking, flying around in a blind
+ panic, bumping into the wicker walls of the pen. She's so panicked,
+ she's not even outgribing.
+
+>get toy
+ The rath pen isn't open.
+
+>enter pen
+ You can't get into the closed rath pen.
+
+>open it
+ You open the rath pen.
+
+>enter it
+ You get into the rath pen.
+
+ North of House (in the rath pen)
+ This is a small grassy area, mostly occupied by the pen for your
+ family's raths. The pen is made of wickerwork, widely spaced, allowing
+ light and air to pass through while keeping the raths in.
+
+ Light filters in through the holes in the woven walls. Twin perches
+ hang opposite each other in the pen. The door stands wide open.
+
+ The mome rath named Blue flaps wildly inside the pen.
+
+ The mome rath named Red flutters around the pen in a panic.
+
+ Inside the pen is a rope hanging from the ceiling, on which is a hook,
+ on which is Red's toy.
+
+ The tablet shivers in your hands.
+
+>close it
+ That's not something you can close.
+
+>examine tablet
+ The tablet is made of some sort of worn stone, pitted and etched by
+ the elements. In the upper left corner is the Roman numeral I. Below,
+ there is a pattern of lines and letters, like so:
+
+ 'Twas brillig, and the slithy toves
+ ___ ____ ___ ______ __ ___ ____:
+ ___ _____ were the borogoves,
+ and the mome raths ________.
+
+>close pen
+ You close the rath pen.
+
+>examine perches
+ There are two wooden perches hanging from the ceiling of the pen.
+
+>get toy
+ Taken.
+
+>give toy to red
+ You wave the toy in front of Red, and he swoops down and snatches it
+ out of your hands. He lands on his perch and plays with it. He begins
+ to outgribe, making the cooing noises that the birds use to
+ communicate over long distances.
+
+>take hook
+ Taken.
+
+>take rope
+ That's fixed in place.
+
+>examine blue
+ Mome raths are generally friendly birds, but Blue's always been a bit
+ wary of humans. Sure, she'll accept food, but she's nowhere near as
+ affectionate as her brother Red; you usually have to treat her a bit
+ rougher. At the moment, she's panicking, flying around in a blind
+ panic, bumping into the wicker walls of the pen. She's so panicked,
+ she's not even outgribing.
+
+>look
+
+ North of House (in the rath pen)
+ This is a small grassy area, mostly occupied by the pen for your
+ family's raths. The pen is made of wickerwork, widely spaced, allowing
+ light and air to pass through while keeping the raths in.
+
+ Light filters in through the holes in the woven walls. Twin perches
+ hang opposite each other in the pen. The door is latched shut.
+
+ The mome rath named Blue flaps wildly inside the pen.
+
+ The mome rath named Red sits on his perch, almost smiling at you.
+
+ Inside the pen is a rope hanging from the ceiling.
+
+>examine red
+ Mome raths are generally friendly birds, and Red's no exception. He's
+ always nice to you, unlike his sister Blue. Right now, he's calm,
+ cuddling his toy.
+
+>go south
+ You'll have to get out of the rath pen first.
+
+>open gate then out then close gate
+ You open the rath pen.
+ You get out of the rath pen.
+
+ North of House
+ This is a small grassy area, mostly occupied by the pen for your
+ family's raths. The pen is made of wickerwork, widely spaced, allowing
+ light and air to pass through while keeping the raths in.
+
+ The pen stands open. Luckily, even while they're panicking your raths
+ are well-trained enough that they don't try to escape.
+ You close the rath pen.
+
+>go west
+ The only exit is southwest to the front of your house.
+
+>go southwest
+
+ In Front of House
+ You feel happy here in front of your house. The coat of white paint on
+ the house was recently retouched, and your father has planted flowers
+ in the window boxes. You can hear the mournful calling of the toves in
+ the wabe to the west, and there are bare paths worn into the dirt
+ around the corners of the house to the northeast and southeast.
+
+>go west
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+>go south
+
+ Tove Corral
+ It took you and your father an entire week to build this enclosure,
+ but it was worth the effort: not one of your family's toves has ever
+ been attacked in the night. The corral has four sturdy walls and a
+ slate roof, but the bottom is open. This allows the rose-colored mist
+ from the wabe in, which in turn keeps your toves alive. During the
+ night, they're kept in by the half-submerged door, which is held
+ closed by a nice secure latch. You stand on a catwalk affixed to one
+ wall, and little tendrils of fog waft up between the catwalk's metal
+ bars.
+
+ Your family's toves drift around aimlessly. For some reason, they're
+ not in very good health.
+
+>remove net
+ (first taking the net attachment)
+ You remove the net attachment from the pole.
+
+>fix hook to pole
+ You screw the hook attachment onto the pole, making a gaff.
+
+>remove debris
+ You can't see any such thing.
+
+>remove mist
+ (first taking the the wabe)
+ That's hardly portable.
+
+>examine hook
+ This hook is used to hold Red's favorite toy. It's originally a tool
+ for removing debris from the tove corral, so it has a threaded end to
+ allow it to attach to a metal pole.
+
+>examine tove
+ (the toves)
+ Toves are strange creatures, diaphanous and billowing. Their bodies
+ are hollow and tube-shaped, with long, thin tentacles arranged in a
+ ring around their "mouth". These toves, of course, are tame, but a
+ wild tove could latch on to your arm and dissolve it to the bone.
+ Usually, they'd be gyring and gimbling, but they seem sick. They just
+ drift aimlessly around the pen, their tentacles limp. They seem to be
+ having trouble breathing the mist inside the corral.
+
+>examine mist
+ The wabe could be called a sea, except that instead of being composed
+ of water, it's composed of a rose-colored mist. The mist is quite
+ dense, and almost acts like a liquid. Instead of forming waves,
+ however, it forms tiny clouds of fog that slowly drift back into the
+ main body of mist. However, the wabe here inside the corral is
+ discolored brown. The stain seems to be coming from under the catwalk.
+
+>examine catwalk
+ You can smell the rust on this catwalk, slightly corroded from
+ exposure to the fog of the wabe. It runs the length of one wall,
+ allowing for the feeding and care of the toves. You can see the wabe
+ through the metal grid of the catwalk; it seems somewhat discolored.
+
+ You can barely see what looks like a clump of scales stuck to the
+ underside of the catwalk. They seem to be the source of the stain
+ tinting the wabe brown.
+
+>remove scales with hook
+ You can't see any such thing.
+
+>examine scales
+ Several rather large reptilian scales, silver in color, covered with a
+ disgusting and foul-smelling slime. You can't help but notice that
+ their edge is razor-sharp.
+
+>remove scales with gaff
+ You can't see any such thing.
+
+>take scales with gaff
+ They're close enough that you can reach them with your hands.
+
+>take scales
+ You carefully reach down and pull on the disgusting scales. After a
+ few tries, they pull free from the catwalk, and you take them. A few
+ moments later, the mist inside the corral returns to its normal rose
+ color. The toves perk up almost instantly, and soon begin to gyre and
+ gimble. They look well enough for you to let them out into the wabe.
+
+ The tablet shivers in your hands.
+
+>examine tablet
+ The tablet is made of some sort of worn stone, pitted and etched by
+ the elements. In the upper left corner is the Roman numeral I. Below,
+ there is a pattern of lines and letters, like so:
+
+ 'Twas brillig, and the slithy toves
+ Did gyre and gimble __ ___ ____:
+ ___ _____ were the borogoves,
+ and the mome raths ________.
+
+>inventory
+>remove scales with gaff
+ You are carrying:
+   some strange scales
+   a gaff
+   a net attachment
+   a worn tablet
+
+ You can't see any such thing.
+
+>about
+
+
+
+
+
+
+
+
+                            Jabberwocky Help
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  What would you like help with?
+
+      How to play
+      Who was Lewis Carroll?
+      Hints for this stanza
+      Read the poem
+
+>q
+
+
+
+
+
+
+
+
+ Tove Corral
+ It took you and your father an entire week to build this enclosure,
+ but it was worth the effort: not one of your family's toves has ever
+ been attacked in the night. The corral has four sturdy walls and a
+ slate roof, but the bottom is open. This allows the rose-colored mist
+ from the wabe in, which in turn keeps your toves alive. During the
+ night, they're kept in by the half-submerged door, which is held
+ closed by a nice secure latch. You stand on a catwalk affixed to one
+ wall, and little tendrils of fog waft up between the catwalk's metal
+ bars.
+
+ Your family's toves gyre and gimble around the corral.
+
+>examine door
+ You had blisters on your hands for a week after helping your father
+ put this door together. It's made of strong wooden slats, wired
+ together to make a sturdy door.
+
+>open it
+ You carefully open the door, and the toves gimble out into the wabe.
+ Soon, they are too far away to be seen with the naked eye. No need to
+ worry, though. They'll be back by feeding time.
+
+ The tablet shivers in your hands.
+
+>examine tablet
+>inventory
+ The tablet is made of some sort of worn stone, pitted and etched by
+ the elements. In the upper left corner is the Roman numeral I. Below,
+ there is a pattern of lines and letters, like so:
+
+ 'Twas brillig, and the slithy toves
+ Did gyre and gimble in the wabe:
+ ___ _____ were the borogoves,
+ and the mome raths ________.
+
+ You are carrying:
+   some strange scales
+   a gaff
+   a net attachment
+   a worn tablet
+
+>n then n
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+ Borogove Enclosure
+ They call it "chicken wire," but you don't get many chickens around
+ here. You and your dad use it to keep in your borogoves. The wire is
+ stretched between sturdy wooden posts sunk deep into the sand of the
+ shore. Inside the wire, the borogoves skitter around, looking very
+ agitated.
+
+ There is a hurt borogove inside the enclosure.
+
+>take borogove with hook
+ (first taking the hook attachment)
+ You remove the hook attachment from the pole.
+
+>fix hook to pole
+ You screw the hook attachment onto the pole, making a gaff.
+
+>take borogove with gaff
+ You reach out with the hook and snag the hurt animal, pulling it
+ toward you. As its body reaches the fence, it slips off your hook, and
+ falls onto the ground just in front of the fence. You'll never get it
+ with that unwieldy pole. You could reach in and take it out with your
+ bare hands, but the other borogoves would bite you.
+
+>examine hurt borogove
+ Borogove blood could more accurately be called "ichor." It's slick,
+ black stuff, and it coats the exoskeleton of this borogove. The
+ creature seems to have been ripped apart by huge claws. It still
+ twitches, but the movement is most likely a reflex. If the creature
+ isn't dead now, it will be soon. You'd better get it out of the
+ enclosure, or the rest of the borogoves will hurt themselves in the
+ panic.
+
+>take borogove with hook
+ (first taking the hook attachment)
+ You remove the hook attachment from the pole.
+
+>again
+ Unfortunately, the hook attachment is short enough that you could get
+ bitten by the other borogoves.
+
+>put net on pole
+ You screw the net attachment onto the pole, making a skimmer.
+
+>take borogove with skimmer
+ The net on the skimmer is too small to fit around the wounded
+ borogove, and if you caught on to any of its legs, they'd just pull
+ off.
+
+>get borogove
+ If you reach in there, the panicked borogoves will most likely bite
+ you all over your hand. And borogove bites hurt.
+
+>look
+
+ Borogove Enclosure
+ They call it "chicken wire," but you don't get many chickens around
+ here. You and your dad use it to keep in your borogoves. The wire is
+ stretched between sturdy wooden posts sunk deep into the sand of the
+ shore. Inside the wire, the borogoves skitter around, looking very
+ agitated.
+
+ There is a hurt borogove inside the enclosure.
+
+>go south
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+>go east
+
+ In Front of House
+ You feel happy here in front of your house. The coat of white paint on
+ the house was recently retouched, and your father has planted flowers
+ in the window boxes. You can hear the mournful calling of the toves in
+ the wabe to the west, and there are bare paths worn into the dirt
+ around the corners of the house to the northeast and southeast.
+
+>se
+
+ South of House
+ A rickety old shed without a door is leaning against the house here.
+ You use it to store tools and feed for your family's animals. There's
+ not much else around here except weeds and a closed cellar window in
+ the house wall at ground level.
+
+>examine window
+ It's a grimy, closed window that allows light into the cellar. It's
+ much too small for you to fit through.
+
+>open it
+ It seems to be locked.
+
+>examine weeds
+ Just some weeds.
+
+>examine shed
+ An old shed made from sheets of corrugated aluminum and planks of
+ wood. You're not that worried about theft, so it doesn't even have a
+ door. The shed's purely to keep the rain off of the tools and feed.
+
+>enter shed
+ You walk into the shed.
+
+ South of House (in the old shed)
+ A rickety old shed without a door is leaning against the house here.
+ You use it to store tools and feed for your family's animals. There's
+ not much else around here except weeds and a closed cellar window in
+ the house wall at ground level.
+
+ It's dim inside the shed, the only light coming through the doorway
+ from outside.
+
+ In the old shed you can see a tool box (which is closed) and a bag of
+ borogove feed (which is closed).
+
+>examine tool box
+ A metal box, used for storing tools. It's shut.
+
+>open it
+ You open the tool box, revealing four tools (a screwdriver, a hammer,
+ a pipe wrench and a file).
+
+>examine feed
+ This is a burlap bag of borogove feed, basically dried moss with some
+ nutritional supplements. It's still unopened.
+
+>examine gaff
+ You can't see any such thing.
+
+>take feed
+ Taken.
+
+>close tool box
+ You close the tool box.
+
+>take it
+ Taken.
+
+>inventory
+ You are carrying:
+   a tool box (which is closed)
+   a bag of borogove feed
+   a skimmer
+   a hook attachment
+   some strange scales
+   a worn tablet
+
+>look
+
+ South of House (in the old shed)
+ A rickety old shed without a door is leaning against the house here.
+ You use it to store tools and feed for your family's animals. There's
+ not much else around here except weeds and a closed cellar window in
+ the house wall at ground level.
+
+ It's dim inside the shed, the only light coming through the doorway
+ from outside.
+
+>out
+ You get out of the old shed.
+
+ South of House
+ A rickety old shed without a door is leaning against the house here.
+ You use it to store tools and feed for your family's animals. There's
+ not much else around here except weeds and a closed cellar window in
+ the house wall at ground level.
+
+>nw then w then s
+
+ In Front of House
+ You feel happy here in front of your house. The coat of white paint on
+ the house was recently retouched, and your father has planted flowers
+ in the window boxes. You can hear the mournful calling of the toves in
+ the wabe to the west, and there are bare paths worn into the dirt
+ around the corners of the house to the northeast and southeast.
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+ Tove Corral
+ It took you and your father an entire week to build this enclosure,
+ but it was worth the effort: not one of your family's toves has ever
+ been attacked in the night. The corral has four sturdy walls and a
+ slate roof, but the bottom is open. This allows the rose-colored mist
+ from the wabe in, which in turn keeps your toves alive. During the
+ night, they're kept in by the half-submerged door, but it's open to
+ allow the toves to gimble in the wabe. However, it does have a nice
+ secure latch. You stand on a catwalk affixed to one wall, and little
+ tendrils of fog waft up between the catwalk's metal bars.
+
+>n then n
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+ Borogove Enclosure
+ They call it "chicken wire," but you don't get many chickens around
+ here. You and your dad use it to keep in your borogoves. The wire is
+ stretched between sturdy wooden posts sunk deep into the sand of the
+ shore. Inside the wire, the borogoves skitter around, looking very
+ agitated.
+
+ There is a hurt borogove inside the enclosure.
+
+>SAVE
+>cf1
+ Enter saved game to store: Ok.
+
+>examine feed
+ This is a burlap bag of borogove feed, basically dried moss with some
+ nutritional supplements. It's still unopened.
+
+>open feed
+ You tug at the bag, but it doesn't open. You'll need to slice open the
+ burlap.
+
+>open tool box
+ You open the tool box, revealing four tools (a screwdriver, a hammer,
+ a pipe wrench and a file).
+
+>put skimmer in tool box
+ The toolbox is made to hold tools. Nothing else.
+
+>open burlap with scale
+ You cut open the bag, revealing powdery borogove food.
+
+>feed borogoves with food
+ You scatter the food into the far side of the borogove enclosure. The
+ creatures instantly smell it, and race over, eating it in a feeding
+ frenzy.
+
+>take hurt borogove
+ While the rest of the borogoves are distracted by their feeding
+ frenzy, you grab the wounded insect. Seconds later, they finish the
+ food, and spread out again, once again in a panic. You toss the body
+ of the now-dead borogove into the wabe, and the others calm down as
+ soon as the scent fades away.
+
+ The tablet shivers in your hands.
+
+>examine table
+ You can't see any such thing.
+
+>examine tablet
+ The tablet is made of some sort of worn stone, pitted and etched by
+ the elements. In the upper left corner is the Roman numeral I. Below,
+ there is a pattern of lines and letters, like so:
+
+ 'Twas brillig, and the slithy toves
+ Did gyre and gimble in the wabe:
+ All mimsy were the borogoves,
+ and the mome raths ________.
+
+>s then e
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+ In Front of House
+ You feel happy here in front of your house. The coat of white paint on
+ the house was recently retouched, and your father has planted flowers
+ in the window boxes. You can hear the mournful calling of the toves in
+ the wabe to the west, and there are bare paths worn into the dirt
+ around the corners of the house to the northeast and southeast.
+
+>go northeast
+
+ North of House
+ This is a small grassy area, mostly occupied by the pen for your
+ family's raths. The pen is made of wickerwork, widely spaced, allowing
+ light and air to pass through while keeping the raths in.
+
+ The pen is closed. You can see something inside.
+
+>open pen then enter pen then close pen
+ You open the rath pen.
+ You get into the rath pen.
+
+ North of House (in the rath pen)
+ This is a small grassy area, mostly occupied by the pen for your
+ family's raths. The pen is made of wickerwork, widely spaced, allowing
+ light and air to pass through while keeping the raths in.
+
+ Light filters in through the holes in the woven walls. Twin perches
+ hang opposite each other in the pen. The door stands wide open.
+
+ The mome rath named Blue flaps wildly inside the pen.
+
+ The mome rath named Red sits on his perch, almost smiling at you.
+
+ Inside the pen is a rope hanging from the ceiling.
+ You close the rath pen.
+
+>give food to blue
+ You can't see any such thing.
+
+>inventory
+ You are carrying:
+   a tool box (which is open)
+     four tools:
+       a screwdriver
+       a hammer
+       a pipe wrench
+       a file
+   a bag of borogove feed
+   a skimmer
+   a hook attachment
+   some strange scales
+   a worn tablet
+
+>look
+
+ North of House (in the rath pen)
+ This is a small grassy area, mostly occupied by the pen for your
+ family's raths. The pen is made of wickerwork, widely spaced, allowing
+ light and air to pass through while keeping the raths in.
+
+ Light filters in through the holes in the woven walls. Twin perches
+ hang opposite each other in the pen. The door is latched shut.
+
+ The mome rath named Blue flaps wildly inside the pen.
+
+ The mome rath named Red sits on his perch, almost smiling at you.
+
+ Inside the pen is a rope hanging from the ceiling.
+
+>examine blue
+ Mome raths are generally friendly birds, but Blue's always been a bit
+ wary of humans. Sure, she'll accept food, but she's nowhere near as
+ affectionate as her brother Red; you usually have to treat her a bit
+ rougher. At the moment, she's panicking, flying around in a blind
+ panic, bumping into the wicker walls of the pen. She's so panicked,
+ she's not even outgribing.
+
+>feed blue
+ (with the rath pen)
+ The blue mome rath isn't interested in eating the rath pen.
+
+>feed blue with food
+ You can't see any such thing.
+
+>look in bag
+ The bag of borogove feed is empty.
+
+>catch blue
+>take blue with net
+ What do you want to catch the blue mome rath with?
+
+ (first taking the net attachment)
+ You remove the net attachment from the pole.
+
+>undo
+ North of House
+ [Previous turn undone.]
+
+>take blue with skimmer
+ She's flying slowly enough, but that's not the best tool for the job.
+ Too long.
+
+>take blue with bag
+ She's flying slowly enough, but that's not exactly a good tool for the
+ job.
+
+>remove net
+ (first taking the net attachment)
+ You remove the net attachment from the pole.
+
+>take blue with net
+ You aim carefully, and swing the net. You catch Blue with ease. She
+ calms down as she realizes that she's both trapped and not in
+ immediate danger, so you carefully release her onto a perch, where she
+ begins to sullenly outgribe, cooing to communicate with far off raths.
+
+ The tablet shivers in your hands.
+
+ You hear the faint sound of a pen scratching on paper, and the stone
+ tablet shivers in your hands once more. You look down to discover that
+ it seems to have switched to the next stanza of the poem, and is once
+ again filled with blank lines.
+
+>examine tablet
+ The tablet is made of some sort of worn stone, pitted and etched by
+ the elements. In the upper left corner is the Roman numeral II. Below,
+ there is a pattern of lines and letters, like so:
+
+ "_____ ___ __________, __ ___!
+ ___ ____ ____ ____, ___ _____ ____ _____!
+ ______ ___ ______ ____, ___ ____
+ ___ ________ ____________!
+
+>examine blue
+ Mome raths are generally friendly birds, but Blue's always been a bit
+ wary of humans. Sure, she'll accept food, but she's nowhere near as
+ affectionate as her brother Red; you usually have to treat her a bit
+ rougher. Right now, she's calm, or at least as calm as Blue ever gets.
+ However, she still eyes you a bit suspiciously.
+
+>out
+ You can't get out of the closed rath pen.
+
+>open pen. out. close pen.
+ You open the rath pen.
+ You get out of the rath pen.
+
+ North of House
+ This is a small grassy area, mostly occupied by the pen for your
+ family's raths. The pen is made of wickerwork, widely spaced, allowing
+ light and air to pass through while keeping the raths in.
+
+ The pen stands open. Luckily, your raths are well-trained enough that
+ they don't try to escape.
+ You close the rath pen.
+
+>go southwest
+
+ In Front of House
+ You feel happy here in front of your house. The coat of white paint on
+ the house was recently retouched, and your father has planted flowers
+ in the window boxes. You can hear the mournful calling of the toves in
+ the wabe to the west, and there are bare paths worn into the dirt
+ around the corners of the house to the northeast and southeast.
+
+>in
+ You enter the house, where you will encounter your father, a cat, a
+ bird, and a beast, then begin your journey into the forest, where you
+ will meet three aspects of Lewis Carroll and defeat the Jabberwock.
+
+
+     *** To be continued... ***
+
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>about
+ Please give one of the answers above.
+>restart
+
+
+
+
+
+
+
+
+                          Intro to Jabberwocky
+
+
+                    [Please press SPACE to continue.]
+
+
+
+
+
+
+
+
+ What a bother. Father says that some thing has happened to all of your
+ family's animals, all at the same time, and he's sent you out to care
+ for them, almost before brillig. Oh, well. It should be a quick job,
+ and then you can eat breakfast and relax.
+
+ INTRO TO JABBERWOCKY
+ The First Stanza of an Interactive Poem
+ Copyright (c) 2004 by Gregory Weir
+ Type HELP for credits, information, and assistance.
+ Release 1 / Serial number 040714 / Inform v6.30 Library 6/11 S
+
+ Shore of the Wabe
+ From far off to the west you can hear the toves calling, a sad, lonely
+ sound, punctuated only by their happy cries of greeting when they
+ encounter one another. The pink mist of the wabe quietly drifts by,
+ occasionally lapping up on shore in billows of sweet-smelling fog.
+ Above, the suns gently glow. Along the shore to the north is a
+ chicken-wire enclosure, and to the south is a small wooden structure.
+ The sand gives way to grass along the path back to your house in the
+ east.
+
+ A worn tablet lies here, half-buried in the sand.
+
+>about
+
+
+
+
+
+
+
+
+                            Jabberwocky Help
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  What would you like help with?
+
+      How to play
+      Who was Lewis Carroll?
+      Hints for this stanza
+      Read the poem
+
+
+
+
+
+
+
+
+
+ This game was written in Inform by Gregory Weir. It is my first game,
+ and this intro was released for the 2004 IntroComp.
+
+ Thanks to my great beta-testers: Don Weir, Xenia Kramida, Niall
+ Richard Murphy, Robert DeFord, Greg Boettcher, Jessica Knoch, Cedric
+ Knight, Graham Holden, Ross Presser, and Tommy Herbert.
+
+ The game is based on the poem "Jabberwocky", by Lewis Carroll, aka
+ Rev. Charles Dodgson. The poem was originally released on its own, and
+ was then incorporated into Through the Looking Glass. In that book,
+ Humpty-Dumpty gave his own interpretation of the poem in that novel,
+ but who's about to listen to an unstable old egg?
+
+ A short bibliography:
+ The Annotated Alice Gardner, Martin (editor). W.W. Norton & Company,
+ 2000.
+ Lewis Carroll Kelly, Richard. G.K. Hall & Co., 1977.
+ Lewis Carroll: A Portrait With Background Thomas, Donald. John Murray
+ Ltd., 1996.
+ Most of the rest of the sources used to create this work can be found
+ at
+ [<A HREF="http://directory.google.com/Top/Arts/Literature/Authors/C/Carroll">LINK</A>],_Lew
+ is/ .
+
+ Please enjoy. To contact the author, write weirga@rose-hulman.edu.
+
+ [Please press SPACE.]
+
+
+
+
+
+
+
+
+                            Jabberwocky Help
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  What would you like help with?
+
+      How to play
+      Who was Lewis Carroll?
+      Hints for this stanza
+      Read the poem
+
+>p
+
+                            Jabberwocky Help
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  What would you like help with?
+
+      About this game
+      How to play
+      Who was Lewis Carroll?
+      Hints for this stanza
+
+>p
+
+                            Jabberwocky Help
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  What would you like help with?
+
+      About this game
+      How to play
+      Who was Lewis Carroll?
+      Read the poem
+
+>p
+
+                            Jabberwocky Help
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  What would you like help with?
+
+      About this game
+      How to play
+      Hints for this stanza
+      Read the poem
+
+
+
+
+
+
+
+
+
+ Lewis Carroll's real name was Rev. Charles Lutwidge Dodgson. His life
+ is a bit of a mystery to modern-day biographers because of his
+ Victorian attitude of hiding his innermost thoughts. His diaries are
+ complete and well-written, but they mostly tell of events, not of
+ feelings. In addition, a large portion of the diaries are missing,
+ either lost or hidden by his modern-day relatives.
+
+ It is important to state that Dodgson did not use hallucinogenic drugs
+ at any time during his life. The mere idea would have repelled him.
+ Nor was he a pedophile, in the traditional sense of the word. Despite
+ what he vaguely termed "unholy thoughts" at night, which he suppressed
+ by working out methematical problems in his head, he would have found
+ the idea of corrupting the innocence of his "child-friends" repugnant.
+ Indeed, it is likely that he was drawn to little girls because of
+ their apparent purity. A Victorian in every way, it appears that
+ thinking of sexual matters made him quite uncomfortable. Although the
+ matter is open to debate, it was said that he died a virgin.
+
+ However, any biography, however short, of Dodgson must not avoid
+ mentioning his hobby of photography. Besides his photography of famous
+ literary personas and others, he also enjoyed taking pictures of his
+ "child-friends" "sans habiliment", as he liked to say. However, the
+ girls' mothers were almost invariably present, and Dodgson himself
+ once said that there was no greater sin than to try to force a girl
+ into posing nude. Indeed, later accounts by Dodgson's models state
+ that the only discomfort the girls felt was boredom, because it was
+ much more interesting when Dodgson dressed them up in costume!
+
+ It is likely that we will never truly understand Dodgson, but perhaps
+ this game can be a bit of an insight into one way his mind may have
+ worked.
+
+
+
+ [Please press SPACE.]

@@ -1,0 +1,2746 @@
+>load sleepmask swigian
+
+
+
+ I don't like talking. Let's build a fire.
+
+ <span class="floydstyle header">Swigian</span>
+ An Interactive Fiction by Rainbus North
+ Release 1 / Serial number 171022 / Inform 7 build 6M62 (I6/v6.33 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">Lake</span>
+ You are by a lake. The lake is still.
+
+ You can see an axe here.
+
+ Looking south, you see the Forest.
+
+>examine me
+
+ You look like me.
+
+>inventory
+
+ You are carrying nothing.
+
+>take all
+
+ (the axe)
+ Taken.
+
+ Now you can cut things.
+
+>cut me
+
+ I'll tell you when you can cut something. This isn't the time.
+
+>examine lake
+
+ The lake? That is what it is. I'll tell you everything that's
+ important the first time.
+
+>look
+
+ <span class="floydstyle subheader">Lake</span>
+ You are by a lake. The lake is still.
+
+ Looking south, you see the Forest.
+
+>examine forest
+
+ If you want to see it, just go there. I won't mention this again.
+
+>go south
+
+
+ <span class="floydstyle subheader">Forest</span>
+ You are in a forest. It is night.
+
+ You can see a log here.
+
+ Looking north, you see the Lake; looking south, you see the Mountain.
+
+>examine log
+
+ The log? That is what it is.
+
+>examine night
+
+ I didn't understand the thing you were talking about.
+
+>cut log
+
+ You cut the log up into firewood and take it. You could burn it, if
+ you had flint with your steel.
+
+>look
+
+ <span class="floydstyle subheader">Forest</span>
+ You are in a forest. It is night.
+
+ Looking north, you see the Lake; looking south, you see the Mountain.
+
+>explore forest
+
+ I didn't understand the first thing you said.
+
+>go south
+
+
+ <span class="floydstyle subheader">Mountain</span>
+ You are on a mountainside. Everything is dry.
+
+ Looking north, you see the Forest; looking east, you see the Gravel
+ Pit.
+
+>inventory
+
+ You are carrying:
+   a firewood
+   an axe
+
+>go east
+
+
+ <span class="floydstyle subheader">Gravel Pit</span>
+ You are in an empty gravel pit.
+
+ You can see a flint here.
+
+ Looking west, you see the Mountain.
+
+>take flint
+
+ Taken.
+
+ Now you can burn something small.
+
+>burn me
+
+ Not right now.
+
+>go west
+
+
+ <span class="floydstyle subheader">Mountain</span>
+ You are on a mountainside. Everything is dry.
+
+ Looking north, you see the Forest; looking east, you see the Gravel
+ Pit.
+
+>make fire
+
+ Let's burn the wood by the lake. They're scared of water.
+
+>go north
+
+
+ <span class="floydstyle subheader">Forest</span>
+ You are in a forest. It is night.
+
+ Looking north, you see the Lake; looking south, you see the Mountain.
+
+>go north
+
+
+ <span class="floydstyle subheader">Lake</span>
+ You are by a lake. The lake is still.
+
+ Looking south, you see the Forest.
+
+>make fire
+
+ You made a fire. Let's sleep.
+
+>sleep
+
+ <span class="floydstyle subheader">Standing Stones</span>
+ You are surrounded by standing stones.
+
+ Looking east, you see the Spring; looking west, you see the Moor.
+
+ They came while you were asleep. You're not where you should be. You
+ are hungry. You are cold.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+>examine stones
+
+ The standing stones? That is what it is.
+
+>inventory
+
+ You are carrying nothing.
+
+>pray
+
+ Father ure, thu the art in heofenan...
+
+>dance
+
+ I didn't understand the first thing you said.
+
+>sing
+
+ Hwæt! We Gar-Dena in gear-dagum
+ þeod-cyninga,   þrym gefrunon,
+ hu ða æþelingas   ellen fremedon!
+ Oft Scyld Scefing   sceaþena þreatum
+ monegum mægþum   meodo-setla ofteah;
+>yell
+
+ Hwæt! We Gar-Dena in gear-dagum
+ þeod-cyninga,   þrym gefrunon,
+ hu ða æþelingas   ellen fremedon!
+ Oft Scyld Scefing   sceaþena þreatum
+ monegum mægþum   meodo-setla ofteah;
+>go east
+
+
+ <span class="floydstyle subheader">Spring</span>
+ Water wells up from below. You are safe here.
+
+ You can see a basket (empty) here.
+
+ Looking west, you see the Standing Stones.
+
+>take all
+
+ (the basket)
+ Taken.
+
+>inventory
+
+ You are carrying:
+   a basket
+
+>go west
+
+
+ <span class="floydstyle subheader">Standing Stones</span>
+ You are surrounded by standing stones.
+
+ Looking east, you see the Spring; looking west, you see the Moor.
+
+>go west
+
+
+ <span class="floydstyle subheader">Moor</span>
+ The moor is silent. Keep moving.
+
+ Looking east, you see the Standing Stones; looking west, you see the
+ Aftermath.
+
+ They will see you. Go now.
+
+>SAVE
+>cf13
+ %% Enter a save filename to write:
+
+>go west
+
+
+ <span class="floydstyle subheader">Aftermath</span>
+ There was a battle here. Almost everything is trampled.
+
+ You can see a meal here.
+
+ Looking east, you see the Moor.
+
+>examine meal
+
+ The meal? That is what it is.
+
+>take all
+
+ meal: You lift the meal into the basket.
+
+>EAT MEAL
+
+ It's not safe to eat here. Take it with you.
+
+>go east
+
+
+ <span class="floydstyle subheader">Moor</span>
+ The moor is silent. Keep moving.
+
+ Looking east, you see the Standing Stones; looking west, you see the
+ Aftermath.
+
+ They will see you. Go now.
+
+>go east
+
+
+ <span class="floydstyle subheader">Standing Stones</span>
+ You are surrounded by standing stones.
+
+ Looking east, you see the Spring; looking west, you see the Moor.
+
+>eat meal
+
+ You eat the food carefully. You feel much better now.
+
+ You hear music from the north.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+>go north
+
+
+ <span class="floydstyle subheader">Bog</span>
+ Small lights dance behind trees far away. You hear music.
+
+ Looking north, you see the Sea Side.
+
+>listen
+
+ You hear music.
+
+>listen to music
+
+ You hear music.
+
+>go north
+
+
+ <span class="floydstyle subheader">Sea Side</span>
+ You are at the sea side. You hear music from the west.
+
+ You can see an old spear here.
+
+ Looking north, you see the Outside of the Mead-Hall; looking south,
+ you see the Bog; looking east, you see the Cove.
+
+>go west
+
+ Not that way.
+
+>go north
+
+
+ <span class="floydstyle subheader">Outside of the Mead-Hall</span>
+ You are outside the mead-hall. They are dancing inside. They have not
+ heard you yet.
+
+ Looking north, you see the Inside of the Mead-Hall; looking south, you
+ see the Sea Side.
+
+>go south
+
+
+ <span class="floydstyle subheader">Sea Side</span>
+ You are at the sea side. You hear music from the west.
+
+ You can see an old spear here.
+
+ Looking north, you see the Outside of the Mead-Hall; looking south,
+ you see the Bog; looking east, you see the Cove.
+
+>go east
+
+
+ <span class="floydstyle subheader">Cove</span>
+ You are in a cove. You are safe.
+
+ Looking east, you see the Burial Mound; looking west, you see the Sea
+ Side.
+
+>go east
+
+
+ <span class="floydstyle subheader">Burial Mound</span>
+ You are on a small mound with white flowers.
+
+ You can see an old shield here.
+
+ Looking west, you see the Cove.
+
+>take shield
+
+ Taken.
+
+>examine shield
+
+ The old shield? That is what it is.
+
+>go west
+
+
+ <span class="floydstyle subheader">Cove</span>
+ You are in a cove. You are safe.
+
+ Looking east, you see the Burial Mound; looking west, you see the Sea
+ Side.
+
+>go west
+
+
+ <span class="floydstyle subheader">Sea Side</span>
+ You are at the sea side. You hear music from the west.
+
+ You can see an old spear here.
+
+ Looking north, you see the Outside of the Mead-Hall; looking south,
+ you see the Bog; looking east, you see the Cove.
+
+>go south
+
+
+ <span class="floydstyle subheader">Bog</span>
+ Small lights dance behind trees far away. You hear music.
+
+ Looking north, you see the Sea Side.
+
+>go north
+
+
+ <span class="floydstyle subheader">Sea Side</span>
+ You are at the sea side. You hear music from the west.
+
+ You can see an old spear here.
+
+ Looking north, you see the Outside of the Mead-Hall; looking south,
+ you see the Bog; looking east, you see the Cove.
+
+>take all
+
+ old spear: Taken.
+
+>inventory
+
+ You are carrying:
+   an old spear
+   an old shield
+   a basket
+
+>SAVE
+>cf14
+ %% Enter a save filename to write:
+
+>SAVE
+>cf15
+ %% Enter a save filename to write:
+
+>save
+ %% Enter a save filename to write:
+>sillygame
+
+>go north
+
+
+ <span class="floydstyle subheader">Outside of the Mead-Hall</span>
+ You are outside the mead-hall. They are dancing inside. They have not
+ heard you yet.
+
+ Looking north, you see the Inside of the Mead-Hall; looking south, you
+ see the Sea Side.
+
+>go north
+
+
+ <span class="floydstyle subheader">Inside of the Mead-Hall</span>
+ The mead-hall is dark and dusty.
+
+ You can see an opponent here.
+
+ Looking south, you see the Outside of the Mead-Hall.
+
+>examine opponent
+
+ The opponent? That is what it is.
+
+>lay opponent
+
+ I didn't understand the first thing you said.
+
+>talk to opponent
+
+ You don't want to talk to the opponent.
+
+>sing
+
+ Hwæt! We Gar-Dena in gear-dagum
+ þeod-cyninga,   þrym gefrunon,
+ hu ða æþelingas   ellen fremedon!
+ Oft Scyld Scefing   sceaþena þreatum
+ monegum mægþum   meodo-setla ofteah;
+>kill opponent
+
+ You attack the opponent. He vanishes through a hole in the ground.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+>score
+
+ You have so far scored 3 out of a possible 15, in 62 turns.
+
+>look
+
+ <span class="floydstyle subheader">Inside of the Mead-Hall</span>
+ The mead-hall is dark and dusty.
+
+ Looking down, you see the Burrow.
+
+>go down
+
+
+ <span class="floydstyle subheader">Burrow</span>
+ You are in a burrow. The walls are made of packed dirt.
+
+ Looking south, you see the Tunnel.
+
+>take all
+
+ There are none at all available!
+
+>go south
+
+
+ <span class="floydstyle subheader">Tunnel</span>
+ You are in a tunnel.
+
+ You can see a shroud here.
+
+ Looking north, you see the Burrow; looking south, you see the Cave
+ Pool.
+
+>take all
+
+ shroud: Taken.
+
+>wear shroud
+
+ You put on the shroud.
+
+>go south
+
+
+ <span class="floydstyle subheader">Cave Pool</span>
+ Water drips into a pool. A deep hole is here.
+
+ A chain goes into the hole. It has a hook. You can put something on
+ it.
+
+ Looking north, you see the Tunnel; looking east, you see the Limestone
+ Cave.
+
+>go north
+
+
+ <span class="floydstyle subheader">Tunnel</span>
+ You are in a tunnel.
+
+ Looking north, you see the Burrow; looking south, you see the Cave
+ Pool.
+
+>go north
+
+
+ <span class="floydstyle subheader">Burrow</span>
+ You are in a burrow. The walls are made of packed dirt.
+
+ Looking south, you see the Tunnel.
+
+>go up
+
+ Not that way.
+
+>go south
+
+
+ <span class="floydstyle subheader">Tunnel</span>
+ You are in a tunnel.
+
+ Looking north, you see the Burrow; looking south, you see the Cave
+ Pool.
+
+>go south
+
+
+ <span class="floydstyle subheader">Cave Pool</span>
+ Water drips into a pool. A deep hole is here.
+
+ A chain goes into the hole. It has a hook. You can put something on
+ it.
+
+ Looking north, you see the Tunnel; looking east, you see the Limestone
+ Cave.
+
+>put basket on chain
+
+ You put the basket on the hook.
+
+ The basket is too light to sink down.
+
+>take basket
+
+ Taken.
+
+>put me on hook
+
+ The yourself slips off of the hook.
+
+>go east
+
+
+ <span class="floydstyle subheader">Limestone Cave</span>
+ You are in a limestone cave. The floor is covered in frost.
+
+ There is a frozen door covered in vines.
+
+ Looking east, you see the Inside Burial Mound; looking west, you see
+ the Cave Pool.
+
+>inventory
+
+ You are carrying:
+   a basket
+   a shroud (being worn)
+   an old spear
+   an old shield
+
+>open door
+
+ The vines hold the door shut.
+
+>cut vines
+
+ You cut off all the vines. Your spear freezes and breaks.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+>open door
+
+ You open the frozen door.
+
+>go east
+
+
+ <span class="floydstyle subheader">Inside Burial Mound</span>
+ You are inside the burial mound.
+
+ There is a frozen door.
+
+ There is a crypt here, covered in dust.
+
+ You can also see a chisel here.
+
+ Looking west, you see the Limestone Cave.
+
+>take all
+
+ chisel: The dust on the crypt makes you sneeeze.
+
+ Taken.
+
+>ACHOO
+
+ I didn't understand the first thing you said.
+
+>examine chisel
+
+ The chisel? That is what it is.
+
+>open crypt
+
+ The dust makes the crypt slippery.
+
+>dust crypt
+
+ The dust comes off. There is a list of name runes on the crypt. You
+ can cut the crypt to write your name.
+
+>cut crypt
+
+ You write your name rune on the crypt.
+
+>open crypt
+
+ You open it a crack. Try again.
+
+>again
+
+ Your opponent is here. He is wearing a shroud. He has a coin in his
+ mouth. He fades away.
+
+>look
+
+ <span class="floydstyle subheader">Inside Burial Mound</span>
+ You are inside the burial mound.
+
+ There is a frozen door.
+
+ You see name-runes engraved on the crypt.
+
+ Looking west, you see the Limestone Cave.
+
+>open door
+
+ That's already open.
+
+>read names
+
+ The last name rune is yours.
+
+>take all
+
+ There are none at all available!
+
+>disappear
+
+ I didn't understand the first thing you said.
+
+>fade away
+
+ I didn't understand the first thing you said.
+
+>enter crypt
+
+ The coin is not in your mouth.
+
+>look
+
+ <span class="floydstyle subheader">Inside Burial Mound</span>
+ You are inside the burial mound.
+
+ There is a frozen door.
+
+ You see name-runes engraved on the crypt.
+
+ Looking west, you see the Limestone Cave.
+
+>go west
+
+
+ <span class="floydstyle subheader">Limestone Cave</span>
+ You are in a limestone cave. The floor is covered in frost.
+
+ There is a frozen door.
+
+ Looking east, you see the Inside Burial Mound; looking west, you see
+ the Cave Pool.
+
+>go west
+
+
+ <span class="floydstyle subheader">Cave Pool</span>
+ Water drips into a pool. A deep hole is here.
+
+ A chain goes into the hole. It has a hook. You can put something on
+ it.
+
+ Looking north, you see the Tunnel; looking east, you see the Limestone
+ Cave.
+
+>go west
+
+ Not that way.
+
+>go north
+
+
+ <span class="floydstyle subheader">Tunnel</span>
+ You are in a tunnel.
+
+ Looking north, you see the Burrow; looking south, you see the Cave
+ Pool.
+
+>go north
+
+
+ <span class="floydstyle subheader">Burrow</span>
+ You are in a burrow. The walls are made of packed dirt.
+
+ Looking south, you see the Tunnel.
+
+>go south
+
+
+ <span class="floydstyle subheader">Tunnel</span>
+ You are in a tunnel.
+
+ Looking north, you see the Burrow; looking south, you see the Cave
+ Pool.
+
+>go south
+
+
+ <span class="floydstyle subheader">Cave Pool</span>
+ Water drips into a pool. A deep hole is here.
+
+ A chain goes into the hole. It has a hook. You can put something on
+ it.
+
+ Looking north, you see the Tunnel; looking east, you see the Limestone
+ Cave.
+
+>go down
+
+ Not that way.
+
+>enter hole
+
+ That's not something you can enter.
+
+>pull chain
+
+ It is fixed in place.
+
+>inventory
+
+ You are carrying:
+   a chisel
+   a basket
+   a shroud (being worn)
+   an old shield
+
+>put shield on hook
+
+ The old shield slips off of the hook.
+
+>put chisel on hook
+
+ The chisel slips off of the hook.
+
+>put shroud on hook
+
+ The shroud slips off of the hook.
+
+>put basket on hook
+
+ You put the basket on the hook.
+
+ The basket is too light to sink down.
+
+>put chisel in basket
+
+ You put the chisel into the basket.
+
+ The basket is too light to sink down.
+
+>put shield in basket
+
+ You put the old shield into the basket.
+
+ The basket goes into the hole. A bucket comes up. It has a worn coin
+ in it. Your shield has been accepted.
+
+>take coin
+
+ Taken.
+
+>look
+
+ <span class="floydstyle subheader">Cave Pool</span>
+ Water drips into a pool. A deep hole is here.
+
+ You can see a bucket (in which is a chisel) here.
+
+ Looking north, you see the Tunnel; looking east, you see the Limestone
+ Cave.
+
+>go east
+
+
+ <span class="floydstyle subheader">Limestone Cave</span>
+ You are in a limestone cave. The floor is covered in frost.
+
+ There is a frozen door.
+
+ Looking east, you see the Inside Burial Mound; looking west, you see
+ the Cave Pool.
+
+>go east
+
+
+ <span class="floydstyle subheader">Inside Burial Mound</span>
+ You are inside the burial mound.
+
+ There is a frozen door.
+
+ You see name-runes engraved on the crypt.
+
+ Looking west, you see the Limestone Cave.
+
+>put coin in mouth
+
+ You put the worn coin into your mouth.
+
+>SAVE
+>cf16
+ %% Enter a save filename to write:
+
+>go east
+
+ Not that way.
+
+>enter crypt
+
+ You get into the wooden crypt. It is small. You can close it now.
+
+>close crypt
+
+ You close the wooden crypt. They cannot follow you here. You have been
+ this way before.
+
+ <span class="floydstyle subheader">Darkness</span>
+ It is almost pitch dark. You can see almost nothing.
+
+ Looking down, you see the Lair.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+>go down
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go south
+
+
+ <span class="floydstyle subheader">Armory</span>
+ You are in his armory. It needs to be cleaned.
+
+ You can see a dusty armor, an open cabinet, a dry snack and a leaning
+ pile here.
+
+ Looking north, you see the Lair.
+
+>search pile
+
+ You find nothing of interest.
+
+>dust armor
+
+ You clean the armor.
+
+>look
+
+ <span class="floydstyle subheader">Armory</span>
+ You are in his armory. It needs to be cleaned.
+
+ You can see a clean armor, an open cabinet, a dry snack and a leaning
+ pile here.
+
+ Looking north, you see the Lair.
+
+>take all
+
+ clean armor: He likes this as it is.
+ open cabinet: He likes this as it is.
+ dry snack: You eat it.
+ leaning pile: He likes this as it is.
+
+>climb pile
+
+ If you want to go up, go up. If you can't, then don't.
+
+>go up
+
+ Not that way.
+
+>go north
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>smell
+
+ The room stinks.
+
+>go east
+
+
+ <span class="floydstyle subheader">New Treasures</span>
+ This treasure room is full of tapestries, musical instruments, and
+ iron. His treasures are wrong. Put them right.
+
+ You can see a canopic jar here.
+
+ Looking east, you see the Old Treasures; looking west, you see the
+ Lair.
+
+>put them right
+
+ You can't see 'them' (nothing) at the moment.
+
+>fix treasures
+
+ I didn't understand the first thing you said.
+
+>go east
+
+
+ <span class="floydstyle subheader">Old Treasures</span>
+ This treasure room is full of pottery, statues and silver. His
+ treasures are wrong. Put them right.
+
+ You can see a ring mail here.
+
+ Looking east, you see the Ancient Treasures; looking west, you see the
+ New Treasures.
+
+>take all
+
+ (the ring mail)
+ Put it in its place.
+
+ Taken.
+
+>go west
+
+
+ <span class="floydstyle subheader">New Treasures</span>
+ This treasure room is full of tapestries, musical instruments, and
+ iron. His treasures are wrong. Put them right.
+
+ You can see a canopic jar here.
+
+ Looking east, you see the Old Treasures; looking west, you see the
+ Lair.
+
+>take all
+
+ canopic jar: Put it in its place.
+
+ Taken.
+
+>inventory
+
+ You are carrying:
+   a canopic jar
+   a ring mail
+
+>open jar
+
+ It's ancient; he wouldn't be pleased.
+
+>look
+
+ <span class="floydstyle subheader">New Treasures</span>
+ This treasure room is full of tapestries, musical instruments, and
+ iron. His treasures are wrong. Put them right.
+
+ Looking east, you see the Old Treasures; looking west, you see the
+ Lair.
+
+>go west
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go south
+
+
+ <span class="floydstyle subheader">Armory</span>
+ You are in his armory. It needs to be cleaned.
+
+ You can see a clean armor, an open cabinet and a leaning pile here.
+
+ Looking north, you see the Lair.
+
+>inventory
+
+ You are carrying:
+   a canopic jar
+   a ring mail
+
+>drop ring mail
+
+ That is not the right place.
+
+ Dropped.
+
+>take all
+
+ ring mail: Put it in its place.
+
+ Taken.
+ clean armor: He likes this as it is.
+ open cabinet: He likes this as it is.
+ leaning pile: He likes this as it is.
+
+>go north
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go west
+
+
+ <span class="floydstyle subheader">Boneyard</span>
+ The bones of the common are piled here.
+
+ Looking east, you see the Lair; looking west, you see the Home of the
+ Valiant.
+
+>drop jar
+
+ Dropped.
+
+>take all
+
+ canopic jar: Put it in its place.
+
+ Taken.
+
+>go west
+
+
+ <span class="floydstyle subheader">Home of the Valiant</span>
+ The bones of the valiant are here, each with spear and helmet.
+
+ Looking east, you see the Boneyard; looking west, you see the Nobles'
+ End.
+
+>go west
+
+
+ <span class="floydstyle subheader">Nobles' End</span>
+ The bones of the nobles are laid here in gold.
+
+ Looking east, you see the Home of the Valiant; looking west, you see
+ the Hall of Kings.
+
+>drop jar
+
+ Dropped.
+
+>take all
+
+ canopic jar: Put it in its place.
+
+ Taken.
+
+>go east
+
+
+ <span class="floydstyle subheader">Home of the Valiant</span>
+ The bones of the valiant are here, each with spear and helmet.
+
+ Looking east, you see the Boneyard; looking west, you see the Nobles'
+ End.
+
+>drop jar
+
+ Dropped.
+
+>look
+
+ <span class="floydstyle subheader">Home of the Valiant</span>
+ The bones of the valiant are here, each with spear and helmet.
+
+ You can see a canopic jar here.
+
+ Looking east, you see the Boneyard; looking west, you see the Nobles'
+ End.
+
+>take all
+
+ canopic jar: Put it in its place.
+
+ Taken.
+
+>go east
+
+
+ <span class="floydstyle subheader">Boneyard</span>
+ The bones of the common are piled here.
+
+ Looking east, you see the Lair; looking west, you see the Home of the
+ Valiant.
+
+>look
+
+ <span class="floydstyle subheader">Boneyard</span>
+ The bones of the common are piled here.
+
+ Looking east, you see the Lair; looking west, you see the Home of the
+ Valiant.
+
+>go east
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go east
+
+
+ <span class="floydstyle subheader">New Treasures</span>
+ This treasure room is full of tapestries, musical instruments, and
+ iron. His treasures are wrong. Put them right.
+
+ Looking east, you see the Old Treasures; looking west, you see the
+ Lair.
+
+>drop all
+
+ canopic jar: Dropped.
+ ring mail: It is in its place.
+
+ Dropped.
+
+>take all
+
+ ring mail: It is already in its place.
+ canopic jar: Put it in its place.
+
+ Taken.
+
+>go east
+
+
+ <span class="floydstyle subheader">Old Treasures</span>
+ This treasure room is full of pottery, statues and silver. His
+ treasures are wrong. Put them right.
+
+ Looking east, you see the Ancient Treasures; looking west, you see the
+ New Treasures.
+
+>drop all
+
+ (the canopic jar)
+ Dropped.
+
+>take all
+
+ (the canopic jar)
+ Put it in its place.
+
+ Taken.
+
+>go west
+
+
+ <span class="floydstyle subheader">New Treasures</span>
+ This treasure room is full of tapestries, musical instruments, and
+ iron. His treasures are wrong. Put them right.
+
+ You can see a ring mail here.
+
+ Looking east, you see the Old Treasures; looking west, you see the
+ Lair.
+
+>go west
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go south
+
+
+ <span class="floydstyle subheader">Armory</span>
+ You are in his armory. It needs to be cleaned.
+
+ You can see a clean armor, an open cabinet and a leaning pile here.
+
+ Looking north, you see the Lair.
+
+>go north
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go west
+
+
+ <span class="floydstyle subheader">Boneyard</span>
+ The bones of the common are piled here.
+
+ Looking east, you see the Lair; looking west, you see the Home of the
+ Valiant.
+
+>go east
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go east
+
+
+ <span class="floydstyle subheader">New Treasures</span>
+ This treasure room is full of tapestries, musical instruments, and
+ iron. His treasures are wrong. Put them right.
+
+ You can see a ring mail here.
+
+ Looking east, you see the Old Treasures; looking west, you see the
+ Lair.
+
+>go east
+
+
+ <span class="floydstyle subheader">Old Treasures</span>
+ This treasure room is full of pottery, statues and silver. His
+ treasures are wrong. Put them right.
+
+ Looking east, you see the Ancient Treasures; looking west, you see the
+ New Treasures.
+
+>go east
+
+
+ <span class="floydstyle subheader">Ancient Treasures</span>
+ This room is full of sarcophagi, rotten spices and gold. His treasures
+ are wrong. Put them right.
+
+ You can see a marble bust here.
+
+ Looking west, you see the Old Treasures.
+
+>take best setting
+
+ I didn't understand the thing you were talking about.
+
+>drop all
+
+ (the canopic jar)
+ It is in its place.
+
+ Dropped.
+
+>inventory
+
+ You are carrying nothing.
+
+>look
+
+ <span class="floydstyle subheader">Ancient Treasures</span>
+ This room is full of sarcophagi, rotten spices and gold. His treasures
+ are wrong. Put them right.
+
+ You can see a canopic jar and a marble bust here.
+
+ Looking west, you see the Old Treasures.
+
+>examine bust
+
+ The marble bust? That is what it is.
+
+>take bust
+
+ Put it in its place.
+
+ Taken.
+
+>go east
+
+ Not that way.
+
+>go west
+
+
+ <span class="floydstyle subheader">Old Treasures</span>
+ This treasure room is full of pottery, statues and silver. His
+ treasures are wrong. Put them right.
+
+ Looking east, you see the Ancient Treasures; looking west, you see the
+ New Treasures.
+
+>drop bust
+
+ It is in its place.
+
+ Dropped.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+
+ I didn't understand the first thing you said.
+
+>full score
+
+ I didn't understand the first thing you said.
+
+>look
+
+ <span class="floydstyle subheader">Old Treasures</span>
+ This treasure room is full of pottery, statues and silver.
+
+ You can see a marble bust here.
+
+ Looking east, you see the Ancient Treasures; looking west, you see the
+ New Treasures.
+
+>go west
+
+
+ <span class="floydstyle subheader">New Treasures</span>
+ This treasure room is full of tapestries, musical instruments, and
+ iron.
+
+ You can see a ring mail here.
+
+ Looking east, you see the Old Treasures; looking west, you see the
+ Lair.
+
+>go west
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go north
+
+ His protection comes with a price.  His house is not in order.
+
+>go south
+
+
+ <span class="floydstyle subheader">Armory</span>
+ You are in his armory. It needs to be cleaned.
+
+ You can see a clean armor, an open cabinet and a leaning pile here.
+
+ Looking north, you see the Lair.
+
+>clean armory
+
+ You rub armory.
+
+>look
+
+ <span class="floydstyle subheader">Armory</span>
+ You are in his armory. It needs to be cleaned.
+
+ You can see a clean armor, an open cabinet and a leaning pile here.
+
+ Looking north, you see the Lair.
+
+>look in cabinet
+
+ You find nothing of interest.
+
+>close cabinet
+
+ You close the cabinet.
+
+>clean pile
+
+ You rub the leaning pile.
+
+>take pile
+
+ He likes this as it is.
+
+>clean armor
+
+ It is already clean.
+
+>look
+
+ <span class="floydstyle subheader">Armory</span>
+ You are in his armory. It needs to be cleaned.
+
+ You can see a clean armor, a closed cabinet and a leaning pile here.
+
+ Looking north, you see the Lair.
+
+>clean armory
+
+ You rub armory.
+
+>clean
+
+ What do you want to clean?
+
+>room
+
+ I didn't understand the thing you were talking about.
+
+>clean me
+
+ You rub yourself.
+
+
+ I didn't understand the first thing you said.
+
+
+ Now it's not leaning.
+
+ Now it's not messy.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+>go north
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go north
+
+ His protection comes with a price.  His house is not in order.
+
+>pee
+
+ I didn't understand the first thing you said.
+
+>inventory
+
+ You are carrying nothing.
+
+>clean lair
+
+ You rub the lair.
+
+>clean air
+
+ I didn't understand the thing you were talking about.
+
+
+ The room stinks.
+
+
+ I didn't understand the thing you were talking about.
+
+>clean air until it is a little too clean for optimum health
+
+ I didn't understand the thing you were talking about.
+
+>take all
+
+ There are none at all available!
+
+>look
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>go east
+
+
+ <span class="floydstyle subheader">New Treasures</span>
+ This treasure room is full of tapestries, musical instruments, and
+ iron.
+
+ You can see a ring mail here.
+
+ Looking east, you see the Old Treasures; looking west, you see the
+ Lair.
+
+>go east
+
+
+ <span class="floydstyle subheader">Old Treasures</span>
+ This treasure room is full of pottery, statues and silver.
+
+ You can see a marble bust here.
+
+ Looking east, you see the Ancient Treasures; looking west, you see the
+ New Treasures.
+
+>go east
+
+
+ <span class="floydstyle subheader">Ancient Treasures</span>
+ This room is full of sarcophagi, rotten spices and gold.
+
+ You can see a canopic jar here.
+
+ Looking west, you see the Old Treasures.
+
+>take spices
+
+ That's hardly portable.
+
+>take all
+
+ (the canopic jar)
+ It is already in its place.
+
+>eat spices
+
+ Find a snack instead.
+
+
+ Not right now.
+
+>search spices
+
+ You find nothing of interest.
+
+>burn sarcophagi
+
+ Not right now.
+
+>smell
+
+ There's no need; I'll tell you what you sense.
+
+>look
+
+ <span class="floydstyle subheader">Ancient Treasures</span>
+ This room is full of sarcophagi, rotten spices and gold.
+
+ You can see a canopic jar here.
+
+ Looking west, you see the Old Treasures.
+
+>go west
+
+
+ <span class="floydstyle subheader">Old Treasures</span>
+ This treasure room is full of pottery, statues and silver.
+
+ You can see a marble bust here.
+
+ Looking east, you see the Ancient Treasures; looking west, you see the
+ New Treasures.
+
+>go west
+
+
+ <span class="floydstyle subheader">New Treasures</span>
+ This treasure room is full of tapestries, musical instruments, and
+ iron.
+
+ You can see a ring mail here.
+
+ Looking east, you see the Old Treasures; looking west, you see the
+ Lair.
+
+>go west
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+>clean
+
+ (the lair)
+ You rub the lair.
+
+>fart roses
+
+ I didn't understand the first thing you said.
+
+>search lair
+
+ You find nothing of interest.
+
+>go west
+
+
+ <span class="floydstyle subheader">Boneyard</span>
+ The bones of the common are piled here.
+
+ Looking east, you see the Lair; looking west, you see the Home of the
+ Valiant.
+
+>smell
+
+ There's no need; I'll tell you what you sense.
+
+>take all
+
+ There are none at all available!
+
+>examine bones
+
+ The common bones? That is what it is.
+
+>go west
+
+
+ <span class="floydstyle subheader">Home of the Valiant</span>
+ The bones of the valiant are here, each with spear and helmet.
+
+ Looking east, you see the Boneyard; looking west, you see the Nobles'
+ End.
+
+>take all
+
+ There are none at all available!
+
+>clean
+
+ (the Valiant bones)
+ You rub the Valiant bones.
+
+
+ <span class="floydstyle subheader">Home of the Valiant</span>
+ The bones of the valiant are here, each with spear and helmet.
+
+ Looking east, you see the Boneyard; looking west, you see the Nobles'
+ End.
+
+
+
+ <span class="floydstyle subheader">Nobles' End</span>
+ The bones of the nobles are laid here in gold.
+
+ Looking east, you see the Home of the Valiant; looking west, you see
+ the Hall of Kings.
+
+
+ The noble bones? That is what it is.
+
+
+
+ <span class="floydstyle subheader">Hall of Kings</span>
+ Three thrones are here, with three kings.
+
+ A crown is cast down here.
+
+ Looking east, you see the Nobles' End.
+
+
+ I didn't understand the thing you were talking about.
+
+
+ The oldest king is crownless.
+
+ Taken.
+
+
+ The king bows his head. You put the crown on him. You may leave.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+
+ <span class="floydstyle subheader">Hall of Kings</span>
+ Three thrones are here, with three kings.
+
+ Looking east, you see the Nobles' End.
+
+
+
+ <span class="floydstyle subheader">Nobles' End</span>
+ The bones of the nobles are laid here in gold.
+
+ Looking east, you see the Home of the Valiant; looking west, you see
+ the Hall of Kings.
+
+
+
+ <span class="floydstyle subheader">Home of the Valiant</span>
+ The bones of the valiant are here, each with spear and helmet.
+
+ Looking east, you see the Boneyard; looking west, you see the Nobles'
+ End.
+
+
+ You are carrying nothing.
+
+
+
+ <span class="floydstyle subheader">Nobles' End</span>
+ The bones of the nobles are laid here in gold.
+
+ Looking east, you see the Home of the Valiant; looking west, you see
+ the Hall of Kings.
+
+
+
+ <span class="floydstyle subheader">Hall of Kings</span>
+ Three thrones are here, with three kings.
+
+ Looking east, you see the Nobles' End.
+
+
+
+ <span class="floydstyle subheader">Nobles' End</span>
+ The bones of the nobles are laid here in gold.
+
+ Looking east, you see the Home of the Valiant; looking west, you see
+ the Hall of Kings.
+
+
+
+ <span class="floydstyle subheader">Home of the Valiant</span>
+ The bones of the valiant are here, each with spear and helmet.
+
+ Looking east, you see the Boneyard; looking west, you see the Nobles'
+ End.
+
+
+
+ <span class="floydstyle subheader">Boneyard</span>
+ The bones of the common are piled here.
+
+ Looking east, you see the Lair; looking west, you see the Home of the
+ Valiant.
+
+
+
+ <span class="floydstyle subheader">Lair</span>
+ You are in the lair. The room stinks. You are safe. He will protect
+ you.
+
+ Looking north, you see the Entrance; looking south, you see the
+ Armory; looking east, you see the New Treasures; looking west, you see
+ the Boneyard.
+
+
+ <span class="floydstyle subheader">Entrance</span>
+ You are by a barrow. The ground is on fire. They are trying to stop
+ him; clear his way.
+
+ You can see a sharp iron here.
+
+ Looking north, you see the Cliff; looking south, you see the Lair;
+ looking east, you see the Scrub; looking west, you see the Rocky
+ Tumble.
+
+
+ At the cliff, you can throw this.
+
+ Taken.
+
+
+ <span class="floydstyle subheader">Entrance</span>
+ You are by a barrow. The ground is on fire. They are trying to stop
+ him; clear his way.
+
+ Looking north, you see the Cliff; looking east, you see the Scrub;
+ looking west, you see the Rocky Tumble.
+
+
+
+ <span class="floydstyle subheader">Cliff</span>
+ The fire stops by the cliff. The water is inviting. You can throw
+ something
+
+ Looking south, you see the Entrance; looking down, you see the Shallow
+ Waters.
+
+
+ You throw the sharp iron in the water.
+
+
+
+ <span class="floydstyle subheader">Cliff</span>
+ It is undone.
+
+
+ Something is in his way. Clear his path.
+
+
+ You throw the sharp iron in the water.
+
+
+ Something is in his way. Clear his path.
+
+
+
+ <span class="floydstyle subheader">Cliff</span>
+ It is undone.
+
+
+
+ <span class="floydstyle subheader">Cliff</span>
+ It is undone.
+
+
+ You are carrying:
+   a sharp iron
+
+
+
+ <span class="floydstyle subheader">Entrance</span>
+ You are by a barrow. The ground is on fire. They are trying to stop
+ him; clear his way.
+
+ Looking north, you see the Cliff; looking east, you see the Scrub;
+ looking west, you see the Rocky Tumble.
+
+
+ The ground fire? That is what it is.
+
+
+ That's hardly portable.
+
+
+
+ <span class="floydstyle subheader">Scrub</span>
+ You can see a thornbush here.
+
+ Looking west, you see the Entrance.
+
+
+ At the cliff, you can throw this.
+
+ Taken.
+
+
+
+ <span class="floydstyle subheader">Entrance</span>
+ You are by a barrow. The ground is on fire. They are trying to stop
+ him; clear his way.
+
+ Looking north, you see the Cliff; looking east, you see the Scrub;
+ looking west, you see the Rocky Tumble.
+
+
+
+ <span class="floydstyle subheader">Rocky Tumble</span>
+ You can see a jagged rock here.
+
+ Looking east, you see the Entrance.
+
+
+ (the jagged rock)
+ At the cliff, you can throw this.
+
+ Taken.
+
+
+
+ <span class="floydstyle subheader">Entrance</span>
+ You are by a barrow. The ground is on fire. They are trying to stop
+ him; clear his way.
+
+ Looking north, you see the Cliff; looking east, you see the Scrub;
+ looking west, you see the Rocky Tumble.
+
+
+
+ <span class="floydstyle subheader">Cliff</span>
+ The fire stops by the cliff. The water is inviting. You can throw
+ something
+
+ Looking south, you see the Entrance; looking down, you see the Shallow
+ Waters.
+
+
+ I didn't understand the thing you were talking about.
+
+
+ jagged rock: You throw the jagged rock in the water.
+ thornbush: You throw the thornbush in the water.
+ sharp iron: You throw the sharp iron in the water.
+ You can go now.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+
+ You hear him come home. You fall.
+
+ <span class="floydstyle subheader">Shallow Waters</span>
+ You can see a boat (empty) here.
+
+ Looking east, you see the Coastline; looking up, you see the Cliff.
+
+
+ You get into the boat.
+
+
+ Not that way.
+
+
+
+ <span class="floydstyle i">Coastline</span> (in the boat)
+ You are following the coastline; you are close to home.
+
+ Looking north, you see the Deeper Waters; looking west, you see the
+ Shallow Waters.
+
+
+
+ <span class="floydstyle i">Deeper Waters</span> (in the boat)
+ You are in deep waters. Something is under the water.
+
+ Looking south, you see the Coastline; looking east, you see the Choppy
+ Waters.
+
+
+ It's not worth it to look under.
+
+
+ You find nothing of interest.
+
+
+ You find nothing of interest.
+
+
+ Not that way.
+
+
+ You get out of the boat.
+
+ <span class="floydstyle subheader">Deeper Waters</span>
+ You are in deep waters. Something is under the water.
+
+ You can see a boat (empty) here.
+
+ Looking south, you see the Coastline; looking east, you see the Choppy
+ Waters.
+
+
+ The something? That is what it is.
+
+
+ Not that way.
+
+
+ That's hardly portable.
+
+
+ There are none at all available!
+
+
+ You get into the boat.
+
+
+ <span class="floydstyle subheader">Choppy Waters</span>
+ The water is choppy here.
+
+ You can see a boat (empty) and a shark here.
+
+ Looking east, you see the Beach; looking west, you see the Deeper
+ Waters.
+
+ A shark has tipped the boat. You are in the water.
+
+
+ You leap over the shark, crying "Victor!"
+
+
+ The shark prevents you. You must attack it.
+
+
+ You need the boat.
+
+
+ The shark fights back.
+
+
+ <span class="floydstyle subheader">Choppy Waters</span>
+ The water is choppy here.
+
+ You can see a boat (empty) and a shark here.
+
+ Looking east, you see the Beach.
+
+ You punch the shark away.
+
+
+ You get into the boat.
+
+
+
+ <span class="floydstyle i">Beach</span> (in the boat)
+ You are at the beach. You don't need the boat.
+
+ Looking north, you see the Foothill; looking west, you see the Choppy
+ Waters.
+
+
+ The boat can't go on dry land.
+
+
+ You are hungry again.
+
+ You get out of the boat.
+
+ <span class="floydstyle subheader">Beach</span>
+ You are at the beach. You don't need the boat.
+
+ You can see a boat (empty) here.
+
+ Looking north, you see the Foothill; looking west, you see the Choppy
+ Waters.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+
+ You have so far scored 10 out of a possible 15, in 280 turns.
+
+
+
+ <span class="floydstyle subheader">Foothill</span>
+ They don't like it here. The mountains are between you and home.
+
+ Looking south, you see the Beach; looking east, you see the Footpath;
+ looking up, you see the Peak.
+
+
+ You are too weak to climb. You need to eat.
+
+>about
+
+ Swigian was beta tested by Mike Sousa, Hugo Labrande, Victor Ojuel,
+ Chandler Groover and heartless zombie.
+
+ The cover art is by Geni, a user on Wikimedia Commons. The license is
+ a Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), which can
+ The original image is located at
+ https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_2016.png,
+ and was retrieved in June of 2017.
+
+ Type HINT at any time for a hint. Type it again for a better hint.
+
+
+
+ <span class="floydstyle subheader">Footpath</span>
+ This path was made by them. Be careful.
+
+ Looking east, you see the Outside House; looking west, you see the
+ Foothill.
+
+
+
+ <span class="floydstyle subheader">Outside House</span>
+ You are outside one of their houses. It is very small.
+
+ Looking east, you see the Inside House; looking west, you see the
+ Footpath.
+
+
+
+ <span class="floydstyle subheader">Inside House</span>
+ You are in the small house.
+
+ You can see a fresh snack here.
+
+ Looking west, you see the Outside House.
+
+
+ You eat it.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+
+
+ <span class="floydstyle subheader">Outside House</span>
+ You are outside one of their houses. It is very small.
+
+ Looking east, you see the Inside House; looking west, you see the
+ Footpath.
+
+
+
+ <span class="floydstyle subheader">Footpath</span>
+ This path was made by them. Be careful.
+
+ Looking east, you see the Outside House; looking west, you see the
+ Foothill.
+
+
+
+ <span class="floydstyle subheader">Foothill</span>
+ They don't like it here. The mountains are between you and home.
+
+ Looking south, you see the Beach; looking east, you see the Footpath;
+ looking up, you see the Peak.
+
+
+
+ <span class="floydstyle subheader">Peak</span>
+ You are close to home. A pool of water is here. A waterfall comes out
+ of it.
+
+ Looking north, you see the Slick Drop; looking east, you see the
+ Slope; looking down, you see the Foothill.
+
+
+ You aren't thirsty.
+
+
+ That's not something you can enter.
+
+
+
+ <span class="floydstyle subheader">Slope</span>
+ The ground slopes up here.
+
+ Looking west, you see the Peak; looking up, you see the Rocky Summit.
+
+
+
+ <span class="floydstyle subheader">Rocky Summit</span>
+ You are on a rocky summit. There is a cliff to the west.
+
+ You can see some boulders here.
+
+ Looking down, you see the Slope.
+
+
+ They are too heavy to lift.
+
+
+ You push the boulders down the cliff.
+
+
+ <span class="floydstyle subheader">Rocky Summit</span>
+ You are on a rocky summit. There is a cliff to the west.
+
+ Looking down, you see the Slope.
+
+
+ Not that way.
+
+
+
+ <span class="floydstyle subheader">Slope</span>
+ The ground slopes up here.
+
+ Looking west, you see the Peak; looking up, you see the Rocky Summit.
+
+
+
+ <span class="floydstyle subheader">Peak</span>
+ You are close to home. A pool of water is here. The boulders are
+ blocking it.
+
+ You can see some boulders here.
+
+ Looking north, you see the Slick Drop; looking east, you see the
+ Slope; looking down, you see the Foothill.
+
+
+
+ <span class="floydstyle subheader">Slick Drop</span>
+ The ground here is slick.  It goes straight down.
+
+ Looking south, you see the Peak; looking down, you see the Eastern
+ Ledge.
+
+
+ The boulders are coming loose. One is falling above you.
+
+
+ Not that way.
+
+
+
+     *** You are crushed. ***
+
+
+ In that game you scored 11 out of a possible 15, in 302 turns.
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+
+
+ <span class="floydstyle subheader">Eastern Ledge</span>
+ It is undone.
+
+
+ I didn't understand the first thing you said.
+
+
+ Not that way.
+
+
+
+     *** You are crushed. ***
+
+
+ In that game you scored 11 out of a possible 15, in 302 turns.
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+
+
+ <span class="floydstyle subheader">Eastern Ledge</span>
+ It is undone.
+
+
+ I didn't understand the first thing you said.
+
+
+ You leap. It doesn't help.
+
+
+
+     *** You are crushed. ***
+
+
+ In that game you scored 11 out of a possible 15, in 302 turns.
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+
+
+ <span class="floydstyle subheader">Eastern Ledge</span>
+ It is undone.
+
+
+ I didn't understand the thing you were talking about.
+
+
+ I didn't understand the first thing you said.
+
+
+
+ <span class="floydstyle subheader">Western Ledge</span>
+ Looking east, you see the Eastern Ledge.
+
+ A boulder smashes on the other side. You hear another boulder above
+ you.
+
+
+
+ <span class="floydstyle subheader">Eastern Ledge</span>
+ Looking west, you see the Western Ledge.
+
+  A boulder smashes on the other side. You hear two boulders above you.
+
+
+
+ <span class="floydstyle subheader">Western Ledge</span>
+ Looking east, you see the Eastern Ledge.
+
+ The boulders miss you. They opened a path.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+
+ Not that way.
+
+
+ I didn't understand the thing you were talking about.
+
+
+ I didn't understand the thing you were talking about.
+
+
+ <span class="floydstyle subheader">Western Ledge</span>
+ Looking east, you see the Eastern Ledge; looking down, you see the
+ Soggy Ground.
+
+
+
+ <span class="floydstyle subheader">Soggy Ground</span>
+ The ground is marshy here.
+
+ Looking north, you see the Fen.
+
+
+
+ <span class="floydstyle subheader">Fen</span>
+ You are in a fen. You hear wolves.
+
+ Looking north, you see the Mist; looking south, you see the Soggy
+ Ground.
+
+
+ They are howling.
+
+
+
+ <span class="floydstyle subheader">Mist</span>
+ You are in the mist. You are safe. You are not lost.
+
+ Looking north, you see the Mist; looking south, you see the Mist;
+ looking east, you see the Mist; looking west, you see the Mist.
+
+
+ <span class="floydstyle subheader">Mist</span>
+ You are in the mist. You are safe. You are not lost.
+
+ Looking north, you see the Mist; looking south, you see the Mist;
+ looking east, you see the Mist; looking west, you see the Mist.
+
+ Now you are closer.
+
+ You'll be home soon.
+
+
+ <span class="floydstyle subheader">Mist</span>
+ You are in the mist. You are safe. You are not lost.
+
+ Looking north, you see the Mist; looking south, you see the Mist;
+ looking east, you see the Mist; looking west, you see the Mist.
+
+ Now you are closer.
+
+ There is some blood in the water. Now it's gone.
+
+
+ <span class="floydstyle subheader">Mist</span>
+ You are in the mist. You are safe. You are not lost.
+
+ Looking north, you see the Mist; looking south, you see the Mist;
+ looking east, you see the Mist; looking west, you see the Mist.
+
+ Now you are closer.
+
+ You hear the wolves.
+
+
+ <span class="floydstyle subheader">Mist</span>
+ You are in the mist. You are safe. You are not lost.
+
+ Looking north, you see the Mist; looking south, you see the Mist;
+ looking east, you see the Mist; looking west, you see the Mist.
+
+ Now you are closer.
+
+ It feels chilly.
+
+
+ <span class="floydstyle subheader">Mist</span>
+ You are in the mist. You are safe. You are not lost.
+
+ Looking north, you see the Mist; looking south, you see the Mist;
+ looking east, you see the Mist; looking west, you see the Mist.
+
+ Now you are closer.
+
+ The ground is getting firmer.
+
+
+ <span class="floydstyle subheader">Mist</span>
+ You are in the mist. You are safe. You are not lost.
+
+ Looking north, you see the Mist; looking south, you see the Mist;
+ looking east, you see the Mist; looking west, you see the Mist.
+
+ Now you are closer.
+
+ You see out of the mist.
+
+
+ <span class="floydstyle subheader">Mist</span>
+ You are in the mist. You are safe. You are not lost.
+
+ Looking north, you see the Frozen Trees.
+
+
+ <span class="floydstyle subheader">Frozen Trees</span>
+ You are in a forest. The trees are covered by snow.
+
+ Looking north, you see the Mereside.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+
+ You have so far scored 13 out of a possible 15, in 319 turns.
+
+
+
+ <span class="floydstyle subheader">Mereside</span>
+ You are by the mere. It is glowing.
+
+ You can see a serpent here.
+
+ Looking south, you see the Frozen Trees.
+
+
+ The serpent? That is what it is.
+
+
+ The mere? That is what it is.
+
+
+ Don't take people. You have better things to do.
+
+
+ I don't like talking.
+
+
+ Not that way.
+
+
+
+ <span class="floydstyle subheader">Frozen Trees</span>
+ You are in a forest. The trees are covered by snow.
+
+ Looking north, you see the Mereside.
+
+
+
+ <span class="floydstyle subheader">Mereside</span>
+ You are by the mere. It is glowing.
+
+ You can see a serpent here.
+
+ Looking south, you see the Frozen Trees.
+
+
+ The serpent is not your enemy. You are almost home. You can ask the
+ serpent about <span class="floydstyle em">them</span>.
+
+
+ The serpent says "They stay away. They hate the fire."
+
+ You can ask the serpent about fire.
+
+
+ The serpent says "The fen-fire frightens them. I have seen Hrothgar."
+
+ You can ask about Hrothgar.
+
+
+ The serpent says "Hrothgar is calling for help."
+
+ You can ask about help.
+
+
+ The serpent says "He is calling for Beowulf."
+
+ You can ask about Beowulf.
+
+
+ I didn't understand the first thing you said.
+
+
+ The serpent says "Beware of Beowulf."
+
+ The serpent swims away. Come home. You are almost there.
+
+ <span class="floydstyle note">[Your score has just gone up by one point.]</span>
+
+
+ <span class="floydstyle subheader">Mereside</span>
+ You are by the mere. It is glowing.
+
+ Looking north, you see the In Mere; looking south, you see the Frozen
+ Trees.
+
+
+ You have so far scored 14 out of a possible 15, in 334 turns.
+
+
+
+ <span class="floydstyle subheader">In Mere</span>
+ You are swimming in the fen-fire.
+
+ Looking north, you see the Center of Mere.
+
+
+
+ <span class="floydstyle subheader">Center of Mere</span>
+ You are in the center of the mere.
+
+ Looking south, you see the In Mere; looking down, you see the Descent.
+
+
+
+ <span class="floydstyle subheader">Descent</span>
+ It takes them all day to reach the bottom.
+
+ Looking up, you see the Center of Mere; looking down, you see the
+ Bottom.
+
+
+ <span class="floydstyle subheader">Bottom</span>
+ You are faster than them.
+
+ Looking north, you see the Cavern; looking up, you see the Descent.
+
+
+
+ <span class="floydstyle subheader">Cavern</span>
+ You are in a cavern. You are home. You are safe.
+
+ You are thirsty, hungry, and tired.
+
+ Looking north, you see the Mother; looking south, you see the Bottom;
+ looking east, you see the Larder; looking west, you see the Mead Room.
+
+
+
+ <span class="floydstyle subheader">Larder</span>
+ You are in your larder.
+
+ You can see a last snack here.
+
+ Looking west, you see the Cavern.
+
+
+ They try to get away, but you eat them.
+
+
+
+ <span class="floydstyle subheader">Cavern</span>
+ You are in a cavern. You are home. You are safe.
+
+ Looking north, you see the Mother; looking south, you see the Bottom;
+ looking east, you see the Larder; looking west, you see the Mead Room.
+
+
+
+ <span class="floydstyle subheader">Mead Room</span>
+ The mead you have taken is stored here.
+
+ You can see a pale mead here.
+
+ Looking east, you see the Cavern.
+
+
+ You drink the mead. You are not thirsty.
+
+
+ Not that way.
+
+
+
+ <span class="floydstyle subheader">Cavern</span>
+ You are in a cavern. You are home. You are safe.
+
+ Looking north, you see the Mother; looking south, you see the Bottom;
+ looking east, you see the Larder; looking west, you see the Mead Room.
+
+
+ <span class="floydstyle subheader">Mother</span>
+ Mother is here.
+
+ Looking south, you see the Cavern.
+
+
+
+     *** You are with mother. ***
+
+
+ In that game you scored 15 out of a possible 15, in 346 turns.
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+
+
+ <span class="floydstyle subheader">Cavern</span>
+ It is undone.
+
+
+ <span class="floydstyle subheader">Cavern</span>
+ You are in a cavern. You are home. You are safe.
+
+ Looking north, you see the Mother; looking south, you see the Bottom;
+ looking east, you see the Larder; looking west, you see the Mead Room.
+
+
+
+ <span class="floydstyle subheader">Bottom</span>
+ You are faster than them.
+
+ Looking north, you see the Cavern; looking up, you see the Descent.
+
+
+
+ <span class="floydstyle subheader">Cavern</span>
+ You are in a cavern. You are home. You are safe.
+
+ Looking north, you see the Mother; looking south, you see the Bottom;
+ looking east, you see the Larder; looking west, you see the Mead Room.
+
+
+ You are carrying nothing.
+
+
+ <span class="floydstyle subheader">Mother</span>
+ Mother is here.
+
+ Looking south, you see the Cavern.
+
+
+
+     *** You are with mother. ***
+
+
+ In that game you scored 15 out of a possible 15, in 350 turns.
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>quit
+ cheapglulxe quit with exit status: 0
+
+
+
+ I don't like talking. Let's build a fire.
+
+ <span class="floydstyle header">Swigian</span>
+ An Interactive Fiction by Rainbus North
+ Release 1 / Serial number 171022 / Inform 7 build 6M62 (I6/v6.33 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">Lake</span>
+ You are by a lake. The lake is still.
+
+ You can see an axe here.
+
+ Looking south, you see the Forest.
+
+>take axe
+
+ Taken.
+
+ Now you can cut things.
+
+>go south
+
+
+ <span class="floydstyle subheader">Forest</span>
+ You are in a forest. It is night.
+
+ You can see a log here.
+
+ Looking north, you see the Lake; looking south, you see the Mountain.

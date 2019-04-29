@@ -1,0 +1,2450 @@
+>load ic05foxdragonbread
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ "My hike was long, ov?r this peak.
+ More than a day, less than a week.
+ Come hear the tale I have to speak,
+ Hey diddle diddle aye-oh.
+
+ "A brand new town I soon shall see.
+ New people, I shall sing for thee.
+ A happy bard then I shall be,
+ Hey diddle diddle aye-oh.
+
+ "But first I must find food to eat.
+ I ate my cheese! I ate my meat!
+ An apple core would be a treat,
+ Hey diddle diddle aye-oh.
+
+ "No rabbits found I for my pot.
+ I looked for roots. I found them not.
+ These hunger pains! They must be fought!
+ Hey diddle diddle aye-oh.
+
+ "Why do no birds fly overhead?
+ Would not roast fowl taste good with bread?
+ When was the last time that I fed?
+ Hey diddle diddle aye-oh."
+
+
+ The Fox, The Dragon, and The Stale Loaf of Bread
+ A Bizarre Fairytale Adventure.  Story & Program by David Welbourn.
+ Release 1 for IntroComp 2005.  For some background info, type ABOUT.
+ Release 1 / Serial number 050723 / Inform v6.21 Library 6/10
+
+ Mountain Trail
+ You are on a lonely mountain trail. Trees grow sparsely this high up
+ on the mountain, and even less so back up the trail to the northeast.
+ To the west, the trail heads down past the treeline into a forest.
+
+ And not a moment too soon. You are positively famished.
+
+>examine me
+ Since you are a bard, you are cursed with natural good looks. Clear,
+ unblemished skin. Thick wavy black hair. Eyes so deep a brown, one
+ could gaze into them forever. Except for that birthmark on your
+ never-you-mind-where, you would be just about perfect.
+
+>inventory
+ You are carrying:
+   a walking stick
+   a knife (worn on your right hip)
+   your moneypurse (worn on your left hip and closed)
+   a rucksack (which is closed)
+
+>about
+ The Fox, The Dragon, and The Stale Loaf of Bread got its initial
+ inspiration from Emily Short's game Savoir-Faire. Yes, I know. This
+ game is nothing like that one. Let me explain.
+
+ What happened was that Emily and I had a brief little discussion on
+ the ifMud about how objects were coded in her game. Apparently some
+ game-objects represented multiple objects within the game, and I
+ interpreted this to mean that some objects were like extras in a
+ theatre play. So, perhaps in the Living Room, Joe Extra played the
+ role of the fox on the wallpaper, but in the Bedroom, Joe Extra played
+ the role of the dragon carving.
+
+ Well, I was wrong about that. That wasn't how Emily did it at all. But
+ I still liked the idea of the fox, the dragon, and yes, the stale loaf
+ of bread being actors, and then I started thinking of them as NPCs and
+ PCs, and, well, I like fairy tales, and thus was born the idea of this
+ unlikely trio helping some other guy on his quest. That guy being you.
+ You help them out, and then they'd be obligated to help you out.
+ Simple enough.
+
+ Simple, except for one of the trio being a stale loaf of bread. That's
+ really weird y'know? What motivates a loaf of bread? What can it
+ possibly do to help? That's going to be a fun question to answer.
+
+ By the way, I must apologize for the complete lack of testing in this
+ game. I foolishly left things until the very last minute, and I know
+ that the game is not as robust or as bulletproof as I'd like.
+ Hopefully, the Spirit of IntroComp will bless this mess, understanding
+ that the beginning of a game is going to lack a little completeness in
+ any case.
+
+>open rucksack
+ You open the rucksack, revealing a tinderbox, your lute and a bag of
+ spices.
+
+>examine spices
+ It is a tiny brown bag of soft leather that contains your motley
+ collection of spices. It is laced tightly closed.
+
+>open bag
+ You open the bag, revealing mixed spices.
+
+>eat spices
+ You cannot eat spices by themselves! You would only make yourself sick
+ if you did that.
+
+>examine spices
+ A mixture of salt, pepper, crushed garlic, and chives - but mostly
+ salt. When you are lucky enough to catch wild game, you like to
+ sprinkle on a little of this onto the meat to make it extra tasty.
+ Just looking at the spices makes your mouth water.
+
+>taste spices
+ You moisten a finger and dab a little of the mixed spices onto your
+ tongue. Mmm. Salty.
+
+>examine knife
+ A short servicable knife. It would not be much good in a fight, but
+ every bit helps.
+
+>examine purse
+ A small cloth moneypurse, dyed black.
+
+>stab me
+ That verb was not recognized.
+
+>examine stick
+ It is a sturdy walking stick just over five feet long. You made it
+ yourself by trimming a fallen tree branch that you found soon after
+ you began your trek through the mountains almost a week ago.
+
+>examine lute
+ Your lute is perhaps your most prized possession, since it provides
+ you with your livelihood, but you could build another if you had to.
+ Master Dorien showed you how to carve its pear-shaped body out of
+ pine, how to lightly string it with catgut so the instrument does not
+ break under its own tension, and (of course) how to tune the thing
+ fifty times a day. It is very lightweight and somewhat delicate.
+
+>play lute
+ (first taking the lute)
+ You play a few chords on the lute.
+
+>sing
+ Your singing is delightful.
+
+>dance
+ That verb was not recognized.
+
+>examine tinder
+ A small battered tinderbox made of tin, containing the necessary tools
+ for lighting a fire. Your father helped you put it together when you
+ were a boy, and it is the oldest thing you own.
+
+>open tinderbox
+ [You do not need to open or close the tinderbox. Just type LIGHT
+
+>go west
+ You make your way down the mountain. As you pass the treeline, you
+ hear a loud SNAP! followed by a sharp cry of pain.
+
+ Tall Pines
+ The mountain trail continues under a canopy of tall shady pine trees.
+ The trail continues down to the southwest, and up to the east.
+
+ To one side, you see a fox, its hind leg caught fast in a steel trap.
+
+>fox, hello
+ There is no reply.
+
+>examine trap
+ The steel trap is like a jaw: two rows of zigzag metal "teeth" hinged
+ on one side, with a heavy spring holding them clamped together.
+
+ Well, almost together. The steel trap is currently clamped around the
+ hind leg of a fox.
+
+>pry trap with stick
+ And lose a potential meal?
+
+>examine fox
+ This is a full-grown lady fox, with a cloth cap on her head and a
+ steel trap on one leg. Despite her obvious pain, she neither cries nor
+ whimpers, but watches your every move with wide brown eyes.
+
+ Your stomach chooses this moment to growl.
+
+>eat fox
+ Before you can eat the fox, you will have to kill it. You take out
+ your knife. But the sight of the knife terrifies the captured animal!
+ "DON'T EAT ME!" it says weakly.
+
+ The words, faint as they are, freeze you where you stand. It's not
+ merely that you're never heard a fox speak before. You haven't. But
+ somehow, she has invoked magic here. Like a ritual. Or a promise. Or
+ an oath.
+
+ "DON'T EAT ME," the fox says again, stronger now. Or perhaps the world
+ has gone silent instead, to hear her all the better. "If you spare me
+ and free me, I will help you later. You will not regret it.
+
+>no
+
+ The scene darkens briefly as a cloud passes over the face of the sun.
+ "So be it," says the fox, and says no more.
+
+>eat fox
+ You quickly slice open the fox's neck; it dies instantly. Blood now
+ stains your knife and hands, but that couldn't be helped.
+
+ You have never eaten fox before, but doubtless it is similar to
+ rabbit.
+
+>eat fox
+ You have never eaten a fox raw, and you are not about to start now.
+
+>cook fox
+ (first taking the dead fox)
+ It is too awkward and messy to carry both fox and trap together. You
+ must remove the trap first.
+
+ You wonder which part of the fox might be the most tasty.
+
+>remove fox
+ (first taking the dead fox)
+ It is too awkward and messy to carry both fox and trap together. You
+ must remove the trap first.
+
+>pry trap
+ What do you want to pry the steel trap with?
+
+>stick
+ It's awkward, but using the walking stick as a lever, you successfully
+ pry the steel trap open. After the fox's leg falls free, you carefully
+ SNAP the trap closed and pick up both it and the fox's body. Waste
+ not, want not.
+
+>eat fox
+ You have never eaten a fox raw, and you are not about to start now.
+
+>cook fox
+ You have yet to skin the animal first.
+
+>skin fox
+ You remove the bloodied cloth cap from the dead fox.
+
+ You begin the messy work of skinning the fox. First you turn the fox
+ onto its back and make a long vertical incision...
+
+ Let us make a long story shorter. When you are done, you have a
+ carcass of uncooked fox meat and a fox pelt. Incidently, you made a
+ bundle with the fox's cap and the unedible bits and chucked it far off
+ into the forest. You also cleaned off your knife and put it back on
+ your hip.
+
+>eat fox
+ Which do you mean, the fox pelt or the fox carcass?
+
+>cook carcass
+ There is nothing nearby to cook with.
+
+>examine pelt
+ It has soft fox fur on one side, and bloody skin on the other. You are
+ not sure what it is worth, but perhaps you can trade it for a nice
+ bottle of wine.
+
+>light stick with tinder
+ (first taking the tinderbox)
+ This dangerous act would achieve little.
+
+>look
+
+ Tall Pines
+ The mountain trail continues under a canopy of tall shady pine trees.
+ The trail continues down to the southwest, and up to the east.
+
+>examine trees
+ You are pleased to be amongst trees again, to be enclosed in their
+ most welcome shelter.
+
+>cut trees
+ You do not need to worry about the trees.
+
+>make fire
+ That verb was not recognized.
+
+>light fire
+ You cannot see any such thing.
+
+>go southwest
+
+ By the Firepit
+ The trail widens here, passing through a small level clearing. A thick
+ forest of trees surrounds the clearing. From here, you can follow the
+ trail down to the west, or up to the northeast.
+
+ To one side of the trail, there is an old firepit, and a short boulder
+ sits beside it.
+
+>examine pit
+ The firepit is just a circle of white stones at the side of the trail.
+ It does not look like it has been used for a long time. In the firepit
+ are some dry twigs and leaves.
+
+>light twigs
+ Using your tinderbox, you easily set the twigs and leaves ablaze.
+
+>cook fox
+ Which do you mean, the fox pelt or the fox carcass?
+
+>carcass
+ You cook the slab of fox meat. It looks and smells wonderful.
+
+>put spices on carcass
+ You need to be holding the mixed spices before you can put them on top
+ of something else.
+
+>inventory
+ You are carrying:
+   a tinderbox
+   a fox pelt
+   a slab of fox meat
+   a steel trap (which is closed)
+   a knife (worn on your right hip)
+   your lute
+   a walking stick
+   your moneypurse (worn on your left hip and closed)
+   a rucksack (which is open)
+     a bag of spices (which is open)
+       some mixed spices
+
+>take spices
+ You cannot pick up the mixed spices with your bare hands. Just
+ sprinkle them on your food directly from the bag.
+
+>sprinkle spices on carcass
+ [Pouring and sprinkling is not yet properly supported. It will be in
+ the full game.]
+
+>eat meat
+ You eat the cooked fox meat. Not bad. For fox meat, that is.
+
+>examine boulder
+ It is just an ordinary gray boulder, but it is just the right size to
+ sit on and has been pushed up close to the firepit.
+
+>sit on boulder
+ You rest your Johnny-sit-me-down on the boulder.
+
+>look
+
+ By the Firepit (on the boulder)
+ The trail widens here, passing through a small level clearing. A thick
+ forest of trees surrounds the clearing. From here, you can follow the
+ trail down to the west, or up to the northeast.
+
+ To one side of the trail, there is an old firepit (containing a
+ bonfire), and a short boulder sits beside it.
+
+>go west
+ You'll have to get off the boulder first.
+
+>stand
+ You get off the boulder.
+
+ By the Firepit
+ The trail widens here, passing through a small level clearing. A thick
+ forest of trees surrounds the clearing. From here, you can follow the
+ trail down to the west, or up to the northeast.
+
+ To one side of the trail, there is an old firepit (containing a
+ bonfire), and a short boulder sits beside it.
+
+>go west
+
+ Jumble of Rocks
+ The mountain trail crosses east to west over uneven and broken ground;
+ a wagon could have real trouble passing through here. Rockslides from
+ the north pose an additional ongoing hazard.
+
+>examine rocks
+ That is not something you need to refer to in the course of this game.
+
+>go north
+ There is a name for people who climb treacherous rockslides. "Dead."
+ Do not go that way.
+
+>again
+ There is a name for people who climb treacherous rockslides. "Dead."
+ Do not go that way.
+
+>go west
+
+ Mountain Vale
+ The ground dips down here into a small valley on the mountainside, and
+ a much greater variety of trees compete for the space here.
+ Fortunately, even though the road is covered with leaves, it is still
+ wide enough to see that it goes both southwest and east.
+
+>examine leaves
+ You cannot see any such thing.
+
+>go southwest
+
+ Bend in the Road
+ The road bends sharply here around a large boulder, heading up to the
+ northeast and down to the southeast. A lesser travelled footpath goes
+ south.
+
+>go south
+ The path is overgrown, forcing you to duck and push branches out of
+ the way. Suddenly, there are no more trees, and you look up and see
+ what they hid.
+
+ Scenic View
+ You stand at the top of a cliff overlooking a lake far below. The
+ expanse is breathtaking. Look there at that lake so clear and blue: it
+ contains a small wooded island, and on that island is a curious white
+ dome. Or look at that cliff. Tall it is here, and tall it remains as
+ it traverses a great C-shaped arch around the lake. Halfway into that
+ arch is a majestic waterfall, pouring its liquid bounty into the
+ waters below. Then look you further. Also on the cliff, opposite and
+ across the lake, is a village and castle. Be it a true kingdom or the
+ strange keep of barbarians, you do not know, but it must be an abode
+ of men. Civilization, at last.
+
+ The scene as a whole sings with vitality and life. Scarcely have you
+ seen a place so pregnant with power, so rich in air, earth, and water.
+ Alas, no path from here proceeds. You must needs regain your road to
+ the north.
+
+ You hear the hoots of several birds having a noisy argument below the
+ cliff.
+
+>listen
+ You hear the chirping of many birds having a noisy argument below the
+ cliff.
+
+ A finch zooms in from below and travels in a lazy circle above the
+ lake. Cawing, it then flies out of sight.
+
+>look under cliff
+ That is too far away.
+
+>look down
+ I only understood you as far as wanting to look.
+
+>jumo
+ That verb was not recognized.
+
+>jump
+ [Perhaps in the full game, you may be allowed to jump to your death.
+ But not now. Not today.]
+
+ A goose appears from below and flaps its wings furiously. Another bird
+ gives you the eagle eye before flying down below.
+
+>eat birds
+ Those are too far away.
+
+>catch birds
+ That verb was not recognized.
+
+>examine me
+ Since you are a bard, you are cursed with natural good looks. Clear,
+ unblemished skin. Thick wavy black hair. Eyes so deep a brown, one
+ could gaze into them forever. Except for that birthmark on your
+ never-you-mind-where, you would be just about perfect.
+
+ A goose appears from below and screams something in pidgin Pigeonese.
+ Cawing, it then flies out of sight.
+
+>go north
+ You push through the trees, back to the road.
+
+ Bend in the Road
+ The road bends sharply here around a large boulder, heading up to the
+ northeast and down to the southeast. A lesser travelled footpath goes
+ south.
+
+>se
+ You sigh. You cannot ignore the stale loaf of braad. You are starving.
+
+>restart
+ Are you sure you want to restart?
+>y
+
+
+
+
+
+
+
+
+ "My hike was long, ov?r this peak.
+ More than a day, less than a week.
+ Come hear the tale I have to speak,
+ Hey diddle diddle aye-oh.
+
+ "A brand new town I soon shall see.
+ New people, I shall sing for thee.
+ A happy bard then I shall be,
+ Hey diddle diddle aye-oh.
+
+ "But first I must find food to eat.
+ I ate my cheese! I ate my meat!
+ An apple core would be a treat,
+ Hey diddle diddle aye-oh.
+
+ "No rabbits found I for my pot.
+ I looked for roots. I found them not.
+ These hunger pains! They must be fought!
+ Hey diddle diddle aye-oh.
+
+ "Why do no birds fly overhead?
+ Would not roast fowl taste good with bread?
+ When was the last time that I fed?
+ Hey diddle diddle aye-oh."
+
+
+ The Fox, The Dragon, and The Stale Loaf of Bread
+ A Bizarre Fairytale Adventure.  Story & Program by David Welbourn.
+ Release 1 for IntroComp 2005.  For some background info, type ABOUT.
+ Release 1 / Serial number 050723 / Inform v6.21 Library 6/10
+
+ Mountain Trail
+ You are on a lonely mountain trail. Trees grow sparsely this high up
+ on the mountain, and even less so back up the trail to the northeast.
+ To the west, the trail heads down past the treeline into a forest.
+
+ And not a moment too soon. You are positively famished.
+
+>go northeast
+ You spent most of the last week traversing that mountain pass. You are
+ not going back that way now.
+
+>go west
+ You make your way down the mountain. As you pass the treeline, you
+ hear a loud SNAP! followed by a sharp cry of pain.
+
+ Tall Pines
+ The mountain trail continues under a canopy of tall shady pine trees.
+ The trail continues down to the southwest, and up to the east.
+
+ To one side, you see a fox, its hind leg caught fast in a steel trap.
+
+>eat fox
+ Before you can eat the fox, you will have to kill it. You take out
+ your knife. But the sight of the knife terrifies the captured animal!
+ "DON'T EAT ME!" it says weakly. Its voice is female.
+
+ The words, faint as they are, freeze you where you stand. It's not
+ merely that you're never heard a fox speak before. You haven't. But
+ somehow, she has invoked magic here. Like a ritual. Or a promise. Or
+ an oath.
+
+ "DON'T EAT ME," the fox says again, stronger now. Or perhaps the world
+ has gone silent instead, to hear her all the better. "If you spare me
+ and free me, I will help you later. You will not regret it.
+
+>yes
+
+ A sudden breeze blows by; leaves fly by in its wake. "Then free me,
+ man," says the fox.
+
+>pry trap with stick
+ It's awkward, but using the walking stick as a lever, you successfully
+ pry the steel trap open without causing further damage.
+
+ Freed of the trap, the fox gets gingerly to her feet. "I thank you,
+ man. I will remember my promise to you, and return when your need for
+ me is greatest. Until then, fare well." You watch as she hobbles away
+ into the forest and is lost from view.
+
+ You then take a moment more to SNAP the trap closed and pick it up.
+ Waste not, want not.
+
+>go southwest
+
+ By the Firepit
+ The trail widens here, passing through a small level clearing. A thick
+ forest of trees surrounds the clearing. From here, you can follow the
+ trail down to the west, or up to the northeast.
+
+ To one side of the trail, there is an old firepit, and a short boulder
+ sits beside it.
+
+>examine boulder
+ It is just an ordinary gray boulder, but it is just the right size to
+ sit on and has been pushed up close to the firepit.
+
+>examine firepit
+ The firepit is just a circle of white stones at the side of the trail.
+ It does not look like it has been used for a long time. In the firepit
+ are some dry twigs and leaves.
+
+>go west
+
+ Jumble of Rocks
+ The mountain trail crosses east to west over uneven and broken ground;
+ a wagon could have real trouble passing through here. Rockslides from
+ the north pose an additional ongoing hazard.
+
+ Lying on one of the rock piles, a baby dragon is crying pitiously.
+
+>examine fox
+ You cannot see any such thing.
+
+>examine dragon
+ The baby dragon has green scales with a blue underbelly and is about
+ the size of an adult wolf. It is lying on its back and whimpering,
+ probably because of the rusty iron nail stuck in its left foot.
+
+ Dragon steak is supposed to be a delicacy. This must be your lucky
+ day.
+
+>eat dragon
+ Before you can eat the baby dragon, you will have to kill it. You take
+ out your knife. As with the fox, the sight of your knife conveys your
+ terrible intent only too well. "DON'T EAT ME!" says the dragon,
+ between sobs.
+
+ Startled, you stop in place. Did this creature of myth and legend,
+ young as it is, truly speak? No, no, that cannot be. Not eat it? Of
+ course you want to eat it. You're hungry!
+
+ "DON'T EAT ME," the baby dragon says again, more forcefully, and there
+ is no mistaking it this time. Your ears seem to roar as the words echo
+ within your head. You hear nothing else. "If you spare me and pull
+ this nail out of my paw, I will help you later. You will not regret
+ it.
+
+>yes
+
+ Without warning, a dove flies west, singing joyfully, the first bird
+ you have heard in days. "Then please. Pull out this nail," says the
+ baby dragon.
+
+>pull nail
+ Sensing your intent, the dragon holds still as you approach. You grasp
+ the nail with your bare hand and pull, but it is no use. You just
+ cannot get a strong enough grip on it. You will need a tool of some
+ kind.
+
+>inventory
+ You are carrying:
+   a knife
+   a steel trap (which is closed)
+   a walking stick
+   your moneypurse (worn on your left hip and closed)
+   a rucksack (which is closed)
+
+>examine nail
+ The nail is embedded pretty deep in the baby dragon's foot. It looks
+ like one of those long nails used to hold a wagon wheel on its axle.
+ Ouch. That must be incredibly painful.
+
+>put trap on nail
+ Good idea. The steel trap should get a better grip on the nail than
+ your fingers. Unfortunately, the trap is closed.
+
+>open trap
+ Put the trap on the ground first.
+
+>pry trap with stick
+ Put the trap on the ground first.
+
+>drop trap
+ Dropped.
+
+>pry trap with stick
+ That is not something you can pry.
+
+>open trap
+ You open the trap.
+
+>get trap
+ Picking up an open steel trap would be extremely hazardous to your
+ fingers.
+
+>put trap on nail
+ You need to be holding the steel trap before you can put it on top of
+ something else.
+
+>get trap with stick
+ I only understood you as far as wanting to get the steel trap.
+
+>put dragon in trap
+ You need to be holding the baby dragon before you can put him into
+ something else.
+
+>get dragon
+ I don't suppose the baby dragon would care for that.
+
+>push trap
+ Nothing obvious happens.
+
+>trip trap
+ That verb was not recognized.
+
+>trigger trap
+>trigger trap
+ That verb was not recognized.
+
+ That verb was not recognized.
+
+>pull nail with trap
+ I only understood you as far as wanting to pull the rusty iron nail.
+
+>inventory
+ You are carrying:
+   a knife
+   a walking stick
+   your moneypurse (worn on your left hip and closed)
+   a rucksack (which is closed)
+
+>examine trap
+ The steel trap is like a jaw: two rows of zigzag metal "teeth" hinged
+ on one side. The trap is currently open, its heavy spring at high
+ tension. Anything put inside that deadly circle is likely to trigger
+ it.
+
+>put stick in trap
+ You insert the walking stick into the trap, which dutifully SNAPs shut
+ on it, leaving a gap.
+
+>take trap
+ Taken.
+
+>put trap on nail
+ Aha. With the walking stick holding the trap slightly open, you are
+ able to put the trap on the nail. That is, the nail is now in the gap
+ between the trap's jaws.
+
+ The dragon watches you curiously as you perform this operation.
+
+>take stick
+ You pull the walking stick out from the trap's jaws, and the trap
+ SNAPs around the head of the rusty iron nail.
+
+>pull trap
+ With the steel trap firmly gripping the nail between its teeth, you
+ are able to grab onto the trap in turn, and pull the troublesome nail
+ out of the baby dragon's paw. Before your disbelieving eyes, the wound
+ heals in seconds without the iron nail to prevent it.
+
+ The child of dragons, no longer sobbing, gets to its feet. Its large
+ reptilian eyes stare at you, and you back up a step. You suddenly
+ realize you are face-to-face with a deadly monster. It is still only
+ the size of a wolf, true, but that is plenty big enough, and somehow
+ you forgot that wolves can be dangerous too.
+
+ "Be at peace," says the dragon. "I have no love of mankind, nor that
+ hated iron. But you alone need not fear me. You have helped me as I
+ asked and our bargain stands. I will remember my promise to you, and
+ return when your need for me is greatest. Until then, fare well." You
+ stop breathing when the dragon jumps, but it is only to catch the air
+ in its leathery wings, and then it flies off into the distance.
+
+ The tension in your body relaxes, and you start breathing normally
+ again. You also remember that you are still hungry.
+
+>amputate leg with trap then eat it
+ That verb was not recognized.
+
+>look
+
+ Jumble of Rocks
+ The mountain trail crosses east to west over uneven and broken ground;
+ a wagon could have real trouble passing through here. Rockslides from
+ the north pose an additional ongoing hazard.
+
+>go west
+
+ Mountain Vale
+ The ground dips down here into a small valley on the mountainside, and
+ a much greater variety of trees compete for the space here.
+ Fortunately, even though the road is covered with leaves, it is still
+ wide enough to see that it goes both southwest and east.
+
+>sw then se
+
+ Bend in the Road
+ The road bends sharply here around a large boulder, heading up to the
+ northeast and down to the southeast. A lesser travelled footpath goes
+ south.
+
+ A stale loaf of bread has fallen into a gutter on the far side of the
+ road.
+ You sigh. You cannot ignore the stale loaf of braad. You are starving.
+
+>examine bread
+ A reddish-brown loaf of bread, gone hard and stale. Apart from being a
+ item of food, it looks totally unremarkable.
+
+ Bread. Food. Mine, mine, mine.
+
+>take it
+ You already have that.
+
+>look
+
+ Bend in the Road
+ The road bends sharply here around a large boulder, heading up to the
+ northeast and down to the southeast. A lesser travelled footpath goes
+ south.
+
+ A stale loaf of bread has fallen into a gutter on the far side of the
+ road.
+
+ Sure, it may be a stale loaf of bread, but you do not care at this
+ point.
+
+>take bread
+ When you pick up the loaf of bread, it suddenly shakes and squeals,
+ "DON'T EAT ME!"
+
+ You have got to be kidding me. Baked goods are inanimate objects and
+ they do not talk. You must be delirious from hunger. Yes, of course.
+ The strange events of the day are repeating in your mind and you only
+ think that the bread is talking. Of course the cure to such delusions
+ is to digest some food...
+
+ "DON'T EAT ME," the stale loaf of bread says again, and you cannot
+ help but notice it is scolding you, just like Grandma Zedna did when
+ you tried to steal some cookies. The voice of "Grainma" continues, "I
+ am not food to eat. I am a bird. Uh-huh. Looks like delirium is
+ contagious.
+
+ "I was riding on the back of a wagon when it hit a bump in the road
+ and I fell here. I think my wings are broken; I could not fly away. I
+ need to rejoin my fellow birds who can help me. Please. I can hear
+ some birds just south of here. If you spare me and take to them, I
+ will help you later. You will not regret it.
+
+>pronouns
+>yes
+
+ You feel you must be out of your mind, but you agree. "Wonderful,"
+ says Grainma. "Take me to them."
+
+ Birdsong trills to the south. It is a fool's errand, but you are
+ losing your taste for food that talks to you. So why not humor the old
+ bread?
+
+>yes
+ That was a rhetorical question.
+
+>pronouns
+ At the moment, "it" means the steel trap, "him" means the stale loaf
+ of bread, "her" is unset and "them" is unset.
+
+>go south
+ The path is overgrown, forcing you to duck and push branches out of
+ the way. Suddenly, there are no more trees, and you look up and see
+ what they hid.
+
+ Scenic View
+ You stand at the top of a cliff overlooking a lake far below. The
+ expanse is breathtaking. Look there at that lake so clear and blue: it
+ contains a small wooded island, and on that island is a curious white
+ dome. Or look at that cliff. Tall it is here, and tall it remains as
+ it traverses a great C-shaped arch around the lake. Halfway into that
+ arch is a majestic waterfall, pouring its liquid bounty into the
+ waters below. Then look you further. Also on the cliff, opposite and
+ across the lake, is a village and castle. Be it a true kingdom or the
+ strange keep of barbarians, you do not know, but it must be an abode
+ of men. Civilization, at last.
+
+ The scene as a whole sings with vitality and life. Scarcely have you
+ seen a place so pregnant with power, so rich in air, earth, and water.
+ Alas, no path from here proceeds. You must needs regain your road to
+ the north.
+
+ You hear the hoots of several birds having a loud to-do below the
+ cliff.
+
+>inventory
+ You are carrying:
+   a stale loaf of bread
+   a steel trap (which is closed)
+     a rusty iron nail
+   a walking stick
+   a knife
+   your moneypurse (worn on your left hip and closed)
+   a rucksack (which is closed)
+
+>drop bread over cliff
+ That is too far away.
+
+>examine cliff
+ Of the part of the cliff on which you stand, you can see little but
+ the grass and weeds at your feet. You must be on an outcropping of
+ sorts and the rock wall must curve inwards, for you can see only the
+ lake below and no hint of any beach or whatever the birds are
+ squabbling about.
+
+ Further away, encircling the lake, the cliff is a testament to ages
+ past, recorded in the strata laid bare. Although the layers of rock
+ are in many hues, the dominant color is a pale yellow bronze flecked
+ with gold. Indeed, you think the wall sparkles with the glint of gold,
+ but that may well be a trick of the light.
+
+ Only two more details intrude upon the cliff's face: the waterfall,
+ and a thin vertical line underneath the castle.
+
+>feed grainma to birds
+ You throw the stale loaf of bread over the cliff towards the birds,
+ and for a moment it seems to hover in mid-air.
+
+ "Bless you! I am free! Free!" the bread shouts. "I will remember my
+ promise and return to youuuuuu...."
+
+ Oh dear. Look at it plummet. And there goes every bird in the sky
+ after it. My my. Goodness, what a racket those birds are making.
+
+>examine birds
+ Most of the birds are not visible, since they are somewhere below you
+ down the cliff. But every so often one or two fly up mere yards out of
+ reach, but within throwing distance, shall we say.
+
+ What is peculiar is just how many different types of birds there seem
+ to be down there. What could the attraction be?
+
+>bread, you dummy! ! !
+ You seem to want to talk to someone, but it is not clear whom.
+
+>examine bread
+ You cannot see any such thing.
+
+>examine waterfal
+ You cannot see any such thing.
+
+>examine waterfall
+ A huge waterfall is falling from the top of the eastern side of the
+ cliff and into the lake far below. Every now and then, you can see a
+ faint rainbow within its attendent mist: one end appearing in the
+ waterfall itself, and the other end on the dome on the island.
+
+>go down
+ If you really want to go down the cliff and smash against the rocks
+ below, then jump. But it is not recommended.
+
+>jump
+ [Perhaps in the full game, you may be allowed to jump to your death.
+ But not now. Not today.]
+
+>Nah, it's a new thing commercial games do
+ You seem to want to talk to someone, but it is not clear whom.
+
+>inventory
+ You are carrying:
+   a steel trap (which is closed)
+     a rusty iron nail
+   a walking stick
+   a knife
+   your moneypurse (worn on your left hip and closed)
+   a rucksack (which is closed)
+
+>examine city
+ You cannot see any such thing.
+
+>examine vertical line
+ You cannot see any such thing.
+
+>go north
+ You push through the trees, back to the road.
+
+ Bend in the Road
+ The road bends sharply here around a large boulder, heading up to the
+ northeast and down to the southeast. A lesser travelled footpath goes
+ south.
+
+>go northeast
+
+ Mountain Vale
+ The ground dips down here into a small valley on the mountainside, and
+ a much greater variety of trees compete for the space here.
+ Fortunately, even though the road is covered with leaves, it is still
+ wide enough to see that it goes both southwest and east.
+
+>go southwest
+
+ Bend in the Road
+ The road bends sharply here around a large boulder, heading up to the
+ northeast and down to the southeast. A lesser travelled footpath goes
+ south.
+
+>se
+
+ Foothills
+ You are in the foothills of the local mountain range, where a variety
+ of weeds and purple flowers grow between the trees and tree stumps.
+ The road begins its ascent into the mountains to the northwest. To the
+ southeast, the road continues on a more gentle slope into farmland.
+
+ You cannot help thinking you have racked up a lot of karma today.
+ Somebody owes you big time.
+
+>se
+
+ Farmlands
+ This part of the road passes by barren farmland to the east. Although
+ the view is uninteresting in the extreme, at least the land is flat,
+ the road is straight, and the stones are few, for which your feet are
+ truly thankful. To the south, you see a bridge.
+
+>go south
+
+ North of Bridge
+ You are on the north side of a bridge. Farmlands are north, or go
+ south over the bridge.
+
+>xyzzy
+ That verb was not recognized.
+
+>go south
+ You tramp noisily over the bridge.
+
+ South of Bridge
+ The south side of the bridge is somewhat more thrilling than the north
+ side. The road on this side is made of green bricks, and it continues
+ south towards a village. And surely, where there's a village, there
+ must be food! Huzzah! A good meal at last.
+
+>go south
+ The brick road turns west before entering the village proper.
+
+ As you approach the village, you decide to sing:
+    "Ohhhhh, the fish was long and the fish was wide
+    But you will never ever guess what I found inside..."
+
+     *** The intro is over * Your destiny awaits ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>quit
+
+>list i
+>load tin
+>load ic07tin
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+ Day after endless day, stuck in this hideous palace.  Its very
+ greenness mocks you: There are no trees here that you can cut down.
+ Every day you spend an hour or two whacking on the big log they put in
+ your suite, but it's just not the same.  For companions you have only
+ an endless stream of anonymous, fawning courtiers, that dunce of a
+ Scarecrow, the pathetically neurotic Lion, and - every time you turn
+ around, it seems - the ill-mannered, ill-tempered brat and her
+ yapping, incontinent dog.
+
+ The brat - give her her proper name, Dorothy - is the worst of the
+ lot.  Some way has got to be found to send her back to Kansas.  And
+ quickly!
+
+ The Wizard is useless, of course.  Hides himself away in his chamber
+ and throws open the doors only when he's ready to show off some new
+ bit of stage magic even more pathetic than the last bit.  After which
+ everyone tells him how wonderful and magnificent he is, kiss, kiss.
+ No, you'll have to manage it somehow with or without his aid.  To make
+ matters worse, you have no idea where Kansas is, or how one might get
+ there from here.
+
+ Nor is Dorothy being cooperative.  She doesn't want to go back to
+ Kansas, that's abundantly clear.  Oh, once in a while she delivers a
+ pious, tearful speech about how terribly she misses her Aunt Em.  But
+ most of the time she's all too happy jumping out from behind the
+ furniture and shouting "Boo!" to torment the poor Lion, or flicking
+ lighted matches at the Scarecrow, or gorging herself on endless mounds
+ of caramels.
+
+ But this time she's truly gone too far: She's stolen your oilcan.
+
+
+
+ Tin
+
+ An irreverent visit to the Emerald City, for children of all ages.
+
+ By Jim Aikin
+
+
+
+ Your Private Suite
+ Green walls, green ceiling, green floor, green curtains on the windows
+ - yes, whoever designed this city had definite ideas about attractive
+ color schemes.  After you started attacking the furniture with your
+ axe (strictly out of boredom), they took the furniture away and
+ replaced it with an enormous log.  The log has, at least, the virtue
+ that it's not green.  And since you never sit or lie down, you have no
+ need of chairs or a bed.
+
+ The entire floor is littered with wood chips.  The door is to the
+ north.
+
+>chop log
+ (with your axe)
+ You take a few swipes at the log with the axe - chunk, chunk, chunk!
+ Chips fly.  But your heart just isn't in it.  Also, your elbows are
+ getting pretty rusty.  You really do need to find that oilcan.
+
+>examine chips
+ The floor is at least two inches deep in wood chips, and beneath the
+ chips is a layer of sawdust.  Visible in the dust, in addition to the
+ well-defined tracks of your own passage, are a number of crooked
+ trails that appear to be tiny footprints.
+
+>search chips
+ You poke around half-heartedly among the wood chips.  You weren't
+ really expecting to find your oilcan buried among them, and sure
+ enough - you don't.
+
+>examine footprints
+ The footprints could have been made by a mouse.
+
+>follow footprints
+ The tiny footprints crisscross one another in a haphazard way.
+ There's no telling which way they came from, or which way they're
+ going.
+
+>examine walls
+ west wall: You see nothing unusual about it.
+ east wall: You see nothing unusual about it.
+ north wall: You see nothing unusual about it.
+ south wall: You see nothing unusual about it.
+
+>rage against inform 7
+ The word "rage" is not necessary in this story.
+
+ (If this was an accidental misspelling, you can correct it by typing
+ OOPS followed by the corrected word now.  Any time the story points
+ out an unknown word, you can correct a misspelling using OOPS as your
+ next command.)
+
+>go south
+ You can't go that way.  The only obvious exit leads north.
+
+>go north
+ Eeiieyikgkgkgx!  Every time you move, your joints make horrible
+ noises.
+
+ A Wide Green Hallway
+ The wide green hallway provides access to the private suites in which
+ the Wizard's special guests are lodged.  The door to your own suite is
+ to the south, and the Lion's door is across the hall to the north.
+ You can proceed down the hallway to the east, or descend the broad
+ stairway to the west.
+
+>go north
+ Sssccrriikkkh....
+
+ The Lion's Private Suite
+ The suite provided for the Lion is remarkable chiefly for the enormous
+ bed, which is not only wide and long but also equipped with unusually
+ long legs and a green bedspread, which hangs down nearly to the floor.
+ Your olfactory sensors, while not very sensitive, work well enough to
+ indicate the presence of an earthy animal odor.  The exit from the
+ room is to the south.
+
+ The edge of the bedspread twitches.
+
+>look under bedspread
+ As you attempt to lift the edge of the bedspread so as to look under
+ the bed, a low-pitched, gruff, tremulous, and rather muffled voice
+ says, "G-g-grrr.  G-g-g-grrrrr!  G-g-go away, or I"ll ee-ee-eat you!
+ I m-m-m-mean it!"
+
+>lion, boo
+ The word "boo" is not necessary in this story.
+
+>chop bed
+ (with your axe)
+ Hacking at random objects with your axe would make you fairly
+ unpopular, fairly quickly.
+
+>chop lion
+ (with your axe)
+ Hacking at random objects with your axe would make you fairly
+ unpopular, fairly quickly.
+
+>get bedspread
+ Subjecting the Lion to the harsh light of day would be cruel.  He
+ seems to be happy under there (or at least as happy as he's capable of
+ being).  Why not leave the bedspread be?
+
+>ask lion about oil can
+ "I'm wondering," you venture.  "Might you be able to help me get my
+ oilcan back from Dorothy?"
+
+ "I don't see how," the Lion replies.  "She has no r-r-respect for
+ m-m-me, as you well know."
+
+ "Couldn't you roar at her or something?"
+
+ "I doubt she'll respond to th-th-threats," the Lion says.  "I think
+ you need a strategem.  But I couldn't really tell you what to
+ t-t-t-try."
+
+>ask lion about dorothy
+ "That w-w-wretched little girl!  Whenever I least expect it, just when
+ I start to regain my c-c-composure, she leaps out at me and screams!
+ And then, when I react, as is only natural - I'm not m-m-m-made of
+ stone, you know - she laughs.  She fairly shrieks with laughter!  Oh,
+ it's too much.  I am the King of Beasts, after all.  To be
+ hu-m-m-miliated like that!
+
+ I've made up my mind: I'm not coming out from under here until she's
+ gone.  P-p-promise me you'll think of a way to get rid of her.
+ P-p-please?"
+
+>lion, yes
+ The Cowardly Lion does not respond.
+
+>go south
+ Gggghhhrrggkk.  The noise coming from your knees is appalling.  Your
+ joints feel alarmingly stiff when you move.
+
+ A Wide Green Hallway
+ The wide green hallway provides access to the private suites in which
+ the Wizard's special guests are lodged.  The door to your own suite is
+ to the south, and the Lion's door is across the hall to the north.
+ You can proceed down the hallway to the east, or descend the broad
+ stairway to the west.
+
+>go east
+ Eeeiicchrxkk!  What a racket!
+
+ A Wide Green Hallway
+ The wide green hallway extends westward from here.  The doorway to the
+ north leads to the Scarecrow's private suite, while the doorway to the
+ south leads to Dorothy's suite.
+
+>go north
+ Xxxxxx....  What a racket!  Your joints are definitely binding each
+ time you move.  You'll need to locate the oilcan before long.
+
+ The Scarecrow's Private Suite
+ The suite in which the Scarecrow has been staying is furnished only
+ with a few decorative sheaves of corn and a large green chalkboard.
+ The door is to the south.
+
+ The Scarecrow is standing at the chalkboard, looking befuddled,
+ baffled, and bemused.
+
+>scarecrow, hello
+>ask scarecrow about oilcan
+ "You say Dorothy took it?  Well, I can't say I'm surprised.  I do hope
+ you'll be able to get it back before too very long.  You're sounding
+ just a little creaky, if you don't mind my saying so." The Scarecrow's
+ eyes droop with painted sadness.
+
+>ask scarecrow about scarecrow
+ "Me?  I'm nothing," he says.  "Or practically nothing.  Just a patchy
+ old suit stuffed with straw.  Of course, if I had a brain in my head,
+ I'm sure everyone would admire me."
+
+>examine chalkboard
+ The chalkboard fills most of one wall.  Most of it appears quite
+ pristine, as if it has never been written on at all.  Toward the right
+ end, however, the incomplete equation "2 + 2 =   " has been scribbled.
+ At least, that's what it looks like.  The space to the right of the
+ equals sign has been repeatedly smudged and haphazardly erased, as if
+ whoever was writing there (and you have a shrewd idea who that would
+ be) was growing more and more frustrated.
+
+>ask scarecrow about dorothy
+ "Such a dear sweet little thing!" The Scarecrow's head bobs up and
+ down in a way that you'd probably find quite comical if you had a
+ sense of humor.  (A sense of humor is not included in the
+ specification of the DWC-397.)  "I only wish she wasn't quite so full
+ of mischief," he goes on.  "Do you think you could find out where she
+ gets the matches?  And - if it's not asking too much - would you mind
+ very much asking her to give them to you?
+
+ "I'm quite immune to most sorts of danger, you know.  I can fall from
+ a great height and get up and walk away.  Doesn't bother me a bit.
+ But I am flammable.  And she knows that, I know she does.  I've told
+ her a dozen times.
+
+ "Maybe she's just forgetful.  I could understand that.  I'm quite
+ forgetful myself, you know.  Comes of having no brains.  Maybe you
+ could just remind her that it's not nice trying to set her friends on
+ fire.  If you'd be so good, dear chap."
+
+>scarecrow, s
+ The Scarecrow's attention seems to have been captured by a spider
+ dangling down from the ceiling.  He doesn't reply to your request.
+
+>go south
+ Rrtktktkrriieee!  That horrible grinding noise....
+
+ A Wide Green Hallway
+ The wide green hallway extends westward from here.  The doorway to the
+ north leads to the Scarecrow's private suite, while the doorway to the
+ south leads to Dorothy's suite.
+
+>go south
+ Eeiieyikgkgkgx!  What a racket!
+
+ Dorothy's Private Suite
+ This room has been extravagantly outfitted with every manner of
+ luxury, from frilly curtains and cozy throw-pillows (all of them
+ green) to a clutter of dolls and music boxes.  Standing next to the
+ enormous, puffy chair is a spindly glass table.  Dangling down behind
+ the chair, in a position that makes it easy to reach without standing,
+ is a long green silk rope with a green tassel on the end.  The door is
+ to the north.
+
+ Dorothy is sitting in the overstuffed green chair, with a big silver
+ tray heaped with caramels on the table at her elbow.  When she sees
+ you, her eyes light up with mischief.  "Hello, Tin Woodman," she says
+ sweetly.  "You're sounding a little squeaky today, aren't you?" She
+ covers her mouth to stifle a giggle.
+
+ Toto is curled up in Dorothy's lap.  His yellow eyes are fixed on you
+ with either disdain or veiled hostility.
+
+>pull rope
+ You give the silk rope a gentle experimental tug.  There's a distant
+ tinkling sound, as if it's attached to a bell in a nearby room.  In a
+ moment a green-clad servant scurries into the suite bearing an
+ enormous plate piled high with caramels.  After bowing deeply to
+ Dorothy, he starts to put the fresh tray of caramels on the little
+ table beside the girl's chair.  But then he sees that the tray on the
+ table is still piled high with caramels.  After a puzzled moment, he
+ shrugs and strides away again.
+
+>examine caramels
+ The caramels look very gooey.
+
+>ask dorothy about matches
+ "The Scarecrow tells me you've been flicking matches at him again,"
+ you say sternly.
+
+ "Oh, pooh," Dorothy replies, unconcerned.  "He's exaggerating.  I only
+ did it once or twice.  And anyhow, it didn't hurt him, did it?"
+
+>eat caramels
+ The DWC-397 Deluxe Wood Chopper is not powered by organic substances.
+ You never eat.  In fact, you have no stomach.
+
+>ask dorothy about oil can
+ Dorothy glances surreptitiously at the big wicker basket at her feet,
+ and then looks slyly at you to see whether you noticed.  "I'm very
+ sure I don't know what you're talking about," she says prettily.
+ "Anyway, you still seem to be moving around pretty good.  I don't know
+ why you're so worried about your silly old oilcan."
+
+>examine basket
+ The wicker basket is sitting at Dorothy's feet.  Within it is a plump
+ green cushion, which is stained a rather darker green in the middle,
+ as if a small dog who is not very clean is in the habit of lying
+ there.
+
+>open basket
+ That is not something you can open.
+
+>get basket
+ As you reach out toward the wicker basket, Toto snarls and snaps at
+ you.  In a make-believe adult voice, Dorothy says, "Trying to take
+ nice doggy's nice basket.  Shame on you!" She strokes the disgusting
+ little animal's head and fondles his ears lingeringly.
+
+>look under cushion
+ As you reach out toward the wicker basket, Toto snarls and snaps at
+ you.  In a make-believe adult voice, Dorothy says, "Trying to take
+ nice doggy's nice basket.  Shame on you!" She strokes the disgusting
+ little animal's head and fondles his ears lingeringly.
+
+>examine dog
+ Toto is a small, bad-tempered black dog.
+
+>take caramel
+ Moving with as much stealth as possible, given the amount of noise
+ your joints are making, you sidle up to the caramel tray and pounce on
+ it!
+
+ After leveling a smoky glare at you, Dorothy calmly reaches up and
+ pulls the bell rope behind her chair.  You hear a distant tinkle.
+ Shortly a green-clad servant rushes into the suite bearing an enormous
+ plate piled high with caramels.  After bowing deeply to Dorothy, the
+ servant puts the fresh tray of caramels on the little table beside the
+ girl's chair, gently but firmly removes the other tray from your
+ grasp, empties the remaining caramels from it onto the fresh tray
+ (which causes a few of them to cascade onto the floor), and, with
+ another bow, withdraws.
+
+ Deliberately not looking at you, Dorothy takes a fresh caramel, pops
+ it into her mouth, and chews with great determination.
+
+>inventory
+ You are carrying your axe.
+
+>look
+ Dorothy's Private Suite
+ This room has been extravagantly outfitted with every manner of
+ luxury, from frilly curtains and cozy throw-pillows (all of them
+ green) to a clutter of dolls and music boxes.  Standing next to the
+ enormous, puffy chair is a spindly glass table.  Dangling down behind
+ the chair, in a position that makes it easy to reach without standing,
+ is a long green silk rope with a green tassel on the end.  The door is
+ to the north.
+
+ Dorothy is sitting in the overstuffed green chair, with a big silver
+ tray heaped with caramels on the table at her elbow.
+
+ Toto is curled up in Dorothy's lap.  His yellow eyes are fixed on you
+ with either disdain or veiled hostility.
+
+>push tray
+ Pushing the silver tray has no effect.
+
+>take caramel
+ Moving with as much stealth as possible, given the amount of noise
+ your joints are making, you sidle up to the caramel tray and pounce on
+ it!
+
+ After leveling a smoky glare at you, Dorothy calmly reaches up and
+ pulls the bell rope behind her chair.  You hear a distant tinkle.
+ Shortly a green-clad servant rushes into the suite bearing an enormous
+ plate piled high with caramels.  After bowing deeply to Dorothy, the
+ servant puts the fresh tray of caramels on the little table beside the
+ girl's chair, gently but firmly removes the other tray from your
+ grasp, empties the remaining caramels from it onto the fresh tray
+ (which causes a few of them to cascade onto the floor), and, with
+ another bow, withdraws.
+
+ Deliberately not looking at you, Dorothy takes a fresh caramel, pops
+ it into her mouth, and chews with great determination.
+
+>examine floor
+ You see nothing unusual about it.
+
+>search floor
+ You see nothing on the floor.
+
+>go north
+ Xxxxxx....  Need that oilcan!
+
+ A Wide Green Hallway
+ The wide green hallway extends westward from here.  The doorway to the
+ north leads to the Scarecrow's private suite, while the doorway to the
+ south leads to Dorothy's suite.
+
+>go west
+ Rrtktktkrriieee!  That horrible grinding noise....
+
+ A Wide Green Hallway
+ The wide green hallway provides access to the private suites in which
+ the Wizard's special guests are lodged.  The door to your own suite is
+ to the south, and the Lion's door is across the hall to the north.
+ You can proceed down the hallway to the east, or descend the broad
+ stairway to the west.
+
+>go west
+ If you go down the stairs before you find that oilcan and get your
+ joints oiled, you'll never be able to get back up again.
+
+>e then e then s
+ Eeeiicchrxkk!  The noise coming from your knees is appalling.  Need
+ that oilcan!!
+
+ A Wide Green Hallway
+ The wide green hallway extends westward from here.  The doorway to the
+ north leads to the Scarecrow's private suite, while the doorway to the
+ south leads to Dorothy's suite.
+
+ You can't go that way.  Obvious exits lead north, to the the
+ scarecrow's private suite; south, to Dorothy's private suite; and
+ west, back to the green hallway.
+
+ Gggghhhrrggkk.  You're able to move only with difficulty.  This is
+ going to be a real problem before very much longer.
+
+ Dorothy's Private Suite
+ This room has been extravagantly outfitted with every manner of
+ luxury, from frilly curtains and cozy throw-pillows (all of them
+ green) to a clutter of dolls and music boxes.  Standing next to the
+ enormous, puffy chair is a spindly glass table.  Dangling down behind
+ the chair, in a position that makes it easy to reach without standing,
+ is a long green silk rope with a green tassel on the end.  The door is
+ to the north.
+
+ Dorothy is sitting in the overstuffed green chair, with a big silver
+ tray heaped with caramels on the table at her elbow.
+
+ Toto is curled up in Dorothy's lap.  His yellow eyes are fixed on you
+ with either disdain or veiled hostility.
+
+>examine dolls
+ The curtains, pillows, dolls, and music boxes are not the sort of
+ thing that a DWC-397 Deluxe Wood Chopper would ever concern himself
+ with.
+
+>cut rope
+ (with your axe)
+ You wait until a moment when Dorothy is letting Toto lick her face,
+ and sidle over to the bell rope (moving very cautiously so as not to
+ alert her by making any squeaking noises.  A stealthy backhand blow
+ from your trusty axe severs the rope up near the ceiling.  It sighs
+ down into a little coil on the floor, like a dead snake.
+
+>take caramel
+ When she notices that the tray of caramels is not conveniently
+ positioned at her elbow, Dorothy turns to grab the bell rope.  When
+ she sees it coiled on the floor, she belatedly realizes that her ready
+ supply of caramels has been cut off.  "You give me back those right
+ now!" she shrieks.  "Give them back at once, do you hear?" You make a
+ noble but perhaps ineffective attempt not to smirk.
+
+>ask dorothy about oil can
+ "Oh, all right, all right." Dorothy wrinkles her upper lip.  "Just
+ give me back my nice caramels, and I'll give you your stupid oilcan.
+ It's a fair trade."
+
+>give caramels to dorothy
+ Dorothy looks doubtfully from the plate of caramels (which you're
+ holding) to the wicker basket at her feet.  Her little brows wrinkle
+ up, and you're afraid she's about to go into the gallons-of-tears
+ routine.  But then she says, sniffling, "If I give you the oilcan,
+ will you give me back my nice caramels?"
+
+ Since that was the whole point of cutting the rope and grabbing the
+ caramels (what other earthly use would you have for the sticky
+ things?), you say with dignity, "We can trade, if you like."
+
+ Without further ado, Dorothy reaches down into the big wicker basket
+ at her feet, gropes under the green cushion, extracts the oilcan, and
+ holds it out to you by the spout in a stiff fist.  It requires an
+ effort not to lunge at it and grab it, but you don't want to give her
+ the satisfaction.  You unwrap her fingers from around the spout quite
+ gently, take the can, and give her the tray of caramels.  She promptly
+ stuffs half a dozen of them into her mouth and chews with great
+ determination, glaring at you the while.  You've spoiled her fun.
+
+>oil me
+ Doink, doink.  Doink-doink-doink!  Working swiftly, you apply oil to
+ each of your joints in turn.  Ahh, how soothing!  In short order
+ you're as good as new.
+
+ *** You have succeeded in lubricating your joints. ***
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, or QUIT?
+
+>quit
+>load ic07folkarstation
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ The buzzing of the klaxon is the first thing you hear as you awake.
+ You realize that there must be something wrong, or else you would not
+ have been revived.  Through your cryosleep haze, you hear the PA
+ system: "ALL EVACUATION PODS ARE AWAY.  STATION IS SECURE."
+
+ Your first task will be to find what's wrong and then approach fixing
+ the problem.
+
+ Repository (standing in the clone tank)
+ Clone tanks line one wall of the room.  Various other machinery lines
+ the other walls.  Doorways lead northeast to the control room and east
+ to the maintenance area.
+
+>examine machinery
+ Of all the machinery in the room, the only items of interest to you
+ are the card dispenser, the computer terminal and the food dispenser.
+
+>go down
+ (out of the clone tank)
+ Okay, you're no longer in the clone tank.
+
+>examine me
+ You are a standard clone, made for routine duties and emergency
+ situations.
+
+>inventory
+ You are carrying nothing, and are wearing some coveralls.
+
+>examine terminal
+ The terminal is here for your use to look up procedures on your
+ various tasks and emergency situations around the station.
+
+>examine card dispenser
+ The card dispenser is where you can get keycards for various parts of
+ the station when you have been called on to service the station.  It
+ consists of a button and a receptacle for receiving the card.
+ Attatched to the front of the machine is a sign.
+
+>read it
+ The card dispenser is where you can get keycards for various parts of
+ the station when you have been called on to service the station.  It
+ consists of a button and a receptacle for receiving the card.
+ Attatched to the front of the machine is a sign.
+
+>read sign
+ The sign says 'OUT OF ORDER.  Please see the maintenance chief in
+ ACA-Beta-268.
+
+>examine food dispenser
+ It helps keep clones fed and strong.  It consists of a lever and a
+ chute.
+
+>pull lever
+ You do not need nourisment at the moment.
+
+>look up emergency on terminal
+ What do you want to look that up in?
+
+>look up emergency in terminal
+ That is not something you can consult.
+
+>read terminal
+ The computer screen is blank.
+
+>turn on computer
+ (the computer terminal)
+ As you switch on the computer, the screen comes to life and scrolls
+ out your current instructions.
+
+>read it
+ The screen displays the following instructions:
+
+ 1.  Get oxygen tanks and welding torch from cabinets in the
+ maintenance room
+
+ 2.  Find a way into Gamma Quarters
+
+ 3.  Weld the breach shut with the welding torch
+
+ It is clear to you that there's a chance you won't be returning from
+ repairing the hull.  You hope that the memory transference is still
+ working so that your other clones can continue working on the other
+ problems.
+
+>look
+ Repository
+ Clone tanks line one wall of the room.  Various other machinery lines
+ the other walls.  Doorways lead northeast to the control room and east
+ to the maintenance area.
+
+>go east
+ Maintenance Area
+ Usually this place would be bustling with workers, but with the
+ station evacuated, it's as quiet as a morgue.  A workbench sits along
+ one wall of the room, with cabinets on either side of it.  The control
+ room lies to the north, and the clone repository is to the west.
+
+ On the workbench is a wrench.
+
+>open cabinets
+ Those are not something you can open.
+
+>get wrench
+ Taken.
+
+>examine cabinets
+ The cabinets both stand on either side of the workbench.  They're 6
+ feet tall with double doors and a slot in the front.
+
+>examine slot
+ The word "slot" is not necessary in this story.
+
+ (If this was an accidental misspelling, you can correct it by typing
+ OOPS followed by the corrected word now.  Any time the story points
+ out an unknown word, you can correct a misspelling using OOPS as your
+ next command.)
+
+>open cabinet
+ Which cabinet do you mean, the right cabinet, or the left cabinet?
+
+>open right cabinet
+ The right cabinet seems to be locked.
+
+>open left cabinet
+ The left cabinet seems to be locked.
+
+>inventory
+ You are carrying a wrench, and you're wearing some coveralls.
+
+>examine left cabinet
+ It stands about 6 feet high with one set of double doors.  There is a
+ slot on the front side.  It's closed.
+
+>go north
+ Control Room
+ A big screen dominates the north wall where you can see the Martian
+ surface displayed.  Below the screen is a panel on which you can see
+ indicators giving the status of various parts of the station.  From
+ here you can see some of the panels blinking red, indicating problems
+ with the station.  The clone repository lies to the southwest.  The
+ maintenance area is to the south and you can exit into the corridor to
+ the east.
+
+>go southwest
+ Repository
+ Clone tanks line one wall of the room.  Various other machinery lines
+ the other walls.  Doorways lead northeast to the control room and east
+ to the maintenance area.
+
+>search clone tanks
+ The clone tanks aren't important.
+
+>examine tanks
+ There are six other tanks in the room.  In one of the tanks, a copy of
+ you is being created just in case something happens to you during the
+ course of your mission.
+
+>go northeast
+ Control Room
+ A big screen dominates the north wall where you can see the Martian
+ surface displayed.  Below the screen is a panel on which you can see
+ indicators giving the status of various parts of the station.  From
+ here you can see some of the panels blinking red, indicating problems
+ with the station.  The clone repository lies to the southwest.  The
+ maintenance area is to the south and you can exit into the corridor to
+ the east.
+
+>examine screen
+ You can see a portion of the Martian surface below and you can see the
+ temporary facility planetside.  It's pretty clear that the inhabitants
+ evacuated there while you take care of the situation on the station.
+
+>examine panels
+ It appears that a meteor struck the station right above the living
+ quarters in the Gamma area of section ACA.  The result was a hull
+ breach in that area.  The force of the impact caused a leak in the
+ radiation core in the engine room, which keeps the station in its
+ orbit.  Sensors also indicate an experimental virus loose in the
+ medical lab, probably due to a failed containment field.
+
+ (NOTE: You can check what you have left to do at any time by typing in
+ 'TODO')
+
+>TODO
+ 1.  Fix the breach in the station hull
+
+ 2.  Contain the radiation leak and recover orbit integrity
+
+ 3.  Contain the experimental virus
+
+>go east
+ Corridor ACA-3
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.  The control room is to
+ the west.
+
+>go south
+ Corridor ACA-2
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.
+
+>go south
+ Corridor ACA-1
+ This is a corridor that leads toward the hub to the north.  The living
+ quarters are to the west.
+
+>go west
+ ACA Living Quarters
+ This is the central hub of the living quarters for section ACA.  Alpha
+ quarters are to the west, Beta quarters are to the southwest and Gamma
+ quarters are to the south.  The corridor leading to Gamma quarters has
+ been sealed by a door.
+
+>go west
+ You wander down the corridor a little ways trying some of the doors,
+ but find none open.
+
+>go southwest
+ After wandering down the hallway a little ways, you find a room
+ unlocked, and duck into it.
+
+ Foreman's Room - ACA Beta Room 268
+ The room is very spartan in nature.  Just a bed, a desk, and a closet
+ for clothes.  The corridor is to the northwest.
+
+>examine desk
+ Just a simple writing surface with a single drawer.  Not much more to
+ it.
+
+>open drawer
+ Opening the desk drawer reveals a cabinet keycard.
+
+>get keycard
+ Taken.
+
+>examine it
+ It is embossed with the foreman's name on one side and has a magnetic
+ strip on the other side.
+
+>examine closet
+ Just a place to keep clothing.
+
+>open closet
+ The closet isn't important.
+
+>go east
+ You can't go that way.  The only obvious exit leads northwest, back to
+ ACA Living Quarters.
+
+>go northwest
+ You exit the room and head back to the hub of the living quarters.
+
+ ACA Living Quarters
+ This is the central hub of the living quarters for section ACA.  Alpha
+ quarters are to the west, Beta quarters are to the southwest and Gamma
+ quarters are to the south.  The corridor leading to Gamma quarters has
+ been sealed by a door.
+
+>examine door
+ The door has been sealed shut due to the hull breach on the other
+ side.  You spot an access panel next to the door for overriding in
+ case of electrical failure.
+
+>examine access panel
+ The access panel is just to the right of the door and about shoulder
+ height.  It's closed.
+
+>open it
+ Opening the door access panel reveals a Gamma Quarters manual access
+ bolt.
+
+>examine bolt
+ The bolt is for manually opening the door in case of electrical
+ failure, or in your case, sealed due to hull breach.
+
+>open bolt with wrench
+ The story doesn't understand that command.
+
+>turn bolt
+ You're just about to open a door that could potentially lead into the
+ vacuum of space.  Should't you put on a breathing apparatus?
+
+>no
+ You must be more specific about whom you want to talk to.
+
+>turn bolt
+ Since you're probably trying to open this door to fix the hull breach,
+ shouldn't you have something to fix it with?
+
+>turn bolt
+ You turn the bolt, and the doors inch their way open, with a big rush
+ of air through them.  You are sucked through the doors, dropping your
+ wrench in the process, and down through the corridor and out through
+ the hull into the vacuum of space.
+
+ Since you were foolish enough to open the door without taking the
+ proper precautions, you are sucked out into space and your lungs
+ explode, dooming the space station.
+
+ *** YOU HAVE DIED ***
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, or QUIT?
+
+>undo
+ Taking back one turn: "turn bolt".
+
+ ACA Living Quarters
+ This is the central hub of the living quarters for section ACA.  Alpha
+ quarters are to the west, Beta quarters are to the southwest and Gamma
+ quarters are to the south.  The corridor leading to Gamma quarters has
+ been sealed by a door.
+
+ The door access panel contains a Gamma Quarters manual access bolt.
+
+>go northwest
+ You can't go that way.  Obvious exits lead south; east, to Corridor
+ ACA-1; west; and southwest, back to the foreman's room - aca beta room
+ 268.
+
+>go east
+ Corridor ACA-1
+ This is a corridor that leads toward the hub to the north.  The living
+ quarters are to the west.
+
+>go north
+ Corridor ACA-2
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.
+
+>go north
+ Corridor ACA-3
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.  The control room is to
+ the west.
+
+>go west
+ Control Room
+ A big screen dominates the north wall where you can see the Martian
+ surface displayed.  Below the screen is a panel on which you can see
+ indicators giving the status of various parts of the station.  From
+ here you can see some of the panels blinking red, indicating problems
+ with the station.  The clone repository lies to the southwest.  The
+ maintenance area is to the south and you can exit into the corridor to
+ the east.
+
+>go south
+ Maintenance Area
+ Usually this place would be bustling with workers, but with the
+ station evacuated, it's as quiet as a morgue.  A workbench sits along
+ one wall of the room, with cabinets on either side of it.  The control
+ room lies to the north, and the clone repository is to the west.
+
+>unlock cabinets
+ Those are not something you can unlock.
+
+>unlock cabinets with card
+ Those are not something you can unlock.
+
+>put card in slot
+ The word "slot" is not necessary in this story.
+
+>put card in cabinets
+ You can't put anything in the cabinets.
+
+>examine left cabinet
+ It stands about 6 feet high with one set of double doors.  There is a
+ slot on the front side.  It's closed.
+
+>put card in left cabinet
+ Unlocked.
+
+>put card in right cabinet
+ Unlocked.
+
+>Oi, that's a bug.
+ The word "Oi" is not necessary in this story.
+
+>open left cabinet
+ Opening the left cabinet reveals some oxygen tanks.
+
+>take tanks
+ Taken.
+
+>open right cabinet
+ Opening the right cabinet reveals a welding torch.
+
+>take torch
+ Taken.
+
+>go north
+ Control Room
+ A big screen dominates the north wall where you can see the Martian
+ surface displayed.  Below the screen is a panel on which you can see
+ indicators giving the status of various parts of the station.  From
+ here you can see some of the panels blinking red, indicating problems
+ with the station.  The clone repository lies to the southwest.  The
+ maintenance area is to the south and you can exit into the corridor to
+ the east.
+
+>wear tanks
+ Okay, you're now wearing the oxygen tanks.
+
+>examine tanks
+ A portable breathing apparatus for airless environments.
+
+>examine coverall
+ Standard uniform for all the clones, suitable for all operations
+ inside the station and out.  Over your left breast, there is a patch
+ with the title 'ACA-001' on it.
+
+>todo
+ 1.  Fix the breach in the station hull
+
+ 2.  Contain the radiation leak and recover orbit integrity
+
+ 3.  Contain the experimental virus
+
+>go east
+ Corridor ACA-3
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.  The control room is to
+ the west.
+
+>go north
+ Corridor ACA-4
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.
+
+>go north
+ You decide that taking care of the hull breach is much more important
+ than exploring the rest of the station.
+
+>go south
+ Corridor ACA-3
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.  The control room is to
+ the west.
+
+>s. s. s. s.
+ Corridor ACA-2
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.
+
+ Corridor ACA-1
+ This is a corridor that leads toward the hub to the north.  The living
+ quarters are to the west.
+
+ You can't go that way.  Obvious exits lead north, back to Corridor
+ ACA-2; and west, to ACA Living Quarters.
+
+ You can't go that way.  Obvious exits lead north, back to Corridor
+ ACA-2; and west, to ACA Living Quarters.
+
+>go west
+ ACA Living Quarters
+ This is the central hub of the living quarters for section ACA.  Alpha
+ quarters are to the west, Beta quarters are to the southwest and Gamma
+ quarters are to the south.  The corridor leading to Gamma quarters has
+ been sealed by a door.
+
+ The door access panel contains a Gamma Quarters manual access bolt.
+
+>turn bolt
+ You turn the bolt, and the doors inch their way open, with a big rush
+ of air through them.  You are sucked through the doors, dropping your
+ wrench in the process, and down through the corridor and out through
+ the hull into the vacuum of space.
+
+ A sharp edge on the hole slices through the hose of your oxygen tanks,
+ and slows you down just enough to grab hold of the outside of the
+ space station.  You hold your breath, but you know you're not going to
+ last long.
+
+ Outside Station
+ You are clinging to the outside of Folkar Station just outside Gamma
+ Quarters.  You can see into the corridor from the hole in the hull,
+ but there's no way to climb back in.
+
+>undo
+ Taking back one turn: "turn bolt".
+
+ ACA Living Quarters
+ This is the central hub of the living quarters for section ACA.  Alpha
+ quarters are to the west, Beta quarters are to the southwest and Gamma
+ quarters are to the south.  The corridor leading to Gamma quarters has
+ been sealed by a door.
+
+ The door access panel contains a Gamma Quarters manual access bolt.
+
+>turn bolt
+ You turn the bolt, and the doors inch their way open, with a big rush
+ of air through them.  You are sucked through the doors, dropping your
+ wrench in the process, and down through the corridor and out through
+ the hull into the vacuum of space.
+
+ A sharp edge on the hole slices through the hose of your oxygen tanks,
+ and slows you down just enough to grab hold of the outside of the
+ space station.  You hold your breath, but you know you're not going to
+ last long.
+
+ Outside Station
+ You are clinging to the outside of Folkar Station just outside Gamma
+ Quarters.  You can see into the corridor from the hole in the hull,
+ but there's no way to climb back in.
+
+>examine hole
+ Jagged edges surround the hole.  It's impossible to get back into the
+ station through it.
+
+>weld hole
+ The edges of the hole are too far apart.  You cannot weld them
+ together.
+
+ It's beginning to be difficult to hold your breath.
+
+>examine station
+ (the jagged hole)
+ Jagged edges surround the hole.  It's impossible to get back into the
+ station through it.
+
+ Your concentration begins to falter as you struggle to hold your
+ breath a little longer.
+
+>examine tank
+ You see no tank here.
+
+>inventory
+ You are carrying a cabinet keycard and a welding torch, and you're
+ wearing some coveralls and some oxygen tanks.
+
+ You find that you cannot hold your breath any longer, and the vacuum
+ of space is a bad place to try and breathe.
+
+ *** YOU HAVE DIED ***
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, or QUIT?
+
+>undo
+ Taking back one turn: "i".
+
+ Outside Station
+ You are clinging to the outside of Folkar Station just outside Gamma
+ Quarters.  You can see into the corridor from the hole in the hull,
+ but there's no way to climb back in.
+
+>undo
+ Taking back one turn: "x station".
+
+ Outside Station
+ You are clinging to the outside of Folkar Station just outside Gamma
+ Quarters.  You can see into the corridor from the hole in the hull,
+ but there's no way to climb back in.
+
+>undo
+ Taking back one turn: "weld hole".
+
+ Outside Station
+ You are clinging to the outside of Folkar Station just outside Gamma
+ Quarters.  You can see into the corridor from the hole in the hull,
+ but there's no way to climb back in.
+
+>undo
+ Taking back one turn: "x hole".
+
+ Outside Station
+ You are clinging to the outside of Folkar Station just outside Gamma
+ Quarters.  You can see into the corridor from the hole in the hull,
+ but there's no way to climb back in.
+
+>undo
+ Taking back one turn: "turn bolt".
+
+ ACA Living Quarters
+ This is the central hub of the living quarters for section ACA.  Alpha
+ quarters are to the west, Beta quarters are to the southwest and Gamma
+ quarters are to the south.  The corridor leading to Gamma quarters has
+ been sealed by a door.
+
+ The door access panel contains a Gamma Quarters manual access bolt.
+
+>SAVE
+>cf1
+ Saved.
+
+>turn bolt
+ You turn the bolt, and the doors inch their way open, with a big rush
+ of air through them.  You are sucked through the doors, dropping your
+ wrench in the process, and down through the corridor and out through
+ the hull into the vacuum of space.
+
+ A sharp edge on the hole slices through the hose of your oxygen tanks,
+ and slows you down just enough to grab hold of the outside of the
+ space station.  You hold your breath, but you know you're not going to
+ last long.
+
+ Outside Station
+ You are clinging to the outside of Folkar Station just outside Gamma
+ Quarters.  You can see into the corridor from the hole in the hull,
+ but there's no way to climb back in.
+
+>put tanks in hole
+ You can't put anything in the jagged hole.
+
+>put tanks on hole
+ There's no good surface on the jagged hole.
+
+ It's beginning to be difficult to hold your breath.
+
+>weld tanks to hole
+ The story doesn't understand that command.
+
+>enter hole
+ The hole is much too jagged and small for you to climb back through.
+ It's a wonder you were sucked out it in the first place.
+
+ Your concentration begins to falter as you struggle to hold your
+ breath a little longer.
+
+>weld self to hole
+ The word "self" is not necessary in this story.
+
+>examine station
+ (the jagged hole)
+ Jagged edges surround the hole.  It's impossible to get back into the
+ station through it.
+
+ You find that you cannot hold your breath any longer, and the vacuum
+ of space is a bad place to try and breathe.
+
+ *** YOU HAVE DIED ***
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, or QUIT?
+
+>RESTORE
+>cf1
+ Restored.
+
+ ACA Living Quarters
+ This is the central hub of the living quarters for section ACA.  Alpha
+ quarters are to the west, Beta quarters are to the southwest and Gamma
+ quarters are to the south.  The corridor leading to Gamma quarters has
+ been sealed by a door.
+
+ The door access panel contains a Gamma Quarters manual access bolt.
+
+>go west
+ You wander down the corridor a little ways trying some of the doors,
+ but find none open.
+
+>go southwest
+ After wandering down the hallway a little ways, you find a room
+ unlocked, and duck into it.
+
+ Foreman's Room - ACA Beta Room 268
+ The room is very spartan in nature.  Just a bed, a desk, and a closet
+ for clothes.  The corridor is to the northwest.
+
+>examine desk
+ Just a simple writing surface with a single drawer.  Not much more to
+ it.
+
+>examine bed
+ It basically consists of a simple mattress.  Not much of use here.
+
+>look under bed
+ You see nothing unusual under the foreman's bed.
+
+>examine mattress
+ The word "mattress" is not necessary in this story.
+
+>examine closet
+ Just a place to keep clothing.
+
+>search closet
+ The closet isn't important.
+
+>go northeast
+ You can't go that way.  The only obvious exit leads northwest, back to
+ ACA Living Quarters.
+
+>go northwest
+ You exit the room and head back to the hub of the living quarters.
+
+ ACA Living Quarters
+ This is the central hub of the living quarters for section ACA.  Alpha
+ quarters are to the west, Beta quarters are to the southwest and Gamma
+ quarters are to the south.  The corridor leading to Gamma quarters has
+ been sealed by a door.
+
+ The door access panel contains a Gamma Quarters manual access bolt.
+
+>go north
+ You can't go that way.  Obvious exits lead south; east, to Corridor
+ ACA-1; west; and southwest, back to the foreman's room - aca beta room
+ 268.
+
+>go west
+ You wander down the corridor a little ways trying some of the doors,
+ but find none open.
+
+>go east
+ Corridor ACA-1
+ This is a corridor that leads toward the hub to the north.  The living
+ quarters are to the west.
+
+>go east
+ You can't go that way.  Obvious exits lead north, to Corridor ACA-2;
+ and west, back to ACA Living Quarters.
+
+>go north
+ Corridor ACA-2
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.
+
+>go north
+ Corridor ACA-3
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.  The control room is to
+ the west.
+
+>go north
+ Corridor ACA-4
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.
+
+>go north
+ You decide that taking care of the hull breach is much more important
+ than exploring the rest of the station.
+
+>go south
+ Corridor ACA-3
+ This is a north-south corridor that leads toward the hub to the north,
+ and toward the living quarters to the south.  The control room is to
+ the west.
+
+>go west
+ Control Room
+ A big screen dominates the north wall where you can see the Martian
+ surface displayed.  Below the screen is a panel on which you can see
+ indicators giving the status of various parts of the station.  From
+ here you can see some of the panels blinking red, indicating problems
+ with the station.  The clone repository lies to the southwest.  The
+ maintenance area is to the south and you can exit into the corridor to
+ the east.
+
+>examine panel
+ It appears that a meteor struck the station right above the living
+ quarters in the Gamma area of section ACA.  The result was a hull
+ breach in that area.  The force of the impact caused a leak in the
+ radiation core in the engine room, which keeps the station in its
+ orbit.  Sensors also indicate an experimental virus loose in the
+ medical lab, probably due to a failed containment field.
+
+ (NOTE: You can check what you have left to do at any time by typing in
+ 'TODO')
+
+>go south
+ Maintenance Area
+ Usually this place would be bustling with workers, but with the
+ station evacuated, it's as quiet as a morgue.  A workbench sits along
+ one wall of the room, with cabinets on either side of it.  The control
+ room lies to the north, and the clone repository is to the west.
+
+>examine workbench
+ A smooth surface for repairing items or building items for use
+ elsewhere on the station.
+
+>build item
+>take it
+ The word "build" is not necessary in this story.
+
+ The workbench is too heavy.
+
+>examine cabinets
+ The cabinets both stand on either side of the workbench.  They're 6
+ feet tall with double doors and a slot in the front.
+
+>look in left
+ You see nothing unusual in the left cabinet.
+
+>look in right
+ You see nothing unusual in the right cabinet.
+
+>push workbench
+ The workbench is too heavy.
+
+>go southwest
+ You can't go that way.  Obvious exits lead north, back to the control
+ room; and west, to the repository.
+
+>go west
+ Repository
+ Clone tanks line one wall of the room.  Various other machinery lines
+ the other walls.  Doorways lead northeast to the control room and east
+ to the maintenance area.
+
+>examine machinery
+ Of all the machinery in the room, the only items of interest to you
+ are the card dispenser, the computer terminal and the food dispenser.
+
+>examine food dispenser
+ It helps keep clones fed and strong.  It consists of a lever and a
+ chute.
+
+>examine chute
+ It's where the food comes out.
+
+>take chute
+ You can't have that; it's part of the food dispenser.
+
+>take dispenser
+ Which dispenser do you mean, the food dispenser, or the card
+ dispenser?
+
+>take food dispenser
+ The food dispenser is too heavy.
+
+>inventory
+ You are carrying a wrench, a cabinet keycard, and a welding torch, and
+ you're wearing some coveralls and some oxygen tanks.
+
+>examine welding torch
+ It's a portable device for maintenance around the station.
+
+>weld food dispenser
+ The food dispenser is not something you can weld.
+
+>RESTORE
+>cf1
+ Restored.
+
+ ACA Living Quarters
+ This is the central hub of the living quarters for section ACA.  Alpha
+ quarters are to the west, Beta quarters are to the southwest and Gamma
+ quarters are to the south.  The corridor leading to Gamma quarters has
+ been sealed by a door.
+
+ The door access panel contains a Gamma Quarters manual access bolt.
+
+>turn bolt
+ You turn the bolt, and the doors inch their way open, with a big rush
+ of air through them.  You are sucked through the doors, dropping your
+ wrench in the process, and down through the corridor and out through
+ the hull into the vacuum of space.
+
+ A sharp edge on the hole slices through the hose of your oxygen tanks,
+ and slows you down just enough to grab hold of the outside of the
+ space station.  You hold your breath, but you know you're not going to
+ last long.
+
+ Outside Station
+ You are clinging to the outside of Folkar Station just outside Gamma
+ Quarters.  You can see into the corridor from the hole in the hull,
+ but there's no way to climb back in.
+
+>weld edge
+ The edges of the hole are too far apart.  You cannot weld them
+ together.
+
+>bend edge
+ Muscles straining, you manage to bend the edges of the hole close
+>hit edge with tank
+ enough together to weld.
+
+ It's beginning to be difficult to hold your breath.
+
+ You see no tank here.
+
+>weld hole
+
+
+
+
+
+
+
+
+ With the last of your strength, you weld the bent edges of the hole
+ neatly.  After doing so, you lose your grip on the station and drift
+ off into space...
+
+ Through your cryosleep haze you can hear the PA system sounding off,
+ "TRANSFER OF MEMORIES COMPLETE.  REVIVING REPLACEMENT CLONE."
+
+ You realize that there's still two emergencies to deal with, and it's
+ best to get started...
+
+ *** YOU HAVE COMPLETED THE INTRODUCTION ***
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, or QUIT?

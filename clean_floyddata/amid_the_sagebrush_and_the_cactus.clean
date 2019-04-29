@@ -1,0 +1,676 @@
+>load sleepmask midthesagebrush
+                 <span class="floydstyle i">`Mid the sagebrush and the cactus</span>
+                         by Victor Gijsbers
+
+
+    Start new game - Easy      :    Press E
+    Start new game - Normal    :    Press N
+    Start new game - Hard      :    Press H
+    Start new game - Extreme   :    Press X
+    Restore game               :    Press R
+    Quit                       :    Press Q
+
+
+
+ <span class="floydstyle em">The </span>easy<span class="floydstyle em"> difficulty is recommended for those new to the</span>
+ <span class="floydstyle em">game; although it is thematically important that the protagonist is</span>
+ <span class="floydstyle em">dependent on the strumpet Fortune, it's probably more important for</span>
+ <span class="floydstyle em">you to gently learn the system. Graduate to the </span>normal<span class="floydstyle em"></span>
+ <span class="floydstyle em">difficulty when you feel ready. The </span>hard<span class="floydstyle em"> difficulty is for</span>
+ <span class="floydstyle em">those who have already learned to game the system and wish to test</span>
+ <span class="floydstyle em">their skills. The </span>extreme<span class="floydstyle em"> difficulty is only for those</span>
+ <span class="floydstyle em">seeking a formidable, perhaps impossible, challenge.</span>
+>go east
+
+ They shot you in the leg, the sheriff or one of his men, but you still
+ managed to get away. You always manage to get away. And while they're
+ off pursuing you to, who knows, perhaps Colorado, you have quietly
+ made your way back to where it all began. What better place to rest?
+
+ With a grunt of pain you descend from your horse and lie down near the
+ water. How good it would be to just close your eyes for a moment and
+ sleep... but you know that you've got to take that bullet out first.
+
+ "They all said I was crazy, but I <span class="floydstyle em">knew</span> you'd be coming back
+ here," says a young voice behind you.
+
+ <span class="floydstyle em">First time players, please type HELP</span>.
+
+ <span class="floydstyle header">`Mid the sagebrush and the cactus</span>
+ An Interactive Fiction by Victor Gijsbers
+ Release 1 / Serial number 100918 / Inform 7 build 6E72 (I6/v6.31 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">By the bitter creek</span>
+ You are lying next to a small stream, screened off from the wider
+ plains by the sagebrush around you. An ideal place to hide -- or so
+ you thought.
+
+ David stares at you, a revolver unsteady in his hand.
+
+ "Why did you do it?" he asks, perhaps closer to tears than to pulling
+ the trigger.
+
+>help
+    I died! In easy mode!
+    My status bar looks weird!
+    Thanks
+    Contact
+    License and copyright
+ In order to successfully interact with David, whether with speech or
+ violence or a combination of these, you will need to use several
+ game-specific verbs. Violence is easy: just <span class="floydstyle i">attack</span> a person.
+ You may need to <span class="floydstyle i">ready</span> or <span class="floydstyle i">reload</span> a weapon first. Violence
+ is also essential, since hitting David repeatedly will make him lose
+ the stomach for a fight.
+
+ However, you are wounded, lying on the ground, and overall in very bad
+ shape. To have any chance to hit, you will need to <span class="floydstyle i">think</span>
+ (synonyms: <span class="floydstyle i">concentrate</span> and <span class="floydstyle i">c</span>); the more often you think
+ without losing your train of thought, the better your chances of
+ hitting, and hitting well, become. Also, a high tension (shown in the
+ status bar) helps <span class="floydstyle em">a lot</span>. Finally, standing up will increase
+ your combat skills, but it will also make David more likely to attack
+ you.
+
+ Your main conversational strategies are <span class="floydstyle i">placate</span>, which may
+ temporarily get David to listen to you; and <span class="floydstyle i">explain</span>. Explaining
+ is very powerful, since it will gain you sympathy; but you can only
+ explain yourself after David has asked a question.
+
+ In the unfortunate case that David decides to attack you, you can
+ defend yourself in three ways. If you <span class="floydstyle i">taunt</span> David, his anger
+ may make him miss, and it also makes him an easier target for your
+ next attack. However, it will make him less likely to talk in the
+ future. Alternatively, you can attempt to <span class="floydstyle i">dodge</span> his attacks.
+ There is also the powerful <span class="floydstyle i">appeal</span>, which you can use to implore
+ David not to attack. It probably won't work unless you have already
+ explained yourself quite a bit.
+
+ For your convenience, all the special actions you can take (except
+ attacking, readying and reloading) are shown in the status bar at the
+ top of the window. Most common interactive fiction verbs still work,
+ and some important ones (examine, look, inventory) can be done freely
+ -- they don't take a turn! One final remark. You should be able to
+ enjoy the game in pure prose, but if you're playing to win, you might
+ want to see the underlying combat calculations. If so, just type
+ <span class="floydstyle i">numbers on</span>.
+
+
+
+ Please press SPACE to continue.
+    I died! In easy mode!
+    My status bar looks weird!
+    Thanks
+    Contact
+    License and copyright
+>q
+ <span class="floydstyle subheader">By the bitter creek</span>
+ You are lying next to a small stream, screened off from the wider
+ plains by the sagebrush around you. An ideal place to hide -- or so
+ you thought.
+
+ David stares at you, a revolver unsteady in his hand.
+
+>examine me
+
+
+ Sweaty, blood-stained -- you have seen better days. But nobody would
+ pick a fight with you in a bar.
+
+>examine david
+
+
+ He's young, about the age you were when you left for the Mexican War.
+ And not even as tough.
+
+>look
+
+
+ <span class="floydstyle subheader">By the bitter creek</span>
+ You are lying next to a small stream, screened off from the wider
+ plains by the sagebrush around you. An ideal place to hide -- or so
+ you thought.
+
+ David stares at you, a revolver unsteady in his hand.
+
+>explain
+
+
+ "Will you believe me when I tell you your father deserved to die? I
+ doubt it. But it's true."
+
+ "I shouldn't be talking to you. I just ought to shoot you right now!"
+ David blurts out.
+
+>placate
+
+
+ (David)
+ "Maybe you should, but... you've never killed a man before, have you?"
+ He doesn't reply, but you know the answer. Knew it before you asked
+ the question. It's written all over him.
+
+ "My father was a great man. A peaceful man! He never did anybody no
+ harm, he was no fighter. What did you have against him?"
+
+>think
+
+
+ You sort of like this boy. His father... that was different. No
+ regrets there.
+
+ (You are now slightly concentrated.)
+
+ "You probably think that just because you're a bad-ass desperado, and
+ because I am a green boy, you are invulnerable and can toy with me and
+ tell me all kinds of lies. But you're wrong!"
+
+>placate
+
+
+ (David)
+ "Let's talk, David, there's no need to hurry. As you can see, I'm not
+ exactly going anywhere."
+
+ "Even if you did have a reason to kill my father, how about raping my
+ sister? Huh?"
+
+>explain
+
+
+ "When a man and a woman meet and then have sex because they both want
+ to, we don't call it rape, David."
+
+ "Yeah? Well, my sister called it rape, when I found the two of you
+ here at the creek!"
+
+>placate
+
+
+ (David)
+ "What about... what about you just ride into town and get a doctor for
+ me? My leg is hurting like all hell. On a Sunday."
+
+ "I think I've heard enough of your so-called explanations." David
+ grabs the gun with two hands in order to steady his aim, and points it
+ at you.
+
+>dodge
+
+
+ You try to roll aside in an unpredictable manner.
+
+ You have to fight against tears when a sudden sharp pain in your arm
+ announces that David scored a hit. Your train of thought is derailed.
+
+ David seems to pull himself together.
+
+>think
+
+
+ The moment the boy's father saw your face, he knew what you had come
+ to do. "You're here to kill me," he said. It wasn't a question.
+
+ (You are now slightly concentrated.)
+
+ "My father will be revenged," David whispers.
+
+>think
+
+
+ And you didn't answer. That would have been fatal: the second he
+ needed to get to his gun.
+
+ (You are now somewhat concentrated.)
+
+ The boy's bullet hits you in the shoulder, only inches away from the
+ jugular. You are in even more terrible pain than before. Your train of
+ thought is derailed.
+
+>placate
+
+
+ (David)
+ "Just calm down. We need to talk, before you start doing anything
+ hasty and foolish."
+
+ David seems to pull himself together.
+
+>placate
+
+
+ (David)
+ "Believe me, your father was no saint. If you had known even half of
+ what he had done, you would have killed him yourself."
+
+ David seems to pull himself together.
+
+>explain
+
+
+ "Well, if your sister said it, it must be true, mustn't it? I'm sure
+ your father believed her as well, and didn't, oh, lock her up or
+ anything?"
+
+ David looks abashed.
+
+ "So what <span class="floydstyle em">did</span> my father do to you?"
+
+>explain
+
+
+ "He didn't do anything to me, but he did do something to a friend of
+ mine called Billy. Billy was a nice boy, a little rough around the
+ edges maybe, but at his core there was no evil. You remind me of him."
+
+ "Call that an explanation? You're just liar!" David points his gun at
+ your heart, about to pull the trigger.
+
+>appeal
+
+
+ (David)
+ "Come on, David, you've <span class="floydstyle em">got</span> to listen to my whole story."
+
+ "I'm listening -- but this had better be good." He wipes the sweat
+ from his forehead. "Well, what about this Billy?"
+
+>explain
+
+
+ "David, you see, Billy was with us in Pancho's posse, or whatever
+ you'd call a bunch of citizens who went over the border to help with
+ the war effort. And while in Mexico, this Billy guy fell in love with
+ a woman. She was the most beautiful woman he'd ever seen."
+
+ "But the woman fell in love with my father, they had a row about it,
+ and my father shot this Billy of yours?"
+
+>explain
+
+
+ "No, not exactly, no. See, this woman wasn't just any kind of woman,
+ she was what we might call a drab, a whore, a prostitute. And your
+ father and she had an... they had... O God my leg hurts! ... they had
+ an argument, about money. About payment."
+
+ "So what happened? Billy intervened?" David spits the question at you
+ as if it were a bullet.
+
+>explain
+
+
+ "No, Billy did not intervene. I mean, he would have if he had had the
+ chance, but he was too late. Because, you see, your father didn't like
+ being argued with. And he didn't like being argued with by a whore,
+ and even less being argued with by a Mexican. So he just took out his
+ gun and shot her. Through the heart. Like, dead. Billy was waiting his
+ turn downstairs, so he hadn't heard the argument. But he did hear the
+ shot."
+
+ "Enough talk!" David aims his gun at your head.
+
+>appeal
+
+
+ (David)
+ "Don't shoot! I have so much more to tell you about your father."
+
+ "Sure you can tell me a lot... of lies."
+
+ The BANG of the pistol reaches your ear at the same moment that the
+ bullet reaches your back. You feel your life slowly deserting you.
+
+>placate
+
+
+ (David)
+ "If you'll just talk to me, I'll tell you everything. And then, at the
+ end, you can make a decision. Shoot me or not shoot me. Is that a
+ deal?"
+
+ David starts reloading his revolver.
+
+>think
+
+
+ He didn't really stick out when you first met him, the father. Just
+ one of the boys of Pancho's gang, one more gun against the Mexicans.
+
+ (You are now slightly concentrated.)
+
+ David finishes reloading his revolver.
+
+>appeal
+
+
+ (David)
+ You need to do more explaining before you can appeal.
+
+>placate
+
+
+ (David)
+ You have exhausted your store of placating things to say.
+
+>explain
+
+
+ David didn't ask you a question.
+
+>pray
+
+
+ That's not a verb I recognise.
+
+>cry
+
+
+ That's not a verb I recognise.
+
+>think
+
+
+ But it didn't take long before he rose in the ranks, informal as they
+ were. Might even have taken over Pancho's place if he hadn't been so
+ reckless. Not that the other guys where much given to careful
+ deliberation, but even in that group he was know as "the madman".
+
+ (You are now somewhat concentrated.)
+
+ "My father will be revenged," David whispers.
+
+>taunt
+
+
+ (David)
+ "You know what your father is doing right now? He's burning. In Hell."
+
+ You have to fight against tears when a sudden sharp pain in your elbow
+ announces that David scored a hit. Your train of thought is derailed.
+
+>think
+
+
+ He didn't really stick out when you first met him, the father. Just
+ one of the boys of Pancho's gang, one more gun against the Mexicans.
+
+ (You are now slightly concentrated.)
+
+ "You're really gonna die this time," David hysterically tells you.
+
+>taunt
+
+
+ (David)
+ You try to speak, but only a gasp of pain comes out.
+
+ The bullet goes straight through your brain. You stare at the sun. Was
+ it ever this bright? you wonder as it slowly expands to fill your
+ field of vision. Was it?
+
+ Then you sink down to the earth.
+
+
+
+
+     *** David found his revenge... if no consolation ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>restart
+                 <span class="floydstyle i">`Mid the sagebrush and the cactus</span>
+                         by Victor Gijsbers
+
+
+    Start new game - Easy      :    Press E
+    Start new game - Normal    :    Press N
+    Start new game - Hard      :    Press H
+    Start new game - Extreme   :    Press X
+    Restore game               :    Press R
+    Quit                       :    Press Q
+
+
+
+ <span class="floydstyle em">The </span>easy<span class="floydstyle em"> difficulty is recommended for those new to the</span>
+ <span class="floydstyle em">game; although it is thematically important that the protagonist is</span>
+ <span class="floydstyle em">dependent on the strumpet Fortune, it's probably more important for</span>
+ <span class="floydstyle em">you to gently learn the system. Graduate to the </span>normal<span class="floydstyle em"></span>
+ <span class="floydstyle em">difficulty when you feel ready. The </span>hard<span class="floydstyle em"> difficulty is for</span>
+ <span class="floydstyle em">those who have already learned to game the system and wish to test</span>
+ <span class="floydstyle em">their skills. The </span>extreme<span class="floydstyle em"> difficulty is only for those</span>
+ <span class="floydstyle em">seeking a formidable, perhaps impossible, challenge.</span>
+>go east
+
+ They shot you in the leg, the sheriff or one of his men, but you still
+ managed to get away. You always manage to get away. And while they're
+ off pursuing you to, who knows, perhaps Colorado, you have quietly
+ made your way back to where it all began. What better place to rest?
+
+ With a grunt of pain you descend from your horse and lie down near the
+ water. How good it would be to just close your eyes for a moment and
+ sleep... but you know that you've got to take that bullet out first.
+
+ "They all said I was crazy, but I <span class="floydstyle em">knew</span> you'd be coming back
+ here," says a young voice behind you.
+
+ <span class="floydstyle em">First time players, please type HELP</span>.
+
+ <span class="floydstyle header">`Mid the sagebrush and the cactus</span>
+ An Interactive Fiction by Victor Gijsbers
+ Release 1 / Serial number 100918 / Inform 7 build 6E72 (I6/v6.31 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">By the bitter creek</span>
+ You are lying next to a small stream, screened off from the wider
+ plains by the sagebrush around you. An ideal place to hide -- or so
+ you thought.
+
+ David stares at you, a revolver unsteady in his hand.
+
+ "Why did you do it?" he asks, perhaps closer to tears than to pulling
+ the trigger.
+
+>explain
+
+
+ "Will you believe me when I tell you your father deserved to die? I
+ doubt it. But it's true."
+
+ David wipes away his tears.
+
+>think
+
+
+ Shooting down tough gunslinging asswipes is something you do for
+ breakfast -- but this boy? That's not really your style.
+
+ (You are now slightly concentrated.)
+
+ "I shouldn't be talking to you. I just ought to shoot you right now!"
+ David blurts out.
+
+>think
+
+
+ And not just because he's so young and innocent... there's also, you
+ know, that nagging feeling that he is justified and you are not.
+
+ (You are now somewhat concentrated.)
+
+ "My father was a great man. A peaceful man! He never did anybody no
+ harm, he was no fighter. What did you have against him?"
+
+>explain
+
+
+ "You haven't seen every side of him, David. I knew him long ago, in
+ the Mexican war. Your father wasn't so peaceful then, when he was the
+ most irregular of our whole band of irregulars. Not very peaceful at
+ all."
+
+ David ponders his options for a moment.
+
+>think
+
+
+ But then again: you can't afford to be sentimental right now.
+
+ (You are now highly concentrated.)
+
+ "You know, I didn't come here to talk, but to fight." David's finger
+ tightens on the trigger of his gun.
+
+>dodge
+
+
+ You try to roll aside in an unpredictable manner.
+
+ David's bullet flies past your head, harmless.
+
+>think
+
+
+ But then again: you can't afford to be sentimental right now.
+
+ (You are now highly concentrated.)
+
+>stand
+
+
+ "Don't move!", David threatens somewhat hesitantly, but you get up
+ anyway. Seems you can stand, as long as you hold this sagebrush for
+ support.
+
+ "You're really gonna die this time," David hysterically tells you.
+
+>taunt
+
+
+ (David)
+ "You shouldn't be playing with your daddy's gun. Not that he'll need
+ it anymore."
+
+ The deadly lead misses you. Another few seconds to live.
+
+>examine gun
+
+
+ (your revolver)
+ One of the wonders of human civilization.
+
+>examine david's gun
+
+
+ I only understood you as far as wanting to examine David's natural
+ weapon.
+
+>examine david's natural weapon
+
+
+ Clenched fists, kicking feet--that kind of stuff.
+
+>inventory
+
+
+ You are carrying:
+   your revolver (3 of 6 shots left)
+   your knife
+
+>examine david
+
+
+ He's young, about the age you were when you left for the Mexican War.
+ And not even as tough.
+
+>SAVE
+>cf1
+ %% Enter a save filename to write:
+ Ok.
+
+>arm
+
+
+ That's not a verb I recognise.
+
+>help
+    I died! In easy mode!
+    My status bar looks weird!
+    Thanks
+    Contact
+    License and copyright
+>q
+ <span class="floydstyle subheader">By the bitter creek</span>
+ You are standing next to a small stream, screened off from the wider
+ plains by the sagebrush around you. An ideal place to hide -- or so
+ you thought.
+
+ David stares at you, a revolver unsteady in his hand.
+
+>ready
+
+
+ What do you want to ready?
+
+>gun
+
+
+ (your revolver)
+ "Don't do that!", David warns, but of course you don't listen. It
+ feels good to have a gun in your hand.
+
+ "You're really gonna die this time," David hysterically tells you.
+
+>taunt
+
+
+ (David)
+ "You're going to shoot me here, right on the spot where I enjoyed your
+ sister? How romantic!"
+
+ His aim is too careless, and David's bullet strikes the ground behind
+ you.
+
+>shoot
+
+
+ (David)
+ A hit, a very palpable hit! David staggers back, watching the shot
+ wound in disbelief. "I... I didn't think you could hit me."
+
+>shoot
+ revolver.
+
+
+ (David)
+ Your bullet lodges itself in David's leg. He grunts in pain and tears
+ stream down his face -- but he doesn't seem to be ready to give up
+ just yet.
+
+ "He was in the Mexican war? I... I didn't know. But that was
+ twenty-five years ago! Who cares about that?"
+
+>shoot
+
+
+ (David)
+ You take a deep breath, concentrate, aim for the head -- BANG. You
+ close your eyes because you don't want to see what he looks like in
+ death.
+
+ Exhausted, you fall into an uneasy sleep. When you wake up the sun is
+ setting, and you know you must take the bullet out now. It's not going
+ to be pretty, but you are tough. The toughest man this side of the
+ border. It's only on the other side that you break down.
+
+
+
+     *** You are drained but alive ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?

@@ -1,0 +1,3563 @@
+>load guess
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Would you like to start a NEW game, RESTORE a saved game, start a
+ SCRIPT, or QUIT?
+>new
+
+ The smell of cotton candy, warm lemonade, and grass induces an
+ exciting sort of nausea in your stomach. This year (finally!), your
+ parents have decided that you're old enough to wander the midway of
+ the Avogadro County Fair without adult supervision. After sitting
+ through the mandatory safety lecture (a small price to pay for being
+ spared the Hall of Farming Implements), you are sent off to fend for
+ yourself for two glorious hours.
+
+ Immediately spending three-quarters of your allotted dollar on a corn
+ dog, you find yourself curiously drawn by the necessities of the plot
+ to a brightly lit carnival booth that invites you to...
+
+ GUESS THE VERB!
+ An Effective Enumeration
+ Copyright 2000 Leonard Richardson (leonardr@segfault.org)
+ Web page: <A HREF="http://www.crummy.com/devel/if/gtv/">http://www.crummy.com/devel/if/gtv/</A>
+ Type HELP for help, CREDITS for credits, ABOUT for... about.
+ Release 4 / Serial number 001210 / Inform v6.15 Library 6/10
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its five equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, FASTEN, DISEMBARK, and UNDO.
+
+ As your fleshy eye momentarily catches Lalrry's roving, metallic one,
+ you suddenly become his most important (not to mention only) potential
+ customer. Lights flash on his status panel as he loads a new pitch
+ into extended memory.
+
+ "Hello, little boy or girl!", bellows Lalrry in the alarming tone used
+ by adults who are trying to be friendly. "Wait a minute... are you a
+ boy or a girl? Are you a BOY or a GIRL?"
+
+>girl
+
+ "And what's your name, little girl?"
+
+>Isqui
+
+ "Well Isqui would you like to GUESS THE VERB!?!?! Just one shiny
+ quarter gets you a spin of the wheel! And you can GUESS THE VERB for
+ fun and prizes!"
+
+ His pitch delivered, Lalrry switches back to broadcast mode and begins
+ his old banter with an occasional hopeful glance in your direction.
+
+>examine lalrry
+ The parser looks much the way Peter Norton would look if Peter Norton
+ were made of stainless steel and had, instead of a head, an Ethernet
+ hub with two small surveillance cameras attached on top and a speaker
+ attached underneath. I guess what I'm trying to say is that the parser
+ is wearing a shirt and a tie.
+
+ He's also wearing a straw hat and a nametag that says "Hello! My name
+ is LALRRY." A series of lights in his forehead monitor the traffic
+ that flows through an Ethernet cable plugged into where Peter Norton's
+ left cheek would be, which cable disappears down into the booth.
+
+ As a natural language parser, Lalrry can deal with a reasonable subset
+ of some human language (English, in his case), through some
+ combination of recursive grammars and ad-hoc tricks. Most such parsers
+ were created in the 1980s to answer queries and to help people find
+ treasures and kill trolls. Nowadays, most parsers are working at Web
+ start-ups. The fact that Lalrry is working as a carnival barker does
+ not say much for his language handling capabilities.
+
+ "Step right up, step right up!", says Lalrry with perfectly
+ synthesized heartiness.
+
+>examine wheel
+ A sort of rotating pie chart, the wheel of fortune is about four feet
+ in diameter and attached to a frame which, in turn, is bolted to the
+ side of the booth. A plastic red arrow suspended over the top of the
+ wheel indicates one of the five verbs at random (currently
+ SCRUTINIZE), and will do so again when Lalrry spins the wheel. The
+ verbs currently on the pie chart are SCRUTINIZE, RECONFIGURE, FASTEN,
+ DISEMBARK, and UNDO, each taking up an equal slice of the pie.
+
+ "It's time to GUESS THE VERB!", declares Lalrry, although he offers no
+ evidence to back this up.
+
+>examine me
+ You are a perfectly normal eleven-year-old girl, not yet aware of
+ anything more interesting than video games or dinosaurs.
+
+ "One shiny quarter gets you a spin of the wheel!"
+
+>inventory
+ You are carrying:
+   a tarnished quarter
+   a corn dog
+   your identity bracelet (being worn)
+
+>inventory
+ You are carrying:
+   a tarnished quarter
+   a corn dog
+   your identity bracelet (being worn)
+
+>eat quarter
+ That's plainly lacking the "edible" flag.
+
+ Lalrry briefly pulls you aside. "The crowned heads of Europe have
+ guessed verbs at my booth," he says confidentially. "The Queen Mum was
+ quite keen on PARTITION, although the King of France would hear of
+ nothing but JUMP--SAUTER, rather, I should say." Somehow you doubt
+ this.
+
+>examine bracelet
+ A white plastic embarassment which your parents make you wear on those
+ rare occasions on which you are allowed off on your own. In little red
+ letters just above your wrist, it says "My name is _ISQUI_. In case of
+ emergency, call my mother's cell phone at (210) 603-3999."
+
+ Lalrry briefly pulls you aside. "The crowned heads of Europe have
+ guessed verbs at my booth," he says confidentially. "The Queen Mum was
+ quite keen on PARTITION, although the King of France would hear of
+ nothing but JUMP--SAUTER, rather, I should say." Somehow you doubt
+ this.
+
+>give quarter to lalrry
+ Lalrry takes the quarter and scrutinizes it carefully. "Sorry, Isqui,"
+ he says, handing the coin back to you. "This is not a shiny quarter."
+
+>look
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its five equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, FASTEN, DISEMBARK, and UNDO.
+
+>se
+
+ Behind the Booths
+ You are in a shadowy alcove, surrounded by the canvas backs of several
+ carnival booths. The music and bustle of the midway seems very far
+ away, and a harvest moon illuminates the wet grass of the fairgrounds
+ and the makeshift walls that surround you.
+
+ The glinting tip of a small metal box peeks out from beneath the verb
+ guessing booth.
+
+>examine box
+ The metal box is about the size of a deck of cards and is decorated
+ with black plastic trim. An LED and two switches (one orange, the
+ other blue) are mounted on the front of the box, and a cord runs from
+ either end up into the booth.
+
+ The LED is currently glowing green. Both switches are in the on
+ position.
+
+>examine moon
+ The light from the harvest moon seems magical tonight. If Neil Young
+ were here, he would undoubtedly write a song about it.
+
+>open box
+ That's not something you can open.
+
+>get moon
+ You are insane.
+
+>press orange switch
+ It is fixed in place.
+
+>examine cord
+ The cords run from either end of a metal box up into the booth.
+
+>clean quarter
+ Your valiant attempt fails to noticeably improve the quarter's looks.
+
+>turn off orange switch
+ You switch the orange switch off.
+
+>look
+
+ Behind the Booths
+ You are in a shadowy alcove, surrounded by the canvas backs of several
+ carnival booths. The music and bustle of the midway seems very far
+ away, and a harvest moon illuminates the wet grass of the fairgrounds
+ and the makeshift walls that surround you.
+
+ The glinting tip of a small metal box peeks out from beneath the verb
+ guessing booth.
+
+>go northwest
+ You can't go that way.
+
+>go northeast
+
+ Verb Guessing Booth
+
+>verbose
+ GUESS THE VERB! is now in its "verbose" mode, which always gives long
+ descriptions of locations (even if you've been there before).
+
+>look
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its five equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, FASTEN, DISEMBARK, and UNDO.
+
+>go northeast
+
+ The Midway
+ The lights and noise of the midway seem hollow and dull compared to
+ the aura of excitement you felt at the verb guessing booth. You survey
+ the sights around you as though through different eyes: the
+ merry-go-round, the concession stand--they seem so pedestrian now. You
+ feel a strange attraction pulling you back towards the southwest, as
+ though a ham-handed author were trying to place hints into the room
+ description that the game would progress a lot faster if you went back
+ to the verb guessing booth already.
+
+ If you really want to, though, you can go east to rejoin your parents
+ and end the game.
+
+ You can't help but notice a small but obtrusive quarter shining
+ machine squatting here.
+
+>examine machine
+ The quarter shining machine sits in the middle of a line of similar
+ machines which accept coins of smaller denomination, like pennies, and
+ do more interesting things to them, like smush them up and imprint
+ them with touristy slogans. In the face of such intense competition,
+ the quarter shining machine has taken to mimicry, hoping to trap
+ unsuspecting coins intended for a less boring (if also less shiny)
+ fate in another machine.
+
+ Its innards are exposed, an unnecessarily complicated mesh of shiny
+ gears and pistons. A prominent notice on the side of the machine
+ assures you with alarming urgency that the practice of quarter-shining
+ is legal under federal statute BH-2510958. The coin tray has two
+ quarter-shaped slots; the left one to contain payment and the right to
+ contain the quarter you want shined and dropped into the receptacle
+ near the bottom of the machine.
+
+ The left coin slot is empty. The right coin slot is also empty. The
+ receptacle is also also empty.
+
+>examine left slot
+ A small, round slot in the coin tray. It would just hold a quarter.
+
+>inventory
+ You are carrying:
+   a tarnished quarter
+   a corn dog
+   your identity bracelet (being worn)
+
+>examine corn dog
+ The corn dog is a curious creature. Its life cycle begins when the
+ larval corn dog is cooked and put on a stick. The corn dog is dipped
+ in batter to form a cocoon and fried. Inside the batter cocoon, the
+ baby corn dog metamorphoses into an adult phase which is then
+ purchased, slathered with mustard, and eaten. The rumbling of your
+ stomach tells you that the end is near for this particular corn dog.
+ We will miss you, corn dog.
+
+>eat corn dog
+ My, that was a yummy corn dog!
+
+>kick machine
+ Violence isn't the answer to this one.
+
+>push machine
+ It is fixed in place.
+
+>look
+
+ The Midway
+ The lights and noise of the midway seem hollow and dull compared to
+ the aura of excitement you felt at the verb guessing booth. You survey
+ the sights around you as though through different eyes: the
+ merry-go-round, the concession stand--they seem so pedestrian now. You
+ feel a strange attraction pulling you back towards the southwest, as
+ though a ham-handed author were trying to place hints into the room
+ description that the game would progress a lot faster if you went back
+ to the verb guessing booth already.
+
+ If you really want to, though, you can go east to rejoin your parents
+ and end the game.
+
+ You can't help but notice a small but obtrusive quarter shining
+ machine squatting here.
+
+>examine stand
+ The concession stand offers a variety of deep-fried and/or sugary
+ items, for a price.
+
+>examine merry-go-round
+ The merry-go-round does not seem as merry to you anymore.
+
+>go southwest
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its five equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, FASTEN, DISEMBARK, and UNDO.
+
+>examine booth
+ The Guess the Verb booth is small and liberally stocked with stuffed
+ animals, gewgaws, jimcracks, heehaws, and spistacks, all intended as
+ prizes for successful guessers of the verb. A large wheel with five
+ divisions dominates the center of the booth, and it is to this wheel
+ that your friend the parser gestures quite emphatically. One might
+ even say spastically. "Spastically." There, I said it.
+
+>hint
+ That's not a verb I recognize.
+
+>help
+
+
+
+
+
+
+
+
+                           Guess The Verb!
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  There is information provided on the following:
+
+      Introduction to IF Concepts
+      Sample Transcript
+      About This Game
+      Credits
+      License
+      Hints
+      Budget Walkthru
+
+>go north
+
+                           Guess The Verb!
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  There is information provided on the following:
+
+      What is IF?
+      Sample Transcript
+      About This Game
+      Credits
+      License
+      Hints
+      Budget Walkthru
+
+>go north
+
+                           Guess The Verb!
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  There is information provided on the following:
+
+      What is IF?
+      Introduction to IF Concepts
+      About This Game
+      Credits
+      License
+      Hints
+      Budget Walkthru
+
+>go north
+
+                           Guess The Verb!
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  There is information provided on the following:
+
+      What is IF?
+      Introduction to IF Concepts
+      Sample Transcript
+      Credits
+      License
+      Hints
+      Budget Walkthru
+
+>go north
+
+                           Guess The Verb!
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  There is information provided on the following:
+
+      What is IF?
+      Introduction to IF Concepts
+      Sample Transcript
+      About This Game
+      License
+      Hints
+      Budget Walkthru
+
+>go north
+
+                           Guess The Verb!
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  There is information provided on the following:
+
+      What is IF?
+      Introduction to IF Concepts
+      Sample Transcript
+      About This Game
+      Credits
+      Hints
+      Budget Walkthru
+
+>go north
+
+                           Guess The Verb!
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  There is information provided on the following:
+
+      What is IF?
+      Introduction to IF Concepts
+      Sample Transcript
+      About This Game
+      Credits
+      License
+      Budget Walkthru
+
+
+
+
+
+
+
+
+
+                                 Clues
+  N = next subject                                        P = previous
+  RETURN = read subject                              Q = previous menu
+
+
+
+      The Scenarios in General
+      The Spaceship
+      The Laboratory
+      The College
+      The Cave
+      The Castle
+
+
+
+
+
+
+
+
+
+                             The Carnival
+  N = next subject                                        P = previous
+  RETURN = read subject                              Q = previous menu
+
+
+
+      Why won't Lalrry accept my quarter?
+      How can I shine my tarnished quarter?
+      So how do I get to play the game?
+      So I win every time, is that your little game?
+
+>go north
+
+                             The Carnival
+  N = next subject                                        P = previous
+  RETURN = read subject                              Q = previous menu
+
+
+
+      What am I trying to do?
+      How can I shine my tarnished quarter?
+      So how do I get to play the game?
+      So I win every time, is that your little game?
+
+>go north
+
+                             The Carnival
+  N = next subject                                        P = previous
+  RETURN = read subject                              Q = previous menu
+
+
+
+      What am I trying to do?
+      Why won't Lalrry accept my quarter?
+      So how do I get to play the game?
+      So I win every time, is that your little game?
+
+
+
+
+
+
+
+
+
+ (Press H for another hint, or SPACE to return.)
+
+ You need to use the quarter shining machine on the midway.
+
+>h
+ It costs a quarter.
+
+>h
+ But you only have the one quarter.
+
+>h
+ In fact, at any given point in the game you will have at most one
+ quarter.
+
+>h
+ So you can't shine anything.
+
+ [Please press SPACE.]
+
+
+
+
+
+
+
+
+                             The Carnival
+  N = next subject                                        P = previous
+  RETURN = read subject                              Q = previous menu
+
+
+
+      What am I trying to do?
+      Why won't Lalrry accept my quarter?
+      So how do I get to play the game?
+      So I win every time, is that your little game?
+
+>q
+
+
+
+
+
+
+
+
+                             The Spaceship
+  N = next subject                                        P = previous
+  RETURN = read subject                              Q = previous menu
+
+
+
+      I can't leave the ship!
+      Where are my parents?
+      Is this the sort of game where hostile symbionts infect my body?
+
+>q
+
+
+
+
+
+
+
+
+                                 Clues
+  N = next subject                                        P = previous
+  RETURN = read subject                              Q = previous menu
+
+
+
+      The Scenarios in General
+      The Spaceship
+      The Laboratory
+      The College
+      The Cave
+      The Castle
+
+>q
+
+
+
+
+
+
+
+
+                           Guess The Verb!
+  N = next subject                                        P = previous
+  RETURN = read subject                                Q = resume game
+
+  There is information provided on the following:
+
+      What is IF?
+      Introduction to IF Concepts
+      Sample Transcript
+      About This Game
+      Credits
+      License
+      Budget Walkthru
+
+>q
+
+
+
+
+
+
+
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its five equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, FASTEN, DISEMBARK, and UNDO.
+
+>se
+
+ Behind the Booths
+ You are in a shadowy alcove, surrounded by the canvas backs of several
+ carnival booths. The music and bustle of the midway seems very far
+ away, and a harvest moon illuminates the wet grass of the fairgrounds
+ and the makeshift walls that surround you.
+
+ The glinting tip of a small metal box peeks out from beneath the verb
+ guessing booth.
+
+>examine box
+ The metal box is about the size of a deck of cards and is decorated
+ with black plastic trim. An LED and two switches (one orange, the
+ other blue) are mounted on the front of the box, and a cord runs from
+ either end up into the booth.
+
+ The LED is currently glowing green. The blue switch is in the on
+ position, and the orange switch is in the off position.
+
+>go northwest
+ You can't go that way.
+
+>go northeast
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its five equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, FASTEN, DISEMBARK, and UNDO.
+
+ Lalrry babbles a bit about some computer game or other.
+
+>give quarter to lalrry
+ "Yuck!", says Lalrry, rejecting your offer. "A tarnished!"
+
+>go southwest
+ You can't go that way.
+
+>se
+
+ Behind the Booths
+ You are in a shadowy alcove, surrounded by the canvas backs of several
+ carnival booths. The music and bustle of the midway seems very far
+ away, and a harvest moon illuminates the wet grass of the fairgrounds
+ and the makeshift walls that surround you.
+
+ The glinting tip of a small metal box peeks out from beneath the verb
+ guessing booth.
+
+>push blue switch
+ It is fixed in place.
+
+>turn off blue switch
+ As you flip the switch, the LED suddenly goes dark.
+
+>go northeast
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the once-jovial natural language parser inside the booth, now
+ seems oddly unable to move or speak. The rest of the carnival midway
+ lies to the northeast, and you can scamper behind the booth to the
+ southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its five equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, FASTEN, DISEMBARK, and UNDO.
+
+>give quarter to lalrry
+ At the moment, Lalrry doesn't seem interested in the tarnished
+ quarter, or indeed in much of anything.
+
+>se
+
+ Behind the Booths
+ You are in a shadowy alcove, surrounded by the canvas backs of several
+ carnival booths. The music and bustle of the midway seems very far
+ away, and a harvest moon illuminates the wet grass of the fairgrounds
+ and the makeshift walls that surround you.
+
+ The glinting tip of a small metal box peeks out from beneath the verb
+ guessing booth.
+
+>turn on orange switch
+ As you flip the switch, the LED suddenly lights up green.
+
+>go northeast
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its five equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, FASTEN, DISEMBARK, and UNDO.
+
+ "It's time to GUESS THE VERB!", declares Lalrry, although he offers no
+ evidence to back this up.
+
+>give quarter to lalrry
+ Lalrry gladly takes the quarter from your outstretched palm. With the
+ flair of a showman, he tosses it into the air and catches it in his
+ shirt pocket. Stepping back, he indicates the wheel.
+
+ [To guess a verb, use "GUESS [verb]"; for example, "GUESS DISLIKE"]
+
+ "Guess a verb, verb!", says Lalrry, indicating the wheel of fortune.
+
+>guess disambiguate
+ "Sorry, that's not on the wheel!"
+
+ "Guess a verb, verb!", says Lalrry, indicating the wheel of fortune.
+
+>guess reconfigure
+ "Hey, guess! And so I spin the wheel..."
+
+ Lalrry gives the wheel a good push and it begins rapidly rotating,
+ spinning faster now, now slowly winding down until it...stops...on...
+
+                   FASTEN
+
+ Lalrry shrugs and says "Luck next time!"
+
+ You shrug too, and try to look nonchalant, but you feel a hollowness
+ in the pit in your stomach which is something more than simple
+ disappointment. The lights of the midway seem uncomfortably close, the
+ music incessant and loud. You wonder if you aren't coming down with
+ something, and blink to clear the glare from your eyes.
+
+ Suddenly you are falling.
+
+ You claw at the air, then at the unidentifiable blurs that race past
+ you, then at your own body, which is unaccountably absent from this
+ mad scene. You open your hypothetical mouth and emit a potential
+ scream which never quite materializes, and then with the feeling of
+ suddenly waking up from a nightmare, you are somewhere else.
+
+ And a little dwarf is in the room with you.
+
+ **********************************************************************
+ **********
+
+ He's relatively young, as dwarves go; only about a hundred or so. At
+ first he starts, surprised to meet a human one-on-one, but he quickly
+ remembers his manners, and, doffing his miner's helmet, bows low.
+ "Duran son of Czadhan, at your service."
+
+ You return the bow to the extent your heavy sack will allow. "Isqui,
+ at yours."
+
+ "By the load you bear," says he, indicating his own bulging backpack,
+ "I see the factors that brought me to scenic Wyrmsworth Caverns have
+ been at work upon you as well."
+
+ "Love of the underground realms," you reply.
+
+ Duran nods, and, with a twinkle in his eye, acknowledges the one
+ strongest commonality, so often unstated, between human and dwarf.
+
+ "And greed."
+
+ Slate Room
+ The floor of this room is covered with shattered pieces of slate,
+ peeled off from the ceiling above. The glow of your lantern is
+ swallowed up by the dark material of which the ceiling, floor, and
+ walls are made. There is a wide, rounded portal to the northwest, a
+ narrower entrance to the south, and a passage to the north which opens
+ up after a little way.
+
+ Duran the dwarf stands beside you.
+
+ "Nice brass."
+
+ "Fairly low-grade slate."
+
+>ask duran about orthoclase
+ There is no reply.
+
+ Duran rests his hand momentarily on the haft of his axe.
+
+>inventory
+ You are carrying:
+   a wristwatch with compass (being worn)
+   a canister of vintage celluloid
+   a copy of the Clamshell Book
+   a Sack of Infinite Capacity (which is open)
+     a jade idol
+     the McGuffin
+   a brass lantern (providing light)
+
+>examine wristwatch
+ A combination wristwatch and compass, indispensable for any
+ adventurer. The current time is 184.50 AST.
+
+>examine canister
+ A canister of celluloid, labeled "Nov. 1921 - B. Keaton." Not the sort
+ of treasure one normally expects to find in a cave, but valuable
+ nonetheless.
+
+>examine copy
+ A white book with a blue spine, entitled "Dungeon Exploration".
+ There's a picture of a giant clamshell on the cover, thus the
+ nickname. Flipping through the book brings nothing to your eye that
+ seems relevant to your current situation.
+
+ You hear echoing voices from the north.
+
+>examine sack
+ The Sack of Infinite Capacity is truly a wondrous device. No matter
+ how many things you put into it, it never fills or becomes too heavy
+ to carry. The depressing thing is that this makes the sack much more
+ valuable than just about anything you might find to put in it.
+
+ You hear echoing voices from the north.
+
+>examine idol
+ A jade idol of a great and terrible god, probably once an integral
+ part of some ritual ceremony. Oh well, defilement is all in a day's
+ work!
+
+ You hear echoing voices from the north.
+
+>examine mcguffin
+ It seems to shift under your gaze--now an ankh-shaped amulet, now the
+ deed to an orphanage, now a piece of futuristic machinery. In another
+ world, perhaps, this item would complete your quest. Now, however, it
+ is merely one of many treasures you wish to find.
+
+ A group of tourists, led by a trollish guide, enters from the north.
+
+ Duran strokes his beard a moment in thought.
+
+>examine tourists
+ A group of fat, belching tourists congregates around a frazzled
+ trollish tour guide who reluctantly explains the wonders of
+ treasure-laden Wyrmsworth Caverns. Most of the tourists are dwarves or
+ orcs, and each appears to have won his or her local Loudest Hawaiian
+ Shirt competition before moving on to the regionals here in the cave.
+
+ "The slate room, here, was once a mine which provided much of the
+ state's slate, from 1941 until the cave complex was made a national
+ park in 1973."
+
+>examine troll
+ A young bleary-eyed troll points out interesting formations to the
+ spellbound tourists, occasionally dropping hints relating to the
+ wondrous treasures to be found in the Wyrmsworth complex. His
+ flip-flop sandals slap against the cave floor as he walks slowly
+ backwards, gesturing and pointing.
+
+ A dwarvish child trips over a thick slab of slate, skinning her knees.
+ The guide and the child's parents help her up and dust her off.
+
+ "Um, to the northwest, here," says the guide, "we have one of the most
+ spectacular sights to grace Wyrmsworth Caverns."
+
+>wait
+ Time passes.
+
+ The tour leaves to the northwest.
+
+ "Tourists!" Duran snorts derisively, lowering his voice. "They come to
+ the caverns and what do they do? They take pictures! I don't know why
+ the cave trolls put up with it. These orcs and Southern dwarves know
+ nothing of a good adventure."
+
+>go northwest
+
+ Geode Room
+ The large quartz crystals that cover the rounded walls of this small
+ room give you the feeling of being inside an oversized geode. The
+ lamplight reflects, and reflects, and reflects again from the
+ glittering display that surrounds you. The crystals are clear near the
+ ceiling at the far end of the room, but gradually take on a purplish
+ sheen towards the exit to the southeast.
+
+ A group of tourists sloughs its way through the caverns.
+
+ "This is what we call the 'geode room', because it resembles the
+ inside of a geode. It's not really a geode, though. The quartzite
+ crystals are part of a quartz vein that runs through this area, and
+ were caused by dwaeomer-oxidization as this whole section of rock was
+ undergoing magical erosion about twenty thousand years ago."
+
+ Duran whistles appreciatively at the crystals, even though they are
+ valueless quartz. Apparently dwarves can appreciate beauty even
+ unalloyed by riches.
+
+ Myriad glittering crystals cover the walls and ceiling of this room.
+ An awesome sight.
+
+ "I'd like to point out that the stunning beauty of the geode room is
+ reminiscent of the great riches that are hidden within Wyrmsworth,
+ waiting to be discovered by intrepid adventurers. In fact, as recently
+ as 1996, a diamond the size of a cockatoo's egg was found near here."
+ The guide pauses, searching his audience for signs of interest.
+
+ "The Cockatoo's Egg Diamond is a flawless blue diamond, considered
+ priceless by many," says the guide. "It's indicative of the many
+ treasures still to be found in the caves." He gives you a theatrical
+ wink.
+
+ "Well," says the guide. "This is just about the halfway point on our
+ tour... follow me, please."
+
+>wait
+ Time passes.
+
+ The tour leaves to the southeast.
+
+>se
+
+ Slate Room
+ The floor of this room is covered with shattered pieces of slate,
+ peeled off from the ceiling above. The glow of your lantern is
+ swallowed up by the dark material of which the ceiling, floor, and
+ walls are made. There is a wide, rounded portal to the northwest, a
+ narrower entrance to the south, and a passage to the north which opens
+ up after a little way.
+
+ A group of tourists sloughs its way through the caverns.
+
+ "Will we be seeing any stalagmites on this tour?", asks an elderly
+ orc.
+
+ Duran follows you.
+
+ "Those form on the cave floor."
+
+ "Yes, of course," says the guide. "After all, what would a cave tour
+ be without stalagmites? Actually, we're on our way to the stalagmites
+ right now, if you'll just follow me up this slope." The guide glances
+ behind him, not anxious to trip over a chunk of slate as he walks.
+
+>take slate
+ The slate stains your fingers, and is insufficiently valuable to carry
+ around anyway.
+
+ The tour leaves to the south.
+
+>go south
+
+ Under the Bridge
+ You are in a chasm, studded with stalagmites, running from the north
+ to the southeast. A swaying rope bridge runs from west to east, far
+ above your head.
+
+ A group of tourists sloughs its way through the caverns.
+
+ "Here are, uh, the stalagmites," says the guide, waving in their
+ direction. "These were formed by gradual accretion of--"
+
+ "Excuse me," says an elf, pointing a delicate finger toward a
+ stalagmite nearly as tall and thin as she is, "I thought these were
+ stalactites, these on the bottom."
+
+ Duran follows you.
+
+>examine slalagmites
+ You can't see any such thing.
+
+>examine stalagmites
+ Which do you mean, the nondescript stalagmites or Stalagmite 13?
+
+>13
+ A particularly large stalagmite. Apart from its size and the crude
+ "13" carved into it, it is unremarkable.
+
+ "No, that's a common misconception," says the troll. "Stalactites are
+ formations that accrete from the ceiling. Stalagmites are those that
+ accrete on the cave floor, such as this one, Stalagmite 13."
+
+ "No one knows the real meaning of the carving. Or if they do, they're
+ not telling."
+
+ "This chasm we're in extends a little to the south," says the guide,
+ pointing down the narrowing gulf. "Er, southeast, I suppose. But we'd
+ never all fit down there, so this is as far as we'll go there. We'll
+ start making our way back to the stairs, now."
+
+>examine bridge
+ Made of ropes and wood, the bridge sways high above your head.
+
+ The tour leaves to the north.
+
+>se
+
+ Chasm End
+ The chasm ends here, its walls narrowing to nothing. You can only
+ proceed back to the northwest.
+
+ There are rare stamps here!
+
+ Duran follows you.
+
+>take stamps
+ Taken.
+
+>examine stamps
+ Misprints, first-day covers, you name it.
+
+ Duran takes a lump of coal out of his pocket and offers you a piece.
+ When you decline, he shrugs and bites into it, chewing with gusto.
+
+>go northwest
+
+ Under the Bridge
+ You are in a chasm, studded with stalagmites, running from the north
+ to the southeast. A swaying rope bridge runs from west to east, far
+ above your head.
+
+ Duran follows you.
+
+>go north
+
+ Slate Room
+ The floor of this room is covered with shattered pieces of slate,
+ peeled off from the ceiling above. The glow of your lantern is
+ swallowed up by the dark material of which the ceiling, floor, and
+ walls are made. There is a wide, rounded portal to the northwest, a
+ narrower entrance to the south, and a passage to the north which opens
+ up after a little way.
+
+ Duran follows you.
+
+>go northwest
+
+ Geode Room
+ The large quartz crystals that cover the rounded walls of this small
+ room give you the feeling of being inside an oversized geode. The
+ lamplight reflects, and reflects, and reflects again from the
+ glittering display that surrounds you. The crystals are clear near the
+ ceiling at the far end of the room, but gradually take on a purplish
+ sheen towards the exit to the southeast.
+
+ Duran follows you.
+
+>se
+
+ Slate Room
+ The floor of this room is covered with shattered pieces of slate,
+ peeled off from the ceiling above. The glow of your lantern is
+ swallowed up by the dark material of which the ceiling, floor, and
+ walls are made. There is a wide, rounded portal to the northwest, a
+ narrower entrance to the south, and a passage to the north which opens
+ up after a little way.
+
+ Duran follows you.
+
+>go north
+
+ Huge Room
+ This room is so large, it makes you claustrophobic. You cannot help
+ but think how far underground you must be, that a cave ceiling might
+ be so impossibly high without opening to blue sky. The tremendous mass
+ of empty air above you seems to press harder than mere rock ever
+ could. But you cannot look away, for running down the walls are
+ breathtaking waterfalls of stone, enormous calcite formations that
+ seem to have been formed from the discarded candles of a million
+ million visitors. Sloping arches form stone awnings over paths to the
+ south and northeast, and a tight crawl leads west.
+
+ You hear echoing voices from the northeast.
+
+ As Duran enters the room, he lets out a chuckling roar. "By the
+ gods!", he murmurs. "This splendid room would make a dining hall
+ worthy of the dwarves of old!"
+
+>go northeast
+
+ Winding Stairway
+ A winding stairway reaches up into the blackness here. Another natural
+ chimney; about a hundred feet up, it opens up to a large room to the
+ southwest (accessible to you through an arch). Far above you, you can
+ hear the sounds of someone, as yet invisible, slowly rappeling down.
+
+ A group of tourists sloughs its way through the caverns.
+
+ As the old tour group begins to disappear into the darkness above, the
+ new guide clears his throat, preparing to begin his tour.
+
+ Duran follows you.
+
+>go up
+ You and Duran climb the stairway for several minutes, but seem no
+ closer to the cave exit than before. Winded, the two of you rest a
+ while and come back down.
+
+ "Okay," says the new guide, "here we are near the winding stair, where
+ our tour of the lower levels will begin and end -- should take about
+ thirty turns."
+
+ Duran rests his hand momentarily on the haft of his axe.
+
+>go southwest
+
+ Huge Room
+ This room is so large, it makes you claustrophobic. You cannot help
+ but think how far underground you must be, that a cave ceiling might
+ be so impossibly high without opening to blue sky. The tremendous mass
+ of empty air above you seems to press harder than mere rock ever
+ could. But you cannot look away, for running down the walls are
+ breathtaking waterfalls of stone, enormous calcite formations that
+ seem to have been formed from the discarded candles of a million
+ million visitors. Sloping arches form stone awnings over paths to the
+ south and northeast, and a tight crawl leads west.
+
+ You hear echoing voices from the northeast.
+
+ Duran follows you.
+
+>go west
+
+ East-West Crawl
+ A stooped, gravely crawl that tightens to the west. The sloping tunnel
+ at the west end would be impassable for an adult, but a determined
+ eleven-year-old should be able to squeeze through it. (What luck! You
+ happen to be a determined eleven-year-old!) Even if you weren't, you'd
+ still be able to back out to the east, where the crawl abruptly opens
+ up into a much larger room.
+
+ There is a bowling trophy here!
+
+ Duran follows you.
+
+>take bowling trophy
+ (putting the rare stamps into the Sack of Infinite Capacity to make
+ room)
+ (putting the canister of vintage celluloid into the Sack of Infinite
+ Capacity to make room)
+ (putting the copy of the Clamshell Book into the Sack of Infinite
+ Capacity to make room)
+ (taking the rare stamps back out of the Sack of Infinite Capacity
+ because we didn't really need that much room after all)
+ (taking the canister of vintage celluloid back out of the Sack of
+ Infinite Capacity because we didn't really need that much room after
+ all)
+ Taken.
+
+>go west
+ You and Duran scramble through a short crawl, and find yourselves...
+
+ On The Ledge
+ Few people ever visit this subterranean clifftop, since few can get
+ here in the first place--the wandering children of tourists, perhaps,
+ or of the trolls who inhabit these caves. Hopefully, none are too
+ young to know that those who play too close to the edges of cliffs
+ inevitably end up as object lessons to others.
+
+ About thirty feet below, your light glints off metal. There's no way
+ down there, though; only east into a tight crawl.
+
+ A rusted iron hook protrudes from the wall above the cliff.
+
+ Duran leans over the ledge, shining his headlamp into the murky
+ darkness below. "Gold!" he exclaims, rubbing his hands together.
+ "Thousands of points worth!"
+
+ The dwarf pulls a coil of rope from his backpack. "I knew this would
+ come in handy," he says, hefting the coil in his hands.
+
+>examine hook
+ Oddly enough, this hook is a completely natural iron precipitation.
+ Although rusty, its fusion to the rock wall stands any test of
+ strength you can think to apply to it.
+
+ "Perfect!", says Duran, spotting the iron hook and gauging the
+ distance between it and the cliff bottom. "I'll just tie rope to hook,
+ here..." Hastily tying a loop into one end of the rope, Duran slips it
+ over the hook and begins to tighten the knot.
+
+>wait
+ Time passes.
+
+ Duran peers at the rope in his hands, which has inexplicably slipped
+ off the hook and become untied. "That's odd..." Retying the knot,
+ Duran mutters the incantation "Tie rope to hook!"
+
+>wait
+ Time passes.
+
+ Again Duran finds himself holding an untied knot. "Okay, let's try
+ another one," he mutters. "Put rope on hook!"
+
+>wait
+ Time passes.
+
+ Duran looks dismayed, and pokes at his ill-behaved rope. "That's
+ always worked before," he mutters, "so there can't be anything wrong
+ with the rope. Don't worry, I'll figure it out."
+
+>fasten rope to hook
+ Duran shrugs and hands you the rope. You quickly tie a rudimentary
+ knot and loop it over the hook. Amazingly, the knot holds!
+
+ "Astounding!" exclaims Duran. "'Fasten'--who would have thought?"
+
+ Duran gestures at the rope.
+
+>climb rope
+ You shimmy down the rope, Duran following you...
+
+ Bottom of Cliff
+ A cliff looms above you, here; you can ascend via a rope that dangles
+ before you, or follow the pebbled path of an ancient and long dry
+ waterway to the north or the southeast.
+
+ There are many gold bars here!
+
+ Duran drops off the rope and struts around, admiring the piles of
+ gold. "Fabulous!", he exclaims, shaking your hand and insinuating a
+ gold bar into your pack. "We make quite a team!" Excited, the young
+ dwarf begins to sort the bars into two piles, but when he looks up,
+ you are gone...
+
+
+ **********************************************************************
+ **********
+
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its four equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, DISEMBARK, and UNDO.
+
+ You are carrying:
+   a candy bar
+   a shiny trophy
+   your identity bracelet (being worn)
+
+>examine candy bar
+ A sugar-packed Buttertonsils bar, in its characteristic golden
+ wrapper. You're not sure how you got ahold of it, but they're not bad.
+
+>examine trophy
+ A dented but shiny bowling trophy of bronze. Inscribed on the base are
+ the words, "LEAGUE CHAMPIONS 1992".
+
+ "You earned that trophy, you should keep it," says Lalrry.
+
+>eat bar
+ The candy bar slides down your throat, and your stomach quickly is
+ full.
+
+ Verb Guessing Booth
+ [Previous turn undone.]
+
+ Lalrry politely declines your offer.
+
+ Lalrry mumbles to himself.
+
+>examine wrapper
+ You can't see any such thing.
+
+>look
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its four equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, DISEMBARK, and UNDO.
+
+>eat bar
+ The candy bar slides down your throat, and your stomach quickly is
+ full.
+
+ "Verbs, prizes, fun!"
+
+>inventory
+ You are carrying:
+   a shiny trophy
+   your identity bracelet (being worn)
+
+>guess undo
+ "But I need a quarter from you before you can GUESS THE VERB!",
+ stutters Lalrry suddenly.
+
+ Lalrry makes a long-winded, heartfelt speech which you can't
+ understand at all.
+
+>go northwest
+ You can't go that way.
+
+>go northeast
+
+ The Midway
+ The lights and noise of the midway seem hollow and dull compared to
+ the aura of excitement you felt at the verb guessing booth. You survey
+ the sights around you as though through different eyes: the
+ merry-go-round, the concession stand--they seem so pedestrian now. You
+ feel a strange attraction pulling you back towards the southwest, as
+ though a ham-handed author were trying to place hints into the room
+ description that the game would progress a lot faster if you went back
+ to the verb guessing booth already.
+
+ If you really want to, though, you can go east to rejoin your parents
+ and end the game.
+
+ You can't help but notice a small but obtrusive quarter shining
+ machine squatting here.
+
+>dance
+ You perform a little jig. The producers of Riverdance won't be calling
+ you anytime soon.
+
+>sing
+ Your singing is abominable.
+
+>take quarter
+ You can't see any such thing.
+
+>caper
+ That's not a verb I recognize.
+
+>examine machine
+ The quarter shining machine sits in the middle of a line of similar
+ machines which accept coins of smaller denomination, like pennies, and
+ do more interesting things to them, like smush them up and imprint
+ them with touristy slogans. In the face of such intense competition,
+ the quarter shining machine has taken to mimicry, hoping to trap
+ unsuspecting coins intended for a less boring (if also less shiny)
+ fate in another machine.
+
+ Its innards are exposed, an unnecessarily complicated mesh of shiny
+ gears and pistons. A prominent notice on the side of the machine
+ assures you with alarming urgency that the practice of quarter-shining
+ is legal under federal statute BH-2510958. The coin tray has two
+ quarter-shaped slots; the left one to contain payment and the right to
+ contain the quarter you want shined and dropped into the receptacle
+ near the bottom of the machine.
+
+ The left coin slot is empty. The right coin slot is also empty. The
+ receptacle is also also empty.
+
+>kick machine
+ Violence isn't the answer to this one.
+
+>shake machine
+ That's not a verb I recognize.
+
+>search machine
+ In the quarter shining machine are a small receptacle, a coin tray, a
+ left coin slot and a right coin slot.
+
+>examine coin tray
+ The coin tray has two slots for quarters. The left one contains
+ payment for the shining service, the right contains the quarter to be
+ shined.
+
+>inventory
+ You are carrying:
+   a shiny trophy
+   your identity bracelet (being worn)
+
+>examine trophy
+ A dented but shiny bowling trophy of bronze. Inscribed on the base are
+ the words, "LEAGUE CHAMPIONS 1992".
+
+>look in it
+ You find nothing of interest.
+
+>examine id
+ A white plastic embarassment which your parents make you wear on those
+ rare occasions on which you are allowed off on your own. In little red
+ letters just above your wrist, it says "My name is _ISQUI_. In case of
+ emergency, call my mother's cell phone at (210) 603-3999."
+
+>examine larrly
+ You can't see any such thing.
+
+>look
+
+ The Midway
+ The lights and noise of the midway seem hollow and dull compared to
+ the aura of excitement you felt at the verb guessing booth. You survey
+ the sights around you as though through different eyes: the
+ merry-go-round, the concession stand--they seem so pedestrian now. You
+ feel a strange attraction pulling you back towards the southwest, as
+ though a ham-handed author were trying to place hints into the room
+ description that the game would progress a lot faster if you went back
+ to the verb guessing booth already.
+
+ If you really want to, though, you can go east to rejoin your parents
+ and end the game.
+
+ You can't help but notice a small but obtrusive quarter shining
+ machine squatting here.
+
+>go southwest
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its four equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, DISEMBARK, and UNDO.
+
+>se
+
+ Behind the Booths
+ You are in a shadowy alcove, surrounded by the canvas backs of several
+ carnival booths. The music and bustle of the midway seems very far
+ away, and a harvest moon illuminates the wet grass of the fairgrounds
+ and the makeshift walls that surround you.
+
+ The glinting tip of a small metal box peeks out from beneath the verb
+ guessing booth.
+
+>examine orange
+ It's orange.
+ The orange switch is currently switched on.
+
+>turn orange off
+ As you flip the switch, the LED suddenly goes dark.
+
+>turn blue on
+ As you flip the switch, the LED suddenly lights up green.
+
+>search grass
+ You find nothing of interest.
+
+>examine booths
+ The canvas walls of the booths are constructed according to an ancient
+ carnival ritual involving a variety of swear words and a certain
+ amount of duct tape. They look a bit rickety, but they'll hold until
+ the carnival moves on.
+
+>read boots
+ (in the metal box)
+ You discover nothing of interest in the metal box.
+
+>read booths
+ The canvas walls of the booths are constructed according to an ancient
+ carnival ritual involving a variety of swear words and a certain
+ amount of duct tape. They look a bit rickety, but they'll hold until
+ the carnival moves on.
+
+>examine box
+ The metal box is about the size of a deck of cards and is decorated
+ with black plastic trim. An LED and two switches (one orange, the
+ other blue) are mounted on the front of the box, and a cord runs from
+ either end up into the booth.
+
+ The LED is currently dark. The blue switch is in the on position, and
+ the orange switch is in the off position.
+
+>examine cord
+ The cords run from either end of a metal box up into the booth.
+
+>examine blue switch
+ It's blue.
+ The blue switch is currently switched on.
+
+>go northeast
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its four equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, DISEMBARK, and UNDO.
+
+>give trophy to lalrry
+ Lalrry gladly takes the trophy from your outstretched hands. With the
+ flair of a showman, he tosses it into the air and fails to notice as
+ it crashes to the ground inside the booth. Stepping back, Lalrry
+ indicates the wheel.
+
+ "Guess a, any!", says Lalrry, indicating the wheel of fortune.
+
+>look
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its four equally-sized divisions labeled with a single word:
+ SCRUTINIZE, RECONFIGURE, DISEMBARK, and UNDO.
+
+ "Guess a, any!", says Lalrry, indicating the wheel of fortune.
+
+>examine trophy
+ You can't see any such thing.
+
+>guess undo
+ "Hey, good! And so spin the..."
+
+ Lalrry gives the wheel a good push and it begins rapidly rotating,
+ spinning faster now, now slowly winding down until it...stops...on...
+
+                   RECONFIGURE
+
+ "Sorry!", says Lalrry with a shrug. "Better luck next!"
+
+ You close your eyes and brace yourself for the fall you feel is
+ inevitable. It isn't until your body fades away, leaving your
+ consciousness without any eyelids to shield it, that you realize that
+ you have been falling for quite a while. Before you have time to get
+ properly panicked again, though, you are somewhere else.
+
+ **********************************************************************
+ **********
+
+
+ CSUA Lounge
+ The UCLA Computer Science student lounge is a hacker's paradise: a
+ line of Linux machines and X terminals runs parallel to the south and
+ west wall, ending in a Windows machine and an old Macintosh (for
+ contrarians) in the northwest corner. A couch makes the environment
+ conducive to overnighters and software design bull sessions. The exit
+ is to the east.
+
+ Four computer geeks are here; Fred, Mark, Dan, and Leonard, by name.
+
+ You can also see a rollable whiteboard here.
+
+ "I have this bizarre feeling that I keep saying the same things over
+ and over again," muses Dan. "And I know I've written this function
+ before. Maybe there's something to Nietzsche's idea of eternal
+ recurrence."
+
+ Mark loads the Cruel Site of the Day into his web browser, and laughs
+ hysterically.
+
+ If a character as unlikely as Frederick Lee did not exist, it would be
+ necessary to invent him. Computer science students are common enough,
+ but Fred possesses that most uncommon trait among computer science
+ students, a lust for free software. Indeed, he has gone so far as to
+ swear eternal vengeance against any and all forms of proprietary
+ code--a move previously unheard of. His thick glasses, buzz cut, and
+ casual mode of dress give him a look unlike any nerd you have ever
+ seen.
+
+ Fred is currently logged into fire, sweating over the nameserver
+ configuration.
+
+ "Actually," Leonard confides to you, "this scenario setup is perfect.
+ It lets me write a college game in the manner of Save Princeton
+ without opening me up to charges of actually having written a college
+ game."
+
+ "Did I tell you about my internship with VA Linux?", asks Mark of the
+ room in general. No one seems interested, and Mark soon goes back to
+ his terminal.
+
+ Dan toys with the idea of starting his paper on Berkeley, but decides
+ against it. "It'd only disappear when I wasn't working on it," he says
+ resignedly.
+
+>examine whiteboard
+ A rollable whiteboard, intended for scratch work, mounted on casters
+ so as to be pushed about. It's covered with geometric diagrams on one
+ side and the de facto API for a group project on the other. There is
+ also a scoreboard of some sort: "DAN 7 LUG 2".
+
+ "Okay, it should work now," says Fred.
+
+ Mark types in a command and shakes his head. "Nope."
+
+ In addition to being a sensitive yet manly human being, Leonard
+ Richardson is a musical genius and a coding god. This is primarily due
+ to the fact that, as the author of this game, it fell upon him to
+ write the previous sentence. His T-shirt advertises the Second Annual
+ Lake Arrowhead Rubber Ducky Race (1988).
+
+ Leonard is currently logged into rei, and is working on a text
+ adventure which he hopes to enter in the 2000 Interactive Fiction
+ Competition. At the moment he is attempting to program a random
+ dialogue engine for four particularly fanciful characters.
+
+ "I can't figure out what's wrong with the configuration," says Fred,
+ pounding on fire's keyboard.
+
+
+ Leonard shrugs. "What's to say?"
+
+ "What's the volume of the intersection of a cone and a circle?", asks
+ Dan, in case someone has this fact memorized. No one has.
+
+ "This part of the game is a little too self-referential for my taste,"
+ says Leonard, indicating an especially indulgent monologue on his
+ screen. "In fact, I shouldn't be here at UCLA in the first place,
+ since I graduated before I even started this game--so did Adam,
+ incidentally. But authorial self-insertion is a time-honored IF trope,
+ and it seemed a shame to miss such a golden opportunity to make use of
+ it."
+
+>examine fire
+ fire.csua.ucla.edu is CSUA's main machine, and hosts hundreds of user
+ accounts. From the way Fred keeps frantically switching between
+ configuration files, you get the feeling that something is wrong with
+ that machine.
+
+ Dan sketches a diagram on some scratch paper.
+
+
+ CSUA Lounge
+ The UCLA Computer Science student lounge is a hacker's paradise: a
+ line of Linux machines and X terminals runs parallel to the south and
+ west wall, ending in a Windows machine and an old Macintosh (for
+ contrarians) in the northwest corner. A couch makes the environment
+ conducive to overnighters and software design bull sessions. The exit
+ is to the east.
+
+ Four computer geeks are here; Fred, Mark, Dan, and Leonard, by name.
+
+ You can also see a rollable whiteboard here.
+
+ Leonard makes a frustrated noise. "Look at this," he says, quoting
+ from his screen. "'Unlike C, Inform uses a colon to divide parts of a
+ 'for' loop specification.' Why?"
+
+
+ 3rd Floor Balcony
+ A balcony to your east overlooks the garden at the center of Boelter
+ Hall. Palm trees planted there reach for the sky but are dwarfed by
+ the brick structure that surrounds them on all sides. An open double
+ door to your west bears a sign saying "CSUA - We Make the Digital
+ Future Happen". Another doorway lies to the north.
+
+>reconfigure fire
+ You can't see any such thing.
+
+>examine me
+ You are a perfectly normal eleven-year-old girl on a field trip to
+ UCLA.
+
+>inventory
+ You are carrying:
+   a digital watch (being worn)
+
+>examine watch
+ A basic, no-frills digital watch.
+
+
+ 3rd Floor Balcony
+ A balcony to your east overlooks the garden at the center of Boelter
+ Hall. Palm trees planted there reach for the sky but are dwarfed by
+ the brick structure that surrounds them on all sides. An open double
+ door to your west bears a sign saying "CSUA - We Make the Digital
+ Future Happen". Another doorway lies to the north.
+
+
+ Outside the Lab
+ Somewhere, deep inside Boelter Hall, there is a hallway that passes by
+ the lab for CS152B, the dreaded digital design class. Somehow you have
+ found your way to this foreboding place, a place so desolate that
+ there is a door leading east and a hallway leading west to the
+ balcony. (I know that made no sense, but I had to tell you that
+ somewhere.) The walls are covered with posterboards which detail the
+ work of UCLA's computer science graduate students.
+
+ Some are dry and technical, some flush with the thrill of discovery;
+ some use flashy graphics to try to cover up the fact that the research
+ in question is something a sophomore might cook up over winter break.
+
+
+ Digital Design Lab
+ Tables line the walls of this room, illuminated by intrusive
+ fluorescent lights on the ceiling; tables that bear twenty identical
+ computers; computers that bear the Windows NT login banner, enticing
+ passers-by to make use of the cut-rate circuit simulation software
+ within. The only exit is to the west, and it looks quite inviting.
+
+ A shiny paperclip lies unnoticed on the floor.
+
+ Adam Kaplan seethingly regards the schematic on his screen.
+
+ Adam curses under his breath as the circuit design software,
+ predictably, does The Wrong Thing.
+
+>take paperclip
+ Taken.
+
+>bend paperclip
+ That's not a verb I recognize.
+
+ Normally, Adam is an amiable and pleasant fellow. But now, he is at
+ war. At war with a hypothetical piece of hardware, and an all-too-real
+ piece of software. The workstation he has claimed is surrounded by
+ empty coffee cups and apple juice bottles, and his head hangs heavy as
+ he contemplates the mess of pixelated wires on the screen. He has not
+ slept for a while.
+
+ Adam tries to check his email, but fails. "I guess fire is still
+ down," he says.
+
+>ask adam about fire
+ "That's where I get my email," says Adam. "Usually, I mean."
+
+ "Y'know," says Adam, casting his eye in your direction, "I may or may
+ not have items you might find valuable which I might or might not
+ trade for certain services once performed in the classic text
+ adventure fashion." Somewhat embarrassed, he looks back at his screen.
+
+ You are carrying:
+   a shiny paperclip
+   a digital watch (being worn)
+
+ Adam drags some wires around with his mouse.
+
+ "Yeah, it's a paperclip, all right."
+
+ Adam consults a notebook filled with hand-drawn schematics.
+
+ "He's a cool dude. I've played a couple sets with him. Wish he was
+ here helping me with this."
+
+>go west
+
+ Outside the Lab
+ Somewhere, deep inside Boelter Hall, there is a hallway that passes by
+ the lab for CS152B, the dreaded digital design class. Somehow you have
+ found your way to this foreboding place, a place so desolate that
+ there is a door leading east and a hallway leading west to the
+ balcony. (I know that made no sense, but I had to tell you that
+ somewhere.) The walls are covered with posterboards which detail the
+ work of UCLA's computer science graduate students.
+
+>go west
+
+ 3rd Floor Balcony
+ A balcony to your east overlooks the garden at the center of Boelter
+ Hall. Palm trees planted there reach for the sky but are dwarfed by
+ the brick structure that surrounds them on all sides. An open double
+ door to your west bears a sign saying "CSUA - We Make the Digital
+ Future Happen". Another doorway lies to the north.
+
+ I suppose you think there are stairs or something.
+
+>examine trees
+ The palm trees rear up into the sky like excited French poodles.
+
+>climb trees
+ The trees are out of reach, and too thin to climb anyway.
+
+
+ Outside the Lab
+ Somewhere, deep inside Boelter Hall, there is a hallway that passes by
+ the lab for CS152B, the dreaded digital design class. Somehow you have
+ found your way to this foreboding place, a place so desolate that
+ there is a door leading east and a hallway leading west to the
+ balcony. (I know that made no sense, but I had to tell you that
+ somewhere.) The walls are covered with posterboards which detail the
+ work of UCLA's computer science graduate students.
+
+ You can't go that way.
+
+ You can't go that way.
+
+
+ 3rd Floor Balcony
+ A balcony to your east overlooks the garden at the center of Boelter
+ Hall. Palm trees planted there reach for the sky but are dwarfed by
+ the brick structure that surrounds them on all sides. An open double
+ door to your west bears a sign saying "CSUA - We Make the Digital
+ Future Happen". Another doorway lies to the north.
+
+
+ CSUA Lounge
+ The UCLA Computer Science student lounge is a hacker's paradise: a
+ line of Linux machines and X terminals runs parallel to the south and
+ west wall, ending in a Windows machine and an old Macintosh (for
+ contrarians) in the northwest corner. A couch makes the environment
+ conducive to overnighters and software design bull sessions. The exit
+ is to the east.
+
+ Four computer geeks are here; Fred, Mark, Dan, and Leonard, by name.
+
+ You can also see a rollable whiteboard here.
+
+ "You know," says Leonard, "I could write a better IF language than
+ Inform."
+
+ "That's the spirit!", says Dan.
+
+>search couch
+ There is nothing on the couch.
+
+>examine whiteboard
+ A rollable whiteboard, intended for scratch work, mounted on casters
+ so as to be pushed about. It's covered with geometric diagrams on one
+ side and the de facto API for a group project on the other. There is
+ also a scoreboard of some sort: "DAN 7 LUG 2".
+
+ Mark stifles a laugh.
+
+ "What are you laughing at?", asks Leonard.
+
+ "This post on Slashdot."
+
+ "Ah yes," says Fred.
+
+ "I didn't think it was that funny," says Leonard.
+
+ "It was all right," says Dan.
+
+ "You can't get onto fire yet," says Mark. "Fred's fu--uh, messing
+ around with the configuration files."
+
+ "It must be something in the host configuration,", says Fred.
+
+ Mark loads the Cruel Site of the Day into his web browser, and laughs
+ hysterically.
+
+ fire.csua.ucla.edu is CSUA's main machine, and hosts hundreds of user
+ accounts. From the way Fred keeps frantically switching between
+ configuration files, you get the feeling that something is wrong with
+ that machine.
+
+ "No, that didn't work," says Fred to himself.
+
+ "What's the volume of the intersection of a cone and a circle?", asks
+ Dan, in case someone has this fact memorized. No one has.
+
+
+ "Fred's working on it," says Dan. "The stupid network is always going
+ down."
+
+ Mark obsesses about the next UCLA LUG meeting.
+
+ "This part of the game is a little too self-referential for my taste,"
+ says Leonard, indicating an especially indulgent monologue on his
+ screen. "In fact, I shouldn't be here at UCLA in the first place,
+ since I graduated before I even started this game--so did Adam,
+ incidentally. But authorial self-insertion is a time-honored IF trope,
+ and it seemed a shame to miss such a golden opportunity to make use of
+ it."
+
+ Dan toys with the idea of starting his paper on Berkeley, but decides
+ against it. "It'd only disappear when I wasn't working on it," he says
+ resignedly.
+
+ "I don't understand it," says Fred. "I thought I'd set up fire's
+ configuration to rid of this problem, the last time this happened."
+
+>ask fred about fire
+ "It'll be up in a minute," says Fred. "I just have to fix the DNS
+ configuration."
+
+ Dan toys with the idea of starting his paper on Berkeley, but decides
+ against it. "It'd only disappear when I wasn't working on it," he says
+ resignedly.
+
+ Mark curses the 405 freeway, bane of his commute.
+
+ "Hey, I want to be in the game," declares a man whom you suddenly
+ notice is standing in the room. "Okay," says Leonard, and the man
+ abruptly disappears.
+
+>xyzzy
+ A grown-up with curly blond hair and glasses appears out of thin air,
+ shouts "I like beans!", and promptly vanishes.
+
+>examine me
+ You are a perfectly normal eleven-year-old girl on a field trip to
+ UCLA.
+
+ Mark stifles a laugh.
+
+ "What are you laughing at?", asks Leonard.
+
+ "This post on Slashdot."
+
+ "Ah yes," says Fred.
+
+ "I didn't think it was that funny," says Leonard.
+
+ "It was all right," says Dan.
+
+ "Don't move that!", says Fred. "I was using it!"
+
+>read whiteboard
+ A rollable whiteboard, intended for scratch work, mounted on casters
+ so as to be pushed about. It's covered with geometric diagrams on one
+ side and the de facto API for a group project on the other. There is
+ also a scoreboard of some sort: "DAN 7 LUG 2".
+
+ "Okay, it should work now," says Fred.
+
+ Mark types in a command and shakes his head. "Nope."
+
+>inventory
+ You are carrying:
+   a shiny paperclip
+   a digital watch (being worn)
+
+ "This part of the game is a little too self-referential for my taste,"
+ says Leonard, indicating an especially indulgent monologue on his
+ screen. "In fact, I shouldn't be here at UCLA in the first place,
+ since I graduated before I even started this game--so did Adam,
+ incidentally. But authorial self-insertion is a time-honored IF trope,
+ and it seemed a shame to miss such a golden opportunity to make use of
+ it."
+
+>eat paperclip
+ That's plainly lacking the "edible" flag.
+
+ "Stupid web browser," says Mark, killing his X session and restarting.
+
+ "Use lynx," suggests Fred.
+
+ A confused light show erupts from xorn's monitor as Dan runs his game
+ with a gravitational constant of 0.59. Dan smiles the manic grin of
+ one who enjoys tormenting his data structures.
+
+>examine xorn
+ xorn, aka linux.ucla.edu, is the hosting machine for the UCLA Linux
+ Users Group, and for the standing LUG Nethack tournament. Green shapes
+ flicker on its screen as Dan tests the latest additions to his game.
+
+ "When was the last time anybody managed to get onto fire?", asks Fred.
+
+ "Last night," says Mark.
+
+ "Earlier this morning," says Dan.
+
+ Fred shakes his head.
+
+>examine mac
+ plasma, an old Macintosh.
+
+ "Did I tell you about my internship with VA Linux?", asks Mark of the
+ room in general. No one seems interested, and Mark soon goes back to
+ his terminal.
+
+ "I wonder if something's wrong with the firewall," says Fred.
+
+>reconfigure paperclip
+ You can't see any such thing.
+
+>examine fore
+ You can't see any such thing.
+
+>inventory
+ You are carrying:
+   a shiny paperclip
+   a digital watch (being worn)
+
+ Mark loads the Cruel Site of the Day into his web browser, and laughs
+ hysterically.
+
+ "This part of the game is a little too self-referential for my taste,"
+ says Leonard, indicating an especially indulgent monologue on his
+ screen. "In fact, I shouldn't be here at UCLA in the first place,
+ since I graduated before I even started this game--so did Adam,
+ incidentally. But authorial self-insertion is a time-honored IF trope,
+ and it seemed a shame to miss such a golden opportunity to make use of
+ it."
+
+>examine fire
+ fire.csua.ucla.edu is CSUA's main machine, and hosts hundreds of user
+ accounts. From the way Fred keeps frantically switching between
+ configuration files, you get the feeling that something is wrong with
+ that machine.
+
+ "Oops!", says Leonard, and taps some keys. "There was no way to get
+ from the balcony to the snack bar. I put in some stairs. Sorry about
+ that."
+
+ "No, that didn't work," says Fred to himself.
+
+>reboot fire
+ That's not a verb I recognize.
+
+>go south
+ You can't go that way.
+
+ "I wonder if something's wrong with the firewall," says Fred.
+
+>look
+
+ CSUA Lounge
+ The UCLA Computer Science student lounge is a hacker's paradise: a
+ line of Linux machines and X terminals runs parallel to the south and
+ west wall, ending in a Windows machine and an old Macintosh (for
+ contrarians) in the northwest corner. A couch makes the environment
+ conducive to overnighters and software design bull sessions. The exit
+ is to the east.
+
+ Four computer geeks are here; Fred, Mark, Dan, and Leonard, by name.
+
+ You can also see a rollable whiteboard here.
+
+ Mark obsesses about the next UCLA LUG meeting.
+
+ "It must be something in the host configuration,", says Fred.
+
+>go east
+
+ 3rd Floor Balcony
+ A balcony to your east overlooks the garden at the center of Boelter
+ Hall. Palm trees planted there reach for the sky but are dwarfed by
+ the brick structure that surrounds them on all sides. Stairs lead up
+ here, and an open double door to your west bears a sign saying "CSUA -
+ We Make the Digital Future Happen". Another doorway lies to the north.
+
+>go down
+ The downwards stairs lead only to classrooms and maintenance rooms.
+
+>go up
+ You climb the stairs a bit, and end up...
+
+ Outside the SEAS Cafe
+ The strains of punk rock emanate from the door to your west, the
+ entrance to the SEAS Cafe. A bulletin board nearby is covered in
+ flyers, posted by people who share the quixotic goal of making
+ engineering students think about something other than classes and
+ projects. A hallway to your east leads into the South Campus quad, and
+ stairs lead down.
+
+>examine flyers
+ The flyers on the bulletin board attempt to entice students to play
+ broomball, attend a job fair, or join the Marines.
+
+>join marines
+ That's not a verb I recognize.
+
+>go west
+
+ SEAS Cafe
+ The Cafe is normally a busy, boisterous place, but midterms have
+ brought a horde of students swarming in to lay waste to the land,
+ purchasing practically everything on the large wire racks and in the
+ refrigerated containers, and otherwise reducing the number of objects
+ which must be implemented in this game. Only the arcade games in the
+ corner and the geeky drawings on the walls bear witness to the Cafe's
+ previous glory.
+
+ A bottle of cola is the only item of merchandise remaining.
+
+ A surly cashier sits beside the cash register, studying for her
+ midterms.
+
+>examine ganes
+ You can't see any such thing.
+
+>examine games
+ This is the enumeration of the arcade games: Street Fighter, Galaga
+ (in a Ms. Pac-Man casing, oddly enough), and the old favorite Bust A
+ Move. All of them are currently in demo mode.
+
+>examine cashier
+ She is sitting behind the counter near the cash register, reading a
+ book on soil mechanics. Her primary concern right now seems to be
+ passing her midterms.
+
+>play games
+ That's not a verb I recognize.
+
+>ask cashier about soil mechanics
+ "Dull as dirt."
+
+>take coke
+ You can't see any such thing.
+
+>hork cola
+ That's not a verb I recognize.
+
+
+ SEAS Cafe
+ The Cafe is normally a busy, boisterous place, but midterms have
+ brought a horde of students swarming in to lay waste to the land,
+ purchasing practically everything on the large wire racks and in the
+ refrigerated containers, and otherwise reducing the number of objects
+ which must be implemented in this game. Only the arcade games in the
+ corner and the geeky drawings on the walls bear witness to the Cafe's
+ previous glory.
+
+ A bottle of cola is the only item of merchandise remaining.
+
+ A surly cashier sits beside the cash register, studying for her
+ midterms.
+
+>take cola
+ Taken.
+
+ "It's cold. It's caffeinated. It's brown. It's also eighty cents," she
+ responds, not looking up from her book.
+
+>take cola
+ You already have that.
+
+>buy cola
+ You have no money. Yet the cola is not free.
+
+>sing
+ Your singing is abominable.
+
+>dance
+ You perform a little jig. The producers of Riverdance won't be calling
+ you anytime soon.
+
+>sell watch
+ That's not a verb I recognize.
+
+>give watch to cashier
+ "The soda costs eighty cents," says the cashier disinterestedly.
+
+>shrug
+ That's not a verb I recognize.
+
+>examine pac-man
+ This is the enumeration of the arcade games: Street Fighter, Galaga
+ (in a Ms. Pac-Man casing, oddly enough), and the old favorite Bust A
+ Move. All of them are currently in demo mode.
+
+>examine bust
+ This is the enumeration of the arcade games: Street Fighter, Galaga
+ (in a Ms. Pac-Man casing, oddly enough), and the old favorite Bust A
+ Move. All of them are currently in demo mode.
+
+>reconfigure arcade games
+ You can't see any such thing.
+
+>play games
+ That's not a verb I recognize.
+
+>steal cola
+ That's not a verb I recognize.
+>play pac-man
+
+ That's not a verb I recognize.
+
+>look
+
+ SEAS Cafe
+ The Cafe is normally a busy, boisterous place, but midterms have
+ brought a horde of students swarming in to lay waste to the land,
+ purchasing practically everything on the large wire racks and in the
+ refrigerated containers, and otherwise reducing the number of objects
+ which must be implemented in this game. Only the arcade games in the
+ corner and the geeky drawings on the walls bear witness to the Cafe's
+ previous glory.
+
+ A surly cashier sits beside the cash register, studying for her
+ midterms.
+
+>examine drawings
+ Mostly renditions in marker of popular anime characters. A few
+ American comic strip characters also make their appearance. Pretty
+ good, artistically speaking.
+
+>examine racks
+ Some of the wire racks reach close to the ceiling. They normally
+ contain candy bars, trail mix, muffins, potato chips, styrofoam bowls
+ of ramen noodles, over-the-counter medications, and other necessities
+ for studying. They are completely bare, and will be until restocking
+ tomorrow.
+
+>go east
+ The cashier blocks your way and will not let you leave! Maybe you
+ should pay for that cola first.
+
+>hit cashier with cola
+ I only understood you as far as wanting to hit the cashier.
+
+>drop cola
+ Dropped.
+
+>go east
+
+ Outside the SEAS Cafe
+ The strains of punk rock emanate from the door to your west, the
+ entrance to the SEAS Cafe. A bulletin board nearby is covered in
+ flyers, posted by people who share the quixotic goal of making
+ engineering students think about something other than classes and
+ projects. A hallway to your east leads into the South Campus quad, and
+ stairs lead down.
+
+>go east
+ You walk briefly down the hallway for a bit, but turn back, feeling
+ that you still have some important task to perform in the engineering
+ building.
+
+>go west
+
+ SEAS Cafe
+ The Cafe is normally a busy, boisterous place, but midterms have
+ brought a horde of students swarming in to lay waste to the land,
+ purchasing practically everything on the large wire racks and in the
+ refrigerated containers, and otherwise reducing the number of objects
+ which must be implemented in this game. Only the arcade games in the
+ corner and the geeky drawings on the walls bear witness to the Cafe's
+ previous glory.
+
+ A surly cashier sits beside the cash register, studying for her
+ midterms.
+
+ You can also see a bottle of cola here.
+
+>examine register
+ It's a thirty-two-bit register, holding multiples of four dollars.
+
+>take cola
+ Taken.
+
+>reconfigure register
+ You can't see any such thing.
+
+>reconfigure pac-man
+ You can't see any such thing.
+
+>reconfigure games
+ You can't see any such thing.
+
+>reconfigure game
+ You can't see any such thing.
+
+>look
+
+ SEAS Cafe
+ The Cafe is normally a busy, boisterous place, but midterms have
+ brought a horde of students swarming in to lay waste to the land,
+ purchasing practically everything on the large wire racks and in the
+ refrigerated containers, and otherwise reducing the number of objects
+ which must be implemented in this game. Only the arcade games in the
+ corner and the geeky drawings on the walls bear witness to the Cafe's
+ previous glory.
+
+ A surly cashier sits beside the cash register, studying for her
+ midterms.
+
+>study soil
+ That's not a verb I recognize.
+
+>examine cashier
+ She is sitting behind the counter near the cash register, reading a
+ book on soil mechanics. Her primary concern right now seems to be
+ passing her midterms.
+
+>ask cashier about midterms
+ Absorbed in her reading, the cashier does not reply.
+
+>dig soil
+ Digging would achieve nothing here.
+
+>go west
+ You can't go that way.
+
+>go south
+ You can't go that way.
+
+>look
+
+ SEAS Cafe
+ The Cafe is normally a busy, boisterous place, but midterms have
+ brought a horde of students swarming in to lay waste to the land,
+ purchasing practically everything on the large wire racks and in the
+ refrigerated containers, and otherwise reducing the number of objects
+ which must be implemented in this game. Only the arcade games in the
+ corner and the geeky drawings on the walls bear witness to the Cafe's
+ previous glory.
+
+ A surly cashier sits beside the cash register, studying for her
+ midterms.
+
+>exit
+ But you aren't in anything at the moment.
+
+>drop cola
+ Dropped.
+
+>go east
+
+ Outside the SEAS Cafe
+ The strains of punk rock emanate from the door to your west, the
+ entrance to the SEAS Cafe. A bulletin board nearby is covered in
+ flyers, posted by people who share the quixotic goal of making
+ engineering students think about something other than classes and
+ projects. A hallway to your east leads into the South Campus quad, and
+ stairs lead down.
+
+>go down
+ You take the stairs down a bit, and end up on the...
+
+ 3rd Floor Balcony
+ A balcony to your east overlooks the garden at the center of Boelter
+ Hall. Palm trees planted there reach for the sky but are dwarfed by
+ the brick structure that surrounds them on all sides. Stairs lead up
+ here, and an open double door to your west bears a sign saying "CSUA -
+ We Make the Digital Future Happen". Another doorway lies to the north.
+
+>go east
+ You can't go that way.
+
+>go north
+
+ Outside the Lab
+ Somewhere, deep inside Boelter Hall, there is a hallway that passes by
+ the lab for CS152B, the dreaded digital design class. Somehow you have
+ found your way to this foreboding place, a place so desolate that
+ there is a door leading east and a hallway leading west to the
+ balcony. (I know that made no sense, but I had to tell you that
+ somewhere.) The walls are covered with posterboards which detail the
+ work of UCLA's computer science graduate students.
+
+>go east
+
+ Digital Design Lab
+ Tables line the walls of this room, illuminated by intrusive
+ fluorescent lights on the ceiling; tables that bear twenty identical
+ computers; computers that bear the Windows NT login banner, enticing
+ passers-by to make use of the cut-rate circuit simulation software
+ within. The only exit is to the west, and it looks quite inviting.
+
+ Adam Kaplan seethingly regards the schematic on his screen.
+
+>tell adam about cola
+ Adam ignores you, preferring to click with his mouse.
+
+ You can't see any such thing.
+
+ Adam seems on the verge of losing patience.
+
+ "I wonder what's wrong with fire," says Adam. "I'd really like to
+ check my email."
+
+>ask adam about cola
+ Adam seems on the verge of losing patience.
+
+>ask adam about cola
+ Adam seems on the verge of losing patience.
+
+>ask adam about email
+ Adam seems on the verge of losing patience.
+
+>annoy adam
+ That's not a verb I recognize.
+
+>kiss adam
+ Adam doesn't know how to react.
+
+>reconfigure fire
+ You can't see any such thing.
+
+>check email
+ You can't see any such thing.
+
+>reconfigure fred
+ You can't see any such thing.
+
+>examine fred
+ You can't see any such thing.
+
+>look
+
+ Digital Design Lab
+ Tables line the walls of this room, illuminated by intrusive
+ fluorescent lights on the ceiling; tables that bear twenty identical
+ computers; computers that bear the Windows NT login banner, enticing
+ passers-by to make use of the cut-rate circuit simulation software
+ within. The only exit is to the west, and it looks quite inviting.
+
+ Adam Kaplan seethingly regards the schematic on his screen.
+
+>examine computers
+ The identical computers all seem to be running Windows NT. To the
+ north, Bill Gates is counting his money.
+
+ Adam curses under his breath as the circuit design software,
+ predictably, does The Wrong Thing.
+
+>go north
+ You can't go that way.
+
+ "Y'know," says Adam, casting his eye in your direction, "I may or may
+ not have items you might find valuable which I might or might not
+ trade for certain services once performed in the classic text
+ adventure fashion." Somewhat embarrassed, he looks back at his screen.
+
+>go west
+
+ Outside the Lab
+ Somewhere, deep inside Boelter Hall, there is a hallway that passes by
+ the lab for CS152B, the dreaded digital design class. Somehow you have
+ found your way to this foreboding place, a place so desolate that
+ there is a door leading east and a hallway leading west to the
+ balcony. (I know that made no sense, but I had to tell you that
+ somewhere.) The walls are covered with posterboards which detail the
+ work of UCLA's computer science graduate students.
+
+>go north
+ You can't go that way.
+
+>go west
+
+ 3rd Floor Balcony
+ A balcony to your east overlooks the garden at the center of Boelter
+ Hall. Palm trees planted there reach for the sky but are dwarfed by
+ the brick structure that surrounds them on all sides. Stairs lead up
+ here, and an open double door to your west bears a sign saying "CSUA -
+ We Make the Digital Future Happen". Another doorway lies to the north.
+
+>go north
+
+ Outside the Lab
+ Somewhere, deep inside Boelter Hall, there is a hallway that passes by
+ the lab for CS152B, the dreaded digital design class. Somehow you have
+ found your way to this foreboding place, a place so desolate that
+ there is a door leading east and a hallway leading west to the
+ balcony. (I know that made no sense, but I had to tell you that
+ somewhere.) The walls are covered with posterboards which detail the
+ work of UCLA's computer science graduate students.
+
+>go west
+
+ 3rd Floor Balcony
+ A balcony to your east overlooks the garden at the center of Boelter
+ Hall. Palm trees planted there reach for the sky but are dwarfed by
+ the brick structure that surrounds them on all sides. Stairs lead up
+ here, and an open double door to your west bears a sign saying "CSUA -
+ We Make the Digital Future Happen". Another doorway lies to the north.
+
+>go west
+
+ CSUA Lounge
+ The UCLA Computer Science student lounge is a hacker's paradise: a
+ line of Linux machines and X terminals runs parallel to the south and
+ west wall, ending in a Windows machine and an old Macintosh (for
+ contrarians) in the northwest corner. A couch makes the environment
+ conducive to overnighters and software design bull sessions. The exit
+ is to the east.
+
+ Four computer geeks are here; Fred, Mark, Dan, and Leonard, by name.
+
+ You can also see a rollable whiteboard here.
+
+ Mark curses the 405 freeway, bane of his commute.
+
+ "This part of the game is a little too self-referential for my taste,"
+ says Leonard, indicating an especially indulgent monologue on his
+ screen. "In fact, I shouldn't be here at UCLA in the first place,
+ since I graduated before I even started this game--so did Adam,
+ incidentally. But authorial self-insertion is a time-honored IF trope,
+ and it seemed a shame to miss such a golden opportunity to make use of
+ it."
+
+>go west
+ You can't go that way.
+
+ Mark obsesses about the next UCLA LUG meeting.
+
+>configure fire
+ That's not a verb I recognize.
+
+ Your hands seem to fly over the keys as Fred steps aside for you.
+ Obscure knowledge wells up from deep inside you as you change
+ configuration files left and right. When the dust clears, fire is back
+ on the net!
+
+ Fred offers you his congratulations, but the room has begun to spin
+ and fade away. You can hear Mark say, "You know, there was a Deep
+ Space Nine episode where--" and then you find yourself back at the...
+
+
+ **********************************************************************
+ **********
+
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its three equally-sized divisions labeled with a single word:
+ SCRUTINIZE, DISEMBARK, and UNDO.
+
+ "One shiny gets you a of the!"
+
+>reconfigure fire
+ You can't see any such thing.
+
+>inventory
+ You are carrying:
+   a shiny paperclip
+   your identity bracelet (being worn)
+
+ Lalrry mumbles to himself.
+
+ Verb Guessing Booth
+ [Previous turn undone.]
+
+ [Can't "undo" twice in succession. Sorry!]
+
+>/undo
+ Verb Guessing Booth
+ [Previous turn undone.]
+
+>/undo
+ CSUA Lounge
+ [Previous turn undone.]
+
+>that would seem to be it, yes
+ You seem to want to talk to someone, but I can't see whom.
+
+>look
+
+ CSUA Lounge
+ The UCLA Computer Science student lounge is a hacker's paradise: a
+ line of Linux machines and X terminals runs parallel to the south and
+ west wall, ending in a Windows machine and an old Macintosh (for
+ contrarians) in the northwest corner. A couch makes the environment
+ conducive to overnighters and software design bull sessions. The exit
+ is to the east.
+
+ Four computer geeks are here; Fred, Mark, Dan, and Leonard, by name.
+
+ You can also see a rollable whiteboard here.
+
+ "I wonder if something's wrong with the firewall," says Fred.
+
+ Dan expresses his regret that Descartes and Hume were not
+ contemporaries of the pay-per-view cage match.
+
+>reconfigure fire
+ Your hands seem to fly over the keys as Fred steps aside for you.
+ Obscure knowledge wells up from deep inside you as you change
+ configuration files left and right. When the dust clears, fire is back
+ on the net!
+
+ Fred offers you his congratulations, but the room has begun to spin
+ and fade away. You can hear Mark say, "You know, there was a Deep
+ Space Nine episode where--" and then you find yourself back at the...
+
+
+ **********************************************************************
+ **********
+
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ each of its three equally-sized divisions labeled with a single word:
+ SCRUTINIZE, DISEMBARK, and UNDO.
+
+>give paperclip to lalrry
+ Lalrry gladly takes the paperclip from your outstretched palm. With
+ the flair of a showman, he tosses it into the air and catches it in
+ his shirt pocket. Stepping back, he indicates the wheel.
+
+ "Guess a, any!", says Lalrry, indicating the wheel of fortune.
+
+>guess scrutinize
+ "Hey, good! And so spin the..."
+
+ Lalrry gives the wheel a good push and it begins rapidly rotating,
+ spinning faster now, now slowly winding down until it...stops...on...
+
+                   SCRUTINIZE
+
+ "Hey, win!" Lalrry seems genuinely excited as he hands you your
+ prize--a large plush doll made in the unauthorized image of a certain
+ tap-dancing animated frog.
+
+ "I love that little!", Lalrry confides in you. "Always makes laugh!"
+
+ "Now guess another, Isqui!"
+
+ "Guess a, any!", says Lalrry, indicating the wheel of fortune.
+
+>examine doll
+ You can't see any such thing.
+
+>examine frog
+ A green and yellow plush copyright violation: a cartoon frog wearing a
+ top hat.
+
+ "Guess a, any!", says Lalrry, indicating the wheel of fortune.
+
+>examine wheel
+ A sort of rotating pie chart, the wheel of fortune is about four feet
+ in diameter and attached to a frame which, in turn, is bolted to the
+ side of the booth. A plastic red arrow suspended over the top of the
+ wheel indicates one of the two verbs at random (currently DISEMBARK),
+ and will do so again when Lalrry spins the wheel. The verbs currently
+ on the pie chart are DISEMBARK and UNDO, each taking up an equal slice
+ of the pie.
+
+ "Guess a, any!", says Lalrry, indicating the wheel of fortune.
+
+>guess disembark
+ "Hey, good! And so spin the..."
+
+ Lalrry gives the wheel a good push and it begins rapidly rotating,
+ spinning faster now, now slowly winding down until it...stops...on...
+
+                   UNDO
+
+ "Sorry!", says Lalrry with a shrug. "Better luck next!"
+
+ You watch, only slightly disconcerted, as the fairgrounds waver and
+ fade away. You fall, but the fall is no longer frightening; it is
+ exhilarating. All the same, it is worrying just how far you are
+ falling--it seems much longer than last time--just as you begin to
+ wonder whether something has gone wrong, you are somewhere else.
+
+ **********************************************************************
+ **********
+
+ Uh-oh, you can see your hands. The invisibility potion must have worn
+ off! Your tactic for getting past the giant crab quickly changes from
+ quietly sneaking to running like mad for the oaken door on the
+ opposite side. Hearing the crunch of your sneakers against the
+ shell-ridden floor, the crab frantically scuttles around toward you,
+ but you have reached the door. It's unlocked! You open the door a
+ crack, dart through, and slam it shut again.
+
+ A dull thud echoes from the other side of the door, followed by a soft
+ scratching. Breathing a sigh of relief, you turning around, noticing
+ for the first time just how close you are to the end of your quest.
+ For this is the...
+
+ Warlock's Anteroom
+ The stone walls on either side of you reach high into the darkening
+ sky--the smell of fresh air is exhilarating after your travails within
+ the depths of the castle. This short hallway was once covered in lush
+ red carpet, but its exposure to the elements and its proximity to a
+ trigger-happy warlock have scorched and rotted it, exposing the
+ cobblestones beneath. Black mold grows on the few patches of carpeting
+ that remain. West is the large oaken door you so recently fled
+ through; east you can see into the the lighted study of the dread
+ warlock Do'papoc.
+
+>inventory
+ You are carrying:
+   a plush frog
+   a Bracelet of Citrus Resistance (being worn)
+   a school-issue spellbook
+   a manual of demonology
+   a stuffed parrot
+   a Carelka quarter (providing light)
+   a shapeless blob of brown wax
+   a book of lore
+   a bag of Eldritch Farm cookies
+
+>examine bracelet
+ Drawing its power from the Kinda-Sorta-Semi-Quasi-Para-Elemental Plane
+ of Citrus, this magical bracelet grants you immunity to all
+ citrus-based attacks. Its gemstones sparkle the color of lemons,
+ grapefruits, and oranges.
+
+>examine spellbook
+ This slight, spiral-bound tome has "Isqui's Spellbook" written on the
+ blue cover. It contains seven spells, laboriously copied from your
+ school textbook. Unfortunately, your school textbook, "Harry Potter
+ and the 2000 Middle School Magical Education Standards", tends to
+ focus less on the "cause mighty warlock to tremble in fear" type
+ spells and more on the "subject target to sharp kick in pants" type
+ spells. In fact, "subject target to sharp kick in pants" is probably
+ your best spell, apart from "open even locked or enchanted objects",
+ which you can't even memorize anymore, since you got strawberry jam
+ all over the runes.
+
+ Your spellbook contains the following spells:
+ funyun spell: cause spell caster to memorize wrong spell.
+ geordi spell: bring simulacrum of animal to life.
+ foobar spell: make the inedible edible.
+ rekn0g spell: Bj*e,ev%n.l/((-%d o(fen.na5t*d o2*l70.
+ bismol spell: subject target to sharp kick in pants.
+ formic spell: summon being's mother.
+ eldspa spell: sharpen pencil.
+
+ [For help on casting spells, type HELP SPELLS.]
+
+>rekn0g me
+ That's not a verb I recognize.
+
+>learn rekn0g
+ Using your best study habits, you commit the rekn0g spell to memory.
+
+>rekn0g me
+
+ ** Run-time error: rekn0g_spell (object number 242)  has no property
+ magic to send message **
+
+>learn bismol
+ Using your best study habits, you commit the bismol spell to memory.
+
+>learn funyun
+ Using your best study habits, you commit the funyun spell to memory.
+
+>examine manual
+ "How To Summon Demons and Influence People" concerns itself primarily
+ with powerful and dangerous fiends like the iCthulu, summonable in
+ eight deadly colors. The spells of summoning have bizarre names like
+ "lexyacc" and "perlsed", and are very complicated, some requiring
+ material components. Only one spell near the beginning seems even
+ remotely comprehensible to you:
+
+ awkgrep spell: summon extremely minor demon.
+
+ [For help on casting spells, type HELP SPELLS.]
+
+>learn foobar
+ Using your best study habits, you commit the foobar spell to memory.
+
+>foobar frog
+ The plush frog suddenly looks edible. In fact, it looks downright
+ tasty.
+
+>eat frog
+ You eat the plush frog. Not bad.
+
+>undo
+ Warlock's Anteroom
+ [Previous turn undone.]
+
+>examine lore
+ It looks like a normal book, "Lup's Compendium of Tales Most Ancient".
+ Opening it up, however, reveals that the book is completely blank,
+ except for a few lines of verse in the middle of a page near the
+ beginning:
+
+ YE HUNTING HOUND AND YE SNAIL
+ List'n to ye Tragic Tale
+ Ye Hound of Cern imprisoned be
+ From now until ye End of Time
+ And naught but 'tis a flaming Snail
+ Will break his curse, and bring to thee
+ A refreshing Splash of Lemon-Lyme
+ Place Snail on Stone where Hound is kep't
+ And he for whome all Nature wep't
+ A Prisoner no more will rise:
+ REQUIRE, BEND, and CAUTERIZE
+
+>examine frog
+ A green and yellow plush copyright violation: a cartoon frog wearing a
+ top hat.
+
+>frog, dance
+ You can't talk to the plush frog.
+
+>examine wax
+ A blob of wax about six inches in diameter, the melted remains of the
+ snail candle. The wick is probably still in there somewhere.
+
+>examine cookies
+ It's a bag of Eldritch Farm cookies -- "Remember when the sun guttered
+ out and inky slithering blackness engulfed the earth? Eldritch Farm
+ remembers." The instructions on the bag indicate that the chocolatey
+ cookies may be eaten, or used as spell components when summoning
+ demons of unimaginable power. There are four cookies left.
+
+>inventory
+ You are carrying:
+   a plush frog
+   a Bracelet of Citrus Resistance (being worn)
+   a school-issue spellbook
+   a manual of demonology
+   a stuffed parrot
+   a Carelka quarter (providing light)
+   a shapeless blob of brown wax
+   a book of lore
+   a bag of Eldritch Farm cookies
+
+>examine parrot
+ This parrot looks real enough to have been alive at one point, but it
+ may simply be a well-crafted construction. In any event, it's not
+ alive right now. Lovely plumage, though; brilliant blues, greens, and
+ yellows. Now that you've separated it from its perch, it has no
+ particular orientation, and dangles upside-down from your hand. Its
+ glass eye stares at you balefully, blaming you for subjecting it to
+ the rigors of gravity.
+
+>examine lore
+ It looks like a normal book, "Lup's Compendium of Tales Most Ancient".
+ Opening it up, however, reveals that the book is completely blank,
+ except for a few lines of verse in the middle of a page near the
+ beginning:
+
+ YE HUNTING HOUND AND YE SNAIL
+ List'n to ye Tragic Tale
+ Ye Hound of Cern imprisoned be
+ From now until ye End of Time
+ And naught but 'tis a flaming Snail
+ Will break his curse, and bring to thee
+ A refreshing Splash of Lemon-Lyme
+ Place Snail on Stone where Hound is kep't
+ And he for whome all Nature wep't
+ A Prisoner no more will rise:
+ REQUIRE, BEND, and CAUTERIZE
+
+>require
+ That's not a verb I recognize.
+
+ Drawing its power from the Kinda-Sorta-Semi-Quasi-Para-Elemental Plane
+ of Citrus, this magical bracelet grants you immunity to all
+ citrus-based attacks. Its gemstones sparkle the color of lemons,
+ grapefruits, and oranges.
+
+>examine quarter
+ A quarter from the sprite nation of Carelka. It glows with a magical
+ light.
+
+>look
+
+ Warlock's Anteroom
+ The stone walls on either side of you reach high into the darkening
+ sky--the smell of fresh air is exhilarating after your travails within
+ the depths of the castle. This short hallway was once covered in lush
+ red carpet, but its exposure to the elements and its proximity to a
+ trigger-happy warlock have scorched and rotted it, exposing the
+ cobblestones beneath. Black mold grows on the few patches of carpeting
+ that remain. West is the large oaken door you so recently fled
+ through; east you can see into the the lighted study of the dread
+ warlock Do'papoc.
+
+>examine mold
+ The black mold is in an advanced state of growth.
+
+>examine carpet
+ The surviving bits of the red carpet are covered in mold.
+
+>examine cobblestones
+ The exposed cobblestones are smooth and worn by the passage of time.
+
+>smell
+ Fresh air with a hint of ozone. Damp mold and rotting wood, the kind
+ of smell found under logs.
+
+>examine logs
+ You can't see any such thing.
+
+>go east
+
+ Warlock's Study
+ The sumptuously decorated study of Do'papoc is decorated in
+ bookshelves, full of tomes radiating power. A large, bone-white candle
+ drips wax onto an oaken table, shedding light on a large, ancient
+ spellbook and a terribly inaccurate globe.
+
+ An aged man dressed in black robes sits at the table. Looking up from
+ his book, he chuckles, shaking his head.
+
+ "You poor, miserable fool!", he says. "If only you had found the
+ obnoxious parrot, preparing beforehand with the funyun, bismol, and
+ formic spells... then you may have stood a chance against me! But now,
+ the might of the brussel spell will turn you into 7,904 individually
+ wrapped jawbreakers!"
+
+ Before you can react, the warlock casts a spell at you! It tingles a
+ bit, but its most noticeable effect is its complete and utter failure
+ at turning you into so many as ten individually wrapped jawbreakers.
+
+ Do'papoc looks extremely embarrassed and hastily consults the online
+ documentation for the brussel spell. "Blast!", he spouts, tearing at
+ his beard. "The brussel spell is for ages 12 and up! Local Sorcerers
+ 503 was clever to send a mere child to do battle with me!" Reaching
+ for his spellbook, the warlock becomes calmer and more pensive. "No
+ matter," he muses with a snarl. "I'll simply make use of 'brussel
+ junior', the brussel spell for the younger set!"
+
+ Do'papoc turns to his book and begins furiously memorizing a spell!
+ You've only got one shot at this--whatever you do, it'd better be
+ good!
+
+>undo
+ Warlock's Anteroom
+ [Previous turn undone.]
+
+>learn formic
+ Using your best study habits, you commit the formic spell to memory.
+
+>spells
+ You have the formic spell, funyun spell and bismol spell memorized.
+
+>read book
+ Which do you mean, the school-issue spellbook, the manual of
+ demonology or the book of lore?
+
+>spellbook
+ This slight, spiral-bound tome has "Isqui's Spellbook" written on the
+ blue cover. It contains seven spells, laboriously copied from your
+ school textbook. Unfortunately, your school textbook, "Harry Potter
+ and the 2000 Middle School Magical Education Standards", tends to
+ focus less on the "cause mighty warlock to tremble in fear" type
+ spells and more on the "subject target to sharp kick in pants" type
+ spells. In fact, "subject target to sharp kick in pants" is probably
+ your best spell, apart from "open even locked or enchanted objects",
+ which you can't even memorize anymore, since you got strawberry jam
+ all over the runes.
+
+ Your spellbook contains the following spells:
+ funyun spell: cause spell caster to memorize wrong spell.
+ geordi spell: bring simulacrum of animal to life.
+ foobar spell: make the inedible edible.
+ rekn0g spell: Bj*e,ev%n.l/((-%d o(fen.na5t*d o2*l70.
+ bismol spell: subject target to sharp kick in pants.
+ formic spell: summon being's mother.
+ eldspa spell: sharpen pencil.
+
+ [For help on casting spells, type HELP SPELLS.]
+
+>learn geordi
+ Using your best study habits, you commit the geordi spell to memory.
+
+>learn rekn0g
+ Using your best study habits, you commit the rekn0g spell to memory.
+ You have so much buzzing around in your head, though, that it's likely
+ something may have been forgotten in the shuffle.
+
+>learn bismol
+ Using your best study habits, you commit the bismol spell to memory
+ once again. You have so much buzzing around in your head, though, that
+ it's likely something may have been forgotten in the shuffle.
+
+>spells
+ You have the bismol spell (twice), formic spell and funyun spell
+ memorized.
+
+>forget bismol
+ That's not a verb I recognize.
+
+>learn eldspa
+ Using your best study habits, you commit the eldspa spell to memory.
+ You have so much buzzing around in your head, though, that it's likely
+ something may have been forgotten in the shuffle.
+
+>spells
+ You have the eldspa spell, bismol spell, formic spell and funyun spell
+ memorized.
+
+>SAVE
+>cf9
+ Enter saved game to store: Ok.
+
+>learn geordi
+ Using your best study habits, you commit the geordi spell to memory.
+ You have so much buzzing around in your head, though, that it's likely
+ something may have been forgotten in the shuffle.
+
+>geordi parrot
+ The parrot suddenly comes alive in your hands! Squawking and swearing
+ in the gravelly tongue of the parrots, it wrests free from your grasp
+ and perches on your head.
+
+>examine parrot
+ While a humble simulacrum, the parrot was a genteel if unwieldy
+ companion. Your gift of life seems wasted on it, as the animate parrot
+ is smelly, raucous, prone to shed feathers, and fond of perching on
+ your head.
+
+>spells
+ You have the bismol spell, formic spell and funyun spell memorized.
+
+>formic parrot
+ You're the closest thing the parrot has to a mother, and you're
+ already here.
+
+>examine spellbook
+ This slight, spiral-bound tome has "Isqui's Spellbook" written on the
+ blue cover. It contains seven spells, laboriously copied from your
+ school textbook. Unfortunately, your school textbook, "Harry Potter
+ and the 2000 Middle School Magical Education Standards", tends to
+ focus less on the "cause mighty warlock to tremble in fear" type
+ spells and more on the "subject target to sharp kick in pants" type
+ spells. In fact, "subject target to sharp kick in pants" is probably
+ your best spell, apart from "open even locked or enchanted objects",
+ which you can't even memorize anymore, since you got strawberry jam
+ all over the runes.
+
+ Your spellbook contains the following spells:
+ funyun spell: cause spell caster to memorize wrong spell.
+ geordi spell: bring simulacrum of animal to life.
+ foobar spell: make the inedible edible.
+ rekn0g spell: Bj*e,ev%n.l/((-%d o(fen.na5t*d o2*l70.
+ bismol spell: subject target to sharp kick in pants.
+ formic spell: summon being's mother.
+ eldspa spell: sharpen pencil.
+
+ [For help on casting spells, type HELP SPELLS.]
+
+>awkgrep
+ That's not a verb I recognize.
+
+>learn awkgrep
+ Using your best study habits, you commit the awkgrep spell to memory.
+ The parrot squawks woodenly.
+
+>awkgrep
+ There is a puff of smoke, and Tim the demon appears next to your
+ shoulder. Noticing the parrot on your head, Tim buzzes frantically and
+ vanishes back into his native plane.
+ With a final screech, the obnoxious parrot reverts to its inanimate
+ form and plummets lifeless to the ground.
+
+>undo
+ Warlock's Anteroom
+ [Previous turn undone.]
+
+>wait
+ Time passes.
+ With a final screech, the obnoxious parrot reverts to its inanimate
+ form and plummets lifeless to the ground.
+
+>awkgrep
+ In a puff of smoke, Tim the demon appears next to your shoulder.
+ "Tim!", he says, indicating himself. He shows no sign of recognizing
+ you from previous summons, but begins buzzing around your head,
+ awaiting your instructions.
+
+>tim, hi
+ Bzzzz!
+
+>kiss tim
+ Kissing a demon is a federal offense.
+
+>eat tim
+ (first taking Tim the demon)
+ Tim buzzes out of your reach.
+
+ Tim whistles a demonic tune.
+
+>ask tim about magic
+ There is no reply.
+
+>ask tim about rekn0g
+ There is no reply.
+
+ Tim buzzes urgently.
+
+>tim, make me a sandwich
+ Bzzzz!
+
+ There is a pop, and Tim is gone from this plane.
+
+>ask tim about warlord
+ You can't see any such thing.
+
+>learn geordi
+ Using your best study habits, you commit the geordi spell to memory.
+
+>geordi parrot
+ The parrot suddenly comes alive! Squawking and swearing in the
+ gravelly tongue of the parrots, it flaps into the air and perches on
+ your head.
+
+>go east
+
+ Warlock's Study
+ The sumptuously decorated study of Do'papoc is decorated in
+ bookshelves, full of tomes radiating power. A large, bone-white candle
+ drips wax onto an oaken table, shedding light on a large, ancient
+ spellbook and a terribly inaccurate globe.
+
+ An aged man dressed in black robes sits at the table. Looking up from
+ his book, he chuckles, shaking his head.
+
+ "You poor, miserable fool!", he says. "If only you had found the
+ obnoxious parrot, preparing beforehand with the funyun, bismol, and
+ formic spells... then you may have stood a chance against me! But now,
+ the might of the brussel spell will turn you into 7,904 individually
+ wrapped jawbreakers!"
+
+ Before you can react, the warlock casts a spell at you! It tingles a
+ bit, but its most noticeable effect is its complete and utter failure
+ at turning you into so many as ten individually wrapped jawbreakers.
+
+ Do'papoc looks extremely embarrassed and hastily consults the online
+ documentation for the brussel spell. "Blast!", he spouts, tearing at
+ his beard. "The brussel spell is for ages 12 and up! Local Sorcerers
+ 503 was clever to send a mere child to do battle with me!" Reaching
+ for his spellbook, the warlock becomes calmer and more pensive. "No
+ matter," he muses with a snarl. "I'll simply make use of 'brussel
+ junior', the brussel spell for the younger set!"
+
+ Do'papoc turns to his book and begins furiously memorizing a spell!
+ You've only got one shot at this--whatever you do, it'd better be
+ good!
+
+>funyun dopapoc
+ You can't see any such thing.
+
+>funyun do'papoc
+ Do'papoc seems confused momentarily, and shakes his head as if to
+ clear his eyes, then goes back to his book and finishes the
+ preparations for his spell.
+
+ Do'papoc points at you and utters a word of power: "bokbar!"
+
+ Unsurprisingly, nothing happens. The bokbar spell is "turn human into
+ parrot", and since there is already a parrot in the vicinity, the
+ enchantment has no effect. (Wow, I guess those arbitrary, inconvenient
+ limitations on spells cut both ways!)
+
+ Do'papoc is not pleased, and, shamelessly disregarding the rules of
+ turn-based magical combat, casts another spell at you. Suddenly, a
+ sheepish-looking goblin carrying a dagger appears and cowers in the
+ corner. "Kill!", demands the warlock, pointing at you, and the
+ whimpering goblin begins a valiant attempt to approach you menacingly
+ without ever reducing the distance between you and him.
+
+>bismol goblin
+ The goblin squeals and leaps into the air, clutching his posterior.
+ Waving his knife, he flees through a side passageway into the depths
+ of the keep.
+ "Bah!", expectorates the warlock. "Enough of this! I will destroy you
+ and your pathetic but exceedingly well-chosen spells with one mighty
+ blow!"
+
+ Reaching into his pocket, Do'papoc tosses a handful of magical dust
+ into the air, speaking a summons of great power -- "borax!"
+
+ The dust explodes, filling the air with smoke, and from the billowing
+ black clouds emerges a bronzed warrior, clad in equally bronze mail
+ and carrying a decidedly steely bast--er, broadsword. He looks at you
+ with a smirk, and, nodding his head in acknowledgement of an unheard
+ order, begins to stride purposefully towards you.
+
+>formic warrior
+ That's not a verb I recognize.
+
+>formic warlock
+ That's not a verb I recognize.
+
+>learn formic
+ Using your best study habits, you commit the formic spell to memory.
+ The warrior bears down on you, raising his sword...
+
+
+     *** You have... wait a minute.  ***
+
+
+ **********************************************************************
+ **********
+
+ From beyond the valley of the dead, you hear a voice:
+
+ "It's a good thing your daughter was wearing that emergency bracelet.
+ Otherwise, who knows how I would have reached you."
+
+ You hear another voice, your mother's. "Is she okay?"
+
+ "She's right in here, ma'am."
+
+ You open your eyes.
+
+ Inside the Booth (on the canvas cot)
+ Inside, the small booth is a mess of blinking lights and
+ interconnected black boxes. There are no prizes here; only the noun
+ disambiguators, verb-to-action sequencers, and speech synthesizers
+ that help Lalrry make sense of the world.
+
+ Your parents are standing over you, looking down with expressions of
+ concern. They are greatly relieved to see your eyes open. Your father
+ stoops down and, in the absence of any objection from Lalrry, lifts
+ you up into a bear hug.
+
+ "How's it going, sporto?", he asks. "Okay," you reply, rubbing your
+ eyes. "I guess I just fainted."
+
+ "Well, all's well that ends well, I suppose," says your mother
+ stiffly. Come on, Isqui, let's take you home."
+
+     *** You have been reunited with your parents ***
+
+
+ In that game, you guessed 1 verb and completed 2 scenarios, in 95
+ moves.
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+ Warlock's Study
+ [Previous turn undone.]
+
+>undo
+ [Can't "undo" twice in succession. Sorry!]
+
+>/undo
+ Warlock's Study
+ [Previous turn undone.]
+
+>/undo
+ Warlock's Study
+ [Previous turn undone.]
+
+>/undo
+ Warlock's Study
+ [Previous turn undone.]
+
+>/undo
+ Warlock's Study
+ [Previous turn undone.]
+
+>/undo
+ Warlock's Study
+ [Previous turn undone.]
+
+>/undo
+ Warlock's Anteroom
+ [Previous turn undone.]
+
+>spells
+ You have the bismol spell and funyun spell memorized.
+
+>learn formic
+ Using your best study habits, you commit the formic spell to memory.
+
+>go east
+
+ Warlock's Study
+ The sumptuously decorated study of Do'papoc is decorated in
+ bookshelves, full of tomes radiating power. A large, bone-white candle
+ drips wax onto an oaken table, shedding light on a large, ancient
+ spellbook and a terribly inaccurate globe.
+
+ An aged man dressed in black robes sits at the table. Looking up from
+ his book, he chuckles, shaking his head.
+
+ "You poor, miserable fool!", he says. "If only you had found the
+ obnoxious parrot, preparing beforehand with the funyun, bismol, and
+ formic spells... then you may have stood a chance against me! But now,
+ the might of the brussel spell will turn you into 7,904 individually
+ wrapped jawbreakers!"
+
+ Before you can react, the warlock casts a spell at you! It tingles a
+ bit, but its most noticeable effect is its complete and utter failure
+ at turning you into so many as ten individually wrapped jawbreakers.
+
+ Do'papoc looks extremely embarrassed and hastily consults the online
+ documentation for the brussel spell. "Blast!", he spouts, tearing at
+ his beard. "The brussel spell is for ages 12 and up! Local Sorcerers
+ 503 was clever to send a mere child to do battle with me!" Reaching
+ for his spellbook, the warlock becomes calmer and more pensive. "No
+ matter," he muses with a snarl. "I'll simply make use of 'brussel
+ junior', the brussel spell for the younger set!"
+
+ Do'papoc turns to his book and begins furiously memorizing a spell!
+ You've only got one shot at this--whatever you do, it'd better be
+ good!
+
+>funyun do'papoc
+ Do'papoc seems confused momentarily, and shakes his head as if to
+ clear his eyes, then goes back to his book and finishes the
+ preparations for his spell.
+
+ Do'papoc points at you and utters a word of power: "bokbar!"
+
+ Unsurprisingly, nothing happens. The bokbar spell is "turn human into
+ parrot", and since there is already a parrot in the vicinity, the
+ enchantment has no effect. (Wow, I guess those arbitrary, inconvenient
+ limitations on spells cut both ways!)
+
+ Do'papoc is not pleased, and, shamelessly disregarding the rules of
+ turn-based magical combat, casts another spell at you. Suddenly, a
+ sheepish-looking goblin carrying a dagger appears and cowers in the
+ corner. "Kill!", demands the warlock, pointing at you, and the
+ whimpering goblin begins a valiant attempt to approach you menacingly
+ without ever reducing the distance between you and him.
+
+>bismol goblin
+ The goblin squeals and leaps into the air, clutching his posterior.
+ Waving his knife, he flees through a side passageway into the depths
+ of the keep.
+ "Bah!", expectorates the warlock. "Enough of this! I will destroy you
+ and your pathetic but exceedingly well-chosen spells with one mighty
+ blow!"
+
+ Reaching into his pocket, Do'papoc tosses a handful of magical dust
+ into the air, speaking a summons of great power -- "borax!"
+
+ The dust explodes, filling the air with smoke, and from the billowing
+ black clouds emerges a bronzed warrior, clad in equally bronze mail
+ and carrying a decidedly steely bast--er, broadsword. He looks at you
+ with a smirk, and, nodding his head in acknowledgement of an unheard
+ order, begins to stride purposefully towards you.
+
+>formic warrior
+ "Bernie Michael Angor!" A voice from behind the warrior causes him to
+ stop in his tracks. His hands drop to his sides, the weapon swinging
+ uselessly as he turns around, cringing.
+
+ "Look at you, young man!" The old woman, dressed in drab reds and
+ flamboyant necklaces, is not pleased. "Going out without a shirt! What
+ are you trying to do, die of cold? Maybe give your mother a heart
+ attack? What do you think you're doing with that sword? You're going
+ to kill someone with that thing, and what would your father think?
+
+ "And you, Mr. Warlock! Terrorizing the countryside! Killing off the
+ peasantry! Turning the land black with oppression and woe! What do you
+ hope to accomplish, huh? Didn't you ever have a mother to tell you
+ what's right and wrong?
+
+ The aged woman grabs Do'papoc and her son in an ear lock (she may be
+ short, but she's got long arms, and a strong grip), and begins to drag
+ them both, painfully, into the anteroom. Passing you, she turns and
+ addresses you.
+
+ "You hurry home, young lady. This is no place for someone like you."
+ She nods at you, and you fade away...
+
+
+ **********************************************************************
+ **********
+
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ labeled with a single word: DISEMBARK.
+
+ Lalrry briefly pulls you aside. "The crowned of have guessed at my,"
+ he says confidentially. "The Queen was quite on, although the of would
+ hear of but, rather, should say." You nod in what you hope looks like
+ agreement.
+
+>inventory
+ You are carrying:
+   a Canadian quarter
+   a spelling book
+   a plush frog
+   your identity bracelet (being worn)
+
+>examine canadian
+ A newly minted millennial Canadian quarter. You're not sure how you
+ ended up with it.
+
+ A sixth-grade spelling book, with lists of words and definitions.
+ Words that are spelled oddly--one or two per lesson--are for some
+ reason given the name of 'snurks'. You're not really sure how you
+ ended up with the book.
+
+ A green and yellow plush copyright violation: a cartoon frog wearing a
+ top hat.
+
+>spells
+ Huh?
+
+ Lalrry makes a long-winded, heartfelt speech which you can't
+ understand at all.
+
+>give quarter to lalrry
+ "I don't understand what you're trying to do," says Lalrry, rejecting
+ your offer.
+
+ "Fabulous, fabulous, fabulous!"
+
+>guess disembark
+ "Sorry," says Lalrry, "but I need a shiny from before can GUESS THE!"
+
+ Lalrry briefly pulls you aside. "The crowned of have guessed at my,"
+ he says confidentially. "The Queen was quite on, although the of would
+ hear of but, rather, should say." You nod in what you hope looks like
+ agreement.
+
+>se
+
+ Behind the Booths
+ You are in a shadowy alcove, surrounded by the canvas backs of several
+ carnival booths. The music and bustle of the midway seems very far
+ away, and a harvest moon illuminates the wet grass of the fairgrounds
+ and the makeshift walls that surround you.
+
+ The glinting tip of a small metal box peeks out from beneath the verb
+ guessing booth.
+
+>examine quarter
+ A newly minted millennial Canadian quarter. You're not sure how you
+ ended up with it.
+
+>turn on blue
+ That's already on.
+
+>turn off blue
+ As you flip the switch, the LED suddenly goes dark.
+
+>turn on orange
+ As you flip the switch, the LED suddenly lights up green.
+
+>go northeast
+
+ Verb Guessing Booth
+ The cramped, brightly-lit booth before which you stand is the field of
+ play for a carnival game with the improbable name of "Guess The Verb".
+ Lalrry, the jovial natural language parser inside the booth,
+ broadcasts a well-rehearsed patter promising great prizes and fun for
+ all ages; high adventure and unbridled kleptomania. The rest of the
+ carnival midway lies to the northeast, and you can scamper behind the
+ booth to the southeast.
+
+ A large wheel of fortune is attached to the booth behind the counter,
+ labeled with a single word: DISEMBARK.
+
+>give canadian to lalrry
+ Lalrry gladly takes the quarter from your outstretched palm. With the
+ flair of a showman, he tosses it into the air and catches it in his
+ shirt pocket. Stepping back, he indicates the wheel.
+
+ "Guess a verb, verb!", says Lalrry, indicating the wheel of fortune.
+
+>guess disembark
+ "Hey, guess! And so I spin the wheel..."
+
+ Lalrry gives the wheel a good push and it begins rapidly rotating,
+ spinning faster now, now slowly winding down until it...stops...on...
+
+                   DISEMBARK
+
+ "Hey, you win!" Lalrry seems genuinely excited as he hands you your
+ prize--a long rope of red licorice.
+
+ Lalrry shrugs and says "Guess that's! 'Ve got to get going now--no use
+ hanging around after all the are gone. Hope had."
+
+ Lallry begins slowly, methodically dismantling the empty wheel. You
+ stand and watch him for a while, an awkward figure working gracefully
+ in silence. Then you turn away and slowly walk into the humid night,,
+ clutching your prizes.
+
+     *** You have completed the game ***
+
+
+ In that game, you guessed 2 verbs and completed 3 scenarios, in 110
+ moves.
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do or QUIT?
+>undo
+ Verb Guessing Booth
+ [Previous turn undone.]
+
+>guess xyzzy
+ "Sorry, that's not on the wheel!"
+
+ "Guess a verb, verb!", says Lalrry, indicating the wheel of fortune.

@@ -1,0 +1,4163 @@
+<HTML>
+<HEAD>
+<TITLE>AllThingsJacq.com - Interactive Fiction | ClubFloyd - March 16, 2008 - Rameses, by Stephen Bond</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Author" CONTENT="Jacqueline A. Lott">
+<META NAME="Revisit after" CONTENT="30days">
+<META NAME="Robots" CONTENT="all">
+<META NAME="Distribution" CONTENT="Global">
+<META NAME="Keywords" CONTENT="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+<META NAME="Description" CONTENT="Internet site of Jacqueline A. Lott.">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE>
+<!--
+A:link {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:visited {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:hover {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:active {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+-->
+
+</STYLE>
+</HEAD>
+
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#6666CC" MARGINWIDTH=0 LEFTMARGIN=0 RIGHTMARGIN=0 MARGINHEIGHT=0 TOPMARGIN=0 onLoad="MM_preloadImages('graphics/writing2.jpg','graphics/intfic2.jpg','graphics/photos2.jpg','graphics/misc2.jpg')">
+<a name="top"></a><CENTER>
+<TABLE WIDTH="557" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="35">
+  <TR>
+	<TD>
+	  <CENTER>
+		  <BR>
+		  <A HREF="index.html"><IMG SRC="graphics/atj_logo.jpg" WIDTH="250" HEIGHT="170" BORDER="0"><BR>
+
+		  <IMG SRC="graphics/home.jpg" WIDTH="75" HEIGHT="25" BORDER="0"><BR>
+		  </A><BR>
+
+		  <A HREF="writing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writing','','graphics/writing2.jpg',1)"><IMG NAME="Writing" BORDER="0" SRC="graphics/writing1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="interactive_fiction.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Interactive Fiction','','graphics/intfic2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"><IMG NAME="Interactive Fiction" BORDER="0" SRC="graphics/intfic1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG NAME="Photography" BORDER="0" SRC="graphics/photos1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG NAME="Miscellany" BORDER="0" SRC="graphics/misc1.jpg" WIDTH="100" HEIGHT="140"></A></CENTER>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></BR></BR>ClubFloyd Transcript: <B><I>Rameses</I> by Stephen Bond</b></FONT><FONT FACE="arial, sans-serif, helvetica" SIZE="1"></BR>As played on ifMUD on March 16, 2008</FONT></P>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="2">
+The idea behind ClubFloyd is that each week at a pre-arranged time, a group of people meet online to cooperatively play a game of interactive fiction.</br></br>
+
+Below is a transcript of <i>Rameses</i>, written by Stephen&nbsp;Bond.  <i>Rameses</i> was originally released as part of the 2000 IF Competition, where it took thirteenth place.  It was also nominated for several Xyzzy Awards: Best Use of Medium, Best NPCs, Best Individual PC, Best Story, Best Writing, and Best Game.  It ultimately took home a Xyzzy for Best Individual PC.  You can learn more about the game, including how to download it, by visiting <A HREF="http://www.wurb.com/if/game/922"><u>Baf's Guide</u></A>.</br>
+
+</br><FONT FACE="arial, sans-serif, helvetica" SIZE="2" COLOR="#FF0000"><b>WARNING!</b></font><FONT FACE="arial, sans-serif, helvetica" SIZE="2"> Below you will find a transcript of people playing these games, and it goes without saying that the transcript is full of spoilers.  So, if you've never played these games, and think you might like to at some point, I do not recommend reading any further.  Instead, you might want to return to the <a href="interactive_fiction.html"><u>interactive fiction </u>p<u>a</u>g<u>e</u></a>.</BR></BR></BR></FONT></P></td></tr></table>
+
+<table>
+<tr><td></td><td colspan="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td></tr>
+<tr><td width="2%"></td><td width="60%"><center><B>ToyShop & Floyditorium</B></center></td><td width="2%"></td><td width="34%"><center><B>#ClubFloyd Discussion</B></center></td><td width="2%"></td></tr>
+<tr><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td></tr>
+<tr><td></td><td>&nbsp;</td><td></td><td></td></tr>
+<td></td></TR>
+
+<TR><td></td><TD><b>Playtime!</b>
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Toyshop</b> and Floyditorium
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Bulging</b> toychests make this a child's (or child-at-heart's) dream.  Play all day, play all night. A small booth has been erected and is staffed by a friendly robot. The sign over it says, "INFOKOM GAMEZ 5 cents".  A small notice on the door reads, "PLEASE RETURN TOYS TO THIS ROOM WHEN YOU'RE DONE WITH THEM."
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b></b>
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>You</b> can see: green button, banana machine, faucets, toy catalogue, a crystal ball, cuddly walrus, clicker, cloak, tic-tac-toe, thermometer, yellow button, waldo whisper object, checkers board, Werewolf rules, bunny burger, signaling device, Mike Tyson, IF Programmer Barbie, IF FLOYD'S DOWN, TELL JOTA -- OR ELSE HE WON'T KNOW, Gak, Autohugger, Photocopier, basketball, midterm monster, frobozz magic dispenser, fun shiny toy, madlibs, orange, jukebox, FREE DONUTS machine, long-stemmed red rose, dfan's quest, miniature ifMUD, Pun Police Whistle, orange door, monkey guru, mind chess, the 'hey there, playerfish!' cube, apple, a zorkmid, storyharp, ClubFloyd Suggestions, save button, specimen jar, soda reading 'Don't drink me!', Gene Ray, jellybean
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Players:</b> Waldo, Floyd, Jaybird, Fyrion, Jacqueline
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Visible</b> Exits: northeast (to the Lounge)
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">quit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Floyd</b> says (to Jacqueline), "Floyd isn't playing any game right now."
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">Ah, good.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Floyd</b> says (to Jacqueline), "Floyd doesn't know that trick."
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>yandexx</b> arrives, full of funk, but no fun.
+</TD><td></td><TD><b>Fang</b>  asks, "When's it happening tonight?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Eep.  I meant to holler at ten minutes."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "But now it's nine!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fyrion</b>  says, "Eight on my PC, but that's me."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> hollers, "ClubFloyd at the top of the hour!  (Eight minutes or so.)"
+</TD><td></td><TD><b>Jacqueline</b>  says, "Yeah, it just flipped on my clock, too."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fyrion</b>  says, "Eh, it happens."
+
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jota</b> arrives, full of neither funk nor fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Fang</b> arrives, full of fun, but no funk.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Bert</b> arrives, ready to play with the toys.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Nitku</b> arrives, full of fun, but no funk.
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><b>Jota</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>DavidW</b> arrives, full of funk, but no fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>DavidW</b> says, "Did we check that both games are on Floyd? I didn't."
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>AlexP</b> arrives, full of fun, but no funk.
+</TD><td></td><TD><b>DavidW</b>  says (to Jacqueline), "btw, It's good to have you back!"
+
+</TD><td></td></TR>
+<TR><td></td><TD><b>inky</b> arrives, full of fun and funk.
+</TD><td></td><TD><b>Fyrion</b>  exclaims, "It wouldn't be Club Floyd without you, Jacqueline!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Thanks, everyone."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Thanks especially to David for taking the helm while I was away for so long."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Okay... here we go..."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">load rameses</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Welcome to the Cheap Glk Implementation, library version 0.9.0.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | I am standing on the platform of a railway station - it's miserable,
+
+<b>Floyd</b> | it's damp, and all the seats are taken by stuck-up grannies and biddies
+<b>Floyd</b> | and ghastly yacht-clubbers. While waiting for the train, which is
+<b>Floyd</b> | taking ages, I peer over to the opposite platform, and notice a
+<b>Floyd</b> | familiar figure. I can't believe it! It's Daniel! After all these
+<b>Floyd</b> | years! But he hasn't noticed me yet. Barely able to conceal the joy in
+<b>Floyd</b> | my voice, I step over to the edge of the platform and shout "Daniel
+
+<b>Floyd</b> | Maguire! What the FUCK are you doing here?" And he notices me and
+<b>Floyd</b> | shouts "Alex Moran, would you ever shut the FUCK up, you cross-eyed
+<b>Floyd</b> | WANKER!" And I reply "Go FUCK yourself, ASSHOLE!" and he replies "Suck
+<b>Floyd</b> | me off, you BENT BASTARD!". And the two of us run up and down the
+<b>Floyd</b> | platforms, joyously shouting abuse at each other across three lines of
+<b>Floyd</b> | track. And all the stuck-up grannies and biddies and ghastly
+
+<b>Floyd</b> | yacht-clubbers waiting at the station stare at us as if we are mad. But
+<b>Floyd</b> | we carry on, running up and down, screaming profanities, and let the
+<b>Floyd</b> | rest of the world GO FUCK ITSELF!
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | RAMESES
+
+<b>Floyd</b> | A Tale of Heroes
+<b>Floyd</b> | Copyright (c) 2000 by Stephen Bond.
+<b>Floyd</b> | First time players should type ABOUT.
+<b>Floyd</b> | Release 1 / Serial number 000905 / Inform v6.21 Library 6/10
+<b>Floyd</b> |
+<b>Floyd</b> | Dormitory Room (on my bunkbed)
+
+<b>Floyd</b> | I wake up.
+<b>Floyd</b> |
+<b>Floyd</b> | With horror I realise that I'll have to spend another day in St. Enda's
+<b>Floyd</b> | college. A familiar fact I have to face each morning - but four years
+<b>Floyd</b> | here have not made it any easier to face. St. Enda's - how I have come
+<b>Floyd</b> | to despise this place. A decrepit old red-brick shagpile which has
+
+<b>Floyd</b> | become the focal point of this filthy little town in the arse-end of
+<b>Floyd</b> | nowhere. The cheapest boarding school in the country, probably, but
+<b>Floyd</b> | also surely the most pompous and inflated. A haven for the worst kind
+<b>Floyd</b> | of social climbers, parvenus, thick, ignorant farmers' sons...
+<b>Floyd</b> |
+<b>Floyd</b> | With horror I also realise that I am an asshole. Another familiar fact,
+
+<b>Floyd</b> | and the last seventeen years have given me little reason to doubt it. I
+<b>Floyd</b> | could happily pick apart my faults all day - I'm too short, too shy,
+<b>Floyd</b> | indecisive, and uncharismatic. And I've got terrible posture.
+<b>Floyd</b> |
+<b>Floyd</b> | The dormitory is a small, frequently claustrophobic room that somehow
+<b>Floyd</b> | fits four bunkbeds, which are stacked up on opposite walls. There is a
+
+<b>Floyd</b> | sink in one corner and an old wardrobe in another. The doorway leads
+<b>Floyd</b> | east. A solitary window allows a cold light into the room.
+<b>Floyd</b> |
+<b>Floyd</b> | On Wayne's bunkbed is Wayne.
+<b>Floyd</b> |
+<b>Floyd</b> | On Paddy's bunkbed is Paddy.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Wayne long ago abandoned any personality of his own to become a
+<b>Floyd</b> | miserable lapdog of Gordon, a sort of feeble court jester, constantly
+
+<b>Floyd</b> | making up jokes and thinking of new ways to entertain his master.
+<b>Floyd</b> | Gordon rewards this behaviour by ignoring Wayne anytime his rugby pals
+<b>Floyd</b> | are around. Wayne seems to accept this treatment, as if it were part of
+<b>Floyd</b> | the natural order of things, hoping that one day Gordon will accept him
+<b>Floyd</b> | into his clique on an equal footing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Wayne is an asshole, in other words.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I've played this one before, so I'll just watch."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x me</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I am Rameses Alexander Moran. With a name like this, you probably think
+<b>Floyd</b> | my parents have a sense of humour, but they don't. I'm too short, too
+<b>Floyd</b> | shy, indecisive, and uncharismatic. And I've got terrible posture.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x paddy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Paddy is fat, and has the timidity and docility of a young deer. A very
+<b>Floyd</b> | fat young deer, admittedly.
+<b>Floyd</b> |
+<b>Floyd</b> | He's also an asshole. Well, maybe that's a bit harsh - it's just that I
+
+<b>Floyd</b> | call everyone else an asshole, and if I didn't call Paddy an asshole,
+<b>Floyd</b> | you might think I liked him or something. Which I don't. You see, Paddy
+<b>Floyd</b> | is a terrible bore. He never says anything that hasn't been said about
+<b>Floyd</b> | ten times already by other people. His friends are all timid, boring,
+<b>Floyd</b> | fat people like him, and when they get together they talk in timid,
+<b>Floyd</b> | quiet, frightened voices about really boring things. Paddy and his
+
+<b>Floyd</b> | friends are harmless, really. They're just not the kind of people I
+<b>Floyd</b> | want to hang around with.
+<b>Floyd</b> |
+<b>Floyd</b> | At the moment, Paddy is asleep, snoring quietly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I am carrying nothing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to Floyd), "<font color="#89956F">look</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Dormitory Room (on my bunkbed)
+<b>Floyd</b> | The dormitory is a small, frequently claustrophobic room that somehow
+<b>Floyd</b> | fits four bunkbeds, which are stacked up on opposite walls. There is a
+
+<b>Floyd</b> | sink in one corner and an old wardrobe in another. The doorway leads
+<b>Floyd</b> | east. A solitary window allows a cold light into the room.
+<b>Floyd</b> |
+<b>Floyd</b> | On Wayne's bunkbed is Wayne.
+<b>Floyd</b> |
+<b>Floyd</b> | On Paddy's bunkbed is Paddy.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Gordon struts into the room, fresh and dripping from the shower. He is
+<b>Floyd</b> | wearing nothing apart from a towel which is wrapped loosely around his
+<b>Floyd</b> | waist. Very loosely around his waist. As he walks in, the towel falls
+<b>Floyd</b> | off. He tries to make out it was an accident, but it obviously wasn't.
+<b>Floyd</b> | He just did it so we could all admire the enormous size of his cock.
+
+<b>Floyd</b> |
+<b>Floyd</b> | It happens too often for it to have been an accident.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x cock</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (my dick)
+<b>Floyd</b> | It's still there.
+<b>Floyd</b> |
+<b>Floyd</b> | Gordon walks over to the sink. He pretends to root in his medicine bag
+<b>Floyd</b> | for something, but I can see he's really admiring himself in the
+<b>Floyd</b> | mirror. God, that bastard spends so much time looking at his own
+
+<b>Floyd</b> | reflection, admiring his face, and his chest, and his muscles, and his
+<b>Floyd</b> | dick.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x gordon</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Gordon is an asshole. He is without doubt the most vain, pompous,
+<b>Floyd</b> | self-obsessed asshole I have ever met. God, that guy is in love with
+<b>Floyd</b> | himself. He absolutely adores every inch of his own body. He has to
+<b>Floyd</b> | surround himself continually with an entourage of fawning admirers.
+<b>Floyd</b> |
+<b>Floyd</b> | And this year, he became a member of the St. Enda's under-18 rugby
+
+<b>Floyd</b> | team. So, if there was ever any doubt about it, he is now officially an
+<b>Floyd</b> | asshole.
+<b>Floyd</b> |
+<b>Floyd</b> | Gordon turns around and faces the room.
+<b>Floyd</b> | "Come on now lads, wake yourselves up, come on now," he says in a thick
+<b>Floyd</b> | country accent. He doesn't usually have a thick country accent. He's
+
+<b>Floyd</b> | just making fun of Declan the Seminarian. You'll meet Declan later.
+<b>Floyd</b> |
+<b>Floyd</b> | Gordon is greeted by groaning, some of it from me.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x sink</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The sink is where we spit all our slooshed-out toothpaste each morning.
+<b>Floyd</b> | It's covered in limescale, and the plumbing underneath is exposed. Both
+<b>Floyd</b> | hot and cold taps produce a weak, tepid stream of water, but at least
+<b>Floyd</b> | they don't drip all night. Above the sink is a mirror.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Ah, I see Mr Alex Moran is already awake," says Gordon in his normal
+<b>Floyd</b> | voice, which is deep and terribly pompous. "And what about Mr Wayne
+<b>Floyd</b> | Treacy?"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Jacqueline</b>  says, "This is so far reminding me a great deal of Catcher in the Rye."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x mirror</font>"
+</TD><td></td><TD><b>DavidW</b>  says (to Jacqueline), "I played that. It's not as good."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see myself in the mirror from my bed. I can, however, see a
+<b>Floyd</b> | most uninteresting part of the side wall.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "And what about Mr Wayne Treacy?" says Gordon again, raising his voice.
+<b>Floyd</b> |
+<b>Floyd</b> | Wayne stirs in his bed. "Fuck off, Gordon," he says, affectionately.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Fyrion</b>  asks, "There was an IF version?"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">get up</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | But I don't want to get out of bed. It's a cold day outside, and it's
+<b>Floyd</b> | nice and warm here.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "And finally to Mr Patrick Mulroney." Gordon really treats everyone
+<b>Floyd</b> | else like a moron. "Is he awake? No, still sleeping like a log."
+<b>Floyd</b> |
+<b>Floyd</b> | "Sleeping like a pig, more like," says Wayne. "And he was snoring like
+<b>Floyd</b> | a pig, too, fucking keeping me awake all night. Hey, Podge," he shouts,
+<b>Floyd</b> | hitting the bunk above him, "wake up, ya fat bastard."
+
+<b>Floyd</b> |
+<b>Floyd</b> | Paddy awakes with a startled whimper, and then begins stupidly blinking
+<b>Floyd</b> | his large, bovine eyes.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>DavidW</b>  says, "yes, but very very poorly done."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Huh.  I didn't realize there was one."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">sleep</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Tempting as it is, I really shouldn't go back to sleep. I might stay in
+<b>Floyd</b> | bed for a while though.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "You know, Podge, you really need to lose a bit of weight. I'm speaking
+<b>Floyd</b> | as a friend here, honestly," Wayne says with mock seriousness. "I'm
+<b>Floyd</b> | also speaking out of concern for my own safety. If you get any fatter,
+<b>Floyd</b> | the bunk won't be able to support your weight, and you'll fall down on
+<b>Floyd</b> | top of me. And I wouldn't like that to happen. And then you'd have
+
+<b>Floyd</b> | nowhere to sleep either, would ya?"
+<b>Floyd</b> |
+<b>Floyd</b> | "He'd have to sleep next to you then, Wayne," says Gordon. He is
+<b>Floyd</b> | smoothing shaving cream all over his face. He tends to spend way too
+<b>Floyd</b> | long doing this, caressing his sleek jawline again and again.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Emily</b> arrives, full of funk, but no fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Fyrion</b> waves to Emily.
+</TD><td></td><TD><b>Emily</b>  says, "I think it wasn't meant completely seriously"
+</TD><td></td></TR>
+
+<TR><td></td><TD>yandexx says (to floyd), "x bunks</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There are four bunkbeds in the room, two against each wall. My bunk is
+<b>Floyd</b> | under Gordon's on one side, and Wayne's bunk is under Paddy's on the
+<b>Floyd</b> | other.
+<b>Floyd</b> |
+<b>Floyd</b> | "Fuck off. I'm not a fucking queer. And I don't sleep with farmyard
+
+<b>Floyd</b> | animals like Podge here either."
+<b>Floyd</b> |
+<b>Floyd</b> | Wayne is making a reference to the fact that Paddy's parents are
+<b>Floyd</b> | farmers. Gordon's father, as my father made me find out, is a doctor. I
+<b>Floyd</b> | never found out what Wayne's parents did.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "you just have to do &gt;CATCH RYE"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">ask gordon about gordon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In this story, to talk to somebody, use 'talk to'.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Declan walks into the room. He is the seminarian who is supposed to
+<b>Floyd</b> | look after us. "Come on lads, wake yourselves up, come on now," he says
+<b>Floyd</b> | in a thick country accent.
+<b>Floyd</b> |
+<b>Floyd</b> | "You're too late, as usual," says Gordon, "We're already awake." He is
+
+<b>Floyd</b> | still bollock-naked. His dong is swinging like a pendulum.
+<b>Floyd</b> |
+<b>Floyd</b> | "I see," says Declan.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x declan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As well as being a boarding school, St. Enda's is a training college
+<b>Floyd</b> | for priests. Years ago, there were loads of seminarians in the college.
+<b>Floyd</b> | Now there are only two. The seminarians are supposed to look after the
+<b>Floyd</b> | boarders, which in reality amounts to waking us up in the morning and
+
+<b>Floyd</b> | putting out the lights at night.
+<b>Floyd</b> |
+<b>Floyd</b> | Declan the Seminarian is an asshole. He tries to be too friendly with
+<b>Floyd</b> | the boarders, and is unaware of how stupid we all think he is. "I'm on
+<b>Floyd</b> | your side," he says to us, "if you want anything sorted out, I'm your
+<b>Floyd</b> | man." He often goes round the back of the school to be with all the
+
+<b>Floyd</b> | smokers, and tries to talk with them about girls, sport, pop music -
+<b>Floyd</b> | subjects with which he is hopelessly out of touch. Everyone treats him
+<b>Floyd</b> | like shit.
+<b>Floyd</b> |
+<b>Floyd</b> | "I had to do your job for you again. You're pretty useless around here,
+<b>Floyd</b> | aren't you Declan."
+
+<b>Floyd</b> |
+<b>Floyd</b> | "I suppose I am," says Declan with a vapid smile.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I've never read the book, so it was difficult to know what to do. But the coding was really buggy."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to gordon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Gordon, why don't you do us all a favour and shut the fuck up?"
+<b>Floyd</b> | (2) "For fuck's sake Gordon I'm trying to get some sleep here!"
+
+<b>Floyd</b> | (3) "Hello everybody, look at me, I'm Gordon, I'm a big ponce!"
+<b>Floyd</b> | (4) "Ooooh, displaying your wares to Declan now are we? I bet he's
+<b>Floyd</b> | impressed!"
+<b>Floyd</b> | (5) "Wow, Gordon, you're so cool."
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">5</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | He probably wouldn't realise I was being sarcastic if I said that. He
+<b>Floyd</b> | has very little sense of irony.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "I was already awake, because fat-boy was snoring his arse off all
+<b>Floyd</b> | night," says Wayne.
+<b>Floyd</b> |
+<b>Floyd</b> | "Oh, that's terrible!" Declan doesn't even try to defend Paddy - he's
+<b>Floyd</b> | too anxious to be friends with everyone for that. "So how are you this
+<b>Floyd</b> | morning, Gordon? Still smoking away on the fags?" he says, remembering
+
+<b>Floyd</b> | that Gordon smokes.
+<b>Floyd</b> |
+<b>Floyd</b> | "Still smoking away," says Gordon.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Marvin</b>  says, "I've only read half the book, and I can't think how you'd make it into IF."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to declan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "You're going to let Wayne away with that? You pathetic asshole."
+
+<b>Floyd</b> | (2) "You're licking up to Gordon too? Oh give me a break."
+<b>Floyd</b> | (3) "Fuck off, Declan."
+<b>Floyd</b> | (4) "Declan, how are the first years coming along? Still 'malleable' at
+<b>Floyd</b> | that age, eh?"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+
+</PRE></td><td></td>
+<TD><b>Marvin</b>  says, "Unless you could use commands like &gt;WANDER AROUND ANY-GODDAMN-WHERE AND DO BASICALLY NO-GODDAMN-THING."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Isn't that disgraceful! How can he have any respect for himself after
+<b>Floyd</b> | letting Wayne get away with that? How can he expect us to have any
+
+<b>Floyd</b> | respect for him? He's just a morally spineless shit.
+<b>Floyd</b> |
+<b>Floyd</b> | I'm actually too livid to say anything.
+<b>Floyd</b> |
+<b>Floyd</b> | "And what are you smoking now?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Pure Columbian marijuana." Gordon is such a smug bastard. "No, only
+<b>Floyd</b> | joking. Actually, I've decided to give them up."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Marvin</b>  says, "Maybe I should try to finish it one day."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "There does not appear to be a great deal of interactivity in this game"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Fang), "There isn't."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Wait, so far we haven't said anything we wanted to say."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Jacqueline), "You've noticed."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh, what Fang said.  Timing."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to gordon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Gordon, why don't you do us all a favour and shut the fuck up?"
+
+<b>Floyd</b> | (2) "For fuck's sake Gordon I'm trying to get some sleep here!"
+<b>Floyd</b> | (3) "Hello everybody, look at me, I'm Gordon, I'm a big ponce!"
+<b>Floyd</b> | (4) "Ooooh, displaying your wares to Declan now are we? I bet he's
+<b>Floyd</b> | impressed!"
+<b>Floyd</b> | (5) "Wow, Gordon, you're so cool."
+<b>Floyd</b> | (6) "Oh hahaha Gordon, excuse my while I shit myself laughing."
+
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I think there's a response to ABOUT, but perhaps save it for later."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">6</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Can you really imagine me saying that? And the look on everyone's face
+<b>Floyd</b> | after I said it? No.
+<b>Floyd</b> |
+<b>Floyd</b> | "Oh, is that right? Well, if you've any old packets that you don't want
+<b>Floyd</b> | any more, you know who to give them to, ha ha..."
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Well, if you'd be willing to pay me..."
+<b>Floyd</b> |
+<b>Floyd</b> | Declan then goes into an exaggerated display of nervous laughter at
+<b>Floyd</b> | Gordon's feeble joke. When he is finished, he just stands there,
+<b>Floyd</b> | looking around the room with an idiotic grin.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Marvin</b> arrives, full of neither funk nor fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>yandexx</b> says, "yea..."
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">feel repressed</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "xyzzy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A hollow voice rings out - no wait, that's probably Gordon.
+
+<b>Floyd</b> |
+<b>Floyd</b> | There is an awkward silence for a few moments. The only sound is the
+<b>Floyd</b> | scraping of Gordon's razor.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "talk to declan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "You're licking up to Gordon too? Oh give me a break."
+<b>Floyd</b> | (2) "Fuck off, Declan."
+<b>Floyd</b> | (3) "Declan, how are the first years coming along? Still 'malleable' at
+
+<b>Floyd</b> | that age, eh?"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I mean, the writing is good, for values of good that equal 'knowing how horrible school boys can be to one another and portraying that in a realistic way'"
+</TD><td></td></TR>
+<TR><td></td><TD>Marvin says (to Floyd), "<font color="#89956F">2</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | I'd love to say that, but I'd probably get expelled.
+<b>Floyd</b> |
+<b>Floyd</b> | "Well.... I better be off, then," says Declan.
+<b>Floyd</b> |
+<b>Floyd</b> | "See ya..." says Gordon. "What a tosser," he says after Declan has
+
+<b>Floyd</b> | gone.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I guess I do see why maga likes this game and recommends it.  It does feel like it could be more interactive, but then, the character has decent, believable reasons for not saying the things we're suggesting he say."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x wardrobe</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The wardrobe is old and dishevelled, and looks like it only stays
+<b>Floyd</b> | together because it's leaning against the wall. It's where everybody
+<b>Floyd</b> | keeps their clothes, medicines, toothbrushes, aftershave etc. I'm a bit
+<b>Floyd</b> | touchy about keeping all my stuff with everyone else's, but there
+<b>Floyd</b> | really isn't anywhere else to put things.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Wayne gets up. He is evidently bored with teasing Paddy, so he turns to
+<b>Floyd</b> | Gordon.
+<b>Floyd</b> |
+<b>Floyd</b> | "All set for tonight then, Gordo?" he asks. Gordo. That really pisses
+<b>Floyd</b> | me off.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Yup," says Gordon.
+<b>Floyd</b> |
+<b>Floyd</b> | 'Tonight' - why does that word suddenly make me feel uneasy?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Fang</b>  says, "But well, it's the author's fault for providing us with such options"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "What's happening tonight then?"
+
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Before I can ask it, Wayne answers the question:
+
+<b>Floyd</b> |
+<b>Floyd</b> | "We're off down the Junction with the lads to pick up a few slappers,"
+<b>Floyd</b> | says Wayne. Presumably he's talking to me. "Then, it's back to Baz's
+<b>Floyd</b> | place for the night. He's got three crates in, and we are going to get
+<b>Floyd</b> | pissed out of our skulls."
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>AlexP</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><TD><b>Jacqueline</b>  says, "Wow, that sounds wonderful."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "hm. 'slappers' means...?"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "British for sluts, according to maga."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "talk to wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Are you talking to me?"
+<b>Floyd</b> | (2) "And why should I care about any of this?"
+
+<b>Floyd</b> | (3) "Where's the Junction?"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "oh."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Though less strong than slut, I guess."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | I always hear Wayne and Gordon and assorted other losers talking about
+<b>Floyd</b> | the Junction and I've always wanted to know where it is. I've come to
+<b>Floyd</b> | associate its name with drinking.. loud music... horrible girls... all
+
+<b>Floyd</b> | that sordid side of adolescence. Anyway, what about tonight? What am I
+<b>Floyd</b> | trying to remember?
+<b>Floyd</b> |
+<b>Floyd</b> | "Three crates?" says Gordon. "I must admit I'm tempted..."
+<b>Floyd</b> |
+<b>Floyd</b> | "You mean you're not coming?" cries Wayne in distress.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "'Women of no class.'"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "'With a connotation of silliness.'"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emily</b>  asks, "bimbo?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "less? seems like 'slapper' is called thus due to a sexual connotation"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Gives a new meaning to 'slapdash'."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Alex</b>  says (to olethros), "Awwwk! Word on the street is that less is [&nbsp;<A HREF="http://www.randomhouse.com/wotd/index.pperl?date=19970221">LINK</A>&nbsp;] So deal with it."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "It is nice to have a walking British slang dictionary in my home."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "c.f. 'fap fap fap'"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fyrion</b>  says, "LOL"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to olethros), "Thank you, Mike's Left Hand."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>olethros</b>  says, "hey, SL was great"
+</TD><td></td></TR>
+
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Aw Wayne, you poor thing. Your hero deserting you, is he?"
+<b>Floyd</b> | (2) "Well that's what happens when you count on Gordon."
+<b>Floyd</b> |
+
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I have a feeling we will say NEITHER of these things."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Yeah - poor Wayne. But tonight... what's happening tonight?
+
+<b>Floyd</b> |
+<b>Floyd</b> | "No, I'm afraid not," says Gordon. "I have got to meet a girl tonight.
+<b>Floyd</b> | "
+<b>Floyd</b> |
+<b>Floyd</b> | "Well... can't you bring her as well?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | Tonight... I'm sure there's something I'm supposed to remember.. about
+<b>Floyd</b> | tonight...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">remember</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Well, there's our problem, then."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Aw Wayne, you poor thing. Your hero deserting you, is he?"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Haha! I'm delighted for the wanker. But tonight...
+<b>Floyd</b> |
+<b>Floyd</b> | "No. The sort of women I associate with are far too sophisticated for
+
+<b>Floyd</b> | that sort of thing."
+<b>Floyd</b> |
+<b>Floyd</b> | "Why, what is she - a fucking princess?" Wayne is so upset that he
+<b>Floyd</b> | risks insulting his idol.
+<b>Floyd</b> |
+<b>Floyd</b> | "No. She's Peter Bates's sister." One of Gordon's rugby pals. "She's
+
+<b>Floyd</b> | rich, she's gorgeous, and she's got a pair of tits that could knock out
+<b>Floyd</b> | your eyeballs at fifty paces. And tonight, she's all mine."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  asks, "Sigh, can we actually say a word?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x my mouth</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "there's your problem"
+
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "scream</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "shout</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to shout?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Fang), "Well, we don't have prehensile eyestalks."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">touch mouth</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to paddy</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Are you okay now, Paddy?"
+<b>Floyd</b> | (2) "Stopped crying there, fat-boy?"
+<b>Floyd</b> | (3) "Hey Paddy, why don't we leave these two love-birds here and go
+<b>Floyd</b> | take a shower, eh?"
+
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">mmmfh mfffh mmmgh</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "3SD."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | I'm not saying that. That would be just plain weird.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Where are you going with her?" asks Wayne. He seems to have calmed
+<b>Floyd</b> | down a bit by now.
+<b>Floyd</b> |
+<b>Floyd</b> | "First, we're going to the Vegas Club. She's eighteen so she can get me
+<b>Floyd</b> | in. Then, well, she's got a free house tonight, so, you never know, we
+<b>Floyd</b> | could be going back there for a bit of... ahem..."
+
+<b>Floyd</b> |
+<b>Floyd</b> | Then fuck! It all comes back to me. Tonight. Ferdia. The 'girls'.
+<b>Floyd</b> | Ferdia. Fucking Ferdia. Why did I agree to all this? Why did I agree to
+<b>Floyd</b> | going out tonight?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "yeah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "haha"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Taleslinger</b> arrives, full of neither funk nor fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x window</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The large sash window looks out at a rusty drainpipe on the back of
+
+<b>Floyd</b> | some other building in the college. Over the years I have built up an
+<b>Floyd</b> | intense hatred of this grimy, ugly drainpipe. Why do I have to look at
+<b>Floyd</b> | this thing every day? Why can't I look out at some sun-drenched green
+<b>Floyd</b> | fields, or a mountain range, or the sea? Why this pointless fucking
+<b>Floyd</b> | drainpipe?
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Will you listen to the stud of St. Enda's?" says Wayne.
+<b>Floyd</b> |
+<b>Floyd</b> | "Well, it just comes so naturally to me, you know...?" swaggers Gordon.
+<b>Floyd</b> |
+<b>Floyd</b> | I'll be going out tonight! Out on the town! Drinking, dancing...
+<b>Floyd</b> | Girls... God knows what. Fucking hell. Fuck! I don't think I can face
+
+<b>Floyd</b> | it, but I can't turn back, either. FUCK!!!
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Well, since we can't remember, I guess we just try to do something it won't let us do and then the character will naturally tell us about Ferdia..."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x bed</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which do you mean, my bunkbed, Gordon's bunkbed, Wayne's bunkbed or
+<b>Floyd</b> | Paddy's bunkbed?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">my bunkbed</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | My bunkbed is the one place in St. Enda's that I like. Sure, it's not
+<b>Floyd</b> | the last word in luxury - a basic steel frame, a noisy-springed
+<b>Floyd</b> | mattress - and also it has the misfortune of being under Gordon's bed -
+<b>Floyd</b> | but at least it's warm and kept fairly clean. And it's fair to say that
+<b>Floyd</b> | all the good times I've had in St. Enda's have been in this bed -
+<b>Floyd</b> | dreaming my romantic dreams about love, adventure, having friends...
+
+<b>Floyd</b> |
+<b>Floyd</b> | "Just think about it," says Wayne, "I'll be getting pissed tonight,
+<b>Floyd</b> | Gordon'll be getting laid, and the two lads will be in here, studying
+<b>Floyd</b> | away, having a really quiet time..."
+<b>Floyd</b> |
+<b>Floyd</b> | FUCK!! FUCK!! FUCK!!
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "Wow, first person."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Yes.  The first person bit is done quite well, actually."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+
+</TD><td></td><TD><b>yandexx</b>  exclaims, "I didn't even notice that!"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "I'm going out tonight as well!"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | "I'm going out tonight as well!"
+<b>Floyd</b> |
+
+<b>Floyd</b> | I said that! That just blurted out of me!
+<b>Floyd</b> |
+<b>Floyd</b> | "Really?" says Wayne. "Who's the lucky fella?"
+<b>Floyd</b> |
+<b>Floyd</b> | "It's a girl actually, Wayne. We're not all like you." Pretty
+<b>Floyd</b> | bog-standard banter, I know.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "What's her name?" asks Gordon. "I might know her." He's putting his
+<b>Floyd</b> | clothes on now, thank God.
+<b>Floyd</b> |
+<b>Floyd</b> | "There can't be a girl in the town that our Gordo doesn't know - by now
+<b>Floyd</b> | anyway!" chimes Wayne. Ugh.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "I don't know her name yet. Ferdia knows her." Ferdia is my 'best
+<b>Floyd</b> | friend'. You'll meet him soon. "Ferdia is coming as well, with another
+<b>Floyd</b> | girl he knows." This is all true, but I don't think I'm sounding very
+<b>Floyd</b> | convincing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Are you sure Ferdia is telling the truth about these girls?" says
+<b>Floyd</b> | Wayne. "I think it's all part of his secret plan to get you on your own
+<b>Floyd</b> | and have his way with you..."
+<b>Floyd</b> |
+<b>Floyd</b> | "Where are you going with them?" says Gordon, ignoring him.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "I don't know that yet either. I'm meeting Ferdia in the dining hall
+<b>Floyd</b> | this morning..."
+<b>Floyd</b> |
+<b>Floyd</b> | "I dunno, it all sounds very dodgy to me," says Wayne. "But you never
+<b>Floyd</b> | know. Hah - would ya believe it? Alex is going out with a girl. What
+<b>Floyd</b> | next? Pigs might fly. Fat-boy might fly! Come on, Podge, flap your
+
+<b>Floyd</b> | wings! Flap your flabby wings, fat-boy!"
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  applauds us for actually speaking!
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "Oh dear god, we spoke"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">0</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">press any key</font>"
+</TD><td></td><TD><b>Jacqueline</b>  asks (of Fang), "Why?  You're sorry we spoke?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "er"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>yandexx</b>  asks, "Now what?"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+</TD><td></td><TD><b>Jacqueline</b>  says, "Oh, I see.  We've crashed."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), """</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Bert</b> pushes the green 'space' button.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | And so on. But I can't listen to them anymore. All I can think about is
+<b>Floyd</b> | tonight. I'm a bit nervous about meeting these girls. I know I'm
+<b>Floyd</b> | seventeen and all, but, to tell the truth, I haven't ever been out with
+<b>Floyd</b> | a girl before. I haven't even spoken to a girl for so long. What will I
+
+<b>Floyd</b> | say? What will I do? I know I'm going to make an absolute asshole of
+<b>Floyd</b> | myself.
+<b>Floyd</b> |
+<b>Floyd</b> | Girls frighten the shit out of me, to be honest.
+<b>Floyd</b> |
+<b>Floyd</b> | I remember when I was fourteen, when we all went back to school after
+
+<b>Floyd</b> | the summer holidays, and everyone was suddenly talking about girls. And
+<b>Floyd</b> | not in the way we'd usually snigger - everyone was now talking about
+<b>Floyd</b> | them in a serious way. Girls they kissed, girls they fancied, meeting
+<b>Floyd</b> | girls in discos. And I remember feeling bewildered, nauseated - I
+<b>Floyd</b> | really didn't want any of this to be happening. It's not that I was
+<b>Floyd</b> | jealous of anyone - I wasn't - I just didn't even want them to be
+
+<b>Floyd</b> | interested in that sort of thing.
+<b>Floyd</b> |
+<b>Floyd</b> | It was like being suddenly thrust into an uncertain, dangerous world -
+<b>Floyd</b> | a world of aftershave, hairiness and croaking voices, a world of
+<b>Floyd</b> | constant worrying, a world of acne, Adidas and Calvin Klein. And I
+<b>Floyd</b> | didn't want any of it. I wanted to be twelve again, when I was innocent
+
+<b>Floyd</b> | and free, and happy. I wanted to be twelve again and be with Daniel,
+<b>Floyd</b> | and we'd roam through forests and climb rocks and explore the
+<b>Floyd</b> | countryside, and everything would be full of mystery and magic. And
+<b>Floyd</b> | we'd sneak into a hay-barn and tell each other stories and he'd teach
+<b>Floyd</b> | me bad language. And we'd shout out swear-words at the top of our
+<b>Floyd</b> | voices, where no-one would hear us. "Go fuck yourself, asshole!" he'd
+
+<b>Floyd</b> | say, and I'd say "Fuck you, you bent bastard!" and we'd go on like
+<b>Floyd</b> | that, shouting for ages, and we could say anything we wanted, and do
+<b>Floyd</b> | anything we wanted, and we didn't worry about a single thing in the
+<b>Floyd</b> | whole fucking world.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "He's still online, though."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh - I missed that we were supposed to press a key."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | I go down to the dining hall for breakfast, and sit at a table on my
+<b>Floyd</b> | own.
+<b>Floyd</b> |
+<b>Floyd</b> | Dining Hall (on the chair)
+<b>Floyd</b> | The dining hall is in one of the newer buildings of St. Enda's College.
+<b>Floyd</b> | It's a functional, spartan room, full of windows which make it appear
+
+<b>Floyd</b> | larger than it really is. The whole place seems to have a permanent
+<b>Floyd</b> | smell of mashed potato. The rows of tables and chairs are always
+<b>Floyd</b> | half-empty at this time in the morning.
+<b>Floyd</b> |
+<b>Floyd</b> | On the table is my breakfast.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says (to Jacq), "I was curious about whether we can say nothing"
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x breakfast</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | St. Enda's has little to offer in the way of breakfasts. We have a
+<b>Floyd</b> | choice of either soggy cornflakes, soggy muesli or soggy toast. I chose
+
+<b>Floyd</b> | the soggy toast. I also have some orange juice.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">taste juice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I take a sip. It's not nice.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Ah.  Good point."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x toast</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Two limp slices of underdone toast, smeared in some oily slop that
+
+<b>Floyd</b> | passes for butter. They don't offer us real butter at St. Enda's - only
+<b>Floyd</b> | some crappy butter-substitute that disintegrates into its constituent
+<b>Floyd</b> | ingredients (one of which appears to be crude petroleum) as soon as you
+<b>Floyd</b> | spread it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "He might have blurted it out even if we'd typed 0."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "smell</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I smell nothing unexpected.
+<b>Floyd</b> |
+<b>Floyd</b> | Where is Ferdia?
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">eat toast</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I nibble at the toast a bit. I'm not a great breakfast-eater at the
+<b>Floyd</b> | best of times, but this morning especially I don't feel like eating.
+
+<b>Floyd</b> | I'm too nervous about tonight.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "think</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I'm thinking!
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">think about daniel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I'm thinking!
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">drink</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to drink?
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">coffee</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">drink tea</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>DavidW</b>  says, "sorry. Couldn't resist."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">drink juice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I take a sip. It's not nice.
+<b>Floyd</b> |
+<b>Floyd</b> | Ferdia comes into the dining hall and rushes over to my table. He
+
+<b>Floyd</b> | begins to speak before he sits down. He always speaks at a million
+<b>Floyd</b> | miles an hour.
+<b>Floyd</b> |
+<b>Floyd</b> | "Alex! Alex! I've got tonight's meeting arrangements all sorted out. I
+<b>Floyd</b> | was on the phone to Alice - Alice, that's one of the girls who's coming
+<b>Floyd</b> | - and I told her about it. Anyway, I suggested that we meet in PJ's
+
+<b>Floyd</b> | cafe at half five. Do you know where PJ's is?"
+<b>Floyd</b> |
+<b>Floyd</b> | Of course I know where PJ's is. He always assumes I know nothing about
+<b>Floyd</b> | town. Ferdia isn't a boarder by the way. That's why he couldn't tell me
+<b>Floyd</b> | all this last night.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Ah.  I'd missed the orange juice.  Was just tring to figure out if we had something to wash down our soggy toast."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Ferdia McMahone is my 'best friend'. I put that in inverted commas,
+<b>Floyd</b> | because he's really an asshole. I hate him I hate him I hate him I hate
+
+<b>Floyd</b> | him I hate him.
+<b>Floyd</b> |
+<b>Floyd</b> | Sometimes I am surprised by the ferocity of my hatred for Ferdia. At
+<b>Floyd</b> | times I am liable to blame him for all my troubles, for anything and
+<b>Floyd</b> | everything that is going wrong in my life. What is it about Ferdia that
+<b>Floyd</b> | provokes such a reaction in me? I often think about this, for on the
+
+<b>Floyd</b> | surface he can appear to be quite friendly. But underneath this
+<b>Floyd</b> | friendliness is something more sinister. Ferdia is constantly seeking
+<b>Floyd</b> | attention - demanding attention. With every word, every gesture, Ferdia
+<b>Floyd</b> | screams "Look at me! Look at how great I am! Look at me!"
+<b>Floyd</b> |
+<b>Floyd</b> | And whenever we speak, it's as if Ferdia is demanding that I
+
+<b>Floyd</b> | acknowledge all his perfections and concede his superiority in all
+<b>Floyd</b> | things. So most of the time he feels less like a friend and more like a
+<b>Floyd</b> | leech, drawing all of my attention, sucking away at my self esteem.
+<b>Floyd</b> |
+<b>Floyd</b> | But I'm starting to rant - so let's just listen to him:
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Okay then," he continues, "Well, we're meeting at half five. Alice is
+<b>Floyd</b> | coming along, and she's bringing her friend, who's called Claire. Alice
+<b>Floyd</b> | is tall and has blonde hair; I think Claire has brown hair." Ferdia is
+<b>Floyd</b> | the kind of guy that uses semicolons in his speech. "Don't get them
+<b>Floyd</b> | mixed up."
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "talk to ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Don't worry, I won't."
+
+<b>Floyd</b> | (2) "Er... which one is the blonde again?"
+<b>Floyd</b> | (3) "How did you meet all these girls anyway?"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "haha - 'the kind of guy that uses semicolons in his speech.'"
+
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "How did you meet all these girls, anyway?"
+<b>Floyd</b> |
+<b>Floyd</b> | "Oh, Alice is just a friend. I have more friends than just you, you
+<b>Floyd</b> | know."
+
+<b>Floyd</b> |
+<b>Floyd</b> | "Anyway, I have something important to tell you," Ferdia goes on. "I
+<b>Floyd</b> | could be late for our meeting. I may not even get there til six."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>DavidW</b>  says, "ooh, more talking"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "eep"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+
+<b>Floyd</b> | (1) "What? But didn't you arrange the time yourself?"
+<b>Floyd</b> | (2) "Oh for fuck's sake Ferdia..."
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">1</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "What? But didn't you arrange the time yourself?"
+<b>Floyd</b> |
+<b>Floyd</b> | "But I forgot about my science project," says Ferdia.
+<b>Floyd</b> |
+<b>Floyd</b> | "You see, I absolutely have to get some work done on my science project
+
+<b>Floyd</b> | after school. I'm way behind schedule at the moment. It's really
+<b>Floyd</b> | getting seriously out of hand. I have so much work to do at the moment
+<b>Floyd</b> | that I don't know where to begin. Do you realise how little time I have
+<b>Floyd</b> | left to finish it?"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "You've got five fucking weeks left to finish it!"
+<b>Floyd</b> | (2) "No, please tell me loads more about your project."
+
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "You've got five fucking weeks left to finish it!"
+
+<b>Floyd</b> |
+<b>Floyd</b> | He does too. Ferdia is talking about his entry in a local project
+<b>Floyd</b> | competition. He has somehow come under the impression that I'm
+<b>Floyd</b> | tremendously interested in it, and tells me about it all the time. It's
+<b>Floyd</b> | titled "The effects of interactive video entertainment on human
+<b>Floyd</b> | concentration and response." As far as I can see, it just involves
+
+<b>Floyd</b> | playing computer games for hours.
+<b>Floyd</b> |
+<b>Floyd</b> | "But five weeks is a such a short time for a project of this scale!"
+<b>Floyd</b> | says Ferdia.
+<b>Floyd</b> |
+<b>Floyd</b> | "If I don't get something done this weekend I may have to give it up,
+
+<b>Floyd</b> | and that would be a pity. It would be a tragedy, after all the work
+<b>Floyd</b> | I've put into it. And I still have so many reports to write, and so
+<b>Floyd</b> | much research left to do..."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>yandexx</b>  says, "we even swear out loud"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "We must have broken the game"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "But why didn't you think about that when you set the time
+<b>Floyd</b> | yesterday?"
+<b>Floyd</b> | (2) "Yeah... fucking catastrophic."
+<b>Floyd</b> | (3) "Oh... that sounds like a lot of work alright.."
+<b>Floyd</b> |
+
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "But why didn't you think about that when you set the time yesterday?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | "I'm under so much pressure now! Sometimes I don't know how I find any
+<b>Floyd</b> | time for myself at all. As well as my project, I've got my normal
+<b>Floyd</b> | homework to do, and then there's all the work I do in the community
+<b>Floyd</b> | centre at weekends. It's not easy, you know! I'd like to see you trying
+<b>Floyd</b> | to cope with my workload!"
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "Is this a new game="
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  asks, "?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "no"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "No, we had a scene change."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "it's from the 2000 comp"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "This is pre-photopia, I think"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  asks, "or not?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh, you mean is it a recent game.  I thought you were asking if we'd changed games, sorry."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "(that was the 1998 comp)"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "How do you do it, Ferdia?"
+
+<b>Floyd</b> | (2) "I'm sorry, I know you're very busy..."
+<b>Floyd</b> | (3) "Hey, stop whinging! You're not the only one with work to do around
+<b>Floyd</b> | here!"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "I'm sorry, I know you're very busy..."
+<b>Floyd</b> |
+<b>Floyd</b> | This kind of bullshit is typical of Ferdia. With him, every minor
+
+<b>Floyd</b> | inconvenience is blown into a crisis of collosal proportions. Ferdia
+<b>Floyd</b> | sees himself there, in the thick of things, making heroic decisions
+<b>Floyd</b> | under enormous pressure.
+<b>Floyd</b> |
+<b>Floyd</b> | "Well as long as you know."
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Anyway," says Ferdia, "I might get there at half five. I'll try to
+<b>Floyd</b> | finish up with the project at five. I'm not saying I will, but I'll
+<b>Floyd</b> | try. Then, let's see, it might take me ten minutes to get home, get
+<b>Floyd</b> | changed..."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "This is deeply suspicious"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "How so?"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+
+<b>Floyd</b> | (1) "Oh, you can spare us the details..."
+<b>Floyd</b> | (2) "So what are we doing when we meet up, anyway?"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "that Ferdia would leave us for the chicks for extra time"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "before he arrives"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "So what are we doing when we meet up, anyway?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Oh, you'll see, I have it all planned..." says Ferdia with a kind of
+<b>Floyd</b> | grin. Then he changes the subject.
+<b>Floyd</b> |
+<b>Floyd</b> | "Did you do your English last night?" says Ferdia. "Oh, I have to tell
+<b>Floyd</b> | you about my new theory on A Clockwork Orange. My theory is that
+<b>Floyd</b> | Anthony Burgess is telling us about the importance of free will."
+
+<b>Floyd</b> |
+<b>Floyd</b> | No shit, Ferdia. Doesn't he stop to preach about it in every fucking
+<b>Floyd</b> | chapter?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Jacqueline</b>  says, "You mean, there are no chicks."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "talk to ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Amazing insight there, Ferdia..."
+<b>Floyd</b> | (2) "Well, I said something a bit different in my essay - "
+
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "Or worse"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | "Well, I said something a bit different in my essay - "
+<b>Floyd</b> |
+<b>Floyd</b> | "I haven't finished explaining my theory yet," says Ferdia.
+<b>Floyd</b> |
+<b>Floyd</b> | Asshole.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Even though the droogs did lots of bad things, what's important is
+<b>Floyd</b> | that they had the choice to rape, the choice to be thugs, the choice to
+<b>Floyd</b> | kill. And every human being needs this choice - it's what makes us
+<b>Floyd</b> | human. If you take away this choice from people, you take away their
+<b>Floyd</b> | soul. It's like trying to impose some kind of mechanical order on a
+<b>Floyd</b> | living organism. That's what the title is about: it's like making an
+
+<b>Floyd</b> | orange run on clockwork."
+<b>Floyd</b> |
+<b>Floyd</b> | Oh Jesus.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Jacqueline</b>  says, "It's a set up.  He's going to be there with Gordon and Wayne, watching from a dark corner of PJ's.  Laughing at our protagonist."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "wait. 'CHOICES'"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "Maybe Ferdia is an author surrogate"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Marvin</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><TD><b>DavidW</b>  says, "'if you take away this choice from people....'"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Amazing insight there, Ferdia..."
+<b>Floyd</b> |
+
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">0</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | I decide not to say anything.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "You see, Alex, free will is central to us. It's the very thing that
+<b>Floyd</b> | makes us human. And because we are human, we will do everything to
+<b>Floyd</b> | preserve our free will. We act with our free will at all times, and we
+<b>Floyd</b> | do anything we want. I could run naked around the room now, if I
+<b>Floyd</b> | wanted."
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "Ferdia's talking about the game itself."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "HAHA"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  cackles.
+</TD><td></td></TR>
+
+<TR><td></td><TD>yandexx says (to floyd), "get naked</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "That's sort of mean, but very funny, and somewhat true."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>yandexx</b>  says, ""we can't!""
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Though I am seeing why it's sometimes recommended."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "I wonder if this is intentional. It looks that way"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to ferdia</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Well why don't you?"
+<b>Floyd</b> | (2) "Oh, please don't."
+<b>Floyd</b> | (3) "Do you want to hear what's in my essay?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "Do you want to hear what's in my essay?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | Ferdia just ignores this.
+<b>Floyd</b> |
+<b>Floyd</b> | "Anyway, I've put all that in my English essay. I can't wait to see
+<b>Floyd</b> | what Mrs. Pearse thinks."
+<b>Floyd</b> |
+<b>Floyd</b> | The school bell rings, calling us to assembly. If it had not rung at
+
+<b>Floyd</b> | that precise moment, I would probably have jumped across the table and
+<b>Floyd</b> | strangled Ferdia. But instead, I get up and throw my toast in the food
+<b>Floyd</b> | bin. Ferdia waits patiently for me, and we walk to assembly in silence.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says (to Fang), "I'm sure it is intentional."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Fang), "Oh, yes.  I think it is."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">hit ferdia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | I had a friend once. A real friend, not a parasite like Ferdia. Someone
+<b>Floyd</b> | with whom I could be myself, someone with whom I could relax, someone
+<b>Floyd</b> | with whom I could share my hopes and dreams.
+<b>Floyd</b> |
+<b>Floyd</b> | His name was Daniel Maguire. I first met him when I was ten years old,
+<b>Floyd</b> | before I went to St. Enda's, when I was going to the local primary
+
+<b>Floyd</b> | school out in the country. He was the new boy in class, and for no
+<b>Floyd</b> | apparent reason he was very nice to me. We became friendly, and pretty
+<b>Floyd</b> | soon we became inseparable. Whenever we were together, it was so
+<b>Floyd</b> | special! I remember the summers we had...
+<b>Floyd</b> |
+<b>Floyd</b> | I can honestly say that the only times I felt free, the only times I
+
+<b>Floyd</b> | felt liberated from all my inhibitions, were the times I spent with
+<b>Floyd</b> | Daniel. We didn't have any secrets from each other. I didn't have to
+<b>Floyd</b> | feign interest in anything just to please him, I didn't feel the need
+<b>Floyd</b> | to impress him with long words and insincere feelings, I didn't have to
+<b>Floyd</b> | be anything other than myself.
+<b>Floyd</b> |
+
+<b>Floyd</b> | But I know my parents weren't too fond of him. They were always trying
+<b>Floyd</b> | to get me to play with some ghastly yacht-club children, and I don't
+<b>Floyd</b> | think they liked some of the language I picked up from Daniel, either.
+<b>Floyd</b> | Somehow I began to see him less and less. Then, when I was thirteen,
+<b>Floyd</b> | disaster struck. I was packed off to St. Enda's, and Daniel went to
+<b>Floyd</b> | some other secondary school. And after that, I didn't get to see him at
+
+<b>Floyd</b> | all.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | Shortly after that, Daniel sent me a letter. It was a very funny
+<b>Floyd</b> | letter, describing some events and people at his new school. It was
+<b>Floyd</b> | like a flash of the old Daniel, the one who used to tell funny stories
+<b>Floyd</b> | in a hay-barn. It cheered me up no end during the misery of St. Enda's,
+<b>Floyd</b> | let me tell you. I knew I had to reply, and it had to be a really
+
+<b>Floyd</b> | well-written and funny letter, too.
+<b>Floyd</b> |
+<b>Floyd</b> | God, I tried so often to write that letter. Practically every night I
+<b>Floyd</b> | would stare at a page that was blank except for the words "Dear Daniel"
+<b>Floyd</b> | at the top. I just couldn't think of anything to say. "Just be
+<b>Floyd</b> | yourself," I kept thinking, "And write down whatever comes into your
+
+<b>Floyd</b> | head." But nothing came into my head.
+<b>Floyd</b> |
+<b>Floyd</b> | A few weeks passed, and I still hadn't written a reply. And then I
+<b>Floyd</b> | couldn't think of any excuses for my lateness. The longer it went on,
+<b>Floyd</b> | the more ashamed I became about the delay, and the harder it was to
+<b>Floyd</b> | write. I must have read and re-read Daniel's letter fifty times,
+
+<b>Floyd</b> | looking for inspiration. I still have that letter. I still haven't
+<b>Floyd</b> | replied.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "Would I be a bad person for wanting to see Alex's pencilcase?"
+</TD><td></td></TR>
+
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | I often dream of a reunion with Daniel. I think about how it would
+<b>Floyd</b> | happen - whether it would be in our old school out in the country, or
+<b>Floyd</b> | in the hay-barn where we used to go, or maybe just passing on the
+
+<b>Floyd</b> | street.
+<b>Floyd</b> |
+<b>Floyd</b> | But if I ever do meet Daniel again, I hope I'll be standing on the
+<b>Floyd</b> | platform of a railway station - a miserable, damp railway station,
+<b>Floyd</b> | where all the seats are taken by stuck-up grannies and biddies and
+<b>Floyd</b> | ghastly yacht-clubbers. And while waiting for the train, which is
+
+<b>Floyd</b> | taking ages, I'll peer over to the opposite platform, and notice a
+<b>Floyd</b> | familiar figure. Daniel! Barely able to conceal the joy in my voice,
+<b>Floyd</b> | I'll step over to the edge of the platform and shout "Daniel Maguire!
+<b>Floyd</b> | What the FUCK are you doing here?" And he'll notice me and shout "Alex
+<b>Floyd</b> | Moran, would you ever shut the FUCK up, you cross-eyed WANKER!" And
+<b>Floyd</b> | I'll reply "Go FUCK yourself, ASSHOLE!" and he'll reply "Suck me off,
+
+<b>Floyd</b> | you BENT BASTARD!". And the two of us will run up and down the
+<b>Floyd</b> | platforms, joyously shouting abuse at each other across three lines of
+<b>Floyd</b> | track. And all the stuck-up grannies and biddies and ghastly
+<b>Floyd</b> | yacht-clubbers waiting at the station will stare at us as if we are
+<b>Floyd</b> | mad, but we'll carry on, running up and down, screaming profanities,
+<b>Floyd</b> | and let the rest of the world GO FUCK ITSELF!
+
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<TD><b>yandexx</b>  says, "Good writing."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Well, another crap day in school. Ferdia has been pissing me off all
+<b>Floyd</b> | day. He kept on droning on and on about his science project and all his
+<b>Floyd</b> | 'theories' and 'breakthroughs'. And then of course there was a fucking
+<b>Floyd</b> | orgy of showing-off during English class. And now I have to come back
+
+<b>Floyd</b> | up here and get ready for tonight. Tonight - now there's another thing
+<b>Floyd</b> | that's pissing me off.
+<b>Floyd</b> |
+<b>Floyd</b> | Dormitory Room
+<b>Floyd</b> | The dormitory is a small, frequently claustrophobic room that somehow
+<b>Floyd</b> | fits four bunkbeds, which are stacked up on opposite walls. There is a
+
+<b>Floyd</b> | sink in one corner and an old wardrobe in another. The doorway leads
+<b>Floyd</b> | east. The early evening light comes through the window.
+<b>Floyd</b> |
+<b>Floyd</b> | On Paddy's bunkbed is Paddy.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x paddy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Paddy is fat, and has the timidity and docility of a young deer. A very
+<b>Floyd</b> | fat young deer, admittedly.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | Paddy leafs through a large folder.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x folder</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A large, paint-speckled folder with the words "Patrick Mulroney 6A3.
+
+<b>Floyd</b> | Art Portfolio" written carefully on the cover.
+<b>Floyd</b> |
+<b>Floyd</b> | Paddy turns a page in his folder.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x paddy's folder</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to examine Paddy's bunkbed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to paddy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "How's it going, Paddy?"
+<b>Floyd</b> | (2) "Have you been there all day?"
+<b>Floyd</b> | (3) "What's that you're looking at, Paddy?"
+
+<b>Floyd</b> | (4) "Hey Paddy... I'm sorry about what happened this morning."
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | "What's that you're looking at, Paddy?"
+<b>Floyd</b> |
+<b>Floyd</b> | God, I always sound so condescending when I'm talking to him. I don't
+<b>Floyd</b> | mean to, but I can't help it.
+<b>Floyd</b> |
+<b>Floyd</b> | "Oh... it's just my art portfolio... for art class..." he mumbles. "You
+
+<b>Floyd</b> | can have a look at it, if you want... it's not very good, really..." He
+<b>Floyd</b> | hands me the folder.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x folder</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A large, paint-speckled folder with the words "Patrick Mulroney 6A3.
+<b>Floyd</b> | Art Portfolio" written carefully on the cover.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "read folder</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A large, paint-speckled folder with the words "Patrick Mulroney 6A3.
+<b>Floyd</b> | Art Portfolio" written carefully on the cover.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">open folder</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I open the folder, revealing some drawings and paintings.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x drawings</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | I look at the first picture. It's a pencil drawing of the front facade
+<b>Floyd</b> | of St. Enda's College, in all its neo-gothic horror. Now, I'm no art
+<b>Floyd</b> | expert, but I have to say it's a brilliant drawing - I can't believe
+<b>Floyd</b> | Paddy drew it. It's not just technically excellent - it also captures
+<b>Floyd</b> | something of the foreboding, the coldness, the stuffiness, the
+<b>Floyd</b> | bullshit, that we associate with St. Enda's.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Paddy's large, bovine eyes look at me anxiously as I survey the
+<b>Floyd</b> | picture.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">ask ne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to ask.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>Taleslinger</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to paddy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Did you do these yourself, Paddy?"
+
+<b>Floyd</b> | (2) "That's a brilliant picture, Paddy."
+<b>Floyd</b> | (3) "Not bad. I'd do the shading a bit differently myself, but..."
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">2</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "That's a brilliant picture, Paddy... really brilliant."
+<b>Floyd</b> |
+<b>Floyd</b> | God, I wish I didn't sound so insincere. I really mean that. It really
+<b>Floyd</b> | is a brilliant picture.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Well... it's not that bad.. I suppose..." says Paddy, dipping his
+<b>Floyd</b> | eyes. He's beginning to blush a bit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to paddy</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Did you do these yourself, Paddy?"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "Did you do these yourself, Paddy?"
+<b>Floyd</b> |
+<b>Floyd</b> | Paddy has a brief flush of pride. "Yeah I did. They're all mine," he
+
+<b>Floyd</b> | says.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x paintings</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I look at another picture. It shows an old stone farmhouse next to a
+
+<b>Floyd</b> | field full of grazing cattle, all painted in thick, earthy colours.
+<b>Floyd</b> |
+<b>Floyd</b> | Wayne strides into the room, in an irritatingly buoyant mood. "Hi Alex!
+<b>Floyd</b> | Hi fat-boy!" he says. "What's that you're looking at, Alex?"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "It's Paddy's art Portfolio."
+<b>Floyd</b> | (2) "It's none of your fucking business."
+
+<b>Floyd</b> | (3) "Here - have a look at this!"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Yeah, Wayne is such an asshole, barging in here and demanding things.
+<b>Floyd</b> | I'm not going to tell him anything.
+<b>Floyd</b> |
+<b>Floyd</b> | Wayne snatches the folder from me.
+<b>Floyd</b> |
+<b>Floyd</b> | "An art folder, eh? 'Patrick Mulroney, Art Portfolio'. Oh excuse me. So
+
+<b>Floyd</b> | what kind of stuff do you draw, Podge?"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "You wouldn't be able to appreciate it."
+<b>Floyd</b> | (2) "Have a look inside."
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+
+<TD><b>Jacqueline</b>  says, "Please tell me we can stand up for ourselves and Paddy this time."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "Have a look inside."
+<b>Floyd</b> |
+
+<b>Floyd</b> | What a fucking idiotic thing to say.
+<b>Floyd</b> |
+<b>Floyd</b> | Wayne looks the the picture of St. Enda's College. "Aw, isn't that
+<b>Floyd</b> | lovely, Podge. But what I want to know is, are there any nude women in
+<b>Floyd</b> | here? Can you draw a pair of tits?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">punch wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I could kill him. I dream of causing him as much pain as possible, of
+<b>Floyd</b> | giving him a slow, agonising death. And Wayne is one of the few people
+<b>Floyd</b> | I know who would actually be better off dead. But of course it's not
+
+<b>Floyd</b> | going to happen.
+<b>Floyd</b> |
+<b>Floyd</b> | Wayne looks through the folder. "Or are there any nice pictures of
+<b>Floyd</b> | sheep, perhaps? Any nice heifers you can stick up on your wall?"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Give him back the folder, Wayne."
+<b>Floyd</b> | (2) "Stop it, Wayne."
+
+<b>Floyd</b> | (3) "Sure there are! It's Cow International in there!"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">take portfolio</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | But he won't stop it. There's no point in even telling that asshole.
+<b>Floyd</b> |
+<b>Floyd</b> | Wayne chances on a picture that depicts a field of cattle. "Whoa, we've
+
+<b>Floyd</b> | hit the jackpot here!" he says. "Look at the udders on that one! Know
+<b>Floyd</b> | any of these cows, Podge?"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "GAH"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "GRR"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "AHHHH"
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "take folder</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I want to take the folder from Wayne - and I probably should - but
+<b>Floyd</b> | instead I just stand there. Maybe it's better not to get involved.
+
+<b>Floyd</b> | Anyway, why doesn't Paddy do anything?
+<b>Floyd</b> |
+<b>Floyd</b> | He continues his routine. "It's nothing to be ashamed of, Podge. You've
+<b>Floyd</b> | got a very nice family. Fresians, are they? So which one is your
+<b>Floyd</b> | mother? Or have you eaten her, haha!"
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "&gt;DEVELOP SPINE"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "uh-huh"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">feel ashamed</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "jump</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I'm not in what you would call a jumpy mood.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "Hey - Podge goes 'Where's my mother?' and his Dad goes 'In the grill!'
+<b>Floyd</b> | Haha!" Wayne is so delighted with this that he lets the picture fall
+<b>Floyd</b> | from his grasp.
+<b>Floyd</b> |
+<b>Floyd</b> | Paddy leaps down clumsily from his bunk and picks it up.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to paddy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I really can't think of anything to say right now.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Wayne starts taking more sheets from the folder and throwing them
+<b>Floyd</b> | around the room. "Oh shit Podge - I dropped one! And another one!"
+<b>Floyd</b> |
+<b>Floyd</b> | Paddy runs around picking them up.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Taleslinger</b> arrives, full of funk, but no fun.
+</TD><td></td><TD><b>Jacqueline</b>  says, "Yay jump response, though."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">take all</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I prefer dealing with things individually.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Wayne keeps throwing sheets around. "I keep dropping them, Podge - I'm
+<b>Floyd</b> | so clumsy today!"
+<b>Floyd</b> |
+<b>Floyd</b> | Paddy runs around picking up the sheets.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">kill wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I could kill him. I dream of causing him as much pain as possible, of
+<b>Floyd</b> | giving him a slow, agonising death. And Wayne is one of the few people
+<b>Floyd</b> | I know who would actually be better off dead. But of course it's not
+<b>Floyd</b> | going to happen.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Suddenly, Paddy snatches the folder from Wayne, and walks out of the
+<b>Floyd</b> | room.
+<b>Floyd</b> |
+<b>Floyd</b> | "Oooh... looks like fat-boy has a bit of a temper," says Wayne.
+<b>Floyd</b> |
+
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | You think I'm an asshole now, don't you? You think I'm worse than
+<b>Floyd</b> | Wayne. Just some useless withering shit that spends his whole life
+
+<b>Floyd</b> | standing by... well it's not that simple. It's not that simple at all.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | I mean, what would you have done? I suppose you would have put Wayne in
+<b>Floyd</b> | his place, or helped Paddy, or something. Well just say you were here
+<b>Floyd</b> | instead of me, and you had done your heroic actions. Do you know what
+<b>Floyd</b> | would happen then? You wouldn't just have Wayne treating you like shit
+<b>Floyd</b> | for the rest of the year - I'm sure you could handle that - you'd also
+<b>Floyd</b> | have Paddy being pathetically grateful, Paddy clinging to you all the
+
+<b>Floyd</b> | time for protection, Paddy with his big sad-dog eyes staring up at you
+<b>Floyd</b> | every time he's in trouble. You'd be stuck with him for the rest of
+<b>Floyd</b> | your life, probably - but I won't ever have that. I have my freedom.
+<b>Floyd</b> | Yes, that's right, I am free! No-one is dependent on me and I am
+<b>Floyd</b> | dependent on no-one! And that's how it will remain!
+<b>Floyd</b> |
+
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "Hmm, that worked well"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Anyway, it's not as if I intended to hurt Paddy or anything. It's not
+
+<b>Floyd</b> | as if I was intentionally complicit with Wayne. I know that. And it's
+<b>Floyd</b> | intentions that matter, isn't it? As long as I am satisfied that my
+<b>Floyd</b> | intentions are noble, I can live with myself... I mean, who else is
+<b>Floyd</b> | there to judge me? Who else -
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">you Randian twit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Gordon bumps into me. "Oh, sorry Alex, didn't see you there," he says.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x gordon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Gordon is an asshole. He is without doubt the most vain, pompous,
+<b>Floyd</b> | self-obsessed asshole I have ever met. God, that guy is in love with
+<b>Floyd</b> | himself. He absolutely adores every inch of his own body. He has to
+
+<b>Floyd</b> | surround himself continually with an entourage of fawning admirers.
+<b>Floyd</b> |
+<b>Floyd</b> | "Hey Gordo," says Wayne, "you missed a right laugh! We sent the
+<b>Floyd</b> | Podgester crying out of the room! You should have seen the face on him.
+<b>Floyd</b> | He painted a picture of these cows, right, and I said, 'Is this your
+<b>Floyd</b> | family portrait?', and then he starts huffing and puffing round the
+
+<b>Floyd</b> | room after me -"
+<b>Floyd</b> |
+<b>Floyd</b> | Gordon gives a noncommital laugh.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Oh, leave it out, Wayne."
+<b>Floyd</b> |
+
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "&gt;HI GORDON, I WAS EXTEMPORIZING"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Oh why bother?
+<b>Floyd</b> |
+<b>Floyd</b> | "And then he runs out of the room like a big frightened... cow." Wayne
+<b>Floyd</b> | finishes a bit uneasily.
+<b>Floyd</b> |
+<b>Floyd</b> | Gordon turns and faces the room. "Right - time to get ready for
+
+<b>Floyd</b> | tonight!" he says. "Oh - and Alex is going out tonight as well!"
+<b>Floyd</b> |
+<b>Floyd</b> | Did he have to remind me? Fucking hell. Actually, tonight isn't
+<b>Floyd</b> | worrying me too much now anyway - it just pisses me off. It's going to
+<b>Floyd</b> | be crap anyway, so why worry about it? That said, I really don't want
+<b>Floyd</b> | to go.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "AHHHHHHHHHHHHHHHHHH"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's too early to leave yet. I don't fancy sitting around PJ's cafe on
+<b>Floyd</b> | my own for ages. And I don't want to be the first one there.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "He looks nervous," says Wayne with mock intensity. "It's his first
+<b>Floyd</b> | time, of course. Way behind the rest of us. I was beginning to have my
+<b>Floyd</b> | doubts about you, to be honest, Alex. I still do, really. I mean, you
+<b>Floyd</b> | and Ferdia are awfully close..."
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "sorry"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">leave</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | But I'm not in anything at the moment.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Gordon starts changing his clothes. As usual, he spends unnecessarily
+<b>Floyd</b> | long amounts of time looking in the mirror. He slaps on a bit of
+<b>Floyd</b> | aftershave. "Only the best," he says. "Here, Alex, you should try some
+<b>Floyd</b> | of this. Eau de Scrimgeour. Fifty pounds a bottle. Women can't resist
+<b>Floyd</b> | it."
+<b>Floyd</b> |
+
+<b>Floyd</b> | He tosses me the bottle, and I catch it clumsily with both hands.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  asks, "Is this game a bit of a melodrama, or is just me?"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">hit wayne with bottle</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to hit Wayne.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Bert</b>  exclaims, "It's a $#@&ing Disney cartoon!"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "It's a bit of something."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well, I think some people do feel like this, trapped in their world."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says, "It's RAMSES? I can't find it on the Wiki."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "But it's frustrating to play this when you're not one of those people."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Rameses"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Taleslinger), "Yeah.  Rameses."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh, typo - yeah.  Another e."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "It is interesting that it has managed to incorporate the frustration with playing the game into the game itself"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  asks (of Jacq), "You think it's fun if you are one of those people?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x bottlw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "oops bottle</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A small bottle of piss-coloured liquid, with a scent to match.
+<b>Floyd</b> |
+<b>Floyd</b> | "Well go on, put it on!" says Gordon.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Bert), "Not at all."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Fang makes a good observation in that I'm sure it's this game's intent."
+</TD><td></td></TR>
+<TR><td></td><TD><b>olethros</b> arrives, full of fun, but no funk.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">wear aftershave</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | I pour some aftershave on my hands, and splash it on my face. Oh shit -
+<b>Floyd</b> | think that was a bit too much! It's starting to dribble down my chin -
+<b>Floyd</b> | it's soaking my shirt - shit, it's going everywhere!
+<b>Floyd</b> |
+<b>Floyd</b> | Gordon looks appalled. For a moment, he loses his composure. "That
+<b>Floyd</b> | stuff costs money, you know!" he says, snatching the bottle from me. "I
+
+<b>Floyd</b> | should charge you for that!"
+<b>Floyd</b> |
+<b>Floyd</b> | "Alex just thinks he'll get more women that way," says Wayne.
+<b>Floyd</b> |
+<b>Floyd</b> | I think I'm going to be overcome by the fumes of aftershave. My eyes
+<b>Floyd</b> | are streaming. My face is burning.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "Oh. I thought it was RAMSES and thought along the lines of Infidel."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "no, no, it's Rameses -&gt; condoms -&gt; impotence"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "I sure hope there's some machine gun based catharsis"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">change clothes</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">shower</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I'm really not in the mood to have a shower now. I rarely am. There are
+
+<b>Floyd</b> | two things I hate about the showers in St. Enda's:
+<b>Floyd</b> | 1) They are hot enough to give you second-degree burns.
+<b>Floyd</b> | 2) I have to be naked in front of loads of people.
+<b>Floyd</b> |
+<b>Floyd</b> | I go into a fit of coughing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Serves you right," says Gordon, only more jokingly this time. "Though
+<b>Floyd</b> | I don't know how you'll keep the girls away from you tonight! That
+<b>Floyd</b> | stuff is sex in a bottle."
+<b>Floyd</b> |
+<b>Floyd</b> | "Anyway, I don't know how I'll be able to keep the girls away from me
+<b>Floyd</b> | tonight - especially when I'm wearing these," he says, producing a
+
+<b>Floyd</b> | rather ordinary-looking pair of jeans from the wardrobe. "Claudio
+<b>Floyd</b> | Armani - original design. Guess how much I paid for these."
+<b>Floyd</b> |
+<b>Floyd</b> | "Fifty pounds!", says Wayne, like an enthralled child.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "To quote the Wiki:"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  |The game can be 'completed' by repeatedly typing wait at the prompt.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "no spoilers!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "snrk"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says, "Sorry. But it's on the Wiki."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x jeans</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | They look just like an ordinary pair of jeans, to me.
+<b>Floyd</b> |
+<b>Floyd</b> | "Higher," says Gordon, shaking his head and waving his hand upwards, as
+<b>Floyd</b> | if this figure was laughably small.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "Ninety pounds!" shouts Wayne.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I think we knew that, inky."
+
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "talk to gordon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Oh for fuck's sake Gordon. I can't believe even you would stoop to
+<b>Floyd</b> | this."
+<b>Floyd</b> | (2) "A HUNDRED POUNDS!"
+
+<b>Floyd</b> | (3) "Five bazillion pounds!"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "It's better this way, though.  Does allow us to feel the character's frustration."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">3</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Hah. I don't think Gordon would appreciate that suggestion. He's deadly
+<b>Floyd</b> | serious.
+<b>Floyd</b> |
+<b>Floyd</b> | "Higher," says Gordon.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "What?"
+<b>Floyd</b> |
+<b>Floyd</b> | "They cost more than that," says Gordon. "Keep guessing."
+<b>Floyd</b> |
+<b>Floyd</b> | "A hundred and fifty pounds!" screams Wayne.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "talk to gordon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Oh for fuck's sake Gordon. I can't believe even you would stoop to
+
+<b>Floyd</b> | this."
+<b>Floyd</b> | (2) "Two hundred pounds!"
+<b>Floyd</b> | (3) "Two hundred and fifty pounds!"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "Two hundred pounds!"
+<b>Floyd</b> |
+<b>Floyd</b> | "Nope," says Gordon. He walks up and down the room, modelling the
+<b>Floyd</b> | jeans.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "Three hundred pounds!" cries Wayne, getting more and more ecstatic.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to gordon</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Oh for fuck's sake Gordon. I can't believe even you would stoop to
+<b>Floyd</b> | this."
+<b>Floyd</b> | (2) "This is pathetic! I'm not guessing anymore."
+<b>Floyd</b> | (3) "Four hundred pounds!"
+
+<b>Floyd</b> | (4) "Five hundred pounds!"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Yeah, it is pathetic. This is unbelievable, even for Gordon.
+<b>Floyd</b> |
+<b>Floyd</b> | "Five hundred pounds!", says Wayne.
+<b>Floyd</b> |
+<b>Floyd</b> | "Yup, that's right," says Gordon. Wayne beams triumphantly.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Sickening.
+<b>Floyd</b> |
+<b>Floyd</b> | "That's about eight hundred dollars," says Gordon. "I picked them up in
+<b>Floyd</b> | New York last summer - reduced from three thousand dollars. But they're
+<b>Floyd</b> | the best. Cynthia is going to fall all over me when she sees these."
+<b>Floyd</b> |
+
+<b>Floyd</b> | He strokes his own thighs as he says this.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">rip pants</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Ah, to have that exchange rate again."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "Ah, the good old days."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "Timing."
+
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "take jeans</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Gordon would defend them with his life. I'd probably look a complete
+<b>Floyd</b> | prat in them, anyway.
+<b>Floyd</b> |
+<b>Floyd</b> | "Wayne, will you get my socks? They're in the bottom of the wardrobe,"
+<b>Floyd</b> | says Gordon. Wayne enthusiastically does his duty.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "ha ha (also)"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to gordon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "How much did they cost?"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">1</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "How much did they cost?"
+<b>Floyd</b> |
+<b>Floyd</b> | "Oh, about fifteen or twenty pounds, I can't remember," says Gordon. He
+<b>Floyd</b> | doesn't realise I'm taking the piss out of him. He takes himself far
+<b>Floyd</b> | too seriously for that. "Or maybe I should have said a hundred Swiss
+
+<b>Floyd</b> | Francs," he says.
+<b>Floyd</b> |
+<b>Floyd</b> | "I got these at the Val d'Isere last Christmas," says Gordon, putting
+<b>Floyd</b> | on the socks. "They're specially designed for champion snowboarders.
+<b>Floyd</b> | Have I told you I went snowboarding last Christmas?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | Yes, he has. About a million times.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to wayne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I really can't think of anything to say right now.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "You've only told us a little bit," says Wayne.
+<b>Floyd</b> |
+<b>Floyd</b> | "Well, have I told you about this girl called Katja that I met on my
+<b>Floyd</b> | first night at the Chateaux de Vie? She came up to me on the verandah
+<b>Floyd</b> | -"
+
+<b>Floyd</b> |
+<b>Floyd</b> | There follows a tale littered with name-dropping, lavish parties,
+<b>Floyd</b> | sexual conquests and death-defying snowboarding heroics. But I don't
+<b>Floyd</b> | think I can stay to listen to it all. I put on my casual clothes and
+<b>Floyd</b> | leave. As I am walking out the door, I can still hear Gordon talking.
+<b>Floyd</b> | He is going on about other people who were staying in the hotel.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "We didn't get on with them very well," he is saying. "We kept pretty
+<b>Floyd</b> | much to ourselves. Not sure if we'll go there again next year,
+<b>Floyd</b> | actually. Far too many nouveaux riches."
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+
+</PRE></td><td></td>
+<TD><b>yandexx</b>  says, "Katja -- Russian name."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | For days, the thought of this meeting has gripped me with terror, but
+
+<b>Floyd</b> | now, as it becomes only a few minutes away, I face it with a sort of
+<b>Floyd</b> | numbed complacency. It's as if none of it matters anymore - Ferdia, the
+<b>Floyd</b> | girls, Paddy, St. Enda's - as if it's all some sort of sick dream.
+<b>Floyd</b> |
+<b>Floyd</b> | I walk out of the gates of the college onto Grogan Road. My steps seem
+<b>Floyd</b> | to lack any purpose - just one foot in front of the other. It's getting
+
+<b>Floyd</b> | dark outside on this cold January evening, and the orange street-lamps
+<b>Floyd</b> | are starting to flicker on.
+<b>Floyd</b> |
+<b>Floyd</b> | Grogan Road
+<b>Floyd</b> | Grogan Road is a dismal, litter-strewn street of terraced houses.
+<b>Floyd</b> | Orange street-lamps shed light on passing faces, like spectres in the
+
+<b>Floyd</b> | darkness. The gates of St. Enda's are up the road to the east. PJ's
+<b>Floyd</b> | cafe is a few streets to the west, towards the quay.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x houses</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Horrible, dilapidated red-brick hovels, no doubt full of ancient
+<b>Floyd</b> | grannies making tea on their old gas cookers. The doors are all heavily
+<b>Floyd</b> | lacquered with paint, and musty lace curtains hang in the windows.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x windows</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Horrible, dilapidated red-brick hovels, no doubt full of ancient
+<b>Floyd</b> | grannies making tea on their old gas cookers. The doors are all heavily
+<b>Floyd</b> | lacquered with paint, and musty lace curtains hang in the windows.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x lamps</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Sodium street-lamps, which bathe the place in a fuzzy orange glow.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">smell me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I smell of incredibly overpowering aftershave.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Jacqueline</b>  says, "So we didn't shower. Lovely."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I am carrying:
+<b>Floyd</b> |   some casual clothes (being worn)
+<b>Floyd</b> |   my underwear (being worn)
+
+<b>Floyd</b> |   my watch (being worn)
+<b>Floyd</b> |
+<b>Floyd</b> | Well I'd love to dawdle here all evening, but I've got to be in PJ's by
+<b>Floyd</b> | half five, so I better move on. I go west to
+<b>Floyd</b> |
+<b>Floyd</b> | Gibson's Lane
+
+<b>Floyd</b> | Gibson's Lane is a near-forgotten tributary of the Main Street. Amid
+<b>Floyd</b> | all the boarded-up houses and general misery lies a small video shop.
+<b>Floyd</b> | PJ's cafe is on the Main Street, to the west. East leads back to Grogan
+<b>Floyd</b> | Road and St. Enda's.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Emily</b>  says, "no wonder we're such a hit with the ladees"
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x watch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A cheap-looking digital watch I bought a few years ago. It wasn't cheap
+<b>Floyd</b> | though. But no-one would know that unless I told them.
+<b>Floyd</b> |
+
+<b>Floyd</b> | According to my watch, the time is 17:20.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">drop underwear</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (first taking my underwear off)
+
+<b>Floyd</b> | What do you think I am, the Phantom Flasher of St. Enda's?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I hope that's at least clean underwear."
+</TD><td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x underwear</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | These are the world's most embarrassing pair of Y-fronts, which makes
+<b>Floyd</b> | me almost glad that no girl has ever seen them.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Well, I know you're not playing, David, but feel free to investigate that."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Timing"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | South Main Street
+<b>Floyd</b> |
+
+<b>Floyd</b> | I walk on to the main street, absent-mindedly, without any conviction,
+<b>Floyd</b> | as if drawn along by a thread. It all means nothing to me - all these
+<b>Floyd</b> | shops, all these people -
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | I don't believe it...
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | But it is!
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | It's Daniel! Walking towards me! From the other end of the street!
+<b>Floyd</b> |
+<b>Floyd</b> | Daniel - my best friend! My only friend... after all these years... I
+
+<b>Floyd</b> | haven't seen him for so long... But there he is! That's him!
+<b>Floyd</b> |
+<b>Floyd</b> | He's walking towards me... it's as though there is nobody else on the
+<b>Floyd</b> | street.. just me and him...
+<b>Floyd</b> |
+<b>Floyd</b> | But wait - there are other people with him... he's talking to them...
+
+<b>Floyd</b> | he hasn't noticed me yet... what should I do?
+<b>Floyd</b> |
+<b>Floyd</b> | I can see Daniel here.
+<b>Floyd</b> |
+<b>Floyd</b> | Who's that girl he's holding hands with? They're smiling at each
+<b>Floyd</b> | other...
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD> <i>(from DavidW)</i> Janice says, "oh. my. ghod."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x girl</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | She's walking along with Daniel, holding his hand, smiling at him...
+<b>Floyd</b> |
+<b>Floyd</b> | He still hasn't noticed me! He's talking to his friends... They're
+<b>Floyd</b> | getting closer...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Emily</b>  says, "HA"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x daniel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | He's older now, of course, and taller... but still the same Daniel.
+<b>Floyd</b> | He's walking in my direction, holding hands with some girl... and
+<b>Floyd</b> | laughing with his friends... his face is a picture of happiness... he
+
+<b>Floyd</b> | hasn't noticed me yet.
+<b>Floyd</b> |
+<b>Floyd</b> | Did he glance at me then? Has he seen me? He's almost reached me now!
+<b>Floyd</b> | Maybe I should say something...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>yandexx</b>  says, "&gt; scream YOU WANKER"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to daniel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+
+<b>Floyd</b> | (1) "Daniel Maguire, what the FUCK are you doing here?"
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to yandexx), "Yay"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "oh god"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I suspect (hope) that Daniel has changed and that we should perhaps say something else."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "This isn't going to end well"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">0</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | But I have to say something...
+
+<b>Floyd</b> |
+<b>Floyd</b> | "Da-" I begin; and our eyes meet for a second, and I know he has
+<b>Floyd</b> | recognised me. Then he looks away, or not away but straight through me,
+<b>Floyd</b> | through me as if I wasn't there, through me as if I was nothing. He
+<b>Floyd</b> | keeps holding hands with the girl, he keeps talking to his friends.
+<b>Floyd</b> | They walk on. They walk past me.
+
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<TD><b>yandexx</b>  says, "Hmm.."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "sigh."
+</TD><td></td></TR>
+<TR><td></td><TD><b>yandexx</b> pushes the green 'space' button.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | I stay rooted to the spot.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>yandexx</b> pushes the green 'space' button.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | What reason have I got to do anything now? Why do anything ever again?
+<b>Floyd</b> | Why talk to anyone, or go anywhere? Fuck tonight! Fuck this meeting!
+<b>Floyd</b> | Fuck PJ's fucking cafe! Fuck Ferdia, fuck the girls, fuck St. Enda's,
+<b>Floyd</b> | fuck everything. Fuck my stupid, stupid fucking life!
+<b>Floyd</b> |
+
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | You were laughing at me all along, weren't you? Laughing at me for the
+<b>Floyd</b> | stupid, pathetic asshole I am, going on about Daniel, Daniel all the
+
+<b>Floyd</b> | time, dreaming my stupid dreams, and you knew how deluded I was. Well,
+<b>Floyd</b> | I can see it all now. Oh, I can see it all.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Ben</b> arrives, full of fun and funk.
+
+</TD><td></td><TD><b>yandexx</b>  says, "...everything is fucked, everybody sucks..."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | I can see now how little my friendship meant to Daniel, what a small
+<b>Floyd</b> | part it was in his life. I was just some dork he knew when he was ten,
+
+<b>Floyd</b> | some guy he was friends with out of politeness, some guy he once told
+<b>Floyd</b> | to fuck off in a barn. I'm probably a vague and unpleasant memory...
+<b>Floyd</b> | and what need has he for all that now, with his friends, and his
+<b>Floyd</b> | girlfriend.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">press green</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">cut myself</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | I'm just a faint blip on his memory, if he can remember me at all. Or
+<b>Floyd</b> | maybe he's forgotten, forgotten about the time he hung out with an
+<b>Floyd</b> | asshole. Because that's what I am - an asshole. More than that - I'm
+<b>Floyd</b> | the prince of assholes, the holiness of assholes, the Master Asshole,
+<b>Floyd</b> | the biggest asshole of them all! Yes, that's right! And all of you
+<b>Floyd</b> | assholes out there will venerate me tonight, because I'm going to this
+
+<b>Floyd</b> | meeting, I'm going out there, AND I'LL SHOW YOU WHAT AN ASSHOLE IS!
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<TD><b>inky</b>  says (to Taleslinger), "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | I go into PJ's cafe, past a few self-service counters, and into the
+<b>Floyd</b> | dining area.
+<b>Floyd</b> |
+<b>Floyd</b> | PJ's Cafe - Dining Area
+
+<b>Floyd</b> | I would love to be able to tell you that PJ's cafe is a seedy dive, a
+<b>Floyd</b> | filthy little place with greasy tables and horrible food. But it isn't.
+<b>Floyd</b> | In fact, it's one of the larger eating-places in town, and really isn't
+<b>Floyd</b> | all that bad. But it will soon be closing down for the night - there
+<b>Floyd</b> | aren't many people here at this time. Actually, it's a strange place to
+<b>Floyd</b> | meet, now that I think about it.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Oh shit! There are the girls! In the corner, sitting beside each other
+<b>Floyd</b> | on a four-seater table! Er... what am I doing here again? Maybe I
+<b>Floyd</b> | should just go now...
+<b>Floyd</b> |
+<b>Floyd</b> | I walk over to their table.
+
+<b>Floyd</b> |
+<b>Floyd</b> | I can see Alice and Claire here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I beg your pardon?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Fyrion</b> goes home.
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x alice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Alice is tall, thin, blonde and angular. Her posture, her body
+<b>Floyd</b> | language, her facial expression, seem to suggest that the surroundings
+<b>Floyd</b> | are demeaning to her. In fact, life itself is probably demeaning to
+<b>Floyd</b> | her. I bet she's a complete bitch.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Alice's cold, sarcastic eyes look at me with a mixture of amusement and
+<b>Floyd</b> | contempt. But mainly contempt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Emily</b>  says, "man, I had forgotten just how annoying the PC truly is"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Hope you guys remember which is Alice and which is Claire."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There isn't much to say about Claire. She's pretty nondescript and
+<b>Floyd</b> | average in every way... though 'pretty' probably wasn't the best choice
+<b>Floyd</b> | of word there. Her face is podgy and has a slightly stupid expression.
+
+<b>Floyd</b> |
+<b>Floyd</b> | The girls stare up at me. "Are you Alex?" says Alice, the blonde one.
+<b>Floyd</b> |
+<b>Floyd</b> | "Er... yeah," I say, grinning nervously. I can hear the blood pounding
+<b>Floyd</b> | in my ears. I can just tell tonight will be a disaster.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "So... Claire..."
+
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "So... Claire..." I begin.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Oh shit, what do I say now? They're both looking at me as if I was mad!
+<b>Floyd</b> |
+<b>Floyd</b> | "Well, aren't you going to sit down?" says Alice. Actually, that
+<b>Floyd</b> | sounded more like an order. And Alice sounds like a person who is used
+<b>Floyd</b> | to being obeyed - so I sit down hastily and clumsily.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | PJ's Cafe - Dining Area (on the chair)
+
+<b>Floyd</b> | The dining area of the cafe is reasonably large, and fairly empty at
+<b>Floyd</b> | this time. The room is striving incongruously for a jungle theme - with
+<b>Floyd</b> | mahogany-effect tables and chairs, potted plants scattered everywhere,
+<b>Floyd</b> | an annoying green carpet, and prints on the walls depicting tropical
+<b>Floyd</b> | scenes. The self-service counter is to the west.
+<b>Floyd</b> |
+
+<b>Floyd</b> | I can see Alice and Claire here.
+<b>Floyd</b> |
+<b>Floyd</b> | Alice takes a sip of coffee.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">talk to claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I really can't think of anything to say right now.
+<b>Floyd</b> |
+<b>Floyd</b> | Now I'm inside, the eye-watering scent of that aftershave is really
+<b>Floyd</b> | starting to get quite powerful again. Alice is already beginning to
+
+<b>Floyd</b> | turn her nose up...
+<b>Floyd</b> |
+<b>Floyd</b> | Where the fuck is Ferdia?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">talk to alice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "So... Alice..."
+<b>Floyd</b> |
+
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "So... Alice..." I begin.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Oh shit, what do I say now? They're both looking at me as if I was mad!
+<b>Floyd</b> |
+<b>Floyd</b> | Alice takes another sip of coffee.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "run</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You'll have to say which compass direction to go in.
+<b>Floyd</b> |
+<b>Floyd</b> | Alice looks at me pointedly and starts coughing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">ask alice about weather</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In this story, to talk to somebody, use 'talk to'.
+<b>Floyd</b> |
+<b>Floyd</b> | Maybe Daniel just didn't notice me that time. If only I had said
+<b>Floyd</b> | something... Maybe we'll meet him later on, and he'll come up to me,
+
+<b>Floyd</b> | and apologise... or not apologise, what does he have to apologise for?
+<b>Floyd</b> | I wonder is he thinking about me now...
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">dance</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | &gt;
+
+<b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">kiss claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It would probably be better to talk to her first. Though I doubt anyone
+
+<b>Floyd</b> | could work up much enthusiasm about her.
+<b>Floyd</b> |
+<b>Floyd</b> | He's probably a bit embarrassed about ignoring me... though I
+<b>Floyd</b> | understand... it would be a bit awkward meeting me in front of his
+<b>Floyd</b> | friends... maybe he'll write me a letter later...
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">cry</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "ist</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | &gt;
+<b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "sit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to sit on top of?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">alice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not something I can sit down on.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>olethros</b>  asks, "is this an AIF?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "ha. no."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Heh.  No."
+</TD><td></td></TR>
+<TR><td></td><TD>Ben says (to floyd), "talk to claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I really can't think of anything to say right now.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Alice makes a face. "What is that smell?" she says.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">smell</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I smell nothing unexpected.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Rob</b>  says, "it's an F.U. IF"
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">alice, me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In this story, to talk to somebody, use 'talk to'.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Alice glares at me.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "out</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I really should stay here and try and make some conversation... it
+<b>Floyd</b> | would look bad running away so soon.
+<b>Floyd</b> |
+<b>Floyd</b> | Come on Ferdia... Come on...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "man"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to alice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I really can't think of anything to say right now.
+<b>Floyd</b> |
+<b>Floyd</b> | "Have you any idea where Ferdia is?" asks Alice.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">talk to alice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+
+<b>Floyd</b> | (1) "He should be along in a few minutes... he said he might be a bit
+<b>Floyd</b> | late."
+<b>Floyd</b> | (2) "He's working late on his science project... he said he might be a
+<b>Floyd</b> | bit late."
+<b>Floyd</b> | (3) "He's off licking some teacher's arse after school. He'll be here
+<b>Floyd</b> | soon, don't worry."
+
+<b>Floyd</b> | (4) "I haven't a fucking clue."
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to alice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "Emo IF."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Yeah, that's all the bastard is doing. Maybe I should tell Alice that,
+
+<b>Floyd</b> | and she how she likes it.
+<b>Floyd</b> |
+<b>Floyd</b> | "Obviously not," says Alice.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | That's not a verb I recognise.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "talk to claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I really can't think of anything to say right now.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "talk to alice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I really can't think of anything to say right now.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "joke</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Ben says (to floyd), "talk to myself</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's one way to get intelligent conversation around here, certainly.
+<b>Floyd</b> |
+<b>Floyd</b> | "Would you like to get something to drink?" asks Claire. It's the first
+<b>Floyd</b> | time she has spoken. She has a really weedy voice. She looks at me with
+<b>Floyd</b> | big, childlike eyes that stick out of her face.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>yandexx</b>  says, "haha"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "No thanks... I'm not that thirsty really."
+<b>Floyd</b> | (2) "No thanks... I don't drink coffee, actually."
+<b>Floyd</b> | (3) "Yeah, okay..."
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "Yeah, okay."
+<b>Floyd</b> |
+<b>Floyd</b> | "Well, the counter is behind you," says Alice.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">stand</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't take this anymore! I get up off the chair.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Where are you going?" says Alice.
+<b>Floyd</b> |
+<b>Floyd</b> | "Oh.. I'm just going to get something to drink."
+<b>Floyd</b> |
+<b>Floyd</b> | "Well, I don't want anything, thanks for asking," says Alice. Bitch. I
+<b>Floyd</b> | walk over to the self-service counter. Yes! I'm away from that table!
+
+<b>Floyd</b> |
+<b>Floyd</b> | Self-Service Counter
+<b>Floyd</b> | It's the contemptuous look on their faces I couldn't stand. Why did
+<b>Floyd</b> | they have to look at me like that all the time? And now I can see them
+<b>Floyd</b> | over there, giggling...
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Ben says (to floyd), "inventory</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I am carrying:
+<b>Floyd</b> |   some casual clothes (being worn)
+<b>Floyd</b> |   my underwear (being worn)
+
+<b>Floyd</b> |   my watch (being worn)
+<b>Floyd</b> |
+<b>Floyd</b> | Who the fuck does Daniel think he is, anyway? What the fuck is he
+<b>Floyd</b> | doing, flaunting his fucking girlfriend and his all his fucking friends
+<b>Floyd</b> | at me... does he think I care? Does he think that impresses me? Is he
+<b>Floyd</b> | trying to say 'Look at me now! Look at all the friends I have! Why
+
+<b>Floyd</b> | should I need someone like you anymore?' Fuck him.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "Do we even have money?"
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">buy coffee</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x counter</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | The counter is now bare apart from a few unwanted cans of cola, which
+<b>Floyd</b> | may just be there for display purposes. The cafe will be closing up
+<b>Floyd</b> | shortly... Ferdia better hurry.
+<b>Floyd</b> |
+<b>Floyd</b> | Is he trying to dismiss everything that ever happened to us? Is he
+<b>Floyd</b> | dismissing my whole life with a glance? And why is he being so
+
+<b>Floyd</b> | insensitive? He was never like that before... Doesn't he realise how
+<b>Floyd</b> | much he hurt me tonight?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I think getting up from the table (or not) is the only real choice in the game, at least as far as moving the player on the map goes."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">kill myself</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't think things are quite that desperate yet.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">run amok</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "sing</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't sing very well. It's my adenoids.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Ben says (to floyd), "get cola</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't want anything from the counter. I just came here to escape the
+
+<b>Floyd</b> | girls for a while.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">wait</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Ferdia comes in, at long fucking last. "Hi Ferdia," I say.
+<b>Floyd</b> |
+<b>Floyd</b> | "Oh, hi Alex," he says as he brushes past me officiously. He heads over
+<b>Floyd</b> | to the girls.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "I hope Alex has been entertaining you," I can hear him say to them.
+<b>Floyd</b> | Then he laughs. He has the most annoying, offensive laugh you could
+<b>Floyd</b> | possibly imagine - he sounds like a horse being castrated.
+<b>Floyd</b> |
+<b>Floyd</b> | I am about to follow him over, but when I see him there laughing, and
+<b>Floyd</b> | the girls laughing, all all of them together, I feel nauseated. And the
+
+<b>Floyd</b> | cool evening air coming from the exit is so tempting... lulling me to
+<b>Floyd</b> | go...
+<b>Floyd</b> |
+<b>Floyd</b> | And I know then that the best thing I can do, the only thing I can do,
+<b>Floyd</b> | is to leave all of them. Leave all of them forever. So I walk out the
+<b>Floyd</b> | door, on to the main street.
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Ben</b> unmanifests his avatar.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">space</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>yandexx</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | The cool evening air calls me, and I follow it. I follow it through the
+<b>Floyd</b> | main street, past sleepy houses; I follow it to the quayside, where the
+
+<b>Floyd</b> | sea breeze is strongest. It's raining now, but the rain is soft and
+<b>Floyd</b> | comforting, caressing me as it falls. I feel as if I love everything in
+<b>Floyd</b> | the world, as if everything is singing to me, as if my mind is filled
+<b>Floyd</b> | with poetry and music. Everything, everything is beautiful now.
+<b>Floyd</b> |
+<b>Floyd</b> | I step up to the water's edge.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Quay
+<b>Floyd</b> | Everything here is so peaceful, so beautiful - why have I never noticed
+<b>Floyd</b> | it before? Raindrops dance on the river bay beneath my feet. Seagulls
+<b>Floyd</b> | play in the air above me. Old fishing boats sway gently with the
+<b>Floyd</b> | lapping of the water. And the air - I always thought the salt air was
+
+<b>Floyd</b> | foul before, but now it seems so fresh, so clean, so pure!
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">jump</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | I look down at the water beneath me, and then -
+<b>Floyd</b> |
+<b>Floyd</b> | Hey! You're asking me to kill myself? What the hell made you think I
+<b>Floyd</b> | wanted to do that? I'm young, I've still got lots to live for... it's
+<b>Floyd</b> | just that I just feel so restricted at the moment... and then of course
+
+<b>Floyd</b> | there is the Daniel thing. But don't think that means I want to end it
+<b>Floyd</b> | all! It can't always be like this! I know it can't. In fact, for all
+<b>Floyd</b> | you know, something could happen tonight, this very night, something to
+<b>Floyd</b> | make me love life again... And if that something happens, I'll seize it
+<b>Floyd</b> | with both hands!
+<b>Floyd</b> |
+
+<b>Floyd</b> | Where the hell am I, anyway?
+<b>Floyd</b> |
+<b>Floyd</b> | Quay
+<b>Floyd</b> | The quay must be the most miserable place in the whole town, especially
+<b>Floyd</b> | when the rain is pissing down like it is now. Beneath my feet, the
+<b>Floyd</b> | rain-pelted river flows like sludge, which probably has something to do
+
+<b>Floyd</b> | with all the raw effluent that's pumped into it. The smell, needless to
+<b>Floyd</b> | say, is truly nauseating. A handful of rusty old boats lie abandoned
+<b>Floyd</b> | against the quay wall, and seagulls scream overhead.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>DavidW</b>  says, "&gt;goodbye, cruel world"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x boats</font>"
+</TD><td></td><TD><b>Taleslinger</b>  asks, "What? Wasn't it all beautiful a second ago?"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Useless, rusty old boats, which are a complete fucking eyesore. They
+<b>Floyd</b> | are obviously only left there because nobody can be bothered to scrap
+
+<b>Floyd</b> | them.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">pray</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Nothing practical results from my prayer.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "x rain</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's soaking everything.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Yeah, what's the point in staying here.
+<b>Floyd</b> |
+<b>Floyd</b> | "Alex!" I hear a voice calling behind me. I turn around. It's Claire,
+
+<b>Floyd</b> | running hesitantly up to me.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says (to Taleslinger), "observant you"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">jump</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Oh come on, I've had enough suicide attempts for one day.
+<b>Floyd</b> |
+<b>Floyd</b> | "Are you okay? We were a bit worried about you after you ran out of the
+<b>Floyd</b> | Cafe, so we went looking for you."
+<b>Floyd</b> |
+<b>Floyd</b> | Ugh. I could just imagine Ferdia directing the search operations,
+
+<b>Floyd</b> | keeping a cool head under pressure, telling people to go here and
+<b>Floyd</b> | there.
+<b>Floyd</b> |
+<b>Floyd</b> | Claire steps a little closer to me and looks up into my eyes. "Is...
+<b>Floyd</b> | anything the matter? You can tell me... if you like."
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please select one:
+<b>Floyd</b> |
+<b>Floyd</b> | (1) "Nothing's wrong. Now go away."
+
+<b>Floyd</b> | (2) "No, I like standing here in the rain."
+<b>Floyd</b> | (3) "Yes. There is."
+<b>Floyd</b> |
+<b>Floyd</b> | Select a choice or 0 to keep quiet. &gt;&gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">2</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | "No, I like standing here in the rain."
+<b>Floyd</b> |
+<b>Floyd</b> | Claire sighs heavily as if about to deliver a baby whale.
+<b>Floyd</b> |
+<b>Floyd</b> | "Look... I get a little... nervous too... when I'm meeting guys for the
+
+<b>Floyd</b> | first time... if that's what you're worried about -"
+<b>Floyd</b> |
+<b>Floyd</b> | "No! No, that's not it at all!" I suddenly shout. "It's nothing to do
+<b>Floyd</b> | with that!" I stop for a moment, not really sure how to go on.
+<b>Floyd</b> |
+<b>Floyd</b> | "It's just that... I can't... do anything! I can't do anything!" I
+
+<b>Floyd</b> | scream at last. "It's like I'm trapped inside and can't get out and
+<b>Floyd</b> | can't be myself and... I'm stuck.... And I've no friends! - Not Ferdia,
+<b>Floyd</b> | he's an asshole, he doesn't count.... There's no-one I can be myself
+<b>Floyd</b> | with! No friends! And the only friend I ever had... my only friend -"
+<b>Floyd</b> |
+<b>Floyd</b> | I just break down in sobbing.
+
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | A few moments pass as I try to recover, sniffling away tears. Claire
+
+<b>Floyd</b> | looks up at me, tenderly. God, I can't believe I've made such a show of
+<b>Floyd</b> | myself in front of her. Why did I break down like that? And now she's
+<b>Floyd</b> | seen me crying... and heard all that crap....
+<b>Floyd</b> |
+<b>Floyd</b> | Claire speaks. "I'll... be your friend... if you like." Her lips are
+<b>Floyd</b> | trembling.
+
+<b>Floyd</b> |
+<b>Floyd</b> | I answer with a sniffle.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "aw."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says, "Man. Deus ex machina."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "Oh come on, I liked Claire from the start"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>yandexx</b>  says, "me too"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Don't worry; I'm sure we're about to blow it."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says, "I didn't play the start, so..."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "Just wait until it turns out she has 2 minutes to live"
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">talk to claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>yandexx</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Claire moves closer to me. We're standing very close now. She gazes
+
+<b>Floyd</b> | into my eyes, expectantly.
+<b>Floyd</b> |
+<b>Floyd</b> | I believe something is now supposed to happen.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">talk to claire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I think actions, rather than words, are required now.
+<b>Floyd</b> |
+<b>Floyd</b> | Claire still gazes at me, and I gaze back at her. Her appearance seems
+<b>Floyd</b> | to be changing every second - now I think she's angelic, beautiful; but
+
+<b>Floyd</b> | now I see her cracked lips and the hairy mole on her face.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>yandexx says (to floyd), "hug her</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Claire)
+
+<b>Floyd</b> | I could... and it would probably be nice... and warm... but I can't
+<b>Floyd</b> | help looking at that mole on her face...
+<b>Floyd</b> |
+<b>Floyd</b> | Our eyes are still fixed on each other. She's breathing a bit more
+<b>Floyd</b> | rapidly, I can tell. Her chest bobs up and down visibly.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x mole</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A hairy brown thing that's like a blot on her face. I can't help
+<b>Floyd</b> | looking at it.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Suddenly, Claire reaches out to me. Our hands touch for a moment, but I
+<b>Floyd</b> | recoil. I can't do this! I must run away! I turn and run, and I run,
+<b>Floyd</b> | and I keep on running, and I don't look back.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "oh man"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "OH FUCK YOU GAME"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says (to jacq), "You were right."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  smiles.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says (to jacq), "Girls always know stuff like that!"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Taleslinger</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | It was the right thing to do! The only thing I could do. Her cracked
+
+<b>Floyd</b> | lips and the mole on her face and that stupid expression - though
+<b>Floyd</b> | fairly pretty in a way - but I couldn't have given her what she wanted!
+<b>Floyd</b> | I wouldn't have put the same feeling into it, I would have hurt her.
+<b>Floyd</b> | This was for the best.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">press green</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Anyway, could you imagine if I had gone out with her, and her podgy
+<b>Floyd</b> | face and cracked lips, and Ferdia would be there with Alice looking
+
+<b>Floyd</b> | smug and condescending, and Wayne and Gordon and everyone in St. Enda's
+<b>Floyd</b> | knowing about it, and the hard time I'd get, and the hard time she'd
+<b>Floyd</b> | get? I wouldn't be able to take that! I wouldn't!
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | And then she saw me crying too! She saw me weak and crying and babbling
+<b>Floyd</b> | in front of her. And I'd remember that every time I met her, and she'd
+<b>Floyd</b> | remind me of this miserable night every time, and she'd be so
+<b>Floyd</b> | condescending in front of me. So conscious of my vulnerability. And I
+
+<b>Floyd</b> | don't think I could bear that.
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | And we'd always have to be together, her hanging out of me, me hanging
+<b>Floyd</b> | out of her, with the mole on her face, and everyone would be looking at
+<b>Floyd</b> | us and laughing. But that's not going to happen to me! I'm going to
+<b>Floyd</b> | have my freedom! And that's one thing you 'people of action' are never
+<b>Floyd</b> | going to understand. I'm keeping my freedom within me, and I'll laugh
+<b>Floyd</b> | at you, laugh at all of you, and laugh at you forever!
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |                                      . . .
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>yandexx</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | I am standing on the edge of the quay, by the river - it's cold, it's
+<b>Floyd</b> | raining, and seagulls are flying overhead. Then I hear a voice behind
+<b>Floyd</b> | me call my name. I turn around. It's Claire! She runs up to me. "I love
+
+<b>Floyd</b> | you, Alex," she says. And I say nothing, but put my arms around her,
+<b>Floyd</b> | and hold her close. And as we embrace, the rain beats down upon us, and
+<b>Floyd</b> | the cold wind whips around us, but we go on, holding each other, arm in
+<b>Floyd</b> | arm, and let the rest of the world GO FUCK ITSELF!
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Fang</b> pushes the green 'space' button.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Floyd</b> asks, "That game over already?  It was just getting good.  Wanna play another?"
+</TD><td></td><TD><b>yandexx</b>  says, "this can't be reality"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Wow."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "So, that's the game."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "Oh, huh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I know!  Let's play it again and see if we can get a different ending!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>yandexx</b>  says, "Nice game, really."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "Hey, that was kinda sweet"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  asks (of fang), "What, It happens quite often in my life. "I hate you! Do you want to marry me?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says (to Taleslinger), "I don't want to know about your date rape escapades"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "That ending was suspiciously similar to how he remembered Daniel."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "I guess there's multiple interpretations of what just happened"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  asks, "Are there?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "I only see one."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well, I didn't like it, but I wasn't meant to.  It was a good game, just not enjoyable.  Great writing, and well executed, given its intent."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  asks (of Bert), "So what just happened?"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says (to Bert), "yeah, I think it's pretty obvious Daniel is your alternate personality playing out your internal fantasies, causing you to stand around in the street swearing at nothing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emily</b>  says, "I think the only way to understand it is that, having totally failed to connect with Claire in reality, he has made her the basis of a substitute fantasy for the discarded Daniel fantasy"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "We went to being exactly the same as we were at the start of the game."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Emily), "yes"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says (to emily), "I agree."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emily</b>  says, "there doesn't strike me as any ambiguity here"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says, "(based on this review I just read)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "No, there's no ambiguity.  We now live in a magical fantasy land where moles no longer wigs us out."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "It's possible the status line would've made the last scene more explicit. Not sure."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "s/wigs/wig"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  asks, "*More* explicit?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emily</b>  says, "wigs wig us out, too"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Darn.  Another joke ruined by typo."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "It was pretty damn explicit if you ask me."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "Well, I was thinking that the preceeding bit could be him imagining what would happen, and then what he really did"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "if the status line says '(dreaming)', for example, then."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "At any rate, I'd be fine with stopping here and saving Punk Points for another week, since we're already at nearly 1.5 hours.  Thoughts?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>yandexx</b>  says, "Agree."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says (to W), "Then that would be ham-fisted an redundant."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  asks, "Will Punk Points make  us feel better?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Fang), "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "It can't make you feel any worse, I don't think."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "then I'm pro-punk points"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says, "&gt;SCORE. You have 32 out of 55 punk points."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to DW), "Yeah, I think a status bar clarification would be redundant at best and, at worst, ruin the effect."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Jacqueline), "hm. You could be right."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "So, personally, I absolutely loathe this game."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "Well, anyways, that was technically proficient and artistically interesting"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "More than any other IF game I can think of."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "Which is a tribute to the author's skill."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "but deeply frustrating"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "But I am not going to thank him for it."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "like a well made torture machine"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emily</b>  says (to Bert), "that's impressive"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Fang), "Well, it was intentionally frustrating."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "well, right"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says (to Jacq), "Which fits his analogy well."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "I think the author fully achieved what he set out to do"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "So, if you all would like to play Punk Points, you may start at will.  I need to step afk for a moment."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I didn't realize it'd take 1.5hrs to play Rameses."
+</TD><td></td></TR>
+
+<TR><td></td><TD><b>yandexx</b> says, "Let's go back to the Lounge."
+</TD><td></td><TD><b>Fang</b>  says, "mostly because we were fighting the game every step of the way"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says (to Fang), "Vice versa."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "indeed"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "come to think of it, a better pairing for this one would have been A Mome of Hope"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "er, Moment"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I think the one and only place you can significantly stall the game is by never taking the folder from Paddy."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  asks (of inky), "So we wouldn't have the risk of inadvertant cheerfulness afterward?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>yandexx</b>  says, "The PC would probably take the book himself."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Emily</b>  says, "and finish up with On Optimism"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>yandexx</b>  says, "Er, the folder."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Fang</b> disappears through an invisible gap in the MUD. You think you may have heard the sounds of chatting before the gap closed again.
+</TD><td></td><TD><b>DavidW</b>  says, "Was E-Mailbox another game in this vein? I can't remember sometimes which games are which."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "there was Mix Tape"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "kinda"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "or, wait, which vein do you mean"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "'sad me'"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "there's also [&nbsp;<A HREF="http://www.inky.org/if/comp05.html#onoptimism">LINK</A>&nbsp;]"
+
+</TD><td></td></TR>
+<TR><td></td><TD><b>inky</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>yandexx</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Taleslinger</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><TD><b>Jacqueline</b>  asks, "So, I'm back, but I take it we decided to hold off on Punk Points?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "As is evidenced by the mass exodus."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "looks like, yeah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "mmkay."</TD><td></td></TR>
+<TR><td></td><td></td></TR></TABLE><P ALIGN="CENTER"><FONT FACE="arial, sans-serif, helvetica" SIZE="1">
+		 <BR><BR>[ <a href="#top">TOP OF THIS PAGE</A> | <a href="interactive_fiction.html#clubfloyd">MORE CLUBFLOYD TRANSCRIPTS</A> | <a
+href="index.html">HOME</A> ]</FONT></P>
+
+<center><IMG SRC="graphics/black.jpg" WIDTH="557" HEIGHT="3"></center>
+		  <P ALIGN="CENTER"><A HREF="contact.html"><IMG SRC="graphics/footer.jpg"
+border="0"></A></P>
+</BODY>
+</HTML>

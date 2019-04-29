@@ -1,0 +1,3127 @@
+>look
+>load bonehead
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+ Late morning, September 23, 1908.  You're on your way to work, waiting
+ in line to get on the Ninth Avenue Elevated.  Play your cards right,
+ Fred, and it will be the worst day of your life.
+
+
+
+
+
+
+ (press any key)
+
+
+
+
+
+
+
+
+ Bonehead
+ A Regrettable and Mostly True Tale by Sean M. Shore
+ Release 1 / Serial number 110404 / Inform 7 build 6F95 (I6/v6.31 lib
+ 6/12N)
+
+ East of the Platform
+ It's a chilly September morning in lower Manhattan.  You're on your way
+ to the Polo Grounds for today's potentially decisive tilt against the
+ Cubs, who are only one-half game behind your Giants in the race for the
+ National League pennant.
+
+ You're just east of the platform for the Christopher Street stop of the
+ Ninth Avenue Elevated train.  A ticket-taker filters access to the
+ platform itself.  There's a short line ahead of you.  Not many people
+ are headed uptown at this hour, but then, not many people are in your
+ line of work.
+
+ Some stairs lead down to the street below.
+
+ [Everyone, especially those not pretty familiar with baseball, should
+ type ABOUT].
+
+
+     +--------+
+     | Part I |
+     +--------+
+
+>about
+
+
+
+
+
+
+
+    Credits
+    Baseball in Three Paragraphs
+    Hints
+
+
+
+
+
+
+
+
+ Bonehead is the mostly true story of Fred Merkle, major league baseball
+ player for the New York Giants, and the mistake he made as a teenager
+ that haunted him for the rest of his life.  There are some puzzles, but
+ the primary emphasis is on setting and story.  Poking around is
+ strongly encouraged.  Although it is possible to put the game in an
+ unwinnable state, it will become painfully obvious within two or three
+ moves that this has happened.  With a few UNDOs, you should always be
+ able to get to a final (if not exactly winning) ending.  Needless to
+ say, saving the game from time to time, especially once you're at the
+ ballpark, is recommended.
+
+ The game features a great deal of baseball-related activity and
+ language, some of it antiquated.  If you are unfamiliar with baseball,
+ you will doubtless be somewhat confused at times, but I have tried to
+ make the game as forgiving to novices as possible.  See Baseball in
+ Three Paragraphs in this menu for some basic information on the sport.
+ Also, be sure to talk to everyone you can talk to, especially a certain
+ right fielder on your team, and you will eventually learn what a
+ ballplayer needs to know.
+
+ Normal movement using compass directions is supplemented with GO TO
+
+ Conversation is handled using Eric Eve's terrific Conversation
+ Framework and Conversation Suggestions.  To initiate a conversation
+ with a character, you can TALK TO the character, or SAY HELLO TO him,
+ or ASK him ABOUT or TELL him ABOUT something.  Use TOPICS to display
+ conversation topics.  Occasionally a character might respond to
+ something not in his topics list.  You may also be able to REMEMBER
+ advice that other characters have given you previously.
+
+ From time to time the game will display images at the top of the
+ screen.  Having a reasonably large window size may be helpful.  Note
+ that these images are not in any way critical to game play, so
+ sight-impaired players will not be at a disadvantage.
+
+ Please send any comments, suggestions, and especially bug reports to
+ mister_patient@yahoo.com.  Thanks for playing.
+
+
+
+ Please press SPACE to continue.
+
+
+
+
+
+
+
+
+    Credits
+    Baseball in Three Paragraphs
+    Hints
+
+
+
+
+
+
+
+
+    Credits
+    Baseball in Three Paragraphs
+    Hints
+>go north
+
+
+
+
+
+
+
+
+    About Bonehead
+    Baseball in Three Paragraphs
+    Hints
+
+
+
+
+
+
+
+
+    About Bonehead
+    Baseball in Three Paragraphs
+    Hints
+
+
+
+
+
+
+
+
+ Many thanks to my testers: Brad Buchanan, Edward Dykhuizen, Inger Marie
+ Hognestad, Michael Knowles, Poster, Bob Reeves, Greta Shore, and Chris
+ White.  Any remaining shortcomings in this game are wholly mine.
+
+ Images are drawn from Wikipedia, Wikimedia Commons, and
+ www.baseball-reference.com.  All of them are in the public domain and
+ freely reusable to the best of my knowledge.
+
+ The brief quotes from Al Bridwell and Fred Snodgrass near the end of
+ the game are taken from Lawrence S. Ritter's terrific oral history of
+ early baseball, The Glory of Their Times (MacMillan Press, 1966).  The
+ quotes attributed to sportswriter W. H. Aulick are taken from the
+ September 23 and 24, 1908 issues of The New York Times.
+
+ Thanks to Graham Nelson, Emily Short, Eliuk Blau, Eric Eve, David
+ Fisher and Erik Temple for Inform 7 and a bunch of great extensions,
+ and to Aaron Reed for his book which got me started.
+
+ And thanks to Marta, Greta and Miranda for allowing me the time to do
+ this.
+
+
+
+ Please press SPACE to continue.
+
+
+
+
+
+
+
+
+    About Bonehead
+    Baseball in Three Paragraphs
+    Hints
+
+
+
+
+
+
+
+
+    About Bonehead
+    Baseball in Three Paragraphs
+    Hints
+>go north
+
+
+
+
+
+
+
+
+    About Bonehead
+    Credits
+    Hints
+
+
+
+
+
+
+
+
+    About Bonehead
+    Credits
+    Hints
+
+
+
+
+
+
+
+
+ Baseball is a pretty complicated game with many arcane rules -- I doubt
+ very many fans can explain the myriad ways in which a pitcher can
+ commit a balk (I can't) -- but for purposes of Bonehead, you only need
+ to know a very few things.  These can be learned by careful reading or
+ trial and error during play, but the information below may be helpful
+ for those unfamiliar with the game.
+
+ You are a batter, a runner, and a fielder in this game.  As a batter,
+ you stand at home plate, attempting to hit balls thrown by the pitcher
+ by swinging a bat.  (The mechanics of swinging will be explained to you
+ in-game; please make sure to talk to your teammates about the art of
+ hitting).  During batting practice, the pitcher throws balls for you to
+ hit easily.  In the "real" game, however, the pitcher is your opponent;
+ he attempts to keep you from hitting the ball, or hitting it well.  If
+ you swing and miss at a pitch, it is recorded as a strike against you.
+ If you decline to swing at a pitch, but the umpire deems it to be
+ within the strike zone (roughly, from your chest to your knees
+ vertically, and the width of the plate horizontally), it is also
+ recorded as a strike.  Three strikes, and you are out.  If the pitch is
+ outside the strike zone, it is recorded as a ball.  Four balls, and you
+ are granted first base automatically (a base on balls, or a walk).
+
+ If you hit the ball in fair territory during the game, you must run to
+ first base; and from there, possibly to second base, third base, and
+ back to home plate, which scores a run for your team.  The team with
+ the most runs at the end of the game is the winner.  Note that the
+ batter is required to try to advance to first base if he hits the ball
+ and it is not caught in the air by a fielder.  If there is already a
+ runner at first base, that runner must try to advance to second base.
+ If the ball arrives at second base before that runner does, the runner
+ is forced out.
+
+ As a fielder, you are on defense: your goal is to put out the opposing
+ players.  One of the primary means of accomplishing this is to touch
+ first base while in possession of the baseball, before the batter can
+ reach the base himself.  In Bonehead, you are a first baseman, so this
+ task mostly falls to you.  On a ground ball, the other fielders will
+ throw the ball to you; it's your job to catch it and make sure you're
+ touching first when it arrives.  Of course, it's not always possible to
+ do both at the same time.
+
+ For a more complete explanation, clearer than anything I could have
+ written, please see
+ [<a href="http://en.wikipedia.org/wiki/Baseball#Rules_and_gameplay.">LINK</A>]  Even better:
+ watch a game.
+
+
+
+ Please press SPACE to continue.
+
+
+
+
+
+
+
+
+    About Bonehead
+    Credits
+    Hints
+
+
+
+
+
+
+
+
+    About Bonehead
+    Credits
+    Hints
+>q
+
+
+
+
+
+
+
+
+ East of the Platform
+ You're just east of the platform for the Christopher Street stop of the
+ Ninth Avenue Elevated train.  A ticket-taker filters access to the
+ platform itself.
+
+ Some stairs lead down to the street below.
+
+>inventory
+   a ticket
+   a five-dollar bill
+   a short pencil
+
+>examine me
+ the New York Giants.  Very occasional first baseman.  The Giants
+ already have the veteran Fred Tenney at first, so you haven't started a
+ game all year.  Only the really dedicated fans know who you are.
+
+>xyzzy
+
+>examine pencil
+ stuffed it into a pocket, and promptly forgot about it.
+
+ The line shortens.  You're getting close to the front.
+
+>examine ticket
+
+>examine ticket-taker
+ He is taking tickets from the people in line, one by one.
+
+ "Hey mister."  There's a tug on your coat.  It's a young boy in line
+ right behind you.  "Hey, mister.  You're Fred Merkle, ain'tcha?  Hey,
+ Mister Merkle, can I have your autograph?"  He thrusts a scrap of
+ notebook paper at you.  Must be one of those really dedicated fans, I
+ guess.
+
+>kid, piss off
+ expectantly.
+
+ "Mister Merkle, the other kids'll never believe I saw a real live
+ ballplayer," says the kid.  He rubs his nose.
+
+>sign paper
+ level.  But as you do, you're jostled from behind.  Your IRT ticket and
+ five-dollar bill fall onto the floor and through a crack in the
+ platform, presumably down to the street below.  This is not what you
+ needed.
+
+ "Aw gee, mister, I'm real sorry about that.  I ain't got an extra
+ ticket to give you, but I would if I had one, honest!"  Embarrassed,
+ the kid hurries up to the ticket-taker, across the platform, and onto a
+ waiting train.
+
+>go south
+
+>look
+ You're just east of the platform for the Christopher Street stop of the
+ Ninth Avenue Elevated train.  A ticket-taker filters access to the
+ platform itself.
+
+ Some stairs lead down to the street below.
+
+>go down
+ Corner
+ Waves of pedestrians, carriages, and pushcarts make their way through
+ the noisy and crowded intersection of Christopher and Greenwich
+ Streets.  To the east, things are a little quieter.  Some stairs lead
+ up to the IRT station.
+
+ The area directly underneath the train platform is boarded up.
+
+ Standing on the corner is an officer of the New York Police Department.
+ He twirls his billy club and whistles, watching the activity on the
+ street, particularly any young ladies that happen by.
+
+ There's a rusted garbage can here, overflowing with trash.
+
+>Officer, hello
+
+>talk to officer
+
+>topics
+
+>tell officer about ticket
+ You ask the policeman for assistance in retrieving your lost ticket, or
+ getting on the IRT some other way.
+
+ "That's not my concern, boyo.  Move along now."
+
+>examine can
+ At least they managed to get the trash in the can.
+
+>examine boards
+ inaccessible.  There are a few holes in the boards, but nothing you
+ could even fit a hand through.
+
+>look through hole
+ what's down here. All you can see is some construction debris, and,
+ oddly enough, what looks like an old teapot.  Straining hard, you think
+ you might also be able to see your ticket sticking out of the mud.
+
+>inventory
+   a scrap of notebook paper
+   a short pencil
+
+>SAVE
+>cf1
+
+>pull board
+
+>pry boards
+
+>climb board
+
+>climb fence
+
+>hit boards
+
+>open baord
+
+>open board
+
+>examine ticket
+
+>search trash
+>poke ticket with pencil
+
+
+>search trash
+
+>inventory
+   a scrap of notebook paper
+   a short pencil
+
+>take cigarettes
+ "No digging around the trash here, kid.  That's vagrant behavior, and I
+ don't have vagrants on my beat."
+
+>examine pack
+ with interest that the top of the pack says "Base Ball Series -- 350
+ Subjects."
+
+>Officer, help me or go away
+
+>ask cop about board
+
+>open cigarettes
+
+>go up
+ East of the Platform
+ You're just east of the platform for the Christopher Street stop of the
+ Ninth Avenue Elevated train.  A ticket-taker filters access to the
+ platform itself.
+
+ Some stairs lead down to the street below.
+
+>open cigarettes
+
+>inventory
+   a scrap of notebook paper
+   a short pencil
+
+>go down
+ Corner
+ Waves of pedestrians, carriages, and pushcarts make their way through
+ the noisy and crowded intersection of Christopher and Greenwich
+ Streets.  To the east, things are a little quieter.  Some stairs lead
+ up to the IRT station.
+
+ The area directly underneath the train platform is boarded up.
+
+ Standing on the corner is an officer of the New York Police Department.
+ He twirls his billy club and whistles, watching the activity on the
+ street, particularly any young ladies that happen by.
+
+ There's a rusted garbage can here, overflowing with trash.  An unopened
+ pack of cigarettes sits within easy reach.
+
+>kick can
+
+>go east
+ Christopher Street
+ You're on Christopher Street in lower Manhattan, with myriad shops
+ lining the thoroughfare on either side and pedestrians pushing in both
+ directions.  You can hear the traffic of a crowded intersection to the
+ west.
+
+ In one of the shops -- a stationery store -- you spy a pretty young
+ woman standing behind a counter.
+
+ Leashed to a lamppost is an adorable little dog.
+
+>examine woman
+ out the shop window.  She appears to be keeping an eye on the dog.
+
+>SAVE
+>cf2
+
+>untie dog
+ surreptitiously untie the dog from the lamppost.  The dog seems content
+ to remain where it is, until a pigeon lands nearby.  Suddenly, the
+ little dog lunges at it, barking madly.  The pigeon flaps off to the
+ west, with the dog in pursuit.
+
+ The pretty young woman hears the ruckus, and looks up just in time to
+ see her dog headed down the street.  She follows in a hurry.
+
+>go west
+ Corner
+ Waves of pedestrians, carriages and pushcarts make their way through
+ the intersection of Christopher and Greenwich streets.
+
+ The little dog jumps up and down, slobbering all over the policeman,
+ who is not enjoying the experience.  Then the pretty shopgirl comes by
+ to claim her pet.  The policeman suddenly becomes an animal lover,
+ scratching the dog's ears and rubbing his belly.  He blushes and begins
+ chatting with the shopgirl.
+
+ The area directly underneath the train platform is boarded up.
+
+ There's a rusted garbage can here, overflowing with trash.  An unopened
+ pack of cigarettes sits within easy reach.
+
+>take cigarettes
+
+>open pack
+ several baseball cards, which you take.
+
+>examine cards
+ help sell the cigarettes, perhaps to a younger clientele.  You thumb
+ through them, one by one.  Let's see.  Bill Shipke, Sunny Jim Dygert,
+ Ed Konetchy, Honus Wagner, and -- hey, would you look at that -- Fred
+ Merkle!
+
+>examine merkle
+ That's your fine visage on the card.
+
+>examine sunny
+
+>look
+ The policeman continues to pet the dog and chat with the pretty young
+ woman, ignoring your presence.
+
+ There's a rusted garbage can here, overflowing with trash.
+
+>show merkle card to cop
+ be said, does not appear enthralled herself.  No matter; the policeman
+ impatiently waves you off.
+
+>take ticket with pencil
+
+>go up
+ East of the Platform
+ You're just east of the platform for the Christopher Street stop of the
+ Ninth Avenue Elevated train.  A ticket-taker filters access to the
+ platform itself.
+
+ Some stairs lead down to the street below.
+
+>show card to taker
+
+ You show the baseball card with your picture on it to the IRT worker.
+ He looks at it, examines you closely, and then says, "Hey, this is you!
+ I'm not supposed to let anyone past here without a ticket, but I'm not
+ going to be the one to hold up a member of the New York Giants!"  He
+ steps aside and waves you through.
+
+ On the Platform
+ You're on a wooden platform above Christopher Street, waiting alongside
+ a few other commuters for the next uptown train.
+
+ A newspaper drifts down the platform in the chilly autumn wind.
+
+>get newspaper
+
+ You hear a rumbling from the south.  The train is approaching.
+
+>SAVE
+>cf3
+
+>read newspaper
+ the sports headline.  But you already knew that; you were there, after
+ all.  You dropped two games and let the Cubs right back into the
+ pennant race.  Are you mentioned? -- there you are.  It's worse than
+ you thought.  Aulick is in rare form.
+
+ "Three men on bases.  Come on Crandall, and bang your way into a
+ million hearts.  Three men on bases, and a single will tie the score.
+ Come on Merkle, if they won't let Crandall bat.  We trust in you,
+ Merkle, darlin'. You'd never throw us down now, would you, Merkle, with
+ three men on bases, a single to tie, and a chance to win, out on the
+ inning?  Of course, you wouldn't.  Step up there, good man, and play
+ baseball.  Pshaw!  Why did you hit at that first one?  Why did you not
+ wait?  It wasn't worth your effort.  Pick out a bonny one, Merkle, and
+ then strike for the freedom of your sires, and a little bit more.  Not
+ that one, not that, Merkle.  Didn't we give you waiting orders?  Never
+ mind, there is one chance left.  Use it wisely.  Get a firm hold on
+ your bat, and slash away yonder along third-base line.  If you are not
+ in position, make it the right field, up as near the grandstand as you
+ think you can get without fouling.  Or, if you think you can pull it
+ off, a Texas leaguer will demoralize them.  Or you might -- Mr. Merkle
+ has struck out, gentlemen.  Donlin, Devlin, and Bridwell, what of them?
+ Were you ever at a reception where the lion of the hour and day came
+ over to your corner, shook hands with the neighbor on your right, and
+ the neighbor on your left, and then -- looked coldly past you and
+ walked on, leaving you with your dexter fork extended in the air and
+ feeling foolish all over?  That's how Messrs. Donlin, Devlin, and
+ Bridwell felt when Mr. Merkle passed them up.  Let's all go home."
+
+ Tomorrow's article is going to be much worse, I can assure you.
+
+>get on tracks
+ now, let's not contemplate suicide.
+
+ The train pulls into the station, the doors open, and you step into the
+ waiting car.
+
+ Aboard the IRT
+ You're on a standard elevated train car belonging to the Interborough
+ Rapid Transit company.  There's a long bench on each side of the car,
+ along with a few poles and straps for a standing-room only crowd, which
+ this isn't.
+
+>sit on bench
+
+ You and the other passengers are whisked uptown.  Rapid transit,
+ indeed.  In only a few minutes, you're already at 9th Avenue and 34th
+ Street.
+
+ Nearby, a gentleman you hadn't previously noticed scribbles furiously
+ on a notepad.  "Blast!," he says to no one in particular, as the tip of
+ his pencil breaks.  He looks at it forlornly.
+
+>pole dance
+
+>examine gentleman
+ demeanor.  He's holding a notepad.
+
+>examine notepad
+ reads:
+
+  Katie Casey was baseball mad,
+  Had the fever and had it bad.
+  Just to root for the home town crew,
+  Ev'ry sou
+  Katie blew.
+  On a Saturday her young beau
+  Called to see if she'd like to go
+  To see a show, but Miss Kate said "No,
+  I'll tell you what you can do":
+
+  Ta
+
+ It then ends abruptly with a dark smudge.
+
+ The train passes its counterpart noisily heading back downtown.
+
+>find boy
+
+>give pencil to man
+ The gentleman tears himself away from his notepad and looks up at you.
+
+ "You read my mind!," he says, taking the pencil.  "Thanks, mister!"  He
+ shakes your hand. "Jack Norworth.  Pleased to meet you."
+
+>tell him about me
+>tell Jack about me
+ game today.
+
+ "Well, I'll be damned!  Funny coincidence, that is," he says with a
+ wide grin.
+
+ The train continues its journey northeast toward the Harlem River.
+
+ game today.
+
+ "Well, I'll be damned!  Funny coincidence, that is," he says with a
+ wide grin.
+
+ The car gently rocks from side to side as it heads uptown.
+
+>undo
+ [Previous turn undone.]
+
+ Aboard the IRT (on the bench)
+ You're on a standard elevated train car belonging to the Interborough
+ Rapid Transit company.  There's a long bench on each side of the car,
+ along with a few poles and straps for a standing-room only crowd, which
+ this isn't.
+
+ Jack Norworth is seated here, notepad in hand.
+
+>ask Jack about poem
+
+ "No, not at all.  It's the beginnings of a song I might be able to use
+ in a musical revue.  I was waiting at the train station a little while
+ ago when I saw a sign that read Base Ball Today at the Polo Grounds."
+ He waves his hands to illustrate the sign.  "I thought to myself,
+ that's something that might make for a popular number."
+
+ You could ask him about himself, the next bit of the song, musical
+ revue or baseball; or tell him about yourself.
+
+>ask jack about himself
+
+ "I'm in the theater business.  I write songs for Tin Pan Alley, do a
+ little singing and acting in vaudeville, that sort of thing."
+
+>ask jack about the next bit of the song
+
+ "Oh yes," he says.  "Miss Casey will be telling her gentleman caller
+ that she'll go out with him as long as he brings her to the park, not a
+ show.  I had a fleeting grasp of the phrasing I wanted a minute ago.
+ It'll come back."
+
+>ask jack about musical revue
+
+ "I've been working on material for a new show, and the sign about the
+ ball game just inspired me.  I figure the song might sell a few
+ tickets, maybe draw some people in who might not otherwise go.  If
+ anyone still remembers the song in a year's time, so much the better."
+
+>ask jack about baseball
+ You ask him how much he knows about the game.
+
+ He chuckles.  "Not a lot, I must admit.  I've never actually been to a
+ game.  But I do know what happens in one: three strikes and you're
+ out!"
+
+ You could tell him about yourself.
+
+>tell jack about myself
+ game today.
+
+ "Well, I'll be damned!  Funny coincidence, that is," he says with a
+ wide grin.
+
+ The car gently rocks from side to side as it heads uptown.
+
+>tell jack about baseball
+ "Hm?"
+
+ He seems oddly distant, then raises a finger.  "If you'll excuse me for
+ just one moment," he says.  "I've got to get this down before I lose
+ the wording."  You watch as he appends to the notepad Katie Casey's
+ request of her young beau:
+
+  Take me out to the ball game,
+  Take me out with the crowd;
+  Buy me some peanuts and Cracker Jack,
+  I don't care if I never get back.
+
+ "There!  That's a good start, don't you think?"  The train slows down,
+ and Norworth glances out the window.  "Anyway, this is my stop here.
+ Very nice talking to you.  Good luck today!"
+
+ With that, he departs.
+
+>wait
+
+ The 104th Street station recedes in the distance.  As the train
+ approaches 110th Street, it slows down.  Looking out the window, you
+ can see that you're perhaps 100 feet above the ground.  The train
+ lurches dramatically to the right, practically at a 90 degree angle.
+ This is what they call Suicide Curve.
+
+>look
+ You're on a standard elevated train car belonging to the Interborough
+ Rapid Transit company.  There's a long bench on each side of the car,
+ along with a few poles and straps for a standing-room only crowd, which
+ this isn't.
+
+>examine poles
+
+ The train travels along 110th Street, and then lurches again, this time
+ to the left, as it turns onto 8th Avenue.  Good thing you're seated.
+
+>wait
+
+ The train pulls into the 155th Street station, its final stop, and
+ yours.  You're at the far end of Manhattan, with the Harlem River
+ before you, and the Bronx just across from it.  Below, you see the
+ glorious Polo Grounds.  Beyond that, back the direction you came, is
+ Coogan's Bluff, the great hill overlooking the park.  Fans without
+ tickets can sit atop the bluff and watch the game, albeit from very far
+ above.  They're affectionately known as hillbillies.
+
+ The wooden doors open.  The remaining passengers start filing out onto
+ the station platform.
+
+>out
+ Nice job getting here, Fred, but maybe it would have been better if you
+ hadn't.  Allow me to demonstrate with a vignette from your future.
+
+
+
+
+
+
+ (press any key)
+
+
+
+
+
+
+
+
+ Daytona Beach, Florida, 1929.  You're forty now.  Aside from a handful
+ of appearances in a Yankee uniform a few years ago, you've been retired
+ from the game for about nine years.  All told, you had a pretty good
+ career.  Lifetime batting average of .273, 61 home runs in the dead
+ ball era, good defense, and five World Series appearances (all losses,
+ unfortunately).  Still, no one remembers any of that.  What they
+ remember, and what they never, ever let you forget, is the ninth inning
+ on September 23, 1908.
+
+ After enough abuse to last many lifetimes, you move down here with
+ Ethel to become an anonymous citrus grower.  But you still love the
+ game, even if it made you a national laughingstock, so you reluctantly
+ agree to manage the local minor-league club.  It doesn't last long.
+
+ "I don't need Fred Merkle the Bonehead to teach me how to pitch!",
+ yells your own pitcher, when you lift him after a mediocre outing.  The
+ words reverberate around the sparsely-attended park.  The guy in the
+ back row must have heard it.
+
+ It's about the millionth time someone has called you a bonehead in the
+ last twenty years.  You'd think by now that either they'd be tired of
+ it, or that you'd be used to it.  Somehow, neither has happened.
+ Wherever you go, whatever you do, it is always with you.  In the
+ Baseball Encyclopedia, Ty Cobb's entry lists his nickname as "The
+ Georgia Peach."  Walter Johnson's says "The Big Train."  Care to guess
+ what yours says, Fred?
+
+ You quit your job as manager after the game.
+
+
+
+
+
+
+>look
+ (press any key)
+
+
+
+
+
+
+
+
+ September 23, 1908.  After your commute on the IRT, you arrive at your
+ workplace: the Polo Grounds.  They don't actually play polo here; they
+ did in the original Polo Grounds, where the Giants also played, but
+ this is a new park in a different location.
+
+ It's a couple of hours before game time.  You've put on your uniform
+ and you're warming up with the other fellows in preparation for sitting
+ on the bench as usual.  The team is taking batting practice, and a
+ small group is at the plate.  Roger Bresnahan, the Giants' veteran
+ catcher, is taking his swings right now.  Turkey Mike Donlin and
+ Christy Mathewson wait here for their turns.  Joe McGinnity is throwing
+ from the pitcher's mound sixty feet away, and Fred Snodgrass is acting
+ as catcher.
+
+ The first baseman, Fred Tenney, comes limping up to you, clutching his
+ back.  "Merkle, McGraw wants a word with you," he says, pointing to the
+ Giants' dugout to the south.  Tenney slowly shuffles off the field.
+
+
+
+
+
+
+>examine turkey
+ (press any key)
+ Home Plate
+ This is home plate in your home park.  During the game, there will be
+ fewer people loitering here, and somewhat less chit-chat.  A temporary
+ backstop has been wheeled in for batting practice.
+
+ The whole lovely ballpark stretches out before you, invitingly.  Your
+ dugout is to the south, first base is southeast, the pitcher's mound is
+ to the east, third base is northeast, and the visiting dugout is to the
+ north.
+
+ (You might be curious about these directions.  In the Polo Grounds, as
+ in many other parks, the left field foul pole is roughly due north.
+ This means that a pitcher standing on the mound facing the plate has
+ his left shoulder facing south.  This is why lefties are called
+ southpaws.)
+
+ Matty and Donlin lean up against the backstop, chatting, while
+ Bresnahan takes batting practice and Snodgrass catches anything
+ Bresnahan doesn't offer at.
+
+ McGinnity deals, and Bresnahan laces a solid line drive.
+
+
+     +---------+
+     | Part II |
+     +---------+
+
+>SAVE
+>cf4
+ Enter saved game to store: Ok.
+
+>examine turkey
+ McGraw back in Baltimore.  He's a terrific left-handed hitter, but what
+ he really wants to do is become an actor.  He married the actress Mabel
+ Hite a couple of years ago, which is probably good, since it will help
+ keep him out of trouble.  He's gotten in more than a few bar fights in
+ his day.  Back in Baltimore, he once urinated on a palm tree in the
+ lobby of the Academy of Music, and then punched a showgirl, ending up
+ in jail for a stretch.  He's called Turkey on account of how he sort of
+ waddles around.
+
+>examine mcginnity
+ Mr. McGraw.  He and Donlin both started their careers in '99, but Joe
+ got a bit of a late start, debuting when he was already 28.  Called the
+ Iron Man because he can throw pretty much every day (and did so twice
+ yesterday).  Also, he works in an iron foundry in the off-season.
+ Almost all ballplayers have to take a job over the winter to make ends
+ meet.
+
+ You hear a shout coming from the Giants' dugout.  "Merkle!"  You recall
+ with a start that Mr. McGraw is expecting you.
+
+>examine bresnahan
+ be, to endure the mockery and assaults on his manhood that occasioned
+ two of his innovations on the field: one, a helmet to be used while
+ batting; and the other, shin guards, like an English cricketer might
+ employ.  He's one of McGraw's favorites.
+
+>examine mcgraw
+
+>examine matty
+ in all of baseball right now.  I don't think I'm giving too much away
+ when I tell you that long after he has retired, he'll still be
+ considered one of the all-time greats.  On top of that, he's tall, very
+ handsome, educated (one of the few ballplayers who went to college),
+ and a natural at pretty much everything he does, including bridge.
+ He's one of the rare ballplayers who's accepted in polite society.
+ He'd be utterly detestable if he weren't such a decent fellow.
+
+ For many years, Christy and his brother Henry, who also pitched for the
+ Giants, held the record for most career wins by a sibling tandem --
+ Christy with 373, and Henry with 0.
+
+ "Merkle, let's hustle!" That's Mr. McGraw's voice.  Better get to the
+ dugout.
+
+>wait
+
+ Donlin gently mocks Bresnahan's weak ground ball.
+
+>inventory
+   a pair of brand-new spikes (tied) (being worn)
+   a cap (being worn)
+   a uniform (being worn)
+
+ Bresnahan's bat rings with solid contact.
+
+>examine spikes
+ The laces they came with are oddly slick and perhaps a bit short as
+ well, making them difficult to keep tied.
+
+ You hear a shout coming from the Giants' dugout.  "Merkle!"  You recall
+ with a start that Mr. McGraw is expecting you.
+
+>examine cap
+
+>examine uniform
+
+>remove uniform
+
+ You hear Mr. McGraw yell to no one in particular, "Where the hell is
+ Merkle?"
+
+>remove vap
+
+>remove cap
+ crowd.
+
+ Bresnahan curses as the pitch jams him and his hands sting.
+
+>jump
+
+>go south
+ Giants' Dugout
+ This is the home team's dugout, and the place where you spend the
+ majority of your time during actual games, since, well, you're not on
+ the field.  It is not luxurious -- just a plain wooden bench and a roof
+ to keep out the rain.  No amount of cleaning will ever remove the
+ fragments of a million peanut shells or the tobacco stains from this
+ place.  Home plate is north, and first base is northeast.
+
+ You can see McGraw here.
+
+ "Nice of you to drop by.  Next time when I call for you, rookie, you
+ come over!  Got it?  Tenney's back is acting up, and he won't be able
+ to go today.  You're starting at first base, batting seventh.  Go talk
+ to Matty to make sure you two are coordinating on the field.  Then when
+ you're ready, take some batting practice."
+
+ You could ask him about Tenney, the Cubs, batting practice or yourself.
+
+>ask him about the cubs
+
+ "They've played us tough all year, and now they're only a half-game
+ back.  Whoever wins today is in first place.  If we're going to win the
+ pennant, we need to take charge and bounce back from yesterday's mess.
+ Not going to be easy with Pfiester on the hill."
+
+ You could ask him about Tenney, batting practice, yourself or Pfiester.
+
+>as khim about pfiester
+
+>ask him about pfiester
+
+ "They don't call him Jack the Giant Killer for nothing.  He's been
+ murdering us all year, and he's maybe their fourth-best pitcher.  It's
+ infuriating, to say the least.  Ask some of the boys for tips on
+ hitting him."
+
+ You hear the crack of the bat as Bresnahan continues his batting
+ practice.
+
+>ask him about me
+
+ "Don't blow it," he says.
+
+ You hear a dull thud as Bresnahan pops one up.
+
+>ask about tenney
+
+ "I don't think he'll be out more than a day or two," he says, "but this
+ is your chance, kid.  Your first start.  Better make the most of it."
+
+>quit
+>go north
+>ask about quitting
+
+>go north
+ says, pointing at your spikes.  "Your laces."  You note that they are
+ untied.
+
+ Home Plate
+ This is home plate in your home park.  During the game, there will be
+ fewer people loitering here, and somewhat less chit-chat.  A temporary
+ backstop has been wheeled in for batting practice.
+
+ The whole lovely ballpark stretches out before you, invitingly.  Your
+ dugout is to the south, first base is southeast, the pitcher's mound is
+ to the east, third base is northeast, and the visiting dugout is to the
+ north.
+
+ Leaning against the backstop is a bat.
+
+ Bresnahan stands in against Joe McGinnity, with Snodgrass crouched
+ behind the plate.  Matty and Donlin watch the proceedings from behind
+ the safety of the backstop.
+
+>tie laces
+
+>examine bat
+ taper toward the handle.  Useful for hitting baseballs.
+
+>tie shoes
+
+>talk to matty
+ Matty turns to you.  "Oh hey, Fred.  I heard you'll be starting at
+ first today.  We'll be seeing a lot of each other, I think," he says
+ with a wink.
+
+ You could ask him about the Cubs, Pfiester, batting practice, hitting
+ or playing first.
+
+ Bresnahan's bat rings with solid contact.
+
+>ask him about playing first
+
+ "Yes, you and I will be seeing a lot of each other on the diamond this
+ afternoon.  I know you're a good glove, Fred, so I'm looking forward to
+ seeing what you can do out there today.  Just plant your foot on the
+ bag, and give the boys a nice target for the throw," he says with a
+ smile.  "But if the throw is off-line, forget about planting your foot.
+ Go to where the ball is.  The most important thing is to catch it.
+ We'd rather let the fellow be on first with an infield hit than be on
+ second on a throwing error."
+
+ (You can recall this advice later by typing REMEMBER MATTY'S ADVICE).
+
+>ask him about batting practice
+ next?"
+
+ "That's OK, Fred, you go as soon as you're ready.  Just get the bat and
+ STEP UP TO THE PLATE.  You can DROP THE BAT when you're done."
+
+ You hear the crack of the bat as Bresnahan continues his batting
+ practice.
+
+>ask about cubs
+
+ "Oh, Joe Tinker," he says without hesitation.  "He's had my number for
+ years.  But if you're talking about a rivalry on the mound, it's Three
+ Finger Brown.  He and I seem to match up on the mound an awful lot, and
+ he wins much more than his share.  But thankfully we won't be seeing
+ him today, unless maybe in relief."
+
+ You could ask him about Pfiester, hitting or Three Finger Brown.
+
+>ask him about Phiester
+
+>ask him about Pfiester
+
+ He smiles and says, "I'm one of the worst hitters on the club, Fred.
+ You might want to talk to someone with a chance of hitting him, like
+ Mike over there," pointing to Donlin.
+
+>ask him about hitting
+
+ He smiles and says, "I'm one of the worst hitters on the club, Fred.
+ You might want to talk to someone with a chance of hitting him, like
+ Mike over there," pointing to Donlin.
+
+>ask Donlin about hitting
+ "Say, Mike, how do you approach an at bat against a tough pitcher?"
+
+ "Well, kid, the way I see it, hitting is all about two things: pitch
+ recognition and timing.  You have to be able to identify a pitch right
+ out of the pitcher's hand, whether it's a fastball or a curve or a
+ change or a spitball or something else.  You have to get good at
+ anticipating where it's headed, too.  Pitchers are going to want you to
+ chase their pitch out of the strike zone; you have to make them throw
+ you your pitch.
+
+ And then there's timing.  Pitchers are trying to foul up your timing,
+ keep you off-balance, so they will vary the speed of their pitches.
+
+ If it's a fastball, it's coming hard; you'll need to start your swing
+ early.  For a fastball on the inside part of the plate, SWING EARLY TO
+ PULL.  For an outside fastball, SWING EARLY TO THE OPPOSITE FIELD.  If
+ they throw you something off-speed, like a changeup or a curve, it's
+ going to be deceptively slow; you want to keep your hands back and
+ swing late.  If it's inside, SWING LATE TO PULL, and if it's outside,
+ SWING LATE TO THE OPPOSITE FIELD.  Of course, if it's out of the strike
+ zone, you don't want to swing at all."
+
+ You could ask him about batting practice, Pfiester, pitch recognition,
+ pulling the ball or the opposite field.
+
+>talk to him about batting practice
+
+>ask him about batting practice
+ next?"
+
+ "That's OK, kid, you go when you're ready.  Just get the bat and STEP
+ UP TO THE PLATE.  You can DROP THE BAT when you're finished."
+
+ You could ask him about Pfiester, pitch recognition, pulling the ball
+ or the opposite field.
+
+ Bresnahan curses as the pitch jams him and his hands sting.
+
+>ask him about pitch recognition
+
+ "The first thing to identify is the spin.  A ball with backspin is
+ going to be a fastball or a changeup.  A ball with forward spin is
+ going to be a curveball.  A ball with no spin is a knuckleball, but
+ Pfiester doesn't throw one, so you don't have to worry about that.
+
+ You also want to get a look at the pitcher's grip if you can.  If the
+ pitcher's any good, his motion with the fastball and change is going to
+ look exactly the same, so you don't know which is which.  One way to
+ tell is to get a look at his pitching hand when he's in his windup or
+ in the set position.  If he's got two fingers spread out on top, and
+ the thumb underneath, that's a fastball.  If there's three fingers on
+ top, it means he's gripping it more tightly to slow it down.  It's a
+ changeup.  Two fingers on the side along the seam means it's a curve."
+
+ (You can recall this advice later by typing REMEMBER DONLIN'S ADVICE).
+
+>ask him about pulling the ball
+
+ "You can really drive an inside pitch if you try to pull it.  As a
+ righthander, you pull the ball to left field," he says.
+
+ You hear a dull thud as Bresnahan pops one up.
+
+>ask him about the opposite field
+
+ "You want to go the opposite way on a pitch on the outer half of the
+ plate.  To right field, in your case.  Left, in mine."
+
+>step up to the plate
+
+ Bresnahan takes his last cut and then walks over to talk hitters with
+ Matty.
+
+ Having decided you've seen enough of the park, you step in to replace
+ him, dig a comfortable spot for yourself with your spikes, heft your
+ bat on your right shoulder, and get ready.  The club's veteran, Iron
+ Man Joe McGinnity, is throwing batting practice today.  He's got a
+ bucket of baseballs that he'll be throwing nice and easy to you.
+ Everything will be somewhere near the strike zone, close enough that
+ you can hit it.  "I'll keep throwing, and you keep hitting," he hollers
+ from the mound.  "Just drop the bat to let me know when you're done."
+
+ McGinnity begins his delivery.  During his windup, you notice he's got
+ his index and middle fingers together, a little off-center.  The ball
+ starts high and inside, then drops vertically, with what appears to be
+ forward spin.
+
+>remember donlin's advice
+ Two fingers on top with backspin means it's a fastball; start your
+ swing early.  Two fingers on the seams with forward spin means it's a
+ curveball.  Three fingers on top with backspin means it's off-speed.
+ Start your swing late for those two.  If it's an inside pitch, pull the
+ ball; if it's outside, hit it to the opposite field.
+
+ You take the pitch, and the ball pops in Snodgrass's mitt.
+
+ Snodgrass flips a ball back to McGinnity.
+
+>wait
+
+ McGinnity winds up.  As he reaches the top of his motion, you can see
+ that he's gripping the ball with three fingers spread out on top.  The
+ pitch darts to the inner half of the plate, with what might be
+ backspin.
+
+>swing late to pull
+ drive over short.
+
+ He reaches down for another ball.
+
+>wait
+
+ McGinnity begins his delivery.  During his windup, you notice he's
+ gripping the ball with three fingers spread out on top.  The ball tails
+ away to the outer half of the plate, with what might be backspin.
+
+>swing late to the opposite field
+ first base position and into right field.  That's a nice piece of
+ hitting.
+
+ McGinnity regards your handiwork with evident satisfaction.
+
+ Snodgrass flips a ball back to McGinnity.
+
+>wait
+
+ McGinnity winds up.  As he reaches the top of his motion, you can see
+ that he's gripping the ball with three fingers spread out on top.  The
+ pitch tails away to the outer half of the plate, with what might be
+ backspin.
+
+>swing late to the opposite field
+ line and into the right field corner.  That's a nice piece of hitting.
+
+ McGinnity regards your handiwork with evident satisfaction.
+
+ He reaches down for another ball.
+
+>wait
+
+ McGinnity begins his delivery.  When he comes to a set position, you
+ notice he's gripping the ball with three fingers spread out on top.
+ The ball darts to the inner half of the plate, with what might be
+ backspin.
+
+>swing late to pull
+ miss hitting the sweet spot, settling for a sharp ground ball to third.
+ Even when you guess right, you don't always get good wood on the ball.
+ It's a game of inches, as they say.
+
+ McGinnity gets another ball.
+
+>wait
+
+ McGinnity winds up.  During his windup, you can see that he is grasping
+ the ball with two fingers spread out on top of the ball and his thumb
+ tucked underneath.  The pitch tails away to the outer half of the
+ plate, with tight backspin.
+
+>swing early to the opposite filed
+
+>swing early to the opposite field
+ ball down the line and into the right field corner.
+
+ McGinnity regards your handiwork with evident satisfaction.
+
+ He reaches down for another ball.
+
+>wait
+
+ McGinnity begins his delivery.  When he comes to a set position, you
+ notice he's got his index and middle fingers together, a little
+ off-center.  The ball starts high and outside, then drops vertically,
+ with what appears to be forward spin.
+
+>swing late to pull
+ two-hopper to short.
+
+ He grabs another ball from the bucket.
+
+>wait
+
+ McGinnity winds up.  As he reaches the top of his motion, you can see
+ that he is grasping the ball with two fingers spread out on top of the
+ ball and his thumb tucked underneath.  The pitch darts to the inner
+ half of the plate, with tight backspin.
+
+>swing early to pull
+
+ McGinnity gets another ball.
+
+>wait
+
+ McGinnity begins his delivery.  When he comes to a set position, you
+ notice he is grasping the ball with two fingers spread out on top of
+ the ball and his thumb tucked underneath.  The ball darts to the inner
+ half of the plate, with tight backspin.
+
+>swing early to pull
+
+ McGinnity turns around to watch.  He nods at you approvingly.
+
+ Snodgrass flips a ball back to McGinnity.
+
+>Well, hrm.  Shall we DROP THE BAT?
+
+>drop the bat
+ the backstop.  Matty steps in after you, and begins working on his
+ bunting with Joe.
+
+
+
+
+
+
+>drop the ball
+ (press any key)
+
+
+
+
+
+
+
+
+ The hour draws near for the first pitch.  Both clubs are nearly done
+ with their warm-ups.  The sausage vendors have begun frying up their
+ wares, and the smell has begun wafting through the park.  You can hear
+ the Ninth Avenue Elevated dropping off fans every few minutes.   Hank
+ O'Day, who will be calling balls and strikes today, is rubbing up a few
+ baseballs, and the groundskeeper is doing some last-minute tidying of
+ the mound, to conform to Matty's liking.
+
+ Your date with humiliation awaits you.  First, another taste of what's
+ to come.
+
+
+
+
+
+
+>buy a sausage
+ (press any key)
+
+
+
+
+
+
+
+
+ A Sunday morning in church, circa 1936.  People are milling around
+ before the start of the service.  They're your neighbors, for the most
+ part.  They know to tread lightly around certain subjects.  Some other
+ folks within earshot, not so much.  They're busy chattering away about
+ the pennant races.  You try to shut them out, but it's impossible.  You
+ can't not hear them.
+
+ The reverend isn't here today; looks like they've got a visiting
+ minister in.  He steps up to the pulpit, maybe a little nervous, clears
+ his throat.  The crowd take their seats and wait expectantly.  "I want
+ to begin," he says, forcing the sort of smile that accompanies a weak
+ joke, "by admitting to you an ugly secret.  I am from Toledo, Ohio;
+ birthplace of the infamous Fred 'Bonehead' Merkle!"
+
+ A few of the other parishioners gasp, and you can feel their eyes on
+ you.  Ethel squeezes your hand.  Well, that's just splendid.  It's one
+ thing to hear it when you're umpiring an exhibition game  -- as
+ happened a couple of years ago, the last time you tried to set foot on
+ a major league diamond.  But now you can't even come to church anymore.
+ You gather up Ethel and the kids and quietly walk out.
+
+ The final indignity: you weren't even born in Toledo.
+
+
+
+
+
+>tie shoes
+ (press any key)
+
+
+
+
+
+
+
+
+ The stands are packed with 20,000 cranks as the battle for the National
+ League pennant begins.  The game is a very tight affair.  For the first
+ four innings, Matty and Pfiester throw zeroes up on the board.  The
+ Cubs' defense is a little shaky, but the Gothams cannot capitalize.
+ You help out with a nice grab on Joe Tinker's line drive in the 2nd,
+ but up until the final frame, you do very little with the stick --
+ you're 0 for 2 with a walk.
+
+ In the fifth, the Cubs strike.  It's Tinker -- Matty's nemesis.  He
+ drives a ball to right that skips past Donlin.  While Turkey Mike
+ scrambles to retrieve it, Tinker circles the bases for a home run.
+ Cubs 1, Giants 0.
+
+ In the sixth, Donlin gets his revenge by driving in Buck Herzog with
+ the tying run.  Cubs 1, Giants 1.
+
+ The pitchers' duel continues for another inning.  Now it's the top of
+ the eighth.  You and the other Giants are out in the field, playing
+ defense.  Johnny Kling, the Cubs' catcher, leads off for Chicago.
+ There'll be a chance to avoid your fate here, if you so choose.
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.  Most are shouting encouragement; a few, perhaps
+ drunk, are heckling.
+
+
+     +----------+
+     | Part III |
+     +----------+
+
+>SAVE
+>cf5
+ Enter saved game to store: Ok.
+
+>tie shoes
+
+>inventory
+   a glove (being worn)
+   a pair of brand-new spikes (tied) (being worn)
+   a cap (being worn)
+   a uniform (being worn)
+
+ Matty deals to Kling.  It's a fadeaway -- a Matty specialty -- and it
+ runs right in on Kling's hands.  He makes a defensive swing, and taps a
+ slow roller towards Art Devlin at third.  Kling dashes towards first
+ base as Devlin barehands the ball.
+
+>remember matty's advice
+ "Just plant your foot on the bag, and give the boys a nice target for
+ the throw.  But if the throw is off-line, forget about keeping your
+ foot on the bag.  Step off and go to where the ball is.  The most
+ important thing is to catch it.  We'd rather let the fellow be on first
+ with a hit than be on second on a throwing error."
+
+ Devlin starts to throw, but sees that you're not covering the bag.  He
+ pockets the ball rather than risk throwing it into right field
+ somewhere.  The cranks are screaming bloody murder, all of it directed
+ at you.
+
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Devlin has just retrieved the ball and is about to throw over to first
+ base to complete the play.
+
+>plant foot on bag
+ out as a target for the throw from Devlin.
+
+ Devlin fires across the diamond.  The ball is headed right for you.
+
+>catch ball
+ steps.  The crowd lets out a collective sound of annoyance, but you
+ didn't have a chance of putting him out.  You flip the ball back to
+ Matty.
+
+>wait
+
+ Kling dusts himself off.  "Didn't think I'd beat that one out," he
+ says.  "Boy, Mathewson's been tough today, don't you think?  We're
+ lucky to have gotten anything off him at all."  He looks down, points
+ at your spikes and says "Hey, Fred, looks like your laces are untied.
+ You might want to look at that."
+
+>tie shoes.
+
+ Matty paces the circumference of the mound as he rubs up the baseball.
+
+>tie shoes.
+
+ Matty gets back on the rubber and looks over to the dugout.  McGraw is
+ signaling to Bresnahan.
+
+>plant foot on bag
+ out as a target for the throw from Devlin.
+
+ With one on and none out, the pitcher, Jack Pfiester, steps up to bat.
+ Bresnahan calls for time, and starts to trot out toward the mound.
+ Matty waves you in as well, along with Herzog, Bridwell and Devlin.
+
+>go northwest
+ need to field your position.
+
+ Matty is waving you over to confer with the other fellows.  Kling
+ whispers over to you, and points to the north: "Merkle, I think you're
+ wanted on the mound."
+
+>go to mound
+ This is the pitcher's mound.  It rises to a height of about fifteen
+ inches to give the pitcher a better angle from which to throw.  In the
+ old days, the hurler had a chalk-outlined box on level ground, and
+ could throw the ball from anywhere inside that area.  (Thus the
+ expression, "knocked out of the box", when a pitcher is hit hard by the
+ opposing team.)  Nowadays the pitcher must throw from the pitching
+ rubber.
+
+ Home plate is west; second base is east; first base is south; and third
+ base is north.
+
+ You can see a rosin bag here.
+
+ The entire infield is gathered here on the hill.  Bresnahan begins.
+ "All right.  Pfiester is obviously going to be sacrificing here.  Let's
+ go over what we're going to do."
+
+>listen
+
+ He looks at you and Devlin.  "Fred, Art: you two creep up a little bit
+ when he squares around to bunt and be prepared to field the ball if
+ it's hit your way."
+
+>SAVE
+>cf6
+
+>wait
+
+ He then turns to Bridwell and Herzog.  "Al, you cover second.  Fred, if
+ you field the bunt, Buck will cover first for you.  Otherwise, you
+ cover first as usual."
+
+>wait
+
+ "Matty, get ready to help out if the bunt is right at you."  With that,
+ Hank O'Day starts lumbering towards the mound to break up the
+ conference and get the game moving.
+
+>go to first
+
+
+ The Pitcher's Mound
+ This is the pitcher's mound.  It rises to a height of about fifteen
+ inches to give the pitcher a better angle from which to throw.  In the
+ old days, the hurler had a chalk-outlined box on level ground, and
+ could throw the ball from anywhere inside that area.  (Thus the
+ expression, "knocked out of the box", when a pitcher is hit hard by the
+ opposing team.)  Nowadays the pitcher must throw from the pitching
+ rubber.
+
+ Home plate is west; second base is east; first base is south; and third
+ base is north.
+
+ You can see a rosin bag here.
+
+ Bresnahan wraps things up.  "OK, everyone know what they're doing?"
+ The other fellows all nod their assent.  Bresnahan heads back behind
+ the plate, and Matty gives you a quick wink.  The other infielders,
+ including you, move back to their original positions.
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Johnny Kling is here, taking a short lead off first base.
+
+ Matty steps on the rubber.  He looks in at Bresnahan, who flashes the
+ signs.  Matty nods, and sets.  He gives a quick look back at Kling, to
+ make sure he's not taking a big lead.  Then he begins his windup.
+ Pfiester starts to square around to bunt, holding his bat right out in
+ front of him to deaden the ball.
+
+>creep up
+ Pfiester's bunt, should it come your way.
+
+ Matty sets and delivers.  The pitch rides up high and tight to
+ Pfiester.  There's nothing he can do with that pitch, but he tries to
+ bunt anyway.  The result is a two-hopper, straight to Matty.  Looks
+ like you've covering first base after all.  Kling takes off for second,
+ and Pfiester heads to first, disgusted.  Instead of a sacrifice bunt,
+ it's looking like a double play.  The cranks along the sidelines are
+ screaming "Two!  Two!".
+
+ Matty wheels around 180 degrees just as Bridwell reaches the bag.  He
+ fires.  Bridwell takes the throw and sweeps his foot across the bag,
+ just as Kling comes bearing down on him.  One out.  He steps to the
+ outfield side of the bag, and gets set to throw the ball to you, to
+ complete the double play.
+
+>plant foot on bag
+
+ Bridwell throws off-balance as he tries to get out of Kling's way.
+ Even as it leaves his hand, you can see that it's starting to tail
+ toward the home plate side of the bag.  It's still a little ways off,
+ but you can tell that it's going to be a real stretch to field this
+ cleanly when it arrives.  Time seems to slow down, as the image of a
+ botched play flashes before you.
+
+>go to ball
+
+>unplant foot
+
+>catch ball
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell has just thrown the ball to you.  It's not within reach yet,
+ but it's looking like it will be off-line.
+
+>field ball
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell has just thrown the ball to you.  It's not within reach yet,
+ but it's looking like it will be off-line.
+
+>step off
+
+>bag
+ throw from Bridwell.  It's now within reach.
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>catch ball
+ But then disaster strikes.  Your laces must have come untied again, and
+ you trip over yourself, just as you're about to apply the tag to the
+ Giant Killer.  Somehow Pfiester manages to avoid your toppling frame
+ with a deft bit of acrobatics.  He's safe, while you collapse in a pile
+ on the turf.
+
+ Fortunately, you're not injured, just a little embarrassed, but it was
+ an awkward play to begin with, and to most observers, it looked as if
+ you were trying to avoid being run over by Pfiester while tagging him.
+ Bridwell gets most of the blame for his errant throw.  The Cubs
+ ultimately win the game 2-1, which is terrible, of course, but you will
+ win other pennants with the Giants, and most importantly, you are not
+ humiliated.
+
+
+
+     *** It's not a total loss ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell's throw is as close to you as it's going to get.  It's now or
+ never, Fred.
+
+>tie shoes
+
+ The ball sails by as you make no attempt to catch it, ricochets off the
+ tarpaulin, and rolls halfway up the right field line.  Pfiester easily
+ trots into second, while Kling comes around to score.  The official
+ scorer gives you an error on the play.  The crowd boos your
+ mercilessly.  You even hear "bonehead" mixed in with the jeers.  Mr.
+ McGraw leaves the dugout to pull you from the game, a grave step when
+ taken in the middle of an inning.  Snodgrass goes out to replace you at
+ first.
+
+ "I don't know where your head is, Merkle, but it ain't in the game.  Go
+ hit the showers.  It'll be a long time before you start again in this
+ league," McGraw growls.
+
+ The one-run lead holds up: Cubs 2, Giants 1 is the final score, and the
+ Cubs are now in first place.
+
+
+     *** This is not a good way to end it ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell's throw is as close to you as it's going to get.  It's now or
+ never, Fred.
+
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell has just thrown the ball to you.  It's not within reach yet,
+ but it's looking like it will be off-line.
+
+>wait
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>get ball
+ your foot on the bag.  It skips past you, ricochets off the tarpaulin,
+ and bounces halfway up the right field line.  Pfiester easily trots
+ into second, while Kling comes around to score.  The official scorer
+ gives an error to Bridwell on the play.
+
+ The one-run lead holds up: Cubs 2, Giants 1 is the final score, and the
+ Cubs are now in first place.  From a team standpoint, this is obviously
+ a disaster.  Personally, though, this is a godsend.  You played a role
+ in the debacle, but Bridwell is the goat, not you.  You play the rest
+ of your career, and live the rest of your life, as a solid,
+ unremarkable, unremembered ballplayer.
+
+
+
+     *** The Giants have lost, but you have won ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell's throw is as close to you as it's going to get.  It's now or
+ never, Fred.
+
+>examine shoes
+ The laces they came with are oddly slick and perhaps a bit short as
+ well, making them difficult to keep tied.
+
+ The ball sails by as you make no attempt to catch it, ricochets off the
+ tarpaulin, and rolls halfway up the right field line.  Pfiester easily
+ trots into second, while Kling comes around to score.  The official
+ scorer gives you an error on the play.  The crowd boos your
+ mercilessly.  You even hear "bonehead" mixed in with the jeers.  Mr.
+ McGraw leaves the dugout to pull you from the game, a grave step when
+ taken in the middle of an inning.  Snodgrass goes out to replace you at
+ first.
+
+ "I don't know where your head is, Merkle, but it ain't in the game.  Go
+ hit the showers.  It'll be a long time before you start again in this
+ league," McGraw growls.
+
+ The one-run lead holds up: Cubs 2, Giants 1 is the final score, and the
+ Cubs are now in first place.
+
+
+     *** This is not a good way to end it ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>RESTORE
+>cf6
+
+>wait
+
+ He then turns to Bridwell and Herzog.  "Al, you cover second.  Fred, if
+ you field the bunt, Buck will cover first for you.  Otherwise, you
+ cover first as usual."
+
+>wait
+
+ "Matty, get ready to help out if the bunt is right at you."  With that,
+ Hank O'Day starts lumbering towards the mound to break up the
+ conference and get the game moving.
+
+>go to first base
+
+
+ The Pitcher's Mound
+ This is the pitcher's mound.  It rises to a height of about fifteen
+ inches to give the pitcher a better angle from which to throw.  In the
+ old days, the hurler had a chalk-outlined box on level ground, and
+ could throw the ball from anywhere inside that area.  (Thus the
+ expression, "knocked out of the box", when a pitcher is hit hard by the
+ opposing team.)  Nowadays the pitcher must throw from the pitching
+ rubber.
+
+ Home plate is west; second base is east; first base is south; and third
+ base is north.
+
+ You can see a rosin bag here.
+
+ Bresnahan wraps things up.  "OK, everyone know what they're doing?"
+ The other fellows all nod their assent.  Bresnahan heads back behind
+ the plate, and Matty gives you a quick wink.  The other infielders,
+ including you, move back to their original positions.
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Johnny Kling is here, taking a short lead off first base.
+
+ Matty steps on the rubber.  He looks in at Bresnahan, who flashes the
+ signs.  Matty nods, and sets.  He gives a quick look back at Kling, to
+ make sure he's not taking a big lead.  Then he begins his windup.
+ Pfiester starts to square around to bunt, holding his bat right out in
+ front of him to deaden the ball.
+
+>wait
+
+ Across the diamond, Devlin creeps up towards home plate.  Herzog
+ notices you not doing the same.  He flashes you a look as if to say,
+ Can't you follow instructions, Merkle?  Well, it's too late now.
+
+ Matty sets and delivers.  The pitch rides up high and tight to
+ Pfiester.  There's nothing he can do with that pitch, but he tries to
+ bunt anyway.  The result is a two-hopper, straight to Matty.  Looks
+ like you've covering first base after all.  Kling takes off for second,
+ and Pfiester heads to first, disgusted.  Instead of a sacrifice bunt,
+ it's looking like a double play.  The cranks along the sidelines are
+ screaming "Two!  Two!".
+
+ Matty wheels around 180 degrees just as Bridwell reaches the bag.  He
+ fires.  Bridwell takes the throw and sweeps his foot across the bag,
+ just as Kling comes bearing down on him.  One out.  He steps to the
+ outfield side of the bag, and gets set to throw the ball to you, to
+ complete the double play.
+
+>tie shoe
+
+ Bridwell throws off-balance as he tries to get out of Kling's way.
+ Even as it leaves his hand, you can see that it's starting to tail
+ toward the home plate side of the bag.  It's still a little ways off,
+ but you can tell that it's going to be a real stretch to field this
+ cleanly when it arrives.  Time seems to slow down, as the image of a
+ botched play flashes before you.
+
+>get off of first base
+
+>unplant feet
+
+>step off of first base
+ brand-new spikes (tied).
+
+>step off
+
+>catch ball
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell has just thrown the ball to you.  It's not within reach yet,
+ but it's looking like it will be off-line.
+
+>step off plate
+
+>step off bag
+ throw from Bridwell.  It's now within reach.
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>wait
+
+ The ball sails by as you make no attempt to catch it, ricochets off the
+ tarpaulin, and rolls halfway up the right field line.  Pfiester easily
+ trots into second, while Kling comes around to score.  The official
+ scorer gives you an error on the play.  The crowd boos your
+ mercilessly.  You even hear "bonehead" mixed in with the jeers.  Mr.
+ McGraw leaves the dugout to pull you from the game, a grave step when
+ taken in the middle of an inning.  Snodgrass goes out to replace you at
+ first.
+
+ "I don't know where your head is, Merkle, but it ain't in the game.  Go
+ hit the showers.  It'll be a long time before you start again in this
+ league," McGraw growls.
+
+ The one-run lead holds up: Cubs 2, Giants 1 is the final score, and the
+ Cubs are now in first place.
+
+
+     *** This is not a good way to end it ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell's throw is as close to you as it's going to get.  It's now or
+ never, Fred.
+
+>catch ball
+ But then disaster strikes.  Your laces must have come untied again, and
+ you trip over yourself, just as you're about to apply the tag to the
+ Giant Killer.  Somehow Pfiester manages to avoid your toppling frame
+ with a deft bit of acrobatics.  He's safe, while you collapse in a pile
+ on the turf.
+
+ Fortunately, you're not injured, just a little embarrassed, but it was
+ an awkward play to begin with, and to most observers, it looked as if
+ you were trying to avoid being run over by Pfiester while tagging him.
+ Bridwell gets most of the blame for his errant throw.  The Cubs
+ ultimately win the game 2-1, which is terrible, of course, but you will
+ win other pennants with the Giants, and most importantly, you are not
+ humiliated.
+
+
+
+     *** It's not a total loss ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>RESTORE
+>cf6
+
+>nod
+
+>wait
+
+ He then turns to Bridwell and Herzog.  "Al, you cover second.  Fred, if
+ you field the bunt, Buck will cover first for you.  Otherwise, you
+ cover first as usual."
+
+>examine herzog
+ year.  He's filling in today for Larry Doyle, who usually mans the
+ keystone for the Giants.  Kind of a cocky fellow, and tends to grate on
+ the opposing players' nerves.
+
+ "Matty, get ready to help out if the bunt is right at you."  With that,
+ Hank O'Day starts lumbering towards the mound to break up the
+ conference and get the game moving.
+
+>go to first base
+
+
+ The Pitcher's Mound
+ This is the pitcher's mound.  It rises to a height of about fifteen
+ inches to give the pitcher a better angle from which to throw.  In the
+ old days, the hurler had a chalk-outlined box on level ground, and
+ could throw the ball from anywhere inside that area.  (Thus the
+ expression, "knocked out of the box", when a pitcher is hit hard by the
+ opposing team.)  Nowadays the pitcher must throw from the pitching
+ rubber.
+
+ Home plate is west; second base is east; first base is south; and third
+ base is north.
+
+ You can see a rosin bag here.
+
+ Bresnahan wraps things up.  "OK, everyone know what they're doing?"
+ The other fellows all nod their assent.  Bresnahan heads back behind
+ the plate, and Matty gives you a quick wink.  The other infielders,
+ including you, move back to their original positions.
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Johnny Kling is here, taking a short lead off first base.
+
+ Matty steps on the rubber.  He looks in at Bresnahan, who flashes the
+ signs.  Matty nods, and sets.  He gives a quick look back at Kling, to
+ make sure he's not taking a big lead.  Then he begins his windup.
+ Pfiester starts to square around to bunt, holding his bat right out in
+ front of him to deaden the ball.
+
+>creep back
+
+>go back
+ Weren't you listening to Bresnahan?  You need to field your position,
+ which is first base.
+
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Johnny Kling is here, taking a short lead off first base.
+
+ Across the diamond, Devlin creeps up towards home plate.  Herzog
+ notices you not doing the same.  He flashes you a look as if to say,
+ Can't you follow instructions, Merkle?  Well, it's too late now.
+
+ Matty sets and delivers.  The pitch rides up high and tight to
+ Pfiester.  There's nothing he can do with that pitch, but he tries to
+ bunt anyway.  The result is a two-hopper, straight to Matty.  Looks
+ like you've covering first base after all.  Kling takes off for second,
+ and Pfiester heads to first, disgusted.  Instead of a sacrifice bunt,
+ it's looking like a double play.  The cranks along the sidelines are
+ screaming "Two!  Two!".
+
+ Matty wheels around 180 degrees just as Bridwell reaches the bag.  He
+ fires.  Bridwell takes the throw and sweeps his foot across the bag,
+ just as Kling comes bearing down on him.  One out.  He steps to the
+ outfield side of the bag, and gets set to throw the ball to you, to
+ complete the double play.
+
+>step off bag
+ throw from Bridwell.  It's now within reach.
+
+ Bridwell turns, but sees that you're not covering first.  He just holds
+ on to the ball, and Pfiester reaches on a fielder's choice.
+
+ The crowd boos your mercilessly.  You even hear "bonehead" mixed in
+ with the jeers.  Mr. McGraw leaves the dugout to pull you from the
+ game, a grave step when taken in the middle of an inning.  Snodgrass
+ goes out to replace you at first.
+
+ "I don't know where your head is, Merkle, but it ain't in the game.  Go
+ hit the showers.  It'll be a long time before you start again in this
+ league," McGraw growls.
+
+
+
+     *** This is not a good way to end it ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell has taken the throw from Matty, stepped on second, and retired
+ Kling.  He's now turning to throw the ball to first base to complete
+ the double play.
+
+>creep
+
+ Bridwell throws off-balance as he tries to get out of Kling's way.
+ Even as it leaves his hand, you can see that it's starting to tail
+ toward the home plate side of the bag.  It's still a little ways off,
+ but you can tell that it's going to be a real stretch to field this
+ cleanly when it arrives.  Time seems to slow down, as the image of a
+ botched play flashes before you.
+
+>get ball
+ CATCH it.
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>catch ball
+ your foot on the bag.  It skips past you, ricochets off the tarpaulin,
+ and bounces halfway up the right field line.  Pfiester easily trots
+ into second, while Kling comes around to score.  The official scorer
+ gives an error to Bridwell on the play.
+
+ The one-run lead holds up: Cubs 2, Giants 1 is the final score, and the
+ Cubs are now in first place.  From a team standpoint, this is obviously
+ a disaster.  Personally, though, this is a godsend.  You played a role
+ in the debacle, but Bridwell is the goat, not you.  You play the rest
+ of your career, and live the rest of your life, as a solid,
+ unremarkable, unremembered ballplayer.
+
+
+
+     *** The Giants have lost, but you have won ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell's throw is as close to you as it's going to get.  It's now or
+ never, Fred.
+
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell has just thrown the ball to you.  It's not within reach yet,
+ but it's looking like it will be off-line.
+
+>step off bag
+ throw from Bridwell.  It's now within reach.
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>catch ball
+ But then disaster strikes.  Your laces must have come untied again, and
+ you trip over yourself, just as you're about to apply the tag to the
+ Giant Killer.  Somehow Pfiester manages to avoid your toppling frame
+ with a deft bit of acrobatics.  He's safe, while you collapse in a pile
+ on the turf.
+
+ Fortunately, you're not injured, just a little embarrassed, but it was
+ an awkward play to begin with, and to most observers, it looked as if
+ you were trying to avoid being run over by Pfiester while tagging him.
+ Bridwell gets most of the blame for his errant throw.  The Cubs
+ ultimately win the game 2-1, which is terrible, of course, but you will
+ win other pennants with the Giants, and most importantly, you are not
+ humiliated.
+
+
+
+     *** It's not a total loss ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell's throw is as close to you as it's going to get.  It's now or
+ never, Fred.
+
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell has just thrown the ball to you.  It's not within reach yet,
+ but it's looking like it will be off-line.
+
+>go to second
+ which is first base.
+
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>jump
+
+ The ball sails by as you make no attempt to catch it, ricochets off the
+ tarpaulin, and rolls halfway up the right field line.  Pfiester easily
+ trots into second, while Kling comes around to score.  The official
+ scorer gives you an error on the play.  The crowd boos your
+ mercilessly.  You even hear "bonehead" mixed in with the jeers.  Mr.
+ McGraw leaves the dugout to pull you from the game, a grave step when
+ taken in the middle of an inning.  Snodgrass goes out to replace you at
+ first.
+
+ "I don't know where your head is, Merkle, but it ain't in the game.  Go
+ hit the showers.  It'll be a long time before you start again in this
+ league," McGraw growls.
+
+ The one-run lead holds up: Cubs 2, Giants 1 is the final score, and the
+ Cubs are now in first place.
+
+
+     *** This is not a good way to end it ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell's throw is as close to you as it's going to get.  It's now or
+ never, Fred.
+
+>undo
+ [Previous turn undone.]
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Bridwell has just thrown the ball to you.  It's not within reach yet,
+ but it's looking like it will be off-line.
+
+>step off bag
+ throw from Bridwell.  It's now within reach.
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>step on bag
+ out as a target for the throw from Bridwell.
+
+ The ball sails by as you make no attempt to catch it, ricochets off the
+ tarpaulin, and rolls halfway up the right field line.  Pfiester easily
+ trots into second, while Kling comes around to score.  The official
+ scorer gives you an error on the play.  The crowd boos your
+ mercilessly.  You even hear "bonehead" mixed in with the jeers.  Mr.
+ McGraw leaves the dugout to pull you from the game, a grave step when
+ taken in the middle of an inning.  Snodgrass goes out to replace you at
+ first.
+
+ "I don't know where your head is, Merkle, but it ain't in the game.  Go
+ hit the showers.  It'll be a long time before you start again in this
+ league," McGraw growls.
+
+ The one-run lead holds up: Cubs 2, Giants 1 is the final score, and the
+ Cubs are now in first place.
+
+
+     *** This is not a good way to end it ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>RESTORE
+>cf6
+
+>go to first base
+
+
+ The Pitcher's Mound
+ This is the pitcher's mound.  It rises to a height of about fifteen
+ inches to give the pitcher a better angle from which to throw.  In the
+ old days, the hurler had a chalk-outlined box on level ground, and
+ could throw the ball from anywhere inside that area.  (Thus the
+ expression, "knocked out of the box", when a pitcher is hit hard by the
+ opposing team.)  Nowadays the pitcher must throw from the pitching
+ rubber.
+
+ Home plate is west; second base is east; first base is south; and third
+ base is north.
+
+ You can see a rosin bag here.
+
+ He then turns to Bridwell and Herzog.  "Al, you cover second.  Fred, if
+ you field the bunt, Buck will cover first for you.  Otherwise, you
+ cover first as usual."
+
+>examine bag
+ just a little bit sticky.  Pitchers use it to get a better grip on the
+ ball when their hands get slick.
+
+ "Matty, get ready to help out if the bunt is right at you."  With that,
+ Hank O'Day starts lumbering towards the mound to break up the
+ conference and get the game moving.
+
+>get resin
+ are now dusted with rosin, making them very faintly sticky.
+
+ Bresnahan wraps things up.  "OK, everyone know what they're doing?"
+ The other fellows all nod their assent.  Bresnahan heads back behind
+ the plate, and Matty gives you a quick wink.  The other infielders,
+ including you, move back to their original positions.
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Johnny Kling is here, taking a short lead off first base.
+
+ Matty steps on the rubber.  He looks in at Bresnahan, who flashes the
+ signs.  Matty nods, and sets.  He gives a quick look back at Kling, to
+ make sure he's not taking a big lead.  Then he begins his windup.
+ Pfiester starts to square around to bunt, holding his bat right out in
+ front of him to deaden the ball.
+
+>creep up
+ Pfiester's bunt, should it come your way.
+
+ Matty sets and delivers.  The pitch rides up high and tight to
+ Pfiester.  There's nothing he can do with that pitch, but he tries to
+ bunt anyway.  The result is a two-hopper, straight to Matty.  Looks
+ like you've covering first base after all.  Kling takes off for second,
+ and Pfiester heads to first, disgusted.  Instead of a sacrifice bunt,
+ it's looking like a double play.  The cranks along the sidelines are
+ screaming "Two!  Two!".
+
+ Matty wheels around 180 degrees just as Bridwell reaches the bag.  He
+ fires.  Bridwell takes the throw and sweeps his foot across the bag,
+ just as Kling comes bearing down on him.  One out.  He steps to the
+ outfield side of the bag, and gets set to throw the ball to you, to
+ complete the double play.
+
+>step on plate
+
+>step on bag
+ You're already stepping on it.
+
+ Bridwell throws off-balance as he tries to get out of Kling's way.
+ Even as it leaves his hand, you can see that it's starting to tail
+ toward the home plate side of the bag.  It's still a little ways off,
+ but you can tell that it's going to be a real stretch to field this
+ cleanly when it arrives.  Time seems to slow down, as the image of a
+ botched play flashes before you.
+
+>step off bag
+ You take your foot off the bag, in an attempt to snare the errant throw
+ from Bridwell.  It's now within reach.
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>catch ball
+ But then disaster strikes.  Your laces must have come untied again, and
+ you trip over yourself, just as you're about to apply the tag to the
+ Giant Killer.  Somehow Pfiester manages to avoid your toppling frame
+ with a deft bit of acrobatics.  He's safe, while you collapse in a pile
+ on the turf.
+
+ Fortunately, you're not injured, just a little embarrassed, but it was
+ an awkward play to begin with, and to most observers, it looked as if
+ you were trying to avoid being run over by Pfiester while tagging him.
+ Bridwell gets most of the blame for his errant throw.  The Cubs
+ ultimately win the game 2-1, which is terrible, of course, but you will
+ win other pennants with the Giants, and most importantly, you are not
+ humiliated.
+
+
+
+     *** It's not a total loss ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>restore
+>cf6
+
+
+>examine ball
+ wrapped around a rubber and cork center.  Filthy and misshapen, because
+ the same ball is used for nearly the entire game.  Foul balls are
+ retrieved from the stands whenever possible.  Pitchers coat the thing
+ with dirt, tobacco juice, pine tar, whatever is available, to make it
+ more difficult to hit.  Late in a game, with the shadows advancing on
+ the field, the ball can become nigh-invisible to a hitter.  And nobody,
+ except Bresnahan, wears a batting helmet.
+
+ He then turns to Bridwell and Herzog.  "Al, you cover second.  Fred, if
+ you field the bunt, Buck will cover first for you.  Otherwise, you
+ cover first as usual."
+
+>put resin on ball
+
+ You pick up the rosin bag and toss it a couple of times.  Your hands
+ are now dusted with rosin, making them very faintly sticky.
+ You need to be holding the rosin bag before you can put it on top of
+ something else.
+
+ "Matty, get ready to help out if the bunt is right at you."  With that,
+ Hank O'Day starts lumbering towards the mound to break up the
+ conference and get the game moving.
+
+>get ball
+ CATCH it.
+
+ Bresnahan wraps things up.  "OK, everyone know what they're doing?"
+ The other fellows all nod their assent.  Bresnahan heads back behind
+ the plate, and Matty gives you a quick wink.  The other infielders,
+ including you, move back to their original positions.
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Johnny Kling is here, taking a short lead off first base.
+
+ Matty steps on the rubber.  He looks in at Bresnahan, who flashes the
+ signs.  Matty nods, and sets.  He gives a quick look back at Kling, to
+ make sure he's not taking a big lead.  Then he begins his windup.
+ Pfiester starts to square around to bunt, holding his bat right out in
+ front of him to deaden the ball.
+
+>undo
+ [Previous turn undone.]
+
+ The Pitcher's Mound
+ This is the pitcher's mound.  It rises to a height of about fifteen
+ inches to give the pitcher a better angle from which to throw.  In the
+ old days, the hurler had a chalk-outlined box on level ground, and
+ could throw the ball from anywhere inside that area.  (Thus the
+ expression, "knocked out of the box", when a pitcher is hit hard by the
+ opposing team.)  Nowadays the pitcher must throw from the pitching
+ rubber.
+
+ Home plate is west; second base is east; first base is south; and third
+ base is north.
+
+ You can see a rosin bag here.
+
+>touch ball
+
+ Bresnahan wraps things up.  "OK, everyone know what they're doing?"
+ The other fellows all nod their assent.  Bresnahan heads back behind
+ the plate, and Matty gives you a quick wink.  The other infielders,
+ including you, move back to their original positions.
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Johnny Kling is here, taking a short lead off first base.
+
+ Matty steps on the rubber.  He looks in at Bresnahan, who flashes the
+ signs.  Matty nods, and sets.  He gives a quick look back at Kling, to
+ make sure he's not taking a big lead.  Then he begins his windup.
+ Pfiester starts to square around to bunt, holding his bat right out in
+ front of him to deaden the ball.
+
+>RESTORE
+>cf6
+
+>get rosin
+ are now dusted with rosin, making them very faintly sticky.
+
+ He then turns to Bridwell and Herzog.  "Al, you cover second.  Fred, if
+ you field the bunt, Buck will cover first for you.  Otherwise, you
+ cover first as usual."
+
+>tie shoes
+ the laces, you feel pretty confident that they will finally stay tied.
+
+ "Matty, get ready to help out if the bunt is right at you."  With that,
+ Hank O'Day starts lumbering towards the mound to break up the
+ conference and get the game moving.
+
+>go to first base
+
+
+ The Pitcher's Mound
+ This is the pitcher's mound.  It rises to a height of about fifteen
+ inches to give the pitcher a better angle from which to throw.  In the
+ old days, the hurler had a chalk-outlined box on level ground, and
+ could throw the ball from anywhere inside that area.  (Thus the
+ expression, "knocked out of the box", when a pitcher is hit hard by the
+ opposing team.)  Nowadays the pitcher must throw from the pitching
+ rubber.
+
+ Home plate is west; second base is east; first base is south; and third
+ base is north.
+
+ You can see a rosin bag here.
+
+ Bresnahan wraps things up.  "OK, everyone know what they're doing?"
+ The other fellows all nod their assent.  Bresnahan heads back behind
+ the plate, and Matty gives you a quick wink.  The other infielders,
+ including you, move back to their original positions.
+
+ First Base
+ You stand a few steps behind and to the right of first base, wearing
+ your glove, and ready to field your position should the ball come your
+ way.  Matty is on the mound, looking in at Bresnahan behind the plate.
+ To your right is Buck Herzog, the second baseman.  The cranks along the
+ first base line are almost close enough to touch.  They're certainly
+ close enough to hear.
+
+ Johnny Kling is here, taking a short lead off first base.
+
+ Matty steps on the rubber.  He looks in at Bresnahan, who flashes the
+ signs.  Matty nods, and sets.  He gives a quick look back at Kling, to
+ make sure he's not taking a big lead.  Then he begins his windup.
+ Pfiester starts to square around to bunt, holding his bat right out in
+ front of him to deaden the ball.
+
+>creep up
+ Pfiester's bunt, should it come your way.
+
+ Matty sets and delivers.  The pitch rides up high and tight to
+ Pfiester.  There's nothing he can do with that pitch, but he tries to
+ bunt anyway.  The result is a two-hopper, straight to Matty.  Looks
+ like you've covering first base after all.  Kling takes off for second,
+ and Pfiester heads to first, disgusted.  Instead of a sacrifice bunt,
+ it's looking like a double play.  The cranks along the sidelines are
+ screaming "Two!  Two!".
+
+ Matty wheels around 180 degrees just as Bridwell reaches the bag.  He
+ fires.  Bridwell takes the throw and sweeps his foot across the bag,
+ just as Kling comes bearing down on him.  One out.  He steps to the
+ outfield side of the bag, and gets set to throw the ball to you, to
+ complete the double play.
+
+>catch ball
+
+ Bridwell throws off-balance as he tries to get out of Kling's way.
+ Even as it leaves his hand, you can see that it's starting to tail
+ toward the home plate side of the bag.  It's still a little ways off,
+ but you can tell that it's going to be a real stretch to field this
+ cleanly when it arrives.  Time seems to slow down, as the image of a
+ botched play flashes before you.
+
+>set off bag
+
+>step off bag
+ throw from Bridwell.  It's now within reach.
+
+ Pfiester is racing down the line as fast as he can, as the ball follows
+ its errant arc, as near your glove as it's going to get.  The Polo
+ Grounds faithful gasp.  It's going to be a tough play.
+
+>catch ball
+ you sweep your glove around, and barely graze a loose bit of the Giant
+ Killer's jersey as he ducks to avoid your tag.  The umpire Bob Emslie
+ saw it clear as day, though.  He makes a tagging motion with his arms,
+ and yells "You're out!".  The crowd erupts in sustained cheers for a
+ thrilling double play.  Matty turns to you and points, as if to say,
+ Great play, Fred.
+
+
+
+
+
+
+ (press any key)
+
+
+
+
+
+
+
+
+ You know, Fred, I admire your moxie.  Obstacle after obstacle in your
+ way, and you've cleared them all.  But I've been trying to tell you,
+ this isn't going to end well if you insist on trying to win.
+
+ Let me make it perfectly clear.  Your name becomes a verb in the sports
+ pages for the next few decades.  "To Merkle" means to make a colossal
+ blunder.  "Merkle's Boner" will be perhaps the most infamous play in
+ baseball history, at least until someone else screws up as badly.  You
+ already know about your common sobriquet.  Not a game will go by for
+ the rest of your career without your hearing it from someone.  To avoid
+ having your tombstone defaced with "Bonehead," as it surely would be,
+ you will be buried in an unmarked grave.  I am not joking, Fred.
+
+ You've got one more chance to avoid this.
+
+
+
+
+
+
+ (press any key)
+
+
+
+
+
+
+
+
+ Into the bottom of the ninth inning, with the score still knotted: Cubs
+ 1, Giants 1.  Cy Seymour, the Giants' center fielder, leads off the
+ inning by grounding out to second base: Evers to Chance.  Art Devlin
+ follows with a single off Pfiester to center field.  Moose McCormick,
+ your left fielder, hits a ground ball to Evers, who throws over to
+ Tinker at second base to put out Devlin.  McCormick is at first, with
+ two outs.  Batting next for New York: Fred Merkle.
+
+ The Polo Grounds crowd have risen to their feet in anticipation.  You
+ stand in the batter's box, bat in hand.  Sixty feet, six inches away,
+ Jack Pfiester glares in at Johnny Kling, getting the signs and twirling
+ the ball in his left hand.  Umpire Hank O'Day crouches behind Kling.
+ Out of the corner of your eye, you see Moose McCormick take his lead
+ off of first base.
+
+
+
+
+
+
+ (press any key)
+
+
+
+
+
+
+
+
+ Home Plate
+ Though the bugs are screaming, and there's a runner on first, and a
+ dugout full of teammates cheering you on, and two umpires and eight
+ other Cubs arrayed in front of you, your field of vision is narrowed to
+ the one man on the hill.  It's just you and Jack.
+
+ Pfiester winds up.  During his windup, you can see that he is grasping
+ the ball with two fingers spread out on top of the ball and his thumb
+ tucked underneath.  The pitch tails away to the outer half of the
+ plate, with tight backspin.
+
+
+     +---------+
+     | Part IV |
+     +---------+
+
+>SAVE
+>cf7
+ Enter saved game to store: Ok.
+
+>swing early to the opposite field
+ of it, fouling it off.  O'Day pumps his fist to indicate a strike.
+
+ Pfiester gets the ball back as the din of the crowd grows ever louder.
+
+>wait
+
+ Pfiester begins his delivery.  As he reaches the top of his motion, you
+ notice he is grasping the ball with two fingers spread out on top of
+ the ball and his thumb tucked underneath.  The ball tails away to the
+ outer half of the plate, with tight backspin.
+
+>swing early to the opposite field
+ of it, fouling it off.  O'Day pumps his fist to indicate a strike.
+
+ The crowd roars, trying to get you a hit through sheer force of will.
+
+>wait
+
+ Pfiester winds up.  When he comes to a set position, you can see that
+ what looks like a fastball grip.  The pitch flutters toward the inside
+ part of the plate with a sort of loose backspin.
+
+>swing late to pull
+ swing and a miss.  Strike three.
+
+ The official scorer marks a "K" for a strikeout.  Kling hands the ball
+ to O'Day and the Cubs head to the dugout, all smiles.
+
+ In the tenth, Chance leads off with a double, Steinfeldt advances him
+ to third on a groundout to Herzog, Hofman flies out, but then Tinker
+ strikes again.  He raps a single to left, Chance scores, and the Cubs
+ win.  They're now in first place in the National League, and never
+ surrender it.
+
+
+ Your failure in the ninth is painful, but short-lived.  Everyone
+ strikes out sometimes.  Two days from now, no one will remember the
+ details of what happened in the ninth inning.
+
+
+
+     *** Your failure is pleasantly mundane ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last
+ command?
+>undo
+ [Previous turn undone.]
+
+ Home Plate
+ Though the bugs are screaming, and there's a runner on first, and a
+ dugout full of teammates cheering you on, and two umpires and eight
+ other Cubs arrayed in front of you, your field of vision is narrowed to
+ the one man on the hill.  It's just you and Jack.
+
+ Pfiester has just thrown a pitch that looks like it won't get a piece
+ of the plate.
+
+>wait
+
+ You let the pitch go by.  It's well out of the strike zone.  "Ball
+ one!," yells O'Day.
+
+ Pfiester gets the ball back as the din of the crowd grows ever louder.
+
+>point to fence
+
+>wait
+
+ Pfiester begins his delivery.  As he reaches the top of his motion, you
+ notice what looks like a fastball grip.  The ball flutters toward the
+ inside part of the plate with a sort of loose backspin.
+
+>look
+ Though the bugs are screaming, and there's a runner on first, and a
+ dugout full of teammates cheering you on, and two umpires and eight
+ other Cubs arrayed in front of you, your field of vision is narrowed to
+ the one man on the hill.  It's just you and Jack.
+
+ You let the pitch go by.  It's well out of the strike zone.  "Ball
+ two!," yells O'Day.
+
+ The crowd roars, trying to get you a hit through sheer force of will.
+
+>wait
+
+ Pfiester winds up.  During his windup, you can see that he's gripping
+ the ball with three fingers spread out on top.  The pitch tails away to
+ the outer half of the plate, with what might be backspin.
+
+>swing late and to the opposite field
+
+>swing late to the opposite field
+ hands back, step with your left foot, and swing.  There's a satisfying
+ THWOCK sound: you got good wood on it.  The ball shoots between Evers
+ and Chance into right-center.  It's a clean single!  The crowd erupts.
+ McCormick takes off towards second base.
+
+>SAVE
+>cf8
+
+>run to first
+ wide turn, but there is no point in trying to stretch this into a
+ double.  Your run doesn't count.  You settle in at first as the Polo
+ Grounds cranks cheer wildly for you.  McCormick makes it all the way to
+ third.  The winning run is only ninety feet away.
+
+ First Base
+ You're a few steps off first base, this time as a baserunner.  The
+ cranks nearby are singing your praises.
+
+ First and third, two outs.  Frank Chance, the Cubs' manager and first
+ baseman, stands next to you, keeping you close to the base.  Al
+ Bridwell steps up to the plate.  In the on-deck circle, Matty gives you
+ a congratulatory nod.
+
+ For the first time this inning, you exhale.  You've done your part,
+ kept the inning alive, put the winning run in scoring position.
+ Everything is right with the world.
+
+ Pfiester and Kling agree on the pitch.  You take a few steps off first
+ in anticipation.  Maybe a few too many steps.  You catch Bridwell's
+ eye, and he looks at you as if to say, Are you nuts, Merkle?  Where are
+ you going?  Pfiester steps off the rubber, and you scamper back to
+ first.
+
+>step off bag
+
+ The crowd roars, cheering on Bridwell as he gets set for the pitch.
+
+>lead
+
+>wait
+
+ Pfiester winds, kicks and delivers.  Bridwell swings -- it's a hit!
+ McCormick starts racing home with the winning run, and the cranks go
+ insane.  They start pouring onto the field, whooping in celebration,
+ hoping to touch the idols of the Polo Grounds in the fading afternoon
+ light.
+
+ You are halfway to second base when Bridwell reaches first, and Matty
+ and McGraw greet McCormick at home.  The roar from the crowd is
+ deafening, and the field is swarming with the faithful.  The scene is
+ utter chaos.
+
+>go to second
+ wished this, lying awake, pleading with God, anyone, to let you go to
+ second base.  It has tormented you for decades.  You would trade
+ anything you've ever had, except your family, to go to second base.
+ But it's a trade you can't make.
+
+>wait
+>run to second
+ Avoiding the crush of fans, you head back to the Giants' dugout,
+ hollering after your victorious comrades.
+
+
+
+
+
+
+ (press any key)
+
+
+
+
+
+
+
+
+ What happens next is a matter of some dispute.
+
+ In one account, Johnny Evers turns and yells to Solly Hofman, the
+ center fielder.  Merkle hasn't touched second base.  The force play is
+ still in effect.  Hofman finds the ball, throws it back in toward
+ Evers, but Joe McGinnity, who had been coaching third, intercepts it,
+ and throws the ball away into the crowd somewhere.  In the meantime,
+ Evers gets the attention of O'Day, and somehow finds a ball.  Almost
+ certainly not the ball Bridwell hit.  Just a ball.  He steps on second,
+ and O'Day raises his right fist.  Three outs, and McCormick's run
+ doesn't count.
+
+ In some retellings, McGinnity doesn't intercept anything.  And Bridwell
+ and Snodgrass both later say that Evers never had any ball at all, and
+ that Chance just argued the point with O'Day.  What isn't in dispute is
+ that you never touched second base, and thus McCormick never scored.
+ It so happens that a few weeks earlier in Pittsburgh, a similar thing
+ happened, and Evers tried to get O'Day, who was umpiring that game as
+ well, to rule the player out.  He didn't, but Evers was determined to
+ press his claim if it were to ever happen again.  And this time, he
+ succeeded.
+
+ This is the most infamous play in baseball history.
+
+
+
+
+
+
+ (press any key)
+
+
+
+
+
+
+
+
+ There is no way to resume the game with the crowd on the field and the
+ shadows lengthening.  The Giants press their case with the National
+ League office, but the game is ruled a tie.  You are immediately
+ crucified by the fans, and especially by the newspapers.  "Censurable
+ stupidity on the part of player Merkle" is how W.H. Aulick puts it in
+ tomorrow's New York Times, ignoring the fact that the rule you violated
+ had never really been enforced.
+
+ For the next two weeks, the Giants play poorly, but manage to hang on
+ to a share of the lead in the pennant race.  The Merkle Game, as it is
+ now known, is replayed at the Polo Grounds on October 8.  It's Matty
+ for the Gothams once again.  Pfiester starts the game for the Chicagos,
+ but gives way quickly to Mordecai Three-Finger Brown.  Matty is uneven,
+ Cy Seymour drops an easy fly ball, and Brown is brilliant.  Chicago 4,
+ New York 2 is the final score.  The Cubs win the National League
+ pennant, and go on to beat Detroit in the World Series, four games to
+ one.
+
+ If it's any consolation, it's the last World Series they will ever win.
+
+
+
+
+
+
+ (press any key)
+
+
+
+
+
+
+
+
+ No one on the Giants blames you.  "Being held close to the bag, the
+ crowd rushing on him before he'd made it to second, seeing the winning
+ run already cross the plate, why I think anyone would have done the
+ same thing that Fred Merkle did," says Al Bridwell, many years later.
+
+ "It is very unfair to put all the blame on Merkle for our losing the
+ pennant in 1908," said Fred Snodgrass.  "McGraw never did, and neither
+ did the rest of us.  It was mostly the newspapers.  They were the ones
+ who invented the term 'bonehead.'  How could you blame Merkle, when we
+ lost the play-off game and besides that we lost five other games after
+ the Merkle incident?"
+
+ Mr. McGraw is always your stalwart defender, and for years, turns to
+ you for advice in tough spots.  But as far as the rest of the world is
+ concerned, you are Fred Merkle, bonehead.
+
+
+
+
+
+
+
+ (press any key)
+
+
+
+
+
+
+
+
+ July 30, 1950, the Polo Grounds.  It's not the same Polo Grounds.  The
+ old wood park burned down in 1911.  The new one is on the same patch of
+ ground.  You played here too for several years.  It's undergone some
+ renovations since -- most notably, to enclose the whole outfield -- but
+ it still feels like home.
+
+ It's Old Timers' Day.  To your children's amazement, you accepted the
+ Giants' invitation to come back.
+
+ New Giants' Dugout
+ You're in the dugout, mingling with some of the current ballplayers.
+ There's Sal Maglie, the Barber -- so named because he pitches so high
+ and tight that he shaves the hitters' stubble.  There's Alvin Dark, the
+ terrific young shortstop.  Over in the corner is Bobby Thomson.  He'll
+ have a big moment soon enough.  And you've just greeted the manager,
+ Leo Durocher, famous for coining the phrase, "Nice guys finish last."
+ He didn't say that exactly, but that's how people remember it.
+
+ The public address announcer gets the attention of the crowd: "Our next
+ returning player manned first base for the Giants from 1907 to 1915,
+ appearing on three pennant-winning clubs.  A great fielder, a great
+ hitter, and a leader on and off the field -- please welcome: Fred
+ Merkle!"
+
+>bow
+
+>out
+ the lovely, if crumbling, horseshoe-shaped park.  You brace for the
+ worst.
+
+ Then, something shocking and beautiful happens.  The crowd rises to
+ their feet, and they cheer.  No boos, no heckling, no insults.  Just
+ cheers and applause and love for you, Fred Merkle.  You wipe a tear
+ away, and trot towards first base.
+
+ Maybe Mr. Durocher was wrong.
+
+
+
+     *** The End ***
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command or READ the Bibliography and Afterword?

@@ -1,0 +1,2759 @@
+>load mingsheng
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Your interpreter says that it is at least v1.0 of the z-machine
+ standard, so it may be able to support extended Unicode.
+ Your font does not appear to be able to display Unicode Chinese
+ characters.
+
+ If your interpreter/font does not support full extended Unicode and
+ therefore does not display Chinese characters (Simsun for example, is a
+ font that can), you have the option of displaying the Pinyin
+ (Romanized) equivalent, complete with tone numbers. If you elect to
+ have this option on, they will appear in brackets where Chinese
+ characters would be, or next to them if your font supports them.
+
+ The option can be turned on and off later by using "pinyin on" and
+ "pinyin off".
+
+ For a brief explanation of Mandarin Pinyin tones, and to check the
+ current status, type "pinyin".
+
+ Press y to enable Pinyin, or anything else to continue without.
+
+ (Pinyin is turned off.)
+
+ You had heard a great many stories in your time. Your childhood had
+ been filled with tales of heroic characters who possessed great
+ spiritual powers and incredible skill in martial arts.
+
+ Many of those in your village were taught martial arts since childhood,
+ yet it always seemed to you that there was something lacking in such a
+ life - bearing always towards physical strength.
+
+ Others in your village had become important spiritual leaders, yet once
+ again such a one-sided devotion to the spiritual left something to be
+ desired.
+
+ One day, disheartened by this state of affairs, you decided to change
+ things. With only a few rumours of a temple complex to the east and a
+ crude map of the forest to guide you, you set off to follow legends of
+ a wise old man. The legends said that he had combined martial arts with
+ spiritual philosophy, apparently through the observation of nature -
+ how this was achieved, nobody seemed to know.
+
+ Arriving in the black of night, only to find yourself confronted by a
+ large door to the east, you decided to sleep on the problem and wait
+ until morning.
+
+ Sunlight on your face awakens you.
+
+ Mingsheng
+ A Chinese adventure
+ Copyright (c) 2004 by Deane Saunders.
+ Version Release 1.0
+ Release 1 / Serial number 040907 / Inform v6.30 Library 6/11
+ Please type ABOUT to display additional licence/game information.
+
+ Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+ Your cloth bag lies on the ground.
+
+>take bag
+ You pick up the bag and loop it over your arm. It hangs open slightly
+ but the contents will not fall out.
+
+>examine bag
+ The bag is a rather simple affair, made from a square of plain white
+ cloth tied together at the corners. You can keep your hands free by
+ wearing it looped over your arm.
+
+ It contains a jade knife.
+
+>examine knife
+ The knife, a simple instrument, is carved from a solid piece of
+ translucent green jade. The blade looks moderately sharp, designed
+ mainly for skinning animals. It looks as though anything too hard might
+ break the edge.
+
+>pinyin
+ Pinyin is the standard romanization of spoken Mandarin Chinese. It was
+ developed in around 1949 after the formation of the People's Republic
+ of China and replaced the Wade-Giles system, which was a far less
+ accurate way of representing spoken Chinese sounds. The Wade-Giles
+ method did not employ tone numbers, which tells the reader how to
+ pronounce the word accurately by altering the pitch. Pinyin manages to
+ do this however, by the use of numbers. A number is placed after each
+ syllable, which indicates the pitch in which it is to be spoken.
+ Discussing intricacies of the exact pronounciation of the different
+ consonants and vowels is beyond the scope of this game and it is left
+ up to the player's own discretion to find out more - however the tone
+ numbers are as follows:
+
+ 1: A long, even, high-level tone.
+ 2: A rising tone, starting at natural level and rising to the high
+ tone. Fairly short.
+ 3: A long, falling, rising tone. Starting at natural level, falling to
+ low level, rising to highest level.
+ 4: A short, falling tone, beginning at highest level, falling to low
+ level.
+ 5 (or numberless): A short, soft tone at normal speaking pitch. Also
+ known as the Neutral tone.
+
+ Pinyin with tone numbers is currently set to: OFF.
+
+>pinyin on
+ Pinyin with tone numbers is now turned ON.
+
+>examine me
+ Not much change since you last looked.
+
+>look
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+>examine thorns
+ The thorns look totally impassable, which is quite strange, given that
+ it was only the night before that you entered the grove from that
+ direction. The thorns themselves are almost two inches thick in places.
+ They look like they could only be cut by an incredibly sharp blade -
+ much sharper than your jade knife, unfortunately.
+
+>examine tracks
+ You can't see any such thing.
+
+>examine bamboo
+ The bamboo trees are tall and slender, much too thin to climb in any
+ usual manner.
+
+>cut bamboo with knife
+ Everything has purpose within the Dao, that is nature's way. However an
+ immediate use for the bamboo trees eludes you for the time being.
+
+>climb tree
+ The trees are far too thin to climb.
+
+>go north
+
+ (zhu4 jing4 de hu2) Serene lake
+ The forest opens out into a large clearing as the trees retreat from a
+ lake that dominates the centre. Flies lazily buzzing in the warm air
+ occasionally dip down to the water, causing a ripple to break the
+ mirror surface as a fish reacts in kind. Not even a breeze disturbs the
+ surface of this image of tranquility. A smooth boulder protrudes from
+ the centre of the lake, the reflection giving the impression of a
+ boulder floating in the sky. The white sand surrounding the water is
+ soft and warm underfoot.
+
+ A white crane stands majestically, unmoving, upon the rock at the
+ centre of the lake.
+
+>examine crane
+ The white Manchurian crane stands upon the boulder, its red crest
+ setting off an image of aloofness. Although it is unmoving, its eyes
+ display an intensity and hidden power as it watches the fish swimming
+ in the water deep below.
+
+>examine fish
+ The bright orange fish swim around in a leisurely manner, though always
+ wary of predators.
+
+>go north
+ You can't go that way.
+
+>look
+
+ (zhu4 jing4 de hu2) Serene lake
+ The forest opens out into a large clearing as the trees retreat from a
+ lake that dominates the centre. Flies lazily buzzing in the warm air
+ occasionally dip down to the water, causing a ripple to break the
+ mirror surface as a fish reacts in kind. Not even a breeze disturbs the
+ surface of this image of tranquility. A smooth boulder protrudes from
+ the centre of the lake, the reflection giving the impression of a
+ boulder floating in the sky. The white sand surrounding the water is
+ soft and warm underfoot.
+
+ A white crane stands majestically, unmoving, upon the rock at the
+ centre of the lake.
+
+>eat crane
+ (first taking the white crane)
+ It is much too far away to reach from the land.
+
+>lick crane
+ That's not a verb I recognise.
+
+>xyzzy
+ That's not a verb I recognise.
+
+>examine crane
+ The white Manchurian crane stands upon the boulder, its red crest
+ setting off an image of aloofness. Although it is unmoving, its eyes
+ display an intensity and hidden power as it watches the fish swimming
+ in the water deep below.
+
+>talk to crane
+ That's not a verb I recognise.
+
+>dance
+ That's not a verb I recognise.
+
+>examine door
+ You can't see any such thing.
+
+>sing
+ Your singing is abominable.
+
+>Falcon-punch crane
+ That's not a verb I recognise.
+
+>jump onto boulder
+ I only understood you as far as wanting to jump.
+
+>jump
+ You jump on the spot, fruitlessly.
+
+>play like bruce lee
+ That's not a verb I recognise.
+
+>look
+
+ (zhu4 jing4 de hu2) Serene lake
+ The forest opens out into a large clearing as the trees retreat from a
+ lake that dominates the centre. Flies lazily buzzing in the warm air
+ occasionally dip down to the water, causing a ripple to break the
+ mirror surface as a fish reacts in kind. Not even a breeze disturbs the
+ surface of this image of tranquility. A smooth boulder protrudes from
+ the centre of the lake, the reflection giving the impression of a
+ boulder floating in the sky. The white sand surrounding the water is
+ soft and warm underfoot.
+
+ A white crane stands majestically, unmoving, upon the rock at the
+ centre of the lake.
+
+>rock
+ That's not a verb I recognise.
+
+>party
+ That's not a verb I recognise.
+
+>examine fish
+ The bright orange fish swim around in a leisurely manner, though always
+ wary of predators.
+
+>examine boulder
+ Other than the peculiar visual effect caused by the reflection, the
+ boulder looks smooth and quite ordinary. It would be too small for you
+ to sit on.
+
+>meditate
+ That's not a verb I recognise.
+
+>sit on boulder
+ Everything has purpose within the Dao, that is nature's way. However an
+ immediate use for the boulder eludes you for the time being.
+
+>swim
+ The crane notices you the moment your foot touches the water. It does
+ not look particularly worried by your slow movements, but takes to the
+ air leisurely gliding over the bamboo trees to the west.
+
+ The fish brush up against you playfully as you swim, always managing to
+ avoid your touch when you try to stroke them.
+
+ After a few minutes you return to the lakeside and wait for your
+ clothing to dry a little.
+
+>undo
+ (zhu4 jing4 de hu2) Serene lake
+ [Previous turn undone.]
+
+>eat fish
+ (first taking the fish)
+ The fish are too quick, and constantly evade your grasp.
+
+>spit on fish
+ That's not a verb I recognise.
+
+>look
+
+ (zhu4 jing4 de hu2) Serene lake
+ The forest opens out into a large clearing as the trees retreat from a
+ lake that dominates the centre. Flies lazily buzzing in the warm air
+ occasionally dip down to the water, causing a ripple to break the
+ mirror surface as a fish reacts in kind. Not even a breeze disturbs the
+ surface of this image of tranquility. A smooth boulder protrudes from
+ the centre of the lake, the reflection giving the impression of a
+ boulder floating in the sky. The white sand surrounding the water is
+ soft and warm underfoot.
+
+ A white crane stands majestically, unmoving, upon the rock at the
+ centre of the lake.
+
+>examine flies
+ You can't see any such thing.
+
+>go south
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+>examine door
+ You can't see any such thing.
+
+>examine thorns
+ The thorns look totally impassable, which is quite strange, given that
+ it was only the night before that you entered the grove from that
+ direction. The thorns themselves are almost two inches thick in places.
+ They look like they could only be cut by an incredibly sharp blade -
+ much sharper than your jade knife, unfortunately.
+
+>inventory
+ You are carrying:
+   a cloth bag (being worn and open)
+     a jade knife
+
+>cut me with knife
+ Cutting you up would achieve little.
+
+>go east
+ The bamboo trees begin to peter out, and the forest is replaced with
+ slender, twisting cypresses.
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+>cut statue with knife
+ Cutting that up would achieve little.
+
+>go east
+ As you approach the door, the eyes of the Qilin either side flare with
+ a crimson hue. The door slams shut, giving a loud clunk as though being
+ barred before you can reach it.
+
+>examine qilin
+ Each qilin has a single horn on its forehead, a horse's hooves, a
+ deer's body and an ox's tail. The body is covered with what appears to
+ be a scaly pattern. Legend has it that a qilin appeared to the pregnant
+ mother of Confucius.
+
+ Actually on second thoughts, they do seem a little odd to you - you
+ have the distinct impression that you are being watched.
+
+>brandish knife
+ That's not a verb I recognise.
+
+>examine qilin
+ Each qilin has a single horn on its forehead, a horse's hooves, a
+ deer's body and an ox's tail. The body is covered with what appears to
+ be a scaly pattern. Legend has it that a qilin appeared to the pregnant
+ mother of Confucius.
+
+ Actually on second thoughts, they do seem a little odd to you - you
+ have the distinct impression that you are being watched.
+
+>search qilins
+ You can't see any such thing.
+
+>search qilin
+ Each qilin has a single horn on its forehead, a horse's hooves, a
+ deer's body and an ox's tail. The body is covered with what appears to
+ be a scaly pattern. Legend has it that a qilin appeared to the pregnant
+ mother of Confucius.
+
+ Actually on second thoughts, they do seem a little odd to you - you
+ have the distinct impression that you are being watched.
+
+>examine eyes
+ You can't see any such thing.
+
+>examine horn
+ It's just carved out of the stone for detail.
+
+>examine statues
+ The statues are arranged in pairs, each animal matched by its twin on
+ the opposite side of the path. If you face the archway at the eastern
+ end of the path, the animals stand to your left and right facing each
+ other in the order of Dog, Ram, Horse, Lion and Qilin - the Qilin being
+ just in front of the archway and the Dogs closest to you, at the
+ western end of the path.
+
+ Looking at the Qilin statues makes you feel slightly uneasy. For some
+ reason they send a slight shiver down your spine.
+
+>take horn
+ Everything has purpose within the Dao, that is nature's way. However an
+ immediate use for the details eludes you for the time being.
+
+>examine dog
+ The dogs look like friendly chows with upstanding ears protruding from
+ their heads. They sit as though awaiting their master's return.
+
+>examine ram
+ The rams are lying down on all fours, the pattern of their wool carved
+ with millions of chisel-strikes.
+
+ There is something interesting about the ram statue to your left; A
+ vine is draped over its back.
+
+>examine vine
+ When pulled out straight, the vine appears to be several yards long.
+ Being thin and dry, it does not seem suitable for use in climbing - it
+ certainly would not hold your weight.
+
+>cut vine
+ Cutting that up would achieve little.
+
+>take vine
+ Taken.
+
+>inventory
+ You are carrying:
+   a vine
+   a cloth bag (being worn and open)
+     a jade knife
+
+>hang self
+ That's not a verb I recognise.
+
+>examine horse
+ The horses look rather chubby, more like oversized ponies. As with the
+ other statues, they are stylised and lack realistic detail, tending
+ toward the more ornate.
+
+ There is something interesting about the horse statue to your right; A
+ clump of red moss sits on its nose, obscuring its gaze.
+
+>examine moss
+ It is a clump of spongy red moss.
+
+>take it
+ Taken.
+
+>look
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+>examine lion
+ The lions look fierce, standing erect and proud - their manes
+ elaborately carved with curls.
+
+ There is something interesting about the lion statue to your left; A
+ clump of green moss rests across its eyes.
+
+>take green moss
+ Taken.
+
+>inventory
+ You are carrying:
+   some green moss
+   some red moss
+   a vine
+   a cloth bag (being worn and open)
+     a jade knife
+
+>examine green moss
+ It is a clump of spongy green moss.
+
+>examine red moss
+ It is a clump of spongy red moss.
+
+>tie vine to green moss
+ There does not appear to be any benefit in attempting that.
+
+>put green moss on left qilin
+ You cover its eyes with the green moss.
+
+>put red moss on right qilin
+ As you obscure the vision of the guarding Qilin you hear a loud "clunk"
+ as though a mechanism has been released.
+
+>open door
+ You open the wooden door.
+
+>go east
+ The avenue of cypress trees change back to bamboo midway down the path.
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+ As you look around you feel a slight chill, noticing occasional
+ movement from the corner of your eye. When you turn to face it, there
+ is nothing to be seen.
+
+>examine bush
+ Saying that the bush "grows" is not quite accurate. It appears to have
+ died some time ago, the leaves on it are dried out.
+
+>take bush
+ The bush would be very difficult to uproot, so you settle for the
+ leaves instead.
+
+>boil tea
+ That's not a verb I recognise.
+
+>make tea
+ That's not a verb I recognise.
+
+>inventory
+ You are carrying:
+   some tea leaves
+   a vine
+   a cloth bag (being worn and open)
+     a jade knife
+
+>boil water in mouth with amazing fire superpower
+ That's not a verb I recognise.
+
+>form of: the human torch
+ That's not a verb I recognise.
+
+>examine archway
+ The archway towers high above you, spanning the width of the avenue
+ formed by the trees and passing through into the impenetrable forest on
+ either side of the path. Several exposed columns support the structure,
+ each having a tightly coiled dragon carved at the base. The stone
+ appears to have the same soft grey hue as the path and stone animals.
+
+ Set in the centre of the archway is a huge wooden door which is wide
+ open.
+
+>examine dragons
+ You can't see any such thing.
+
+>examine columns
+ You can't see any such thing.
+
+>go east
+ As you attempt to enter the cemetery you hear a strange rustling sound,
+ yet the leaves on the trees do not move. A strange mist begins to form
+ in front of you, between yourself and the cemetery entrance.
+
+ As you try to pass through it, it seems to solidify and darken at the
+ points of contact. The solidified parts seem to form limbs which move
+ to block your progress with rigid force. Each limb makes a strike at
+ you, driving you back from the entrance.
+
+ After several attempts at passing the strange apparition, you are
+ forced to give up. The vapour fades back to nothing, leaving no trace.
+
+ The old man must have come this way at some point in time - perhaps
+ there is a way of learning whatever fighting principles he had learned
+ from nature.
+
+>examine mist
+ You can't see any such thing.
+
+>examine cemetery
+ You can't see any such thing.
+
+>look
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+ As you look around you feel a slight chill, noticing occasional
+ movement from the corner of your eye. When you turn to face it, there
+ is nothing to be seen.
+
+>examine pavings
+ The path is made from tightly interlocked slabs of stone. The winds
+ keep the floor clean.
+
+>move pavings
+ Everything has purpose within the Dao, that is nature's way. However an
+ immediate use for the paved path eludes you for the time being.
+
+>listen
+ You think that you hear distant voices on the wind. As you begin to pay
+ attention, they stop.
+
+>look
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+ As you look around you feel a slight chill, noticing occasional
+ movement from the corner of your eye. When you turn to face it, there
+ is nothing to be seen.
+
+>go south
+ You can't go that way.
+
+>face movement
+ That's not a verb I recognise.
+
+>close eyes
+ You can't see any such thing.
+
+>Yeah
+ That's not a verb I recognise.
+
+>w.w.s
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+ The soft bamboo-leaf floor covering changes to a cold, slimy rock floor
+ as you enter the earth. The lighting becomes dull and subdued.
+
+ (dong4 xue4) Rocky tidal cavern
+ The air in the cave is cold and damp. A chill wind blowing inwards from
+ the sea causes your eyes to sting in the salt-laden air. The tide chews
+ at the jagged rocks which protrude from the ocean surface several yards
+ out. Boulders being rolled under the surface make loud rumblings like
+ distant thunder - they sound like they could smash anything. The water
+ looks uninviting - the rocks threaten to dash the foolish swimmer to
+ pieces. Behind you, to the north is a passageway leading up to the
+ surface.
+
+ A small cleft is visible in the rock next to the entrance.
+
+>examine cleft
+ The cleft in the rock is a narrow horizontal slit, roughly two feet
+ from the floor of the cavern. It measures roughly four or five inches
+ high, by about two feet across.
+
+ From the gloom within, you can just make out the shape of a black
+ snake.
+
+>examine snake
+ The snake's body is about an inch in diameter by three feet long. Two
+ piercing yellow eyes stare unwavering from the velvety black background
+ of its skin. For all its unnerving appearance, it seems to be a
+ peaceful creature.
+
+ It appears to be sitting on a pebble.
+
+>examine pebble
+ A smooth, flat pebble - the kind you used to skim lakes with as a
+ child.
+
+>take snake
+ Peaceful, until you approach it. You decide not to find out if it is
+ poisonous.
+
+>take pebble
+ Despite the snake's peaceful appearance, it may not be wise to try to
+ take the pebble out from under it. Perhaps there is some way of moving
+ the snake first.
+
+>inventory
+ You are carrying:
+   some tea leaves
+   a vine
+   a cloth bag (being worn and open)
+     a jade knife
+
+>cut snake with knife
+ Cutting him up would achieve little.
+
+>give vine to snake
+ The black snake doesn't seem interested.
+
+>tie vine to snake
+ There does not appear to be any benefit in attempting that.
+
+>sing
+ Your singing is abominable.
+
+>look
+
+ (dong4 xue4) Rocky tidal cavern
+ The air in the cave is cold and damp. A chill wind blowing inwards from
+ the sea causes your eyes to sting in the salt-laden air. The tide chews
+ at the jagged rocks which protrude from the ocean surface several yards
+ out. Boulders being rolled under the surface make loud rumblings like
+ distant thunder - they sound like they could smash anything. The water
+ looks uninviting - the rocks threaten to dash the foolish swimmer to
+ pieces. Behind you, to the north is a passageway leading up to the
+ surface.
+
+ A small cleft is visible in the rock next to the entrance.
+
+>hit snake with vine
+ A stick is best for keeping things at arm's length.
+
+>swim
+ The sea in this region would be impossible to swim in - it would smash
+ you to a pulp and wash your remains up on a beach somewhere.
+
+>swim anyway
+ I only understood you as far as wanting to swim.
+
+>snake, w
+ The black snake has better things to do.
+
+>go north
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+>se
+ The bamboo forest ends abruptly, giving way to a rocky cliff, which you
+ begin to descend.
+
+ (ya2) Cliffs
+ As you stand with your back to the cliff, the view ahead of you appears
+ to be nothing but a blur fading from dark grey sea below, through to a
+ light powder blue sky.
+
+ A narrow path winds its way down the cliff face to the water level
+ below, where a small alcove seems to collect debris, and upwards over
+ the edge of the cliff to the bamboo forest.
+
+>examine path
+ The path is cut deep into the cliff face. It does not look like it will
+ give way any time soon.
+
+>examine sea
+ You can't see any such thing.
+
+>examine debris
+ You can't see any such thing.
+
+>go down
+
+ (ya2 di3) Cliff base
+ Not much can be seen from this vantage point. A thin veil of fog blocks
+ the view out to sea. The waters below churn menacingly, the spume a
+ milky white.
+
+ The ledge here forms a small alcove, which is only a couple of metres
+ across. It continues up the cliff face, where it vanishes from sight.
+
+ Debris seems to get washed in here and collects on the rocky ledge.
+
+>examine alcove
+ You can't see any such thing.
+
+>swim
+ The sea in this region would be impossible to swim in - it would smash
+ you to a pulp and wash your remains up on a beach somewhere.
+
+>examine sea
+ The sea is dark with mud stirred up from the bottom, and totally
+ restless.
+
+>examine debris
+ The debris is a mess of rubbish, mainly wood pounded to pieces by the
+ action of the sea on the rocks.
+
+>search it
+ After a thorough search of the debris you uncover a sturdy bamboo
+ stick, which you take.
+
+>search debris
+ After a thorough search of the debris you uncover nothing.
+
+>go up
+
+ (ya2) Cliffs
+ As you stand with your back to the cliff, the view ahead of you appears
+ to be nothing but a blur fading from dark grey sea below, through to a
+ light powder blue sky.
+
+ A narrow path winds its way down the cliff face to the water level
+ below, where a small alcove seems to collect debris, and upwards over
+ the edge of the cliff to the bamboo forest.
+
+>go northwest
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+>tie stick to knife with vine
+ I only understood you as far as wanting to tie the sturdy bamboo stick
+ to the jade knife.
+
+>go south
+ The soft bamboo-leaf floor covering changes to a cold, slimy rock floor
+ as you enter the earth. The lighting becomes dull and subdued.
+
+ (dong4 xue4) Rocky tidal cavern
+ The air in the cave is cold and damp. A chill wind blowing inwards from
+ the sea causes your eyes to sting in the salt-laden air. The tide chews
+ at the jagged rocks which protrude from the ocean surface several yards
+ out. Boulders being rolled under the surface make loud rumblings like
+ distant thunder - they sound like they could smash anything. The water
+ looks uninviting - the rocks threaten to dash the foolish swimmer to
+ pieces. Behind you, to the north is a passageway leading up to the
+ surface.
+
+ A small cleft is visible in the rock next to the entrance.
+
+>tie stick to knife
+ You would achieve nothing by this.
+
+>poke snake
+ As you prod the snake with the stick, it decides to move. Being so
+ close to the crevice it startles you, causing you to lose your grip on
+ the stick which clatters down into the back of the cleft beyond your
+ reach.
+
+ The snake slithers off, apparently turning the corner and leaving the
+ cave.
+
+>move snake with stick
+ You can't see any such thing.
+
+>take pebble
+ Taken.
+
+>examine cleft
+ The cleft in the rock is a narrow horizontal slit, roughly two feet
+ from the floor of the cavern. It measures roughly four or five inches
+ high, by about two feet across.
+
+ There does not appear to be anything in the cleft.
+
+>SAVE
+>cf6
+ Enter saved game to store: Ok.
+
+>cry
+ That's not a verb I recognise.
+
+>Can we try sharpening the knife on the boulder?
+ That's not a verb I recognise.
+
+>go north
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+>go north
+
+ (zhu4 jing4 de hu2) Serene lake
+ The forest opens out into a large clearing as the trees retreat from a
+ lake that dominates the centre. Flies lazily buzzing in the warm air
+ occasionally dip down to the water, causing a ripple to break the
+ mirror surface as a fish reacts in kind. Not even a breeze disturbs the
+ surface of this image of tranquility. A smooth boulder protrudes from
+ the centre of the lake, the reflection giving the impression of a
+ boulder floating in the sky. The white sand surrounding the water is
+ soft and warm underfoot.
+
+ A white crane stands majestically, unmoving, upon the rock at the
+ centre of the lake.
+
+>examine pebble
+ A smooth, flat pebble - the kind you used to skim lakes with as a
+ child.
+
+>skim lake
+ You do not have a suitable container.
+
+>skim pebble
+ You suddenly have an irresistible urge, dating back to your childhood.
+ The pebble skims across the surface of the lake, its path curving as
+ though guided by the Dao, leaping several times until it clatters
+ against the boulder, landing in the water with a 'plop'.
+
+ The crane gives an undignified shriek at the sudden close disturbance
+ and darts away through the trees to the south.
+
+>sharpen knife on boulder
+ That's not a verb I recognise.
+
+>use knife with boulder
+ I only understood you as far as wanting to use the jade knife.
+
+>shout
+ I didn't understand that sentence.
+
+>go south
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+ The snake and crane are sitting at opposite ends of the clearing,
+ apparently waiting for each other to move.
+>push space
+
+ The crane lunges at the snake and a pitched battle ensues.
+
+ The crane's fighting style seems rather angular, distinct movements
+ that do not flow readily into one another. It appears to be relying on
+ speed and power in order to fight.
+>push space
+
+ The snake's fighting style seems smooth and soft, one movement flows
+ into the next without distinct boundaries. It does not look suited to
+ win a fight against the crane.
+
+ The crane appears to have the upper hand, its forceful attacks seem to
+ get the better of the snake.
+
+ The snake's movements become more fluid, enabling it to avoid the
+ crane's attacks by letting itself move with them.
+
+ The flowing movements of the snake manage to defeat the strength of the
+ crane, each blow diverted by the snake's soft movements. Eventually the
+ crane is forced to give up and flies off, leaving the snake to make its
+ way in peace.
+
+>think
+ What a good idea.
+
+>study crane
+ That's not a verb I recognise.
+
+>inventory
+ You are carrying:
+   some tea leaves
+   a vine
+   a cloth bag (being worn and open)
+     a jade knife
+
+>learn crane jutsu
+ That's not a verb I recognise.
+
+>watch crane
+ You can't see any such thing.
+
+>snake
+ That's not a verb I recognise.
+
+>go east
+ The bamboo trees begin to peter out, and the forest is replaced with
+ slender, twisting cypresses.
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+>go east
+ The avenue of cypress trees change back to bamboo midway down the path.
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+ As you look around you feel a slight chill, noticing occasional
+ movement from the corner of your eye. When you turn to face it, there
+ is nothing to be seen.
+
+ As you think, you begin to realize that the area surrounding the lake
+ manifests a lot of Yang elements. The brightness, the warmth, clarity
+ and creative aspects all point to it. There is an element of Yin,
+ however, in the stillness of the lake and softness of the water.
+
+>go east
+ As you attempt to enter the cemetery you hear a strange rustling sound,
+ yet the leaves on the trees do not move. A strange mist begins to form
+ in front of you, between yourself and the cemetery entrance.
+
+ As you try to pass through it, it seems to solidify and darken at the
+ points of contact. The solidified parts seem to form limbs which move
+ to block your progress with rigid force. Each limb makes a strike at
+ you, driving you back from the entrance.
+
+ After several attempts at passing the strange apparition, you are
+ forced to give up. The vapour fades back to nothing, leaving no trace.
+
+ The old man must have come this way at some point in time - perhaps
+ there is a way of learning whatever fighting principles he had learned
+ from nature.
+
+ You begin to get the idea that the cavern contains much Yin. It is
+ dark, cold, destructive and murky - yet the motion and activity of the
+ sea, along with the hardness of the rocks, embodies some part of Yang.
+
+>imitate snake
+ That's not a verb I recognise.
+
+>wait
+ Time passes.
+
+>slither
+ That's not a verb I recognise.
+
+>wait
+ Time passes.
+
+ You come to the understanding that the bamboo forest appears to be a
+ balancing point between the Yin and Yang of the lake and cavern - and
+ that there are elements of Yin within Yang, and vice versa. One cannot
+ exist without the other.
+
+>consider yin
+ That's not a verb I recognise.
+
+>think about yin
+ I only understood you as far as wanting to think.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+ After witnessing the battle between the crane and snake, you begin to
+ understand that it is possible for soft motion to overcome rigidity.
+ The snake demonstrates this in its yielding style - as do the rocks and
+ sea. The hardest stone can be worn by the motion of water, from its
+ gentlest to its most fierce action.
+
+ You begin to wonder if this philosophy can be used to overcome others
+ in battle.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>go east
+ As you attempt to enter the cemetery you hear a strange rustling sound,
+ yet the leaves on the trees do not move. A strange mist begins to form
+ in front of you, between yourself and the cemetery entrance.
+
+ As you try to pass through it, it seems to solidify and darken at the
+ points of contact. The solidified parts seem to form limbs which move
+ to block your progress with rigid force. Each limb makes a strike at
+ you, driving you back from the entrance.
+
+ As you attempt to fight the strange entity, you realize that the
+ principle that you have learned from observing the crane and snake
+ fight can be of use. You begin to parry the blows with gentle
+ movements, allowing the force to move past you.
+
+ After several moments of cunning feints and deflections, you manage to
+ pass the entity, which fades away - leaving the pathway quiet once
+ again, with the obstruction gone.
+
+ The path ends, and the forest either side retreats to form a clearing.
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>wait
+ Time passes.
+
+>examine mound
+ The mound has a gentle slope, flattened at the top where the marker
+ stands. It is approximately five feet high, by about twenty feet across
+ at the bottom. Sparse, dry grass populates the bank, with a few longer
+ tufts near the top.
+
+>examine marker
+ The stone is perched on top of the large mound, its sides a polished,
+ shimmering black - possibly jet or some other stone that you do not
+ recognise. Deeply chiseled characters stand out on the front of it,
+ embossed with gold. Perhaps this person was revered by someone, had a
+ wealthy family or was some other kind of important figure. The name,
+ (wu3 jiu4 huo) Wu Jiu-Huo, is unfamiliar.
+
+ At the base of the shrine is a tiny hole.
+
+>examine hole
+ You cannot tell how deep the hole is, but it is very small - about a
+ quarter of an inch in diameter. Ashen smudges mark the surface of the
+ stone just below it.
+
+>put finger in hole
+ You can't see any such thing.
+
+>inventory
+ You are carrying:
+   some tea leaves
+   a vine
+   a cloth bag (being worn and open)
+     a jade knife
+
+>lower vine into hole
+ That's not a verb I recognise.
+
+>put vine in hole
+ The vine does not fit in the hole.
+
+>look
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>examine stones
+ The smaller stones appear to be grave markers only a foot or two high,
+ characters adorning most of them - while a few have weathered smooth.
+ After looking at several of them, you realize that the names are
+ written in an archaic style, and none of them are even vaguely
+ familiar.
+
+>pray
+ Nothing practical results from your prayer.
+
+>examine pagoda
+ The pagoda must have been magnificent in its day. Three tiers of bright
+ orange tiled roofing sweep down, supported by bright green painted
+ wooden pillars and beams. Ricepaper screens adorn the windows, while an
+ ornately carved door stands at the top of the steps that run up to the
+ raised floor level. Of course now, the tiles have faded and are stained
+ with muck and lichen. The paint is peeling from the woodwork, the
+ screens are gone and the frames of the door and windows stand empty.
+
+>examine muck
+ You can't see any such thing.
+
+>take pagoda
+ That's hardly portable.
+
+>examine mountains
+ You can't see any such thing.
+
+>go east
+ You can't go that way.
+
+>look
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>go south
+
+ (ta3) Inside pagoda
+ Despite the air of decay that the outside (and indeed the inside) of
+ the building presents, there is a strange homely warmth to it. A sense
+ of stillness and focus pervades your being, making you feel relaxed yet
+ alert. The structure above creaks in the sunlight, while the floating
+ feathers of birds roosting above add to the dreamlike quality.
+
+ You can see an old man, a wooden tray and a teapot (in which is some
+ water) here.
+
+>examine man
+ If it were not for the gentle movement of his chest while breathing,
+ you would assume that he was a scarecrow made from stuffed wrinkly
+ leather. Admittedly, the long silver hair that spills from the back of
+ his head, beard and moustache would have made him a rather elaborate
+ scarecrow. If it were not for a peculiar air of hidden power that
+ surrounds him, you would think him to be a common beggar.
+
+>give man spare change
+ You can't see any such thing.
+
+>man, hello
+ There is no reply.
+
+>man, hi
+ There is no reply.
+
+>touch man
+ The old man does not seem to respond at all. He seems totally oblivious
+ to his surroundings, except for the fact that his nostrils seem to
+ flare in response to aromas that you cannot discern.
+
+>examine teapot
+  A small brown ceramic teapot. It contains clean hot water.
+
+>put leaves in pot
+ The leaves are too big for teamaking.
+
+>cut leaves
+ You ought to cut them on a tray.
+
+>put leaves on tray
+ You put the tea leaves on the wooden tray.
+
+>cut leaves
+ (with the jade knife)
+ (first taking the jade knife)
+ You cut the leaves with finesse, then gather them up - just right for
+ teamaking now.
+
+>take leaves
+ You already have those.
+
+>put leaves in pot
+ You open the lid, put the tea in and close it again.
+
+ The tea begins to steep in the pot. The delicate aroma wafts across the
+ room.
+
+ The old man seems to smell the tea, for his eyes open and a thin smile
+ briefly plays across his features. He walks over to you, picks up the
+ teapot and smells the contents.
+
+ "Ahh, the leaf is perfect," he comments, "but I am quite capable of
+ making tea myself. As I had no leaf to make any however, I am in your
+ debt."
+
+ He fumbles in his robes for a moment, and withdraws a large key.
+
+ "This may be of some use to you. Find your way to the top of Mount Tai
+ - you may learn something from the experience. Come back to see me once
+ you discover the point of the trip."
+
+ He laughs as he hands you the key and goes outside to enjoy his tea.
+
+>stab man
+ That's not a verb I recognise.
+
+>SAVE
+>cf7
+ Enter saved game to store: Ok.
+
+>examine key
+ It is a large iron key. Most of the angular edges seem to have been
+ worn down by passing many hands.
+
+>go north
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>go north
+ The forest stops, suddenly confronted by a wall of rock.
+
+ (shan1 men2) Mountain gate
+ An enormous archway stands to the northwest, acting as a gateway to the
+ mountain pass beyond. The forest opens out to the south, while a rock
+ wall encompasses all other directions.
+
+>open gate with key
+ You unlock the wooden gate.
+
+>go north
+ You can't go that way.
+
+>go northwest
+ You can't, since the wooden gate is in the way.
+
+>open gate
+ You open the wooden gate.
+
+>go northwest
+ After passing through the archway at the foot of the mountains, a
+ staggering number of steps lies ahead of you.
+
+ After a tiring climb of three thousand steps you reach a landing, where
+ you rest before continuing the climb.
+
+ (shan1 ti1) Mountain stairway
+ The landing, a flat expanse of about twenty feet across in both
+ directions, gives a welcome break from the tortuous stairs that lead up
+ to the east and down to the southeast. Sheltered from the winds, this
+ spot is quite a peaceful place to rest.
+
+>count steps
+ That's not a verb I recognise.
+
+>rest
+ Weary from the climb, you fall asleep.
+
+ You dream about the principles of Yin and Yang, of how opposites are
+ inseparable and how one is necessary for the existance of the other.
+ After the dream fades to nothing, words drift through your sleep:
+
+ "When people see some things as beautiful,
+ other things become ugly.
+ When people see some things as good,
+ other things become bad.
+
+ Being and non-being create each other.
+ Difficult and easy support each other.
+ Long and short define each other.
+ High and low depend on each other.
+ Before and after follow each other.
+
+ Therefore the Sage
+ acts without doing anything
+ and teaches without saying anything.
+ Things arise and she lets them come;
+ things disappear and she lets them go.
+ She has but does not possess,
+ acts but does not expect.
+ When her work is done, she forgets it.
+ That is why it lasts forever."
+
+ You wake, feeling refreshed.
+
+>look
+
+ (shan1 ti1) Mountain stairway
+ The landing, a flat expanse of about twenty feet across in both
+ directions, gives a welcome break from the tortuous stairs that lead up
+ to the east and down to the southeast. Sheltered from the winds, this
+ spot is quite a peaceful place to rest.
+
+>go east
+ You trudge wearily up the remaining three thousand, six hundred and
+ sixty steps.
+
+ As you emerge from the relatively confined space of the stairway, you
+ feel slightly lightheaded - the landscape opening out below you is
+ stunning.
+
+ (shan1) Mountain
+ The mountain stands just over a mile above the surrounding terrain. You
+ can see your village over in the distant west, while to the south the
+ whole complex of spirit way and cemetery is visible from this great
+ height. Birds circle the treetops below, their movements complementing
+ the stillness of the clear blue skies above.
+
+ Except for a solitary wizened tree and the stairway cut into the ground
+ to the west, the mountaintop is bare.
+
+ A long wooden box lies on the ground, apparently discarded.
+
+>examine box
+ It is just over three feet long, approximately four inches thick by
+ about six inches wide. It is rather plain looking, being made of a
+ light wood - no pattern adorns the outer surface. A latch mechanism is
+ mounted on the front, but no hinges are visible on the back - they must
+ be on the inside of the box.
+
+ It is closed.
+
+>open box
+ It appears that the latch has seized up and will not open. Given some
+ tremendous force, you might be able to free the mechanism.
+
+>hulk out
+ That's not a verb I recognise.
+
+>examine tree
+ As with many trees that grow upon the slopes of mountains, it has given
+ in to the persistent nagging of the winds. It slants upward at a
+ peculiar angle, as though planted inside some giant glass bottle that
+ has forced it into an unnatural shape.
+
+ Although poetic, it is but a tree.
+
+>smash box
+ It seems as though it would take tremendous force to loosen the latch.
+
+>roar
+ That's not a verb I recognise.
+
+>use steroids
+ You can't see any such thing.
+
+>take box
+ Taken.
+
+>climb tree
+ The branches of the tree are compact, dry and brushlike. Virtually
+ impossible to climb up.
+
+>throw box down mountain
+ You can't see any such thing.
+
+>tie vine to tree
+ There does not appear to be any benefit in attempting that.
+
+>throw box
+ The box clatters all the way down the steps.
+
+>go west
+ After stumbling wearily down three thousand, six hundred and sixty
+ steps, you reach the landing - a welcome sight, as you feel in need of
+ a rest.
+
+ (shan1 ti1) Mountain stairway
+ The landing, a flat expanse of about twenty feet across in both
+ directions, gives a welcome break from the tortuous stairs that lead up
+ to the east and down to the southeast. Sheltered from the winds, this
+ spot is quite a peaceful place to rest.
+
+ You can see a long wooden box (which is closed) here.
+
+>tie vine to box
+ You tie the vine to the handle of the box. Thankfully it does not snap.
+
+>get box
+ Taken.
+
+>go east
+ You trudge wearily up the remaining three thousand, six hundred and
+ sixty steps.
+
+ As you emerge from the relatively confined space of the stairway, you
+ feel slightly lightheaded - the landscape opening out below you is
+ stunning.
+
+ (shan1) Mountain
+ The mountain stands just over a mile above the surrounding terrain. You
+ can see your village over in the distant west, while to the south the
+ whole complex of spirit way and cemetery is visible from this great
+ height. Birds circle the treetops below, their movements complementing
+ the stillness of the clear blue skies above.
+
+ Except for a solitary wizened tree and the stairway cut into the ground
+ to the west, the mountaintop is bare.
+
+>tie vine to tree
+ There does not appear to be any benefit in attempting that.
+
+>tie box to tree
+ You would achieve nothing by this.
+
+>swing box
+>inventory
+ There's nothing sensible to swing here.
+
+ You are carrying:
+   a long wooden box with a vine attached
+   a key
+   a jade knife
+   a cloth bag (being worn and open but empty)
+
+>look
+
+ (shan1) Mountain
+ The mountain stands just over a mile above the surrounding terrain. You
+ can see your village over in the distant west, while to the south the
+ whole complex of spirit way and cemetery is visible from this great
+ height. Birds circle the treetops below, their movements complementing
+ the stillness of the clear blue skies above.
+
+ Except for a solitary wizened tree and the stairway cut into the ground
+ to the west, the mountaintop is bare.
+
+>pull tree
+ Everything has purpose within the Dao, that is nature's way. However an
+ immediate use for the wizened tree eludes you for the time being.
+
+>examine tree
+ As with many trees that grow upon the slopes of mountains, it has given
+ in to the persistent nagging of the winds. It slants upward at a
+ peculiar angle, as though planted inside some giant glass bottle that
+ has forced it into an unnatural shape.
+
+ Although poetic, it is but a tree.
+
+>examine stairway
+ Apart from the obvious beginnings and ends, the steps - with very
+ little imagination - could be stretching out into infinity. It must
+ have taken years to lay these steps into the surrounding rock
+ structures of the mountainous valley.
+
+>examine latch
+ The latch looks very rusty. It appears to serve both as a handle and a
+ fastening as there is a large loop, big enough for you to carry it by.
+ It appears that the latch has seized up and will not open. It seems as
+ though it would take tremendous force to loosen. There is a vine tied
+ to the handle.
+
+>tie vine to latch
+ You tie the vine to the handle of the box. Thankfully it does not snap.
+
+>inventory
+ You are carrying:
+   a long wooden box with a vine attached
+   a key
+   a jade knife
+   a cloth bag (being worn and open but empty)
+
+>swing vine
+ There's nothing sensible to swing here.
+
+>smash box
+ It seems as though it would take tremendous force to loosen the latch.
+
+>drop box
+ The box clatters all the way down the steps.
+
+>undo
+ (shan1) Mountain
+ [Previous turn undone.]
+
+>give up
+ (to yourself)
+ (first taking the up above)
+ That isn't available.
+
+>throw in the towel
+ I only understood you as far as wanting to throw the inside.
+
+>examine village
+ You can't see any such thing.
+
+>look
+
+ (shan1) Mountain
+ The mountain stands just over a mile above the surrounding terrain. You
+ can see your village over in the distant west, while to the south the
+ whole complex of spirit way and cemetery is visible from this great
+ height. Birds circle the treetops below, their movements complementing
+ the stillness of the clear blue skies above.
+
+ Except for a solitary wizened tree and the stairway cut into the ground
+ to the west, the mountaintop is bare.
+
+>examine cemetery
+ From this distance, the whole area just seems like a greenish rug of
+ trees, with the cemetery complex forming an earthy stain upon it.
+
+>examine village
+ You can't see any such thing.
+
+>throw box at cemetery
+ Everything has purpose within the Dao, that is nature's way. However an
+ immediate use for the long wooden box with a vine attached eludes you
+ for the time being.
+
+>examine birds
+ From this distance they look like tiny white specks. They could easily
+ be motes of dust, floating on the air currents.
+
+>go west
+ After stumbling wearily down three thousand, six hundred and sixty
+ steps, you reach the landing - a welcome sight, as you feel in need of
+ a rest.
+
+ (shan1 ti1) Mountain stairway
+ The landing, a flat expanse of about twenty feet across in both
+ directions, gives a welcome break from the tortuous stairs that lead up
+ to the east and down to the southeast. Sheltered from the winds, this
+ spot is quite a peaceful place to rest.
+
+>se
+ After an arduous trek down three thousand steps, you reach the foot of
+ the mountain.
+
+ (shan1 men2) Mountain gate
+ An enormous archway stands to the northwest, acting as a gateway to the
+ mountain pass beyond. The forest opens out to the south, while a rock
+ wall encompasses all other directions.
+
+>go south
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>talk to man
+ That's not a verb I recognise.
+
+>go east
+ You can't go that way.
+
+>go south
+
+ (ta3) Inside pagoda
+ Despite the air of decay that the outside (and indeed the inside) of
+ the building presents, there is a strange homely warmth to it. A sense
+ of stillness and focus pervades your being, making you feel relaxed yet
+ alert. The structure above creaks in the sunlight, while the floating
+ feathers of birds roosting above add to the dreamlike quality.
+
+ You can see a wooden tray here.
+
+>find man
+ That's not a verb I recognise.
+
+>examine feathers
+ Looking up into the roof space, you cannot actually see the birds
+ themselves - they are always careful to hide out of plain sight when
+ roosting. The presence of their feathers, gently floating on the air
+ currents gives them away.
+
+>examine man
+ You can't see any such thing.
+
+>take feathers
+ You cannot actually see the birds - even if you could, it would not
+ help as they are inaccessible.
+
+>locate man
+ That's not a verb I recognise.
+
+>location of man
+ That's not a verb I recognise.
+
+>examine tray
+ The wooden tray is about a foot in diameter, the surface is scored with
+ marks as though it has been used as a chopping board. A small lip runs
+ around its outer edge, to prevent spillage of whatever might be placed
+ upon it.
+
+>attach vine to tray
+ There does not appear to be any benefit in attempting that.
+
+>examine lip
+ You can't see any such thing.
+
+>get tray
+ Taken.
+
+>look
+
+ (ta3) Inside pagoda
+ Despite the air of decay that the outside (and indeed the inside) of
+ the building presents, there is a strange homely warmth to it. A sense
+ of stillness and focus pervades your being, making you feel relaxed yet
+ alert. The structure above creaks in the sunlight, while the floating
+ feathers of birds roosting above add to the dreamlike quality.
+
+>ponder
+ That's not a verb I recognise.
+
+>think about the point of the trip
+ I only understood you as far as wanting to think.
+
+>tie vine to key
+ There does not appear to be any benefit in attempting that.
+
+>discover point of trip
+ That's not a verb I recognise.
+
+>hold vine
+ You are already holding the box to which it is attached.
+
+>go north
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>go north
+ The forest stops, suddenly confronted by a wall of rock.
+
+ (shan1 men2) Mountain gate
+ An enormous archway stands to the northwest, acting as a gateway to the
+ mountain pass beyond. The forest opens out to the south, while a rock
+ wall encompasses all other directions.
+
+>go northwest
+ After passing through the archway at the foot of the mountains, a
+ staggering number of steps lies ahead of you.
+
+ After a tiring climb of three thousand steps you reach a landing, where
+ you rest before continuing the climb.
+
+ (shan1 ti1) Mountain stairway
+ The landing, a flat expanse of about twenty feet across in both
+ directions, gives a welcome break from the tortuous stairs that lead up
+ to the east and down to the southeast. Sheltered from the winds, this
+ spot is quite a peaceful place to rest.
+
+>rest
+ Weary from the climb, you fall asleep.
+
+ Once again, words drift through your slumber.
+
+ "We join spokes together in a wheel,
+ but it is the centre hole
+ that makes the wagon move.
+
+ We shape clay into a pot,
+ but it is the emptiness inside
+ that holds whatever we want.
+
+ We hammer wood for a house,
+ but it is the inner space
+ that makes it livable.
+
+ We work with being,
+ but non-being is what we use."
+
+ You wake, feeling refreshed.
+
+>rest
+ Weary from your climb, you fall into a short, dreamless slumber.
+
+ You wake, feeling refreshed.
+
+>undo
+ (shan1 ti1) Mountain stairway
+ [Previous turn undone.]
+
+>go down
+
+ (shan1 men2) Mountain gate
+ An enormous archway stands to the northwest, acting as a gateway to the
+ mountain pass beyond. The forest opens out to the south, while a rock
+ wall encompasses all other directions.
+
+>throw box at wall
+ Everything has purpose within the Dao, that is nature's way. However an
+ immediate use for the long wooden box with a vine attached eludes you
+ for the time being.
+
+>rest
+ After a short rest, you feel refreshed.
+
+>sleep
+ After a short rest, you feel refreshed.
+
+>doze off
+ That's not a verb I recognise.
+
+>summon snorlax
+ That's not a verb I recognise.
+
+>ignore box
+ That's not a verb I recognise.
+
+>don't open box
+ That's not a verb I recognise.
+
+>be at peace
+ That's not a verb I recognise.
+
+>meditate
+ That's not a verb I recognise.
+
+>wait
+ Time passes.
+
+>go south
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>go west
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+>go west
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+>go west
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+>go down
+
+ (dong4 xue4) Rocky tidal cavern
+ The air in the cave is cold and damp. A chill wind blowing inwards from
+ the sea causes your eyes to sting in the salt-laden air. The tide chews
+ at the jagged rocks which protrude from the ocean surface several yards
+ out. Boulders being rolled under the surface make loud rumblings like
+ distant thunder - they sound like they could smash anything. The water
+ looks uninviting - the rocks threaten to dash the foolish swimmer to
+ pieces. Behind you, to the north is a passageway leading up to the
+ surface.
+
+ A small cleft is visible in the rock next to the entrance.
+
+>put box in sea
+ Everything has purpose within the Dao, that is nature's way. However an
+ immediate use for the long wooden box with a vine attached eludes you
+ for the time being.
+
+>drop box
+ You hold on to the other end of the vine as you drop the box. The tide
+ comes in and whisks the box out to sea, but due to the fact that you
+ are holding the vine it veers to one side, causing it to smash
+ violently against the rocks. The vine gets snatched from your grip as
+ the box disappears from view.
+
+>undo
+ (dong4 xue4) Rocky tidal cavern
+ [Previous turn undone.]
+
+>save
+>cf1
+ Enter saved game to store: Ok.
+
+>drop box
+ You hold on to the other end of the vine as you drop the box. The tide
+ comes in and whisks the box out to sea, but due to the fact that you
+ are holding the vine it veers to one side, causing it to smash
+ violently against the rocks. The vine gets snatched from your grip as
+ the box disappears from view.
+
+>go north
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+>se
+ The bamboo forest ends abruptly, giving way to a rocky cliff, which you
+ begin to descend.
+
+ (ya2) Cliffs
+ As you stand with your back to the cliff, the view ahead of you appears
+ to be nothing but a blur fading from dark grey sea below, through to a
+ light powder blue sky.
+
+ A narrow path winds its way down the cliff face to the water level
+ below, where a small alcove seems to collect debris, and upwards over
+ the edge of the cliff to the bamboo forest.
+
+>go down
+
+ (ya2 di3) Cliff base
+ Not much can be seen from this vantage point. A thin veil of fog blocks
+ the view out to sea. The waters below churn menacingly, the spume a
+ milky white.
+
+ The ledge here forms a small alcove, which is only a couple of metres
+ across. It continues up the cliff face, where it vanishes from sight.
+
+ Debris seems to get washed in here and collects on the rocky ledge.
+
+ You can also see a long wooden box (which is closed) here.
+
+>examine box
+ It is just over three feet long, approximately four inches thick by
+ about six inches wide. It is rather plain looking, being made of a
+ light wood - no pattern adorns the outer surface. A latch mechanism is
+ mounted on the front, but no hinges are visible on the back - they must
+ be on the inside of the box.
+
+ It is closed.
+
+>take box
+ Taken.
+
+>open it
+ Suitably weakened by its ordeal the box opens easily, revealing a
+ painting in the lid.
+
+ It also contains a sword.
+
+>examine painting
+ The picture inside the lid appears to depict five different martial
+ arts moves and stances, relating each one to a different element. Each
+ one is distinct enough for you to be able to remember them easily: (tu3
+ jin2 shui3 mu4 huo3) earth, metal, water, wood and fire. Oddly, none of
+ them depict stances that include a sword - they are all unarmed.
+
+ Just below is an image of a sword, with the same symbols etched in a
+ pattern upon the blade - but it is too faded to be able to discern
+ which is which.
+
+ [Type the name of the element to practice the stance.]
+
+>earth
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the earth stance:
+
+ You balance your weight evenly upon both legs, both slightly bent to
+ keep your stance grounded. Your right hand is held out in front of you,
+ fingers open, palm facing directly forward. Your left hand is also held
+ palm open, but at your side - facing forwards at a slight downward
+ angle.
+
+>earth
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the earth stance:
+
+ You balance your weight evenly upon both legs, both slightly bent to
+ keep your stance grounded. Your right hand is held out in front of you,
+ fingers open, palm facing directly forward. Your left hand is also held
+ palm open, but at your side - facing forwards at a slight downward
+ angle.
+
+>metal
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the metal stance:
+
+ You shift your weight backwards onto your right leg, left leg out
+ towards the front, giving support. You hold your left fist out in front
+ of you, palm up, at face level, while your right fist is at your hip,
+ facing palm down.
+
+>water
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the water stance:
+
+ With your legs together, the left slightly in front of the right, you
+ crouch a little. Your right fist extends out as far as you can reach,
+ thumb upward, yet keeping the arm slightly bent. The left fist is held,
+ palm inwards, against your ribs.
+
+>water
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the water stance:
+
+ With your legs together, the left slightly in front of the right, you
+ crouch a little. Your right fist extends out as far as you can reach,
+ thumb upward, yet keeping the arm slightly bent. The left fist is held,
+ palm inwards, against your ribs.
+
+>wood
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the wood stance:
+
+ You shift your weight backwards onto your left leg, right leg out
+ towards the front, giving support. You hold your left fist out in front
+ of you, thumb upward, at shoulder level, while your right fist is held
+ just above your head, ready to strike downwards.
+
+>fire
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the fire stance:
+
+ You shift your weight sideways onto your right leg, left leg out
+ towards the front-left, giving support. You hold your right fist out in
+ front of you, palm up, at face level, while your left fist is at
+ covering your stomach, facing palm down.
+
+>take sword
+ Taken.
+
+>fire
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the fire stance:
+
+ You shift your weight sideways onto your right leg, left leg out
+ towards the front-left, giving support. You hold your right fist out in
+ front of you, palm up, at face level, while your left fist is at
+ covering your stomach, facing palm down.
+
+>snake
+ That's not a verb I recognise.
+
+>examine sword
+ The sword is a classic Chinese "Jian": a tassel graces the pommel,
+ which is in turn attached to a wooden handgrip. Above the handgrip is
+ the hilt, from which extends the blade. The blade itself appears to
+ have symbols etched upon it.
+
+>examine symbols
+ The blade is nearly three feet long, an inch and a half wide, yet
+ nearly wafer thin. It is unusually flexible, and the edges appear razor
+ sharp right to the tip. It has a slightly flattened section up the
+ middle, upon which there appear to be etched symbols of some sort.
+
+ The etching appears to be writing. One side has characters (chuang4
+ zao4) meaning "Create" and just above it a circle of five characters,
+ reading from the top clockwise: (tu3 jin2 shui3 mu4 huo3) Earth, Metal,
+ Water, Wood, Fire - which appear to be referring to the creation of Qi
+ energy by cycling through the five elements of nature.
+
+ The other side has the characters (kong4 zhi4) "Control" and again in a
+ circle: (tu3 shui3 huo3 jin2 mu4) Earth, Water, Fire, Metal, Wood -
+ which refers to the cycle by which Qi is controlled and suppressed by
+ the five elements.
+
+>wield Anduril, flame of the west
+ You seem to want to talk to someone, but I can't see whom.
+
+>earth. water. fire. metal. wood.
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the earth stance:
+
+ You balance your weight evenly upon both legs, both slightly bent to
+ keep your stance grounded. Your right hand is held out in front of you,
+ fingers open, palm facing directly forward. Your left hand is also held
+ palm open, but at your side - facing forwards at a slight downward
+ angle.
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the water stance:
+
+ With your legs together, the left slightly in front of the right, you
+ crouch a little. Your right fist extends out as far as you can reach,
+ thumb upward, yet keeping the arm slightly bent. The left fist is held,
+ palm inwards, against your ribs.
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the fire stance:
+
+ You shift your weight sideways onto your right leg, left leg out
+ towards the front-left, giving support. You hold your right fist out in
+ front of you, palm up, at face level, while your left fist is at
+ covering your stomach, facing palm down.
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the metal stance:
+
+ You shift your weight backwards onto your right leg, left leg out
+ towards the front, giving support. You hold your left fist out in front
+ of you, palm up, at face level, while your right fist is at your hip,
+ facing palm down.
+ You are not in combat at the moment, but you rehearse the stance
+ anyway.
+
+ You quickly get into the wood stance:
+
+ You shift your weight backwards onto your left leg, right leg out
+ towards the front, giving support. You hold your left fist out in front
+ of you, thumb upward, at shoulder level, while your right fist is held
+ just above your head, ready to strike downwards.
+
+>power of heart!
+ That's not a verb I recognise.
+
+>heart
+ That's not a verb I recognise.
+
+>control
+ That's not a verb I recognise.
+
+>create
+ That's not a verb I recognise.
+
+>inventory
+ You are carrying:
+   a sword
+   a long wooden box (which is open but empty)
+   a wooden tray
+   a key
+   a jade knife
+   a cloth bag (being worn and open but empty)
+
+>go up
+
+ (ya2) Cliffs
+ As you stand with your back to the cliff, the view ahead of you appears
+ to be nothing but a blur fading from dark grey sea below, through to a
+ light powder blue sky.
+
+ A narrow path winds its way down the cliff face to the water level
+ below, where a small alcove seems to collect debris, and upwards over
+ the edge of the cliff to the bamboo forest.
+
+>go northwest
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+>go east
+ The bamboo trees begin to peter out, and the forest is replaced with
+ slender, twisting cypresses.
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+>go east
+ The avenue of cypress trees change back to bamboo midway down the path.
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+>go east
+ The path ends, and the forest either side retreats to form a clearing.
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>go south
+
+ (ta3) Inside pagoda
+ Despite the air of decay that the outside (and indeed the inside) of
+ the building presents, there is a strange homely warmth to it. A sense
+ of stillness and focus pervades your being, making you feel relaxed yet
+ alert. The structure above creaks in the sunlight, while the floating
+ feathers of birds roosting above add to the dreamlike quality.
+
+ You can see an old man here.
+
+ The old man says, "I will test your understanding. I will attack you
+ five times in a row - if you manage to defeat me three times in a row,
+ I will know that you have attained understanding. If you fail, you may
+ try again - I am not so harsh a master as others."
+
+ Despite his apparent frailty, the old man suddenly moves with the grace
+ of a snake. As he prepares to strike, you recognise his stance as the
+ element of fire.
+
+>water
+ You quickly get into the water stance:
+
+ With your legs together, the left slightly in front of the right, you
+ crouch a little. Your right fist extends out as far as you can reach,
+ thumb upward, yet keeping the arm slightly bent. The left fist is held,
+ palm inwards, against your ribs.
+
+ You manage to attain a balance between physical and spiritual. The
+ effect of the combination of spiritual elements allows you to defeat
+ him.
+
+ "Good, water controls fire!"
+
+ The old man readies himself for his next attack, this time the stance
+ appears to be that of fire.
+
+>water
+ You quickly get into the water stance:
+
+ With your legs together, the left slightly in front of the right, you
+ crouch a little. Your right fist extends out as far as you can reach,
+ thumb upward, yet keeping the arm slightly bent. The left fist is held,
+ palm inwards, against your ribs.
+
+ The balance between physical and spiritual elements in your stance is
+ much better this time. The blending allows you to defeat him with
+ relative ease.
+
+ "Excellent, water controls fire!"
+
+ The old man readies himself for his next attack, this time the stance
+ appears to be that of wood.
+
+>metal
+ You quickly get into the metal stance:
+
+ You shift your weight backwards onto your right leg, left leg out
+ towards the front, giving support. You hold your left fist out in front
+ of you, palm up, at face level, while your right fist is at your hip,
+ facing palm down.
+
+ You reach the perfect balance of physical and spiritual. The effect of
+ the combination of spiritual elements allows you to defeat him
+ effortlessly.
+
+ "Superb, metal controls wood!"
+
+ "You are talented!" He exclaims. "Evidently you understand the
+ principles of Taiji and elemental cycles. No further tests will be
+ necessary, you have the understanding you seek."
+
+ He goes back to his meditations.
+
+ Reviewing your memory of the battle, you understand that the elements
+ carry a great spiritual weight when represented in combat, and that
+ much of their power comes through, even when physical strength may be
+ lacking.
+
+>attack uruks
+ You can't see any such thing.
+
+>fall back to hornburg
+ That's not a verb I recognise.
+
+>drop tray
+ Dropped.
+
+>go north
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>go west
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+>go west
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+>go west
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. An
+ impenetrable barrier of thorns lies to the west. How they got there
+ after you passed that way last night is anyone's guess.
+
+>cut thorns
+ (with the sword)
+ You hack the thorny obstruction to pieces.
+
+>cut thorns with sword
+ Cutting those up would achieve little.
+
+>look
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+>go west
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. The
+ trail back to your village lies to the west.
+
+
+ Although you have gained the understanding of spirituality and softness
+ in combat, your family places much emphasis on the weapon that you have
+ returned with.
+
+ In the years to come, your descendants pass on your teachings in a
+ tainted form. Teachings that still place emphasis on weaponry and
+ possessions.
+
+ The family name becomes famous for a few generations, but gradually
+ fades into antiquity as their skills are surpassed by other weapon
+ masters.
+
+
+     *** You have lost ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, read the ENDNOTES, or
+ QUIT?
+>undo
+ (zhu2 lin2) Bamboo forest
+ [Previous turn undone.]
+
+>drop sword
+ Dropped.
+
+>go west
+
+ You realize that true skill does not depend upon weapons. It is what is
+ in your heart, not your hand, that is important.
+
+ Your teachings of Taiji - of softness in combat - will be passed on for
+ generations and your family name known for decades, if not centuries to
+ come.
+
+
+     *** You have won ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, read the ENDNOTES, or
+ QUIT?
+>endnotes
+
+ If you've completed the game with full understanding of Taiji (which
+ isn't actually Taiji by the way, the stances are from Xingyi, as Taiji
+ doesn't actually have "elemental stances" in it - at least Sun style
+ doesn't) you will have actually gone through all of the key plot
+ elements.
+
+ Taiji was never actually developed in the manner implied in the game.
+ The idea that it came about after a certain historical figure had
+ witnessed a battle between a crane and snake is a popular myth. The
+ actual lineage and development of Taiji is well documented fact.
+
+ A few herrings exist in this game:
+ In the cemetery, you notice the shrine, try searching the mound -
+ follow up the lead that gives you. Anyone finding this and taking it
+ literally might end up thinking "Oh my God! Do I have to do all THAT?"
+
+ As you know, of course not! Unless of course, you plan to do it for
+ real... Oh, by the way, ricepaper is edible.
+
+ You might like to have a rest on the landing after all that, as well.
+ Remember that you get tired by walking down to a mountain as well as
+ up.
+
+
+ Would you like to RESTART, RESTORE a saved game, read the ENDNOTES, or
+ QUIT?
+>amusing
+ Please give one of the answers above.
+>endnotes
+
+ If you've completed the game with full understanding of Taiji (which
+ isn't actually Taiji by the way, the stances are from Xingyi, as Taiji
+ doesn't actually have "elemental stances" in it - at least Sun style
+ doesn't) you will have actually gone through all of the key plot
+ elements.
+
+ Taiji was never actually developed in the manner implied in the game.
+ The idea that it came about after a certain historical figure had
+ witnessed a battle between a crane and snake is a popular myth. The
+ actual lineage and development of Taiji is well documented fact.
+
+ A few herrings exist in this game:
+ In the cemetery, you notice the shrine, try searching the mound -
+ follow up the lead that gives you. Anyone finding this and taking it
+ literally might end up thinking "Oh my God! Do I have to do all THAT?"
+
+ As you know, of course not! Unless of course, you plan to do it for
+ real... Oh, by the way, ricepaper is edible.
+
+ You might like to have a rest on the landing after all that, as well.
+ Remember that you get tired by walking down to a mountain as well as
+ up.
+
+
+ Would you like to RESTART, RESTORE a saved game, read the ENDNOTES, or
+ QUIT?
+>undo
+
+>go east
+ Please give one of the answers above.
+>undo
+
+>undo
+
+>look
+ Please give one of the answers above.
+>undo
+
+>undo
+
+>/undo
+ (zhu2 lin2) Bamboo forest
+ [Previous turn undone.]
+
+>look
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. The
+ trail back to your village lies to the west.
+
+ You can see a sword here.
+
+>go east
+ The bamboo trees begin to peter out, and the forest is replaced with
+ slender, twisting cypresses.
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+>go east
+ The avenue of cypress trees change back to bamboo midway down the path.
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+>go east
+ The path ends, and the forest either side retreats to form a clearing.
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>go north
+ The forest stops, suddenly confronted by a wall of rock.
+
+ (shan1 men2) Mountain gate
+ An enormous archway stands to the northwest, acting as a gateway to the
+ mountain pass beyond. The forest opens out to the south, while a rock
+ wall encompasses all other directions.
+
+>go northwest
+ After passing through the archway at the foot of the mountains, a
+ staggering number of steps lies ahead of you.
+
+ After a tiring climb of three thousand steps you reach a landing, where
+ you rest before continuing the climb.
+
+ (shan1 ti1) Mountain stairway
+ The landing, a flat expanse of about twenty feet across in both
+ directions, gives a welcome break from the tortuous stairs that lead up
+ to the east and down to the southeast. Sheltered from the winds, this
+ spot is quite a peaceful place to rest.
+
+>rest
+ Weary from your climb, you fall into a short, dreamless slumber.
+
+ You wake, feeling refreshed.
+
+>go north
+ You can't go that way.
+
+>go north
+ You can't go that way.
+
+>look
+
+ (shan1 ti1) Mountain stairway
+ The landing, a flat expanse of about twenty feet across in both
+ directions, gives a welcome break from the tortuous stairs that lead up
+ to the east and down to the southeast. Sheltered from the winds, this
+ spot is quite a peaceful place to rest.
+
+>go east
+ You trudge wearily up the remaining three thousand, six hundred and
+ sixty steps.
+
+ As you emerge from the relatively confined space of the stairway, you
+ feel slightly lightheaded - the landscape opening out below you is
+ stunning.
+
+ (shan1) Mountain
+ The mountain stands just over a mile above the surrounding terrain. You
+ can see your village over in the distant west, while to the south the
+ whole complex of spirit way and cemetery is visible from this great
+ height. Birds circle the treetops below, their movements complementing
+ the stillness of the clear blue skies above.
+
+ Except for a solitary wizened tree and the stairway cut into the ground
+ to the west, the mountaintop is bare.
+
+>go west
+ After stumbling wearily down three thousand, six hundred and sixty
+ steps, you reach the landing - a welcome sight, as you feel in need of
+ a rest.
+
+ (shan1 ti1) Mountain stairway
+ The landing, a flat expanse of about twenty feet across in both
+ directions, gives a welcome break from the tortuous stairs that lead up
+ to the east and down to the southeast. Sheltered from the winds, this
+ spot is quite a peaceful place to rest.
+
+>rest
+ Weary from your climb, you fall into a short, dreamless slumber.
+
+ You wake, feeling refreshed.
+
+>se
+ After an arduous trek down three thousand steps, you reach the foot of
+ the mountain.
+
+ (shan1 men2) Mountain gate
+ An enormous archway stands to the northwest, acting as a gateway to the
+ mountain pass beyond. The forest opens out to the south, while a rock
+ wall encompasses all other directions.
+
+>go south
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>go west
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+>go west
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+>go west
+
+ (zhu2 lin2) Bamboo forest
+ Wind whispers through the feathery branches of the bamboo forest
+ surrounding you as warm sunlight showers down, gently filtered by the
+ delicate leaves overhead. The soft ground is carpeted with slender
+ browning leaves, occasionally stirred up by the cool breeze. Faint
+ tracks run southeast and east, one also continues to the north up a
+ bank, and another downwards into a small depression to the south. The
+ trail back to your village lies to the west.
+
+ You can see a sword here.
+
+>go east
+ The bamboo trees begin to peter out, and the forest is replaced with
+ slender, twisting cypresses.
+
+ (shen2 dao4) Western end of spirit way
+ Cypress trees form a straight avenue several feet wide, running from
+ west to east. The path continues some distance to the east, where it
+ terminates in an archway - and back into the forest to the west.
+
+ A row of ornate animal statues flank each side of the paved path upon
+ which you stand, apparently guarding the way from interlopers.
+
+>go east
+ The avenue of cypress trees change back to bamboo midway down the path.
+
+ (shen2 dao4) Eastern end of spirit way
+ Cypress and bamboo trees form an avenue which ends to the east as the
+ trees open out to form the entrance to a cemetery. The western end of
+ the path continues through the elaborate archway. A tea bush grows out
+ from a crack in the pavings.
+
+>go east
+ The path ends, and the forest either side retreats to form a clearing.
+
+ (si4 miao4 de fen2 chang2) Cemetery
+ The dense trees form a nearly impenetrable wall around the cemetery
+ grounds. In the centre of the clearing is a large mound, atop which
+ stands a shrine or marker of some kind. Numerous smaller stones are
+ dotted about. At the southern end of the cemetery stands a run-down
+ looking pagoda. A path runs northward, apparently towards the
+ mountains.
+
+>examine mound
+ The mound has a gentle slope, flattened at the top where the marker
+ stands. It is approximately five feet high, by about twenty feet across
+ at the bottom. Sparse, dry grass populates the bank, with a few longer
+ tufts near the top.
+
+>search it
+ After a thorough search of the hill you find an incense stick, which
+ you take.
+
+>examine stick
+ An inch or two long, by just under quarter of an inch in diameter, the
+ stub of incense gently smolders giving off fragrant tendrils of smoke.
+ As you watch it, you notice that it does not seem to burn down at all.
+
+>examine marker
+ The stone is perched on top of the large mound, its sides a polished,
+ shimmering black - possibly jet or some other stone that you do not
+ recognise. Deeply chiseled characters stand out on the front of it,
+ embossed with gold. Perhaps this person was revered by someone, had a
+ wealthy family or was some other kind of important figure. The name,
+ (wu3 jiu4 huo) Wu Jiu-Huo, is unfamiliar.
+
+ At the base of the shrine is a tiny hole.
+
+>put stick in hole
+ Inexplicably, the incense flares into life. It begins to burn down to
+ nothing, giving off an immense amount of smoke as it does so.
+
+ You suddenly feel a presence beside you. In the wind a feminine voice
+ whispers:
+
+ "Thank you for your respect. As a token of my gratitude I leave you a
+ small gift."
+
+ You notice a small slip of paper flapping about in the grass.
+
+>examine paper
+ It is a small slip of crinkly yellow rice paper. One side is covered
+ with characters written in red ink - it looks almost like the
+ traditional "money for the dead" yet the characters are not the same.
+
+ The note appears to be a set of instructions, it reads:
+
+ "(ji2 hao4 de cha2) Perfect Tea
+ (wu3 jiu4 huo) Wu Jiu-Huo
+
+ To make the most perfect tea, it is important to collect fresh leaves
+ from the teabush.
+
+ Use of the correct utensils is important also.
+ The pot should hold enough liquid to fill two cups, while a pitcher in
+ which to heat the water is also required.
+
+ Cut the leaves into halves.
+
+ Heat the water you wish to use in the pitcher, then fill the pot and
+ use it to rinse out the cups also. Pour this water away.
+
+ Put the chopped leaves into the pot, ideally they should fill the pot
+ by about one third.
+ Fill the rest of the pot with hot water once again. Leave to stand for
+ a moment, then fill the cups with this first pot of tea.
+ Do not drink this tea, instead discard it.
+
+ Leaving the tea leaves in the pot, fill it once again.
+ This time, when you pour the tea into the cups, you may drink.
+ Repeat this last step until the heated water is used up or the tea
+ leaves are spent."

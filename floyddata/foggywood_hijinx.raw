@@ -1,0 +1,2228 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+	<title>AllThingsJacq.com - Interactive Fiction | ClubFloyd - June 24, 2012 - Foggywood Hijinx by TextFeather, Inc. (aka Ivan Cockrum)</title>
+		<meta charset="utf-8">
+		<meta name="Author" content="Jacqueline A. Lott">
+		<meta name="revisit-after" content="30days">
+		<meta name="Robots" content="all">
+		<meta name="Keywords" content="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+		<meta name="Description" content="Internet site of Jacqueline A. Lott.">
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+
+<body>
+	<div class="centered narrowcol" id="top">
+		<table>
+			<tr>
+				<td>
+					<div class="centered centeralign">
+						<br>
+						<a href="index.html"><img src="/graphics/atj_logo.jpg"
+							width="250" height="170"  alt="All Things Jacq"><br>
+							<img src="/graphics/home.jpg" width="75" height="25"
+							 alt="Home"><br></a><br>
+						 <a href="writing.html">
+							 <img alt="Writing" src="/graphics/writing1.jpg" 
+								width="100" height="140" id="Writing"/>
+						</a>
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1">
+						<a href="interactive_fiction.html">
+							<img alt="InteractiveFiction"
+								src="/graphics/intfic1.jpg" width="100" height="140" 
+								id="InteractiveFiction">
+						</a> 
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1">
+						<a href="photography.html">
+							<img alt="Photography" src="/graphics/photos1.jpg" 
+							width="100" height="140" id="Photography">
+						</a> 
+						<img src="/graphics/spacer.gif" alt="spacer" 
+							width="15" height="1" >
+						<a href="miscellany.html">
+							<img alt="Miscellany" src="/graphics/misc1.jpg" 
+								width="100" height="140" id="Miscellany">
+						</a>
+					</div>
+
+
+					<hr/>
+					<p class="leftalign">
+						ClubFloyd Transcript:<br/>
+						
+						
+						<strong><em>Foggywood Hijinx</em> by TextFeather, Inc. (aka Ivan Cockrum)</strong><br/>
+						
+						<span class="fontish smallest">As played on ifMUD on June 24, 2012</span>
+					</p>
+
+
+					<p class="leftalign">
+					<span class="fontish smaller">The idea behind ClubFloyd
+						is that each week at a pre-arranged time, a group of 
+						people meet online to cooperatively play a game of 
+						interactive fiction.<br>
+						<br>
+						Below is a transcript of
+						
+						
+						<em>Foggywood Hijinx</em> written by TextFeather, Inc. (aka Ivan Cockrum).
+						<I>Foggywood Hijinx</I> was originally released was released as part of two competitions: Adam Cadre's Chicken Comp and Lucian Smith's First Ever (And Maybe The Only) Interactive Fiction Mini-Competition. 
+						
+						You can learn more about the game, including how to download it, by visiting
+						
+						
+							
+								
+								<a class="decorate" href='http://www.ifwiki.org/index.php/Foggywood_Hijinx'>the ifWiki</a>.
+							
+						
+					</span><br>
+					<br>
+					
+						
+					
+					<span class="warning">WARNING!</span>
+					<span class="fontish smaller">Below you will find a transcript of
+						people playing this game, and it goes without saying that
+						the transcript is full of spoilers. So, if you've never
+						played this game, and think you might like to at some
+						point, I do not recommend reading any further. Instead,
+						you might want to return to the <a class="decorate" href=
+						"interactive_fiction.html">interactive fiction
+							page</a>.<br>
+					</span>
+					</p>
+					
+					
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div>
+
+		<table class="transcript">
+			<tr>
+
+				<td colspan="3"><hr/></td>
+
+			</tr>
+
+
+			<tr>
+
+				<td class="heading room">
+					<div class="centered">
+						<strong>ToyShop &amp; Floyditorium</strong>
+					</div>
+				</td>
+
+				<td class="gutter">
+				</td>
+
+				<td class="heading interlude">
+					<div class="centered">
+						<strong>#ClubFloyd Discussion</strong>
+					</div>
+				</td>
+
+			</tr>
+
+
+			<tr>
+
+				<td><hr/></td>
+
+				<td>
+				</td>
+
+				<td><hr/></td>
+			</tr>
+
+
+			<!-- Transcript goes here -->
+			<tr id="1-foggywood" ><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">load foggywood</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Welcome to the Cheap Glk Implementation, library version 0.9.0.
+<b>Floyd</b> |
+<b>Floyd</b> | tadsr - A text-only TADS 2.5.10 Interpreter.
+<b>Floyd</b> | Copyright (c) 1993, 2006 by Michael J. Roberts.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Poor Uncle Foggy.  He was the best guardian any kid could ever ask for.
+<b>Floyd</b> | After your parents died in that freak waterbed accident, Uncle Foggy
+<b>Floyd</b> | practically raised you and your twin sister Winnie.  You grew up in his
+<b>Floyd</b> | home full of wacky inventions - practical jokes for all occasions.
+<b>Floyd</b> | Uncle Foggy was a prankster, no two ways about it.  It's only been a
+<b>Floyd</b> | couple of years since you and Winnie left for college.  Since then
+<b>Floyd</b> | you've spoken far too infrequently.  When you last spoke, Uncle Foggy
+<b>Floyd</b> | rambled on and on about some ultimate practical joke, but you had a
+<b>Floyd</b> | class on gallinaceous theology to get to.
+<b>Floyd</b> |
+<b>Floyd</b> | You and Winnie pull in to Foggywood Estate in your beaten-up coupe.
+<b>Floyd</b> | The white picket gate swings quietly shut behind you as you kill the
+<b>Floyd</b> | engine.  Unfortunately your relatives, the Barnevelders from Rhode
+<b>Floyd</b> | Island, have also just arrived.  Uncle Orpington and Aunt Lamona are
+<b>Floyd</b> | just climbing out of their gleaming black sedan, while your cousin
+<b>Floyd</b> | 'Red' sits in his ridiculous monster truck and leans on the horn, which
+<b>Floyd</b> | blares an ear splitting rendition of 'La Cucharacha.'
+<b>Floyd</b> |
+<b>Floyd</b> | Not a very auspicious way to kick off the reading of Uncle Foggy's
+<b>Floyd</b> | will, is it?
+<b>Floyd</b> |
+<b>Floyd</b> | Foggywood Hijinx Release 2
+<b>Floyd</b> | (Type "about" for more information)
+<b>Floyd</b> | Copyright (c) 1998 by TextFeather, Inc.  All rights reserved.
+<b>Floyd</b> | Created for Adam Cadre's Chicken Comp and Lucian Smith's Mini-Comp.
+<b>Floyd</b> | Developed with TADS, the Text Adventure Development System.
+<b>Floyd</b> |
+<b>Floyd</b> | Front Lawn
+<b>Floyd</b> | Uncle Foggy's front lawn teeters just on the border of ill-kempt,
+<b>Floyd</b> | though no one specific flaw draws attention.  The three vehicles parked
+<b>Floyd</b> | on the lawn fail to aid its appearance.  Uncle Foggy's home, Foggywood
+<b>Floyd</b> | Manor, lies to the north, while the gate through which you entered
+<b>Floyd</b> | rests back to the south.  Though you can't see it over the hedges, you
+<b>Floyd</b> | know that beyond the gate and across the road lies the ramshackle cabin
+<b>Floyd</b> | that Uncle Foggy called his lab.
+<b>Floyd</b> |
+<b>Floyd</b> | The Barnevelders are here, standing by the front door with you and
+<b>Floyd</b> | Winnie.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">save</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | File to save game in &gt;
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">fhtest</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Saved.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">restore</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | File to restore game from &gt;
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">fhtest</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Restored.
+<b>Floyd</b> |
+<b>Floyd</b> | Front Lawn
+<b>Floyd</b> | Uncle Foggy's front lawn teeters just on the border of ill-kempt,
+<b>Floyd</b> | though no one specific flaw draws attention.  The three vehicles parked
+<b>Floyd</b> | on the lawn fail to aid its appearance.  Uncle Foggy's home, Foggywood
+<b>Floyd</b> | Manor, lies to the north, while the gate through which you entered
+<b>Floyd</b> | rests back to the south.  Though you can't see it over the hedges, you
+<b>Floyd</b> | know that beyond the gate and across the road lies the ramshackle cabin
+<b>Floyd</b> | that Uncle Foggy called his lab.
+<b>Floyd</b> |
+<b>Floyd</b> | The Barnevelders are here, standing by the front door with you and
+<b>Floyd</b> | Winnie.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  asks, "Possibly ok?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>vimes</b>  says, "good, good"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x me</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You look about the same as always.
+<b>Floyd</b> |
+<b>Floyd</b> | The Barnevelders glare haughtily at you and Winnie as you all wait for
+<b>Floyd</b> | admittance to Uncle Foggy's house.  Not a word passes between the two
+<b>Floyd</b> | factions. So far as you know, the Barnevelders have never even visited
+<b>Floyd</b> | Foggywood before.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>vimes</b>  says, "i'll retest sleepmask later - t2 games just don't come up all that often these days"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>inky</b>  says, "oops, sorry, thanks for covering for me"
+</td></tr><tr><td class="room"><b>inky</b> arrives, full of fun and funk.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">i</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You are empty-handed.
+<b>Floyd</b> |
+<b>Floyd</b> | None too soon, the front door is opened, revealing Mr.  Dorkings, Uncle
+<b>Floyd</b> | Foggy's solicitor.  A dour man in black who rarely smiles, you've never
+<b>Floyd</b> | quite trusted Dorkings.
+<b>Floyd</b> |
+<b>Floyd</b> | "Mm," is all Dorkings has to say in greeting.  "You've all arrived.
+<b>Floyd</b> | Good.  We can begin right away.  Please follow me."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>vimes</b>  says (to inky), "no problem"
+</td></tr><tr><td class="room">DavidW says (to Floyd), "<span class="floydcommand">x winnie</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Your sister Wyandotte 'Winnie' Langshan has been your steady companion
+<b>Floyd</b> | since birth.  The two of you have never been separated, and share an
+<b>Floyd</b> | almost psychic bond.
+<b>Floyd</b> |
+<b>Floyd</b> | You and your relatives dutifully troop into the house after Dorkings.
+<b>Floyd</b> |
+<b>Floyd</b> | Foyer
+<b>Floyd</b> | Uncle Foggy's foyer is tastefully decorated, even if the blue hen
+<b>Floyd</b> | wallpaper does seem a bit queer.  Passages from the foyer lead off in
+<b>Floyd</b> | many directions, but your only business here today is in the study to
+<b>Floyd</b> | the east.  The walls are adorned with glossy photos taken around Uncle
+<b>Floyd</b> | Foggy's favorite travel destination.  Nailed to a chest-high post is a
+<b>Floyd</b> | stuffed bird, eternally caught in its morning salutation to the sun.
+<b>Floyd</b> |
+<b>Floyd</b> | The Barnevelders are here, waiting to be admitted into the study with
+<b>Floyd</b> | you and Winnie.
+<b>Floyd</b> |
+<b>Floyd</b> | "We will be adjourning in the study for the reading of...  " He breaks
+<b>Floyd</b> | off in mid-sentence and cocks his head towards the study.  You listen
+<b>Floyd</b> | carefully, and hear what sounds like polite applause.  Dorkings turns
+<b>Floyd</b> | back to all of you and says, "Mm.  Please wait here while I ensure that
+<b>Floyd</b> | all is in readiness," before disappearing into the study.
+<b>Floyd</b> |
+<b>Floyd</b> | Odd, you think.  Knowing Dorkings, he would have checked and double
+<b>Floyd</b> | checked everything long before your arrival.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x dorkings</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't see any dorkings here.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">inky says (to Floyd), "<span class="floydcommand">x photos</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Lush photos of the Sun Pyramid taken around Chi-chen Itza.  Uncle Foggy
+<b>Floyd</b> | claimed to have held great admiration for the builders of the pyramid.
+<b>Floyd</b> |
+<b>Floyd</b> | After a brief moment you hear rising voices.  Well, one voice anyway.
+<b>Floyd</b> | Dorkings' tone never rises or falls, but the other voice sounds like...
+<b>Floyd</b> |
+<b>Floyd</b> | Mrs.  Faverolles, the cook, storms out of the study, slamming the door
+<b>Floyd</b> | against the wall.  You can see from her complexion that she's at full
+<b>Floyd</b> | broil.  Ignoring your party, she whirls around and hurls a string of
+<b>Floyd</b> | incomprehensible French epithets towards the study, waving a sauce
+<b>Floyd</b> | spattered spoon in one hammy fist.  Her other hand clenches a saucepan
+<b>Floyd</b> | full of some rich burgundy sauce.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Oh, he left."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>phoenix</b>  says, "not Chicken Itza? disappointing"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x sauce</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | It's full of some rich, burgundy colored sauce.
+<b>Floyd</b> |
+<b>Floyd</b> | Mrs.  Faverolles storms off toward the kitchen, still raging.  Once the
+<b>Floyd</b> | noise of her passage has quieted, Dorkings gestures your party into the
+<b>Floyd</b> | study.
+<b>Floyd</b> |
+<b>Floyd</b> | You and your relatives shuffle inside and take seats at opposite sides
+<b>Floyd</b> | of the room.  You and Winnie fill out the love seat, while the
+<b>Floyd</b> | Barnevelders perch like chicken hawks on the matching sofa.
+<b>Floyd</b> |
+<b>Floyd</b> | Study
+<b>Floyd</b> | Light from the outside streams in through the closed window,
+<b>Floyd</b> | illuminating Uncle Foggy's comfortably cluttered study.  It's full of
+<b>Floyd</b> | interesting odds and ends, not the least of which is the trophy mounted
+<b>Floyd</b> | on the wall above the desk.  Many were the times that you and Winnie
+<b>Floyd</b> | would climb the bookshelves in search of written treasure, and then
+<b>Floyd</b> | spread out by the fireplace with your latest finds.  For more dexterous
+<b>Floyd</b> | pleasures, there was the carton of assorted works in progress Uncle
+<b>Floyd</b> | Foggy usually kept beneath his desk.  If nothing else appealed,
+<b>Floyd</b> | sneaking maraschino cherries from the bar was always good for a few
+<b>Floyd</b> | giggles.
+<b>Floyd</b> |
+<b>Floyd</b> | The Barnevelders are here, seated on the couch across from you and
+<b>Floyd</b> | Winnie, while Mr.  Dorkings stands beside the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | You notice that an integrated television/video player has been set up
+<b>Floyd</b> | on Uncle Foggy's desk, about where Uncle Foggy would be if he were
+<b>Floyd</b> | presiding.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x bird</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't see any bird here.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>inky</b>  says, "it's probably unnecessary to point out Barnevelder and Faverolles are breeds of chicken"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x trophy</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Buffalo-On-A-Spring (pat.  pending) is an enormous, furry buffalo
+<b>Floyd</b> | head with thick horns mounted as far apart as a broad man's shoulders.
+<b>Floyd</b> | As you know, it rests on a tightly coiled spring, and launches forward
+<b>Floyd</b> | at the touch of a button hidden on the desk.  Uncle Foggy favored using
+<b>Floyd</b> | the device on unsolicited salesmen and IRS auditors.  He would seat
+<b>Floyd</b> | them before the desk, wait until they were deeply engrossed in
+<b>Floyd</b> | business, and then...  SPROI-OI-OING!  The huge head would lunge
+<b>Floyd</b> | towards them at high velocity while Uncle Foggy screamed, "It's still
+<b>Floyd</b> | alive!  Run!  For the love of God, RUN!"  Then he'd cackle hysterically
+<b>Floyd</b> | as they tripped over themselves in their rush for the door.  Needless
+<b>Floyd</b> | to say, victims of this prank rarely returned.
+<b>Floyd</b> |
+<b>Floyd</b> | "Just a moment more.  Mm," says Dorkings, as he turns to the
+<b>Floyd</b> | television.  Your mind wanders, and you find yourself focusing on the
+<b>Floyd</b> | Buffalo-On-A-Spring (pat.  pending) mounted on the wall behind Uncle
+<b>Floyd</b> | Foggy's desk.  It was one of Uncle Foggy's funniest inventions, a
+<b>Floyd</b> | terrific source of amusement.  Well, for everyone but the unlucky
+<b>Floyd</b> | victims, anyway.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "I didn't know that."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x dorkings</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Dorkings was Uncle Foggy's solicitor.  A dour man in black who rarely
+<b>Floyd</b> | smiles, you've never quite trusted him.
+<b>Floyd</b> |
+<b>Floyd</b> | "Mm, here we are."  Dorkings steps aside as the television springs to
+<b>Floyd</b> | life.  And there on the screen, real as life but only half as dead, is
+<b>Floyd</b> | Uncle Foggy.
+<b>Floyd</b> |
+<b>Floyd</b> | "Greetin's, family," begins your deceased uncle.  "Ah suppose, Ah say,
+<b>Floyd</b> | Ah suppose you're all wondering why Ah've gathered you here today."
+<b>Floyd</b> | Uncle Foggy pauses for an expectant moment, while the Barnevelders
+<b>Floyd</b> | glare dispassionately.  Winnie rolls her eyes, though at Uncle Foggy or
+<b>Floyd</b> | the Barnevelders, you're not sure.  "Haw haw!  It's a joke, son!  Ah
+<b>Floyd</b> | made a funny!  Get it?  Ah'm too fast for you!  Gotta keep up, son!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">press button</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach that from the love seat.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Heh, Foghorn."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get up</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | It would be disrespectful to go wandering before the reading is over.
+<b>Floyd</b> |
+<b>Floyd</b> | "As you all know, Ah've made, Ah say, Ah've made a bunch of dough -
+<b>Floyd</b> | that's SAWbucks, boy - off my inventions.  Now Ah've gotta figure out
+<b>Floyd</b> | who gets it."  Uncle Foggy stares out of the screen for a moment before
+<b>Floyd</b> | continuing.  "Well Ah won't do it, y'hear!  Never was any good at this
+<b>Floyd</b> | family stuff, and Ah'm not going to start playing favorites now.
+<b>Floyd</b> | Instead, Ah'm leavin' it, Ah say, Ah'm leavin' it up to you all!"  You
+<b>Floyd</b> | and Winnie and the Barnevelders exchange quizzical glances, but no one
+<b>Floyd</b> | speaks.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Oh goodie."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">z</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Foggy rolls on.  "What Ah propose, Ah say what Ah PROPOSE is a
+<b>Floyd</b> | challenge. And the ones who best know me and my ways, well, they're
+<b>Floyd</b> | gonna come out ahead."
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington leaps angrily to his feet and shouts, "What new
+<b>Floyd</b> | foolishness is this!"  Aunt Lamona spears him with a withering glance,
+<b>Floyd</b> | and he reluctantly reseats himself.
+<b>Floyd</b> |
+<b>Floyd</b> | "Now Orpy, by now Ah expect you're gettin' pretty riled up," says Uncle
+<b>Floyd</b> | Foggy with frightening prescience.  "Well them's the breaks!  The
+<b>Floyd</b> | breaks, Ah say!  Maybe if you'd ever taken favor on my work, things'd
+<b>Floyd</b> | be different now."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">listen</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hear nothing out of the ordinary.
+<b>Floyd</b> |
+<b>Floyd</b> | "Contest goes like, Ah say, contest goes like this!  Ah've scattered
+<b>Floyd</b> | ten of my inventions around, Ah say, all 'round my estate.  Dorkings
+<b>Floyd</b> | here will give you all a list.  The one o' you who finds the most
+<b>Floyd</b> | number of things on the list gets it, Ah say gets it ALL!  The house,
+<b>Floyd</b> | the money, and most importantly...  Dorkings?  Ain't you ready yet,
+<b>Floyd</b> | suh?"
+<b>Floyd</b> |
+<b>Floyd</b> | "Ah, mm.  Yes."  Dorkings retrieves a black shammy sack from the desk
+<b>Floyd</b> | and loosens the cord binding it shut.  Reaching inside, he pulls out a
+<b>Floyd</b> | matte black pyramidal object with a small switch at its apex.  You jerk
+<b>Floyd</b> | instinctively as Dorkings fumbles with the strange object.  Everything
+<b>Floyd</b> | slows as you watch it tumble to the ground with inexplicable dread.  It
+<b>Floyd</b> | lands on the shag rug with a faint but sickening 'click.'
+<b>Floyd</b> |
+<b>Floyd</b> | Suddenly the world seems larger.  You look to Winnie for help only to
+<b>Floyd</b> | find...  a chicken!  Staring back at you is a perfectly normal white
+<b>Floyd</b> | crested hen!  You look around.  Oh, no.  Where once stood Mr.  Dorkings
+<b>Floyd</b> | and your relations, now you see only chickens.  A long moment of
+<b>Floyd</b> | stunned silence follows, as the room's occupants glance around
+<b>Floyd</b> | nervously at each other.
+<b>Floyd</b> |
+<b>Floyd</b> | The silence is broken by Uncle Foggy's booming voice.  "You got it yet
+<b>Floyd</b> | Dorkings?  Good.  Now, what you got here is my latest invention.  The
+<b>Floyd</b> | ultimate, Ah say, the ULTIMATE practical joke!  Great at parties!
+<b>Floyd</b> | It'll make a million, if my name isn't Fogarth Barnevelder!  And the
+<b>Floyd</b> | one of you all to bring back the most items on my list, gets it!  And
+<b>Floyd</b> | that's, Ah say, that's IT!  Dorkings, you can stop this consarned thing
+<b>Floyd</b> | any time now.  My, Ah say, my job here is done."
+<b>Floyd</b> |
+<b>Floyd</b> | As the implications of the situation sink in, there is a sudden tidal
+<b>Floyd</b> | swell of panic.  Someone - Aunt Lamona?  Cousin Red?  - leaps from
+<b>Floyd</b> | their perch and sets up a dreadful squawking.  Soon, the room is full
+<b>Floyd</b> | of squawking, screaching birds running in panicked circles, feathers
+<b>Floyd</b> | flying everywhere.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>phoenix</b>  says, "lol"
+</td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x carton</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The greasy, worn carton was Uncle Foggy's hobby box - full of spare
+<b>Floyd</b> | bits and pieces and small works in progress.  The grubby flaps are
+<b>Floyd</b> | closed, hiding whatever stray parts Uncle Foggy left behind.
+<b>Floyd</b> |
+<b>Floyd</b> | The cacophany is broken by a sudden click as loud as the hammer of a
+<b>Floyd</b> | revolver.  Uncle Foggy's tape rolls to a stop and automatically starts
+<b>Floyd</b> | rewinding.  With the tape's feed gone, the television reverts to
+<b>Floyd</b> | receiving broadcast signal.  All eyes focus on the television as a
+<b>Floyd</b> | recognizeable human figure appears, a woman in an apron standing behind
+<b>Floyd</b> | a counter covered with neatly placed cooking utensils.
+<b>Floyd</b> |
+<b>Floyd</b> | "Thank you, Charles," says Julia Childs.  "Now that our burgundy sauce
+<b>Floyd</b> | is chilling and the hen's organs have been removed, we can proceed to
+<b>Floyd</b> | stewing the guts and gizzards."  Suddenly your attention is drawn to a
+<b>Floyd</b> | furious pounding at the study door.  Oh no - it must be the cook
+<b>Floyd</b> | wanting to watch her program!
+<b>Floyd</b> |
+<b>Floyd</b> | "SQUAWK!"  The panic renews with increased fury as your crazed
+<b>Floyd</b> | relatives hurl themselves in shrieking clouds of feathers at every
+<b>Floyd</b> | surface in the room.  Well, it looks like its up to you and Winnie to
+<b>Floyd</b> | figure out how to reverse Uncle Foggy's joke.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is busy shoving her entire forearm up
+<b>Floyd</b> | some poor chicken's posterior.  How humiliating!
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">open carton</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach the carton from the love seat.
+<b>Floyd</b> |
+<b>Floyd</b> | Red - at least you think it's Red - clambers up onto the sofa and crows
+<b>Floyd</b> | at the top of his scrawny little lungs.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">get up</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down out of the love seat and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | A gutteral French accent beyond the door can only be Mrs.  Faverolles
+<b>Floyd</b> | cursing Dorkings for chasing her out of the study during her program.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">open carton</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Opening the carton reveals the Hedge Helpers (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pecks at the carpet as if looking for worms.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x hedge helpers</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Hedge Helpers (pat.  pending) extend a gardener's reach while
+<b>Floyd</b> | trimming tall hedges.  They clamp on to the shoulders at one end, and
+<b>Floyd</b> | end in a pair of articulated rubber hands at the other.  The hands
+<b>Floyd</b> | operate a second pair of shears, mimicking the operator's own hands,
+<b>Floyd</b> | doubling both his reach and his efficiency.
+<b>Floyd</b> |
+<b>Floyd</b> | The Hedge Helpers (pat.  pending) are another of Uncle Foggy's
+<b>Floyd</b> | inventions.  Being the recluse he was, he liked his hedges TALL.
+<b>Floyd</b> |
+<b>Floyd</b> | Cousin Red mistakenly runs into Aunt Lamona - she raises a great squawk
+<b>Floyd</b> | and pecks Red viciously in return.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x list</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "list".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">take helpers</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You snatch an end of the Hedge Helpers (pat.  pending) up in your beak.
+<b>Floyd</b> | Though quite bulky, they're light enough that you can drag them around
+<b>Floyd</b> | single...  er...  beakedly.
+<b>Floyd</b> |
+<b>Floyd</b> | "I've never tasted human flesh," says Julia, "but I hear it tastes just
+<b>Floyd</b> | like Chicken!  Doesn't THAT make you want to pat your tummies and say
+<b>Floyd</b> | yummy yummy, viewers?"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">look</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Study, on the floor
+<b>Floyd</b> | Light from the outside streams in through the closed window,
+<b>Floyd</b> | illuminating Uncle Foggy's comfortably cluttered study.  It's full of
+<b>Floyd</b> | interesting odds and ends, not the least of which is the trophy mounted
+<b>Floyd</b> | on the wall above the desk.  Many were the times that you and Winnie
+<b>Floyd</b> | would climb the bookshelves in search of written treasure, and then
+<b>Floyd</b> | spread out by the fireplace with your latest finds.  For more dexterous
+<b>Floyd</b> | pleasures, there was the carton of assorted works in progress Uncle
+<b>Floyd</b> | Foggy usually kept beneath his desk.  If nothing else appealed,
+<b>Floyd</b> | sneaking maraschino cherries from the bar was always good for a few
+<b>Floyd</b> | giggles.
+<b>Floyd</b> |
+<b>Floyd</b> | The room is filled with chickens, running in crazy circles and bounding
+<b>Floyd</b> | off the furniture and each other.  Resting off to one side of the room
+<b>Floyd</b> | is Uncle Foggy's ultimate practical joke.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, an audience member asks Julia if she uses free range
+<b>Floyd</b> | chickens.  "Free range!"  she shouts cheerfully.  "Gas range is more
+<b>Floyd</b> | like it!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  asks, "Is there a place to drop this stuff so no one else steals it?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  says, "Shall we go cut up the hedges? :)"
+</td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">x desk</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Uncle Foggy's desk is a great monolith of mahogany, with drawers of all
+<b>Floyd</b> | sizes and shapes on virtually every face.  Even though Uncle Foggy did
+<b>Floyd</b> | most of his work in his lab, the desk's surface is still scarred from
+<b>Floyd</b> | his constant tinkering.  As you know, Uncle Foggy usually kept a carton
+<b>Floyd</b> | of assorted parts beneath the desk for idle moments.  Sitting on the
+<b>Floyd</b> | center of the desk is a television set.  At one corner, you see Uncle
+<b>Floyd</b> | Foggy's Super-Bendy Balloon-Animal Balloon Dispenser (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | Your eye is inevitably drawn to the massive Buffalo-On-A-Spring (pat.
+<b>Floyd</b> | pending) hanging heavily far up on on the wall overhead which, as you
+<b>Floyd</b> | know, is activated by a hidden button on the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pecks at the carpet as if looking for worms.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>phoenix</b>  says, "I think they're probably too busy running in circles to steal anything"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "I'm not sure if anyone will steal anything."
+</td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x pyramid</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Uncle Foggy's Super Funky Chickenizer (pat.  pending) is a matte black
+<b>Floyd</b> | pyramid with a small switch at its apex.  You dearly hope Uncle Foggy
+<b>Floyd</b> | left his development notes, or a reversion device, in his lab across
+<b>Floyd</b> | the road.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is hacking the limbs off some
+<b>Floyd</b> | unfortunate fowl with a butcher's knife the size of Bayonne, New
+<b>Floyd</b> | Jersey.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x dispenser</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Uncle Foggy often liked to make elaborate balloon animals for favored
+<b>Floyd</b> | visitors, and the Super-Bendy Balloon-Animal Balloon Dispenser (pat.
+<b>Floyd</b> | pending) is another of his inventions.  It's in the shape of a small
+<b>Floyd</b> | elephant statuette with raised trunk.  Super-Bendy Balloon-Animal
+<b>Floyd</b> | Balloons (pat.  pending) are dispensed from the elephant's open mouth.
+<b>Floyd</b> | Yank out one and another takes its place.
+<b>Floyd</b> |
+<b>Floyd</b> | "Once we're done with our coq au vin," says Julia Childs, "we'll move
+<b>Floyd</b> | on to a lovely chicken divan recipe."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">take balloon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach the Super-Bendy Balloon-Animal Balloon (pat.  pending)
+<b>Floyd</b> | from the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs sneaks a sip of sherry from a bottle
+<b>Floyd</b> | beneath the counter.  You hear the word 'cirrhosis' shouted from among
+<b>Floyd</b> | the audience, to which Julia responds "Oh, pish tosh.  There's nothing
+<b>Floyd</b> | wrong with MY liver that a little CHICKEN liver won't cure!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">press button</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach the hidden button from the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | The terrible pounding resumes briefly as Mrs.  Faverolles makes another
+<b>Floyd</b> | attempt at the door.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">up</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You flap your wings edgily, glancing from desk to sill to shelves to
+<b>Floyd</b> | bar, looking for something to hop up onto.
+<b>Floyd</b> |
+<b>Floyd</b> | A gutteral French accent beyond the door can only be Mrs.  Faverolles
+<b>Floyd</b> | cursing Dorkings for chasing her out of the study during her program.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">get on desk</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | The terrible pounding resumes briefly as Mrs.  Faverolles makes another
+<b>Floyd</b> | attempt at the door.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">press button</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Buffalo-On-A-Spring (pat.  pending) zooms off the wall with a
+<b>Floyd</b> | resounding SPROI-OI-OING.  Cousin Red, standing in the center of the
+<b>Floyd</b> | room, leaps with bulging eyes from the path of the charging trophy.
+<b>Floyd</b> | The trophy jerks to a sudden stop about three feet off the ground, in
+<b>Floyd</b> | front of the desk.  A moment later, the head snaps back to the wall.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs leans out into her audience and asks
+<b>Floyd</b> | conspiratorially, "Do you folks know why the chicken crossed the road?"
+<b>Floyd</b> | After a moment she answers, "Because it was hauled across in a
+<b>Floyd</b> | butcher's cart, of course!"  Her joke is met by silence from the
+<b>Floyd</b> | audience, prompting her to respond cheerily with "Well!  THAT joke sure
+<b>Floyd</b> | laid an egg!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "I guess there's multiple places for 'up'"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>borowski</b>  says, "I guess we could have gotten back on the love seat."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on bar</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach that from the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x desk</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Uncle Foggy's desk is a great monolith of mahogany, with drawers of all
+<b>Floyd</b> | sizes and shapes on virtually every face.  Even though Uncle Foggy did
+<b>Floyd</b> | most of his work in his lab, the desk's surface is still scarred from
+<b>Floyd</b> | his constant tinkering.  As you know, Uncle Foggy usually kept a carton
+<b>Floyd</b> | of assorted parts beneath the desk for idle moments.  Sitting on the
+<b>Floyd</b> | center of the desk is a television set.  At one corner, you see Uncle
+<b>Floyd</b> | Foggy's Super-Bendy Balloon-Animal Balloon Dispenser (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | Your eye is inevitably drawn to the massive Buffalo-On-A-Spring (pat.
+<b>Floyd</b> | pending) hanging heavily far up on on the wall overhead which, as you
+<b>Floyd</b> | know, is activated by a hidden button on the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | "Thanks for tuning in," says Julia Childs.  "I know you'll just LOVE
+<b>Floyd</b> | our all day long chicken recipe-athon!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the desk and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs mercilessly pounds the carcass of some
+<b>Floyd</b> | poor disemboweled fowl with a - gulp - meat tenderizer.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on bar</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the bar.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is hacking the limbs off some
+<b>Floyd</b> | unfortunate fowl with a butcher's knife the size of Bayonne, New
+<b>Floyd</b> | Jersey.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x bar</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Though not a habitual drinker, Uncle Foggy always kept a stocked bar.
+<b>Floyd</b> | As kids, you and Winnie often had fun sneaking olives and maraschino
+<b>Floyd</b> | cherries.  However, it looks like all of the condiments, along with the
+<b>Floyd</b> | booze and glasses, have been locked away.
+<b>Floyd</b> |
+<b>Floyd</b> | Lying on the surface of the bar is one of Uncle Foggy's Rainbow Wacky
+<b>Floyd</b> | Straws (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs coughs up a mouthful of feathers.  "Oh,
+<b>Floyd</b> | dear!"  she exlaims.  "Excuse me!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Boo."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x straws</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "straws".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">inky says (to Floyd), "<span class="floydcommand">x straws</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "straws".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">inky says (to Floyd), "<span class="floydcommand">x straw</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Another of Uncle Foggy's inventions, the Rainbow Wacky Straw (pat.
+<b>Floyd</b> | pending) was developed with you and Winnie in mind.  It's a ludicrously
+<b>Floyd</b> | long flexible straw that randomly changes the color of liquids that
+<b>Floyd</b> | pass through it.  You and Winnie used to enjoy drinking Shirley Temples
+<b>Floyd</b> | from across the room, watching as the Rainbow Wacky Straw (pat.
+<b>Floyd</b> | pending) turned the drink from cherry cola red to lime rickey green to
+<b>Floyd</b> | tang orange.
+<b>Floyd</b> |
+<b>Floyd</b> | "Thanks for tuning in," says Julia Childs.  "I know you'll just LOVE
+<b>Floyd</b> | our all day long chicken recipe-athon!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">take straw</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can only carry one thing at a time in your beak.
+<b>Floyd</b> |
+<b>Floyd</b> | The terrible pounding resumes briefly as Mrs.  Faverolles makes another
+<b>Floyd</b> | attempt at the door.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x shelf</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Tall wooden shelves tower over Uncle Foggy's desk on either side,
+<b>Floyd</b> | drawing attention to the Buffalo-On-A-Spring (pat.  pending), mounted
+<b>Floyd</b> | prominently on the wall between them.  The shelves are crammed with
+<b>Floyd</b> | books of all ages and subjects, though there's probably little on them
+<b>Floyd</b> | that hasn't been read by you or Winnie.
+<b>Floyd</b> |
+<b>Floyd</b> | "You know," says Julia as she strips the flesh off some poor dead bird,
+<b>Floyd</b> | "the thing I like about these Purdue chickens is how nice and easily
+<b>Floyd</b> | the skins slide off.  I guess it's true what they say.  It really DOES
+<b>Floyd</b> | take a tough man to make a tender chicken."  Julia's audience laughs
+<b>Floyd</b> | politely.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x window</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | A plain, white-framed, four-panel window that looks out on the front
+<b>Floyd</b> | lawn.  There's a small knot, about the diameter of your fingertip (the
+<b>Floyd</b> | kind you used to have) at the base of the frame where it meets the
+<b>Floyd</b> | sill.
+<b>Floyd</b> |
+<b>Floyd</b> | "I once killed a chicken just to watch it die," says Julia Childs.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x knot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | It's a small knot just at the very bottom of the frame, about large
+<b>Floyd</b> | enough to allow a pencil or a pinky finger between the frame and the
+<b>Floyd</b> | sill.
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pulls a long strand of fiber from the carpet.  Cousin
+<b>Floyd</b> | Red jealously tries to snatch it away, and a tug-of-war ensues.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">stick beak in knot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "beak".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">peck at knot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't recognize that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>inky</b>  says, "straw, probably"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">drop helpers</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Dropped.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs mercilessly pounds the carcass of some
+<b>Floyd</b> | poor disemboweled fowl with a - gulp - meat tenderizer.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">take straw</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You snatch the Rainbow Wacky Straw (pat.  pending) up in your beak like
+<b>Floyd</b> | a long wriggly worm.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs sneaks a sip of sherry from a bottle
+<b>Floyd</b> | beneath the counter.  You hear the word 'cirrhosis' shouted from among
+<b>Floyd</b> | the audience, to which Julia responds "Oh, pish tosh.  There's nothing
+<b>Floyd</b> | wrong with MY liver that a little CHICKEN liver won't cure!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">put straw in knot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach that from the bar.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>phoenix</b>  asks, "wait, what's a "knot", a sort of hole?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>inky</b>  says, "or, uh, maybe a balloon and then you inflate it"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>inky</b>  says, "yah"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Or something to help open the window."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "A knot is a hole in wood, yes."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>inky</b>  | [<a href="http://www.featurepics.com/FI/Thumb300/20070425/Wood-Knot-Beam-Wooden-Eye-295506.jpg">LINK</A>]
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>inky</b>  says, "(but sometimes that round part can have fallen/been pushed out)"
+</td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">get on sill</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach that from the bar.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">d</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the bar and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs leans out into her audience and asks
+<b>Floyd</b> | conspiratorially, "Do you folks know why the chicken crossed the road?"
+<b>Floyd</b> | After a moment she answers, "Because it was hauled across in a
+<b>Floyd</b> | butcher's cart, of course!"  Her joke is met by silence from the
+<b>Floyd</b> | audience, prompting her to respond cheerily with "Well!  THAT joke sure
+<b>Floyd</b> | laid an egg!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">get on sill</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the windowsill.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is busy shoving her entire forearm up
+<b>Floyd</b> | some poor chicken's posterior.  How humiliating!
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">push knot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Pushing the knot doesn't do anything.
+<b>Floyd</b> |
+<b>Floyd</b> | "I once killed a chicken just to watch it die," says Julia Childs.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">put straw in knot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You slide one end of the Rainbow Wacky Straw (pat.  pending) into the
+<b>Floyd</b> | knot in the frame.  Unfortunately, it's a loose fit, and the Rainbow
+<b>Floyd</b> | Wacky Straw (pat.  pending) slides out.
+<b>Floyd</b> |
+<b>Floyd</b> | "You know," says Julia as she strips the flesh off some poor dead bird,
+<b>Floyd</b> | "the thing I like about these Purdue chickens is how nice and easily
+<b>Floyd</b> | the skins slide off.  I guess it's true what they say.  It really DOES
+<b>Floyd</b> | take a tough man to make a tender chicken."  Julia's audience laughs
+<b>Floyd</b> | politely.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">DavidW says (to Floyd), "<span class="floydcommand">open window</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | It's far too heavy too open by chicken power alone, so you motion
+<b>Floyd</b> | Winnie over, slam your chicken-twin power-rings together and squawk,
+<b>Floyd</b> | "Chicken-Twin Power ACTIVATE!"
+<b>Floyd</b> |
+<b>Floyd</b> | Or not.
+<b>Floyd</b> |
+<b>Floyd</b> | (Hint:  that's the puzzle, doofus.)
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pecks at the carpet as if looking for worms.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Heh"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "ha Chicken-Twin Power"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "I think we need the equivalent of a crowbar for the window sill knot. Maybe a pencil?"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the windowsill and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs cracks an egg into a bowl, whips it
+<b>Floyd</b> | into a light batter, and then drops eviscerated chicken parts into it.
+<b>Floyd</b> | "Well," says Julia, "I guess that answers the question of which came
+<b>Floyd</b> | first!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on shelves</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You slowly, laboriously climb the bookshelf, one shelf at a time, claw
+<b>Floyd</b> | over beak over claw.  Eventually you reach the top.  You look around
+<b>Floyd</b> | and find yourself at a level with the Buffalo-On-A-Spring (pat.
+<b>Floyd</b> | pending).
+<b>Floyd</b> |
+<b>Floyd</b> | "I've never tasted human flesh," says Julia, "but I hear it tastes just
+<b>Floyd</b> | like Chicken!  Doesn't THAT make you want to pat your tummies and say
+<b>Floyd</b> | yummy yummy, viewers?"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x buffalo</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Buffalo-On-A-Spring (pat.  pending) is an enormous, furry buffalo
+<b>Floyd</b> | head with thick horns mounted as far apart as a broad man's shoulders.
+<b>Floyd</b> | As you know, it rests on a tightly coiled spring, and launches forward
+<b>Floyd</b> | at the touch of a button hidden on the desk.  Uncle Foggy favored using
+<b>Floyd</b> | the device on unsolicited salesmen and IRS auditors.  He would seat
+<b>Floyd</b> | them before the desk, wait until they were deeply engrossed in
+<b>Floyd</b> | business, and then...  SPROI-OI-OING!  The huge head would lunge
+<b>Floyd</b> | towards them at high velocity while Uncle Foggy screamed, "It's still
+<b>Floyd</b> | alive!  Run!  For the love of God, RUN!"  Then he'd cackle hysterically
+<b>Floyd</b> | as they tripped over themselves in their rush for the door.  Needless
+<b>Floyd</b> | to say, victims of this prank rarely returned.
+<b>Floyd</b> |
+<b>Floyd</b> | A gutteral French accent beyond the door can only be Mrs.  Faverolles
+<b>Floyd</b> | cursing Dorkings for chasing her out of the study during her program.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on buffalo</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the Buffalo-On-A-Spring (pat.
+<b>Floyd</b> | pending).
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs drops one of the hens she is preparing.
+<b>Floyd</b> | "Oh, too bad," she says, "Looks like that little chicky flew the coop!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">winnie, get on desk</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You let out an unintelligible squawk, failing to communicate your
+<b>Floyd</b> | order.
+<b>Floyd</b> |
+<b>Floyd</b> | Cousin Red mistakenly runs into Aunt Lamona - she raises a great squawk
+<b>Floyd</b> | and pecks Red viciously in return.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>phoenix</b>  says, "so I guess we are missing an item somewhere"
+</td></tr><tr><td class="room">inky says (to Floyd), "<span class="floydcommand">x balloon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Super-Bendy Balloon-Animal Balloon (pat.  pending), a long, thin
+<b>Floyd</b> | balloon of the variety used to make balloon animals, is another of
+<b>Floyd</b> | Uncle Foggy's inventions.  Uncle Foggy was endlessly fond of making
+<b>Floyd</b> | balloon animals for guests, but equally frustrated at their short
+<b>Floyd</b> | life-span and tendancy to burst.  So he took vulcanization a step
+<b>Floyd</b> | further with Uncle Foggy's Foggyized Super-Bendy Balloon-Animal Balloon
+<b>Floyd</b> | Rubber (pat.  pending)!
+<b>Floyd</b> |
+<b>Floyd</b> | "I've never tasted human flesh," says Julia, "but I hear it tastes just
+<b>Floyd</b> | like Chicken!  Doesn't THAT make you want to pat your tummies and say
+<b>Floyd</b> | yummy yummy, viewers?"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  asks, "So, what? We want to open the window, and go for a ride on the buffalo head?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Is there a desk drawer?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  says, "Yeah"
+</td></tr><tr><td class="room">inky says (to Floyd), "<span class="floydcommand">x drawer</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Drawers of all sizes and shape fill Uncle Foggy's desk.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs sneaks a sip of sherry from a bottle
+<b>Floyd</b> | beneath the counter.  You hear the word 'cirrhosis' shouted from among
+<b>Floyd</b> | the audience, to which Julia responds "Oh, pish tosh.  There's nothing
+<b>Floyd</b> | wrong with MY liver that a little CHICKEN liver won't cure!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">inky says (to Floyd), "<span class="floydcommand">open drawer</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach the drawers from the Buffalo-On-A-Spring (pat.
+<b>Floyd</b> | pending).
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs coughs up a mouthful of feathers.  "Oh,
+<b>Floyd</b> | dear!"  she exlaims.  "Excuse me!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Not sure we can open anything."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the Buffalo-On-A-Spring (pat.  pending) and flutter
+<b>Floyd</b> | to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | A gutteral French accent beyond the door can only be Mrs.  Faverolles
+<b>Floyd</b> | cursing Dorkings for chasing her out of the study during her program.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  asks, "Did we find the papers mentioned?"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on desk</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | "Once we're done with our coq au vin," says Julia Childs, "we'll move
+<b>Floyd</b> | on to a lovely chicken divan recipe."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">open draw</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "draw".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">open drawer</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Your new body hasn't got the power to open the heavy wooden drawers.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs cracks an egg into a bowl, whips it
+<b>Floyd</b> | into a light batter, and then drops eviscerated chicken parts into it.
+<b>Floyd</b> | "Well," says Julia, "I guess that answers the question of which came
+<b>Floyd</b> | first!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">x ballon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "ballon".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">take balloon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can only carry one thing at a time in your beak.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs drops one of the hens she is preparing.
+<b>Floyd</b> | "Oh, too bad," she says, "Looks like that little chicky flew the coop!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">drop straw</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Rainbow Wacky Straw (pat.  pending) slides off the desk to the
+<b>Floyd</b> | study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pulls a long strand of fiber from the carpet.  Cousin
+<b>Floyd</b> | Red jealously tries to snatch it away, and a tug-of-war ensues.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">take balloon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You grab hold of the long, stringy Super-Bendy Balloon-Animal Balloon
+<b>Floyd</b> | (pat.  pending) with your beak and pull until it flaps free of the
+<b>Floyd</b> | Super-Bendy Balloon-Animal Balloon Dispenser (pat.  pending).  You
+<b>Floyd</b> | discover that it is the last one in the dispenser, something that
+<b>Floyd</b> | leaves you with a queer sense of melancholy.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs mercilessly pounds the carcass of some
+<b>Floyd</b> | poor disemboweled fowl with a - gulp - meat tenderizer.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">tie balloon to drawer</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "tie".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">inky says (to Floyd), "<span class="floydcommand">put balloon in knot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach that from the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  asks, "put the straw in the balloon?"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">put straw in balloon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach the Rainbow Wacky Straw (pat.  pending) from the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is hacking the limbs off some
+<b>Floyd</b> | unfortunate fowl with a butcher's knife the size of Bayonne, New
+<b>Floyd</b> | Jersey.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  asks, "Why isn't the straw on the desk?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  says, "Oh"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the desk and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | Red - at least you think it's Red - clambers up onto the sofa and crows
+<b>Floyd</b> | at the top of his scrawny little lungs.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">put straw in balloon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You slide the mouth of the Super-Bendy Balloon-Animal Balloon (pat.
+<b>Floyd</b> | pending) over the Rainbow Wacky Straw (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | "Later on the program," says Julia Childs, "I'll show you how to feed a
+<b>Floyd</b> | family of four even if your man is bringing home chicken feed!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on sill</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the windowsill.
+<b>Floyd</b> |
+<b>Floyd</b> | The formerly dour Mr.  Dorkings makes for a peculiar sight as he
+<b>Floyd</b> | rebounds off your uncle's desk, leaving a trail of black feathers.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">put balloon in knot</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You cram the balloon-covered end of the Rainbow Wacky Straw (pat.
+<b>Floyd</b> | pending) into the knot, then, gripping it with your beak, shove the
+<b>Floyd</b> | Super-Bendy Balloon-Animal Balloon (pat.  pending) as far into the knot
+<b>Floyd</b> | as you can.
+<b>Floyd</b> |
+<b>Floyd</b> | Cousin Red mistakenly runs into Aunt Lamona - she raises a great squawk
+<b>Floyd</b> | and pecks Red viciously in return.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Yay"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "Inflate the baloon to open the window?"
+</td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">inflate baloon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "baloon".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">inflate balloon</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You have no lips and you must blow.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs leans out into her audience and asks
+<b>Floyd</b> | conspiratorially, "Do you folks know why the chicken crossed the road?"
+<b>Floyd</b> | After a moment she answers, "Because it was hauled across in a
+<b>Floyd</b> | butcher's cart, of course!"  Her joke is met by silence from the
+<b>Floyd</b> | audience, prompting her to respond cheerily with "Well!  THAT joke sure
+<b>Floyd</b> | laid an egg!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>phoenix</b>  says, "lol"
+</td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">blow in straw</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  asks, "hm. Is there a fireplace bellows here?"
+</td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">look</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Study, on the windowsill
+<b>Floyd</b> | Light from the outside streams in through the closed window,
+<b>Floyd</b> | illuminating Uncle Foggy's comfortably cluttered study.  It's full of
+<b>Floyd</b> | interesting odds and ends, not the least of which is the trophy mounted
+<b>Floyd</b> | on the wall above the desk.  Many were the times that you and Winnie
+<b>Floyd</b> | would climb the bookshelves in search of written treasure, and then
+<b>Floyd</b> | spread out by the fireplace with your latest finds.  For more dexterous
+<b>Floyd</b> | pleasures, there was the carton of assorted works in progress Uncle
+<b>Floyd</b> | Foggy usually kept beneath his desk.  If nothing else appealed,
+<b>Floyd</b> | sneaking maraschino cherries from the bar was always good for a few
+<b>Floyd</b> | giggles.
+<b>Floyd</b> |
+<b>Floyd</b> | The room is filled with chickens, running in crazy circles and bounding
+<b>Floyd</b> | off the furniture and each other.  Resting off to one side of the room
+<b>Floyd</b> | is Uncle Foggy's ultimate practical joke.  Sitting on the bar is the
+<b>Floyd</b> | Hedge Helpers (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs sneaks a sip of sherry from a bottle
+<b>Floyd</b> | beneath the counter.  You hear the word 'cirrhosis' shouted from among
+<b>Floyd</b> | the audience, to which Julia responds "Oh, pish tosh.  There's nothing
+<b>Floyd</b> | wrong with MY liver that a little CHICKEN liver won't cure!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">x fireplace</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You and Winnie used to spend many cold days bundled up by the charming
+<b>Floyd</b> | old brick fireplace, with good books and hot chocolate, the latter
+<b>Floyd</b> | preferably drunken through one of Uncle Foggy's Wacky Rainbow Straws
+<b>Floyd</b> | (pat.  pending).  Standing to one side of the fireplace is an
+<b>Floyd</b> | assortment of brass pokers and an old bellows.
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pecks at the carpet as if looking for worms.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "(bellows is the traditional tool for inflating things when you can't do it directly)"
+</td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the windowsill and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs sneaks a sip of sherry from a bottle
+<b>Floyd</b> | beneath the counter.  You hear the word 'cirrhosis' shouted from among
+<b>Floyd</b> | the audience, to which Julia responds "Oh, pish tosh.  There's nothing
+<b>Floyd</b> | wrong with MY liver that a little CHICKEN liver won't cure!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">take bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Realizing that you can't use the bellows in its current position, you
+<b>Floyd</b> | try to topple it from its upright position by the fireplace.  It
+<b>Floyd</b> | budges, but just barely.  Winnie, comprehending your efforts, lends a
+<b>Floyd</b> | beak to assist.  Working together, you manage to pull the bellows down
+<b>Floyd</b> | to the ground and drag it to the center of the room.
+<b>Floyd</b> |
+<b>Floyd</b> | "I once killed a chicken just to watch it die," says Julia Childs.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">take bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Winnie gives you a light peck as if to say "Don't be a little chicken
+<b>Floyd</b> | shit.  I'm not helping you move that again."
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs cracks an egg into a bowl, whips it
+<b>Floyd</b> | into a light batter, and then drops eviscerated chicken parts into it.
+<b>Floyd</b> | "Well," says Julia, "I guess that answers the question of which came
+<b>Floyd</b> | first!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">put straw in bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hold the straw firmly in beak and cram it as far into the tube of
+<b>Floyd</b> | the bellows as it will go.  The straw fits snugly inside the tube,
+<b>Floyd</b> | forming a solid connection.
+<b>Floyd</b> |
+<b>Floyd</b> | "Later today," says Julia Childs, "we'll be demonstrating how to
+<b>Floyd</b> | perform emergency liver transplant surgery on your house pets using
+<b>Floyd</b> | chicken liver!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">get on desk</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pulls a long strand of fiber from the carpet.  Cousin
+<b>Floyd</b> | Red jealously tries to snatch it away, and a tug-of-war ensues.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  asks, "Can the straw be attached to the bellows from here?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "er, from where the bellows is, I meant"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>phoenix</b>  says, "I think its attached to both the bellows and the balloon end in window atm"
+</td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">x straw</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Another of Uncle Foggy's inventions, the Rainbow Wacky Straw (pat.
+<b>Floyd</b> | pending) was developed with you and Winnie in mind.  It's a ludicrously
+<b>Floyd</b> | long flexible straw that randomly changes the color of liquids that
+<b>Floyd</b> | pass through it.  You and Winnie used to enjoy drinking Shirley Temples
+<b>Floyd</b> | from across the room, watching as the Rainbow Wacky Straw (pat.
+<b>Floyd</b> | pending) turned the drink from cherry cola red to lime rickey green to
+<b>Floyd</b> | tang orange.
+<b>Floyd</b> |
+<b>Floyd</b> | One end of the Rainbow Wacky Straw (pat.  pending) is inserted into the
+<b>Floyd</b> | bellows, while the other is inserted into the Super-Bendy
+<b>Floyd</b> | Balloon-Animal Balloon (pat.  pending) and crammed into the knot in the
+<b>Floyd</b> | window.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs leans out into her audience and asks
+<b>Floyd</b> | conspiratorially, "Do you folks know why the chicken crossed the road?"
+<b>Floyd</b> | After a moment she answers, "Because it was hauled across in a
+<b>Floyd</b> | butcher's cart, of course!"  Her joke is met by silence from the
+<b>Floyd</b> | audience, prompting her to respond cheerily with "Well!  THAT joke sure
+<b>Floyd</b> | laid an egg!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  asks, "Can we somehow turn off the tv?"
+</td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">push button</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Buffalo-On-A-Spring (pat.  pending) zooms off the wall with a
+<b>Floyd</b> | resounding SPROI-OI-OING.  The trophy jerks to a sudden stop about
+<b>Floyd</b> | three feet off the ground, in front of the desk, and just above the
+<b>Floyd</b> | bellows lying in the middle of the room.  Aunt Lamona, standing near
+<b>Floyd</b> | the bellows, leaps with bulging eyes from the path of the charging
+<b>Floyd</b> | trophy.  A moment later, the head snaps back to the wall.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs leans out into her audience and asks
+<b>Floyd</b> | conspiratorially, "Do you folks know why the chicken crossed the road?"
+<b>Floyd</b> | After a moment she answers, "Because it was hauled across in a
+<b>Floyd</b> | butcher's cart, of course!"  Her joke is met by silence from the
+<b>Floyd</b> | audience, prompting her to respond cheerily with "Well!  THAT joke sure
+<b>Floyd</b> | laid an egg!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">turn off tv</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | As much as you would love to end Ms.  Childs' depredations, the
+<b>Floyd</b> | television seems to be chicken-proof.
+<b>Floyd</b> |
+<b>Floyd</b> | A gutteral French accent beyond the door can only be Mrs.  Faverolles
+<b>Floyd</b> | cursing Dorkings for chasing her out of the study during her program.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>phoenix</b>  says, "Damn. Missed"
+</td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">jump on bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach the bellows from the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | "Later today," says Julia Childs, "we'll be demonstrating how to
+<b>Floyd</b> | perform emergency liver transplant surgery on your house pets using
+<b>Floyd</b> | chicken liver!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  asks, "Can't we just jump onto the  bellows?"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the desk and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs sneaks a sip of sherry from a bottle
+<b>Floyd</b> | beneath the counter.  You hear the word 'cirrhosis' shouted from among
+<b>Floyd</b> | the audience, to which Julia responds "Oh, pish tosh.  There's nothing
+<b>Floyd</b> | wrong with MY liver that a little CHICKEN liver won't cure!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know how to get on the bellows.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs coughs up a mouthful of feathers.  "Oh,
+<b>Floyd</b> | dear!"  she exlaims.  "Excuse me!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on sill</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the windowsill.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is hacking the limbs off some
+<b>Floyd</b> | unfortunate fowl with a butcher's knife the size of Bayonne, New
+<b>Floyd</b> | Jersey.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">jump on bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach the bellows from the windowsill.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs coughs up a mouthful of feathers.  "Oh,
+<b>Floyd</b> | dear!"  she exlaims.  "Excuse me!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the windowsill and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pulls a long strand of fiber from the carpet.  Cousin
+<b>Floyd</b> | Red jealously tries to snatch it away, and a tug-of-war ensues.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">jump on bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know how to jump the bellows.
+<b>Floyd</b> |
+<b>Floyd</b> | The terrible pounding resumes briefly as Mrs.  Faverolles makes another
+<b>Floyd</b> | attempt at the door.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">pump bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "pump".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">x bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | It's an ordinary bellows, lying in the middle of the room in front of
+<b>Floyd</b> | Uncle Foggy's desk.  Two bits of tapered wood are joined by an
+<b>Floyd</b> | accordion-like sleeve. Pulling the handle out fills it with air;
+<b>Floyd</b> | squeezing them together expels the air.  You and Winnie used to use
+<b>Floyd</b> | enjoy using this particular bellows to inflate Uncle Foggy's
+<b>Floyd</b> | Super-Bendy Balloon-Animal Balloons (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | Attached to the tube of the bellows is one of Uncle Foggy's Rainbow
+<b>Floyd</b> | Wacky Straws (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs cracks an egg into a bowl, whips it
+<b>Floyd</b> | into a light batter, and then drops eviscerated chicken parts into it.
+<b>Floyd</b> | "Well," says Julia, "I guess that answers the question of which came
+<b>Floyd</b> | first!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">pull handle</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Winnie gives you a light peck as if to say "Don't be a little chicken
+<b>Floyd</b> | shit.  I'm not helping you move that again."
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pecks at the carpet as if looking for worms.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">squeeze bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | As a chicken, you don't have the muscle (or the hands, for that matter)
+<b>Floyd</b> | to squeeze the bellows.  Oh, if only you had hands again!
+<b>Floyd</b> |
+<b>Floyd</b> | "You know," says Julia as she strips the flesh off some poor dead bird,
+<b>Floyd</b> | "the thing I like about these Purdue chickens is how nice and easily
+<b>Floyd</b> | the skins slide off.  I guess it's true what they say.  It really DOES
+<b>Floyd</b> | take a tough man to make a tender chicken."  Julia's audience laughs
+<b>Floyd</b> | politely.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">pull out handle</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't recognize that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">pull handle out</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | There are words after your command I couldn't use.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "Is the reason that the buffalo head missed hitting the bellows because the bellows isn't high enough; I'm not sure what we're aiming for."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>phoenix</b>  says, "yeah, it went over the bellows"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "like, do we need a teeter-totter sort of plank?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>phoenix</b>  says, "we have the shears thingy"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>phoenix</b>  asks, "where'd we leave it?"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on bar</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the bar.
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pecks at the carpet as if looking for worms.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">take helper</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You snatch an end of the Hedge Helpers (pat.  pending) up in your beak.
+<b>Floyd</b> | Though quite bulky, they're light enough that you can drag them around
+<b>Floyd</b> | single...  er...  beakedly.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is busy shoving her entire forearm up
+<b>Floyd</b> | some poor chicken's posterior.  How humiliating!
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "I suspect we'll need the shears for the hedges outside."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the bar and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs mercilessly pounds the carcass of some
+<b>Floyd</b> | poor disemboweled fowl with a - gulp - meat tenderizer.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x helper</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Hedge Helpers (pat.  pending) extend a gardener's reach while
+<b>Floyd</b> | trimming tall hedges.  They clamp on to the shoulders at one end, and
+<b>Floyd</b> | end in a pair of articulated rubber hands at the other.  The hands
+<b>Floyd</b> | operate a second pair of shears, mimicking the operator's own hands,
+<b>Floyd</b> | doubling both his reach and his efficiency.
+<b>Floyd</b> |
+<b>Floyd</b> | The Hedge Helpers (pat.  pending) are another of Uncle Foggy's
+<b>Floyd</b> | inventions.  Being the recluse he was, he liked his hedges TALL.
+<b>Floyd</b> |
+<b>Floyd</b> | "On next week's program," says Julia Childs, "I'll be showing you how
+<b>Floyd</b> | to make chicken-fried chicken!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">clamp bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "clamp".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">put helpers on bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Done.
+<b>Floyd</b> |
+<b>Floyd</b> | Red - at least you think it's Red - clambers up onto the sofa and crows
+<b>Floyd</b> | at the top of his scrawny little lungs.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x bellows</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | It's an ordinary bellows, lying in the middle of the room in front of
+<b>Floyd</b> | Uncle Foggy's desk.  Two bits of tapered wood are joined by an
+<b>Floyd</b> | accordion-like sleeve. Pulling the handle out fills it with air;
+<b>Floyd</b> | squeezing them together expels the air.  You and Winnie used to use
+<b>Floyd</b> | enjoy using this particular bellows to inflate Uncle Foggy's
+<b>Floyd</b> | Super-Bendy Balloon-Animal Balloons (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | Attached to the tube of the bellows is one of Uncle Foggy's Rainbow
+<b>Floyd</b> | Wacky Straws (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | "Thanks for tuning in," says Julia Childs.  "I know you'll just LOVE
+<b>Floyd</b> | our all day long chicken recipe-athon!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>phoenix</b>  says, "doesn't seem to be attached"
+</td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">x helper</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Hedge Helpers (pat.  pending) extend a gardener's reach while
+<b>Floyd</b> | trimming tall hedges.  They clamp on to the shoulders at one end, and
+<b>Floyd</b> | end in a pair of articulated rubber hands at the other.  The hands
+<b>Floyd</b> | operate a second pair of shears, mimicking the operator's own hands,
+<b>Floyd</b> | doubling both his reach and his efficiency.
+<b>Floyd</b> |
+<b>Floyd</b> | The Hedge Helpers (pat.  pending) are another of Uncle Foggy's
+<b>Floyd</b> | inventions.  Being the recluse he was, he liked his hedges TALL.
+<b>Floyd</b> |
+<b>Floyd</b> | The terrible pounding resumes briefly as Mrs.  Faverolles makes another
+<b>Floyd</b> | attempt at the door.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>phoenix</b>  says, "but if it's sitting on top of the bellows maybe the buffalo can hit it"
+</td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">get on desk</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is busy shoving her entire forearm up
+<b>Floyd</b> | some poor chicken's posterior.  How humiliating!
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">press button</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Buffalo-On-A-Spring (pat.  pending) zooms off the wall with a
+<b>Floyd</b> | resounding SPROI-OI-OING.  The trophy jerks to a sudden stop about
+<b>Floyd</b> | three feet off the ground, in front of the desk, and just above the
+<b>Floyd</b> | bellows lying in the middle of the room.  Mr.  Dorkings, standing near
+<b>Floyd</b> | the bellows, leaps with bulging eyes from the path of the charging
+<b>Floyd</b> | trophy.  A moment later, the head snaps back to the wall.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, an audience member asks Julia if she uses free range
+<b>Floyd</b> | chickens.  "Free range!"  she shouts cheerfully.  "Gas range is more
+<b>Floyd</b> | like it!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">wear helpers</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach the Hedge Helpers (pat.  pending) from the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | The formerly dour Mr.  Dorkings makes for a peculiar sight as he
+<b>Floyd</b> | rebounds off your uncle's desk, leaving a trail of black feathers.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the desk and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | "Thanks for tuning in," says Julia Childs.  "I know you'll just LOVE
+<b>Floyd</b> | our all day long chicken recipe-athon!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">wear helpers</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Hedge Helpers (pat.  pending) weren't designed to mount on small
+<b>Floyd</b> | fowl.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs leans out into her audience and asks
+<b>Floyd</b> | conspiratorially, "Do you folks know why the chicken crossed the road?"
+<b>Floyd</b> | After a moment she answers, "Because it was hauled across in a
+<b>Floyd</b> | butcher's cart, of course!"  Her joke is met by silence from the
+<b>Floyd</b> | audience, prompting her to respond cheerily with "Well!  THAT joke sure
+<b>Floyd</b> | laid an egg!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">take helpers</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You snatch an end of the Hedge Helpers (pat.  pending) up in your beak.
+<b>Floyd</b> | Though quite bulky, they're light enough that you can drag them around
+<b>Floyd</b> | single...  er...  beakedly.
+<b>Floyd</b> |
+<b>Floyd</b> | "You know," says Julia as she strips the flesh off some poor dead bird,
+<b>Floyd</b> | "the thing I like about these Purdue chickens is how nice and easily
+<b>Floyd</b> | the skins slide off.  I guess it's true what they say.  It really DOES
+<b>Floyd</b> | take a tough man to make a tender chicken."  Julia's audience laughs
+<b>Floyd</b> | politely.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">DavidW says (to Floyd), "<span class="floydcommand">x dorkings</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Dorkings was a dour looking man in black.  Now he's a dour looking
+<b>Floyd</b> | black chicken.  And those beady eyes don't make him look any more
+<b>Floyd</b> | trustworthy.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs coughs up a mouthful of feathers.  "Oh,
+<b>Floyd</b> | dear!"  she exlaims.  "Excuse me!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on shelf</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | With one of the light-weight Hedge Helper (pat.  pending) hands
+<b>Floyd</b> | clutched in your beak, you attempt to climb the tall bookshelf, without
+<b>Floyd</b> | much progress.  Winnie, seeing your plan, beaks down on the other hand
+<b>Floyd</b> | and mounts alongside you.  Between you both, you're able, slowly,
+<b>Floyd</b> | laboriously, to climb the bookshelves with the Hedge Helpers (pat.
+<b>Floyd</b> | pending).  At last you reach the top, even with the Buffalo-On-A-Spring
+<b>Floyd</b> | (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | Aunt Lamona and Uncle Orpington - at least you think they're Aunt
+<b>Floyd</b> | Lamona and Uncle Orpington - slam into each other at full tilt and
+<b>Floyd</b> | knock each other onto the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on trophy</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the Buffalo-On-A-Spring (pat.
+<b>Floyd</b> | pending).
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs mercilessly pounds the carcass of some
+<b>Floyd</b> | poor disemboweled fowl with a - gulp - meat tenderizer.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">put helpers on trophy</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | There's no good surface on the head itself, but you might be able to
+<b>Floyd</b> | mount the Hedge Helpers (pat.  pending) on the trophy's horns.
+<b>Floyd</b> |
+<b>Floyd</b> | A gutteral French accent beyond the door can only be Mrs.  Faverolles
+<b>Floyd</b> | cursing Dorkings for chasing her out of the study during her program.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">put helpers on horn</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | With Winnie's help, you mount the the Hedge Helpers (pat.  pending) on
+<b>Floyd</b> | the horns of the the Buffalo-On-A-Spring (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs invites an audience member up to assist
+<b>Floyd</b> | her.  The volunteer hesitates at reaching into the chicken's cavity,
+<b>Floyd</b> | prompting Julia to ask "What're you...  chicken?"  Julia laughs
+<b>Floyd</b> | hysterically at her own joke, accompanied by a smattering of applause
+<b>Floyd</b> | from the audience.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the Buffalo-On-A-Spring (pat.  pending) and flutter
+<b>Floyd</b> | to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | "On next week's program," says Julia Childs, "I'll be showing you how
+<b>Floyd</b> | to make chicken-fried chicken!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on desk</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | "Once we're done with our coq au vin," says Julia Childs, "we'll move
+<b>Floyd</b> | on to a lovely chicken divan recipe."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">press button</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The Buffalo-On-A-Spring (pat.  pending) zooms off the wall with a
+<b>Floyd</b> | resounding SPROI-OI-OING, the Hedge Helpers (pat.  pending) bouncing
+<b>Floyd</b> | crazily behind.  Cousin Red, standing near the bellows, leaps with
+<b>Floyd</b> | bulging eyes from the path of the charging trophy just in time to avoid
+<b>Floyd</b> | the whipping Hedge Helpers (pat.  pending), which latch onto the
+<b>Floyd</b> | bellows and give it a good solid squeeze.  The bellows BOOFS as the air
+<b>Floyd</b> | is forced out of it and through the Rainbow Wacky Straw (pat.
+<b>Floyd</b> | pending), then into the attached Super-Bendy Balloon-Animal Balloon
+<b>Floyd</b> | (pat.  pending), which fills with air, slowly raising the window a
+<b>Floyd</b> | scant chicken's height as it swells.  Winnie, seeing your intent, hops
+<b>Floyd</b> | onto the windowsill and steps on the mouth of the Super-Bendy
+<b>Floyd</b> | Balloon-Animal Balloon (pat.  pending) to prevent the air escaping it.
+<b>Floyd</b> | A moment later, the head snaps back to the wall, the Hedge Helpers
+<b>Floyd</b> | (pat.  pending) whipping insanely behind.  The bellows slowly returns
+<b>Floyd</b> | to its original position as air rushes back into it.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs coughs up a mouthful of feathers.  "Oh,
+<b>Floyd</b> | dear!"  she exlaims.  "Excuse me!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>borowski</b>  says, "hooray!"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  asks, "Out the window?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  asks, "save?"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">SAVE</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">cf20</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | File to save game in &gt;
+<b>Floyd</b> | Saved.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>genericgeekgirl</b> clears the save counter.
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">SAVE</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">cf1</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | File to save game in &gt;
+<b>Floyd</b> | Saved.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>phoenix</b>  says, "let's take the helpers with us if we can"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on trophy</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach that from the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on shelf</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach that from the desk.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the desk and flutter to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | "Later on the program," says Julia Childs, "I'll show you how to feed a
+<b>Floyd</b> | family of four even if your man is bringing home chicken feed!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on shelf</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You slowly, laboriously climb the bookshelf, one shelf at a time, claw
+<b>Floyd</b> | over beak over claw.  Eventually you reach the top.  You look around
+<b>Floyd</b> | and find yourself at a level with the Buffalo-On-A-Spring (pat.
+<b>Floyd</b> | pending).
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs leans out into her audience and asks
+<b>Floyd</b> | conspiratorially, "Do you folks know why the chicken crossed the road?"
+<b>Floyd</b> | After a moment she answers, "Because it was hauled across in a
+<b>Floyd</b> | butcher's cart, of course!"  Her joke is met by silence from the
+<b>Floyd</b> | audience, prompting her to respond cheerily with "Well!  THAT joke sure
+<b>Floyd</b> | laid an egg!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on trophy</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the Buffalo-On-A-Spring (pat.
+<b>Floyd</b> | pending).
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is hacking the limbs off some
+<b>Floyd</b> | unfortunate fowl with a butcher's knife the size of Bayonne, New
+<b>Floyd</b> | Jersey.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">take helpers</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Winnie sees you headed on a course to pull down the Hedge Helpers (pat.
+<b>Floyd</b> | pending) and starts up an agitated flapping, as if to say "Don't even
+<b>Floyd</b> | think about it, egg head.  We've got to get out of here!"
+<b>Floyd</b> |
+<b>Floyd</b> | "Once we're done with our coq au vin," says Julia Childs, "we'll move
+<b>Floyd</b> | on to a lovely chicken divan recipe."
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Nope. Out the window."
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">down</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You hop down off of the Buffalo-On-A-Spring (pat.  pending) and flutter
+<b>Floyd</b> | to the study floor.
+<b>Floyd</b> |
+<b>Floyd</b> | Uncle Orpington pulls a long strand of fiber from the carpet.  Cousin
+<b>Floyd</b> | Red jealously tries to snatch it away, and a tug-of-war ensues.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">get on sill</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the windowsill.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs coughs up a mouthful of feathers.  "Oh,
+<b>Floyd</b> | dear!"  she exlaims.  "Excuse me!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">out</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You're not going anywhere until you get off of the windowsill.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs is hacking the limbs off some
+<b>Floyd</b> | unfortunate fowl with a butcher's knife the size of Bayonne, New
+<b>Floyd</b> | Jersey.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">enter window</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know how to enter the window pane.
+<b>Floyd</b> |
+<b>Floyd</b> | On the television, Julia Childs leans out into her audience and asks
+<b>Floyd</b> | conspiratorially, "Do you folks know why the chicken crossed the road?"
+<b>Floyd</b> | After a moment she answers, "Because it was hauled across in a
+<b>Floyd</b> | butcher's cart, of course!"  Her joke is met by silence from the
+<b>Floyd</b> | audience, prompting her to respond cheerily with "Well!  THAT joke sure
+<b>Floyd</b> | laid an egg!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">exit window</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't recognize that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">out</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You're not going anywhere until you get off of the windowsill.
+<b>Floyd</b> |
+<b>Floyd</b> | "Thanks for tuning in," says Julia Childs.  "I know you'll just LOVE
+<b>Floyd</b> | our all day long chicken recipe-athon!"
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">go through window</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You flounce through the window, Winnie close behind.  You've just
+<b>Floyd</b> | reached the outside sill when behind you, a thunderous din begins at
+<b>Floyd</b> | the door.  The door cracks open to reveal the terrible figure of Mrs.
+<b>Floyd</b> | Faverolles!  She stands beneath the lintel brandishing the mucous-white
+<b>Floyd</b> | corpse of a dead fowl in one hand and a great cleaver in the other.
+<b>Floyd</b> | All is still as she and your relatives regard each other with silent
+<b>Floyd</b> | amazement.  The tableau is broken as Julia Childs show cuts to a
+<b>Floyd</b> | commercial and an announcer's voice screams "FUNNY CAR AND MONSTER
+<b>Floyd</b> | TRUCK RALLY SUNDAY SUNDAY SUNDAAAAY!!!"  Mrs.  Faverolles slams the
+<b>Floyd</b> | door behind her and wades into the room swinging her bloody cleaver to
+<b>Floyd</b> | the sound of manic laughter on the television.  The feathers fly as
+<b>Floyd</b> | your relatives carom around the room like chickens with their heads cut
+<b>Floyd</b> | off.  You and Winnie watch in horror until the Super-Bendy
+<b>Floyd</b> | Balloon-Animal Balloon (pat.  pending) beneath the window finally
+<b>Floyd</b> | bursts, sending the window speeding shut and throwing the two of you
+<b>Floyd</b> | from your perch on the sill.  You flutter to the ground, no worse for
+<b>Floyd</b> | wear.
+<b>Floyd</b> |
+<b>Floyd</b> | Front Lawn
+<b>Floyd</b> | Uncle Foggy's front lawn teeters just on the border of ill-kempt,
+<b>Floyd</b> | though no one specific flaw draws attention.  The three vehicles parked
+<b>Floyd</b> | on the lawn fail to aid its appearance.  Uncle Foggy's home, Foggywood
+<b>Floyd</b> | Manor, lies to the north, while the gate through which you entered
+<b>Floyd</b> | rests back to the south.  Though you can't see it over the hedges, you
+<b>Floyd</b> | know that beyond the gate and across the road lies the ramshackle cabin
+<b>Floyd</b> | that Uncle Foggy called his lab.
+<b>Floyd</b> |
+<b>Floyd</b> | Winnie is here with you, eagerly waiting for your next move.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  asks, "To the lab?"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">peck winnie</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Tempting, but not helpful.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  says, "to the lab!"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">s</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You head for the swinging gate, left conveniently ajar, and squeeze
+<b>Floyd</b> | through to the other side.  It looks like an easy trip across the road
+<b>Floyd</b> | to Uncle Foggie's lab.  But just as you're about to set foot on the
+<b>Floyd</b> | road, a streak of copper catches your eye.  It's a fox!  You turn tail
+<b>Floyd</b> | and run back through the gate, just in time to bump into Winnie coming
+<b>Floyd</b> | out.  The two of you rebound off each other, confusing your sense of
+<b>Floyd</b> | direction.  With a growing sense of urgency you rush at the gate again,
+<b>Floyd</b> | and manage to squeeze through just as a sharp claw swipes at your tail
+<b>Floyd</b> | feathers.  The gate bangs shut behind you, startling the fox away for
+<b>Floyd</b> | the moment.  Then it slowly creaks open again.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Oh no."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>phoenix</b>  says, "better get in the lab"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>phoenix</b>  says, "oh wait. we ran back through teh same gate"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  says, "Yeah"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">s</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Not with that fox hanging around out there!  You're going to have to
+<b>Floyd</b> | find another way to cross that road.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">l</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Front Lawn
+<b>Floyd</b> | Uncle Foggy's front lawn teeters just on the border of ill-kempt,
+<b>Floyd</b> | though no one specific flaw draws attention.  The three vehicles parked
+<b>Floyd</b> | on the lawn fail to aid its appearance.  Uncle Foggy's home, Foggywood
+<b>Floyd</b> | Manor, lies to the north, while the gate through which you entered
+<b>Floyd</b> | rests back to the south.  Though you can't see it over the hedges, you
+<b>Floyd</b> | know that beyond the gate and across the road lies the ramshackle cabin
+<b>Floyd</b> | that Uncle Foggy called his lab.
+<b>Floyd</b> |
+<b>Floyd</b> | Winnie is here with you, eagerly waiting for your next move.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x vehicles</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Your worn out coupe looks pretty shoddy compared to the gleaming lustre
+<b>Floyd</b> | of the Barnevelder's massive sedan, to say nothing of Red's gargantuan,
+<b>Floyd</b> | brilliantly painted truck.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x sedan</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Your Uncle Orpington's Oldsmobuick is a beetle black sedan of late
+<b>Floyd</b> | vintage.  It looks big and mean, fit for running down small animals and
+<b>Floyd</b> | old ladies on the highway.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x coupe</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Your car is a beaten-up, anonymous-looking two door coupe.  It reminds
+<b>Floyd</b> | you of one of Uncle Foggy's favorite jokes:  Why has a chicken coop got
+<b>Floyd</b> | only two doors?  Because if it had four it'd be a chicken sedan!
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">x truck</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Your cousin Red's monster truck is a masterpiece of modern automotive
+<b>Floyd</b> | engineering.  Its brightly colored chassis hovers nearly five feet off
+<b>Floyd</b> | the ground, suspended by enormous black tires big enough to feed an
+<b>Floyd</b> | entire tribe of African pygmies through three rainy seasons.  A
+<b>Floyd</b> | galvanized metal stair extends down from the driver's side door,
+<b>Floyd</b> | without which tiny Red could never have tamed the monster.  Apparently
+<b>Floyd</b> | Red left the roof at home, as the cab is open to the air.  Red has
+<b>Floyd</b> | obnoxiously parked the truck facing forward right in front of the gate,
+<b>Floyd</b> | which forced you to drive around him when you entered.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>DavidW</b>  asks, "Is there a wire going over the road?"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>phoenix</b>  says, "there might be some stuff in the truck"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">enter truck</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Followed by Winnie, you hop up the metal steps and flutter over the
+<b>Floyd</b> | door into the cab of Red's truck.  It is with incredible relief that
+<b>Floyd</b> | you find Red's car keys hanging from the ignition.  You've never driven
+<b>Floyd</b> | a truck like this - let alone while wearing a chicken's body - but the
+<b>Floyd</b> | ignition, gear stick and gas pedal look like a good place to start.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Muhahaha."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "oh my. oh dear. oh golly."
+</td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">turn key</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You turn the keys with your beak, and the monster truck roars to life!
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "I mean: "Cluck.""
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Monster Cluck Rally"
+</td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">x stick</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Cousin Red's gear shift has an eight-ball mounted on the knob.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>inky</b>  says, "ha ha"
+</td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">shift gear</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You and Winnie together both jump on the gear shift, your combined
+<b>Floyd</b> | weight just barely enough to slide it into gear.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">jump on gas</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Fearing that even your combined weight may not be enough, you and
+<b>Floyd</b> | Winnie jump together onto the gas pedal.  The truck lurches into
+<b>Floyd</b> | motion!  Rear wheels pealing, it bursts forward, crashing through the
+<b>Floyd</b> | front gate and across the road, baby!  At the far side, the truck hits
+<b>Floyd</b> | a deep pothole that jolts you and Winnie into the air, giving you a
+<b>Floyd</b> | perfect view as the truck slams into one sagging wall of Uncle Foggy's
+<b>Floyd</b> | ramshackle lab.  The impact flattens you into the windshield, as debris
+<b>Floyd</b> | from the crumbling wall crashes down upon you.
+<b>Floyd</b> |
+<b>Floyd</b> | When the dust finally settles, you and Winnie clamber dizzily out of
+<b>Floyd</b> | the truck. Uncle Foggy's lab is a shambles.  Shelves have collapsed,
+<b>Floyd</b> | spilling their contents everywhere.  The entire structure looks as
+<b>Floyd</b> | though it may fall down at any moment.  But there, posted on a
+<b>Floyd</b> | relatively stable section of wall, is a diagram outlining the process
+<b>Floyd</b> | of Uncle Foggy's Super Funky Chickenizer (pat.  pending).  Below it, on
+<b>Floyd</b> | a sturdy bench, is a small white pyramid - clearly the mate to the
+<b>Floyd</b> | device that got you into this mess.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"><b>genericgeekgirl</b>  says, "Awesome."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "very"
+</td></tr><tr><td class="room">DavidW says (to Floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | It seems to outline the process of Uncle Foggy's Super Funky
+<b>Floyd</b> | Chickenizer (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">DavidW says (to Floyd), "<span class="floydcommand">x pyramid</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | This must be the reversion device for Uncle Foggy's Super Funky
+<b>Floyd</b> | Chickenizer (pat.  pending).  It's a white matte pyramid with a small
+<b>Floyd</b> | switch at its apex.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">use device</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know the word "use".
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">phoenix says (to Floyd), "<span class="floydcommand">press switch</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | You can't reach the device from the lab floor.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">read diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | I don't know how to read the diagram.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">DavidW says (to Floyd), "<span class="floydcommand">get on bench</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | Wings flapping, you leap up on to the bench.
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">borowski says (to floyd), "<span class="floydcommand">x diagram</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | It seems to outline the process of Uncle Foggy's Super Funky
+<b>Floyd</b> | Chickenizer (pat.  pending).
+<b>Floyd</b> |
+<b>Floyd</b> | <span class="floydstyle input">&gt;</span>
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room">genericgeekgirl says (to Floyd), "<span class="floydcommand">press switch</span>"
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> | The switch flips over with a hollow 'click'...  and suddenly, the world
+<b>Floyd</b> | seems smaller.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Floyd</b> [Hit any key to continue.]
+</td><td class="gutter"></td><td class="interlude"></td></tr><tr><td class="room"><b>genericgeekgirl</b> pushes the green 'space' button.
+</td><td class="gutter"></td><td class="interlude"></td></tr>
+<tr><td class="room game"><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Much later, you and Winnie sit down to a sumptuous dinner prepared by
+<b>Floyd</b> | Mrs.  Faverolles.  You're both able to laugh over the day's events from
+<b>Floyd</b> | the comfortable safety of Uncle Foggy's expansive dining room.
+<b>Floyd</b> |
+<b>Floyd</b> |    "What a day!"  you exclaim to Winnie between mouthfuls.
+<b>Floyd</b> |    "I know," she says, sipping a glass of wine.  "I thought we would
+<b>Floyd</b> | never find a way to revert to our old selves."
+<b>Floyd</b> |    "Too bad about the Barnevelders missing their chance to participate
+<b>Floyd</b> | in the scavenger hunt."
+<b>Floyd</b> |    "Oh, yes," nods Winnie.
+<b>Floyd</b> |    "So.  How are you finding the chicken?"  you ask, changing the
+<b>Floyd</b> | subject.
+<b>Floyd</b> |    "Mm, it's a big stringy for my tastes."  says Winnie, chewing a
+<b>Floyd</b> | mouthful of food.
+<b>Floyd</b> |    "Really?  Mine's quite tender."
+<b>Floyd</b> |    "Well, you know what they say," says Winnie.
+<b>Floyd</b> |    "What's that?"  you inquire.
+<b>Floyd</b> |
+<b>Floyd</b> |    "It's all relative!"
+<b>Floyd</b> |
+<b>Floyd</b> |    * * *
+<b>Floyd</b> |
+<b>Floyd</b> | Congratulations!  You have won Foggywood Hijinx!
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Thank you for playing Foggywood Hijinx, a TextFeather release.  On-line
+<b>Floyd</b> | registration for TextFeather products will be available at
+<b>Floyd</b> | [<a href="http://www.textfeather.com">LINK</A>] on or before June 30, 1998.  Thanks for your
+<b>Floyd</b> | patience!
+</pre></td><td class="gutter"></td>
+<td class="interlude"></td></tr><tr><td class="room"><b>Floyd</b> asks, "That game over already?  It was just getting good.  Wanna play another?"
+</td><td class="gutter"></td><td class="interlude"><b>genericgeekgirl</b>  says, "Oh my."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>phoenix</b>  says, "that was funny"
+</td></tr><tr><td class="room"><b>Binder</b> arrives, full of fun, but no funk.
+</td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "ha 'TextFeather'"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>Binder</b>  says, "OK, your exclamations have lured me in."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "We just won."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>inky</b>  says, "ha ha"
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "The game was shorter than I remembered."
+</td></tr><tr><td class="room"></td><td class="gutter"></td><td class="interlude"><b>DavidW</b>  says, "Or perhaps you guys figured out stuff much faster than I did at the time.</td></tr>
+
+			<tr>
+				<td colspan=3><hr/></td>
+			</tr>
+		</table>
+	</div>
+
+
+	<div class="narrowcol centered centeralign">
+		<p class="fontish smallest">
+		<br>
+		[ <a href="#top">TOP OF THIS PAGE</a> | <a href=
+			"interactive_fiction.html#clubfloyd">MORE CLUBFLOYD
+			TRANSCRIPTS</a> | <a href="index.html">HOME</a> ]</p>
+
+
+		<hr>
+
+
+		<p><a href="contact.html"><img src="/graphics/footer.jpg" alt="link to contact page"></a></p>
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+	<script src="/js/plugins.js"></script>
+	<script src="/js/script.js"></script>
+</body>
+</html>

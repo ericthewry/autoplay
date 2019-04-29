@@ -1,0 +1,2069 @@
+>load eas
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ It's been almost a month since your parents disappeared.
+
+ One Tuesday, they just didn't come home, and there's been no sign of
+ them since. For the University and the rest of the town, the mystery
+ is beginning to pall. To those people, it's as if Claire and Scott
+ Colborn suddenly stopped existing -- strange and inexplicable, to be
+ sure, but forgettable in the long run.
+
+ But for you it's as if the ground beneath your feet stopped existing,
+ and you've been plummeting in freefall ever since. Your brother
+ Austin, though, has been a rock through the whole experience, handling
+ the numbing details, the endless meetings with useless detectives,
+ even sorting through Mom and Dad's lab in hopes of finding an answer.
+ Now you stand outside the lab door, clutching his note, hardly daring
+ to hope that such an answer may have arrived at long last.
+
+
+ EARTH AND SKY
+ Interactive fiction by Lee Kirby
+ First-time players should type INFO or read the easinfo.txt file
+ 2001 IF Competition Edition -- Release 1
+ Serial number 010926 / Inform v6.21 Library 6/10
+
+ Outside the Lab Door
+ You stand in one of the many beige, featureless corridors of the
+ Physics building. The hall continues west, and reaches its eastern
+ terminus here, at the door to Mom and Dad's lab.
+
+ The lab door is closed.
+
+ A card reader is mounted to the wall beside the door.
+
+>quit
+ Are you sure you want to quit?
+>yes
+
+>load eas
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ It's been almost a month since your parents disappeared.
+
+ One Tuesday, they just didn't come home, and there's been no sign of
+ them since. For the University and the rest of the town, the mystery
+ is beginning to pall. To those people, it's as if Claire and Scott
+ Colborn suddenly stopped existing -- strange and inexplicable, to be
+ sure, but forgettable in the long run.
+
+ But for you it's as if the ground beneath your feet stopped existing,
+ and you've been plummeting in freefall ever since. Your brother
+ Austin, though, has been a rock through the whole experience, handling
+ the numbing details, the endless meetings with useless detectives,
+ even sorting through Mom and Dad's lab in hopes of finding an answer.
+ Now you stand outside the lab door, clutching his note, hardly daring
+ to hope that such an answer may have arrived at long last.
+
+
+ EARTH AND SKY
+ Interactive fiction by Lee Kirby
+ First-time players should type INFO or read the easinfo.txt file
+ 2001 IF Competition Edition -- Release 1
+ Serial number 010926 / Inform v6.21 Library 6/10
+
+ Outside the Lab Door
+ You stand in one of the many beige, featureless corridors of the
+ Physics building. The hall continues west, and reaches its eastern
+ terminus here, at the door to Mom and Dad's lab.
+
+ The lab door is closed.
+
+ A card reader is mounted to the wall beside the door.
+
+>info
+ EARTH AND SKY behaves like most interactive fiction, with the
+ exception of its conversation system. This system is a mad scientist's
+ hybrid of various techniques from other games:
+ are enabled, and can be used to interact with any non-player character
+ (NPC).
+    * However, when an NPC addresses the player character (PC), EARTH
+ AND SKY will present a list of possible replies, and ask the player to
+ select one of these. (Remaining silent is always an option as well.)
+    * Finally, if the player would rather move along with the story
+ this verb will prompt EARTH AND SKY to launch an entire dialogue
+ between the PC and the NPC, each of whom will choose their words and
+ topics based on what's currently happening in the game.
+
+ EARTH AND SKY is designed so that it cannot be put into an unwinnable
+ state.
+
+ Note to PalmPilot users: For best results, play Earth And Sky with a
+ 40-column-width screen. To set this under Frobnitz, access the menus
+ (by tapping the menu button in the bottom left corner of the green
+ lower window) then tap Options, Configure Display, and set Columns to
+ 40. Then restart the game.
+
+ Type CREDITS to see the acknowledgements. Thanks for playing EARTH AND
+ SKY!
+
+>inventory
+ You are carrying:
+   a note
+   an access card
+   a sweatshirt (being worn)
+   a pair of sweat pants (being worn)
+   your sneakers (being worn)
+
+>examine me
+ You haven't been looking your best lately, but you find it hard to
+ care. Austin won't mind your casual clothes, though -- he understands
+ that fashion isn't exactly topping your priorities right now.
+
+>read note
+ This note was waiting for you when you got home today. It reads:
+
+ Emily --
+
+ Meet me at the lab as soon as you can. I've found some things that we
+ need to talk about immediately.
+
+                                            -- A
+>examine card
+ This card, which doubles as your student ID, displays your name and
+ photo, along with a barcode and a 16-digit ID number; all this
+ information is superimposed on an aerial shot of the campus and the
+ pretty California surf. There's a magnetic stripe on the back.
+
+>credits
+ As always, grateful acknowledgement is due to Graham Nelson for
+ creating Inform and its excellent documentation, notably the fourth
+ edition of the Inform Designers Manual. Thanks as well to Adam Cadre
+ for his flags.h library extension.
+
+ I'd also like to extend my appreciation and apologies to Richard
+ Monastersky -- he wrote an article in the Oct. 19, 2000 edition of the
+ Chronicle of Higher Education about West Chester University's research
+ into isolating ancient bacteria, and that piece directly inspired much
+ of part two. Apologies and thanks as well to Drs. Vreeland et. al. for
+ the liberties I've taken with their work.
+
+ Without the support of my family, this work would probably never have
+ been started, let alone finished. A thousand thanks to them.
+
+ EARTH AND SKY is an affectionate tribute to the creators of Marvel
+ Comics, whose dazzling imaginations have illuminated my childhood and
+ adulthood.
+
+ And saving the best for last: extra-special thanks to David, Jenny,
+ Jon, and Stephen, my outstanding cadre of betatesters. Way to save my
+ skin a hundred times over, crew.
+
+>look
+
+ Outside the Lab Door
+ You stand in one of the many beige, featureless corridors of the
+ Physics building. The hall continues west, and reaches its eastern
+ terminus here, at the door to Mom and Dad's lab.
+
+ The lab door is closed.
+
+ A card reader is mounted to the wall beside the door.
+
+>slide card in reader
+ I only understood you as far as wanting to slide the access card.
+
+ You are carrying:
+   a note
+   an access card
+   a sweatshirt (being worn)
+   a pair of sweat pants (being worn)
+   your sneakers (being worn)
+
+>unlock door with card
+ [swiping your access card in the reader]
+ The green light glows, and there is a click from inside the lab door.
+
+>open door
+ You open the lab door.
+
+>go east
+ You take a deep breath, and step across the threshold into the lab.
+
+ [Please press a key to continue.]
+
+
+
+
+
+
+
+
+                                E A R T H
+
+                                  A N D
+
+                                  S K Y
+
+
+
+
+                          Part 1: Suit Yourself
+
+
+
+
+
+
+
+
+ Lab
+ Ever since Dad got shortlisted for the Nobel in physics and Mom's
+ patents started making millions, the University has pretty much given
+ them carte blanche. Consequently, this lab space is cavernous, tens of
+ thousands of square feet, with ceilings reaching nearly five stories
+ high. Some parts of this giant room are occupied by giant equipment,
+ dizzyingly complex hunks of machinery at whose function you couldn't
+ even begin to guess. Other parts are empty, save for a few tables and
+ terminals. A ring of windows near the ceiling looks out on the distant
+ stars. Doors lead south into the storage room and west into the
+ hallway.
+
+ You look around for Austin, but he's not here. Typical. Well, knowing
+ your perpetually late brother, he'll be along soon enough.
+
+ Amidst the general chaos of the lab, a legal pad seems to have fallen
+ from one of the tables.
+
+ The hallway door is open.
+
+ The storage room door is open.
+
+ I beg your pardon?
+
+ Taken.
+
+ The lab door clicks and swings shut.
+
+ The first page contains a few notes scribbled in your father's
+ familiar cryptic handwriting:
+
+ ES: Str -- OK
+     Imp res -- OK
+     E res -- ??? -- probs
+
+ SS: Flt -- OK
+     Fog -- OK
+     E -- OK
+
+
+ Per N, bac strange. Hi-spd? Panspermia?
+ Also: c T re: sightings. Could b big. Portal poss. at mtn site?
+
+ The rest of the pages are blank.
+
+>examine machinery
+ If you had a couple of days, unlimited curiosity, and several years
+ worth of calculus and physics classes, Austin could probably explain
+ some of this equipment to you. As it is, you prefer to be awed by its
+ mysterious grandeur rather than the impressive feats it can no doubt
+ perform. Luckily, Mom and Dad never pushed the science with either of
+ you, so even though Austin ended up their prot?g? and you became a
+ contented English major, he never got special treatment from them.
+
+>go south
+
+ Storage Room
+ If Mom had her way, the storage room would be a neatly organized
+ gallery of supplies, spare parts, and backup media, all efficiently
+ arranged on the room's many metal shelving units. However, with Dad
+ using the lab, that's not likely to happen. Oh sure, everything is on
+ the shelves, but finding something could take the better part of a
+ day. A door leads back north to the lab.
+
+ The storage room door is open.
+
+ A wooden chair sits in the middle of the storage room, with some
+ bright blue fabric draped across it.
+
+ This appears to be a form-fitting bodysuit of some kind, tailored to
+ fit a female body. It is bright blue, with cloud-patterned streaks of
+ white. A combination cowl and mask is attached at the neck of the
+ suit.
+
+ You haven't been looking your best lately, but you find it hard to
+ care. Austin won't mind your casual clothes, though -- he understands
+ that fashion isn't exactly topping your priorities right now.
+
+>examine chair
+ An ordinary wooden chair.
+
+>get suit
+ Taken.
+
+>go north
+
+ Lab
+ You are in Mom and Dad's lab. As usual, the majority of the equipment
+ in this enormous space is more or less a mystery to you. Also here are
+ a few tables and terminals; a ring of windows near the ceiling looks
+ out on the distant stars. Doors lead south into the storage room and
+ west into the hallway.
+
+ The hallway door is closed.
+
+ The storage room door is open.
+
+>go west
+ [first opening the hallway door]
+
+ Outside the Lab Door
+ You stand in one of the many beige, featureless corridors of the
+ Physics building. The hall continues west, and reaches its eastern
+ terminus here, at the door to Mom and Dad's lab.
+
+ The lab door is open, revealing the enormous room beyond.
+
+ A card reader is mounted to the wall beside the door.
+
+ You hear footsteps in the deserted hallway, and turn to see Austin
+ walking towards you. "Hi, Em," he says when he reaches you. "I see you
+ found my note. Thanks for coming -- sorry I'm a little late. I'm going
+ to head into the lab, so join me there whenever you're ready." True to
+ his word, he enters the lab, closing the door behind him.
+
+ You find yourself doing a double-take as the door shuts. Was Austin
+ wearing a mask?
+
+>go east
+ [first opening the lab door]
+ It seems to be locked.
+
+>unlock door
+ That's what the card reader is for.
+
+>put card in reader
+ The green light glows, and there is a click from inside the lab door.
+
+>go east
+ [first opening the lab door]
+
+ Lab
+ You are in Mom and Dad's lab. As usual, the majority of the equipment
+ in this enormous space is more or less a mystery to you. Also here are
+ a few tables and terminals; a ring of windows near the ceiling looks
+ out on the distant stars. Doors lead south into the storage room and
+ west into the hallway.
+
+ The hallway door is open.
+
+ The storage room door is open.
+
+ You can also see Austin here.
+
+ Your brother has always been a bit of a fashion victim, but what he's
+ wearing right now hits a new level on the sartorial freak-o-meter.
+ It's a skintight grey body stocking, flecked with black and decorated
+ with small orange or yellow streaks here and there. The whole thing
+ snugly covers his modest frame, and a combination cowl and mask comes
+ up from the back to conceal his hair and eyes.
+
+ "Hey," says Austin. "Thanks again for coming. Listen Emily, you're not
+ going to believe what I've been uncovering here. But before I tell you
+ anything more, go into the storage room and put on that suit you're
+ holding. I'll be waiting for you here."
+
+ Please select a reply:
+
+ 1) "Okay."
+ 2) "I'm supposed to take fashion advice from somebody dressed like
+ that?"
+ 3) "Hey, what's with the orders? You're not the boss of me!"
+ 4) "Austin, stop being so high-handed and just tell me what's going
+ on."
+
+>2
+
+ Austin laughs. "Okay, okay," he says, "I know this must look a little
+ bizarre, considering you don't really know the context. But please,
+ just trust me. It won't make sense until you're wearing yours too."
+
+>examine austin
+ Austin was never one to conform to the whims of fashion, but right now
+ he's dressed much more strangely than you've ever seen him. He's
+ wearing a grey jumpsuit, speckled with black and shot through with
+ streaks of yellow and orange. The outfit seems to include a cowl and
+ mask, which covers Austin's brown eyes.
+
+
+ Storage Room
+ If Mom had her way, the storage room would be a neatly organized
+ gallery of supplies, spare parts, and backup media, all efficiently
+ arranged on the room's many metal shelving units. However, with Dad
+ using the lab, that's not likely to happen. Oh sure, everything is on
+ the shelves, but finding something could take the better part of a
+ day. A door leads back north to the lab.
+
+ The storage room door is open.
+
+ You can also see a chair here.
+
+ [first removing the sweatshirt]
+ You're not about to undress with the door open, even if the guy in the
+ next room is only your brother.
+
+ You can't use multiple objects with that verb.
+
+ You close the storage room door.
+
+ [first removing the sweatshirt]
+
+ [first removing the sweat pants]
+
+ [first removing the sneakers]
+
+ You slip into the blue bodysuit. It's not a perfect fit, but it's
+ better than you'd expected, skintight in some areas and only slightly
+ looser in others. The feel is warm and comfortable, and the suit
+ covers almost your entire body, even your hands and feet. When you
+ pull the cowl and mask on, you feel a strange tingling sensation in
+ your scalp.
+
+>go north
+ [first opening the storage room door]
+
+ Lab
+ You are in Mom and Dad's lab. As usual, the majority of the equipment
+ in this enormous space is more or less a mystery to you. Also here are
+ a few tables and terminals; a ring of windows near the ceiling looks
+ out on the distant stars. Doors lead south into the storage room and
+ west into the hallway.
+
+ The hallway door is closed.
+
+ The storage room door is open.
+
+ You can also see Austin here.
+
+ "Oh good, you're wearing it," Austin says.
+
+ He shows you a notebook he's been carrying. "I found this notebook,
+ along with these stylish outfits, late last night. I was checking out
+ all the ongoing experiments in hopes of... well, I don't know what I
+ was hoping for. All I know is that nobody seems to know what happened
+ to Mom and Dad, and nobody can even think of any reason why they would
+ have disappeared. So I've been combing through the lab, trying to
+ reconstruct what they were working on at the time it happened."
+
+ He leans back against a towering piece of steel machinery, allowing
+ himself to slide down it and sit on the floor. "They were working on a
+ lot, Em, let me tell you -- most of it so far beyond my own scientific
+ experience that it took me a long time to even grasp the point of each
+ experiment. Dad's cryptic notation style didn't help much either. So
+ last night, when I started checking out a piece of equipment that
+ didn't seem to have any purpose at all, I figured it was just my own
+ ignorance again, that I didn't know what the thing was. Then I
+ stumbled on a tiny little latch, and the whole thing swung open. Em,
+ it was hollow inside. And stuffed into that cavity were these suits,
+ with this notebook."
+
+ He opens the notebook and begins to read aloud:
+
+    Earthsuit: provides
+       * greatly enhanced strength
+       * resistance to electric shock
+       * invulnerability to impact (nearly)
+
+ Must be Mom's notes, you think to yourself. Dad would've written
+ something like "inv 2 imp (~)". Austin flips a few pages, then reads
+ again.
+
+    Skysuit: provides
+       * flight
+       * electrical discharges (blasts)
+       * fog
+
+ "The rest of the pages are filled with notes and diagrams that are way
+ beyond my grasp. But near as I can figure, these are the suits those
+ notes talk about. I'm wearing the earthsuit, and you're wearing the
+ skysuit."
+
+ Please select a reply:
+
+ 1) "I don't understand. What's this all about?"
+ 2) "Did they also make a monkeysuit? Maybe with 'greatly enhanced
+ banana-eating ability'?"
+ 3) "I had to wear this goofy suit just to hear you recite from a
+ notebook?"
+ 4) "But this is just so bizarre. You think Mom and Dad were planning
+ to make us into some kind of superheroes?"
+
+>4
+
+ "Maybe not us," he says. "Your build is very similar to Mom's, and I'm
+ not all that much bigger than Dad. Maybe they were planning to wear
+ the suits themselves. I don't know. All I know is that mine definitely
+ works, or at least the strength part does. Watch."
+
+ Austin turns around to face the device he had been using as a
+ backrest. It's some sort of steel tower, probably fifteen feet tall
+ and two feet in diameter. He squats in front of it, embraces it, and
+ smoothly unbends his knees, lifting the entire thing as if it were
+ made of balsa wood.
+
+ "This thing must weigh almost a ton," he says through gritted teeth,
+ "but I can lift it like it was a piece of furniture. It's a little
+ awkward to keep balanced, but I can do it." As if to prove the point,
+ he bends his knees again until the tower is in its original resting
+ place, then turns to face you.
+
+ "Remember that tingling you felt when you put own the cowl? The suits
+ respond to mental commands. I bet if you decided you wanted to fly up
+ to the ceiling right now, you could. Why don't you try it?"
+
+>fly
+ The moment you think it, the ground silently drops away beneath you,
+ so fast and so smoothly that it almost feels as if a wire is pulling
+ you up to the ceiling. But there is no wire, and only air beneath your
+ feet. You have risen...
+
+ High Above The Lab
+ You are hovering in the air, several stories above the lab floor. The
+ beams and girders of the ceiling are so close you could touch them,
+ and the windows display a magnificent view of the campus and ocean.
+ Far below, Austin looks up at you from amid a sea of equipment. Good
+ thing you're not afraid of heights.
+
+>touch beams
+ Sure enough, you can touch them. [Hey, I wouldn't lie to you.] In
+ fact, as you rest your hand on one of the girders, you notice a small
+ envelope taped to it.
+
+>somersault
+ That's not a verb I recognize.
+
+>get envelope
+ Taken.
+
+ (first taking the ceiling struts)
+ They're hardly portable.
+
+>open envelope
+ You open the envelope, revealing a letter.
+
+>read letter
+ [first removing it from the envelope]
+
+ The letter is written in your mother's handwriting:
+
+ Dear kids --
+
+ If you've found this letter, something is probably very wrong. I wish
+ I could explain everything to you, but that will have to wait. If Nina
+ hasn't contacted you already, bring this letter to her. If we're
+ missing, she can give you information that might help the search
+ parties. If our deaths have been confirmed, she will serve as the
+ executor of our estate, and deliver documents we've prepared for that
+ circumstance.
+
+ Remember that we love you both, and are very proud of you. And believe
+ that we never meant to put you in danger -- for that we are deeply
+ sorry.
+
+ Courage,
+
+ Mom + Dad
+
+ Nina -- to you, she's always been "Aunt Nina", though of course she
+ isn't really your blood relative. She's Mom and Dad's oldest and
+ closest friend, so it makes perfect sense that they'd let her in on
+ their secrets. But if she has information, why isn't she using it? And
+ why hasn't she told you or Austin about any of this?
+
+>SAVE
+>cf1
+ Enter saved game to store: Ok.
+
+>look
+
+ High Above The Lab
+ You are hovering in the air, several stories above the lab floor. The
+ beams and girders of the ceiling are so close you could touch them,
+ and the windows display a magnificent view of the campus and ocean.
+ Far below, Austin looks up at you from amid a sea of equipment. Good
+ thing you're not afraid of heights.
+
+>do a flip
+ Sorry, but that's either not here or not important.
+
+>look through window
+ From here, the windows command an incredible view. To the east, the
+ campus spreads out before you and the main roads reach to the horizon.
+ On the other side, moonlight glimmers on the vast ocean.
+
+>go down
+ As smoothly as you rose, you descend once more.
+
+ Lab
+ You are in Mom and Dad's lab. As usual, the majority of the equipment
+ in this enormous space is more or less a mystery to you. Also here are
+ a few tables and terminals; a ring of windows near the ceiling looks
+ out on the distant stars. Doors lead south into the storage room and
+ west into the hallway.
+
+ The hallway door is closed.
+
+ The storage room door is open.
+
+ You can also see Austin here.
+
+ "Well, it's clear that the flying functionality is operational," says
+ Austin.
+
+ "Now let's test out some of that suit's other capabilities. The notes
+ mention a fog power -- the flying worked when you decided to fly, so
+ let's see what happens when you try to fog something. Why don't we
+ start by having you just think FOG? I have a hunch that will probably
+ cloud up the general area."
+
+ Please select a reply:
+
+ 1) "Sure thing."
+ 2) "Oh, there's a useful superpower. 'They're getting away! Quick,
+ Fog-Woman, worsen their driving conditions!'"
+ 3) "Okay, but all this moisture had better not make my hair really
+ frizzy."
+
+>2
+
+ Austin rolls his eyes. "Yeah, you want those glamorous powers that
+ they give women in the comic books... like shrinking, or turning
+ invisible. Watch out, evildoers: it's Unobtrusive Lass!"
+
+>slap austin
+ That's not a verb I recognize.
+
+>fog
+ At your mental command, fog swirls around you, billowing out and
+ silently engulfing the room. Because of the size of the lab, however,
+ it quickly thins into a light mist.
+
+ "Excellent!" says Austin. "Looks like the suit can generate a limited
+ amount of fog when you just give the basic mental command. It's not
+ enough to do much in this room, but it might be quite handy in a more
+ confined space."
+
+ Austin walks to a corner of the lab, retrieving a huge wooden spool
+ that probably once held some of the cables powering Mom and Dad's
+ various big machines. He carries it casually, in one hand, the way you
+ might carry a cup of coffee. He then sets it down in front of you,
+ saying, "Perhaps the suit allows you to fog specific objects as well.
+ Why don't you focus your thought on fogging this spool?"
+
+ Please select a reply:
+
+ 1) "Alright, I'll give it a shot."
+ 2) "Why don't you focus your thought on not being so freaking bossy?"
+ 3) "Hang on, I want to try something else first."
+
+>2
+
+ "Well, we're mighty testy today, aren't we? Look, it's not like all
+ this has been easy on me either, and I've been doing a lot more of the
+ actual work than you have. I'm fine with that, but it doesn't mean I'm
+ willing to be your personal punching bag. So do whatever you want.
+ When you're interested in learning how to use the skysuit, I'll be
+ waiting."
+
+>fog austin
+ You concentrate on fogging Austin, but nothing happens.
+
+ "Interesting," muses Austin. "Apparently, the fog power only works on
+ one thing at a time."
+
+>unfog
+ That's not a verb I recognize.
+
+>defog
+ That's not a verb I recognize.
+
+ I didn't understand that sentence.
+
+>stop fogging
+ That's not a verb I recognize.
+
+>remove fog
+ Sorry, but that's either not here or not important.
+
+>fog spool
+ You concentrate on fogging the large wooden spool, but nothing
+ happens.
+
+>inventory
+ You are carrying:
+   a letter
+   an envelope (which is open but empty)
+   a skysuit (being worn)
+   a legal pad
+   a note
+   an access card
+   a sweatshirt
+   a pair of sweat pants
+   your sneakers
+
+>tell austin about the letter
+ Austin takes the letter from you and reads it, his eyes widening.
+
+ He gives the letter back to you. "Seems like every clue we find leaves
+ us understanding less than we did before, doesn't it?" he says. "And I
+ don't know about you, but I'm starting to get pretty freaked out. I
+ mean, their disappearance was terrifying enough, but now these suits,
+ and this stuff about us being in danger? I just don't know what to
+ think, Em. Least of all about Aunt Nina. Hey, aren't you scheduled to
+ assist her in lab work tomorrow morning? Maybe you could ask her about
+ all this then."
+
+ Please select a reply:
+
+ 1) "Sure."
+ 2) "Oh yeah, that'll be a fun conversation. 'Howdy Aunt Nina, how are
+ you? Oh, and by the way, I was wondering why you betrayed our
+ family?'"
+ 3) "I'll try, but Nina tends to get pretty wrapped up in her work. I
+ may have to wait until after lab."
+
+>3
+
+ "Yeah, I've seen that in action," he laughs. "Well, at this point, the
+ biggest part of the mystery is why she hasn't told us already. So I
+ guess a few more hours won't kill us. I hope."
+
+>examine fog
+ Sorry, but that's either not here or not important.
+
+>ask him about fog
+ "I suppose it's of limited use when it blocks your sight as well as
+ that of others, but it's an interesting ability nonetheless."
+
+ You notice that the mist has pretty much dissipated.
+
+>fog austin
+ At your mental command, fog swirls around Austin, silently engulfing
+ him in a cloud of thick, grey vapor.
+
+ "Verrrry funny," says the cloud. It blunders about the room for a few
+ moments, finally bumping into and encompassing one of the lab's many
+ tables. There is the sound of sliding papers, then a deep whoosh
+ whoosh whoosh emanates from within the cloud, and you are buffeted by
+ powerful waves of air. Within seconds, the cloud has cleared,
+ revealing Austin waving a six-foot table as if it were an oriental
+ fan.
+
+ He sets the table down. "Okay, wiseass, you've made your point.
+ Clearly, you can fog specific things, and even specific people. And
+ I'm guessing that if you use it on somebody who can't overpower it,
+ it'd probably be a pretty good weapon. I still think the spool
+ would've been a better test subject, though," he says grumpily.
+
+ "I think there's just one more power we have yet to test: the
+ electrical blasts. Mom's notes are a little vague on this point -- it
+ was probably more Dad's contribution -- but I'm betting that it works
+ just like the specific fog, that you just decide what you want to
+ blast and blast it. Of course, I'm not sure how much power you'll
+ pack, so there's not many things in here it'd be safe to test on. How
+ about we try this spool again? Either just blast it right here, or if
+ you want to try it from the air, fly up to the ceiling and I'll toss
+ the spool to you. I'm betting you can probably blow it to
+ smithereens."
+
+ Please select a reply:
+
+ 1) "You got it."
+ 2) "Now that's more like it! KA-BLAMMO!"
+ 3) "My God, you mean I can actually shoot lightning with this thing?
+ This is all so surreal."
+ 4) "How about we test your suit's resistance to electric shock,
+ instead?"
+
+>4
+
+ Austin's usually confident expression collapses. "Uh, well... I have
+ to say, Emily, the prospect makes me pretty nervous. I mean, it'd be
+ great to find out that it works, but I'm not a hundred percent sure
+ they finished building in that feature, and I don't think I'd want to
+ be struck by lightning unless I was sure."
+
+ You extend your hand, and panic soaks Austin's face. "Emily, wait,
+ STOP! What are you doing?"
+
+ "Well," you say, "I figure: here's me with electrical powers, and
+ here's you with a suit that absorbs electricity. Let's give it a try!"
+
+ "But we don't know that the earthsuit's electrical protection actually
+ works! I sure haven't done any tests, considering the consequences of
+ those tests failing. I mean, it'd be great to find out that it works,
+ but I'm not a hundred percent sure they finished building in that
+ feature, and I don't think I'd want to be struck by lightning unless I
+ was sure."
+
+>austin, you pussy
+ "Now who's the bossy one?"
+
+ You extend your hand, and a sizzling bolt of bright blue electricity
+ arcs between you and Austin. "Emily, no! Don't--" he says, then sees
+ the buzzing, sparking current and screams in alarm. For a moment, you
+ are both frozen in that tableau, and then Austin's body begins to
+ convulse, his muscles spasming uncontrollably as the current races
+ through them. A jolt of adrenaline hits you, but the skysuit
+ interprets your muscle tension as a command to continue the lightning,
+ and Austin's seizure goes on. Finally, with utmost willpower, you
+ relax your muscles, and the power stops flowing. You run to Austin,
+ but you know the truth even before you reach him: it's much too late.
+ Your lightning has stopped his heart, and he lies lifeless on a lab
+ floor that grows ever colder beneath you.
+
+
+     *** You have killed your brother ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>undo
+ Lab
+ [Previous turn undone.]
+
+ Nothing happens. Apparently, the suit has some sort of safeguard
+ against self-destruction. Guess you'll have to go back to the
+ slitting-your-wrists idea.
+
+ Thick, swirling fog coalesces around you, and you find yourself...
+
+ Lost in a Cloud
+ A thick cloud of impenetrable mist surrounds you on all sides.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>wait
+ Time passes.
+
+>look
+
+ Lost in a Cloud
+ A thick cloud of impenetrable mist surrounds you on all sides.
+
+ (to yourself)
+ There is no reply.
+
+ The fog lifts, and you can see again.
+
+ Lab
+ You are in Mom and Dad's lab. As usual, the majority of the equipment
+ in this enormous space is more or less a mystery to you. Also here are
+ a few tables and terminals; a ring of windows near the ceiling looks
+ out on the distant stars. Doors lead south into the storage room and
+ west into the hallway.
+
+ The hallway door is closed.
+
+ The storage room door is open.
+
+ You can also see Austin and a large wooden spool here.
+
+>blast spool
+ You extend your hand, and a sizzling bolt of bright blue electricity
+ arcs between you and the large wooden spool. With a thundering
+ KER-POW, the large wooden spool disintegrates, leaving only a smoking
+ scorch mark.
+
+ Austin whistles. "Wow," he says. "That is one powerful blast. Looks
+ like you could pretty much obliterate most any nearby object, unless
+ it was well grounded and a very good conductor. Even then, it'd
+ probably get pretty fried by the sheer voltage passing through it. I
+ suppose it'd have less effect on very large objects -- the damage
+ would probably be localized, but still significant. Basically, you
+ pack quite a wallop!"
+
+ "Well, I guess the suit checks out," says Austin. "We've tested every
+ power mentioned in this notebook, and they all seem to work. I have no
+ idea what Mom and Dad intended their original purpose to be, but
+ they're not here to tell us, and the suits seem to fit us fine. So let
+ me ask you this, Emily: How would you feel about using these suits to
+ investigate the situation ourselves? I don't much feel like a
+ superhero, but in a sense, that's what we are when we've got these
+ suits on. Maybe we can explore avenues that aren't exactly open to the
+ police. What do you say?"
+
+ Please select a reply:
+
+ 1) "Okay, you've convinced me. Let's do it."
+ 2) "No. I'm sorry, but I just think it's a bad idea."
+ 3) "We can't be superheroes! We don't know a thing about investigating
+ a crime! How is shooting lightning and lifting heavy things going to
+ find us clues that the police can't find?"
+ 4) "I can't be a superhero! I don't have long, flowing hair or
+ gigantic breasts!"
+ 5) "You can't be a superhero! You're not covered with steroid-enhanced
+ bulges!"
+ 6) "I can't be a superhero! I'm scared to death of fighting!"
+ 7) "We can't be superheroes without snazzy-sounding code names, now
+ can we?"
+ 8) "I can't be a superhero! I'm in horrible shape! I probably couldn't
+ even run around the block!"
+ 9) "We can't be superheroes! What if we get hurt?"
+ 10) "We can't be superheroes! How will we wear these suits without
+ being noticed?"
+
+>4
+
+ Austin laughs. "I don't think those things are really much of an asset
+ in combat, do you? I bet you could demolish any of those Pam Anderson
+ types."
+
+ Please select a reply:
+
+ 1) "Okay, you've convinced me. Let's do it."
+ 2) "No. I'm sorry, but I just think it's a bad idea."
+ 3) "We can't be superheroes! We don't know a thing about investigating
+ a crime! How is shooting lightning and lifting heavy things going to
+ find us clues that the police can't find?"
+ 4) "You can't be a superhero! You're not covered with steroid-enhanced
+ bulges!"
+ 5) "I can't be a superhero! I'm scared to death of fighting!"
+ 6) "We can't be superheroes without snazzy-sounding code names, now
+ can we?"
+ 7) "I can't be a superhero! I'm in horrible shape! I probably couldn't
+ even run around the block!"
+ 8) "We can't be superheroes! What if we get hurt?"
+ 9) "We can't be superheroes! How will we wear these suits without
+ being noticed?"
+
+>4
+
+ Austin smirks, and rolls his eyes. "Let's find Mom and Dad first, then
+ I promise I'll subscribe to bodybuilding magazines and start cranking
+ the anabolics. Okay?"
+
+ Please select a reply:
+
+ 1) "Okay, you've convinced me. Let's do it."
+ 2) "No. I'm sorry, but I just think it's a bad idea."
+ 3) "We can't be superheroes! We don't know a thing about investigating
+ a crime! How is shooting lightning and lifting heavy things going to
+ find us clues that the police can't find?"
+ 4) "I can't be a superhero! I'm scared to death of fighting!"
+ 5) "We can't be superheroes without snazzy-sounding code names, now
+ can we?"
+ 6) "I can't be a superhero! I'm in horrible shape! I probably couldn't
+ even run around the block!"
+ 7) "We can't be superheroes! What if we get hurt?"
+ 8) "We can't be superheroes! How will we wear these suits without
+ being noticed?"
+
+>3
+
+ "But Emily, we already have. Without the skysuit, would we ever have
+ found that note Mom left? She must have used the suit herself to get
+ it up there. Anyway, it's better than just sitting around waiting for
+ something to happen. Right?"
+
+ Please select a reply:
+
+ 1) "Okay, you've convinced me. Let's do it."
+ 2) "No. I'm sorry, but I just think it's a bad idea."
+ 3) "I can't be a superhero! I'm scared to death of fighting!"
+ 4) "We can't be superheroes without snazzy-sounding code names, now
+ can we?"
+ 5) "I can't be a superhero! I'm in horrible shape! I probably couldn't
+ even run around the block!"
+ 6) "We can't be superheroes! What if we get hurt?"
+ 7) "We can't be superheroes! How will we wear these suits without
+ being noticed?"
+
+>7
+
+ "Yeah, the whole 'secret identity' problem. I always thought it was a
+ little silly for comicbook superheroes to hide their identities, but
+ maybe we ought to do that, at least until we find Mom and Dad.
+ Otherwise, there might be a lot of uncomfortable suspicions around us,
+ not to mention around Mom and Dad's research."
+
+ "I agree, but that doesn't answer my question," you say.
+
+ "Oh, right. Actually, Mom and Dad seem to have thought of that, too. I
+ tested wearing street clothes over the earthsuit before you got here;
+ when enough of the suit is covered, the visible parts fade into
+ transparency, and the cowl does some kind of holo-projection thing so
+ that your hair and face look normal, too. It's really cool. You should
+ give it a try sometime. The only problem is that you can't use the
+ suit's powers when it's covered like that -- I think it uses mostly
+ photoreceptors to power itself. But that's probably for the best,
+ since without the cowls visible it'd just look like us doing those
+ superpower things. Anyway, I hope that addresses your objection."
+
+ Please select a reply:
+
+ 1) "Okay, you've convinced me. Let's do it."
+ 2) "No. I'm sorry, but I just think it's a bad idea."
+ 3) "I can't be a superhero! I'm scared to death of fighting!"
+ 4) "We can't be superheroes without snazzy-sounding code names, now
+ can we?"
+ 5) "I can't be a superhero! I'm in horrible shape! I probably couldn't
+ even run around the block!"
+ 6) "We can't be superheroes! What if we get hurt?"
+
+>4
+
+ "Cool code names, eh? Well, since it's an earthsuit and a skysuit that
+ give us our powers, how about something that incorporates those
+ elements? Like, I don't know... Earth-Man and Sky-Girl?"
+
+ "First of all," you say, "why is it that you get to be a Man, and I'm
+ just a Girl? Also, Earth-Man sounds like something a Star Trek alien
+ would call you."
+
+ "Okay, fine. What's your idea?"
+
+ "I think rather than try to sound like cheesy comic book superheroes
+ by appending things like 'Man' or 'Lass' or 'Captain' or whatever, we
+ ought to keep it short and elegant. How about just Earth and Sky?"
+
+ "Earth and Sky. I have to admit, those do sound pretty cool. Okay,
+ Earth and Sky it is. So now that we have our cool code names, will you
+ help me investigate this disappearance?"
+
+ Please select a reply:
+
+ 1) "Okay, you've convinced me. Let's do it."
+ 2) "No. I'm sorry, but I just think it's a bad idea."
+ 3) "I can't be a superhero! I'm scared to death of fighting!"
+ 4) "I can't be a superhero! I'm in horrible shape! I probably couldn't
+ even run around the block!"
+ 5) "We can't be superheroes! What if we get hurt?"
+
+>4
+
+ "Heh. I know what you mean. Still, with these suits, it's not like we
+ really need to be in good shape. You can fly wherever you want to go,
+ and this suit keeps me strong enough to run or jump or whatever
+ without getting particularly winded. It probably wouldn't hurt us to
+ start working out a little more, but it's not like we have to be
+ Olympic athletes before we can use these suits."
+
+ Please select a reply:
+
+ 1) "Okay, you've convinced me. Let's do it."
+ 2) "No. I'm sorry, but I just think it's a bad idea."
+ 3) "I can't be a superhero! I'm scared to death of fighting!"
+ 4) "We can't be superheroes! What if we get hurt?"
+
+>3
+
+ Austin turns serious. "Well me too, of course. Certainly we'll have an
+ advantage over anybody we want to take on, but I have no illusions
+ that it won't be dangerous. I'm scared, too. But I guess I just think
+ that if we can find Mom and Dad, it'll be worth the risk."
+
+ Please select a reply:
+
+ 1) "Okay, you've convinced me. Let's do it."
+ 2) "No. I'm sorry, but I just think it's a bad idea."
+ 3) "We can't be superheroes! What if we get hurt?"
+
+>3
+
+ "What if Mom and Dad are already hurt?" retorts Austin. "Anything that
+ happens to us couldn't be any worse than the fears I know we've both
+ had about them. Don't we owe it to them to take that risk?"
+
+ Please select a reply:
+
+ 1) "Okay, you've convinced me. Let's do it."
+ 2) "No. I'm sorry, but I just think it's a bad idea."
+
+>2
+
+ Austin looks crestfallen, but reaches out to pat you on the shoulder.
+ "Okay, Em. I understand, I really do. Why don't you just leave the
+ suit here and head on home? I'll meet up with you tomorrow. Also, I'd
+ appreciate it if you'd still talk to Aunt Nina tomorrow, and let me
+ know what you find out. Sleep well, Emily."
+
+ [Please press a key to continue.]
+
+
+
+
+
+
+
+
+                                     E A R T H
+
+                                       A N D
+
+                                       S K Y
+
+
+
+
+                          Part 2: Shake, Rattle, and Roar
+
+
+
+
+
+
+
+
+ It's hard to imagine how Nina Icolari ever became friends with your
+ parents. Where they are serious and straightforward, even to the point
+ of stuffiness, she's fun-loving and mischievous. Mom and Dad are night
+ owls, while Nina works best early in the morning. Your parents drink
+ Coke, she drinks Pepsi, and so on. But all those differences vanish
+ inside the lab, where your goofy Aunt Nina suddenly metamorphoses into
+ a world-class biologist, a driven scientist doing some of the most
+ cutting-edge research in the field. When she's working, it's almost
+ impossible to distract her with anything else, which makes your task
+ today a difficult one...
+
+
+
+ Observation Booth
+ This small chamber is an adjunct to the materials handling room,
+ designed to allow observation and some degree of remote control over
+ the equipment in that room. On the north wall is the long, rectangular
+ pane of thick glass that separates the two rooms, and below that is a
+ control panel. Opposite the edges of this large window, on the south
+ side of the room, a couple of tall window-slats let in the sunlight.
+ To the west is the door out to the hallway.
+
+>inventory
+ You are carrying:
+   a letter
+   a buzzer
+   an access card
+   your sneakers (being worn)
+   a pair of sweat pants (being worn)
+   a sweatshirt (being worn)
+   a legal pad
+
+>examine her
+ I'm not sure what "her" refers to.
+
+>examine nina
+ Sorry, but that's either not here or not important.
+
+>examine nina
+ Sorry, but that's either not here or not important.
+
+>look
+
+ Observation Booth
+ This small chamber is an adjunct to the materials handling room,
+ designed to allow observation and some degree of remote control over
+ the equipment in that room. On the north wall is the long, rectangular
+ pane of thick glass that separates the two rooms, and below that is a
+ control panel. Opposite the edges of this large window, on the south
+ side of the room, a couple of tall window-slats let in the sunlight.
+ To the west is the door out to the hallway.
+
+>examine buzzer
+ Austin invented this gizmo. It's a plastic device, about the size and
+ shape of a pencil, with a button on one end. When you push that
+ button, the buzzer sends a signal to Austin, and the button flashes
+ until he acknowledges the message. Then he'll come running to find
+ you, following the buzzer's GPS signal. He asked you to take the
+ buzzer this morning so that you could notify him immediately after you
+ talk to Aunt Nina about the letter, or in case anything unusual comes
+ up.
+
+>examine panel
+ This control panel rivals an airplane cockpit for complexity, and Aunt
+ Nina hasn't trained you on a whole lot of its functions. The only
+ controls you really know are a horizontal lever, a vertical lever, and
+ a pale green switch. There is also a speaker and microphone built into
+ the control panel so that people in the two rooms can talk to each
+ other.
+
+>examine horizontal
+ The horizontal lever controls the containment chamber where samples
+ are kept before transfer. Pulling the lever opens the chamber, and
+ pushing it closes the chamber.
+
+>examine vertical
+ The vertical lever activates the security door for the materials
+ handling room. If you pull it, a thick plate of lead alloy slides over
+ the outside of the door, serving both as warning and protection for
+ anyone outside.
+
+>examine button
+ Austin invented this gizmo. It's a plastic device, about the size and
+ shape of a pencil, with a button on one end. When you push that
+ button, the buzzer sends a signal to Austin, and the button flashes
+ until he acknowledges the message. Then he'll come running to find
+ you, following the buzzer's GPS signal. He asked you to take the
+ buzzer this morning so that you could notify him immediately after you
+ talk to Aunt Nina about the letter, or in case anything unusual comes
+ up.
+
+>examine pale green
+ Once a sealed container has been placed within the transfer chamber,
+ the pale green switch activates a sterile transfer to the desired
+ receptacle. The switch is currently in the OFF position.
+
+ One of the double-doors to the materials handling room opens, and in
+ strides Aunt Nina. She's looking as beautiful as ever today, even with
+ her dark hair pulled back into a severe bun.
+
+ "Hi Emily," she says, her voice sounding tinny through the control
+ panel speakers. Her attention is focused on the containment chamber,
+ and you get the sense that she's only barely aware of your presence.
+ "How are you today?"
+
+ Please select a reply:
+
+ 1) "I'm fine, thanks."
+ 2) "Actually, I'm kind of reeling. Can I talk to you about it?"
+ 3) "I'm over here, Aunt Nina. That's the containment chamber you're
+ talking to."
+ 4) "Aunt Nina, I want to talk to you about this letter I found. It
+ says you know something about Mom and Dad's disappearance."
+
+>2
+
+ "Good, good, I'm glad to hear it," says Aunt Nina distractedly.
+
+>talk to nina
+ "Aunt Nina, I really need to talk to you about something," you
+ venture.
+
+ "Can it wait, please? Finishing this procedure is my top priority
+ today, then we can talk."
+
+ "Well, I'd rather not wait..."
+
+ "I need to ask you to wait today, Emily. Thanks for understanding."
+
+ "But Aunt Nina, I found a letter from Mom last night saying that you
+ have information about where Mom and Dad are!"
+
+ "I don't have time to write you a recommendation letter right now,
+ Emily. Let's talk about it after the transfer," she says, her eyes on
+ the transfer chamber controls.
+
+ "No, Aunt Nina, I said--"
+
+ "Emily, please!"
+
+ You lapse into silence rather than continue the fruitless
+ conversation.
+
+ This is really very odd. Aunt Nina is always a little out of it when
+ she's focused on a procedure, but you've never seen her quite this out
+ of it.
+
+ Aunt Nina walks over to the containment chamber and starts inspecting
+ it, talking to you all the time. You recognize this behavior -- you
+ and Austin call it her Lecture Mode, and once it starts rolling, it's
+ about as easy to stop as a speeding train.
+
+ "So, as I'm sure you remember, Emily, these experiments deal with
+ bacteria that I'm convinced are at least 250 million years old. These
+ guys were around millions of years before the first dinosaurs evolved,
+ back when all the continents were in one smushed-together landmass
+ called Pangaea. The bacteria have been trapped in a deposit of salt
+ crystals since that time, and today's procedure is the next step in
+ extracting the bacteria so that we can study them."
+
+ You can't blast anything until you put the skysuit back on.
+
+ "People have found living bacteria trapped in salt before," continues
+ Aunt Nina, "but their reports have been rejected because they couldn't
+ prove that the microbes weren't actually contaminants from the lab.
+ This time, though, we've taken extraordinary precautions -- everything
+ has been in a sterile environment from the outset, and we've washed
+ the salt crystals with both caustic bleach and acid. Then once the
+ crystals are in the transfer chamber, we'll use sterilized equipment
+ to drill inside them."
+
+>talk to nina
+ It's clearly pointless to even try talking to Aunt Nina right now.
+
+ Aunt Nina walks over to the transfer chamber and starts typing on the
+ attached keyboard, double-checking the programming of its internal
+ equipment. "The bacteria actually live in tiny pockets of brine inside
+ the crystals, so we'll extract that fluid and add some nutrients to
+ see what grows. I think they've been able to survive this long because
+ they were in a spore state, essentially shut down. But preliminary
+ testing indicates that once these bacteria leave the spore state, they
+ may be able to multiply astonishingly quickly."
+
+ Once a sealed container has been placed within the transfer chamber,
+ the pale green switch activates a sterile transfer to the desired
+ receptacle. The switch is currently in the OFF position.
+
+ "Of course, there is a danger that the radiation emitted by nearby
+ rocks might have damaged the DNA of this bacteria sometime during its
+ 250 million year journey, but without a metric for comparison, it may
+ be hard to tell. In any case, it certainly raises interesting
+ questions about the limits of life. Knowing that bacteria can survive
+ for this long in such an unforgiving environment has even begun to
+ make me wonder whether it's possible that they can hop from one planet
+ to another -- who knows, perhaps these microbes have an
+ extraterrestrial origin?"
+
+ Sorry, but that's either not here or not important.
+
+>wait
+ Time passes.
+
+ Aunt Nina is still staring at the transfer chamber screen and typing
+ furiously. She says, "Alright Emily, let's get started. Please close
+ the security door so that we can safely open the containment chamber."
+
+ Please select a reply:
+
+ 1) "Activating security door."
+ 2) "Um... how do I do that again?"
+ 3) "Would you please stop talking for just a minute so I can ask you
+ something?"
+
+
+ Aunt Nina gets up from the transfer chamber and starts leafing
+ intensely through one of the notebooks she brought in with her. She
+ doesn't answer you.
+
+ A prickling feeling is creeping up the back of your skull. Something
+ is definitely wrong with Aunt Nina.
+
+ You hear a hum of servos, followed by a resonant thump. The red bulb
+ lights up, indicating that the security door is closed.
+
+ "Excellent," says Aunt Nina. She sets the notebook down and walks over
+ to the containment chamber. "Now open the containment chamber,
+ please."
+
+ Please select a reply:
+
+ 1) "Opening containment chamber."
+ 2) "That's the horizontal lever, right?"
+ 3) "That's the pale green switch, right?"
+ 4) "That's the chartreuse trackball, right?"
+ 5) "It really doesn't matter what I say, does it?"
+
+
+ "Right, that's right," mumbles Aunt Nina, running a finger over one of
+ her written calculations.
+
+ You don't want to raise the security door in the middle of an
+ experiment!
+
+ "It's the horizontal lever. Did I say that? I can't remember. Well,
+ that's what it is."
+
+>pull horizontal
+ With a hydraulic hiss, the containment chamber slides open.
+
+ Aunt Nina's eyes light up as the containment chamber reveals its
+ prize. She reaches in to retrieve it, a circular steel platter sealed
+ by a glass dome. Beneath that hemisphere of glass sits a milky
+ crystal, about the size of both your fists held together.
+
+ Gingerly, she steps away and turns to face the transfer chamber, her
+ eyes never leaving the crystal. She takes one step towards the
+ transfer chamber, then stops.
+
+ She lifts her head as if listening for something, a confused look on
+ her face. Then you hear it, too.
+
+ THRUMM
+
+ It sounds almost like distant thunder, but also wrong, and even as
+ this thought reaches you, the walls are swaying and the ground bucking
+ like ocean waves.
+
+ "EARTHQUAKE!" you manage to shout, looking over at Aunt Nina. She is
+ gripping the platter tightly, her face consumed by utter panic. Then a
+ particularly violent tremor throws her from her feet, the glass dome
+ shattering next to her face. Finally, with a tremendous KER-CHUNK, a
+ piece of equipment falls between you and Aunt Nina, blocking your view
+ of her as the tremors subside.
+
+ The button begins flashing.
+
+>examine nina
+ The view through the window is blocked by a huge rectangle of black
+ metal.
+
+ Now you hear a new sound, a deep animal growl. It's quiet at first,
+ but quickly crescendos into a mind-shatteringly loud
+ RRROOOOOOOOOAAAAAAARRR!
+
+ Then with a FA-FOOOOM! the ground is shaking again. The equipment that
+ was blocking the large window falls onto its face, and you can see the
+ materials handling room again. Except Aunt Nina isn't there. What's
+ there is a monstrous leg the size of a redwood tree.
+
+ And here you'd thought this day couldn't get any worse.
+
+ [Please press a key to continue.]
+
+
+
+
+
+
+
+
+                                     E A R T H
+
+                                       A N D
+
+                                       S K Y
+
+
+
+
+                               Part 3: Monster Mash
+>press green
+
+
+
+
+
+
+
+
+ Observation Booth
+ The earthquake has left its mark on the observation booth. A hole
+ large enough to walk through has opened in the east wall, and a long
+ crack has appeared in the large window pane to the north. The control
+ panel beneath it seems relatively unscathed, as does the hallway door
+ on the west side of the room.
+
+ All you can see from here is the monster's leg, but that's more than
+ enough to terrify you. It's green, and appears to be covered by thick,
+ spiky shell plates. Even the toenails are obscenely huge and
+ terrifying, five-foot cones tapering to lethally sharp points.
+
+ Breathlessly, Austin arrives in the observation booth, wearing the
+ earthsuit. "Emily, thank goodness you're OK," he says, hugging you.
+
+ "Thanks for buzzing me," he says. "I got suited up and came as soon as
+ I got the message. What the hell is that thing?"
+
+ Please select a reply:
+
+ 1) "I wish I knew -- Aunt Nina was transferring the salt crystal to
+ the containment chamber when the quake happened. After the dust
+ settled, this thing suddenly appeared!"
+ 2) "Would you believe... a really bad case of the prehistoric flu?"
+ 3) "What does it look like? It's a freaking huge green monster!"
+
+>1
+
+ "Wait, she had the crystal in her hands when the quake happened?" You
+ nod.
+
+ "Aha," says Austin, a look of comprehension dawning on his face. "Then
+ I'll bet it cracked open next to her face, she inhaled those microbes,
+ and here we have the results.
+
+ "So if we can kill the bacteria, we might get rid of the monster and
+ get Aunt Nina back at the same time!" concludes Austin. "Well, I'm no
+ microbiologist, but I've spent enough time in the lab with Aunt Nina
+ that I may be able to whip up some kind of rapid antibiotic. But I'll
+ need to use the equipment in Aunt Nina's lab. In the meantime, find a
+ way to stop tall, green, and ugly from wrecking the campus -- knock
+ her out if you can. I'm not sure we'll be able to medicate her while
+ she's still conscious."
+
+ Austin thrusts something into your hands. "You'll probably need this,"
+ he says. "I know you said you didn't want to, but I really can't see
+ any other way. I'll be back as soon as I can!"
+
+ With that, Austin sprints out through the hole in the wall, and you
+ see him leaping over the biology building, heading towards Aunt Nina's
+ lab on the other side of the building.
+
+ Looks like it's up to you now.
+
+>inventory
+ You are carrying:
+   a skysuit
+   a letter
+   a buzzer
+   an access card
+   your sneakers (being worn)
+   a pair of sweat pants (being worn)
+   a sweatshirt (being worn)
+   a legal pad
+
+>wear suit
+ [first removing the sweatshirt]
+
+ [first removing the sweat pants]
+
+ [first removing the sneakers]
+
+ You get back into the skysuit. Again, you feel the tingling in your
+ scalp as you don the cowl.
+
+ Observation Booth
+ [Previous turn undone.]
+
+ You take off the sweat pants.
+
+ You're in the midst of changing clothes.
+
+ [first removing the sweatshirt]
+
+ [first removing the sneakers]
+
+ You get back into the skysuit. Again, you feel the tingling in your
+ scalp as you don the cowl.
+
+>dance
+ That's not a verb I recognize.
+
+ The ceiling is low enough that all you could do is hover a foot or so
+ above the ground, so you don't bother.
+
+ The ceiling is low enough that all you could do is hover a foot or so
+ above the ground, so you don't bother.
+
+>look
+
+ Observation Booth
+ The earthquake has left its mark on the observation booth. A hole
+ large enough to walk through has opened in the east wall, and a long
+ crack has appeared in the large window pane to the north. The control
+ panel beneath it seems relatively unscathed, as does the hallway door
+ on the west side of the room.
+
+>go north
+ You can't go that way.
+
+>blast crack
+ KER-POW! You extend your hand, and a sizzling bolt of bright blue
+ electricity arcs between you and the window. There is now a large
+ black scorch mark on the window.
+
+>examine window
+ A long crack has appeared in the glass, but it still holds. What you
+ can see through the glass makes you wish the view was still blocked.
+ The window is also marred by scorch marks from your electrical blast.
+
+ KER-POW! You extend your hand, and a sizzling bolt of bright blue
+ electricity arcs between you and the window. There is now another
+ large black scorch mark on the window.
+
+
+ Outside the Biology Building
+ The campus biology building is a masterpiece of design, but it's just
+ been made significantly less beautiful by the earthquake that's
+ knocked a hole in its east wall. Then again, having a colossal green
+ beast with one foot planted in the building won't win it a spread in
+ Architectural Digest either.
+
+ The monster tries to remove its foot from the biology building, but
+ the hole is much too small.
+
+ The ground drops away as you soar upwards.
+
+ At the Monster's Knees
+ You are at the monster's knees, and you're starting to get a sense of
+ what it must be like to be an insect. The massive legs dominate the
+ landscape like twin towers, one rising out of a hole in the bio
+ building's roof while the other decimates the sidewalk with stomps and
+ scratches.
+
+ The power crackles in your fingertips, and then a giant spark leaps
+ between you and the monster's legs, with a thunderous KER-POW! The
+ creature makes an unnerving high-pitched shriek as the bolt connects
+ with its thigh.
+
+ You've got the monster's attention now, and its huge claw is hurtling
+ towards you!
+
+ Within moments, fog is swirling around you, but those moments are all
+ the monster needs.
+
+ WHAMMO! You twist to avoid the claws, but the flat of the monster's
+ hand slams into you with unbelievable force. Your suit seems to absorb
+ some of the impact by slowing your trajectory, but you're still sent
+ flying into the library, landing with a crash that nearly knocks you
+ silly.
+
+ Roof of the Library
+ Everything is fading in and out, and you can't seem to focus.
+
+ At the Monster's Knees
+ [Previous turn undone.]
+
+>undo
+ [Can't "undo" twice in succession. Sorry!]
+
+>/undo
+ At the Monster's Knees
+ [Previous turn undone.]
+
+>/undo
+ Outside the Biology Building
+ [Previous turn undone.]
+
+>go east
+ You start to flee from the scene, but hesitate. Aunt Nina is still
+ missing. The creature is wreaking havoc. You and Austin may be the
+ only ones who stand a chance of stopping it. Can you really abdicate
+ that responsibility?
+
+ Another parked car crumples beneath the beast's stamping foot; this is
+ sure to be a black day in the history of auto and building insurance.
+
+>SAVE
+>cf2
+ Enter saved game to store: Ok.
+
+ The ground drops away as you soar upwards.
+
+ At the Monster's Knees
+ You are at the monster's knees, and you're starting to get a sense of
+ what it must be like to be an insect. The massive legs dominate the
+ landscape like twin towers, one rising out of a hole in the bio
+ building's roof while the other decimates the sidewalk with stomps and
+ scratches.
+
+ The power crackles in your fingertips, and then a giant spark leaps
+ between you and the monster's legs, with a thunderous KER-POW! The
+ creature makes an unnerving high-pitched shriek as the bolt connects
+ with its thigh.
+
+ You've got the monster's attention now, and its huge claw is hurtling
+ towards you!
+
+ You soar higher, up to the monster's midsection.
+
+ At the Monster's Belly
+ Floating in the air, eye level with the belly of the beast, it's hard
+ not to imagine that belly containing the remains of anybody foolish
+ enough to aggravate this creature. The monster's head looms menacingly
+ above you, and its spiky legs descend like barbed towers to the
+ ground.
+
+ The behemoth misses you, but that only seems to make it more
+ determined. Another claw is coming at you like the Mortality Express.
+
+>blast claw
+ KER-POW! You extend your hand, and a sizzling bolt of bright blue
+ electricity arcs between you and the monster. The creature recoils
+ slightly, squealing with surprise.
+
+ WHAMMO! You twist to avoid the claws, but the flat of the monster's
+ hand slams into you with unbelievable force. Your suit seems to absorb
+ some of the impact by slowing your trajectory, but you're still sent
+ flying into the library, landing with a crash that nearly knocks you
+ silly.
+
+ Roof of the Library
+ Everything is fading in and out, and you can't seem to focus.
+
+>look
+ You shake your head to clear out the last few cobwebs, and your vision
+ snaps back into focus.
+
+ Roof of the Library
+ You have found yourself on the roof of the library. The heating and
+ air-conditioning ducts have buckled and broken from the force of the
+ quake, and the tarpaper beneath you feels hot and slippery.
+
+>go up
+
+ Girding yourself for battle once more, you fly back to the scene of
+ the rampage.
+
+ At the Monster's Knees
+ You are at the monster's knees, and you're starting to get a sense of
+ what it must be like to be an insect. The massive legs dominate the
+ landscape like twin towers, one rising out of a hole in the bio
+ building's roof while the other decimates the sidewalk with stomps and
+ scratches.
+
+ You've got the monster's attention now, and its huge claw is hurtling
+ towards you!
+
+ It looks like your blasts are affecting the creature -- its swipes are
+ becoming more furious, and its howls more tinged with pain.
+
+>fog moster
+ Sorry, but that's either not here or not important.
+
+ You soar higher, up to the monster's midsection.
+
+ At the Monster's Belly
+ Floating in the air, eye level with the belly of the beast, it's hard
+ not to imagine that belly containing the remains of anybody foolish
+ enough to aggravate this creature. The monster's head looms menacingly
+ above you, and its spiky legs descend like barbed towers to the
+ ground.
+
+ Thanks to your fancy flying, you've managed to avoid getting swatted,
+ but there's no time to celebrate, because another claw is coming
+ towards you!
+
+ The monster tries to remove its foot from the biology building, but
+ the hole is much too small.
+
+>fog monster
+ At your mental command, fog swirls around the monster. However, the
+ creature is so mind-staggeringly large that by the time the fog covers
+ his length, it has thinned into wisps of vapor that blow away at the
+ monster's next roar.
+
+ WHAMMO! This time you're too slow to avoid the claw, and pain razors
+ through you as the point penetrates your calf. As you sail towards the
+ library, you notice that the suit has sealed itself over the wound and
+ applied pressure to stop the bleeding. Then you're slamming into the
+ roof, and everything goes black for just a moment.
+
+ You can't take much more of this.
+
+ Roof of the Library
+ Everything is fading in and out, and you can't seem to focus.
+
+
+ Roof of the Library
+ Everything is fading in and out, and you can't seem to focus.
+
+
+ Roof of the Library
+ Everything is fading in and out, and you can't seem to focus.
+
+ Your vision is swimming, and you're too dazed to do anything but lie
+ still for a moment.
+
+ You shake your head to clear out the last few cobwebs, and your vision
+ snaps back into focus.
+
+ Roof of the Library
+ You have found yourself on the roof of the library. The heating and
+ air-conditioning ducts have buckled and broken from the force of the
+ quake, and the tarpaper beneath you feels hot and slippery.
+
+
+ Girding yourself for battle once more, you fly back to the scene of
+ the rampage.
+
+ At the Monster's Knees
+ You are at the monster's knees, and you're starting to get a sense of
+ what it must be like to be an insect. The massive legs dominate the
+ landscape like twin towers, one rising out of a hole in the bio
+ building's roof while the other decimates the sidewalk with stomps and
+ scratches.
+
+ You've got the monster's attention now, and its huge claw is hurtling
+ towards you!
+
+ You soar higher, up to the monster's midsection.
+
+ At the Monster's Belly
+ Floating in the air, eye level with the belly of the beast, it's hard
+ not to imagine that belly containing the remains of anybody foolish
+ enough to aggravate this creature. The monster's head looms menacingly
+ above you, and its spiky legs descend like barbed towers to the
+ ground.
+
+ The behemoth misses you, but that only seems to make it more
+ determined. Another claw is coming at you like the Mortality Express.
+
+ Wind streaming through your hair, you zoom upwards.
+
+ At the Monster's Head
+ The creature's close-set yellow eyes burn with anger as you hover in
+ front of its face. From here, the thing's fetid breath washes over you
+ like a tidal wave of swamp gas, and its roars are louder than jet
+ engines. The ground seems very far below you now.
+
+ Thanks to your fancy flying, you've managed to avoid getting swatted,
+ but there's no time to celebrate, because another claw is coming
+ towards you!
+
+ At your mental command, fog swirls around the monster's eyes, silently
+ engulfing them in thick, grey vapor. The creature squeals in confusion
+ as it loses its sight.
+
+ The creature is flying into a frenzy, clutching its eyes with one hand
+ and lashing out randomly with the other. Its feet stomp in fury,
+ leveling trees and cars. Better take this beast down, and fast.
+
+ KER-POW! You extend your hand, and a sizzling bolt of bright blue
+ electricity arcs between you and the monster. The blast strikes home
+ between two armor-plates, and the creature screams in pain and rage.
+
+ The beast reels back for a moment, temporarily stunned by the
+ cumulative electrical power you've directed at it.
+
+ KER-POW! You extend your hand, and a sizzling bolt of bright blue
+ electricity arcs between you and the monster. The bolt hits thick
+ green hide, creating an impressive scorch mark but failing to do much
+ actual damage.
+
+>blast eyes
+ The monster is thrashing about wildly in its blindness, and your
+ lightning bolt misses its eyes.
+
+ The beast's claws dig deep furrows in the concrete sidewalks.
+
+ KER-POW! You extend your hand, and a sizzling bolt of bright blue
+ electricity arcs between you and the monster. You make the mistake of
+ looking directly at the lightning, and are blinded for a moment. When
+ your vision clears, the monster seems to be bleeding slightly where
+ you hit it.
+
+ The creature picks up a stray car and throws it in your general
+ direction. The car misses you, but slams into the side of the library,
+ shaking that building's walls.
+
+ The monster is wounded now in several places, and a sickly smoke
+ drifts upward from the cauterized spots beneath its armor.
+
+>blast face
+ KER-POW! You extend your hand, and a sizzling bolt of bright blue
+ electricity arcs between you and the monster's head. The beast emits a
+ keening wail and clutches the side of its head in torment.
+
+ The creature picks up a stray car and throws it in your general
+ direction. The car misses you, but slams into the side of the library,
+ shaking that building's walls.
+
+ The fog lifts, and the monster's eyes are visible again.
+
+ The thing is stomping, swinging its arms, and bleating despair at its
+ inability to stop the pain. It reminds you of nothing so much as a
+ boxer, badly beaten and on the ropes.
+
+ Another parked car crumples beneath the beast's stamping foot; this is
+ sure to be a black day in the history of auto and building insurance.
+
+ At your mental command, fog swirls around the monster's eyes, silently
+ engulfing them in thick, grey vapor. The creature squeals in confusion
+ as it loses its sight.
+
+ The creature is flying into a frenzy, clutching its eyes with one hand
+ and lashing out randomly with the other. Its feet stomp in fury,
+ leveling trees and cars. Better take this beast down, and fast.
+
+>blast face
+ KER-POW! You extend your hand, and a sizzling bolt of bright blue
+ electricity arcs between you and the monster's head. The beast emits a
+ keening wail and clutches the side of its head in torment.
+
+ The monster screams its frustration at not being able to find and
+ crush you.
+
+ The creature is swaying now, its voice ragged. Deadly claws still
+ search for you, but you get the sense that the beast can't last much
+ longer.
+
+>again
+ KER-POW! Your blast strikes the monster, and its head rocks back. It
+ staggers, drops to one knee (crushing half the gymnasium in the
+ process). Finally, with a long, foghorn groan, it falls forward,
+ landing with its face planted in the football field.
+
+ The creature lies motionless. Suddenly, a streak of grey appears,
+ arcing over the stadium wall -- it's Austin! He lands by the
+ creature's head, and motions for you to join him. Relief singing
+ through your veins, you alight on the field next to your brother.
+
+ On The Fifty Yard Line
+ You are standing on the fifty-yard line of the University stadium, or
+ at least what's left of it after the colossal green monster fell
+ headlong onto the field. Something tells you that your student fees
+ may be going towards an Astroturf installation some time soon.
+
+ You can see the monster's head and Austin here.
+
+ Austin hands you a liquid-filled balloon. "That's got the supercharged
+ antibiotic inside. It's not the world's finest delivery system, but it
+ was the best I could improvise on short notice. The monster will have
+ to ingest it, so it looks like I'll need to lift the head while you
+ throw the balloon at its mouth."
+
+ Without waiting for you to respond, he walks around to the creature's
+ brow, slips his fingers underneath, and heaves. "URRGH! Hurry, Emily!
+ This head is even heavier than it looks!"
+
+ That's not a verb I recognize.
+
+ That's plainly inedible.
+
+ "Hurry!" says Austin. "It's slipping!"
+
+>put balloon in mouth
+ The liquid-filled balloon sails into the creature's mouth, causing the
+ beast to swallow reflexively. When the mouth opens again, the
+ liquid-filled balloon is gone.
+
+ Seeing that the creature has swallowed its medicine, Austin steps back
+ from the head, which drops with an earthshaking CRASH! You both watch
+ the creature intently, as it lifts its head to regard you, not with
+ anger now, but with puzzlement.
+
+ And then you notice: the creature is shrinking. Its skin thins,
+ wrinkles, deepens from its greenish cast to the rich brown of Aunt
+ Nina's skin. Soon it is only a dazed Aunt Nina before you, naked and
+ shivering. You quickly retrieve your sweatshirt and pants, and Austin
+ helps you put the clothes onto her.
+
+ She embraces you and your brother in a fierce hug. "Oh Austin, Emily!"
+ she cries. "I remember now! On the same day that Claire and Scott
+ disappeared these... things found me in my lab. They did something to
+ my brain -- wiped out my memory, put all my focus on the experiment.
+ But whatever happened to me just now must have broken their mental
+ constraints." You show her the letter, and she scans it, nodding.
+ "Yes, yes! It's true -- I do have information that I know can help you
+ find your parents. Oh Emily, I'm so sorry I couldn't give it to you
+ before now!"
+
+ You look over at Austin, and he nods. "You'll have plenty of time to
+ talk to us, Aunt Nina, but what you need right now is rest," he says.
+ Then he gathers her into his powerful arms, and leaps over the stadium
+ wall, heading for home. You're about to fly after him, when you catch
+ sight of a reporter and a camera operator, scrambling through the
+ rubble towards you. "Miss! Wait -- miss!" the reporter shouts,
+ thrusting a microphone into your face. "Can you give us a statement?
+ What happened here? Who are you?"
+
+ You smile. "Call us Earth and Sky," you say, and then take to the air,
+ flying home faster than any news copter can follow.
+
+
+     *** You have saved the day ***
+
+
+ Watch for Episode 2 of EARTH AND SKY, coming in 2002 to an IF archive
+ near you!
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+ On The Fifty Yard Line
+ [Previous turn undone.]
+
+ Time passes.
+
+ Austin's muscles are shaking with exertion. "Emily, I can't hold on
+ much longer!"
+
+ Time passes.
+
+ "I'm losing it!" cries Austin, and steps back from the head, which
+ drops with an earthshaking CRASH! The creature groans, and Austin
+ shoots a look of pure frustration at you. "Come on, Emily! I can't
+ hold the head up and deliver the antibiotic! Your part isn't
+ difficult, so do it, before this thing wakes up again!" He bends his
+ knees, grips the monster's brow, and hauls the enormous head up again.
+
+>wait
+ Time passes.
+
+ The monster groans again, and Austin has to scramble into a new
+ position as the great head begins to stir. "Emily!" he shouts
+ desperately.
+
+ You rear back to blast the creature once again, but then you remember
+ that Austin is holding it -- what if his suit's shock resistance isn't
+ up to par?
+
+ A mammoth eye flicks open, regarding you with vague hatred.
+
+>wait
+ Time passes.
+
+ With unexpected speed, the creature snaps its head up, and closes its
+ immense mouth on you! Looks like you're delivering the antibiotic
+ after all, but you probably won't survive the trip.
+
+
+     *** You are a pill ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game or QUIT?
+>restore
+>cf1
+ Enter saved game to load: Ok.
+
+>look
+
+ High Above The Lab
+ You are hovering in the air, several stories above the lab floor. The
+ beams and girders of the ceiling are so close you could touch them,
+ and the windows display a magnificent view of the campus and ocean.
+ Far below, Austin looks up at you from amid a sea of equipment. Good
+ thing you're not afraid of heights.
+
+>go down
+ As smoothly as you rose, you descend once more.
+
+ Lab
+ You are in Mom and Dad's lab. As usual, the majority of the equipment
+ in this enormous space is more or less a mystery to you. Also here are
+ a few tables and terminals; a ring of windows near the ceiling looks
+ out on the distant stars. Doors lead south into the storage room and
+ west into the hallway.
+
+ The hallway door is closed.
+
+ The storage room door is open.
+
+ You can also see Austin here.
+
+ "Well, it's clear that the flying functionality is operational," says
+ Austin.
+
+ "Now let's test out some of that suit's other capabilities. The notes
+ mention a fog power -- the flying worked when you decided to fly, so
+ let's see what happens when you try to fog something. Why don't we
+ start by having you just think FOG? I have a hunch that will probably
+ cloud up the general area."
+
+ Please select a reply:
+
+ 1) "Sure thing."
+ 2) "Oh, there's a useful superpower. 'They're getting away! Quick,
+ Fog-Woman, worsen their driving conditions!'"
+ 3) "Okay, but all this moisture had better not make my hair really
+ frizzy."
+
+>/undo
+ High Above The Lab
+ [Previous turn undone.]
+
+>look
+
+ High Above The Lab
+ You are hovering in the air, several stories above the lab floor. The
+ beams and girders of the ceiling are so close you could touch them,
+ and the windows display a magnificent view of the campus and ocean.
+ Far below, Austin looks up at you from amid a sea of equipment. Good
+ thing you're not afraid of heights.
+
+>examine beams
+ The ceiling is braced by a pattern of struts and beams, all made of
+ steel and painted an industrial maroon.
+
+>search beams
+ The ceiling is braced by a pattern of struts and beams, all made of
+ steel and painted an industrial maroon.
+
+>examine equipment
+ The equipment is just as baffling from the top-down view.

@@ -1,0 +1,3199 @@
+>load gunmute
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ The desert sand squirms beneath your feet, alive with mutant
+ nanomachines.  Sheriff Clayton has Elias.  He's hanging him at noon.
+
+ It looks like you're going to have to shoot some people.
+
+ Gun Mute
+ An IF shoot-em-up by C.E.J.  Pacian
+ Version 5 - Developed with TADS 3
+
+ [Type 'About' if this is your first time playing.
+ Type 'Credits' to learn who's responsible for this drivel.]
+
+ Radiation Plains
+ Rolling dunes stretch in every direction, ending in a distant horizon
+ broken only by a few low, jagged mountains.  A small pile of sticks
+ burns here, sending a thin trail of black smoke into the ruddy dawn
+ sky.
+
+ A pot of some strange green fluid sits bubbling on the fire.
+
+ The plainswoman sits meditatively by the fire, her spear resting
+ across her lap.
+
+>examine me
+ You're Mute Lawton.  A devilishly handsome cowboy with windswept black
+ hair and roguish stubble.  Lean and tall, your tanned body is taut
+ with cool, calculated strength.
+
+ You're topless and barefoot, wearing nothing but a pair of dust-caked
+ black jeans and your holster.
+
+ Far in the distance, you can just make out something uttering a low,
+ metallic howl.
+
+>inventory
+ You are carrying nothing, and are wearing a pair of dusty black jeans
+ and a gun belt (which contains a six shooter and numerous bullets).
+
+ The plainswoman leans forward to sniff the concoction brewing on the
+ fire.  She sits back again shortly after, apparently unsatisfied.
+
+>listen
+ You hear nothing out of the ordinary.
+
+>examine plainswoman
+ A woman with straight black hair and a stony stare.  Her long, slender
+ limbs are coiled with ropy muscle.  Otherwise completely naked, her
+ body is caked in a layer of sun-hardened mud.
+
+ The plainswoman is carrying a spear.
+
+ The wind picks up briefly, cooling your skin.
+
+>examine plainswoman
+ A woman with straight black hair and a stony stare.  Her long, slender
+ limbs are coiled with ropy muscle.  Otherwise completely naked, her
+ body is caked in a layer of sun-hardened mud.
+
+ The plainswoman is carrying a spear.
+
+ The plainswoman leans forward once more to sniff the strange liquid.
+ This time she smiles and gestures to the pot.
+
+ "Drink," she tells you.
+
+
+>examine pot
+ The small, battered metal pot contains a thick green fluid that
+ bubbles in an eerily slow fashion.
+
+>about
+ Gun Mute is intended as an Interactive Fiction shoot-em-up.  Each
+ location presents you with a simple puzzle which you must solve before
+ you can progress to the next location and, in contrast to the Inform
+ parser's famous default response, violence usually is the answer.
+
+ You'll find that there are only two directions to move in: FORWARDS or
+ F; BACKWARDS or B.  Other useful, non-standard commands include:
+
+    DRAW
+    SHOOT CLAW-HAND HANK
+    TAKE COVER BEHIND TRACTOR
+    WAVE TO PLAINSWOMAN
+    POINT AT SPEAR
+    NOD
+    SHAKE HEAD
+
+ Note that in most locations, simply typing 'take cover' or 'duck' will
+ automatically move you behind any available cover.  A complete list of
+ the twenty-odd natural language commands you'll need to complete the
+ game can be found by typing 'instructions'.
+
+ I would finally like to add that I'm a pacifist, and this game is in
+ no way intended to encourage you to solve real life problems with a
+ six shooter.
+
+ Hugses,
+    Pacian
+
+>instructions
+ Gun Mute is much simpler than your typical work of IF, and you'll be
+ able to progress through the game using only the commands listed below
+ in the right ways and at the right times.
+
+ To move through the various locations you will need to refer to only
+ two directions: forwards, towards the end of the game; or backwards
+ through those areas you've already beaten.
+
+    FORWARDS    or  F
+    BACKWARDS   or  B
+
+ Although this is a shoot-em-up, to figure out what to shoot and why,
+ you'll need to look around and examine your environment:
+
+    LOOK AROUND or  L
+    EXAMINE POT or  X POT
+
+ The only useful item you'll need on your journey is your trusty six
+ shooter.  It starts in your holster, so you'll need to draw it before
+ facing danger.
+
+    TAKE GUN or DRAW
+
+ Your gun is good for one thing:
+
+    SHOOT FRED
+
+ Naturally, your six shooter only holds six rounds:
+
+    RELOAD
+
+ At times you may find calm in the eye of the storm, and wish to
+ present a more peaceful appearance.
+
+    PUT GUN IN HOLSTER or HOLSTER GUN
+
+ You're far from bulletproof, so when the bullets are flying, it can be
+ a good idea to get your head down.
+
+    TAKE COVER BEHIND ROCK
+
+ It's not always obvious what you can take cover behind, so simply
+ typing TAKE COVER will always either move you behind cover (if there's
+ only one obvious place to do so) or give you an informative answer
+ about what cover is available.
+
+ Get out from behind that rock by typing:
+
+    STAND
+
+ Sometimes, the only sane action is to do nothing.
+
+    WAIT or Z
+
+ What are you carrying, anyway?
+
+    INVENTORY or I
+
+ As a rough cowboy, you're naturally fond of your fluids.
+
+    DRINK BEER
+
+ Beneath a violent facade, beats a tender heart.
+
+    KISS ELIAS
+
+ Is there something where it shouldn't be?
+
+    REMOVE SPLINTER
+
+ Some people may want to communicate with you, despite your apparent
+ unpopularity.
+
+    WAVE TO PLAINSWOMAN
+    POINT AT SPEAR
+    NOD
+    SHAKE HEAD
+
+ A number of other commands common to IF have been implemented, but are
+ not necessary to progress and may not function as you expect (obvious
+ example: taking items).  Some will still provide informative or
+ amusing answers though, so experiment if you want.
+
+ You're not expected to play the whole game in one sitting.  Typing
+ SAVE will open a dialogue that will allow you to save your progress in
+ a file.  Typing RESTORE will allow you to load such a file.  On a
+ smaller scale, if you stick your head above the parapet at the wrong
+ moment, you can type UNDO to turn back time to before the last action.
+
+ Typing HINT will open up the murky and immoral world of puzzle
+ spoilers, if you find yourself getting stuck.
+
+ Finally, when you get bored you can close the window or type:
+
+    QUIT
+
+>smell liquid
+ You've got out of the habit of smelling random things.  You're often
+ unpleasantly surprised.
+
+>examine speak
+ The word "speak" is not necessary in this story.
+
+ (If this was an accidental misspelling, you can correct it by typing
+ OOPS followed by the corrected word now.  Any time the story points
+ out an unknown word, you can correct a misspelling using OOPS as your
+ next command.)
+
+>examine spear
+ Pointy sticks have come along way of late.  This particular example
+ has a lightweight polycarbonate shaft and a tip that glimmers with an
+ incandescent plasma fire.  You townsfolk have little time for the old
+ ways of science though, and you'd happily take your reliable six
+ shooter over something that probably has an arrogant computerised mind
+ of its own.
+
+>look
+ Radiation Plains
+ Rolling dunes stretch in every direction, ending in a distant horizon
+ broken only by a few low, jagged mountains.  A small pile of sticks
+ burns here, sending a thin trail of black smoke into the ruddy dawn
+ sky.
+
+ A pot of some strange green fluid sits bubbling on the fire.
+
+ The plainswoman sits meditatively by the fire, her spear resting
+ across her lap.
+
+>ask woman about fluid
+ There's a reason they call you Mute Lawton.
+
+>point to spear
+ You point at the spear.
+
+ "A fine weapon," the plainswoman says, "far superior to your crude
+ firearm."
+
+ Something grey and amorphous squirms up between your toes.  You step
+ to the side.
+
+>examine amorphous
+ The word "amorphous" is not necessary in this story.
+
+>point to pot
+ You point at the pot of strange green fluid.
+
+ The plainswoman adopts a serious expression.  "It is the highest
+ aspiration to see one's consciousness join the Atmospheric Network,
+ and the greatest magnanimity that they deign to help those of us still
+ in physical form."
+
+ You squint as a cloud of airborne dust passes by.
+
+>SAVE
+>cf1
+ Saved.
+
+>drink
+ (the pot of strange green fluid)
+ You bring the pot to your lips and gulp down the bubbling green
+ liquid.  It smells foul, and it's burning hot.  The roof of your mouth
+ tingles unpleasantly as you set the pot back down on the fire.
+
+ The plainswoman studies you carefully as you grimace, the tingling in
+ the roof of your mouth seeming to spread upwards, into your brain,
+ dancing psychedelically before your eyes.  And then arcane symbols
+ rise through the white noise oppressing your mind: ++GPS UPLINK
+ VERIFIED++TEMPORARY THERMOBOT NETWORK++SEARCHING FOR USER...++USER
+ LOCATED++CREATING INSTINCTUAL IMPRINT++CLOSING CONNECTION++THANK YOU
+ FOR USING GPSNET++
+
+ The vision fades.  Gradually you become aware of your surroundings
+ again, the plainswoman watching you with mild concern.
+
+ "You find the one you fear for?" she asks.
+
+ You nod.  Yes, you know where he is now.  The way ahead is now
+ obvious.
+
+ (Your score has just increased by one point.)
+ (If you'd prefer not to be notified about score changes in the future,
+ type NOTIFY OFF.)
+
+>look
+ Radiation Plains
+ Rolling dunes stretch in every direction, ending in a distant horizon
+ broken only by a few low, jagged mountains.  A small pile of sticks
+ burns here, sending a thin trail of black smoke into the ruddy dawn
+ sky.
+
+ A pot of some strange green fluid sits bubbling on the fire.
+
+ The plainswoman sits meditatively by the fire, her spear resting
+ across her lap.
+
+>inventory
+ You are carrying nothing, and are wearing a pair of dusty black jeans
+ and a gun belt (which contains a six shooter and numerous bullets).
+
+ Something slick and black scuttles past on several asymmetrical legs,
+ before disappearing beneath a rock.
+
+>f
+ Rocky Hill
+ From the peak of this rocky hill you can see the town you once called
+ home sprawl out over the landscape ahead.  Ramshackle iron and wood
+ buildings are almost piled on top of one another, clustering around
+ the shattered concrete dome of the old reactor.
+
+>examine reactor
+ A cathedral-like dome of grey concrete, pocked with gaping holes and
+ coated in sickly weeds.
+
+>examine buildings
+ From abject poverty to dehydrated affluence: the town's rooftops are
+>examine town
+ decorated with an eclectic array of vents, steam pipes, satellite
+ dishes and good old-fashioned rust-eaten holes.
+
+ From abject poverty to dehydrated affluence: the town's rooftops are
+ decorated with an eclectic array of vents, steam pipes, satellite
+ dishes and good old-fashioned rust-eaten holes.
+
+>f
+ Corral
+ You're at the entrance to a street of low wooden buildings and
+ corrugated iron shacks.  A small corral encircles part of the dusty
+ ground here, home to a single broken robot and a trough of stagnant
+ water.
+
+ Vicious Sue faces you with one hand on her six shooter, smirking.
+
+ Claw-Hand Hank stands by the water trough, legs apart, his one good
+ hand ready to draw.
+
+ "Well, well, well," Sue says, looking you over.  "Look who it ain't.
+ Sheriff said you'd be through here.  But me, I didn't think you were
+ quite so stupid."
+
+ Hank spits out a wad of tobacco and chuckles, fingering the buckle of
+ his gun belt with his good hand.
+
+>SAVE
+>cf2
+ Saved.
+
+>examine robot
+ Once some sort of multi-legged farming machine, it now disintegrates
+ into the ground, rubber hoses and shattered circuit boards visible
+ through its corroded sides.
+
+ Hank bares his half-rotten teeth in a leering smile.
+
+>take cover
+ There's no cover here.
+
+ Hank's good hand twitches slightly.
+
+>examine sue
+ A hawkish woman in jeans and a close-fitting jacket.  Her vulturine
+ eyes peer out from beneath the rim of her stetson, flitting between
+ your face and your hands.
+
+ Hank touches his fingertip to the handle of his gun, then draws it
+ back again uncertainly.
+
+>examine trough
+ A shallow metal container, stained with mould and filled with putrid
+ green water.
+
+ Sue catches your eye and smiles evilly.
+
+>examine robot
+ Once some sort of multi-legged farming machine, it now disintegrates
+ into the ground, rubber hoses and shattered circuit boards visible
+ through its corroded sides.
+
+ Hank unconsciously squints his left eye as he stares at you.
+
+>draw
+ You whip your gun out of its holster in a single fluid motion.
+
+ Vicious Sue and Claw-Hand Hank go for their guns.  Sue has drawn her
+ six shooter in a flash, but Hank fumbles with his holster.
+
+>shoot sue
+ You fire at Vicious Sue, hitting her square in the stomach.  She
+ freezes for a moment, as if unsure what's happened, and then falls to
+ the ground.
+
+ Hank finally manages to draw his gun.  He takes careful aim at you,
+ squinting his left eye.
+
+ (Your score has just increased by one point.)
+
+>shoot hank
+ You shoot Claw-Hand Hank in the face.  His head jerks back with a puff
+ of splintered teeth and he collapses into the water trough.
+
+ (Your score has just increased by one point.)
+
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+>holster
+ (your six shooter)
+ You slip your six shooter back into its holster.
+
+>search sue
+ There's nothing unusual in Vicious Sue.
+
+>search hank
+ There's nothing unusual in Claw-Hand Hank.
+
+>search trough
+ You see nothing unusual in the water trough.
+
+>search robot
+ There's nothing unusual in the broken robot.
+
+ The word "fix" is not necessary in this story.
+
+>SAVE
+>cf3
+ Saved.
+
+>drink water
+ That does not appear to be something you can drink.
+
+>take robot
+ You don't need to weigh yourself down with anything other than your
+ trusty six shooter.
+
+>take sue
+ You don't need to weigh yourself down with anything other than your
+ trusty six shooter.
+
+>kiss sue
+ You'd sooner kiss a vampire spider-snake.
+
+>find dark tower
+ What do you want to look that up in?
+
+>f
+ Saloon Front
+ This narrow, dusty street ends in a slat-fronted building bearing the
+ name Rowdy Juanita's Saloon.  A broken-down tractor rests here, its
+ dismantled engine spilling out onto the ground.
+
+ Deputy Gene stands in front of the saloon, brandishing a
+ double-barrelled shotgun.
+
+ "If you're planning on rescuing Elias," Gene snarls, "you're gonna
+ have to shoot your way through the whole damn town.  I'd turn back now
+ if you don't want to end up sleeping in a pine box with a tombstone
+ pillow!"
+
+ Gene takes careful aim at you with his shotgun, about to fire...
+
+>take cover
+ You can't have that; it's part of the broken-down tractor.
+
+ With a powerful report, Gene fires.  The buckshot blast catches you
+ square in the chest.  The last thing you see is the pink mist that was
+ your lungs only an instant earlier.
+
+ *** GAME OVER ***
+
+ In 40 moves, you have scored 3 of a possible 20 points.  This makes
+ you a radiation plains drifter.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, or QUIT?
+
+>undo
+ Taking back one turn: "take cover".
+
+ Saloon Front
+ This narrow, dusty street ends in a slat-fronted building bearing the
+ name Rowdy Juanita's Saloon.  A broken-down tractor rests here, its
+ dismantled engine spilling out onto the ground.
+
+ Deputy Gene stands in front of the saloon, brandishing a
+ double-barrelled shotgun.
+
+>hide
+ (behind the broken-down tractor)
+ Okay, you're now taking cover behind the broken-down tractor.
+
+ With a powerful report, Gene fires, buckshot striking the side of the
+ tractor.
+
+ "You ain't gettin' no further than this!" the deputy screams.
+
+ The word "unholster" is not necessary in this story.
+
+>SAVE
+>cf4
+ Saved.
+
+>draw
+ You whip your gun out of its holster in a single fluid motion.
+
+ With a powerful report, Gene fires, buckshot striking the side of the
+ tractor.
+
+ "Fight like a man!"  Gene shouts.  "And stand the fuck still!"
+
+>shoot Gene
+ You can't get a good shot while you're taking cover.
+
+ Gene breaks open the shotgun.  Two smoking cartridge cases are ejected
+ from the breach.
+
+>stand
+ Okay, you're now standing.
+
+ Gene slots two new shells into his shotgun and closes the breech.  He
+ takes careful aim at you once more.
+
+>shoot gene
+ You and Gene both fire at the same time.  And your bodies hit the dirt
+ within a few seconds of one another.
+
+ *** GAME OVER ***
+
+ In 44 moves, you have scored 3 of a possible 20 points.  This makes
+ you a radiation plains drifter.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, or QUIT?
+
+>restore
+>cf4
+ Restored.
+
+ Saloon Front (taking cover behind the broken-down tractor)
+ This narrow, dusty street ends in a slat-fronted building bearing the
+ name Rowdy Juanita's Saloon.  A broken-down tractor rests here, its
+ dismantled engine spilling out onto the ground.
+
+ Deputy Gene stands in front of the saloon, brandishing a
+ double-barrelled shotgun.
+
+>draw
+ You whip your gun out of its holster in a single fluid motion.
+
+ With a powerful report, Gene fires, buckshot striking the side of the
+ tractor.
+
+ "Come out with your hands up!"  Gene yells.  "So I can shoot you!"
+
+>wait
+ Time passes...
+
+ Gene breaks open the shotgun.  Two smoking cartridge cases are ejected
+ from the breach.
+
+>wait
+ Time passes...
+
+ Gene slots two new shells into his shotgun and closes the breech.  He
+ takes careful aim at you once more.
+
+>wait
+ Time passes...
+
+ With a powerful report, Gene fires, buckshot striking the side of the
+ tractor.
+
+ Gene growls with frustration.  "Get out from behind there, Mute!  I
+ gotta deal out some double-barrel justice!"
+
+>wait
+ Time passes...
+
+ With a powerful report, Gene fires, buckshot striking the side of the
+ tractor.
+
+ "Fight like a man!"  Gene shouts.  "And stand the fuck still!"
+
+>stand
+ Okay, you're now standing.
+
+ Gene breaks open the shotgun.  Two smoking cartridge cases are ejected
+ from the breach.
+
+>shoot Gene.
+ You take careful aim at the deputy's head and squeeze the trigger.
+ His hat flies off and he drops to the ground, the half-loaded shotgun
+ still in his grip.
+
+ (Your score has just increased by one point.)
+
+>take hat
+ You see no hat here.
+
+>examine shotgun
+ A standard-issue WPSF side-by-side double-barrelled shotgun.
+
+>get hat
+ You see no hat here.
+
+>take shotgun
+ You prefer to have six rounds to play with.
+
+>reload
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+>SAVE
+>cf5
+ Saved.
+
+>holster
+ (your six shooter)
+ You slip your six shooter back into its holster.
+
+>forward
+ Saloon
+ Rowdy Juanita's Saloon is a homely place, and mostly clean.  A shady
+ refuge from the wasteland sun, a shaft of harsh light shines in
+ through the doorway, enveloping countless dancing motes of dust in its
+ glare.  A multitude of round tables are dotted around the carefully
+ polished bar, and sturdy wooden beams criss-cross the high ceiling.
+
+ Rowdy Juanita stands behind the bar, a six shooter in each of her
+ upper set of hands, a third being reloaded by her lower arms.
+
+ "Hi Mute," Juanita says cheerfully.  "Watch out!  The sheriff
+ reprogrammed me to shoot you on sight!"
+
+ And with that she starts firing wildly with both guns, wood
+ splintering and glass shattering around the bar.
+
+ "It's a good thing I can't shoot worth a damn," Juanita says.  "You
+ should be safe as long as you don't get too close to me."
+
+>shoot Juanita.
+ You'll have to draw your gun first.
+
+ "By the way," Juanita says, "When you find the sheriff, be sure to
+ blow the crap out of him for me."
+
+>draw
+ You whip your gun out of its holster in a single fluid motion.
+
+ "I'm really sorry about this," Juanita says.  "Believe me, the last
+ thing I want to do is to shoot up my own bar."
+
+>shoot juanita
+ You don't want to shoot Juanita.  She's always been nice to you, and
+ it's not her fault if she's been reprogrammed to blow your brains out.
+
+ You flinch as a bullet whips past your head.  "Sorry!"  Juanita calls
+ out, apologetically.
+
+>SAVE
+>cf6
+ Saved.
+
+>look
+ Saloon
+ Rowdy Juanita's Saloon is a homely place, and mostly clean.  A shady
+ refuge from the wasteland sun, a shaft of harsh light shines in
+ through the doorway, enveloping countless dancing motes of dust in its
+ glare.  A multitude of round tables are dotted around the carefully
+ polished bar, and sturdy wooden beams criss-cross the high ceiling.
+
+ The floor is littered with splinters of wood and broken glass.
+
+ Rowdy Juanita stands behind the bar, a six shooter in each of her
+ upper set of hands, a third being reloaded by her lower arms.
+
+ A whisky bottle on a nearby table explodes as a bullet hits it.  "Damn
+ it," Juanita grumbles.
+
+>examine beams
+ The ceiling is criss-crossed with thick wooden beams.  Suspended among
+ the beams you see a chandelier.
+
+ A bullet strikes the leg of a table, causing it to collapse
+ explosively.  Juanita sighs.  "Fixing all this is gonna cost me."
+
+>shoot chandelier
+ You take careful aim at the rope anchoring the chandelier to the
+ ceiling, and fire.  For a second it seems to hang suspended in thin
+ air.  And then it drops down on Juanita with a terrifying crash.  You
+ race over to her, worried that you've done her permanent damage.
+
+ Pinned beneath the chandelier, her weapons scattered across the bar,
+ Juanita looks up at you and offers a vinyl-lipped smile.  "Nice work,
+ Mute.  Now get moving and stop that execution!"
+
+ (Your score has just increased by one point.)
+
+>kiss juanita
+ You kiss Juanita affectionately on the cheek.  She sighs.  "You always
+ treated me right, Mute.  I never could figure out why you seemed so
+ immune to my charms."
+
+ (Your score has just increased by one point.)
+
+>SAVE
+>cf7
+ Saved.
+
+>f
+ Train Station
+ You're on a simple wooden platform next to the train tracks that run
+ through the town.  Standing on thick tripod legs, a water tower casts
+ its shadow over you, ready to supply coolant to nuclear-powered
+ locomotives.  The only train in sight, however, is a single open
+ railroad car, a gyro-controlled, multi-barrelled turret anchored to it
+ with fat iron bolts.
+
+ Gatling Gun Fiona sits at the controls of the turret, staring at you
+ with fierce, emerald green eyes.
+
+ "I been waiting for you!"  Fiona says, shouting over the whine of the
+ turret's motors.  "I'm gonna make you into Swiss Cheese!"
+
+>shoot tower
+ It doesn't look like that would achieve much.
+
+ With the earth-shuddering sound of screaming servos, the turret turns
+ to aim its fat bundle of barrels directly at you.  Slowly but surely,
+ the barrels begin to spin.
+
+ "You just stand right there," Fiona tells you.
+
+>undo
+ Taking back one turn: "shoot tower".
+
+ Train Station
+ You're on a simple wooden platform next to the train tracks that run
+ through the town.  Standing on thick tripod legs, a water tower casts
+ its shadow over you, ready to supply coolant to nuclear-powered
+ locomotives.  The only train in sight, however, is a single open
+ railroad car, a gyro-controlled, multi-barrelled turret anchored to it
+ with fat iron bolts.
+
+ Gatling Gun Fiona sits at the controls of the turret, staring at you
+ with fierce, emerald green eyes.
+
+>b
+ Fiona has all your potential exits covered with her monstrous turrets.
+
+ With the earth-shuddering sound of screaming servos, the turret turns
+ to aim its fat bundle of barrels directly at you.  Slowly but surely,
+ the barrels begin to spin.
+
+ "You just stand right there," Fiona tells you.
+
+>undo
+ Taking back one turn: "b".
+
+ Train Station
+ You're on a simple wooden platform next to the train tracks that run
+ through the town.  Standing on thick tripod legs, a water tower casts
+ its shadow over you, ready to supply coolant to nuclear-powered
+ locomotives.  The only train in sight, however, is a single open
+ railroad car, a gyro-controlled, multi-barrelled turret anchored to it
+ with fat iron bolts.
+
+ Gatling Gun Fiona sits at the controls of the turret, staring at you
+ with fierce, emerald green eyes.
+
+>shoot Fiona
+ You aim carefully at Fiona and squeeze the trigger.  The perspex
+ shield protecting her deflects the bullet without even a scratch to
+ show for it.
+
+ "Hey," Fiona yells, "you should learn when to just roll over and die!"
+
+ With the earth-shuddering sound of screaming servos, the turret turns
+ to aim its fat bundle of barrels directly at you.  Slowly but surely,
+ the barrels begin to spin.
+
+ "You just stand right there," Fiona tells you.
+
+>climb tower
+ There's no way up the water tower, and you'd be completely exposed up
+ there anyway.
+
+ With a sound like thunder splitting a mountain in two, Fiona's huge
+ turret explodes into action.  The fast moving, high calibre bullets
+ distintegrate you so fast you don't even notice it happening.
+
+ *** GAME OVER ***
+
+ In 62 moves, you have scored 6 of a possible 20 points.  This makes
+ you a threat to the peace.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, or QUIT?
+
+>restore
+>cf7
+ Restored.
+
+ Saloon
+ Rowdy Juanita's Saloon is a homely place, and mostly clean.  A shady
+ refuge from the wasteland sun, a shaft of harsh light shines in
+ through the doorway, enveloping countless dancing motes of dust in its
+ glare.  A multitude of round tables are dotted around the carefully
+ polished bar, and sturdy wooden beams criss-cross the high ceiling.
+
+ The floor is littered with splinters of wood and broken glass.
+
+ A tattered and broken chandelier is propped up against the bar.
+
+ Rowdy Juanita is lying half over the bar, trapped beneath a heavy
+ chandelier.
+
+>f
+ Train Station
+ You're on a simple wooden platform next to the train tracks that run
+ through the town.  Standing on thick tripod legs, a water tower casts
+ its shadow over you, ready to supply coolant to nuclear-powered
+ locomotives.  The only train in sight, however, is a single open
+ railroad car, a gyro-controlled, multi-barrelled turret anchored to it
+ with fat iron bolts.
+
+ Gatling Gun Fiona sits at the controls of the turret, staring at you
+ with fierce, emerald green eyes.
+
+ "I been waiting for you!"  Fiona says, shouting over the whine of the
+ turret's motors.  "I'm gonna make you into Swiss Cheese!"
+
+>close door
+ You see no door here.
+
+>hide
+ (behind the water tower's legs)
+ Okay, you're now taking cover behind the water tower's legs.
+
+ With the earth-shuddering sound of screaming servos, the turret turns
+ to aim its fat bundle of barrels directly at you.  Slowly but surely,
+ the barrels begin to spin.
+
+ Fiona peers at you around the water tower.  "Come out, come out,
+ wherever you are..." she coos.
+
+>shoot car
+ You can't get a good shot while you're taking cover.
+
+ With a sound like thunder splitting a mountain in two, Fiona's huge
+ turret explodes into action.  Bullets strike the water tower's legs
+ with frightening power, but the sturdy metal seems to withstand the
+ onslaught.
+
+>wait
+ Time passes...
+
+ The entire train station flickers with the muzzle flash from the
+ turret - a glare brighter than the wasteland sun.
+
+>wait
+ Time passes...
+
+ You notice that Fiona seems to be uttering a constant stream of
+ inaudible expletives as she douses the water tower with ammunition.
+
+>wait
+ Time passes...
+
+ With the shriek of metal on metal, the spinning barrels suddenly come
+ to a juddering halt.
+
+ "Gods damn it!"  Fiona screams.  She looks down at the stationary
+ barrels, which are glowing dull red and emitting noxious black smoke.
+ "Hang on a moment," she tells you, almost apologetically, "I'll get
+ back to killing you in a jiffy..."
+
+ Fiona looks down at the turret's control panel and begins pressing
+ buttons.
+
+ It's difficult to see from this angle, but you're sure it has all
+ sorts of neat buttons.
+
+ The large chemical tank behind Fiona begins to tremble and groan.  She
+ takes hold of the controls again and grins.
+
+ With a tremendous hiss of steam, the hoses emerging from the tank
+ douse the barrels in some sort of liquid.  When the steam has cleared,
+ the barrels are no longer glowing.
+
+>shoot tank
+ You can't get a good shot while you're taking cover.
+
+
+ "Back in business!"  Fiona growls, as the barrels begin to spin back
+ up to speed.
+
+>undo
+ Taking back one turn: "shoot tank".
+
+ Train Station (taking cover behind the water tower's legs)
+ You're on a simple wooden platform next to the train tracks that run
+ through the town.  Standing on thick tripod legs, a water tower casts
+ its shadow over you, ready to supply coolant to nuclear-powered
+ locomotives.  The only train in sight, however, is a single open
+ railroad car, a gyro-controlled, multi-barrelled turret anchored to it
+ with fat iron bolts.
+
+ Gatling Gun Fiona sits at the controls of the turret, staring at you
+ with fierce, emerald green eyes.
+
+>undo
+ Taking back one turn: "x control panel".
+
+ Train Station (taking cover behind the water tower's legs)
+ You're on a simple wooden platform next to the train tracks that run
+ through the town.  Standing on thick tripod legs, a water tower casts
+ its shadow over you, ready to supply coolant to nuclear-powered
+ locomotives.  The only train in sight, however, is a single open
+ railroad car, a gyro-controlled, multi-barrelled turret anchored to it
+ with fat iron bolts.
+
+ Gatling Gun Fiona sits at the controls of the turret, staring at you
+ with fierce, emerald green eyes.
+
+>stand
+ Okay, you're now standing.
+
+ The large chemical tank behind Fiona begins to tremble and groan.  She
+ takes hold of the controls again and grins.
+
+ With a tremendous hiss of steam, the hoses emerging from the tank
+ douse the barrels in some sort of liquid.  When the steam has cleared,
+ the barrels are no longer glowing.
+
+>shoot tank
+ You fire off a shot at the chemical tank.  The bullet richochets off
+ of it harmlessly.
+
+
+ "Back in business!"  Fiona growls, as the barrels begin to spin back
+ up to speed.
+
+>undo
+ Taking back one turn: "shoot tank".
+
+ Train Station
+ You're on a simple wooden platform next to the train tracks that run
+ through the town.  Standing on thick tripod legs, a water tower casts
+ its shadow over you, ready to supply coolant to nuclear-powered
+ locomotives.  The only train in sight, however, is a single open
+ railroad car, a gyro-controlled, multi-barrelled turret anchored to it
+ with fat iron bolts.
+
+ Gatling Gun Fiona sits at the controls of the turret, staring at you
+ with fierce, emerald green eyes.
+
+>shoot controls
+ The word "controls" is not necessary in this story.
+
+>shoot gyro
+ Your bullet bounces harmlessly off the turret's thick metal hide.
+
+
+ "Back in business!"  Fiona growls, as the barrels begin to spin back
+ up to speed.
+
+>undo
+ Taking back one turn: "shoot gyro".
+
+ Train Station
+ You're on a simple wooden platform next to the train tracks that run
+ through the town.  Standing on thick tripod legs, a water tower casts
+ its shadow over you, ready to supply coolant to nuclear-powered
+ locomotives.  The only train in sight, however, is a single open
+ railroad car, a gyro-controlled, multi-barrelled turret anchored to it
+ with fat iron bolts.
+
+ Gatling Gun Fiona sits at the controls of the turret, staring at you
+ with fierce, emerald green eyes.
+
+>hide under car
+ The story doesn't understand that command.
+
+>hide in car
+ You can't take cover behind that.
+
+
+ "Back in business!"  Fiona growls, as the barrels begin to spin back
+ up to speed.
+
+>hide
+ (behind the water tower's legs)
+ Okay, you're now taking cover behind the water tower's legs.
+
+ With a sound like thunder splitting a mountain in two, Fiona's huge
+ turret explodes into action.  Bullets strike the water tower's legs
+ with frightening power, but the sturdy metal seems to withstand the
+ onslaught.
+
+>examine platform
+ Better than standing on dirt as wait for a train.  Must make it easier
+ to board as well.
+
+ Fiona clings to the controls as the turret judders with the recoil of
+ its own insane firepower.
+
+>examine platform
+ Better than standing on dirt as wait for a train.  Must make it easier
+ to board as well.
+
+ Bullets whip either side of you in a terrifying stream of sparks,
+ ricocheting off of the water tower and kicking up a thick cloud of
+ dust.
+
+ A flat bed of metal on wheels, sitting on the train tracks.  It would
+ have to be towed by a locomotive to actually get anywhere.
+
+ The railroad car is currently home to a gyro-controlled,
+ multi-barrelled turret.
+
+ With the shriek of metal on metal, the spinning barrels suddenly come
+ to a juddering halt.
+
+ "Gods damn it!"  Fiona screams.  She looks down at the stationary
+ barrels, which are glowing dull red and emitting noxious black smoke.
+ "Hang on a moment," she tells you, almost apologetically, "I'll get
+ back to killing you in a jiffy..."
+
+ Fiona looks down at the turret's control panel and begins pressing
+ buttons.
+
+>examine tank
+ A fat metal cylinder is mounted on the train carriage behind the
+ turret.  A number of colourful warning signs are plastered to its
+ sides.
+
+ The large chemical tank behind Fiona begins to tremble and groan.  She
+ takes hold of the controls again and grins.
+
+ With a tremendous hiss of steam, the hoses emerging from the tank
+ douse the barrels in some sort of liquid.  When the steam has cleared,
+ the barrels are no longer glowing.
+
+>read signs
+ "Warning!  Extremely cold!  Handle with care!  Danger of severe
+ injury!"
+
+
+ "Back in business!"  Fiona growls, as the barrels begin to spin back
+ up to speed.
+
+>examine hoses
+ Thick, rubbery hoses, covered in a pale frost.  They're connected to a
+ valve on the cylinder and disappear somewhere under the turret.
+
+ With a sound like thunder splitting a mountain in two, Fiona's huge
+ turret explodes into action.  Bullets strike the water tower's legs
+ with frightening power, but the sturdy metal seems to withstand the
+ onslaught.
+
+>wait
+ Time passes...
+
+ The barrels of the turret are a blur as they spit hundreds of rounds
+ of high calibre ammunition at you.
+
+>examine tower
+ It's difficult to get a sense of what it looks like from up so close.
+ You just get an impression of something large and metal blotting out a
+ big chunk of the sky.
+
+ The water tower's thick legs look like they could offer good cover
+ from the turret.
+
+ You can feel the staggering noise of the turret firing as it seems to
+ rattle the whole desert.
+
+>wait
+ Time passes...
+
+ With the shriek of metal on metal, the spinning barrels suddenly come
+ to a juddering halt.
+
+ "Gods damn it!"  Fiona screams.  She looks down at the stationary
+ barrels, which are glowing dull red and emitting noxious black smoke.
+ "Hang on a moment," she tells you, almost apologetically, "I'll get
+ back to killing you in a jiffy..."
+
+ Fiona looks down at the turret's control panel and begins pressing
+ buttons.
+
+>stand
+ Okay, you're now standing.
+
+ The large chemical tank behind Fiona begins to tremble and groan.  She
+ takes hold of the controls again and grins.
+
+ With a tremendous hiss of steam, the hoses emerging from the tank
+ douse the barrels in some sort of liquid.  When the steam has cleared,
+ the barrels are no longer glowing.
+
+>shoot hose
+ The bullet passes easily through one of the hoses, throwing up a
+ little puff of snow.
+
+
+ "Back in business!"  Fiona growls, as the barrels begin to spin back
+ up to speed.
+
+>hide
+ (behind the water tower's legs)
+ Okay, you're now taking cover behind the water tower's legs.
+
+ With a sound like thunder splitting a mountain in two, Fiona's huge
+ turret explodes into action.  Bullets strike the water tower's legs
+ with frightening power, but the sturdy metal seems to withstand the
+ onslaught.
+
+>examine hose
+ Thick, rubbery hoses, covered in a pale frost.  They're connected to a
+ valve on the cylinder and disappear somewhere under the turret.  A
+ little spray of something seems to be emerging from the hoses.
+
+ The barrels of the turret are a blur as they spit hundreds of rounds
+ of high calibre ammunition at you.
+
+>wait
+ Time passes...
+
+ You can feel the staggering noise of the turret firing as it seems to
+ rattle the whole desert.
+
+>wait
+ Time passes...
+
+ With the shriek of metal on metal, the spinning barrels suddenly come
+ to a juddering halt.
+
+ "Gods damn it!"  Fiona screams.  She looks down at the stationary
+ barrels, which are glowing dull red and emitting noxious black smoke.
+ "Hang on a moment," she tells you, almost apologetically, "I'll get
+ back to killing you in a jiffy..."
+
+ Fiona looks down at the turret's control panel and begins pressing
+ buttons.
+
+>stand
+ Okay, you're now standing.
+
+ The large chemical tank behind Fiona begins to tremble and groan.  She
+ takes hold of the controls again and grins.
+
+ And then the tank starts spurting a huge stream of coolant out of its
+ side, up into the air and very far from the red hot gun barrels.
+ Fiona spins round to watch this with wide-eyes, and then turns back to
+ face you with a terrified, placating smile.  "Let's talk about this
+ like reasonable human beings," she says, standing up from the turret's
+ control seat and holding up her empty hands.
+
+ And then she jumps off of the turret, hitting the ground running.
+ She's disappeared before you're even sure how to react.
+
+ (Your score has just increased by one point.)
+
+>reload
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+>SAVE
+>cf8
+ Saved.
+
+>f
+ Church of Wrathzor
+ Between cold stone walls, orderly rows of wooden pews face the pulpit
+ ahead.  Vengeful angels peer down on the absent congregation from
+ lofty stained-glass windows.
+
+ Reverend Gun-Arm Joe stands in the pulpit.
+
+ "We thought we'd never see you again, child," the reverend says.  His
+ voice is quiet, but it echoes profoundly through the expanse of the
+ church.  "Let us speak as equals.  Allow me to show you the path to
+ happiness through peace.  Please, my son, put away your weapon."
+
+>holster
+ (your six shooter)
+ You slip your six shooter back into its holster.
+
+ "Now," Reverend Joe says, "allow me to show you the true peace
+ delivered by the Hand of Wrathzor..."
+
+ He holds his right arm out to the side as something inside it seems to
+ whir and click.  In a single smooth, mechanical motion, the preacher's
+ arm splits in two, divulging a sleek, nickel-plated machinegun.  He
+ aims his arm at you, bracing himself against the pulpit.  "May
+ Wrathzor have mercy on your soul," he intones, solemnly.
+
+>hide
+ (behind the pews)
+ Okay, you're now taking cover behind the pews.
+
+ Reverend Joe's machinegun arm spits out gunfire to a deafening
+ staccato rhythm that rattles harshly against the stone walls.  Bullets
+ rip through the pews, cracking and splintering the wood.  You throw
+ your arms over your head defensively.
+
+ "There is no point hiding, my son," the reverend booms, "for it is
+ Wrathzor's judgement that you die, and you cannot hide from Him."
+
+>draw
+ You whip your gun out of its holster in a single fluid motion.
+
+ The powerful recoil of the reverend's gun arm sends his aim climbing
+ too high.  For a moment, he totters on his feet, blasting chunks of
+ stone out of the ceiling.
+
+>stand
+ Okay, you're now standing.
+
+ The reverend stops firing for a moment to regain his footing.
+
+>shoot reverend
+ You aim at Reverend Joe.  He ducks behind the pulpit at the last
+ moment, and your shot goes wide.
+
+ Reverend Joe steadies himself against the pulpit and aims at you with
+ his machinegun arm.
+
+>shoot reverend
+ You aim at Reverend Joe.  He ducks behind the pulpit at the last
+ moment, and your shot goes wide.
+
+ Reverend Joe's machinegun arm spits out gunfire to a deafening
+ staccato rhythm that rattles harshly against the stone walls.  Bullets
+ whack into you, passing through your body and leaving you gasping for
+ breath in a pool of blood on the floor.
+
+ Reverend Joe leaves the pulpit to stand over your broken form.  "Allow
+ me to complete your journey to the Almighty," he says, aiming his
+ gun-arm at your head.
+
+ *** GAME OVER ***
+
+ In 92 moves, you have scored 7 of a possible 20 points.  This makes
+ you a threat to the peace.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, or QUIT?
+
+>undo
+ Taking back one turn: "shoot reverend".
+
+ Church of Wrathzor
+ Between cold stone walls, orderly rows of wooden pews face the pulpit
+ ahead.  Vengeful angels peer down on the absent congregation from
+ lofty stained-glass windows.
+
+ Reverend Gun-Arm Joe stands in the pulpit.
+
+>duck
+ (behind the pews)
+ Okay, you're now taking cover behind the pews.
+
+ Reverend Joe's machinegun arm spits out gunfire to a deafening
+ staccato rhythm that rattles harshly against the stone walls.  Bullets
+ rip through the pews, cracking and splintering the wood.  You throw
+ your arms over your head defensively.
+
+ "You can find peace only through acceptance," the reverend intones.
+ "Show yourself and receive your judgement."
+
+>examine cross
+ The word "cross" is not necessary in this story.
+
+>examine ceiling
+ You see nothing unusual about it.
+
+ The powerful recoil of the reverend's gun arm sends his aim climbing
+ too high.  For a moment, he totters on his feet, blasting chunks of
+ stone out of the ceiling.
+
+>examine window
+ The stained-glass windows depict warrior angels brandishing swords and
+ cutting down swathes of wretched unbelievers.  Their eyes seem to
+ follow you around the room.
+
+ The reverend stops firing for a moment to regain his footing.
+
+>examine ceiling
+ You see nothing unusual about it.
+
+ Reverend Joe steadies himself against the pulpit and aims at you with
+ his machinegun arm.
+
+>examine pulpit
+ A raised wooden platform from which a man of Wrathzor can preach his
+ message of fear and judgement.
+
+ Reverend Joe's machinegun arm spits out gunfire to a deafening
+ staccato rhythm that rattles harshly against the stone walls.  Bullets
+ rip through the pews, cracking and splintering the wood.  You throw
+ your arms over your head defensively.
+
+ "Wood is but a thin veil for the hand of Wrathzor to part," the
+ reverend booms.
+
+>wait
+ Time passes...
+
+ The powerful recoil of the reverend's gun arm sends his aim climbing
+ too high.  For a moment, he totters on his feet, blasting chunks of
+ stone out of the ceiling.
+
+>stand
+ Okay, you're now standing.
+
+ The reverend stops firing for a moment to regain his footing.
+
+>shoot glass
+ You blast one of the stained-glass windows with your six shooter.  It
+ shatters spectacularly, multi-coloured shards of glass raining down on
+ the pulpit.
+
+ Joe screams as the glass cuts into him, ducking behind the pulpit.
+ After the tinkling of glass on stone has ceased, he does not
+ re-emerge.
+
+ (Your score has just increased by one point.)
+
+>SAVE
+>cf9
+ Saved.
+
+>shoot pulpit
+ It doesn't look like that would achieve much.
+
+>catena
+ The word "catena" is not necessary in this story.
+
+>examine joe
+ A pale form slumped in the pulpit among creased, blood-soaked robes.
+ His right arm seems to consist of a hollow plastic shell that has
+ split in two to reveal a shiny, high-calibre machinegun.
+
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+>examine window
+ The stained-glass windows depict warrior angels brandishing swords and
+ cutting down swathes of wretched unbelievers.  Their eyes seem to
+ follow you around the room.  One of the windows has been shattered,
+ perhaps explaining the angels' angry demeanour.
+
+>pray
+ The word "pray" is not necessary in this story.
+
+>f
+ Graveyard
+ Chipped and crumbling headstones here sprout from the desiccated
+ wasteland soil, their names obscured by weathering and dust.
+
+ Metal-Skin Mickey stands among the graves, a six shooter clasped in
+ his robotic hand.
+
+ "TARGET IDENTIFIED," Mickey exclaims.  "ENGAGING!"
+
+>shoot mickey
+ You blast Mickey with your six shooter.  The bullet bounces harmlessly
+ off of his thick metal skin.
+
+ Mickey aims his single eye at you, a narrow thread of laser light
+ projecting from it onto your forehead.
+
+ "LOCK-ON ACQUIRED," Mickey states.  "PREPARING TO FIRE..."
+
+>hide
+ (behind the tombstones)
+ Okay, you're now taking cover behind the tombstones.
+
+ A thin beam of laser light from Mickey's eye sweeps back and forth
+ over the top of the headstones, seeking you out.
+
+ A cylindrical war-bot, dressed in chipped and peeling desert
+ camouflage paint.  His face is featureless except for a single round,
+ glassy eye.
+
+ A thin beam of laser light from Mickey's eye sweeps back and forth
+ over the top of the headstones, seeking you out.
+
+>examine gravestones
+ The word "gravestones" is not necessary in this story.
+
+>shoot eye
+ You can't get a good shot while you're taking cover.
+
+ A thin beam of laser light from Mickey's eye sweeps back and forth
+ over the top of the headstones, seeking you out.
+
+>read headstones
+ Jagged, worn, broken, crumbling, in some cases even completely
+ collapsed.  The tombstones are all made of stone, however, and might
+ be sturdy enough to afford you some cover.
+
+ You are taking cover behind the tombstones.
+
+ A thin beam of laser light from Mickey's eye sweeps back and forth
+ over the top of the headstones, seeking you out.
+
+>restore
+>cf9
+ Restored.
+
+ Church of Wrathzor
+ Between cold stone walls, orderly rows of wooden pews face the pulpit
+ ahead.  Vengeful angels peer down on the absent congregation from
+ lofty stained-glass windows.
+
+ One of the windows has been shattered.
+
+ The dead body of Reverend Gun-Arm Joe is crumpled up in the pulpit.
+
+>forward
+ Graveyard
+ Chipped and crumbling headstones here sprout from the desiccated
+ wasteland soil, their names obscured by weathering and dust.
+
+ Metal-Skin Mickey stands among the graves, a six shooter clasped in
+ his robotic hand.
+
+ "TARGET IDENTIFIED," Mickey exclaims.  "ENGAGING!"
+
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+ Mickey aims his single eye at you, a narrow thread of laser light
+ projecting from it onto your forehead.
+
+ "LOCK-ON ACQUIRED," Mickey states.  "PREPARING TO FIRE..."
+
+>shoot eye
+ You aim at Mickey's eye and squeeze the trigger.  The eye shatters
+ with a brittle crack, and Mickey freezes in place, sparking and
+ whirring.
+
+ (Your score has just increased by one point.)
+
+>reload
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+>SAVE
+>cf10
+ Saved.
+
+>examine mickey
+ A cylindrical war-bot, dressed in chipped and peeling desert
+ camouflage paint.  His face is featureless except for a single round,
+ shattered eye.
+
+ Mickey stands perfectly still.
+
+>take gun
+ You've already drawn your gun.
+
+>push mickey
+ You're a gunslinger, not a wrestler.
+
+>kiss mickey
+ You'd sooner kiss a toaster in the shower.
+
+>Tell Mickey he is so fine.
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+>f
+ Derelict Reactor
+ You're on a sturdy platform beneath a huge dome of cracked concrete,
+ an expansive pool of off-colour, steaming water stretching out far
+ below.  An ancient control panel sits by the edge of the platform.
+
+ A broken catwalk hangs from the ceiling.A mass of tree roots protrude
+ from one of the larger cracks in the concrete.A girder juts up from
+ the toxic pool.
+
+ Glow-in-the-Dark Earl stands on the rickety catwalk.
+
+ "You!"  Earl rasps, hoarsely.  "Execution or no, this is my reactor,
+ and ain't no-one passing through here long as I breath!"
+
+ You see no reactor here.
+
+>shoot Earl.
+ As you aim at Earl, he tenses his grotesquely long legs.  After you
+ fire, but before the bullet hits him, he jumps up, high into the air,
+ and lands on the tree roots.
+
+ "What's the matter, Mute?"  Earl says, "too fast for you?"
+
+ Earl holds out his bow and notches an arrow to it.
+
+>undo
+ Taking back one turn: "shoot Earl".
+
+ Derelict Reactor
+ You're on a sturdy platform beneath a huge dome of cracked concrete,
+ an expansive pool of off-colour, steaming water stretching out far
+ below.  An ancient control panel sits by the edge of the platform.
+
+ A broken catwalk hangs from the ceiling.A mass of tree roots protrude
+ from one of the larger cracks in the concrete.A girder juts up from
+ the toxic pool.
+
+ Glow-in-the-Dark Earl stands on the rickety catwalk.
+
+>examine panel
+ Rusted right through and glowing faintly.  It's encrusted with strange
+ dials and buttons.
+
+ Earl holds out his bow and notches an arrow to it.
+
+>hide
+ (behind the control panel)
+ Okay, you're now taking cover behind the control panel.
+
+ Earl sends an arrow flying over your head.  "I know you're still in
+ here!  You can't hide from me!"
+
+>examine roots
+ Having broken through the concrete dome over slow years of growth, the
+ tree roots now seem strangely sinister and monstrous: as if frozen in
+ the act of an intelligent writhing motion.  Various objects from the
+ reactor complex seem to have been snatched up by the roots over time,
+ including a large, bright orange canister.
+
+ Earl clucks like a chicken until his hoarse voice breaks down into a
+ coughing fit.
+
+>examine canister
+ A bright orange canister of some sort is caught up in the curled and
+ grasping tree roots.
+
+>read canister
+ The bright orange canister is too far away.
+
+>wait
+ Time passes...
+
+ You hear an arrow ping uselessly off the other side of the control
+ panel.
+
+>stane
+ The word "stane" is not necessary in this story.
+
+>stand
+ Okay, you're now standing.
+
+ Earl holds out his bow and notches an arrow to it.
+
+>shoot Earl.
+ As you aim at Earl, he tenses his grotesquely long legs.  After you
+ fire, but before the bullet hits him, he jumps up, high into the air,
+ and lands on the tree roots.
+
+ Earl shouts as loud as his weak, raspy voice will let him.  "Give up
+ now!  The magic rays of the Ancients have made me immortal!"
+
+ Earl holds out his bow and notches an arrow to it.
+
+>shoot canister
+ You sight down your barrel at the bright orange canister, and squeeze
+ the trigger.  The canister erupts into a sizeable fireball, consuming
+ the tree roots and burning them to a crisp.
+
+ Earl jumps clear of the tree roots and lands on the catwalk.
+
+ Earl holds out his bow and notches an arrow to it.
+
+>shoot catwalk
+ There's a small splash of radioactive water, but no other evidence
+ you're having an effect on the submerged catwalk.
+
+ Earl draws back the string on his bow, taking aim at you.
+
+>hide
+ (behind the control panel)
+ Okay, you're now taking cover behind the control panel.
+
+ "Come out of there!"  Earl yells.
+
+>wait
+ Time passes...
+
+ Earl growls with frustration.
+
+>examine catwalk
+ Corroded in strange and unpleasant ways, it doesn't seem like it can
+ keep up the fight against gravity for long.  It hangs from crooked
+ bolts that half protrude from the ceiling.
+
+ Glow-in-the-Dark Earl is standing on the rickety catwalk.
+
+ Earl clucks like a chicken until his hoarse voice breaks down into a
+ coughing fit.
+
+>reload
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+>wait
+ Time passes...
+
+ "Come out of there!"  Earl yells.
+
+>shoot panel
+ You can't get a good shot while you're taking cover.
+
+ Earl sends an arrow flying over your head.  "I know you're still in
+ here!  You can't hide from me!"
+
+>stand
+ Okay, you're now standing.
+
+ Earl holds out his bow and notches an arrow to it.
+
+>shoot earl
+ As you aim at Earl, he tenses his grotesquely long legs.  After you
+ fire, but before the bullet hits him, he jumps up, high into the air,
+ and lands on the girder.
+
+ "What's the matter, Mute?"  Earl says, "too fast for you?"
+
+ Earl holds out his bow and notches an arrow to it.
+
+>undo
+ Taking back one turn: "shoot earl".
+
+ Derelict Reactor
+ You're on a sturdy platform beneath a huge dome of cracked concrete,
+ an expansive pool of off-colour, steaming water stretching out far
+ below.  An ancient control panel sits by the edge of the platform.
+
+ A broken catwalk hangs from the ceiling.A girder juts up from the
+ toxic pool.
+
+ Glow-in-the-Dark Earl stands on the rickety catwalk.
+
+>shoot bolts
+ You take aim at one of the ancient metal bolts and fire.  It shatters
+ into a cloud of rust.  The catwalk creaks, and begins to move.  One by
+ one, the rusted bolts pop out of the ceiling and the catwalk curls
+ downward, sinking into the steaming nuclear waste below.
+
+ Earl jumps clear of the catwalk and lands on the girder.
+
+ Earl holds out his bow and notches an arrow to it.
+
+>hide
+ (behind the control panel)
+ Okay, you're now taking cover behind the control panel.
+
+ Earl growls with frustration.
+
+>examine girder
+ The thick iron girder juts up at a crooked angle.  It seems to be
+ propped up on a thick pipeline that traverses the dome.
+
+ Glow-in-the-Dark Earl is standing on the girder.
+
+>examine pipeline
+ Blackened and heavily corroded, the pipeline emerges from a delicate
+ husk of machinery and winds its way across the dome, disappearing into
+ the distance.
+
+ You hear an arrow ping uselessly off the other side of the control
+ panel.
+
+>stand
+ Okay, you're now standing.
+
+ Earl holds out his bow and notches an arrow to it.
+
+>shoot pipeline
+ You put a bullethole in the corroded metal of the pipeline.  It
+ quivers slightly, but remains otherwise intact.
+
+ Earl draws back the string on his bow, taking aim at you.
+
+>hide
+ (behind the control panel)
+ Okay, you're now taking cover behind the control panel.
+
+ Earl clucks like a chicken until his hoarse voice breaks down into a
+ coughing fit.
+
+>undo
+ Taking back one turn: "hide".
+
+ Derelict Reactor
+ You're on a sturdy platform beneath a huge dome of cracked concrete,
+ an expansive pool of off-colour, steaming water stretching out far
+ below.  An ancient control panel sits by the edge of the platform.
+
+ A girder juts up from the toxic pool.
+
+ Glow-in-the-Dark Earl stands on the girder.
+
+>shoot pipeline
+ You put a second bullethole in the pipeline, close to the first.  The
+ pipeline creaks loudly, but stays in one piece.
+
+ Earl looses the arrow.  You look down and aren't entirely surprised to
+ it sticking out of your chest.  You feel yourself falling off the
+ platform as if it were happening somewhere very far away.
+
+ *** GAME OVER ***
+
+ In 133 moves, you have scored 9 of a possible 20 points.  This makes
+ you a quick-draw gunslinger.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, or QUIT?
+
+>undo
+ Taking back one turn: "shoot pipeline".
+
+ Derelict Reactor
+ You're on a sturdy platform beneath a huge dome of cracked concrete,
+ an expansive pool of off-colour, steaming water stretching out far
+ below.  An ancient control panel sits by the edge of the platform.
+
+ A girder juts up from the toxic pool.
+
+ Glow-in-the-Dark Earl stands on the girder.
+
+>hide
+ (behind the control panel)
+ Okay, you're now taking cover behind the control panel.
+
+>examine tree
+ The tree roots are now just blackened claws of wood, shedding ash like
+ tears.
+
+>examine vines
+ The word "vines" is not necessary in this story.
+
+>wait
+ Time passes...
+
+ "Come out of there!"  Earl yells.
+
+>wait
+ Time passes...
+
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+ Earl growls with frustration.
+
+>wait
+ Time passes...
+
+ Earl clucks like a chicken until his hoarse voice breaks down into a
+ coughing fit.
+
+>stand
+ Okay, you're now standing.
+
+ Earl holds out his bow and notches an arrow to it.
+
+>shoot pipeline
+ You put a second bullethole in the pipeline, close to the first.  The
+ pipeline creaks loudly, but stays in one piece.
+
+ Earl draws back the string on his bow, taking aim at you.
+
+>hide
+ (behind the control panel)
+ Okay, you're now taking cover behind the control panel.
+
+ You hear an arrow ping uselessly off the other side of the control
+ panel.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+ Earl sends an arrow flying over your head.  "I know you're still in
+ here!  You can't hide from me!"
+
+>wait
+ Time passes...
+
+ You hear an arrow ping uselessly off the other side of the control
+ panel.
+
+>wait
+ Time passes...
+
+ Earl sends an arrow flying over your head.  "I know you're still in
+ here!  You can't hide from me!"
+
+>undo
+ Taking back one turn: "z".
+
+ Derelict Reactor (taking cover behind the control panel)
+ You're on a sturdy platform beneath a huge dome of cracked concrete,
+ an expansive pool of off-colour, steaming water stretching out far
+ below.  An ancient control panel sits by the edge of the platform.
+
+ A girder juts up from the toxic pool.
+
+ Glow-in-the-Dark Earl stands on the girder.
+
+>stand
+ Okay, you're now standing.
+
+ Earl holds out his bow and notches an arrow to it.
+
+>shoot pipeline
+ You put a third bullethole in the pipeline, in between the first two.
+ For a moment, nothing happens.  And then the pipeline shatters into
+ disparate shards of rust.  The girder leaning on it tips slowly to one
+ side, smashing into the dome with the sound of heavy masonry
+ shattering like glass.
+
+ Earl jumps clear of the girder and flails uselessly in the air for
+ longer than seems possible.  Then, inevitably, he drops - falling into
+ the radioactive slime below with an infuriated yell.
+
+ (Your score has just increased by one point.)
+
+>reload
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+>SAVE
+>cf11
+ Saved.
+
+>f
+ Polluted Slums
+ On the bank of a thick black river, you're surrounded on all sides by
+ corroded tin shacks and heaps of rotting garbage.
+
+ It's awfully quiet around here.
+
+>examine garbage
+ Dirty rags, rotten food, human excrement... other things you don't
+ want to look too closely at.
+
+>hide
+ You don't see anything to take cover behind, and there's no obvious
+ danger anyway.
+
+>examine shacks
+ Home to the physically diseased and the socially reviled.
+
+>examine river
+ The river is black and viscous, emitting a fine, yellowish vapour.
+
+ It's very quiet.  The river burbles quietly.
+
+>examine bank
+ The word "bank" is not necessary in this story.
+
+>examine vapour
+ You try not to breath too deeply.  The river's noxious vapour probably
+ does little to promote good health.
+
+ The river is black and viscous, emitting a fine, yellowish vapour.
+
+>search garbage
+ There's nothing unusual in the rotting garbage.
+
+>f
+ You start looking for a good route to move through the dreary shanty
+ town, when a rhythmic pistoning reaches your ears from somewhere
+ ahead.  Atomic April strides out from behind one of the shacks,
+ blocking your path with her enormous metallic form.
+
+ April's distorted voice booms from the metallic grill she has for a
+ mouth.  "I'm gonna pummel you good, Mute."
+
+ April raises her great metal fist into the air, blotting out the sun.
+
+ A towering metal figure, topped with a transparent brain jar, her
+ right fist obscenely huge.  She totters on stilt-like mechanical legs.
+ A bright yellow symbol adorns her chest.
+
+ April's shoulder clunks loudly, letting out bursts of steam.
+
+>shoot april
+ You blast April right in the middle of the archaic symbol on her
+ chest.  The bullet richochets without leaving a mark.
+
+ April's massive form is knocked backwards.  She drops her arm and
+ regains her footing in a slow and ungainly motion.
+
+ April booms with laughter.  "A squishy meat-bag like you is no threat
+ to a mechanical god!"
+
+>shoot brain
+ You blast the see-through dome containing April's brain.  The bullet
+ richochets off, leaving a few hairline cracks.
+
+ "This is like pulling the legs off a fly..."  April muses.
+
+ April raises her great metal fist into the air, blotting out the sun.
+
+>shoot brain
+ You shoot April's brain jar again, fine cracks spreading across the
+ dome.
+
+ April laughs.  "I splatter insects like you without even thinking
+ about it!"
+
+ April's shoulder clunks loudly, letting out bursts of steam.
+
+>shoot brain
+ Your bullet completely shatters April's brain jar, showering glass
+ over her shoulders.
+
+ "Some meat-bags just don't know when they're obsolete."  April booms.
+
+ April brings her huge fist down in one swift, mechanical motion.  It
+ races down at you from the sky like a falling boulder.
+
+>shoot brain
+ Your bullet strikes April's exposed brain straight on, splattering it
+ over her shattered head.  Her body suddenly goes limp and collapses
+ into a heap with a loud metallic clattering, sliding slowly into the
+ river, fumes rising where her body touches the acidic slime.
+
+ (Your score has just increased by one point.)
+
+>reload
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+>examine symbol
+ The bright yellow radiation symbol adorns April's great metal upper
+ torso.
+
+ The word "make" is not necessary in this story.
+
+>SAVE
+>cf12
+ Saved.
+
+>strut
+ The word "strut" is not necessary in this story.
+
+>dance
+ You've got no sense of rhythm - save the rhythm of a single action
+ revolver.
+
+>credits
+ Gun Mute by C.E.J.  Pacian
+ Released: 2008
+
+ Developed using the TADS 3 language and library by Michael J.
+ Roberts.  Eric Eve also deserves a mention for his excellent TADS 3
+ tutorials.
+
+ Extra special thanks to my lovely beta-testers: George Oliver, Terry
+ Cavanagh and Konstantinos "Gnome" Dimopoulos.
+
+ Additional thanks for bug and typo reports courtesy of Inane and
+ Nillo.
+
+
+>f
+ Undertaker's
+ A dark little office.  The bright sunlight shining through the window
+ casts a perfect square of light on the polished floor, as if it were
+ too timid to wander away from a straight line.  Coffins stand in rows
+ against one wall, funereal garbs against the other.
+
+ Solemn Gertrude is here, in a black suit and top hat.
+
+ When she sees you arrive, Gertrude stands up from her chair by the
+ window and unrolls her tape measure.
+
+ A tall, thin woman with almost albinic pale skin.  She wears a close
+ fitting, jet-black suit and a shiny top hat.  Her movements are small
+ and carefully calculated.  You remember Gertrude as being the one
+ person in town more quiet than you.
+
+ Gertrude steps lightly on one end of the tape measure, and holds it up
+ to measure your height.
+
+ The word "tape" is not necessary in this story.
+
+ The word "measure" is not necessary in this story.
+
+ A rather intimidating piece of headwear, really.
+
+ Gertrude measures you across the shoulders.
+
+>point to coffin
+ You point at the coffins.
+
+ Gertrude doesn't seem to notice.
+
+ Gertrude quickly pulls out a notepad to jot down your measurements.
+
+ (Your score has just increased by one point.)
+
+>full score
+ In 174 moves, you have scored 12 of a possible 20 points.  This makes
+>point to garb
+ you a renegade lawman.  Your score consists of:
+    1 point for drinking the plainswoman's potion
+    7 points for killing members of the sheriff's posse
+    1 point for trapping Juanita beneath the chandelier
+    1 point for kissing Juanita
+    1 point for scaring off Gatling Gun Fiona
+    1 point for getting measured for your coffin
+
+ You point at the funereal garbs.
+
+ Gertrude doesn't seem to notice.
+
+ Gertrude stands moderately far away from you and studies the floor.
+
+ The word "notepad" is not necessary in this story.
+
+>take hat
+ You don't need to weigh yourself down with anything other than your
+ trusty six shooter.
+
+ Gertrude redirects her attention to the ceiling.
+
+>look in coffin
+ There's nothing unusual in the coffins.
+
+ You catch Gertrude looking at you.  She turns her head sharply.
+
+>examine ceiling
+ You see nothing unusual about it.
+
+ "Mute..."  Gertrude says, her voice almost a whisper.  "No, never
+ mind."
+
+>point to coffin
+ You point at the coffins.
+
+ Gertrude doesn't seem to notice.
+
+ Gertrude opens her mouth and then closes it again shortly after.
+
+>point to me
+ You point at yourself.
+
+ Gertrude doesn't seem to notice.
+
+ Gertrude steps over to you, looking down at her feet.  "Mute, I know
+ that... you must have passed Fiona to get this far.  I was just
+ wondering, well, is she okay?"
+
+>nod
+ You nod your head.
+
+ Gertrude remains absolutely impassive for quite a while.  Slowly but
+ surely, though, her lips start to form a smile.  "Okay," she says, so
+ quietly you have to strain to hear her.  "I'm glad."
+
+ (Your score has just increased by one point.)
+
+>SAVE
+>cf13
+ Saved.
+
+>point to her
+ You point at Solemn Gertrude.
+
+ Gertrude just blushes.
+
+ Gertrude smiles happily to herself.
+
+>kiss her
+ You don't want to give her the wrong impression.
+
+ Gertrude cheerfully writes out a notice for the funeral of Vicious Sue
+
+>examine notice
+ The word "notice" is not necessary in this story.
+
+>examine robes
+ The word "robes" is not necessary in this story.
+
+>listen
+ You hear nothing out of the ordinary.
+
+ Gertrude files the funeral notice away neatly, humming to herself.
+
+>look
+ Undertaker's
+ A dark little office.  The bright sunlight shining through the window
+ casts a perfect square of light on the polished floor, as if it were
+ too timid to wander away from a straight line.  Coffins stand in rows
+ against one wall, funereal garbs against the other.
+
+ Solemn Gertrude is here, in a black suit and top hat.
+
+ Gertrude cheerfully writes out a notice for the funeral of Claw-Hand
+ Hank
+
+>examine garbs
+ Rows of neatly pressed suits and dresses - all either black or white.
+
+ Gertrude files the funeral notice away neatly, humming to herself.
+
+>examine square
+ The sun casts a perfect square of light onto the floor of the room.
+
+ Gertrude cheerfully writes out a notice for the funeral of Deputy Gene
+
+>read notice
+ The word "notice" is not necessary in this story.
+
+>examine floor
+ The floor is shiny, meticulously polished, cold underfoot.
+
+ Gertrude files the funeral notice away neatly, humming to herself.
+
+>f
+
+ As you leave, Gertrude clears her throat - a soft sound a little like
+ someone hitting a cloud with a ball of cotton wool.  "G-G-Good luck,"
+ she stammers.  "If I see you again, I hope it's not in... a
+ professional capacity."
+
+ And then she unexpectedly races forward and throws her arms around
+ your neck, her hands cold against your bare skin.  "Kill him," she
+ whispers into your ear as she hugs you tightly.  "Don't hesitate to
+ kill the sheriff.  If there has to be someone with a gun walking
+ around the town shooting people, I want it to be you.  I trust you."
+
+ She starts to let you go, blushing bright red.  You grab her roughly
+ and kiss her on the cheek, your stubble scratching her pale skin.  She
+ laughs with a shy happiness.
+
+ You turn away from her and head out into the street.  The sun is high
+ overhead.  It's almost time.
+
+ Back Street
+ This narrow, cramped back street twists and winds fitfully towards the
+ town centre, and your goal.  A bare market stall stands here
+ unattended.  A simple wooden cart blocks up the road.  A table sits
+ here, ready to receive customers to a small restaurant nearby.  A
+ small neglected garden is surrounded by a tall wooden fence.  In the
+ garden, a sickly tree seems to have died long ago from dehydration.
+
+ Gun-Run Raoul stands here, ready to draw.
+
+ "Mute!"  Raoul calls out.  "Don't try and come any closer.  You know
+ I'm the fastest draw in the wastelands, and I'd hate to have to riddle
+ an otherwise decent citizen such as yourself full of bullet-holes."
+
+>SAVE
+>cf14
+ Saved.
+
+>examine raoul
+ A dusky, unshaven man with a multitude of guns and bullets strapped to
+ his body.  He's smiling mirthlessly, a sad glimmer to his eye.
+
+ "Hermano," Raoul pleads, "there's no bad blood between us.  Leave town
+ while you still can."
+
+>examine cart
+ Two wheels and a large wooden bucket.  Nothing special, certainly, but
+ it must do a pretty good job of carting things around.
+
+ "Last chance, hermano," Raoul says, his hands slowly moving towards
+ the many weapons he carries.  "Get out of here!"
+
+>undo
+ Taking back one turn: "x cart".
+
+ Back Street
+ This narrow, cramped back street twists and winds fitfully towards the
+ town centre, and your goal.  A bare market stall stands here
+ unattended.  A simple wooden cart blocks up the road.  A table sits
+ here, ready to receive customers to a small restaurant nearby.  A
+ small neglected garden is surrounded by a tall wooden fence.  In the
+ garden, a sickly tree seems to have died long ago from dehydration.
+
+ Gun-Run Raoul stands here, ready to draw.
+
+>hide
+ You'll have to be a little more specific here.  You can take cover
+ behind: The market stall.  The cart.  The restaurant table.  The
+ wooden fence.  The sickly tree.
+
+ "Last chance, hermano," Raoul says, his hands slowly moving towards
+ the many weapons he carries.  "Get out of here!"
+
+>hide behind sickly tree
+ Okay, you're now taking cover behind the sickly tree.
+
+ In a flash, Raoul has drawn a pair of six shooters.  He fires both in
+ a rapid blur, a hail of bullets disintegrating the sickly tree.
+
+>wait
+ Time passes...
+
+ Raoul's six shooters click empty.  He tosses them aside and pulls a
+ lever-action rifle from over his shoulder.  He loads and fires the gun
+ with inhuman efficiency, his hands a blur.  The high calibre bullets
+ send you flying.  You're already dead by the time you land.
+
+ *** GAME OVER ***
+
+ In 193 moves, you have scored 13 of a possible 20 points.  This makes
+ you a renegade lawman.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, or QUIT?
+
+>restore
+>cf14
+ Restored.
+
+ Back Street
+ This narrow, cramped back street twists and winds fitfully towards the
+ town centre, and your goal.  A bare market stall stands here
+ unattended.  A simple wooden cart blocks up the road.  A table sits
+ here, ready to receive customers to a small restaurant nearby.  A
+ small neglected garden is surrounded by a tall wooden fence.  In the
+ garden, a sickly tree seems to have died long ago from dehydration.
+
+ Gun-Run Raoul stands here, ready to draw.
+
+>hide behind cart
+ Okay, you're now taking cover behind the cart.
+
+ "Hermano," Raoul pleads, "there's no bad blood between us.  Leave town
+ while you still can."
+
+>push cart
+ The cart cannot be moved.
+
+ "Last chance, hermano," Raoul says, his hands slowly moving towards
+ the many weapons he carries.  "Get out of here!"
+
+>undo
+ Taking back one turn: "push cart".
+
+ Back Street (taking cover behind the cart)
+ This narrow, cramped back street twists and winds fitfully towards the
+ town centre, and your goal.  A bare market stall stands here
+ unattended.  A simple wooden cart blocks up the road.  A table sits
+ here, ready to receive customers to a small restaurant nearby.  A
+ small neglected garden is surrounded by a tall wooden fence.  In the
+ garden, a sickly tree seems to have died long ago from dehydration.
+
+ Gun-Run Raoul stands here, ready to draw.
+
+>restore
+>cf14
+ Restored.
+
+ Back Street
+ This narrow, cramped back street twists and winds fitfully towards the
+ town centre, and your goal.  A bare market stall stands here
+ unattended.  A simple wooden cart blocks up the road.  A table sits
+ here, ready to receive customers to a small restaurant nearby.  A
+ small neglected garden is surrounded by a tall wooden fence.  In the
+ garden, a sickly tree seems to have died long ago from dehydration.
+
+ Gun-Run Raoul stands here, ready to draw.
+
+>shoot Raoul.
+ You take careful aim at Raoul and squeeze the trigger.  Before you
+ actually fire, however, Raoul has drawn his gun and shot you three
+ times.  You drop your six shooter and stagger about a bit, too
+ surprised to actually die right away.
+
+ "Sorry Mute," Raoul says softly.
+
+ Your legs give out and you collapse to the ground.
+
+ *** GAME OVER ***
+
+ In 190 moves, you have scored 13 of a possible 20 points.  This makes
+ you a renegade lawman.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, or QUIT?
+
+>restore
+>cf14
+ Restored.
+
+ Back Street
+ This narrow, cramped back street twists and winds fitfully towards the
+ town centre, and your goal.  A bare market stall stands here
+ unattended.  A simple wooden cart blocks up the road.  A table sits
+ here, ready to receive customers to a small restaurant nearby.  A
+ small neglected garden is surrounded by a tall wooden fence.  In the
+ garden, a sickly tree seems to have died long ago from dehydration.
+
+ Gun-Run Raoul stands here, ready to draw.
+
+>hide behind market stall
+ Okay, you're now taking cover behind the market stall.
+
+ "Hermano," Raoul pleads, "there's no bad blood between us.  Leave town
+ while you still can."
+
+>wait
+ Time passes...
+
+ "Last chance, hermano," Raoul says, his hands slowly moving towards
+ the many weapons he carries.  "Get out of here!"
+
+>wait
+ Time passes...
+
+ In a flash, Raoul has drawn a pair of six shooters.  He fires both in
+ a rapid blur, a hail of bullets disintegrating the market stall.
+
+>hide behind cart
+ Okay, you're now taking cover behind the cart.
+
+ Raoul's six shooters click empty.  He tosses them aside and pulls a
+ lever-action rifle from over his shoulder.  He loads and fires the gun
+ with inhuman efficiency, his hands a blur.  The high-calibre bullets
+ utterly destroy the cart you're taking cover behind.
+
+>hide behind fence
+ Okay, you're now taking cover behind the wooden fence.
+
+ Raoul tosses the rifle aside and pulls a sawn-off shotgun from a thigh
+ holster.  He aims at you and fires both barrels.  The wooden fence
+ you're taking cover behind explodes in a shower of splinters.
+
+>hide behind table
+ Okay, you're now taking cover behind the restaurant table.
+
+ Raoul tosses the sawn-off shotgun aside and pulls an antique machine
+ pistol from the back of his belt.  He fires indiscriminately, blowing
+ apart the restaurant table in a series of shattering bullet strikes.
+
+>hide behind tree
+ Okay, you're now taking cover behind the sickly tree.
+
+ Raoul drops the machine pistol to the ground and grabs a small laser
+ gun from his bandolier.  He directs a beam of lethal blue light right
+ at you, causing the sickly tree to spontaneously combust in a puff of
+ smoke.
+
+>SAVE
+>cf15
+ Saved.
+
+>hide
+ Raoul has destroyed all the cover in this location.
+
+ Raoul throws down the laser gun and pulls a derringer from his boot.
+ He looks at the tiny gun for a second and then shrugs.  "That's all
+ folks!" he says, before bolting down a narrow alley and disappearing
+ from view.
+
+ (Your score has just increased by one point.)
+
+>reload
+ (your six shooter)
+ It's already fully loaded.
+
+>SAVE
+>cf16
+ Saved.
+
+>f
+ Town Centre
+ The eclectic buildings of the town crowd round this open space,
+ leaving a circle of bare, trodden dirt, featureless except for the
+ towering wooden gallows at its centre.
+
+ Elias stands on the gallows, the noose around his neck.
+
+ The rotund execution bot sits by the gallows, its single metallic arm
+ gripping the lever that works the trapdoor.
+
+ Sheriff Clayton stands in your way.
+
+ "Mute," the sheriff says.  "Just in time."
+
+>shoot sheriff
+ You shoot the sheriff, the bullet tearing right through his chest
+ explosively.  He lets out a yelp of pain and staggers briefly, before
+ regaining his footing.
+
+ "Damn you, Mute!" the sheriff screams, "you want shooting?  I'll give
+ you shooting!"
+
+ Clayton whirls round, draws his six shooter and takes aim at Elias.
+
+>shoot noose
+ You put a bullet right through the rope dangling from the gallows.
+ The noose falls slack around Elias' neck.
+
+ The sheriff fires, his bullet striking Elias right through the heart.
+ The man you love looks at you, one hand held out into the blood
+ gushing from his body.  The light leaves his eyes in a matter of
+ seconds and he collapses onto the gallows.
+
+ No!  You let your gun fall from your hands.
+
+ *** GAME OVER ***
+
+ In 201 moves, you have scored 14 of a possible 20 points.  This makes
+ you a renegade lawman.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, or QUIT?
+
+>restore
+>cf16
+ Restored.
+
+ Back Street
+ This narrow, cramped back street twists and winds fitfully towards the
+ town centre, and your goal.  There seems to be an enormous amount of
+ broken wood choking up the road.
+
+>f
+ Town Centre
+ The eclectic buildings of the town crowd round this open space,
+ leaving a circle of bare, trodden dirt, featureless except for the
+ towering wooden gallows at its centre.
+
+ Elias stands on the gallows, the noose around his neck.
+
+ The rotund execution bot sits by the gallows, its single metallic arm
+ gripping the lever that works the trapdoor.
+
+ Sheriff Clayton stands in your way.
+
+ "Mute," the sheriff says.  "Just in time."
+
+>shoot noose
+ You put a bullet right through the rope dangling from the gallows.
+ The noose falls slack around Elias' neck.
+
+ "Damn you, Mute!" the sheriff screams, "you want shooting?  I'll give
+ you shooting!"
+
+ Clayton whirls round, draws his six shooter and takes aim at Elias.
+
+>shoot gun
+ Which gun do you mean, the six shooter, or your six shooter?
+
+>shoot lever
+ The bullet ricochets off the lever, jerking it backwards.  The
+ trapdoor beneath Elias' feet drops away.  With a short yell, Elias
+ plummets downwards and disappears.
+
+ The sheriff fires, his bullet passing through thin air.
+
+ (Your score has just increased by two points.)
+
+>SAVE
+>cf17
+ Saved.
+
+>point to sherrif
+ You point at Sheriff Clayton.
+
+ The sheriff stamps his foot in the dust.  "Quit it, Mute, I'm talking
+ now!"
+
+ The sheriff turns to face you.  "You piece of crap," he splutters, "I
+ should have done this a long a time ago."
+
+ He aims his six shooter at you and fires again and again, hitting you
+ square in the chest with bullet after bullet.  You remain standing for
+ a few seconds, unsure what's happening, and then the world begins to
+ fade away.
+
+ *** GAME OVER ***
+
+ In 202 moves, you have scored 16 of a possible 20 points.  This makes
+ you a renegade lawman with a fistful of bullets and a vague sense of
+ right and wrong.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, or QUIT?
+
+>restore
+>cf17
+ Restored.
+
+ Town Centre
+ The eclectic buildings of the town crowd round this open space,
+ leaving a circle of bare, trodden dirt, featureless except for the
+ towering wooden gallows at its centre.
+
+ The rotund execution bot sits by the gallows, its single metallic arm
+ gripping the lever that works the trapdoor.
+
+ Sheriff Clayton stands in your way.
+
+>restore
+>cf16
+ Restored.
+
+ Back Street
+ This narrow, cramped back street twists and winds fitfully towards the
+ town centre, and your goal.  There seems to be an enormous amount of
+ broken wood choking up the road.
+
+>f
+ Town Centre
+ The eclectic buildings of the town crowd round this open space,
+ leaving a circle of bare, trodden dirt, featureless except for the
+ towering wooden gallows at its centre.
+
+ Elias stands on the gallows, the noose around his neck.
+
+ The rotund execution bot sits by the gallows, its single metallic arm
+ gripping the lever that works the trapdoor.
+
+ Sheriff Clayton stands in your way.
+
+ "Mute," the sheriff says.  "Just in time."
+
+>point to elias
+ You point at Elias.
+
+ The sheriff stamps his foot in the dust.  "Quit it, Mute, I'm talking
+ now!"
+
+ "I'm sorry about trying to kill you the way I did," the sheriff
+ continues.
+
+>wait
+ Time passes...
+
+ "I thought it'd be quick and painless.  I didn't anticipate you
+ wandering the wastelands half-naked, nurturing a vendetta - no, not
+ even a vendetta, a petty grudge against me."
+
+>wait
+ Time passes...
+
+ The sheriff looks around at the shuttered buildings, as if
+ grandstanding to a huge audience.  "I mean, come on Mute, you think
+ I'm the bad guy here?"
+
+>nod
+ You nod your head.
+
+ "Of course you do," the sheriff sneers.
+
+ The sheriff points at you accusingly.  "You're the one shooting your
+ way through the town, killing the only men and women who stand between
+ its people and the marauders, the mutants and the savages!"
+
+>undo
+ Taking back one turn: "nod".
+
+ Town Centre
+ The eclectic buildings of the town crowd round this open space,
+ leaving a circle of bare, trodden dirt, featureless except for the
+ towering wooden gallows at its centre.
+
+ Elias stands on the gallows, the noose around his neck.
+
+ The rotund execution bot sits by the gallows, its single metallic arm
+ gripping the lever that works the trapdoor.
+
+ Sheriff Clayton stands in your way.
+
+>shake head
+ You shake your head.
+
+ "You're damn right I'm not," the sheriff responds.
+
+ The sheriff points at you accusingly.  "You're the one shooting your
+ way through the town, killing the only men and women who stand between
+ its people and the marauders, the mutants and the savages!"
+
+>wait
+ Time passes...
+
+ "By the Gods, I know they were a motley crew of vagabonds, but as long
+ as they were in my posse they were on the side of the Law!"
+
+>wait
+ Time passes...
+
+ The sheriff fixes his steely eyes on you.  "And whose side are you on,
+ Mute?  Your own?"
+
+>point to Elias
+ You point at Elias.
+
+ The sheriff stamps his foot in the dust.  "Quit it, Mute, I'm talking
+ now!"
+
+ He aims an accusing finger at Elias.  "What about his?"
+
+>nod
+ You nod your head.
+
+ "As long as you're not on the side of the Law," the sheriff hisses, "I
+ don't owe you anything.  Because I will always see that the Law is
+ obeyed."
+
+>wait
+ Time passes...
+
+ "Or better than obeyed...  feared."
+
+>wait
+ Time passes...
+
+ The sheriff rests his hands on his hips.  "Well, Mute, it's your
+ move."
+
+>shoot noose
+ You put a bullet right through the rope dangling from the gallows.
+ The noose falls slack around Elias' neck.
+
+ "Damn you, Mute!" the sheriff screams, "you want shooting?  I'll give
+ you shooting!"
+
+ Clayton whirls round, draws his six shooter and takes aim at Elias.
+
+>shoot lever
+ The bullet ricochets off the lever, jerking it backwards.  The
+ trapdoor beneath Elias' feet drops away.  With a short yell, Elias
+ plummets downwards and disappears.
+
+ The sheriff fires, his bullet passing through thin air.
+
+ (Your score has just increased by two points.)
+
+>shoot sheriff
+ You shoot the sheriff, the bullet tearing right through his chest
+ explosively.  He lets out a yelp of pain and staggers briefly, before
+ regaining his footing.
+
+ The sheriff turns to face you.  "You piece of crap," he splutters, "I
+ should have done this a long a time ago."
+
+ He aims his six shooter at you and fires.  Still reeling from his
+ gunshot wound, the sheriff misses by a hair's breadth, the bullet
+ whipping past your bare arm.
+
+>shoot sheriff
+ You send a second bullet ripping through the sheriff's body.  He
+ clutches his heart, blood gushing freely from his chest.  "You've
+ killed me, Mute, but that ain't enough to stop me!"
+
+ The sheriff fires, but his hands are shaking and his knees seem weak.
+ The shot goes wide.
+
+>shoot sheriff
+ You blast sheriff Clayton again.  He falls to his hands and knees,
+ struggling to keep his gun trained on you.  "Long as you're dead," he
+ rasps, blood dripping down his chin, "I can rest easy in the
+ hereafter!"
+
+ The sheriff fires, discharging his gun impotently into the dirt.
+
+>shoot sheriff
+ You shoot the sheriff for the fourth time.  He arches his back,
+ squealing in agony, teeth bared, and then falls forward: finally dead.
+
+ (Your score has just increased by one point.)
+
+ (your six shooter)
+ You quickly empty the spent casings from your six shooter and replace
+ them with live bullets.
+
+ The execution bot surveys the scene with its optical sensors and
+ begins to trundle away discreetly.
+
+>look
+ Town Centre
+ The eclectic buildings of the town crowd round this open space,
+ leaving a circle of bare, trodden dirt, featureless except for the
+ towering wooden gallows at its centre.
+
+ The execution bot trundles slowly away from the gallows.
+
+ Sheriff Clayton lies on his front in a pool of blood.
+
+ The execution bot disappears down an alleyway.
+
+>examine elias
+ You see no elias here.
+
+>gallows
+ The story doesn't understand that command.
+
+>examine sheriff
+ You don't need to concern yourself with him anymore.
+
+>examine gallows
+ A wooden platform with a wooden beam over it, from which dangles a
+ rope noose.  A small trapdoor is set into the gallows, directly
+ beneath the noose.
+
+>pull lever
+ The trapdoor is already open.
+
+>get on gallows
+ Okay, you're now standing on the gallows.
+
+>enter hole
+ The word "hole" is not necessary in this story.
+
+ This opens and the person on the gallows drops down, the noose
+ snapping their neck or strangling them to death.  It's operated by the
+ lever protruding from the back of the gallows.
+
+>enter trapdoor
+ That is not something you can enter.
+
+>f
+ (first getting off of the gallows)
+
+ Under the Gallows
+ You're in the shade beneath the gallows.  The air is deathly cold.
+
+ Elias lies on the ground here, unconscious.
+
+>kiss Elias.
+ You kneel down next to Elias, gently touching his cheek to turn his
+ head.  He doesn't have any visible injuries.  As you run your fingers
+ through his hair he winces, stirring slightly, but doesn't wake.
+ Slowly, you lean down, touching your lips to his.
+
+ Elias opens his eyes and smiles.  "Mute," he whispers.  "I knew you'd
+ save me."
+
+ Lifeless Park
+ The sun is low and red on the horizon, disappearing behind the
+ buildings of the town.  The town looks about the same as ever, perhaps
+ a little more run-down in some ways.  But the sheriff has been gone
+ some time now.  Perhaps it's just you, but an oppressive air seems to
+ have lifted.  People loiter on the streets, talking and bartering, the
+ diseased slum-dwellers have been cleared out and moved to the new
+ hospice.  It's still not much of a civilisation.  But it will do.
+
+ The corpses of about a dozen mutant zomboids are laid out on the bone
+ dry ground of the park.  Gun-Run Raoul watches over them, looking for
+ any sign that they may not truly be dead.
+
+ Gatling Gun Fiona and Solemn Gertrude stand nearby, chatting idly.
+
+ Elias is close by your side.
+
+ (Your score has just increased by one point.)
+
+>point to fiona
+ You point at Gatling Gun Fiona.
+
+ "She's growing on me," Elias says.  "Very, very slowly."
+
+>point to gertrude
+ You point at Solemn Gertrude.
+
+ "Oh, she's such a sweetheart," Elias says.  "Go kill some more people
+ so she has something to do."
+
+ Raoul rubs his unshaven jaw.
+
+>point to raoul
+ You point at Gun-Run Raoul.
+
+ "He's done a lot for the town, hasn't he?"  Elias says.  "But I'm not
+ about to go running to him the next time there's a noose around my
+ neck."
+
+ Fiona absently fingers the action of her machinegun.
+
+>point to zomboids
+ You point at the mutant zomboids.
+
+ Elias pulls a face.  "Are you sure they're dead now?"
+
+ Fiona playfully pokes Gertrude in the ribs.
+
+>examine fiona
+ Fiona stands by Raoul, a machinegun propped up in the dirt next to
+ her.  Her gaze repeatedly wanders from the mutant zomboids towards
+ Solemn Gertrude.
+
+ Gertrude laughs shyly.
+
+>point to me
+ You point at yourself.
+
+ Elias leans over to kiss you on the cheek.
+
+ Raoul prods one of the mutant zomboids with the barrel of his rifle.
+
+ You're pretty sure they're dead for real this time.
+
+ Fiona absently fingers the action of her machinegun.
+
+>examine gertrude
+ Solemn Gertrude stands by Fiona, looking down at the ground as she
+ twists the tip of her shoe into the dirt.
+
+ Raoul prods one of the mutant zomboids with the barrel of his rifle.
+
+>examine me
+ You're Mute Lawton.  A devilishly handsome cowboy with windswept black
+ hair and roguish stubble.  Lean and tall, your tanned body is taut
+ with cool, calculated strength.
+
+ You're smartly dressed in a black suit and a three-quarter length
+ overcoat.  A black stetson keeps the sun out of your eyes.
+
+ Fiona playfully pokes Gertrude in the ribs.
+
+>kiss elias
+ You draw Elias closer and kiss him on the lips.  He folds easily into
+ your embrace.
+
+>examine elias
+ Slender, dark haired, quite tall.  He regards you with kind, hazel
+ eyes.
+
+>marry elias
+ The word "marry" is not necessary in this story.
+
+>propose to elias
+ The word "propose" is not necessary in this story.
+
+>shoot zombies
+ Raoul and Fiona will deal with them if they start moving again.
+
+ Gertrude laughs shyly.
+
+>f
+ Elias comes with you.
+
+ Rowdy Juanita's Saloon
+ Rowdy Juanita's Saloon is a homely place, and meticulously clean.  A
+ shady refuge from the wasteland sun, a shaft of ruddy twilight shines
+ in through the doorway, enveloping countless dancing motes of dust in
+ its glare.  A multitude of round tables are dotted around the
+ carefully polished bar, and sturdy wooden beams criss-cross the high
+ ceiling.
+
+ The former-execution bot trundles around behind the bar, a wash cloth
+ in its single claw-like hand, while Rowdy Juanita is hard at work
+ tending to the needs of her many customers.
+
+ Elias is close by your side.
+
+ "Well, if it isn't my two favourite patrons," Juanita exclaims.  "Your
+ drinks are on the house."
+
+>drink drink
+ You see no drink here.
+
+ What do you want to drink?
+
+>point to drink
+ You see no drink here.
+
+>point at boty
+ The word "boty" is not necessary in this story.
+
+>point to me
+ You point at yourself.
+
+ Elias leans over to kiss you on the cheek.
+
+ Juanita sets two glasses of wasteland wine on the bar.  Elias picks up
+ one.
+
+>point at bot
+ You point at the execution bot.
+
+ Elias sighs.  "I avoid him whenever I get the chance.  He's nice
+ enough, but still..."
+
+>take wine
+ As she sees you raising your glass, Juanita heads over to you,
+ brandishing a small capsule of machine oil.  "A toast," she says.  "To
+ love."
+
+ Elias meets your eye.  "What do you think?" he asks.  "To love?"
+
+>nod
+ You nod your head.
+
+ Elias smiles and slips his arm in yours.  "To love, then," he says.
+
+ "To love," Juanita repeats, her vinyl lips forming a wide smile.
+
+ The three of you raise your glasses.
+
+ *** THE END ***
+
+ In 242 moves, you have scored 18 of a possible 20 points.  This makes
+ you a renegade lawman with a fistful of bullets and a friendly
+ demeanour.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, see some AMUSING things to try, or
+ QUIT?
+
+>full
+ That isn't one of the options.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, see some AMUSING things to try, or
+ QUIT?
+
+>full score
+ In 242 moves, you have scored 18 of a possible 20 points.  This makes
+ you a renegade lawman with a fistful of bullets and a friendly
+ demeanour.  Your score consists of:
+    1 point for drinking the plainswoman's potion
+    7 points for killing members of the sheriff's posse
+    1 point for trapping Juanita beneath the chandelier
+    1 point for kissing Juanita
+    1 point for scaring off Gatling Gun Fiona
+    1 point for getting measured for your coffin
+    1 point for easing Solemn Gertrude's mind
+    1 point for surviving Gun-Run Raoul's onslaught
+    2 points for saving Elias
+    1 point for killing the sheriff
+    1 point for kissing Elias
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, see some AMUSING things to try, or
+ QUIT?
+
+>amusing
+ Have you tried:
+
+ Kissing everyone?
+ Pointing at things around different people?
+ Spending some time with Gertrude?
+ Trying to deprogram Juanita?
+ Looking at the sky as you progress?
+ Talking, shouting, tasting or singing?
+ Indulging the 'xyzzy' meme?
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, see some AMUSING things to try, or
+ QUIT?
+
+>undo
+ Taking back one turn: "nod".
+
+ Rowdy Juanita's Saloon
+ Rowdy Juanita's Saloon is a homely place, and meticulously clean.  A
+ shady refuge from the wasteland sun, a shaft of ruddy twilight shines
+ in through the doorway, enveloping countless dancing motes of dust in
+ its glare.  A multitude of round tables are dotted around the
+ carefully polished bar, and sturdy wooden beams criss-cross the high
+ ceiling.
+
+ The former-execution bot trundles around behind the bar, a wash cloth
+ in its single claw-like hand, while Rowdy Juanita stands nearby, a
+ glass of machine oil in her hand.
+
+ Elias is close by your side.
+
+>shake
+ What do you want to wake?
+
+>no
+ You must be more specific about whom you want to talk to.
+
+ "To love," Elias says, slipping his arm in yours.
+
+ "To love," Juanita repeats, her vinyl lips forming a wide smile.
+
+ The three of you raise your glasses.
+
+ *** THE END ***
+
+ In 242 moves, you have scored 18 of a possible 20 points.  This makes
+ you a renegade lawman with a fistful of bullets and a friendly
+ demeanour.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, see some AMUSING things to try, or
+ QUIT?
+
+>undo
+ Taking back one turn: "no".
+
+ Rowdy Juanita's Saloon
+ Rowdy Juanita's Saloon is a homely place, and meticulously clean.  A
+ shady refuge from the wasteland sun, a shaft of ruddy twilight shines
+ in through the doorway, enveloping countless dancing motes of dust in
+ its glare.  A multitude of round tables are dotted around the
+ carefully polished bar, and sturdy wooden beams criss-cross the high
+ ceiling.
+
+ The former-execution bot trundles around behind the bar, a wash cloth
+ in its single claw-like hand, while Rowdy Juanita stands nearby, a
+ glass of machine oil in her hand.
+
+ Elias is close by your side.
+
+>undo
+ Taking back one turn: "take wine".
+
+ Rowdy Juanita's Saloon
+ Rowdy Juanita's Saloon is a homely place, and meticulously clean.  A
+ shady refuge from the wasteland sun, a shaft of ruddy twilight shines
+ in through the doorway, enveloping countless dancing motes of dust in
+ its glare.  A multitude of round tables are dotted around the
+ carefully polished bar, and sturdy wooden beams criss-cross the high
+ ceiling.
+
+ The former-execution bot trundles around behind the bar, a wash cloth
+ in its single claw-like hand, while Rowdy Juanita is hard at work
+ tending to the needs of her many customers.
+
+ On the bar is a glass of wasteland wine.
+
+ Elias is close by your side.
+
+>get glass
+ As she sees you raising your glass, Juanita heads over to you,
+ brandishing a small capsule of machine oil.  "A toast," she says.  "To
+ love."
+
+ Elias meets your eye.  "What do you think?" he asks.  "To love?"
+
+>no
+ You must be more specific about whom you want to talk to.
+
+ "To love," Elias says, slipping his arm in yours.
+
+ "To love," Juanita repeats, her vinyl lips forming a wide smile.
+
+ The three of you raise your glasses.
+
+ *** THE END ***
+
+ In 242 moves, you have scored 18 of a possible 20 points.  This makes
+ you a renegade lawman with a fistful of bullets and a friendly
+ demeanour.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, see some AMUSING things to try, or
+ QUIT?
+
+>undo
+ Taking back one turn: "no".
+
+ Rowdy Juanita's Saloon
+ Rowdy Juanita's Saloon is a homely place, and meticulously clean.  A
+ shady refuge from the wasteland sun, a shaft of ruddy twilight shines
+ in through the doorway, enveloping countless dancing motes of dust in
+ its glare.  A multitude of round tables are dotted around the
+ carefully polished bar, and sturdy wooden beams criss-cross the high
+ ceiling.
+
+ The former-execution bot trundles around behind the bar, a wash cloth
+ in its single claw-like hand, while Rowdy Juanita stands nearby, a
+ glass of machine oil in her hand.
+
+ Elias is close by your side.
+
+>undo
+ Taking back one turn: "get glass".
+
+ Rowdy Juanita's Saloon
+ Rowdy Juanita's Saloon is a homely place, and meticulously clean.  A
+ shady refuge from the wasteland sun, a shaft of ruddy twilight shines
+ in through the doorway, enveloping countless dancing motes of dust in
+ its glare.  A multitude of round tables are dotted around the
+ carefully polished bar, and sturdy wooden beams criss-cross the high
+ ceiling.
+
+ The former-execution bot trundles around behind the bar, a wash cloth
+ in its single claw-like hand, while Rowdy Juanita is hard at work
+ tending to the needs of her many customers.
+
+ On the bar is a glass of wasteland wine.
+
+ Elias is close by your side.
+
+>shake head
+ You shake your head.
+
+>get wine. shake head
+ As she sees you raising your glass, Juanita heads over to you,
+ brandishing a small capsule of machine oil.  "A toast," she says.  "To
+ love."
+
+ Elias meets your eye.  "What do you think?" he asks.  "To love?"
+
+ You shake your head.
+
+ Elias cottons on immediately.  "No," he says to Juanita.  "A toast to
+ the dead.  Especially those we wanted dead.  May they stay that way,
+ and rest in peace."
+
+ Juanita smiles.  "How noble.  Okay: to the dead."
+
+ The three of you raise your glasses.
+
+ *** THE END ***
+
+ In 243 moves, you have scored 19 of a possible 20 points.  This makes
+ you a renegade lawman with a fistful of bullets and a gentle soul.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO
+ the last move, see your FULL SCORE, see some AMUSING things to try, or
+ QUIT?
+
+>restore
+>cf7
+ Restored.
+
+ Saloon
+ Rowdy Juanita's Saloon is a homely place, and mostly clean.  A shady
+ refuge from the wasteland sun, a shaft of harsh light shines in
+ through the doorway, enveloping countless dancing motes of dust in its
+ glare.  A multitude of round tables are dotted around the carefully
+ polished bar, and sturdy wooden beams criss-cross the high ceiling.
+
+ The floor is littered with splinters of wood and broken glass.
+
+ A tattered and broken chandelier is propped up against the bar.
+
+ Rowdy Juanita is lying half over the bar, trapped beneath a heavy
+ chandelier.
+
+>reprogram juanita
+ The word "reprogram" is not necessary in this story.
+
+>examine juanita
+ Originally intended as a utilitarian synthetic wife for lonely
+ wasteland farmers, Juanita is half farm machine, half sexbot.  Her
+ figure has curvy, art deco proportions, while her four hydraulic arms
+ can plough a whole field in minutes.
+
+ Juanita is completely pinned down by a fallen chandelier.  Up close
+ you can now see that a program crystal has been inserted into a port
+ in the back of her head.
+
+>program juanita
+ The story doesn't understand that command.
+
+>examine crystal
+ A thin, translucent shard of nanoscale computer memory.
+
+ "Do you see something that doesn't belong?"  Juanita asks.
+
+>take crystal
+ You take hold of the program crystal and pull it out of Juanita's head
+ socket.
+
+ Juanita sighs with relief.  "Ah, I feel much better now."
+
+ She wedges her upper arms against the the bar and they begin to emit a
+ low, hydraulic hiss.  "Don't worry about me," she says.  "I'll be out
+ of here in no time.  Go save Elias!"
+
+ (Your score has just increased by one point.)

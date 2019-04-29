@@ -1,0 +1,3309 @@
+<HTML>
+<HEAD>
+<TITLE>AllThingsJacq.com - Interactive Fiction | ClubFloyd - December 14, 2008 - Everybody Dies, by Jim Munroe</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Author" CONTENT="Jacqueline A. Lott">
+<META NAME="Revisit after" CONTENT="30days">
+<META NAME="Robots" CONTENT="all">
+<META NAME="Distribution" CONTENT="Global">
+<META NAME="Keywords" CONTENT="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+<META NAME="Description" CONTENT="Internet site of Jacqueline A. Lott.">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE>
+<!--
+A:link {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:visited {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:hover {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:active {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+-->
+</STYLE>
+</HEAD>
+
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#6666CC" MARGINWIDTH=0 LEFTMARGIN=0 RIGHTMARGIN=0 MARGINHEIGHT=0 TOPMARGIN=0 onLoad="MM_preloadImages('graphics/writing2.jpg','graphics/intfic2.jpg','graphics/photos2.jpg','graphics/misc2.jpg')">
+<a name="top"></a><CENTER>
+<TABLE WIDTH="557" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="35">
+  <TR>
+	<TD>
+	  <CENTER>
+		  <BR>
+		  <A HREF="index.html"><IMG SRC="graphics/atj_logo.jpg" WIDTH="250" HEIGHT="170" BORDER="0"><BR>
+		  <IMG SRC="graphics/home.jpg" WIDTH="75" HEIGHT="25" BORDER="0"><BR>
+		  </A><BR>
+
+		  <A HREF="writing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writing','','graphics/writing2.jpg',1)"><IMG NAME="Writing" BORDER="0" SRC="graphics/writing1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="interactive_fiction.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Interactive Fiction','','graphics/intfic2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"><IMG NAME="Interactive Fiction" BORDER="0" SRC="graphics/intfic1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG NAME="Photography" BORDER="0" SRC="graphics/photos1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG NAME="Miscellany" BORDER="0" SRC="graphics/misc1.jpg" WIDTH="100" HEIGHT="140"></A></CENTER>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></BR></BR>ClubFloyd Transcript: <B><I>Everybody Dies</I> by Jim Munroe</b></FONT><FONT FACE="arial, sans-serif, helvetica" SIZE="1"></BR>As played on ifMUD on December 14, 2008</FONT></P>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="2">
+The idea behind ClubFloyd is that each week at a pre-arranged time, a group of people meet online to cooperatively play a game of interactive fiction.</br></br>
+
+Below is a transcript of <i>Everybody Dies</i>, written by Jim&nbsp;Munroe.  <i>Everybody Dies</i> was originally released as part of the 2008 IF Competition, where it took third place. You can learn more about the game, including how to download it, by visiting <A HREF="http://ifwiki.org/index.php/Everybody_Dies"><u>the ifWiki</u></A>.</br>
+
+</br><FONT FACE="arial, sans-serif, helvetica" SIZE="2" COLOR="#FF0000"><b>WARNING!</b></font><FONT FACE="arial, sans-serif, helvetica" SIZE="2"> Below you will find a transcript of people playing this game, and it goes without saying that the transcript is full of spoilers.  So, if you've never played this game, and think you might like to at some point, I do not recommend reading any further.  Instead, you might want to return to the <a href="interactive_fiction.html"><u>interactive fiction </u>p<u>a</u>g<u>e</u></a>.</BR></BR></BR></FONT></P></td></tr></table>
+
+<table>
+<tr><td></td><td colspan="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td></tr>
+<tr><td width="2%"></td><td width="60%"><center><B>ToyShop & Floyditorium</B></center></td><td width="2%"></td><td width="34%"><center><B>#ClubFloyd Discussion</B></center></td><td width="2%"></td></tr>
+<tr><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td></tr>
+<tr><td></td><td>&nbsp;</td><td></td><td></td></tr>
+<td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "I'm not entirely sure how a text-only Everybody Dies will work"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  says, "I'm going to guess 'decently, but not as well as the proper version'."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jota</b>  asks, "I forget, does it rely on fonts/markup as well?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "The author seems to think it'll go okay, though--what Jota said."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "yeah, except that there'll be a few turns where you're just getting whitespace"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says (to Jota), "I don't think so"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "fwiw. I played an Adrift game that did font/markup tricks. 'A Witch Tale'."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  asks, "When does the game start?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Fang), "Top of the hour."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "So, half an hour away."
+</TD><td></td></TR>
+<TR><td></td><TD><b>maga</b> arrives, ready to play with the toys.
+</TD><td></td><TD><b>inky</b>  says, "hmm"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "I get a lot of errors playing everybody dies on cheapglulxe"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "but I'm not sure if they'll show up on floyd or not"
+
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> hollers, "Ten minutes until we play Everybody Dies! by Jim Munroe.  Top of the hour in the Toyshop & Floyditorium!"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>DavidW</b> arrives, full of funk, but no fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Nitku</b> arrives, full of fun and funk.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>inky</b> arrives, full of funk, but no fun.
+
+</TD><td></td><TD><b>Nitku</b>  says, "I haven't played this one."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "oh good. It won't be just me."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Me neither."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  has coffee and orange juice and breakfast as is ready to go.
+</TD><td></td></TR>
+<TR><td></td><TD><b>Whizzard</b> arrives, full of fun and funk.
+
+</TD><td></td><TD><b>Jacqueline</b>  says, "Hi, Whizz."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Two minutes..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "Say, is this one on a timer or anything?  Or can it be a free-for-all this week?"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Lucea</b> arrives, full of fun, but no funk.
+</TD><td></td><TD><b>Jacqueline</b>  asks (of maga), "You're watching, and you've played... what do you think?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "there's a timed section right at the end"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "mmkay"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "quite tight timing, too"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "So, we'll save often, then."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "It isn't *too* bad"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "but I *think* you can try it over again, so that may not be necessary"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "yeah, you can"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> clears the save counter.
+</TD><td></td><TD><b>Jacqueline</b>  says, "Also, it's time.  Let's begin!"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">load everybodydies</font>"
+</TD><td></td><TD><b>Bert</b>  says, "Yeah, a free-for-all should be fine."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">list e</font>"
+</TD><td></td><TD><b>Jacqueline</b>  says, "Huh.  Floyd not responding."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "He was ealier."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "er, earlier."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">quit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">yes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Floyd</b> asks, "That game over already?  It was just getting good.  Wanna play another?"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">load everybodydies</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Are you sure you want to quit? Please answer yes or no.&gt; Please answer
+<b>Floyd</b> | yes or no.&gt; Please answer yes or no.&gt; Welcome to the Cheap Glk
+<b>Floyd</b> | Implementation, library version 0.9.0.
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Beats the fuck out of cleaning toilets.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Shopping cart duty gets me outta the store for a while, which is cool
+<b>Floyd</b> | even on a shit day like today. It's that gross, grey slush that gets me
+<b>Floyd</b> | talking about just moving down to California this time every year --
+<b>Floyd</b> | hey, they need groceries bagged down there too, don't they?
+<b>Floyd</b> |
+<b>Floyd</b> | Mom usually agrees with me, but this morning she said that the Mexicans
+
+<b>Floyd</b> | got all those jobs down there. Way to piss on my dreams, Mom. But she's
+<b>Floyd</b> | been bitchy ever since the fire in the basement. Whatev. These things
+<b>Floyd</b> | happen.
+</PRE></td><td></td>
+<TD><b>Bert</b>  says, "(You told him to quit before, but never confirmed it.)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks (of Bern), "Had I just not told him yes?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Timing."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  asks, "Who hasn't played?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>*</b>  ghira has left the channel.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Me"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "me"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "me"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "Cool."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Nitku</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Everybody Dies
+<b>Floyd</b> | An Interactive Fantasy by Jim Munroe, with illustrations by Michael
+<b>Floyd</b> | Cho.
+
+<b>Floyd</b> | Release 2 / Serial number 081116 / Inform 7 build 5T18 (I6/v6.31 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> | Type CREDITS for the full credits, HELP if you need it, and QUIT to
+<b>Floyd</b> | exit the game.
+<b>Floyd</b> |
+<b>Floyd</b> | Bridge
+
+<b>Floyd</b> | At least outside I can smoke. With all the cars puking exhaust behind
+<b>Floyd</b> | me it's not like anyone can complain.
+<b>Floyd</b> |
+<b>Floyd</b> | The Rouge River's kind of awesome from the bridge, its strong and heavy
+<b>Floyd</b> | current making it look like a sea snake. Brutal. I like how then when
+<b>Floyd</b> | I'm looking at it I can't see Cost Cutters, even though it's directly
+
+<b>Floyd</b> | west. Means I can forget about work for a while.
+<b>Floyd</b> |
+<b>Floyd</b> | East of here is the neighbourhood where most of our customers come
+<b>Floyd</b> | from.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What was that?
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What was that?
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I'm Graham, your standard variety skid, rocker, or metalhead depending
+<b>Floyd</b> | on which suburb you grew up in.
+<b>Floyd</b> |
+
+<b>Floyd</b> | The river's really raging today. The water level's so high I can barely
+<b>Floyd</b> | see the shopping cart. Actually, is it even there? Did the Indian kid
+<b>Floyd</b> | get that one too?
+<b>Floyd</b> |
+<b>Floyd</b> | Oh, wait, there it is. Thank fuck. Lisa'll have me cleaning toilets all
+<b>Floyd</b> | month if I come back empty handed.
+
+<b>Floyd</b> |
+<b>Floyd</b> | I finish my smoke and flick the butt over the edge. I imagine it
+<b>Floyd</b> | hitting the river below with a gnarly pssssshhhht.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">i</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I am carrying:
+<b>Floyd</b> |   a pair of jeans (being worn)
+<b>Floyd</b> |   a sweatshirt (being worn)
+<b>Floyd</b> |   a pack of Gauloise cigarettes
+<b>Floyd</b> |   a matchbook
+<b>Floyd</b> |   a lumberjack jacket (being worn)
+
+<b>Floyd</b> |   a pair of Kodiaks (being worn)
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "haha 'barely see the shopping cart'"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I do like the strong character voice... and such a different character than our last game."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "I guess Kodiaks are shoes?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I just thought it was a type of chewing tobacco."
+</TD><td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">x kodiaks</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Got 'em the summer I was working planting trees. Worst job ever, but
+<b>Floyd</b> | the boots are awesome.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>Lucea</b>  says, "To say the least"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "oh. boots"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x sweatshirt</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's the one I got at the Hatesphere show.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x jeans</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | These guys have been getting looser every year, but I've been gettin'
+<b>Floyd</b> | bigger so they're still as tight as they were when I got 'em at
+<b>Floyd</b> | nineteen.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "hm. So we need to get the cart? Perhaps a tree branch or something?"
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x matches</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x matchbox</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x matchbook</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Purple, with OOOH LA LA printed on the side. It's out of matches.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x bridge</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It winds through the ravine, kind of a charcoal grey with all the
+<b>Floyd</b> | runoff. The cart's wheels are just visible as a far-away glint.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x cart</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's waaaaay down there.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "well, east, maybe?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Sorry.  Done eating now... will be able to type more."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Like, unless we stretch like Mr Fantastic, we probably can't grab the cart from here."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">get cart</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can barely see it, it's that far off.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Also, I was experiencing quite the lag there for a second."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I got the impression the river was immediate."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "But sure."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Naw, the new Indian kid cleaned out the 'hood yesterday. Heard he came
+<b>Floyd</b> | back with something like eighteen carts. I am gonna have to have a talk
+<b>Floyd</b> | with him -- he's making the rest of us look bad.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">d</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The visible exits are east and west.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | West Side of Bridge
+<b>Floyd</b> | The bridge rail stops here and the brush takes over. It's pretty thick,
+<b>Floyd</b> | but I know there's a path north that goes down to the river. I could
+<b>Floyd</b> | find my way there shitfaced... who am I kidding, I always found my way
+
+<b>Floyd</b> | there 'faced.
+<b>Floyd</b> |
+<b>Floyd</b> | Further west is Cost Cutters.
+<b>Floyd</b> |
+<b>Floyd</b> | Across the road the guy from the city is in his little go-cart clearing
+<b>Floyd</b> | the snow off the sidewalk. He gives me a chin nod and I do the same.
+
+<b>Floyd</b> | Don't know him but it's the Mustache Brotherhood.
+<b>Floyd</b> |
+<b>Floyd</b> | They motor on those things. Next time I look up he's gone.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "well, you're on a bridge"
+</TD><td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x brush</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A brambly overgrown mess.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">search brush</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I find nothing of interest.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Shit's so overgrown that for a second I'm like, maybe I have to be
+<b>Floyd</b> | wasted to find the Pit, maybe it's got some kind of magical... But then
+<b>Floyd</b> | I find it.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Clearing in the Woods
+<b>Floyd</b> | Everything's got a wet blanket of snow on it but I can make out the log
+<b>Floyd</b> | we usually sat on, the little hole where we'd burn shit, and feel the
+<b>Floyd</b> | crinkle of an empty under my Kodiak.
+<b>Floyd</b> |
+
+<b>Floyd</b> | It's been a couple years since I came out here -- fuck, must have been
+<b>Floyd</b> | two years ago, 'cause Ricky left for school that fall. We were
+<b>Floyd</b> | celebrating my first Cutters pay cheque with our friend Jack Daniels
+<b>Floyd</b> | and we ran into the cart in the dark and we decided to push it over the
+<b>Floyd</b> | bridge into the river.
+<b>Floyd</b> |
+
+<b>Floyd</b> | I was like, it'll be awesome, it'll be my get-out-of-jail free card.
+<b>Floyd</b> | Like if it's a great day I can always say I saw one of our carts in the
+<b>Floyd</b> | river. My ace in the hole.
+<b>Floyd</b> |
+<b>Floyd</b> | Ricky was like, your ass has a hole? Why you telling me that? Faaaaag.
+<b>Floyd</b> |
+
+<b>Floyd</b> | The river's louder than the cars down here, just to the east.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take empty</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I came out here to AVOID cleaning, dude.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x empty</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's an Export. Dunno if I can go back to Ex after drinking Fin du
+<b>Floyd</b> | Monde... but I probably can.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x log</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It beat sitting on the ground, but not by much.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take log</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Naw. It's basically log-shaped mud now.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x cart</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Edge of River
+<b>Floyd</b> | Yeah. Wow. That is one serious fucking river. I'm getting wet just
+<b>Floyd</b> | standing near it. The wheels of the cart are just visible a good piece
+<b>Floyd</b> | to the east. The water would be nearly up to my waist if I was dumb
+
+<b>Floyd</b> | enough to enter it.
+<b>Floyd</b> |
+<b>Floyd</b> | The bottom of the bridge is high above, festooned with graffiti.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x graffiti</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The graffiti is nothing special, though the taggers must have had to
+<b>Floyd</b> | hang over the edge to do their thing.
+<b>Floyd</b> |
+<b>Floyd</b> | They're lucky they weren't doing it the night we threw the cart over
+<b>Floyd</b> | the rail.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Hooray for a Fin du Monde reference!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "End of the World?"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x bridge</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The graffiti is nothing special, though the taggers must have had to
+<b>Floyd</b> | hang over the edge to do their thing.
+
+<b>Floyd</b> |
+<b>Floyd</b> | They're lucky they weren't doing it the night we threw the cart over
+<b>Floyd</b> | the rail.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Yeah, it's a Belgian-esque Ale made in Qu?bec."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "And one of my favorite beers."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Comes in a big ol' bottle with a champagne-type cork."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Anyway."
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x wheels</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I assume swimming is a stupid idea, but I'm not seeing many options."
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x cart</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's well out of reach, in the river to the east.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "it is weird there is no inside joke in the graffiti"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">read graffiti</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The graffiti is nothing special, though the taggers must have had to
+<b>Floyd</b> | hang over the edge to do their thing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | They're lucky they weren't doing it the night we threw the cart over
+<b>Floyd</b> | the rail.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "like, I thought that was practically an IF obligation"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">SAVE</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">cf1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store: Ok.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">climb bridge</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | I don't think much is to be achieved by that.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x shore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Let's swim for it.  I've saved."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">swim</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I'm no expert, but... don't you need to be in a bunch of water for
+<b>Floyd</b> | that?
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">enter water</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Seriously? I'm no pussy, but... seems dangerous.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">g</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Alright, voice-in-my-head. If anything happens, it's your fault.
+<b>Floyd</b> |
+<b>Floyd</b> | I wade into the river.
+<b>Floyd</b> |
+<b>Floyd</b> | The Water
+<b>Floyd</b> | Holy fuck is it cold. Goes from bad to worse. Boots: soaked. Jeans:
+
+<b>Floyd</b> | soaked.
+<b>Floyd</b> |
+<b>Floyd</b> | The shopping cart is submerged in the river here, a lot rustier and
+<b>Floyd</b> | grottier than when I saw it last.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Well, so much for that."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh hey"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Edge of River
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">remove jeans</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hey, I put together this ensemble for a reason, dude.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">remove boots</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hey, I put together this ensemble for a reason, dude.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "huh. We can't be stupid in a reasonable way."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heehee"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">swim</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I'm no expert, but... don't you need to be in a bunch of water for
+<b>Floyd</b> | that?
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Well, let's be stupid in an unreasonable way, then."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">enter water</font>"
+
+</TD><td></td><TD><b>Nitku</b>  says, "I don't mind getting wet."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Alright, voice-in-my-head. If anything happens, it's your fault.
+<b>Floyd</b> |
+<b>Floyd</b> | I wade into the river.
+<b>Floyd</b> |
+<b>Floyd</b> | The Water
+
+<b>Floyd</b> | Holy fuck is it cold. Goes from bad to worse. Boots: soaked. Jeans:
+<b>Floyd</b> | soaked.
+<b>Floyd</b> |
+<b>Floyd</b> | The shopping cart is submerged in the river here, a lot rustier and
+<b>Floyd</b> | grottier than when I saw it last.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take cart</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's stuck there pretty good, but I manage to flip it over. A bunch of
+<b>Floyd</b> | other crap that was trapped comes up too, and floats to the surface:
+<b>Floyd</b> | six pack rings, something that looks like a clump of hair, and a fish.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Pretty gross.
+<b>Floyd</b> |
+<b>Floyd</b> | I can't feel my nads any more, but I've got the stupid cart.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">out</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | But I am not in anything at the moment.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I start to pull the cart out of the river, but it pushes all the crap
+<b>Floyd</b> | my way too. The fish kind of flips over and it's much worse on the
+
+<b>Floyd</b> | other side -- it's got a huge hole eaten in it, and I can see into its
+<b>Floyd</b> | stomach. And I'm pretty sure what's in the fish is another fish that
+<b>Floyd</b> | it's eaten.
+<b>Floyd</b> |
+<b>Floyd</b> | I can't take my eyes away. I tell myself that it would make an
+<b>Floyd</b> | amazingly brutal tat or even an album cover but I also feel like I'm
+
+<b>Floyd</b> | gonna hurl. And then I see the little fish, the one inside, open its
+<b>Floyd</b> | eye.
+<b>Floyd</b> |
+<b>Floyd</b> | I sort of stumble back away from the cart but at this point my legs are
+<b>Floyd</b> | so numb that the cart is the only thing that's holding me up.
+<b>Floyd</b> |
+
+<b>Floyd</b> | So I fall.
+<b>Floyd</b> |
+<b>Floyd</b> | It's a slow, fat-assed falling, and I'm kind of pissed at myself and
+<b>Floyd</b> | finding it kind of hilarious at the same time, thinking about how I'll
+<b>Floyd</b> | tell Mom about it when my head hits the rock.
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | *** YOU HAVE DIED ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | And yet, somehow, the game continues.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Void
+<b>Floyd</b> |
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There is no action here. Only waiting.
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "This game keeps making me laugh.  heh"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x void</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There is no action here. Only waiting.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "this is the bit where you would see some nice symbolic fish pictures"
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | The void is definitely taking on a porcelain texture.
+<b>Floyd</b> |
+
+<b>Floyd</b> | I am looking down on a toilet.
+<b>Floyd</b> |
+<b>Floyd</b> | I don't feel like myself. In fact, I'm sure my forearms weren't as...
+<b>Floyd</b> | dark as that, last time I looked. Or as skinny.
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x me</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Northwest Bathroom Stall
+<b>Floyd</b> | There's a toilet here. The exit's to the southeast.
+
+<b>Floyd</b> |
+<b>Floyd</b> | I catch a glimpse of something moving in the toilet water.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | For a second, I see what looks like a tiny fish tail and then it
+
+<b>Floyd</b> | disappears.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Uh, my name's Ranni. Sikh family. Almost old enough to drive.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>Lucea</b>  says, "yeah, I was wondering what would go on with them"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "so... wait, we're the "Indian kid", now?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "Yeah."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | I am carrying:
+<b>Floyd</b> |   black work slacks (being worn)
+<b>Floyd</b> |   an apron (being worn)
+<b>Floyd</b> |   a kirpan (being worn)
+<b>Floyd</b> |   a Cost Cutters golf shirt (being worn)
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x kirpan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's my ceremonial dagger. I'm a Sikh, OK? It's my religion.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x apron</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It was clean at the beginning of the shift. Not so much now.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">out</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Cost Cutters Bathroom
+
+<b>Floyd</b> | Fortunately for the shoppers, and unfortunately for us who have to
+<b>Floyd</b> | clean up after them, Cost Cutters has a public washroom.
+<b>Floyd</b> |
+<b>Floyd</b> | I've managed to avoid cleaning duty up 'til now by going on cart duty
+<b>Floyd</b> | -- which had the added bonus of getting me away from that psycho
+<b>Floyd</b> | Patrick -- but today the slobby old guy (Graham, I think his name is)
+
+<b>Floyd</b> | pulled one over on our manager Lisa and now here I am.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a pair of sinks, a long mirror above them and three battered
+<b>Floyd</b> | stalls to the northwest, north and northeast. The exit's south of here.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x shirt</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | One of those ones with the logo embroidered on it. Lisa has her name
+<b>Floyd</b> | embroidered on it too, but I don't know if she got that when she became
+<b>Floyd</b> | manager or if she did it herself because she's really into her job.
+<b>Floyd</b> |
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">out</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | But I am not in anything at the moment.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "hm. Are we supposed to be cleaning the bathroom, then? Where's our supplies?"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x sinks</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | They're clean so I leave them alone -- I don't want to give myself any
+<b>Floyd</b> | more work.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x mirror</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I check myself out in the chipped and scratched mirror. Even with the
+
+<b>Floyd</b> | cheesy work shirt, my new haircut looks sharp: I got some lines buzzed
+<b>Floyd</b> | on my sides. I thought the b-boys at my school might hassle me for
+<b>Floyd</b> | biting their style but nothing yet.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "I think this is the sort of game where you type "CLEAN TOILET""
+</TD><td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">clean mirror</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I achieve nothing by this.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "I thought we have already finished this shift and they are clean."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">clean toilet</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "There's three stalls. NW, N, NE."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Ah."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | North Bathroom Stall
+
+<b>Floyd</b> | This toilet is dingy. The exit's to the south.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It looks cleaner -- oh god, there's a floater. I avert my eyes and
+<b>Floyd</b> | flush.
+
+<b>Floyd</b> |
+<b>Floyd</b> | People are animals.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">clean toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I adjust my kirpan so that it doesn't poke me.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Thinking about the car I'm gonna get the day I turn 16, I start
+<b>Floyd</b> | scrubbing. My dad would hate to know I was doing this -- he just
+<b>Floyd</b> | wouldn't say "untouchable" because we're all supposed to be equal, but
+<b>Floyd</b> | he'd be thinking it. Then he'd probably start in on the turban thing
+<b>Floyd</b> | again... he doesn't know how hard it is to get a job, any job.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Thank god, it went down in one flush.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Cost Cutters Bathroom
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">nw</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Northwest Bathroom Stall
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A clean and empty bowl.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">se</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Cost Cutters Bathroom
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Northeast Bathroom Stall
+<b>Floyd</b> | This toilet has a crack in it. The exit's to the southwest.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Oh wait, that's not a crack. It's a... streak.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "hmm"
+</TD><td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x streak</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Oh wait, that's not a crack. It's a... streak.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">clean toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Picturing myself cleaning my car-to-be on a summer day -- specifically
+
+<b>Floyd</b> | the one I saw for super cheap on Craigslist today -- I manage to wipe
+<b>Floyd</b> | the streaks off.
+<b>Floyd</b> |
+<b>Floyd</b> | Done. Finally, I can get out of here.
+<b>Floyd</b> |
+<b>Floyd</b> | I get up, but before I can leave I hear someone come in.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "So Lisa sent me to help you, brown noser..."
+<b>Floyd</b> |
+<b>Floyd</b> | That racist shithead Patrick must be right outside the stall from the
+<b>Floyd</b> | sound of it.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "I tol' her that you dirty pakis like scrubbing up shit, but she didn't
+<b>Floyd</b> | care. Mmm-mmm. I think she's got a bit of sand nigger fever."
+<b>Floyd</b> |
+<b>Floyd</b> | I hear the adjoining stall door shut. "Better check out this toilet," I
+<b>Floyd</b> | can hear Patrick heading into one of the stalls.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">listen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I hear nothing unexpected.
+<b>Floyd</b> |
+<b>Floyd</b> | "Ohhhh man," Patrick crows from the stall, followed by a juicy
+<b>Floyd</b> | braaaaap.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "well. That's ugly."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "He's uncleaning our toilets."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "indeed"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The only visible exit is southwest (to cost cutters bathroom).
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">sw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Cost Cutters Bathroom
+
+<b>Floyd</b> | Patrick kicks the stall door open, buckling up. The bastard doesn't
+<b>Floyd</b> | even flush.
+<b>Floyd</b> |
+<b>Floyd</b> | "Left ya a present, brown noser," he says. He imitates the intercom:
+<b>Floyd</b> | "Clean up in stall 3."
+<b>Floyd</b> |
+
+<b>Floyd</b> | I'm not inclined to get mad. I've lost my temper twice, maybe three
+<b>Floyd</b> | times in my life. But then the smell hits me like a slap. I look at his
+<b>Floyd</b> | horrible, scarred face and his idiotic grin as he waits for me to
+<b>Floyd</b> | react, and I'm amazed that I'm keeping it together.
+<b>Floyd</b> |
+<b>Floyd</b> | Something causes his eyes to flick down to my waist, and then his smile
+
+<b>Floyd</b> | vanishes. I look down and realize that after I finished cleaning I
+<b>Floyd</b> | hadn't returned my kirpan to its usual position, so it's making my
+<b>Floyd</b> | apron poke out a bit.
+<b>Floyd</b> |
+<b>Floyd</b> | "What's that," he says, not really asking. I've got to show him or hide
+<b>Floyd</b> | it.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Luckily, we have that big knife."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I doubt this will be lucky, exactly."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Yeah.  I suspect it's us that dies."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  asks, "Show or hide?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "show or hide?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Let's try hide. I doubt it'll work,though."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">hide kirpan</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | As I turn around to adjust it, I hear Patrick gagging in disgust.
+<b>Floyd</b> |
+<b>Floyd</b> | "Is that a boner?"
+<b>Floyd</b> |
+<b>Floyd</b> | I turn around to explain, but he's already at the doorway on his way
+<b>Floyd</b> | out.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "The sound of me shitting gave you a boner? You're--" And then he's
+<b>Floyd</b> | gone.
+<b>Floyd</b> |
+<b>Floyd</b> | It's weird. It wasn't true, but just the fact that he thought that
+<b>Floyd</b> | makes me ashamed in the pit of my stomach.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | North Bathroom Stall
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "oh man"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">clean toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's already clean.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "should we undo and save?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Thank god, it went down in one flush.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Cost Cutters Bathroom
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Northeast Bathroom Stall
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The crack/streak is gone, and it's clean.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">sw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Cost Cutters Bathroom
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Lucea</b>  says, "anyone mind if I put this in verbose"
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">nw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Northwest Bathroom Stall
+<b>Floyd</b> | There's a toilet here. The exit's to the southeast. What a
+<b>Floyd</b> | shitsplosion. God, Patrick is a diseased animal.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Lucea), "Not at all."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "please do"
+</TD><td></td></TR>
+<TR><td></td><TD>Lucea says (to floyd), "verbose</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Everybody Dies is now in its "verbose" mode, which always gives long
+
+<b>Floyd</b> | descriptions of locations (even if I've been there before).
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says (to Lucea), "go ahead"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't stare at it without bile ensuing.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">clean it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Patrick has been downright artistic. He's managed to get shit on every
+<b>Floyd</b> | part of the toilet except for the water.
+<b>Floyd</b> |
+
+<b>Floyd</b> | He's sharpied a swastika on the stall wall but he's gotten it
+<b>Floyd</b> | backwards. Which, ironically, makes it a Hindu symbol.
+<b>Floyd</b> |
+<b>Floyd</b> | I imagine running him over in my new car again and again until the job
+<b>Floyd</b> | is finished.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x toilet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A clean and empty bowl.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">se</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I step out of the stall to see Patrick standing there silently.
+<b>Floyd</b> |
+<b>Floyd</b> | He has a look on his face like I've never seen before. He's not going
+<b>Floyd</b> | to... apologize, is he?
+<b>Floyd</b> |
+<b>Floyd</b> | Behind him Lisa, the manager shows up. She looks reluctant to step into
+
+<b>Floyd</b> | the washroom -- probably because it's the Men's.
+<b>Floyd</b> |
+<b>Floyd</b> | "Ranni, is it true you made a lewd gesture towards Patrick?"
+<b>Floyd</b> |
+<b>Floyd</b> | Oh, crap.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "I'll have to refer to the chapter on sexual harassment in the training
+<b>Floyd</b> | manual--" She looks downright hurt by the situation.
+<b>Floyd</b> |
+<b>Floyd</b> | I notice Patrick move suddenly. There is a gun in his hand.
+<b>Floyd</b> |
+<b>Floyd</b> | "Fucking sick fuck," he says, right before he shoots me.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "gah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "This isn't a rainbows and bunnies game, is it?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Poor Ranni.  Poor Lisa."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "in the third act you come back as a rainbow bunny"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to DavidW), "Oh, I'm sure there are rabbits and bunnies.  Just keep playing."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "Lisa might be next to go, eh?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "well, the title _is_ Everybody Dies"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Lucea), "Yes.  The rainbow bunny must die."
+</TD><td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x patrick</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I try, but a coughed-up blood bubble is the best I can do.
+<b>Floyd</b> |
+<b>Floyd</b> | I can't move.
+<b>Floyd</b> |
+<b>Floyd</b> | I think I'm on the floor. I must have fallen. I can feel water pooling
+
+<b>Floyd</b> | against my face from somewhere. Or is that water?
+<b>Floyd</b> |
+<b>Floyd</b> | Patrick leans over me, his face a wasteland of acne. "What, getting
+<b>Floyd</b> | shot doesn't give you a hard-on too?"
+<b>Floyd</b> |
+<b>Floyd</b> | Lisa is screaming, screaming. Patrick's head whips her way. I hear a
+
+<b>Floyd</b> | pop and the screaming stops.
+<b>Floyd</b> |
+<b>Floyd</b> | I close my eyes.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | *** YOU HAVE DIED ***
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | And yet...
+<b>Floyd</b> |
+<b>Floyd</b> | Void
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Void
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There is no action here. Only waiting.
+<b>Floyd</b> |
+<b>Floyd</b> | I open my eyes.
+<b>Floyd</b> |
+
+<b>Floyd</b> | I'm looking down on a river. I immediately think: Styx. I mean, I knew
+<b>Floyd</b> | I was gonna miss out on the virgins not being Islam but how'd I end up
+<b>Floyd</b> | in white-person hell? And where would I get money for the boatman? I
+<b>Floyd</b> | remembered something about coins from my English class...
+<b>Floyd</b> |
+<b>Floyd</b> | They put 'em on your eyes, I hear a familiar voice say. But that's not
+
+<b>Floyd</b> | the River Styx, as brutally awesome as that would be.
+<b>Floyd</b> |
+<b>Floyd</b> | But a few seconds later I hear the cars behind me, and I realize the
+<b>Floyd</b> | voice is right. It's just the...
+<b>Floyd</b> |
+<b>Floyd</b> | Bridge
+
+<b>Floyd</b> | I walk over this bridge every day to get to Cost Cutters, to the west,
+<b>Floyd</b> | but I just recently noticed that it crossed a river. To the east is my
+<b>Floyd</b> | neighbourhood.
+<b>Floyd</b> |
+<b>Floyd</b> | There's a neat little train of shopping carts on the sidewalk here.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Uh, my name's Ranni. Sikh family. Almost old enough to drive.
+<b>Floyd</b> |
+<b>Floyd</b> | There's something weird here.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Then it occurs to me: no snow.
+<b>Floyd</b> |
+<b>Floyd</b> | It snowed last night.
+<b>Floyd</b> |
+<b>Floyd</b> | No, it snowed tomorrow night, another voice in my head says. A woman's
+<b>Floyd</b> | voice, this time.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">push carts west</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Really, the only sensible thing to do to a cart train is to PUSH it.
+<b>Floyd</b> |
+<b>Floyd</b> | I'm collecting carts... but didn't I just do that yesterday?
+
+<b>Floyd</b> |
+<b>Floyd</b> | It is yesterday, the female voice says. This time, get them all.
+<b>Floyd</b> |
+<b>Floyd</b> | Lisa? I think, You didn't die?
+<b>Floyd</b> |
+<b>Floyd</b> | There is a silence inside my head. I start to think I'm beginning to
+
+<b>Floyd</b> | crack up.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">push carts</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You need seven, Lisa insists.
+<b>Floyd</b> |
+
+<b>Floyd</b> | There're seven carts, Lisa says. Get them all and Graham won't be able
+<b>Floyd</b> | to --
+<b>Floyd</b> |
+<b>Floyd</b> | Graham, right. That rocker greaseball.
+<b>Floyd</b> |
+<b>Floyd</b> | Greaseball? Graham says. Lisa, do we have to help him?
+
+<b>Floyd</b> |
+<b>Floyd</b> | What part of fates intertwined do you not understand? Lisa says, in her
+<b>Floyd</b> | "tough manager" voice that always turns me on a bit.
+<b>Floyd</b> |
+<b>Floyd</b> | At my thought, Graham gives a dirty laugh and Lisa makes an embarrassed
+<b>Floyd</b> | sound.
+
+<b>Floyd</b> |
+<b>Floyd</b> | You're my kind of greaseball, Graham chortles. Need my help, just ask.
+<b>Floyd</b> | Like GRAHAM, EXAMINE CARS or whatever.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x carts</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The shopping carts are pushed into the backs of each other to form a
+<b>Floyd</b> | train 3 carts long.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's funny I've passed over this a million times going to school and
+
+<b>Floyd</b> | work without stopping to look at it, but I guess I usually have my
+<b>Floyd</b> | music on.
+<b>Floyd</b> |
+<b>Floyd</b> | Graham makes an impatient noise but Lisa shushes him.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">look in river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I find nothing of interest.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x graham</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | He's got a mustache, and always seems to be going out for a smoke
+
+<b>Floyd</b> | instead of working.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x graham</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | He's got a mustache, and always seems to be going out for a smoke
+<b>Floyd</b> | instead of working.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Heh"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x lisa</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | She's pretty, but she's way older than me. Seventeen at least.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ask lisa about carts</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | We're prohibited from giving you advice, Lisa says as if she's reading
+<b>Floyd</b> | from a Cost Cutters manual.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ask lisa about fates</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | We're prohibited from giving you advice, Lisa says as if she's reading
+<b>Floyd</b> | from a Cost Cutters manual.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I wander around the neighbourhood laneways and find a cart wedged
+<b>Floyd</b> | between two houses.
+<b>Floyd</b> |
+<b>Floyd</b> | I return to the bridge with it.
+<b>Floyd</b> |
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I run into a friend's mom and ask her if she's seen any carts, and she
+<b>Floyd</b> | sheepishly gives up one from her garage. "Otherwise I always get one
+<b>Floyd</b> | with a stuck wheel," she explains.
+<b>Floyd</b> |
+
+<b>Floyd</b> | I trundle it over to the other carts on the bridge.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Some kids are using one on its side as a street hockey net. They claim
+<b>Floyd</b> | it's theirs until I point to the Cost Cutters logo.
+
+<b>Floyd</b> |
+<b>Floyd</b> | I add it to the cart train on the bridge.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I've cleared out the neighbourhood. Maybe that's all there is?
+
+<b>Floyd</b> |
+<b>Floyd</b> | One more, Lisa's voice echoes in my head. Just not in the
+<b>Floyd</b> | neighbourhood.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | West Side of Bridge
+<b>Floyd</b> | Once I saw a pretty bad accident here. It put me off cycling forever.
+<b>Floyd</b> |
+<b>Floyd</b> | Further west is the Cost Cutters building, the bridge is back east. The
+<b>Floyd</b> | way north is barred by pretty dense brush.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "The one in the river?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "It might not be in the river yet."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Call me weird, but I'm not anxious to go back to the place I died.
+
+<b>Floyd</b> | Might as well get the job done first.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Well, I thought it was pushed in years ago,"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I'd need to be really motivated to walk through prickleys like that.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Bridge
+<b>Floyd</b> | I walk over this bridge every day to get to Cost Cutters, to the west,
+
+<b>Floyd</b> | but I just recently noticed that it crossed a river. To the east is my
+<b>Floyd</b> | neighbourhood.
+<b>Floyd</b> |
+<b>Floyd</b> | There's a neat little train of shopping carts on the sidewalk here.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's funny I've passed over this a million times going to school and
+<b>Floyd</b> | work without stopping to look at it, but I guess I usually have my
+<b>Floyd</b> | music on.
+<b>Floyd</b> |
+<b>Floyd</b> | Graham makes an impatient noise but Lisa shushes him.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">graham, x river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I feel my eyes focus on a section of river -- is that a glint of steel?
+<b>Floyd</b> |
+<b>Floyd</b> | There's a cart down there! How the heck did it...?
+
+<b>Floyd</b> |
+<b>Floyd</b> | Doesn't matter how, interrupts Graham. That's our ace in the hole. We
+<b>Floyd</b> | just have to play it earlier in the game.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "By Graham and Ricky."
+</TD><td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">lisa, x river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lisa peers through my eyes...
+<b>Floyd</b> |
+<b>Floyd</b> | It's just a grey blur to me. I can't really see that far -- my eyes
+<b>Floyd</b> | aren't the best.
+<b>Floyd</b> |
+
+<b>Floyd</b> | ...my eyes are my own again.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "weird"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x cart</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which do I mean, the faroff shopping cart or the shopping cart train?
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "huh"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x faroff</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's waaaaay down there.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | West Side of Bridge
+<b>Floyd</b> | Once I saw a pretty bad accident here. It put me off cycling forever.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Further west is the Cost Cutters building, the bridge is back east. The
+<b>Floyd</b> | way north is barred by pretty dense brush.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I gotta get down to the river if I'm going to get that cart, so I push
+
+<b>Floyd</b> | through the brush. Pretty quickly I find a trail that leads to...
+<b>Floyd</b> |
+<b>Floyd</b> | Clearing in the Woods
+<b>Floyd</b> | The trail continues east to the river, and I can return back to
+<b>Floyd</b> | civilization to the south.
+<b>Floyd</b> |
+
+<b>Floyd</b> | There's a bunch of empty beer cans and a pit for a fire.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x cans</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Maybe some hoboes might have lived here.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Nerd! Graham hisses for some reason. I ignore him.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">graham, x river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There is no reply.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x log</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | By the look of how they're arranged people may have actually sat on
+<b>Floyd</b> | them.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take log</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Naw. It's basically log-shaped mud now.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x pit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Looks like it was kicked in the ground by people with big boots and not
+
+<b>Floyd</b> | much to do.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">graham, x pit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Graham peers through my eyes...
+<b>Floyd</b> |
+
+<b>Floyd</b> | Ah, the firepit that gave the Pit its name. Some McDonald's bags,
+<b>Floyd</b> | newspapers, a lighter and a can of hairspray and, foomp! You had
+<b>Floyd</b> | yerself some instant ambiance.
+<b>Floyd</b> |
+<b>Floyd</b> | ...my eyes are my own again.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "so we can tap into Graham's viewpoint for extra info? Or Lisa's?"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">lisa, x pit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lisa peers through my eyes...
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | ...my eyes are my own again.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "whoops"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "The markup I was thinking of before was the voices: I think they were originally in italics. But it seems reasonably clear enough without them."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "[insert graphic here], I'm guessing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "yeah, maybe"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "or maybe just a bug"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">lisa, x log</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Lisa peers through my eyes...
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | ...my eyes are my own again.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">lisa, x empty</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lisa peers through my eyes...
+<b>Floyd</b> |
+<b>Floyd</b> | A bunch of trash. People have no respect for nature.
+<b>Floyd</b> |
+
+<b>Floyd</b> | ...my eyes are my own again.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take trash</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take empty</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It smells rank, even from here.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">graham, x empty</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Graham peers through my eyes...
+<b>Floyd</b> |
+<b>Floyd</b> | It's an Export. Dunno if I can go back to Ex after drinking Fin du
+<b>Floyd</b> | Monde... but I probably can.
+<b>Floyd</b> |
+<b>Floyd</b> | ...my eyes are my own again.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">graham, x log</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Graham peers through my eyes...
+<b>Floyd</b> |
+<b>Floyd</b> | It beat sitting on the ground, but not by much.
+
+<b>Floyd</b> |
+<b>Floyd</b> | ...my eyes are my own again.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">sit on log</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Naw. It's basically log-shaped mud now.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Edge of River
+<b>Floyd</b> | It's more impressive up close, just to the east, but it ain't no
+
+<b>Floyd</b> | Ganges.
+<b>Floyd</b> |
+<b>Floyd</b> | Graham chimes in: Dude, it's reeeeally cold --
+<b>Floyd</b> |
+<b>Floyd</b> | Colder than being dead forever, Graham? Lisa snaps.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Just brace yourself.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">graham, x river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Graham peers through my eyes...
+<b>Floyd</b> |
+
+<b>Floyd</b> | It winds through the ravine, kind of a charcoal grey with all the
+<b>Floyd</b> | runoff.
+<b>Floyd</b> |
+<b>Floyd</b> | ...my eyes are my own again.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">lisa, x river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lisa peers through my eyes...
+<b>Floyd</b> |
+<b>Floyd</b> | It's just a grey blur to me. I can't really see that far -- my eyes
+<b>Floyd</b> | aren't the best.
+<b>Floyd</b> |
+
+<b>Floyd</b> | ...my eyes are my own again.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x river</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's funny I've passed over this a million times going to school and
+<b>Floyd</b> | work without stopping to look at it, but I guess I usually have my
+
+<b>Floyd</b> | music on.
+<b>Floyd</b> |
+<b>Floyd</b> | Graham makes an impatient noise but Lisa shushes him.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x cart</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's well out of reach, in the river to the east.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x bridge</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The graffiti on the bridge is just tags, pretty boring compared to some
+<b>Floyd</b> | of the burners I've seen in Scarborough.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | The Water
+<b>Floyd</b> | Graham was not lying. It's painfully cold.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Land awaits to the west.
+<b>Floyd</b> |
+<b>Floyd</b> | You can see a rusty shopping cart here.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>crumple</b> arrives, full of neither funk nor fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take cart</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I yank it up from the river bed and manage to flip it over. A dead fish
+<b>Floyd</b> | and some other debris floats up.
+<b>Floyd</b> |
+
+<b>Floyd</b> | OK, I almost forgot, the fish --
+<b>Floyd</b> |
+<b>Floyd</b> | The fish flips over, and it's rotted through. There's a smaller fish
+<b>Floyd</b> | inside, partially digested.
+<b>Floyd</b> |
+<b>Floyd</b> | Graham makes a retching sound. Did he just vomit inside my head?
+
+<b>Floyd</b> |
+<b>Floyd</b> | He wouldn't last long in my mom's kitchen.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>crumple</b> asks, "i just woke up. how long have you been playing?"
+</TD><td></td><TD><b>Jacqueline</b>  says, "heh"
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">push fish</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It is fixed in place.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to crumple), "Since the top of the hour."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x debris</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x fish</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Just a dead fish, the only weird part being that I can see the other
+<b>Floyd</b> | fish inside it. Newsflash: fish eat fish.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I drag the cart to the side of the river, taking care to leave the
+<b>Floyd</b> | debris behind.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Edge of River
+<b>Floyd</b> | It's more impressive up close, just to the east, but it ain't no
+<b>Floyd</b> | Ganges. The path winds west from here.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I trundle the cart up to...
+<b>Floyd</b> |
+<b>Floyd</b> | Clearing in the Woods
+<b>Floyd</b> | The trail continues east to the river, and I can return back to
+<b>Floyd</b> | civilization to the south.
+<b>Floyd</b> |
+
+<b>Floyd</b> | There's a bunch of empty beer cans and a pit for a fire.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It takes about ten minutes to wrestle the cart to the road.
+<b>Floyd</b> |
+
+<b>Floyd</b> | West Side of Bridge
+<b>Floyd</b> | Once I saw a pretty bad accident here. It put me off cycling forever.
+<b>Floyd</b> |
+<b>Floyd</b> | Further west is the Cost Cutters building, the bridge is back east. The
+<b>Floyd</b> | way north is barred by pretty dense brush.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Ca-chunk! With some effort, I add the rusty cart for a total of 7.
+<b>Floyd</b> |
+<b>Floyd</b> | Whoohoo! Lisa says. That's the lot.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">push carts</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's smooth sailing to Cost Cutters.
+<b>Floyd</b> |
+<b>Floyd</b> | I'm so desperate to change out of my wet clothes that I don't do it in
+<b>Floyd</b> | a stall. So of course Patrick comes into the staffroom when my kirpan
+
+<b>Floyd</b> | is exposed. His eyes widen and he slowly turns to his locker.
+<b>Floyd</b> |
+<b>Floyd</b> | Fuuuuuuuuck, says Graham.
+<b>Floyd</b> |
+<b>Floyd</b> | Patrick turns around with a gun in his hand and this time doesn't
+<b>Floyd</b> | attempt any smart-assed comments before he shoots me dead.
+
+<b>Floyd</b> |
+<b>Floyd</b> | It's like a very tiny and very fast hammer between my eyes.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | *** YOU HAVE DIED ***
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | Well... in a manner of speaking.
+<b>Floyd</b> |
+<b>Floyd</b> | Void
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "so we strip next time?"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There is no action here. Only waiting.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | The void starts to glow with a familiar unrelenting light -- a
+
+<b>Floyd</b> | fluorescent light -- and I realize I'm in...
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | Cost Cutters
+<b>Floyd</b> | I'm at work. There are people shopping around me.
+<b>Floyd</b> |
+<b>Floyd</b> | Alive! I'm alive! In my own body It was all a --
+<b>Floyd</b> |
+
+<b>Floyd</b> | Dream? interrupts Ranni from somewhere in the back part of my head. No.
+<b>Floyd</b> |
+<b>Floyd</b> | Oh, crumbs.
+<b>Floyd</b> |
+<b>Floyd</b> | My office is to the south, and the exit is to the east.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lisa. I'm the manager. I'm pretty normal-looking, but a boy at
+<b>Floyd</b> | leadership camp said I was cute without my glasses.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I am carrying:
+<b>Floyd</b> |   a pair of glasses (being worn)
+<b>Floyd</b> |   dark green work slacks (being worn)
+<b>Floyd</b> |   a Cost Cutters blouse (being worn)
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x people</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The usual mix: every type of human being except the cute teenaged boy
+<b>Floyd</b> | type. Which is good. I need to focus on my job.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I start out but immediately am accosted by a customer.
+<b>Floyd</b> |
+<b>Floyd</b> | "Excuse me miss," the old man asks. "Is this coupon good here?"
+<b>Floyd</b> |
+<b>Floyd</b> | He presses a coupon into my hand.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">no</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That was a rhetorical question.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x coupon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The coupon died on Tuesday. "Sorry sir, but this coupon expired
+<b>Floyd</b> | yesterday."
+<b>Floyd</b> |
+<b>Floyd</b> | He grabs it back. "What?" He stares at it through his thick glasses.
+<b>Floyd</b> | "But it's Monday, isn't it?"
+
+<b>Floyd</b> |
+<b>Floyd</b> | I give him a little smile that lets him know: he's old.
+<b>Floyd</b> |
+<b>Floyd</b> | He wanders off, confused.
+<b>Floyd</b> |
+<b>Floyd</b> | Graham chuckles. Way to mess with the old coot's head, Lise.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I get a few aisles closer this time before a mom and daughter stop me.
+<b>Floyd</b> |
+<b>Floyd</b> | "Do both of these have peanuts? My daughter has an allergy."
+
+<b>Floyd</b> |
+<b>Floyd</b> | She hands me a package of Savoury Snax and a package of Peanut Puffs.
+<b>Floyd</b> |
+<b>Floyd</b> | Seriously! This is so not my job.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">yes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That was a rhetorical question.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">say yes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (to the mother)
+
+<b>Floyd</b> | There is no reply.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x snax</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A hideously coloured package with, unfortunately, one word in English,
+<b>Floyd</b> | two if you count "Snax". I can't read the ingredients. It looks like
+
+<b>Floyd</b> | birdfood... gross.
+<b>Floyd</b> |
+<b>Floyd</b> | It's pretty tasty, actually, says Ranni.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x peanut</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Ingredients: Whole peanuts, peanut paste, vaporized peanuts, peanut
+<b>Floyd</b> | dust... I skip to the end where it says. Warning, may contain --
+<b>Floyd</b> |
+<b>Floyd</b> | Traces of peanuts? Ranni suggests.
+<b>Floyd</b> |
+<b>Floyd</b> | No. Traces of heavy metals.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Bruuuuuuuutal! moans Graham.
+<b>Floyd</b> |
+<b>Floyd</b> | I put the Peanut Puffs back on the shelf, far out of the little girl's
+<b>Floyd</b> | reach. It quickly disappears into the blur of colourful products.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">give snax to mom</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't. I can't help imagining the little girl choking to death. She
+<b>Floyd</b> | looks a bit bratty, but still.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">graham, x snax</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Graham peers through my eyes...
+<b>Floyd</b> |
+<b>Floyd</b> | Seriously, what is wrong with this store? You can barely find ketchup
+<b>Floyd</b> | and dill pickle potato chips and now they're stocking these, these...
+<b>Floyd</b> |
+
+<b>Floyd</b> | Paki foods? says Ranni.
+<b>Floyd</b> |
+<b>Floyd</b> | I was gonna say "weird foods."
+<b>Floyd</b> |
+<b>Floyd</b> | ...my eyes are my own again.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ranni, x snax</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That is so cool! The ingredients go from squiggly letters to real
+<b>Floyd</b> | letters.
+<b>Floyd</b> |
+<b>Floyd</b> | I read them through. Lots of weird stuff and tongue twisters, but no
+
+<b>Floyd</b> | peanuts. I hand it to the mom and she leaves without even thanking me.
+<b>Floyd</b> |
+<b>Floyd</b> | People are so rude. That's why I got into being a manager. I hate being
+<b>Floyd</b> | on the frontlines.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "Clever"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "strange game"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Finally I make it unaccosted to...
+<b>Floyd</b> |
+<b>Floyd</b> | The Staffroom
+
+<b>Floyd</b> | Well, OK, it's not just my office. But I've got my nook, a desk in the
+<b>Floyd</b> | corner of the staffroom.
+<b>Floyd</b> |
+<b>Floyd</b> | The staffroom has lockers along one wall, a soda machine, and a bench.
+<b>Floyd</b> |
+<b>Floyd</b> | On the desk is a calendar.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x calendar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | IMPENDING is the word for Monday. Monday? But...
+<b>Floyd</b> |
+<b>Floyd</b> | It's two days before the shooting, Ranni says impatiently. You gotta
+
+<b>Floyd</b> | get rid of that psycho, Lisa.
+<b>Floyd</b> |
+<b>Floyd</b> | Also on the calendar for today is a 4pm locker inspection from central
+<b>Floyd</b> | office.
+<b>Floyd</b> |
+<b>Floyd</b> | And it is, of course, 4pm.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x lockers</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | They're the kind that have the combo locks built into the doors, so
+<b>Floyd</b> | central office can access them at any time.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Most of them have clearly printed labels stuck on to indicate their
+<b>Floyd</b> | owners: JILL, PATRICK, PAUL, RANNY (this was before I knew it was spelt
+<b>Floyd</b> | RANNI, so sue me). GRAHAM, JASON, and my own were all written in the
+<b>Floyd</b> | sloppy handwriting of my predecessor.
+<b>Floyd</b> |
+<b>Floyd</b> | All of a sudden Tim from main office rushes in.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "I'm soooo late," he says. He unlocks the soda machine and takes a can
+<b>Floyd</b> | out, then slams it shut.
+<b>Floyd</b> |
+<b>Floyd</b> | Jerkwad. Just 'cause he used to work here he acts like he owns the
+<b>Floyd</b> | place. "Um, why do you still have a key for--" I start.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "Gotta check the meat room temp," he says, pulling out a thermometer
+<b>Floyd</b> | from his windbreaker. "Back in a jiff. Then I'll do the locker check."
+<b>Floyd</b> |
+<b>Floyd</b> | Awww, crapsicles! blurts Graham.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "Won't have time for them all, just the new hires -- Patrick, Ranni and
+<b>Floyd</b> | Paul," Tim says on his way out the door.
+<b>Floyd</b> |
+<b>Floyd</b> | Thank you, Satan! Graham crows.
+<b>Floyd</b> |
+<b>Floyd</b> | What are you so happy about? says Ranni. He said he'd be back in a
+
+<b>Floyd</b> | jiff, and we've got to make sure Patrick gets canned today before he
+<b>Floyd</b> | gets back!
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>inky</b>  says, ""thank you satan" is hilarious"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "So how do we get Patrick canned?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x labels</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't see any such thing.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x desk</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | It's a big clunky beast left by my predecessor. Other than a nasty
+<b>Floyd</b> | paint stain, the only thing on it is the word-a-day calendar.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x stain</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | From Tim's time. He has no respect for Cost Cutters property.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">open patrick's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the combo, and they're not in today so I can't ask them.
+<b>Floyd</b> | Of course, main office has all the combinations.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>Bert</b>  says, "If this were a Looney Toons cartoon, it would probably involve a sardine factory."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ranni, open ranni's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | My hands move of their own (well, I guess, of Ranni's) accord and flick
+<b>Floyd</b> | through the combination.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Ranni's locker has his work slacks, a balled up apron and the WHMIS
+<b>Floyd</b> | safety regulations taped to his door.
+<b>Floyd</b> |
+<b>Floyd</b> | Graham snorts at this. Mr. Worky-work.
+<b>Floyd</b> |
+<b>Floyd</b> | It's my work locker! Ranni retorts. What, I'm supposed to have a, a,
+
+<b>Floyd</b> | six pack of beers in there or something?
+<b>Floyd</b> |
+<b>Floyd</b> | Graham is silent. (Shocker!)
+<b>Floyd</b> |
+<b>Floyd</b> | I shut the locker.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">graham, open graham's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Nope, Graham says.
+<b>Floyd</b> |
+<b>Floyd</b> | Just open it! Ranni says, as exasperated as I feel.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Sorry, kids, ain't gonna happen.
+<b>Floyd</b> |
+<b>Floyd</b> | I shake the locked door, noticing as I do that there's some kind of
+<b>Floyd</b> | smell coming from the door vents.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">smell it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's weird. It smells like my brother's room in the basement. He
+<b>Floyd</b> | always keeps it locked, too.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "hee"
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">graham, smell vents</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There is no reply.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ranni, smell vents</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | There is no reply.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>inky</b>  asks, "smells like .. porn?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "pot, I'm guessing"
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">graham, smell graham's locker</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I can't be that hands-on, Graham says. But two pairs of eyes are better
+<b>Floyd</b> | than one.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "pot or sex"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>crumple</b>  says, "teen spirit."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heehee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "If Graham has pot, we might find a way to get it into Patrick's locker."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Taleslinger</b> arrives, full of fun, but no funk.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">open jason's locker</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the combo, and they're not in today so I can't ask them.
+<b>Floyd</b> | Of course, main office has all the combinations.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">open lisa's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I unlock it. Inside are my school bag and my normal clothes including
+
+<b>Floyd</b> | --
+<b>Floyd</b> |
+<b>Floyd</b> | Mmm, black lacy bra, Graham says, I never would have figured you--
+<b>Floyd</b> |
+<b>Floyd</b> | I slam the locker shut and ignore Graham's creepy laugh.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Tim bustles in and counts the lockers and looks up the combos.
+<b>Floyd</b> | "Paul..." he starts twirling the combos. "It's not Paul Sorenson, is
+<b>Floyd</b> | it? Come back for another hitch?"
+<b>Floyd</b> |
+<b>Floyd</b> | "No, it's Chin. Paul Chin."
+<b>Floyd</b> |
+
+<b>Floyd</b> | "It wouldn't be, it wouldn't be. Be in his twenties now. But that guy
+<b>Floyd</b> | was hilarious -- he would just crack -- us -- up!"
+<b>Floyd</b> |
+<b>Floyd</b> | He yanks the door open. It's empty except for an apron with a nametag
+<b>Floyd</b> | and a book called World War Z. He flips through it, staring at it
+<b>Floyd</b> | intently, before throwing it back and shutting the locker.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">tim, open patrick's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Believe me, if I start talking to him he'll start talking about the
+<b>Floyd</b> | good ol' days when "managment was of a different quality." He actually
+<b>Floyd</b> | said that. Best to just wait the old windbag out.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "OK, Ranni, let's see what you got hiding... yeah, the neighbourhood,
+<b>Floyd</b> | the neighbourhood's really changed," Tim laments, opening Ranni's
+<b>Floyd</b> | locker.
+<b>Floyd</b> |
+<b>Floyd</b> | Yeah. Everything was sooo much better when he worked here, for one.
+
+<b>Floyd</b> |
+<b>Floyd</b> | I don't think that's what he means, says Ranni.
+<b>Floyd</b> |
+<b>Floyd</b> | Tim checks the pockets of Ranni's work clothes and looks approvingly at
+<b>Floyd</b> | the WHMIS regs taped to the door.
+<b>Floyd</b> |
+
+<b>Floyd</b> | He finishes his inspection and shuts the locker.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I think we've missed our chance."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Hm.  Possibly."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x tim</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | He's a gawky guy with a bright orange Cost Cutters windbreaker.
+<b>Floyd</b> |
+<b>Floyd</b> | Tim opens Patrick's locker. I look over his shoulder to see if I can
+<b>Floyd</b> | spot the gun, but the only thing in it is a magazine.
+<b>Floyd</b> |
+<b>Floyd</b> | Tim picks it up -- it's an issue of Glocks and Grenades -- and flips
+
+<b>Floyd</b> | through it. For a second he seems to be disturbed, and I have a flicker
+<b>Floyd</b> | of hope that he's gonna fire Patrick.
+<b>Floyd</b> |
+<b>Floyd</b> | "Don't know... if I have this issue..." he says, looking at the front.
+<b>Floyd</b> | "Maybe my subscription's run out."
+<b>Floyd</b> |
+
+<b>Floyd</b> | He tosses it back in and shuts the locker.
+<b>Floyd</b> |
+<b>Floyd</b> | I guess he doesn't bring the gun in til tomorrow, says Ranni.
+<b>Floyd</b> |
+<b>Floyd</b> | Well, there goes the only chance to change what happened, says Graham.
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | *** WE DIED FOR GOOD ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | This time there's no visit to the Void. Tim disappears, I feel a
+<b>Floyd</b> | nauseating flip in my stomach and I find myself moved a few feet away
+
+<b>Floyd</b> | but still in...
+<b>Floyd</b> |
+<b>Floyd</b> | The Staffroom
+<b>Floyd</b> | Well, OK, it's not just my office. But I've got my nook, a desk in the
+<b>Floyd</b> | corner of the staffroom.
+<b>Floyd</b> |
+
+<b>Floyd</b> | The staffroom has lockers along one wall, a soda machine, and a bench.
+<b>Floyd</b> |
+<b>Floyd</b> | On the desk is a calendar.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x me</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lisa. I'm the manager. I'm pretty normal-looking, but a boy at
+<b>Floyd</b> | leadership camp said I was cute without my glasses.
+<b>Floyd</b> |
+<b>Floyd</b> | All of a sudden Tim from main office rushes in.
+<b>Floyd</b> |
+<b>Floyd</b> | "I'm soooo late," he says. He unlocks the soda machine and takes a can
+
+<b>Floyd</b> | out, then slams it shut. Soooo predictable.
+<b>Floyd</b> |
+<b>Floyd</b> | "Gotta check the meat room temp," he says, pulling out a thermometer
+<b>Floyd</b> | from his windbreaker. "Back in a jiff. Then I'll do the locker check.
+<b>Floyd</b> | Just the new hires -- Patrick, Ranni and Paul," he says on his way out
+<b>Floyd</b> | the door.
+
+<b>Floyd</b> |
+<b>Floyd</b> | OK, don't fuck it up this time, Lisa. We don't know if we've got
+<b>Floyd</b> | unlimited lives, or what, says Graham.
+<b>Floyd</b> |
+<b>Floyd</b> | And we've got like, nine-tenths of a jiff left, says Ranni.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Hm so I guess we did miss it."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "Can we do something with the soda machine?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "And we didn't save a ton."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "We can replay from the start if we have to."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Yeah, I suppose.  Not that long, really."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "any ideas how to get Graham to open his locker?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  asks, "Do we have to restart in order to solve this?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Nitku), "I doubt it."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "If you couldn't still win, it wouldn't have automatically rolled you back after that death."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says, "I played it and I never had to restart."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">open soda machine</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not something I can open.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ranni, open graham's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Ranni has better things to do.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Lucea</b>  says, "yeah, you don't need to restart"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">graham, open graham's locker</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Nope, Graham says.
+<b>Floyd</b> |
+<b>Floyd</b> | Just open it! Ranni says, as exasperated as I feel.
+<b>Floyd</b> |
+<b>Floyd</b> | Sorry, kids, ain't gonna happen.
+<b>Floyd</b> |
+
+<b>Floyd</b> | I shake the locked door, noticing as I do that there's some kind of
+<b>Floyd</b> | smell coming from the door vents.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "Then I don't see the point in restarting really."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ask graham about pot</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Sorry man, I can't just tell you what to do, Graham says. There're
+<b>Floyd</b> | these stupid rules.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Yeah, seems we don't have to."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ranni, read regs</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There is no reply.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">hit graham's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Violence isn't the answer to this one.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ranni, open ranni's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | My hands move of their own (well, I guess, of Ranni's) accord and flick
+<b>Floyd</b> | through the combination.
+<b>Floyd</b> |
+<b>Floyd</b> | Ranni's locker has his work slacks, a balled up apron and the WHMIS
+
+<b>Floyd</b> | safety regulations taped to his door.
+<b>Floyd</b> |
+<b>Floyd</b> | Graham snorts at this. Mr. Worky-work.
+<b>Floyd</b> |
+<b>Floyd</b> | It's my work locker! Ranni retorts. What, I'm supposed to have a, a,
+<b>Floyd</b> | six pack of beers in there or something?
+
+<b>Floyd</b> |
+<b>Floyd</b> | Graham is silent. (Shocker!)
+<b>Floyd</b> |
+<b>Floyd</b> | I shut the locker.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">open ranni's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know his combo.
+<b>Floyd</b> |
+<b>Floyd</b> | I don't really know the numbers, either, says Ranni. My hands just do
+<b>Floyd</b> | it automatically now.
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Lucea says (to floyd), "x lockers</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | They're the kind that have the combo locks built into the doors, so
+<b>Floyd</b> | central office can access them at any time.
+<b>Floyd</b> |
+<b>Floyd</b> | Most of them have clearly printed labels stuck on to indicate their
+<b>Floyd</b> | owners: JILL, PATRICK, PAUL, RANNY (this was before I knew it was spelt
+
+<b>Floyd</b> | RANNI, so sue me). GRAHAM, JASON, and my own were all written in the
+<b>Floyd</b> | sloppy handwriting of my predecessor.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "Maybe one of the other lockers isn't locked?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "We don't have access as the manager?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I mean, I know we're not *presently* the manager."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "We're not Tim. We're Lisa."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "But one would think we'd know where a central master key is or something."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Right, Lisa becomes a manager later on."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "OH! Switch labels!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "Central office has access to all of them, but the manager (Lisa) doesn't."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "OOOH"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take Graham's label</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The label's been there for a few years, so some of the glue's dried up.
+
+<b>Floyd</b> | I manage to get it off without ripping it.
+<b>Floyd</b> |
+<b>Floyd</b> | Taken.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take patrick's label</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It was applied so recently it peels off smoothly.
+<b>Floyd</b> |
+<b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | Tim bustles in and counts the lockers and looks up the combos.
+<b>Floyd</b> | "Paul..." he starts twirling the combos. "It's not Paul Sorenson, is
+
+<b>Floyd</b> | it? Come back for another hitch?"
+<b>Floyd</b> |
+<b>Floyd</b> | "No, it's Chin. Paul Chin."
+<b>Floyd</b> |
+<b>Floyd</b> | "It wouldn't be, it wouldn't be. Be in his twenties now. But that guy
+<b>Floyd</b> | was hilarious -- he would just crack -- us -- up!"
+
+<b>Floyd</b> |
+<b>Floyd</b> | He yanks the door open. It's empty except for an apron with a nametag
+<b>Floyd</b> | and a book called World War Z. He flips through it, staring at it
+<b>Floyd</b> | intently, before throwing it back and shutting the locker.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  nods at Bert.
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">put patrick's label on graham's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | But Tim would totally see me!
+<b>Floyd</b> |
+<b>Floyd</b> | "OK, Ranni, let's see what you got hiding... yeah, the neighbourhood,
+<b>Floyd</b> | the neighbourhood's really changed," Tim laments, opening Ranni's
+
+<b>Floyd</b> | locker.
+<b>Floyd</b> |
+<b>Floyd</b> | Yeah. Everything was sooo much better when he worked here, for one.
+<b>Floyd</b> |
+<b>Floyd</b> | I don't think that's what he means, says Ranni.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Tim checks the pockets of Ranni's work clothes and looks approvingly at
+<b>Floyd</b> | the WHMIS regs taped to the door.
+<b>Floyd</b> |
+<b>Floyd</b> | He finishes his inspection and shuts the locker.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "Aww, I thought of that way back but it didn't recognize "labels" so I thought it wouldn't work."
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">put patrick's label on graham's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | But Tim would totally see me!
+<b>Floyd</b> |
+<b>Floyd</b> | "Can't see a locker for this Patrick McGuire here," Tim says. "Oh well,
+<b>Floyd</b> | I'm sure it's fine."
+
+<b>Floyd</b> |
+<b>Floyd</b> | I am shocked speechless by his lack of professionalism as he sails out
+<b>Floyd</b> | the door.
+<b>Floyd</b> |
+<b>Floyd</b> | I guess he doesn't bring the gun in til tomorrow, says Ranni.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Well, there goes the only chance to change what happened, says Graham.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | *** WE DIED FOR GOOD ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | This time there's no visit to the Void. Tim disappears, I feel a
+<b>Floyd</b> | nauseating flip in my stomach and I find myself moved a few feet away
+<b>Floyd</b> | but still in...
+<b>Floyd</b> |
+<b>Floyd</b> | The Staffroom
+<b>Floyd</b> | Well, OK, it's not just my office. But I've got my nook, a desk in the
+
+<b>Floyd</b> | corner of the staffroom.
+<b>Floyd</b> |
+<b>Floyd</b> | The staffroom has lockers along one wall, a soda machine, and a bench.
+<b>Floyd</b> |
+<b>Floyd</b> | On the desk is a calendar.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "drat. Thought of it too late."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take patrick's label</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | All of a sudden Tim from main office rushes in.
+
+<b>Floyd</b> |
+<b>Floyd</b> | "I'm soooo late," he says. He unlocks the soda machine and takes a can
+<b>Floyd</b> | out, then slams it shut. Soooo predictable.
+<b>Floyd</b> |
+<b>Floyd</b> | "Gotta check the meat room temp," he says, pulling out a thermometer
+<b>Floyd</b> | from his windbreaker. "Back in a jiff. Then I'll do the locker check.
+
+<b>Floyd</b> | Just the new hires -- Patrick, Ranni and Paul," he says on his way out
+<b>Floyd</b> | the door.
+<b>Floyd</b> |
+<b>Floyd</b> | OK, don't fuck it up this time, Lisa. We don't know if we've got
+<b>Floyd</b> | unlimited lives, or what, says Graham.
+<b>Floyd</b> |
+
+<b>Floyd</b> | And we've got like, nine-tenths of a jiff left, says Ranni.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take graham's label</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">put patrick's label on graham's locker</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I put Patrick's label on Graham's locker.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">put graham's label on patrick's locker</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I put Graham's label on Patrick's locker.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "ha ha unlimited lives"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Tim bustles in and counts the lockers and looks up the combos.
+<b>Floyd</b> | "Paul..." he starts twirling the combos. "It's not Paul Sorenson, is
+<b>Floyd</b> | it? Come back for another hitch?"
+<b>Floyd</b> |
+<b>Floyd</b> | "No, it's Chin. Paul Chin."
+
+<b>Floyd</b> |
+<b>Floyd</b> | "It wouldn't be, it wouldn't be. Be in his twenties now. But that guy
+<b>Floyd</b> | was hilarious -- he would just crack -- us -- up!"
+<b>Floyd</b> |
+<b>Floyd</b> | He yanks the door open. It's empty except for an apron with a nametag
+<b>Floyd</b> | and a book called World War Z. He flips through it, staring at it
+
+<b>Floyd</b> | intently, before throwing it back and shutting the locker.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+
+<b>Floyd</b> | "OK, Ranni, let's see what you got hiding... yeah, the neighbourhood,
+<b>Floyd</b> | the neighbourhood's really changed," Tim laments, opening Ranni's
+<b>Floyd</b> | locker.
+<b>Floyd</b> |
+<b>Floyd</b> | Yeah. Everything was sooo much better when you worked here, Tim.
+<b>Floyd</b> |
+
+<b>Floyd</b> | I don't think that's what he means, says Ranni.
+<b>Floyd</b> |
+<b>Floyd</b> | Tim checks the pockets of Ranni's work clothes and looks approvingly at
+<b>Floyd</b> | the WHMIS regs taped to the door.
+<b>Floyd</b> |
+<b>Floyd</b> | He finishes his inspection and shuts the locker.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | Tim opens "Patrick's" locker and immediately grabs a big garbage bag.
+
+<b>Floyd</b> | "What the heck...?"
+<b>Floyd</b> |
+<b>Floyd</b> | He opens the bag and the smell fills the room. "I do believe we have
+<b>Floyd</b> | ourselves some Wacky Tobacccy, Lisa."
+<b>Floyd</b> |
+<b>Floyd</b> | The grin on his face is positively wolfish. Within seconds he's talking
+
+<b>Floyd</b> | to the police on the phone.
+<b>Floyd</b> |
+<b>Floyd</b> | Patrick is sooooo fired.
+<b>Floyd</b> |
+<b>Floyd</b> | Fired? Graham says. For a bale like that he's going to juvie.
+<b>Floyd</b> |
+
+<b>Floyd</b> | What the hell do you need that much weed for, anyway? Ranni says.
+<b>Floyd</b> |
+<b>Floyd</b> | The grow-op in my mom's basement caught fire, one of the lamps, Graham
+<b>Floyd</b> | says, I needed to store the stuff I salvaged somewhere.
+<b>Floyd</b> |
+<b>Floyd</b> | An unbelievable ending to an unbelievable day. The cops show up and
+
+<b>Floyd</b> | then Patrick shows up and then Patrick's scary uncle shows up -- a big
+<b>Floyd</b> | nightmare, needless to say.
+<b>Floyd</b> |
+<b>Floyd</b> | But you know what I thought when I was locking up for the night? Could
+<b>Floyd</b> | have been worse. Nobody died.
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     *** WE DIDN'T DIE ***
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game or QUIT?
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "whee!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "hmm"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  exclaims, "Congrats!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "thanks"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "Yay"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Huh.  Cool."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  asks, "Was this a Release 2?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Short and sweet... or maybe it's just that we played Nightfall last week."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "A bit unusual to get to the win so soon."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "Well, it was only an hour. And comp games are allowed to be up to two hours."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Also, you can totally tell this is the same author that did Punk Points.  heh"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "it's pretty linear"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "(Although apparently some voters don't penalize games for being longer than that. I'm looking at you, Nightfall.)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says (to Jacq), "Hmm, I hadn't noticed."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "It certainly has similarities."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Bert), "Heh.  Well, I guess we played Nightfall in a really complete way that wasn't necessary, and according to Eve people did finish it in two hours."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Nitku), "Yeah, I'm talking in terms of character voice."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "I didn't finish Nightfall in the 2 hours, but I'm notorious for sucking at game"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "+s"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "also, anyone who didn't play it before should totally do it again in a graphics-capable terp, because the art adds a great deal"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I wonder if all the labels are switchable. It'd be weird if "Patrick" had Lisa's stuff."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "ok, if you want to see images: [<A HREF="http://inky.org/scratch/everybodydies/">LINK</A>]"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "yeah, I was about to say"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to maga), "Good to know."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "the images are important"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "though it's not really as good as seeing them in the browser"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "yeah, I'll want to see the artwork."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Guess I'll just cue up the game."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "Mmm, now I'm curious about swapping Patrick and Lisa."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "Or Patrick and anyone else whose locker we couldn't look into."
+</TD><td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The Staffroom
+<b>Floyd</b> | [Previous turn undone.]
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">version</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Everybody Dies
+<b>Floyd</b> | An Interactive Fantasy by Jim Munroe, with illustrations by Michael
+<b>Floyd</b> | Cho.
+
+<b>Floyd</b> | Release 2 / Serial number 081116 / Inform 7 build 5T18 (I6/v6.31 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> | Type CREDITS for the full credits, HELP if you need it, and QUIT to
+<b>Floyd</b> | exit the game.
+<b>Floyd</b> | Identification number: //EF7CFE1C-7529-11DD-B6E6-0016EC35A9FA//
+<b>Floyd</b> | Interpreter version 0.4.2 / VM 3.1.0 / Library serial number 080126
+
+<b>Floyd</b> | Standard Rules version 2/080430 by Graham Nelson
+<b>Floyd</b> | Custom Library Messages version 25/080420 by David Fisher
+<b>Floyd</b> | Shipboard Directions version 2/080508 by Mikael Segercrantz
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Bert</b>  says, "Ah, this is Release 2."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "The labels worked slightly differently in the comp release."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "And were more fiddly to interact with."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "I remember having -- yeah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "The verbs weren't 'take' and 'put'?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "(The puzzle was the same; they were just cards that you had to slide in and out of metal brackets explicitly instead of stickers.)"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "So you had to &gt;PUT PATRICK'S TAG INTO GRAHAM'S BRACKET or something like that"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "yeah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "and &gt;PUT PATRICK'S LABEL ON GRAHAM'S LOCKER didn't work"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "Aha, I *thought* something had changed"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "yes"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "er, ilac"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  asks (of lucea), "Did you die in the meantime?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "Yes."
+</TD><td></td></TR>
+
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">kiss tim</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I should keep my mind on the game.
+<b>Floyd</b> |
+<b>Floyd</b> | Tim opens "Patrick's" locker and immediately grabs a big garbage bag.
+<b>Floyd</b> | "What the heck...?"
+<b>Floyd</b> |
+
+<b>Floyd</b> | He opens the bag and the smell fills the room. "I do believe we have
+<b>Floyd</b> | ourselves some Wacky Tobacccy, Lisa."
+<b>Floyd</b> |
+<b>Floyd</b> | The grin on his face is positively wolfish. Within seconds he's talking
+<b>Floyd</b> | to the police on the phone.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Patrick is sooooo fired.
+<b>Floyd</b> |
+<b>Floyd</b> | Fired? Graham says. For a bale like that he's going to juvie.
+<b>Floyd</b> |
+<b>Floyd</b> | What the hell do you need that much weed for, anyway? Ranni says.
+<b>Floyd</b> |
+
+<b>Floyd</b> | The grow-op in my mom's basement caught fire, one of the lamps, Graham
+<b>Floyd</b> | says, I needed to store the stuff I salvaged somewhere.
+<b>Floyd</b> |
+<b>Floyd</b> | An unbelievable ending to an unbelievable day. The cops show up and
+<b>Floyd</b> | then Patrick shows up and then Patrick's scary uncle shows up -- a big
+<b>Floyd</b> | nightmare, needless to say.
+
+<b>Floyd</b> |
+<b>Floyd</b> | But you know what I thought when I was locking up for the night? Could
+<b>Floyd</b> | have been worse. Nobody died.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     *** WE DIDN'T DIE ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game or QUIT?
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The Staffroom
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The Staffroom
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The Staffroom
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">undo</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The Staffroom
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The Staffroom
+
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "From the images, it looks like the fish are symbolic of the symbiosis."
+</TD><td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I am carrying:
+
+<b>Floyd</b> |   Graham's label
+<b>Floyd</b> |   a pair of glasses (being worn)
+<b>Floyd</b> |   dark green work slacks (being worn)
+<b>Floyd</b> |   a Cost Cutters blouse (being worn)
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The Staffroom
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">undo</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The Staffroom
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">cf2</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store: Ok.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">get lisa's label. get patrick's label.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | No, I stuck it on good. Can't get it off without ripping it.
+<b>Floyd</b> |
+
+<b>Floyd</b> | I already have that.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">lockers</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">x lockers</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | They're the kind that have the combo locks built into the doors, so
+<b>Floyd</b> | central office can access them at any time.
+<b>Floyd</b> |
+<b>Floyd</b> | Most of them have clearly printed labels stuck on to indicate their
+
+<b>Floyd</b> | owners: JILL, PATRICK, PAUL, RANNY (this was before I knew it was spelt
+<b>Floyd</b> | RANNI, so sue me). GRAHAM, JASON, and my own were all written in the
+<b>Floyd</b> | sloppy handwriting of my predecessor.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">get jill's label</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's like part of the metal now. Can't get it off without ripping it.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">get jason's label</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's like part of the metal now. Can't get it off without ripping it.
+<b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">get paul's label</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's like part of the metal now. Can't get it off without ripping it.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>maga</b> disappears through an invisible gap in the MUD. You think you may have heard the sounds of chatting before the gap closed again.
+
+</TD><td></td><TD><b>DavidW</b>  says, "oh well. If was worth a try."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "Yeah."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Try removing Lisa's blouse. Maybe she can distract Tim."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I was going to download the game, but I'm lost without the wiki or Baf's!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "So I am looking at the images inky posted."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "Try IFDB"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Ah, true."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "This art with the fish is really clever."
+</TD><td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">remove blouse</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You know, if you want to see scantily clad girls you shouldn't be
+<b>Floyd</b> | playing a text game.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Bert says (to Floyd), "<font color="#89956F">play I-0</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heehee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "well, I shoulda guessed. The game wouldn't let me undress the guys either."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Taleslinger</b> has had his fill of playing for now, and goes back to the Lounge.
+
+</TD><td></td><TD><b>Jacqueline</b>  says, "Well, sounds like folks are done... transcript posting time!"</TD><td></td></TR>
+<TR><td></td><td></td></TR></TABLE><P ALIGN="CENTER"><FONT FACE="arial, sans-serif, helvetica" SIZE="1">
+		 <BR><BR>[ <a href="#top">TOP OF THIS PAGE</A> | <a href="interactive_fiction.html#clubfloyd">MORE CLUBFLOYD TRANSCRIPTS</A> | <a
+href="index.html">HOME</A> ]</FONT></P>
+
+<center><IMG SRC="graphics/black.jpg" WIDTH="557" HEIGHT="3"></center>
+		  <P ALIGN="CENTER"><A HREF="contact.html"><IMG SRC="graphics/footer.jpg"
+border="0"></A></P>
+</BODY>
+</HTML>

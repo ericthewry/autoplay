@@ -1,0 +1,5222 @@
+>load sleepmask sentencing
+
+
+
+ Closing time. You have just finished going through the invoices, and
+ Uncle Marty is counting the register. Cousin Dermot is hunched over
+ the counter, asleep.
+
+ "You go, Alistair", Uncle Marty says, "us two will lock up. Don't want
+ to keep the wife waiting, do you?"
+
+ You are going to the funfair. You promised Catherine.
+
+ The clock strikes six: you are late, once more.
+
+ <span class="floydstyle header">Sentencing Mr Liddell</span>
+ An Interactive Fiction by I-K. Huuhtanen
+ Release 1 / Serial number 111001 / Inform 7 build 6G60 (I6/v6.32 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">The Liddell Hat Shop</span>
+ Just a small business, but it's yours. Founded by your late father
+ some forty years ago, it still offers a wide range of headgear for
+ discerning gentlemen, all crafted by hand. The walls up to the ceiling
+ are lined with top hats and bowlers, fedoras and homburgs, panamas and
+ boaters. At the moment, at the end of the day, the space a bit untidy,
+ with the counter stacked with miscellaneous papers and textile samples
+ and the rubbish bin scouring with crumpled notes and order sheets.
+ Marty promises to tidy up.
+
+ The door outside onto the street is to the west.
+
+
+ [If this is your first time playing 'Sentencing Mr Liddell', type MENU
+ to learn more about the game.]
+
+>menu
+
+
+    Hints
+    Walkthrough
+    Introduction to interactive fiction
+
+
+ Choose a menu item and press ENTER, or press Q to return to the game.
+ Sentencing Mr Liddell is an interactive fiction by I-K. Huuhtanen.
+ First public release is for 17th Annual Interactive Fiction
+ Competition, 2011.
+
+ The game is loosely based on the Alice books by Lewis Carroll and
+ often quotes them, but is not an adaptation of those novels. Knowing
+ your Alices will enhance your reading experience, but is in no way
+ required to play the game.
+
+ Some useful commands:
+ MENU  access the Main Menu
+ HINT  access the Hint Menu
+ WALKTHRU  see a straightforward walkthrough for the game
+
+ If you are new to IF, you might want to take a look at the
+ 'Introduction to interactive fiction' in the Main Menu.
+
+ Sentencing Mr Liddell is written in Inform 7. The following extensions
+ are included:
+ Glulx Text Effects by Emily Short
+ Undo Output Control by Erik Temple
+ Default Messages by Ron Newcomb
+ Disambiguation Control by Jon Ingold
+ Also: the text of "Introduction to interactive fiction" is taken from
+ Basic Help Menu by Emily Short.
+
+ A great many thanks to the beta testers:
+ Pekka Oilinki
+ Anna Back
+ Elis P.
+ Mia Jonse
+
+ For any feedback, please do email the author at
+ ikscorrespondance@gmail.com
+
+
+
+
+ Please press SPACE to continue.
+
+
+    Hints
+    Walkthrough
+    Introduction to interactive fiction
+
+
+ Choose a menu item and press ENTER, or press Q to return to the game.
+>q
+ <span class="floydstyle subheader">The Liddell Hat Shop</span>
+ The walls up to the ceiling are lined with various kinds of hats. The
+ counter is stacked with miscellaneous papers and textile samples and
+ the rubbish bin is scouring with crumpled notes and order sheets.
+
+ The door outside onto the street is to the west.
+
+>inventory
+
+ You are carrying nothing.
+
+>examine hats
+
+ You notice nothing interesting about the hats.
+
+>wear hats
+
+ (first taking the hats)
+ The hats are not worth too much attention.
+
+>examine bin
+
+ The bin is scouring with crumpled paper: miscellaneous notes, order
+ confirmations, wrapping sheets, receipts. You notice your funfair
+ ticket has ended up in here.
+
+>examine papers
+
+ What do you want to examine: the invoices or the crumpled papers?
+
+>take ticket
+
+ You dig the ticket out of the bin.
+
+ "So, that's where I put it", says Uncle Marty, apologetic. "These
+ things are important to children", he continues, "funfairs and such. I
+ remember when Dermot was little... Then we get old and, before you
+ know it, everything new and unexpected becomes..." He loses the count
+ of the money. "You go now. Don't you worry about me, little Alistair.
+ You've got too much worries as it is, with the shop and the family and
+ your mother having taken ill. I know how it is with me, I do. It's not
+ every man who'd take on two such employees as me and your cousin
+ Dermot there. Your father would have been proud."
+
+ You're not too sure about that. But it's your business now. You need
+ to go.
+
+>examine invoices
+
+ Just some bills for purchased materials.
+
+ "Oh, Alistair, you don't need worry about those", says Uncle Marty, "I
+ will go through them tonight. I've got time."
+
+>examine crumpled invoices
+
+ I only understood you as far as wanting to examine the crumpled
+ papers.
+
+>examine crumpled papers
+
+ Sometimes Uncle Marty throws something important in the bin, but
+ usually it's just useless paperwaste.
+
+>take crumpled papers
+
+ Uncle Marty will take out the rubbish eventually.
+
+>examine me
+
+ You are carrying:
+   the funfair ticket
+
+>examine marty
+
+ Apparently Uncle Marty used to be quite a dashing chap, but one sad
+ March of 1961 things happened -- things that were never spoken of in
+ front of you children. Be that as it may, Marty was never the same
+ after that.
+
+>ask marty about things
+
+ Uncle Marty does not answer.
+
+>examine samples
+
+ You notice nothing interesting about the textile samples.
+
+>examine ticket
+
+ A white paper, on it the text:
+ FunFair
+ Complimentary
+ Admit 1 child 2 adults
+
+
+>look
+
+ <span class="floydstyle subheader">The Liddell Hat Shop</span>
+ The walls up to the ceiling are lined with various kinds of hats. The
+ counter is stacked with miscellaneous papers and textile samples and
+ the rubbish bin is scouring with crumpled notes and order sheets.
+
+ The door outside onto the street is to the west.
+
+>go west
+
+ (first opening the door)
+ "Tea on Sunday, as usual?" asks Uncle Marty.
+
+ Yes, as usual. Dermot has promised to get his act together after last
+ Sunday when Marty threatened to dunk his head in the teapot if he
+ dozes off again.
+
+ "See you there, then." Uncle Marty smiles and waves his hand goodbye.
+ It's like he's relieved every time you say you'll come, thought you've
+ never said no.
+
+ You step outside onto the street.
+
+ <span class="floydstyle subheader">The Street (in front of the Hat Shop)</span>
+ The sign above the door reads in bright red letters: "LIDDELL HAT
+ SHOP". The street leads down south to the riverside.The town spreads
+ all around on the hillside, the black silhouette of the Ferris wheel
+ is drawn against the red of the sky at the south-western horizon.
+
+ There's a chill in the air.
+
+ Catherine is staring at the distance, completely in her thoughts,
+ running her fingers through Liz's hair as the girl sleeps in the
+ stroller.
+
+ "There you are", your wife awakens to you arriving. She looks tired.
+ "We've been waiting for... oh, who cares. I don't feel like explaining
+ this to you any more. I've been pushing Liz around in this thing since
+ eleven o'clock. It's pretty cold, you know", Cat says.
+
+ The summer is turning into autumn. Yesterday you had noticed how the
+ cold breeze from the river travels up the hill and creeps under your
+ cardigan. You sigh and say the girls could have just come into the
+ shop to get out of the cold.
+
+ Cat gives you the same answer you've heard many times before: "You
+ know your uncle. I didn't want to him to wake up Liz."
+
+ Catherine straightens her torso and tucks her skirt. "You've got the
+ ticket? Let's go then."
+
+>smack cat
+
+ That's not a verb I recognise.
+
+>go
+
+ You'll have to say which compass direction to go in.
+
+>examine liz
+
+ A cute two-year-old: she's wearing a white dress and has a black silk
+ ribbon in her hair. Now she's asleep.
+
+>wake liz up
+
+ Cat stops you. "Don't wake her up", she whispers.
+
+>go southwest
+
+ This street leads down towards the river. West of here is a web of
+ small streets that would only lengthen your journey.
+
+>go west
+
+ This street leads down towards the river. West of here is a web of
+ small streets that would only lengthen your journey.
+
+>go down
+
+ You leave the stroller and go.
+
+ Catherine lifts her hands in the air.
+
+ "Yes, I'll push this god-awful buggy for a mile still. Clearly it's my
+ responsibility, once again."
+
+ She grabs hold of Liz's stroller and begins trotting down the hill
+ after you.
+
+ <span class="floydstyle subheader">River Walk</span>
+ The riverside walk begins here. A lonely bench stands at the at the
+ end of the walkway for the weary to rest on. A street rises up north
+ to the hills. The river runs east to west, splitting the town in half:
+ to the north, the hills, to the south, the industry and the suburbs.
+ The river walk follows the bank stretching west. The Ferris wheel is
+ visible against the western sky.
+
+ Your little bunny rabbit is still fast asleep in the stroller. Cat
+ notices the way you look at your daughter, and softens her tone of
+ voice: "She's been sleeping since we left home. Good, though: she's
+ going to need the energy."
+
+ You remember the last time you went to the funfair: how scared Liz was
+ to see her reflections in the House of Mirrors -- she thought she was
+ actually growing in all these weird directions. You mention this to
+ Catherine, and she replies: "That was a year ago. She's a big girl
+ now." A faint smile on your wife's face.
+
+ Has it really been a year already...
+
+>go west
+
+
+ <span class="floydstyle subheader">River Walk</span>
+ The walkway runs east to west along the riverside. The funfair gates
+ are ahead to the west.
+
+ Cat follows you, pushing Liz.
+
+ You stroll along the riverside, and Catherine says: "Remind me to pick
+ up some eggs on the way home. I promised your mother we would visit
+ her at the nursing home on Sunday. I said I'd bring apple tarts for
+ tea."
+
+ You tell Cat that on Sunday you're having tea at Uncle Marty's. In a
+ flash, the anger is back in Cat's eyes, but she doesn't reply.
+
+>apologize
+
+ That's not a verb I recognise.
+
+>kiss cat
+
+ Keep your mind on the game.
+
+>grovel
+
+ That's not a verb I recognise.
+
+>file for divorce
+
+ That's not a verb I recognise.
+
+>go west
+
+
+ <span class="floydstyle subheader">River Walk</span>
+ The walkway runs east to west along the riverside and ends here at the
+ funfair gates.
+
+ Cat follows you, pushing Liz.
+
+ Finally Cat says something: "Can't you spend one day with your
+ daughter and your old mother instead of those never-ending tea parties
+ with your loony uncle and good-for-nothing cousin?" she sighs.
+
+ They are counting on me, Cat.
+
+ Cat stops. "We are counting on you, Alistair! Besides, do you think
+ your mother is going to live forever? She doesn't have long, you know
+ that. Ever since your father died, you've seen how she's been waiting
+ to follow him. And Liz: she's going to grow up and leave us sooner
+ than you think."
+
+ I see you and Liz every day, Cat.
+
+ "Oh, I wonder if you ever truly see me, Alistair." Cat turns around
+ and starts pushing the stroller to the opposite direction.
+
+>follow cat
+
+ That's not a verb I recognise.
+
+>cat, come back
+
+ She is too far.
+
+ At the east end of the walkway you see Cat sitting down on a bench.
+
+>sit on bench
+
+ That is too far.
+
+>go east
+
+
+ <span class="floydstyle subheader">River Walk</span>
+ The walkway runs east to west along the riverside. The funfair gates
+ are behind you to the west.
+
+ You see your wife hasn't moved.
+
+>sit on bench
+
+ That is too far.
+
+>sit
+
+ (on the bench)
+ That is too far.
+
+>go east
+
+
+ <span class="floydstyle subheader">River Walk</span>
+ The riverside walk ends here. A lonely bench stands at the at the end
+ of the walkway for the weary to rest on. A street rises up north to
+ the hills. The river runs east to west, splitting the town in half: to
+ the north, the hills, to the south, the industry and the suburbs. The
+ river walk follows the bank stretching west. The Ferris wheel is
+ visible against the western sky.
+
+ Catherine is sitting here on the bench, covering her face with her
+ hands so that the passers-by would not see her crying. She's left the
+ stroller in the middle of the walkway.
+
+>examine stroller
+
+ In the stroller is Liz.
+
+ Catherine keeps sobbing.
+
+ The walkway slopes slightly towards the edge of the river. You notice
+ Liz's stroller has begun to slowly move.
+
+>take stroller
+
+ As you grab the stroller, it falls down the bank into the river and
+ disappears under water.
+
+ Catherine runs to the edge of the bank and is screaming, terrified:
+
+ "Liz! Alistair, do something!"
+
+ Catherine is frozen still. She stares at the water, unable to move.
+
+>enter water
+
+ You cannot swim, but that's the least of your worries now. You dive in
+ after Liz.
+>take liz
+ <span class="floydstyle subheader">Underwater</span>
+ The water is black -- even blacker than it looked like from above.
+ Briefly you think your foot hit the pebbles at the riverbed, but you
+ find out the water seems to expand indefinitely in nearly all
+ directions. There's a faint glimmer of light above you.
+
+ Suddenly you see a glimpse of a white dress, somewhere to the east.
+ You feel like shouting after your daughter but then remember you would
+ drown were you to do that.
+
+>go east
+
+ The shape of Liz disappears as you swim closer. Your feet hit the
+ bottom: smooth concrete. The water's surprisingly shallow.
+
+>take liz
+
+ You can't see any such thing.
+
+>go east
+
+ You feel the cold water aching your limbs. No sign of Liz.
+
+>find liz
+
+ That's not a verb I recognise.
+
+>go up
+
+ <span class="floydstyle subheader">Overflow Chamber</span>
+ You emerge from a pool of water. This seems to be the sewers: a
+ spacious chamber with drain tunnels leading to it from both sides. No
+ water is coming in, there's only what's left in this overflow pool
+ after last weeks storms that swept the town.
+
+ There is a train waiting by the platform on the north side of the
+ chamber. The white steam licks the curving walls as the engine is
+ being warmed.
+
+ There's Liz. She's climbed to the platform, with her white dress
+ dripping wet, and boards the train. The Guard courteously lifts his
+ cap for her. Then he pulls out a large pocket watch and blows his
+ whistle.
+
+ "All aboard!"
+
+>examine liz
+
+ You can't see any such thing.
+
+>board train
+
+ You climb onto the metal platform.
+
+ <span class="floydstyle subheader">Overflow Chamber (on the platform)</span>
+ The engine puffs and hisses as it is prepared for departure.
+
+>board train
+
+ <span class="floydstyle subheader">Vestibule</span>
+ You step into a small space at the end of the train. Oak panelled
+ walls are dark, the linoleum on the floor is worn-down. A corridor
+ leads east from here, the door outside is to the south.
+
+ The Guard takes a last look from the steps and jumps aboard. The train
+ begins to move.
+
+ Your daughter is nowhere to be seen. The Guard surely knows something.
+ The man doesn't seem too helpful, though, standing here and sizing you
+ with his eyes from head to tow.
+
+ "Ticket, please."
+
+ Then he coughs, as to be polite.
+
+>examine ticket
+
+ A white paper, on it the text:
+ FunFair
+ Complimentary
+ Admit 1 child 2 adults
+
+
+>give ticket to man
+
+ The Guard takes the piece of paper. His whiskers tremble a bit.
+
+ "Thank you, sir."
+
+ The Guard keeps shaking his head for a while to show his overall
+ disapproval of you being here, and then says: "Be sure to have the
+ ticket ready. You never know when I'll be back to inspect it."
+
+ The man takes off to the eastern corridor and disappears through a
+ compartment door at the end of it.
+
+>examine liz
+
+ You can't see any such thing.
+
+>go east
+
+
+ <span class="floydstyle subheader">Corridor</span>
+ You don't see Liz. The corridor extends east from the vestibule to a
+ door at the west. Another door leads south. The lamps on the wall shed
+ a dim yellow light.
+
+>examine lamps
+
+ Small sconces with opaque shades.
+
+>examine e
+
+ You see nothing unexpected in that direction.
+
+>go south
+
+ (first opening the door to a private compartment)
+
+ <span class="floydstyle subheader">Private Compartment</span>
+ Liz doesn't seem to be here. You can smell the dust in the air. The
+ room is dark: the small skylight above is so blackened with coal dust
+ is doesn't let in much light.
+
+ The door swings closed behind you, as these train doors are designed
+ to do.
+
+ Mr Larvington -- ?
+
+ Slouching behind a huge oak desk is your old school teacher Mr
+ Larvington, smoking a hookah.
+
+ "Yes, u-hum, I shall take the roll", mutters Mr Larvington, "Leo
+ Liddell?" He takes a look around, as do you. "No? Excellent. Alistair
+ Liddell?"
+
+ He sees you. "Alistair, still not showing up in time."
+
+ You point out that Leo is even more late.
+
+ Mr Larvington sucks his pipe as a deliberate gesture and explains:
+ "Exactly, Mr Liddell. And look at you still: trying to squeal on your
+ brother, you little pig."
+
+ As always, Leo gets the royal treatment and you get scolded, no matter
+ what you do. That obnoxious bully.
+
+ "But now, young Liddell: let's see your paper", says Mr Larvington and
+ holds out his hand demandingly.
+
+>inventory
+
+ You are carrying:
+   the train ticket
+
+ Your Teacher looks at you amidst the smoke. "You do have the paper, Mr
+ Liddell, do you not?"
+
+>teacher, our dog ate it
+
+ Mr Larvington does not reply. Perhaps it would be better to ask about
+ something.
+
+ Mr Larvington is looking impatient.
+
+>ask larvington about paper
+
+ Mr Larvington does not answer.
+
+>ask teacher about paper
+
+ Mr Larvington does not answer.
+
+ "The paper, Mr Liddell."
+
+>ask teacher about liz
+
+ Mr Larvington does not answer.
+
+ Mr Larvington lays his hookah on the desk and says: "You haven't
+ forgotten it, have you? We've talked about this, Mr Liddell."
+
+>go north
+
+ (first opening the door)
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor extends east from the vestibule to a door at the west. Mr
+ Larvington's private compartment is to the south.
+
+ You hear Mr Larvington yelling behind the door: "So, you think you can
+ just run off? Show some respect, Liddell!"
+
+>go east
+
+ (first opening the door to the east)
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ Liz is nowhere to be seen. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. There lies your Mother, hardly visible from under
+ her thick red quilt.
+
+ Mummy? Really?
+
+ "Alistair, are you skipping school again? Come and take care of your
+ responsibilities. I'm too old and tired for this."
+
+ As you cautiously step closer, you see Mother is trying to hold down a
+ little Piglet wriggling and squealing horrendously under the quilt.
+
+ "I'm trying to knit a sweater for her, but the ungrateful little
+ bastard won't wear it, and now she will not stop screaming."
+
+>examine piglet
+
+ Small and squiggly. There's something very familiar about the animal.
+
+ Mummy lifts the loud pig from under the covers.
+
+ "Your responsibility!"
+
+>take piglet
+
+ You grab hold of the wriggling animal. It tries to bite you -- then
+ again, your Mother would have tried that, too, and most certainly
+ succeeded, had you not relieved her of this burden.
+
+ "Now, make it shut up. You see: this is what happens when you don't
+ give them a proper upbringing", says Mummy, holding her ears.
+
+>ask mummy about piglet
+
+ Mother does not answer.
+
+ The animal is so very loud you can hardly hear your own thoughts. What
+ am I supposed to do with this?
+
+ "Don't look at me", your Mother says, "that's your problem."
+
+>spank piglet
+
+ That's not a verb I recognise.
+
+>shake piglet
+
+ That's not a verb I recognise.
+
+>examine quilt
+
+ You notice nothing interesting about the quilt.
+
+>take guilt
+
+ You can't see any such thing.
+
+>examine mom
+
+ Your Mother is a frail old woman.
+
+ Mummy tries to sit up in her bed, but immediately slumps back down on
+ the mattress.
+
+ "Oh, just hit it, for goodness' sake!"
+
+ But it's so tiny.
+
+ You feel someone grabbing your shoulder from behind. It's your brother
+ Leo, who leans over to poke at the Piglet.
+
+ "What's the matter, Alice?" he says to you and laughs as the Piglet
+ gets more scared, "has your baby turned into a swine?"
+
+ Mum, tell him not to!
+
+ "Don't be such a girl, Alistair. Hit it. Your brother would."
+
+ Leo starts trolling:
+
+ <span class="floydstyle u1">Hush-a-by baby, in Alice's lap!</span>
+ <span class="floydstyle u1">Till the tea's ready, there's time for a nap:</span>
+ <span class="floydstyle u1">When the tea's over, we'll go to war -</span>
+ <span class="floydstyle u1">And now I shall beat you 'till you're achy and sore!</span>
+
+ Your brother adverts his frustration from the pig to you and starts
+ punching your arm. "Hit it, Alice, hit it! I would."
+
+>hit leo
+
+ You defend yourself, for once, but Leo just laughs. He does stop
+ hitting you, nonetheless.
+
+>hit piglet
+
+ You smack the tiny Piglet in the face. It immediately goes silent,
+ stares at you with its frightened eyes and then, fearing for its
+ <span class="floydstyle em">life</span>, flees your violent grip.
+
+ Liz!
+
+ You now see it is your little daughter running away from you, not a
+ pig. A quick glimpse of her white dress as she dissappears into the
+ vestibule in the east end of the car.
+
+ "O-oh!" says Leo, grinning.
+
+ Mother laughs from the bed: "Come on, don't look so shocked, Alistair.
+ It's not like you've never done that before... And, like I always used
+ to say:
+
+ <span class="floydstyle u1">Speak roughly to your little boy,</span>
+ <span class="floydstyle u1">And beat him when he sneezes:</span>
+ <span class="floydstyle u1">He only does it to annoy,</span>
+ <span class="floydstyle u1">because he know it teases!</span>
+
+ And look at you and your brother now: you turned out just fine.
+
+>examine liz
+
+ You can't see any such thing.
+
+>go east
+
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a door
+ leading outside and another through the gangway to the next carriage.
+ The passanger compartment extends from here to the west. There's small
+ placard of some sort on the gangway entrance. There's a door leading
+ outside, but it's locked.
+
+>examine placard
+
+ It says "Private Party" in fancy letters.
+
+>open door
+
+ What do you want to open: the gangway or the door leading outside?
+
+>open outside door
+
+ In general, the train doors won't open.
+
+>out
+
+ (first opening the door leading outside)
+ It seems to be locked.
+
+>go east
+
+ (first opening the gangway door)
+ It won't open.
+
+>look
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a gangway
+ leading to the next carriage. The passanger compartment extends from
+ here to the west. There's a door leading outside, but it's locked.
+
+>go west
+
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother. The Piglet's sweater
+ is on the bed, unfinished: you see the red yarn in the knitting basket
+ on the floor.
+
+>take yarn
+
+ The ball of yarn is not worth too much attention.
+
+>examine basket
+
+ In the knitting basket are the scissors, a ball of yarn and some
+ needles.
+
+>take basket
+
+ The knitting basket is not worth too much attention.
+
+>examine scissors
+
+ They look sharp.
+
+>take scissors
+
+ You take the scissors.
+
+>take needles
+>take needles
+
+ The needles are not worth too much attention.
+
+
+ The needles are not worth too much attention.
+
+>examine needles
+
+ You notice nothing interesting about the needles.
+
+>examine sweater
+
+ Unfinished. The red wool is the itchy kind.
+
+>examine bed
+
+ On the bed are a quilt and a sweater.
+
+>examine quilt
+
+ You notice nothing interesting about the quilt.
+
+>go west
+
+ (first opening the door to the corridor)
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south. The
+ lamps on the wall shed a dim yellow light.
+
+>go west
+
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here. There's a door leading outside, but it's locked.
+
+>examine door
+
+ You notice nothing interesting about the train door.
+
+>open door with scissors
+
+ That doesn't seem to be something you can unlock.
+
+>inventory
+
+ You are carrying:
+   the scissors
+   the train ticket
+
+>examine scissors
+
+ They look sharp.
+
+>go west
+
+ You can't go in that direction. A corridor runs east from here.
+
+>examine door
+
+ You notice nothing interesting about the train door.
+
+>look
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+>open door
+
+ It seems to be locked.
+
+>go south
+
+ (first opening the door leading outside)
+ It seems to be locked.
+
+>go west
+
+ You can't go in that direction. A corridor runs east from here.
+
+>go north
+
+ You can't go in that direction. A corridor runs east from here.
+
+>go east
+
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south.
+
+>go north
+
+ You can't go in that direction. The corridor leads east to the
+ passenger compartment and ends at the vestibule in the west. Mr
+ Larvington's private compartment is to the south.
+
+>stab me with scissors
+
+ That's not a verb I recognise.
+
+>scissor me
+
+ That's not a verb I recognise.
+
+>cut me with scissors
+
+ That will get you nowhere.
+
+>cut yarn with scissors
+
+ You can't see any such thing.
+
+>go east
+
+ (first opening the the passenger compartment door)
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother. The Piglet's sweater
+ is on the bed, unfinished: you see the red yarn in the knitting basket
+ on the floor.
+
+>cut yarn
+
+ The ball of yarn is not worth too much attention.
+
+>look under bed
+
+ You find nothing of interest.
+
+>examine seats
+
+ You notice nothing interesting about the benches.
+
+>cut sweater with scissors
+
+ That will get you nowhere.
+
+>look under benches
+
+ You find nothing of interest.
+
+>cut quilt with scissors
+
+ The quilt is not worth too much attention.
+
+>ask mummy about paper
+
+ Mother does not answer.
+
+>ask mummy about leo
+
+ Mother does not answer.
+
+>examine leo
+
+ Your brother is taller than you -- and stronger and meaner.
+
+>look
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother. The Piglet's sweater
+ is on the bed, unfinished: you see the red yarn in the knitting basket
+ on the floor.
+
+>open shutters
+
+ What do you want to open: the shutters in the north windows or the
+ shutters in the south windows?
+
+>go north
+
+ "Oh, my eyes!" your Mother cries from the bed. "Leave the shutters
+ closed!"
+
+>open south shutters
+
+ "Oh, my eyes!" your Mother cries from the bed. "Leave the shutters
+ closed!"
+
+>look
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother. The Piglet's sweater
+ is on the bed, unfinished: you see the red yarn in the knitting basket
+ on the floor.
+
+>examine shutters
+
+ What do you want to examine: the shutters in the north windows or the
+ shutters in the south windows?
+
+>examine south
+
+ What do you want to examine: the windows to the south or the shutters
+ in the south windows?
+
+>examine south shutters
+
+ You notice nothing interesting about the shutters in the south
+ windows.
+
+>open south window
+
+ The train windows don't open. Only the shutters can be opened and
+ closed.
+
+>break south window
+
+ Little good would it do you breaking the glass. The shutters would
+ stay in place nonetheless.
+
+>examine paper
+
+ A white paper, on it the text:
+ FunFair
+ Complimentary
+ Admit 1 child 2 adults
+
+
+>go west
+
+ (first opening the door to the corridor)
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south. The
+ lamps on the wall shed a dim yellow light.
+
+>go south
+
+ (first opening the door to a private compartment)
+
+ <span class="floydstyle subheader">Class Room</span>
+ The room is dark: the blackened skylight lets in only a faint
+ suggestion of light. Mr Larvington slouches behind the desk, smoking
+ his pipe.
+
+ Mr Larvington is waiting for you. "So, you decided to drop back at
+ your house and fetch the paper, did you, Mr Liddell? It better be one
+ damn fine essay, it better."
+
+ Your Teacher leans toward you. "Do I have to make you write 'I will
+ not disobey in the matters of paper' a hundred times? Enough with
+ these antics."
+
+>give ticket to teacher
+
+ The Teacher pulls the paper from your hand and gives it a good long
+ look. "You haven't put any words down? Of course it's early on, but
+ you ought have at least something."
+
+ You don't even know what the subject is supposed to be -- how are you
+ to write a paper?
+
+ "Precisely that, Mr Liddell", says Mr Larvington, "the subject of the
+ paper is 'What is the Subject?' How difficult can that be? The
+ <span class="floydstyle em">words</span> will come to you, if you just listen. Don't you know
+ that the meaning of things always comes from the outside, it is only
+ the meaningfulness of them that you get to judge for yourself. Or do
+ you still think this is just about you, poor little Alistair Liddell?"
+
+ He returns the paper to you and also gives you a pen -- he ventures a
+ guess that you have probably lost your own. "You run along, now."
+
+>examine pen
+
+ Writes black.
+
+ Mr Larvington turns his attention to the smoke that twirls upon the
+ desk and no longer sees you.
+
+>write on paper
+
+ You prepare to write on the school assignment.
+
+>again
+
+ You prepare to write on the school assignment.
+
+>write assignment
+
+ The word "assignment" may appear to have come to you, but it is of no
+ significance.
+
+>write "invitation" on paper
+
+ The word ""invitation"" may appear to have come to you, but it is of
+ no significance.
+
+>write invite on paper
+
+ The word "invite" may appear to have come to you, but it is of no
+ significance.
+
+>write liz on paper
+
+ The word "liz" may appear to have come to you, but it is of no
+ significance.
+
+>listen
+
+ You hear nothing unexpected.
+
+>write party on paper
+
+ The word "party" may appear to have come to you, but it is of no
+ significance.
+
+>write i
+
+ The word "i" may appear to have come to you, but it is of no
+ significance.
+
+>write the party of the first part shall be known in this contract as the party of the first part
+ THE PARTY OF THE FIRST PART
+
+ Only a single word at a time, please.
+
+>go north
+
+ (first opening the door)
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south.
+
+>go east
+
+ (first opening the the passenger compartment door)
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother. The Piglet's sweater
+ is on the bed, unfinished: you see the red yarn in the knitting basket
+ on the floor.
+
+>go east
+
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a gangway
+ leading to the next carriage. The passanger compartment extends from
+ here to the west. There's a door leading outside, but it's locked.
+
+ This is where you saw Liz flee from you, but now she's gone. Instead,
+ in front of the train car door appears a figure from thin air. As it
+ takes proper shape, you see it's Catherine.
+
+ "You seem to have misplace our daughter." Cat sounds sarcastic. "Just
+ keep listening to your mother's advice, and she will run from you
+ forever."
+
+ Cat seems to be losing shape again: her body begins to fade, leaving
+ visible only her head.
+
+ The head speaks: "Since I'm here, you must want help in some matter.
+ That is why you have summoned me, isn't it? Speak, then."
+
+>speak
+
+ Perhaps it would be better to ask about something.
+
+>ask cat about liz
+
+ "I've never lost her so I wouldn't know how to find her", says Cat.
+
+>ask cat about party
+
+ Cat does not answer.
+
+>ask cat about madness
+
+ Cat does not answer.
+
+>ask cat about words
+
+ "Remember to listen to <span class="floydstyle em">us</span>", Cat replies.
+
+>listen
+
+ "I will try to help you, if there's something you need help with. That
+ is, after all, what I do in <span class="floydstyle em">life</span>", your wife says.
+
+ You hear a strange, quiet suffling sound approaching from the
+ passenger compartment.
+
+>write life
+
+ You scribble the word "<span class="floydstyle em">life</span>" on the paper.
+
+ Catherine says, in all her physical inconsistence: "I won't be here
+ forever. Speak now."
+
+ An endless queue of people dressed black arrive slowly and silently
+ from the passenger compartment and push past you into the vestibule.
+ The gangway to the east opens up, letting in one person, then closes
+ again. You see a black velvet curtain behind the door, nothing else,
+ as yet another dark traveller enters the corridor connection.
+
+>write us
+
+ You scribble the word on the school assignment in the form of
+ "<span class="floydstyle em">we</span>".
+
+ Your wife is increasingly translucent.
+
+>write words
+
+ You prepare to write on the school assignment.
+
+>listen
+
+ The feet of the people in black make that quiet suffle, otherwise they
+ are completely silent.
+
+>look
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a gangway
+ leading to the next carriage. The passanger compartment extends from
+ here to the west. There's a door leading outside, but it's locked.
+
+ The black queue of people slowly moves through the connection to the
+ next car.
+
+>listen to cat
+
+ The feet of the people in black make that quiet suffle, otherwise they
+ are completely silent.
+
+>write live
+
+ You scribble the word "<span class="floydstyle em">live</span>" on the paper.
+
+>examine paper
+
+ A white paper, on it the text:
+
+ life
+ we
+ live
+
+>go west
+
+ Cat, or what is present of her, follows by your side.
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother. The Piglet's sweater
+ is on the bed, unfinished: you see the red yarn in the knitting basket
+ on the floor.
+
+ The black ribbon slowly winds towards the vestibule in the east.
+
+>listen
+
+ The feet of the people in black make that quiet suffle, otherwise they
+ are completely silent.
+
+>examine ribbon
+
+ A black ribbon moving very slowly and silently towards the east.
+
+>show assignment to mother
+
+ Mother is unimpressed.
+
+>take ribbon
+
+ You take the queue.
+
+>inventory
+
+ You are carrying:
+   the queue
+   a pen
+   the scissors
+   the school assignment
+
+>cut queue
+
+ That will get you nowhere.
+
+>listen to mother
+
+ You hear that quiet suffle, nothing else.
+
+>cut queue with scissors
+
+ That will get you nowhere.
+
+>go east
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a gangway
+ leading to the next carriage. The passanger compartment extends from
+ here to the west. There's a door leading outside, but it's locked.
+
+ The black queue of people slowly moves through the connection to the
+ next car.
+
+>go east
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>examine placard
+
+ It says "Private Party" in fancy letters.
+
+>cut queue
+
+ That will get you nowhere.
+
+>take placard
+
+ That seems to be a part of the gangway.
+
+>examine cat
+
+ More beautiful than ever.
+
+>talk to cat
+
+ Perhaps it would be better to ask about something.
+
+>ask cat about assignment
+
+ Catherine says thinks for a while. "You have an assignment? Let me see
+ it."
+
+>show assignment to cat
+
+ Catherine takes a look at your paper.
+
+ "What is the Subject? All I know is that it isn't me: for what I've
+ become is the object of your <span class="floydstyle em">dream</span>, yours and Liz's -- I've
+ so emerged myself in <span class="floydstyle em">us</span>, that without you I seize to exist.
+ Should you not think of any more, I -- or the thing I've transformed
+ into -- would vanish into thin air. Should I be reborn after that, I
+ would certainly be something utterly different, a stranger. Though,
+ for myself, I've been a stranger for years now, and what once was, I
+ fear, is forever lost to me."
+
+ Her head looks to be fading: it's only her body that's visible to you
+ now.
+
+ "So, I think the real question is: What is the Object?"
+
+>write dream
+
+ You scribble the word "<span class="floydstyle em">dream</span>" on the paper.
+
+>show assignment to cat
+
+ Cat's body replies: "Think of <span class="floydstyle em">us</span> when you think of yourself."
+
+>show assignment to cat
+
+ Cat's body replies: "Think of <span class="floydstyle em">us</span> when you think of yourself."
+
+>think about us
+
+ I only understood you as far as wanting to think.
+
+>think
+
+ What a good idea.
+
+>think of us
+
+ I only understood you as far as wanting to think.
+
+>write us
+
+ You have already written down this word in the form of "<span class="floydstyle em">we</span>".
+
+>ask cat about larvington
+
+ Cat's body replies: "Think of <span class="floydstyle em">us</span> when you think of yourself."
+
+>ask cat about object
+
+ Cat does not answer.
+
+>ask cat about us
+
+ Cat does not answer.
+
+>ask cat about subject
+
+ Cat's body replies: "Think of <span class="floydstyle em">us</span> when you think of yourself."
+
+>think of us
+
+ I only understood you as far as wanting to think.
+
+>think
+
+ What a good idea.
+
+>think of me
+
+ I only understood you as far as wanting to think.
+
+>think about cat
+
+ I only understood you as far as wanting to think.
+
+>examine paper
+
+ A white paper, on it the text:
+
+ life
+ we
+ live
+ dream
+
+>SAVE
+>cf2
+ %% Enter a save filename to write:
+
+>cut paper
+
+ Never know when you're going to need the school assignment.
+
+>go south
+
+ (first opening the door leading outside)
+ It seems to be locked.
+
+>go west
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother. The Piglet's sweater
+ is on the bed, unfinished: you see the red yarn in the knitting basket
+ on the floor.
+
+ The black ribbon slowly winds towards the vestibule in the east.
+
+>go west
+
+ (first opening the door to the corridor)
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south. The
+ lamps on the wall shed a dim yellow light.
+
+ The queue moves slowly east.
+
+>go south
+
+ (first opening the door to a private compartment)
+ Cat follows.
+
+ <span class="floydstyle subheader">Private Compartment</span>
+ The room is dark: the blackened skylight lets in only a faint
+ suggestion of light. Mr Larvington slouches behind the desk, smoking
+ his pipe.
+
+>show paper to larvington
+
+ "Never return an unfinished paper, Mr Liddell", says your Teacher and
+ dismisses you.
+
+>close door
+
+ That's already closed.
+
+>ask larvington about assignment
+
+ Mr Larvington pays no attention to you.
+
+>ask cat about liz
+
+ "It is your responcibility now."
+
+>ask cat about dream
+
+ Cat does not answer.
+
+>examine pen
+
+ Writes black.
+
+>ask cat about paper
+
+ Cat's body replies: "Think of <span class="floydstyle em">us</span> when you think of yourself."
+
+>listen to cat
+
+ You hear that quiet suffle, nothing else.
+
+>ask cat about mother
+
+ "Just keep listening to her, and Liz will always run from you."
+
+>ask cat about leo
+
+ "Finally!" your wife laughs, "it took you this long to stand up for
+ yourself. I bet you had <span class="floydstyle em">dreamed</span> of beating him all your
+ <span class="floydstyle em">life</span>."
+
+>ask cat about livington
+
+ Cat does not answer.
+
+>ask cat about larvington
+
+ Cat's body replies: "Think of <span class="floydstyle em">us</span> when you think of yourself."
+
+>write dreamed on paper
+
+ You have already written down this word in the form of
+ "<span class="floydstyle em">dream</span>".
+
+>ask cat about cat
+
+ Cat does not answer.
+
+>ask cat about me
+
+ Cat does not answer.
+
+>ask cat about uncle
+
+ "Well, that is important", answers Cat dryly, "having tea -- oh, boy
+ that's the way to <span class="floydstyle em">live</span>. I'm sure your uncle and cousin are
+ eagerly waiting for you to join the fun."
+
+>ask cat about love
+
+ Cat does not answer.
+
+>cat, I love you
+
+ Cat does not reply. Perhaps it would be better to ask about something.
+
+>ask cat about fair
+
+ Cat does not answer.
+
+>dance
+
+ That's not a verb I recognise.
+
+>ask cat about father
+
+ "He's been dead for ages and still he haunts you. I wish you could
+ just let go and <span class="floydstyle em">live</span> your own <span class="floydstyle em">life</span>."
+
+>ask cat about mother
+
+ "Just keep listening to her, and Liz will always run from you."
+
+>ask cat about cat
+
+ Cat does not answer.
+
+>ask cat about train
+
+ Cat does not answer.
+
+>ask cat about me
+
+ Cat does not answer.
+
+>ask cat about family
+
+ Cat does not answer.
+
+>ask cat about cat
+
+ Cat does not answer.
+
+>ask cat about hats
+
+ Cat does not answer.
+
+>examine paper
+
+ A white paper, on it the text:
+
+ life
+ we
+ live
+ dream
+
+>write words on paper
+
+ You prepare to write on the school assignment.
+
+>ask cat about queue
+
+ Cat does not answer.
+
+>ask cat about stroller
+
+ Cat does not answer.
+
+>ask cat about job
+
+ Cat does not answer.
+
+>ask cat about love
+
+ Cat does not answer.
+
+>write the on paper
+
+ You prepare to write on the school assignment.
+
+>write dance
+
+ The word "dance" may appear to have come to you, but it is of no
+ significance.
+
+>examine body
+
+ More beautiful than ever.
+
+>examine me
+
+ You are carrying:
+   a pen
+   the queue
+   the scissors
+   the school assignment
+
+>examine queue
+
+ A black ribbon moving very slowly and silently towards the east.
+
+>wear ribbon
+
+ You can't wear that!
+
+>listen to ribbon
+
+ You hear that quiet suffle, nothing else.
+
+>tie ribbon
+
+ What do you want to tie the queue to?
+
+>listen to larvington
+
+ Mr Larvington pays no attention to you.
+
+>tie ribbon to hair
+
+ You can't see any such thing.
+
+>tie ribbon around the ole oak tree
+
+ I didn't understand that sentence.
+
+>give ribbon to cat
+
+ Cat doesn't seem interested.
+
+>go north
+
+ (first opening the door)
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south.
+
+ The queue moves slowly east.
+
+>go west
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ The queue lengthens as new people arrive from the door.
+
+>drop queue
+
+ Dropped.
+
+>go south
+
+ (first opening the door leading outside)
+ It seems to be locked.
+
+>go west
+
+ You can't go in that direction. A corridor runs east from here.
+
+>go north
+
+ You can't go in that direction. A corridor runs east from here.
+
+>stand on queue
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>stand on end of queue
+
+ You can't see any such thing.
+
+>kiss cat
+
+ Keep your mind on the game.
+
+>ask cat about work
+
+ Cat does not answer.
+
+>ask cat about play
+
+ Cat does not answer.
+
+>look
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ You can see the queue here.
+
+ A dark figure after another joins the line: men, women, people of all
+ ages, in shared silence.
+
+>hint
+
+
+    What to do with your wife
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+>examine cat
+
+
+    What to do with your wife
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+
+
+ 1/4   There's always something interesting going on in private
+ parties.
+
+
+ Press SPACE to return to the Hint Menu or H to reveal another hint.
+>q
+>hint
+
+
+ 1/4   There's always something interesting going on in private
+ parties.
+ 2/4   There's no cutting in line.
+
+
+ Press SPACE to return to the Hint Menu or H to reveal another hint.
+
+
+    What to do with your wife
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+>press n
+
+
+    What to do with your wife
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+>press n
+
+
+    What to do with your wife
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+>go north
+
+
+    Where next
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+
+
+ 1/4   You can ask Cat about what ever you like.
+
+
+ Press SPACE to return to the Hint Menu or H to reveal another hint.
+>h
+
+
+ 1/4   You can ask Cat about what ever you like.
+ 2/4   The command is ASK CAT ABOUT [something].
+
+
+ Press SPACE to return to the Hint Menu or H to reveal another hint.
+>h
+
+
+ 1/4   You can ask Cat about what ever you like.
+ 2/4   The command is ASK CAT ABOUT [something].
+ 3/4   Useful subjects for conversation might include your family
+ members and the things you've encountered so far in the story.
+
+
+ <span class="floydstyle i">Note:</span> the last hint will tell you exactly what to do. Don't
+ look it up if you want to figure it out by yourself.
+
+ Press SPACE to return to the Hint Menu or H to reveal another hint.
+>go west
+
+
+    Where next
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+>q
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ You can see the queue here.
+
+>ask cat about dermot
+
+ "Well, that is important", answers Cat dryly, "having tea -- oh, boy
+ that's the way to <span class="floydstyle em">live</span>. I'm sure your uncle and cousin are
+ eagerly waiting for you to join the fun."
+
+>examine paper
+
+ A white paper, on it the text:
+
+ life
+ we
+ live
+ dream
+
+>ask cat about scissors
+
+ Cat does not answer.
+
+>ask cat about ticket
+
+ Cat does not answer.
+
+>ask cat about party
+
+ Cat does not answer.
+
+>join queue
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>ask cat about guard
+
+ Cat does not answer.
+
+>ask cat about river
+
+ Cat does not answer.
+
+>examine queue
+
+ A black ribbon moving very slowly and silently towards the east.
+
+>examine yarn
+
+ You can't see any such thing.
+
+>examine needles
+
+ You can't see any such thing.
+
+>ask cat about me
+
+ Cat does not answer.
+
+>exits
+
+ That's not a verb I recognise.
+
+>look
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ You can see the queue here.
+
+ Some of the people glance at you as they step in, most of them don't.
+
+>go east
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south. The
+ lamps on the wall shed a dim yellow light.
+
+ The queue moves slowly east.
+
+>undo
+
+
+ [Previous turn undone.]
+
+>go west
+
+ You can't go in that direction. A corridor runs east from here.
+
+>go north
+
+ You can't go in that direction. A corridor runs east from here.
+
+>examine placard
+
+ You can't see any such thing.
+
+>go east
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south. The
+ lamps on the wall shed a dim yellow light.
+
+ The queue moves slowly east.
+
+>go east
+
+ (first opening the the passenger compartment door)
+ Cat follows.
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother. The Piglet's sweater
+ is on the bed, unfinished: you see the red yarn in the knitting basket
+ on the floor.
+
+ The black ribbon slowly winds towards the vestibule in the east.
+
+>take yarn
+
+ The ball of yarn is not worth too much attention.
+
+>take sweater
+
+ You take the sweater.
+
+>take pig
+
+ You can't see any such thing.
+
+>go east
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a gangway
+ leading to the next carriage. The passanger compartment extends from
+ here to the west. There's a door leading outside, but it's locked.
+
+ The black queue of people slowly moves through the connection to the
+ next car.
+
+>wear sweater
+
+ The sweater would not fit you.
+
+>go east
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>join queue
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>ask cat about sweater
+
+ Cat does not answer.
+
+>go east
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>go east
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>examine sweater
+
+ Unfinished. The red wool is the itchy kind.
+
+>finish sweater
+
+ You don't know how to knit.
+
+>wear sweater
+
+ The sweater would not fit you.
+
+>examine wool
+
+ You can't see any such thing.
+
+>listen
+
+ The feet of the people in black make that quiet suffle, otherwise they
+ are completely silent.
+
+>go west
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother.
+
+ The black ribbon slowly winds towards the vestibule in the east.
+
+>go west
+
+ (first opening the door to the corridor)
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south.
+
+ The queue moves slowly east.
+
+>go west
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ You can see the queue here.
+
+ More people join the queue from the door.
+
+>go west
+
+ You can't go in that direction. A corridor runs east from here.
+
+>join queue
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>join line
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>help
+
+
+    What to do with your wife
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+>go north
+
+
+    Where next
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+>h
+
+
+    Where next
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+
+
+ 1/4   You can ask Cat about what ever you like.
+ 2/4   The command is ASK CAT ABOUT [something].
+ 3/4   Useful subjects for conversation might include your family
+ members and the things you've encountered so far in the story.
+
+
+ <span class="floydstyle i">Note:</span> the last hint will tell you exactly what to do. Don't
+ look it up if you want to figure it out by yourself.
+
+
+ Press SPACE to return to the Hint Menu or H to reveal another hint.
+>h
+
+
+ 1/4   You can ask Cat about what ever you like.
+ 2/4   The command is ASK CAT ABOUT [something].
+ 3/4   Useful subjects for conversation might include your family
+ members and the things you've encountered so far in the story.
+ 4/4   Some examples on what you could ask Cat about: school
+ assignment, Liz, tea party, Mother, Father, Cat.
+
+
+ Press SPACE to return to the Hint Menu.
+>q
+
+
+    Where next
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+>q
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ You can see the queue here.
+
+>ask cat about tea party
+
+ "Well, that is important", answers Cat dryly, "having tea -- oh, boy
+ that's the way to <span class="floydstyle em">live</span>. I'm sure your uncle and cousin are
+ eagerly waiting for you to join the fun."
+
+>ask cat about school assignment
+
+ Cat's body replies: "Think of <span class="floydstyle em">us</span> when you think of yourself."
+
+>ask cat about catherine
+
+ "This is not about me and not about you -- this is about all of
+ <span class="floydstyle em">us</span>", she says.
+
+>erase paper
+
+ That's not a verb I recognise.
+
+>eat paper
+
+ That's plainly inedible.
+
+>cross out words
+
+ You can't see any such thing.
+
+>cut paper
+
+ Never know when you're going to need the school assignment.
+
+>go east
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south. The
+ lamps on the wall shed a dim yellow light.
+
+ The queue moves slowly east.
+
+>go south
+
+ (first opening the door to a private compartment)
+ Cat follows.
+
+ <span class="floydstyle subheader">Private Compartment</span>
+ The room is dark: the blackened skylight lets in only a faint
+ suggestion of light. Mr Larvington slouches behind the desk, smoking
+ his pipe.
+
+>show assignment to larvington
+
+ "Never return an unfinished paper, Mr Liddell", says your Teacher and
+ dismisses you.
+
+>listen
+
+ You hear that quiet suffle, nothing else.
+
+>write a on paper
+
+ You prepare to write on the school assignment.
+
+>ask larvington about object
+
+ Mr Larvington pays no attention to you. "Just keep working on that
+ paper, Mr Liddell."
+ .
+
+>examine paper
+
+ A white paper, on it the text:
+
+ life
+ we
+ live
+ dream
+
+>examine pipe
+
+ You notice nothing interesting about the hookah.
+
+>hit larvington
+
+ That will get you nowhere. "Just keep working on that paper, Mr
+ Liddell."
+
+>hit cat
+
+ That will get you nowhere.
+
+>smoke hookah
+
+ That's not a verb I recognise.
+
+>use hookah
+
+ That's not a verb I recognise.
+
+>show sweater to larvington
+
+ Mr Larvington pays no attention to you.
+
+>cut sweater
+
+ That will get you nowhere.
+
+>cut wool
+
+ You can't see any such thing.
+
+>hint
+
+
+    What to do with your wife
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+
+
+ 1/4   There's always something interesting going on in private
+ parties.
+ 2/4   There's no cutting in line.
+
+
+ Press SPACE to return to the Hint Menu or H to reveal another hint.
+>h
+
+
+ 1/4   There's always something interesting going on in private
+ parties.
+ 2/4   There's no cutting in line.
+ 3/4   Get in line and wait for your turn.
+
+
+ <span class="floydstyle i">Note:</span> the last hint will tell you exactly what to do. Don't
+ look it up if you want to figure it out by yourself.
+
+ Press SPACE to return to the Hint Menu or H to reveal another hint.
+>h
+
+
+ 1/4   There's always something interesting going on in private
+ parties.
+ 2/4   There's no cutting in line.
+ 3/4   Get in line and wait for your turn.
+ 4/4   To join the queue, go to the vestibule at the west end of the
+ train. Join the line and move with it through the car to the next
+ vestibule. Now it's your turn to go in.
+
+
+ Press SPACE to return to the Hint Menu.
+>inventory
+
+
+    What to do with your wife
+
+
+ Choose a goal and press ENTER to show hints, or press Q to exit the
+ Hint Menu.
+>q
+ <span class="floydstyle subheader">Private Compartment</span>
+ The room is dark: the blackened skylight lets in only a faint
+ suggestion of light. Mr Larvington slouches behind the desk, smoking
+ his pipe.
+
+>go south
+
+ You can't go in that direction. The door is to the north.
+
+>go north
+
+ (first opening the door)
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south.
+
+ The queue moves slowly east.
+
+>take queue
+
+ You take the queue.
+
+>go west
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ You can see the queue here.
+
+ More people join the queue from the door.
+
+>join queue
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>drop queue
+
+ Dropped.
+
+>look
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ You can see two queues here.
+
+ More people join the queue from the door.
+
+>examine door
+
+ You notice nothing interesting about the train door.
+
+>take queue
+
+ You take the queue.
+
+>look
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ You can see the queue here.
+
+ More people join the queue from the door.
+
+>go east
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south. The
+ lamps on the wall shed a dim yellow light.
+
+ The queue moves slowly east.
+
+>go east
+
+ (first opening the the passenger compartment door)
+ Cat follows.
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother.
+
+ The black ribbon slowly winds towards the vestibule in the east.
+
+>drop queue
+
+ Dropped.
+
+>go east
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a gangway
+ leading to the next carriage. The passanger compartment extends from
+ here to the west. There's a door leading outside, but it's locked.
+
+ The black queue of people slowly moves through the connection to the
+ next car.
+
+>go west
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother.
+
+ You can see the queue here.
+
+ The black ribbon slowly winds towards the vestibule in the east.
+
+>go west
+
+ (first opening the door to the corridor)
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south.
+
+ The queue moves slowly east.
+
+>go west
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ You can see the queue here.
+
+ More people join the queue from the door.
+
+>join queue
+
+ The people in queue look at you angrily as you try to cut in line.
+
+>SAVE
+>cf3
+ %% Enter a save filename to write:
+
+>restore
+ %% Enter a save filename to read:
+>cf2
+ Ok.
+
+>restart
+
+ Are you sure you want to restart?
+>yes
+
+
+
+ Closing time. You have just finished going through the invoices, and
+ Uncle Marty is counting the register. Cousin Dermot is hunched over
+ the counter, asleep.
+
+ "You go, Alistair", Uncle Marty says, "us two will lock up. Don't want
+ to keep the wife waiting, do you?"
+
+ You are going to the funfair. You promised Catherine.
+
+ The clock strikes six: you are late, once more.
+
+ <span class="floydstyle header">Sentencing Mr Liddell</span>
+ An Interactive Fiction by I-K. Huuhtanen
+ Release 1 / Serial number 111001 / Inform 7 build 6G60 (I6/v6.32 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">The Liddell Hat Shop</span>
+ Just a small business, but it's yours. Founded by your late father
+ some forty years ago, it still offers a wide range of headgear for
+ discerning gentlemen, all crafted by hand. The walls up to the ceiling
+ are lined with top hats and bowlers, fedoras and homburgs, panamas and
+ boaters. At the moment, at the end of the day, the space a bit untidy,
+ with the counter stacked with miscellaneous papers and textile samples
+ and the rubbish bin scouring with crumpled notes and order sheets.
+ Marty promises to tidy up.
+
+ The door outside onto the street is to the west.
+
+
+ [If this is your first time playing 'Sentencing Mr Liddell', type MENU
+ to learn more about the game.]
+
+>examine bin
+
+ The bin is scouring with crumpled paper: miscellaneous notes, order
+ confirmations, wrapping sheets, receipts. You notice your funfair
+ ticket has ended up in here.
+
+>take ticket
+
+ You dig the ticket out of the bin.
+
+ "So, that's where I put it", says Uncle Marty, apologetic. "These
+ things are important to children", he continues, "funfairs and such. I
+ remember when Dermot was little... Then we get old and, before you
+ know it, everything new and unexpected becomes..." He loses the count
+ of the money. "You go now. Don't you worry about me, little Alistair.
+ You've got too much worries as it is, with the shop and the family and
+ your mother having taken ill. I know how it is with me, I do. It's not
+ every man who'd take on two such employees as me and your cousin
+ Dermot there. Your father would have been proud."
+
+ You're not too sure about that. But it's your business now. You need
+ to go.
+
+>go west
+
+ (first opening the door)
+ "Tea on Sunday, as usual?" asks Uncle Marty.
+
+ Yes, as usual. Dermot has promised to get his act together after last
+ Sunday when Marty threatened to dunk his head in the teapot if he
+ dozes off again.
+
+ "See you there, then." Uncle Marty smiles and waves his hand goodbye.
+ It's like he's relieved every time you say you'll come, thought you've
+ never said no.
+
+ You step outside onto the street.
+
+ <span class="floydstyle subheader">The Street (in front of the Hat Shop)</span>
+ The sign above the door reads in bright red letters: "LIDDELL HAT
+ SHOP". The street leads down south to the riverside.The town spreads
+ all around on the hillside, the black silhouette of the Ferris wheel
+ is drawn against the red of the sky at the south-western horizon.
+
+ There's a chill in the air.
+
+ Catherine is staring at the distance, completely in her thoughts,
+ running her fingers through Liz's hair as the girl sleeps in the
+ stroller.
+
+ "There you are", your wife awakens to you arriving. She looks tired.
+ "We've been waiting for... oh, who cares. I don't feel like explaining
+ this to you any more. I've been pushing Liz around in this thing since
+ eleven o'clock. It's pretty cold, you know", Cat says.
+
+ The summer is turning into autumn. Yesterday you had noticed how the
+ cold breeze from the river travels up the hill and creeps under your
+ cardigan. You sigh and say the girls could have just come into the
+ shop to get out of the cold.
+
+ Cat gives you the same answer you've heard many times before: "You
+ know your uncle. I didn't want to him to wake up Liz."
+
+ Catherine straightens her torso and tucks her skirt. "You've got the
+ ticket? Let's go then."
+
+>go southwest
+
+ This street leads down towards the river. West of here is a web of
+ small streets that would only lengthen your journey.
+
+>go down
+
+ You leave the stroller and go.
+
+ Catherine lifts her hands in the air.
+
+ "Yes, I'll push this god-awful buggy for a mile still. Clearly it's my
+ responsibility, once again."
+
+ She grabs hold of Liz's stroller and begins trotting down the hill
+ after you.
+
+ <span class="floydstyle subheader">River Walk</span>
+ The riverside walk begins here. A lonely bench stands at the at the
+ end of the walkway for the weary to rest on. A street rises up north
+ to the hills. The river runs east to west, splitting the town in half:
+ to the north, the hills, to the south, the industry and the suburbs.
+ The river walk follows the bank stretching west. The Ferris wheel is
+ visible against the western sky.
+
+ Your little bunny rabbit is still fast asleep in the stroller. Cat
+ notices the way you look at your daughter, and softens her tone of
+ voice: "She's been sleeping since we left home. Good, though: she's
+ going to need the energy."
+
+ You remember the last time you went to the funfair: how scared Liz was
+ to see her reflections in the House of Mirrors -- she thought she was
+ actually growing in all these weird directions. You mention this to
+ Catherine, and she replies: "That was a year ago. She's a big girl
+ now." A faint smile on your wife's face.
+
+ Has it really been a year already...
+
+>go west
+
+
+ <span class="floydstyle subheader">River Walk</span>
+ The walkway runs east to west along the riverside. The funfair gates
+ are ahead to the west.
+
+ Cat follows you, pushing Liz.
+
+ You stroll along the riverside, and Catherine says: "Remind me to pick
+ up some eggs on the way home. I promised your mother we would visit
+ her at the nursing home on Sunday. I said I'd bring apple tarts for
+ tea."
+
+ You tell Cat that on Sunday you're having tea at Uncle Marty's. In a
+ flash, the anger is back in Cat's eyes, but she doesn't reply.
+
+>go west
+
+
+ <span class="floydstyle subheader">River Walk</span>
+ The walkway runs east to west along the riverside and ends here at the
+ funfair gates.
+
+ Cat follows you, pushing Liz.
+
+ Finally Cat says something: "Can't you spend one day with your
+ daughter and your old mother instead of those never-ending tea parties
+ with your loony uncle and good-for-nothing cousin?" she sighs.
+
+ They are counting on me, Cat.
+
+ Cat stops. "We are counting on you, Alistair! Besides, do you think
+ your mother is going to live forever? She doesn't have long, you know
+ that. Ever since your father died, you've seen how she's been waiting
+ to follow him. And Liz: she's going to grow up and leave us sooner
+ than you think."
+
+ I see you and Liz every day, Cat.
+
+ "Oh, I wonder if you ever truly see me, Alistair." Cat turns around
+ and starts pushing the stroller to the opposite direction.
+
+>go east
+
+
+ <span class="floydstyle subheader">River Walk</span>
+ The walkway runs east to west along the riverside. The funfair gates
+ are behind you to the west.
+
+>go east
+
+
+ <span class="floydstyle subheader">River Walk</span>
+ The riverside walk ends here. A lonely bench stands at the at the end
+ of the walkway for the weary to rest on. A street rises up north to
+ the hills. The river runs east to west, splitting the town in half: to
+ the north, the hills, to the south, the industry and the suburbs. The
+ river walk follows the bank stretching west. The Ferris wheel is
+ visible against the western sky.
+
+ Catherine is sitting here on the bench, covering her face with her
+ hands so that the passers-by would not see her crying. She's left the
+ stroller in the middle of the walkway.
+
+>go east
+
+ You can't go in that direction. The walkway continues west along the
+ river. To the north, the street leads up to the hill.
+
+ Catherine keeps sobbing.
+
+ The walkway slopes slightly towards the edge of the river. You notice
+ Liz's stroller has begun to slowly move.
+
+>wait
+
+ Time passes.
+
+ Cat mumbles something you interpret as "Why did you have to spoil this
+ one, too? You can't even push the god-damn stroller."
+
+ The stroller is getting dangerously close to the river's edge.
+
+>wait
+
+ Time passes.
+
+ Suddenly Catherine cries: "Liz!"
+
+ The stroller falls down the bank into the river and disappears under
+ water.
+
+ Catherine runs to the edge  and is screaming, terrified:
+
+ "Liz! Alistair, do something!"
+
+>dive
+
+ You cannot swim, but that's the least of your worries now. You dive in
+ after Liz.
+>go east
+ <span class="floydstyle subheader">Underwater</span>
+ The water is black -- even blacker than it looked like from above.
+ Briefly you think your foot hit the pebbles at the riverbed, but you
+ find out the water seems to expand indefinitely in nearly all
+ directions. There's a faint glimmer of light above you.
+
+ Suddenly you see a glimpse of a white dress, somewhere to the east.
+ You feel like shouting after your daughter but then remember you would
+ drown were you to do that.
+
+>go up
+
+ The light above you is just as faint as before.
+
+>go east
+
+ The shape of Liz disappears as you swim closer. Your feet hit the
+ bottom: smooth concrete. The water's surprisingly shallow.
+
+>go up
+
+ <span class="floydstyle subheader">Overflow Chamber</span>
+ You emerge from a pool of water. This seems to be the sewers: a
+ spacious chamber with drain tunnels leading to it from both sides. No
+ water is coming in, there's only what's left in this overflow pool
+ after last weeks storms that swept the town.
+
+ There is a train waiting by the platform on the north side of the
+ chamber. The white steam licks the curving walls as the engine is
+ being warmed.
+
+ There's Liz. She's climbed to the platform, with her white dress
+ dripping wet, and boards the train. The Guard courteously lifts his
+ cap for her. Then he pulls out a large pocket watch and blows his
+ whistle.
+
+ "All aboard!"
+
+>go up
+
+ You climb onto the metal platform.
+
+ <span class="floydstyle subheader">Overflow Chamber (on the platform)</span>
+ The engine puffs and hisses as it is prepared for departure.
+
+>go up
+
+ <span class="floydstyle subheader">Vestibule</span>
+ You step into a small space at the end of the train. Oak panelled
+ walls are dark, the linoleum on the floor is worn-down. A corridor
+ leads east from here, the door outside is to the south.
+
+ The Guard takes a last look from the steps and jumps aboard. The train
+ begins to move.
+
+ Your daughter is nowhere to be seen. The Guard surely knows something.
+ The man doesn't seem too helpful, though, standing here and sizing you
+ with his eyes from head to tow.
+
+ "Ticket, please."
+
+ Then he coughs, as to be polite.
+
+>show ticket to man
+
+ The Guard takes the piece of paper. His whiskers tremble a bit.
+
+ "Thank you, sir."
+
+ The Guard keeps shaking his head for a while to show his overall
+ disapproval of you being here, and then says: "Be sure to have the
+ ticket ready. You never know when I'll be back to inspect it."
+
+ The man takes off to the eastern corridor and disappears through a
+ compartment door at the end of it.
+
+>go west
+
+ You can't go in that direction. A corridor runs east from here.
+
+>go east
+
+
+ <span class="floydstyle subheader">Corridor</span>
+ You don't see Liz. The corridor extends east from the vestibule to a
+ door at the west. Another door leads south. The lamps on the wall shed
+ a dim yellow light.
+
+>go south
+
+ (first opening the door to a private compartment)
+
+ <span class="floydstyle subheader">Private Compartment</span>
+ Liz doesn't seem to be here. You can smell the dust in the air. The
+ room is dark: the small skylight above is so blackened with coal dust
+ is doesn't let in much light.
+
+ The door swings closed behind you, as these train doors are designed
+ to do.
+
+ Mr Larvington -- ?
+
+ Slouching behind a huge oak desk is your old school teacher Mr
+ Larvington, smoking a hookah.
+
+ "Yes, u-hum, I shall take the roll", mutters Mr Larvington, "Leo
+ Liddell?" He takes a look around, as do you. "No? Excellent. Alistair
+ Liddell?"
+
+ He sees you. "Alistair, still not showing up in time."
+
+ You point out that Leo is even more late.
+
+ Mr Larvington sucks his pipe as a deliberate gesture and explains:
+ "Exactly, Mr Liddell. And look at you still: trying to squeal on your
+ brother, you little pig."
+
+ As always, Leo gets the royal treatment and you get scolded, no matter
+ what you do. That obnoxious bully.
+
+ "But now, young Liddell: let's see your paper", says Mr Larvington and
+ holds out his hand demandingly.
+
+>show ticket to man
+
+ The Teacher pulls the paper from your hand and gives it a good long
+ look. "You haven't put any words down? Of course it's early on, but
+ you ought have at least something."
+
+ You don't even know what the subject is supposed to be -- how are you
+ to write a paper?
+
+ "Precisely that, Mr Liddell", says Mr Larvington, "the subject of the
+ paper is 'What is the Subject?' How difficult can that be? The
+ <span class="floydstyle em">words</span> will come to you, if you just listen. Don't you know
+ that the meaning of things always comes from the outside, it is only
+ the meaningfulness of them that you get to judge for yourself. Or do
+ you still think this is just about you, poor little Alistair Liddell?"
+
+ He returns the paper to you and also gives you a pen -- he ventures a
+ guess that you have probably lost your own. "You run along, now."
+
+>write dream
+
+ You choose the school assignment as writing paper, since it seems to
+ be the only sensible option.
+
+ You scribble the word "<span class="floydstyle em">dream</span>" on the paper.
+
+ Mr Larvington turns his attention to the smoke that twirls upon the
+ desk and no longer sees you.
+
+>write life
+
+ You scribble the word "<span class="floydstyle em">life</span>" on the paper.
+
+>write live
+
+ You scribble the word "<span class="floydstyle em">live</span>" on the paper.
+
+>write us
+
+ You scribble the word on the school assignment in the form of
+ "<span class="floydstyle em">we</span>".
+
+>examine paper
+
+ A white paper, on it the text:
+
+ dream
+ life
+ live
+ we
+
+>go north
+
+ (first opening the door)
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor extends east from the vestibule to a door at the west. Mr
+ Larvington's private compartment is to the south.
+
+>go west
+
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here. There's a door leading outside, but it's locked.
+
+>examine door
+
+ You notice nothing interesting about the train door.
+
+>go east
+
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor extends east from the vestibule to a door at the west. Mr
+ Larvington's private compartment is to the south. The lamps on the
+ wall shed a dim yellow light.
+
+>go east
+
+ (first opening the door to the east)
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ Liz is nowhere to be seen. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. There lies your Mother, hardly visible from under
+ her thick red quilt.
+
+ Mummy? Really?
+
+ "Alistair, come and take care of your responsibilities. I'm too old
+ and tired for this."
+
+ As you cautiously step closer, you see Mother is trying to hold down a
+ little Piglet wriggling and squealing horrendously under the quilt.
+
+ "I'm trying to knit a sweater for her, but the ungrateful little
+ bastard won't wear it, and now she will not stop screaming."
+
+>take sweater
+
+ You take the sweater.
+
+ Mummy lifts the loud pig from under the covers.
+
+ "Your responsibility!"
+
+>take pig
+
+ You grab hold of the wriggling animal. It tries to bite you -- then
+ again, your Mother would have tried that, too, and most certainly
+ succeeded, had you not relieved her of this burden.
+
+ "Now, make it shut up. You see: this is what happens when you don't
+ give them a proper upbringing", says Mummy, holding her ears.
+
+>go west
+
+ The Piglet escapes your grip and quickly runs to the other end of the
+ compartment to hide under a seat, yet still screaming so loudly,
+ there's no mistaking where it's hiding.
+
+ (first opening the door to the corridor)
+ "I hope you didn't come to visit only to cut class, Alistair", your
+ Mother says dryly as you return to the corridor.
+
+ "But don't be late for Uncle Marty's tea party!" Leo hollers after
+ you.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south.
+
+>go east
+
+ (first opening the the passenger compartment door)
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother.
+
+ "Catch it, Alistair!" Mother shouts and points to the Piglet that's
+ running wildly between the seats.
+
+ Mummy lifts her head off the pillow with an exaggerated moan. "How
+ nice of you to bother with your old, dying mother."
+ You can hear the little Pig's cries from under a nearby seat. As you
+ step in, the animal springs out from its hiding place and begins
+ galloping around the compartment.
+
+>take pig
+
+ The little thing gets scared and louder as you manage to catch it.
+ It's desperately trying to flee, but your grip holds.
+
+ The animal is so very loud you can hardly hear your own thoughts. What
+ am I supposed to do with this?
+
+ "Don't look at me", your Mother says, "that's your problem."
+
+>hit pig
+
+ But it's so tiny...
+ You hesitate.
+
+ You feel someone grabbing your shoulder from behind. It's your brother
+ Leo, who leans over to poke at the Piglet.
+
+ "What's the matter, Alice?" he says to you and laughs as the Piglet
+ gets more scared, "has your baby turned into a swine?"
+
+ Mum, tell him not to!
+
+ "Don't be such a girl, Alistair. Hit it. Your brother would."
+
+ Leo starts trolling:
+
+ <span class="floydstyle u1">Hush-a-by baby, in Alice's lap!</span>
+ <span class="floydstyle u1">Till the tea's ready, there's time for a nap:</span>
+ <span class="floydstyle u1">When the tea's over, we'll go to war -</span>
+ <span class="floydstyle u1">And now I shall beat you 'till you're achy and sore!</span>
+
+ Your brother adverts his frustration from the pig to you and starts
+ punching your arm. "Hit it, Alice, hit it! I would."
+
+>again
+
+ You smack the tiny Piglet in the face. It immediately goes silent,
+ stares at you with its frightened eyes and then, fearing for its
+ <span class="floydstyle em">life</span>, flees your violent grip.
+
+ Liz!
+
+ You now see it is your little daughter running away from you, not a
+ pig. A quick glimpse of her white dress as she dissappears into the
+ vestibule in the east end of the car.
+
+ "O-oh!" says Leo, grinning.
+
+ Mother laughs from the bed: "Come on, don't look so shocked, Alistair.
+ It's not like you've never done that before... And, like I always used
+ to say:
+
+ <span class="floydstyle u1">Speak roughly to your little boy,</span>
+ <span class="floydstyle u1">And beat him when he sneezes:</span>
+ <span class="floydstyle u1">He only does it to annoy,</span>
+ <span class="floydstyle u1">because he know it teases!</span>
+
+ And look at you and your brother now: you turned out just fine.
+
+>go west
+
+ (first opening the door to the corridor)
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south. The
+ lamps on the wall shed a dim yellow light.
+
+>go east
+
+ (first opening the the passenger compartment door)
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother.
+
+>go east
+
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a door
+ leading outside and another through the gangway to the next carriage.
+ The passanger compartment extends from here to the west. There's small
+ placard of some sort on the gangway entrance. There's a door leading
+ outside, but it's locked.
+
+ This is where you saw Liz flee from you, but now she's gone. Instead,
+ in front of the train car door appears a figure from thin air. As it
+ takes proper shape, you see it's Catherine.
+
+ "You seem to have misplace our daughter." Cat sounds sarcastic. "Just
+ keep listening to your mother's advice, and she will run from you
+ forever."
+
+ Cat seems to be losing shape again: her body begins to fade, leaving
+ visible only her head.
+
+ The head speaks: "Since I'm here, you must want help in some matter.
+ That is why you have summoned me, isn't it? Speak, then."
+
+>show assignment to cat
+
+ Catherine takes a look at your paper.
+
+ "What is the Subject? All I know is that it isn't me: for what I've
+ become is the object of your <span class="floydstyle em">dream</span>, yours and Liz's -- I've
+ so emerged myself in <span class="floydstyle em">us</span>, that without you I seize to exist.
+ Should you not think of any more, I -- or the thing I've transformed
+ into -- would vanish into thin air. Should I be reborn after that, I
+ would certainly be something utterly different, a stranger. Though,
+ for myself, I've been a stranger for years now, and what once was, I
+ fear, is forever lost to me."
+
+ Her head looks to be fading: it's only her body that's visible to you
+ now.
+
+ "So, I think the real question is: What is the Object?"
+
+>go west
+
+ Cat, or what is present of her, follows by your side.
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother.
+
+ "I will try to help you, if there's something you need help with. That
+ is, after all, what I do in <span class="floydstyle em">life</span>", your wife says.
+
+>go west
+
+ (first opening the door to the corridor)
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south.
+
+ Catherine says, in all her physical inconsistence: "I won't be here
+ forever. Speak now."
+
+ You hear a strange, quiet suffling sound approaching from the eastern
+ vestibule.
+
+>speak to catherine
+
+ Perhaps it would be better to ask about something.
+
+>go west
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Vestibule</span>
+ A small space at the end of the train. The corridor leads east from
+ here.
+
+ Your wife is increasingly translucent.
+
+ Now you see what the sound was about: a continuous flow of people, all
+ dressed in black, arrives from the outside and continues to slowly
+ form a queue along the corridor. No one speaks a word -- there's only
+ the hushed shuffle of their feet against the linoleum.
+
+>go west
+
+ You can't go in that direction. A corridor runs east from here.
+
+ A dark figure after another joins the line: men, women, people of all
+ ages, in shared silence.
+
+>join queue
+
+ You go stand at the end of the line behind a young woman, cutting in
+ front of a young man who has just stepped in from the door. The queue
+ ahead of you moves slowly forward from the vestibule towards the
+ corridor.
+
+ Some of the people glance at you as they step in, most of them don't.
+
+>SAVE
+>cf4
+ %% Enter a save filename to write:
+
+>wait
+
+ Time passes.
+
+ The young man behind you accidently steps on your heels.
+
+>go east
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south. The
+ lamps on the wall shed a dim yellow light.
+
+ The queue runs along the corridor to the passenger compartment.
+
+>go east
+
+ (first opening the the passenger compartment door)
+ Cat follows.
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The rows of seats on two sides of the
+ compartment are empty, apart from a bed that has been laid between
+ them at the middle. In the bed lies your Mother.
+
+ The black ribbon winds towards the vestibule at the end of the
+ compartment.
+
+>go east
+
+ Cat follows.
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a gangway
+ leading to the next carriage. The passanger compartment extends from
+ here to the west. There's small placard of some sort on the gangway
+ entrance. There's a door leading outside, but it's locked.
+
+ The gangway to the east opens up, letting in one person, then closes
+ again. You see a black velvet curtain behind the door, nothing else,
+ as yet another dark traveller enters the corridor connection.
+
+ Cat begins to fade altogether.
+
+ "It's your turn, Alistair. You'd better go now..."
+
+ Catherine has disappeared from sight, but her voice lingers on to say:
+
+ "... you'll be late."
+
+ The gangway opens in front of you.
+
+>score
+
+ There is no score in this story.
+
+>go east
+ You are in almost complete darkness for those few seconds it takes you
+ to cross the gangway: only the glimpse of the rails speeding by on
+ both sides below you as you balance on the swaying bridge connecting
+ the two train cars. The noice is overwhelming.
+ The black curtain opens up into brightness.
+
+ <span class="floydstyle subheader">Funeral Car</span>
+ The Funeral Director -- a tall, bulky man wearing a tophat and a suite
+ he has outgrown many years ago -- stands at the door and bows to you.
+
+ "Let's see some identification", he whispers.
+
+>inventory
+
+ You are carrying:
+   a sweater
+   a pen
+   the school assignment
+
+>show assignment to director
+
+ You show your paper to the man. He studies it carefully, then
+ whispers: "Alright, you can go in."
+
+ The Funeral Director steps aside.
+
+ <span class="floydstyle subheader">Funeral Car</span>
+ The room is brighter than the ones earlier on: the shutters on the
+ windows are open, letting in the light from the outside. The space is
+ crowded with people dressed in black, and there are large black bows
+ of silk ribbon tied to the windowpanes. At the centre of the car sits
+ a huge mound of red poppies, blocking the view to the far end of the
+ carriage. No sign of Liz, at least not in this part of the room,
+ although you're sure this is where she must have run.
+
+ The sombrely-attired people seem to be conversing with one another,
+ but there is no sound. As you listen more carefully, you make out
+ faint talking further back in the car, but you are not sure where it's
+ coming from.
+
+>listen
+
+ The faint voices say:
+
+ <span class="floydstyle u1">"They told </span><span class="floydstyle em">us</span><span class="floydstyle u1"> you had been to her,</span>
+ <span class="floydstyle u1">And tried to squeal on him.</span>
+ <span class="floydstyle u1">She gave you your poor character,</span>
+ <span class="floydstyle u1">And made sure you could not swim."</span>
+
+>examine poppies
+
+ Red poppies all of them.
+
+ The choir of poppies say:
+
+ <span class="floydstyle u1">"Don't let him know she liked him best,</span>
+ <span class="floydstyle u1">For this must ever be</span>
+ <span class="floydstyle u1">A secret, kept from all the rest,</span>
+ <span class="floydstyle u1">Between myself and thee."</span>
+
+>examine people
+
+ What do you want to examine: the Funeral Director, the funeral party
+ or the flowers?
+
+>examine funeral party
+
+ All silent and dressed in black.
+
+ This is what the poppies say now:
+
+ <span class="floydstyle u1">"Our notion was that you had been</span>
+ <span class="floydstyle u1">(Before she had this fit)</span>
+ <span class="floydstyle u1">An obstacle that came between</span>
+ <span class="floydstyle u1">Him, and her, and it."</span>
+
+>listen
+
+ As a choir, the flowers say:
+
+ <span class="floydstyle u1">"If I or you should chance to be</span>
+ <span class="floydstyle u1">Involved in this affair,</span>
+ <span class="floydstyle u1">She trusts to you to set her free,</span>
+ <span class="floydstyle u1">Exactly as </span><span class="floydstyle em">we</span> were."
+
+>examine funeral director
+
+ A large man in a bowler and a suite.
+
+>listen
+
+ The mourners converse without sound. There's only the silent clacking
+ of the train in the background.
+
+>examine flowers
+
+ Red poppies all of them.
+
+>eat flowers
+
+ (first taking the flowers)
+ "No, not <span class="floydstyle em">us</span>! Let <span class="floydstyle em">us live</span>!" the poppies scream.
+
+>SAVE
+>cf5
+ %% Enter a save filename to write:
+
+>take all
+
+ There are none at all available!
+
+>take poppies
+
+ "No, not <span class="floydstyle em">us</span>! Let <span class="floydstyle em">us live</span>!" the poppies scream.
+
+>take director
+
+ Adults don't like to be treated as babies.
+
+>cry
+
+ That's not a verb I recognise.
+
+>listen to poppies
+
+ The poppies say nothing.
+
+>hit director
+
+ That will get you nowhere.
+
+>go east
+
+ The way to the other end of the car is blocked by the mound of
+ flowers, and the poppies even bend their stems as if trying to stand
+ in your path.
+
+>cut poppies
+
+ That will get you nowhere.
+
+>examine liz
+
+ You can't see any such thing.
+
+>search poppies
+
+ "Hey, mister", says a poppy, "what's this? Grabbing <span class="floydstyle em">us</span> things
+ like a piece o' flora! Don't hurt to say please..." The flowers are
+ annoyed by your rudeness -- but what can they do? They try to bend
+ their stems to the side to keep them from snapping under your heavy
+ hand. As you rummage the mound you see something under them: a piece
+ of red cloth, and, what's this, a hat, and a teacup, and, holding the
+ saucer it's on, a hand. You sweep the last poppies to reveal all and
+ find, looking straight at you, your Father.
+
+ "Alistair, my boy! Marty's pretty pissed off with you being so late."
+
+ Father takes a sip from his cup and continues: "He's been baking for
+ hours."
+
+ Behind the flowers is revealed a tea table with a couple of chairs.
+ Father jumps up and moves over to the table. "Sit down, son, and have
+ some tea. Marty will be down soon with the apple tarts."
+
+ You say have no time: you have to find Liz.
+
+ "Has the little wife you running errands for her again? You should
+ know there's always Time, no matter what the women say -- Time to
+ kill, if nothing else."
+
+>kill father
+
+ That will get you nowhere.
+
+ Father pulls a chair for you. "Sit, sit, <span class="floydstyle em">live</span> a little."
+
+ Father picks up the teapot and pours you a cupper. "Now, where's your
+ uncle? I'm in mood for an apple tart. And the pot's empty."
+
+>examine father
+
+ Wearing his tophat and a red vest, the man looks very much alive.
+
+ "Very well, don't sit. You're your own man."
+
+ Uncle Marty shows up, carrying a tray full of apple tarts, stepping
+ carefully so not the drop them.
+
+ Suddenly the train begins to shake -- people and teacups are tumbling
+ over, with them Uncle Marty and his tarts. The train comes to a
+ screeching halt. Your teacup, among other china, falls to the floor
+ and breaks to pieces.
+
+ Father jumps up. "This is it! Now we're really killing Time!"
+
+ He knocks down the table and takes cover behind it, surprisingly
+ managing not to wake up Cousin Dermot. Then he picks up a chair and
+ throws it into the eastern vestibule, as to let someone know you are
+ prepared to fight back.
+
+ "Duck, Alistair, or you'll get your mind blown off!"
+
+>duck
+
+ You squat behind the tea table.
+
+ You see Leo dashing into the car from behind the enemy lines. That
+ figures: when was the last time your brother willingly missed out on a
+ fight? He finds himself a cup and saucer and runs to the window,
+ squatting under it to stay undetected.
+
+ Uncle Marty is curled up in the corner, desperately hugging his apple
+ tarts. "All the Kings horses..."
+
+>take cup
+
+ The teacup has already been picked out for ammunition by Leo.
+
+ Father scouts for tableware. "You take care of the ammunition", he
+ says and grabs his teacup.
+
+ <span class="floydstyle u1">"Ready!</span>
+ <span class="floydstyle u1">Aim!</span>
+ <span class="floydstyle u1">Fire!"</span>
+
+ Father throws the cup towards the vestibule, then grabs the teapot.
+
+ "Ready!"
+
+>look
+
+ <span class="floydstyle i">Funeral Car</span> (behind the table)
+
+ Everyone has taken cover: your Father squats behind the tea table
+ almost squashing Cousin Dermot, who's still sound asleep. Uncle Marty
+ is curled up at the other side of the room, hugging his apple tarts
+ and mumbling to himself. The funeral party is trying to hide by lying
+ as flat as possible. Leo is the only one doesn't bother shielding
+ himself: he leans against the wall by the window and grins.
+
+ Most of the tableware is smashed to shards. On the floor is the tea
+ tray.
+
+ "Aim!" Father shouts, and he lifts up his teapot and Leo a saucer.
+ "Fire!" Your family in arms throw the ammunition towards the enemy.
+
+>take tray
+
+ You take the tea tray.
+
+ "Reload!" yells Father and grabs the saucer from you. "All men to
+ arms. You too, Alistair."
+
+ "Ready!"
+
+>aim teatray
+
+ You lift up the tea tray.
+
+ "Aim!" Father shouts, and he lifts up his saucer and Leo a teacup.
+ "Fire!" Your family in arms throw the ammunition towards the enemy.
+
+>fire teatray
+
+ You throw the tea tray into the vestibule.
+
+ "Reload!" yells Father and extends his hand in waiting for more
+ ammunition. "Keep them coming, Alistair."
+
+>look
+
+ <span class="floydstyle i">Funeral Car</span> (behind the table)
+
+ Everyone has taken cover: your Father squats behind the tea table
+ almost squashing Cousin Dermot, who's still sound asleep. Uncle Marty
+ is curled up at the other side of the room, hugging his apple tarts
+ and mumbling to himself. The funeral party is trying to hide by lying
+ as flat as possible. Leo is the only one doesn't bother shielding
+ himself: he leans against the wall by the window and grins.
+
+ "Come on, son", Father says, peering for the enemy as he hold out his
+ hand toward you.
+
+>examine dermot
+
+ Your cousin is curled up behind the table, still fast asleep,
+ squeezing his teacup close to his chest.
+
+ Father is getting aggravated: "There's no time for your gimmicks,
+ Alistair -- reload, now!"
+
+>take teacup
+
+ Dermot has a near death grip on the teacup, but you manage to pry it
+ out of his hands without waking him up.
+
+ You see your Father is starting to look nervous, squatting there, able
+ to do nothing.
+
+>aim teacup
+
+ You lift up Dermot's cup.
+
+ Your Father protests your selfishness: "Come on, son, keep them
+ coming! I need some ammunition here!"
+
+ Leo shouts at you: "Get a move on, Alice! <span class="floydstyle em">We</span> haven't got all
+ day. Dad needs ammunition, so get it for him."
+
+>give teacup to dad
+
+ "Now we're talking!" Father gets excited and grabs Dermot's cup.
+
+ "Ready!"
+
+>look under table
+
+ You find nothing of interest.
+
+ "Aim! Fire!"
+
+>examine flowers
+
+ Red poppies all of them.
+
+ "Reload!" yells Father and extends his hand in waiting for more
+ ammunition. "Keep them coming, Alistair."
+
+>search flowers
+
+ Midst the poppies lies a lonely saucer -- left there by your Father as
+ he awakened.
+
+ Father still waits for a reload.
+
+>take saucer
+
+ You take Father's saucer.
+
+ Your Father still needs ammunition.
+
+>give saucer to father
+
+ "Now we're talking!" Father gets excited and grabs the saucer.
+
+ "Ready!"
+
+>look
+
+ <span class="floydstyle i">Funeral Car</span> (behind the table)
+
+ Everyone has taken cover: your Father squats behind the tea table
+ almost squashing Cousin Dermot, who's still sound asleep. Uncle Marty
+ is curled up at the other side of the room, hugging his apple tarts
+ and mumbling to himself. The funeral party is trying to hide by lying
+ as flat as possible. Leo is the only one doesn't bother shielding
+ himself: he leans against the wall by the window and grins.
+
+ "Aim! Fire!"
+
+>take tarts
+
+ Your uncle scrapes the remaining tarts from the floor in his lap so
+ swiftly, you fail to grab even one of them.
+
+ "... stole those tarts, and took them quite away", Marty mumbles and
+ hugs the tartlets.
+
+ "Reload!" yells Father and extends his hand in waiting for more
+ ammunition. "Keep them coming, Alistair."
+
+>inventory
+
+ You are carrying:
+   a sweater
+   a pen
+   the paper
+
+ Your Father still needs ammunition.
+
+ The Funeral Director who is grouched on the floor nearby notices
+ you've run out of ammunition. He reaches for his pocket and pulls out
+ an Egg.
+
+ "Use this, sir."
+
+>take egg
+
+ The man gently passes the Egg to you. "It will break", he whispers and
+ slides back under the chair.
+
+ Father, looking more nervous than before, turns to you and your
+ brother and says: "Listen, men. The enemy is closing in on <span class="floydstyle em">us</span>
+ and <span class="floydstyle em">we</span> are out of ammunition. You have a choice to make", and
+ he looks straight at you when he says this, "kill or be killed." He
+ turns his demanding eyes to the Egg.
+
+ ... but it's so fragile, you almost say.
+
+>SAVE
+>cf6
+ %% Enter a save filename to write:
+
+>give egg to dad
+
+ "No, son, this is a task for you", says your Father.
+
+>aim egg
+
+ You lift up the Egg.
+
+ "This is war", says your Father "and in war there is no room for
+ fragility. Now, finish them off so that all the King's horses and all
+ the King's men can't put them together again."
+
+>fire egg
+
+ You take a last look at the fragile little thing in the palm of your
+ hand, then throw it.
+
+ Everything goes quiet. Cousin Dermot almost wakes up but doesn't get
+ his eyes open, so he goes back to sleep.
+
+ Uncle Marty is curled up by the wall, mumbling to himself: "All the
+ kings horses and all the kings men couldn't..."
+
+ Leo is leaning onto the wall by the window and laughing as the smashed
+ Egg drips down from above the vestibule entrance. Leo catches a drip
+ with his finger and licks it. "Yummy."
+
+ So fragile...
+
+>examine egg
+
+ You see it's Liz.
+
+>take liz
+
+ You step out from behind the tea table.
+
+ Your brother squeezes the dripping remains of the Egg in his fist and
+ holds his hand so high up you can't reach it. "You want this? Well,
+ come and get it."
+
+ Leo takes off to the eastern vestibule.
+
+>go east
+
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small dark space at the east-end of the funeral car, with a
+ door leading outside and another through the gangway to the next
+ carriage.
+
+ Your brother pushes through the gangway into the next car.
+
+>go east
+
+ (first opening the gangway door)
+
+ <span class="floydstyle subheader">Luggage Van</span>
+ The unheated carriage feels damp. The south wall consists of a pair of
+ sliding doors for loading the van.
+
+ Leonard runs ahead of you, jokingly grouching behind boxes and crates.
+ "Catch me if you can!"
+
+ The Egg drips from between his fingers, stains the floor.
+
+>take egg
+
+ Leo looks at the Egg, then you, and says: "You want your precious
+ little baby?"
+
+ He shakes the dripping Egg in his hand.
+
+ "I'll play you for it."
+
+ Leo searches his pocket and pulls out something, quickly hiding it
+ behind his back so you cannot see what it is. Then he extends his arm
+ in front of him, fist closed, and counts:
+
+ "One -- two -- three!"
+
+>SAVE
+>cf7
+ %% Enter a save filename to write:
+
+>show paper to leo
+
+ You choose paper -- not like you had any other choice.
+
+ Leo grins, victorious: his choice was scissors. "Scissors cut paper!"
+ He holds down your hand, makes cut in the paper just to show you who
+ won, and Leo turns his eyes to the smashed Egg in his hand, tilts his
+ head theatrically and says: "Looks like Alice's little cuddly toy
+ stays with me... Oh, Mr Guard, sir!"
+
+ Leo stashes the Egg behind his back, giving you a discrete wink.
+
+ "Mr Guard, as I, sir, would never consider such a vile deed as
+ smuggling luggage out of the luggage van, you might nonetheless wish
+ to keep an eye on my brother, there -- he is young and prone to
+ mischief."
+
+ The Guard looks at you, his whiskers trembling. "Let's see it then,
+ good sir, your luggage. No taking it out."
+
+ He steps closer, and Leo slips out the door, unnoticed.
+
+>examine paper
+
+ A white paper, on it the text:
+
+ dream
+ life
+ live
+ we
+
+>look
+
+ <span class="floydstyle subheader">Luggage Van</span>
+ The van is loaded with boxes and crates, all pushed to one side to
+ leave free space by the doors to the south. The unheated carriage
+ feels damp.
+
+>examine boxes
+
+ The smell of raw wood from the unsanded planks.
+
+>examine crates
+
+ The smell of raw wood from the unsanded planks.
+
+>examine planks
+
+ The smell of raw wood from the unsanded planks.
+
+>smell
+
+ You smell nothing unexpected.
+
+>go south
+
+ The Guard, once again, materializes from the sewers. "Tut tut, Mr
+ Liddell", he says and points at the plaque on the door: "Leave Your
+ Baggage".
+
+>examine plaque
+
+ You can't see any such thing.
+
+>SAVE
+>cf8
+ %% Enter a save filename to write:
+
+>drop all
+
+ sweater: Dropped.
+ pen: Dropped.
+ paper: Dropped.
+
+>go south
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel</span>
+ This part of the sewer system is still under construction. Where
+ you're standing, the walls are still bare, only the temporary
+ reinforcement beams are in place. An earthy smell is in the cold air:
+ you see the ground here is not of solid stone but of soil and rubble,
+ with broken roots of trees sticking out from the walls above you. The
+ construction lights reveal the tunnel extends far back west and into
+ darkness ahead in the east.
+
+ The train stands here, hissing calmly. The locomotive is the east and
+ the carriages are lined up west from there. Right here is the
+ connection between the tender and the luggage van. The doors to the
+ luggage van are open.
+
+ Further back into the west you see the wall has partly collapsed.
+
+>examine wall
+
+ The walls here are bare soil, only the temporary reinforcement beams
+ are in place.
+
+>examine beams
+
+ Wooden beams on the east end of the stretch, steel covering in the
+ west.
+
+>go east
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel</span>
+ You stand next to the locomotive. There are steps leading up to the
+ cabin.
+
+ There's someone moving inside the cabin. You think it might be Liz.
+
+>go up
+
+ It's Mr Larvington at the cabin door. "U-hum, Mr Liddell, have you the
+ words? Let's see your court documents, then."
+
+ Court documents?
+
+>inventory
+
+ You are carrying nothing.
+
+>go west
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel</span>
+ The locomotive is to the east and the carriages are lined up west from
+ there. Right here is the connection between the tender and the luggage
+ van. The doors the luggage van are open. The walls of the tunnel are
+ bare at this end. Stringlights run along the tunnel and you see
+ there's a floodlight on the ground.
+
+>examine floodlight
+
+ Stringlights run on the walls. There are floodlights placed here and
+ there along the tunnel to provide extra illumination.
+
+>go west
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel</span>
+ Part of the wall has collapsed down, right at the edge of steel
+ reinforcement rings that extend to here from the west. As you look up,
+ you see it's not only tree roots sticking out of the soft wall, but
+ old, decomposed wooden planks. Suddenly you realise where the sewer
+ line is being dug: under the town's old graveyard. The dirt and rubble
+ from the wall form a big pile by the wall.
+
+ The train extends eastward, you are by the passenger car at the west
+ end.
+
+>enter
+
+ You must supply a noun.
+
+>enter van
+
+ You can't see any such thing.
+
+>search rubble
+
+ Among the rubble you notice two large stone plates: a headstone split
+ in half. Also a smaller piece has broken off the other half.
+
+>examine headstone
+
+ The black headstone is split in half. There's some carving on the
+ stone.
+
+>examine piece
+
+ The rock is flat and of a triangular shape. The surface is smooth.
+
+ For a second, there, you think your feet hit the riverbed.
+
+ Would just about fit in your fist, the rock. There's a carving: "ice
+ <span class="floydstyle em">dream</span>".
+
+>examine carving
+
+ What do you want to examine: the carving on the headstone or the
+ carving on the rock?
+
+>headstone
+
+ I only understood you as far as wanting to examine the headstone.
+
+>examine carving on headstone
+
+ The carving on one half of the headstone says "h! such a n" and on the
+ other "You woke me out of o".
+
+>examine cat
+
+ You can't see any such thing.
+
+>take headstone
+
+ It is far too heavy for you to lift.
+
+>take rock
+
+ You take the rock.
+
+>look
+
+ <span class="floydstyle subheader">Unfinished Tunnel</span>
+ The wall reinforcement ends here where part of the wall has collapsed.
+ There's a large pile of rubble on the ground, almost blocking your
+ way.
+
+ The train extends eastward, you are by the passenger car at the west
+ end.
+
+>go west
+
+ (actually curving northwest to the back of the train)
+ <span class="floydstyle subheader">Unfinished Tunnel (The tail of train)</span>
+ The train extends east from here. The walls of the tunnel are covered
+ in steel reinforcement, leading back west. It's impossible to see the
+ end of it.
+
+>go east
+
+ There's no door on this side of the train.
+
+>go west
+
+ There's nothing in that direction but the endless tunnel.
+
+>go east
+
+ There's no door on this side of the train.
+
+>out
+
+ But you aren't in anything at the moment.
+
+>enter train
+
+ You can't go in that direction. You can move to the south side of the
+ train by going southeast or to the north side by going northeast.
+
+>go northeast
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (North of train)</span>
+ You are by the passenger car. The train extends eastward.
+
+>go east
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (North of train)</span>
+ You stand next to the tender. The locomotive is to the east and rest
+ of the train to the west. Metal steps lead up to the roof of the
+ tender.
+
+ You notice the scissors on the ground. Leo must have dropped them
+ here.
+
+>take scissors
+
+ You take the scissors.
+
+>go east
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (North of train)</span>
+ You are on the north side of the locomotive. The tender and the
+ carriages are to the west.
+
+>w. up
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (North of train)</span>
+ You stand next to the tender. The locomotive is to the east and rest
+ of the train to the west. Metal steps lead up to the roof of the
+ tender.
+
+ <span class="floydstyle subheader">Roof above the Tender</span>
+ The tender is right behind the locomotive. The carriages extend west
+ from here. Steps lead down to the north side of the train.
+
+>go east
+
+ You leap onto the roof of the next car.
+
+ <span class="floydstyle subheader">On top of the Locomotive</span>
+
+>look
+
+ <span class="floydstyle subheader">On top of the Locomotive</span>
+
+>go east
+
+ You can't go in that direction. The train extends west from here.
+
+>go west
+
+ You jump onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Tender</span>
+ The tender is right behind the locomotive. The carriages extend west
+ from here. Steps lead down to the north side of the train.
+
+>go west
+
+ You leap onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Luggage Van</span>
+
+>go west
+
+ You leap onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Funeral Car</span>
+
+>go west
+
+ You jump onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Passenger Car</span>
+
+>go west
+
+ You can't go in that direction. The train extends east.
+
+>go east
+
+ You leap onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Funeral Car</span>
+
+>go east
+
+ You leap onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Luggage Van</span>
+
+>go east
+
+ You leap onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Tender</span>
+ The tender is right behind the locomotive. The carriages extend west
+ from here. Steps lead down to the north side of the train.
+
+>go down
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (North of train)</span>
+ You stand next to the tender. The locomotive is to the east and rest
+ of the train to the west. Metal steps lead up to the roof of the
+ tender.
+
+>go east
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (North of train)</span>
+ You are on the north side of the locomotive. The tender and the
+ carriages are to the west.
+
+>go east
+
+ (actually curving southeast in front of the train)
+ <span class="floydstyle subheader">Unfinished Tunnel (in front of the locomotive)</span>
+ The tunnel extends into darkness ahead.
+
+>go east
+
+ The tunnel leads only into the unknown darkness.
+
+>go northwest
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (North of train)</span>
+ You are on the north side of the locomotive. The tender and the
+ carriages are to the west.
+
+>undo
+
+
+ [Previous turn undone.]
+
+>go southwest
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (South of Train)</span>
+ You stand next to the locomotive. There are steps leading up to the
+ cabin.
+
+>go west
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (South of Train)</span>
+ The locomotive is to the east and the carriages are lined up west from
+ there. Right here is the connection between the tender and the luggage
+ van. The doors the luggage van are open.
+
+>go up
+
+
+ <span class="floydstyle subheader">Luggage Van</span>
+ The van is loaded with boxes and crates, all pushed to one side to
+ leave free space by the doors to the south. The unheated carriage
+ feels damp.
+
+ You can see the paper, a pen and a sweater here.
+
+>take paper and pen and sweater
+
+ paper: You take the paper.
+ pen: You take the pen.
+ sweater: You take the sweater.
+
+>SAVE
+>cf9
+ %% Enter a save filename to write:
+
+>look
+
+ <span class="floydstyle subheader">Luggage Van</span>
+ The van is loaded with boxes and crates, all pushed to one side to
+ leave free space by the doors to the south. The unheated carriage
+ feels damp.
+
+>go east
+
+ You can't go in that direction. A gangway to the west leads to another
+ carriage. The southern wall consists of a pair of sliding doors.
+
+>go west
+
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small dark space at the east-end of the funeral car, with a
+ gangway leading to the next carriage.
+
+>look
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small dark space at the east-end of the funeral car, with a
+ gangway leading to the next carriage.
+
+>go west
+
+
+ <span class="floydstyle subheader">Funeral Car</span>
+ The car is completely cleared from people: only the poppies slowly
+ sway in the silence.
+
+>undo
+
+
+ [Previous turn undone.]
+
+>examine gangway
+
+ You notice nothing interesting about the gangway.
+
+>go west
+
+
+ <span class="floydstyle subheader">Funeral Car</span>
+ The car is completely cleared from people: only the poppies slowly
+ sway in the silence.
+
+>go west
+
+ (first opening the gangway door)
+
+ <span class="floydstyle subheader">Vestibule</span>
+ This is a small space at the east-end of the train car, with a gangway
+ leading to the next carriage. The passanger compartment extends from
+ here to the west. There's small placard of some sort on the gangway
+ entrance. There's a door leading outside, but it's locked.
+
+>go west
+
+
+ <span class="floydstyle subheader">Passenger Compartment</span>
+ The compartment is poorly lit: the shutters are closed and there's
+ only a small lamp by the bed. The bed is empty: your Mother is no
+ longer here. There's that slight sinking feeling.
+
+ <span class="floydstyle u1">"Do you think your mother is going </span><span class="floydstyle em">live</span> forever? She
+ doesn't have long, you know that. Ever since your father died, you've
+ seen how she's been waiting to follow him."
+
+ The bed is made neatly, the red blanket is stretched smoothly across
+ the mattress.
+
+ The knitting basket lies next to the bed.
+
+>examine blanket
+
+ You can't see any such thing.
+
+>examine basket
+
+ In the knitting basket are a ball of yarn and some needles.
+
+>examine yarn
+
+ You notice nothing interesting about the ball of yarn.
+
+>examine needles
+
+ You notice nothing interesting about the needles.
+
+>sit on bed
+
+ You get onto the bed.
+
+>examine skylight
+
+ You can't see any such thing.
+
+>go west
+
+ (first getting off the bed)
+ (first opening the door to the corridor)
+
+ <span class="floydstyle subheader">Corridor</span>
+ The corridor runs east-west between the vestibule and the passenger
+ compartment. Mr Larvington's private compartment is to the south.
+
+>go south
+
+ (first opening the door to a private compartment)
+
+ <span class="floydstyle subheader">Private Compartment</span>
+ The blackened skylight casts only a faint light over the desk in the
+ middle of the room.
+
+ The compartment is empty, only the smoke of Mr Larvington's hookah
+ still lingers on.
+
+>examine skylight
+
+ A round window in the compartment ceiling, too blackened with coal
+ dust to see through.
+
+>examine desk
+
+ You notice nothing interesting about the desk.
+
+>stand on desk
+
+ You get onto the desk.
+
+>open skylight
+
+ It won't open, no matter how hard you push or pull.
+ Pretty soon you notice why this is: there are no hinges, the skylight
+ is not meant to be opened.
+
+>SAVE
+>cf10
+ %% Enter a save filename to write:
+
+>break skylight
+
+ You try to break the window, but to no effect. It is stronger than
+ you.
+
+>break skylight with rock
+
+ You hammer the glass and eventually it gives in. The shards hit your
+ face, but you manage not to get cut.
+
+>go up
+
+
+ <span class="floydstyle subheader">Roof above the Passenger Car</span>
+
+>go east
+
+ You leap onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Funeral Car</span>
+
+>go east
+
+ You jump onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Luggage Van</span>
+
+>go east
+
+ You jump onto the roof of the next car.
+
+ <span class="floydstyle subheader">Roof above the Tender</span>
+ The tender is right behind the locomotive. The carriages extend west
+ from here. Steps lead down to the north side of the train.
+
+>go down
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (North of train)</span>
+ You stand next to the tender. The locomotive is to the east and rest
+ of the train to the west. Metal steps lead up to the roof of the
+ tender.
+
+>go east
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (North of train)</span>
+ You are on the north side of the locomotive. The tender and the
+ carriages are to the west.
+
+>go east
+
+ (actually curving southeast in front of the train)
+ <span class="floydstyle subheader">Unfinished Tunnel (in front of the locomotive)</span>
+ The tunnel extends into darkness ahead.
+
+>se
+
+ You can't go in that direction. You can move to the south side of the
+ train by going southwest or to the north side by going northwest.
+
+>go southwest
+
+
+ <span class="floydstyle subheader">Unfinished Tunnel (South of Train)</span>
+ You stand next to the locomotive. There are steps leading up to the
+ cabin.
+
+>go up
+
+ Mr Larvington taps his pipe. "No access without the court documents."
+
+>show papers to larvington
+
+ "U-hum, yes, yes..." Mr Larvington mutters, "you may approach the
+ court, Mr Liddell."
+
+ He gestures you to follow him up into the locomotive cab.
+
+>inventory
+
+ You are carrying:
+   a sweater
+   a pen
+   the court documents
+   the scissors
+   a rock
+
+>examine documents
+
+ A white paper, on it the text:
+
+ dream
+ life
+ live
+ we
+
+>SAVE
+>cf11
+ %% Enter a save filename to write:
+
+>go up
+
+
+ <span class="floydstyle subheader">Locomotive Cab</span>
+ As the Teacher gives you room to step in, you see a tiny figure by the
+ firebox: it's Liz. Her dress has turned from white to black of coal
+ dust and her hair is sweaty and tangled. She goes between the coal
+ bunker and the firebox, shoveling coal into the furnace. "She's almost
+ done", says Mr Larvington.
+
+ Mr Larvington pulls the door shut. "Now we leave." He nods to Liz and
+ pulls a lever. The girl shovels coal even more vigorously and the
+ train begins to move.
+
+ <span class="floydstyle u1">"The time has come", the Teacher says, "to talk of many sins:</span>
+ <span class="floydstyle u1">of wives and mums and unloved sons</span>
+ <span class="floydstyle u1">(of where it all begins),</span>
+ <span class="floydstyle u1">and why it's really all your fault,</span>
+ <span class="floydstyle u1">and whether no-one wins."</span>
+
+
+ It is time for you to sentence yourself, Mr Liddell. Let's see your
+ words."
+
+>shower paper to larvington
+
+ That's not a verb I recognise.
+
+>show paper to larvington
+
+ Mr Larvington carefully studies the documents.
+
+ Mr Larvington takes a look. "U-hum, yes. You have collected the words.
+ Now, you sentence."
+
+ Press SPACE for your sentencing.
+
+ He hands you the document back.
+
+
+ You look at the paper:
+
+ <span class="floydstyle em">dream  life  live  we</span>
+
+ There's only room for a three-word sentence, and only if you scribble
+ very neatly.
+
+>SAVE
+>cf12
+ %% Enter a save filename to write:
+
+>we dream life
+
+
+
+
+ The sentence you have chosen:
+
+ WE DREAM LIFE
+
+ If you stand on your conviction, answer "YES" now to sentence
+ yourself. If you wish to revise your sentence, answer "NO" to rewrite
+ it.
+
+>no
+
+
+>we live dream
+
+
+
+
+ The sentence you have chosen:
+
+ WE LIVE DREAM
+
+ If you stand on your conviction, answer "YES" now to sentence
+ yourself. If you wish to revise your sentence, answer "NO" to rewrite
+ it.
+
+>yes
+
+
+
+ "You hereby sentence yourself to..." says Mr Larvington, and is no
+ longer here.
+
+ All is very bright.
+
+
+
+ The water is black. For a moment you think your feet hit the riverbed.
+
+ The light is above you.
+
+>go up
+ <span class="floydstyle subheader">Drifting down the stream</span>
+ This black ribbon divides the town in half. On the southern shore, the
+ suburbs, to the north, the hills.
+
+ You are in a small white row boat. It's drifting slowly with the
+ current towards the sea somewhere in the western distance. And in
+ there beside you: Liz.
+
+ You have one more choice to make:
+
+ Do you swim to shore or stay in the boat with Liz?
+
+ Choose SWIM or STAY.
+
+>stay
+
+
+ You wrap your arms around your little girl.
+
+
+
+ Please press SPACE to drift on.
+
+
+ <span class="floydstyle u1">In a Wonderland they lie,</span>
+ <span class="floydstyle u1">Dreaming as the days go by,</span>
+ <span class="floydstyle u1">Dreaming as the summers die.</span>
+ <span class="floydstyle u1">Dreaming as the summers die.</span><span class="floydstyle u1">Ever drifting down the stream</span>
+ <span class="floydstyle u1">--</span>
+ <span class="floydstyle u1">Lingering in the golden gleam --</span>
+ <span class="floydstyle u1">Life, what is it but a dream?</span>
+ <span class="floydstyle u1">Life, what is it but a dream?</span>The lights of the ambulance
+ flash on the shore -- Catherine stands there, peering at the river.
+ Someone brings her a shawl: the air is turning chilly. The boat drifts
+ forward.
+
+
+
+
+ The game ends here.
+
+ The choice presented to you in the boat depends on the sentence you
+ wrote. If you wish, you can go back and rewrite the sentence. You can
+ also undo only your final choice.
+
+ Please choose from the following commands:
+
+ SENTENCE yourself again
+ UNDO your final choice
+ TIPS for different solutions
+ RESTART this game from the beginning
+ RESTORE a previously saved game
+ QUIT the game
+
+>undo
+
+ There's no turning back now.
+
+>swim
+
+ You cannot swim on dry land.
+
+>sentence
+ <span class="floydstyle subheader">Locomotive Cab</span>
+ A cramped, black space that holds the controls and the firebox. The
+ train speeds ahead.
+
+
+ You look at the paper:
+
+ <span class="floydstyle em">dream  life  live  we</span>
+
+ There's only room for a three-word sentence, and only if you scribble
+ very neatly.
+
+>we live dream
+
+
+
+
+ The sentence you have chosen:
+
+ WE LIVE DREAM
+
+ If you stand on your conviction, answer "YES" now to sentence
+ yourself. If you wish to revise your sentence, answer "NO" to rewrite
+ it.
+
+>yes
+
+
+
+ "You hereby sentence yourself to..." says Mr Larvington, and is no
+ longer here.
+
+ All is very bright.
+
+
+
+ The water is black. For a moment you think your feet hit the riverbed.
+
+ The light is above you.
+
+
+ I beg your pardon?
+
+>go up
+ <span class="floydstyle subheader">Drifting down the stream</span>
+ This black ribbon divides the town in half. On the southern shore, the
+ suburbs, to the north, the hills.
+
+ You are in a small white row boat. It's drifting slowly with the
+ current towards the sea somewhere in the western distance. And in
+ there beside you: Liz.
+
+ You have one more choice to make:
+
+ Do you swim to shore or stay in the boat with Liz?
+
+ Choose SWIM or STAY.
+
+>swim
+
+
+ You drop down to the water. Liz watches you swim away -- you don't
+ have the heart to look back.
+
+
+
+ Please press SPACE to swim to shore.
+
+
+ <span class="floydstyle u1">Still she haunts me, phantomwise,</span>
+ <span class="floydstyle u1">as she's moving under skies</span>
+ <span class="floydstyle u1">Never seen by waking eyes.</span>
+ <span class="floydstyle u1">Never seen by waking eyes.</span><span class="floydstyle u1">Ever drifting down the stream</span>
+ <span class="floydstyle u1">--</span>
+ <span class="floydstyle u1">Lingering in the golden gleam --</span>
+ <span class="floydstyle u1">Life, what is it but a dream?</span>
+ <span class="floydstyle u1">Life, what is it but a dream?</span>
+
+ <span class="floydstyle subheader">River Walk</span>
+ "She's not breathing. Again: One -- two -- three -- "
+
+ As you come to, you see Liz lying next to you on the pavement. On the
+ background stands Catherine and watches her daughter being
+ resuscitated. She looks at you for a while in terror and wraps her
+ arms around you. Liz doesn't wake up. From the corner of your eye you
+ see a glimpse of a white boat disappearing into the western distance.
+
+
+
+
+ The game ends here.
+
+ The choice presented to you in the boat depends on the sentence you
+ wrote. If you wish, you can go back and rewrite the sentence. You can
+ also undo only your final choice.
+
+ Please choose from the following commands:
+
+ SENTENCE yourself again
+ UNDO your final choice
+ TIPS for different solutions
+ RESTART this game from the beginning
+ RESTORE a previously saved game
+ QUIT the game
+
+>sentence
+ <span class="floydstyle subheader">Locomotive Cab</span>
+ A cramped, black space that holds the controls and the firebox. The
+ train speeds ahead.
+
+
+ You look at the paper:
+
+ <span class="floydstyle em">dream  life  live  we</span>
+
+ There's only room for a three-word sentence, and only if you scribble
+ very neatly.
+
+>we live life
+
+
+ WE LIVE LIFE is not an acceptable sentence. Please try again.
+
+ Your list of significant words is:
+ <span class="floydstyle em">dream  life  live  we</span>
+
+>we live dream
+
+
+
+
+ The sentence you have chosen:
+
+ WE LIVE DREAM
+
+ If you stand on your conviction, answer "YES" now to sentence
+ yourself. If you wish to revise your sentence, answer "NO" to rewrite
+ it.
+
+>no
+
+
+>we dream life
+
+
+
+
+ The sentence you have chosen:
+
+ WE DREAM LIFE
+
+ If you stand on your conviction, answer "YES" now to sentence
+ yourself. If you wish to revise your sentence, answer "NO" to rewrite
+ it.
+
+>yes
+
+
+
+ "You hereby sentence yourself to..." says Mr Larvington, and is no
+ longer here.
+
+ All is very bright.
+
+
+
+ The water is black. For a moment you think your feet hit the riverbed.
+
+ The light is above you.
+
+>go up
+ <span class="floydstyle subheader">Drifting down the stream</span>
+ This black ribbon divides the town in half. On the southern shore, the
+ suburbs, to the north, the hills.
+
+ You are in a small white row boat. It's drifting slowly with the
+ current towards the sea somewhere in the western distance. And in
+ there beside you: Liz.
+
+ You have one more choice to make:
+
+ Do you swim to shore or stay in the boat with Liz?
+
+ Choose SWIM or STAY.
+
+>swim
+
+
+ You drop down to the water. Liz watches you swim away -- you don't
+ have the heart to look back.
+
+
+
+ Please press SPACE to swim to shore.
+
+
+ <span class="floydstyle u1">Still she haunts me, phantomwise,</span>
+ <span class="floydstyle u1">as she's moving under skies</span>
+ <span class="floydstyle u1">Never seen by waking eyes.</span>
+ <span class="floydstyle u1">Never seen by waking eyes.</span><span class="floydstyle u1">Ever drifting down the stream</span>
+ <span class="floydstyle u1">--</span>
+ <span class="floydstyle u1">Lingering in the golden gleam --</span>
+ <span class="floydstyle u1">Life, what is it but a dream?</span>
+ <span class="floydstyle u1">Life, what is it but a dream?</span>
+
+ <span class="floydstyle subheader">River Walk</span>
+ "She's not breathing. Again: One -- two -- three -- "
+
+ As you come to, you see Liz lying next to you on the pavement. On the
+ background stands Catherine and watches her daughter being
+ resuscitated. She looks at you for a while in terror and wraps her
+ arms around you. Liz doesn't wake up. From the corner of your eye you
+ see a glimpse of a white boat disappearing into the western distance.
+
+
+
+
+ The game ends here.
+
+ The choice presented to you in the boat depends on the sentence you
+ wrote. If you wish, you can go back and rewrite the sentence. You can
+ also undo only your final choice.
+
+ Please choose from the following commands:
+
+ SENTENCE yourself again
+ UNDO your final choice
+ TIPS for different solutions
+ RESTART this game from the beginning
+ RESTORE a previously saved game
+ QUIT the game
+
+>sentence
+ <span class="floydstyle subheader">Locomotive Cab</span>
+ A cramped, black space that holds the controls and the firebox. The
+ train speeds ahead.
+
+
+ You look at the paper:
+
+ <span class="floydstyle em">dream  life  live  we</span>
+
+ There's only room for a three-word sentence, and only if you scribble
+ very neatly.
+
+>life we live
+
+
+ LIFE WE LIVE is not an acceptable sentence. Please try again.
+
+ Your list of significant words is:
+ <span class="floydstyle em">dream  life  live  we</span>
+
+>live dream life
+
+
+ LIVE DREAM LIFE is not an acceptable sentence. Please try again.
+
+ Your list of significant words is:
+ <span class="floydstyle em">dream  life  live  we</span>
+
+>live live live
+
+
+ LIVE LIVE LIVE is not an acceptable sentence. Please try again.
+
+ Your list of significant words is:
+ <span class="floydstyle em">dream  life  live  we</span>
+
+>we live
+
+
+ The sentence requires three words.
+
+>dream a life
+
+
+ DREAM A LIFE is not an acceptable sentence. Please try again.
+
+ Your list of significant words is:
+ <span class="floydstyle em">dream  life  live  we</span>
+
+>Dream! Live Life!
+
+
+ DREAM! LIVE LIFE! is not an acceptable sentence. Please try again.
+
+ Your list of significant words is:
+ <span class="floydstyle em">dream  life  live  we</span>
+
+>we live dream
+
+
+
+
+ The sentence you have chosen:
+
+ WE LIVE DREAM
+
+ If you stand on your conviction, answer "YES" now to sentence
+ yourself. If you wish to revise your sentence, answer "NO" to rewrite
+ it.
+
+>yes
+
+
+
+ "You hereby sentence yourself to..." says Mr Larvington, and is no
+ longer here.
+
+ All is very bright.
+
+
+
+ The water is black. For a moment you think your feet hit the riverbed.
+
+ The light is above you.
+
+>go up
+ <span class="floydstyle subheader">Drifting down the stream</span>
+ This black ribbon divides the town in half. On the southern shore, the
+ suburbs, to the north, the hills.
+
+ You are in a small white row boat. It's drifting slowly with the
+ current towards the sea somewhere in the western distance. And in
+ there beside you: Liz.
+
+ You have one more choice to make:
+
+ Do you swim to shore or stay in the boat with Liz?
+
+ Choose SWIM or STAY.
+
+>swim
+
+
+ You drop down to the water. Liz watches you swim away -- you don't
+ have the heart to look back.
+
+
+
+ Please press SPACE to swim to shore.
+
+
+ <span class="floydstyle u1">Still she haunts me, phantomwise,</span>
+ <span class="floydstyle u1">as she's moving under skies</span>
+ <span class="floydstyle u1">Never seen by waking eyes.</span>
+ <span class="floydstyle u1">Never seen by waking eyes.</span><span class="floydstyle u1">Ever drifting down the stream</span>
+ <span class="floydstyle u1">--</span>
+ <span class="floydstyle u1">Lingering in the golden gleam --</span>
+ <span class="floydstyle u1">Life, what is it but a dream?</span>
+ <span class="floydstyle u1">Life, what is it but a dream?</span>
+
+ <span class="floydstyle subheader">River Walk</span>
+ "She's not breathing. Again: One -- two -- three -- "
+
+ As you come to, you see Liz lying next to you on the pavement. On the
+ background stands Catherine and watches her daughter being
+ resuscitated. She looks at you for a while in terror and wraps her
+ arms around you. Liz doesn't wake up. From the corner of your eye you
+ see a glimpse of a white boat disappearing into the western distance.
+
+
+
+
+ The game ends here.
+
+ The choice presented to you in the boat depends on the sentence you
+ wrote. If you wish, you can go back and rewrite the sentence. You can
+ also undo only your final choice.
+
+ Please choose from the following commands:
+
+ SENTENCE yourself again
+ UNDO your final choice
+ TIPS for different solutions
+ RESTART this game from the beginning
+ RESTORE a previously saved game
+ QUIT the game
+
+>tips
+
+
+ - The way you treat your family affects their attitude towards you.
+ - There are two ways to silence the Piglet.
+ - The key to keeping the Egg intact is to keep Uncle Marty happy.
+ - There are two ways to beat Leo in rock-paper-scissors.
+ - There are altogether four categories of sentences, which all lead to
+ a different situation on the river.
+
+
+ Please choose from the following commands:
+
+ SENTENCE yourself again
+ UNDO your final choice
+ TIPS for different solutions
+ RESTART this game from the beginning
+ RESTORE a previously saved game
+ QUIT the game
+
+>undo
+
+ There's no turning back now.
+
+>hint
+
+
+ The Help Menu is no longer available, but have a look at the TIPS.
+
+ Please choose from the following commands:
+
+ SENTENCE yourself again
+ UNDO your final choice
+ TIPS for different solutions
+ RESTART this game from the beginning
+ RESTORE a previously saved game
+ QUIT the game
+
+>restore
+ %% Enter a save filename to read:
+>cf12
+ Ok.
+
+>restore
+ %% Enter a save filename to read:
+>cf11
+ Ok.
+
+>hint
+
+
+
+
+ Press ENTER to show hints for the goal or Q to exit the Hint Menu.
+>q
+ <span class="floydstyle subheader">Unfinished Tunnel (South of Train)</span>
+ You stand next to the locomotive. There are steps leading up to the
+ cabin.
+
+>help
+
+
+
+
+ Press ENTER to show hints for the goal or Q to exit the Hint Menu.
+>q
+ <span class="floydstyle subheader">Unfinished Tunnel (South of Train)</span>
+ You stand next to the locomotive. There are steps leading up to the
+ cabin.
+
+>about
+
+
+    Hints
+    Walkthrough
+    Introduction to interactive fiction
+
+
+ Choose a menu item and press ENTER, or press Q to return to the game.
+>go north
+
+
+    About the game
+    Walkthrough
+    Introduction to interactive fiction
+
+
+ Choose a menu item and press ENTER, or press Q to return to the game.
+>go north
+
+
+    About the game
+    Hints
+    Introduction to interactive fiction
+
+
+ Choose a menu item and press ENTER, or press Q to return to the game.
+ This is a basic walkthrough for Sentencing Mr Liddell. For the sake of
+ clarity it doesn't demonstrate nearly all possibilities in the game,
+ but gets you through.
+
+ x bin
+ take ticket
+ w
+ s
+ w
+ w
+ e
+ e
+ take stroller
+ dive
+ (any key)
+
+ e
+ u
+
+ u
+ u
+
+ show ticket to guard
+ e
+ s
+ show ticket to teacher
+ n
+ e
+
+ take piglet
+ hit piglet
+ hit piglet
+ write life
+ e
+
+ ask cat about assignment
+ show assignment to cat
+ write dream
+ w
+ w
+ w
+
+ join line
+ e
+ e
+ e
+ e
+ (any key)
+
+ show assignment to funeral director
+ x flowers
+ write us
+ search flowers
+ sit on chair
+ take teapot
+
+ look
+ take tea tray
+ look
+ fire tray
+ look
+ x dermot
+ take cup
+ give cup to father
+ look under flowers
+ take saucer
+ look
+ z
+ z
+ take egg
+ fire egg
+
+ take egg
+ e
+ e
+ take egg
+ show paper to leo
+
+ s
+ drop all
+ s
+ e
+ u
+ w
+ w
+ x rubble
+ x headstone
+ x carving
+ take piece
+ e
+ u
+
+ take paper
+ take pen
+ w
+ w
+ w
+ w
+ x paper
+ write live
+ w
+ s
+
+ stand on desk
+ break skylight with rock
+ u
+ e
+ e
+ e
+ d
+ e
+ se
+ sw
+
+ u
+ show paper to teacher
+ u
+ show words to teacher
+ (space)
+
+ we live a dream
+ yes
+ (any key)
+
+ u
+ swim
+ (space)
+ (any key)
+ (any key)
+
+
+
+
+
+ Please press SPACE to continue.
+
+
+    About the game
+    Hints
+    Introduction to interactive fiction
+
+
+ Choose a menu item and press ENTER, or press Q to return to the game.
+>quit
+
+ Are you sure you want to quit?
+>yes
+ Are you sure you want to quit?
+ cheapglulxe quit with exit status: 0

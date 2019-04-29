@@ -1,0 +1,3565 @@
+<HTML><HEAD><TITLE>AllThingsJacq.com - Interactive Fiction | ClubFloyd - May 1, 2010 - The One That Got Away, by Leon Lin</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Author" CONTENT="Jacqueline A. Lott">
+<META NAME="Revisit after" CONTENT="30days">
+<META NAME="Robots" CONTENT="all">
+<META NAME="Distribution" CONTENT="Global">
+<META NAME="Keywords" CONTENT="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+<META NAME="Description" CONTENT="Internet site of Jacqueline A. Lott.">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE>
+<!--
+A:link {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:visited {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:hover {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:active {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+-->
+
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#6666CC" MARGINWIDTH=0 LEFTMARGIN=0 RIGHTMARGIN=0 MARGINHEIGHT=0 TOPMARGIN=0 onLoad="MM_preloadImages('graphics/writing2.jpg','graphics/intfic2.jpg','graphics/photos2.jpg','graphics/misc2.jpg')">
+<a name="top"></a><CENTER>
+<TABLE WIDTH="557" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="35">
+  <TR>
+	<TD>
+	  <CENTER>
+		  <BR>
+		  <A HREF="index.html"><IMG SRC="graphics/atj_logo.jpg" WIDTH="250" HEIGHT="170" BORDER="0"><BR>
+
+		  <IMG SRC="graphics/home.jpg" WIDTH="75" HEIGHT="25" BORDER="0"><BR>
+		  </A><BR>
+
+		  <A HREF="writing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writing','','graphics/writing2.jpg',1)"><IMG NAME="Writing" BORDER="0" SRC="graphics/writing1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="interactive_fiction.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Interactive Fiction','','graphics/intfic2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"><IMG NAME="Interactive Fiction" BORDER="0" SRC="graphics/intfic1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG NAME="Photography" BORDER="0" SRC="graphics/photos1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG NAME="Miscellany" BORDER="0" SRC="graphics/misc1.jpg" WIDTH="100" HEIGHT="140"></A></CENTER>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></BR></BR>
+ClubFloyd Transcript:<BR><B><I>The One That Got Away</I> by Leon Lin</b></FONT><FONT FACE='arial, sans-serif, helvetica' SIZE='1'></BR>As played on ifMUD on May 1, 2010</FONT></P><P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="2">
+The idea behind ClubFloyd is that each week at a pre-arranged time, a group of people meet online to cooperatively play a game of interactive fiction.</br></br>
+Below is a transcript of <i>The One That Got Away</i>, written by Leon Lin.  <I>The One That Got Away</I> was originally released as part of the 1995 Interactive Fiction Competition, where it took third place in the TADS division.  You can learn more about the game, including how to download it, by visiting <A HREF='http://www.ifwiki.org/index.php/The_One_That_Got_Away'><u>the ifWiki</u></A>.</br></br><FONT FACE="arial, sans-serif, helvetica" SIZE="2" COLOR="#FF0000"><b>WARNING!</b></font><FONT FACE="arial, sans-serif, helvetica" SIZE="2"> Below you will find a transcript of people playing this game, and it goes without saying that the transcript is full of spoilers.  So, if you've never played this game, and think you might like to at some point, I do not recommend reading any further.  Instead, you might want to return to the <a href="interactive_fiction.html"><u>interactive fiction </u>p<u>a</u>g<u>e</u></a>.</BR></BR></BR></FONT></P></td></tr></table>
+
+<table>
+<tr><td></td><td colspan="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td></tr>
+<tr><td width="2%"></td><td width="60%"><center><B>ToyShop & Floyditorium</B></center></td><td width="2%"></td><td width="34%"><center><B>#ClubFloyd Discussion</B></center></td><td width="2%"></td></tr>
+
+<tr><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td></tr>
+<tr><td></td><td>&nbsp;</td><td></td><td></td></tr>
+<td></td></TR>
+<TR><TD width=2%> </td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">load the_one</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Welcome to the Cheap Glk Implementation, library version 0.9.0.
+<b>Floyd</b> |
+<b>Floyd</b> | tadsr - A text-only TADS 2.5.10 Interpreter.
+<b>Floyd</b> | Copyright (c) 1993, 2006 by Michael J. Roberts.
+<b>Floyd</b> |
+<b>Floyd</b> | Do you want to read the introduction?  (YES or NO) &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">yes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |    On an ancient, crumbling clay tablet lie the words writ by a wise
+<b>Floyd</b> | Assyrian scribe some 4000 years ago:  "The gods do not subtract from
+<b>Floyd</b> | the alloted span of men's lives the hours spent on fishing."  It is in
+<b>Floyd</b> | the spirit of these words that you have gone into your garage,
+<b>Floyd</b> | unearthed the fishing equipment passed down to you by your father, and
+<b>Floyd</b> | called in sick for several days so that you may seek the pleasure of
+<b>Floyd</b> | one of the oldest sports known to humanity.
+<b>Floyd</b> |
+<b>Floyd</b> |    You drive into a national park well known for its fishing, and,
+<b>Floyd</b> | parking your vehicle and yourself by a crowded lake, proceed to bring
+<b>Floyd</b> | in a haul as large as your permit allows you.  But as the days go by,
+<b>Floyd</b> | you feel that the challenge of rod and reel has left.  You find
+<b>Floyd</b> | yourself limply tossing back the fish you so easily hooked upon your
+<b>Floyd</b> | line.  You look within that part of your soul that has to do with
+<b>Floyd</b> | fishing, and come up with void.
+<b>Floyd</b> |
+<b>Floyd</b> |    In frustration, you somehow wander into an old general store by the
+<b>Floyd</b> | lake.  A century ago it was owned by a man whose name is now nearly
+<b>Floyd</b> | illegible on the sign; today it is a concession stand for fast food.
+<b>Floyd</b> | Still, mingling with the smell of hamburgers and fries are a group of
+<b>Floyd</b> | graybeards, sitting on the porch and talking about days gone by.
+<b>Floyd</b> |
+<b>Floyd</b> |    You find yourself engrossed in their conversation, about catches of
+<b>Floyd</b> | yesteryear, and struggles against the mighty fish of the past.  And,
+<b>Floyd</b> | always mentioned in hushed whispers, is a legendary fish called only
+<b>Floyd</b> | "The Old One."  Fifty, perhaps a hundred or two hundred pounds, long
+<b>Floyd</b> | as the tallest pine and wilder than the savage bear of the forest, and
+<b>Floyd</b> | appearing only once every thirty years, The Old One has defied the
+<b>Floyd</b> | fishing poles of men for centuries.  "They even say," says one man,
+<b>Floyd</b> | "The Old One even carried away the bride-to-be of ol' Bob of the bait
+<b>Floyd</b> | store, though he never really believed it.  That I heard when I was a
+<b>Floyd</b> | boy of five, that I did!"  There are chuckles all around.
+<b>Floyd</b> |
+<b>Floyd</b> |    After an awkward silence, one of the men says, "But The Old One
+<b>Floyd</b> | only appears once every thirty years, don't it?"  "Uh-huh," replies
+<b>Floyd</b> | another.  "In fact, it's appearing this year, ain't it?"  There are
+<b>Floyd</b> | more chuckles all around as you quietly excuse yourself from their
+<b>Floyd</b> | company.
+<b>Floyd</b> |
+<b>Floyd</b> |    That night you toss and turn in your tent as visions of The Old One
+<b>Floyd</b> | swim in your mind.  You are almost out of bait and money, but perhaps,
+<b>Floyd</b> | just perhaps, you might have a chance.  And so, at five o'clock in the
+<b>Floyd</b> | morning, you slip away from camp, with only a rod, tackle box and
+<b>Floyd</b> | thermos of coffee in hand, down the trail the old men told you about.
+<b>Floyd</b> | You feel the thrill of fishing return to you as you make your way down
+<b>Floyd</b> | to Lake Highwater.  Somehow, you think, you will succeed where others
+<b>Floyd</b> | have failed.  You are sure that The Old One will not be...
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | The One That Got Away
+<b>Floyd</b> | Interactive Fiction
+<b>Floyd</b> | Version 1.1 (Release 2)
+<b>Floyd</b> | Developed with TADS, the Text Adventure Development System.
+<b>Floyd</b> | Copyright (c) 1995 by Leon Lin, All Rights Reserved
+<b>Floyd</b> |
+<b>Floyd</b> | (Type "info" for information about this release.)
+<b>Floyd</b> |
+<b>Floyd</b> | Path to Lake
+<b>Floyd</b> |
+<b>Floyd</b> |    This ancient dirt path, no doubt trod on by generations of stalwart
+<b>Floyd</b> | anglers, leads north to Lake Highwater.  The path is surrounded by
+<b>Floyd</b> | lush green grass and tall pine trees which fill your welcoming eyes
+<b>Floyd</b> | with green.  In the distance, small birds chirp and the occasional
+<b>Floyd</b> | deer can be seen scampering through the woods.  The only anomaly in
+<b>Floyd</b> | the landscape is the large, unsightly mound of dirt sitting next to a
+<b>Floyd</b> | pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  grumps
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  says, "oh, we're being all timely"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "Hee hee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "The problem is that the birthday banner is all the way in teh lounge, and I can't see it from here"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "Or maybe I can...."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "We should save often."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  asks, "the birthday banner has birth years on it?"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x mound</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a mound of dirt which was obviously formed when someone tried
+<b>Floyd</b> | to dig a well here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  says, "I can't remember"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  says (to Tale), "I thought this game was short enough that saving wasn't important"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "Yup, it does.  I'm actully 9 years older than you... not 90"
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">x well</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "well".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Touchy</b> says, "Hi, everybody."
+</TD><td></td><TD><b>Limax</b>  says (to Ellison), "We"
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">x pile</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which pile do you mean, the mound of dirt, or the pile of rocks?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">rocks</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This looks like an old pile of stones.  They're quite heavy, and have
+<b>Floyd</b> | irregular shapes.
+<b>Floyd</b> |
+<b>Floyd</b> | You see something move in the dirt pile!  It's slimy, soft, and
+<b>Floyd</b> | segmented--an earthworm!  Before you can even move, the worm
+<b>Floyd</b> | disappears beneath the surface of the dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  says (to Ellison), "We're playing on Floyd.  Saving is important"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "I think you can loose and die"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  loosens up
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">dig in dirt</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to dig in it with?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You have a small pamphlet, a fishing pole, a dollar bill, a tackle
+<b>Floyd</b> | box, and a thermos.  The fishing line seems to contain a hook.  The
+<b>Floyd</b> | tackle box seems to contain a fishing knife, a cheese ball, a small
+<b>Floyd</b> | weight, a medium weight, and a large weight.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Ellison</b>  asks, "what's a little losing and dying among friends?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  asks, "Does anybody know what a tackle box is?"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> clears the save counter.
+</TD><td></td><TD><b>Gerynar</b>  says, "it's what you keep your fishing doo-dads in"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "hooks, bait, etc..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "It's a box where you keep fishing tackle."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  says (to Touchy), "it's what a fisherman keeps his fishing lures and hooks in"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "It's like a toolbox."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says, "Alright."
+</TD><td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">read pamphlet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Fishing Pole Instructions"
+<b>Floyd</b> |
+<b>Floyd</b> |    The following transcript is probably not exactly like your own
+<b>Floyd</b> | fishing experience, but gives you an idea of what you can do with your
+<b>Floyd</b> | new fishing pole.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Foredeck
+<b>Floyd</b> |
+<b>Floyd</b> |    This is the foredeck of the USS Tuna Melt, a fishing boat off the
+<b>Floyd</b> | Baja California coast.  The deck is wet with the waters of the sea and
+<b>Floyd</b> | the air has its distinctive salt taste.  You can go aft.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; INVENTORY
+<b>Floyd</b> |
+<b>Floyd</b> | You are carrying a fishing pole and a tackle box.  The fishing line
+<b>Floyd</b> | seems to contain a hook.  The tackle box seems to contain a shrimp and
+<b>Floyd</b> | a plastic bobber.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; LOOK AT LINE
+<b>Floyd</b> |
+<b>Floyd</b> | You see attached to the line a hook.  On the hook you see nothing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; TIE BOBBER TO LINE
+<b>Floyd</b> |
+<b>Floyd</b> | You tie the bobber securely to the line.
+<b>Floyd</b> |
+<b>Floyd</b> | Old Man Pete, your captain on this voyage, wanders on deck.  He is
+<b>Floyd</b> | smoking a pipe agitatedly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; PETE, HELLO
+<b>Floyd</b> |
+<b>Floyd</b> | "Avast, and shiver me timbers!"  growls Pete, who flexes his
+<b>Floyd</b> | grotesquely oversized biceps restlessly.  "Aar, keep fishing!  I'll
+<b>Floyd</b> | give you this gold doubloon to you if you catch the infamous fish,
+<b>Floyd</b> | Doby the Mackrel!"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; PUT THE SHRUMP ON THE HOOK
+<b>Floyd</b> |
+<b>Floyd</b> | Sorry, I don't know the word 'shrump'.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; OOPS SHRIMP
+<b>Floyd</b> |
+<b>Floyd</b> | You slide the shrimp easily onto the hook.
+<b>Floyd</b> |
+<b>Floyd</b> | A sudden wave splashes onto deck, drenching everyone.  The water
+<b>Floyd</b> | extinguishes Pete's pipe.  "%#&@$*( sea," he yells angrily as he
+<b>Floyd</b> | plucks a sardine from the pipe.  "Can't a man get a decent smoke
+<b>Floyd</b> | anymore?"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; ASK PETE ABOUT SHRIMP
+<b>Floyd</b> |
+<b>Floyd</b> | "Aar, if ye don't catch Doby soon you'll be eatin' yer bait instead of
+<b>Floyd</b> | returning it to the sea," warns Pete.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; CAST LINE
+<b>Floyd</b> |
+<b>Floyd</b> | You swing the line back a long way, nearly snagging Pete with the
+<b>Floyd</b> | line.  "Watch where ye put that line, ye landlubber!"  With a strong
+<b>Floyd</b> | snap of the wrist, you launch the line and its contents into the sea.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; Z
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | "Aar, where's me lighter?"  growls Pete.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; Z
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; Z
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; Z
+<b>Floyd</b> |
+<b>Floyd</b> | You feel a tug at the line!  It's weak, yet persistent, and getting
+<b>Floyd</b> | stronger by the second!
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; REEL IN LINE
+<b>Floyd</b> |
+<b>Floyd</b> | You start reeling in the line when it snags!  You pull, and pull, but
+<b>Floyd</b> | it won't come up!
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; REEL IN LINE
+<b>Floyd</b> |
+<b>Floyd</b> | Your pole bends so much from your effort that you think it's going to
+<b>Floyd</b> | snap.  And suddenly, with a "Whoosh!", your line comes screaming back
+<b>Floyd</b> | at you, knocking you to the deck!
+<b>Floyd</b> |
+<b>Floyd</b> | &gt; LOOK AT HOOK
+<b>Floyd</b> |
+<b>Floyd</b> | You see a mackrel on the hook.
+<b>Floyd</b> |
+<b>Floyd</b> | "That's not Doby the Mackrel," says Pete angrily.  "You incompetent
+<b>Floyd</b> | landlubber, when will you learn!  Get below and get more shrimp!  I
+<b>Floyd</b> | won't rest until Doby the Mackrel is caught!"  "Curse you, Doby the
+<b>Floyd</b> | Mackrel, curse you!"  Pete exclaims, shaking his fist at the sea.
+<b>Floyd</b> | "From Hell's heart I stab at thee...for hate's sake I spit my last
+<b>Floyd</b> | breath at thee!"  You involuntarily twist your body to avoid his
+<b>Floyd</b> | flying saliva...
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Ellison</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You look about the same as always.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Ellison</b> arrives, full of fun and funk.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">dig dirt mound</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to dig in it with?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Path to Lake
+<b>Floyd</b> |
+<b>Floyd</b> |    This ancient dirt path, no doubt trod on by generations of stalwart
+<b>Floyd</b> | anglers, leads north to Lake Highwater.  The path is surrounded by
+<b>Floyd</b> | lush green grass and tall pine trees which fill your welcoming eyes
+<b>Floyd</b> | with green.  In the distance, small birds chirp and the occasional
+<b>Floyd</b> | deer can be seen scampering through the woods.  The only anomaly in
+<b>Floyd</b> | the landscape is the large, unsightly mound of dirt sitting next to a
+<b>Floyd</b> | pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "Oops, I forgot that giving a non-library response to X ME wasn't yet invented in the 90s"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  asks, "Interesting intro. Is it from a different game?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Nitku), "It worked..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  asks, "Wait, are we playing already?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says (to Limax), "yes"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "for the past 8 minutes"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Limax), "Sigh - yes.  Top of the hour, sharp."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says, "But we barely did anything."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Touchy), "No. Infocom used to do the same thing with transcripts of fake games similar to the one you're playing, to demonstrate what's possible."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says (to Jacqueline), "That's the standard TADS response"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says (to Jacqueline), "Oh.  It came and went without me noticing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says, "hmhm"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  asks, "Why don't we just wait until the top of the next hour, then?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Nitku), "Ah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  asks (of Limax), "What's so bad about right now?"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">examine me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You look about the same as always.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Touchy), "He's just doing that."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says, "And what's everybody doing? Nobody is entering commands.."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "He likes to be like that."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I've played this one already. I'm waiting to see what the rest of you do."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says (to Jacqueline), "Oh come on now... tell me how you really feel about me"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bob's Fish 'N Bait Store
+<b>Floyd</b> |
+<b>Floyd</b> |    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+<b>Floyd</b> | bait shop at Lake Highwater.  Except for the sign on the counter that
+<b>Floyd</b> | declares "Cameras, worms $1.00" the entire store has an air of rustic
+<b>Floyd</b> | antiquity as well as a distinctly robust fishy odor.  On the west wall
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">take cheese</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | there is a curtain behind the counter leading into some back room, and
+<b>Floyd</b> | upon the counter there is an old wooden bucket as well as a plastic
+<b>Floyd</b> | receptacle.  By the entrance of the store, to the east, is a small
+<b>Floyd</b> | collection of old photos, depicting champion fishermen.
+<b>Floyd</b> | On the counter sits a camera.
+<b>Floyd</b> |    Bob is here, minding the store.
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob launches into an extended monologue about the time he and Zeke
+<b>Floyd</b> | flushed out a bunch of worms in his mother's vegetable garden with tea
+<b>Floyd</b> | and drove the excited nightcrawlers into the pantry, scaring some
+<b>Floyd</b> | guests.  He rubs his behind wistfully, as if remembering the results
+<b>Floyd</b> | of his action.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  smiles.
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x bob</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Old Bob has run this store for (if those old men are to be believed)
+<b>Floyd</b> | 103 years. While you doubt that particular claim (for after all
+<b>Floyd</b> | Willard Scott never wished him a happy birthday on the "Today" show)
+<b>Floyd</b> | you sense there is truth to the claim that Bob is the best damn bait
+<b>Floyd</b> | seller at Lake Highwater.  You could ask this man anything and he'll
+<b>Floyd</b> | have an answer.
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Touchy</b>  asks, "mkay...what did we just take?"
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You have a small pamphlet, a fishing pole, a dollar bill, a tackle
+<b>Floyd</b> | box, a thermos, and a cheese ball.  The fishing line seems to contain
+<b>Floyd</b> | a hook.  The tackle box seems to contain a fishing knife, a small
+<b>Floyd</b> | weight, a medium weight, and a large weight.
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>two-star</b>  says, "The cheese"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "That monologue about the tea looks like a hint."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "Ha ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">ask bob about worms</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Sorry, worms been hard to find recently," says Bob.
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">ask bob about cheese</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "New-fangled artificial polysorbic, monosodium, dipeptide 3,3,4,
+<b>Floyd</b> | whatever stuff!"  sneers Bob.  "I don't know what that
+<b>Floyd</b> | radioactive-looking thing is made of, but I can tell you, it ain't
+<b>Floyd</b> | going to catch The Old One.  You're gonna need *real* bait for that!"
+<b>Floyd</b> |
+<b>Floyd</b> | You hear what sounds like a sigh.  Bob is gazing at the large picture
+<b>Floyd</b> | on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+<b>Floyd</b> | notices you looking at him funny.  You quickly avert your gaze.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  asks, "Wait... am I the only one who hasn't played this before?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "I haven't"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "I haven't"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I haven't."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "Okay"
+</TD><td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">ask bob about inform</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "inform".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Touchy</b>  says, "I haven't."
+</TD><td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">ask bob about nelson</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "nelson".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">ask bob about tea</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "tea".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">ask bob about xyzzy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  says, "I saw Tale driving, so I assumed that everyone had played it before"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">xyzzy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You speak the ancient word of power.  When you realize that it does
+<b>Floyd</b> | jack diddly, you slap your hand to your forehead and exclaim, "D'OH!"
+<b>Floyd</b> |
+<b>Floyd</b> | "When we were kids those magic words really meant something!"  snorts
+<b>Floyd</b> | Bob.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear what sounds like a sigh.  Bob is gazing at the large picture
+<b>Floyd</b> | on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+<b>Floyd</b> | notices you looking at him funny.  You quickly avert your gaze.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Tale</b>  says, "I just looked at the pamphlet because I knew it was important"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ask bob about nellie</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The normally locquacious Bob falls silent.  Finally, with an effort,
+<b>Floyd</b> | he says, "Yes, that was my beloved Nellie.  She loved fishing as much
+<b>Floyd</b> | as I did; we were perfect together.I didn't make that much money, only
+<b>Floyd</b> | being a humble seller of bait, but I even managed to scrape together
+<b>Floyd</b> | enough to buy her a gold bracelet with her name engraved on it.
+<b>Floyd</b> | Finally, on her sixteenth birthday, her father finally gave consent
+<b>Floyd</b> | for us to get married, and I was the happiest man on the earth.
+<b>Floyd</b> |
+<b>Floyd</b> | However, the day of our wedding, I was all dressed up and ready for
+<b>Floyd</b> | the ceremony, but Nellie didn't show up.  We searched all around but
+<b>Floyd</b> | couldn't find her.That's when I remembered there was some rich
+<b>Floyd</b> | European guy who'd been also wooing Nellie, and it dawned on me that
+<b>Floyd</b> | even my little gold bracelet wouldn't be enough to compete with the
+<b>Floyd</b> | expensive trinkets he could buy without a second thought.My friends
+<b>Floyd</b> | tried to console me; they said, 'Nellie's like Lake Highwater!  She's
+<b>Floyd</b> | not so shallow she would follow riches instead of her heart!' But as
+<b>Floyd</b> | the day ended and there was no sign of Nellie, I was forced to
+<b>Floyd</b> | conclude she had left me for the European.
+<b>Floyd</b> |
+<b>Floyd</b> | At midnight, when I was drinking myself silly, my friend Zeke came up
+<b>Floyd</b> | to me and said some guy saw Nellie that day, and that she'd been
+<b>Floyd</b> | fishing on the pier and was pulled under by The Old One!  I didn't
+<b>Floyd</b> | believe Zeke.Even at 14 I'd told many a tall tale about fishing, and I
+<b>Floyd</b> | figured Zeke made that up to make me feel better.  Never did hear from
+<b>Floyd</b> | Nellie again.  Her father died of heartbreak shortly thereafter.  I
+<b>Floyd</b> | always thought Nellie might come back, and I've waited, just minding
+<b>Floyd</b> | this store, but I guess it'll never be."
+<b>Floyd</b> |
+<b>Floyd</b> | "I ever tell you about the time I caught ol' Big Mouth up at Lake
+<b>Floyd</b> | Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+<b>Floyd</b> | lake and pummelled him good with my bare fists.  That I did!"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">ask bob about nellie</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The normally locquacious Bob falls silent.  Finally, with an effort,
+<b>Floyd</b> | he says, "Yes, that was my beloved Nellie.  She loved fishing as much
+<b>Floyd</b> | as I did; we were perfect together.I didn't make that much money, only
+<b>Floyd</b> | being a humble seller of bait, but I even managed to scrape together
+<b>Floyd</b> | enough to buy her a gold bracelet with her name engraved on it.
+<b>Floyd</b> | Finally, on her sixteenth birthday, her father finally gave consent
+<b>Floyd</b> | for us to get married, and I was the happiest man on the earth.
+<b>Floyd</b> |
+<b>Floyd</b> | However, the day of our wedding, I was all dressed up and ready for
+<b>Floyd</b> | the ceremony, but Nellie didn't show up.  We searched all around but
+<b>Floyd</b> | couldn't find her.That's when I remembered there was some rich
+<b>Floyd</b> | European guy who'd been also wooing Nellie, and it dawned on me that
+<b>Floyd</b> | even my little gold bracelet wouldn't be enough to compete with the
+<b>Floyd</b> | expensive trinkets he could buy without a second thought.My friends
+<b>Floyd</b> | tried to console me; they said, 'Nellie's like Lake Highwater!  She's
+<b>Floyd</b> | not so shallow she would follow riches instead of her heart!' But as
+<b>Floyd</b> | the day ended and there was no sign of Nellie, I was forced to
+<b>Floyd</b> | conclude she had left me for the European.
+<b>Floyd</b> |
+<b>Floyd</b> | At midnight, when I was drinking myself silly, my friend Zeke came up
+<b>Floyd</b> | to me and said some guy saw Nellie that day, and that she'd been
+<b>Floyd</b> | fishing on the pier and was pulled under by The Old One!  I didn't
+<b>Floyd</b> | believe Zeke.Even at 14 I'd told many a tall tale about fishing, and I
+<b>Floyd</b> | figured Zeke made that up to make me feel better.  Never did hear from
+<b>Floyd</b> | Nellie again.  Her father died of heartbreak shortly thereafter.  I
+<b>Floyd</b> | always thought Nellie might come back, and I've waited, just minding
+<b>Floyd</b> | this store, but I guess it'll never be."
+<b>Floyd</b> |
+<b>Floyd</b> | Bob launches into an extended monologue about the time he and Zeke
+<b>Floyd</b> | flushed out a bunch of worms in his mother's vegetable garden with tea
+<b>Floyd</b> | and drove the excited nightcrawlers into the pantry, scaring some
+<b>Floyd</b> | guests.  He rubs his behind wistfully, as if remembering the results
+<b>Floyd</b> | of his action.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "ha - good Xyzzy response."
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bob's Fish 'N Bait Store
+<b>Floyd</b> |
+<b>Floyd</b> |    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+<b>Floyd</b> | bait shop at Lake Highwater.  Except for the sign on the counter that
+<b>Floyd</b> | declares "Cameras, worms $1.00" the entire store has an air of rustic
+<b>Floyd</b> | antiquity as well as a distinctly robust fishy odor.  On the west wall
+<b>Floyd</b> | there is a curtain behind the counter leading into some back room, and
+<b>Floyd</b> | upon the counter there is an old wooden bucket as well as a plastic
+<b>Floyd</b> | receptacle.  By the entrance of the store, to the east, is a small
+<b>Floyd</b> | collection of old photos, depicting champion fishermen.
+<b>Floyd</b> | On the counter sits a camera.
+<b>Floyd</b> |    Bob is here, minding the store.
+<b>Floyd</b> |
+<b>Floyd</b> | "I ever tell you about the time I caught ol' Big Mouth up at Lake
+<b>Floyd</b> | Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+<b>Floyd</b> | lake and pummelled him good with my bare fists.  That I did!"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">ask bob about big mouth</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "mouth".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">ask bob about bob</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "What's that, kid?"  demands Bob indignantly.  "I don't understand ya,
+<b>Floyd</b> | speak up!"
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">ask bob about fishing</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "I've picked my teeth with larger," says Bob nonchalantly.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob launches into an extended monologue about the time he and Zeke
+<b>Floyd</b> | flushed out a bunch of worms in his mother's vegetable garden with tea
+<b>Floyd</b> | and drove the excited nightcrawlers into the pantry, scaring some
+<b>Floyd</b> | guests.  He rubs his behind wistfully, as if remembering the results
+<b>Floyd</b> | of his action.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x bucket</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This bucket is normally used to hold worms.  At the moment, it's quite
+<b>Floyd</b> | empty.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob launches into an extended monologue about the time he and Zeke
+<b>Floyd</b> | flushed out a bunch of worms in his mother's vegetable garden with tea
+<b>Floyd</b> | and drove the excited nightcrawlers into the pantry, scaring some
+<b>Floyd</b> | guests.  He rubs his behind wistfully, as if remembering the results
+<b>Floyd</b> | of his action.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">ask bob about old one</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bob starts to say something, probably one of his long winded stories,
+<b>Floyd</b> | but suddenly falls silent and looks at the picture of the woman on the
+<b>Floyd</b> | wall.
+<b>Floyd</b> |
+<b>Floyd</b> | "I ever tell you about the time I caught ol' Big Mouth up at Lake
+<b>Floyd</b> | Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+<b>Floyd</b> | lake and pummelled him good with my bare fists.  That I did!"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which picture do you mean, the first photo, the second photo, the
+<b>Floyd</b> | third photo, the fourth photo, the fifth photo, or the sixth photo?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Touchy</b>  says, "hahaha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  asks, "Yeah Gerynar, which one?"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which picture do you mean, the first photo, the second photo, the
+<b>Floyd</b> | third photo, the fourth photo, the fifth photo, or the sixth photo?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">first</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a picture of "Bass-ackwards" Joe Bob Thorpe, in 1955.  He's
+<b>Floyd</b> | holding up a large bass.  Next to it, in pen, is the notation "20
+<b>Floyd</b> | lbs".
+<b>Floyd</b> |
+<b>Floyd</b> | Bob launches into an extended monologue about the time he and Zeke
+<b>Floyd</b> | flushed out a bunch of worms in his mother's vegetable garden with tea
+<b>Floyd</b> | and drove the excited nightcrawlers into the pantry, scaring some
+<b>Floyd</b> | guests.  He rubs his behind wistfully, as if remembering the results
+<b>Floyd</b> | of his action.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">ask bob about camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Don't know much about those new-fangled Japanese gadgets," says Bob.
+<b>Floyd</b> | "They say just point the camera at the target and press the button.  I
+<b>Floyd</b> | dunno."
+<b>Floyd</b> |
+<b>Floyd</b> | Bob launches into an extended monologue about the time he and Zeke
+<b>Floyd</b> | flushed out a bunch of worms in his mother's vegetable garden with tea
+<b>Floyd</b> | and drove the excited nightcrawlers into the pantry, scaring some
+<b>Floyd</b> | guests.  He rubs his behind wistfully, as if remembering the results
+<b>Floyd</b> | of his action.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">buy camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bob takes your dollar and hands you the camera.  "I don't know why,
+<b>Floyd</b> | but it's only got one shot in it," he warns.  "Make it count, kid!"
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">show the camera to bob</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Don't know much about those new-fangled Japanese gadgets," says Bob.
+<b>Floyd</b> | "They say just point the camera at the target and press the button.  I
+<b>Floyd</b> | dunno."
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">say 'screw you' to Bob.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't recognize that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x second picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This yellowing, aged photo, the largest of the lot, depicts a one
+<b>Floyd</b> | Nellie Carpenter in 1894.  She's holding up a large bass which has the
+<b>Floyd</b> | notation "16 lbs" next to it.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob licks his finger and holds it up in the air.  "Feels like rain,"
+<b>Floyd</b> | he remarks.  He licks his finger and holds it up again.  "Or, maybe
+<b>Floyd</b> | not."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "Something wrong with his short-term memory"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Make sure you save before using the camera, I guess, if there's only one shot in it."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x third picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | According to the caption on this photo, the young man standing in the
+<b>Floyd</b> | photo with the bass is Robert Stanowski.  The bass is labeled "13 lbs"
+<b>Floyd</b> | and the year is 1962.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear what sounds like a sigh.  Bob is gazing at the large picture
+<b>Floyd</b> | on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+<b>Floyd</b> | notices you looking at him funny.  You quickly avert your gaze.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I cleared the save counter; we're good to go there."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x fourth picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In the black and white photo stands a man wearing what looks like a
+<b>Floyd</b> | World War I military uniform, complete with rifle and bayonet.  Stuck
+<b>Floyd</b> | to the end of the bayonet is a large perch, next to which is the
+<b>Floyd</b> | notation "15 lbs".  A caption identifies the person as Roger Peterson;
+<b>Floyd</b> | the year as 1918.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob licks his finger and holds it up in the air.  "Feels like rain,"
+<b>Floyd</b> | he remarks.  He licks his finger and holds it up again.  "Or, maybe
+<b>Floyd</b> | not."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x fifth picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This photo stands out as the only color picture in the collection.  A
+<b>Floyd</b> | grizzled old man, in plaid shirt and faded brown trousers, grins
+<b>Floyd</b> | through a thick white beard as he holds above his head a surprisingly
+<b>Floyd</b> | large bass.  The notation next to the fish is "35 lbs" followed by a
+<b>Floyd</b> | number of exclamation points.  The person is identified as 'Zeke
+<b>Floyd</b> | Wilder, and the year is 19xx--you can't quiet make out the last two
+<b>Floyd</b> | digits.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob licks his finger and holds it up in the air.  "Feels like rain,"
+<b>Floyd</b> | he remarks.  He licks his finger and holds it up again.  "Or, maybe
+<b>Floyd</b> | not."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">kick bucket</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "kick".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x sixth picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This grainy black and white photo, obviously taken during the twilight
+<b>Floyd</b> | hours, is a shot of Lake Highwater.  In the middle of the photo is a
+<b>Floyd</b> | large but fuzzy black splotch.  With a bit of imagination, you think
+<b>Floyd</b> | it might possibly be fish-shaped.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob licks his finger and holds it up in the air.  "Feels like rain,"
+<b>Floyd</b> | he remarks.  He licks his finger and holds it up again.  "Or, maybe
+<b>Floyd</b> | not."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">ask bob about sixth picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Yessir," says Bob, "that's the *only* known picture of The Old One
+<b>Floyd</b> | that's known to man."  He shakes his head and sighs.  "Folks been
+<b>Floyd</b> | seeing The Old One since the Cru-sades, but no one's ever caught him
+<b>Floyd</b> | on film until 1935.  The man who can snag that fish will be hailed as
+<b>Floyd</b> | Lake Highwater's greatest angler, you can bet on that."
+<b>Floyd</b> |
+<b>Floyd</b> | "I ever tell you about the time I caught ol' Big Mouth up at Lake
+<b>Floyd</b> | Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+<b>Floyd</b> | lake and pummelled him good with my bare fists.  That I did!"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">ask bob about second picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The normally locquacious Bob falls silent.  Finally, with an effort,
+<b>Floyd</b> | he says, "Yes, that was my beloved Nellie.  She loved fishing as much
+<b>Floyd</b> | as I did; we were perfect together.I didn't make that much money, only
+<b>Floyd</b> | being a humble seller of bait, but I even managed to scrape together
+<b>Floyd</b> | enough to buy her a gold bracelet with her name engraved on it.
+<b>Floyd</b> | Finally, on her sixteenth birthday, her father finally gave consent
+<b>Floyd</b> | for us to get married, and I was the happiest man on the earth.
+<b>Floyd</b> |
+<b>Floyd</b> | However, the day of our wedding, I was all dressed up and ready for
+<b>Floyd</b> | the ceremony, but Nellie didn't show up.  We searched all around but
+<b>Floyd</b> | couldn't find her.That's when I remembered there was some rich
+<b>Floyd</b> | European guy who'd been also wooing Nellie, and it dawned on me that
+<b>Floyd</b> | even my little gold bracelet wouldn't be enough to compete with the
+<b>Floyd</b> | expensive trinkets he could buy without a second thought.My friends
+<b>Floyd</b> | tried to console me; they said, 'Nellie's like Lake Highwater!  She's
+<b>Floyd</b> | not so shallow she would follow riches instead of her heart!' But as
+<b>Floyd</b> | the day ended and there was no sign of Nellie, I was forced to
+<b>Floyd</b> | conclude she had left me for the European.
+<b>Floyd</b> |
+<b>Floyd</b> | At midnight, when I was drinking myself silly, my friend Zeke came up
+<b>Floyd</b> | to me and said some guy saw Nellie that day, and that she'd been
+<b>Floyd</b> | fishing on the pier and was pulled under by The Old One!  I didn't
+<b>Floyd</b> | believe Zeke.Even at 14 I'd told many a tall tale about fishing, and I
+<b>Floyd</b> | figured Zeke made that up to make me feel better.  Never did hear from
+<b>Floyd</b> | Nellie again.  Her father died of heartbreak shortly thereafter.  I
+<b>Floyd</b> | always thought Nellie might come back, and I've waited, just minding
+<b>Floyd</b> | this store, but I guess it'll never be."
+<b>Floyd</b> |
+<b>Floyd</b> | "I ever tell you about the time I caught ol' Big Mouth up at Lake
+<b>Floyd</b> | Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+<b>Floyd</b> | lake and pummelled him good with my bare fists.  That I did!"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Tale</b>  says, "The writing here is nice. I must check out his other game one day."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "this author sure likes his textdumps"
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">ask bob about back room</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "back".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">ask bob about curtain</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "What's that, kid?"  demands Bob indignantly.  "I don't understand ya,
+<b>Floyd</b> | speak up!"
+<b>Floyd</b> |
+<b>Floyd</b> | You hear what sounds like a sigh.  Bob is gazing at the large picture
+<b>Floyd</b> | on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+<b>Floyd</b> | notices you looking at him funny.  You quickly avert your gaze.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says (to Tale), ""Fear"? yeah, that's a good one. CF played it early on."
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bob says, "Sorry, kid, can't you let you in there.  Authorized
+<b>Floyd</b> | personelle only."
+<b>Floyd</b> |
+<b>Floyd</b> | Bob licks his finger and holds it up in the air.  "Feels like rain,"
+<b>Floyd</b> | he remarks.  He licks his finger and holds it up again.  "Or, maybe
+<b>Floyd</b> | not."
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "heh.  But yes, he's a good writer.  Albeit longwinded (like me!)."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "should we try going fishing?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Johnny</b>  says (to DavidW), "No, Kissing the Buddha's Feet."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Bert</b>  says, "That seems in line with the theme of the piece."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says (to bert), "hehe"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Johnny), "ah. Also good."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  asks, "Are we ready with the shop?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "Silent agreement"
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">out</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't go that way.
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Path to Lake
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">verbose</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Okay, now in VERBOSE mode.
+<b>Floyd</b> | Path to Lake
+<b>Floyd</b> |
+<b>Floyd</b> |    This ancient dirt path, no doubt trod on by generations of stalwart
+<b>Floyd</b> | anglers, leads north to Lake Highwater.  The path is surrounded by
+<b>Floyd</b> | lush green grass and tall pine trees which fill your welcoming eyes
+<b>Floyd</b> | with green.  In the distance, small birds chirp and the occasional
+<b>Floyd</b> | deer can be seen scampering through the woods.  The only anomaly in
+<b>Floyd</b> | the landscape is the large, unsightly mound of dirt sitting next to a
+<b>Floyd</b> | pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">cf1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | File to save game in &gt;
+<b>Floyd</b> | Saved.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lake Highwater's Beauteous Shore
+<b>Floyd</b> |
+<b>Floyd</b> |    Ahhhh, Lake Highwater!  This world-famous fishing hole is this
+<b>Floyd</b> | state's best kept secret.  Nearly a mile around, Highwater shines a
+<b>Floyd</b> | perfect blue in the early morning sun.  Ducks calmly fly over its
+<b>Floyd</b> | edge, and pine trees crown the circumfrence of this majestic lake.
+<b>Floyd</b> | The only sign of the hand of man is the short pier on which you now
+<b>Floyd</b> | stand that points north towards the lake.  A well-worn path leads
+<b>Floyd</b> | south.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  says, "Huh. That's weak. Hurray for glulx, then."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Johnny</b>  says, "ILAC"
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x ducks</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The flock of ducks fly lazily over the lake.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x lake</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lake Highwater sits as peacefully as it has since the Ice Age, when
+<b>Floyd</b> | the great glaciers retreated to reveal this regal body of water in all
+<b>Floyd</b> | of its splendor.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">swim</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "swim".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x tackle box</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The tackle box is open.  In the tackle box you see a fishing knife, a
+<b>Floyd</b> | small weight, a medium weight, and a large weight.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x rod</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is your trusty fishing pole, which belonged to your father and
+<b>Floyd</b> | his father, and his father before him, and probably every first-born
+<b>Floyd</b> | male in your family line back to the Stone Age.  It's made of strong,
+<b>Floyd</b> | but flexible wood, and has a titanium reel around which is wound a
+<b>Floyd</b> | line of nearly unbreakable catgut.  Attached to the end of the line is
+<b>Floyd</b> | a hook.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">put bait on hook</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't see any bait here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Touchy</b>  says, "yummy catgut"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "Titanium reel from the Stone Age"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x tackle box</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The tackle box is open.  In the tackle box you see a fishing knife, a
+<b>Floyd</b> | small weight, a medium weight, and a large weight.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "do we need to go back to the dirt mound to get a worm?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well, we can smell the cheese."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I think that would be an excellent idea."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">smell cheese</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "smell".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "aw"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "getting the worm, I mean."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Path to Lake
+<b>Floyd</b> |
+<b>Floyd</b> |    This ancient dirt path, no doubt trod on by generations of stalwart
+<b>Floyd</b> | anglers, leads north to Lake Highwater.  The path is surrounded by
+<b>Floyd</b> | lush green grass and tall pine trees which fill your welcoming eyes
+<b>Floyd</b> | with green.  In the distance, small birds chirp and the occasional
+<b>Floyd</b> | deer can be seen scampering through the woods.  The only anomaly in
+<b>Floyd</b> | the landscape is the large, unsightly mound of dirt sitting next to a
+<b>Floyd</b> | pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+<b>Floyd</b> |
+<b>Floyd</b> | You see something move in the dirt pile!  It's slimy, soft, and
+<b>Floyd</b> | segmented--an earthworm!  Before you can even move, the worm
+<b>Floyd</b> | disappears beneath the surface of the dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">dig</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to dig in?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">dirt</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to dig in it with?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">hand</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "hand".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  says, "Ha ha ha... stalwart anglers"
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">dig in dirt with pamphlet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know how to dig in the mound of dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | You see something move in the dirt pile!  It's slimy, soft, and
+<b>Floyd</b> | segmented--an earthworm!  Before you can even move, the worm
+<b>Floyd</b> | disappears beneath the surface of the dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">get worm</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't see any worm here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  says, "Time for explosives"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">get mound</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't have the mound of dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x rocks</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This looks like an old pile of stones.  They're quite heavy, and have
+<b>Floyd</b> | irregular shapes.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">get rock</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You sift through the pile of rocks.  Though you're no rock hound, you
+<b>Floyd</b> | do see one odd, heavy rock that looks interesting.  You take it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">dig in dirt with rock</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which rock do you mean, the heavy rock, or the pile of rocks?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">heavy rock</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know how to dig in the mound of dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">x rock</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which rock do you mean, the heavy rock, or the pile of rocks?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">heavy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is one dang heavy rock.  It has many strange protrustions and
+<b>Floyd</b> | irregularities sticking out from its surface.
+<b>Floyd</b> |
+<b>Floyd</b> | You see something move in the dirt pile!  It's slimy, soft, and
+<b>Floyd</b> | segmented--an earthworm!  Before you can even move, the worm
+<b>Floyd</b> | disappears beneath the surface of the dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">dig in dirt with heavy rock</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know how to dig in the mound of dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">x protrusions</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "protrusions".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">search dirt pile</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You find nothing of interest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">drop heavy rock on dirt</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There's no good surface on the mound of dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You have a small pamphlet, a fishing pole, a tackle box, a thermos, a
+<b>Floyd</b> | cheese ball, a disposble camera, and a heavy rock.  The fishing line
+<b>Floyd</b> | seems to contain a hook.  The tackle box seems to contain a fishing
+<b>Floyd</b> | knife, a small weight, a medium weight, and a large weight.
+<b>Floyd</b> |
+<b>Floyd</b> | You see something move in the dirt pile!  It's slimy, soft, and
+<b>Floyd</b> | segmented--an earthworm!  Before you can even move, the worm
+<b>Floyd</b> | disappears beneath the surface of the dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">smooth dirt with heavy rock</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "smooth".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x thermos</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your trusty bright orange thermos is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">dig in dirt with knife</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know how to dig in the mound of dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">open thermos</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Opened.
+<b>Floyd</b> |
+<b>Floyd</b> | You see something move in the dirt pile!  It's slimy, soft, and
+<b>Floyd</b> | segmented--an earthworm!  Before you can even move, the worm
+<b>Floyd</b> | disappears beneath the surface of the dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">x thermos</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your trusty bright orange thermos is filled with coffee.
+<b>Floyd</b> |
+<b>Floyd</b> | You see something move in the dirt pile!  It's slimy, soft, and
+<b>Floyd</b> | segmented--an earthworm!  Before you can even move, the worm
+<b>Floyd</b> | disappears beneath the surface of the dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says (to nitku), "nice idea"
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">put heavy rock on dirt</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There's no good surface on the mound of dirt.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "I thought we'd get the lid"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "try pouring coffee on dirt?"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Fang</b> was killed when the Heinkel He 111 which was shuttling him to Berlin crashed shortly after takeoff in Salzburg at Ainring on 21 April 1944. Only his black metal hand was recovered from the wreckage. It received a full state funeral.
+</TD><td></td><TD><b>Cathy</b>  says, "that might make the worm come out"
+</TD><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">pour coffee on dirt</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You pour the entire contents of the thermos onto the dirt pile (and
+<b>Floyd</b> | not without a bit of tearful remorse).  However, your noble sacrifice
+<b>Floyd</b> | does not go unnoticed by the fishing gods.  A fat earthworm, moving
+<b>Floyd</b> | faster than any other worm you've ever seen in your life, comes
+<b>Floyd</b> | barrelling out of the hole in the dirtpile and flops onto the ground.
+<b>Floyd</b> | Then it abruptly slows down, and lies on the ground, twitching
+<b>Floyd</b> | spasmodically.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "hey hey"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says, "Good."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "woo"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "heh, coffee jitter worm."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Cathy</b> high fives Nitku
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">get worm</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "back to fishing?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  high fives Cathy back, misses, stumbles on the ground, makes an ass of himself
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "my theory is that we'll need to experiment with different (combos of) weights on the fishing line"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "we'll want to save before that since we only have 1 worm..."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">cf2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | File to save game in &gt;
+<b>Floyd</b> | Saved.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  exclaims, "let's go catch a fish before jacq turns into a pumpkin!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says, "hehe"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Gerynar</b> wanders off in search of next week's winning lottery numbers.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Gerynar</b> has disconnected.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lake Highwater's Beauteous Shore
+<b>Floyd</b> |
+<b>Floyd</b> |    Ahhhh, Lake Highwater!  This world-famous fishing hole is this
+<b>Floyd</b> | state's best kept secret.  Nearly a mile around, Highwater shines a
+<b>Floyd</b> | perfect blue in the early morning sun.  Ducks calmly fly over its
+<b>Floyd</b> | edge, and pine trees crown the circumfrence of this majestic lake.
+<b>Floyd</b> | The only sign of the hand of man is the short pier on which you now
+<b>Floyd</b> | stand that points north towards the lake.  A well-worn path leads
+<b>Floyd</b> | south.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You came here to fish, not to swim.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">swim</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "swim".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">drink</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to drink?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "oh, sorry; we're already on the pier"
+</TD><td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">drink water</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You drink deeply of Lake Highwater.  Clear, refreshing water flows
+<b>Floyd</b> | into your mouth and down your throat, calming the inner thirst within.
+<b>Floyd</b> | You pull your head out of the water.  Then you proceed to upchuck all
+<b>Floyd</b> | over the place.
+<b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Also, looks like his plane is delayed a touch, so."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Tale</b>  says, "I guess upchuck isn't something nice."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "eww, gross"
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">put weight on line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which weight do you mean, the small weight, the medium weight, or the
+<b>Floyd</b> | large weight?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">small</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There's no good surface on the fishing line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">tie weight to line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which weight do you mean, the small weight, the medium weight, or the
+<b>Floyd</b> | large weight?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">small</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You tie the weight to the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says (to Tale), "upchuck means to vomit."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x medium weight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This medium weight can be attached to fishing lines.  It'll bring your
+<b>Floyd</b> | line down to a fairly deep depth.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x large weight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This large weight can be attached to fishing lines.  It'll sink your
+<b>Floyd</b> | line down to a very deep depth.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "A great opportunity for a "what's upchuck" joke"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "I'm guessing our big fish will be pretty deep... should we add more weight?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Hm, good idea."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says, "yeah"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">tie large weight to line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You tie the weight to the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a fishing line, made of nearly indestructible catgut.  Woe be
+<b>Floyd</b> | to any member of the fish persuasion that should find itself snared by
+<b>Floyd</b> | this, this line of doom.
+<b>Floyd</b> |
+<b>Floyd</b> | You see attached to the line a hook, a small weight, and a large
+<b>Floyd</b> | weight.  On the hook you see nothing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "should we add medium weight, too? what does everyone think?"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">put worm on hook</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You bait the hook with the worm, which wriggles pathetically.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Hm.  This might be a trial-and-error-by-save thing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "I don't remember how I solved this"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "so, try like this so we've got space in either direction?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "save first?"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">cf3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | File to save game in &gt;
+<b>Floyd</b> | Saved.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "We have, what, nine possibilities?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "well, probably 7"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "Hm, I think there are some hints"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Probably, but yes."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  asks, "2^3 = 8?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "each can be on or off, for 8, but probably 0 weights won't work"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "What about all three?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  asks, "So should we run around and look for clues?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "That was the ninth one I was thinking of."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Touchy), "enh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says (to Jacqueline), "that's one of the 7"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Ah, yes.  Seven."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "hopefully we'll get an indication of too deep / too shallow so we won't have to try all 7..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "ANYWAY"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Yeah."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "ready to cast?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Sounds good.  Somewhere in the middle."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Sure, cast away."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cast line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You swing your fishing pole back, way, way, back, and with a strength
+<b>Floyd</b> | honed by years of angling you cast the line beautifully into the lake.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> | You feel a slight vibration on the pole.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "ack! pull? wait? help... anyone here fish?"
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">reeeel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "reeeel".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">reel in line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You reel in the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I doubt it's set."
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">reel in line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Since you haven't cast the line out, you can't reel it in.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Touchy</b>  says, "Oh."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "A vibration does not mean a hit."
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">x line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a fishing line, made of nearly indestructible catgut.  Woe be
+<b>Floyd</b> | to any member of the fish persuasion that should find itself snared by
+<b>Floyd</b> | this, this line of doom.
+<b>Floyd</b> |
+<b>Floyd</b> | You see attached to the line a hook, a small weight, and a large
+<b>Floyd</b> | weight.  On the hook you see an earthworm and a dilapidated rubber
+<b>Floyd</b> | boot.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says, "It doesn't? I don't know the first thing about fishing..."
+</TD><td></td></TR>
+<TR><td></td><TD>Touchy says (to Floyd), "<font color="#89956F">get boot</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Tale</b>  says, "RTFP"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Cool, we still have our worm."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Tale), "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cast line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You swing your fishing pole back, way, way, back, and with a strength
+<b>Floyd</b> | honed by years of angling you cast the line beautifully into the lake.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> | You sense nothing on the line.  Perhaps you should reel it in.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Touchy</b>  asks, "rtfwhat?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "Pamphlet"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Touchy</b>  says, "hehe"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">reel in line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You reel in the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a fishing line, made of nearly indestructible catgut.  Woe be
+<b>Floyd</b> | to any member of the fish persuasion that should find itself snared by
+<b>Floyd</b> | this, this line of doom.
+<b>Floyd</b> |
+<b>Floyd</b> | You see attached to the line a hook, a small weight, and a large
+<b>Floyd</b> | weight.  On the hook you see an earthworm.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cast line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You swing your fishing pole back, way, way, back, and with a strength
+<b>Floyd</b> | honed by years of angling you cast the line beautifully into the lake.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> | You feel a slight vibration on the pole.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "the pamphlet had us reel after feeling vibration"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  asks, "more boots?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "although the example was a stronger pull..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well, it talks about a  week but persistent thing."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Cathy), "right"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "save?"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Enh, we saved not too long ago."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  says, "Maybe we need to change weights..."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "(I was thinking we could save, then try reeling)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Hm, yeah, maybe."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks (of Touchy), "What weights were you thinking?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "ok, let's reel it in and add more weight (after removing a tire or something)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  asks, "The ones on the line?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Touchy</b>  asks, "Were there others?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "we still have a medium weight"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  asks, "did Bob say anything about our weights?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "He's bobbing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says (to ellison), "no, but I don't think we asked him"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Hm, don't reckon I recall that, Ellison."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "Be gentle. Bob is very concious about his weights."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "of course, no one's caught it before, so it's not like they can give us *useful* advice"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says (to Tale), "groan"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">reel in line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You reel in the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a fishing line, made of nearly indestructible catgut.  Woe be
+<b>Floyd</b> | to any member of the fish persuasion that should find itself snared by
+<b>Floyd</b> | this, this line of doom.
+<b>Floyd</b> |
+<b>Floyd</b> | You see attached to the line a hook, a small weight, and a large
+<b>Floyd</b> | weight.  On the hook you see an earthworm and a tire.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">get tire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "whee; let's make a swing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Cathy), "That is a good point about the no prior expertise thing."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Limax</b> walks slowly out of the room and into the sunset.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">tie medium weight to line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You tie the weight to the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "try with all of 'em?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I like that idea, yes."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "no objections, so here I go..."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cast line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You swing your fishing pole back, way, way, back, and with a strength
+<b>Floyd</b> | honed by years of angling you cast the line beautifully into the lake.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> | You feel a slight vibration on the pole.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  leans in.
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">wiggle line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "wiggle".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "bah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I think we can take him if we work together :-)"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">reel in line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You reel in the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a fishing line, made of nearly indestructible catgut.  Woe be
+<b>Floyd</b> | to any member of the fish persuasion that should find itself snared by
+<b>Floyd</b> | this, this line of doom.
+<b>Floyd</b> |
+<b>Floyd</b> | You see attached to the line a hook, a small weight, a large weight,
+<b>Floyd</b> | and a medium weight.  On the hook you see an earthworm and a vax.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x vax</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's an ancient piece of machinery.  You can't tell much more than
+<b>Floyd</b> | that.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "new theory: we get junk at the wrong depths"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "it's how the game tells us it's the wrong weight combo without us losing the worm"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">get vax</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x boot</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This rubber boot has seen better days, as it's all ragged and filled
+<b>Floyd</b> | with holes.  Then again, judging from its shoddy construction and poor
+<b>Floyd</b> | workmanship, it probably hasn't.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">untie large weight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "untie".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">remove large weight from line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've already got your hands full.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "fun fun"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">drop tire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Dropped.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">drop boot</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Dropped.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">drop vax</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Dropped.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">remove large weight from line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a fishing line, made of nearly indestructible catgut.  Woe be
+<b>Floyd</b> | to any member of the fish persuasion that should find itself snared by
+<b>Floyd</b> | this, this line of doom.
+<b>Floyd</b> |
+<b>Floyd</b> | You see attached to the line a hook, a small weight, and a medium
+<b>Floyd</b> | weight.  On the hook you see an earthworm.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cast line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You swing your fishing pole back, way, way, back, and with a strength
+<b>Floyd</b> | honed by years of angling you cast the line beautifully into the lake.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> | You sense nothing on the line.  Perhaps you should reel it in.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">reel in line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You reel in the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "3 down, 4 to go..."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">remove small weight from line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "btw, did you guys use the cheese for anything?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "If this doesn't work, perhaps we should consider the cheese."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">tie large weight to line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You tie the weight to the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Timing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "ok"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a fishing line, made of nearly indestructible catgut.  Woe be
+<b>Floyd</b> | to any member of the fish persuasion that should find itself snared by
+<b>Floyd</b> | this, this line of doom.
+<b>Floyd</b> |
+<b>Floyd</b> | You see attached to the line a hook, a medium weight, and a large
+<b>Floyd</b> | weight.  On the hook you see an earthworm.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cast line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You swing your fishing pole back, way, way, back, and with a strength
+<b>Floyd</b> | honed by years of angling you cast the line beautifully into the lake.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> | You sense nothing on the line.  Perhaps you should reel it in.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">reel in line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You reel in the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "ok, someone want to play with cheese?"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">smell cheese</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "smell".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">taste cheese</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "taste".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> says, "ew"
+</TD><td></td><TD><b>Jacqueline</b>  says, "er, ew"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cut sheese</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "sheese".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">oops cheese</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to cut it with?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "Have you ever seen/smelled one of those cheese balls?"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">knife</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know how to cut the cheese ball.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "not a fishing one; an edible one -- yum"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x cheese</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is one of those cheese balls fishermen sometimes use as bait.  It
+<b>Floyd</b> | seems to glow faintly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "Is it a lightsource?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "try crushing it with the heavy rock?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I'm trying to figure out whether the rock is useful for something..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "Why are you trying to cut the cheese? Do you think there's a baby cheese chick inside, struggling to get out?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I figured it was too big to bait the hook whole"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to DW), "yay"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "but I realize that I have no logical reason for that assumption"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "What about adding the rock somehow to the line?"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x rock</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is one dang heavy rock.  It has many strange protrustions and
+<b>Floyd</b> | irregularities sticking out from its surface.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "nice idea; looks like it could work..."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">tie rick to line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "rick".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">tie rock to line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You spend a few minutes tying the rock to the line.  It takes some
+<b>Floyd</b> | effort, and the creative use of various protrusions on the rock, but
+<b>Floyd</b> | you do it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "oooh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "yay"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "add back the small weight, too?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Let's play a Very Deep Game"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Yes"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">tie small weight to line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You tie the weight to the line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a fishing line, made of nearly indestructible catgut.  Woe be
+<b>Floyd</b> | to any member of the fish persuasion that should find itself snared by
+<b>Floyd</b> | this, this line of doom.
+<b>Floyd</b> |
+<b>Floyd</b> | You see attached to the line a hook, a medium weight, a large weight,
+<b>Floyd</b> | a heavy rock, and a small weight.  On the hook you see an earthworm.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "should we add the cheese, too; sort of a 2-course meal offering?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "heh.  Sure, why not?"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">put cheese on hook</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You bait the hook with the cheese, which sits there like a dead
+<b>Floyd</b> | weight.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "Or so the worm can be seen? yes, I'd try it."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "We should perhaps also consider a kitchen sink."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "or saving?"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">cf4</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | File to save game in &gt;
+<b>Floyd</b> | Saved.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "ready to cast?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD> Jacqueline says (to Cathy), "You can save by typing (not to Floyd, just in the room): press save</font>"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Cathy), "Sure"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "cool; thanks for the directions"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "anyone else want to drive?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I think you are doing a swell job."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cast line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You swing your fishing pole back, way, way, back, and with a strength
+<b>Floyd</b> | honed by years of angling you cast the line beautifully into the lake.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | Jumping Jehosaphat!  The line starts like a race horse threatened with
+<b>Floyd</b> | with milk wagon.  You spot, for a brief instant, great mounds of froth
+<b>Floyd</b> | break upon the surface of the lake, and the flash of silvery fins
+<b>Floyd</b> | shines brightly through the water.  The pole bends, almost to the
+<b>Floyd</b> | breaking point which you never thought reachable.  You strain to keep
+<b>Floyd</b> | your quarry under control, but even your powerful arms must struggle
+<b>Floyd</b> | greatly.  You feel your feet scraping desperately against the wood of
+<b>Floyd</b> | the pier, slipping, slipping...  until finally, you're pulled straight
+<b>Floyd</b> | into the depths of Lake Highwater!
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "sorry, lag got me..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "Could that be Nessie's bracelet?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I'm betting it is"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Also, you're drowning. Maybe 'z' should be undone."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "good idea; thanks"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I was panicking, what with the drowning and all"
+</TD><td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">cf5</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | File to save game in &gt;
+<b>Floyd</b> | Saved.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "hrm"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "I'm thinking we can try to reel to get closer, maybe grab the bracelet? take a picture? use the knife?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "All those are good ideas."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I'll reel if there are no other preferences..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "Go ahead."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">reel in line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Not too likely in this circumstance.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">grab bracelet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "grab".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">hold bracelet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "hold".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "try a normal get or take"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">get bracelet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't reach the bracelet.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">stab fish with knife</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "stab".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cut fish with knife</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know how to cut The Old One.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">take picture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't see any picture here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is one of those "disposable" cameras in which you simply point
+<b>Floyd</b> | the camera, press the button, and deposit the camera with an
+<b>Floyd</b> | authorized film developer.  This looks like one of those new models
+<b>Floyd</b> | that can even be used underwater.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">attack fish</font>"
+</TD><td></td><TD><b>Cathy</b>  says, "sweet"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to attack it with?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">knife</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your attack bounces off The Old One's scales, which have ostensibly
+<b>Floyd</b> | hardened into an impenetrable shell.
+<b>Floyd</b> |
+<b>Floyd</b> | Your oxygen gives out, and shortly thereafter, so do you.
+<b>Floyd</b> |
+<b>Floyd</b> | *** You have gone to that great fishing hole in the sky ***
+<b>Floyd</b> |
+<b>Floyd</b> | In a total of 145 turns, you have achieved a score of 20 points out of
+<b>Floyd</b> | a possible 20.
+<b>Floyd</b> |
+<b>Floyd</b> | You may restore a saved game, start over, quit, or undo the current
+<b>Floyd</b> | command.
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "moo"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Good try, Cathy!"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Tale</b>  says, "*ahem*"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">press camera button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't recognize that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Take a photo - right"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">press button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | [TADS-1010: object value required]
+<b>Floyd</b> | Click.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is one of those "disposable" cameras in which you simply point
+<b>Floyd</b> | the camera, press the button, and deposit the camera with an
+<b>Floyd</b> | authorized film developer.  This looks like one of those new models
+<b>Floyd</b> | that can even be used underwater.
+<b>Floyd</b> |
+<b>Floyd</b> | Your oxygen gives out, and shortly thereafter, so do you.
+<b>Floyd</b> |
+<b>Floyd</b> | *** You have gone to that great fishing hole in the sky ***
+<b>Floyd</b> |
+<b>Floyd</b> | In a total of 145 turns, you have achieved a score of 20 points out of
+<b>Floyd</b> | a possible 20.
+<b>Floyd</b> |
+<b>Floyd</b> | You may restore a saved game, start over, quit, or undo the current
+<b>Floyd</b> | command.
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "Wait, why two undos?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I spent one looking a the camera"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "ok, now I think we're in the original high water"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "try taking a picture, then cutting the line so we can get back to the surface?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "yes. I'd point the camera at either the fish or the bracelet first."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I think Tale showed that killing the fish isn't possible"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says (to DavidW), "good idea"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "Always glad to help by failing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says (to Tale), "no, it was a good attempt"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">aim camera at bracelet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "aim".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">point camera at bracelet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You point the camera at the gold bracelet.
+<b>Floyd</b> |
+<b>Floyd</b> | Your oxygen gives out, and shortly thereafter, so do you.
+<b>Floyd</b> |
+<b>Floyd</b> | *** You have gone to that great fishing hole in the sky ***
+<b>Floyd</b> |
+<b>Floyd</b> | In a total of 145 turns, you have achieved a score of 20 points out of
+<b>Floyd</b> | a possible 20.
+<b>Floyd</b> |
+<b>Floyd</b> | You may restore a saved game, start over, quit, or undo the current
+<b>Floyd</b> | command.
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "You need 3 turns of underwater activity, I think."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "we should be out now..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "maybe we should go back to the most recent save"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "just before we cast"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">point camera at bracelet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You point the camera at the gold bracelet.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">press button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Click.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cut line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What do you want to cut it with?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">knife</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your knife bounces off the indestructible line.  So much for
+<b>Floyd</b> | guarantees.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Undoing one command)
+<b>Floyd</b> |
+<b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "OH CRAP CATGUT"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">drop rod</font>"
+</TD><td></td><TD><b>Jacqueline</b>  says, "I fergot about the catgut issue."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Dropped.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">u</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | With a push against the lake bottom, you swim back up to the lake
+<b>Floyd</b> | shore.
+<b>Floyd</b> |
+<b>Floyd</b> | Lake Highwater's Beauteous Shore
+<b>Floyd</b> |
+<b>Floyd</b> |    Ahhhh, Lake Highwater!  This world-famous fishing hole is this
+<b>Floyd</b> | state's best kept secret.  Nearly a mile around, Highwater shines a
+<b>Floyd</b> | perfect blue in the early morning sun.  Ducks calmly fly over its
+<b>Floyd</b> | edge, and pine trees crown the circumfrence of this majestic lake.
+<b>Floyd</b> | The only sign of the hand of man is the short pier on which you now
+<b>Floyd</b> | stand that points north towards the lake.  A well-worn path leads
+<b>Floyd</b> | south.
+<b>Floyd</b> |    You see a tire, a dilapidated rubber boot, and a vax here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Tale</b>  says, "Maybe just let go="
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is one of those "disposable" cameras in which you simply point
+<b>Floyd</b> | the camera, press the button, and deposit the camera with an
+<b>Floyd</b> | authorized film developer.  This looks like one of those new models
+<b>Floyd</b> | that can even be used underwater.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Tale), "True"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "where do we get film developed? head back to Bob?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Maybe. That back room of his might be a darkroom."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Path to Lake
+<b>Floyd</b> |
+<b>Floyd</b> |    This ancient dirt path, no doubt trod on by generations of stalwart
+<b>Floyd</b> | anglers, leads north to Lake Highwater.  The path is surrounded by
+<b>Floyd</b> | lush green grass and tall pine trees which fill your welcoming eyes
+<b>Floyd</b> | with green.  In the distance, small birds chirp and the occasional
+<b>Floyd</b> | deer can be seen scampering through the woods.  The only anomaly in
+<b>Floyd</b> | the landscape is the large, unsightly mound of dirt sitting next to a
+<b>Floyd</b> | pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bob's Fish 'N Bait Store
+<b>Floyd</b> |
+<b>Floyd</b> |    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+<b>Floyd</b> | bait shop at Lake Highwater.  Except for the sign on the counter that
+<b>Floyd</b> | declares "Cameras, worms $1.00" the entire store has an air of rustic
+<b>Floyd</b> | antiquity as well as a distinctly robust fishy odor.  On the west wall
+<b>Floyd</b> | there is a curtain behind the counter leading into some back room, and
+<b>Floyd</b> | upon the counter there is an old wooden bucket as well as a plastic
+<b>Floyd</b> | receptacle.  By the entrance of the store, to the east, is a small
+<b>Floyd</b> | collection of old photos, depicting champion fishermen.
+<b>Floyd</b> |    Bob is here, minding the store.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob licks his finger and holds it up in the air.  "Feels like rain,"
+<b>Floyd</b> | he remarks.  He licks his finger and holds it up again.  "Or, maybe
+<b>Floyd</b> | not."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">tell bob about bracelet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It doesn't look as though Bob is interested.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob launches into an extended monologue about the time he and Zeke
+<b>Floyd</b> | flushed out a bunch of worms in his mother's vegetable garden with tea
+<b>Floyd</b> | and drove the excited nightcrawlers into the pantry, scaring some
+<b>Floyd</b> | guests.  He rubs his behind wistfully, as if remembering the results
+<b>Floyd</b> | of his action.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">ask bob about camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Don't know much about those new-fangled Japanese gadgets," says Bob.
+<b>Floyd</b> | "They say just point the camera at the target and press the button.  I
+<b>Floyd</b> | dunno."
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "Try give camera to Bob"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">give camera to bob</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Sorry, kid," says Bob.  "I don't particularly need a disposble
+<b>Floyd</b> | camera."
+<b>Floyd</b> |
+<b>Floyd</b> | You hear what sounds like a sigh.  Bob is gazing at the large picture
+<b>Floyd</b> | on the wall of the woman, whispering, "Nellie, Nellie."  Then he
+<b>Floyd</b> | notices you looking at him funny.  You quickly avert your gaze.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">tell bob about camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It doesn't look as though Bob is interested.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob scratches his beard abstractly, thinking about the old days when
+<b>Floyd</b> | he could wrestle a great white shark to the ground.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">ask bob about film</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "film".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">tell bob about bracelet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It doesn't look as though Bob is interested.
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Tale</b>  says, "Maybe you can open it"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You have a small pamphlet, a tackle box, a thermos, and a disposble
+<b>Floyd</b> | camera.  The tackle box seems to contain a fishing knife.
+<b>Floyd</b> |
+<b>Floyd</b> | "I ever tell you about the time I caught ol' Big Mouth up at Lake
+<b>Floyd</b> | Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+<b>Floyd</b> | lake and pummelled him good with my bare fists.  That I did!"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">open camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know how to open the disposble camera.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob scratches his beard abstractly, thinking about the old days when
+<b>Floyd</b> | he could wrestle a great white shark to the ground.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is one of those "disposable" cameras in which you simply point
+<b>Floyd</b> | the camera, press the button, and deposit the camera with an
+<b>Floyd</b> | authorized film developer.  This looks like one of those new models
+<b>Floyd</b> | that can even be used underwater.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob scratches his beard abstractly, thinking about the old days when
+<b>Floyd</b> | he could wrestle a great white shark to the ground.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">ask bob about developer</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "developer".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bob's Fish 'N Bait Store
+<b>Floyd</b> |
+<b>Floyd</b> |    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+<b>Floyd</b> | bait shop at Lake Highwater.  Except for the sign on the counter that
+<b>Floyd</b> | declares "Cameras, worms $1.00" the entire store has an air of rustic
+<b>Floyd</b> | antiquity as well as a distinctly robust fishy odor.  On the west wall
+<b>Floyd</b> | there is a curtain behind the counter leading into some back room, and
+<b>Floyd</b> | upon the counter there is an old wooden bucket as well as a plastic
+<b>Floyd</b> | receptacle.  By the entrance of the store, to the east, is a small
+<b>Floyd</b> | collection of old photos, depicting champion fishermen.
+<b>Floyd</b> |    Bob is here, minding the store.
+<b>Floyd</b> |
+<b>Floyd</b> | "I ever tell you about the time I caught ol' Big Mouth up at Lake
+<b>Floyd</b> | Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+<b>Floyd</b> | lake and pummelled him good with my bare fists.  That I did!"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x plastic receptacle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is the receptacle into which you place disposable cameras so
+<b>Floyd</b> | their film can be developed.
+<b>Floyd</b> |
+<b>Floyd</b> | "Kid," says Bob irritably, "you just going to stand there or are you
+<b>Floyd</b> | going to buy something?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bob says, "Sorry, kid, can't you let you in there.  Authorized
+<b>Floyd</b> | personelle only."
+<b>Floyd</b> |
+<b>Floyd</b> | Bob licks his finger and holds it up in the air.  "Feels like rain,"
+<b>Floyd</b> | he remarks.  He licks his finger and holds it up again.  "Or, maybe
+<b>Floyd</b> | not."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "ah. Put camera in receptacle."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "go for it"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">put camera in receptacle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Done.
+<b>Floyd</b> |
+<b>Floyd</b> | "I ever tell you about the time I caught ol' Big Mouth up at Lake
+<b>Floyd</b> | Shawnee?"  asks Bob.  "Boy, was he a wild one!  I waded down into that
+<b>Floyd</b> | lake and pummelled him good with my bare fists.  That I did!"
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | Bob takes the camera out of the receptacle and mutters something about
+<b>Floyd</b> | the troubles of modern photo development.  He saunters into the back
+<b>Floyd</b> | room, where you hear him trying to set up developing equipment.  There
+<b>Floyd</b> | are lots of clanks and swearing as pans come tumbling down.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | Developing liquids are being poured in the back room.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | You hear Bob humming to himself as he sets some timers.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | The sounds of Bob removing a photo from the back room can be heard.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | Bob emerges from the back room with a photo in his hands.He's shaking
+<b>Floyd</b> | his head. "Those dang-blasted cameras," he says.  "Even the young'uns
+<b>Floyd</b> | can't figure them out!"  He tosses a photo into your hands.  The
+<b>Floyd</b> | picture is a confusing jumble of several pictures, all crammed into
+<b>Floyd</b> | the same space simultaneously.
+<b>Floyd</b> |
+<b>Floyd</b> | "Couldn't even get a picture of The Old One," he says sadly.  "I guess
+<b>Floyd</b> | you young people are as feeble as I thought!  Better luck in thirty
+<b>Floyd</b> | years!"In a total of 164 turns, you have achieved a score of 20 points
+<b>Floyd</b> | out of a possible 20.
+<b>Floyd</b> |
+<b>Floyd</b> | You may restore a saved game, start over, quit, or undo the current
+<b>Floyd</b> | command.
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, or (U)NDO:  &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Bert</b> goes home.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Bert</b> has disconnected.
+</TD><td></td><TD><b>Cathy</b>  says, "so, let's restore, then try winding the camera before we take the picture"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "darn. I guess you have to do 'point camera at fish' not the bracelet."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "bah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Cathy), "Good point, yes."
+</TD><td></td></TR>
+<TR><td></td><TD><b>two-star</b> took 30,500 buckets -- why?
+</TD><td></td><TD><b>DavidW</b>  says, "The error message seems to suggest that more than one picture was taken, though."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Possible."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "maybe need diff syntax there..."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">restore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | File to restore &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Sometimes, though, we just get weird messages on Floyd."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">cf5</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In Lake Highwater
+<b>Floyd</b> |
+<b>Floyd</b> |    Somehow, you have found your way into this lake.  As you breathe
+<b>Floyd</b> | using lungs and not gills, you feel that perhaps you should vacate
+<b>Floyd</b> | this area before you drown.
+<b>Floyd</b> |    A humongous fish, which is without a doubt The Old One, struggles
+<b>Floyd</b> | to free itself from your line.  A gold bracelet, around its tail,
+<b>Floyd</b> | flashes in the feeble light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I wasn't watching the restore numbers. I was making/eating lunch."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "this should be when we first entered"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I still like the bracelet idea"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">wind camera</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I don't know the word "wind".
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "Was the button pushed more than once, though?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "not by us, but the camera had been used before we got it"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | No more undo information is available.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I shall have to depart quite soonish."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "would you like to drive for a bit? try your ideas?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "No no not me"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I am happy to observe - we are close, peeps.  Close."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "hmmm... maybe the camera is a decoy..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "no, I'll try"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "wonder if we could have anchored ourselves to the pier with the vax/etc..."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">point camera at fish</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You point the camera at The Old One.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">push button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Click.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">drop rod</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Dropped.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">u</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | With a push against the lake bottom, you swim back up to the lake
+<b>Floyd</b> | shore.
+<b>Floyd</b> |
+<b>Floyd</b> | Lake Highwater's Beauteous Shore
+<b>Floyd</b> |
+<b>Floyd</b> |    Ahhhh, Lake Highwater!  This world-famous fishing hole is this
+<b>Floyd</b> | state's best kept secret.  Nearly a mile around, Highwater shines a
+<b>Floyd</b> | perfect blue in the early morning sun.  Ducks calmly fly over its
+<b>Floyd</b> | edge, and pine trees crown the circumfrence of this majestic lake.
+<b>Floyd</b> | The only sign of the hand of man is the short pier on which you now
+<b>Floyd</b> | stand that points north towards the lake.  A well-worn path leads
+<b>Floyd</b> | south.
+<b>Floyd</b> |    You see a tire, a dilapidated rubber boot, and a vax here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x vax</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's an ancient piece of machinery.  You can't tell much more than
+<b>Floyd</b> | that.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I bet either the vax or the tackle box could've been used for weight as well."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Path to Lake
+<b>Floyd</b> |
+<b>Floyd</b> |    This ancient dirt path, no doubt trod on by generations of stalwart
+<b>Floyd</b> | anglers, leads north to Lake Highwater.  The path is surrounded by
+<b>Floyd</b> | lush green grass and tall pine trees which fill your welcoming eyes
+<b>Floyd</b> | with green.  In the distance, small birds chirp and the occasional
+<b>Floyd</b> | deer can be seen scampering through the woods.  The only anomaly in
+<b>Floyd</b> | the landscape is the large, unsightly mound of dirt sitting next to a
+<b>Floyd</b> | pile of rocks.  To the west is Bob's Fish 'N Bait Store.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bob's Fish 'N Bait Store
+<b>Floyd</b> |
+<b>Floyd</b> |    This weathered structure is Bob's Fish 'N Bait Store, the oldest
+<b>Floyd</b> | bait shop at Lake Highwater.  Except for the sign on the counter that
+<b>Floyd</b> | declares "Cameras, worms $1.00" the entire store has an air of rustic
+<b>Floyd</b> | antiquity as well as a distinctly robust fishy odor.  On the west wall
+<b>Floyd</b> | there is a curtain behind the counter leading into some back room, and
+<b>Floyd</b> | upon the counter there is an old wooden bucket as well as a plastic
+<b>Floyd</b> | receptacle.  By the entrance of the store, to the east, is a small
+<b>Floyd</b> | collection of old photos, depicting champion fishermen.
+<b>Floyd</b> |    Bob is here, minding the store.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob launches into an extended monologue about the time he and Zeke
+<b>Floyd</b> | flushed out a bunch of worms in his mother's vegetable garden with tea
+<b>Floyd</b> | and drove the excited nightcrawlers into the pantry, scaring some
+<b>Floyd</b> | guests.  He rubs his behind wistfully, as if remembering the results
+<b>Floyd</b> | of his action.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">put camera in receptacle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Done.
+<b>Floyd</b> |
+<b>Floyd</b> | Bob launches into an extended monologue about the time he and Zeke
+<b>Floyd</b> | flushed out a bunch of worms in his mother's vegetable garden with tea
+<b>Floyd</b> | and drove the excited nightcrawlers into the pantry, scaring some
+<b>Floyd</b> | guests.  He rubs his behind wistfully, as if remembering the results
+<b>Floyd</b> | of his action.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z.z.z.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | Bob takes the camera out of the receptacle and mutters something about
+<b>Floyd</b> | the troubles of modern photo development.  He saunters into the back
+<b>Floyd</b> | room, where you hear him trying to set up developing equipment.  There
+<b>Floyd</b> | are lots of clanks and swearing as pans come tumbling down.
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | Developing liquids are being poured in the back room.
+<b>Floyd</b> |
+<b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | You hear Bob humming to himself as he sets some timers.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | The sounds of Bob removing a photo from the back room can be heard.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes...
+<b>Floyd</b> |
+<b>Floyd</b> | Bob emerges from the back room with a photo in his hands.Bob is
+<b>Floyd</b> | handing you the photo when he takes a closer glance at it.  "Why,
+<b>Floyd</b> | why..."  he stammers.  Suddenly he turns white and looks as if he's
+<b>Floyd</b> | about to collapse.  You rush behind the counter to help him, but he
+<b>Floyd</b> | recovers enough to thump himself several times in the chest.  Shaking
+<b>Floyd</b> | his head as if to clear his mind, he stares at the photo again.
+<b>Floyd</b> |
+<b>Floyd</b> | "It's The Old One!"  he gasps.  "Look at it!  That's the largest
+<b>Floyd</b> | bluegill I ever saw!"
+<b>Floyd</b> |
+<b>Floyd</b> | "Um, a bluegill?"  you ask."Yeah," says Bob, pointing out some
+<b>Floyd</b> | features on the fish.  "you can tell by the..."  His voice trails off,
+<b>Floyd</b> | and you realize that a biology lesson is right now not the most
+<b>Floyd</b> | important thing about the moment.
+<b>Floyd</b> |
+<b>Floyd</b> | "Nellie," says Bob with a sigh.  "I know that's The Old One,
+<b>Floyd</b> | because..."  He points to the golden bracelet around The Old One's
+<b>Floyd</b> | tail.  "Because that's Nellie's bracelet.  It was just like Zeke said.
+<b>Floyd</b> | I guess...she didn't really leave me for that rich guy after all.  She
+<b>Floyd</b> | never intended to."
+<b>Floyd</b> |
+<b>Floyd</b> | "Um, I'm sorry," you say, not knowing what to say.
+<b>Floyd</b> |
+<b>Floyd</b> | "You should be!"  Bob snorts, life coming back to him.  "You have The
+<b>Floyd</b> | Old One *that* close, and ya let it get away!  Young whippersnappers
+<b>Floyd</b> | nowadays, they're as feeble as I thought."
+<b>Floyd</b> |
+<b>Floyd</b> | But Bob's tone cheers up as he slips the photo under the counter.
+<b>Floyd</b> | "Still, I have to congratulate you on what ya did.  Before 1935, no
+<b>Floyd</b> | one had a better picture of The Old One than this.  I always wanted ta
+<b>Floyd</b> | see The Old One with my own eyes, and I didn't want to die before I
+<b>Floyd</b> | did."
+<b>Floyd</b> |
+<b>Floyd</b> | "Wait a second," you say.  "This doesn't mean you're not going to..."
+<b>Floyd</b> |
+<b>Floyd</b> | "Of course not!"  says Bob.  "Just because I done near had a heart
+<b>Floyd</b> | attack when I saw that picture doesn't mean I'm going to keel over and
+<b>Floyd</b> | die after I've achieved my ambition of seeing that blasted fish!  I'm
+<b>Floyd</b> | gonna wait, right here, until someday someone brings in The Old One,
+<b>Floyd</b> | straight from the water, to this here bait shop!  Maybe I'll even try
+<b>Floyd</b> | it myself!"  You find yourself in awe at the old man's grim
+<b>Floyd</b> | determination.  "Besides," he says, shoulders slumping a fraction of
+<b>Floyd</b> | an inch, "if I don't live, who's gonna take care of poor Zeke's 170
+<b>Floyd</b> | year-old great-grandmother when he dies?"
+<b>Floyd</b> |
+<b>Floyd</b> | And so your fishing odyssey at Lake Highwater comes to an end.  Out of
+<b>Floyd</b> | bait (as your cheese ball has dissipated into its component gases) and
+<b>Floyd</b> | money, you pack your belongings and get ready to leave.  As you amble
+<b>Floyd</b> | happily out of the bait store, ready for the long hike home, you cast
+<b>Floyd</b> | one more glance at the beautiful blue surface of Lake Highwater.  You
+<b>Floyd</b> | spot a shape in the middle, and strain for a second to take a look.
+<b>Floyd</b> |
+<b>Floyd</b> | It's The Old One, leaping high into the air, as if to bid you
+<b>Floyd</b> | farewell, the golden bracelet around its tail gleaming in the
+<b>Floyd</b> | sunlight.  You smile and nod, and find yourself saluting this rugged
+<b>Floyd</b> | fish, all the while, thinking, "In thirty years!  I'll be back!"
+<b>Floyd</b> |
+<b>Floyd</b> | As if to acknowledge the receipt of your challenge, The Old One waves
+<b>Floyd</b> | its shiny tail at you and disappears beneath the surface of Lake
+<b>Floyd</b> | Highwater.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | In a total of 153 turns, you have achieved a score of 20 points out of
+<b>Floyd</b> | a possible 20.
+<b>Floyd</b> |
+<b>Floyd</b> | You may restore a saved game, start over, quit, undo the current
+<b>Floyd</b> | command, or see a list of things to do in this game for your
+<b>Floyd</b> | amusement.
+<b>Floyd</b> |
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, (U)NDO, or (A)MUSEMENT:  &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">amusement</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Have you tried...
+<b>Floyd</b> |
+<b>Floyd</b> | Swearing?  Swearing in front of Bob?
+<b>Floyd</b> | XYZZY?  (And in front of Bob?)
+<b>Floyd</b> | Going east from the Path to Lake?
+<b>Floyd</b> | Asking Bob about the pictures?  Taking a picture of Bob?
+<b>Floyd</b> | Kissing, killing, giving objects, showing objects to Bob or The Old
+<b>Floyd</b> | One?
+<b>Floyd</b> | Ordering Bob or The Old One to do something?  Saying hello to Bob or
+<b>Floyd</b> | The Old One?
+<b>Floyd</b> | Fishing with the cheese ball?
+<b>Floyd</b> | Fishing without bait?  (Try several times.)  At different depths?
+<b>Floyd</b> | (Use different weights, instead of the rock)
+<b>Floyd</b> | Drinking the coffee?  The lake?
+<b>Floyd</b> | Eating the cheese ball?  the worm?  the birds?  the deer?  the ducks?
+<b>Floyd</b> | Cutting the line with the knife?
+<b>Floyd</b> | Casting the line in front of Bob?
+<b>Floyd</b> | Taking a picture of something other than The Old One?  Taking more
+<b>Floyd</b> | than one picture?
+<b>Floyd</b> |
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, (U)NDO, or (A)MUSEMENT:  &gt;
+</PRE></td><td></td>
+<TD><b>Tale</b>  says, "Yay!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Huzzah!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "And now I must go to the airport!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says (to Jacqueline), "bye"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says (to Jacqueline), "Drive safe"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says (to Jacqueline), "glad you got to stay for the end"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "Eating the deer? the ducks?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I shall leave Perry logging.  Play around the amusing stuff..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Also, next week: Fragile Shells!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "I hope there'll be a follow-up"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Have fun, folks!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "bye Jacqueline"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  says (to Jacqueline), "good travels!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks (of Tale), "The author gave himself 30 years to write a sequel. How long has it been now?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "Ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "speaking of eating... it's lunch time"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "Good poinnt"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "hey, 'amusement' is new; didn't get that before we solved it"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "It's usually at the end"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "right. You have to win the game before getting access to that command."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "ah, of course..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  says (to Tale), "man, beating that game has made you age dramatically"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  asks (of Ellison), "?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  says (to Tale), "you're an old IF geezer now"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Talegeezer"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "I'm playing Phoenix games, you whippersnappers"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  says, "good point"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  asks, "So, another small game?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I'm in if we can wait 15-20 mintes to start"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "15 would be the top of the hour..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "yeah, a break would be nice."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "I'm back... anyone else?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I just put the kettle on."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, (U)NDO, or (A)MUSEMENT:  &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">a</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Have you tried...
+<b>Floyd</b> |
+<b>Floyd</b> | Swearing?  Swearing in front of Bob?
+<b>Floyd</b> | XYZZY?  (And in front of Bob?)
+<b>Floyd</b> | Going east from the Path to Lake?
+<b>Floyd</b> | Asking Bob about the pictures?  Taking a picture of Bob?
+<b>Floyd</b> | Kissing, killing, giving objects, showing objects to Bob or The Old
+<b>Floyd</b> | One?
+<b>Floyd</b> | Ordering Bob or The Old One to do something?  Saying hello to Bob or
+<b>Floyd</b> | The Old One?
+<b>Floyd</b> | Fishing with the cheese ball?
+<b>Floyd</b> | Fishing without bait?  (Try several times.)  At different depths?
+<b>Floyd</b> | (Use different weights, instead of the rock)
+<b>Floyd</b> | Drinking the coffee?  The lake?
+<b>Floyd</b> | Eating the cheese ball?  the worm?  the birds?  the deer?  the ducks?
+<b>Floyd</b> | Cutting the line with the knife?
+<b>Floyd</b> | Casting the line in front of Bob?
+<b>Floyd</b> | Taking a picture of something other than The Old One?  Taking more
+<b>Floyd</b> | than one picture?
+<b>Floyd</b> |
+<b>Floyd</b> | Please enter (R)ESTORE, RE(S)TART, (Q)UIT, (U)NDO, or (A)MUSEMENT:  &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Nitku</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><TD><b>DavidW</b>  says, "I imagine we'd have to restart to do most of these."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "anyone want to play with amusements? suggestions for another game? (or are we calling it a day?)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I'm leaning towards calling it a day, actually, but I can be persuaded otherwise."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I'm fine stopping for now"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "it's just rare that I'm available on Saturday, so I was going to play again if there was interest in another game"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Tale</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><TD><b>Cathy</b>  asks, "shall we quit & free up Floyd?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "yeah, I suppose we should."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">quit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Floyd</b> asks, "That game over already?  It was just getting good.  Wanna play another?"
+</TD><td></td><td></td></TR></TABLE><P ALIGN="CENTER"><FONT FACE="arial, sans-serif, helvetica" SIZE="1">
+		 <BR><BR>[ <a href="#top">TOP OF THIS PAGE</A> | <a href="interactive_fiction.html#clubfloyd">MORE CLUBFLOYD TRANSCRIPTS</A> | <a
+href="index.html">HOME</A> ]</FONT></P>
+<center><IMG SRC="graphics/black.jpg" WIDTH="557" HEIGHT="3"></center>
+		  <P ALIGN="CENTER"><A HREF="contact.html"><IMG SRC="graphics/footer.jpg"
+border="0"></A></P>
+</BODY>
+</HTML>

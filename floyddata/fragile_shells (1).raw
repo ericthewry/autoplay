@@ -1,0 +1,2672 @@
+<HTML><HEAD><TITLE>AllThingsJacq.com - Interactive Fiction | ClubFloyd - May 8, 2010 - Fragile Shells, by Stephen Granade</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Author" CONTENT="Jacqueline A. Lott">
+<META NAME="Revisit after" CONTENT="30days">
+<META NAME="Robots" CONTENT="all">
+<META NAME="Distribution" CONTENT="Global">
+<META NAME="Keywords" CONTENT="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+<META NAME="Description" CONTENT="Internet site of Jacqueline A. Lott.">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE>
+<!--
+A:link {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:visited {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:hover {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:active {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+-->
+
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#6666CC" MARGINWIDTH=0 LEFTMARGIN=0 RIGHTMARGIN=0 MARGINHEIGHT=0 TOPMARGIN=0 onLoad="MM_preloadImages('graphics/writing2.jpg','graphics/intfic2.jpg','graphics/photos2.jpg','graphics/misc2.jpg')">
+<a name="top"></a><CENTER>
+<TABLE WIDTH="557" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="35">
+  <TR>
+	<TD>
+	  <CENTER>
+		  <BR>
+		  <A HREF="index.html"><IMG SRC="graphics/atj_logo.jpg" WIDTH="250" HEIGHT="170" BORDER="0"><BR>
+
+		  <IMG SRC="graphics/home.jpg" WIDTH="75" HEIGHT="25" BORDER="0"><BR>
+		  </A><BR>
+
+		  <A HREF="writing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writing','','graphics/writing2.jpg',1)"><IMG NAME="Writing" BORDER="0" SRC="graphics/writing1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="interactive_fiction.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Interactive Fiction','','graphics/intfic2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"><IMG NAME="Interactive Fiction" BORDER="0" SRC="graphics/intfic1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG NAME="Photography" BORDER="0" SRC="graphics/photos1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG NAME="Miscellany" BORDER="0" SRC="graphics/misc1.jpg" WIDTH="100" HEIGHT="140"></A></CENTER>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></BR></BR>
+ClubFloyd Transcript:<BR><B><I>Fragile Shells</I> by Stephen Granade</b></FONT><FONT FACE='arial, sans-serif, helvetica' SIZE='1'></BR>As played on ifMUD on May 8, 2010</FONT></P><P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="2">
+The idea behind ClubFloyd is that each week at a pre-arranged time, a group of people meet online to cooperatively play a game of interactive fiction.</br></br>
+Below is a transcript of <i>Fragile Shells</i>, written by Stephen Granade.  <I>Fragile Shells</I> was originally released as part of Casual Gameplay Design Competition 7, where it took second place.  You can learn more about the game, including how to download it, by visiting <A HREF='http://www.ifwiki.org/index.php/Fragile_Shells'><u>the ifWiki</u></A>.</br></br><FONT FACE="arial, sans-serif, helvetica" SIZE="2" COLOR="#FF0000"><b>WARNING!</b></font><FONT FACE="arial, sans-serif, helvetica" SIZE="2"> Below you will find a transcript of people playing this game, and it goes without saying that the transcript is full of spoilers.  So, if you've never played this game, and think you might like to at some point, I do not recommend reading any further.  Instead, you might want to return to the <a href="interactive_fiction.html"><u>interactive fiction </u>p<u>a</u>g<u>e</u></a>.</BR></BR></BR></FONT></P></td></tr></table>
+
+<table>
+<tr><td></td><td colspan="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td></tr>
+<tr><td width="2%"></td><td width="60%"><center><B>ToyShop & Floyditorium</B></center></td><td width="2%"></td><td width="34%"><center><B>#ClubFloyd Discussion</B></center></td><td width="2%"></td></tr>
+
+<tr><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td></tr>
+<tr><td></td><td>&nbsp;</td><td></td><td></td></tr>
+<td></td></TR>
+<TR><TD width=2%> </td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">load fragileshells</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Welcome to the Cheap Glk Implementation, library version 0.9.0.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Fragile Shells
+<b>Floyd</b> | An Interactive Escape by Stephen Granade
+<b>Floyd</b> | Copyright á 2010 by Stephen Granade. All rights reserved.
+<b>Floyd</b> | Type ABOUT for more information.
+<b>Floyd</b> | Release 4 / Serial number 100401 / Inform 7 build 5Z71 (I6/v6.31 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> |
+<b>Floyd</b> | You don't know how long you've been hammering against the station's
+<b>Floyd</b> | wall, but you stop as soon as you realize what you've been doing. You
+<b>Floyd</b> | let your gloved hands fall by your sides and pause, confused.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You're in full kit, suited up against the vacuum. Your suit's wrist
+<b>Floyd</b> | readout is flashing.
+<b>Floyd</b> |
+<b>Floyd</b> | What happened? Other than someone taking a cricket bat to the back of
+<b>Floyd</b> | your head? You'd been...piloting? Moving the station? But why wasn't
+<b>Floyd</b> | Suze doing that? You're the backup pilot, for Crippen's sake!
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x readout</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You reflexively check the suit's readout: plenty of oxygen; no
+<b>Floyd</b> | integrity issues. The health report is rather more worrying, though.
+<b>Floyd</b> | The suit thinks you've had a concussion.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x readout</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Plenty of oxygen; no integrity issues. The health report is rather
+<b>Floyd</b> | more worrying, though. The suit thinks you've had a concussion.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "eep"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">check that eyes are PERL</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You're wearing a flex spacesuit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x suit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your suit is a standard-issue flex spacesuit?not a hardshell,
+<b>Floyd</b> | thankfully, which means no radiation concerns. It has the usual handy
+<b>Floyd</b> | extras: a pouch for storing small items and D-rings for tethers.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">look</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Something took out the fluorescents, so the only light comes from your
+<b>Floyd</b> | helmet's forward spot. Since you're facing the wall you twist your
+<b>Floyd</b> | neck and look around frantically, your spotlight dancing across the
+<b>Floyd</b> | remains of Node 4, before you realize what a bad idea moving your head
+<b>Floyd</b> | fast is.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Eep - I forgot Perry!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "But keep playing, I'm logging him in."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "And can fix it later."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x wall</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | You take a more calm survey of your surroundings this time. You're in
+<b>Floyd</b> | Node 4, the cylindrical science module. Some of the walls and
+<b>Floyd</b> | bulkheads have buckled and parts of the module are now floating free
+<b>Floyd</b> | or have otherwise been shoved to where they shouldn't be. You just
+<b>Floyd</b> | know as soon as the news reaches Earth that the net'll light up with
+<b>Floyd</b> | cries of how much taxpayer money went out the airlock.
+<b>Floyd</b> |
+<b>Floyd</b> | You're pinned near the starboard wall by some wreckage. Since you're
+<b>Floyd</b> | facing the wall you've got a good view of the supplemental lighting
+<b>Floyd</b> | switch that's at chest height.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">flip switch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Oh thank goodness: the supplemental LED lights begin to glow all along
+<b>Floyd</b> | the station. The lights reveal details like the prise bar jammed into
+<b>Floyd</b> | a nearby screen and how the entire aft end of Node 4 is gone, ripped
+<b>Floyd</b> | away like the end of a tube of biscuits?
+<b>Floyd</b> |
+<b>Floyd</b> | ?you had strapped yourself into the sleeping rack and closed its door,
+<b>Floyd</b> | hoping it would provide protection, expecting that it wouldn't, and
+<b>Floyd</b> | there was a flash of light visible through the edges of the sleeping
+<b>Floyd</b> | rack's door and your head cracked against the wall?
+<b>Floyd</b> |
+<b>Floyd</b> | You pause until a sudden wave of dizziness passes.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x switch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The switch turns on and off the Node's supplemental lights. Right now
+<b>Floyd</b> | the lights are switched on.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x bar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The prise bar is a completely straight piece of metal the length of
+<b>Floyd</b> | your arm and made of some light alloy because of the cost to bring
+<b>Floyd</b> | things into orbit. Both ends are flattened and are the width of three
+<b>Floyd</b> | of your fingers. The prise bar only sees occasional use thanks to
+<b>Floyd</b> | Newton's Third.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take bar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You pull the prise bar free from the screen.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">unstrap me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x screen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Back when the station had power and the screen hadn't had a prise bar
+<b>Floyd</b> | rammed through it, you used the touch screen to record your daily
+<b>Floyd</b> | exercise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">out</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | But you aren't in anything at the moment.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">push me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That would be less than courteous.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mary says (to Floyd), "<font color="#89956F">x wreakage</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">push wall</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Those are fixed in place.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">look</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | You're still trapped facing the starboard wall, so you can't see
+<b>Floyd</b> | whether the escape pod is attached to the port side of Node 4 or not.
+<b>Floyd</b> | Fore you can see the hatch to the station exterior is dogged shut.
+<b>Floyd</b> | Looking aft you can't see the remaining three-quarters of Node 4,
+<b>Floyd</b> | since it seems to have gone missing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">aft</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You push off against the wall only to be pulled up short when one of
+<b>Floyd</b> | your legs doesn't go with you. It's pinned.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x legs</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your leg is pinned in some wreckage.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">pry leg</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (with the prise bar)
+<b>Floyd</b> | You slip one end of the prise bar between the struts holding you in
+<b>Floyd</b> | place and apply pressure. You feel a vibration through your suit leg
+<b>Floyd</b> | as the struts move apart until there's enough space that you slip your
+<b>Floyd</b> | foot free.
+<b>Floyd</b> |
+<b>Floyd</b> | [Your score has just gone up by one point.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "woo"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  exclaims, "Freedom!"
+</TD><td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">score</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You have 1 points out of 8, in 20 turns. (There's a complete list of
+<b>Floyd</b> | your accomplishments so far which you can see by typing FULL SCORE.)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x wreckage</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Some of the struts have bowed out of the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">full</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You have 1 points out of 8. Here is how you got them:
+<b>Floyd</b> |
+<b>Floyd</b> |      1 for freeing yourself from the struts
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Gerynar</b>  says, "Being in the toyroom when everone else isn't trying to kill me is fun"
+</TD><td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x struts</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Some of the struts have bowed out of the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "spoken like a true werewolf."
+</TD><td></td></TR>
+<TR><td></td><TD>two-star says (to floyd), "Kill Gerynar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  asks, "Is there any way to see the status bar?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Mick), "No, unfortunately."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "unfortunately not"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">verbose</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Fragile Shells is now in its "verbose" mode, which always gives long
+<b>Floyd</b> | descriptions of locations (even if you've been there before).
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">look</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">port</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Node 4: Fore, Starboard
+<b>Floyd</b> | You're in the fore end of Node 4 by the starboard wall. Exercise
+<b>Floyd</b> | equipment like the stationary bicycle is stored here, even though no
+<b>Floyd</b> | one can use it while many of the Node's science experiments are
+<b>Floyd</b> | ongoing. From here the sleeping racks are aft near where Node 4 now
+<b>Floyd</b> | ends and the escape pod is to port. The hatch to the station exterior
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | is fore.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | You gently push off from the wall and drift port.
+<b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | Thank goodness the escape pod is still here. The converted
+<b>Floyd</b> | Predpriyatie craft is port of here; its door is closed and debris is
+<b>Floyd</b> | wedged in front of it. The door is flanked by a dark display screen on
+<b>Floyd</b> | one side and the door's control panel on the other. The exercise
+<b>Floyd</b> | equipment is to starboard and the science experiments are aft, closer
+<b>Floyd</b> | to the new jagged edge of Node 4.
+<b>Floyd</b> |
+<b>Floyd</b> | Embedded sideways in a wall is a closed compartment attached to a
+<b>Floyd</b> | jagged piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | Thank goodness the escape pod is still here. The converted
+<b>Floyd</b> | Predpriyatie craft is port of here; its door is closed and debris is
+<b>Floyd</b> | wedged in front of it. The door is flanked by a dark display screen on
+<b>Floyd</b> | one side and the door's control panel on the other. The exercise
+<b>Floyd</b> | equipment is to starboard and the science experiments are aft, closer
+<b>Floyd</b> | to the new jagged edge of Node 4.
+<b>Floyd</b> |
+<b>Floyd</b> | Embedded sideways in a wall is a closed compartment attached to a
+<b>Floyd</b> | jagged piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">xd metal</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Limax</b> arrives, ready to play with the toys.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x metal</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the embedded compartment)
+<b>Floyd</b> | It's a box roughly 30 centimeters on a side, with a ruff of jagged
+<b>Floyd</b> | metal that was ripped from an equipment rack. The whole thing is
+<b>Floyd</b> | embedded sideways in a wall, which makes you glad you weren't hit by
+<b>Floyd</b> | it when it came whizzing through the station. The compartment has a
+<b>Floyd</b> | featureless door that is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Limax</b> says, "Aroo"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">open door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You push the door's button with one gloved finger but nothing happens.
+<b>Floyd</b> | The escape pod door is supposed to automatically open in the event
+<b>Floyd</b> | main power fails, but something's clearly gone wrong. You spend a
+<b>Floyd</b> | moment cursing stupid turn-of-the-century NASA engineers with their
+<b>Floyd</b> | hipster sideburns and their iPods, since that's better than giving in
+<b>Floyd</b> | to panic. Just because NASA's old ISS equipment was available at
+<b>Floyd</b> | fire-sale prices doesn't mean it was a true bargain.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Mary</b> goes home.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">pry metal</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the embedded compartment)
+<b>Floyd</b> | (with the prise bar)
+<b>Floyd</b> | You can't slip the prise bar between the door and the rest of the
+<b>Floyd</b> | compartment, not enough to get any leverage. The only way to open it
+<b>Floyd</b> | is electronically.
+<b>Floyd</b> |
+<b>Floyd</b> | This compartment used to be with the others next to the experiments
+<b>Floyd</b> | aft of here. With any luck you'll find the button that opens the
+<b>Floyd</b> | compartment there.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  asks, "what was the 'eyes are PERL' thing about?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Pupils Equal and Responsive to Light"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "It's an EMT thing."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "huh, cool."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "You use it to check for issues after head trauma."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "See if the pupils are equal in size under the same light conditions, cover the eyes or expose them to a small weak flashlight to see if the pupils respond."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "I'd try to make a perl-the-language joke, but Google says it's now 'PERRLA'"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "I remember that the pracice dummy we had for CPR had a concussion"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "All pupils are equal, but some pupils are more equal than others"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "Gave me nightmares"
+</TD><td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door is controlled by a button mounted on a panel that is secured
+<b>Floyd</b> | by four screws.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x screen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The screen should be lit up like a, well, a lit screen, but it isn't.
+<b>Floyd</b> | Even though the main power's out the screen and door should have
+<b>Floyd</b> | switched over to auxiliary power.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You push the door's button with one gloved finger but nothing happens.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">aft</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Port
+<b>Floyd</b> | While some of the station's science experiments are still here, many
+<b>Floyd</b> | of them vanished along with the rest of Node 4. The port wall is
+<b>Floyd</b> | filled with racks of equipment and inset storage compartments. The
+<b>Floyd</b> | damage is extensive near the aft ragged edges where the station now
+<b>Floyd</b> | ends. From here the escape pod is fore and the sleeping racks are
+<b>Floyd</b> | starboard.
+<b>Floyd</b> |
+<b>Floyd</b> | The floor underneath you has a large crack in it.
+<b>Floyd</b> |
+<b>Floyd</b> | You carefully bring yourself to a stop before you reach the open end
+<b>Floyd</b> | of the station. For one vertiginous moment you feel as if the remains
+<b>Floyd</b> | of the station are above you and you are falling inexorably to your
+<b>Floyd</b> | death.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x crack</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Plates in the floor have cracked open, revealing the station's
+<b>Floyd</b> | underlying structure. Deep down you can see a length of chain.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">get chain</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You gingerly reach between the broken floor plates trying to pick up
+<b>Floyd</b> | the length of chain, but it is about a meter down, and you'd likely
+<b>Floyd</b> | tear your suit on the edges of the crack trying to get it this way.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">pry chain</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (with the prise bar)
+<b>Floyd</b> | That doesn't truly need prising.
+<b>Floyd</b> |
+<b>Floyd</b> | Through the open end of Node 4 you see the Earth roll into view,
+<b>Floyd</b> | throwing the jagged edge of the station into stark relief and
+<b>Floyd</b> | revealing an external battery on the outside of the station. While you
+<b>Floyd</b> | watch the Earth vanish again the very expensive programs in your head
+<b>Floyd</b> | start estimating orbits and trajectories. You're slowly spiraling away
+<b>Floyd</b> | from Earth while the cylinder of Node 4 spins about its fore-aft axis.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">get chain with bar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You're able to reach the chain with the prise bar, but there's no way
+<b>Floyd</b> | to then hook the chain on the straight flat bar.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">bend bar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x compartment</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the embedded compartment that is near the escape pod)
+<b>Floyd</b> | It's a box roughly 30 centimeters on a side, with a ruff of jagged
+<b>Floyd</b> | metal that was ripped from an equipment rack. The whole thing is
+<b>Floyd</b> | embedded sideways in a wall, which makes you glad you weren't hit by
+<b>Floyd</b> | it when it came whizzing through the station. The compartment has a
+<b>Floyd</b> | featureless door that is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">open compartment door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">look</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Node 4: Aft, Port
+<b>Floyd</b> | While some of the station's science experiments are still here, many
+<b>Floyd</b> | of them vanished along with the rest of Node 4. The port wall is
+<b>Floyd</b> | filled with racks of equipment and inset storage compartments. The
+<b>Floyd</b> | damage is extensive near the aft ragged edges where the station now
+<b>Floyd</b> | ends. From here the escape pod is fore and the sleeping racks are
+<b>Floyd</b> | starboard.
+<b>Floyd</b> |
+<b>Floyd</b> | The floor underneath you has a large crack in it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  asks, "So?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "Well, let's explore the station a bit."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | One of the battery modules dotted around the exterior of the station.
+<b>Floyd</b> | It's slightly larger than a loaf of bread. It's on the exterior skin
+<b>Floyd</b> | of the station?you can just see it from here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DB</b>  asks, "Starboard?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "So, this is one room, but there are different 'parts' to said room?  Is that the trick?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "I'm guessing four parts."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">starboard</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Starboard
+<b>Floyd</b> | There used to be four sleeping racks here, small coffin-like
+<b>Floyd</b> | soundproof booths where you could have a little bit of privacy. Now
+<b>Floyd</b> | there's just one left. Its door is closed. The other three racks must
+<b>Floyd</b> | have been ripped away when the accident happened. The station ends aft
+<b>Floyd</b> | of here in a ring of jagged, twisted metal.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  says, "Looks like it."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Clever work around for a ORGcomp."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "I'm a fan of naval directions."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Ala Shade."
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">fore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Starboard
+<b>Floyd</b> | You're in the fore end of Node 4 by the starboard wall. Exercise
+<b>Floyd</b> | equipment like the stationary bicycle is stored here, even though no
+<b>Floyd</b> | one can use it while many of the Node's science experiments are
+<b>Floyd</b> | ongoing. From here the sleeping racks are aft near where Node 4 now
+<b>Floyd</b> | ends and the escape pod is to port. The hatch to the station exterior
+<b>Floyd</b> | is fore.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "When I say 'ala Shade,' I mean the parts-of-a-room thing, that is, not the naval directions."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "Let's go open that door"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "Indeed."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">aft. open door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Starboard
+<b>Floyd</b> | There used to be four sleeping racks here, small coffin-like
+<b>Floyd</b> | soundproof booths where you could have a little bit of privacy. Now
+<b>Floyd</b> | there's just one left. Its door is closed. The other three racks must
+<b>Floyd</b> | have been ripped away when the accident happened. The station ends aft
+<b>Floyd</b> | of here in a ring of jagged, twisted metal.
+<b>Floyd</b> |
+<b>Floyd</b> | You open the door and a body falls towards you!
+<b>Floyd</b> |
+<b>Floyd</b> | Right, deep breaths, it's just an empty spacesuit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x spacesuit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the empty spacesuit)
+<b>Floyd</b> | The empty spacesuit is just like yours, except it has SUZAN HARRISON
+<b>Floyd</b> | stenciled on it. It also has the screwdriver you've used for EVA
+<b>Floyd</b> | repair missions strapped to it?
+<b>Floyd</b> |
+<b>Floyd</b> | ?wrestling with the empty suit, desperately pushing it into the
+<b>Floyd</b> | sleeping rack, wishing the lights hadn't gone off after the explosion,
+<b>Floyd</b> | not sure why but knowing you have to get the damn thing inside?
+<b>Floyd</b> |
+<b>Floyd</b> | For a moment you struggle with panic borrowed from a poorly-remembered
+<b>Floyd</b> | past.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">take screwdriver</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You remove the screwdriver from the spacesuit and hold it in your
+<b>Floyd</b> | gloved hand. You've spent countless hours on EVAs using screwdrivers
+<b>Floyd</b> | just like this one, sweating in a spacesuit like the one you're
+<b>Floyd</b> | wearing for up to eight hours. You had no idea those EVAs would end up
+<b>Floyd</b> | being good practise for your current situation.
+<b>Floyd</b> |
+<b>Floyd</b> | You clip the screwdriver to one of your suit's D-rings to make it
+<b>Floyd</b> | easier to carry.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x screwdriver</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A low-torque powered screwdriver with a grip that's specially designed
+<b>Floyd</b> | to be used while you're wearing these ham-hand gloves. It's clipped to
+<b>Floyd</b> | your spacesuit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  exclaims, "So.. let's go unscrew stuff!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Johnny</b>  says, "control panel"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "I think we're gonna need that battery"
+</TD><td></td></TR>
+<TR><td></td><TD><b>ParserGirl</b> arrives, full of funk, but no fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">port.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Port
+<b>Floyd</b> | While some of the station's science experiments are still here, many
+<b>Floyd</b> | of them vanished along with the rest of Node 4. The port wall is
+<b>Floyd</b> | filled with racks of equipment and inset storage compartments. The
+<b>Floyd</b> | damage is extensive near the aft ragged edges where the station now
+<b>Floyd</b> | ends. From here the escape pod is fore and the sleeping racks are
+<b>Floyd</b> | starboard.
+<b>Floyd</b> |
+<b>Floyd</b> | The floor underneath you has a large crack in it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">fore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | Thank goodness the escape pod is still here. The converted
+<b>Floyd</b> | Predpriyatie craft is port of here; its door is closed and debris is
+<b>Floyd</b> | wedged in front of it. The door is flanked by a dark display screen on
+<b>Floyd</b> | one side and the door's control panel on the other. The exercise
+<b>Floyd</b> | equipment is to starboard and the science experiments are aft, closer
+<b>Floyd</b> | to the new jagged edge of Node 4.
+<b>Floyd</b> |
+<b>Floyd</b> | Embedded sideways in a wall is a closed compartment attached to a
+<b>Floyd</b> | jagged piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door is controlled by a button mounted on a panel that is secured
+<b>Floyd</b> | by four screws.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">unscrew panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You unclip the screwdriver and in short order have the four screws
+<b>Floyd</b> | out. You let them drift away to join the rest of the junk while you
+<b>Floyd</b> | gently pull the panel away from the bulkhead. With any luck you can
+<b>Floyd</b> | fix what's wrong with the button.
+<b>Floyd</b> |
+<b>Floyd</b> | Behind the panel is a mass of wires held in place by a stick pad.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x pad</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a square pad about the width of three of your fingers. It's made
+<b>Floyd</b> | of some super-velcro substance the boffins came up with. It's lightly
+<b>Floyd</b> | tacky on both sides and sticks to most any surface. The pad is stuck
+<b>Floyd</b> | to the mass of wires. Patricia always used one to secure her pens?
+<b>Floyd</b> |
+<b>Floyd</b> | ?dogging the hatch and looking through the porthole to see Patricia on
+<b>Floyd</b> | the other side snap a salute even though she's never liked your dual
+<b>Floyd</b> | astronaut and military roles, but she must have felt it was the most
+<b>Floyd</b> | appropriate goodbye gesture she could make?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">pull pad</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The stick pad isn't very strong?you give a tug and detach the stick
+<b>Floyd</b> | pad from the mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x wires</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Oh good grief, there are ten wires: Red, black, white, green, grey,
+<b>Floyd</b> | blue, yellow, orange, violet, and white-and-red striped. They've got
+<b>Floyd</b> | quick disconnects so you can yank them out of the panel easily. All of
+<b>Floyd</b> | the wires are connected to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  asks, "Why is everything the width of three of our fingers?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "I feel like I'm defusing a bomb"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "LEt's see 10 wires... that's a lot of combinations"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Johnny), "Maybe it's an attempt to avoid the metric/English/measurements-we-use-in-the-future issue."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "I don't suppose "pull all wires" would be the best action."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "People used to inches are always jarred by cm, I think, and vice-versa."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Mick), "Well, we can save."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> clears the save counter.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">cf1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store: Ok.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  says, "Measuring is hard"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">pull all wires</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You pull the red wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You pull the black wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You pull the white wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You pull the green wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You pull the grey wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You pull the blue wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You pull the yellow wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You pull the orange wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You pull the violet wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You pull the white-and-red striped wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Mick), "Pull away!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Timing."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "That was anticlimatic"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "Hm..."
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">put red wire in panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There's no real room for the red wire in there.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x red wire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The red wire is disconnected from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door is controlled by a button mounted on a panel that is dangling
+<b>Floyd</b> | open, revealing the mass of wires, and the stick pad.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">attach red wire to panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You re-connect the red wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Gerynar</b>  says, "ok, so I don't think we can re-arrange the connections"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x stick pad</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a square pad about the width of three of your fingers. It's made
+<b>Floyd</b> | of some super-velcro substance the boffins came up with. It's lightly
+<b>Floyd</b> | tacky on both sides and sticks to most any surface.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  asks, "What else was three fingers wide?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Johnny</b>  asks (of Jacq), "Well, maybe, but then why use 'boffins'?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "ah...put the sticky pad on the bar and then get the chain, we can then probably attach the chain to our suit so we can go out and get the battery"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Johnny</b>  says (to Mick), "Prybar."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">put pad on bar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You pick up the stick pad and stick the stick pad to the prise bar.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  says, "yay"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">aft</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Port
+<b>Floyd</b> | While some of the station's science experiments are still here, many
+<b>Floyd</b> | of them vanished along with the rest of Node 4. The port wall is
+<b>Floyd</b> | filled with racks of equipment and inset storage compartments. The
+<b>Floyd</b> | damage is extensive near the aft ragged edges where the station now
+<b>Floyd</b> | ends. From here the escape pod is fore and the sleeping racks are
+<b>Floyd</b> | starboard.
+<b>Floyd</b> |
+<b>Floyd</b> | The floor underneath you has a large crack in it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">touch chain with bar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to touch the length of chain.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">get chain with bar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | With the stick pad on the end of the bar, you're able to snag the
+<b>Floyd</b> | chain and pull it out from under the floor, even though the chain
+<b>Floyd</b> | doesn't really want to stick to the pad. You coil the chain and attach
+<b>Floyd</b> | it to one of your suit's D-rings.
+<b>Floyd</b> |
+<b>Floyd</b> | The enormity of the task in front of you, the unlikelihood of your
+<b>Floyd</b> | escaping, nearly paralyzes you. You take a few deep breaths to steady
+<b>Floyd</b> | yourself.
+<b>Floyd</b> |
+<b>Floyd</b> | [Your score has just gone up by one point.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Johnny), "Hm, point."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Johnny</b>  says, "I'm going to eat quickly."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Johnny), "Careful.  Don't aspirate anything."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x chain</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's several meters long and very similar to a bike chain. Both ends
+<b>Floyd</b> | sport carabiners, small metal loops with a spring-loaded latch. One
+<b>Floyd</b> | end of the chain is clipped to your suit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "it does seem to be a British space station."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "We need to find something to attach the other end to"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "we need to find something inside to attach the other end to"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "timing"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">look</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Node 4: Aft, Port
+<b>Floyd</b> | While some of the station's science experiments are still here, many
+<b>Floyd</b> | of them vanished along with the rest of Node 4. The port wall is
+<b>Floyd</b> | filled with racks of equipment and inset storage compartments. The
+<b>Floyd</b> | damage is extensive near the aft ragged edges where the station now
+<b>Floyd</b> | ends. From here the escape pod is fore and the sleeping racks are
+<b>Floyd</b> | starboard.
+<b>Floyd</b> |
+<b>Floyd</b> | The floor underneath you has a large crack in it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x racks</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | All of the experiments are in 19-inch racks, complete with protruding
+<b>Floyd</b> | handles, that are bolted into the wall. The experiments often meant
+<b>Floyd</b> | one thing: tedious checklists. You had to follow extensive checklists
+<b>Floyd</b> | and write down the results at every step in a logbook because typing
+<b>Floyd</b> | information into a computer would be too easy. It was so tedious that
+<b>Floyd</b> | you made Quintin do it for you whenever possible. The logbooks were
+<b>Floyd</b> | stored in nearby storage compartments. You got in the habit of writing
+<b>Floyd</b> | all kinds of notes on the logbooks just because they were handy.
+<b>Floyd</b> |
+<b>Floyd</b> | Next to the storage compartments is a button that opens the
+<b>Floyd</b> | compartment you saw near the escape pod.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There's a gas line in front of the button, which you brush aside to
+<b>Floyd</b> | push and hold the button. The compartment near the escape pod swings
+<b>Floyd</b> | open, so you keep holding the button.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">put chain on handle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You find a convenient handle on one of the experiments to clip one of
+<b>Floyd</b> | the chain's carabiners onto. You now have a chain that runs from the
+<b>Floyd</b> | experiments to your suit, forming a tether.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>ParserGirl</b> goes home.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">afk</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">aft</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Before you leave you have to let go of the button, making the
+<b>Floyd</b> | compartment near the escape pod swing closed.
+<b>Floyd</b> |
+<b>Floyd</b> | The piloting programs in your head plan your route. You take a deep
+<b>Floyd</b> | breath and grasp your tether tightly. Ready, steady, go?and you jump,
+<b>Floyd</b> | trusting your modified instincts to keep you safe. You soar out into
+<b>Floyd</b> | space before the tether pulls taut and you land flat on the outside of
+<b>Floyd</b> | the station, your boots grabbing hold.
+<b>Floyd</b> |
+<b>Floyd</b> | Outside Node 4
+<b>Floyd</b> | You cling carefully to the outside of Node 4. From here you can see
+<b>Floyd</b> | that this is all there is: a small, ragged cylinder, spinning as it
+<b>Floyd</b> | tumbles around the Earth. There is no sign of the rest of the station.
+<b>Floyd</b> |
+<b>Floyd</b> | You can see a backup battery here.
+<b>Floyd</b> |
+<b>Floyd</b> | The chain runs back into the station, tethering you.
+<b>Floyd</b> |
+<b>Floyd</b> | For a moment you consider unclipping the chain, kicking off of Node 4
+<b>Floyd</b> | and tumbling peacefully away. You giggle before you can stop yourself.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "Floyd steps away from the keyboard..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "Ooh, battery."
+</TD><td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">get battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You carefully unclip the screwdriver and remove the screws from around
+<b>Floyd</b> | the battery. You watch the screws float off into space and wonder if
+<b>Floyd</b> | they'll eventually embed themselves in some random satellite. You then
+<b>Floyd</b> | carefully lift the battery and tuck it under one arm.
+<b>Floyd</b> |
+<b>Floyd</b> | Your suit's readout flashes.
+<b>Floyd</b> |
+<b>Floyd</b> | [Your score has just gone up by one point.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "Apparently we'll need something to keep that button held down"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x readout</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Plenty of oxygen; no integrity issues. The suit's mini-doc warns you
+<b>Floyd</b> | that your blood pressure and respiration have spiked. Oh, and you
+<b>Floyd</b> | probably have a concussion.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's not just a battery, it's a space battery. The battery module is
+<b>Floyd</b> | slightly larger than a loaf of bread, and has two terminal slots where
+<b>Floyd</b> | wires can be inserted.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">fore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You have a tether, but it's a short one, and you've no interest in
+<b>Floyd</b> | playing Major Tom. The only place to go is back inside.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">inside</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Getting back inside is a little trickier than leaping outside, but
+<b>Floyd</b> | it's nothing you and your fancy head full of kinematic equations can't
+<b>Floyd</b> | handle.
+<b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Port
+<b>Floyd</b> | While some of the station's science experiments are still here, many
+<b>Floyd</b> | of them vanished along with the rest of Node 4. The port wall is
+<b>Floyd</b> | filled with racks of equipment and inset storage compartments. The
+<b>Floyd</b> | damage is extensive near the aft ragged edges where the station now
+<b>Floyd</b> | ends. From here the escape pod is fore and the sleeping racks are
+<b>Floyd</b> | starboard.
+<b>Floyd</b> |
+<b>Floyd</b> | The floor underneath you has a large crack in it.
+<b>Floyd</b> |
+<b>Floyd</b> | One end of the chain is looped around the science experiments; one end
+<b>Floyd</b> | is clipped to your suit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>DavidW</b> arrives, full of funk, but no fun.
+</TD><td></td><TD><b>DB</b>  says, "hehe, Major Tom."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">unhook chain from experiments</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">unattach chain</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">remove chain</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (from the science experiments)
+<b>Floyd</b> | Unchained.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  says, "I'm assuming that's referring to Bowie, not Schilling"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Mick), "detach might've worked also."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You brush aside the gas line to push and hold the button. The
+<b>Floyd</b> | compartment near the escape pod swings open, so you keep holding the
+<b>Floyd</b> | button.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  asks, "Who designs buttons to work this way?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "mean implementors"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A simple momentary-contact button that some bright spark at NASA
+<b>Floyd</b> | thought was an appropriate control to open the compartment you saw
+<b>Floyd</b> | near the escape pod. Whoever designed that stupid button and
+<b>Floyd</b> | compartment is probably in his seventies now, which means you might be
+<b>Floyd</b> | able to look him up and punch him if you get back to Earth and can
+<b>Floyd</b> | obtain a visa for the NUS.
+<b>Floyd</b> |
+<b>Floyd</b> | Dangling in front of the button is a gas line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "maybe it's a zero-G thing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "Hahaha"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x gas line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A nitrogen feed line for one of the experiments is in front of the
+<b>Floyd</b> | button. It's a metal hard line that has an L-shaped bend right in
+<b>Floyd</b> | front of the compartment button, with the threaded end of the line
+<b>Floyd</b> | pointing away from the button. Partway up the line is the valve that
+<b>Floyd</b> | controls nitrogen flow. The valve is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">attach hose to button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  asks, "wait, NASA, huh.  and designer is in his 70s.  what year is this?"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">attach line to button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You would achieve nothing by this.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x valuve</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  asks, "1984?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x valve</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A nitrogen feed line for one of the experiments is in front of the
+<b>Floyd</b> | button. It's a metal hard line that has an L-shaped bend right in
+<b>Floyd</b> | front of the compartment button, with the threaded end of the line
+<b>Floyd</b> | pointing away from the button. Partway up the line is the valve that
+<b>Floyd</b> | controls nitrogen flow. The valve is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Ellison</b> arrives, ready to play with the toys.
+</TD><td></td><TD><b>Doug</b>  asks, "is 'NUS' the 'New United States' or something?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  says, "hello hello"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "Maybe it's like USNA or something."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says (to Ellison), "Hello"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  says, "Hey Ellison"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "Hi, Ellison."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x put stick pad on button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks (of Ellison), "Played this?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">put stick pad on button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You stick the stick pad and the prise bar to the single button.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Ellison</b>  says, "I have not!"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">rotate gas line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the valve on the gas line. Nitrogen begins flowing slowly out
+<b>Floyd</b> | of the end of the line, causing the L bend in the gas line to press
+<b>Floyd</b> | gently against the button but not hard enough to push the button.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Ellison</b>  asks, "have we broken any shells yet?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press bar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Nothing obvious happens.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">press button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The prise bar is in your way.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  asks (of Ellison), "would you like to KICK SHELLS?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Just our skull, I think."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">detach stick pad from button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You peel the stick pad off of the single button.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DB</b>  says, "Well, the space station thingy is looking pretty fragile right now."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">press button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's already pushed down.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "And U.S.S. Omelet, here"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A simple momentary-contact button that some bright spark at NASA
+<b>Floyd</b> | thought was an appropriate control to open the compartment you saw
+<b>Floyd</b> | near the escape pod. Whoever designed that stupid button and
+<b>Floyd</b> | compartment is probably in his seventies now, which means you might be
+<b>Floyd</b> | able to look him up and punch him if you get back to Earth and can
+<b>Floyd</b> | obtain a visa for the NUS.
+<b>Floyd</b> |
+<b>Floyd</b> | Dangling in front of the button is a gas line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">smash button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Violence isn't the answer to this one.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">rotate gas line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You close the valve on the gas line. The cloud of nitrogen quickly
+<b>Floyd</b> | disperses.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">rotate gas line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the valve on the gas line. Nitrogen begins flowing slowly out
+<b>Floyd</b> | of the end of the line, causing the L bend in the gas line to press
+<b>Floyd</b> | gently against the button but not hard enough to push the button.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">bend gas line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x pouch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A small snap pouch for holding sundries.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">open pouch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | No need. You've long trained to open the pouch only long enough to put
+<b>Floyd</b> | something in or take something out of it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  asks, "Where did the pouch come from?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "it's part of our suit"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "I got back home a while ago and have been reading to catch up; noticed that in a very early description"
+</TD><td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">look in pouch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There's nothing in the pouch.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "We need to make the gas come out stronger somehow"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  asks, "Or maybe plug it?"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x gas line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A nitrogen feed line for one of the experiments is in front of the
+<b>Floyd</b> | button. It's a metal hard line that has an L-shaped bend right in
+<b>Floyd</b> | front of the compartment button, with the threaded end of the line
+<b>Floyd</b> | pointing away from the button. Partway up the line is the valve that
+<b>Floyd</b> | controls nitrogen flow. The valve is open.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">close valve</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You close the valve on the gas line. The cloud of nitrogen quickly
+<b>Floyd</b> | disperses.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You're carrying a backup battery and you're wearing a flex spacesuit.
+<b>Floyd</b> | Clipped to your suit is a length of chain and a screwdriver.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x battery terminals</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to examine the backup battery.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x terminals</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "should we try hooking wires to the battery?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x threaded end</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  asks, "Which two?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  asks, "Trial and error?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "That sounds tedious"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "red and black are typical power colors"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "or we could just try "attach wires to battery""
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "Maybe we can find some other clues elsewhere."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  asks, "is there a nozzle or anything else to attach to that line?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">fore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Before you leave you have to let go of the button, making the
+<b>Floyd</b> | compartment near the escape pod swing closed.
+<b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | Thank goodness the escape pod is still here. The converted
+<b>Floyd</b> | Predpriyatie craft is port of here; its door is closed and debris is
+<b>Floyd</b> | wedged in front of it. The door is flanked by a dark display screen on
+<b>Floyd</b> | one side and the door's control panel on the other. The exercise
+<b>Floyd</b> | equipment is to starboard and the science experiments are aft, closer
+<b>Floyd</b> | to the new jagged edge of Node 4.
+<b>Floyd</b> |
+<b>Floyd</b> | Embedded sideways in a wall is a closed compartment attached to a
+<b>Floyd</b> | jagged piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | The control panel is open, revealing a mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x debris</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A whole wodge of twisted metal jammed in front of the escape pod door
+<b>Floyd</b> | like a ruined column.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">connect wires to battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You'll have to specify which wire you want to plug.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">connect black wire to battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You plug the black wire into the battery's terminal slot.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">connect red wire to battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (first unplugging the red wire)
+<b>Floyd</b> | You pull the red wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You plug the red wire into the battery's terminal slot.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's not just a battery, it's a space battery. The battery module is
+<b>Floyd</b> | slightly larger than a loaf of bread, and has two terminal slots where
+<b>Floyd</b> | wires can be inserted.
+<b>Floyd</b> |
+<b>Floyd</b> | The red wire and the black wire are plugged into the battery.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "funky"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x wires</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There are ten wires: Red, black, white, green, grey, blue, yellow,
+<b>Floyd</b> | orange, violet, and white-and-red striped. They've got quick
+<b>Floyd</b> | disconnects so you can yank them out of the panel easily.
+<b>Floyd</b> |
+<b>Floyd</b> | The red wire and the black wire are plugged into the battery. The rest
+<b>Floyd</b> | of the wires are disconnected from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door is controlled by a button mounted on a panel that is dangling
+<b>Floyd</b> | open, revealing the mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">press button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You push the door's button with one gloved finger but nothing happens
+<b>Floyd</b> | even though you've fiddled with the wires.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "The candy cane wire seems to stand out"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says (to nick), "I agree"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door to the escape pod is currently closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">think about wires</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can mainly think about other the other spacestation crewmembers.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">unplug red wire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You disconnect the red wire from the battery's terminal slot.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">attach striped wire to panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You re-connect the white-and-red striped wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  asks, "other the other?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "meant to be 'only the other', I guess"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">connect red wire to battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You plug the red wire into the battery's terminal slot.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DB</b>  asks, "What was the name on that empty spacesuit?"
+</TD><td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">think about suzan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Suzan's the mission commander. You've known Captain Harrison for
+<b>Floyd</b> | years, having served together on three separate missions, one of which
+<b>Floyd</b> | will remain redacted for a long time to come.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">think about patricia</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Dr. Patricia Morrison has authored numerous definitive papers on the
+<b>Floyd</b> | effect of long-term space travel and weightlessness in space. You
+<b>Floyd</b> | haven't had a chance to see what kind of hands-on doctor she is, but
+<b>Floyd</b> | after today you'll hopefully get your chance.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "There was a woman that was mentioned when we first saw the wires."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "SUZAN HARRISON"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  exclaims, "THe black widow!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "Suzan was the answer to space suit"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "Oh, that was Patricia"
+</TD><td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">think about quintin</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Mission Specialist Quintin Davies, Warrant Officer and all-around
+<b>Floyd</b> | skilled technician. His PhD is in physics, which means everyone made
+<b>Floyd</b> | him deal with the station's plumbing and constant electrical problems.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door is controlled by a button mounted on a panel that is dangling
+<b>Floyd</b> | open, revealing the mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">press button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You push the door's button with one gloved finger but nothing happens
+<b>Floyd</b> | even though you've fiddled with the wires.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">think about me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can mainly think about other the other spacestation crewmembers.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">fore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Since there are wires plugged into the battery, you leave the battery
+<b>Floyd</b> | floating next to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You can't go fore from here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  asks, "should we reconnect all wires to the panel, then just connect black and red to the battery?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says (to Cathy), "can't hurt"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "sounds like a plan"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">attach all wires to panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You'll have to specify which wire you want to plug.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  asks, "What about those notebooks?"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">disconnect battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You unplug the red wire and the black wire from the battery.
+<b>Floyd</b> |
+<b>Floyd</b> | You disconnect the red wire from the battery's terminal slot.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Ellison</b>  says, "I'm catching up to where we are in my own interpreter. looks like we missed something in the exercise room."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  asks, "S'pose they were connected for a reason, 'ey?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks (of Ellison), "what?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  asks, "Exercise room?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">starboard</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Starboard
+<b>Floyd</b> | You're in the fore end of Node 4 by the starboard wall. Exercise
+<b>Floyd</b> | equipment like the stationary bicycle is stored here, even though no
+<b>Floyd</b> | one can use it while many of the Node's science experiments are
+<b>Floyd</b> | ongoing. From here the sleeping racks are aft near where Node 4 now
+<b>Floyd</b> | ends and the escape pod is to port. The hatch to the station exterior
+<b>Floyd</b> | is fore.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Ellison</b>  says, "yeah, this room"
+</TD><td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">ride bike</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Riding the bicycle would be a feat and a half. Even a flex suit
+<b>Floyd</b> | doesn't give you enough range of motion, and your survival backpack
+<b>Floyd</b> | would get in the way. You can turn the pedals, though, which you do.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">x bike</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This space bicycle doesn't look that much like a regular bicycle. It's
+<b>Floyd</b> | a grey trapezoidal box held together by about twenty screws. Pedals
+<b>Floyd</b> | stick out of it, and attached above it is a seat with very little
+<b>Floyd</b> | cushioning. Next to the seat is a water line that you've sipped from
+<b>Floyd</b> | many times before while exercising.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">unscrew box</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You unclip the screwdriver and painstakingly remove all the screws
+<b>Floyd</b> | holding the bicycle's trapezoidal box together. You let them all float
+<b>Floyd</b> | away?might as well, given the rest of the debris that fills the
+<b>Floyd</b> | station?and fold open the bike.
+<b>Floyd</b> |
+<b>Floyd</b> | Inside, the bicycle is mainly a single small wheel about the size of
+<b>Floyd</b> | your gloved hand with fingers stretched wide. The small wheel has
+<b>Floyd</b> | holes all along its perimeter. The bike's pedals are attached to
+<b>Floyd</b> | either side of the wheel, and stick out a long distance compared to
+<b>Floyd</b> | the small wheel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">get wheel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Ellison says (to Floyd), "<font color="#89956F">x water line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's hardly portable.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | A flexible water line. Someone's left their nozzle on the line
+<b>Floyd</b> | post-exercise, a sanitary no-no. Probably Quintin. You'll have to
+<b>Floyd</b> | scold him, assuming he's still alive.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take nozzle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You twist the nozzle off of the flexible water line and store it in
+<b>Floyd</b> | your suit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  asks, "Want to go plug it into the gas line?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "yes"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">aft. port.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Starboard
+<b>Floyd</b> | There used to be four sleeping racks here, small coffin-like
+<b>Floyd</b> | soundproof booths where you could have a little bit of privacy. Now
+<b>Floyd</b> | there's just one left. Its door is open, revealing an empty spacesuit.
+<b>Floyd</b> | The other three racks must have been ripped away when the accident
+<b>Floyd</b> | happened. The station ends aft of here in a ring of jagged, twisted
+<b>Floyd</b> | metal.
+<b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Port
+<b>Floyd</b> | While some of the station's science experiments are still here, many
+<b>Floyd</b> | of them vanished along with the rest of Node 4. The port wall is
+<b>Floyd</b> | filled with racks of equipment and inset storage compartments. The
+<b>Floyd</b> | damage is extensive near the aft ragged edges where the station now
+<b>Floyd</b> | ends. From here the escape pod is fore and the sleeping racks are
+<b>Floyd</b> | starboard.
+<b>Floyd</b> |
+<b>Floyd</b> | The stick pad is stuck to the prise bar.
+<b>Floyd</b> |
+<b>Floyd</b> | The floor underneath you has a large crack in it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  says, "*kaboom*"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">plug nozzle into gas line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There's nowhere to plug anything into the gas line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "Aww"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x nozzle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A nozzle with clear plastic on one end and hard metal on the other.
+<b>Floyd</b> | The clear plastic end has a very small opening. Its large metal end is
+<b>Floyd</b> | threaded and fits all standard tubing on board the station.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x compartment</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the embedded compartment that is near the escape pod)
+<b>Floyd</b> | It's a box roughly 30 centimeters on a side, with a ruff of jagged
+<b>Floyd</b> | metal that was ripped from an equipment rack. The whole thing is
+<b>Floyd</b> | embedded sideways in a wall, which makes you glad you weren't hit by
+<b>Floyd</b> | it when it came whizzing through the station. The compartment has a
+<b>Floyd</b> | featureless door that is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  asks, "why do we think the others are still alive?  where would they be?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Limax</b>  asks, "Ded we die?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Johnny</b>  says (to Doug), "The space station."
+</TD><td></td></TR>
+<TR><td></td><TD>Ellison says (to Floyd), "<font color="#89956F">put nozzle on line</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You put the nozzle on the gas line.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">rotate valve</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the valve on the gas line. Nitrogen begins flowing quickly
+<b>Floyd</b> | out of the end of the nozzle, causing the L bend in the gas line to
+<b>Floyd</b> | press firmly enough on the button to open the compartment near the
+<b>Floyd</b> | escape pod. Unfortunately the bend slips off of the button and the
+<b>Floyd</b> | compartment closes once more.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "I thought this was the space station."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">put stick pad on button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You stick the stick pad and the prise bar to the single button.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  says, "pad"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">remove bar from pad</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You peel the stick pad off of the prise bar.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Gerynar</b>  says, "we're in a pod, that seems to have blown off the station"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">rotate valve</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You close the valve on the gas line. The cloud of nitrogen quickly
+<b>Floyd</b> | disperses.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">g</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the valve on the gas line. Nitrogen begins flowing quickly
+<b>Floyd</b> | out of the end of the nozzle, causing the L bend in the gas line to
+<b>Floyd</b> | press firmly enough on the button to open the compartment near the
+<b>Floyd</b> | escape pod. The force is also enough to make the stick pad adhere to
+<b>Floyd</b> | the gas line and the button, holding the gas line in place on the
+<b>Floyd</b> | button.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "ah, just the science nodule"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "er, module."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">fore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | Thank goodness the escape pod is still here. The converted
+<b>Floyd</b> | Predpriyatie craft is port of here; its door is closed and debris is
+<b>Floyd</b> | wedged in front of it. The door is flanked by a dark display screen on
+<b>Floyd</b> | one side and the door's control panel on the other. The exercise
+<b>Floyd</b> | equipment is to starboard and the science experiments are aft, closer
+<b>Floyd</b> | to the new jagged edge of Node 4.
+<b>Floyd</b> |
+<b>Floyd</b> | Embedded sideways in a wall is an open compartment attached to a
+<b>Floyd</b> | jagged piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | The control panel is open, revealing a mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | You can also see a backup battery here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x copartment</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x compartment</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a box roughly 30 centimeters on a side, with a ruff of jagged
+<b>Floyd</b> | metal that was ripped from an equipment rack. The whole thing is
+<b>Floyd</b> | embedded sideways in a wall, which makes you glad you weren't hit by
+<b>Floyd</b> | it when it came whizzing through the station. The compartment has a
+<b>Floyd</b> | featureless door that is open. Inside you can see a logbook.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">take logbook</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As you remove the logbook from the compartment, the door swings back
+<b>Floyd</b> | shut. It looks like you had just enough nitrogen to get the job done.
+<b>Floyd</b> |
+<b>Floyd</b> | [Your score has just gone up by one point.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "yay"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">read logbook</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Like all of them, this logbook has all four of your names on the front
+<b>Floyd</b> | in order of rank: Suzan Harrison, Simon Mahil, Quintin Davies, and
+<b>Floyd</b> | Patricia Morrison. It also has obsessive step-by-step instructions for
+<b>Floyd</b> | running several of the on-station experiments and recording the
+<b>Floyd</b> | results, because the space program is all about hiring the smartest,
+<b>Floyd</b> | most capable people it can find, training them exhaustively, and then
+<b>Floyd</b> | not trusting them to do their job.
+<b>Floyd</b> |
+<b>Floyd</b> | There are a lot of notes in the logbook's margins. Several of them are
+<b>Floyd</b> | notes Quintin wrote when he made on-the-fly repairs to the station.
+<b>Floyd</b> | One talks about the problems he'd had with the escape pod door
+<b>Floyd</b> | malfunctioning, and how he had to disconnect the door control and
+<b>Floyd</b> | computer from backup power to fix the problem. He noted that
+<b>Floyd</b> | disconnecting only the green and yellow wires and connecting the two
+<b>Floyd</b> | current-carrying wires?the white-and-red wire and the red
+<b>Floyd</b> | wire?together would restore backup power. Normally the white-and-red
+<b>Floyd</b> | wire and the red wire would run to the power source.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">think about simon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You've been piloting EELV-boosted spacecraft for nearly a decade. As a
+<b>Floyd</b> | reward for doing such a good job you got stuck onboard the space
+<b>Floyd</b> | station for months.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "aw, I thought we'd be named R something, to go with P, Q, and S"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "shall we rewire the panel?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  asks, "So, plug in all wires, remove green and yellow... put red and candycane in battery?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "I regret yanking those wires."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "also, yay, a combination lock."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says (to DB), "Sounds about right"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">aft</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Port
+<b>Floyd</b> | While some of the station's science experiments are still here, many
+<b>Floyd</b> | of them vanished along with the rest of Node 4. The port wall is
+<b>Floyd</b> | filled with racks of equipment and inset storage compartments. The
+<b>Floyd</b> | damage is extensive near the aft ragged edges where the station now
+<b>Floyd</b> | ends. From here the escape pod is fore and the sleeping racks are
+<b>Floyd</b> | starboard.
+<b>Floyd</b> |
+<b>Floyd</b> | The stick pad is holding the single button and the gas line together.
+<b>Floyd</b> |
+<b>Floyd</b> | The floor underneath you has a large crack in it.
+<b>Floyd</b> |
+<b>Floyd</b> | You can also see a prise bar here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | Thank goodness the escape pod is still here. The converted
+<b>Floyd</b> | Predpriyatie craft is port of here; its door is closed and debris is
+<b>Floyd</b> | wedged in front of it. The door is flanked by a dark display screen on
+<b>Floyd</b> | one side and the door's control panel on the other. The exercise
+<b>Floyd</b> | equipment is to starboard and the science experiments are aft, closer
+<b>Floyd</b> | to the new jagged edge of Node 4.
+<b>Floyd</b> |
+<b>Floyd</b> | Embedded sideways in a wall is a closed compartment attached to a
+<b>Floyd</b> | jagged piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | The control panel is open, revealing a mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | You can also see a backup battery here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "sorry, got lost"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door is controlled by a button mounted on a panel that is dangling
+<b>Floyd</b> | open, revealing the mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">connect all wires</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You re-connect the red wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You re-connect the white wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You re-connect the green wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You re-connect the grey wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You re-connect the blue wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You re-connect the yellow wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You re-connect the orange wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You re-connect the violet wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "yay!"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">disconnect yellow</font>"
+</TD><td></td><TD><b>Mick</b>  says, "I thought that didn't work..."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "we need to make a map for this one-room-game :)"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You pull the yellow wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">x battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's not just a battery, it's a space battery. The battery module is
+<b>Floyd</b> | slightly larger than a loaf of bread, and has two terminal slots where
+<b>Floyd</b> | wires can be inserted.
+<b>Floyd</b> |
+<b>Floyd</b> | The black wire is plugged into the battery.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Doug), "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">disconnect green</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You pull the green wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">disconnect black wire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You disconnect the black wire from the battery's terminal slot.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">plug in black wire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to plug inside.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">connect red wire to battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">connect black wire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (first unplugging the red wire)
+<b>Floyd</b> | You pull the red wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You plug the red wire into the battery's terminal slot.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | You re-connect the black wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">connect black wire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You re-connect the black wire to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">x panel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door is controlled by a button mounted on a panel that is dangling
+<b>Floyd</b> | open, revealing the mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "Whoops, sorry. Got confused"
+</TD><td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">x wires</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There are ten wires: Red, black, white, green, grey, blue, yellow,
+<b>Floyd</b> | orange, violet, and white-and-red striped. They've got quick
+<b>Floyd</b> | disconnects so you can yank them out of the panel easily.
+<b>Floyd</b> |
+<b>Floyd</b> | The red wire is plugged into the battery. The green wire and the
+<b>Floyd</b> | yellow wire are disconnected from the panel. The rest of the wires are
+<b>Floyd</b> | connected to the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">connect striped to battery</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (first unplugging the white-and-red striped wire)
+<b>Floyd</b> | You pull the white-and-red striped wire loose from the panel.
+<b>Floyd</b> |
+<b>Floyd</b> | You plug the white-and-red striped wire into the battery's terminal
+<b>Floyd</b> | slot.
+<b>Floyd</b> |
+<b>Floyd</b> | The screen next to the door returns to life, though it's so bright
+<b>Floyd</b> | that you might be able to get a tan from it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "woo hoo!"
+</TD><td></td></TR>
+<TR><td></td><TD>Johnny says (to Floyd), "<font color="#89956F">x screen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The screen's in data-dump mode, which means it's showing?wait, this
+<b>Floyd</b> | can't be right. The screen claims that Node 4 is following one of the
+<b>Floyd</b> | really old docking protocols. The transponder beacons are even active,
+<b>Floyd</b> | the ones that once guided visiting vehicles to the antiquated docking
+<b>Floyd</b> | port at the other end of Node 4?
+<b>Floyd</b> |
+<b>Floyd</b> | ?"Don't you see? The scow's navigation is just a veneer on top of the
+<b>Floyd</b> | old software! I turn on the beacon, jettison the node with me on it,
+<b>Floyd</b> | and pilot it away from the station. We send an emergency docking
+<b>Floyd</b> | command and trip the original failsafes. The shuttle will follow,
+<b>Floyd</b> | trying desperately to dock with the node instead of ramming the rest
+<b>Floyd</b> | of the station. That way, if it's rigged to explode, it only takes out
+<b>Floyd</b> | Node 4."?
+<b>Floyd</b> |
+<b>Floyd</b> | You'd been shouting at Quintin, but it was Suzan you had to convince.
+<b>Floyd</b> | The station was observing radio silence, though when you try to
+<b>Floyd</b> | remember why you can't. You just can't.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "this must have been a pain to program."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x screen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The screen's in data-dump mode, which means it's showing old status
+<b>Floyd</b> | information about how Node 4 was following antiquated docking
+<b>Floyd</b> | protocols.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "the wires? yeah, I remember him gnashing some teeth"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Johnny</b>  says, "!"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">push button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The escape pod door slides fully open! Now you just have to get rid of
+<b>Floyd</b> | that column of debris.
+<b>Floyd</b> |
+<b>Floyd</b> | [Your score has just gone up by one point.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">full</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You have 5 points out of 8. Here is how you got them:
+<b>Floyd</b> |
+<b>Floyd</b> |      1 for freeing yourself from the struts
+<b>Floyd</b> |      1 for snagging the chain from the crack in the floor
+<b>Floyd</b> |      1 for getting the battery
+<b>Floyd</b> |      1 for rescuing the logbook from the compartment
+<b>Floyd</b> |      1 for opening the escape pod door
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">pry debris</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You must supply a second noun.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "huh, didn't know about that command.  good to know."
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x pod</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door to the escape pod is currently wide open.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">enter pod</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Not until you get that debris out of the way.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x debris</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A whole wodge of twisted metal jammed in front of the escape pod door
+<b>Floyd</b> | like a ruined column.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You're carrying a logbook and you're wearing a flex spacesuit. Clipped
+<b>Floyd</b> | to your suit is a length of chain and a screwdriver.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DB</b>  says, "I like the word 'wodge.'"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">aft. get bar.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Aft, Port
+<b>Floyd</b> | While some of the station's science experiments are still here, many
+<b>Floyd</b> | of them vanished along with the rest of Node 4. The port wall is
+<b>Floyd</b> | filled with racks of equipment and inset storage compartments. The
+<b>Floyd</b> | damage is extensive near the aft ragged edges where the station now
+<b>Floyd</b> | ends. From here the escape pod is fore and the sleeping racks are
+<b>Floyd</b> | starboard.
+<b>Floyd</b> |
+<b>Floyd</b> | The stick pad is holding the single button and the gas line together.
+<b>Floyd</b> |
+<b>Floyd</b> | The floor underneath you has a large crack in it.
+<b>Floyd</b> |
+<b>Floyd</b> | You can also see a prise bar here.
+<b>Floyd</b> |
+<b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">fore. pry debris</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | Thank goodness the escape pod is still here. The converted
+<b>Floyd</b> | Predpriyatie craft is port of here; its door is open and debris is
+<b>Floyd</b> | wedged in front of it. The door is flanked by an active display screen
+<b>Floyd</b> | on one side and the door's control panel on the other. The exercise
+<b>Floyd</b> | equipment is to starboard and the science experiments are aft, closer
+<b>Floyd</b> | to the new jagged edge of Node 4.
+<b>Floyd</b> |
+<b>Floyd</b> | Embedded sideways in a wall is a closed compartment attached to a
+<b>Floyd</b> | jagged piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | The control panel is open, revealing a mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | You can also see a backup battery here.
+<b>Floyd</b> |
+<b>Floyd</b> | (with the prise bar)
+<b>Floyd</b> | You try to find a good point to jam the prise bar into and shift the
+<b>Floyd</b> | debris, but nothing doing. You'll need a lot more lateral force than
+<b>Floyd</b> | you can bring to bear with the bar.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  asks, "So... maybe create some type of system with the chain and bar?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  asks, "can we use the chain with the exercise bike wheel somehow?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  asks, "didn't the bike have a long bar for the pedals?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says (to Doug), "Oooo I didn't think about the bike, I bet that's it"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">star</font>"
+</TD><td></td><TD><b>DB</b>  says, "I like the sound of the bike option."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">starboard</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Starboard
+<b>Floyd</b> | You're in the fore end of Node 4 by the starboard wall. Exercise
+<b>Floyd</b> | equipment like the stationary bicycle is stored here, even though no
+<b>Floyd</b> | one can use it while many of the Node's science experiments are
+<b>Floyd</b> | ongoing. From here the sleeping racks are aft near where Node 4 now
+<b>Floyd</b> | ends and the escape pod is to port. The hatch to the station exterior
+<b>Floyd</b> | is fore.
+<b>Floyd</b> |
+<b>Floyd</b> | The bicycle is open, revealing a small wheel to which its pedals are
+<b>Floyd</b> | attached.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DB</b>  says, "That's pretty clever."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "Wait, let's see if we can attach the chain to the debris first"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x pedals</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The pedals stick out from the bicycle.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says (to mick), "ok, go for it"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x wheel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The small wheel is about the size of your palm. It has holes all along
+<b>Floyd</b> | its perimieter. The bike's pedals are attached to either side of the
+<b>Floyd</b> | wheel by a small axle, and stick out a long distance compared to the
+<b>Floyd</b> | wheel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">attach chain to axle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You clip the carabiner to one of the holes in the wheel and turn the
+<b>Floyd</b> | pedals some to wind the chain on the wheel. You now have a chain that
+<b>Floyd</b> | runs from the bike's wheel to your suit, forming a tether.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">port</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | Thank goodness the escape pod is still here. The converted
+<b>Floyd</b> | Predpriyatie craft is port of here; its door is open and debris is
+<b>Floyd</b> | wedged in front of it. The door is flanked by an active display screen
+<b>Floyd</b> | on one side and the door's control panel on the other. The exercise
+<b>Floyd</b> | equipment is to starboard and the science experiments are aft, closer
+<b>Floyd</b> | to the new jagged edge of Node 4.
+<b>Floyd</b> |
+<b>Floyd</b> | Embedded sideways in a wall is a closed compartment attached to a
+<b>Floyd</b> | jagged piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | The control panel is open, revealing a mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | You can also see a backup battery here.
+<b>Floyd</b> |
+<b>Floyd</b> | One end of the chain runs starboard; one end is clipped to your suit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">attach chain to debris</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You loop the chain around the column of debris and clip the carabiner
+<b>Floyd</b> | to secure it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Cathy</b>  says, "oh, I like how this is looking"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "smart"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">starboard</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (moving along the chain)
+<b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Starboard
+<b>Floyd</b> | You're in the fore end of Node 4 by the starboard wall. Exercise
+<b>Floyd</b> | equipment like the stationary bicycle is stored here, even though no
+<b>Floyd</b> | one can use it while many of the Node's science experiments are
+<b>Floyd</b> | ongoing. From here the sleeping racks are aft near where Node 4 now
+<b>Floyd</b> | ends and the escape pod is to port. The hatch to the station exterior
+<b>Floyd</b> | is fore.
+<b>Floyd</b> |
+<b>Floyd</b> | The bicycle is open, revealing a small wheel to which its pedals are
+<b>Floyd</b> | attached.
+<b>Floyd</b> |
+<b>Floyd</b> | One end of the chain runs port; one end is looped around the bike's
+<b>Floyd</b> | wheel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">ride bike</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You push on the bicycle pedals, making them and the small wheel turn.
+<b>Floyd</b> | As you do, the chain begins to wind around the axle. You keep turning
+<b>Floyd</b> | until the chain pulls taut. Then you turn some more, until the chain
+<b>Floyd</b> | slackens and the debris that used to be in front of the escape pod
+<b>Floyd</b> | breaks into fragments and starts tumbling all around you. You bat
+<b>Floyd</b> | random pieces of it out of the way and it joins the rest of the debris
+<b>Floyd</b> | filling the station.
+<b>Floyd</b> |
+<b>Floyd</b> | Take that, Archimedes.
+<b>Floyd</b> |
+<b>Floyd</b> | [Your score has just gone up by one point.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DB</b>  says, "Raise your hand if you feel like MacGyver right now."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  raises her hand
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "Yeah, that was pretty awesome."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heehee"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">port</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Node 4: Fore, Port
+<b>Floyd</b> | Thank goodness the escape pod is still here. The converted
+<b>Floyd</b> | Predpriyatie craft is port of here; its door is open. The door is
+<b>Floyd</b> | flanked by an active display screen on one side and the door's control
+<b>Floyd</b> | panel on the other. The exercise equipment is to starboard and the
+<b>Floyd</b> | science experiments are aft, closer to the new jagged edge of Node 4.
+<b>Floyd</b> |
+<b>Floyd</b> | Embedded sideways in a wall is a closed compartment attached to a
+<b>Floyd</b> | jagged piece of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | The control panel is open, revealing a mass of wires.
+<b>Floyd</b> |
+<b>Floyd</b> | You can also see a backup battery here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x pod</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door to the escape pod is currently wide open.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">enter pod</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Onboard the Predpriyatie
+<b>Floyd</b> | The converted Predpriyatie is boxy, held together by far too many
+<b>Floyd</b> | bolts, and is one of the best things you've ever seen. You wish you
+<b>Floyd</b> | could hug it. It's dark, though; no power is running to the pod.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a large button labeled ESCAPE. You also wish you could hug
+<b>Floyd</b> | the nameless engineer who made this so simple to operate. Next to the
+<b>Floyd</b> | button is the pod's touch screen.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Ellison</b>  asks, "are we sure we don't want to get some more cardio in before we leave?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>DB says (to Floyd), "<font color="#89956F">hug pod</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can only do that to something animate.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "Google Translate doesn't know "Predpriyatie".  but: "Retsiklirashto Predpriyatie AD is a Bulgarian scrap metal recycling company.""
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x screen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">x touch screen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The screen is showing a password prompt and a keyboard. Password
+<b>Floyd</b> | locked? The station computers are never password locked.
+<b>Floyd</b> |
+<b>Floyd</b> | No, wait, Quintin had had to turn on password protection a few hours
+<b>Floyd</b> | ago. He'd set it to the crew's initials, with the names in reverse
+<b>Floyd</b> | rank order. It would make your security officer weep hot tears of
+<b>Floyd</b> | anger if he knew.
+<b>Floyd</b> |
+<b>Floyd</b> | Radio silence. Password protection. Oh, oh no, oh no no no, some idiot
+<b>Floyd</b> | must have decided it was time for a shooting war.
+<b>Floyd</b> |
+<b>Floyd</b> | And now you remember: the automated cargo supply shuttle that didn't
+<b>Floyd</b> | respond to repeated hails. The orbital plot that showed the scow
+<b>Floyd</b> | headed for the middle of the station. The realization that someone was
+<b>Floyd</b> | worried about the UK holding the high ground and had decided to blow
+<b>Floyd</b> | up the station. The desperate gamble that you could divert the supply
+<b>Floyd</b> | shuttle away from the rest of the station.
+<b>Floyd</b> |
+<b>Floyd</b> | You've got to get out of here soon, before there's no one left in
+<b>Floyd</b> | orbit to pick you up.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | The screen is showing a password prompt and a keyboard. Quintin set
+<b>Floyd</b> | the password to the crew's initials, with the names in reverse rank
+<b>Floyd</b> | order.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">read logbook</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | On the cover are the names of everyone in order of rank: Suzan
+<b>Floyd</b> | Harrison, Simon Mahil, Quintin Davies, and Patricia Morrison. One of
+<b>Floyd</b> | Quintin's notes in the margin describes how to re-connect backup power
+<b>Floyd</b> | to the escape pod door and computer by disconnecting only the green
+<b>Floyd</b> | and yellow wires and by connecting the two current-carrying wires, the
+<b>Floyd</b> | white-and-red wire and the red wire, together. Normally the
+<b>Floyd</b> | white-and-red wire and the red wire would run to the power source.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Limax</b>  asks, "Um What?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">think about suzan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Suzan's the mission commander. You've known Captain Harrison for
+<b>Floyd</b> | years, having served together on three separate missions, one of which
+<b>Floyd</b> | will remain redacted for a long time to come.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "there's the ESCAPE theme.  check!"
+</TD><td></td></TR>
+<TR><td></td><TD>Cathy says (to Floyd), "<font color="#89956F">type PMQDSMSH</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (on the touch screen)
+<b>Floyd</b> | The screen clears and diagnostic messages start scrolling up the
+<b>Floyd</b> | display. You scan them, watching as the computer learns what you
+<b>Floyd</b> | already know about Node 4. It then decides to fully power up the
+<b>Floyd</b> | escape pod.
+<b>Floyd</b> |
+<b>Floyd</b> | [Your score has just gone up by one point.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "SH = #1"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "Apparently Cathy is much faster at this than I am."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "nice"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  exclaims, "Alright!"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">push button</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The pod door closes and the entire craft shakes as it kicks off of the
+<b>Floyd</b> | ruined station. The pod reorients, and for a moment you see what's
+<b>Floyd</b> | left of Node 4, looking like the discarded end of a Christmas cracker,
+<b>Floyd</b> | before it moves out of view. You strap into the seat and close your
+<b>Floyd</b> | eyes. Is it okay to sleep with a concussion or should you stay awake?
+<b>Floyd</b> | It's like the old debate about whether you feed a cold or a fever.
+<b>Floyd</b> |
+<b>Floyd</b> | You must have been sleeping, because the warble of an alarm jolts you
+<b>Floyd</b> | awake. The pod's picked up something moving towards you. You'd be more
+<b>Floyd</b> | frantic, but you appear to have used up your daily supply of
+<b>Floyd</b> | adrenaline already. Then the IFF module kicks in and identifies the
+<b>Floyd</b> | craft as a friend. "Simon? That had better be you in there."
+<b>Floyd</b> |
+<b>Floyd</b> | Suze. It's Suze. You're saved.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     *** You have escaped Node 4 ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | You have 8 points out of 8. Here is how you got them:
+<b>Floyd</b> |
+<b>Floyd</b> |      1 for freeing yourself from the struts
+<b>Floyd</b> |      1 for snagging the chain from the crack in the floor
+<b>Floyd</b> |      1 for getting the battery
+<b>Floyd</b> |      1 for rescuing the logbook from the compartment
+<b>Floyd</b> |      1 for opening the escape pod door
+<b>Floyd</b> |      1 for removing the debris from in front of the escape pod door
+<b>Floyd</b> |      1 for restoring power to the escape pod
+<b>Floyd</b> |      1 for escaping!
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Johnny</b>  says, "yay"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  applauds
+</TD><td></td></TR>
+<TR><td></td><TD><b>Gerynar</b> says, "yay"
+</TD><td></td><TD><b>Jacqueline</b>  says, "Well done!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "hooray"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  cheers
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Cathy</b>  says, "yippee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "And only an hour and fifteen minutes - not bad for a Floyd session!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  asks, "but wait, is it war or not?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DB</b>  says, "That was fun."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  asks, "is there a sequel in the works?"
+</TD><td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">amusing</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please give one of the answers above.
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Hard to say.  Sargent (Stephen) would like to have been here today, but is away visiting family.  He's eager to see our transcript, though."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Ellison</b>  says, "it's a sequel to Waystation but a prequel to Undertow"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Johnny</b>  says (to Ellison), "But Undertow takes place on a yacht!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  asks, "also, why is it Fragile Shells plural?  was there another shell besides Node 4?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "At least 3 others I persume"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "or maybe our skull, i.e. the concussion."
+</TD><td></td></TR>
+<TR><td></td><td></td></TR></TABLE><P ALIGN="CENTER"><FONT FACE="arial, sans-serif, helvetica" SIZE="1">
+		 <BR><BR>[ <a href="#top">TOP OF THIS PAGE</A> | <a href="interactive_fiction.html#clubfloyd">MORE CLUBFLOYD TRANSCRIPTS</A> | <a
+href="index.html">HOME</A> ]</FONT></P>
+<center><IMG SRC="graphics/black.jpg" WIDTH="557" HEIGHT="3"></center>
+		  <P ALIGN="CENTER"><A HREF="contact.html"><IMG SRC="graphics/footer.jpg"
+border="0"></A></P>
+</BODY>
+</HTML>

@@ -1,0 +1,2232 @@
+<HTML><HEAD><TITLE>AllThingsJacq.com - Interactive Fiction | ClubFloyd - January 2, 2010 - The Lighthouse, by Marius Müller</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Author" CONTENT="Jacqueline A. Lott">
+<META NAME="Revisit after" CONTENT="30days">
+<META NAME="Robots" CONTENT="all">
+<META NAME="Distribution" CONTENT="Global">
+<META NAME="Keywords" CONTENT="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+<META NAME="Description" CONTENT="Internet site of Jacqueline A. Lott.">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE>
+<!--
+A:link {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:visited {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:hover {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:active {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+-->
+
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#6666CC" MARGINWIDTH=0 LEFTMARGIN=0 RIGHTMARGIN=0 MARGINHEIGHT=0 TOPMARGIN=0 onLoad="MM_preloadImages('graphics/writing2.jpg','graphics/intfic2.jpg','graphics/photos2.jpg','graphics/misc2.jpg')">
+<a name="top"></a><CENTER>
+<TABLE WIDTH="557" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="35">
+  <TR>
+	<TD>
+	  <CENTER>
+		  <BR>
+		  <A HREF="index.html"><IMG SRC="graphics/atj_logo.jpg" WIDTH="250" HEIGHT="170" BORDER="0"><BR>
+
+		  <IMG SRC="graphics/home.jpg" WIDTH="75" HEIGHT="25" BORDER="0"><BR>
+		  </A><BR>
+
+		  <A HREF="writing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writing','','graphics/writing2.jpg',1)"><IMG NAME="Writing" BORDER="0" SRC="graphics/writing1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="interactive_fiction.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Interactive Fiction','','graphics/intfic2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"><IMG NAME="Interactive Fiction" BORDER="0" SRC="graphics/intfic1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG NAME="Photography" BORDER="0" SRC="graphics/photos1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG NAME="Miscellany" BORDER="0" SRC="graphics/misc1.jpg" WIDTH="100" HEIGHT="140"></A></CENTER>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></BR></BR>
+ClubFloyd Transcript:<BR><B><I>The Lighthouse</I> by Marius Müller</b></FONT><FONT FACE='arial, sans-serif, helvetica' SIZE='1'></BR>As played on ifMUD on January 2, 2010</FONT></P><P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="2">
+The idea behind ClubFloyd is that each week at a pre-arranged time, a group of people meet online to cooperatively play a game of interactive fiction.</br></br>
+Below is a transcript of <i>The Lighthouse</i>, written by Marius Müller.  <I>The Lighthouse</I> was originally released as part of the 2009 Saugus.net Halloween Ghost Story Contest, where it tied for first place.  You can learn more about the game, including how to download it, by visiting <A HREF='http://ifwiki.org/index.php/The_Lighthouse_(by_Marius_Mueller)'><u>the ifWiki</u></A>.</br></br><FONT FACE="arial, sans-serif, helvetica" SIZE="2" COLOR="#FF0000"><b>WARNING!</b></font><FONT FACE="arial, sans-serif, helvetica" SIZE="2"> Below you will find a transcript of people playing this game, and it goes without saying that the transcript is full of spoilers.  So, if you've never played this game, and think you might like to at some point, I do not recommend reading any further.  Instead, you might want to return to the <a href="interactive_fiction.html"><u>interactive fiction </u>p<u>a</u>g<u>e</u></a>.</BR></BR></BR></FONT></P></td></tr></table>
+
+<table>
+<tr><td></td><td colspan="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td></tr>
+<tr><td width="2%"></td><td width="60%"><center><B>ToyShop & Floyditorium</B></center></td><td width="2%"></td><td width="34%"><center><B>#ClubFloyd Discussion</B></center></td><td width="2%"></td></tr>
+
+<tr><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td></tr>
+<tr><td></td><td>&nbsp;</td><td></td><td></td></tr>
+<td></td></TR>
+<TR><TD width=2%> </td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">load lighthouse</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Welcome to the Cheap Glk Implementation, library version 0.9.0.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | What a way to end a holiday.
+<b>Floyd</b> |  First you slipped in the shower and broke your arm, and now you've
+<b>Floyd</b> | lost your way on a remote "must-see" like  Buwch Island. Then the
+<b>Floyd</b> | rain. When you set out on your trip, it was a drizzle. When you
+<b>Floyd</b> | realized you took a wrong turn, it was pouring. And, now, as you are
+<b>Floyd</b> | back on track, it's a full-blown thunderstorm. Lightning hits the
+<b>Floyd</b> | roaring waves in the distance, like screaming giants at war. The wind
+<b>Floyd</b> | claws at your face and clothes, making you stagger. The cast doesn't
+<b>Floyd</b> | help with that, either.
+<b>Floyd</b> | But you promised yourself that you'd  see the famous St. Cafasso
+<b>Floyd</b> | lighthouse.  The way back to town is too long now anyway.
+<b>Floyd</b> |
+<b>Floyd</b> | You shield your eyes once more and finally see the damned thing, a
+<b>Floyd</b> | mile or two in the distance, its light circling the horizon, the only
+<b>Floyd</b> | sign of human life in the raging inferno.
+<b>Floyd</b> |
+<b>Floyd</b> | The Lighthouse
+<b>Floyd</b> | An Interactive Fiction by Marius M?ller The release number is 2
+<b>Floyd</b> | Release 1 / Serial number 091027 / Inform 7 build 5Z71 (I6/v6.31 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> | (FIRST TIME PLAYERS AND THOSE NEW TO IF SHOULD TYPE ABOUT)
+<b>Floyd</b> |
+<b>Floyd</b> | On the road
+<b>Floyd</b> | The path has turned into inch-deep mud, and only with the help of the
+<b>Floyd</b> | glaringly white lightning can you distinguish it from the soaked
+<b>Floyd</b> | meadows all around you. It snakes its way upwards, towards the
+<b>Floyd</b> | lighthouse on the cliffs, some miles north.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>smartgenes</b>  says, "remind me of the etiquette"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "No spoilers, don't solve puzzles if you have played before and know the answers to them, don't go too fast so people have time to read."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x lighthouse</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hidden by the curtain of rain, and sparsely illuminated by the
+<b>Floyd</b> | occasional lightning, it stands tall and lean on the edge of the
+<b>Floyd</b> | cliffs, providing light in eternal circles, unhindered by the
+<b>Floyd</b> | elements. You know that it's made of brick and that the light is
+<b>Floyd</b> | provided by an old lantern, for historical purposes. Shipping traffic
+<b>Floyd</b> | in these waters has ceased a long time ago.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Well, unless there's a puzzle that's timed or something, or we otherwise designate a single driver, we can all enter commands, though it's best to agree as a group before we leave a location."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "And all those good things Nitku said as well."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a cast (being worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">remove cast</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your arm isn't healed yet.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x cast</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a white cast, reminiscent of a half-awake shower, a sudden slip
+<b>Floyd</b> | and an embarrasing call to the front desk. It's, sadly, unsigned.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Gerynar</b>  says, "and no constantly shouting "kill him/her""
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Aw"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are a young tourist, determined on seeing the St. Buwch
+<b>Floyd</b> | Lighthouse, to give this last day of your vacation some dignity.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>smartgenes</b>  asks, "huh, how is a cast like a shower?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I meant 'aw no signatures' not 'aw no killin'"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to smartgenes), "It reminds us of our fall in the shower."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Which is how we broke our arm."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  says, "oh it reminds him, not quite right use of word.."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Man, I wish I could write in a second language as well as Marius does.  Envy."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to smartgenes), "I admit I had to read it twice myself."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "north?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  says, "this is 2nd language of someone.. crikey"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to DW), "Sure."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | A fork in the road
+<b>Floyd</b> | A path snakes off to the southeast, trickling lines of mud ebbing into
+<b>Floyd</b> | the grass. The northbound path leads further upwards, against a small
+<b>Floyd</b> | current of dirt and debris, to the crest of a small mound. The rain
+<b>Floyd</b> | taps on a metallic roadsign by the fork with a strangely industrial,
+<b>Floyd</b> | almost urban sound.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to smartgenes), "Yes, he's German."
+</TD><td></td></TR>
+<TR><td></td><TD><b>djfletch</b> arrives, full of funk, but no fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">read sign</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's printed black on grey, and therefore almost impossible to make
+<b>Floyd</b> | out in this weather. But by shielding your eyes, squinting, and moving
+<b>Floyd</b> | your head to catch the reflections, you can decipher "BUWCH ISLAND
+<b>Floyd</b> | RING PATH 12km" -to the southeast and "BUWCH ISLAND VILLAGE 3km" - to
+<b>Floyd</b> | the south. "ST. CAFASSO LIGHTHOUSE - 500 mtrs north" looks the most
+<b>Floyd</b> | promising.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>smartgenes</b>  asks, "lighthouse then?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "This is sort of reminiscient of the Fire Tower."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">get sign</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's hardly portable.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">turn sign</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It is fixed in place.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Aw."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Jacqueline), "Not *quite* like Fire Tower."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "north again?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Yeah, toward the lighthouse."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You fight your way up the slope. Muddy water, black like tar, slops
+<b>Floyd</b> | around your ankles. It's hard, going against the wind and being almost
+<b>Floyd</b> | overbalanced. You manage it, but upon reaching the crest, your shoes
+<b>Floyd</b> | and socks are soaked.
+<b>Floyd</b> |
+<b>Floyd</b> | Crest of the mound
+<b>Floyd</b> | You're almost blind here. Every few moments this area is bathed in
+<b>Floyd</b> | harsh white light, leaving shadowy after-images in your sight.
+<b>Floyd</b> | From here, you can see the lighthouse on top of the cliffs, maybe 200
+<b>Floyd</b> | meters further north, and hear the cannonading waves against their
+<b>Floyd</b> | base, deep and old, gnawing at the island.
+<b>Floyd</b> | There is a picnic table, a few steps from the path, and someone is
+<b>Floyd</b> | sitting there, head on his hands.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "This is like something I did on my last vacation."
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x man</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take a few steps towards the man at the table, and then shudder.
+<b>Floyd</b> | Reflexively shielding your eyes from the passing of the light, your
+<b>Floyd</b> | stomach clenches as you realize what your mind just blocked out: He's
+<b>Floyd</b> | dead. His arms lie too limp, his body lacks all the subtle movements
+<b>Floyd</b> | of life. The hood of his yellow oilskin jacket is pulled back,
+<b>Floyd</b> | revealing tousled black hair. He looks vulnerable and young,
+<b>Floyd</b> | touchingly out of place. A residue of foam still lingers around his
+<b>Floyd</b> | mouth, the rest washed away by the rain.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">about</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |  &gt; Introduction to The Lighthouse
+<b>Floyd</b> |    Instructions for Play
+<b>Floyd</b> |    Contacting the author
+<b>Floyd</b> |    List of betatesters
+<b>Floyd</b> |    Transcript beautifer
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">q</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Crest of the mound
+<b>Floyd</b> | You're almost blind here. Every few moments this area is bathed in
+<b>Floyd</b> | harsh white light, leaving shadowy after-images in your sight.
+<b>Floyd</b> | From here, you can see the lighthouse on top of the cliffs, maybe 200
+<b>Floyd</b> | meters further north, and hear the cannonading waves against their
+<b>Floyd</b> | base, deep and old, gnawing at the island.
+<b>Floyd</b> | There is a picnic table, a few steps from the path, and someone is
+<b>Floyd</b> | sitting there, head on his hands.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Except it was just wind, not driving rain."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "A person?  In this weather?!"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">x person</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The dead man is sitting at the table, in a yellow oilskin jacket, dead
+<b>Floyd</b> | and wet and helpless.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "dead person"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x foam</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The dead man is sitting at the table, in a yellow oilskin jacket, dead
+<b>Floyd</b> | and wet and helpless.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Oh, so that's why - yeah."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x jacket</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You'd expect a fisherman to wear one of those. It's waterproof and
+<b>Floyd</b> | bright-yellow.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">search it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You search the the big pockets guiltily. You find a small pill bottle.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x bottle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A small white plastic bottle. Seems to be a lorazepam substitute, some
+<b>Floyd</b> | sort of sleeping pill. It's empty.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "sorry, I checked the about and it rolled the description off the screen"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  says, "get bottle"
+</TD><td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">get bottle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You already have that.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "No worries.  It's hard to ever know if about will just be a paragraph or a menu system."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">take coat</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">search jacket</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You find nothing of interest.
+<b>Floyd</b> |
+<b>Floyd</b> | There seem to be voices in the wind. You shudder.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">listen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You hear nothing unexpected.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">take jacket</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You don't want to disturb him.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">examine picnic table</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The table and the bench are bolted together. Both are actually made of
+<b>Floyd</b> | wood, dark and wet. You glimpse a hint of countless carved names,
+<b>Floyd</b> | dates, obscenities.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">read it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The table and the bench are bolted together. Both are actually made of
+<b>Floyd</b> | wood, dark and wet. You glimpse a hint of countless carved names,
+<b>Floyd</b> | dates, obscenities.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">look under it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You find nothing of interest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">read date</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">read obscenities</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x lighthouse</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hidden by the curtain of rain, and sparsely illuminated by the
+<b>Floyd</b> | occasional lightning, it stands tall and lean on the edge of the
+<b>Floyd</b> | cliffs, providing light in eternal circles, unhindered by the
+<b>Floyd</b> | elements. You know that it's made of brick and that the light is
+<b>Floyd</b> | provided by an old lantern, for historical purposes. Shipping traffic
+<b>Floyd</b> | in these waters has ceased a long time ago.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">remove shoes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "north?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "mmkay"
+</TD><td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">frisk man</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Gerynar</b>  says, "sure"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Jacqueline), "You sound unsure."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a pill bottle
+<b>Floyd</b> |   a cast (being worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Nah, I'm sure."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | At the foot of the lighthouse
+<b>Floyd</b> | The brickwork of the tower itself is dark like an underexposed black
+<b>Floyd</b> | and white picture. It looms high above you, like a faceless giant
+<b>Floyd</b> | standing eternal guard.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison. It even
+<b>Floyd</b> | has an electric bell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  asks, "shouldn't we do something about the dead guy?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  asks, "instead of continuing our vacation?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "We took his pill bottle."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "We'll call from the lighthouse"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Fang), "We don't have a cell phone."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x bell</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a small, round, red button.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "We took the pills so he can't get any deader"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">push bell</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You hammer your cold fist on the bell and hear a faint shrilling sound
+<b>Floyd</b> | somewhere inside.
+<b>Floyd</b> |
+<b>Floyd</b> | A woman in a thick woolen sweater and oilskin pants opens the door.
+<b>Floyd</b> | She seems to be in her late forties, and has friendly wrinkles around
+<b>Floyd</b> | her eyes. For a moment she blinks with an almost comical expression of
+<b>Floyd</b> | surprise, then she pulls you inside and slams the door.
+<b>Floyd</b> | "Hello, stranger" she muses, studying you through squinted eyes. "I'm
+<b>Floyd</b> | Laura Davidson, the lighthouse keeper."
+<b>Floyd</b> |  She smiles. You instantly feel at home.
+<b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | This circular room is dominated by the red brickwork and the circular
+<b>Floyd</b> | stairs leading upwards, rusty metal like the door. The furniture seems
+<b>Floyd</b> | to be an afterthought.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | Mrs. Davidson stands her, slightly squinting, and smiling.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">tell davidson about corpse</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | [Use TALK TO to interact with characters.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to davidson</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "Hello, Mrs. Davidson. Nice to let me in."
+<b>Floyd</b> | She squints at you again. "You aren't the Johnson boy, are you?"
+<b>Floyd</b> |
+<b>Floyd</b> | [1] "That must be the young man I found ... outside. He's dead. At the
+<b>Floyd</b> | picnic table. He committed suicide."
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Her eyes are suddenly wide with shock. "Sui- Suicide?" She shakes her
+<b>Floyd</b> | head. "That coward." Then she sighs - "Nevermind, there is a telephone
+<b>Floyd</b> | at the top. We have to call the cops."
+<b>Floyd</b> |
+<b>Floyd</b> | You climb what feels like a hundred clanking, metal stairs. The cold
+<b>Floyd</b> | metal of the railing bites your hand, rust flakes sticking to your
+<b>Floyd</b> | white, waxy skin.
+<b>Floyd</b> |
+<b>Floyd</b> | At the top of the lighthouse
+<b>Floyd</b> | The light of the big lantern blinds you every few seconds. Nothing but
+<b>Floyd</b> | a rusty railing keeps you from plunging headfirst into the roaring
+<b>Floyd</b> | sea. In the distance, the thunderstorm is raging ceaselessly, as if
+<b>Floyd</b> | ancient gods roar war at civilization.
+<b>Floyd</b> |
+<b>Floyd</b> | Mrs. Davidson arrives behind you, resting at the top of the stairs for
+<b>Floyd</b> | a moment to catch her breath.
+<b>Floyd</b> |
+<b>Floyd</b> | The wind picks up for a moment, almost throwing you off balance, rain
+<b>Floyd</b> | drops hitting you in painful volleys.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "the woman is suspicious"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  asks, "Did the pills mean he killed himself?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I thought that."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "we might be assuming it's suicide"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "But who knows."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "The shadow knows"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | At the top of the lighthouse
+<b>Floyd</b> | The light of the big lantern blinds you every few seconds. Nothing but
+<b>Floyd</b> | a rusty railing keeps you from plunging headfirst into the roaring
+<b>Floyd</b> | sea. In the distance, the thunderstorm is raging ceaselessly, as if
+<b>Floyd</b> | ancient gods roar war at civilization.
+<b>Floyd</b> |
+<b>Floyd</b> | Mrs. Davidson stands her, slightly squinting, and smiling.
+<b>Floyd</b> |
+<b>Floyd</b> | For a moment, you think you hear the fog horn of a ship, somewhere out
+<b>Floyd</b> | at sea.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Also, there're some very nice touches here.  The carvings in the picnic table description, her having to catch her breath.  Things you wouldn't think of by default that add to the feel."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x davidson</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Laura must be in her late forties, with the first grey streaks in her
+<b>Floyd</b> | black hair. She has a friendly, wrinkled face, fitting perfectly for a
+<b>Floyd</b> | lighthouse keeper who spends a lot of time at the sea and with
+<b>Floyd</b> | tourists.
+<b>Floyd</b> | She is hiding something in her hand - you catch a glimpse of metal.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Nitku</b> clears the save counter.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Nitku says (to Floyd), "<font color="#89956F">cf1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store: Ok.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "oho"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "I don't see a telephone, do you?"
+</TD><td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">ask her to open hand</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x metal</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x hand</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "Also, um.  Did you say these were supposed to be scary?"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Is she about to stab us?  THAT IS NOT VERY NICE."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">talk to laura</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You turn to her and open your mouth, but she looks at you as if she's
+<b>Floyd</b> | been caught red-handed. You notice a flash from her hand - as if she's
+<b>Floyd</b> | carrying something made of steel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>djfletch</b>  says, "quick, push her over the rail"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "What?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  says, "do aikido on her"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "with our pale, waxy skin, we might be a vampire, so we're hard to kill"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to her</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You turn to her and open your mouth, but she looks at you as if she's
+<b>Floyd</b> | been caught red-handed. You notice a flash from her hand - as if she's
+<b>Floyd</b> | carrying something made of steel.
+<b>Floyd</b> |
+<b>Floyd</b> | Suddenly, Mrs. Davidson jumps at you. At first you think she fell, but
+<b>Floyd</b> | then you feel a sudden, burning pain in your side. Almost immediately,
+<b>Floyd</b> | your body goes limp and numb with shock. Your legs falter under you,
+<b>Floyd</b> | and the woman holds you gently, as you both sink to the ground, almost
+<b>Floyd</b> | like lovers.
+<b>Floyd</b> | Her grey eyes are dark with sorrow, as she whispers: "I'm sorry, I'm
+<b>Floyd</b> | so sorry, it had to be..." You look at her, feeling perplexingly
+<b>Floyd</b> | guilty at the motherly look in her eyes. Then color fades from the
+<b>Floyd</b> | world, slowly, and above you the light circles and circles.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     *** You have died ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "GAH"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I don't want to kill her."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  exclaims, "too late!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "So, um, she's one of those nice looking but really crazy people."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well, that was fun."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | At the top of the lighthouse
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Just kidding.  Let's try again."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">duck</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">push woman</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "go down"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">push davidson</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You tackle her with your good shoulder - she screams, more surprised
+<b>Floyd</b> | than scared, as she falls down the stairs flailing. Her head makes a
+<b>Floyd</b> | sickening sound, and you wince at the muffled sound her body makes as
+<b>Floyd</b> | it hits the ground below.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Gerynar</b>  says, "yeah...what DW said"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Jacqueline), "well. Now you're in trouble."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Oh, um.  We can undo if you want."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  asks, "disarm her?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "nvm, Jacq has already picked the violent solution"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to DW), "I had a premonition that she was gonna kill us!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  shakes his head at Jacq.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "snrk"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "A likely story. Tell it to the judge."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I have a mystic psychic ability tied to the magic word undo."
+</TD><td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">we'll have the knife ready for the judge later</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Well, since I've killed her, let's go check her out."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">d</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As you arrive at the foot of the stairs, Laura looks up at you from a
+<b>Floyd</b> | pool of blood. "Listen kid", she whispers, "it had to be... I'm so
+<b>Floyd</b> | sorry. It has to be fed. It's our pledge. To keep the mother away.
+<b>Floyd</b> | Please understand" - she's wheezing now, something important inside
+<b>Floyd</b> | her broken. Her eyes are dark with death - "we had to." She doesn't
+<b>Floyd</b> | roll her eyes. There is no sudden lightning. The thunderstorm just
+<b>Floyd</b> | wails at the lighthouse walls, as if it were you conscience, trying to
+<b>Floyd</b> | get in.
+<b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | A weird dagger lies here.
+<b>Floyd</b> |
+<b>Floyd</b> | Laura Davidson lies here, twisted and dead.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | You can also see a keyring (on which are a steel key, a crystal key
+<b>Floyd</b> | and a bronze key) here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Or HAVE I?  Watch her come back to life, as horror movie murderers so often do."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x dagger</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a short, double-bladed dagger. It looks incredibly old, but the
+<b>Floyd</b> | point is still sharp.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "Stab her a couple of times just to make sure"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  says, "lol Laura D lies here, twisted & dead... like an afterthought"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "IT WAS ONLY AN ACCIDENT"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take dagger and keyring</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | dagger: Taken.
+<b>Floyd</b> | keyring: Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">search laura</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You find nothing of interest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x keys</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I just meant to push her away, not to sacrifice her to the whatever it is."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Honest, judge."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x cupboard</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see inside, since the cupboard is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">open it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the cupboard, revealing a wooden box.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x box</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see inside, since the wooden box is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">open box</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open the wooden box, revealing a flare gun.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x gun</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It looks old, but is in good shape. It seems to be loaded.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "let's look for a phone"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x furniture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x crystal key</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is a sight to behold. The crystal substance  makes it luminous,
+<b>Floyd</b> | and the sheer beauty of it makes it seem unreal.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  asks, "You want to turn us in?"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x bronze key</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a thick bronze key, tarnished and scratched.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x steel key</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a modern, steel key.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "IT WAS ONLY AN ACCIDENT"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x trapdoor</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is clearly a trapdoor - the wood is different from the
+<b>Floyd</b> | surrounding floor, and it has big metal hinges. The small lock on it
+<b>Floyd</b> | looks amazing; it's made of crystal and has strange carvings on it -
+<b>Floyd</b> | human figures and some sort of sea monster. It's too tiny to make out
+<b>Floyd</b> | properly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "That is true."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x carvings</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This is clearly a trapdoor - the wood is different from the
+<b>Floyd</b> | surrounding floor, and it has big metal hinges. The small lock on it
+<b>Floyd</b> | looks amazing; it's made of crystal and has strange carvings on it -
+<b>Floyd</b> | human figures and some sort of sea monster. It's too tiny to make out
+<b>Floyd</b> | properly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "You're right.  Best not to get nervous and anticipate that we won't be believed."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "hm. If we fed the sleeping pill suicide guy to the sea monster, that might make the sea monster sleepy as well. Might be useful."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "so are we going to do the smart genre aware thing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to DW), "Heehee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  asks, "or the standard horror protagonist thing?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, ""It's too tiny to make out properly" is a that's what she said -joke just waiting to happen"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Jacqueline), "I'm serious. Go get the body."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Um, ok."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I'm not that strong but I'll try."
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | This circular room is dominated by the red brickwork and the circular
+<b>Floyd</b> | stairs leading upwards, rusty metal like the door. The furniture seems
+<b>Floyd</b> | to be an afterthought.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | Laura Davidson lies here, twisted and dead.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "Unless people want to do something else."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says (to DW), "you'd be one weird serial killer"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Nah, I'm up for it."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "I'm game"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I'm not sure we'll be able to, but I'm up for trying."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">out</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | But you aren't in anything at the moment.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (first opening the lighthouse door)
+<b>Floyd</b> | (first unlocking the lighthouse door)
+<b>Floyd</b> | (with the steel key)
+<b>Floyd</b> |
+<b>Floyd</b> | At the foot of the lighthouse
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison. It even
+<b>Floyd</b> | has an electric bell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Crest of the mound
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says (to DW), "well, I hope you have a good explanation when the cops arrive"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">press bell</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take body</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You try to heave him onto your shoulder but the cast prevents it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "oops"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">push body north</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The corpse cannot be pushed from place to place.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">drag body</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It is fixed in place.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">xyzzy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There is no escape.
+<b>Floyd</b> |
+<b>Floyd</b> | There seem to be voices in the wind. You shudder.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">pull body north</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to pull the corpse.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">listen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You hear nothing unexpected.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">put body under table</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "we can chop him into handy pieces, maybe"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "hm. We need a stretcher, I guess."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Hm.  It does say it's fixed in place."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  says, "i only understand you as far as understanding what you want to do"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "well, my idea has to be put on hold. Trapdoor, Top of lighthouse again, or se fork in road?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "let's just check top of lighthouse"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well, there's Fangs idea."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "and then trapdoor"
+</TD><td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a flare gun
+<b>Floyd</b> |   a keyring
+<b>Floyd</b> |     a steel key
+<b>Floyd</b> |     a crystal key
+<b>Floyd</b> |     a bronze key
+<b>Floyd</b> |   a dagger
+<b>Floyd</b> |   a pill bottle
+<b>Floyd</b> |   a cast (being worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says (to Fang), "go for it"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says (to DW), "let's wait until we see a reason to use the corpse before doing anything with it"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Fang), "Go ahead.  Cut him up.  That'll make our story to the cops even more bizarre."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><TD><b>Jacqueline</b>  says, "Aw, okay."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | At the foot of the lighthouse
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison. It even
+<b>Floyd</b> | has an electric bell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | Laura Davidson lies here, twisted and dead.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">up</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | At the top of the lighthouse
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | At the top of the lighthouse
+<b>Floyd</b> | The light of the big lantern blinds you every few seconds. Nothing but
+<b>Floyd</b> | a rusty railing keeps you from plunging headfirst into the roaring
+<b>Floyd</b> | sea. In the distance, the thunderstorm is raging ceaselessly, as if
+<b>Floyd</b> | ancient gods roar war at civilization.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x railing</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's painfully cold to the touch, spotted with rust, eerily
+<b>Floyd</b> | illuminated by the thunderstorm.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's hardly portable.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "we could fire the flaregun here"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x sea</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x lantern</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's some sort of electrical lantern, buzzing loudly and emiting a
+<b>Floyd</b> | steady, yellowish light, blinding and hot up here. The surface is
+<b>Floyd</b> | littered with dead insects.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a shudden, sharp, stabbing pain in your back. Too much
+<b>Floyd</b> | walking in the cold. You move your back a bit, to ease the strain. The
+<b>Floyd</b> | pain dies down.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "hm."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">d</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | Laura Davidson lies here, twisted and dead.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Gerynar</b> has disconnected.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Gerynar</b> has connected.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">open trapdoor</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (first unlocking the trapdoor)
+<b>Floyd</b> | (with the crystal key)
+<b>Floyd</b> | You open the trapdoor.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">verbose</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The Lighthouse is now in its "verbose" mode, which always gives long
+<b>Floyd</b> | descriptions of locations (even if you've been there before).
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "That back pain message is a warning of some sort."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Yeah."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Sounds... yeah."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  asks (of DW), "sure it's not just a repeating daemon?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "There's demons in this game, too?!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "No spoilers!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "(Kidding)"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">cf2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store: Ok.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">down</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Recess in the Cliff
+<b>Floyd</b> | You are standing in a small recess. This small space feels old and
+<b>Floyd</b> | inhospitable.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leadseastwards into the cliffs. It's engraved with
+<b>Floyd</b> | weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the ceiling.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which do you mean, the metal door or the trapdoor?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">metal</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The symbols are unlike anything you've ever seen, yet they fill you
+<b>Floyd</b> | with a certain dread, something very basic, primeval.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  exclaims, "raptors!"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a flare gun
+<b>Floyd</b> |   a keyring
+<b>Floyd</b> |     a steel key
+<b>Floyd</b> |     a crystal key
+<b>Floyd</b> |     a bronze key
+<b>Floyd</b> |   a dagger
+<b>Floyd</b> |   a pill bottle
+<b>Floyd</b> |   a cast (being worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">open metal door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (first unlocking the metal door)
+<b>Floyd</b> | (with the bronze key)
+<b>Floyd</b> | You open the metal door.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "One would think that if tourists kept disappearing at this lighthouse someone would have gotten suspicious.  But then we wouldn't have a fun story, so I'll shut up now."
+</TD><td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">x keyring</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You see nothing special about the keyring.
+<b>Floyd</b> |
+<b>Floyd</b> | On the keyring nothing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | God, the stench. Fish and flesh and sweat and fear. The room is barely
+<b>Floyd</b> | lit by a dirty lightbulb on the ceiling, but you see straw and bones,
+<b>Floyd</b> | scattered everywhere.
+<b>Floyd</b> |
+<b>Floyd</b> | Cell
+<b>Floyd</b> | The dirty lightbulb gives an eerie half-light, leaving much of the
+<b>Floyd</b> | disgusting chunks of organic matter to the imagination. The stone
+<b>Floyd</b> | floor is littered with old, greyish straw. The sickeningly sweet smell
+<b>Floyd</b> | makes you gag.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leads westwards back up the stairs.  It's engraved
+<b>Floyd</b> | with weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | Something is moving in the shadows. It seems to be the source of the
+<b>Floyd</b> | fishy smell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x something</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Thankfully, it's half-hidden in the shadows. You can only make out a
+<b>Floyd</b> | malformed, scaly head, abnormally huge, soulless black fish eye above
+<b>Floyd</b> | teeth, yellow and sharp. It shuffles around slowly in the shadows, as
+<b>Floyd</b> | if hurt or weak. It seems to move on all fours, though you
+<b>Floyd</b> | occasionally glimpse something that seems to be the worst - a human
+<b>Floyd</b> | foot on a scrawny leg, its toes webbed and scaly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "aw"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD> <i>(from DavidW)</i> Fang says, "cuuuuuute!"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to something</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You clear your throat and try to speak to the shuffling shadows. You
+<b>Floyd</b> | manage a croaky: "Hello?" And from the shadows, something answers, a
+<b>Floyd</b> | low, sickeningly throaty sound, in something that sounds like words.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "heehee"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "see, it's probably harmless"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "Free it?"
+</TD><td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">ride scaly figure</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">listen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You hear nothing unexpected.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "hahah"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">talk to something</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You clear your throat and try to speak to the shuffling shadows. You
+<b>Floyd</b> | manage a croaky: "Hello?" And from the shadows, something answers, a
+<b>Floyd</b> | low, sickeningly throaty sound, in something that sounds like words.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Cell
+<b>Floyd</b> | The dirty lightbulb gives an eerie half-light, leaving much of the
+<b>Floyd</b> | disgusting chunks of organic matter to the imagination. The stone
+<b>Floyd</b> | floor is littered with old, greyish straw. The sickeningly sweet smell
+<b>Floyd</b> | makes you gag.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leads westwards back up the stairs.  It's engraved
+<b>Floyd</b> | with weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | Something is moving in the shadows. It seems to be the source of the
+<b>Floyd</b> | fishy smell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Maybe we should get a light."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x bones</font>"
+</TD><td></td><TD><b>Gerynar</b>  asks, "pet it?"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a flare gun
+<b>Floyd</b> |   a keyring
+<b>Floyd</b> |     a steel key
+<b>Floyd</b> |     a crystal key
+<b>Floyd</b> |     a bronze key
+<b>Floyd</b> |   a dagger
+<b>Floyd</b> |   a pill bottle
+<b>Floyd</b> |   a cast (being worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x straw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Rotten straw.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">search straw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You find nothing of interest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x shadows</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Thankfully, it's half-hidden in the shadows. You can only make out a
+<b>Floyd</b> | malformed, scaly head, abnormally huge, soulless black fish eye above
+<b>Floyd</b> | teeth, yellow and sharp. It shuffles around slowly in the shadows, as
+<b>Floyd</b> | if hurt or weak. It seems to move on all fours, though you
+<b>Floyd</b> | occasionally glimpse something that seems to be the worst - a human
+<b>Floyd</b> | foot on a scrawny leg, its toes webbed and scaly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "really this is kinda unthreatening"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x leg</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">reach out hand</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x foot</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x lightbulb</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "it's not as squamous as I thought"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I'm up for either getting a better look or freeing it."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't go that way.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Or trying to, anyway."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  asks, "is there a lantern around there?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "around here"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "I don't think shooting it with the flare gun would be appreciated"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  gets a sneaky suspicion that the thing might be .... A GRUE
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Heh.  No, I think that would be unkind."
+</TD><td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">cast frotz on creature</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "Let's get the ?lighthous lamp"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Cell
+<b>Floyd</b> | The dirty lightbulb gives an eerie half-light, leaving much of the
+<b>Floyd</b> | disgusting chunks of organic matter to the imagination. The stone
+<b>Floyd</b> | floor is littered with old, greyish straw. The sickeningly sweet smell
+<b>Floyd</b> | makes you gag.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leads westwards back up the stairs.  It's engraved
+<b>Floyd</b> | with weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | Something is moving in the shadows. It seems to be the source of the
+<b>Floyd</b> | fishy smell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "It might be a grue, yeah.  That'd be kinda cool."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "That should light up the place"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">smell</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The smell is a sickening mixture of rotten fish and nasty human odors
+<b>Floyd</b> | - sweat, fear, blood, feces. It's disgustingly sweet, you can almost
+<b>Floyd</b> | taste it in your mouth.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Recess in the Cliff
+<b>Floyd</b> | You are standing in a small recess. This small space feels old and
+<b>Floyd</b> | inhospitable.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leadseastwards into the cliffs. It's engraved with
+<b>Floyd</b> | weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the ceiling.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Gerynar</b>  says, "clean light"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">up</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | This circular room is dominated by the red brickwork and the circular
+<b>Floyd</b> | stairs leading upwards, rusty metal like the door. The furniture seems
+<b>Floyd</b> | to be an afterthought.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | Laura Davidson lies here, twisted and dead.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">x cupboard</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In the cupboard is a wooden box.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">push laura</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | With your one good arm and the help of your leg, you think you could
+<b>Floyd</b> | manage to move the corpse between rooms.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">push laura d</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Her body, is limp and giving passive resistance like dragging a heavy
+<b>Floyd</b> | bag - you manage to pull and push her into the trapdoor, the hapless
+<b>Floyd</b> | body sliding downstairs slowly, almost comically.
+<b>Floyd</b> |
+<b>Floyd</b> | Recess in the Cliff
+<b>Floyd</b> | You are standing in a small recess. This small space feels old and
+<b>Floyd</b> | inhospitable.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the ceiling.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leadseastwards into the cliffs. It's engraved with
+<b>Floyd</b> | weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  exclaims, "let's tidy up the evidence!"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">push laura e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You dump Laura's corpse in the middle of the cell, and something
+<b>Floyd</b> | clicks in your head. The beast carefully prances forward, sniffing you
+<b>Floyd</b> | and the corpse with its oversized, fish-like head, before it sinks its
+<b>Floyd</b> | teeth into Laura Davidsons face. And now you understand your role
+<b>Floyd</b> | here. They will send people. On nights like these, when the storm is
+<b>Floyd</b> | heavy and voices sing in the wind. And the child will be fed, and the
+<b>Floyd</b> | mother will be kept at bay. The beast looks up at you with a bloodied
+<b>Floyd</b> | mouth. You carefully pet it on the neck.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     *** You have taken over a horrible post ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "who wants waffles?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "aww"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  says, "he's a slow slow beast"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to David), "YAY"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  says, "not like those flippin' zombies in Planetfall"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Recess in the Cliff
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Cell
+<b>Floyd</b> | The dirty lightbulb gives an eerie half-light, leaving much of the
+<b>Floyd</b> | disgusting chunks of organic matter to the imagination. The stone
+<b>Floyd</b> | floor is littered with old, greyish straw. The sickeningly sweet smell
+<b>Floyd</b> | makes you gag.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leads westwards back up the stairs.  It's engraved
+<b>Floyd</b> | with weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | Something is moving in the shadows. It seems to be the source of the
+<b>Floyd</b> | fishy smell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">free it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I can't help think that the other corpse would've been better."
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Recess in the Cliff
+<b>Floyd</b> | You are standing in a small recess. This small space feels old and
+<b>Floyd</b> | inhospitable.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leadseastwards into the cliffs. It's engraved with
+<b>Floyd</b> | weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the ceiling.
+<b>Floyd</b> |
+<b>Floyd</b> | Laura Davidson lies here, twisted and dead.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">up</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | This circular room is dominated by the red brickwork and the circular
+<b>Floyd</b> | stairs leading upwards, rusty metal like the door. The furniture seems
+<b>Floyd</b> | to be an afterthought.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | At the foot of the lighthouse
+<b>Floyd</b> | The brickwork of the tower itself is dark like an underexposed black
+<b>Floyd</b> | and white picture. It looms high above you, like a faceless giant
+<b>Floyd</b> | standing eternal guard.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison. It even
+<b>Floyd</b> | has an electric bell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Crest of the mound
+<b>Floyd</b> | You're almost blind here. Every few moments this area is bathed in
+<b>Floyd</b> | harsh white light, leaving shadowy after-images in your sight.
+<b>Floyd</b> | From here, you can see the lighthouse on top of the cliffs, maybe 200
+<b>Floyd</b> | meters further north, and hear the cannonading waves against their
+<b>Floyd</b> | base, deep and old, gnawing at the island.
+<b>Floyd</b> | There is a picnic table, a few steps from the path, and someone is
+<b>Floyd</b> | sitting there, head on his hands.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">push corpse n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The corpse cannot be pushed from place to place.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">pull corpse n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to pull the corpse.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">pull corpse</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It is fixed in place.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">kiss corpse</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You blink the thought away. This storm sure is putting weird ideas in
+<b>Floyd</b> | your head.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">cut corpse</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Cutting that up would achieve little.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "well, it doesn't seem to give you any other options"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | At the foot of the lighthouse
+<b>Floyd</b> | The brickwork of the tower itself is dark like an underexposed black
+<b>Floyd</b> | and white picture. It looms high above you, like a faceless giant
+<b>Floyd</b> | standing eternal guard.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison. It even
+<b>Floyd</b> | has an electric bell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | This circular room is dominated by the red brickwork and the circular
+<b>Floyd</b> | stairs leading upwards, rusty metal like the door. The furniture seems
+<b>Floyd</b> | to be an afterthought.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">up</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | At the top of the lighthouse
+<b>Floyd</b> | The light of the big lantern blinds you every few seconds. Nothing but
+<b>Floyd</b> | a rusty railing keeps you from plunging headfirst into the roaring
+<b>Floyd</b> | sea. In the distance, the thunderstorm is raging ceaselessly, as if
+<b>Floyd</b> | ancient gods roar war at civilization.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">fire flare</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">fire gun</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I didn't understand that sentence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "hm. What happens if we take the side path?"
+</TD><td></td></TR>
+<TR><td></td><TD>smartgenes says (to Floyd), "<font color="#89956F">shoot flare</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (with the flare gun)
+<b>Floyd</b> | Might be a good way to alert the authorities. But you don't think it
+<b>Floyd</b> | would be seen in this hellish weather, near the big lighthouse light.
+<b>Floyd</b> |
+<b>Floyd</b> | A raindrop hits you quite painfully in the eye. You have to stop for a
+<b>Floyd</b> | moment and rub it, till the pain subsides.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "there's a path? I didn't notice"
+</TD><td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">d</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | This circular room is dominated by the red brickwork and the circular
+<b>Floyd</b> | stairs leading upwards, rusty metal like the door. The furniture seems
+<b>Floyd</b> | to be an afterthought.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | At the foot of the lighthouse
+<b>Floyd</b> | The brickwork of the tower itself is dark like an underexposed black
+<b>Floyd</b> | and white picture. It looms high above you, like a faceless giant
+<b>Floyd</b> | standing eternal guard.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison. It even
+<b>Floyd</b> | has an electric bell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Fang says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You don't want to get lost again.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "The fork in the road earlier"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Fang</b>  says, "well, do drive"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Crest of the mound
+<b>Floyd</b> | You're almost blind here. Every few moments this area is bathed in
+<b>Floyd</b> | harsh white light, leaving shadowy after-images in your sight.
+<b>Floyd</b> | From here, you can see the lighthouse on top of the cliffs, maybe 200
+<b>Floyd</b> | meters further north, and hear the cannonading waves against their
+<b>Floyd</b> | base, deep and old, gnawing at the island.
+<b>Floyd</b> | There is a picnic table, a few steps from the path, and someone is
+<b>Floyd</b> | sitting there, head on his hands.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | A fork in the road
+<b>Floyd</b> | A path snakes off to the southeast, trickling lines of mud ebbing into
+<b>Floyd</b> | the grass. The northbound path leads further upwards, against a small
+<b>Floyd</b> | current of dirt and debris, to the crest of a small mound. The rain
+<b>Floyd</b> | taps on a metallic roadsign by the fork with a strangely industrial,
+<b>Floyd</b> | almost urban sound.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">se</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You have to tell the authorities. About that thing you found in the
+<b>Floyd</b> | cellar. About Mrs. Davidson. Let them find out what the hell happened
+<b>Floyd</b> | here. Your broken arm begins to hurt. 12 kilometers is a long way. You
+<b>Floyd</b> | look back towards the lighthouse. It's silently waiting to spoil its
+<b>Floyd</b> | dark secrets at the world.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     *** You escaped alive ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A fork in the road
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | No. You've come this far.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I should share with you all that maga and I are now legitimately contemplating waffles."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "We should try to use the flare gun too, somehow."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>djfletch</b>  says, "we could shoot it at the monster"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Hm, okay."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to djfletch), "yes, that seems like a plan."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Though we're it's keeper now."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>djfletch</b>  says, "but then maybe the mother monster would turn up and kill us"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "It's cute when it's bloody."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I figured the mother was just the storm."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "What about letting it go/"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "er, ?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I didn't see a chain or fetters."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You fight your way up the slope. Muddy water, black like tar, slops
+<b>Floyd</b> | around your ankles. It's hard, going against the wind and being almost
+<b>Floyd</b> | overbalanced. You manage it, but upon reaching the crest, your shoes
+<b>Floyd</b> | and socks are soaked.
+<b>Floyd</b> |
+<b>Floyd</b> | Crest of the mound
+<b>Floyd</b> | You're almost blind here. Every few moments this area is bathed in
+<b>Floyd</b> | harsh white light, leaving shadowy after-images in your sight.
+<b>Floyd</b> | From here, you can see the lighthouse on top of the cliffs, maybe 200
+<b>Floyd</b> | meters further north, and hear the cannonading waves against their
+<b>Floyd</b> | base, deep and old, gnawing at the island.
+<b>Floyd</b> | There is a picnic table, a few steps from the path, and someone is
+<b>Floyd</b> | sitting there, head on his hands.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | At the foot of the lighthouse
+<b>Floyd</b> | The brickwork of the tower itself is dark like an underexposed black
+<b>Floyd</b> | and white picture. It looms high above you, like a faceless giant
+<b>Floyd</b> | standing eternal guard.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison. It even
+<b>Floyd</b> | has an electric bell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "It sort of had this aire of being kept, though.  huh."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | This circular room is dominated by the red brickwork and the circular
+<b>Floyd</b> | stairs leading upwards, rusty metal like the door. The furniture seems
+<b>Floyd</b> | to be an afterthought.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "But you're right, now that I think about it."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x brickwork</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">d</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Recess in the Cliff
+<b>Floyd</b> | You are standing in a small recess. This small space feels old and
+<b>Floyd</b> | inhospitable.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leadseastwards into the cliffs. It's engraved with
+<b>Floyd</b> | weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the ceiling.
+<b>Floyd</b> |
+<b>Floyd</b> | Laura Davidson lies here, twisted and dead.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x laura</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't bring yourself to look at her for long. Her eyes are open, a
+<b>Floyd</b> | horrifying expression of surprise in them. Her body looks twisted and
+<b>Floyd</b> | broken, a stray lock of hair has fallen into her face, given her an
+<b>Floyd</b> | even more vulnerable expression.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Cell
+<b>Floyd</b> | The dirty lightbulb gives an eerie half-light, leaving much of the
+<b>Floyd</b> | disgusting chunks of organic matter to the imagination. The stone
+<b>Floyd</b> | floor is littered with old, greyish straw. The sickeningly sweet smell
+<b>Floyd</b> | makes you gag.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leads westwards back up the stairs.  It's engraved
+<b>Floyd</b> | with weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | Something is moving in the shadows. It seems to be the source of the
+<b>Floyd</b> | fishy smell.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">shoot something</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (with the flare gun)
+<b>Floyd</b> | You aim a shaking arm at the shape in the shadows. You have never
+<b>Floyd</b> | fired a gun before, but you're pretty sure how this works. You close
+<b>Floyd</b> | your eyes and fire. The flare gun melts to a heap and you drop it
+<b>Floyd</b> | reflexively.
+<b>Floyd</b> |  The whole room lights up for a moment as the flare sizzles towards
+<b>Floyd</b> | the thing in the shadows, raining sparks on the stone floor. It hits
+<b>Floyd</b> | and immediately the whole creature has caught fire. The screams are
+<b>Floyd</b> | high-pitched, horrifyingly pure. Thankfully, it dies quickly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x thing</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x shadows</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Cell
+<b>Floyd</b> | The dirty lightbulb gives an eerie half-light, leaving much of the
+<b>Floyd</b> | disgusting chunks of organic matter to the imagination. The stone
+<b>Floyd</b> | floor is littered with old, greyish straw. The sickeningly sweet smell
+<b>Floyd</b> | makes you gag.
+<b>Floyd</b> |
+<b>Floyd</b> | The burnt carcass of something horrible lies in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leads westwards back up the stairs.  It's engraved
+<b>Floyd</b> | with weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Fang</b>  says, "we're such scum"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x carcass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The beast has burnt beyond recognition. The smell has become worse,
+<b>Floyd</b> | like a fish market mixed with burnt flesh.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>djfletch</b>  says, "it belongs dead"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Recess in the Cliff
+<b>Floyd</b> | You are standing in a small recess. This small space feels old and
+<b>Floyd</b> | inhospitable.
+<b>Floyd</b> |
+<b>Floyd</b> | A bluish metal door leadseastwards into the cliffs. It's engraved with
+<b>Floyd</b> | weird symbols.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the ceiling.
+<b>Floyd</b> |
+<b>Floyd</b> | Laura Davidson lies here, twisted and dead.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">u</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | In the Lighthouse
+<b>Floyd</b> | This circular room is dominated by the red brickwork and the circular
+<b>Floyd</b> | stairs leading upwards, rusty metal like the door. The furniture seems
+<b>Floyd</b> | to be an afterthought.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a trapdoor in the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | The stainless steel entrance door looks modern in comparison.
+<b>Floyd</b> |
+<b>Floyd</b> | There is an antique wooden cupboard in the corner.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As you step outside, you hear a roar behind you, audible above the
+<b>Floyd</b> | thunderous storm - filled with fear and pain and rage. A behemoth,
+<b>Floyd</b> | some unthinkable monstrosity from the lightless depths, has taken to
+<b>Floyd</b> | land. Car-sized hand grab the lighthouse and shake it, screaming
+<b>Floyd</b> | questions at it in a language worthy of giants. You fall to the ground
+<b>Floyd</b> | and cover your ears, babbling in terror as the building starts to
+<b>Floyd</b> | fall. You scramble back to your feet, clothes and face muddy, and
+<b>Floyd</b> | start to run.
+<b>Floyd</b> | You run for a long time.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     *** You broke the pact ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "mommy, no!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "wow"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>djfletch</b>  says, "the little ones are cute but they grow up really aggressive"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "This is a very creepy little game."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Well-written, too."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Good deal, Marius."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I guess we should have played these at Halloween, except we're always on hiatus then.  Maybe we should make an exception on the closest weekend to Halloween this coming year."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "perhaps, yeah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  asks, "we broke the pact?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "There are some good scary games out there."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to smartgenes), "Yeah, the pact to feed bodies to the child to appease the mother."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks, "So, search for another ending, or play a different one?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "I'm not sure what other ending to try. Shoot the guy at the picnic table?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "Let's move on to the next one"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>smartgenes</b>  says, "there must be more to the lighthouse"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I'm okay with going to the next one"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "me too"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I am as well."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>djfletch</b>  says, "yup, can't think of much else to try"</TD><td></td></TR>
+<TR><td></td><td></td></TR></TABLE><P ALIGN="CENTER"><FONT FACE="arial, sans-serif, helvetica" SIZE="1">
+		 <BR><BR>[ <a href="#top">TOP OF THIS PAGE</A> | <a href="interactive_fiction.html#clubfloyd">MORE CLUBFLOYD TRANSCRIPTS</A> | <a
+href="index.html">HOME</A> ]</FONT></P>
+<center><IMG SRC="graphics/black.jpg" WIDTH="557" HEIGHT="3"></center>
+		  <P ALIGN="CENTER"><A HREF="contact.html"><IMG SRC="graphics/footer.jpg"
+border="0"></A></P>
+</BODY>
+</HTML>

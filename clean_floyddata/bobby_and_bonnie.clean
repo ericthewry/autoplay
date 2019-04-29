@@ -1,0 +1,3459 @@
+>load sleepmask st17bobbieandbonnie
+
+
+
+
+ It's a beautiful day. We were out playing together in the garden, but
+ now it's time to do something else. We've still got a while before
+ dinner. Maybe we should go to the fair!
+
+ <span class="floydstyle header">Bobby and Bonnie</span>
+ An Interactive Fiction by Xavid
+ Release 1 / Serial number 170325 / Inform 7 build 6M62 (I6/v6.33 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">Vegetable Garden</span>
+ Mother has rows of crystal carrots, cabbages, and lettuce growing
+ here, with some thyme and rosemary growing up near the door leading
+ into the palace to the north. A white picket fence surrounds the
+ garden.
+
+ A few dandelions are growing among the carrots and cabbages.
+
+ (Type <span class="floydstyle i">help</span> for an introduction to possible commands.)
+
+>help
+
+ This is a work of interactive fiction. You say what you want us to do,
+ and see what happens. Some commands you might find useful:
+
+ <span class="floydstyle i">north</span>/<span class="floydstyle i">south</span>/<span class="floydstyle i">east</span>/<span class="floydstyle i">west</span>/<span class="floydstyle i">up</span>/<span class="floydstyle i">down</span>
+ (or <span class="floydstyle i">n</span>/<span class="floydstyle i">s</span>/<span class="floydstyle i">e</span>/<span class="floydstyle i">w</span>/<span class="floydstyle i">u</span>/<span class="floydstyle i">d</span>): go that
+ direction.
+ <span class="floydstyle i">examine</span> <span class="floydstyle em">something</span> (or <span class="floydstyle i">x</span> <span class="floydstyle em">something</span>):
+ look at an object or person.
+ <span class="floydstyle i">look</span> (or <span class="floydstyle i">l</span>): look at your current location.
+ <span class="floydstyle i">inventory</span> (or <span class="floydstyle i">i</span>): check what you are holding.
+ <span class="floydstyle i">take</span> <span class="floydstyle em">something</span>: pick up an object.
+ <span class="floydstyle i">drop</span> <span class="floydstyle em">something</span>: put down an object.
+ <span class="floydstyle i">buy</span> <span class="floydstyle em">something</span>
+ <span class="floydstyle i">give</span> <span class="floydstyle em">something</span> <span class="floydstyle i">to</span> <span class="floydstyle em">someone</span>
+ <span class="floydstyle i">put</span> <span class="floydstyle em">something</span> <span class="floydstyle i">in</span>/<span class="floydstyle i">on</span> <span class="floydstyle em">something</span>
+ <span class="floydstyle i">fill</span> <span class="floydstyle em">something</span> <span class="floydstyle i">with</span>/<span class="floydstyle i">from</span>
+ <span class="floydstyle em">something</span>
+ <span class="floydstyle i">ask</span> <span class="floydstyle em">someone</span> <span class="floydstyle i">about</span> <span class="floydstyle em">something</span>
+ <span class="floydstyle i">empty</span> <span class="floydstyle em">something</span>
+ <span class="floydstyle i">wash</span> <span class="floydstyle em">something</span>
+ <span class="floydstyle i">wind</span> <span class="floydstyle em">something</span>
+ <span class="floydstyle i">pull</span> <span class="floydstyle em">something</span>
+ <span class="floydstyle i">make</span> <span class="floydstyle em">something</span>
+ <span class="floydstyle subheader">sit</span>
+
+ You can <span class="floydstyle i">save</span> your game, <span class="floydstyle i">quit</span>, and <span class="floydstyle i">restore</span> later.
+ You can also <span class="floydstyle i">undo</span> your last move. If you get stuck, you can ask
+ for a <span class="floydstyle i">hint</span>. See <span class="floydstyle i">about</span> for acknowledgements and meta
+ information.
+
+ Have fun!
+
+>inventory
+
+ We are carrying nothing.
+
+>examine us
+
+ We're both rabbits, of course.
+
+>examine me
+
+ A rabbit, of course. Only modestly annoying.
+
+>examine her
+
+ We're both rabbits, of course.
+
+>examine him
+
+ I'm not sure what 'him' refers to.
+
+>examine carrots
+
+ They seem to be doing nicely.
+
+>examine dandelions
+
+ Some ordinary dandelions.
+
+>examine bobbie
+
+ We're both rabbits, of course.
+
+
+ That's not a verb I recognize.
+
+>hop
+
+ We jump on the spot.
+
+>take dandelions
+
+ You pull up all the dandelions, being careful not to get any of the
+ carrots by mistake.
+
+>examine cabbage
+
+ They seem to be doing nicely.
+
+>look
+
+ <span class="floydstyle subheader">Vegetable Garden</span>
+ Mother has rows of crystal carrots, cabbages, and lettuce growing
+ here, with some thyme and rosemary growing up near the door leading
+ into the palace to the north. A white picket fence surrounds the
+ garden.
+
+>examine lettuce
+
+ They seem to be doing nicely.
+
+>examine crystal
+
+ Which do you mean, the crystal palace or the crystal vegetables?
+
+>examine palace
+
+ We live in a palace made of crystal, of course.
+
+>examine fence
+
+ A well-kept fence around the garden.
+
+>inventory
+
+ We are carrying:
+   some dandelions
+
+>examine rosemary
+
+ They certainly smell good.
+
+>take carrot
+
+ I don't think they're ready to harvest yet.
+
+>eat dandelions
+
+ Eh, it'd probably ruin your appetite for dinner.
+
+>go north
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ A basket of raspberry scones sits by the window.
+
+ The dirty dishes from lunch are on the counter.
+
+
+ You carefully wash the dishes. I dry them and put them away.
+
+>examine scones
+
+ A wicker basket full of raspberry scones.
+
+>examine table
+
+ The table we eat our meals at.
+
+>examine oven
+
+ A nice, solid oven.
+
+>open it
+
+ Right now, it's empty.
+
+>examine dishes
+
+ Cleaned and put away.
+
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go east
+
+
+ <span class="floydstyle subheader">Sitting Room</span>
+ A cosy room with a shiny marble fireplace.
+
+ Mother's sitting in her chair by the fire, reading a book.
+
+>examine mother
+
+ Mother seems to be really into her book.
+
+>examine book
+
+ It's called "Carrots I Have Known".
+
+>talk to mother
+
+ That's not a verb I recognize.
+
+>ask mother about book
+
+ You have a pleasant conversation about mother's book which
+ fundamentally fails to be relevant.
+
+>ask mother about fair
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask mother about me
+
+ You have a pleasant conversation about ourselves which fundamentally
+ fails to be relevant.
+
+>ask mother about carrots
+
+ You have a pleasant conversation about the crystal vegetables which
+ fundamentally fails to be relevant.
+
+>examine fireplace
+
+ There's nothing like a fire to warm the place up. Sometimes we even
+ toast marshmallows.
+
+>go west
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go up
+
+
+ <span class="floydstyle subheader">Upstairs Hallway</span>
+ It's just the landing at the top of the stairs. Your room is north. My
+ room is east. Our parents' room is west. And you can keep going up to
+ get to the attic.
+
+>go east
+
+ What d'ya want to go in there for? I'm all done cleaning <span class="floydstyle em">my</span>
+ room.
+
+>go north
+
+
+ <span class="floydstyle subheader">Your Room</span>
+ It's bigger than my room, but mine has a better view. I keep mine
+ neater, too.
+
+ Some dirty clothes are lying on the floor near your bed.
+
+>search clothes
+
+ Mostly just rumpled, with a little mud.
+
+>wash clothes
+
+ Mother doesn't make us do our own laundry. At least not yet.
+
+>take clothes
+
+ Taken.
+
+>examine bed
+
+ The comforter has pictures of dragons on it.
+
+>look under bed
+
+ We find nothing of interest.
+
+>go south
+
+
+ <span class="floydstyle subheader">Upstairs Hallway</span>
+ It's just the landing at the top of the stairs. Your room is north. My
+ room is east. Our parents' room is west. And you can keep going up to
+ get to the attic.
+
+>go west
+
+
+ <span class="floydstyle subheader">Large Bedroom</span>
+ Our parents' room. It has a big bed, some dressers, and a cool coiled
+ rug.
+
+ We can see the laundry chute here.
+
+>examine chute
+
+ You know, a shaft where you can put your clothes in and they appear in
+ the basement due to the magic of gravity.
+
+>put clothes in chute
+
+ There's a sliding sound, and the dirty clothes disappear from sight.
+
+>examine bed
+
+ A big comfy water bed.
+
+>examine rug
+
+ It changes color as it spirals in.
+
+>examine dressers
+
+ Where our parents keep our clothes.
+
+>open dressers
+
+ They aren't something we can open.
+
+>jump on bed
+
+ That's not something we can enter.
+
+>enter chute
+
+ That's not something we can enter.
+
+>go east
+
+
+ <span class="floydstyle subheader">Upstairs Hallway</span>
+ It's just the landing at the top of the stairs. Your room is north. My
+ room is east. Our parents' room is west. And you can keep going up to
+ get to the attic.
+
+>go up
+
+
+ <span class="floydstyle subheader">Attic</span>
+ A dusty attic filled with boxes.
+
+ Nearly hidden among the boxes, a gold doubloon catches your eye.
+
+>take gold
+
+ Taken.
+
+>examine it
+
+ A large gold coin with a picture of two dragons on it.
+
+>flip coin
+
+ That's not a verb I recognize.
+
+>examine boxes
+
+ Various boxes of stuff that doesn't get used very often.
+
+>open boxes
+
+ Our parents probably don't want us messing with this stuff.
+
+>go down
+
+
+ <span class="floydstyle subheader">Upstairs Hallway</span>
+ It's just the landing at the top of the stairs. Your room is north. My
+ room is east. Our parents' room is west. And you can keep going up to
+ get to the attic.
+
+>go down
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go west
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ A basket of raspberry scones sits by the window.
+
+>go down
+
+
+ <span class="floydstyle subheader">Basement</span>
+ It's a bit dingy and dimly lit. A narrow opening leads south.
+
+ Your dirty clothes are here, on top of the laundry pile.
+
+>examine pile
+
+ You don't see any pile here.
+
+>go south
+
+
+ <span class="floydstyle subheader">Damp Cave</span>
+ A dark limestone cave. Stalactites periodically drip, making a cool
+ kerplunk noise. An opening leads north into the basement.
+
+ A ridge of stalagmites emerges from a stone mound.
+
+>examine ridge
+
+ A mound with a ridge of stalagmites down its back. It almost looks
+ like some sort of creature in the dim light.
+
+>listen
+
+ We hear nothing unexpected.
+
+>go south
+
+ We can't go that way.
+
+>go north
+
+
+ <span class="floydstyle subheader">Basement</span>
+ It's a bit dingy and dimly lit. A narrow opening leads south.
+
+ Your dirty clothes are here, on top of the laundry pile.
+
+>go up
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ A basket of raspberry scones sits by the window.
+
+>go east
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>open door
+
+ It isn't something we can open.
+
+>examine door
+
+ A grand door leading into the palace.
+
+>go north
+
+ Mother calls after us. "If you're going out, why don't you take the
+ scones I baked to your grandmother? I'm sure she'd love to see you. I
+ left them in the kitchen."
+
+>go west
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ A basket of raspberry scones sits by the window.
+
+>take basket
+
+ Taken.
+
+>go east
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go north
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+>examine cow
+
+ It has black and white spots and flicks its tail back and forth.
+
+>ask cow about cow
+
+ You have a pleasant conversation about the large cow which
+ fundamentally fails to be relevant.
+
+>examine flowers
+
+ (looking east to Fiery Field)
+
+ Bright red and orange flowers that generate a searing flame.
+
+>take flower
+
+ You don't see the fire flowers here. It was at Fiery Field.
+
+>go east
+
+
+ <span class="floydstyle subheader">Fiery Field</span>
+ A dense field of fire flowers stretches to the east. The road is back
+ to the west.
+
+>take flower
+
+ There's no need to carry that around.
+
+>examine flower
+
+ Bright red and orange flowers that generate a searing flame.
+
+>touch flower
+
+ We feel nothing unexpected.
+
+>smell flower
+
+ We smell nothing unexpected.
+
+>go west
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+>go west
+
+ Eh, it'd be rude to go tramping through someone else's pasture.
+
+ From here, we can go north, south, and east.
+
+>exits
+
+ From here, we can go north, south, and east.
+
+>go north
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>examine river
+
+ A cool, clear river.
+
+>go north
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+>go north
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+>examine house
+
+ A charming little cottage.
+
+>examine garden
+
+ Petunias and begonias.
+
+>go north
+
+
+ <span class="floydstyle subheader">Cosy Cottage</span>
+ A warm, sunny room with a plush carpet. The walls are lined with
+ bookshelves.
+
+ Grandmother sits in a rocking chair, knitting something.
+
+ In a corner sits Grandmother's butter churn.
+
+ "Ah, it's good to see you."
+
+>examine grandmother
+
+ She's wearing her wire-frame glasses. They go well with her fur.
+
+>kiss grandmother
+
+ Grandmother might not like that.
+
+>give basket to grandmother
+
+ "Ah, these look delicious! You're so thoughtful! Here, since you've
+ come all this way, let me give you something. You should get yourself
+ something at the fair."
+ She gives you a copper piece.
+
+>thank grandmother
+
+ That's not a verb I recognize.
+
+>examine copper
+
+ A small copper coin with a picture of a rabbit on it.
+
+>examine churn
+
+ An old wooden butter churn, well-used.
+
+>examine knitting
+
+ The start of a sweater, perhaps?
+
+>ask grandmother about knitting
+
+ (Grandmother about her knitting)
+ "I know you've been wanting another sweater."
+
+>ask grandmother about churn
+
+ (Grandmother about the butter churn)
+ "Ah, when I was young I used to have to churn milk into butter all the
+ time."
+
+>ask grandmother about fair
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask grandmother about grandmother
+
+ (Grandmother about Grandmother)
+ You have a pleasant conversation about Grandmother which fundamentally
+ fails to be relevant.
+
+>examine bookshelves
+
+ They contain all sorts of old books about history and such.
+
+>examine books
+
+ They contain all sorts of old books about history and such.
+
+>read books
+
+ They contain all sorts of old books about history and such.
+
+>push chair
+
+ It is fixed in place.
+
+>sit on chair
+
+ That's not something we can sit down on.
+
+>hug grandmother
+
+ Grandmother might not like that.
+
+>look
+
+ <span class="floydstyle subheader">Cosy Cottage</span>
+ A warm, sunny room with a plush carpet. The walls are lined with
+ bookshelves.
+
+ Grandmother sits in a rocking chair, knitting something.
+
+ In a corner sits Grandmother's butter churn.
+
+>examine carpet
+
+ Light orange in color.
+
+>exits
+
+ The only way to go is south.
+
+>go south
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+>go west
+
+
+ <span class="floydstyle subheader">Market Road</span>
+ A dusty road leads east to west. Some pleasant-seeming woods lie to
+ the south.
+
+>go west
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+>examine stalls
+
+ Merchants are selling everything from fish to figurines. We mostly
+ just find the magic shop and flea market interesting.
+
+>go south
+
+
+ <span class="floydstyle subheader">Magic Shop</span>
+ A shop full of all sorts of wondrous things.
+
+ The shopkeeper shows off her wares.
+
+ A wooden bowl seems to be on sale.
+
+ "Ah, my favorite customers. You know, your friend Puff was here just
+ the other day, telling me how much he likes his new bed."
+
+>ask shopkeeper about puff
+
+ Which do you mean, the stone mound or our friend?
+
+>friend
+
+ "I do wonder how well it'll keep dry in that damp underground cave he
+ lives in, but I'm sure he'll make it work. He is a magic dragon, after
+ all."
+
+>examine bowl
+
+ A simple wooden bowl carved with designs of clouds and rain.
+
+>ask shopkeeper about bowl
+
+ "Ah, yes, the Bowl of Rain. Fill it with water whenever you want it to
+ rain. Popular with farmers. Only one gold doubloon."
+
+>SAVE
+>cf1
+ %% Enter a save filename to write:
+
+>buy bowl
+
+ You give your gold doubloon to the shopkeeper in exchange for the
+ bowl.
+
+>inventory
+
+ We are carrying:
+   the rain bowl (empty)
+   a copper piece
+   some dandelions
+
+>look
+
+ <span class="floydstyle subheader">Magic Shop</span>
+ A shop full of all sorts of wondrous things.
+
+ The shopkeeper shows off her wares.
+
+>examine wares
+
+ All sorts of magical devices and supplies, most outside of our price
+ range or interest.
+
+>go north
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+>go west
+
+
+ <span class="floydstyle subheader">Flea Market</span>
+ A crowded and busy section of the fair, with people buying and selling
+ all sorts of strange things.
+
+ A flea is here, selling an assortment of junk.
+
+>search junk
+
+ The busy market, an old alarm clock, a dented brass horn, and some
+ sealing wax catch your eye.
+
+>examine flea
+
+ Somewhat larger than your average flea.
+
+>examine clock
+
+ It's dented and seems to be stuck at 3:17.
+
+>examine horn
+
+ A straight horn, like you might use in a great hall to announce the
+ arrival of the king. But only if the king doesn't mind grungy-looking
+ instruments.
+
+>examine wax
+
+ You know, the sort of thing you might use for sealing a letter, if you
+ were particularly classy.
+
+>ask flea about clock
+
+ The flea gives you the alarm clock in exchange for your copper piece.
+
+>undo
+
+
+ <span class="floydstyle subheader">Flea Market</span>
+ [Previous turn undone.]
+
+>ask flea about horn
+
+ "Two coppers, please."
+
+>inventory
+
+ We are carrying:
+   the rain bowl (empty)
+   a copper piece
+   some dandelions
+
+>sell dandelions
+
+ That's not a verb I recognize.
+
+>give dandelions to flea
+
+ The flea doesn't seem interested.
+
+>go east
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Market Road</span>
+ A dusty road leads east to west. Some pleasant-seeming woods lie to
+ the south.
+
+>go south
+
+
+ <span class="floydstyle subheader">Open Woods</span>
+ The trees are rather open here, letting sunlight in. A mass of grape
+ vine blocks the way west and south, however. You can see the road to
+ the north or east.
+
+ A large log lies here, one end covered in moss.
+
+>examine log
+
+ An old tree that must've fallen a while ago.
+
+>take log
+
+ That's a bit heavy to lug around.
+
+>move log
+
+ It is fixed in place.
+
+>examine moss
+
+ You don't see any moss here.
+
+>push log
+
+ It is fixed in place.
+
+>look in log
+
+ An old tree that must've fallen a while ago.
+
+>look
+
+ <span class="floydstyle subheader">Open Woods</span>
+ The trees are rather open here, letting sunlight in. A mass of grape
+ vine blocks the way west and south, however. You can see the road to
+ the north or east.
+
+ A large log lies here, one end covered in moss.
+
+>examine vine
+
+ Densely-overgrown spiral vines.
+
+>sit on log
+
+ That's not something we can sit down on.
+
+>roll log
+
+ That's not a verb I recognize.
+
+>search log
+
+ An old tree that must've fallen a while ago.
+
+>go east
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+>go south
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>look under bridge
+
+ We find nothing of interest.
+
+>go south
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+>give dandelions to cow
+
+ The cow munches down the dandelion greens happily.
+
+>ask cow about dandelions
+
+ You have a pleasant conversation about the dandelions which
+ fundamentally fails to be relevant.
+
+>milk cow
+
+ You need something to put the milk in.
+
+>go north
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>fill bowl
+
+ (from the river)
+ We fill the rain bowl with water from the river.
+
+ It's now drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's drizzling heavily.
+
+>go east
+
+
+ <span class="floydstyle subheader">Fiery Field</span>
+ A dense field of fire flowers stretches to the east. The road is back
+ to the west.
+
+ It's drizzling heavily.
+
+>exits
+
+ From here, we can go east and west.
+
+>go east
+
+ The rain damps down the fire flowers enough that you manage to make it
+ past them.
+
+ <span class="floydstyle subheader">At Well</span>
+ The field opens up into a grassier meadow. The flowers change to the
+ north. You can still barely see the road to the west.
+
+ An old stone well sits here.
+
+ A dented old pail sits a short way away from the well, apparently
+ having recently been replaced.
+
+ It's drizzling heavily.
+
+>examine pail
+
+ A dented tin pail.
+
+>take pail
+
+ Taken.
+
+>examine well
+
+ A rope leads down into the dark.
+
+>exits
+
+ From here, we can go north and west.
+
+>take rope
+
+ That's fixed in place.
+
+>climb rope
+
+ Little is to be achieved by that.
+
+>enter well
+
+ That's not something we can enter.
+
+>look
+
+ <span class="floydstyle subheader">At Well</span>
+ The field opens up into a grassier meadow. The flowers change to the
+ north. You can still barely see the road to the west.
+
+ An old stone well sits here.
+
+ It's drizzling heavily.
+
+>go north
+
+
+ <span class="floydstyle subheader">Poppy Field</span>
+ A calm field filled with scarlet poppies continues to the north. You
+ can see the well to the south.
+
+ It's drizzling heavily.
+
+>go north
+
+ The rain doesn't seem to do much to block the smell of the flowers.
+ Despite the wet, you still start falling asleep, and I have to drag
+ you back.
+
+>go south
+
+
+ <span class="floydstyle subheader">At Well</span>
+ The field opens up into a grassier meadow. The flowers change to the
+ north. You can still barely see the road to the west.
+
+ An old stone well sits here.
+
+ It's drizzling heavily.
+
+>go west
+
+
+ <span class="floydstyle subheader">Fiery Field</span>
+ A dense field of fire flowers stretches to the east. The road is back
+ to the west.
+
+ It's drizzling heavily.
+
+>go west
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's drizzling heavily.
+
+>empty bowl
+
+ You pour out the water from the rain bowl.
+
+ It's no longer raining.
+
+>milk cow
+
+ You fill the pail with milk.
+
+>go north
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>go north
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+>go north
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+>go north
+
+
+ <span class="floydstyle subheader">Cosy Cottage</span>
+ A warm, sunny room with a plush carpet. The walls are lined with
+ bookshelves.
+
+ Grandmother sits in a rocking chair, knitting something.
+
+ In a corner sits Grandmother's butter churn.
+
+ "Hello again."
+
+>wash churn
+
+ That's fine the way it is.
+
+>fill churn
+
+ What do you want to fill the butter churn from?
+
+>pail
+
+ The butter churn can't hold a liquid!
+
+>make butter
+
+ You pour the milk into the churn and get to work. Soon, we have a nice
+ quantity of fresh butter.
+
+ "Oh, my! You're full of industry today!"
+
+>examine butter
+
+ (the fresh butter)
+ Freshly-made butter.
+
+>take butter
+
+ (the fresh butter)
+ We already have that.
+
+>inventory
+
+ We are carrying:
+   some fresh butter
+   a pail (empty)
+   the rain bowl (empty)
+   a copper piece
+
+>ask grandmother about flea market
+
+ (Grandmother about the busy market)
+ You have a pleasant conversation about the busy market which
+ fundamentally fails to be relevant.
+
+>ask grandmother about poppies
+
+ (Grandmother about the scarlet poppies)
+ You have a pleasant conversation about the scarlet poppies which
+ fundamentally fails to be relevant.
+
+>ask grandmother about puff
+
+ Which do you mean, the stone mound or our friend?
+
+>friend
+
+ (Grandmother about our friend)
+ You have a pleasant conversation about our friend which fundamentally
+ fails to be relevant.
+
+>give butter to grandmother
+
+ (the fresh butter to Grandmother)
+ Grandmother doesn't seem interested.
+
+>go south
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+>go west
+
+
+ <span class="floydstyle subheader">Market Road</span>
+ A dusty road leads east to west. Some pleasant-seeming woods lie to
+ the south.
+
+>go west
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+>go west
+
+
+ <span class="floydstyle subheader">Flea Market</span>
+ A crowded and busy section of the fair, with people buying and selling
+ all sorts of strange things.
+
+ A flea is here, selling an assortment of junk.
+
+>show butter to flea
+
+ You have a pleasant conversation about the fresh butter which
+ fundamentally fails to be relevant.
+
+>give butter to flea
+
+ The flea doesn't seem interested.
+
+>sell butter
+
+ That's not a verb I recognize.
+
+>go east
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Market Road</span>
+ A dusty road leads east to west. Some pleasant-seeming woods lie to
+ the south.
+
+>go south
+
+
+ <span class="floydstyle subheader">Open Woods</span>
+ The trees are rather open here, letting sunlight in. A mass of grape
+ vine blocks the way west and south, however. You can see the road to
+ the north or east.
+
+ A large log lies here, one end covered in moss.
+
+>exits
+
+ From here, we can go north and east.
+
+>go east
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+>go south
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>exits
+
+ From here, we can go north and south.
+
+>go south
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+>ask cow about pasture
+
+ You have a pleasant conversation about the pasture which fundamentally
+ fails to be relevant.
+
+>go south
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go east
+
+
+ <span class="floydstyle subheader">Sitting Room</span>
+ A cosy room with a shiny marble fireplace.
+
+ Mother's sitting in her chair by the fire, reading a book.
+
+>give butter to mother
+
+ Mother doesn't seem interested.
+
+>ask mother about friend puff
+
+ You have a pleasant conversation about our friend which fundamentally
+ fails to be relevant.
+
+>ask mother about clothes
+
+ You have a pleasant conversation about the dirty clothes which
+ fundamentally fails to be relevant.
+
+>ask mother about father
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>take book
+
+ That's hardly portable.
+
+>go west
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go west
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+>go down
+
+
+ <span class="floydstyle subheader">Basement</span>
+ It's a bit dingy and dimly lit. A narrow opening leads south.
+
+ Your dirty clothes are here, on top of the laundry pile.
+
+>examine clothes
+
+ Mostly just rumpled, with a little mud.
+
+>go south
+
+
+ <span class="floydstyle subheader">Damp Cave</span>
+ A dark limestone cave. Stalactites periodically drip, making a cool
+ kerplunk noise. An opening leads north into the basement.
+
+ A ridge of stalagmites emerges from a stone mound.
+
+>examine mound
+
+ A mound with a ridge of stalagmites down its back. It almost looks
+ like some sort of creature in the dim light.
+
+>examine puff
+
+ A mound with a ridge of stalagmites down its back. It almost looks
+ like some sort of creature in the dim light.
+
+>ask puff about puff
+
+ (the stone mound about the stone mound)
+ You have a pleasant conversation about the stone mound which
+ fundamentally fails to be relevant.
+
+>ask pail about flower
+
+ You can only do that to something animate.
+
+>touch mound
+
+ The stone mound might not like that.
+
+>smear butter on stone mound
+
+ That's not a verb I recognize.
+
+>put butter in bowl
+
+ The rain bowl is better suited for carrying liquids.
+
+>inventory
+
+ We are carrying:
+   some fresh butter
+   a pail (empty)
+   the rain bowl (empty)
+   a copper piece
+
+>go north
+
+
+ <span class="floydstyle subheader">Basement</span>
+ It's a bit dingy and dimly lit. A narrow opening leads south.
+
+ Your dirty clothes are here, on top of the laundry pile.
+
+>take clothes
+
+ Mother'll deal with washing those, silly. They're fine where they are.
+
+>search clothes
+
+ Mostly just rumpled, with a little mud.
+
+>go up
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+>go south
+
+
+ <span class="floydstyle subheader">Vegetable Garden</span>
+ Mother has rows of crystal carrots, cabbages, and lettuce growing
+ here, with some thyme and rosemary growing up near the door leading
+ into the palace to the north. A white picket fence surrounds the
+ garden.
+
+>climb fence
+
+ Little is to be achieved by that.
+
+>go north
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+>go east
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go north
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+>go north
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>go north
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+>go north
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+>go west
+
+
+ <span class="floydstyle subheader">Market Road</span>
+ A dusty road leads east to west. Some pleasant-seeming woods lie to
+ the south.
+
+>go west
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+>go west
+
+
+ <span class="floydstyle subheader">Flea Market</span>
+ A crowded and busy section of the fair, with people buying and selling
+ all sorts of strange things.
+
+ A flea is here, selling an assortment of junk.
+
+>buy clock
+
+ The flea gives you the alarm clock in exchange for your copper piece.
+
+>wind clock
+
+ The clock makes a loud ringing noise, then falls silent.
+
+>go east
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+>go east
+
+
+ <span class="floydstyle subheader">Market Road</span>
+ A dusty road leads east to west. Some pleasant-seeming woods lie to
+ the south.
+
+>go south
+
+
+ <span class="floydstyle subheader">Open Woods</span>
+ The trees are rather open here, letting sunlight in. A mass of grape
+ vine blocks the way west and south, however. You can see the road to
+ the north or east.
+
+ A large log lies here, one end covered in moss.
+
+>go east
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+>go south
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>fill bowl
+
+ (from the river)
+ We fill the rain bowl with water from the river.
+
+ It's now drizzling heavily.
+
+>go north
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+ It's drizzling heavily.
+
+>go west
+
+
+ <span class="floydstyle subheader">Open Woods</span>
+ The trees are rather open here, letting sunlight in. A mass of grape
+ vine blocks the way west and south, however. You can see the road to
+ the north or east.
+
+ A large log lies here, one end covered in moss.
+
+ It's drizzling heavily.
+
+>examine log
+
+ An old tree that must've fallen a while ago.
+
+>go east
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+ It's drizzling heavily outside.
+
+>go west
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ It's drizzling heavily outside.
+
+>go south
+
+
+ <span class="floydstyle subheader">Vegetable Garden</span>
+ Mother has rows of crystal carrots, cabbages, and lettuce growing
+ here, with some thyme and rosemary growing up near the door leading
+ into the palace to the north. A white picket fence surrounds the
+ garden.
+
+ It's drizzling heavily.
+
+>empty bowl
+
+ You pour out the water from the rain bowl.
+
+ It's no longer raining.
+
+>go north
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+>go down
+
+
+ <span class="floydstyle subheader">Basement</span>
+ It's a bit dingy and dimly lit. A narrow opening leads south.
+
+ Your dirty clothes are here, on top of the laundry pile.
+
+>go south
+
+
+ <span class="floydstyle subheader">Damp Cave</span>
+ A dark limestone cave. Stalactites periodically drip, making a cool
+ kerplunk noise. An opening leads north into the basement.
+
+ A ridge of stalagmites emerges from a stone mound.
+
+>wind clock
+
+ The clock makes a loud ringing noise, then falls silent.
+
+ With a sudden jerk, the stone mound moves! A rock shifts and
+ transforms into the head of a dragon! Luckily, it's the friendly face
+ of Puff the Magic Dragon. He blinks at you sleepily. "Good morning."
+
+ You notice that Puff was sleeping on a pile of books. Behind Puff, you
+ can now see a tunnel leading east.
+
+>examine puff
+
+ A large green dragon with shiny scales. He's resting on a pile of
+ books.
+
+>ask puff about bed
+
+ Which do you mean, your bed or the big bed?
+
+>ask puff about puff
+
+ (Puff the Magic Dragon about Puff the Magic Dragon)
+ You have a pleasant conversation about Puff the Magic Dragon which
+ fundamentally fails to be relevant.
+
+>ask puff about mound
+
+ (Puff the Magic Dragon about Puff the Magic Dragon)
+ You have a pleasant conversation about Puff the Magic Dragon which
+ fundamentally fails to be relevant.
+
+>examine books
+
+ A huge pile of books of all kinds. A cookbook catches your eye.
+
+>examine cookbook
+
+ You can't really read it unless you're holding it.
+
+>ask puff about cookbook
+
+ (Puff the Magic Dragon about the cookbook)
+ You have a pleasant conversation about the cookbook which
+ fundamentally fails to be relevant.
+
+>take cookbook
+
+ "Now, now, I'd hardly be a proper dragon if I just gave away my
+ treasure willy-nilly. You'd have to give me something pretty fancy to
+ replace it."
+
+>inventory
+
+ We are carrying:
+   an old alarm clock
+   some fresh butter
+   a pail (empty)
+   the rain bowl (empty)
+
+>go east
+
+ You walk a long way through the dark tunnel before emerging into
+ sunlight.
+
+ <span class="floydstyle subheader">Sinkhole</span>
+ We're on the floor of a deep sinkhole. Sunlight filters through trees
+ and shrubs above. A tunnel leads west, and there's a smaller opening
+ to the north.
+
+ Some chickens sit here comfortably in a coop.
+
+>examine chickens
+
+ Oh! One of them has laid an egg!
+
+>examine egg
+
+ A fresh brown egg.
+
+>take egg
+
+ Taken.
+
+>ask chickens about egg
+
+ You have a pleasant conversation about the egg which fundamentally
+ fails to be relevant.
+
+>exits
+
+ From here, we can go north and west.
+
+>look
+
+ <span class="floydstyle subheader">Sinkhole</span>
+ We're on the floor of a deep sinkhole. Sunlight filters through trees
+ and shrubs above. A tunnel leads west, and there's a smaller opening
+ to the north.
+
+ Some chickens sit here comfortably in a coop.
+
+>go north
+
+
+ <span class="floydstyle subheader">Refrigerated Cave</span>
+ This small cave is nice and cool, possibly because of all the ice
+ flowers lining the walls. The only way out is back to the south.
+
+ The shelf closest to the ice flowers has gathered a quantity of snow.
+
+ Some leftover oatmeal from the other day is here. It doesn't really
+ look any more appetizing than it did then.
+
+>examine flowers
+
+ They're pale blue flowers that radiate cold.
+
+>take flower
+
+ It's probably best to leave those here. I mean, having a secret
+ refrigerator is pretty cool!
+
+>examine snow
+
+ A wooden shelf for keeping frozen foods like ice cream on. Right now,
+ it just has some snow that's accumulated.
+
+>take snow
+
+ You grab some snow, but it melts in your hands. Maybe if you carried
+ it in something?
+
+>put snow in bowl
+
+ We fill the rain bowl with snow from the freezer shelf.
+
+>examine oatmeal
+
+ A bowl of leftover oatmeal. Or possibly wallpaper paste.
+
+>take oatmeal.
+
+ Taken.
+
+>look
+
+ <span class="floydstyle subheader">Refrigerated Cave</span>
+ This small cave is nice and cool, possibly because of all the ice
+ flowers lining the walls. The only way out is back to the south.
+
+ The shelf closest to the ice flowers has gathered a quantity of snow.
+
+>go south
+
+
+ <span class="floydstyle subheader">Sinkhole</span>
+ We're on the floor of a deep sinkhole. Sunlight filters through trees
+ and shrubs above. A tunnel leads west, and there's a smaller opening
+ to the north.
+
+ Some chickens sit here comfortably in a coop.
+
+ It's snowing lightly.
+
+>go west
+
+ You walk a long way through the dark tunnel before emerging into a
+ larger cave.
+
+ <span class="floydstyle subheader">Damp Cave</span>
+ A dark limestone cave. Stalactites periodically drip, making a cool
+ kerplunk noise. An opening leads north into the basement. A tunnel
+ leads east.
+
+ Puff the Magic Dragon lies here comfortably on a pile of books.
+
+>go north
+
+
+ <span class="floydstyle subheader">Basement</span>
+ It's a bit dingy and dimly lit. A narrow opening leads south.
+
+ Your dirty clothes are here, on top of the laundry pile.
+
+>go up
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ It's snowing lightly outside.
+
+>go north
+
+ We can't go that way.
+
+ From here, we can go south, east, and down.
+
+>go east
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+ It's snowing lightly outside.
+
+>go north
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's snowing lightly.
+
+>go east
+
+
+ <span class="floydstyle subheader">Fiery Field</span>
+ A dense field of fire flowers stretches to the east. The road is back
+ to the west.
+
+ It's snowing lightly.
+
+>go east
+
+ The snow is too light to have much effect on the fire flowers.
+
+>put snow in pail
+
+ We pour the snow from the rain bowl into the pail.
+
+>go west
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+>go north
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>put water in bowl
+
+ We fill the rain bowl with water from the river.
+
+ It's now drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's drizzling heavily.
+
+>go east
+
+
+ <span class="floydstyle subheader">Fiery Field</span>
+ A dense field of fire flowers stretches to the east. The road is back
+ to the west.
+
+ It's drizzling heavily.
+
+>go east
+
+ The rain damps down the fire flowers enough that you manage to make it
+ past them.
+
+ <span class="floydstyle subheader">At Well</span>
+ The field opens up into a grassier meadow. The flowers change to the
+ north. You can still barely see the road to the west.
+
+ An old stone well sits here.
+
+ It's drizzling heavily.
+
+>empty bowl
+
+ You pour out the water from the rain bowl.
+
+ It's no longer raining.
+
+>put snow in bowl
+
+ We pour the snow from the pail into the rain bowl.
+
+ It's now snowing lightly.
+
+>go north
+
+
+ <span class="floydstyle subheader">Poppy Field</span>
+ A calm field filled with scarlet poppies continues to the north. You
+ can see the well to the south.
+
+ It's snowing lightly.
+
+>go north
+
+ The snow gathers on the poppies, blocking the dangerous scent. You
+ manage make it past the flowers.
+
+ <span class="floydstyle subheader">Shady Grove</span>
+ A clump of trees grows here by the river. The poppy field is to the
+ south.
+
+ You notice a small ginger plant growing near a tree.
+
+ It's snowing lightly.
+
+>examine plant
+
+ Some wild ginger root.
+
+>take ginger
+
+ Taken.
+
+>exits
+
+ The only way to go is south.
+
+>examine river
+
+ A cool, clear river.
+
+>look
+
+ <span class="floydstyle subheader">Shady Grove</span>
+ A clump of trees grows here by the river. The poppy field is to the
+ south.
+
+ It's snowing lightly.
+
+>examine trees
+
+ Some maples and a willow, offshoots of the wood that grows on the
+ other side of the river.
+
+>climb trees
+
+ Little is to be achieved by that.
+
+>examine willow
+
+ You don't see any willow here.
+
+>examine maple
+
+ You don't see any maple here.
+
+>examine oaktastic
+
+ You don't see any oaktastic here.
+
+>examine gumpygrump
+
+ You don't see any gumpygrump here.
+
+>go south
+
+
+ <span class="floydstyle subheader">Poppy Field</span>
+ A calm field filled with scarlet poppies continues to the north. You
+ can see the well to the south.
+
+ It's snowing lightly.
+
+>go south
+
+
+ <span class="floydstyle subheader">At Well</span>
+ The field opens up into a grassier meadow. The flowers change to the
+ north. You can still barely see the road to the west.
+
+ An old stone well sits here.
+
+ It's snowing lightly.
+
+>put snow in pail
+
+ We pour the snow from the rain bowl into the pail.
+
+>put water in bowl
+
+ We fill the rain bowl with water from the stone well.
+
+ It's now drizzling heavily.
+
+>go west
+
+
+ <span class="floydstyle subheader">Fiery Field</span>
+ A dense field of fire flowers stretches to the east. The road is back
+ to the west.
+
+ It's drizzling heavily.
+
+>go west
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's drizzling heavily.
+
+>empty bowl
+
+ You pour out the water from the rain bowl.
+
+ It's no longer raining.
+
+>inventory
+
+ We are carrying:
+   some ginger
+   the leftover oatmeal
+   an egg
+   an old alarm clock
+   some fresh butter
+   a pail (full of snow)
+   the rain bowl (empty)
+
+>go south
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go west
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+>go down
+
+
+ <span class="floydstyle subheader">Basement</span>
+ It's a bit dingy and dimly lit. A narrow opening leads south.
+
+ Your dirty clothes are here, on top of the laundry pile.
+
+>go south
+
+
+ <span class="floydstyle subheader">Damp Cave</span>
+ A dark limestone cave. Stalactites periodically drip, making a cool
+ kerplunk noise. An opening leads north into the basement. A tunnel
+ leads east.
+
+ Puff the Magic Dragon lies here comfortably on a pile of books.
+
+>give bowl to puff
+
+ Puff the Magic Dragon doesn't seem interested.
+
+>give clock to puff
+
+ Puff the Magic Dragon doesn't seem interested.
+
+>ask puff about treasure
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask puff about books
+
+ (Puff the Magic Dragon about the pile of books)
+ You have a pleasant conversation about the pile of books which
+ fundamentally fails to be relevant.
+
+>ask puff about book
+
+ (Puff the Magic Dragon about the cookbook)
+ You have a pleasant conversation about the cookbook which
+ fundamentally fails to be relevant.
+
+>take book
+
+ "Now, now, I'd hardly be a proper dragon if I just gave away my
+ treasure willy-nilly. You'd have to give me something pretty fancy to
+ replace it."
+
+>exits
+
+ From here, we can go north and east.
+
+>ask puff about horn
+
+ (Puff the Magic Dragon about the dented brass horn)
+ You have a pleasant conversation about the dented brass horn which
+ fundamentally fails to be relevant.
+
+>ask puff about wax
+
+ (Puff the Magic Dragon about the sealing wax)
+ You have a pleasant conversation about the sealing wax which
+ fundamentally fails to be relevant.
+
+>ask puff about cookies
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>go north
+
+
+ <span class="floydstyle subheader">Basement</span>
+ It's a bit dingy and dimly lit. A narrow opening leads south.
+
+ Your dirty clothes are here, on top of the laundry pile.
+
+>go up
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+>go east
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go east
+
+
+ <span class="floydstyle subheader">Sitting Room</span>
+ A cosy room with a shiny marble fireplace.
+
+ Mother's sitting in her chair by the fire, reading a book.
+
+>ask mother about puff
+
+ Which do you mean, Puff the Magic Dragon or our friend?
+
+>friend
+
+ You have a pleasant conversation about our friend which fundamentally
+ fails to be relevant.
+
+>ask mother about Puff the Magic Dragon
+
+ You have a pleasant conversation about Puff the Magic Dragon which
+ fundamentally fails to be relevant.
+
+>examine book
+
+ It's called "Carrots I Have Known".
+
+>ask mother for book
+
+ (Mother first taking mother's book)
+ Now, now, there's no need to be bossy.
+
+>ask mother about cookbook
+
+ You have a pleasant conversation about the cookbook which
+ fundamentally fails to be relevant.
+
+>go west
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go up
+
+
+ <span class="floydstyle subheader">Upstairs Hallway</span>
+ It's just the landing at the top of the stairs. Your room is north. My
+ room is east. Our parents' room is west. And you can keep going up to
+ get to the attic.
+
+>go east
+
+ What d'ya want to go in there for? I'm all done cleaning <span class="floydstyle em">my</span>
+ room.
+
+>go north
+
+
+ <span class="floydstyle subheader">Your Room</span>
+ It's bigger than my room, but mine has a better view. I keep mine
+ neater, too.
+
+>go south
+
+
+ <span class="floydstyle subheader">Upstairs Hallway</span>
+ It's just the landing at the top of the stairs. Your room is north. My
+ room is east. Our parents' room is west. And you can keep going up to
+ get to the attic.
+
+>go west
+
+
+ <span class="floydstyle subheader">Large Bedroom</span>
+ Our parents' room. It has a big bed, some dressers, and a cool coiled
+ rug.
+
+ We can see the laundry chute here.
+
+>take rug
+
+ That's hardly portable.
+
+>look under bed
+
+ We find nothing of interest.
+
+>go east
+
+
+ <span class="floydstyle subheader">Upstairs Hallway</span>
+ It's just the landing at the top of the stairs. Your room is north. My
+ room is east. Our parents' room is west. And you can keep going up to
+ get to the attic.
+
+>go down
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+>go north
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+>ride cow
+
+ That's not a verb I recognize.
+
+>examine palace
+
+ We live in a palace made of crystal, of course.
+
+>go north
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>swim
+
+ That's not a verb I recognize.
+
+>go north
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+>go north
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+>take flower
+
+
+ You don't see the ice flowers here. It was at Refrigerated Cave.
+
+>examine petunia
+
+ You don't see any petunia here.
+
+>examine garden
+
+ Petunias and begonias.
+
+>go north
+
+
+ <span class="floydstyle subheader">Cosy Cottage</span>
+ A warm, sunny room with a plush carpet. The walls are lined with
+ bookshelves.
+
+ Grandmother sits in a rocking chair, knitting something.
+
+ In a corner sits Grandmother's butter churn.
+
+ "Hello again."
+
+>ask grandmother for book
+
+ (Grandmother first taking the bookshelves)
+ Now, now, there's no need to be bossy.
+
+>ask grandmother about book
+
+ (Grandmother about the bookshelves)
+ You have a pleasant conversation about the bookshelves which
+ fundamentally fails to be relevant.
+
+>search bookshelves
+
+ They contain all sorts of old books about history and such.
+
+>take book
+
+ C'mon, it's a beautiful day. We can read another time.
+
+>go south
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+>go south
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+>go south
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+>fill bowl with water
+
+ We fill the rain bowl with water from the river.
+
+ It's now drizzling heavily.
+
+>go north
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+ It's drizzling heavily.
+
+>go north
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+ It's drizzling heavily.
+
+>go north
+
+
+ <span class="floydstyle subheader">Cosy Cottage</span>
+ A warm, sunny room with a plush carpet. The walls are lined with
+ bookshelves.
+
+ Grandmother sits in a rocking chair, knitting something.
+
+ In a corner sits Grandmother's butter churn.
+
+ It's drizzling heavily outside.
+
+ "Hello again."
+
+>take book
+
+ C'mon, it's a beautiful day. We can read another time.
+
+>rock chair
+
+ That's not a verb I recognize.
+
+>go south
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+ It's drizzling heavily outside.
+
+>go east
+
+
+ <span class="floydstyle subheader">Sitting Room</span>
+ A cosy room with a shiny marble fireplace.
+
+ Mother's sitting in her chair by the fire, reading a book.
+
+ It's drizzling heavily outside.
+
+>tell mother about day
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask mother for carrot
+
+ Mother isn't here. She's right here.
+
+>examine carrot
+
+ You don't see the crystal vegetables here. It was at Vegetable Garden.
+
+>wind clock
+
+ The clock makes a loud ringing noise, then falls silent.
+ "Now, now, no need to make a racket."
+
+>go west
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+ It's drizzling heavily outside.
+
+>go west
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ It's drizzling heavily outside.
+
+>go south
+
+
+ <span class="floydstyle subheader">Vegetable Garden</span>
+ Mother has rows of crystal carrots, cabbages, and lettuce growing
+ here, with some thyme and rosemary growing up near the door leading
+ into the palace to the north. A white picket fence surrounds the
+ garden.
+
+ It's drizzling heavily.
+
+>take carrot
+
+ I don't think they're ready to harvest yet.
+
+>take thyme
+
+ Mother wouldn't want us to pick the herbs unless we had something to
+ use them for.
+
+>go north
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ It's drizzling heavily outside.
+
+>go east
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+ It's drizzling heavily outside.
+
+>go north
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's drizzling heavily.
+
+>go north
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's drizzling heavily.
+
+>wind clock
+
+ The clock makes a loud ringing noise, then falls silent.
+
+>go north
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+ It's drizzling heavily.
+
+>go north
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+ It's drizzling heavily.
+
+>go north
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+ It's drizzling heavily.
+
+>go north
+
+
+ <span class="floydstyle subheader">Cosy Cottage</span>
+ A warm, sunny room with a plush carpet. The walls are lined with
+ bookshelves.
+
+ Grandmother sits in a rocking chair, knitting something.
+
+ In a corner sits Grandmother's butter churn.
+
+ It's drizzling heavily outside.
+
+ "Hello again."
+
+>wind clock
+
+ The clock makes a loud ringing noise, then falls silent.
+ "Now, now, no need to make a racket."
+
+>go south
+
+
+ <span class="floydstyle subheader">Outside Cottage</span>
+ The road turns here, running west and south. Grandmother's house is to
+ the north, with a tidy little garden in front.
+
+ It's drizzling heavily.
+
+>go west
+
+
+ <span class="floydstyle subheader">Market Road</span>
+ A dusty road leads east to west. Some pleasant-seeming woods lie to
+ the south.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Open Woods</span>
+ The trees are rather open here, letting sunlight in. A mass of grape
+ vine blocks the way west and south, however. You can see the road to
+ the north or east.
+
+ A large log lies here, one end covered in moss.
+
+ It's drizzling heavily.
+
+>wind clock
+
+ The clock makes a loud ringing noise, then falls silent.
+
+>search vine
+
+ Densely-overgrown spiral vines.
+
+>take vine
+
+ That's hardly portable.
+
+>climb vine
+
+ Little is to be achieved by that.
+
+>go north
+
+
+ <span class="floydstyle subheader">Market Road</span>
+ A dusty road leads east to west. Some pleasant-seeming woods lie to
+ the south.
+
+ It's drizzling heavily.
+
+>go west
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Magic Shop</span>
+ A shop full of all sorts of wondrous things.
+
+ The shopkeeper shows off her wares.
+
+ It's drizzling heavily outside.
+
+ "Welcome, welcome."
+
+>ask shopkeeper about friend
+
+ "I do wonder how well it'll keep dry in that damp underground cave he
+ lives in, but I'm sure he'll make it work. He is a magic dragon, after
+ all."
+
+>ask shopkeeper about book
+
+ (the cookbook)
+ You have a pleasant conversation about the cookbook which
+ fundamentally fails to be relevant.
+
+>ask shopkeeper about treasure
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask shopkeeper about bread
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>go north
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+ It's drizzling heavily.
+
+>exits
+
+ From here, we can go south, east, and west.
+
+>go west
+
+
+ <span class="floydstyle subheader">Flea Market</span>
+ A crowded and busy section of the fair, with people buying and selling
+ all sorts of strange things.
+
+ A flea is here, selling an assortment of junk.
+
+ It's drizzling heavily.
+
+>examine junk
+
+ The busy market, a dented brass horn, and some sealing wax catch your
+ eye.
+
+>buy wax
+
+ "One silver, please."
+
+>wind clock
+
+ The clock makes a loud ringing noise, then falls silent.
+
+>ask flea about treasure
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask flea about book
+
+ (the cookbook)
+ We can't reach into Damp Cave.
+
+>ask flea about log
+
+ You have a pleasant conversation about the large log which
+ fundamentally fails to be relevant.
+
+>ask flea about moss
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>sell clock
+
+ That's not a verb I recognize.
+
+>give clock to flea
+
+ The flea doesn't seem interested.
+
+>ask flea about horn
+
+ "Two coppers, please."
+
+>blow horn
+
+ That's not a verb I recognize.
+
+>wash horn
+
+ That's fine the way it is.
+
+>sell clock
+
+ That's not a verb I recognize.
+
+>kill flea
+
+ Violence isn't the answer to this one.
+
+>look
+
+ <span class="floydstyle subheader">Flea Market</span>
+ A crowded and busy section of the fair, with people buying and selling
+ all sorts of strange things.
+
+ A flea is here, selling an assortment of junk.
+
+ It's drizzling heavily.
+
+>exits
+
+ The only way to go is east.
+
+>go east
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Magic Shop</span>
+ A shop full of all sorts of wondrous things.
+
+ The shopkeeper shows off her wares.
+
+ It's drizzling heavily outside.
+
+ "Welcome, welcome."
+
+>examine shopkeeper
+
+ A well-dressed woman with a complicated hat.
+
+>examine hat
+
+ You don't see any hat here.
+
+>examine shopkeeper's hat
+
+ You don't see any shopkeeper's hat here.
+
+>ask shopkeeper about hat
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>examine wares
+
+ All sorts of magical devices and supplies, most outside of our price
+ range or interest.
+
+>ask shopkeeper about magic
+
+ (Puff the Magic Dragon)
+ You have a pleasant conversation about Puff the Magic Dragon which
+ fundamentally fails to be relevant.
+
+>ask shopkeeper about flowers
+
+ Which do you mean, the ice flowers or the fire flowers?
+
+>ice
+
+ You have a pleasant conversation about the ice flowers which
+ fundamentally fails to be relevant.
+
+>ask shopkeeper about poppies
+
+ You have a pleasant conversation about the scarlet poppies which
+ fundamentally fails to be relevant.
+
+>go east
+
+ We can't go that way.
+
+ The only way to go is north.
+
+>go north
+
+
+ <span class="floydstyle subheader">County Fair</span>
+ A bustling fair filled with stalls and vendors of every kind. The flea
+ market is to the west. The magic shop is to the south.
+
+ It's drizzling heavily.
+
+>go east
+
+
+ <span class="floydstyle subheader">Market Road</span>
+ A dusty road leads east to west. Some pleasant-seeming woods lie to
+ the south.
+
+ It's drizzling heavily.
+
+>go north
+
+ We can't go that way.
+
+ From here, we can go south, east, and west.
+
+>go south
+
+
+ <span class="floydstyle subheader">Open Woods</span>
+ The trees are rather open here, letting sunlight in. A mass of grape
+ vine blocks the way west and south, however. You can see the road to
+ the north or east.
+
+ A large log lies here, one end covered in moss.
+
+ It's drizzling heavily.
+
+>exits
+
+ From here, we can go north and east.
+
+>examine log
+
+ An old tree that must've fallen a while ago.
+
+>lift log
+
+ It is fixed in place.
+
+>take log
+
+ That's a bit heavy to lug around.
+
+>move log
+
+ It is fixed in place.
+
+>pull log
+
+ It is fixed in place.
+
+>push log
+
+ It is fixed in place.
+
+>search log
+
+ An old tree that must've fallen a while ago.
+
+>look in log
+
+ An old tree that must've fallen a while ago.
+
+>look under log
+
+ We find nothing of interest.
+
+>eat insects from underneath the bark of the rotting log
+
+ You don't see any insects from underneath the bark of the rotting log
+ here.
+
+>wash log
+
+ That's fine the way it is.
+
+>eat log
+
+ That's plainly inedible.
+
+>get on log
+
+ That's not something we can enter.
+
+>climb log
+
+ Little is to be achieved by that.
+
+>examine tree
+
+ Tall trees with healthy green leaves.
+
+>examine leaves
+
+ You don't see any leaves here.
+
+>climb tree
+
+ Little is to be achieved by that.
+
+>burn log
+
+ This dangerous act would achieve little.
+
+>sing
+
+ That's not a verb I recognize.
+
+>pray
+
+ That's not a verb I recognize.
+
+>dig
+
+ That's not a verb I recognize.
+
+>chew log
+
+ That's not a verb I recognize.
+
+>smell log
+
+ We smell nothing unexpected.
+
+>listen
+
+ We hear nothing unexpected.
+
+>make cake
+
+ I'm not sure how to do that here.
+
+>make donuts
+
+ I'm not sure how to do that here.
+
+>make infinity
+
+ I'm not sure how to do that here.
+
+>go east
+
+
+ <span class="floydstyle subheader">Wooded Path</span>
+ The road is surrounded on both sides by the pleasant woods.
+ Greenbriars block the way east, but the woods are more open to the
+ west. The path continues through the woods to the north. The bridge is
+ to the south.
+
+ It's drizzling heavily.
+
+>go east
+
+ We can't go that way.
+
+ From here, we can go north, south, and west.
+
+>examine greenbriars
+
+ Twisted vines with sharp thorns.
+
+>search them
+
+ Twisted vines with sharp thorns.
+
+>go south
+
+
+ <span class="floydstyle subheader">On Bridge</span>
+ A river flows quietly under this wooden bridge. The road continues
+ north and south.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Quiet Road</span>
+ The Crystal Palace stands to the south, sparkling in the sunlight. The
+ road runs north between a field of fire flowers to the east and a
+ pasture to the west.
+
+ A large cow is trying to graze by the side of the road.
+
+ It's drizzling heavily.
+
+>go south
+
+
+ <span class="floydstyle subheader">Front Hallway</span>
+ Some carpeted stairs lead up. The sitting room is to the east, and the
+ kitchen's to the west. The front door leads out to the north.
+
+ It's drizzling heavily outside.
+
+>go west
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ It's drizzling heavily outside.
+
+>make cake
+
+ I'm not sure how to do that here.
+
+>turn on oven
+
+ It isn't something we can switch.
+
+>use oven
+
+ You'll have to try a more specific verb than use.
+
+>examine table
+
+ The table we eat our meals at.
+
+>look under table
+
+ We find nothing of interest.
+
+>open oven
+
+ Right now, it's empty.
+
+>enter oven
+
+ That's not something we can enter.
+
+>look
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ It's drizzling heavily outside.
+
+>open cupboard
+
+ You don't see any cupboard here.
+
+>go south
+
+
+ <span class="floydstyle subheader">Vegetable Garden</span>
+ Mother has rows of crystal carrots, cabbages, and lettuce growing
+ here, with some thyme and rosemary growing up near the door leading
+ into the palace to the north. A white picket fence surrounds the
+ garden.
+
+ It's drizzling heavily.
+
+>take all
+
+ You don't see anything obvious to take.
+
+>pick vegetables
+
+ I don't think they're ready to harvest yet.
+
+>pick crystal
+
+ Which do you mean, the crystal palace or the crystal vegetables?
+
+>pick crystal vegetables
+
+ I don't think they're ready to harvest yet.
+
+>pick palace
+
+ That's hardly portable.
+
+>go north
+
+
+ <span class="floydstyle subheader">Kitchen</span>
+ A well-stocked kitchen, with a table at one end and the oven at the
+ other. A doorway leads east, and the garden's out to the south. Stairs
+ also lead down into the basement.
+
+ It's drizzling heavily outside.
+
+>go down
+
+
+ <span class="floydstyle subheader">Basement</span>
+ It's a bit dingy and dimly lit. A narrow opening leads south.
+
+ Your dirty clothes are here, on top of the laundry pile.
+
+>take all
+
+ dirty clothes: Mother'll deal with washing those, silly. They're fine
+ where they are.
+
+>exits
+
+ From here, we can go south and up.
+
+>go south
+
+
+ <span class="floydstyle subheader">Damp Cave</span>
+ A dark limestone cave. Stalactites periodically drip, making a cool
+ kerplunk noise. An opening leads north into the basement. A tunnel
+ leads east.
+
+ Puff the Magic Dragon lies here comfortably on a pile of books.
+
+>take all
+
+ You don't see anything obvious to take.
+
+>examine books
+
+ A huge pile of books of all kinds. A cookbook catches your eye.
+
+>examine stalactites
+
+ They hang tightly to the ceiling.
+
+>ask puff about cave
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask puff for cookbook
+
+ "Now, now, I'd hardly be a proper dragon if I just gave away my
+ treasure willy-nilly. You'd have to give me something pretty fancy to
+ replace it."
+
+>ask puff about fancy
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask puff about books
+
+ (Puff the Magic Dragon about the pile of books)
+ You have a pleasant conversation about the pile of books which
+ fundamentally fails to be relevant.
+
+>ask puff about mother
+
+ (Puff the Magic Dragon about Mother)
+ You have a pleasant conversation about Mother which fundamentally
+ fails to be relevant.
+
+>ask puff about us
+
+ (Puff the Magic Dragon about us)
+ You have a pleasant conversation about us which fundamentally fails to
+ be relevant.
+
+>ask Puff about Xavid.
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask puff about stalagtites
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask puff about dragons
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask puff about laundry
+
+ (Puff the Magic Dragon about the laundry chute)
+ You have a pleasant conversation about the laundry chute which
+ fundamentally fails to be relevant.
+
+>ask puff about history
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask puff about his bed
+
+ You have a pleasant conversation which fundamentally fails to be
+ relevant.
+
+>ask puff about shopkeeper
+
+ (Puff the Magic Dragon about the shopkeeper)
+ You have a pleasant conversation about the shopkeeper which
+ fundamentally fails to be relevant.
+
+>save
+ %% Enter a save filename to write:
+>cfbandb
+
+>look
+
+ <span class="floydstyle subheader">Damp Cave</span>
+ A dark limestone cave. Stalactites periodically drip, making a cool
+ kerplunk noise. An opening leads north into the basement. A tunnel
+ leads east.
+
+ Puff the Magic Dragon lies here comfortably on a pile of books.
+
+>quit
+
+ Are you sure you want to quit?
+>yes
+ Are you sure you want to quit?
+ cheapglulxe quit with exit status: 0

@@ -1,0 +1,1314 @@
+>WUB WUB WUB
+>load ground
+ GlkTADS - A text-only TADS 2.5.3 Interpreter.
+ TADS copyright (c) 1993, 2000 by Michael J. Roberts.
+
+
+
+
+
+
+
+
+ Common Ground
+ Copyright ? 1999 by Stephen Granade.  All rights reserved.
+
+ Type "about" for more information.
+ Version 2 (Jan 17 2000)
+ Developed with TADS, the Text Adventure Development System.
+
+ One
+
+ Great, just great.  First you oversleep, end up being late for school.
+ Then the whole day sucks so bad you can barely wait until seventh
+ period's over and you're free.  Now you've wasted so much time watching
+ TV that you've gotta rush through your makeup or you won't be ready for
+ tonight before April gets here with her wheels.  Mississippi may say
+ you're old enough to drive, but Frank sure doesn't agree.
+
+ Man, you can't wait for all this to be over.
+
+ Your Bedroom
+    You've spent a lot of time in this room, enough that it's really
+ beginning to get on your nerves.  You're tired of the stupid posters,
+ you're tired of your stupid bed, you're tired of everything.  You just
+ wish it weren't such a hassle to try to change any of it.  Besides, if
+ you were going to change anything, you'd start with the clothes in your
+ closet.  To the west, across from your window, is a closed door going
+ out.
+    You see a flowerdy bag here.  Sitting on the vanity is a geode,
+ mascara, eye shadow, pink blush, and foundation.
+
+>about
+ Common Ground is copyright ? 1999 by Stephen Granade.  It may be freely
+ copied, distributed and played as long as it is not modified in any
+ way.  You may not distribute copies of the game for a fee exceeding the
+ cost of distribution.
+
+ Common Ground has some special commands which you can find out about by
+ typing COMMANDS.  HELP will give you help with playing the game; the
+ CREDITS command will list all applicable credits for Common Ground.
+
+ Note that the only way to talk to someone is to use the command TALK TO
+ [person].  The reason for this will, I suspect, quickly become obvious.
+
+ If you want to make sure you have the latest version of the game, visit
+ the Common Ground homepage at
+ <A HREF="http://www.phy.duke.edu/~sgranade/ground.html">http://www.phy.duke.edu/~sgranade/ground.html</A> or the GMD archive at
+ either ftp://ftp.gmd.de/if-archive/games/tads or
+ <A HREF="http://ifarchive.org/indexes/if-archiveXgamesXtads.html.">http://ifarchive.org/indexes/if-archiveXgamesXtads.html.</A>  If you want
+ to give me your opinion of the game, or if you find a bug, please
+ e-mail me at sgranade@phy.duke.edu.
+
+>examine flowerdy
+ You sometimes wonder if you should replace it, but you really like the
+ flowers printed on it.  Most everything you need's in it.
+
+>examine flowerdye
+ I don't know the word "flowerdye".
+
+>credits
+
+ Common Ground
+ Copyright ? 1999 by Stephen Granade.  All rights reserved.
+
+ Type "about" for more information.
+ Version 2 (Jan 17 2000)
+ Developed with TADS, the Text Adventure Development System.
+
+
+
+ Credits
+
+ This game would not be half of what it is without the help and guidance
+ of my crack team of beta-testers:  Mike Kinyon, Dan Shiovitz, Lucian
+ Smith, and Adam Thornton.  They kindly agreed to test the game, even
+ though Thanksgiving, Hanukkah, and Christmas were looming.  It's thanks
+ to them that I was able to finish Common Ground by the end of 1999.
+
+ A tip o' the hat to those who made suggestions and reported bugs:
+ David Glasser, Neil deMause, Sam Barlow, Magnus Olsson, Gunther
+ Schmidl, Brendan Milburn, Vincent Lynch, Torbj?rn Andersson, Mark
+ Musante, Eric Mayer, Tim Woerner, and Peter Berman.
+
+ Special thanks go to Misty Granade, who, as always, put up with me
+ while I struggled with writing this game; and to everyone who took part
+ in the ifMUD Implementors' Lunch and gave me invaluable advice.  I bet
+ you didn't expect that this game would be the result.
+
+>examine me
+ You've gone with your jean cut-offs and a plaid shirt tonight.  Nothing
+ fancy, but then it doesn't really need to be.
+
+>take all
+ I don't see what you're referring to.
+
+>take foundation
+ Taken.
+
+>take bag
+ Taken.
+
+>take shadow
+ Taken.
+
+>take blush
+ Taken.
+
+>wear foundation
+ You've already put on foundation.
+
+>inventory
+ You've got foundation, a flowerdy bag, eye shadow, and pink blush.
+
+>wear shadow
+ A couple of careful passes with the eye shadow brush and your eyelids
+ turn a pretty lavender.
+
+>wear blush
+ You pop open the blush container and take the brush.  Staring in the
+ mirror, you rub the pink blush along your cheekbones with quick
+ strokes.  Satisfied, you put the brush back and close the container.
+
+>open bag
+ I don't know how to open the flowerdy bag.
+
+>examine posters
+ You liked all of the posters when you put them up, especially that one
+ of M&ouml;tley Cr&uuml;e.  But they've been up there long enough that you're
+ bored of them.  Even the Cr&uuml;e is last year's band now.
+
+>look under bed
+ You can't reach that from the cane-bottomed chair.
+
+>stand
+ Forget this.  You stand up and grab your makeup.  A little bit of
+ mascara, then you dump all the makeup into your bag.
+
+>look under bed
+ You used to keep magazines under there until you got tired of your mom
+ yapping at you about them and threw them away.
+
+>open closet
+ It's always open, seeing as how its door's been missing since before it
+ was your room.
+
+>look in closet
+ Your closet's full of old clothes.
+
+>examine clothes
+ You guess they aren't that bad.  You'd still like some new ones.
+
+>out
+ (Opening the bedroom door)
+ Hall
+    The hall goes north to your bathroom and south to the stairs.  Mom
+ and Frank's bedroom is to the west, directly across from your room.
+
+>go north
+ You open the door and go through, closing it behind you.
+
+ Your Bathroom
+    Your bathroom's not only small, it's not even right by your bedroom.
+ Some day maybe you'll streak between here and your room, give Frank a
+ real show.  A bunch of your bottles are scattered round the sink.  The
+ hallway is back to the south.
+
+>examine bottles
+ Moisturizer, shampoo, shit like that.
+
+>go south
+ You open the door and go through, closing it behind you.
+
+ Hall
+    The hall goes north to your bathroom and south to the stairs.  Mom
+ and Frank's bedroom is to the west, directly across from your room.
+
+>go west
+ Mom and Frank's Room
+    Mom and Frank's room is okay, you guess.  That waterbed of theirs is
+ pretty sweet, even with that stupid little nightstand next to it.
+ Their bathroom is north, and an open door to the east goes back into
+ the hall.
+
+>examine nightstand
+ It's not much to look at.  There's a closed drawer in it.
+
+>open drawer
+ You slide open the drawer--surely Frank won't notice--to find a roll of
+ bills.
+
+>examine bills
+ Frank's little stash of money.  There's probably over a hundred bucks,
+ easy.
+
+>take bills
+ You glance over your shoulder, then pull a bunch of bills from the
+ roll.  You stop after about eighty.  If you're lucky, Frank won't find
+ them gone for a while.  You put the roll back in the drawer and hide
+ the bills you took.
+
+>undo
+ (Undoing one command)
+
+ Mom and Frank's Room
+    Mom and Frank's room is okay, you guess.  That waterbed of theirs is
+ pretty sweet, even with that stupid little nightstand next to it.
+ Their bathroom is north, and an open door to the east goes back into
+ the hall.
+    The nightstand drawer seems to contain a roll of bills.
+
+>go north
+ Mom and Frank's Bathroom
+    You don't know why Frank has this big thing about you not using his
+ and mom's bathroom.  It's not like it's any big secret deal.  You can
+ leave it to the south.
+
+>go south
+ Mom and Frank's Room
+    Mom and Frank's room is okay, you guess.  That waterbed of theirs is
+ pretty sweet, even with that stupid little nightstand next to it.
+ Their bathroom is north, and an open door to the east goes back into
+ the hall.
+    The nightstand drawer seems to contain a roll of bills.
+
+>close drawer
+ Closed.
+
+>go east
+ Hall
+    The hall goes north to your bathroom and south to the stairs.  Mom
+ and Frank's bedroom is to the west, directly across from your room.
+
+>go south
+ You head down the stairs.
+
+ Living Room
+    When you're not in your room you usually hang here, watching TV from
+ the couch.  Frank sometimes works at a little desk he's got in here,
+ but he's normally pretty cool with you watching TV while he works.
+ There are stairs to the south.  You can get to the kitchen to the
+ northeast and the front door and hallway are northwest.
+    Frank is sitting in the chair, hunched over his desk.
+
+ As you come down the stairs, Frank looks up at you.  "Goin' out tonight
+ too, huh?"  Is his speech slurred again?
+
+>examine frank
+ Frank's dressed in that ratty old Bud t-shirt of his and a greasy pair
+ of jeans.  He's working hard on some appliance, frowning at it from
+ time to time.
+
+>kiss Frank
+ Ew.
+
+>shoot heroin
+ I don't know the word "shoot".
+
+>examine appliance
+ He's been "working" on some of that junk for years.
+
+>ask frank about work
+ If you want to talk to someone, use TALK TO.
+
+>talk to Frank
+ You wander over to Frank's desk and look at the jumble on it.
+ "What'cha working on?"
+
+ "Toaster," he says, staring at the inside of a chrome-plated box.
+
+>again
+ "Toaster, huh?  What's wrong with it?"
+
+ "Thought it was the heater element shorting, but that wasn't it."  He
+ goes on a while about the toaster, almost makes you wish you hadn't
+ asked.  Finally he gets to the point.  "Anyway, the power cord's shot,
+ so now I'm replacing it."
+
+>again
+ You take a couple of steps away from Frank.  "Gotta have toast, huh?"
+ But he's not even listening.
+
+>again
+ "Hey, Frank, where'd mom go?"
+
+ "Groceries."  He leans his head from side to side, trying to loosen
+ tense muscles.  "Piggly Wiggly.  Hope you told her what you wanted this
+ week."
+
+>again
+ "Nah," you say, shaking your head.  "Doesn't matter."
+
+ "Well, okay," he says.
+
+>again
+ "By the way, could you spot me a couple of bucks for tonight?"  you ask
+ as casually as you can.
+
+ He sighs and runs a hand through what's left of his hair.  "You know
+ money's tight this month."
+
+>again
+ "I know.  But it's not like I'm asking for much.  I mean, there's not a
+ lot of places to spend money around here 'cept the Sonic.  All's I need
+ is like a ten or something."
+
+ "Look, I told you already.  Money's tight, and I don't have any to give
+ you.  Now quit yapping about it."  Frank pointedly turns back to the
+ toaster.
+
+>make toast
+ I don't know the word "toast".
+
+>attack Frank
+ He'd hit back.
+
+>look
+ Living Room
+    When you're not in your room you usually hang here, watching TV from
+ the couch.  Frank sometimes works at a little desk he's got in here,
+ but he's normally pretty cool with you watching TV while he works.
+ There are stairs to the south.  You can get to the kitchen to the
+ northeast and the front door and hallway are northwest.
+    Frank is sitting in the chair, hunched over his desk.
+
+>examine me
+ You've gone with your jean cut-offs and a plaid shirt tonight.  Nothing
+ fancy, but then it doesn't really need to be.
+
+>remove shirt
+>go northeast
+ You've already got the plaid shirt.
+
+ Kitchen
+    Mom's been bugging you about learning how to cook, so you've been
+ avoiding the kitchen as much as possible when she's around.  There're
+ counters and cabinets along the walls and a table on one side of the
+ kitchen.  The hallway's to the west and the living room is southwest.
+
+>examine cabinets
+ The kitchen cabinets are closed.
+
+>open cabinets
+ You rummage through the cabinets, but you're not all that hungry right
+ now.
+
+>inventory
+ You've got a flowerdy bag.  The flowerdy bag seems to contain
+ foundation, pink blush, eye shadow, and mascara.
+
+>go west
+ Hall
+    The hallway goes between the kitchen to the east and the front door
+ to the west.  There's a bathroom to the north.  You can slip around the
+ wall of the hallway and into the living room to the southwest.
+
+>go west
+ You'll have to open the front door first.
+
+>open front door
+ You open the front door a little and peek outside, but April's not here
+ yet.
+
+>go north
+ You open the door and go through, closing it behind you.
+
+ Bathroom
+    An extra bathroom, with a john and sink.
+
+>examine sink
+ The sink's pretty clean since mom had you clean this bathroom last
+ weekend.
+
+>go south
+ You open the door and go through, closing it behind you.
+
+ Hall
+    The hallway goes between the kitchen to the east and the front door
+ to the west.  There's a bathroom to the north.  You can slip around the
+ wall of the hallway and into the living room to the southwest.
+
+>go west
+ You'll have to open the front door first.
+
+>open door
+ You open the front door a little and peek outside, but April's not here
+ yet.
+
+>go west
+ You'll have to open the front door first.
+
+>go southwest
+ Living Room
+    When you're not in your room you usually hang here, watching TV from
+ the couch.  Frank sometimes works at a little desk he's got in here,
+ but he's normally pretty cool with you watching TV while he works.
+ There are stairs to the south.  You can get to the kitchen to the
+ northeast and the front door and hallway are northwest.
+    Frank is sitting in the chair, hunched over his desk.
+
+>watch tv
+ Yeah, the TV's real exciting when it's off.
+
+>turn on tv
+ You click on the TV.  It hums into life, showing a green-tinged Bon
+ Jovi video.
+
+>turn off tv
+ The TV shuts off, its hum fading away.
+
+>start revolution
+ I don't know the word "start".
+
+>talk to frank
+ Frank's absorbed in his work again.  You talking to him more's only
+ likely to make him mad.
+
+>save
+ Enter saved game to store:
+>goodgirl
+ Saved.
+
+>go south
+ You head up the stairs.
+
+ Hall
+    The hall goes north to your bathroom and south to the stairs.  Mom
+ and Frank's bedroom is to the west, directly across from your room.
+
+>go west
+ Mom and Frank's Room
+    Mom and Frank's room is okay, you guess.  That waterbed of theirs is
+ pretty sweet, even with that stupid little nightstand next to it.
+ Their bathroom is north, and an open door to the east goes back into
+ the hall.
+
+ Your billfold!  You'll definitely need your money tonight.  It better
+ still be in the kitchen where you left it after school.
+
+>go east
+ Hall
+    The hall goes north to your bathroom and south to the stairs.  Mom
+ and Frank's bedroom is to the west, directly across from your room.
+
+>go south
+ You head down the stairs.
+
+ Living Room
+    When you're not in your room you usually hang here, watching TV from
+ the couch.  Frank sometimes works at a little desk he's got in here,
+ but he's normally pretty cool with you watching TV while he works.
+ There are stairs to the south.  You can get to the kitchen to the
+ northeast and the front door and hallway are northwest.
+    Frank is sitting in the chair, hunched over his desk.
+
+>go northeast
+ Kitchen
+    Mom's been bugging you about learning how to cook, so you've been
+ avoiding the kitchen as much as possible when she's around.  There're
+ counters and cabinets along the walls and a table on one side of the
+ kitchen.  The hallway's to the west and the living room is southwest.
+
+>examine table
+ You kinda remember leaving your billfold on the table, but you sure
+ don't see it there now.
+
+>examine counter
+ You glance at the counters, but there's no sign of your billfold on
+ them.
+
+>look under table
+ You glance under the table, then get down on your hands and knees.
+ There that stupid thing is!  You grab the billfold and stand up.
+
+ Mom comes bustling in the kitchen with a bunch of groceries, which she
+ plops down on the table.  "Hey, Jeanie," she says.
+
+>examine billfold
+ All the money you've made the last month at Hardee's is jammed in
+ there.
+
+ "Could you help me put the groceries up?"  mom asks you.
+
+>examine mom
+ Mom's wearing her plaid summer dress and has her brown hair up in a
+ bun.  She's putting groceries away right now.
+
+>help mom
+ You grab some of the groceries and put them up.
+
+>again
+ You grab some of the groceries and put them up.
+
+>examine groceries
+ Sacks full of food that mom wants you to help put up.
+
+>again
+ Sacks full of food that mom wants you to help put up.
+
+>help mom
+ You grab some of the groceries and put them up.
+
+>talk to mom
+ "What'd you get at the store?"  you ask mom.
+
+ "Right, uh-huh.  The usual.  Oh," she says, pulling a box out of a sack
+ and showing it to you.  "I got Wheat Thins for you."  She puts the box
+ away.
+
+>again
+>again
+ "Don't forget I won't be here for supper," you tell mom.
+
+ "Right, uh-huh, right," mom says.  She sighs.  "I wish you'd eat supper
+ here a little more often."
+
+ Mom says, "Jeanie dear, I'm making roast tonight.  If you're still
+ hungry when you get home, there should be some left in the fridge."
+
+ "Um, thanks."
+
+ "Right, right, you're welcome."
+
+>open billfold
+ You pop it open and take a quick look.  All your Hardee's money from
+ the last month is in there.
+
+>count money
+ You don't need to.
+
+>help mom
+ You grab some of the groceries and put them up.
+
+>go west
+ Hall
+    The hallway goes between the kitchen to the east and the front door
+ to the west.  There's a bathroom to the north.  You can slip around the
+ wall of the hallway and into the living room to the southwest.
+
+ You hear a car horn being honked outside in front of the house.  Must
+ be April.
+
+>open door
+ You yank open the door.  Sure enough, there's April in her old Mustang.
+ You slam the door shut on your way out, heading for her car.
+
+
+
+
+
+
+
+
+ Two
+ That toaster's been giving you fits the last few nights.  "Could you
+ fix it?"  Deb asks, like it's the easiest thing in the world.  Least
+ now you're pretty sure it's the power cord and not anything more
+ serious.  It oughta be a quick enough fix.
+
+ Quick enough once you get a drink, that is.
+
+ Kitchen
+    You'd think you never ate, as hungry as you get every time you go in
+ the kitchen.  But you promised Deb no snacks, so the cabinets are
+ off-limits for you.  Good thing drinks from the fridge are okay.  The
+ den is southwest.
+
+>open fridge
+ Inside the fridge, nestled among the food, are several cans of Coke and
+ Bud.
+
+>get coke
+ You suddenly realize that you've been standing and staring into the
+ open fridge for a while.  You shake your head slightly and pull a Coke
+ from the fridge.  You'd prefer a Bud, really, but Deb's been on you
+ about that.
+
+>go southwest
+ On your way out you lightly kick the door of the fridge, closing it.
+
+ Den
+    You've got the desk where you work pushed up against one wall, over
+ by an old stereo you keep meaning to fix.  The only thing you can see
+ from the desk is the kitchen to the northeast, but at least your back's
+ to the TV.  A worn banister and stairs to the south go up to the second
+ floor.
+    Sitting on your desk is a broken toaster, a junk box, a
+ Phillips-head screwdriver, and a multimeter.
+
+ You hear Jeanie clomping around upstairs.  Probably getting ready to go
+ out again tonight.
+
+>fix toaster
+ You're going to have to be more specific.
+
+>examine cord
+ The power cord's gotten pretty frayed from the toaster being plugged
+ and unplugged so much.  It's held in the toaster by screws.
+
+>hit toaster with screwdriver
+ Before starting work on the toaster you lower yourself into your chair.
+
+ Attacking the broken toaster doesn't appear productive.
+
+>xyzzy
+ I don't know the word "xyzzy".
+
+>dance
+ You weren't any good at dancing when you were young.  What makes you
+ think you could do it now?
+
+ Jeanie comes clumping down the stairs.  She's all dressed up, with her
+ plaid shirt tied so that you can see her midriff.  "You going out again
+ tonight?"  you ask her.  She doesn't answer.
+
+>dance with jeanie
+ I don't recognize that sentence.
+
+>Dream of Jeanie
+ I don't know the word "dream".
+
+>examine midriff
+ I don't know the word "midriff".
+
+>talk to jeanie
+ You decide to take a break from messing with the toaster.  "So," you
+ ask Jeanie, "how was school?"
+
+ It's a stupid question, and you realize just how stupid it is right
+ after you say it.  Jeanie sighs.  "How do you think it was?"
+
+>again
+ "I hated school, too.  Couldn't wait to graduate."
+
+ "Yeah?  Why'd you even bother?  Not like you need a diploma to do
+ factory work."
+
+ Should of known better than to even try to talk to her.
+
+>again
+ "Where you going tonight?"  you ask Jeanie as you lean back in the
+ chair and stretch.
+
+ "Just out."
+
+>again
+ You roll your shoulders some to work the kinks out of them.  "Just out?
+ Seems like you oughta stay in and rest up before school tomorrow."
+
+ "Look," she snaps, "Mom okayed it.  I'm just going to ride around a
+ while."
+
+ "Whoa, whoa, okay."  You decide to drop the whole thing.  No skin off
+ your nose if she wants to be tired tomorrow.
+
+>again
+ As snappy as she's been tonight, you'd just as soon not hear her talk
+ right now.
+
+ "What'cha working on?"  You look up to find Jeanie looking at the
+ toaster like she's never seen one before.
+
+>again
+ "It's a toaster," you tell Jeanie, since she can't figure it out by
+ herself.
+
+ "Oh.  What's wrong with it?"
+
+>again
+ You briefly toy with the idea of saying, "It's broken," but she seems
+ almost interested.  "Well, I think the heating element might be
+ shorting."
+
+ "Oh," she says, and wanders away.  Guess she wasn't that interested.
+
+>again
+ As snappy as she's been tonight, you'd just as soon not hear her talk
+ right now.
+
+ "Where's mom, Frank?"  Jeanie asks you.
+
+>again
+ "She's gone to the Pig," you tell her.  "Why, was there something you
+ wanted her to get?"
+
+ She shakes her head.  "Nah."  You shrug and turn back to the toaster.
+
+>again
+ As snappy as she's been tonight, you'd just as soon not hear her talk
+ right now.
+
+ Jeanie clears her throat.  You brace yourself for whatever she wants.
+ "Um, can I borrow some cash for tonight?  'Cause I'm kinda short."
+
+>again
+ "You know money's tight right now," you tell Jeanie.  Besides, when
+ does she not want money?
+
+ "Money's always tight."  Her voice gives you a headache every time she
+ starts whining like this.  "I only need a twenty."
+
+>again
+ Does Jeanie even listen to you?  "I told you.  Money's tight.  Fixing
+ the station wagon took all our extra money this month."  Thankfully,
+ she doesn't say anything back.
+
+>again
+ As snappy as she's been tonight, you'd just as soon not hear her talk
+ right now.
+
+>fix toaster
+ You're going to have to be more specific.
+
+>remove cord
+ You take the cord off of the old stereo.
+
+>eat cord
+ Which cord do you mean, the stereo power cord, or the frayed power
+ cord?
+
+>stereo
+ The stereo power cord doesn't look appetizing.
+
+>attach stereo cord to toaster
+ The toaster's already got a power cord.
+
+>hang self from cord
+ I don't know the word "hang".
+
+>remove frayed cord
+ It's got to be unscrewed first.
+
+>unscrew frayed cord
+ As careful as you can you loosen the screws holding the cord and take
+ it out of the toaster.
+
+>remove frayed cord
+>tie knot in cord
+ You've already got the frayed power cord.
+
+ I don't know the word "tie".
+
+>attach stereo cord to toaster
+ You put the cord from the stereo in the toaster where the old one used
+ to be.
+
+>go south
+ You're not leaving until you get out of the wooden chair.
+
+>stand
+ You start to stand up, but glance at the toaster.  You've got to be
+ close to fixing it.  It shouldn't take you too much longer.
+
+>Plug in toaster
+ Not while you're fixing it.
+
+ You put the old power cord back in the toaster and screw it in tight.
+
+>screw power cord
+ Which power cord do you mean, the stereo power cord, or the frayed
+ power cord?
+
+>get up
+ With a start you realize that you've been staring at the wall for the
+ past few minutes.  Better do at least a little more work on the toaster
+ before you give up.
+
+ The sound of the front door slamming startles you.  Jeanie's left
+ already?  Wonder where she's going.
+
+
+
+
+
+
+
+
+ Three
+ The nice thing about going grocery shopping this late is that the store
+ isn't too crowded and you can check out quickly.  It would have been
+ better if Julie Morgan hadn't been there, making those snide comments
+ of hers, but all in all it wasn't too bad.  Now maybe Frank or Jeanie
+ can help you put the groceries away.
+
+ Carport
+    The carport's in bad need of a cleaning, what with all of the
+ supplies for fixing the cars lining the sides and spilling out almost
+ into the middle.  It's getting so you can't hardly find space for the
+ station wagon, though you managed to squeeze it in somehow.  And you're
+ beginning to think that you might as well get rid of the bikes.  The
+ side door to the house is to the west.
+    The station wagon's door is wide open.
+
+>drive to the beach
+ I don't know the word "drive".
+
+>inventory
+ You've got sacks of groceries and your key ring.
+
+>examine me
+ Your slacks have seen better days, but you were only going to the
+ Piggly Wiggly.  Your arms are filled with sacks from the store.
+
+>enter station wagon
+ Seeing as how you just got back from the store, you don't really need
+ to go anywhere right now.
+
+>examine dress
+ I don't know the word "dress".
+
+>examine hair
+ I don't see any hair here.
+
+>in
+ You'll have to open the side door first.
+
+>open side door
+ Better close the car door before you go in.
+
+>close car door
+ You bump the door closed with your hip, but it doesn't quite make it.
+ It stops short, leaving the dome light on.
+
+>drop bags
+ You don't want to set them down until you're in the kitchen, since
+ you're not sure you could pick them up again.
+
+>open door
+ Better close the car door before you go in.
+
+>examine car door
+ The door's wide open.
+
+>eat hat
+ I don't know the word "hat".
+
+>Close car door. g.
+ You hit the door pretty hard with your hip.  It closes.
+
+ The station wagon's already closed.
+
+>examine hip
+ I don't know the word "hip".
+
+>open side door
+ It's locked.  Frank must've locked it when he got home.
+
+>shake it baby
+ I don't know the word "shake".
+
+>enter house
+ You'll have to open the side door first.
+
+>examine bags
+ You must be holding some five or six sacks.  But it was either that or
+ make several trips from the car, and as tired as you are, you'd just as
+ soon get this chore done quickly.
+
+>open side door
+ It's locked.
+
+>unlock side door
+ (with your key ring)
+ You pull your key ring out, but drop it before you can unlock the door.
+ "Shit!" you exclaim, then look around.  Looks like no one heard you.
+
+ It's just not your night.
+
+>open car door
+ You adjust the groceries and manage to pull open the car door.
+
+>close car door
+ You hit the door pretty hard with your hip.  It closes.
+
+>knock on door
+ Which door do you mean, the side door, or the car door?
+
+>side
+ Frank must be busy, because he doesn't come to the door.
+
+>get keys
+ It's tough bending down and getting your keys without spilling
+ groceries out of the sacks, but you manage it.
+
+>scream
+ Ladies don't yell.
+
+>unlock door
+ (with your key ring)
+ You fumble with your keys and finally manage to get the door unlocked.
+
+>open door
+ You almost drop a sack doing it, but you eventually manage to get the
+ side door open.  You go through it and close it behind you.
+
+ Living Room
+    The living room is starting to look a little dusty, the TV
+ especially.  There are two paths worn in the green shag carpet, one
+ going from the stairs to the front door, the other from the stairs to
+ the kitchen, right by Frank's desk and the row of family pictures.  The
+ door to the carport is east.
+    Frank's boots are sitting in the middle of the floor again.
+    Frank is sitting in the chair, hunched over his desk.
+
+>kill frank
+ Don't be silly.
+
+ Frank is studying that broken toaster intently.
+
+>examine boots
+ Frank's left his boots in the middle of the floor again.
+
+>kiss frank
+ You don't want to distract him.  Besides, you're not really in the mood
+ tonight.
+
+>examine frank
+ Frank is studying that broken toaster intently.
+
+>drop bags
+ You don't want to set them down until you're in the kitchen, since
+ you're not sure you could pick them up again.
+
+>go east
+ You just came from there, and with all those groceries.  No sense in
+ going back out again.
+
+>look
+ Living Room
+    The living room is starting to look a little dusty, the TV
+ especially.  There are two paths worn in the green shag carpet, one
+ going from the stairs to the front door, the other from the stairs to
+ the kitchen, right by Frank's desk and the row of family pictures.  The
+ door to the carport is east.
+    Frank's boots are sitting in the middle of the floor again.
+    Frank is sitting in the chair, hunched over his desk.
+
+>go northeast
+ Kitchen
+    After several rounds of remodelling you finally got the kitchen laid
+ out fairly well, with the range near the cabinets and with plenty of
+ counter space. If only the table weren't between the range and
+ refrigerator.  The living room is to the southwest.
+    Standing in the middle of the kitchen is Jeanie.
+
+ "Hey, mom," Jeanie says as you walk in.
+
+>dance
+ Goodness, it's been ages since you danced!  Wonder if Frank would take
+ you next weekend.
+
+>drop bags
+ You lift the sacks and pile them on the kitchen table.
+
+>go southwest
+>go south
+ It won't take long to put up the groceries.  No sense in leaving it for
+ later, especially since the ice cream would melt.
+
+ Jeanie grabs some of the groceries and puts them on the counter.  You
+ didn't even have to ask her to.
+
+ You can't go that way.
+
+ Jeanie picks up some of the groceries and puts them away.
+
+>go south
+ You can't go that way.
+
+>go southwest
+ It won't take long to put up the groceries.  No sense in leaving it for
+ later, especially since the ice cream would melt.
+
+ Jeanie picks up some of the groceries and puts them away.
+
+>put up groceries
+ You take some of the groceries and put them where they belong.
+
+ "What all'd you get at the store?"  Jeanie asks, rooting around in the
+ sacks.
+
+>eat ice cream
+ I don't know the word "ice".
+
+>put up groceries
+ You take some of the groceries and put them where they belong.
+
+ "You know I won't be here for supper, right?"  Jeanie tells you.
+
+>talk to jeanie
+ "I know," you say to Jeanie.  How could you forget?  She's seldom here
+ for dinner these days.  "Too bad you'll miss dinner again."
+
+>talk to jeanie
+ "I'll leave some roast in the refrigerator in case you want some when
+ you get home," you say to Jeanie.
+
+ Jeanie shrugs.  "Okay."
+
+ Jeanie picks up some of the groceries and puts them away.
+
+>again
+ "You're welcome."  You smile; you know she'll be thankful later.
+
+ Jeanie heads out of the kitchen.
+
+>again
+ You can't repeat that command.
+
+>se
+ You can't go that way.
+
+ Outside you hear someone honking.  Jeanie's ride must be here.
+
+>l outside
+ I don't know the word "outside".
+
+>put up groceries
+ You take some of the groceries and put them where they belong.
+
+ You hear Jeanie go clomping out the front door.  She slams it shut hard
+ enough to make the dishes shake.  Was she mad?
+
+>again
+ You put up the last of the groceries and put the left-over sacks away.
+
+>se
+ You can't go that way.
+
+ A cough at the door makes you turn around.  Frank's there, leaning
+ against the frame.  "Did, um, did Jeanie say where she was going?"
+
+ "Not really."  These days, does she ever?  When she gets back you'll
+ have to talk to her about it.
+
+
+
+
+
+
+
+
+ Four
+ April asked if you wanted her to wait with you, but you told her nah
+ and so she just dropped you off at the station.
+
+ It was real easy to buy a ticket.  You were afraid they'd want to see
+ ID or maybe a letter from mom or something, but the guy just took your
+ money and didn't say nothing.
+
+ This all seems unreal, somehow.
+
+ Bus Station, at the counter
+    The ticket counter is more like a cage, with the guy giving tickets
+ sitting behind bars.  There's barely enough room in there for him and
+ his chair.  On the wall beside the counter is a big board listing
+ arrivals and departures.  The rest of the station is to the south.
+    Sitting on the ticket counter is some change and a bus ticket.
+
+>inventory
+ You've got a billfold and a flowerdy bag.  The flowerdy bag seems to
+ contain a change of clothes and some extra underwear.
+
+>flash underwear
+ I don't know the word "flash".
+
+>wear underwear
+ You can't wear the extra underwear.
+
+>what good is it then
+ I don't know the word "what".
+
+>get all
+ change:  Taken.
+ bus ticket:  Taken.
+
+>examine ticket
+ You almost can't believe you just bought it.  "Los Angeles," it says,
+ as if you could forget.
+
+>examine board
+ The chalkboard lists a bunch of buses, but the only one you really care
+ about is the one coming from New York and going to Los Angeles.
+
+>examine me
+ You've gone with your jean cut-offs and a plaid shirt tonight.  Nothing
+ fancy, but then it doesn't really need to be.
+
+>time
+ I don't know the word "time".
+
+>examine watch
+ I don't understand that sentence.
+
+>examine ticket
+ You almost can't believe you just bought it.  "Los Angeles," it says,
+ as if you could forget.
+
+>go south
+ Bus Station
+    Your feet click on the tile floor as you shift around, waiting.  You
+ could sit--there are a couple of worn chairs scattered around, but they
+ all look really uncomfortable.  The ticket counter and the board with
+ the bus schedules on it are on the north side of the room, opposite the
+ exit.
+
+>wait for bus
+ I don't know the word "for".
+
+>wait
+ You wait a while.
+
+ You turn your ticket over and over, looking first at one side, then the
+ other.  LA.  It's so far away.  Surely you'll be an actress, right?
+
+>act
+ I don't know the word "act".
+
+>look
+ Bus Station
+    Your feet click on the tile floor as you shift around, waiting.  You
+ could sit--there are a couple of worn chairs scattered around, but they
+ all look really uncomfortable.  The ticket counter and the board with
+ the bus schedules on it are on the north side of the room, opposite the
+ exit.
+
+>smoke crack
+ I don't know the word "smoke".
+
+>examine schedule
+>examine phone
+ The chalkboard lists a bunch of buses, but the only one you really care
+ about is the one coming from New York and going to Los Angeles.
+
+ I don't know the word "phone".
+
+>out
+ Outside the Station
+    It's gotten chillier since you got here.  Hopefully that bus'll be
+ here soon.  There's only one car in the parking lot, and not a lot of
+ traffic on the road.
+
+>examine car
+ It's a beat-up old Pinto.
+
+>steal car
+ I don't know the word "steal".
+
+>enter car
+ The car's locked.
+
+>goodgirl
+ I don't know the word "goodgirl".
+
+>in
+>look under car
+ Bus Station
+    Your feet click on the tile floor as you shift around, waiting.  You
+ could sit--there are a couple of worn chairs scattered around, but they
+ all look really uncomfortable.  The ticket counter and the board with
+ the bus schedules on it are on the north side of the room, opposite the
+ exit.
+
+ I don't see any car here.
+
+>look in pinto
+ I don't see any pinto here.
+
+>out
+ Outside the Station
+    Yellow light from the street lamps makes the parking lot and bus
+ stop look weird.  Old Church Road, running in front of the bus station,
+ is pretty much empty.  The station's behind you to the north.
+
+ You hear the bus's engine some time before you see it.  It comes
+ crawling down Old Church Road and pulls into the lot in front of you.
+ Its doors open.
+
+>look in pinto
+ It's pretty dirty.
+
+>look under car
+ Nothing's under there, far as you can tell.
+
+>dance hokey pokey
+ I don't know the word "hokey".
+
+>examine bus
+ The bus is belching smoke and shaking as it idles.  Its door is open,
+ and the bus driver is staring at you.  The sign over its windshield
+ reads "Los Angeles".
+
+>enter bus
+ You hang back for a moment, then finally climb up in the bus.
+
+ Inside the Bus
+    The bus is empty except for you and the bus driver, but it still
+ smells like old people and cigarettes.  At least you have your pick of
+ seats.
+    The bus driver is looking at you, waiting.
+
+ The bus driver looks at you.  "Staying or going?" he asks, his hand out
+ for your ticket.  You think about mom putting a roast in the oven.
+
+>kiss driver
+ Ew.
+
+>give underwear to driver
+ Might as well leave that in there.
+
+ "You gonna give me that ticket or what?"  the bus driver asks you.  You
+ look at him, then away.
+
+>give ticket to driver
+ "Now we're cooking with Crisco."  He takes the ticket from you and
+ swings shut the doors.  "Grab a seat."
+
+>show ticket to driver
+ "The ticket'll be plenty enough, thanks."
+
+ "I said, grab a seat!  We gotta move," the bus driver tells you.  You
+ pick a seat at random and flop into it.  You put your head against the
+ headrest with a sigh.
+
+ The bus moves with a jerk, the brakes squealing as the driver coaxes
+ the bus out of the station and onto the road.  You close your eyes,
+ letting the glow of street lights play over you, light then dark, light
+ then dark.  One last glance at the houses slipping past, fading away
+ into the night, before you close your eyes and try to sleep.
+
+ The End
+
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>go up
+ (Undoing one command)
+
+ Inside the Bus
+    The bus is empty except for you and the bus driver, but it still
+ smells like old people and cigarettes.  At least you have your pick of
+ seats.
+    The bus driver's checking his mirrors and gauges.
+
+>out
+ The doors to the bus are closed.
+
+ "I said, grab a seat!  We gotta move," the bus driver tells you.  You
+ pick a seat at random and flop into it.  You put your head against the
+ headrest with a sigh.
+
+ The bus moves with a jerk, the brakes squealing as the driver coaxes
+ the bus out of the station and onto the road.  You close your eyes,
+ letting the glow of street lights play over you, light then dark, light
+ then dark.  One last glance at the houses slipping past, fading away
+ into the night, before you close your eyes and try to sleep.
+
+ The End
+
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>out
+>\UNDO
+>\UNDO
+>under
+>undo
+ (Undoing one command)
+
+ Inside the Bus
+    The bus is empty except for you and the bus driver, but it still
+ smells like old people and cigarettes.  At least you have your pick of
+ seats.
+    The bus driver's checking his mirrors and gauges.
+
+>undo
+ (Undoing one command)
+
+ Inside the Bus
+    The bus is empty except for you and the bus driver, but it still
+ smells like old people and cigarettes.  At least you have your pick of
+ seats.
+    The bus driver is looking at you, waiting.
+
+>out
+ Outside the Station
+    Yellow light from the street lamps makes the parking lot and bus
+ stop look weird.  Old Church Road, running in front of the bus station,
+ is pretty much empty.  The station's behind you to the north.  A bus is
+ idling in front of the station.
+
+ You step back from the bus.  The doors hiss shut and the bus jerks into
+ life, lumbering towards the road and away from the station.  You watch
+ the bus windows slide past you, blank with reflected light.  The red
+ taillights grow smaller and smaller and smaller until they're gone.
+
+ You shrug your bag onto your shoulder.  It's a fair walk back to the
+ house.
+
+ The End
+
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>about

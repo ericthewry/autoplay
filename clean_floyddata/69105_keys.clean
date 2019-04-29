@@ -1,0 +1,2979 @@
+>load 69105
+>load 69105keys
+>list
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ After a series of adventures too mind-boggling to put into words, you
+ finally arrive at the antechamber to the Count's treasure vault! Oh my,
+ oh me...
+
+ 69,105 Keys
+ by David Welbourn.
+ For more about this game, type ABOUT. For credits, type CREDITS.
+ (Note: This game uses the longint extension by Chris Hall and Francis
+ Irving.)
+ Release 1 / Serial number 090302 / Inform v6.21 Library 6/11
+
+ Vault Antechamber
+ Wowzers. The Count opted for simplicity and vague elegance in his
+ treasure vault antechamber, choosing to dress the walls, floor, and
+ ceiling alike in money-green marble tiles delicately flecked with gold.
+ Apart from yourself and the stupendously locked vault door to the
+ south, there's nothing here. Except for... THE KEYS.
+
+ Like so many fallen autumn leaves, an astonishing number of keys litter
+ the floor of this antechamber.
+
+ (the keys)
+ Just try examining or counting the keys (or interesting subsets of
+ keys).
+
+>examine keys
+ You see nothing special about the keys.
+
+ Except, of course, that the keys come in a large number of garish
+ colors. The bows of the keys, that is, the wide ends of the keys are
+ painted in various colors. The shafts of the keys, of course, are not
+ painted.
+
+>examine me
+ You're a young adventurer determined to win the Count's final
+ challenge: to obtain the treasure he locked up in his vault so many
+ years ago.
+
+>inventory
+ You are carrying nothing. So not cool.
+
+>take all
+ keys: It's pointless to pick up any of these keys except the one key
+ that you want: the key to the vault door.
+
+>count keys
+ You see 69105 keys here.
+
+>examine door
+ The heavy vault door is closed and locked. Very locked. Your keen
+ adventurer eyes espy the following inscription:
+
+ "One of these keys is not like the others.
+  One of these keys just isn't the same.
+  That one unique key unlocks my vault.
+  Perhaps it would help if you tried my name.
+         -- Count Keys"
+
+>count keys
+ You see 69105 keys here.
+
+>take 10 keys
+ You can't see any such thing.
+
+>get the key that opens the door will you? please?
+ I only understood you as far as wanting to get the keys.
+
+>look
+
+ Vault Antechamber
+ Wowzers. The Count opted for simplicity and vague elegance in his
+ treasure vault antechamber, choosing to dress the walls, floor, and
+ ceiling alike in money-green marble tiles delicately flecked with gold.
+ Apart from yourself and the stupendously locked vault door to the
+ south, there's nothing here. Except for... THE KEYS.
+
+ Like so many fallen autumn leaves, an astonishing 69,105 keys litter
+ the floor of this antechamber.
+
+>examine colours
+ There are numerous colors of keys. You see white keys, black keys, red
+ keys, orange keys, yellow keys, green keys, blue keys, violet keys,
+ brown keys, pink keys, grey keys, turquoise keys, magenta keys, taupe
+ keys, beige keys, aqua keys, navy keys, and cyan keys.
+
+ The colors are painted on the bows (the fat ends) of the keys; the
+ metal shafts of the keys are bare. Every key is painted with exactly
+ one color. There are no unpainted keys.
+
+>look
+
+ Vault Antechamber
+ Wowzers. The Count opted for simplicity and vague elegance in his
+ treasure vault antechamber, choosing to dress the walls, floor, and
+ ceiling alike in money-green marble tiles delicately flecked with gold.
+ Apart from yourself and the stupendously locked vault door to the
+ south, there's nothing here. Except for... THE KEYS.
+
+ Like so many fallen autumn leaves, an astonishing 69,105 keys litter
+ the floor of this antechamber.
+
+>pick lock
+ I didn't understand that sentence.
+
+>take first key
+ You can't see any such thing.
+
+>examine lock
+ The heavy vault door is closed and locked. Very locked. Your keen
+ adventurer eyes espy the following inscription:
+
+ "One of these keys is not like the others.
+  One of these keys just isn't the same.
+  That one unique key unlocks my vault.
+  Perhaps it would help if you tried my name.
+         -- Count Keys"
+
+>examine red key
+ You see nothing special about the keys with red bows.
+
+ Perhaps you should be more specific? Try specifying the metal as well.
+
+>examine metal
+ Who knew that keys were made in so many types of metal? You can see
+ silver keys, copper keys, steel keys, iron keys, gold keys, nickel
+ keys, bronze keys, brass keys, chrome keys, and even aluminum keys
+ here.
+
+>my name
+ That's not a verb I recognize.
+
+>examine silver keys
+ You see nothing special about the silver keys.
+
+ Wait. The keys have brand names stamped on them. Acme, Borden, Carter,
+ and so on. How many brands are there?
+
+>get carter key
+ It's pointless to pick up any of these keys except the one key that you
+ want: the key to the vault door.
+
+>count brands
+ There are 6 brands of keys here.
+
+>count colours
+ There are 18 colors of key bows here.
+
+>count metals
+ There are 10 metals used to make the keys here.
+
+>count acme
+ You see 13770 Acme keys here.
+
+>count b
+ You can't see any such thing.
+
+>count borden
+ You see 255 Borden keys here.
+
+>count carter
+ You see 13770 Carter keys here.
+
+>count david
+ You can't see any such thing.
+
+>examine borden
+ You see nothing special about the Borden keys. Hmmm. There's gotta be
+ something else...
+
+ And there is! Some keys are scratched and some keys are unscratched! At
+ the top of the shafts of some keys, there's a tiny little horizontal
+ scratch. Bwah-ha-ha! Other adventurers might miss such a tiny detail,
+ but not you!
+
+ Let's call this the scratchness property. (How many properties is that
+ now?)
+
+>count scratchness
+ There are 2 scratchnesses.
+
+>count properties
+ Each key has 7 qualities or properties.
+
+>count acme silver keys
+ You see 1530 Acme silver keys here.
+
+>count scratched
+ You see 27794 scratched keys here.
+
+>count acme silver scratched keys
+ You see 1530 scratched Acme silver keys here.
+
+>count unscratched
+ You see 41311 unscratched keys here.
+
+>count borden scratched
+ You see 254 scratched Borden keys here.
+
+>c keys
+ They're not something you can close.
+
+>take unscratched borden
+ With confidence, you take the one and only unique key.
+
+>open door with key
+ (the unique key)
+ You fancy you hear hosannas sing in your honor as you unlock the vault
+ door and claim a treasure so fabulous, a mere text description of which
+ could hardly do it justice. Gosh.
+
+
+     *** You have won ***
+
+
+ In that game you scored 100 out of a possible 100, in 33 turns.
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do or QUIT?
+>amusing
+
+ Did you try:
+ * counting leaves?
+ * counting anything else? (tiles, walls, vault door, etc.)
+ * xyzzy?
+ * plugh?
+ * remembering the Count?
+ * singing?
+
+ Also, did you find a naughty mode?
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do or QUIT?
+>restart
+
+
+
+
+
+
+
+
+ After a series of adventures too mind-boggling to put into words, you
+ finally arrive at the antechamber to the Count's treasure vault! Oh my,
+ oh me...
+
+ 69,105 Keys
+ by David Welbourn.
+ For more about this game, type ABOUT. For credits, type CREDITS.
+ (Note: This game uses the longint extension by Chris Hall and Francis
+ Irving.)
+ Release 1 / Serial number 090302 / Inform v6.21 Library 6/11
+
+ Vault Antechamber
+ Wowzers. The Count opted for simplicity and vague elegance in his
+ treasure vault antechamber, choosing to dress the walls, floor, and
+ ceiling alike in money-green marble tiles delicately flecked with gold.
+ Apart from yourself and the stupendously locked vault door to the
+ south, there's nothing here. Except for... THE KEYS.
+
+ Like so many fallen autumn leaves, an astonishing number of keys litter
+ the floor of this antechamber.
+
+>undress
+ That's not a verb I recognize.
+
+>count modes
+ You can't see any such thing.
+
+>touch me
+ If you think that'll help.
+
+>lewd
+ That's not a verb I recognize.
+
+>count me
+ There's just one of you, babe.
+
+>naughty
+ That's not a verb I recognize.
+
+>look
+
+ Vault Antechamber
+ Wowzers. The Count opted for simplicity and vague elegance in his
+ treasure vault antechamber, choosing to dress the walls, floor, and
+ ceiling alike in money-green marble tiles delicately flecked with gold.
+ Apart from yourself and the stupendously locked vault door to the
+ south, there's nothing here. Except for... THE KEYS.
+
+ Like so many fallen autumn leaves, an astonishing number of keys litter
+ the floor of this antechamber.
+
+>count leaves
+ There are 0 leaves here. But nice try.
+
+>count leaves
+ There are 0 leaves here. But nice try.
+
+>undress walls
+ That's not a verb I recognize.
+
+>remove clothes
+ You can't see any such thing.
+
+>inventory
+ You are carrying nothing. So not cool.
+
+>remember count
+ You remember three things about Count Keys. One: he loves counting
+ things. Two: he loves keys. Three: he has a marvelous treasure in his
+ treasure vault. You're not quite sure what this treasure is, but you
+ know he obtained it during his worldwide travels.
+
+ In his will, the Count decreed that after he died, a grand contest
+ should be held in his home. Adventurers would compete, solving a series
+ of intricate puzzles of his own design until, finally, one adventurer
+ manages to reach the treasure and claim it. You hope that that
+ adventurer will be you.
+
+>count tiles
+ There are 2400 marble tiles here. You're glad it wasn't you that had to
+ install all these tiles and get them to line up straight. You hate
+ repetitive work.
+
+>count count
+ He's not here.
+
+>count all
+ You can't use multiple objects with that verb.
+
+>peep key hole
+ That's not a verb I recognize.
+
+>plugh
+ My original title was always 69,105 Keys, but I brainstormed some other
+ titles anyway. They were: Which Key?; The Count of Keys; Keygasm;
+ Antechamber of Keys; Keys, Keys, Keys; and Qualia Control.
+
+>keygasm
+ That's not a verb I recognize.
+
+>count keygasms
+ You can't see any such thing.
+
+>69
+ That's not a verb I recognize.
+
+>rub keys
+ That won't help. None of the keys are dusty, dirty, grimy, slimy,
+ tarshined, rusty, or encrusted. Cleanliness is not a property you have
+ to worry about. Be thankful.
+
+>examine brands
+ There's a handful of different brand names printed on the keys: Acme,
+ Borden, Carter, Dynamo, Emperor, and Guardian.
+
+>xyzzy
+ A hollow voice sings:
+ "I xyz zy spiders on the wall... I xyz zy cobwebs in the hall...
+  I xyz zy candles on the shelf... When I'm alone, I xyz myself!"
+
+>count flecks
+ You can't see any such thing.
+
+>69
+ That's not a verb I recognize.
+
+>xyz yourself
+ That's not a verb I recognize.
+
+>count borden
+ You see 13770 Borden keys here.
+
+>sing
+ You sing:
+ "You can't ride in my little wagon,
+  The front seat's broken, and the back wheel's saggin'.
+  Chug. Chug. Chug chug chug.
+  Next verse, the same as the first!
+  A little bit LOUDER and a little bit WORSE!"
+
+>xyz myself
+ That's not a verb I recognize.
+
+>rub locker
+ You can't see any such thing.
+
+>examine keyhole
+ You can't see any such thing.
+
+>sing
+ You sing:
+ "You can't ride in my little wagon,
+  The front seat's broken, and the back wheel's saggin'.
+  Chug. Chug. Chug chug chug.
+  Next verse, the same as the first!
+  A little bit LOUDER and a little bit WORSE!"
+
+>sing
+ You sing:
+ "You can't ride in my little wagon,
+  The front seat's broken, and the back wheel's saggin'.
+  Chug. Chug. Chug chug chug.
+  Next verse, the same as the first!
+  A little bit LOUDER and a little bit WORSE!"
+
+>look
+
+ Vault Antechamber
+ Wowzers. The Count opted for simplicity and vague elegance in his
+ treasure vault antechamber, choosing to dress the walls, floor, and
+ ceiling alike in money-green marble tiles delicately flecked with gold.
+ Apart from yourself and the stupendously locked vault door to the
+ south, there's nothing here. Except for... THE KEYS.
+
+ Like so many fallen autumn leaves, an astonishing number of keys litter
+ the floor of this antechamber.
+
+>dance
+ This antechamber isn't zoned for public dancing. Nertz.
+
+>jump
+ Ugh, no. The Pit of De Spare Keys was exhausting. You've had enough
+ jumping about for today.
+
+>blow leaves
+ (first taking the leaves)
+ You can't see any such thing.
+
+>examine properties
+ Several qualities may help you distinguish one key from another. The
+ keys differ from each other in their size, shape, color, brand name,
+ metal, edging style, and, scratchness. (By "scratchness", we mean
+ whether the key is scratched or not.)
+
+>search leaves
+ You can't see any such thing.
+
+>eat properties
+ (first taking the qualities)
+ Qualities are an abstract concept which you can only examine or count.
+
+>examine edging
+ Carefully inspecting the keys before you, you notice that the edges of
+ the keys' bows have different edging styles. Some edges are milled with
+ tiny grooves. Some keys have pebbled edges which feel bumpy. Some keys
+ have rounded edges. And, of course, some key edges are flat and
+ unadorned.
+
+>count groove
+ You can't see any such thing.
+
+>groove
+ That's not a verb I recognize.
+
+>babdy
+ That's not a verb I recognize.
+
+>bother
+ Quite.
+
+>screw lock
+ You are unable to.
+
+>eat keys
+ (first taking the keys)
+ It's pointless to pick up any of these keys except the one key that you
+ want: the key to the vault door.
+
+>sleep
+ You aren't feeling especially drowsy.
+
+>wake up
+ The dreadful truth is, this is not a dream.
+
+>eat lock
+ (first taking the vault door)
+ That's hardly portable.
+
+>count rounded
+ You see 22950 keys with rounded-edge bows here.
+
+>xyzzy
+ A hollow voice sings:
+ "I xyz zy spiders on the wall... I xyz zy cobwebs in the hall...
+  I xyz zy candles on the shelf... When I'm alone, I xyz myself!"
+
+>kiss yourself
+ You can't see any such thing.
+
+>kiss me
+ If you think that'll help.
+
+>xyz me
+ That's not a verb I recognize.
+
+>xyzzy me
+ I only understood you as far as wanting to xyzzy.
+
+>get candles
+ You can't see any such thing.
+
+>zyx me
+ That's not a verb I recognize.
+
+>squeeze me
+ Keep your hands to yourself.
+
+>xyz me
+ That's not a verb I recognize.
+
+>touch myself
+ If you think that'll help.
+
+>naughty mode on
+ That's not a verb I recognize.
+
+>spy me
+ That's not a verb I recognize.
+
+>examine spiders
+ You can't see any such thing.
+
+>count milled
+ You see 22950 keys with milled-edge bows here.
+
+>count flat
+ You see 255 keys with flat-edge bows here.
+
+>sort keys
+ How? There's no obvious order to sort them into.
+
+>sort keys by color
+ I only understood you as far as wanting to sort the keys.
+
+>bubble sort
+ That's not a verb I recognize.
+
+>eat keys
+ (first taking the keys)
+ It's pointless to pick up any of these keys except the one key that you
+ want: the key to the vault door.
+
+>touch keys
+ You feel nothing unexpected.
+
+>scratch key
+ That's not a verb I recognize.
+
+>count me
+ There's just one of you, babe.
+
+>1
+ That's not a verb I recognize.
+
+>inventory
+ You are carrying nothing. So not cool.
+
+>count babe
+ You can't see any such thing.
+
+>count flat scratched
+ You see 254 scratched keys with flat-edge bows here.
+
+>examine lock
+ The heavy vault door is closed and locked. Very locked. Your keen
+ adventurer eyes espy the following inscription:
+
+ "One of these keys is not like the others.
+  One of these keys just isn't the same.
+  That one unique key unlocks my vault.
+  Perhaps it would help if you tried my name.
+         -- Count Keys"
+
+>count wall
+ There are 4 walls here. No surprise there.
+
+>count candles
+ You can't see any such thing.
+
+>count spiders
+ You can't see any such thing.
+
+>get inscription
+ That's hardly portable.
+
+>sing
+ You sing:
+ "You can't ride in my little wagon,
+  The front seat's broken, and the back wheel's saggin'.
+  Chug. Chug. Chug chug chug.
+  Next verse, the same as the first!
+  A little bit LOUDER and a little bit WORSE!"
+
+>examine colors
+ There are numerous colors of keys. You see white keys, black keys, red
+ keys, orange keys, yellow keys, green keys, blue keys, violet keys,
+ brown keys, pink keys, grey keys, turquoise keys, magenta keys, taupe
+ keys, beige keys, aqua keys, navy keys, and cyan keys.
+
+ The colors are painted on the bows (the fat ends) of the keys; the
+ metal shafts of the keys are bare. Every key is painted with exactly
+ one color. There are no unpainted keys.
+
+>count white
+ You see 4050 keys with white bows here.
+
+>fornicate
+ That's not a verb I recognize.
+
+>fornicount
+ That's not a verb I recognize.
+
+>screw key hole
+ I only understood you as far as wanting to screw the keys.
+
+>screw me
+ That would be less than courteous.
+
+>screw lock
+ You are unable to.
+
+>fuck
+ Count off. Fuck on.
+
+>look
+
+ Vault Antechamber
+ Wowzers. The Fuck opted for simplicity and vague elegance in his
+ treasure vault antechamber, choosing to dress the walls, floor, and
+ ceiling alike in money-green marble tiles delicately flecked with gold.
+ Apart from yourself and the stupendously locked vault door to the
+ south, there's nothing here. Except for... THE KEYS.
+
+ Like so many fallen autumn leaves, an astonishing number of keys litter
+ the floor of this antechamber.
+
+>count me
+ There's just one of you, babe.
+
+>remember count
+ You remember three things about Fuck Keys. One: he loves fucking
+ things. Two: he loves keys. Three: he has a marvelous treasure in his
+ treasure vault. You're not quite sure what this treasure is, but you
+ know he obtained it during his worldwide travels.
+
+>examine keys
+ In his will, the Fuck decreed that after he died, a grand contest
+ should be held in his home. Adventurers would compete, solving a series
+ of intricate puzzles of his own design until, finally, one adventurer
+ manages to reach the treasure and claim it. You hope that that
+ adventurer will be you.
+
+ You see nothing special about the keys.
+
+ Except, of course, that the keys come in a large number of garish
+ colors. The bows of the keys, that is, the wide ends of the keys are
+ painted in various colors. The shafts of the keys, of course, are not
+ painted.
+
+>fuck keys
+ You see 69105 keys here.
+
+>examine door
+ The heavy vault door is closed and locked. Very locked. Your keen
+ adventurer eyes espy the following inscription:
+
+ "One of these keys is not like the others.
+  One of these keys just isn't the same.
+  That one unique key unlocks my vault.
+  Perhaps it would help if you tried my name.
+         -- Fuck Keys"
+
+>remember fuck
+ You can't see any such thing.
+
+>remember count
+ You remember three things about Fuck Keys. One: he loves fucking
+ things. Two: he loves keys. Three: he has a marvelous treasure in his
+ treasure vault. You're not quite sure what this treasure is, but you
+ know he obtained it during his worldwide travels.
+
+ In his will, the Fuck decreed that after he died, a grand contest
+ should be held in his home. Adventurers would compete, solving a series
+ of intricate puzzles of his own design until, finally, one adventurer
+ manages to reach the treasure and claim it. You hope that that
+ adventurer will be you.
+
+>fuck properties
+ Each key has 7 qualities or properties.
+
+>fuck the system
+ You can't see any such thing.
+
+>win the fucking game
+ That's not a verb I recognize.
+
+>win
+ That's not a verb I recognize.
+
+>score
+ You have so far scored 0 out of a possible 100, in 58 turns.
+
+>count brands
+ There are 6 brands of keys here.
+
+>count scratched flat
+ You see 254 scratched keys with flat-edge bows here.
+
+>count unscratched flat
+ You see 1 unscratched key with a flat-edge bow here. That's it! Take
+ it!
+
+>take it
+ With confidence, you take the one and only unique key.
+
+>unlock door
+ (with the unique key)
+ You fancy you hear hosannas sing in your honor as you unlock the vault
+ door and claim a treasure so fabulous, a mere text description of which
+ could hardly do it justice. Gosh.
+
+
+     *** You have won ***
+
+
+ In that game you scored 100 out of a possible 100, in 63 turns.
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do or QUIT?
+>amsuing
+ Please give one of the answers above.
+>amusing
+
+ Did you try:
+ * fucking leaves?
+ * fucking anything else? (tiles, walls, vault door, etc.)
+ * xyzzy?
+ * plugh?
+ * remembering the Count?
+ * singing?
+
+ Also, did you find a naughty mode?
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do or QUIT?
+>quit
+
+>load krakatoa
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Biff Bradclaw smoothes back his slick greasy hair one more time before
+ posing in front of the television camera, and says:
+
+ "Welcome to Episode Seven of Krakatoa Survivor Challenge! It's a
+ gorgeous day on the tropical island of Krakatoa, not a cloud in the
+ sky. Although there's plenty of smoke from that volcano, ha ha ha!
+
+ "Our current champion" -- he points to you, applause -- "is being
+ challenged by our newest contenders, Kari Knott, a waitress from
+ Toledo," -- applause -- "and Russ Rohoho, a late night talk show host
+ from Honolulu." More applause.
+
+ "And the challenge is ..." Biff checks his cue card. "Hey, Kari, this
+ should be easy for you. The challenge is to make a tuna melt sandwich
+ from the native materials on the island! Find some tuna, cheese, and
+ bread, put 'em together and cook it, then bring it back to the camp!
+ Whoever brings their sandwich back first, wins!"
+
+ Krakatoa Tuna Melt
+ An interactive food-makin' disaster by David Welbourn (dswxyz@look.ca)
+ for SpeedIF 10^-9.
+ (and before you ask, it took me closer to two days to write, not two
+ hours)
+ Release 2 / Serial number 021215 / Inform v6.21 Library 6/10
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ, Kari and Biff here.
+
+>about
+ The rules for SpeedIF 10^-9 were:
+ Write a work, set in an underground secret hideout, in which the PC
+ must deal with misinterpretation of directions. He may be helped or
+ hindered by a late night talk show host and a bleary-eyed waitress. At
+ least one ending should involve earth being totally destroyed. Bonus
+ points for including a time traveler visiting from 1888, a subplot
+ involving a terrible accident involving food on a remote tropical
+ island, or an alternate ending with someone never being seen again. As
+ always, deadline is 2100 mudtime or whenever you finish. Sign here with
+ location when done.
+
+>examine russ
+ Russ Rohoho is an attractive forty-something with his Hawaiian and
+ Italian mixed heritage. His late night talk show, "Luau Fever", is
+ supposedly very popular in Hawaii, but of course he'd say that.
+
+ Kari whispers a question to Biff, who shakes his head.
+
+ Russ looks at you suspiciously.
+
+>examine kari
+ Kari Knott is a moderately attractive dirty-blonde girl from Toledo,
+ Ohio. Although she's only 23, she's already got that bleary-eyed look
+ from working too many late night shifts at Pepe's Diner.
+
+ The ground shakes, slightly.
+
+ Kari whispers a question to Biff, who shakes his head.
+
+ Russ takes the northwest path.
+
+>examine me
+ You're the current champion of "Krakatoa Survivor Challenge", and if
+ you want to remain champion, you need to make a tuna melt sandwich as
+ quickly as possible and bring it back to camp.
+
+ There's a brief tremor, then it passes.
+
+ Kari heads south to the lagoon.
+
+>inventory
+ You are carrying nothing.
+
+>examine biff
+ Biff Bradclaw is the ever-smiling host of the show, and has the
+ blackest, greasiest hair you've ever seen. Eeww. You can't imagine what
+ the girls back home see in him; he's such an obvious phony.
+
+ Russ emerges from the forest to the north.
+
+>go east
+
+ Beach
+ Nice sandy beach. Shame you don't have time to just sit down and enjoy
+ it.
+
+ Someone has discarded a bag of popcorn here.
+
+>examine popcorn
+ It's a half-eaten bag of popcorn.
+
+ There's a brief tremor, then it passes.
+
+>take it
+ Taken.
+
+>go west
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Biff here.
+
+ Kari emerges from the forest to the north.
+
+>go south
+
+ Lagoon
+ This natural lagoon is a perfect place for fishing. You wish your
+ friend Harley was here. Harley loved to go fishing with you when you
+ were kids. The camp is visible to the north, and the beach extends west
+ and east, and of course the ocean fills your view south, all the way to
+ the horizon.
+
+>examine ocean
+ The water is clear as clear can be. You can even see some tuna fish
+ swimming in its depths.
+
+ You hear a monkey chittering somewhere nearby.
+
+ Kari wanders in from the east.
+
+>examine monkey
+ You can't see any such thing.
+
+>in
+ You can't go that way.
+
+ Kari looks in the lagoon with interest.
+
+>catch fish
+ You'll have to tell me how to do that.
+
+ The ground shakes, slightly.
+
+ Suddenly, Kari stabs a long pointy fish into the water, and snares a
+ fish! She looks rather pleased with herself.
+
+>take fish
+ You can't just take the fish from the lagoon! You have to catch one,
+ somehow.
+
+ Kari heads back to camp.
+
+>go north
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Kari and Biff here.
+
+ The volcano noisily belches more smoke into the air.
+
+ Kari looks at you suspiciously.
+
+>go west
+
+ Oceanside Meadow
+ A grassy meadow covers this corner of the island. That seems plausible,
+ right? At any rate, several sheep and cows are here, taking advantage
+ of the grass and eating their full. Hills are to the north, towards the
+ volcano, and the camp lies east.
+
+ The ground shakes, slightly.
+
+>milk cow
+ Pumping vigourously, you fill... wait a minute. What are you putting
+ this milk in?
+
+ You hear a monkey chittering somewhere nearby.
+
+>bag
+ That's not a verb I recognize.
+
+>examine bag
+ It's a half-eaten bag of popcorn.
+
+>SAVE
+>cf1
+ Enter saved game to store: Ok.
+
+>eat popcorn
+ You're not that hungry. And it's probably stale.
+
+>examine bag
+ It's a half-eaten bag of popcorn.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>put bag under cow
+ I didn't understand that sentence.
+
+>milk cow into bag
+ I only understood you as far as wanting to milk the cows and sheep.
+
+>put milk in bag
+ You can't see any such thing.
+
+>go west
+ You can't go that way.
+
+>get cow
+ I don't suppose the cows and sheep would care for that.
+
+ The volcano noisily belches more smoke into the air.
+
+>go south
+
+ Lagoon
+ This natural lagoon is a perfect place for fishing. You wish your
+ friend Harley was here. Harley loved to go fishing with you when you
+ were kids. The camp is visible to the north, and the beach extends west
+ and east, and of course the ocean fills your view south, all the way to
+ the horizon.
+
+>go north
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ and Biff here.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+ Russ heads south to the lagoon.
+
+>go northeast
+
+ Village
+ A sparse looking village, but the "El Bakery" on the north side looks
+ most interesting to you. Forest shades the village from the west, and
+ paths lead southwest and south.
+
+ In the center of the village is a cannon.
+
+ Attached to the back end of the cannon is a mysterious black box.
+
+ Some litterbug has left a gigantic pop bottle here.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>take pop bottle
+ Taken.
+
+>examine it
+ It's one of those new five liter pop bottles. For when you're really
+ really thristy.The five liter bottle is empty.
+
+>examine cannon
+ The heavy iron cannon is a relic from history, once used to repel
+ pirates from Krakatoa's shores. Its muzzle points up and east over the
+ ocean, but it's not empty. There's a bamboo structure inside it.
+
+>examine structure
+ It's hard to believe, but that's a tiny bamboo rocketship stuck in the
+ muzzle of the cannon, large enough to launch a monkey far over the
+ ocean. Is this what they do for fun around here? Jesus.
+
+>get structure
+ That's fixed in place.
+
+>examine structure
+ It's hard to believe, but that's a tiny bamboo rocketship stuck in the
+ muzzle of the cannon, large enough to launch a monkey far over the
+ ocean. Is this what they do for fun around here? Jesus.
+
+ The ground shakes, slightly.
+
+>fire cannon
+ That's not a verb I recognize.
+
+>examine box
+ It's a mysterious black box all right. The only clue to what it is are
+ the words "Frobozz Magic Mini Nuke" in bright yellow letters on the
+ top.
+
+ The ground shakes, slightly.
+
+>open box
+ The black box opens easily. In the black box is a glowing green
+ crystal.
+
+>take it
+ That's fixed in place.
+
+ There's a brief tremor, then it passes.
+
+>take crystal
+ Taken.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>examine crystal
+ It's a crystal. It's glowing and green. I dunno what it is. Kryptonite?
+ (yeah, right)
+
+>put crystal in cannon
+ You put the glowing green crystal into the cannon.
+
+>examine cannon
+ The heavy iron cannon is a relic from history, once used to repel
+ pirates from Krakatoa's shores. Its muzzle points up and east over the
+ ocean, but it's not empty. There's a bamboo structure inside it.
+
+>light cannon
+ This dangerous act would achieve little.
+
+ The volcano noisily belches more smoke into the air.
+
+>turn cannon on
+ That's not something you can switch.
+
+ You hear a monkey chittering somewhere nearby.
+
+>shoot cannon
+ That's not a verb I recognize.
+
+>examine cannon
+ The heavy iron cannon is a relic from history, once used to repel
+ pirates from Krakatoa's shores. Its muzzle points up and east over the
+ ocean, but it's not empty. There's a bamboo structure inside it.
+
+>push bamboo
+ It is fixed in place.
+
+>push muzzle
+ You can't see any such thing.
+
+>go north
+
+ El Bakery
+ You've entered the best bakery on Krakatoa. The only bakery on
+ Krakatoa. There's a sign on the wall, and the exit is south.
+
+ The baker is here, hoping you'll buy some bread.
+
+ In one corner of the bakery, a baby is sleeping, nestled in blankets.
+
+ You can also see a baguette here.
+
+>read sign
+
+ The volcano noisily belches more smoke into the air.
+
+>examine sign
+
+>read sign
+
+>inventory
+ You are carrying:
+   a five liter bottle (which is empty)
+   a bag of popcorn
+
+>eat baby
+ (first taking baby)
+ I don't suppose baby would care for that.
+
+ The ground shakes, slightly.
+
+>ask about cheese
+ You can't see any such thing.
+
+>buy bread
+ You buy a nice baguette.
+
+>examine baguette
+ It's a baguette, a nice loaf of bread for a nice sandwich, and one of
+ the ingredients you'll need for your tuna melt.
+
+ You hear a monkey chittering somewhere nearby.
+
+>wake baby
+ No one is asleep.
+
+ There's a brief tremor, then it passes.
+
+>examine baby
+ The baby boy is sleeping soundly, and who wouldn't, comfortably wrapped
+ in three large blankets?
+
+>get blankets
+ That's not something you need to refer to in the course of this game.
+
+>examine baker
+ The baker is wearing a strange green tropical outfit. You can tell it's
+ tropical by the large sun emblem on his chest. He's also wearing a
+ headband instead of the expected chef's hat.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>look
+
+ El Bakery
+ You've entered the best bakery on Krakatoa. The only bakery on
+ Krakatoa. There's a sign on the wall, and the exit is south.
+
+ The baker is here, hoping you'll buy some bread.
+
+ In one corner of the bakery, a baby is sleeping, nestled in blankets.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>go south
+
+ Village
+ A sparse looking village, but the "El Bakery" on the north side looks
+ most interesting to you. Forest shades the village from the west, and
+ paths lead southwest and south.
+
+ In the center of the village is a cannon.
+
+ Attached to the back end of the cannon is a mysterious black box.
+
+ You can also see Russ here.
+
+ Russ enters the forest, to the west.
+
+>get crystal
+ Taken.
+
+>go west
+
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+ There's a fallen branch from one of those unclimbable trees on the
+ ground here.
+
+ You hear a monkey chittering somewhere nearby.
+
+>take branch
+ Taken.
+
+ There's a brief tremor, then it passes.
+
+ Kari enters from the west.
+
+>examine branch
+ It's a pointy stick about three feet long.
+
+ Kari ventures deeper into the forest, towards the volcano.
+
+>go west
+
+ Lonely Hill
+ This lonely hill might be a tranquil spot normally, but the dead sheep
+ rather spoils the mood. Forest is north and east of you, and more
+ pleasant areas are south and southeast.
+
+ Kari emerges from the forest, to the north.
+
+>examine dead sheep
+ This poor little lamb has lost its way. (baa baa baa)
+ It tripped and fell, and here he'll stay. (baa baa baa)
+ A predator ate its flesh away. (baa baa baa)
+ And now its stomach greets the day. (baa baa baa)
+
+ Yeah. You can see its stomach. Ick.
+
+ Kari looks sadly at the dead lamb.
+
+>get stomach
+ You'll need to cut the stomach free, first.
+
+ Kari looks sadly at the dead lamb.
+
+>examine stomach
+ It's a dried sheep stomach. Gross. In the stomach is a quantity of
+ rennet.
+
+ Kari rubs something out of her eye.
+
+>take rennet
+ You can't take the rennet without a suitable container. (Or without
+ taking the container it's already in.)
+
+ There's a brief tremor, then it passes.
+
+ Kari leaves you, and goes south.
+
+>cut stomach
+ With what?
+
+>inventory
+ You are carrying:
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle (which is empty)
+   a bag of popcorn
+
+ Russ enters from the southeast.
+
+>razor sharp hands
+ That's not a verb I recognize.
+
+>cut stomach with crystal
+ You'll need a more suitable cutting tool than that.
+
+ There's a brief tremor, then it passes.
+
+ Russ takes the southeast path back to camp.
+>put rennet in bag
+
+ You need to be holding the quantity of rennet before you can put it
+ into something else.
+
+ The volcano noisily belches more smoke into the air.
+
+>cut stomach with stick
+ You'll need a more suitable cutting tool than that.
+
+ Russ enters from the southeast.
+
+>go east
+
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+>go north
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+>go north
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+>go north
+
+ Lip of the Volcano
+ Wow. You're standing on a tiny ledge on the rim, or lip of the volcano.
+ The smoke is blowing into your face, and you can see molten lava far
+ below. Needless to say, it's extremely hot here, and quite a bit
+ dangerous. It's just a suggestion, but you probably shouldn't stay here
+ longer than you absolutely must. Unless you want to melt. Literally.
+
+ Gah. Feel that heat! This is too much to endure for long!
+
+>put crystal in volcano
+ You throw the glowing green crystal into the volcano, and it's gone
+ forever. Unfortunately, the crystal has, shall we say, an adverse
+ effect on our friend the volcano. Don't worry, though. The volcano
+ doesn't erupt. But the crystal starts a chain reaction that makes THE
+ ENTIRE WORLD EXPLODE!
+
+
+     *** You have died ***
+
+
+ In that game you scored 0 out of a possible 0, in 74 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Lip of the Volcano
+ [Previous turn undone.]
+
+>out
+ But you aren't in anything at the moment.
+
+ Your blood feels like it's about to boil! Time to go!
+
+>in
+ You can't go that way.
+
+ You pass out from the heat, and fall into the VOLCANO! Ahhhhhh!!!
+
+
+>go south
+     *** You have died ***
+
+
+ In that game you scored 0 out of a possible 0, in 76 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+ Please give one of the answers above.
+>undo
+
+>undo
+>go south
+ Lip of the Volcano
+ [Previous turn undone.]
+
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+>go north
+
+ Lip of the Volcano
+ Wow. You're standing on a tiny ledge on the rim, or lip of the volcano.
+ The smoke is blowing into your face, and you can see molten lava far
+ below. Needless to say, it's extremely hot here, and quite a bit
+ dangerous.
+
+ Gah. Feel that heat! This is too much to endure for long!
+
+>jump
+ Insanely, you jump into the Krakatoa's fiery cauldron, despite the fact
+ that you are not a polynesian virgin sacrifice. Unfortunately for the
+ rest of the world, it has no time to mock your stupidity, since the
+ entire world explodes shortly thereafter. (What was that crystal,
+ anyway?)
+
+
+     *** You have died ***
+
+
+ In that game you scored 0 out of a possible 0, in 77 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Lip of the Volcano
+ [Previous turn undone.]
+
+>go south
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+ There's a brief tremor, then it passes.
+
+>inventory
+ You are carrying:
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle (which is empty)
+   a bag of popcorn
+
+>go south
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+>go west
+
+ Lonely Hill
+ This lonely hill might be a tranquil spot normally, but the dead sheep
+ rather spoils the mood. Forest is north and east of you, and more
+ pleasant areas are south and southeast.
+
+ There's a brief tremor, then it passes.
+
+>go north
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+>go south
+
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+ The volcano noisily belches more smoke into the air.
+
+>go south
+ You emerge out of the forest into ...
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ and Biff here.
+
+ Russ whispers a question to Biff, who nods.
+
+>examine biff
+ Biff Bradclaw is the ever-smiling host of the show, and has the
+ blackest, greasiest hair you've ever seen. Eeww. You can't imagine what
+ the girls back home see in him; he's such an obvious phony.
+
+ Russ whispers a question to Biff, who shakes his head.
+
+>examine russ
+ Russ Rohoho is an attractive forty-something with his Hawaiian and
+ Italian mixed heritage. His late night talk show, "Luau Fever", is
+ supposedly very popular in Hawaii, but of course he'd say that.
+
+ Russ heads south to the lagoon.
+
+>ask biff about russ
+ There is no reply.
+
+ Russ enters from the lagoon.
+
+>ask biff for knife
+ You can't see any such thing.
+
+>search biff
+ You find nothing of interest.
+
+ The ground shakes, slightly.
+
+ Russ heads south to the lagoon.
+
+>whisper to biff to give me a knife
+ That's not a verb I recognize.
+
+>go west
+
+ Oceanside Meadow
+ A grassy meadow covers this corner of the island. That seems plausible,
+ right? At any rate, several sheep and cows are here, taking advantage
+ of the grass and eating their full. Hills are to the north, towards the
+ volcano, and the camp lies east.
+
+ The volcano noisily belches more smoke into the air.
+
+ Russ arrives from the south.
+
+>milk cow
+ Pumping vigourously, you fill the five liter bottle with a large
+ quantity of milk. (About five liters. More or less.)
+
+ Russ looks at the cows with interest.
+
+>shake bottle
+ That's not a verb I recognize.
+
+>drink milk
+ You're more of a wine and cheese person. You like your milk somewhat
+ thicker and denser, if you know what I mean.
+
+ Russ studies the sheep, thoughtfully.
+
+>go east
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Biff here.
+
+>go north
+ You head north into the ...
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+ You hear a monkey chittering somewhere nearby.
+
+>go west
+
+ Lonely Hill
+ This lonely hill might be a tranquil spot normally, but the dead sheep
+ rather spoils the mood. Forest is north and east of you, and more
+ pleasant areas are south and southeast.
+
+>examine rennet
+ Cheesemakers know that rennet contains rennin, a milk-curdling enzyme
+ used in making cheese. For some reason, this isn't common knowledge to
+ cheese eaters. But you know now, right?
+
+ The ground shakes, slightly.
+
+>get rennet
+ You can't take the rennet without a suitable container. (Or without
+ taking the container it's already in.)
+
+>get sheep
+ You are *not* going to carry an entire dead lamb about the island.
+
+ There's a brief tremor, then it passes.
+
+>push stomach
+ It is fixed in place.
+
+ The volcano noisily belches more smoke into the air.
+
+>inventory
+ You are carrying:
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle
+     a large quantity of milk
+   a bag of popcorn
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>bite stomacj
+ That's not a verb I recognize.
+
+>bite stomach
+ That's not a verb I recognize.
+
+>inventory
+ You are carrying:
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle
+     a large quantity of milk
+   a bag of popcorn
+
+>go east
+
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+ There's a brief tremor, then it passes.
+
+ A rustling in the forest floor alerts you to Kari's entrance, as she
+ arrives from the north.
+
+>go south
+ You emerge out of the forest into ...
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Biff here.
+
+ The ground shakes, slightly.
+
+>go south
+
+ Lagoon
+ This natural lagoon is a perfect place for fishing. You wish your
+ friend Harley was here. Harley loved to go fishing with you when you
+ were kids. The camp is visible to the north, and the beach extends west
+ and east, and of course the ocean fills your view south, all the way to
+ the horizon.
+
+ You can see Russ here.
+
+ You hear a monkey chittering somewhere nearby.
+
+ Russ heads back to camp.
+
+>catch fish
+ You'll have to tell me how to do that.
+
+ There's a brief tremor, then it passes.
+
+ Russ arrives from the camp.
+
+>get tuna with stic
+ I only understood you as far as wanting to get the swimming tuna fish.
+
+>catch fish with stick
+ You thrust your pointy stick at the swimming fish, but the refraction
+ of the clear water fools you, and your stabs miss their mark. Bubbles
+ rise from the fishes' tiny lips like tiny fishy giggles.
+
+ Russ heads back to camp.
+
+>again
+ You thrust your pointy stick at the swimming fish, but the refraction
+ of the clear water fools you, and your stabs miss their mark.
+
+ There's a brief tremor, then it passes.
+
+ Kari arrives from the camp.
+
+>in
+ You can't go that way.
+
+ There's a brief tremor, then it passes.
+
+ Kari strides off east.
+
+>swim
+ You dive into the lagoon, grabbing wildly at the swimming fish. The
+ water seems to boil as you churn up the water in vain. But when you
+ come up for air, there's a fish caught in -- no, it flops of your shirt
+ back into the lagoon. Damn!
+
+>inventory
+ You are carrying:
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle
+     a large quantity of milk
+   a bag of popcorn
+
+ There's a brief tremor, then it passes.
+
+>put popcorn on stick
+ Putting things on the pointy stick would achieve nothing.
+
+>SAVE
+>cf2
+ Enter saved game to store: Ok.
+
+>give popcorn to fish
+ You cleverly drop some of the popcorn into the water, and easily grab
+ one of the fish when they pop up their heads to eat it.
+
+ You hear a monkey chittering somewhere nearby.
+
+ Russ wanders in from the east.
+
+>examine fish
+ (the swimming tuna fish)
+ A school of tuna fish are swimming in the sparkling clear lagoon
+ waters. Tempting you.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+ Russ walks west.
+
+>inventory
+ You are carrying:
+   a fresh tuna fish
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle
+     a large quantity of milk
+   a bag of popcorn
+
+>examine tuna
+ (the swimming tuna fish)
+ A school of tuna fish are swimming in the sparkling clear lagoon
+ waters. Tempting you.
+
+>examine fresh tuna
+ It's a freshly-caught funa tish. I mean, it's a freshly-caught tuna
+ fish. One of the ingredients you'll need for your tuna melt.
+
+>go east
+
+ Beach
+ Nice sandy beach. Shame you don't have time to just sit down and enjoy
+ it.
+
+>w.w
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ and Biff here.
+
+ Russ takes the northwest path.
+
+ Oceanside Meadow
+ A grassy meadow covers this corner of the island. That seems plausible,
+ right? At any rate, several sheep and cows are here, taking advantage
+ of the grass and eating their full. Hills are to the north, towards the
+ volcano, and the camp lies east.
+
+ You can see Kari here.
+
+ The volcano noisily belches more smoke into the air.
+
+ Kari looks at the cows with interest.
+
+>inventory
+ You are carrying:
+   a fresh tuna fish
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle
+     a large quantity of milk
+   a bag of popcorn
+
+ Kari looks at the cows with interest.
+
+>go east
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ and Biff here.
+
+ Russ whispers a question to Biff, who nods.
+
+>go east
+
+ Beach
+ Nice sandy beach. Shame you don't have time to just sit down and enjoy
+ it.
+
+>take sand
+ That's not something you need to refer to in the course of this game.
+
+>search beach
+ That's not something you need to refer to in the course of this game.
+
+>inventory
+ You are carrying:
+   a fresh tuna fish
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle
+     a large quantity of milk
+   a bag of popcorn
+
+ You hear a monkey chittering somewhere nearby.
+
+ Russ wanders in from the north.
+
+>go east
+ Hm. A swim would be nice, but can't really justify doing that right
+ here and now.
+
+ Russ looks at the volcano, worriedly.
+
+>go west
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Biff here.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+ Russ walks in from the east.
+
+>go north
+ You head north into the ...
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+ The ground shakes, slightly.
+
+>go north
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>go south
+
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+ You hear a monkey chittering somewhere nearby.
+
+>go west
+
+ Lonely Hill
+ This lonely hill might be a tranquil spot normally, but the dead sheep
+ rather spoils the mood. Forest is north and east of you, and more
+ pleasant areas are south and southeast.
+
+>stab sheep with stick
+ That's not a verb I recognize.
+
+>hit sheep with stick
+ I only understood you as far as wanting to hit the dead lamb.
+
+>jump on sheep
+ I only understood you as far as wanting to jump.
+
+>hit sheep
+ A bit pointless to flog a dead lamb, wouldn't you say?
+
+>bit sheep
+ That's not a verb I recognize.
+
+>bite sheep
+ That's not a verb I recognize.
+
+>invert sheep
+ That's not a verb I recognize.
+
+>give milk to sheep
+ You can only do that to something animate.
+
+>push sheep
+ It is fixed in place.
+
+ The ground shakes, slightly.
+
+>pour milk on sheep
+ That's not a verb I recognize.
+
+>beat bloated stomach with a stick like a pinata.
+ That's not a verb I recognize.
+
+>disassemble sheet
+ That's not a verb I recognize.
+
+>examine sheep
+ This poor little lamb has lost its way. (baa baa baa)
+ It tripped and fell, and here he'll stay. (baa baa baa)
+ A predator ate its flesh away. (baa baa baa)
+ And now its stomach greets the day. (baa baa baa)
+
+ Yeah. You can see its stomach. Ick.
+
+>examine stomach
+ It's a dried sheep stomach. Gross. In the stomach is a quantity of
+ rennet.
+
+ You hear a monkey chittering somewhere nearby.
+
+>get stomach
+>look
+ You'll need to cut the stomach free, first.
+
+ You hear a monkey chittering somewhere nearby.
+
+
+ Lonely Hill
+ This lonely hill might be a tranquil spot normally, but the dead sheep
+ rather spoils the mood. Forest is north and east of you, and more
+ pleasant areas are south and southeast.
+
+>put milk in sheep
+ You need to be holding the large quantity of milk before you can put it
+ into something else.
+
+ The volcano noisily belches more smoke into the air.
+
+>go north
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+ You hear a monkey chittering somewhere nearby.
+
+>go north
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+>go north
+
+ Lip of the Volcano
+ Wow. You're standing on a tiny ledge on the rim, or lip of the volcano.
+ The smoke is blowing into your face, and you can see molten lava far
+ below. Needless to say, it's extremely hot here, and quite a bit
+ dangerous.
+
+ Gah. Feel that heat! This is too much to endure for long!
+
+>examine ledge
+ You can't see any such thing.
+
+>examine lava
+ Think of the volcano as a very large, natural fondue pot. Except that
+ it's rock fondue, not cheese fondue down there.
+
+ Your blood feels like it's about to boil! Time to go!
+
+>search ledge
+ You can't see any such thing.
+
+>get lava
+ That's hardly portable.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+ You pass out from the heat, and fall into the VOLCANO! Ahhhhhh!!!
+
+
+     *** You have died ***
+
+
+ In that game you scored 0 out of a possible 0, in 140 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Lip of the Volcano
+ [Previous turn undone.]
+
+>examine rim
+ You can't see any such thing.
+
+>go south
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+ You hear a monkey chittering somewhere nearby.
+
+>examine rock
+ It's a piece of obsidian with a sharp edge. I think we'll call it...
+ knife.
+
+>take it
+ Well, hey, volcanic rock. Sure, let's take a rock!
+
+>get knife
+ You already have that.
+
+>go south
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+ There's a brief tremor, then it passes.
+
+>go west
+
+ Lonely Hill
+ This lonely hill might be a tranquil spot normally, but the dead sheep
+ rather spoils the mood. Forest is north and east of you, and more
+ pleasant areas are south and southeast.
+
+>cut stomach with knife
+ Using the sharp rock, you manage to saw the stomach free of the dead
+ sheep.
+
+>examine knife
+ It's a piece of obsidian with a sharp edge. I think we'll call it...
+ knife.
+
+ The ground shakes, slightly.
+
+>get rennet
+ You can't take the rennet without a suitable container. (Or without
+ taking the container it's already in.)
+
+ The ground shakes, slightly.
+
+>get stomach
+ Taken.
+
+ The ground shakes, slightly.
+
+>put rennet in milk
+ You need to be holding the quantity of rennet before you can put it
+ into something else.
+
+>go south
+
+ Oceanside Meadow
+ A grassy meadow covers this corner of the island. That seems plausible,
+ right? At any rate, several sheep and cows are here, taking advantage
+ of the grass and eating their full. Hills are to the north, towards the
+ volcano, and the camp lies east.
+
+ There's a brief tremor, then it passes.
+
+>go south
+
+ Lagoon
+ This natural lagoon is a perfect place for fishing. You wish your
+ friend Harley was here. Harley loved to go fishing with you when you
+ were kids. The camp is visible to the north, and the beach extends west
+ and east, and of course the ocean fills your view south, all the way to
+ the horizon.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>go east
+
+ Beach
+ Nice sandy beach. Shame you don't have time to just sit down and enjoy
+ it.
+
+>go east
+ Hm. A swim would be nice, but can't really justify doing that right
+ here and now.
+
+ The volcano noisily belches more smoke into the air.
+
+>go west
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ, Kari and Biff here.
+
+ Kari searches the camp.
+
+ Russ takes the west path.
+
+>go west
+
+ Oceanside Meadow
+ A grassy meadow covers this corner of the island. That seems plausible,
+ right? At any rate, several sheep and cows are here, taking advantage
+ of the grass and eating their full. Hills are to the north, towards the
+ volcano, and the camp lies east.
+
+ You can see Russ here.
+
+ Russ heads back east to camp.
+
+>go east
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ and Biff here.
+
+ Kari enters from the lagoon.
+
+ Russ heads south to the lagoon.
+
+>go north
+ You head north into the ...
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+>go northeast
+ You can't go that way.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>go northwest
+ You can't go that way.
+
+>go east
+
+ Village
+ A sparse looking village, but the "El Bakery" on the north side looks
+ most interesting to you. Forest shades the village from the west, and
+ paths lead southwest and south.
+
+ In the center of the village is a cannon.
+
+ Attached to the back end of the cannon is a mysterious black box.
+
+>go east
+ You can't go that way.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>go north
+
+ El Bakery
+ You've entered the best bakery on Krakatoa. The only bakery on
+ Krakatoa. There's a sign on the wall, and the exit is south.
+
+ The baker is here, hoping you'll buy some bread.
+
+ In one corner of the bakery, a baby is sleeping, nestled in blankets.
+
+>go south
+
+ Village
+ A sparse looking village, but the "El Bakery" on the north side looks
+ most interesting to you. Forest shades the village from the west, and
+ paths lead southwest and south.
+
+ In the center of the village is a cannon.
+
+ Attached to the back end of the cannon is a mysterious black box.
+
+>in
+
+ El Bakery
+ You've entered the best bakery on Krakatoa. The only bakery on
+ Krakatoa. There's a sign on the wall, and the exit is south.
+
+ The baker is here, hoping you'll buy some bread.
+
+ In one corner of the bakery, a baby is sleeping, nestled in blankets.
+
+ The volcano noisily belches more smoke into the air.
+
+>undo
+ Village
+ [Previous turn undone.]
+
+>go south
+
+ Beach
+ Nice sandy beach. Shame you don't have time to just sit down and enjoy
+ it.
+
+ The ground shakes, slightly.
+
+>undo
+ Village
+ [Previous turn undone.]
+
+>enter cannon
+ That's not something you can enter.
+
+>examine bamboo
+ It's hard to believe, but that's a tiny bamboo rocketship stuck in the
+ muzzle of the cannon, large enough to launch a monkey far over the
+ ocean. Is this what they do for fun around here? Jesus.
+
+>enter rocketship
+ That's not something you can enter.
+
+ The ground shakes, slightly.
+
+ Kari arrives from the southwest.
+
+>open it
+ That's not something you can open.
+
+ Kari wanders off, south.
+
+>examine rocketship
+ It's hard to believe, but that's a tiny bamboo rocketship stuck in the
+ muzzle of the cannon, large enough to launch a monkey far over the
+ ocean. Is this what they do for fun around here? Jesus.
+
+ The volcano noisily belches more smoke into the air.
+
+>go north
+
+ El Bakery
+ You've entered the best bakery on Krakatoa. The only bakery on
+ Krakatoa. There's a sign on the wall, and the exit is south.
+
+ The baker is here, hoping you'll buy some bread.
+
+ In one corner of the bakery, a baby is sleeping, nestled in blankets.
+
+ The ground shakes, slightly.
+
+>examine jor-el
+ You can't see any such thing.
+
+>examine baker
+ The baker is wearing a strange green tropical outfit. You can tell it's
+ tropical by the large sun emblem on his chest. He's also wearing a
+ headband instead of the expected chef's hat.
+
+>examine baby
+ The baby boy is sleeping soundly, and who wouldn't, comfortably wrapped
+ in three large blankets?
+
+>examine emblem
+ You can't see any such thing.
+
+>examine kal-el
+ The baby boy is sleeping soundly, and who wouldn't, comfortably wrapped
+ in three large blankets?
+
+>take blanket
+ That's not something you need to refer to in the course of this game.
+
+>unwrap baby
+ He's not something you can open.
+
+>get baby
+ I don't suppose baby would care for that.
+
+ The ground shakes, slightly.
+
+>wake baby
+ No one is asleep.
+
+>show crystal to baby
+ baby is unimpressed.
+
+>give crystal to baby
+ baby doesn't seem interested.
+
+>buy baby
+ Nothing is on sale.
+
+>examine baby
+ The baby boy is sleeping soundly, and who wouldn't, comfortably wrapped
+ in three large blankets?
+
+ You hear a monkey chittering somewhere nearby.
+
+>examine headband
+ That's not something you need to refer to in the course of this game.
+
+>shake baby
+ That's not a verb I recognize.
+
+>inventory
+ You are carrying:
+   a stomach
+     a quantity of rennet
+   a sharp rock
+   a fresh tuna fish
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle
+     a large quantity of milk
+   a bag of popcorn
+
+>get rennet
+ You can't take the rennet without a suitable container. (Or without
+ taking the container it's already in.)
+
+ The volcano noisily belches more smoke into the air.
+
+>put milk in stomach
+ You need to be holding the large quantity of milk before you can put it
+ into something else.
+
+>pour milk into stomach
+ That's not a verb I recognize.
+
+>look
+
+ El Bakery
+ You've entered the best bakery on Krakatoa. The only bakery on
+ Krakatoa. There's a sign on the wall, and the exit is south.
+
+ The baker is here, hoping you'll buy some bread.
+
+ In one corner of the bakery, a baby is sleeping, nestled in blankets.
+
+>go south
+
+ Village
+ A sparse looking village, but the "El Bakery" on the north side looks
+ most interesting to you. Forest shades the village from the west, and
+ paths lead southwest and south.
+
+ In the center of the village is a cannon.
+
+ Attached to the back end of the cannon is a mysterious black box.
+
+ You can also see Kari here.
+
+ Kari studies the cannon, carefully.
+
+>go east
+ You can't go that way.
+
+ Kari wanders off, south.
+
+>go south
+
+ Beach
+ Nice sandy beach. Shame you don't have time to just sit down and enjoy
+ it.
+
+ You can see Kari here.
+
+ Kari scans the horizon.
+
+>go east
+ Hm. A swim would be nice, but can't really justify doing that right
+ here and now.
+
+ Kari decides to go south.
+
+>go south
+
+ Lagoon
+ This natural lagoon is a perfect place for fishing. You wish your
+ friend Harley was here. Harley loved to go fishing with you when you
+ were kids. The camp is visible to the north, and the beach extends west
+ and east, and of course the ocean fills your view south, all the way to
+ the horizon.
+
+ You can see Kari here.
+
+ Kari heads back to camp.
+
+>go south
+ If you want to swim, just say so.
+
+>go east
+
+ Beach
+ Nice sandy beach. Shame you don't have time to just sit down and enjoy
+ it.
+
+>go west
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ, Kari and Biff here.
+
+ The volcano noisily belches more smoke into the air.
+
+ Kari looks at you suspiciously.
+
+>go south
+
+ Lagoon
+ This natural lagoon is a perfect place for fishing. You wish your
+ friend Harley was here. Harley loved to go fishing with you when you
+ were kids. The camp is visible to the north, and the beach extends west
+ and east, and of course the ocean fills your view south, all the way to
+ the horizon.
+
+ You hear a monkey chittering somewhere nearby.
+
+>go west
+
+ Oceanside Meadow
+ A grassy meadow covers this corner of the island. That seems plausible,
+ right? At any rate, several sheep and cows are here, taking advantage
+ of the grass and eating their full. Hills are to the north, towards the
+ volcano, and the camp lies east.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>go south
+
+ Lagoon
+ This natural lagoon is a perfect place for fishing. You wish your
+ friend Harley was here. Harley loved to go fishing with you when you
+ were kids. The camp is visible to the north, and the beach extends west
+ and east, and of course the ocean fills your view south, all the way to
+ the horizon.
+
+ You can see Russ here.
+
+ The volcano noisily belches more smoke into the air.
+
+ Russ walks west.
+
+>undo
+ Oceanside Meadow
+ [Previous turn undone.]
+
+>go west
+ You can't go that way.
+
+>go north
+
+ Lonely Hill
+ This lonely hill might be a tranquil spot normally, but the dead sheep
+ rather spoils the mood. Forest is north and east of you, and more
+ pleasant areas are south and southeast.
+
+ The ground shakes, slightly.
+
+>se
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ and Biff here.
+
+ Russ takes the northwest path.
+
+>undo
+ Lonely Hill
+ [Previous turn undone.]
+
+>go west
+ You can't go that way.
+
+ Russ enters from the southeast.
+
+>go north
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+>go northwest
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+ There's a brief tremor, then it passes.
+
+>go northwest
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+>go north
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+ The ground shakes, slightly.
+
+>go north
+
+ Lip of the Volcano
+ Wow. You're standing on a tiny ledge on the rim, or lip of the volcano.
+ The smoke is blowing into your face, and you can see molten lava far
+ below. Needless to say, it's extremely hot here, and quite a bit
+ dangerous.
+
+ Gah. Feel that heat! This is too much to endure for long!
+
+>go east
+ You can't go that way.
+
+ Your blood feels like it's about to boil! Time to go!
+
+>go west
+ You can't go that way.
+
+ There's a brief tremor, then it passes.
+
+ You pass out from the heat, and fall into the VOLCANO! Ahhhhhh!!!
+
+
+     *** You have died ***
+
+
+ In that game you scored 0 out of a possible 0, in 204 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Lip of the Volcano
+ [Previous turn undone.]
+
+>go south
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+>go east
+ You can't go that way.
+
+ The ground shakes, slightly.
+
+>go south
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+ You hear a monkey chittering somewhere nearby.
+
+>go east
+
+ Hidden Clearing
+ This hidden clearing near the base of the mountain might be
+ unremarkable except that it's the current home of a large glass bubble
+ and a most unusual man.
+
+ "Mon dieu!" exclaims the man, as he rushes to greet you.
+
+ There is some confusion, since he speaks only French, and you speak
+ only English, but he manages to tell you his name, Emil Petit, and then
+ he scratches the number 1888 on the ground, pointing to the bubble and
+ himself, frantically. What does he mean? Is he trying to say that he's
+ from 1888, and a time traveler?
+
+ As if to prove it, he tosses some grapes into the bubble and pushes a
+ white button. In an instant, the grapes age into raisins! He then
+ stifles a sob, and removes the raisins from the bubble. I guess the
+ bubble isn't supposed to work that way.
+
+ Then Emil shows points out a green crystal in the controls and asks you
+ a question. You shake your head in confusion, and he sadly shakes his
+ head in return.
+
+ You can see Emil and a glass bubble (which is empty) here.
+
+>SAVE
+>cf3
+ Enter saved game to store: Ok.
+
+>put milk in bubble
+ You pour the milk into the time bubble (glug, glug, glug). Emil opens
+ his mouth, then closes it again, and says nothing.
+
+>put rennet in bubble
+ You pour the rennet into the time bubble, and toss the sheep's stomach
+ away. Emil watches you curiously. The rennet and milk combine,
+ resulting in exquisitely curdled milk.
+
+>examine controls
+ The white button is labelled "activateur".
+
+ There's a brief tremor, then it passes.
+
+>press button
+ You push the white button. It's a miracle! The curdled milk rapidly
+ ages, and turns into cheese!
+
+ "C'est fromage!" Emil cries out in wonder.
+
+ The volcano noisily belches more smoke into the air.
+
+>get cheese
+ With a trembling hand, you extract the slab of cheese from the bubble,
+ solemnly break it in two, and give half to Emil. Staring at his half of
+ the cheese, tears running down his face, he blesses you, and then, in a
+ startling display of emotion, kisses both of your cheeks, crying,
+ "Merci! Merci beaucoup!"
+
+>kiss emil
+ But there's hidden tv cameras all over the place! It's not worth the
+ risk.
+
+ You hear a monkey chittering somewhere nearby.
+
+>inventory
+ You are carrying:
+   a slab of cheese
+   a sharp rock
+   a fresh tuna fish
+   a pointy stick
+   a glowing green crystal
+   a baguette
+   a five liter bottle (which is empty)
+   a bag of popcorn
+
+ There's a brief tremor, then it passes.
+
+>give crystal to emil
+ (the glowing green crystal to Emil)
+ "Sacrebleu!" Emil exclaims, as he grabs the glowing crystal from your
+ hand, and replaces the broken crystal with it. Muttering excitedly, he
+ fiddles with controls.
+
+ Then, Emil takes a deep breath, pushes the white button and hops into
+ the bubble. One heart beat, two, then the bubble vanishes!
+
+>slice bread
+ Cutting that up would achieve little.
+
+>put tuna on bread
+ Shouldn't you debone the tuna, first?
+
+>debone tuna
+ With what?
+
+>debone tuna with knife
+ You use the sharp rock to debone the tuna.
+
+ You hear a monkey chittering somewhere nearby.
+
+>put tuna on bread
+ You put the deboned tuna on the bread.
+
+>put cheese on tuna
+ You can't see any such thing.
+
+>put cheese on bread
+ You layer the cheese over the tuna. Looking good!
+
+>go west
+ The forest paths confuse you and you return to the clearing. (Psst, go
+ south.)
+
+ The ground shakes, slightly.
+
+>go south
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+ There's a brief tremor, then it passes.
+
+>go north
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+ The ground shakes, slightly.
+
+>go north
+
+ Lip of the Volcano
+ Wow. You're standing on a tiny ledge on the rim, or lip of the volcano.
+ The smoke is blowing into your face, and you can see molten lava far
+ below. Needless to say, it's extremely hot here, and quite a bit
+ dangerous.
+
+ Gah. Feel that heat! This is too much to endure for long!
+
+>cook sandwich
+ That's not a verb I recognize.
+
+>inventory
+ You are carrying:
+   a sharp rock
+   a pointy stick
+   a baguette
+   a five liter bottle (which is empty)
+   a bag of popcorn
+
+ Your blood feels like it's about to boil! Time to go!
+
+>put bread on stick
+ Putting things on the pointy stick would achieve nothing.
+
+ You pass out from the heat, and fall into the VOLCANO! Ahhhhhh!!!
+
+
+     *** You have died ***
+
+
+ In that game you scored 0 out of a possible 0, in 227 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Lip of the Volcano
+ [Previous turn undone.]
+
+>go south
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+>go north
+
+ Lip of the Volcano
+ Wow. You're standing on a tiny ledge on the rim, or lip of the volcano.
+ The smoke is blowing into your face, and you can see molten lava far
+ below. Needless to say, it's extremely hot here, and quite a bit
+ dangerous.
+
+ Gah. Feel that heat! This is too much to endure for long!
+
+>drop bread
+ Dropped.
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+ Your blood feels like it's about to boil! Time to go!
+
+>go south
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+>z.z.z.z
+ You waste a few precious minutes.
+
+ You hear a monkey chittering somewhere nearby.
+ You waste a few precious minutes.
+
+ You hear a monkey chittering somewhere nearby.
+ You waste a few precious minutes.
+ You waste a few precious minutes.
+
+ The volcano noisily belches more smoke into the air.
+
+>go north
+
+ Lip of the Volcano
+ Wow. You're standing on a tiny ledge on the rim, or lip of the volcano.
+ The smoke is blowing into your face, and you can see molten lava far
+ below. Needless to say, it's extremely hot here, and quite a bit
+ dangerous.
+
+ You can see a baguette here.
+
+ Gah. Feel that heat! This is too much to endure for long!
+
+>examine baguette
+ Your tuna melt sandwich is complete! Now take it back to the camp!
+
+ Your blood feels like it's about to boil! Time to go!
+
+>get baguette
+ Taken.
+
+ You hear a monkey chittering somewhere nearby.
+
+ You pass out from the heat, and fall into the VOLCANO! Ahhhhhh!!!
+
+
+     *** You have died ***
+
+
+ In that game you scored 0 out of a possible 0, in 237 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ Lip of the Volcano
+ [Previous turn undone.]
+
+>go south
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+ There's a brief tremor, then it passes.
+
+>go north
+
+ Lip of the Volcano
+ Wow. You're standing on a tiny ledge on the rim, or lip of the volcano.
+ The smoke is blowing into your face, and you can see molten lava far
+ below. Needless to say, it's extremely hot here, and quite a bit
+ dangerous.
+
+ You can see a baguette here.
+
+ The volcano noisily belches more smoke into the air.
+
+ Gah. Feel that heat! This is too much to endure for long!
+
+>get baguette
+ Taken.
+
+ The volcano noisily belches more smoke into the air.
+
+ Your blood feels like it's about to boil! Time to go!
+
+>go south
+
+ Mountainside
+ You're climbing the side of the volcano. There's not much here but
+ volcanic rock. You can head further up to the north, or go down into
+ the forest to the south.
+
+>inventory
+ You are carrying:
+   a baguette
+   a sharp rock
+   a pointy stick
+   a five liter bottle (which is empty)
+   a bag of popcorn
+
+>examine baguette
+ Your tuna melt sandwich is complete! Now take it back to the camp!
+
+>go south
+
+ Deeper Forest
+ You can easily believe you're far from home. You can't see much except
+ for trees, trees, and more trees in all directions, but at least they
+ provide some welcome shade.
+
+ You hear a monkey chittering somewhere nearby.
+
+>go south
+
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+>go south
+ You emerge out of the forest into ...
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Biff here.
+
+ You hear a monkey chittering somewhere nearby.
+
+>give sandwich to biff
+ "Is it? It is! A tuna melt! Ladies, and gentlemen, we have a winnah!
+ Anything you'd like to say to the folks at home?"
+
+
+     *** You have won ***
+
+
+ In that game you scored 0 out of a possible 0, in 245 turns.
+
+ Would you like to RESTART, RESTORE a saved game, UNDO your last move or
+ QUIT?
+>undo
+ "Challenge" Camp
+ [Previous turn undone.]
+
+>eat baguette
+ That's plainly inedible.
+
+>sell baguette
+ That's not a verb I recognize.
+
+>amusing
+ That's not a verb I recognize.
+
+>milk biff
+ Er, you can only milk female mammals. Did you skip biology class the
+ week they covered that?
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+ Russ walks in from the east.
+
+>look
+
+ "Challenge" Camp
+ The "Challenge" camp is set up just north of Krakatoa's southern
+ lagoon. Deep forest separates you from the smoking volcano to the
+ north, and other paths lead west, northwest, northeast, and east.
+
+ You can see Russ and Biff here.
+
+ Kari walks in from the west.
+
+ Russ takes the west path.
+
+>milk kari
+ Oh, that wouldn't be very polite. Not At All.
+
+ Kari heads south to the lagoon.
+
+>milk me
+ Er, you can only milk female mammals. Did you skip biology class the
+ week they covered that?
+
+ There's a brief tremor, then it passes.
+
+ Kari enters from the lagoon.
+
+>go northwest
+
+ Lonely Hill
+ This lonely hill might be a tranquil spot normally, but the dead sheep
+ rather spoils the mood. Forest is north and east of you, and more
+ pleasant areas are south and southeast.
+
+ Russ emerges from the forest, to the north.
+
+>examine sheep
+ This poor little lamb has lost its way. (baa baa baa)
+ It tripped and fell, and here he'll stay. (baa baa baa)
+ A predator ate its flesh away. (baa baa baa)
+ Its stomach, too, has gone astray. (baa baa baa)
+
+ The volcano noisily belches more smoke into the air.
+
+ Russ rubs something out of his eye.
+
+>go east
+
+ Deep Forest
+ You're in a deep forest with lots of those really tall trees with no
+ climbable branches in reach.
+
+ You can see Kari here.
+
+ There's a brief tremor, then it passes.
+
+ Kari ventures deeper into the forest, towards the volcano.
+
+>climb tree
+ You can't climb them. Honestly. And you don't need to. You think cheese
+ grows on trees? Or tuna? Or bread?
+
+ A parrot squawks as it flies overhead. Beautiful plumage.
+
+ A rustling in the forest floor alerts you to Kari's entrance, as she
+ arrives from the north.

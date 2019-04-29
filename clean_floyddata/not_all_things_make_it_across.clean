@@ -1,0 +1,1939 @@
+>load notallthings
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+ All around the city now, parties are taking place. It's been a hell of
+ a year, emphasis on hell.
+
+ But tonight, there are other things you have to do. The end of the year
+ is a threshold. And like all thresholds...
+
+ Not All Things Make It Across
+ An inventory by Bruno Dias
+ Release 2 / Serial number 161231 / Inform 7 build 6M62 (I6/v6.33 lib
+ 6/12N)
+
+ Safehouse Aleph
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (empty), a
+ desk (on which are a handkerchief, a tallow candle, the keener
+ fragment, a goathorn piece, a shred of fabric, a broken propeller, a
+ pint glass, and a trapped butterfly), and a chair here.
+
+ (If you would like explicit guidance on how to play, type INSTRUCTIONS)
+
+>instructions
+ the form "(verb)", "(verb) (noun)", or "(verb) (noun) on/into/at
+ (noun)". To complete this story and see most of the content, you will
+ want to use LOOK, EXAMINE (thing), PUT (thing) IN (container), TAKE
+ (thing), TOUCH (thing), and DROP (thing), but there are others you
+ could try. A few example commands to get you started:
+
+ EXAMINE ME
+ INVENTORY
+ EXAMINE PIECE
+ TOUCH PIECE
+
+>examine me
+
+> i
+
+>examine wastebasket
+ wrapped around it is a complex pattern in silver thread that makes your
+ eyes defocus if you try to follow it.
+
+ When midnight strikes, everything inside it will be destroyed. Even the
+ magical things that are ordinarily hard to dispose of. Especially the
+ magical things.
+
+>quit
+>look
+>y
+>load sleepmask notallthings
+ Aleph          Before midnight               0/6
+
+
+
+ All around the city now, parties are taking place. It's been a hell of
+ a year, emphasis on <span class="floydstyle em">hell.</span>
+
+ But tonight, there are other things you have to do. The end of the
+ year is a threshold. And like all thresholds...
+
+ <span class="floydstyle header">Not All Things Make It Across</span>
+ An inventory by Bruno Dias
+ Release 2 / Serial number 161231 / Inform 7 build 6M62 (I6/v6.33 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (empty),
+ a desk (on which are a handkerchief, a tallow candle, the keener
+ fragment, a goathorn piece, a shred of fabric, a broken propeller, a
+ pint glass, and a trapped butterfly), and a chair here.
+
+ <span class="floydstyle em">(If you would like explicit guidance on how to play, type</span>
+ <span class="floydstyle em">INSTRUCTIONS)</span>
+
+>instructions
+
+ This is a parser game; you can interact by typing commands, usually in
+ the form "(verb)", "(verb) (noun)", or "(verb) (noun) on/into/at
+ (noun)". To complete this story and see most of the content, you will
+ want to use LOOK, EXAMINE (thing), PUT (thing) IN (container), TAKE
+ (thing), TOUCH (thing), and DROP (thing), but there are others you
+ could try. A few example commands to get you started:
+
+ EXAMINE ME
+ INVENTORY
+ EXAMINE PIECE
+ TOUCH PIECE
+
+>score
+
+ There is no score in this story.
+
+>examine box
+
+ Just a cardboard box you salvaged from the bodega down the street.
+ Using paint made from wormwood and lead, you've marked it with a sigil
+ meant to keep its contents safe in transit.
+
+ <span class="floydstyle em">For packing in the things you want to keep.</span>
+
+>examine desk
+
+ A cheap writing desk out of a flatpack. There's not even drawers.
+
+ On the desk are a handkerchief, a tallow candle, the keener fragment,
+ a goathorn piece, a shred of fabric, a broken propeller, a pint glass,
+ and a trapped butterfly.
+
+>examine wormwood
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>look under desk
+
+ You find nothing of interest.
+
+>examine chair
+
+ You salvaged this one out of a bistro that was about to close.
+
+>inventory
+
+ You are carrying nothing.
+
+>get chair
+
+ That's fixed in place.
+
+>sit
+
+ What do you want to sit on?
+
+>chair
+
+ You get onto the chair.
+
+>examine handkerchief
+
+ An ordinary grey pocket square. You keep it on hand; it's useful for
+ handling things you'd rather not touch with bare skin.
+
+>examine candle
+
+ Made from tallow, with the dried optical nerve of a cow serving as the
+ wick. It burns unevently with a purple-white flame; it does not smell
+ great. The candle connects sight to memory and allows things to carry
+ echoes of their history.
+
+>examine fragment
+
+ It has no discernible physical shape. It's just a sullen, faded lump
+ of hatred, held together by its own surface tension, still radiating
+ horror.
+
+ <span class="floydstyle em">(You can TOUCH most things to learn more about them.)</span>
+
+>examine piece
+
+ A memento from twenty-odd years ago. <span class="floydstyle em">Gods, it's been that</span>
+ <span class="floydstyle em">long.</span> Its divine power is certainly faded, but you still hold on
+ to it for good luck. And, in all honesty, because gods have a bad
+ habit of being reborn from their pieces.
+
+>touch candle
+
+ You don't want to disturb it while it's burning. For all you know,
+ touching it might bring on a vision of the cow being slaughtered.
+
+>examine fabric
+
+ A torn shred of thick synthetic material that someone carefully scored
+ into a pattern that resembles feathers, or maybe scales.
+
+>examine propeller
+
+ The broken half of a small propeller made out of some carbon
+ composite; taken from the remains of a destroyed police drone.
+
+>touch fabric
+
+ (first taking the shred of fabric)
+ (first taking the handkerchief)
+ You gingerly take the shred of fabric with the handkerchief.
+
+ You grab hold of the shred of fabric with your bare hand, and your
+ vision swims for a lingering instant...
+
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle subheader">Vision: Rooftop, Sweltering</span>
+ Just after sunset, several stories up, still radiating the heat of the
+ day. A streak of blood runs across the edge of the building.
+
+>examine blood
+
+ A curved, triangular splatter. Not a gunshot; a fist. But produced
+ with abnormal force.
+
+>examine building
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>inventory
+
+ You are carrying:
+   a shred of fabric (held with your bare hand)
+   a handkerchief
+
+ <span class="floydstyle em">(Once you are done here, you can LET GO to return.)</span>
+
+>go down
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a shred of fabric to escape.
+
+>smell
+
+ Garbage baking in the sun all the way down in street-level; the ozone
+ promise of rain in the air.
+
+>listen
+
+ You hear nothing unexpected.
+
+>examine sky
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>jump
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a shred of fabric to escape.
+
+>taste
+
+ What do you want to taste?
+
+>fabric
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a shred of fabric to escape.
+
+>listen
+
+ You hear nothing unexpected.
+
+>touch blood
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a shred of fabric to escape.
+
+>let go
+
+ You let go of the shred of fabric, and the vision fades around you.
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (empty),
+ a desk (on which are a shred of fabric, a tallow candle, the keener
+ fragment, a goathorn piece, a broken propeller, a pint glass, and a
+ trapped butterfly), and a chair here.
+
+>examine glass
+
+ Which do you mean, the pint glass or the trapped butterfly?
+
+>pint
+
+ A pint glass, the conical kind with a flared bulge towards the top.
+ Faded lettering on the side spells out "Herrig's."
+
+>examine butterfly
+
+ A viceroy butterfly, perpetually flying laps inside a glass torus.
+ Breaking it out of its little time loop would have vast and
+ far-reaching consequences, just like doing literally anything else.
+ But figuring out what those consequences are for a given time and
+ place is a daunting task of divination.
+
+>touch butterfly
+
+ (first taking the trapped butterfly)
+ You gingerly take the trapped butterfly with the handkerchief.
+
+ You grab hold of the trapped butterfly with your bare hand, and your
+ vision swims for a lingering instant...
+
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle subheader">Vision: Shop, Cramped</span>
+ The back door is still swinging where the shopkeeper went in to fetch
+ something; the front door is caught closing as a customer walks away.
+ The item in your hand remembers, particularly, this tiny instant of
+ quiet between two doors slamming after an unwelcome visit, before
+ everything went to hell.
+
+ All around you, the shelves are filled with a panoply of bizarre
+ artifacts.
+
+>examine door
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>examine back door
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>smell
+
+ You smell nothing unexpected.
+
+>listen
+
+ You hear nothing unexpected.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on an empty
+ aquarium.
+
+>examine aquarium
+
+ Recently cleaned.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on a caged
+ crow.
+
+>examine crow
+
+ Asleeep in a brass cage.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on an empty
+ bell jar.
+
+>examine bell jar
+
+ Marked as sold.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on a Great
+ War gas mask.
+
+>examine gas mask
+
+ Mint condition.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on a coal
+ carving.
+
+>examine carving
+
+ The size of a human head and the shape of an inhuman head.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on a bottle
+ of faerie wine.
+
+>examine faerie wine
+
+ Curiously small and very, very old.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on a bottle
+ of faerie wine.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on a
+ collection of hands of glory.
+
+>examine hands of glory
+
+ Mummified and dipped in wax.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on a caged
+ crow.
+
+>examine artifacts
+
+ Your eyes roam over the shelf space, eventually settling on an empty
+ aquarium.
+
+>get hands
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a trapped butterfly to
+ escape.
+
+>examine front door
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>let go
+
+ You let go of the trapped butterfly, and the vision fades around you.
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (empty),
+ a desk (on which are a trapped butterfly, a shred of fabric, a tallow
+ candle, the keener fragment, a goathorn piece, a broken propeller, and
+ a pint glass), and a chair here.
+
+>touch chair
+
+ You feel nothing unexpected.
+
+>touch me
+
+ You achieve nothing by this.
+
+>xyzzy
+
+ That's not a verb I recognise.
+
+>look
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (empty),
+ a desk (on which are a trapped butterfly, a shred of fabric, a tallow
+ candle, the keener fragment, a goathorn piece, a broken propeller, and
+ a pint glass), and a chair here.
+
+>examine goathorn
+
+ A memento from twenty-odd years ago. <span class="floydstyle em">Gods, it's been that</span>
+ <span class="floydstyle em">long.</span> Its divine power is certainly faded, but you still hold on
+ to it for good luck. And, in all honesty, because gods have a bad
+ habit of being reborn from their pieces.
+
+>examine keener
+
+ It has no discernible physical shape. It's just a sullen, faded lump
+ of hatred, held together by its own surface tension, still radiating
+ horror.
+
+>touch propeller
+
+ (first taking the broken propeller)
+ You gingerly take the broken propeller with the handkerchief.
+
+ You grab hold of the broken propeller with your bare hand, and your
+ vision swims for a lingering instant...
+
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle subheader">Vision: Warehouse, Exploding</span>
+ A mess of fire and debris, stopped mid-detonation.
+
+>smell
+
+ Not like black powder, not like cordite. Acrid and sharp like some
+ kind of high explosive.
+
+>listen
+
+ You hear nothing unexpected.
+
+>examine fire
+
+ High-speed chunks of aluminum and composite polymers, turned into
+ expensive shrapnel; the remains of police drones, and maybe a fragment
+ or two of the bomb that set them off.
+
+>examine debris
+
+ High-speed chunks of aluminum and composite polymers, turned into
+ expensive shrapnel; the remains of police drones, and maybe a fragment
+ or two of the bomb that set them off.
+
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a broken propeller to escape.
+
+>examine propeller
+
+ The broken half of a small propeller made out of some carbon
+ composite; taken from the remains of a destroyed police drone.
+
+>turn propeller
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a broken propeller to escape.
+
+>wave propeller
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a broken propeller to escape.
+
+>let go
+
+ You let go of the broken propeller, and the vision fades around you.
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (empty),
+ a desk (on which are a broken propeller, a trapped butterfly, a shred
+ of fabric, a tallow candle, the keener fragment, a goathorn piece, and
+ a pint glass), and a chair here.
+
+>drink pint
+
+ There's nothing suitable to drink here.
+
+>touch glass
+
+ Which do you mean, the trapped butterfly or the pint glass?
+
+>touch pint
+
+ (first taking the pint glass)
+ You gingerly take the pint glass with the handkerchief.
+
+ You grab hold of the pint glass with your bare hand, and your vision
+ swims for a lingering instant...
+
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle subheader">Vision: Bar, Silent</span>
+ Rain on the windows turns the world outside into a yellowy haze;
+ upturned chairs rest on wooden tables.
+
+ And over the counter, a note changes hands between a bartender and a
+ patron.
+
+>examine note
+
+ A napkin with an address scrawled on. It corresponds to a peculiar
+ shop downtown.
+
+>examine bartender
+
+ Rough, tall, bulky; like everything in his bar he looks like he's made
+ out of hardwood and old magic.
+
+>examine patron
+
+ Average in build but oddly sharp-eyed; you notice her undercut, though
+ most of her is fuzzy. Whatever magic she's been tampering with has
+ given her so much of an aura that she seems to vibrate in the air,
+ there-and-not-there. And you know she isn't done, yet.
+
+>touch patron
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a pint glass to escape.
+
+>examine aura
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>smell
+
+ You smell nothing unexpected.
+
+>read note
+
+ A napkin with an address scrawled on. It corresponds to a peculiar
+ shop downtown.
+
+>smell patron
+
+ You smell nothing unexpected.
+
+>examine address
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>examine rain
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>examine tables
+
+ Oak.
+
+>examine chairs
+
+ Oak.
+
+>examine floor
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>examine bar
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+
+ Not at their cleanest, today.
+
+>clean windows
+
+ You are in a phantom of the past, a congealed instant; you can only
+ sense the world around you, or let go of a pint glass to escape.
+
+>let go
+
+ You let go of the pint glass, and the vision fades around you.
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (empty),
+ a desk (on which are a pint glass, a broken propeller, a trapped
+ butterfly, a shred of fabric, a tallow candle, the keener fragment,
+ and a goathorn piece), and a chair here.
+
+>touch piece
+
+ (first taking the goathorn piece)
+ You gingerly take the goathorn piece with the handkerchief.
+
+ You grab hold of the goathorn piece with your bare hand, and your
+ vision swims for a lingering instant...
+
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle subheader">Vision: Basement, 1994</span>
+ Dark and humid; silt has broken through the walls, the floor is
+ drowned in seawater, and the smell of rotting fish is everywhere.
+
+ And in the middle of the basement, a man speaks to a god of goats.
+
+>smell
+
+ Silt, saltwater, urea.
+
+>examine silt
+
+ Grey and rough.
+
+>examine walls
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>examine floor
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>examine seawater
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>examine basement
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>look
+
+ <span class="floydstyle subheader">Vision: Basement, 1994</span>
+ Dark and humid; silt has broken through the walls, the floor is
+ drowned in seawater, and the smell of rotting fish is everywhere.
+
+ And in the middle of the basement, a man speaks to a god of goats.
+
+>examine fish
+
+ A god of living goats and dead fish, caught in this place trying to
+ swallow modernity. Head of a goat, fishtail, united by a body obscured
+ under layers of hairshirt-like wool. Strange and bloodied. It would
+ eventually be swallowed, itself.
+
+>examine man
+
+ You already looked a bit unsteady, a bit rough around the edges, back
+ then.
+
+>look
+
+ <span class="floydstyle subheader">Vision: Basement, 1994</span>
+ Dark and humid; silt has broken through the walls, the floor is
+ drowned in seawater, and the smell of rotting fish is everywhere.
+
+ And in the middle of the basement, a man speaks to a god of goats.
+
+>listen
+
+ You hear nothing unexpected.
+
+>let go
+
+ You let go of the goathorn piece, and the vision fades around you.
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (empty),
+ a desk (on which are a goathorn piece, a pint glass, a broken
+ propeller, a trapped butterfly, a shred of fabric, a tallow candle,
+ and the keener fragment), and a chair here.
+
+>examine piece
+
+ A memento from twenty-odd years ago. <span class="floydstyle em">Gods, it's been that</span>
+ <span class="floydstyle em">long.</span> Its divine power is certainly faded, but you still hold on
+ to it for good luck. And, in all honesty, because gods have a bad
+ habit of being reborn from their pieces.
+
+>look
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (empty),
+ a desk (on which are a goathorn piece, a pint glass, a broken
+ propeller, a trapped butterfly, a shred of fabric, a tallow candle,
+ and the keener fragment), and a chair here.
+
+>touch fragment
+
+ (first taking the keener fragment)
+ You gingerly take the keener fragment with the handkerchief.
+
+ You grab hold of the keener fragment with your bare hand, and your
+ vision swims for a lingering instant...
+
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle subheader">Vision: Darkness</span>
+ IT HATES. IT HATES. IT HATES. IT HATES. IT HATES. IT HATES. IT HATES.
+
+
+>examine hate
+
+ It hates. It hates. It hates. It hates. It hates. It hates. It hates.
+ It hates.
+
+>smell
+
+ It hates. It hates. It hates. It hates.
+
+>examine it
+
+ It hates. It hates.
+
+>listen
+
+ It hates.
+
+>score
+
+ There is no score in this story.
+
+>dance
+
+ That's not a verb I recognise.
+
+>taste
+
+ What do you want to taste?
+
+>taste hate
+
+ It hates.
+
+ No, wait. Something's wrong.
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see the keener fragment, an engraved wastebasket (empty), a
+ cardboard box (empty), a desk (on which are a goathorn piece, a pint
+ glass, a broken propeller, a trapped butterfly, a shred of fabric, and
+ a tallow candle), and a chair here.
+
+ Your hands are still shaking. It seems you threw the thing down on the
+ floor with some force.
+
+>take hate
+
+ You gingerly take the keener fragment with the handkerchief.
+
+>put hate in wastebasket
+
+ You put the keener fragment into the wastebasket. You'll be really
+ glad to be rid of this thing; even in pieces, those have a mind of
+ their own. You could never track down who made the original device,
+ anyway, from just this small piece.
+
+>look
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (in which is the keener fragment),
+ a cardboard box (empty), a desk (on which are a goathorn piece, a pint
+ glass, a broken propeller, a trapped butterfly, a shred of fabric, and
+ a tallow candle), and a chair here.
+
+>get piece
+
+ You gingerly take the goathorn piece with the handkerchief.
+
+>examine box
+
+ Just a cardboard box you salvaged from the bodega down the street.
+ Using paint made from wormwood and lead, you've marked it with a sigil
+ meant to keep its contents safe in transit.
+
+>put goathorn in box
+
+ You put the goathorn piece into the box. It's probably safe to keep,
+ anyway. And besides, it complements the telling of the story of how
+ you came to possess it.
+
+>take fabric
+
+ You gingerly take the shred of fabric with the handkerchief.
+
+>examine box
+
+ Just a cardboard box you salvaged from the bodega down the street.
+ Using paint made from wormwood and lead, you've marked it with a sigil
+ meant to keep its contents safe in transit.
+
+ In the cardboard box is a goathorn piece.
+
+>put fabric in wastebasket
+
+ You put the shred of fabric into the wastebasket. That case is closed,
+ anyway, and you travel light.
+
+>get propeller
+
+ You gingerly take the broken propeller with the handkerchief.
+
+>put propeller in wastebasket
+
+ You put the broken propeller into the wastebasket. I mean, it's really
+ just mundane trash, but you kept it for a while as a reminder that
+ they're not invincible.
+
+>look
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (in which are a broken propeller,
+ a shred of fabric, and the keener fragment), a cardboard box (in which
+ is a goathorn piece), a desk (on which are a pint glass, a trapped
+ butterfly, and a tallow candle), and a chair here.
+
+>get pint
+
+ You gingerly take the pint glass with the handkerchief.
+
+>put pint in box
+
+ You put the pint glass into the box. It has sentimental value. Plus,
+ it's hard to get another one given that Herrig kind of despises you.
+
+>get butterfly
+
+ You gingerly take the trapped butterfly with the handkerchief.
+
+>put butterfly in box
+
+ You put the trapped butterfly into the box. Sure, in retrospect this
+ is hardly the most useful thing to grab and run out of a fire in a
+ magic shop, but hindsight is 20/20.
+
+ There; it's done. You've picked what to keep and what to discard from
+ the past. A cleaner entry into another year of struggle.
+
+ Nobody has fun on new year's eve anyway; the pressure is too much. So
+ you might as well spend it choosing what to take and what to leave
+ behind. A year in this city has shown you enough things that you'd
+ rather not have seen.
+
+ You light a cigarette while you wait out the last few moments. You
+ don't hear the <span class="floydstyle em">snap</span> of the wastebasket vanishing into thin
+ air at midnight; it's drowned out by the crackle of fireworks outside.
+ But you smell ozone in the air, and feel the telltale vibration of
+ something ceasing to exist.
+
+
+     *** Happy new year ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, or read the author's AFTERWORD?
+>afterword
+
+ <span class="floydstyle em">Not All Things Make it Across</span> was written in December 2016
+ for the occasion of New Year's Eve. It's set in the same universe as
+ <span class="floydstyle em">Cape</span> and <span class="floydstyle em">Mere Anarchy</span>, and shares a player character
+ with <span class="floydstyle em">The World Turned Upside Down</span> and <span class="floydstyle em">Four Sittings in a</span>
+ <span class="floydstyle em">Sinking House</span>. It is, therefore, even more self-indulgent than
+ the December game I wrote in 2015.
+
+ As always, I can be reached on Twitter (@notbrunoagain).
+
+ Special thanks in no particular order to Cat Manning, Katherine
+ Morayati, Brendan Patrick Hennessy, furkle, juxi, Sam Kabo Ashwell,
+ Astrid Dalmady, Hannah Flynn, Liam MacDonald, Adam Myers, Liam Welton,
+ Samuel Partridge, Jason Macintosh, Caleb Wilson, Doug Orleans, Emily
+ Short, verityvirtue, Kevin Snow, and everyone else who aided,
+ supported, and read my work in 2016.
+
+ Bruno Dias
+ December 30th, 2016
+
+ <span class="floydstyle em">(You can read this again by typing AFTERWORD anywhere in the</span>
+ <span class="floydstyle em">game)</span>
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, or read the author's AFTERWORD?
+>undo
+
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ [Previous turn undone.]
+
+>look
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (in which are a broken propeller,
+ a shred of fabric, and the keener fragment), a cardboard box (in which
+ are a pint glass and a goathorn piece), a desk (on which is a tallow
+ candle), and a chair here.
+
+>blow candle
+
+ That's not a verb I recognise.
+
+>turn off candle
+
+ You don't want to disturb it while it's burning. For all you know,
+ touching it might bring on a vision of the cow being slaughtered.
+
+>enter wastebasket
+
+ That's not something you can enter.
+
+>get basket
+
+ You would really, <span class="floydstyle em">really</span> rather not be holding it when it
+ goes off.
+
+>burn basket
+
+ This dangerous act would achieve little.
+
+>get box
+
+ You'll carry it out soon enough.
+
+>enter box
+
+ That's not something you can enter.
+
+>put box in basket
+
+ You don't need to concern yourself with the cardboard box; it's
+ actually perfectly ordinary.
+
+>listen
+
+ You hear nothing unexpected.
+>put handkerchief in basket
+
+
+ You don't need to concern yourself with the handkerchief; it's
+ actually perfectly ordinary.
+
+>smell
+
+ Normally you keep the place pretty clean and thus neutral-scented, but
+ the candle is burning in here right now.
+
+>put candle in basket
+
+ You'll dispose of the candle properly once it's done burning.
+
+>put basket in box
+
+ You don't need to concern yourself with the engraved wastebasket; it's
+ actually perfectly ordinary.
+
+>put self in box
+
+ You don't need to concern yourself with yourself; it's actually
+ perfectly ordinary.
+
+>read engraving
+
+ <span class="floydstyle em">(That thing is either not here, or you don't need to refer it over</span>
+ <span class="floydstyle em">the course of the story.)</span>
+
+>read basket
+
+ It's an ordinary wastebasket, a cylinder of black aluminum. But
+ wrapped around it is a complex pattern in silver thread that makes
+ your eyes defocus if you try to follow it.
+
+ In the engraved wastebasket are a broken propeller, a shred of fabric,
+ and the keener fragment.
+
+ <span class="floydstyle em">When midnight strikes, everything inside it will be destroyed.</span>
+ <span class="floydstyle em">Even the magical things that are ordinarily hard to dispose of.</span>
+ <span class="floydstyle em">Especially the magical things.</span>
+
+>get all from box
+
+ <span class="floydstyle em">(You will have to refer to things individually in this</span>
+ <span class="floydstyle em">story.)</span>
+
+>examine basket
+
+ It's an ordinary wastebasket, a cylinder of black aluminum. But
+ wrapped around it is a complex pattern in silver thread that makes
+ your eyes defocus if you try to follow it.
+
+ In the engraved wastebasket are a broken propeller, a shred of fabric,
+ and the keener fragment.
+
+>get propeller
+
+ (first putting the trapped butterfly back on the desk)
+ You gingerly take the broken propeller with the handkerchief.
+
+>get fabric. get fragment
+
+ (first putting the broken propeller back on the desk)
+ You gingerly take the shred of fabric with the handkerchief.
+
+ (first putting the shred of fabric back on the desk)
+ You gingerly take the keener fragment with the handkerchief.
+
+>look
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ All the units in this old building have been divided and subdivided
+ until they're dangerously cramped.  The apartment is much as you found
+ it; a year is not so long, and you'll be gone soon.
+
+ You can see an engraved wastebasket (empty), a cardboard box (in which
+ are a pint glass and a goathorn piece), a desk (on which are a shred
+ of fabric, a broken propeller, a trapped butterfly, and a tallow
+ candle), and a chair here.
+
+>put propeller in box. put fragment in box. put fabric in box.
+
+ (first taking the broken propeller)
+ (first putting the keener fragment back on the desk)
+ You gingerly take the broken propeller with the handkerchief.
+
+ You put the broken propeller into the box. Might as well keep it; it's
+ not like you're not basically made out of incriminating evidence.
+
+ (first taking the keener fragment)
+ You gingerly take the keener fragment with the handkerchief.
+
+ You put the keener fragment into the box. You're loathe to keep it,
+ but it might still lead you back to where the original keener was
+ made... or to the person who used it.
+
+ (first taking the shred of fabric)
+ You gingerly take the shred of fabric with the handkerchief.
+
+ You put the shred of fabric into the box. Shreds of clothing are
+ usually not that useful as sympathetic tokens, but this one has
+ special significance. Maybe you should keep it as insurance. Just in
+ case your friend gets out of line.
+
+>put butterfly in box
+
+ (first taking the trapped butterfly)
+ You gingerly take the trapped butterfly with the handkerchief.
+
+ You put the trapped butterfly into the box. Sure, in retrospect this
+ is hardly the most useful thing to grab and run out of a fire in a
+ magic shop, but hindsight is 20/20.
+
+ In the end, you're too much of a pack rat to really leave anything
+ behind. Particularly in such a definitive way. But it's the exercise
+ of choosing that counts; if you're going to carry all those memories
+ along with you, let it be because you think they matter.
+
+ Nobody has fun on new year's eve anyway; the pressure is too much. So
+ you might as well spend it choosing what to take and what to leave
+ behind. A year in this city has shown you enough things that you'd
+ rather not have seen.
+
+ You light a cigarette while you wait out the last few moments. You
+ don't hear the <span class="floydstyle em">snap</span> of the wastebasket vanishing into thin
+ air at midnight; it's drowned out by the crackle of fireworks outside.
+ But you smell ozone in the air, and feel the telltale vibration of
+ something ceasing to exist.
+
+
+     *** Happy new year ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, or read the author's AFTERWORD?
+>undo
+
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ [Previous turn undone.]
+
+>put butterfly in wastebasket
+
+ (first taking the trapped butterfly)
+ You gingerly take the trapped butterfly with the handkerchief.
+
+ You put the trapped butterfly into the wastebasket. It's kind of sad
+ destroying this, since it's one of a kind, but it's also useless and
+ bizarrely cruel.
+
+ There; it's done. You've picked what to keep and what to discard from
+ the past. A cleaner entry into another year of struggle.
+
+ Nobody has fun on new year's eve anyway; the pressure is too much. So
+ you might as well spend it choosing what to take and what to leave
+ behind. A year in this city has shown you enough things that you'd
+ rather not have seen.
+
+ You light a cigarette while you wait out the last few moments. You
+ don't hear the <span class="floydstyle em">snap</span> of the wastebasket vanishing into thin
+ air at midnight; it's drowned out by the crackle of fireworks outside.
+ But you smell ozone in the air, and feel the telltale vibration of
+ something ceasing to exist.
+
+
+     *** Happy new year ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, or read the author's AFTERWORD?
+>undo
+
+
+ <span class="floydstyle subheader">Safehouse Aleph</span>
+ [Previous turn undone.]
+
+>examine box
+
+ Just a cardboard box you salvaged from the bodega down the street.
+ Using paint made from wormwood and lead, you've marked it with a sigil
+ meant to keep its contents safe in transit.
+
+ In the cardboard box are a shred of fabric, the keener fragment, a
+ broken propeller, a pint glass, and a goathorn piece.
+
+>put fabric in wastebasket
+
+ (first taking the shred of fabric)
+ You gingerly take the shred of fabric with the handkerchief.
+
+ You put the shred of fabric into the wastebasket. That case is closed,
+ anyway, and you travel light.
+
+>put keener in wastebasket. put propeller in wastebasket
+
+ (first taking the keener fragment)
+ You gingerly take the keener fragment with the handkerchief.
+
+ You put the keener fragment into the wastebasket. You'll be really
+ glad to be rid of this thing; even in pieces, those have a mind of
+ their own. You could never track down who made the original device,
+ anyway, from just this small piece.
+
+ (first taking the broken propeller)
+ You gingerly take the broken propeller with the handkerchief.
+
+ You put the broken propeller into the wastebasket. I mean, it's really
+ just mundane trash, but you kept it for a while as a reminder that
+ they're not invincible.
+
+>examine box
+
+ Just a cardboard box you salvaged from the bodega down the street.
+ Using paint made from wormwood and lead, you've marked it with a sigil
+ meant to keep its contents safe in transit.
+
+ In the cardboard box are a pint glass and a goathorn piece.
+
+>put pint in wastebasket
+
+ (first taking the pint glass)
+ You gingerly take the pint glass with the handkerchief.
+
+ You put the pint glass into the wastebasket. To be quite honest,
+ you're not sure if these are even enchanted. You nicked one hoping it
+ had some kind of self-cleaning charm on it, but no such luck.
+
+>put goathorn in wastebasket
+
+ (first taking the goathorn piece)
+ You gingerly take the goathorn piece with the handkerchief.
+
+ You put the goathorn piece into the wastebasket. You've told that
+ story a couple of times now, but maybe it's time to bury that body;
+ the old fish-goat still shows up ever so often in your nightmares,
+ crying about the concept of cheese.
+
+>put butterfly in wastebasket
+
+ (first taking the trapped butterfly)
+ You gingerly take the trapped butterfly with the handkerchief.
+
+ You put the trapped butterfly into the wastebasket. It's kind of sad
+ destroying this, since it's one of a kind, but it's also useless and
+ bizarrely cruel.
+
+ It's been, in the ways that count, and awful year. Nobody will blame
+ you for throwing out what little good there is, along with all the
+ bad. You try not to let your mind form the words "fresh start"; there
+ has never been one, and never will be.
+
+ Nobody has fun on new year's eve anyway; the pressure is too much. So
+ you might as well spend it choosing what to take and what to leave
+ behind. A year in this city has shown you enough things that you'd
+ rather not have seen.
+
+ You light a cigarette while you wait out the last few moments. You
+ don't hear the <span class="floydstyle em">snap</span> of the wastebasket vanishing into thin
+ air at midnight; it's drowned out by the crackle of fireworks outside.
+ But you smell ozone in the air, and feel the telltale vibration of
+ something ceasing to exist.
+
+
+     *** Happy new year ***
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, or read the author's AFTERWORD?
+>hit the sack
+
+ Please give one of the answers above.
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, or read the author's AFTERWORD?
+>load sleepmask theworldturnedupsidedown
+
+ Please give one of the answers above.
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, or read the author's AFTERWORD?
+>quit
+ cheapglulxe quit with exit status: 0
+>load sleepmask theworldturnedupsidedown
+
+
+
+
+ <span class="floydstyle em">    Our Lords and Knights, and Gentry too, doe mean old fashions</span>
+ <span class="floydstyle em">to forgoe:</span>
+ <span class="floydstyle em">    They set a porter at the gate, that none must enter in</span>
+ <span class="floydstyle em">thereat.</span>
+ <span class="floydstyle em">    They count it a sin, when poor people come in.</span>
+ <span class="floydstyle em">    Hospitality it selfe is drown'd.</span>
+ <span class="floydstyle em">    Yet let's be content, and the times lament, you see the world</span>
+ <span class="floydstyle em">turn'd upside down.</span>
+
+ <span class="floydstyle em">    -- Anonymous English Civil War tract</span>
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle subheader">The World Turned Upside Down</span>
+ A Cape side story by Bruno Dias
+ Release 2 / Serial number 151224 / Inform 7 build 6L38 (I6/v6.33 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">Closing Time (behind the bar)</span>
+ It's five to three on the last Saturday before Christmas; the green
+ glass light fixtures hanging over the bar have been dimmed, dirty
+ frost speckles the windows, and the hazy scent of alcoholic vomit
+ emanating from the toilets has subdued to a minor note in the far
+ background of the olfactory panoply that fills Herrig's.
+
+ The last few regulars left in the place have coalesced into a single
+ group, huddled around the corner table.
+
+ <span class="floydstyle em">(You can complete this story with only the verbs EXAMINE, WAIT,</span>
+ <span class="floydstyle em">and INTERJECT when prompted; type NOTES at any time to read the</span>
+ <span class="floydstyle em">author's note.)</span>
+
+>examine regulars
+
+
+ There's Skóa, of course, with the hat; and Jamessin smoking sullenly
+ in the corner. Chow reads quietly in her wide chair, silently enjoying
+ the presence of her friends Ramos (with the centipede familiar) and
+ Grin (with the oversized scarf).
+
+ The floorboards crack and pop underfoot.
+
+>examine centipede
+
+
+ A tube of flesh hidden beneath an armature of mottled red and black,
+ studded with numerous sharp yellow legs, clinging to Ramos' shoulder
+ and neck like the worst/greatest feather boa. Sometimes it taps his
+ collarbone with one of its scraping limbs, as though to remind him of
+ something.
+
+ A cat perches outside one of the windows, then disappears again.
+
+>examine hat
+
+
+ You force your eyes to focus on the hat for a moment: It's shaped like
+ an abstract paper chrysanthemum, perched on her head at an improbable
+ angle. It moves, not with the drafty air inside the bar but of its own
+ volition, like a breathing flower.
+
+ The floorboards crack and pop underfoot.
+
+>examine scarf
+
+
+ It's pretty much ever color at one point or another; it looks very
+ much like someone finished a scarf, then just started the next one by
+ continuing that same scarf, several times over, until they had a beast
+ that resembled six or seven different scarves joined end to end into a
+ cozy chimera.
+
+ A cat perches outside one of the windows, then disappears again.
+
+ The door swings open to let someone in from the outside; given the
+ hour, and the events of the last few days, you can't help but set your
+ fingers behind the bar into an unpleasant pattern, readying some curse
+ or another. But then you see the man's face and your apprehension is
+ replaced by mild annoyance.
+
+ "We're closed," you say.
+
+ "Didn't come here to drink," he replies, giving you the look that
+ tells you he's about to rope you into something.
+
+>examine me
+
+
+ Much like the bar: A little rough around the edges, a little worse for
+ wear.
+
+ The table of regulars laughs together; except, of course, for Grin.
+
+ You fail to contain a sigh. "Why are you even here?"
+
+ "Oh, just having a look at the old place. Didn't know that I would
+ still find it." He talks with an odd lilt that you've been told is
+ Welsh.
+
+ "What's that supposed to mean?"
+
+>examine grin
+
+
+ So named because he doesn't. Grin likes to hang around, listen, figure
+ out where the wind is blowing. He has a tendency to disappear for
+ weeks at a time. Other than that, all you know about him is that he's
+ from someplace warmer than Yeats; right now, in the middle of winter,
+ his head barely pokes out of the enormous scarf wrapped several times
+ around his neck and face.
+
+ Skóa takes a drink out of her glass.
+
+ "Didn't half the wizards in this city get killed or worse last year?"
+
+ You shrug. "They weren't my customers."
+
+ "Still. Must have been some trouble."
+
+ <span class="floydstyle em">(You could INTERJECT here)</span>
+
+>examine man
+
+
+ (Ainsley)
+ Ainsley is one of those people who always looks like he's lost weight,
+ skin hanging slightly too loose off his bones like there used to be
+ more of him; but you've never seem him any thicker. Maybe he puffs up
+ when he's back across the ocean where he's from. Wears a
+ professorial-looking argyle sweater vest and a calculated two-day
+ nonbeard. Though you've never seen him do actual magic, of all the
+ joints in all the cities in the world he likes to roll into yours,
+ once every few months, when he's in town.
+
+ Ramos nods silently in response to some unseen signal or message from
+ his familiar.
+
+ "Come on, Ainsley," you say, getting plainly frustrated now. "Just
+ tell me what this is about."
+
+ He cocks his head and stares you down curiously, for a moment. And
+ then he pulls out a slightly oversized phone. He flips through
+ pictures of what looks like a blur smeared against the night sky;
+ after a few of them, though, it resolves itself in your mind as a
+ vaguely human figure, leaping across rooftops; or maybe flying. You
+ can't quite tell.
+
+ "You wouldn't happen to know anything about this, would you?"
+
+ <span class="floydstyle em">(You could INTERJECT here)</span>
+
+>interject
+
+
+ "Yeah, okay. There's some rumors going around. A lot of them. The
+ incident with the keener left a bit of a power vacuum. What was left
+ of the cabal is now wrestling to see who comes out on top. Let's just
+ say I don't cross the bridges no more."
+
+ "I can imagine."
+
+ "So there's this person going around Blaise sending people to the
+ hospital. Some people think it's just a weird mundane in a costume,
+ some people think it's a player. Fucked if I know how to get in touch,
+ though."
+
+ He purses his lips; the smell of Jamessin's cigarette must be giving
+ him cravings.
+
+ "Better than nothing, at least. Thanks."
+
+ The table of regulars laughs together; except, of course, for Grin.
+
+>inventory
+
+
+ You are carrying:
+   a rag
+   a crow cameo
+
+ Ramos takes a drink out of his glass.
+
+ "What's your real angle here?"
+
+ "Trouble back home. I'm putting a team together. Figured whoever's
+ been beating up drug dealers is the kind of person who can help."
+
+ Your eyes leap into the back of your skull faster than you can stop
+ yourself.
+
+ "You flew all the way to Yeats to recruit a latex fetishist to go fix
+ one of your fuck-ups."
+
+ "It's serious. Scary shit I hoped I'd never see again."
+
+ <span class="floydstyle em">(You could INTERJECT here)</span>
+
+>interject
+
+
+ You shake your head, more at yourself than at him. "Fine. If it gets
+ you off my back. You see the one in the corner with the oversized
+ scarf? That's Grin. He might know what's up."
+
+ "Don't suppose you might serve me a drink, now?"
+
+ "Don't push your luck. And I hope you don't plan on staying in town
+ for more than a couple days."
+
+ "Wouldn't dream of it."
+
+
+
+     <span class="floydstyle i">*** an ending ***</span>
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the
+ last command?
+>undo
+
+
+ <span class="floydstyle subheader">Closing Time</span>
+ [Previous turn undone.]
+
+>examine crow
+
+
+ A layer of onyx finely glued onto a layer of iridescent labradorite,
+ then carved so that the onyx resembles a crow's head emerging from the
+ eerie glow of the white-cyan stone underneath. "For protection," she
+ said, on the last night you saw her in this bar. It still hums a tiny
+ bit with her aura, pointing faintly towards some distant path.
+
+ Chow gives Ainsley a curious look from the corner table
+ You give him one last shrug. "Maybe try someone else's bar for once."
+
+ He doesn't respond; there's no other bar and he knows that. He just
+ walks out dejectedly. You give the countertop one last wipe down,
+ sighing. "We're closing," you announce to the people at the corner
+ table.
+
+
+
+     <span class="floydstyle i">*** an ending ***</span>
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the
+ last command?
+>undo
+
+
+ <span class="floydstyle subheader">Closing Time</span>
+ [Previous turn undone.]
+
+>give cameo to ainsley
+
+
+ Ainsley doesn't seem interested.
+
+ You notice the random flickering of the lights outside.
+
+ You give him one last shrug. "Maybe try someone else's bar for once."
+
+ He doesn't respond; there's no other bar and he knows that. He just
+ walks out dejectedly. You give the countertop one last wipe down,
+ sighing. "We're closing," you announce to the people at the corner
+ table.
+
+
+
+     <span class="floydstyle i">*** an ending ***</span>
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the
+ last command?
+>restart
+
+
+
+
+ <span class="floydstyle em">    Our Lords and Knights, and Gentry too, doe mean old fashions</span>
+ <span class="floydstyle em">to forgoe:</span>
+ <span class="floydstyle em">    They set a porter at the gate, that none must enter in</span>
+ <span class="floydstyle em">thereat.</span>
+ <span class="floydstyle em">    They count it a sin, when poor people come in.</span>
+ <span class="floydstyle em">    Hospitality it selfe is drown'd.</span>
+ <span class="floydstyle em">    Yet let's be content, and the times lament, you see the world</span>
+ <span class="floydstyle em">turn'd upside down.</span>
+
+ <span class="floydstyle em">    -- Anonymous English Civil War tract</span>
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle subheader">The World Turned Upside Down</span>
+ A Cape side story by Bruno Dias
+ Release 2 / Serial number 151224 / Inform 7 build 6L38 (I6/v6.33 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">Closing Time (behind the bar)</span>
+ It's five to three on the last Saturday before Christmas; the green
+ glass light fixtures hanging over the bar have been dimmed, dirty
+ frost speckles the windows, and the hazy scent of alcoholic vomit
+ emanating from the toilets has subdued to a minor note in the far
+ background of the olfactory panoply that fills Herrig's.
+
+ The last few regulars left in the place have coalesced into a single
+ group, huddled around the corner table.
+
+ <span class="floydstyle em">(You can complete this story with only the verbs EXAMINE, WAIT,</span>
+ <span class="floydstyle em">and INTERJECT when prompted; type NOTES at any time to read the</span>
+ <span class="floydstyle em">author's note.)</span>
+
+>notes
+
+
+ <span class="floydstyle em">This is a very short story written very quickly on occasion of</span>
+ <span class="floydstyle em">December 2015, as a brief thank-you note to everyone who's read,</span>
+ <span class="floydstyle em">supported, or helped my IF work over the course of the preceding year.</span>
+ <span class="floydstyle em">It is small and wholly self-indulgent; as always, you can reach me on</span>
+ <span class="floydstyle em">Twitter @notbrunoagain.</span>
+
+ <span class="floydstyle em">Special thanks in no particular order to Jason McIntosh, Doug</span>
+ <span class="floydstyle em">Orleans, Caleb Wilson, Tory Hoke, Etienne Vouga, Emily Short, David</span>
+ <span class="floydstyle em">Cornelson, Carolyn van Eseltine, Aaron Reed, Neil Butters, Cat</span>
+ <span class="floydstyle em">Manning, Kerstin Hall, and surely many others who have read, played,</span>
+ <span class="floydstyle em">contributed, and helped me in 2015.</span>
+
+ <span class="floydstyle em">Bruno Dias</span>
+ <span class="floydstyle em">December 24th, 2015</span>
+
+
+>interject
+
+
+ You're not talking to anyone right now.
+
+>drop cameo
+
+
+ Dropped.
+
+>look
+
+
+ <span class="floydstyle subheader">Closing Time (behind the bar)</span>
+ It's three minutes to three on the last Saturday before Christmas; the
+ green glass light fixtures hanging over the bar have been dimmed,
+ dirty frost speckles the windows, and the hazy scent of alcoholic
+ vomit emanating from the toilets has subdued to a minor note in the
+ far background of the olfactory panoply that fills Herrig's.
+
+ The last few regulars left in the place have coalesced into a single
+ group, huddled around the corner table.
+
+ You can also see a crow cameo here.
+
+>clean bar with rag
+
+
+ I only understood you as far as wanting to clean the bar.
+
+>clean bar
+
+
+ You rub the bar.
+
+>examine rag
+
+
+ You don't strictly need it, but it helps people read you as the
+ bartender.
+
+ Your eyes drift inexorably to the group of regulars huddled around the
+ table, taking stock of them.
+
+ There's Skóa, of course, with the hat; and Jamessin smoking sullenly
+ in the corner. Chow reads quietly in her wide chair, silently enjoying
+ the presence of her friends Ramos (with the centipede familiar) and
+ Grin (with the oversized scarf).
+
+>examine chow
+
+
+ Chow is Skóa's physical opposite: Short, brown-skinned, slightly round
+ about the cheeks and quite round about the body. But the two have the
+ same cold, frighteningly perceptive eyes in common. Chow seems to
+ enjoy mostly the vague warmth of others' company; she fills space by
+ reading a book. You didn't quite glimpse its cover.
+
+ Ramos nods silently in response to some unseen signal or message from
+ his familiar.
+
+>examine book
+
+
+ You force your eyes to focus on the cover of the book: It's not old as
+ in really old, just weatherbeaten and outdated. It's some pulpy thing
+ with a screaming woman on the cover and a suitably absurd title:
+ <span class="floydstyle em">The Return of the Worm</span>.
+
+ The floorboards crack and pop underfoot.
+
+>examine floorboards
+
+
+ <span class="floydstyle em">(That's not something you need to refer to in the course of this</span>
+ <span class="floydstyle em">story.)</span>
+
+>examine skoa
+
+
+ She is built much like the human version of an ancient birch tree:
+ pale, tall, and slightly ominous-looking. This isn't helped by her
+ propensity for a sort of post-post businesspunk wardrobe, though
+ tonight she chose to break her somber figure by wearing a curious
+ fascinator that you can't quite resolve with your eyes.
+
+ Someone's phone squawks with a notification; nobody looks.
+
+>examine fascinator
+
+
+ You force your eyes to focus on the hat for a moment: It's shaped like
+ an abstract paper chrysanthemum, perched on her head at an improbable
+ angle. It moves, not with the drafty air inside the bar but of its own
+ volition, like a breathing flower.
+
+ The table of regulars laughs together; except, of course, for Grin.
+
+ The door swings open to let someone in from the outside; given the
+ hour, and the events of the last few days, you can't help but set your
+ fingers behind the bar into an unpleasant pattern, readying some curse
+ or another. But then you see the man's face and your apprehension is
+ replaced by mild annoyance.
+
+ "We're closed," you say.
+
+ "Didn't come here to drink," he replies, giving you the look that
+ tells you he's about to rope you into something.
+
+>examine jamessin
+
+
+ Jamessin is the youngest one in this crowd, though she's eager to make
+ it clear at all times that she's nobody's apprentice. Tonight,
+ something has her nervous; she's on her third cigarette now, still
+ fiddling with the flame she produces from a slightly singed fingertip.
+ Plenty going around to make someone rattled, of course.
+
+ Someone looks at their phone and laughs at a private joke.
+
+ You fail to contain a sigh. "Why are you even here?"
+
+ "Oh, just having a look at the old place. Didn't know that I would
+ still find it." He talks with an odd lilt that you've been told is
+ Welsh.
+
+ "What's that supposed to mean?"
+
+>examine phone
+
+
+ <span class="floydstyle em">(That's not something you need to refer to in the course of this</span>
+ <span class="floydstyle em">story.)</span>
+
+>examine ramos
+
+
+ Gruff-looking and punkish, but ultimately good natured. Of course,
+ then there's the chihuahua-sized centipede clinging to his neck and
+ shoulder like a suckling infant. You still remember a time before
+ familiars turned into a sort of shock fashion competition, though
+ Ramos seems to have put an end to that; nobody cared to try harder
+ than the giant centipede.
+
+ The floorboards crack and pop underfoot.
+
+ "Didn't half the wizards in this city get killed or worse last year?"
+
+ You shrug. "They weren't my customers."
+
+ "Still. Must have been some trouble."
+
+ <span class="floydstyle em">(You could INTERJECT here)</span>
+
+>interject
+
+
+ You look askance for a moment, but decide to spill anyway: "So maybe
+ there was an attack. So maybe a bunch of rich assholes are in the
+ ground or in hospice care now. Maybe some of the people responsible
+ were my customers. They're not any more."
+
+ "You're only telling me this because you know I know."
+
+ You give him a practiced glare.
+
+ Chow takes a drink out of her glass.
+
+>examine vest
+
+
+ <span class="floydstyle em">(That's not something you need to refer to in the course of this</span>
+ <span class="floydstyle em">story.)</span>
+
+>examine chairs
+
+
+ <span class="floydstyle em">(That's not something you need to refer to in the course of this</span>
+ <span class="floydstyle em">story.)</span>
+
+>examine table
+
+
+ The corner table is round, with a plush bench that wraps around it,
+ fixed next to a window.
+
+ Someone's phone squawks with a notification; nobody looks.
+
+ "Come on, Ainsley," you say, getting plainly frustrated now. "Just
+ tell me what this is about."
+
+ He cocks his head and stares you down curiously, for a moment. And
+ then he pulls out a slightly oversized phone. He flips through
+ pictures of what looks like a blur smeared against the night sky;
+ after a few of them, though, it resolves itself in your mind as a
+ vaguely human figure, leaping across rooftops; or maybe flying. You
+ can't quite tell.
+
+ "You wouldn't happen to know anything about this, would you?"
+
+ <span class="floydstyle em">(You could INTERJECT here)</span>
+
+>examine pictures
+
+
+ <span class="floydstyle em">(That's not something you need to refer to in the course of this</span>
+ <span class="floydstyle em">story.)</span>
+
+>examine phone
+
+
+ <span class="floydstyle em">(That's not something you need to refer to in the course of this</span>
+ <span class="floydstyle em">story.)</span>
+
+>wait
+
+
+ "Is that the weirdo in a costume that all the papers are up in arms
+ about?"
+
+ He nods, eyes bobbing up in his head like they want to roll.
+
+ You continue: "Why do you assume a wizard is behind every weird thing
+ that happens?"
+
+ "Used to be a good assumption to have in this town. Now I'm not so
+ sure."
+
+ Jamessin blows a smoke ring, though it comes out weirdly deformed.
+
+>examine smoke ring
+
+
+ <span class="floydstyle em">(That's not something you need to refer to in the course of this</span>
+ <span class="floydstyle em">story.)</span>
+
+>wait
+
+
+ "Sorry," you say, not sorry. "Can't help you there. What's your real
+ angle here?"
+
+ "Trouble back home. I'm putting a team together. Figured whoever's
+ been beating up drug dealers is the kind of person who can help."
+
+ Your eyes leap into the back of your skull faster than you can stop
+ yourself.
+
+ "You flew all the way to Yeats to recruit a latex fetishist to go fix
+ one of your fuck-ups."
+
+ "It's serious. Scary shit I hoped I'd never see again."
+
+ <span class="floydstyle em">(You could INTERJECT here)</span>
+
+ The table of regulars laughs together; except, of course, for Grin.
+
+>get book
+
+
+ That seems to belong to Chow.
+
+ Ramos nods silently in response to some unseen signal or message from
+ his familiar.
+
+ You give him one last shrug. "Maybe try someone else's bar for once."
+
+ He doesn't respond; there's no other bar and he knows that. He just
+ walks out dejectedly. You give the countertop one last wipe down,
+ sighing. "We're closing," you announce to the people at the corner
+ table.
+
+
+
+     <span class="floydstyle i">*** an ending ***</span>
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the
+ last command?

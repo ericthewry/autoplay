@@ -1,0 +1,4784 @@
+>load sleepmask olivia2
+
+
+
+ While not particularly graphic in its depiction, this game is
+ centrally about the institutional mistreatment of children, in which
+ the player character is instrumental. That considered, do you wish to
+ continue?
+>no
+ continue?
+ cheapglulxe quit with exit status: 0
+>load sleepmask olivia2
+
+
+
+ While not particularly graphic in its depiction, this game is
+ centrally about the institutional mistreatment of children, in which
+ the player character is instrumental. That considered, do you wish to
+ continue?
+>y
+
+ When young the orphan is commonly sent to an asylum, where by
+ careful cultivation of its rudimentary sense of locality it is taught
+ to know its place. It is then instructed in the arts of dependence and
+ servitude and eventually turned loose to prey upon the world as a
+ bootblack or scullery maid. -- Bierce
+ You have always dreamed of becoming an orphanmaster, and now you are
+ finally getting to live your dream! Can you rise to the challenge and
+ guide Olivia's Orphanorium from humble beginnings to towering success?
+
+ <span class="floydstyle header">Olivia's Orphanorium</span>
+ A Casual Simulation by Sam Kabo Ashwell
+ Release 2 / Serial number 120729 / Inform 7 build 6G60 (I6/v6.32 lib
+ 6/12N)
+ For further information, see ABOUT.
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old (though with most of them, age is merely a rough guess).
+ Formerly a lumber-room, its ceilings are oppressively low. The Middle
+ House is to the north.
+
+ In one corner, piled up into a small mountain, are the many volumes of
+ Polychromatic Lung's Fairy Tales.
+
+ Bart, Griselda and Miasmine are housed here.
+
+>examine me
+
+ You are an attractive, capable woman with a sunny disposition, aged
+ 20-35; despite this, your life is sufficiently dull to excite neither
+ unease nor envy in middle-aged ladies.
+
+>about
+ <span class="floydstyle em">Olivia's Orphanorium</span> was written for Cover Stories, a
+ minicomp in which artists supplied pieces of cover art, after which
+ authors each chose a cover and wrote an appropriate game. The games
+ were coded in three weeks, plus a two-week testing period.
+
+ The cover image was selected by Rowan Lipkovits, from Google's LIFE
+ magazine photo archive; it is dated May 22, 1886, was taken by Wallace
+ G. Levison in Fort Greene, Brooklyn, and depicts one Isabel Harter,
+ who is unlikely to have been an orphan.
+
+  <span class="floydstyle i">Alphatesters</span>
+  <span class="floydstyle em">Justin de Vesine</span>, a jaunty and stylish gentleman
+  <span class="floydstyle em">Jacqueline A. Lott</span>, an infamous Appalachian cat lady
+
+  <span class="floydstyle i">Betatesters</span>
+ <span class="floydstyle em">James Eagle</span>, a gin-soaked socialist scrivener of radical
+ pamphlets
+  <span class="floydstyle em">Jacques Frechet</span>, an incompetent timpanist
+  <span class="floydstyle em">Joey Jones</span>, a third-rate llama rustler
+  <span class="floydstyle em">Jacqueline A. Lott</span>, <span class="floydstyle em">supra</span>
+ <span class="floydstyle em">Adrienne Mueller</span>, a shameless apologist for the unexpurgated
+ Lung's Forbidden Tales
+  <span class="floydstyle em">Andrew Schultz</span>, a pitiful mathematics-addict
+  <span class="floydstyle em">Dan Shiovitz</span>, a slovenly bit-twiddler
+ <span class="floydstyle em">David Welbourn</span>, a moustachioed Canadian collector of
+ curiously composed text adventures
+
+  <span class="floydstyle i">And</span>
+ <span class="floydstyle em">Emily Short</span>, a notorious lady author, for thinking this was
+ an amusing concept and putting up with my mutterings
+ <span class="floydstyle em">Andrew Plotkin</span>, a crazy uncle, for wrangling the serial
+ comma
+ <span class="floydstyle em">Graham Nelson</span>, an obscure producer of questionable gospels,
+ for certain technical contributions
+
+ Thanks are also due to extension authors Michael Callaghan and Jesse
+ McGrew, to the many, many people who have contributed to Inform over
+ the years, and to the various denizens of ifMUD and intfiction.org who
+ have improved my coding by being better than me at it, or made me feel
+ competent by being worse.
+
+ The author may be contacted at magadog@gmail.com.
+>examine sparklebutt
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ In one corner, piled up into a small mountain, are the many volumes of
+ Polychromatic Lung's Fairy Tales.
+
+ Bart, Griselda and Miasmine are housed here.
+
+>examine orphans
+
+ You can't see any such thing.
+
+>examine bart
+
+ Bart Blunkett, secret son of a Basque rake and an ingenue.
+ His discipline is awful, his vigour poor, his appearance poor and his
+ morale mediocre. If families of good stock do not take their
+ responsibilities seriously, his kind will inherit the earth in a few
+ short generations.
+
+>examine griselda
+
+ Griselda Grimwig, child of a hog-grease hawker and a Salopian
+ landlady.
+ Her discipline is poor, her vigour bad, her appearance poor and her
+ morale poor. She must make more effort.
+
+>examine miasmine
+
+ Miasmine Grimes, pathetic daughter of an unwashed goat-butcher and a
+ joyless seamstress.
+ Her discipline is poor, her vigour bad, her appearance poor and her
+ morale poor. She is a walking argument for compulsory sterilisation.
+
+ <span class="floydstyle em">(If it makes things simpler, you can use ALL with most</span>
+ <span class="floydstyle em">orphan-affecting actions, or STATUS to tabulate the abilities of every</span>
+ <span class="floydstyle em">orphan in your care.)</span>
+
+>examine all orphan
+
+ Bart Blunkett, son of a Basque rake and an ingenue.
+ His discipline is bad, his vigour poor, his appearance poor and his
+ morale poor. It falls to you to correct this want of breeding.
+
+ Behold: Griselda Grimwig, daughter of a hog-grease hawker and a
+ Salopian landlady.
+ Her discipline is poor, her vigour bad, her appearance bad and her
+ morale mediocre. If she still had parents, they would have done best
+ to disown her.
+
+ Miasmine Grimes, haphazardly-conceived spawn of an unwashed
+ goat-butcher and a joyless seamstress.
+ Her discipline is poor, her vigour bad, her appearance poor and her
+ morale mediocre. It falls to you to correct this want of breeding.
+
+>examine fairy tales
+
+ First published over a hundred years ago, Lung's Fairy Tales come in a
+ variety of coloured covers, sturdy enough to resist chewing. These
+ appear to form the complete set, and to be mostly first editions;
+ signed bookplates indicate that they were donated to the Waifs and
+ Strays Trust by the author.
+
+ Skimming briefly through a few of the Tales, you are shocked at how
+ gruesomely inappropriate they are for children; clearly these predate
+ the more pure-minded Revised Edition. You shudder to think what
+ schemes they might put into a child's head.
+
+>read books
+
+ First published over a hundred years ago, Lung's Fairy Tales come in a
+ variety of coloured covers, sturdy enough to resist chewing. These
+ appear to form the complete set, and to be mostly first editions;
+ signed bookplates indicate that they were donated to the Waifs and
+ Strays Trust by the author.
+
+ Against your better judgement, you open the nearest volume at the
+ first page. It tells a story about a king who, in sorrow for his dead
+ wife, <span class="floydstyle em">"shut himself up in a little room and knocked his head</span>
+ <span class="floydstyle em">against the walls for grief, until his courtiers were really afraid</span>
+ <span class="floydstyle em">that he would hurt himself."</span> This seems dangerously likely to
+ give solace to orphans in The Box, and to encourage them to draw
+ impious parallels between themselves and their betters.
+
+>inventory
+
+ You are carrying:
+   Athaliah Hertford's Manual of Childcare
+   The Compleat Orphanmaster
+   a gruel order form
+   a dinner bell
+
+ Your institutional resources include Polychromatic Lung's Fairy Tales
+ and some ancient tricycles.
+
+ Finally, you are responsible for four orphans and your treasury
+ amounts to 50 coins.
+
+>examine manual
+
+ The bestselling guide from the leading authority on the orphan
+ industry. You turn to a well-thumbed page in the first chapter:
+
+ The Government, firm in its belief that the private sector is
+ best-equipped to reduce waste and deliver results, will pay you a
+ stipend for each orphan and a further bonus for each child placed in a
+ gainful profession. Since the Government wisely abhors handouts and
+ rewarding failure, you will receive no funds for orphans escaped,
+ deceased, or who upon their majority have failed to become productive
+ citizens, ensuring their descent into vice. These are assumed to be
+ the natural fates of the orphan, however, and will incur no penalty.
+
+ For further reading, consider the entries on <span class="floydstyle i">discipline, vigour,</span>
+ <span class="floydstyle i">looks, morale</span>.
+
+>read discipline
+
+ You can't see any such thing.
+
+>look up discipline in manual
+
+ Virtually all orphans have an unnatural want of <span class="floydstyle i">discipline</span>.
+ Instilling discipline and a sense of the value of hard work is
+ essential if they are ever to become productive members of society,
+ and should be your highest priority. Your orphans must be made to
+ understand that discipline is not just an abstract noun; it is is an
+ active verb.
+
+
+ (in Athaliah Hertford's Manual of Childcare):
+ A crucial quality that most orphans lack is <span class="floydstyle i">vigour</span>. Orphans are
+ by inclination lazy and weak, but this can be remedied with a firm
+ hand. A robust orphan can earn you good money on treadmills, and may
+ get a position doing menial hard labour -- laundries, the infantry,
+ and the like. Never forget, however, that a strong, healthy orphan is
+ better-equipped to escape.
+
+>ask bart about himself
+
+ Children are impervious to sense and reason. Your interactions with
+ them must be kept simple, emphatic and unambiguous, as if you were
+ training a dancing-bear or particularly stupid dolphin. They respond
+ well to DISCIPLINE, may be tidied up by SCRUBBING, and should be kept
+ occupied by ASSIGNING them to workstations.
+
+>read about looks
+
+ (in Athaliah Hertford's Manual of Childcare):
+ Of no small importance in this fallen world are <span class="floydstyle i">looks</span>. Most
+ orphans will resemble a diseased turnip no matter how much you SCRUB
+ them, but a few may become presentable enough to earn posts as
+ housemaids or footmen. A particularly angelic orphan might even be
+ adopted by a respectable family, which is the best racket of all; but
+ such happy providence is not to be relied upon.
+
+>read about morale
+
+ (in Athaliah Hertford's Manual of Childcare):
+ Orphans are an ungrateful, unhealthy lot and may undergo a lack of
+ mental and physical <span class="floydstyle i">morale</span>; this makes them prone to
+ mischievious acts, such as escaping and dying of malnutrition. Be
+ firm, and remember that without you they have no hope of any kind of
+ true happiness.
+
+>examine orphanmaster
+
+ This handsome duodecimo volume briefly summarises the most important
+ tools in the orphanmaster's trade, as follows:
+
+ <span class="floydstyle i">ASSIGN</span> a dependent <span class="floydstyle i">TO</span> some constructive workstation;
+ also <span class="floydstyle i">UNASSIGN</span>
+ <span class="floydstyle i">BUY</span> items listed <span class="floydstyle i">FROM</span> a reputable catalogue
+ <span class="floydstyle i">CONSULT</span> a catalogue <span class="floydstyle i">ABOUT</span> the nature and quality of its
+ wares
+ <span class="floydstyle i">DISCIPLINE</span> a dependent, in a manner not exceeding established
+ standards
+ <span class="floydstyle i">DISMISS</span> vexing and bootless tasks
+ <span class="floydstyle i">SELL</span> unprofitable superfluities
+ <span class="floydstyle i">SCORE</span> yourself on the ephemeral scale of worldly accomplishment
+ <span class="floydstyle i">RECAP</span> tasks one has promised to undertake, then neglected
+ <span class="floydstyle i">ROOM NAME</span>, navigation for the navigation-challenged
+ <span class="floydstyle i">SCRUB</span> someone incapable of taking responsibility for their own
+ filthiness
+ Bureaucratically tabulate the <span class="floydstyle i">STATUS</span> of all your charges
+
+
+ OrphanÂ Â Â Â Â DisciplineÂ Â Â VigourÂ Â Â Â Â Â Â LooksÂ Â Â Â Â Â Â
+ Â Morale
+ BartÂ Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â poorÂ Â
+ Â Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ GriseldaÂ Â Â poorÂ Â Â Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â poorÂ Â Â Â Â
+  Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ MiasmineÂ Â Â poorÂ Â Â Â Â Â Â Â Â awfulÂ Â Â Â Â Â Â Â poorÂ Â Â Â Â
+ Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ RandallÂ Â Â Â abysmalÂ Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â badÂ Â Â Â Â Â
+  Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+
+>scrub me
+
+ You have already washed. You have particularly clean habits.
+
+
+ Producing gruel in-house was determined to be inefficient relative to
+ subcontracting, not to mention an incentive to theft. Using this form
+ you can change your standing order with Slophouse & Sons, who offer
+ grades of gruel from 1 to 5, high numbers cheapest. Your current order
+ is for Grade 3, thin gruel; this will cost six coins a day.
+
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Some ancient tricycles are littered about the place.
+
+ Randall is housed here.
+
+>examine randall
+
+ Randall Sharp, shameful brat of a deserter and a vacuous exotic
+ dancer.
+ His discipline is awful, his vigour poor, his appearance bad and his
+ morale poor. His very presence makes you itch.
+
+
+ You apply some well-deserved discipline to Randall Sharp. His
+ discipline is now bad.
+
+
+ Randall Sharp, secret son of a deserter and a vacuous exotic dancer.
+ His discipline is bad, his vigour bad, his appearance abysmal and his
+ morale poor.
+
+
+ You seize Randall, pinch his cheeks until they take on a healthy red
+ colour, and tell him that he will be spending his break re-ironing his
+ crumpled clothes. This accomplished, you deliver a short lecture on
+ the spiritual and bacterial dangers of filthiness. Hopefully the
+ lesson is learned; his looks are now bad.
+
+>examine randall
+
+ Randall Sharp, pathetic son of a deserter and a vacuous exotic dancer.
+ His discipline is awful, his vigour awful, his appearance bad and his
+ morale poor. He is a perpetual disappointment.
+
+
+ The bestselling guide from the leading authority on the orphan
+ industry. You turn to a well-thumbed page in the first chapter:
+
+ The Government, firm in its belief that the private sector is
+ best-equipped to reduce waste and deliver results, will pay you a
+ stipend for each orphan and a further bonus for each child placed in a
+ gainful profession. Since the Government wisely abhors handouts and
+ rewarding failure, you will receive no funds for orphans escaped,
+ deceased, or who upon their majority have failed to become productive
+ citizens, ensuring their descent into vice. These are assumed to be
+ the natural fates of the orphan, however, and will incur no penalty.
+
+ For further reading, consider the entries on <span class="floydstyle i">discipline, vigour,</span>
+ <span class="floydstyle i">looks, morale</span>.
+
+
+ This handsome duodecimo volume briefly summarises the most important
+ tools in the orphanmaster's trade, as follows:
+
+ <span class="floydstyle i">ASSIGN</span> a dependent <span class="floydstyle i">TO</span> some constructive workstation;
+ also <span class="floydstyle i">UNASSIGN</span>
+ <span class="floydstyle i">BUY</span> items listed <span class="floydstyle i">FROM</span> a reputable catalogue
+ <span class="floydstyle i">CONSULT</span> a catalogue <span class="floydstyle i">ABOUT</span> the nature and quality of its
+ wares
+ <span class="floydstyle i">DISCIPLINE</span> a dependent, in a manner not exceeding established
+ standards
+ <span class="floydstyle i">DISMISS</span> vexing and bootless tasks
+ <span class="floydstyle i">SELL</span> unprofitable superfluities
+ <span class="floydstyle i">SCORE</span> yourself on the ephemeral scale of worldly accomplishment
+ <span class="floydstyle i">RECAP</span> tasks one has promised to undertake, then neglected
+ <span class="floydstyle i">ROOM NAME</span>, navigation for the navigation-challenged
+ <span class="floydstyle i">SCRUB</span> someone incapable of taking responsibility for their own
+ filthiness
+ Bureaucratically tabulate the <span class="floydstyle i">STATUS</span> of all your charges
+
+>sell randall
+
+ Heavens! Orphans are not slaves, to be bartered on the common market!
+ They are wards of the state, which may from time to time see fit to
+ provide incentives for the regulation of their care.
+
+>hug randall
+
+ Excessive affection stunts a child's development, and exposes adults
+ to all manner of contagion. Maintain a distance; they will respect you
+ for it.
+
+>throw manual at randall
+
+ You lack the nerve when it comes to the crucial moment.
+
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen --
+ although once a child confined here was discovered, when his birth
+ certificate surfaced, to be a spindly twenty-two. The largest,
+ best-lit and airiest of the wards, its walls are decorated with
+ inspiring murals. The Middle House lies to the south.
+
+
+ The murals depict sturdy youths and modest maidens, with classic
+ features and somewhat blank expressions, enthusiastically applying
+ themselves to various forms of wholesome industry. The jobs depicted
+ are chiefly of the rustic sort, or at least involve healthy exercise
+ in the fresh air.
+
+>sell senior house
+
+ You can't see any such thing.
+
+
+ This heavy brass bell summons the orphans to their daily meal,
+ signalling the day's end. You prefer to ring it only when all the
+ affairs of the day have been taken care of.
+
+
+ You can't see any such thing.
+
+>middle
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Some ancient tricycles are littered about the place.
+
+ Randall is housed here.
+
+>examine tricycles
+
+ Relics of the public-sector days, when it was hoped that regular
+ tricycle use might furnish orphans of the correct age with enmuscled
+ shanks, allowing them to better work a treadmill at a later age. Their
+ designer, Hopfrock Truitt, fondly envisaged a future in which orphans
+ would find gainful employment as cycle-rickshaw pilots, a dream dashed
+ when it was discovered to be extremely stupid.
+
+ <span class="floydstyle em">(The tricycles are an activity upgrade; orphans ASSIGNed to them</span>
+ <span class="floydstyle em">will slowly become more vigorous. Assigning orphans to</span>
+ <span class="floydstyle em">self-improvement devices is vital if you wish to shape their</span>
+ <span class="floydstyle em">character.)</span>
+
+
+ You command Randall Sharp to occupy himself with the ancient
+ tricycles. He obediently complies.
+
+
+ You are graced by the presence of Randall Sharp, regrettable child of
+ a deserter and a vacuous exotic dancer.
+ His discipline is bad, his vigour awful, his appearance poor and his
+ morale poor. It is difficult to remember that he was formed by God.
+
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ In one corner, piled up into a small mountain, are the many volumes of
+ Polychromatic Lung's Fairy Tales.
+
+ Bart, Griselda and Miasmine are housed here.
+
+>read book
+
+ Which do you mean, Polychromatic Lung's Fairy Tales, Athaliah
+ Hertford's Manual of Childcare or The Compleat Orphanmaster?
+
+>fairy
+
+ First published over a hundred years ago, Lung's Fairy Tales come in a
+ variety of coloured covers, sturdy enough to resist chewing. These
+ appear to form the complete set, and to be mostly first editions;
+ signed bookplates indicate that they were donated to the Waifs and
+ Strays Trust by the author.
+
+ You select another story. This one, entitled <span class="floydstyle em">The Two Caskets</span>,
+ tells of a virtuous stepmother who, despite all she can do to teach
+ industry and obedience, is ultimately murdered by her ward, an
+ arsonist cat-lady.
+
+
+ Polychromatic Lung's Fairy Tales is a <span class="floydstyle em">passive improvement</span>
+ device: idle orphans in the relevant ward may be improved by it, or
+ not, and there is nothing that God or man may do to affect the
+ outcome. You can only assign orphans to active improvement devices.
+
+
+ Producing gruel in-house was determined to be inefficient relative to
+ subcontracting, not to mention an incentive to theft. Using this form
+ you can change your standing order with Slophouse & Sons, who offer
+ grades of gruel from 1 to 5, high numbers cheapest. Your current order
+ is for Grade 3, thin gruel; this will cost six coins a day.
+
+>examine prices
+
+ You can't see any such thing.
+
+
+ Your charge Bart Blunkett, issue of a Basque rake and an ingenue.
+ His discipline is bad, his vigour poor, his appearance bad and his
+ morale mediocre.
+
+
+ Setting the occasional example is one thing, but you would be worn to
+ the bone if you had to groom each and every one of your charges; you
+ are their guardian, not their stable-hand.
+
+
+ You apply some well-deserved discipline to Bart Blunkett. His
+ discipline is now bad.
+
+
+ Your charge Bart Blunkett, son of a Basque rake and an ingenue.
+ His discipline is poor, his vigour bad, his appearance poor and his
+ morale poor.
+
+>examine all orphans
+
+ You can't see any such thing.
+
+>examine all orphan
+
+ Bart Blunkett, son of a Basque rake and an ingenue.
+ His discipline is bad, his vigour bad, his appearance bad and his
+ morale poor. He is a perpetual disappointment.
+
+ You are graced by the presence of Griselda Grimwig, daughter of a
+ hog-grease hawker and a Salopian landlady.
+ Her discipline is poor, her vigour poor, her appearance bad and her
+ morale poor. Until licenses are required to breed, her kind will only
+ proliferate.
+
+ Miasmine Grimes, product of an unwashed goat-butcher and a joyless
+ seamstress.
+ Her discipline is poor, her vigour bad, her appearance poor and her
+ morale mediocre.
+
+ %% Enter a save filename to write:
+
+>inventory
+
+ You are carrying:
+   Athaliah Hertford's Manual of Childcare
+   The Compleat Orphanmaster
+   a gruel order form
+   a dinner bell
+
+ Your institutional resources include Polychromatic Lung's Fairy Tales
+ and some ancient tricycles.
+
+ Finally, you are responsible for four orphans and your treasury
+ amounts to 50 coins.
+
+>examine catalogue
+
+ You can't see any such thing.
+
+
+ The ancient tricycles have fortified Randall Sharp's vigour, which is
+ now bad.
+
+ You receive a government stipend of 40 for the feeding and care of
+ your orphans; and pay out 6 coins on necessary care and maintenance,
+ most of it going on food. How tiny people can eat so much is beyond
+ you.
+
+ Bart Blunkett has grown up a little, and been transferred to the
+ Middle House.
+ <span class="floydstyle em">(When orphans age up, they abandon any assigned tasks. You may</span>
+ <span class="floydstyle em">want to reassign them.)</span>
+
+>status
+
+ OrphanÂ Â Â Â Â DisciplineÂ Â Â VigourÂ Â Â Â Â Â Â LooksÂ Â Â Â Â Â Â
+ Â Morale
+ BartÂ Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â poorÂ Â
+ Â Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ GriseldaÂ Â Â poorÂ Â Â Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â badÂ Â Â Â Â
+  Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ MiasmineÂ Â Â poorÂ Â Â Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â poorÂ Â Â Â
+ Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ RandallÂ Â Â Â badÂ Â Â Â Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â poorÂ Â Â Â
+  Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â
+
+ A new task: <span class="floydstyle i">Tympanic Panic</span>
+ The popular music-hall ensemble Fariq Nasty and his Timpani Five is
+ due to appear at the local auditorium. According to this leaflet,
+ distributed by the Solemn Order of Platypii Ladies' Moral Auxiliary,
+ Mr. Nasty's lyrics promote street grammar, kissing one's fiancee,
+ regicide, Palestinian independence, bro-hugs, jeepform RPGs,
+ immoderate use of snuff and sacrificing virgin blood to Bel-Marduk.
+ The good Ladies intend to mount a campaign of protest, and as its
+ centrepiece they need a child who has been ruined by Fariq's
+ lascivious kettledrums, or at least appears so. Improving the moral
+ tone of your community should, they imply, be reward enough. <span class="floydstyle em">(Use</span>
+ <span class="floydstyle em">RECRUIT on a suitable orphan.)</span>
+ <span class="floydstyle em">(If you don't like this task, you can dismiss it with the verb</span>
+ <span class="floydstyle em">DISMISS.)</span>
+
+
+ You can't see any such thing.
+
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Bart is housed here.
+
+ Randall is busily occupied with the ancient tricycles.
+
+
+ The Ladies' Moral Auxiliary are in a hurry to put their campaign
+ together, and have no time to question your choice. Bart is escorted
+ to Platypus Hall to prepare for his first appearance.
+
+
+ You can't see any such thing.
+
+
+ I didn't understand that sentence.
+
+
+ Randall Sharp, son of a deserter and a vacuous exotic dancer.
+ His discipline is abysmal, his vigour bad, his appearance bad and his
+ morale bad. This is largely due to a lazy and perverse nature.
+
+
+ You apply some well-deserved discipline to Randall Sharp. His
+ discipline is now poor.
+
+
+ Randall Sharp, son of a deserter and a vacuous exotic dancer.
+ His discipline is bad, his vigour bad, his appearance poor and his
+ morale bad.
+
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ In one corner, piled up into a small mountain, are the many volumes of
+ Polychromatic Lung's Fairy Tales.
+
+ Griselda and Miasmine are housed here.
+
+
+ You are graced by the presence of Griselda Grimwig, daughter of a
+ hog-grease hawker and a Salopian landlady.
+ Her discipline is mediocre, her vigour poor, her appearance bad and
+ her morale poor.
+
+
+ Miasmine Grimes, haphazardly-conceived offspring of an unwashed
+ goat-butcher and a joyless seamstress.
+ Her discipline is poor, her vigour bad, her appearance poor and her
+ morale poor. She must apply herself and try to please her keepers and
+ her Creator.
+
+
+ Polychromatic Lung's Fairy Tales is a <span class="floydstyle em">passive improvement</span>
+ device: idle orphans in the relevant ward may be improved by it, or
+ not, and there is nothing that God or man may do to affect the
+ outcome. You can only assign orphans to active improvement devices.
+
+
+ You seize Griselda, delouse her scalp with equal parts pomatum and
+ mercurial ointment (just in case), and make her walk around with a
+ book on her head. This accomplished, you deliver a short lecture on
+ the spiritual and bacterial dangers of filthiness. Hopefully the
+ lesson is learned; her looks are now mediocre.
+
+
+ Behold: Griselda Grimwig, issue of a hog-grease hawker and a Salopian
+ landlady.
+ Her discipline is poor, her vigour poor, her appearance mediocre and
+ her morale mediocre.
+
+
+ Producing gruel in-house was determined to be inefficient relative to
+ subcontracting, not to mention an incentive to theft. Using this form
+ you can change your standing order with Slophouse & Sons, who offer
+ grades of gruel from 1 to 5, high numbers cheapest. Your current order
+ is for Grade 3, thin gruel; this will cost six coins a day.
+
+
+ You amend your order to request grade 1, thick porridge. A gruel finer
+ than any orphan deserves, this stodgy mix contains steel-cut oats,
+ crab-apples, molasses and lumps of beef fat. Any orphan capable of
+ keeping it down will surely grow up big and strong. Your daily food
+ bill is now twenty coins.
+
+
+ You amend your order to request grade 2, substantial gruel. This grade
+ of gruel is somewhat thicker than the basic product, but otherwise
+ much the same stuff. Your daily food bill is now twelve coins.
+
+
+ The ancient tricycles have fortified Randall Sharp's vigour, which is
+ now poor.
+
+ You receive a government stipend of 40 for the feeding and care of
+ your orphans; and pay out 12 coins on necessary care and maintenance,
+ most of it going on food.
+
+ You have been awarded custody of two orphans of Middle House age: Lynn
+ Cotter and Lloyd Anderson.
+
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Lloyd and Lynn are housed here.
+
+ Randall is busily occupied with the ancient tricycles.
+
+
+ You can't see any such thing.
+
+
+ Behold: Randall Sharp, son of a deserter and a vacuous exotic dancer.
+ His discipline is poor, his vigour bad, his appearance bad and his
+ morale poor.
+
+ This is Lynn Cotter, brat of a cuckold and a slovenly doxy.
+ Her discipline is bad, her vigour poor, her appearance bad and her
+ morale poor.
+
+ You are graced by the presence of Lloyd Anderson, offspring of a
+ shittenly bagpipe-player and a Sicilian safe-cracker.
+ His discipline is bad, his vigour poor, his appearance bad and his
+ morale poor.
+
+
+ You seize Lloyd, pinch his cheeks until they take on a healthy red
+ colour, and scrub him all over with turpentine and a pumice-stone.
+ This accomplished, you deliver a short lecture on the spiritual and
+ bacterial dangers of filthiness. Hopefully the lesson is learned; his
+ looks are now poor.
+
+
+ You apply some well-deserved discipline to Lloyd Anderson. His
+ discipline is now bad.
+
+
+ Lloyd Anderson, son of a shittenly bagpipe-player and a Sicilian
+ safe-cracker.
+ His discipline is poor, his vigour bad, his appearance poor and his
+ morale poor. And this is what you have to work with.
+
+
+ You command Lloyd Anderson to occupy himself with the ancient
+ tricycles. He obediently complies.
+
+
+ You apply some well-deserved discipline to Lynn Cotter. Her discipline
+ is now bad.
+
+ An official Ministry courier delivers a large brown-paper package.
+ Within is a doorstop of a book: the famed industry catalogue
+ Fobberfish of Hackney's. There is a cover letter from Mr. Fobberfish
+ himself, congratulating you on your appointment, expressing pleasure
+ at the prospect of working together and solidarity as a
+ fellow-contracter, drawing your attention to the superior,
+ competitively-priced products supplied by his humble business, and
+ suggesting that they might be brought into fruitful conjunction with
+ your Ministry funds.
+
+>examine catalogue
+
+ A respected specialist catering to the orphan management trade,
+ Fobberfish of Hackney provides a wide variety of goods at virtually
+ affordable rates. Bowing to the decadence of the age, this
+ once-respectable publication now features many vain luxuries that you
+ can safely ignore, such as fair-trade gruel, artisanal wildflower
+ soap, and smallpox vaccines. The few items of real utility have been
+ circled in red pen:
+
+ Ruritanian Mastiffs (400 coins)
+ The Box (300 coins)
+ Atherton's Ergonomic Treadmill (400 coins)
+ My First Delousing Bath (350 coins)
+ Spinal Corrective Corsets (450 coins)
+ Dr. Pranger's Lithium Water (700 coins)
+ triple-barred windows (350 coins)
+ The Harvest of Sin (700 coins)
+
+>examine mastiffs
+
+ You can't see any such thing.
+
+>read about mastiffs
+
+ (in Fobberfish of Hackney's catalogue):
+ Too ugly to love and too foul-tempered to suborn, Ruritanian Mastiffs
+ form an essential part of any professional orphan-retention system.
+
+>read about mastiffs
+
+ (in Fobberfish of Hackney's catalogue):
+ Too ugly to love and too foul-tempered to suborn, Ruritanian Mastiffs
+ form an essential part of any professional orphan-retention system.
+
+>read about box
+
+ (in Fobberfish of Hackney's catalogue):
+ Recommended by veterans of the profession, The Box is the surest way
+ to instil discipline in an orphan. Adjustable to fit children of all
+ ages. Includes installation costs.
+
+>read about harvest of sin
+
+ (in Fobberfish of Hackney's catalogue):
+ Much-beloved Christian artist Stowey Downard's previous works include
+ <span class="floydstyle em">Chartists: Vanguard of Lucifer</span>, <span class="floydstyle em">Whorish Shame</span> and
+ the fifty-panel series <span class="floydstyle em">Christ's Vengeance</span>. Now he has been
+ inspired to create his most morally instructive work yet, <span class="floydstyle em">The</span>
+ <span class="floydstyle em">Harvest of Sin</span>, a series of 35 anatomical diagrams depicting the
+ shocking consequences of pre-marital flirting. Highly scientific
+ lithographs illuminate the diseased body's foulness in unflinching
+ detail, and may be depended upon to foster a healthsome disgust of the
+ sexual acts. Do not, in moral timorousness, shrink from letting your
+ child know where sin must lead: order <span class="floydstyle em">The Harvest of Sin</span>
+ today.
+
+>read about water
+
+ (in Fobberfish of Hackney's catalogue):
+ The world-renowned Dr. Pranger has discovered that pathological and
+ criminal behaviours are rooted in patterns of thought established in
+ childhood. Attempts to improve society will inevitably fail,
+ therefore, without a bold application of behavioural pharmacology from
+ earliest youth, particularly in those classes that produce the
+ overwhelming mass of the criminal and insane. His patented Lithium
+ Formula, added to the drinking-water of your orphanage, juvenile
+ prison, refugee camp or poor-house, is the necessary first step to a
+ brighter future.
+
+
+ Lynn Cotter, daughter of a cuckold and a slovenly doxy.
+ Her discipline is poor, her vigour poor, her appearance bad and her
+ morale poor.
+
+
+ You command Lynn Cotter to occupy herself with the ancient tricycles.
+ She obediently complies.
+
+
+ Randall Sharp, son of a deserter and a vacuous exotic dancer.
+ His discipline is poor, his vigour bad, his appearance poor and his
+ morale bad. It is difficult to remember that he was formed by God.
+
+ Lynn Cotter, daughter of a cuckold and a slovenly doxy.
+ Her discipline is poor, her vigour poor, her appearance bad and her
+ morale poor. She must apply herself and try to please her keepers and
+ her Creator.
+
+ Lloyd Anderson, progeny of a shittenly bagpipe-player and a Sicilian
+ safe-cracker.
+ His discipline is bad, his vigour poor, his appearance poor and his
+ morale poor.
+
+>read about bath
+
+ (in Fobberfish of Hackney's catalogue):
+ My First Delousing Bath introduces the young child to the painful,
+ demeaning concept of personal hygiene. With regular use, it is
+ guaranteed to remove all but the most deeply-embedded skin parasites.
+
+
+ You assign Randall, Lynn and Lloyd to the ancient tricycles.
+
+
+ Thus far, zero orphans have passed through your hands, of whom zero
+ have made anything of themselves. Your treasury has 112 coins.
+
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ In one corner, piled up into a small mountain, are the many volumes of
+ Polychromatic Lung's Fairy Tales.
+
+ Griselda and Miasmine are housed here.
+
+
+ You flog off Polychromatic Lung's Fairy Tales for the knock-down price
+ of 350 coins, cash in hand.
+
+>read about treadmill
+
+ (in Fobberfish of Hackney's catalogue):
+ Atherton's Ergonomic Treadmill produces a negligible quantity of
+ electrical power, but (more importantly) its persistent use
+ strengthens the thighs, calves and buttocks of older children, while
+ teaching them the value of a hard day's work.
+
+
+ What you do outside work hours and the Orphanorium is not the concern
+ of this story. <span class="floydstyle em">(The Middle House is to the north.)</span>
+
+
+ Griselda Grimwig, daughter of a hog-grease hawker and a Salopian
+ landlady.
+ Her discipline is poor, her vigour bad, her appearance poor and her
+ morale mediocre.
+
+ Miasmine Grimes, secret daughter of an unwashed goat-butcher and a
+ joyless seamstress.
+ Her discipline is bad, her vigour awful, her appearance poor and her
+ morale poor.
+
+
+ You reluctantly part with 350 coins, mail in your order, and in due
+ course receive delivery of My First Delousing Bath; it is installed in
+ the Junior House.
+
+
+ You assign Griselda and Miasmine to My First Delousing Bath.
+
+
+ My First Delousing Bath has brightened Griselda Grimwig's looks, which
+ are now mediocre.
+ My First Delousing Bath has brightened Miasmine Grimes's looks, which
+ are now mediocre.
+ The ancient tricycles have fortified Randall Sharp's vigour, which is
+ now mediocre.
+ The ancient tricycles have fortified Lynn Cotter's vigour, which is
+ now poor.
+ The ancient tricycles have fortified Lloyd Anderson's vigour, which is
+ now mediocre.
+
+ You receive a government stipend of 60 for the feeding and care of
+ your orphans; and pay out 18 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Lloyd Anderson has gained
+ vigour, and Miasmine Grimes, Randall Sharp and Lynn Cotter have
+ improved their morale.
+
+
+ Griselda Grimwig, daughter of a hog-grease hawker and a Salopian
+ landlady.
+ Her discipline is mediocre, her vigour poor, her appearance mediocre
+ and her morale mediocre. She is a drain on the character of this
+ establishment.
+
+ Miasmine Grimes, pathetic daughter of an unwashed goat-butcher and a
+ joyless seamstress.
+ Her discipline is poor, her vigour awful, her appearance mediocre and
+ her morale mediocre.
+
+ Sheltered by the guardian wings of the Orphanorium, it is unlikely
+ that Bart Blunkett had encountered the works of Fariq Nasty before
+ this campaign. In the lax moral environment of the outside world,
+ however, the Ladies' Auxiliary was unable to protect him. With
+ animalistic cunning and impulse control, he managed to elude his
+ guardians, sneak into a Tympanic Five event, and the tale's end can
+ scarcely be imagined. If he has not already had his organs plucked
+ forth and flung wetly before the altar of Astarte, he is doubtless
+ cavorting like a latter-day satyr in a marihuana-smogged omnibus.
+ Infamy! infamy!
+
+ The Ladies' Auxiliary, desperately embarrassed, pays you rather more
+ compensation than is strictly necessary, with the understanding that
+ regarding this matter you will shut your pie-hole henceforth.
+
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Lloyd, Lynn and Randall are busily occupied with the ancient
+ tricycles.
+
+
+ Your charge Randall Sharp, issue of a deserter and a vacuous exotic
+ dancer.
+ His discipline is poor, his vigour mediocre, his appearance poor and
+ his morale poor.
+
+ Lynn Cotter, daughter of a cuckold and a slovenly doxy.
+ Her discipline is bad, her vigour mediocre, her appearance bad and her
+ morale poor.
+
+ You are graced by the presence of Lloyd Anderson, son of a shittenly
+ bagpipe-player and a Sicilian safe-cracker.
+ His discipline is bad, his vigour mediocre, his appearance poor and
+ his morale poor. This is largely due to a lazy and perverse nature.
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Lloyd, Lynn and Randall are busily occupied with the ancient
+ tricycles.
+
+>go north
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+>go south
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Lloyd, Lynn and Randall are busily occupied with the ancient
+ tricycles.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ Griselda and Miasmine are shedding parasites, encrustations and chunks
+ of skin in My First Delousing Bath.
+
+>examine all orphans
+
+ You can't see any such thing.
+
+>examine all
+
+ Griselda Grimwig, accidental offspring of a hog-grease hawker and a
+ Salopian landlady.
+ Her discipline is mediocre, her vigour bad, her appearance mediocre
+ and her morale poor.
+
+ You are graced by the presence of Miasmine Grimes, discarded whelp of
+ an unwashed goat-butcher and a joyless seamstress.
+ Her discipline is bad, her vigour bad, her appearance mediocre and her
+ morale mediocre.
+
+>ring dinner bell
+
+ My First Delousing Bath has brightened Miasmine Grimes's looks, which
+ are now adequate.
+ The ancient tricycles have fortified Randall Sharp's vigour, which is
+ now mediocre.
+ The ancient tricycles have fortified Lynn Cotter's vigour, which is
+ now mediocre.
+ The ancient tricycles have fortified Lloyd Anderson's vigour, which is
+ now mediocre.
+
+ Randall Sharp has conspired with an outside associate and escaped!
+ Without a steady moral compass nobody can prosper, and you are not
+ surprised when, later, you receive reports that he has become a
+ prize-fighter. (High vigour in an orphan aids in escape attempts; high
+ discipline and morale protect against it).
+
+ You receive a government stipend of 40 for the feeding and care of
+ your orphans; and pay out 12 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Griselda Grimwig and
+ Miasmine Grimes have improved their morale.
+
+ You have been awarded custody of two orphans of Junior House age:
+ Paige Cruft and Dick Kennedy.
+
+>look
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ Dick and Paige are housed here.
+
+ Griselda and Miasmine are shedding parasites, encrustations and chunks
+ of skin in My First Delousing Bath.
+
+ A new task: <span class="floydstyle i">Little Hands</span>
+ An engine in the local textile mill has suffered a catastrophic
+ blockage, and none of the mill-workers are small enough to wriggle
+ inside its workings to unclog it. While child labour laws forbid the
+ mill from employing minors, there is a certain degree of ambiguity
+ about whether it can <span class="floydstyle em">contract</span> them. If you can lend them a
+ particularly small orphan to crawl about in machinery for a few hours,
+ the foreman is willing to extend a little cash. <span class="floydstyle em">(Use RECRUIT on a</span>
+ <span class="floydstyle em">suitable orphan.)</span>
+
+>examine dick
+
+ This is Dick Kennedy, ill-fated son of a bellhop and a ball-breaking
+ garbage-sifter.
+ His discipline is bad, his vigour abysmal, his appearance poor and his
+ morale poor.
+
+>examine paige
+
+ Your charge Paige Cruft, cast-off spawn of a miserable consumptive
+ hunchback and a diseased informer.
+ Her discipline is poor, her vigour abysmal, her appearance bad and her
+ morale poor. You only hope that she never breeds.
+
+>examine miasmine
+
+ Miasmine Grimes, unwanted issue of an unwashed goat-butcher and a
+ joyless seamstress.
+ Her discipline is bad, her vigour awful, her appearance adequate and
+ her morale mediocre.
+
+>examine griselda
+
+ Behold: Griselda Grimwig, superfluous whelp of a hog-grease hawker and
+ a Salopian landlady.
+ Her discipline is mediocre, her vigour bad, her appearance mediocre
+ and her morale mediocre.
+
+>recruit griselda
+
+ Griselda Grimwig appears sceptical about the proposition, but the
+ foreman describes it as a sort of grand game, while keeping a firm
+ grip on her arm. They depart to the mill, to return once the engines
+ are running once again.
+
+>assign dick and paige to delousing
+
+ You assign Paige and Dick to My First Delousing Bath.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Lloyd and Lynn are busily occupied with the ancient tricycles.
+
+>examine all
+
+ Lynn Cotter, daughter of a cuckold and a slovenly doxy.
+ Her discipline is poor, her vigour mediocre, her appearance bad and
+ her morale mediocre.
+
+ Lloyd Anderson, spawn of a shittenly bagpipe-player and a Sicilian
+ safe-cracker.
+ His discipline is bad, his vigour adequate, his appearance poor and
+ his morale poor.
+
+>discipline lynn
+
+ You apply some well-deserved discipline to Lynn Cotter. Her discipline
+ is now poor.
+
+>discipline lloyd
+
+ You apply some well-deserved discipline to Lloyd Anderson. His
+ discipline is now mediocre.
+
+>examine all
+
+ Lynn Cotter, product of a cuckold and a slovenly doxy.
+ Her discipline is mediocre, her vigour mediocre, her appearance bad
+ and her morale poor.
+
+ This is Lloyd Anderson, shameful brat of a shittenly bagpipe-player
+ and a Sicilian safe-cracker.
+ His discipline is mediocre, his vigour adequate, his appearance poor
+ and his morale poor.
+
+>scrub lloyd
+
+ You seize Lloyd, delouse his scalp with equal parts pomatum and
+ mercurial ointment (just in case), and scrub him all over with
+ turpentine and a pumice-stone. This accomplished, you deliver a short
+ lecture on the spiritual and bacterial dangers of filthiness.
+ Hopefully the lesson is learned; his looks are now mediocre.
+
+>examine all
+
+ You are graced by the presence of Lynn Cotter, ill-fated product of a
+ cuckold and a slovenly doxy.
+ Her discipline is mediocre, her vigour mediocre, her appearance poor
+ and her morale poor.
+
+ Lloyd Anderson, unhappy whelp of a shittenly bagpipe-player and a
+ Sicilian safe-cracker.
+ His discipline is mediocre, his vigour adequate, his appearance poor
+ and his morale poor. He is a perpetual disappointment.
+
+ Griselda Grimwig returns in triumph, having successfully unclogged
+ twenty years of impacted fluff from the main doohickey of the whatsit.
+ After careful questioning, she reveals that the foreman gave her 25
+ coins in thanks, and entrusts them to you for safe-keeping.
+
+>status
+
+ OrphanÂ Â Â Â Â DisciplineÂ Â Â VigourÂ Â Â Â Â Â Â LooksÂ Â Â Â Â Â Â
+ Â Morale
+ GriseldaÂ Â Â poorÂ Â Â Â Â Â Â Â Â mediocreÂ Â Â Â Â poorÂ Â Â Â Â Â Â
+  Â Â mediocreÂ Â Â Â Â
+ MiasmineÂ Â Â poorÂ Â Â Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â adequateÂ Â
+ Â Â Â mediocreÂ Â Â Â Â
+ PaigeÂ Â Â Â Â Â mediocreÂ Â Â Â Â awfulÂ Â Â Â Â Â Â Â abysmalÂ Â Â Â
+ Â Â poorÂ Â Â Â Â Â Â Â Â
+ DickÂ Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â abysmalÂ Â Â Â Â Â poorÂ Â Â Â
+ Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ LynnÂ Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â mediocreÂ Â Â Â Â badÂ Â Â Â Â
+ Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ LloydÂ Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â adequateÂ Â Â Â Â mediocreÂ Â Â
+ Â Â badÂ Â Â Â Â Â Â Â Â Â
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ Griselda is housed here.
+
+ Dick, Paige and Miasmine are shedding parasites, encrustations and
+ chunks of skin in My First Delousing Bath.
+
+>assign griselda to delousing
+
+ You unceremoniously dunk Griselda Grimwig into the Delousing Bath, and
+ command her to remain there until she she has learned a lesson about
+ hygiene.
+
+>discipline miasmine
+
+ You apply some well-deserved discipline to Miasmine Grimes. Her
+ discipline is now poor.
+
+>discipline dick
+
+ Enough for today: there are regulations about excessive corporal
+ punishment. Besides, if you thrash every child continually, they'll
+ grow leathery and insensate.
+
+>inventory
+
+ You are carrying:
+   Fobberfish of Hackney's catalogue
+   Athaliah Hertford's Manual of Childcare
+   The Compleat Orphanmaster
+   a gruel order form
+   a dinner bell
+
+ Your institutional resources include some ancient tricycles and My
+ First Delousing Bath.
+
+ Finally, you are responsible for six orphans and your treasury amounts
+ to 327 coins.
+
+>examine catalogue
+
+ A respected specialist catering to the orphan management trade,
+ Fobberfish of Hackney provides a wide variety of goods at virtually
+ affordable rates. Bowing to the decadence of the age, this
+ once-respectable publication now features many vain luxuries that you
+ can safely ignore, such as fair-trade gruel, artisanal wildflower
+ soap, and smallpox vaccines. The few items of real utility have been
+ circled in red pen:
+
+ Ruritanian Mastiffs (400 coins)
+ The Box (300 coins)
+ Atherton's Ergonomic Treadmill (400 coins)
+ Spinal Corrective Corsets (450 coins)
+ Dr. Pranger's Lithium Water (700 coins)
+ triple-barred windows (350 coins)
+ The Harvest of Sin (700 coins)
+
+>read about windows
+
+ (in Fobberfish of Hackney's catalogue):
+ Since time immemorial, orphans have taken advantage of their loose
+ limbs and indifference to pain, and made their way through bars both
+ single and double. Against the triple bar, however, their imagination
+ revolts. The triple-barred window is an iron-clad, welded, reinforced
+ assurance against escape.
+
+>ring dinner bell
+
+ My First Delousing Bath has brightened Griselda Grimwig's looks, which
+ are now mediocre.
+ My First Delousing Bath has brightened Miasmine Grimes's looks, which
+ are now adequate.
+ The ancient tricycles have fortified Lynn Cotter's vigour, which is
+ now mediocre.
+ The ancient tricycles have fortified Lloyd Anderson's vigour, which is
+ now satisfactory.
+
+ Lloyd Anderson has spiked your tea with laudanum and escaped! Out in
+ the harsh world children are exposed to all manner of sinful
+ influences, so you are not surprised when, later, you receive reports
+ that he has become a footpad.
+
+ You receive a government stipend of 50 for the feeding and care of
+ your orphans; and pay out 15 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Dick Kennedy has improved
+ his morale.
+
+ Griselda Grimwig has grown up a little, and been transferred to the
+ Middle House.
+
+ You have been awarded custody of two orphans of Junior House age:
+ Nettie Burrow and Annie Whittle.
+
+>look
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ Annie and Nettie are housed here.
+
+ Dick, Paige and Miasmine are shedding parasites, encrustations and
+ chunks of skin in My First Delousing Bath.
+
+ A new task: <span class="floydstyle i">The Porter Babies</span>
+ Fashionable nutritionist Laurice Shellac is testing a new theory:
+ since it is acknowledged that the admixture of porter and stout is a
+ sovereign tonic to the nerves of nursing mothers, it stands to reason
+ that a half-pint of dark beer, imbibed at elevenses, will strengthen
+ the nerves and consitution of children also. If your institution will
+ take part in his national study, he'll supply the beers. Science can
+ be unpredictable, however.
+ Does Laurice have your support?
+>support laurice
+ Does Laurice have your support?
+
+>yes
+
+ An opportunity to further knowledge <span class="floydstyle em">and</span> improve children
+ cannot be rejected.  You announce your decision to the orphans, who
+ appear suspiciously enthusiastic about the idea. Laurice sends you a
+ series of casks, and will return for his data in a few days.
+
+>status
+
+ OrphanÂ Â Â Â Â DisciplineÂ Â Â VigourÂ Â Â Â Â Â Â LooksÂ Â Â Â Â Â Â
+ Â Morale
+ GriseldaÂ Â Â poorÂ Â Â Â Â Â Â Â Â mediocreÂ Â Â Â Â mediocreÂ Â Â Â Â
+  mediocreÂ Â Â Â Â
+ MiasmineÂ Â Â mediocreÂ Â Â Â Â awfulÂ Â Â Â Â Â Â Â adequateÂ Â Â Â Â
+ mediocreÂ Â Â Â Â
+ PaigeÂ Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â awfulÂ Â Â Â Â Â Â Â badÂ Â Â Â
+ Â Â Â Â Â Â mediocreÂ Â Â Â Â
+ DickÂ Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â poorÂ Â
+ Â Â Â Â Â Â Â mediocreÂ Â Â Â Â
+ LynnÂ Â Â Â Â Â Â mediocreÂ Â Â Â Â adequateÂ Â Â Â Â badÂ Â Â Â Â Â Â
+ Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ NettieÂ Â Â Â Â awfulÂ Â Â Â Â Â Â Â awfulÂ Â Â Â Â Â Â Â mediocreÂ Â Â
+  Â Â poorÂ Â Â Â Â Â Â Â Â
+ AnnieÂ Â Â Â Â Â abysmalÂ Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â poorÂ Â Â Â
+ Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+
+>discipline nettie
+
+ You apply some well-deserved discipline to Nettie Burrow. Her
+ discipline is now poor.
+
+>discipline annie
+
+ You apply some well-deserved discipline to Annie Whittle. Her
+ discipline is now bad.
+
+>look
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The aroma of dark beer saturates the building.
+
+ Annie and Nettie are housed here.
+
+ Dick, Paige and Miasmine are shedding parasites, encrustations and
+ chunks of skin in My First Delousing Bath.
+
+>examine all
+
+ Behold: Miasmine Grimes, daughter of an unwashed goat-butcher and a
+ joyless seamstress.
+ Her discipline is mediocre, her vigour awful, her appearance
+ satisfactory and her morale mediocre.
+
+ Paige Cruft, daughter of a miserable consumptive hunchback and a
+ diseased informer.
+ Her discipline is poor, her vigour abysmal, her appearance abysmal and
+ her morale poor.
+
+ Dick Kennedy, son of a bellhop and a ball-breaking garbage-sifter.
+ His discipline is bad, his vigour bad, his appearance poor and his
+ morale mediocre.
+
+ Nettie Burrow, haphazardly-conceived child of a guttersnipe and a
+ screever.
+ Her discipline is bad, her vigour awful, her appearance mediocre and
+ her morale poor. She is a drain on the character of this
+ establishment.
+
+ Annie Whittle, daughter of an Armenian New Jersey pimp and a deranged
+ decadent barmaid.
+ Her discipline is awful, her vigour bad, her appearance bad and her
+ morale poor. Yet Jesus loves her, as if He had not suffered enough.
+
+>assign annie to bath
+
+ You unceremoniously dunk Annie Whittle into the Delousing Bath, and
+ command her to remain there until she shehas become less foul to
+ behold.
+
+>inventory
+
+ You are carrying:
+   Fobberfish of Hackney's catalogue
+   Athaliah Hertford's Manual of Childcare
+   The Compleat Orphanmaster
+   a gruel order form
+   a dinner bell
+
+ Your institutional resources include some ancient tricycles, My First
+ Delousing Bath and Shellac's Porter Supplements.
+
+ Finally, you are responsible for seven orphans and your treasury
+ amounts to 362 coins.
+
+>read orphanmaster
+
+ This handsome duodecimo volume briefly summarises the most important
+ tools in the orphanmaster's trade, as follows:
+
+ <span class="floydstyle i">ASSIGN</span> a dependent <span class="floydstyle i">TO</span> some constructive workstation;
+ also <span class="floydstyle i">UNASSIGN</span>
+ <span class="floydstyle i">BUY</span> items listed <span class="floydstyle i">FROM</span> a reputable catalogue
+ <span class="floydstyle i">CONSULT</span> a catalogue <span class="floydstyle i">ABOUT</span> the nature and quality of its
+ wares
+ <span class="floydstyle i">DISCIPLINE</span> a dependent, in a manner not exceeding established
+ standards
+ <span class="floydstyle i">DISMISS</span> vexing and bootless tasks
+ <span class="floydstyle i">SELL</span> unprofitable superfluities
+ <span class="floydstyle i">SCORE</span> yourself on the ephemeral scale of worldly accomplishment
+ <span class="floydstyle i">RECAP</span> tasks one has promised to undertake, then neglected
+ <span class="floydstyle i">ROOM NAME</span>, navigation for the navigation-challenged
+ <span class="floydstyle i">SCRUB</span> someone incapable of taking responsibility for their own
+ filthiness
+ Bureaucratically tabulate the <span class="floydstyle i">STATUS</span> of all your charges
+
+>dismiss miasmine
+
+ You can't see any such thing.
+
+>unassign miasmine
+
+ You allow Miasmine Grimes to take a break.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The aroma of dark beer saturates the building.
+
+ Griselda is housed here.
+
+ Lynn is busily occupied with the ancient tricycles.
+
+>examine all
+
+ Griselda Grimwig, brat of a hog-grease hawker and a Salopian landlady.
+ Her discipline is mediocre, her vigour poor, her appearance mediocre
+ and her morale mediocre.
+
+ Lynn Cotter, brat of a cuckold and a slovenly doxy.
+ Her discipline is poor, her vigour adequate, her appearance poor and
+ her morale poor. You dread to imagine her future.
+
+>discipline griselda
+
+ You apply some well-deserved discipline to Griselda Grimwig. Her
+ discipline is now mediocre.
+
+>assign griselda to tricycles
+
+ You command Griselda Grimwig to occupy herself with the ancient
+ tricycles. She obediently complies.
+
+>unassign lynn
+
+ You allow Lynn Cotter to take a break.
+
+>discipline lynn
+
+ Enough for today: there are regulations about excessive corporal
+ punishment. Besides, if you thrash every child continually, they'll
+ grow leathery and insensate.
+
+>examine catalogue
+
+ A respected specialist catering to the orphan management trade,
+ Fobberfish of Hackney provides a wide variety of goods at virtually
+ affordable rates. Bowing to the decadence of the age, this
+ once-respectable publication now features many vain luxuries that you
+ can safely ignore, such as fair-trade gruel, artisanal wildflower
+ soap, and smallpox vaccines. The few items of real utility have been
+ circled in red pen:
+
+ Ruritanian Mastiffs (400 coins)
+ The Box (300 coins)
+ Atherton's Ergonomic Treadmill (400 coins)
+ Spinal Corrective Corsets (450 coins)
+ Dr. Pranger's Lithium Water (700 coins)
+ triple-barred windows (350 coins)
+ The Harvest of Sin (700 coins)
+
+>order box
+
+ You reluctantly part with 300 coins, mail in your order, and in due
+ course receive delivery of The Box.
+
+>assign lynn box
+
+ I didn't understand that sentence.
+
+>assign lynn to box
+
+ To show that discipline must be upheld, you condemn Lynn Cotter to The
+ Box until further notice. She folds herself into one of its
+ compartments, and you lock the door.
+
+>ring dinnerbell
+
+ You can't see any such thing.
+
+>ring bell
+
+ The ancient tricycles have fortified Griselda Grimwig's vigour, which
+ is now mediocre.
+ My First Delousing Bath has brightened Paige Cruft's looks, which are
+ now poor.
+ My First Delousing Bath has brightened Dick Kennedy's looks, which are
+ now mediocre.
+ The Box has weakened Lynn Cotter's morale, which is now bad.
+ The Box has stiffened Lynn Cotter's discipline, which is now adequate.
+
+ You receive a government stipend of 70 for the feeding and care of
+ your orphans; and pay out 21 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Griselda Grimwig has
+ improved her morale.
+
+ Nettie Burrow has grown up a little, and been transferred to the
+ Middle House.
+
+ The Orphanorium has been entrusted with three more children: Frank
+ Trundle is old enough for the Middle House, while Lexie Rudge and
+ Abstinence Rostigraben will go to the Junior.
+
+>unassign lynn
+
+ You allow Lynn Cotter to take a break.
+
+>status
+
+ OrphanÂ Â Â Â Â DisciplineÂ Â Â VigourÂ Â Â Â Â Â Â LooksÂ Â Â Â Â Â Â
+ Â Morale
+ GriseldaÂ Â Â mediocreÂ Â Â Â Â adequateÂ Â Â Â Â mediocreÂ Â Â Â Â ade
+ quateÂ Â Â Â Â
+ MiasmineÂ Â Â poorÂ Â Â Â Â Â Â Â Â abysmalÂ Â Â Â Â Â adequateÂ Â Â Â
+ Â mediocreÂ Â Â Â Â
+ AbstinenceÂ abysmalÂ Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â abysmalÂ Â Â Â Â
+ Â mediocreÂ Â Â Â Â
+ PaigeÂ Â Â Â Â Â mediocreÂ Â Â Â Â awfulÂ Â Â Â Â Â Â Â poorÂ Â Â Â Â Â
+  Â Â Â mediocreÂ Â Â Â Â
+ DickÂ Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â abysmalÂ Â Â Â Â Â mediocreÂ Â
+  Â Â Â mediocreÂ Â Â Â Â
+ FrankÂ Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â badÂ Â Â
+ Â Â Â Â Â Â Â mediocreÂ Â Â Â Â
+ LynnÂ Â Â Â Â Â Â adequateÂ Â Â Â Â adequateÂ Â Â Â Â poorÂ Â Â Â Â Â Â
+  Â Â badÂ Â Â Â Â Â Â Â Â Â
+ LexieÂ Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â badÂ Â Â
+ Â Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ NettieÂ Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â mediocreÂ
+  Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+ AnnieÂ Â Â Â Â Â badÂ Â Â Â Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â badÂ Â Â
+ Â Â Â Â Â Â Â poorÂ Â Â Â Â Â Â Â Â
+
+>unassign miasmine
+
+ You can't see any such thing.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The aroma of dark beer saturates the building.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Abstinence, Lexie and Miasmine are housed here.
+
+ Annie, Dick and Paige are shedding parasites, encrustations and chunks
+ of skin in My First Delousing Bath.
+
+>unassign miasmine
+
+ Miasmine Grimes is already committed to idleness.
+
+>assign lexie and abstinence to bath
+
+ You assign Abstinence and Lexie to My First Delousing Bath.
+
+>examine all
+
+ Your charge Miasmine Grimes, daughter of an unwashed goat-butcher and
+ a joyless seamstress.
+ Her discipline is poor, her vigour bad, her appearance adequate and
+ her morale poor. She must make more effort.
+
+ Abstinence Rostigraben, unhappy whelp of a deserter and a vacuous
+ exotic dancer.
+ Her discipline is awful, her vigour bad, her appearance abysmal and
+ her morale mediocre.
+
+ Paige Cruft, discarded child of a miserable consumptive hunchback and
+ a diseased informer.
+ Her discipline is mediocre, her vigour abysmal, her appearance poor
+ and her morale mediocre. And this is what you have to work with.
+
+ Dick Kennedy, ill-fated son of a bellhop and a ball-breaking
+ garbage-sifter.
+ His discipline is bad, his vigour abysmal, his appearance mediocre and
+ his morale mediocre. Without your intercession, his future holds
+ nothing but a sordid parade of sin.
+
+ Lexie Rudge, daughter of a mercenary and a loveless shopgirl.
+ Her discipline is poor, her vigour bad, her appearance awful and her
+ morale poor.
+
+ Annie Whittle, daughter of an Armenian New Jersey pimp and a deranged
+ decadent barmaid.
+ Her discipline is bad, her vigour poor, her appearance poor and her
+ morale poor. So young, and already a drain on society.
+
+>look
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The aroma of dark beer saturates the building.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Abstinence, Lexie, Annie, Dick and Paige are shedding parasites,
+ encrustations and chunks of skin in My First Delousing Bath.
+
+ Miasmine is housed here.
+
+>discipline annie
+
+ You apply some well-deserved discipline to Annie Whittle. Her
+ discipline is now poor.
+
+>assign dick to box
+
+ Knowing that it will do him good, you condemn Dick Kennedy to The Box
+ until further notice. He folds himself into one of its compartments,
+ and you lock the door.
+
+>assign abstinence to box
+
+ With a fearsome glare, you condemn Abstinence Rostigraben to The Box
+ until further notice. She folds herself into one of its compartments,
+ and you lock the door.
+
+>examine all
+
+ Miasmine Grimes, daughter of an unwashed goat-butcher and a joyless
+ seamstress.
+ Her discipline is poor, her vigour awful, her appearance adequate and
+ her morale mediocre.
+
+ Abstinence Rostigraben, haphazardly-conceived daughter of a deserter
+ and a vacuous exotic dancer.
+ Her discipline is awful, her vigour poor, her appearance awful and her
+ morale poor.
+
+ Paige Cruft, issue of a miserable consumptive hunchback and a diseased
+ informer.
+ Her discipline is poor, her vigour abysmal, her appearance poor and
+ her morale poor.
+
+ Dick Kennedy, son of a bellhop and a ball-breaking garbage-sifter.
+ His discipline is bad, his vigour abysmal, his appearance mediocre and
+ his morale mediocre.
+
+ You are graced by the presence of Lexie Rudge, whelp of a mercenary
+ and a loveless shopgirl.
+ Her discipline is poor, her vigour awful, her appearance bad and her
+ morale poor.
+
+ You are graced by the presence of Annie Whittle, inconvenient daughter
+ of an Armenian New Jersey pimp and a deranged decadent barmaid.
+ Her discipline is poor, her vigour bad, her appearance poor and her
+ morale poor.
+
+>look
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The aroma of dark beer saturates the building.
+
+ Abstinence and Dick are spending some time in The Box.
+
+ Lexie, Annie and Paige are shedding parasites, encrustations and
+ chunks of skin in My First Delousing Bath.
+
+ Miasmine is housed here.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The aroma of dark beer saturates the building.
+
+ Frank, Nettie and Lynn are housed here.
+
+ Griselda is busily occupied with the ancient tricycles.
+
+>examine all
+
+ Your charge Griselda Grimwig, issue of a hog-grease hawker and a
+ Salopian landlady.
+ Her discipline is mediocre, her vigour mediocre, her appearance
+ mediocre and her morale mediocre. Yet God loves her, thus proving that
+ He is capable of all things.
+
+ Behold: Frank Trundle, regrettable brat of a conniving scabrous
+ arsonist and a scrawny third-rate dungcart driver.
+ His discipline is poor, his vigour awful, his appearance bad and his
+ morale poor. If he still had parents, they would have done best to
+ disown him.
+
+ Lynn Cotter, secret daughter of a cuckold and a slovenly doxy.
+ Her discipline is mediocre, her vigour mediocre, her appearance poor
+ and her morale bad.
+
+ You are graced by the presence of Nettie Burrow, daughter of a
+ guttersnipe and a screever.
+ Her discipline is poor, her vigour awful, her appearance poor and her
+ morale poor.
+
+>assign all to tricycles
+
+ You assign Griselda, Frank, Lynn and Nettie to the ancient tricycles.
+
+>discipline nettie
+
+ You apply some well-deserved discipline to Nettie Burrow. Her
+ discipline is now poor.
+
+>discipline frank
+
+ You apply some well-deserved discipline to Frank Trundle. His
+ discipline is now mediocre.
+
+>ring bell
+
+ The ancient tricycles have fortified Griselda Grimwig's vigour, which
+ is now adequate.
+ Shellac's Porter Supplements has sapped Griselda Grimwig's vigour,
+ which is now mediocre.
+ Shellac's Porter Supplements has stiffened Griselda Grimwig's
+ discipline, which is now mediocre.
+ The Box has weakened Abstinence Rostigraben's morale, which is now
+ poor.
+ The Box has stiffened Abstinence Rostigraben's discipline, which is
+ now awful.
+ My First Delousing Bath has brightened Paige Cruft's looks, which are
+ now mediocre.
+ The Box has weakened Dick Kennedy's morale, which is now poor.
+ The Box has sapped Dick Kennedy's vigour, which is now awful.
+ The Box has stiffened Dick Kennedy's discipline, which is now
+ mediocre.
+ The ancient tricycles have fortified Frank Trundle's vigour, which is
+ now awful.
+ Shellac's Porter Supplements has improved Frank Trundle's morale,
+ which is now mediocre.
+ Shellac's Porter Supplements has sapped Frank Trundle's vigour, which
+ is now abysmal.
+ Shellac's Porter Supplements has stiffened Frank Trundle's discipline,
+ which is now mediocre.
+ The ancient tricycles have fortified Lynn Cotter's vigour, which is
+ now adequate.
+ Shellac's Porter Supplements has improved Lynn Cotter's morale, which
+ is now poor.
+ Shellac's Porter Supplements has sapped Lynn Cotter's vigour, which is
+ now mediocre.
+ Shellac's Porter Supplements has stiffened Lynn Cotter's discipline,
+ which is now satisfactory.
+ My First Delousing Bath has brightened Lexie Rudge's looks, which are
+ now bad.
+ The ancient tricycles have fortified Nettie Burrow's vigour, which is
+ now bad.
+ Shellac's Porter Supplements has improved Nettie Burrow's morale,
+ which is now poor.
+ Shellac's Porter Supplements has sapped Nettie Burrow's vigour, which
+ is now bad.
+ Shellac's Porter Supplements has stiffened Nettie Burrow's discipline,
+ which is now mediocre.
+
+ You receive a government stipend of 100 for the feeding and care of
+ your orphans; and pay out 30 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Paige Cruft and Annie
+ Whittle have gained vigour, and Nettie Burrow and Annie Whittle have
+ improved their morale.
+
+ Dick Kennedy has grown up a little, and been transferred to the Middle
+ House.
+
+>press save
+
+ You can't see any such thing.
+
+>SAVE
+>cf23
+ %% Enter a save filename to write:
+
+>quit
+
+ Are you sure you want to quit?
+>yes
+ Are you sure you want to quit?
+ cheapglulxe quit with exit status: 0
+>load sleepmask olivia2
+
+
+
+ While not particularly graphic in its depiction, this game is
+ centrally about the institutional mistreatment of children, in which
+ the player character is instrumental. That considered, do you wish to
+ continue?
+>yes
+
+ When young the orphan is commonly sent to an asylum, where by
+ careful cultivation of its rudimentary sense of locality it is taught
+ to know its place. It is then instructed in the arts of dependence and
+ servitude and eventually turned loose to prey upon the world as a
+ bootblack or scullery maid. -- Bierce
+>load
+ You have always dreamed of becoming an orphanmaster, and now you are
+ finally getting to live your dream! Can you rise to the challenge and
+ guide Olivia's Orphanorium from humble beginnings to towering success?
+
+ <span class="floydstyle header">Olivia's Orphanorium</span>
+ A Casual Simulation by Sam Kabo Ashwell
+ Release 2 / Serial number 120729 / Inform 7 build 6G60 (I6/v6.32 lib
+ 6/12N)
+ For further information, see ABOUT.
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old (though with most of them, age is merely a rough guess).
+ Formerly a lumber-room, its ceilings are oppressively low. The Middle
+ House is to the north.
+
+ In one corner, piled up into a small mountain, are the many volumes of
+ Polychromatic Lung's Fairy Tales.
+
+ Blodwyn, Keith and Hank are housed here.
+
+>cf23
+
+ I didn't understand that sentence.
+
+>load
+
+ I didn't understand that sentence.
+
+>restore
+ %% Enter a save filename to read:
+>cf23
+ Ok.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Griselda   adequate     adequate     mediocre     mediocre
+ Miasmine   poor         bad          satisfactory mediocre
+ Abstinence bad          bad          awful        poor
+ Paige      poor         awful        mediocre     mediocre
+ Dick       poor         awful        mediocre     poor
+ Frank      adequate     abysmal      bad          mediocre
+ Lynn       satisfactory adequate     poor         poor
+ Lexie      poor         bad          bad          mediocre
+ Nettie     mediocre     bad          mediocre     poor
+ Annie      bad          poor         bad          poor
+
+>unassign abstinence
+
+ You can't see any such thing.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The aroma of dark beer saturates the building.
+
+ Abstinence is spending some time in The Box.
+
+ Lexie, Annie and Paige are shedding parasites, encrustations and
+ chunks of skin in My First Delousing Bath.
+
+ Miasmine is housed here.
+
+>unassign abstinence
+
+ You allow Abstinence Rostigraben to take a break.
+
+>assign abstinence to bath
+
+ You unceremoniously dunk Abstinence Rostigraben into the Delousing
+ Bath, and command her to remain there until she is presentable.
+
+>assign miasmine to box
+
+ Stern but fair, you condemn Miasmine Grimes to The Box until further
+ notice. She folds herself into one of its compartments, and you lock
+ the door.
+
+>look
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The aroma of dark beer saturates the building.
+
+ Abstinence, Lexie, Annie and Paige are shedding parasites,
+ encrustations and chunks of skin in My First Delousing Bath.
+
+ Miasmine is spending some time in The Box.
+
+>assign paige to box
+
+ To show that discipline must be upheld, you condemn Paige Cruft to The
+ Box until further notice. She folds herself into one of its
+ compartments, and you lock the door.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The aroma of dark beer saturates the building.
+
+ Dick is housed here.
+
+ Frank, Nettie, Griselda and Lynn are busily occupied with the ancient
+ tricycles.
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The aroma of dark beer saturates the building.
+
+ Dick is housed here.
+
+ Frank, Nettie, Griselda and Lynn are busily occupied with the ancient
+ tricycles.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Griselda   mediocre     mediocre     mediocre     mediocre
+ Miasmine   mediocre     abysmal      satisfactory mediocre
+ Abstinence bad          bad          awful        poor
+ Paige      mediocre     abysmal      poor         mediocre
+ Dick       mediocre     abysmal      mediocre     poor
+ Frank      mediocre     abysmal      bad          mediocre
+ Lynn       satisfactory adequate     bad          poor
+ Lexie      poor         bad          bad          poor
+ Nettie     poor         bad          poor         poor
+ Annie      poor         poor         bad          poor
+
+>assign dick to tricycles
+
+ You command Dick Kennedy to occupy himself with the ancient tricycles.
+ He obediently complies.
+
+>scrub lynn
+
+ You seize Lynn, drag a comb through her hair, and scrub her all over
+ with turpentine and a pumice-stone. This accomplished, you deliver a
+ short lecture on the spiritual and bacterial dangers of filthiness.
+ Hopefully the lesson is learned; her looks are now poor.
+
+>scrub frank
+
+ Setting the occasional example is one thing, but you would be worn to
+ the bone if you had to groom each and every one of your charges; you
+ are their guardian, not their stable-hand.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Griselda   adequate     adequate     mediocre     mediocre
+ Miasmine   poor         awful        adequate     mediocre
+ Abstinence awful        poor         awful        bad
+ Paige      mediocre     bad          mediocre     mediocre
+ Dick       mediocre     awful        mediocre     poor
+ Frank      mediocre     abysmal      awful        mediocre
+ Lynn       adequate     adequate     poor         poor
+ Lexie      poor         bad          poor         mediocre
+ Nettie     mediocre     awful        poor         poor
+ Annie      bad          poor         bad          poor
+
+>discipline lexie
+
+ You can't see any such thing.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The aroma of dark beer saturates the building.
+
+ Abstinence, Lexie and Annie are shedding parasites, encrustations and
+ chunks of skin in My First Delousing Bath.
+
+ Paige and Miasmine are spending some time in The Box.
+
+>discipline lexie
+
+ You apply some well-deserved discipline to Lexie Rudge. Her discipline
+ is now poor.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The aroma of dark beer saturates the building.
+
+ Dick, Frank, Nettie, Griselda and Lynn are busily occupied with the
+ ancient tricycles.
+
+>discipline nettie
+
+ You apply some well-deserved discipline to Nettie Burrow. Her
+ discipline is now mediocre.
+
+>ring bell
+
+ The ancient tricycles have fortified Griselda Grimwig's vigour, which
+ is now adequate.
+ Shellac's Porter Supplements has weakened Griselda Grimwig's morale,
+ which is now mediocre.
+ Shellac's Porter Supplements has eroded Griselda Grimwig's discipline,
+ which is now mediocre.
+ The Box has weakened Miasmine Grimes's morale, which is now poor.
+ The Box has stiffened Miasmine Grimes's discipline, which is now
+ mediocre.
+ The Box has weakened Paige Cruft's morale, which is now poor.
+ The Box has stiffened Paige Cruft's discipline, which is now adequate.
+ The ancient tricycles have fortified Dick Kennedy's vigour, which is
+ now bad.
+ Shellac's Porter Supplements has weakened Dick Kennedy's morale, which
+ is now poor.
+ Shellac's Porter Supplements has eroded Dick Kennedy's discipline,
+ which is now bad.
+ The ancient tricycles have fortified Frank Trundle's vigour, which is
+ now bad.
+ Shellac's Porter Supplements has weakened Frank Trundle's morale,
+ which is now mediocre.
+ Shellac's Porter Supplements has eroded Frank Trundle's discipline,
+ which is now mediocre.
+ The ancient tricycles have fortified Lynn Cotter's vigour, which is
+ now adequate.
+ Shellac's Porter Supplements has weakened Lynn Cotter's morale, which
+ is now bad.
+ Shellac's Porter Supplements has sapped Lynn Cotter's vigour, which is
+ now mediocre.
+ Shellac's Porter Supplements has eroded Lynn Cotter's discipline,
+ which is now mediocre.
+ My First Delousing Bath has brightened Lexie Rudge's looks, which are
+ now poor.
+ The ancient tricycles have fortified Nettie Burrow's vigour, which is
+ now bad.
+ Shellac's Porter Supplements has weakened Nettie Burrow's morale,
+ which is now bad.
+ Shellac's Porter Supplements has eroded Nettie Burrow's discipline,
+ which is now poor.
+ My First Delousing Bath has brightened Annie Whittle's looks, which
+ are now bad.
+
+ Griselda Grimwig has gone up the chimney and escaped! Water finds its
+ level, so you are not surprised when, later, you receive reports that
+ she has sunk to working as a haughty courtesan.
+ Lynn Cotter has fabricated a surviving relative and escaped! Since
+ virtue is rewarded and vice leads to ruin, you are not surprised when,
+ later, you receive reports that she is making her living as a marine
+ biologist.
+
+ You receive a government stipend of 80 for the feeding and care of
+ your orphans; and pay out 24 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Dick Kennedy and Frank
+ Trundle have gained vigour, and Abstinence Rostigraben and Annie
+ Whittle have improved their morale.
+
+ Miasmine Grimes, Abstinence Rostigraben and Annie Whittle have grown
+ up a little, and been transferred to the Middle House.
+
+ You have been awarded custody of three orphans of Junior House age:
+ Jill Flathead, Bianca Bloggs and Red Twite.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       awful        poor         bad          poor
+ Miasmine   mediocre     abysmal      satisfactory bad
+ Abstinence bad          poor         awful        poor
+ Paige      adequate     bad          poor         poor
+ Dick       poor         poor         mediocre     poor
+ Frank      mediocre     bad          bad          poor
+ Bianca     poor         awful        bad          poor
+ Red        bad          mediocre     awful        mediocre
+ Lexie      poor         bad          poor         poor
+ Nettie     poor         bad          poor         bad
+ Annie      poor         bad          poor         poor
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Annie, Abstinence and Miasmine are housed here.
+
+ The aroma of dark beer saturates the building.
+
+ Dick, Frank and Nettie are busily occupied with the ancient tricycles.
+
+>assign miasmine to tricycles
+
+ You command Miasmine Grimes to occupy herself with the ancient
+ tricycles. She obediently complies.
+
+>examine all
+
+ Miasmine Grimes, daughter of an unwashed goat-butcher and a joyless
+ seamstress.
+ Her discipline is mediocre, her vigour awful, her appearance
+ satisfactory and her morale bad.
+
+ Abstinence Rostigraben, unfortunate daughter of a deserter and a
+ vacuous exotic dancer.
+ Her discipline is bad, her vigour poor, her appearance bad and her
+ morale poor. She is a walking argument for compulsory sterilisation.
+
+ This is Dick Kennedy, regrettable son of a bellhop and a ball-breaking
+ garbage-sifter.
+ His discipline is poor, his vigour poor, his appearance mediocre and
+ his morale poor.
+
+ Frank Trundle, whelp of a conniving scabrous arsonist and a scrawny
+ third-rate dungcart driver.
+ His discipline is mediocre, his vigour poor, his appearance bad and
+ his morale poor.
+
+ Nettie Burrow, daughter of a guttersnipe and a screever.
+ Her discipline is mediocre, her vigour awful, her appearance mediocre
+ and her morale bad.
+
+ You are graced by the presence of Annie Whittle, child of an Armenian
+ New Jersey pimp and a deranged decadent barmaid.
+ Her discipline is bad, her vigour poor, her appearance poor and her
+ morale poor. Her very presence makes you itch.
+
+>scrub annie
+
+ You seize Annie, pinch her cheeks until they take on a healthy red
+ colour, and apply a rough brush to those parts of her person that she
+ has neglected to keep to a hygienic standard. This accomplished, you
+ deliver a short lecture on the spiritual and bacterial dangers of
+ filthiness. Hopefully the lesson is learned; her looks are now poor.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The aroma of dark beer saturates the building.
+
+ Red, Bianca and Jill are housed here.
+
+ Lexie is shedding parasites, encrustations and chunks of skin in My
+ First Delousing Bath.
+
+ Paige is spending some time in The Box.
+
+>examine all
+
+ Jill Flathead, daughter of a hog-grease hawker and a Salopian
+ landlady.
+ Her discipline is awful, her vigour poor, her appearance bad and her
+ morale mediocre. So young, and already a drain on society.
+
+ Behold: Paige Cruft, offspring of a miserable consumptive hunchback
+ and a diseased informer.
+ Her discipline is adequate, her vigour bad, her appearance poor and
+ her morale poor.
+
+ Bianca Bloggs, discarded product of a wandering outlaw and a hideous
+ octoroon ingenue.
+ Her discipline is bad, her vigour awful, her appearance bad and her
+ morale mediocre. You dread to imagine her future.
+
+ Red Twite, son of a shittenly bagpipe-player and a Sicilian
+ safe-cracker.
+ His discipline is bad, his vigour mediocre, his appearance bad and his
+ morale mediocre. You only hope that he never breeds.
+
+ Lexie Rudge, spawn of a mercenary and a loveless shopgirl.
+ Her discipline is poor, her vigour awful, her appearance poor and her
+ morale poor.
+
+>unassign paige
+
+ You allow Paige Cruft to take a break.
+
+>assign jill to box
+
+ Knowing that it will do her good, you condemn Jill Flathead to The Box
+ until further notice. She folds herself into one of its compartments,
+ and you lock the door.
+
+>assign paige to bath
+
+ You unceremoniously dunk Paige Cruft into the Delousing Bath, and
+ command her to remain there until she shehas become less foul to
+ behold.
+
+>examine all
+
+ Jill Flathead, inconvenient offspring of a hog-grease hawker and a
+ Salopian landlady.
+ Her discipline is abysmal, her vigour poor, her appearance bad and her
+ morale mediocre. Most sensible people would consider her beyond hope.
+
+ Paige Cruft, spawn of a miserable consumptive hunchback and a diseased
+ informer.
+ Her discipline is mediocre, her vigour bad, her appearance poor and
+ her morale poor. Without your intercession, her future holds nothing
+ but a sordid parade of sin.
+
+ Bianca Bloggs, secret daughter of a wandering outlaw and a hideous
+ octoroon ingenue.
+ Her discipline is poor, her vigour awful, her appearance poor and her
+ morale poor. Until licenses are required to breed, her kind will only
+ proliferate.
+
+ Red Twite, son of a shittenly bagpipe-player and a Sicilian
+ safe-cracker.
+ His discipline is awful, his vigour mediocre, his appearance awful and
+ his morale poor.
+
+ Lexie Rudge, daughter of a mercenary and a loveless shopgirl.
+ Her discipline is poor, her vigour bad, her appearance bad and her
+ morale poor. She must make more effort.
+
+>look
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The aroma of dark beer saturates the building.
+
+ Red and Bianca are housed here.
+
+ Jill is spending some time in The Box.
+
+ Lexie and Paige are shedding parasites, encrustations and chunks of
+ skin in My First Delousing Bath.
+
+>assign red and bianca to bath
+
+ You assign Bianca and Red to My First Delousing Bath.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       awful        poor         poor         mediocre
+ Miasmine   mediocre     bad          adequate     poor
+ Abstinence bad          poor         awful        poor
+ Paige      mediocre     bad          mediocre     poor
+ Dick       bad          bad          mediocre     poor
+ Frank      mediocre     bad          bad          poor
+ Bianca     poor         awful        bad          poor
+ Red        awful        mediocre     awful        mediocre
+ Lexie      poor         bad          poor         poor
+ Nettie     mediocre     awful        mediocre     bad
+ Annie      poor         poor         mediocre     poor
+
+>discipline red
+
+ You apply some well-deserved discipline to Red Twite. His discipline
+ is now poor.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The aroma of dark beer saturates the building.
+
+ Annie and Abstinence are housed here.
+
+ Miasmine, Dick, Frank and Nettie are busily occupied with the ancient
+ tricycles.
+
+>discipline dick
+
+ You apply some well-deserved discipline to Dick Kennedy. His
+ discipline is now poor.
+
+>discipline abstinence
+
+ You apply some well-deserved discipline to Abstinence Rostigraben. Her
+ discipline is now poor.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       bad          poor         poor         poor
+ Miasmine   mediocre     awful        adequate     poor
+ Abstinence poor         awful        awful        poor
+ Paige      mediocre     abysmal      mediocre     poor
+ Dick       poor         bad          mediocre     bad
+ Frank      mediocre     bad          awful        mediocre
+ Bianca     poor         awful        poor         poor
+ Red        poor         mediocre     awful        poor
+ Lexie      poor         bad          bad          poor
+ Nettie     mediocre     bad          poor         bad
+ Annie      bad          bad          poor         poor
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The aroma of dark beer saturates the building.
+
+ Annie and Abstinence are housed here.
+
+ Miasmine, Dick, Frank and Nettie are busily occupied with the ancient
+ tricycles.
+
+>discipline nettie
+
+ Enough for today: there are regulations about excessive corporal
+ punishment. Besides, if you thrash every child continually, they'll
+ grow leathery and insensate.
+
+>ring bell
+
+ The Box has weakened Jill Flathead's morale, which is now poor.
+ The Box has stiffened Jill Flathead's discipline, which is now bad.
+ The ancient tricycles have fortified Miasmine Grimes's vigour, which
+ is now poor.
+ Shellac's Porter Supplements has improved Miasmine Grimes's morale,
+ which is now mediocre.
+ Shellac's Porter Supplements has sapped Miasmine Grimes's vigour,
+ which is now bad.
+ Shellac's Porter Supplements has stiffened Miasmine Grimes's
+ discipline, which is now adequate.
+ Shellac's Porter Supplements has improved Abstinence Rostigraben's
+ morale, which is now poor.
+ Shellac's Porter Supplements has sapped Abstinence Rostigraben's
+ vigour, which is now abysmal.
+ Shellac's Porter Supplements has stiffened Abstinence Rostigraben's
+ discipline, which is now mediocre.
+ My First Delousing Bath has brightened Paige Cruft's looks, which are
+ now mediocre.
+ The ancient tricycles have fortified Dick Kennedy's vigour, which is
+ now bad.
+ Shellac's Porter Supplements has improved Dick Kennedy's morale, which
+ is now poor.
+ Shellac's Porter Supplements has sapped Dick Kennedy's vigour, which
+ is now bad.
+ Shellac's Porter Supplements has stiffened Dick Kennedy's discipline,
+ which is now poor.
+ The ancient tricycles have fortified Frank Trundle's vigour, which is
+ now poor.
+ Shellac's Porter Supplements has improved Frank Trundle's morale,
+ which is now mediocre.
+ Shellac's Porter Supplements has sapped Frank Trundle's vigour, which
+ is now poor.
+ Shellac's Porter Supplements has stiffened Frank Trundle's discipline,
+ which is now adequate.
+ My First Delousing Bath has brightened Bianca Bloggs's looks, which
+ are now poor.
+ My First Delousing Bath has brightened Lexie Rudge's looks, which are
+ now mediocre.
+ The ancient tricycles have fortified Nettie Burrow's vigour, which is
+ now bad.
+ Shellac's Porter Supplements has improved Nettie Burrow's morale,
+ which is now poor.
+ Shellac's Porter Supplements has sapped Nettie Burrow's vigour, which
+ is now abysmal.
+ Shellac's Porter Supplements has stiffened Nettie Burrow's discipline,
+ which is now mediocre.
+ Shellac's Porter Supplements has sapped Annie Whittle's vigour, which
+ is now bad.
+ Shellac's Porter Supplements has stiffened Annie Whittle's discipline,
+ which is now poor.
+
+ You receive a government stipend of 110 for the feeding and care of
+ your orphans; and pay out 33 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Jill Flathead, Frank
+ Trundle and Nettie Burrow have improved their morale.
+
+ A new orphan, Volumnia Nash, has been entrusted to your care and is
+ now housed in the Junior House.
+
+ Laurice Shellac's grand porter experiment has concluded. He retrieves
+ his porter-casks and a great many measurements, praises your charity,
+ wisdom and personal charms for a period somewhat longer than strictly
+ required, and departs.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       awful        poor         bad          poor
+ Miasmine   mediocre     bad          satisfactory poor
+ Abstinence mediocre     abysmal      abysmal      poor
+ Paige      adequate     awful        mediocre     poor
+ Dick       mediocre     bad          mediocre     poor
+ Frank      adequate     poor         bad          adequate
+ Volumnia   poor         mediocre     bad          mediocre
+ Bianca     poor         bad          poor         mediocre
+ Red        poor         mediocre     awful        poor
+ Lexie      poor         awful        poor         poor
+ Nettie     mediocre     abysmal      poor         mediocre
+ Annie      poor         bad          poor         mediocre
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Annie and Abstinence are housed here.
+
+ Miasmine, Dick, Frank and Nettie are busily occupied with the ancient
+ tricycles.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ Volumnia is housed here.
+
+ Red, Bianca, Lexie and Paige are shedding parasites, encrustations and
+ chunks of skin in My First Delousing Bath.
+
+ Jill is spending some time in The Box.
+
+>unassign jill
+
+ You allow Jill Flathead to take a break.
+
+>examine volumnia
+
+ This is Volumnia Nash, secret whelp of a deadbeat hunchback and an
+ adulteress.
+ Her discipline is poor, her vigour mediocre, her appearance poor and
+ her morale poor.
+
+>assign volumnia to bath
+
+ You unceremoniously dunk Volumnia Nash into the Delousing Bath, and
+ command her to remain there until she is presentable.
+
+>examine jill
+
+ Your charge Jill Flathead, haphazardly-conceived issue of a hog-grease
+ hawker and a Salopian landlady.
+ Her discipline is awful, her vigour poor, her appearance poor and her
+ morale poor. You only hope that she never breeds.
+
+>assign jill to bath
+
+ You unceremoniously dunk Jill Flathead into the Delousing Bath, and
+ command her to remain there until she shehas become less foul to
+ behold.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Annie and Abstinence are housed here.
+
+ Miasmine, Dick, Frank and Nettie are busily occupied with the ancient
+ tricycles.
+
+>examine annie
+
+ Annie Whittle, daughter of an Armenian New Jersey pimp and a deranged
+ decadent barmaid.
+ Her discipline is poor, her vigour awful, her appearance poor and her
+ morale poor.
+
+>discipline annie
+
+ You apply some well-deserved discipline to Annie Whittle. Her
+ discipline is now mediocre.
+
+>assign annie to tricycles
+
+ You command Annie Whittle to occupy herself with the ancient
+ tricycles. She obediently complies.
+
+>examine abstinence
+
+ You are graced by the presence of Abstinence Rostigraben, daughter of
+ a deserter and a vacuous exotic dancer.
+ Her discipline is mediocre, her vigour abysmal, her appearance abysmal
+ and her morale poor.
+
+>assign abstinence to tricycles
+
+ You command Abstinence Rostigraben to occupy herself with the ancient
+ tricycles. She obediently complies.
+
+>go north
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+>go south
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Annie, Abstinence, Miasmine, Dick, Frank and Nettie are busily
+ occupied with the ancient tricycles.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Volumnia, Red, Bianca, Jill, Lexie and Paige are shedding parasites,
+ encrustations and chunks of skin in My First Delousing Bath.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       awful        poor         poor         poor
+ Miasmine   mediocre     bad          satisfactory poor
+ Abstinence mediocre     abysmal      abysmal      poor
+ Paige      adequate     abysmal      mediocre     poor
+ Dick       mediocre     poor         mediocre     poor
+ Frank      adequate     poor         awful        adequate
+ Volumnia   poor         mediocre     bad          poor
+ Bianca     poor         awful        poor         poor
+ Red        poor         mediocre     awful        poor
+ Lexie      poor         bad          poor         poor
+ Nettie     mediocre     abysmal      mediocre     mediocre
+ Annie      mediocre     abysmal      poor         poor
+
+>discipline jill
+
+ You apply some well-deserved discipline to Jill Flathead. Her
+ discipline is now poor.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Annie, Abstinence, Miasmine, Dick, Frank and Nettie are busily
+ occupied with the ancient tricycles.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Volumnia, Red, Bianca, Jill, Lexie and Paige are shedding parasites,
+ encrustations and chunks of skin in My First Delousing Bath.
+
+>discipline bianca
+
+ You apply some well-deserved discipline to Bianca Bloggs. Her
+ discipline is now poor.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Annie, Abstinence, Miasmine, Dick, Frank and Nettie are busily
+ occupied with the ancient tricycles.
+
+>scrub frank
+
+ You seize Frank, delouse his scalp with carbolic acid, and make him
+ walk around with a book on his head. This accomplished, you deliver a
+ short lecture on the spiritual and bacterial dangers of filthiness.
+ Hopefully the lesson is learned; his looks are now poor.
+
+>scrub abstinence
+
+ Setting the occasional example is one thing, but you would be worn to
+ the bone if you had to groom each and every one of your charges; you
+ are their guardian, not their stable-hand.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       poor         bad          bad          bad
+ Miasmine   adequate     bad          adequate     poor
+ Abstinence mediocre     abysmal      bad          mediocre
+ Paige      adequate     bad          mediocre     poor
+ Dick       poor         poor         mediocre     poor
+ Frank      adequate     poor         poor         mediocre
+ Volumnia   mediocre     mediocre     poor         poor
+ Bianca     poor         abysmal      poor         poor
+ Red        poor         mediocre     bad          poor
+ Lexie      poor         bad          mediocre     poor
+ Nettie     mediocre     abysmal      mediocre     mediocre
+ Annie      adequate     bad          poor         poor
+
+>ring bell
+
+ My First Delousing Bath has brightened Jill Flathead's looks, which
+ are now poor.
+ The ancient tricycles have fortified Miasmine Grimes's vigour, which
+ is now poor.
+ The ancient tricycles have fortified Abstinence Rostigraben's vigour,
+ which is now awful.
+ My First Delousing Bath has brightened Paige Cruft's looks, which are
+ now adequate.
+ The ancient tricycles have fortified Dick Kennedy's vigour, which is
+ now mediocre.
+ The ancient tricycles have fortified Frank Trundle's vigour, which is
+ now mediocre.
+ My First Delousing Bath has brightened Volumnia Nash's looks, which
+ are now poor.
+ My First Delousing Bath has brightened Bianca Bloggs's looks, which
+ are now mediocre.
+ My First Delousing Bath has brightened Lexie Rudge's looks, which are
+ now mediocre.
+ The ancient tricycles have fortified Nettie Burrow's vigour, which is
+ now poor.
+ The ancient tricycles have fortified Annie Whittle's vigour, which is
+ now poor.
+
+ You receive a government stipend of 120 for the feeding and care of
+ your orphans; and pay out 36 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Dick Kennedy and Frank
+ Trundle have gained vigour, and Volumnia Nash, Bianca Bloggs, Red
+ Twite and Annie Whittle have improved their morale.
+
+ Paige Cruft has grown up a little, and been transferred to the Middle
+ House.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       poor         bad          poor         poor
+ Miasmine   mediocre     bad          satisfactory poor
+ Abstinence mediocre     bad          abysmal      poor
+ Paige      mediocre     awful        adequate     poor
+ Dick       poor         mediocre     mediocre     poor
+ Frank      adequate     mediocre     poor         mediocre
+ Volumnia   mediocre     poor         poor         poor
+ Bianca     poor         abysmal      poor         poor
+ Red        poor         poor         awful        poor
+ Lexie      poor         bad          mediocre     poor
+ Nettie     mediocre     bad          poor         mediocre
+ Annie      adequate     poor         poor         mediocre
+
+ A new task: <span class="floydstyle i">Torchbearer</span>
+ Senator Hoofey dearly loves to cruise leafy avenues in his Escalade.
+ To do so in appropriate style requires a full formal escort, including
+ a small child with a flaming torch to run ahead and announce his
+ passage. Little is required of this child except the ability to run in
+ a straight line without expiring, and the pragmatic requirement that
+ they be both cheap and legal. A shady aide has raised the possibility
+ of transferring guardianship for a small consideration, if a suitable
+ child can be found. <span class="floydstyle em">(Use RECRUIT on a suitable orphan.)</span>
+
+>recruit frank
+
+ Frank Trundle is judged adequate to the demands of the position, and
+ the shady aide spirits him off to the corridors of power. The money --
+ a mere twenty coins -- is not as good as you had hoped, but at least
+ you can chalk this one up in the success column when the Periodic
+ Review rolls around.
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Paige is housed here.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Annie, Abstinence, Miasmine, Dick and Nettie are busily occupied with
+ the ancient tricycles.
+
+>examine catalogue
+
+ A respected specialist catering to the orphan management trade,
+ Fobberfish of Hackney provides a wide variety of goods at virtually
+ affordable rates. Bowing to the decadence of the age, this
+ once-respectable publication now features many vain luxuries that you
+ can safely ignore, such as fair-trade gruel, artisanal wildflower
+ soap, and smallpox vaccines. The few items of real utility have been
+ circled in red pen:
+
+ Ruritanian Mastiffs (400 coins)
+ Atherton's Ergonomic Treadmill (400 coins)
+ Spinal Corrective Corsets (450 coins)
+ Dr. Pranger's Lithium Water (700 coins)
+ triple-barred windows (350 coins)
+ The Harvest of Sin (700 coins)
+
+>purchase triple-barred windows
+
+ You reluctantly part with 350 coins, mail in your order, and in due
+ course receive delivery of triple-barred windows.
+
+>assign paige to tricycles
+
+ You command Paige Cruft to occupy herself with the ancient tricycles.
+ She obediently complies.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Volumnia, Red, Bianca, Jill and Lexie are shedding parasites,
+ encrustations and chunks of skin in My First Delousing Bath.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       poor         bad          bad          poor
+ Miasmine   mediocre     poor         satisfactory poor
+ Abstinence mediocre     abysmal      awful        mediocre
+ Paige      mediocre     awful        adequate     poor
+ Dick       poor         mediocre     mediocre     poor
+ Volumnia   mediocre     poor         bad          poor
+ Bianca     poor         abysmal      poor         poor
+ Red        poor         mediocre     bad          poor
+ Lexie      poor         bad          poor         poor
+ Nettie     mediocre     bad          mediocre     poor
+ Annie      adequate     poor         poor         poor
+
+>discipline all
+
+ You apply some well-deserved discipline to Jill Flathead. Her
+ discipline is now poor.
+
+ You apply some well-deserved discipline to Volumnia Nash. Her
+ discipline is now mediocre.
+
+ You apply some well-deserved discipline to Bianca Bloggs. Her
+ discipline is now mediocre.
+
+ Enough for today: there are regulations about excessive corporal
+ punishment. Besides, if you thrash every child continually, they'll
+ grow leathery and insensate.
+
+ Enough for today: there are regulations about excessive corporal
+ punishment. Besides, if you thrash every child continually, they'll
+ grow leathery and insensate.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Paige, Annie, Abstinence, Miasmine, Dick and Nettie are busily
+ occupied with the ancient tricycles.
+
+>scrub abstinence
+
+ You seize Abstinence, pinch her cheeks until they take on a healthy
+ red colour, and make her dedicate a few hours to shining her shoes.
+ This accomplished, you deliver a short lecture on the spiritual and
+ bacterial dangers of filthiness. Hopefully the lesson is learned; her
+ looks are now bad.
+
+>examine all
+
+ Miasmine Grimes, daughter of an unwashed goat-butcher and a joyless
+ seamstress.
+ Her discipline is mediocre, her vigour poor, her appearance adequate
+ and her morale poor.
+
+ Abstinence Rostigraben, daughter of a deserter and a vacuous exotic
+ dancer.
+ Her discipline is mediocre, her vigour abysmal, her appearance poor
+ and her morale mediocre. This is totally unacceptable.
+
+ Paige Cruft, unnecessary daughter of a miserable consumptive hunchback
+ and a diseased informer.
+ Her discipline is mediocre, her vigour awful, her appearance adequate
+ and her morale poor.
+
+ This is Dick Kennedy, unfortunate son of a bellhop and a ball-breaking
+ garbage-sifter.
+ His discipline is mediocre, his vigour mediocre, his appearance
+ mediocre and his morale poor. If families of good stock do not take
+ their responsibilities seriously, his kind will inherit the earth in a
+ few short generations.
+
+ Nettie Burrow, progeny of a guttersnipe and a screever.
+ Her discipline is mediocre, her vigour poor, her appearance poor and
+ her morale mediocre. This is totally unacceptable.
+
+ Annie Whittle, regrettable daughter of an Armenian New Jersey pimp and
+ a deranged decadent barmaid.
+ Her discipline is mediocre, her vigour poor, her appearance poor and
+ her morale mediocre. So young, and already a drain on society.
+
+>ring bell
+
+ The ancient tricycles have fortified Miasmine Grimes's vigour, which
+ is now mediocre.
+ The ancient tricycles have fortified Abstinence Rostigraben's vigour,
+ which is now bad.
+ The ancient tricycles have fortified Paige Cruft's vigour, which is
+ now bad.
+ The ancient tricycles have fortified Dick Kennedy's vigour, which is
+ now adequate.
+ My First Delousing Bath has brightened Volumnia Nash's looks, which
+ are now mediocre.
+ My First Delousing Bath has brightened Bianca Bloggs's looks, which
+ are now mediocre.
+ My First Delousing Bath has brightened Red Twite's looks, which are
+ now bad.
+ The ancient tricycles have fortified Nettie Burrow's vigour, which is
+ now poor.
+ The ancient tricycles have fortified Annie Whittle's vigour, which is
+ now mediocre.
+
+ You receive a government stipend of 110 for the feeding and care of
+ your orphans; and pay out 33 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Miasmine Grimes, Lexie
+ Rudge and Nettie Burrow have gained vigour, and Lexie Rudge has
+ improved her morale.
+
+ Jill Flathead and Lexie Rudge have been moved to the Middle House,
+ being of sufficient age. Abstinence Rostigraben, Nettie Burrow and
+ Annie Whittle are ready for the Senior.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       mediocre     poor         bad          poor
+ Miasmine   mediocre     mediocre     satisfactory mediocre
+ Abstinence mediocre     poor         poor         poor
+ Paige      mediocre     bad          adequate     poor
+ Dick       mediocre     adequate     mediocre     poor
+ Volumnia   mediocre     poor         poor         poor
+ Bianca     mediocre     abysmal      mediocre     poor
+ Red        poor         mediocre     bad          poor
+ Lexie      poor         bad          poor         poor
+ Nettie     mediocre     poor         mediocre     mediocre
+ Annie      mediocre     mediocre     mediocre     poor
+
+ A new task: <span class="floydstyle i">Path to the Nest of Spiders</span>
+ Ever since Slophouse & Sons started sourcing gruel ingredients from
+ Ruritania, you have occasionally found a Ruritanian Misanthrope spider
+ lurking at the bottom of a box of dehydrated oat-scrapings. Now,
+ however, it seems that one has escaped and started to breed. The bite
+ of the Ruritanian Misanthrope is not usually fatal, but the necrosis
+ it causes is both painful and unsightly. Unless you want an
+ establishment full of blotchy, keening orphans, you had better search
+ for the nest and deal with it.
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Lexie and Jill are housed here.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Paige, Miasmine and Dick are busily occupied with the ancient
+ tricycles.
+
+>go north
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Annie, Nettie and Abstinence are housed here.
+
+>go south
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Lexie and Jill are housed here.
+
+ Paige, Miasmine and Dick are busily occupied with the ancient
+ tricycles.
+
+ Tiny sobs would suggest that Abstinence Rostigraben has been molested
+ by a Ruritanian Misanthrope spider.
+
+>undo
+
+ <span class="floydstyle em">(This game makes heavy use of randomisation, which means that UNDO</span>
+ <span class="floydstyle em">has the potential to be unusually disruptive. On the other hand,</span>
+ <span class="floydstyle em">disabling UNDO entirely can be seriously annoying. The command will be</span>
+ <span class="floydstyle em">available from now on, but you're requested to restrict your use of it</span>
+ <span class="floydstyle em">to input mistakes, getting around bugs, and viewing alternative</span>
+ <span class="floydstyle em">content, rather than to exploit the game for more favourable random</span>
+ <span class="floydstyle em">outcomes.)</span>
+
+>search all
+
+ You can't use multiple objects with that verb.
+
+>search annie
+
+ You can't see any such thing.
+
+>search orphan
+
+ Who do you mean, Lexie Rudge, Jill Flathead, Paige Cruft, Miasmine
+ Grimes or Dick Kennedy?
+
+>go north
+
+ I only understood you as far as wanting to search north.
+
+>go north
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Annie, Nettie and Abstinence are housed here.
+
+>search abstinence
+
+ Although orphans are prone to infestations and mulishly insensitive to
+ pain, you cannot quite believe that one could unwittingly harbour a
+ nest of venomous spiders.
+
+>examine all
+
+ Abstinence Rostigraben, daughter of a deserter and a vacuous exotic
+ dancer.
+ Her discipline is mediocre, her vigour poor, her appearance awful and
+ her morale poor.
+
+ Your charge Nettie Burrow, daughter of a guttersnipe and a screever.
+ Her discipline is mediocre, her vigour mediocre, her appearance
+ mediocre and her morale mediocre.
+
+ This is Annie Whittle, unwanted daughter of an Armenian New Jersey
+ pimp and a deranged decadent barmaid.
+ Her discipline is mediocre, her vigour poor, her appearance mediocre
+ and her morale mediocre.
+
+>SAVE
+>cf24
+ %% Enter a save filename to write:
+
+>go south
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Lexie and Jill are housed here.
+
+ Paige, Miasmine and Dick are busily occupied with the ancient
+ tricycles.
+
+>search corner
+
+ You find nothing of interest.
+
+>search hideaway
+
+ You find nothing of interest.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Volumnia, Red and Bianca are shedding parasites, encrustations and
+ chunks of skin in My First Delousing Bath.
+
+>search ceiling
+
+ You can't see any such thing.
+
+>search ceilings
+
+ You can't see any such thing.
+
+>search bath
+
+ Aha! There has surely been a nest here not too long ago: empty egg
+ casings, thick froths of web, the husks of infant spiders devoured by
+ their siblings. Alas, it's here no longer. But the exodus was not
+ covert: a trail leads you to an old bricked-up chimney flue, spidery
+ holes punctuating its rotten mortar.
+
+>search chimney
+
+ There's not much you can do while it's all bricked up.
+
+>take bricks
+
+ That's hardly portable.
+
+ Soft moaning would suggest that Dick Kennedy has been attacked by a
+ Ruritanian Misanthrope spider.
+
+>open bricks
+
+ The mortar crumbles easily under the slightest impact, and you are
+ able to tear down half the wall with your bare hands. Out tumble
+ several mummified pigeons, a great deal of soot and brick dust, and a
+ scattering of panicked spiders that are instantly stomped upon by
+ gleeful orphans. The chimney's jagged mouth is revealed, ominous wisps
+ of web leading up into darkness.
+
+ A howl of agony would suggest that Paige Cruft has been bitten by a
+ Ruritanian Misanthrope spider.
+
+>search chimney
+
+ The short stretch of chimney that's visible from here doesn't seem to
+ be the location of the nest, and you can neither reach nor see any
+ further. Perhaps you might assign someone better-suited to this task.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       mediocre     poor         bad          bad
+ Miasmine   mediocre     mediocre     satisfactory mediocre
+ Abstinence mediocre     bad          awful        poor
+ Paige      mediocre     poor         adequate     poor
+ Dick       poor         adequate     poor         poor
+ Volumnia   mediocre     poor         poor         mediocre
+ Bianca     mediocre     abysmal      mediocre     poor
+ Red        poor         poor         poor         mediocre
+ Lexie      poor         bad          mediocre     poor
+ Nettie     poor         poor         poor         mediocre
+ Annie      mediocre     poor         mediocre     poor
+
+>assign red to chimney
+
+ You hand little Red a lantern, a spray-can of insecticide and a
+ fortifying biscuit, then send him up the chimney with dire threats of
+ what will happen if he returns without eradicating the spider nest. A
+ hushed silence falls over the Orphanorium, broken only by the
+ occasional squeal of agony.
+
+>unassign red
+
+ You can't see any such thing.
+
+>look
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Volumnia and Bianca are shedding parasites, encrustations and chunks
+ of skin in My First Delousing Bath.
+
+ Tiny sobs would suggest that Miasmine has been poisoned by a
+ Ruritanian Misanthrope spider.
+
+>search chimney
+
+ The short stretch of chimney that's visible from here doesn't seem to
+ be the location of the nest, and you can neither reach nor see any
+ further. Perhaps you might assign someone better-suited to this task.
+
+>assign bianca chimney
+
+ I didn't understand that sentence.
+
+>assign bianca to chimney
+
+ Two children up a chimney at once might seem more efficient, but only
+ to the painfully stupid.
+
+ A penetrating wail would suggest that Jill has been bitten by a
+ Ruritanian Misanthrope spider.
+
+ In a sudden explosion of soot and insecticide fumes, Red emerges from
+ the fireplace. He is rather horribly bitten and has inhaled a
+ considerable quantity of soot, neurotoxins and spider legs, but his
+ triumph over the spiders is undeniable. The orphans give up a ragged
+ cheer, Red gets a double helping of gruel at supper, a man is called
+ in to brick up the chimney, and life in the Orphanorium returns to
+ normal.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       mediocre     bad          poor         bad
+ Miasmine   adequate     mediocre     satisfactory poor
+ Abstinence mediocre     bad          bad          mediocre
+ Paige      adequate     poor         adequate     poor
+ Dick       mediocre     adequate     mediocre     poor
+ Volumnia   mediocre     poor         poor         mediocre
+ Bianca     mediocre     abysmal      mediocre     mediocre
+ Red        poor         mediocre     abysmal      bad
+ Lexie      poor         bad          mediocre     mediocre
+ Nettie     mediocre     mediocre     mediocre     mediocre
+ Annie      adequate     mediocre     poor         mediocre
+
+>scrub red
+
+ You seize Red, delouse his scalp with equal parts pomatum and
+ mercurial ointment (just in case), and scrub him all over with
+ turpentine and a pumice-stone. This accomplished, you deliver a short
+ lecture on the spiritual and bacterial dangers of filthiness.
+ Hopefully the lesson is learned; his looks are now poor.
+
+>discipline red
+
+ You apply some well-deserved discipline to Red Twite. His discipline
+ is now mediocre.
+
+>look
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ Red is housed here.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Volumnia and Bianca are shedding parasites, encrustations and chunks
+ of skin in My First Delousing Bath.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Lexie and Jill are housed here.
+
+ Paige, Miasmine and Dick are busily occupied with the ancient
+ tricycles.
+
+>assign jill to tricycles
+
+ You command Jill Flathead to occupy herself with the ancient
+ tricycles. She obediently complies.
+
+>discipline lexie
+
+ You apply some well-deserved discipline to Lexie Rudge. Her discipline
+ is now mediocre.
+
+>discipline jill
+
+ You apply some well-deserved discipline to Jill Flathead. Her
+ discipline is now adequate.
+
+>discipline dick
+
+ Enough for today: there are regulations about excessive corporal
+ punishment. Besides, if you thrash every child continually, they'll
+ grow leathery and insensate.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       adequate     bad          bad          bad
+ Miasmine   mediocre     mediocre     adequate     mediocre
+ Abstinence mediocre     poor         awful        mediocre
+ Paige      adequate     bad          adequate     poor
+ Dick       mediocre     adequate     mediocre     mediocre
+ Volumnia   mediocre     poor         mediocre     mediocre
+ Bianca     mediocre     abysmal      mediocre     poor
+ Red        mediocre     poor         poor         poor
+ Lexie      mediocre     awful        mediocre     poor
+ Nettie     mediocre     poor         poor         mediocre
+ Annie      mediocre     poor         mediocre     mediocre
+
+>ring bell
+
+ The ancient tricycles have fortified Jill Flathead's vigour, which is
+ now poor.
+ The ancient tricycles have fortified Miasmine Grimes's vigour, which
+ is now adequate.
+ The ancient tricycles have fortified Paige Cruft's vigour, which is
+ now poor.
+ The ancient tricycles have fortified Dick Kennedy's vigour, which is
+ now adequate.
+ My First Delousing Bath has brightened Volumnia Nash's looks, which
+ are now mediocre.
+ My First Delousing Bath has brightened Bianca Bloggs's looks, which
+ are now adequate.
+
+ You receive a government stipend of 110 for the feeding and care of
+ your orphans; and pay out 33 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Paige Cruft, Bianca
+ Bloggs and Lexie Rudge have gained vigour, and Jill Flathead,
+ Abstinence Rostigraben, Dick Kennedy, Bianca Bloggs and Red Twite have
+ improved their morale.
+
+ A generous patron, impressed by Annie Whittle's dedication, has
+ offered her employment as a household drudge. For your success as an
+ educator, the Government awards you a bonus of 35 coins.
+
+ Volumnia Nash and Bianca Bloggs have been moved to the Middle House,
+ being of sufficient age. Jill Flathead and Miasmine Grimes are ready
+ for the Senior.
+
+ The Orphanorium has been entrusted with two more children: Honey
+ Cropes is old enough for the Middle House, while Becky Baffle will go
+ to the Junior.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       mediocre     poor         poor         poor
+ Miasmine   mediocre     adequate     satisfactory mediocre
+ Abstinence mediocre     bad          bad          mediocre
+ Paige      mediocre     mediocre     adequate     poor
+ Dick       mediocre     adequate     mediocre     mediocre
+ Volumnia   mediocre     poor         adequate     mediocre
+ Bianca     mediocre     abysmal      adequate     mediocre
+ Red        poor         poor         poor         bad
+ Lexie      mediocre     bad          poor         mediocre
+ Nettie     mediocre     poor         mediocre     adequate
+ Becky      mediocre     bad          bad          poor
+ Honey      abysmal      poor         bad          mediocre
+
+ A new task: <span class="floydstyle i">The Cholera Caper</span>
+ An unidentified child stuffed a blanket down the privies, and now the
+ entire facility is ankle-deep in backed-up sewage. Assign orphans to
+ sewage cleanup before you all die of cholera.
+
+>SAVE
+>cf25
+ %% Enter a save filename to write:
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The room is ankle-deep in raw sewage.
+
+ Honey, Bianca, Volumnia and Lexie are housed here.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Paige and Dick are busily occupied with the ancient tricycles.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The room is ankle-deep in raw sewage.
+
+ From an obscure corner, My First Delousing Bath gives off
+ sanitary-smelling vapours.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Becky and Red are housed here.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The room is ankle-deep in raw sewage.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Honey, Bianca, Volumnia and Lexie are housed here.
+
+ Paige and Dick are busily occupied with the ancient tricycles.
+
+>go north
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+ The room is ankle-deep in raw sewage.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Miasmine, Jill, Nettie and Abstinence are housed here.
+
+>assign nettie to sewage
+
+ You command Nettie Burrow to occupy herself with raw sewage. She
+ obediently complies.
+
+>assign jill to sewage
+
+ You command Jill Flathead to occupy herself with raw sewage. She
+ obediently complies.
+
+>go south
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The room is ankle-deep in raw sewage.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Honey, Bianca, Volumnia and Lexie are housed here.
+
+ Paige and Dick are busily occupied with the ancient tricycles.
+
+>examine all
+
+ This is Paige Cruft, ill-fated daughter of a miserable consumptive
+ hunchback and a diseased informer.
+ Her discipline is mediocre, her vigour poor, her appearance adequate
+ and her morale poor.
+
+ You are graced by the presence of Dick Kennedy, son of a bellhop and a
+ ball-breaking garbage-sifter.
+ His discipline is mediocre, his vigour satisfactory, his appearance
+ poor and his morale mediocre.
+
+ Volumnia Nash, whelp of a deadbeat hunchback and an adulteress.
+ Her discipline is mediocre, her vigour poor, her appearance adequate
+ and her morale mediocre.
+
+ Bianca Bloggs, daughter of a wandering outlaw and a hideous octoroon
+ ingenue.
+ Her discipline is poor, her vigour abysmal, her appearance adequate
+ and her morale mediocre. Her very presence makes you itch.
+
+ Lexie Rudge, daughter of a mercenary and a loveless shopgirl.
+ Her discipline is mediocre, her vigour bad, her appearance poor and
+ her morale mediocre.
+
+ Honey Cropes, child of a ponce and a nymphomaniac contortionist.
+ Her discipline is abysmal, her vigour poor, her appearance abysmal and
+ her morale poor. Until licenses are required to breed, her kind will
+ only proliferate.
+
+>assign dick to sewage
+>discipline honey
+
+ You command Dick Kennedy to occupy himself with raw sewage. He
+ obediently complies.
+
+
+ You apply some well-deserved discipline to Honey Cropes. Her
+ discipline is now bad.
+
+>assign bianca to tricycles
+
+ You command Bianca Bloggs to occupy herself with the ancient
+ tricycles. She obediently complies.
+
+>assign lexie to tricycles
+
+ You command Lexie Rudge to occupy herself with the ancient tricycles.
+ She obediently complies.
+
+>assign volumnia to tricycles
+
+ You command Volumnia Nash to occupy herself with the ancient
+ tricycles. She obediently complies.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       adequate     bad          poor         bad
+ Miasmine   mediocre     adequate     good         mediocre
+ Abstinence mediocre     poor         bad          mediocre
+ Paige      adequate     mediocre     adequate     poor
+ Dick       mediocre     adequate     poor         mediocre
+ Volumnia   mediocre     poor         adequate     mediocre
+ Bianca     poor         abysmal      adequate     mediocre
+ Red        mediocre     poor         poor         poor
+ Lexie      mediocre     bad          poor         mediocre
+ Nettie     mediocre     mediocre     mediocre     adequate
+ Becky      mediocre     bad          poor         poor
+ Honey      abysmal      poor         bad          poor
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Honey is housed here.
+
+ Bianca, Volumnia, Lexie and Paige are busily occupied with the ancient
+ tricycles.
+
+ The room is ankle-deep in raw sewage, in which Dick frolics with
+ bleach, bucket and mop.
+
+>assign honey to sewage
+
+ You command Honey Cropes to occupy herself with raw sewage. She
+ obediently complies.
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ The room is ankle-deep in raw sewage, in which Honey and Dick frolic
+ with bleach, bucket and mop.
+
+ Bianca, Volumnia, Lexie and Paige are busily occupied with the ancient
+ tricycles.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The room is ankle-deep in raw sewage.
+
+ From an obscure corner, My First Delousing Bath gives off
+ sanitary-smelling vapours.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Becky and Red are housed here.
+
+>assign all to sewage
+
+ You assign Red and Becky to raw sewage.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ The room is ankle-deep in raw sewage, in which Honey and Dick frolic
+ with bleach, bucket and mop.
+
+ Bianca, Volumnia, Lexie and Paige are busily occupied with the ancient
+ tricycles.
+
+>discipline bianca
+
+ You apply some well-deserved discipline to Bianca Bloggs. Her
+ discipline is now adequate.
+
+>go north
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Miasmine and Abstinence are housed here.
+
+ The room is ankle-deep in raw sewage, in which Jill and Nettie frolic
+ with bleach, bucket and mop.
+
+>scrub abstinence
+
+ You seize Abstinence, spit-wash her grimy little face with your
+ second-best handkerchief, and make her dedicate a few hours to shining
+ her shoes. This accomplished, you deliver a short lecture on the
+ spiritual and bacterial dangers of filthiness. Hopefully the lesson is
+ learned; her looks are now bad.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Jill       mediocre     bad          poor         bad
+ Miasmine   adequate     adequate     satisfactory poor
+ Abstinence mediocre     poor         poor         adequate
+ Paige      mediocre     mediocre     adequate     poor
+ Dick       mediocre     satisfactory poor         mediocre
+ Volumnia   mediocre     poor         adequate     mediocre
+ Bianca     adequate     abysmal      adequate     mediocre
+ Red        mediocre     poor         bad          poor
+ Lexie      mediocre     bad          poor         poor
+ Nettie     poor         poor         poor         adequate
+ Becky      mediocre     bad          poor         poor
+ Honey      awful        poor         awful        poor
+
+>discipline nettie
+
+ You apply some well-deserved discipline to Nettie Burrow. Her
+ discipline is now mediocre.
+
+>ring bell
+
+ The ancient tricycles have fortified Paige Cruft's vigour, which is
+ now adequate.
+ The ancient tricycles have fortified Volumnia Nash's vigour, which is
+ now mediocre.
+ The ancient tricycles have fortified Bianca Bloggs's vigour, which is
+ now bad.
+ The raw sewage has weakened Red Twite's morale, which is now bad.
+ The ancient tricycles have fortified Lexie Rudge's vigour, which is
+ now poor.
+
+ Red Twite has died of cholera. The coroner suggests that the death
+ might have been prevented through better living conditions, which
+ apparently involve less contact with raw sewage.
+
+ Honey Cropes has dodged your nightly patrols and escaped! Water finds
+ its level, so you are not surprised when, later, you receive reports
+ that she has been forced to subsist as a welfare bum.
+
+ You receive a government stipend of 100 for the feeding and care of
+ your orphans; and pay out 30 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Paige Cruft and Becky
+ Baffle have improved their morale.
+
+ A generous patron, impressed by Jill Flathead's positive attitude, has
+ offered her employment as a loom operator. For your success as an
+ educator, the Government awards you a bonus of 35 coins.
+ A generous patron, impressed by Miasmine Grimes's ingrained servility
+ and raven tresses, has offered her employment as a
+ petition-distributor. For your success as an educator, the Government
+ awards you a bonus of 50 coins.
+
+ Nettie Burrow has reached the age of maturity, and there is nothing
+ more you can do. She is lost to gainful industry and to virtue, and
+ promptly becomes a rodeo clown. (Good discipline is the surest path to
+ a respectable job, though employers also favour those with high vigour
+ and looks).
+ Volumnia Nash has graduated to the Senior House. Orphans in the Senior
+ House, if they have been trained well enough, may find employment and
+ leave your care.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Abstinence mediocre     poor         poor         adequate
+ Paige      adequate     mediocre     adequate     mediocre
+ Dick       mediocre     satisfactory poor         mediocre
+ Volumnia   mediocre     poor         mediocre     mediocre
+ Bianca     adequate     abysmal      adequate     mediocre
+ Lexie      mediocre     bad          mediocre     mediocre
+ Becky      mediocre     poor         poor         poor
+
+>look
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+ Volumnia and Abstinence are housed here.
+
+ The room is ankle-deep in raw sewage.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+>scrub abstinence
+
+ You seize Abstinence, delouse her scalp with carbolic acid, and make
+ her dedicate a few hours to shining her shoes. This accomplished, you
+ deliver a short lecture on the spiritual and bacterial dangers of
+ filthiness. Hopefully the lesson is learned; her looks are now
+ mediocre.
+
+>assign all to sewage
+
+ You assign Abstinence and Volumnia to raw sewage.
+
+>go south
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Bianca, Lexie and Paige are busily occupied with the ancient
+ tricycles.
+
+ The room is ankle-deep in raw sewage, in which Dick frolics with
+ bleach, bucket and mop.
+
+>assign paige to sewage
+
+ You command Paige Cruft to occupy herself with raw sewage. She
+ obediently complies.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ From an obscure corner, My First Delousing Bath gives off
+ sanitary-smelling vapours.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ The room is ankle-deep in raw sewage, in which Becky frolics with
+ bleach, bucket and mop.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Abstinence mediocre     poor         mediocre     mediocre
+ Paige      mediocre     adequate     adequate     poor
+ Dick       mediocre     satisfactory poor         mediocre
+ Volumnia   mediocre     poor         mediocre     mediocre
+ Bianca     adequate     abysmal      adequate     mediocre
+ Lexie      mediocre     bad          poor         poor
+ Becky      adequate     bad          bad          mediocre
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Bianca and Lexie are busily occupied with the ancient tricycles.
+
+ The room is ankle-deep in raw sewage, in which Paige and Dick frolic
+ with bleach, bucket and mop.
+
+>discipline lexie
+
+ You apply some well-deserved discipline to Lexie Rudge. Her discipline
+ is now mediocre.
+
+>discipline paige
+
+ You apply some well-deserved discipline to Paige Cruft. Her discipline
+ is now adequate.
+
+>ring bell
+
+ The raw sewage has weakened Abstinence Rostigraben's morale, which is
+ now poor.
+ The ancient tricycles have fortified Bianca Bloggs's vigour, which is
+ now poor.
+ The ancient tricycles have fortified Lexie Rudge's vigour, which is
+ now poor.
+
+ You receive a government stipend of 70 for the feeding and care of
+ your orphans; and pay out 21 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Dick Kennedy has gained
+ vigour, and Lexie Rudge has improved her morale.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Abstinence mediocre     poor         mediocre     poor
+ Paige      satisfactory adequate     adequate     poor
+ Dick       poor         satisfactory poor         mediocre
+ Volumnia   mediocre     mediocre     adequate     mediocre
+ Bianca     adequate     poor         adequate     mediocre
+ Lexie      adequate     mediocre     mediocre     poor
+ Becky      adequate     bad          poor         poor
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Bianca and Lexie are busily occupied with the ancient tricycles.
+
+ The room is ankle-deep in raw sewage, in which Paige and Dick frolic
+ with bleach, bucket and mop.
+
+>discipline dick
+
+ You apply some well-deserved discipline to Dick Kennedy. His
+ discipline is now adequate.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ From an obscure corner, My First Delousing Bath gives off
+ sanitary-smelling vapours.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ The room is ankle-deep in raw sewage, in which Becky frolics with
+ bleach, bucket and mop.
+
+>scrub becky
+
+ You seize Becky, drag a comb through her hair, and scrub her all over
+ with turpentine and a pumice-stone. This accomplished, you deliver a
+ short lecture on the spiritual and bacterial dangers of filthiness.
+ Hopefully the lesson is learned; her looks are now poor.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Bianca and Lexie are busily occupied with the ancient tricycles.
+
+ The room is ankle-deep in raw sewage, in which Paige and Dick frolic
+ with bleach, bucket and mop.
+
+>go north
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ The room is ankle-deep in raw sewage, in which Volumnia and Abstinence
+ frolic with bleach, bucket and mop.
+
+>discipline volumnia
+
+ You apply some well-deserved discipline to Volumnia Nash. Her
+ discipline is now adequate.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Abstinence mediocre     poor         mediocre     poor
+ Paige      adequate     mediocre     adequate     poor
+ Dick       mediocre     adequate     poor         poor
+ Volumnia   adequate     poor         adequate     poor
+ Bianca     mediocre     bad          adequate     mediocre
+ Lexie      mediocre     poor         mediocre     mediocre
+ Becky      mediocre     bad          poor         mediocre
+
+>discipline abstinence
+
+ You apply some well-deserved discipline to Abstinence Rostigraben. Her
+ discipline is now adequate.
+
+>ring bell
+
+ The raw sewage has weakened Abstinence Rostigraben's morale, which is
+ now poor.
+ The raw sewage has weakened Dick Kennedy's morale, which is now poor.
+ The raw sewage has weakened Volumnia Nash's morale, which is now bad.
+ The ancient tricycles have fortified Bianca Bloggs's vigour, which is
+ now mediocre.
+ The ancient tricycles have fortified Lexie Rudge's vigour, which is
+ now adequate.
+
+ The sewage has been cleaned from the Senior House. Until the
+ Orphanorium is entirely clean, however, cholera will imperil everyone.
+ The Middle House is no longer awash in sewage.
+
+ You receive a government stipend of 70 for the feeding and care of
+ your orphans; and pay out 21 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Paige Cruft has gained
+ vigour.
+
+ A generous patron, impressed by Volumnia Nash's demure ways and crude
+ charms, has offered her employment as a shopgirl. For your success as
+ an educator, the Government awards you a bonus of 50 coins.
+
+ The Orphanorium has been entrusted with three more children: Modesty
+ Schmeer is old enough for the Middle House, while Prudence Grady and
+ Tawny Raskolnikov will go to the Junior.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Tawny      awful        poor         awful        poor
+ Modesty    bad          poor         bad          poor
+ Abstinence adequate     bad          mediocre     poor
+ Paige      adequate     adequate     adequate     poor
+ Dick       adequate     adequate     poor         poor
+ Bianca     adequate     poor         adequate     mediocre
+ Lexie      mediocre     adequate     mediocre     poor
+ Becky      mediocre     poor         poor         mediocre
+ Prudence   bad          bad          bad          mediocre
+
+>go south
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Modesty, Paige and Dick are housed here.
+
+ Bianca and Lexie are busily occupied with the ancient tricycles.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ From an obscure corner, My First Delousing Bath gives off
+ sanitary-smelling vapours.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Tawny and Prudence are housed here.
+
+ The room is ankle-deep in raw sewage, in which Becky frolics with
+ bleach, bucket and mop.
+
+ <span class="floydstyle em">(The Cholera Caper has been going on for quite a while. If you'd</span>
+ <span class="floydstyle em">like a refresher on how to complete this task, try RECAP. There is</span>
+ <span class="floydstyle em">still uncleaned sewage in the Junior House.)</span>
+>discipline tawny
+
+ You apply some well-deserved discipline to Tawny Raskolnikov. Her
+ discipline is now awful.
+
+>assign prudence to sewage
+
+ You command Prudence Grady to occupy herself with raw sewage. She
+ obediently complies.
+
+>examine all
+
+ Tawny Raskolnikov, daughter of a hog-grease hawker and a Salopian
+ landlady.
+ Her discipline is bad, her vigour poor, her appearance awful and her
+ morale poor.
+
+ Becky Baffle, daughter of a bourgeois soap-dodger and a rouge-caked
+ feminist scullery-maid.
+ Her discipline is mediocre, her vigour bad, her appearance poor and
+ her morale mediocre.
+
+ Prudence Grady, regrettable daughter of a ponce and a nymphomaniac
+ contortionist.
+ Her discipline is bad, her vigour bad, her appearance awful and her
+ morale mediocre. Yet Jesus loves her, as if He had not suffered
+ enough.
+
+>scrub prudence
+
+ You seize Prudence, delouse her scalp with carbolic acid, and tell her
+ that she will be spending her break re-ironing her crumpled clothes.
+ This accomplished, you deliver a short lecture on the spiritual and
+ bacterial dangers of filthiness. Hopefully the lesson is learned; her
+ looks are now poor.
+
+>assign tawny to bath
+
+ You unceremoniously dunk Tawny Raskolnikov into the Delousing Bath,
+ and command her to remain there until she she is no longer a parasite
+ vector.
+
+>recap
+
+ <span class="floydstyle subheader">The Cholera Caper</span>
+ An unidentified child stuffed a blanket down the privies, and now the
+ entire facility is ankle-deep in backed-up sewage. Assign orphans to
+ sewage cleanup before you all die of cholera.
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Modesty, Paige and Dick are housed here.
+
+ Bianca and Lexie are busily occupied with the ancient tricycles.
+
+>discipline modesty
+
+ You apply some well-deserved discipline to Modesty Schmeer. Her
+ discipline is now bad.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Tawny      abysmal      bad          bad          poor
+ Modesty    bad          bad          poor         poor
+ Abstinence adequate     bad          poor         poor
+ Paige      satisfactory adequate     adequate     poor
+ Dick       adequate     satisfactory mediocre     mediocre
+ Bianca     adequate     mediocre     adequate     poor
+ Lexie      mediocre     mediocre     mediocre     mediocre
+ Becky      adequate     poor         poor         mediocre
+ Prudence   bad          poor         bad          poor
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Tawny is shedding parasites, encrustations and chunks of skin in My
+ First Delousing Bath.
+
+ The room is ankle-deep in raw sewage, in which Prudence and Becky
+ frolic with bleach, bucket and mop.
+
+>examine all
+
+ You are graced by the presence of Tawny Raskolnikov, unhappy offspring
+ of a hog-grease hawker and a Salopian landlady.
+ Her discipline is awful, her vigour poor, her appearance bad and her
+ morale poor.
+
+ Becky Baffle, daughter of a bourgeois soap-dodger and a rouge-caked
+ feminist scullery-maid.
+ Her discipline is mediocre, her vigour bad, her appearance poor and
+ her morale poor.
+
+ You are graced by the presence of Prudence Grady, daughter of a ponce
+ and a nymphomaniac contortionist.
+ Her discipline is bad, her vigour poor, her appearance bad and her
+ morale poor. In other words, there is little to distinguish her from a
+ street Arab.
+
+>assign tawny to box
+
+ With a fearsome glare, you condemn Tawny Raskolnikov to The Box until
+ further notice. She folds herself into one of its compartments, and
+ you lock the door.
+
+>inventory
+
+ You are carrying:
+   Fobberfish of Hackney's catalogue
+   Athaliah Hertford's Manual of Childcare
+   The Compleat Orphanmaster
+   a gruel order form
+   a dinner bell
+
+ Your institutional resources include triple-barred windows, The Box,
+ some ancient tricycles and My First Delousing Bath.
+
+ Finally, you are responsible for nine orphans and your treasury
+ amounts to 560 coins.
+
+>read catalogue
+
+ A respected specialist catering to the orphan management trade,
+ Fobberfish of Hackney provides a wide variety of goods at virtually
+ affordable rates. Bowing to the decadence of the age, this
+ once-respectable publication now features many vain luxuries that you
+ can safely ignore, such as fair-trade gruel, artisanal wildflower
+ soap, and smallpox vaccines. The few items of real utility have been
+ circled in red pen:
+
+ Ruritanian Mastiffs (400 coins)
+ Atherton's Ergonomic Treadmill (400 coins)
+ Spinal Corrective Corsets (450 coins)
+ Dr. Pranger's Lithium Water (700 coins)
+ The Harvest of Sin (700 coins)
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Modesty, Paige and Dick are housed here.
+
+ Bianca and Lexie are busily occupied with the ancient tricycles.
+
+>go north
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+ Abstinence is housed here.
+
+>SAVE
+>cf26
+ %% Enter a save filename to write:
+
+>buy treadmill
+
+ You reluctantly part with 400 coins, mail in your order, and in due
+ course receive delivery of Atherton's Ergonomic Treadmill; it is
+ installed in the Senior House.
+
+>assign abstinence to treadmill
+
+ You command Abstinence Rostigraben to occupy herself with Atherton's
+ Ergonomic Treadmill. She obediently complies.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Tawny      awful        bad          awful        poor
+ Modesty    awful        poor         bad          poor
+ Abstinence adequate     bad          poor         poor
+ Paige      satisfactory adequate     adequate     poor
+ Dick       mediocre     satisfactory poor         mediocre
+ Bianca     adequate     mediocre     adequate     mediocre
+ Lexie      mediocre     adequate     mediocre     poor
+ Becky      adequate     bad          poor         poor
+ Prudence   bad          bad          bad          poor
+
+>go south
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Modesty, Paige and Dick are housed here.
+
+ Bianca and Lexie are busily occupied with the ancient tricycles.
+
+>assign modesty to box
+
+ Knowing that it will do her good, you condemn Modesty Schmeer to The
+ Box until further notice. She folds herself into one of its
+ compartments, and you lock the door.
+
+>discipline dick
+
+ You apply some well-deserved discipline to Dick Kennedy. His
+ discipline is now satisfactory.
+
+>discipline lexie
+
+ Enough for today: there are regulations about excessive corporal
+ punishment. Besides, if you thrash every child continually, they'll
+ grow leathery and insensate.
+
+>ring bell
+
+ The Box has weakened Tawny Raskolnikov's morale, which is now awful.
+ The Box has stiffened Tawny Raskolnikov's discipline, which is now
+ bad.
+ The Box has weakened Modesty Schmeer's morale, which is now bad.
+ The Box has sapped Modesty Schmeer's vigour, which is now awful.
+ The Box has stiffened Modesty Schmeer's discipline, which is now poor.
+ Atherton's Ergonomic Treadmill has fortified Abstinence Rostigraben's
+ vigour, which is now mediocre.
+ The ancient tricycles have fortified Bianca Bloggs's vigour, which is
+ now adequate.
+ The ancient tricycles have fortified Lexie Rudge's vigour, which is
+ now satisfactory.
+ The raw sewage has weakened Becky Baffle's morale, which is now poor.
+
+ The last of the sewage has been mopped, bailed and bleached out of
+ existence. Your orphans look a little green, but the worst is behind
+ you.
+
+ You receive a government stipend of 90 for the feeding and care of
+ your orphans; and pay out 27 coins on necessary care and maintenance,
+ most of it going on food.
+
+ A generous patron, impressed by Abstinence Rostigraben's work ethic,
+ has offered her employment as an upholsteress. For your success as an
+ educator, the Government awards you a bonus of 35 coins.
+
+ Prudence Grady has been moved to the Middle House, being of sufficient
+ age. Paige Cruft and Lexie Rudge are ready for the Senior.
+
+ The Orphanorium has been entrusted with six more children: Deedee
+ Dobson and Liddy Hodges are old enough for the Middle House, while Tug
+ Good, Sharon Trotter, Candice Knoxville and Betty Scound will go to
+ the Junior.
+
+>go north
+
+
+ <span class="floydstyle subheader">Senior House</span>
+ Here reside the oldest children, aged roughly twelve to fifteen. The
+ largest, best-lit and airiest of the wards, its walls are decorated
+ with inspiring murals. The Middle House lies to the south.
+
+ Atherton's Ergonomic Treadmill stands grimly against one wall.
+
+ Lexie and Paige are housed here.
+
+>assign all to treadmill
+
+ You assign Paige and Lexie to Atherton's Ergonomic Treadmill.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Tawny      poor         poor         awful        bad
+ Modesty    bad          abysmal      poor         awful
+ Paige      adequate     adequate     satisfactory poor
+ Dick       adequate     adequate     poor         poor
+ Betty      awful        bad          poor         poor
+ Deedee     poor         awful        poor         mediocre
+ Candice    poor         poor         awful        mediocre
+ Bianca     adequate     mediocre     adequate     mediocre
+ Lexie      mediocre     adequate     mediocre     poor
+ Liddy      awful        mediocre     poor         poor
+ Tug        poor         poor         poor         poor
+ Becky      adequate     bad          poor         poor
+ Prudence   bad          poor         poor         poor
+ Sharon     bad          poor         awful        mediocre
+
+>go south
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Liddy, Deedee, Prudence and Dick are housed here.
+
+ Modesty is spending some time in The Box.
+
+ Bianca is busily occupied with the ancient tricycles.
+
+>unassign modesty
+
+ You allow Modesty Schmeer to take a break.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ From an obscure corner, My First Delousing Bath gives off
+ sanitary-smelling vapours.
+
+ Betty, Candice, Sharon, Tug and Becky are housed here.
+
+ Tawny is spending some time in The Box.
+
+>unassign tawny
+
+ You allow Tawny Raskolnikov to take a break.
+
+>assign all to bath
+
+ You assign Tawny, Betty, Candice, Tug, Becky and Sharon to My First
+ Delousing Bath.
+
+>examine all
+
+ Tawny Raskolnikov, daughter of a hog-grease hawker and a Salopian
+ landlady.
+ Her discipline is bad, her vigour poor, her appearance bad and her
+ morale bad. She must apply herself and try to please her keepers and
+ her Creator.
+
+ Betty Scound, unfortunate whelp of a conniving scabrous arsonist and a
+ scrawny third-rate dungcart driver.
+ Her discipline is abysmal, her vigour poor, her appearance poor and
+ her morale poor. She is a drain on the character of this
+ establishment.
+
+ You are graced by the presence of Candice Knoxville, daughter of a
+ deadbeat hunchback and an adulteress.
+ Her discipline is bad, her vigour poor, her appearance bad and her
+ morale mediocre. She is a perpetual disappointment.
+
+ Tug Good, unhappy whelp of an odious witless dealer in anatomically
+ instructive text adventures and an illiterate Scouse customs agent.
+ His discipline is poor, his vigour poor, his appearance poor and his
+ morale poor.
+
+ Becky Baffle, discarded daughter of a bourgeois soap-dodger and a
+ rouge-caked feminist scullery-maid.
+ Her discipline is mediocre, her vigour bad, her appearance poor and
+ her morale poor.
+
+ Sharon Trotter, brat of a slimy bisexual creator of unseemly
+ unauthorised sequels and a craven brewer.
+ Her discipline is bad, her vigour poor, her appearance bad and her
+ morale poor. Yet Jesus loves her, as if He had not suffered enough.
+
+>discipline betty
+
+ You apply some well-deserved discipline to Betty Scound. Her
+ discipline is now bad.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Tawny      poor         bad          abysmal      awful
+ Modesty    poor         abysmal      bad          bad
+ Paige      satisfactory adequate     adequate     poor
+ Dick       satisfactory adequate     mediocre     poor
+ Betty      bad          bad          poor         poor
+ Deedee     bad          bad          poor         mediocre
+ Candice    poor         poor         awful        poor
+ Bianca     adequate     mediocre     adequate     mediocre
+ Lexie      mediocre     adequate     mediocre     mediocre
+ Liddy      awful        poor         poor         mediocre
+ Tug        poor         poor         poor         poor
+ Becky      adequate     bad          poor         poor
+ Prudence   poor         poor         poor         mediocre
+ Sharon     bad          poor         abysmal      poor
+
+>go north
+
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ The Box is installed in a remote sub-basement, but the way to it is
+ well-known to the miscreant and lolligagger.
+
+ Liddy, Deedee, Prudence, Modesty and Dick are housed here.
+
+ Bianca is busily occupied with the ancient tricycles.
+
+>scrub modesty
+
+ You seize Modesty, spit-wash her grimy little face with your
+ second-best handkerchief, and make her walk around with a book on her
+ head. This accomplished, you deliver a short lecture on the spiritual
+ and bacterial dangers of filthiness. Hopefully the lesson is learned;
+ her looks are now poor.
+
+>assign liddy to box
+
+ Stern but fair, you condemn Liddy Hodges to The Box until further
+ notice. She folds herself into one of its compartments, and you lock
+ the door.
+
+>assign dee dee to box
+
+ You can't see any such thing.
+
+>assign dee to box
+
+ You can't see any such thing.
+
+>assign deedee to box
+
+ To show that discipline must be upheld, you condemn Deedee Dobson to
+ The Box until further notice. She folds herself into one of its
+ compartments, and you lock the door.
+
+>assign modesty to tricycle
+
+ You command Modesty Schmeer to occupy herself with the ancient
+ tricycles. She obediently complies.
+
+>look
+
+ <span class="floydstyle subheader">Middle House</span>
+ This ward is the home of children aged between six and twelve. A
+ series of oddly-shaped rooms produced by ill-considered renovations,
+ it's difficult to heat, the lighting is bad and there are far too many
+ blind corners and hideaways. The Junior House lies south and the
+ Senior north.
+
+ Liddy and Deedee are spending some time in The Box.
+
+ Prudence and Dick are housed here.
+
+ Modesty and Bianca are busily occupied with the ancient tricycles.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Tawny      bad          bad          bad          bad
+ Modesty    poor         awful        bad          bad
+ Paige      satisfactory adequate     adequate     poor
+ Dick       satisfactory adequate     poor         poor
+ Betty      bad          bad          poor         poor
+ Deedee     bad          bad          bad          poor
+ Candice    bad          poor         awful        mediocre
+ Bianca     adequate     adequate     adequate     mediocre
+ Lexie      mediocre     adequate     mediocre     poor
+ Liddy      awful        poor         poor         poor
+ Tug        poor         poor         poor         mediocre
+ Becky      mediocre     poor         poor         poor
+ Prudence   bad          poor         poor         mediocre
+ Sharon     bad          poor         bad          poor
+
+>assign prudence to tricycle
+
+ You command Prudence Grady to occupy herself with the ancient
+ tricycles. She obediently complies.
+
+>discipline prudence
+
+ You apply some well-deserved discipline to Prudence Grady. Her
+ discipline is now poor.
+
+>go south
+
+
+ <span class="floydstyle subheader">Junior House</span>
+ Here are housed the younger children, from the age of weaning to about
+ six years old. Formerly a lumber-room, its ceilings are oppressively
+ low. The Middle House is to the north.
+
+ Betty, Candice, Sharon, Tug, Tawny and Becky are shedding parasites,
+ encrustations and chunks of skin in My First Delousing Bath.
+
+>discipline sharon
+
+ You apply some well-deserved discipline to Sharon Trotter. Her
+ discipline is now poor.
+
+>status
+
+ Orphan     Discipline   Vigour       Looks        Morale
+ Tawny      bad          poor         abysmal      awful
+ Modesty    poor         awful        bad          bad
+ Paige      satisfactory adequate     adequate     poor
+ Dick       adequate     adequate     poor         poor
+ Betty      bad          bad          poor         poor
+ Deedee     poor         awful        bad          mediocre
+ Candice    poor         poor         abysmal      poor
+ Bianca     mediocre     adequate     adequate     poor
+ Lexie      mediocre     satisfactory mediocre     mediocre
+ Liddy      awful        mediocre     poor         mediocre
+ Tug        poor         poor         poor         poor
+ Becky      mediocre     poor         poor         poor
+ Prudence   poor         bad          poor         poor
+ Sharon     poor         poor         bad          poor
+
+>SAVE
+>cf27
+ %% Enter a save filename to write:
+
+>ring bell
+
+ My First Delousing Bath has brightened Tawny Raskolnikov's looks,
+ which are now bad.
+ The ancient tricycles have fortified Modesty Schmeer's vigour, which
+ is now bad.
+ Atherton's Ergonomic Treadmill has weakened Paige Cruft's morale,
+ which is now bad.
+ Atherton's Ergonomic Treadmill has fortified Paige Cruft's vigour,
+ which is now adequate.
+ My First Delousing Bath has brightened Betty Scound's looks, which are
+ now mediocre.
+ The Box has weakened Deedee Dobson's morale, which is now poor.
+ The Box has sapped Deedee Dobson's vigour, which is now abysmal.
+ The Box has stiffened Deedee Dobson's discipline, which is now
+ mediocre.
+ My First Delousing Bath has brightened Candice Knoxville's looks,
+ which are now bad.
+ The ancient tricycles have fortified Bianca Bloggs's vigour, which is
+ now adequate.
+ Atherton's Ergonomic Treadmill has weakened Lexie Rudge's morale,
+ which is now poor.
+ Atherton's Ergonomic Treadmill has fortified Lexie Rudge's vigour,
+ which is now satisfactory.
+ The Box has weakened Liddy Hodges's morale, which is now bad.
+ The Box has stiffened Liddy Hodges's discipline, which is now bad.
+ My First Delousing Bath has brightened Tug Good's looks, which are now
+ mediocre.
+ My First Delousing Bath has brightened Becky Baffle's looks, which are
+ now mediocre.
+ The ancient tricycles have fortified Prudence Grady's vigour, which is
+ now poor.
+
+ Lexie Rudge has fabricated a surviving relative and escaped! Out in
+ the harsh world children are exposed to all manner of sinful
+ influences, so you are not surprised when, later, you receive reports
+ that she is shamefully employed as a slovenly trull.
+
+ You receive a government stipend of 130 for the feeding and care of
+ your orphans; and pay out 39 coins on necessary care and maintenance,
+ most of it going on food.
+ Your profligate meal plans have borne fruit: Prudence Grady has gained
+ vigour, and Deedee Dobson and Becky Baffle have improved their morale.
+
+ A generous patron, impressed by Paige Cruft's ingrained servility and
+ coltish grace, has offered her employment as a cosmetics salesgirl.
+ For your success as an educator, the Government awards you a bonus of
+ 50 coins.
+
+ Becky Baffle has been moved to the Middle House, being of sufficient
+ age. Modesty Schmeer is ready for the Senior.
+
+ You have been awarded custody of four orphans of Junior House age:
+ Peony Maquereau, Boris Nettle, Beau Gomper and Nevada Froome.
+
+>SAVE
+>cf28
+ %% Enter a save filename to write:

@@ -1,0 +1,2297 @@
+>load sleepmask ariadne
+
+
+
+ <span class="floydstyle subheader">Isle of Aeaea, the eastern Aegean.</span>
+ <span class="floydstyle subheader">3,500 years ago.</span>
+
+  "What tidings from the northern wastes?" asked the High Priestess.
+
+ Her elderly eyes were glued to the north, across the moonlit lagoon,
+ beyond the cliffs on the other side, towards the great sea. Deep in
+ though, she didn't notice a human shape silhouetted against the
+ glistening waters, scurrying along the clifftop.
+
+ "Alas, my potnia, the Achaeans have taken Tiryns", said the other
+ woman, her voice so quiet her Egyptian lilt was almost unrecognisable
+ "They are spreading through the Argolis like wildfire."
+
+ "Wildfire", echoed the High Priestess. "The Achaeans have a new Wanax,
+ do they not?"
+
+ "Be truer to say their new Wanax has them - lined up like pieces upon
+ a game-board. Hear me, Circe, I have not the slightest doubt that he
+ had a part in my sister's murder."
+
+ Circe turned with a placating gesture.
+
+ "Before we publicly accuse the most powerful Wanax of the northern
+ wastes of sacrilegious killing..."
+
+ "My potnia, you and I know full well that my sister was all that stood
+ between Achaean greed and the palace of Tiryns. Wake up, Circe. Palace
+ after palace, they are bringing their sky-gods southwards and they
+ care not an iota for us or the Goddess. Today it is Tiryns and
+ tomorrow perhaps a closer port, and before we react they shall have a
+ foothold in Crete. Perchance my potnia is growing soft in her old age?
+ Maybe the Goddess needs a more... youthful vehicle for the fulfilment
+ of her designs?"
+
+ "Oh, let me guess, one of you Avaris women? Do you reckon I cling to
+ this life just to spite you?"
+
+ "Kindly give us your candidates for evaluation, then. One of your
+ nieces, I suppose?"
+
+ "In due time. Phaedra shows potential but she is still too young. And
+ concerning Ariadne..."
+
+ The other woman let go a short, hearty laugh.
+
+ "Ariadne! We Thebans always love a good joke, but it is high time we
+ made a serious move, my potnia."
+
+ "Very well. I shall send for her in the morning, and we shall reach a
+ decision before sunset. In fact, you can go fetch my niece yourself."
+
+ "Pray tell, which one, my potnia?"
+
+ "Oh, very droll, very droll..."
+
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle i">Ariadne in Aeaea</span> by Víctor Ojuel
+ Made with Inform 7, September 2016.
+
+ Art by Ara Carrasco.
+
+ The author wishes to thank those who kindly (and bravely!) tested this
+ game in its infancy, namely Ara Carrasco, Matthew Holland, Liz Mercuri
+ and Andrew Schultz.
+
+ Type <span class="floydstyle i">HELP</span> or <span class="floydstyle i">INSTRUCTIONS</span> if you want instructions on
+ how to play.
+ Type <span class="floydstyle i">ABOUT AUTHOR</span> to learn more about the author.
+ Type <span class="floydstyle i">ABOUT GAME</span> to know more about the game and its
+ historical/mythological setting.
+
+
+ Please press SPACE to continue.
+
+ <span class="floydstyle header">Ariadne in Aeaea</span>
+ An Interactive Fiction by Victor Ojuel
+ Release 1 / Serial number 160928 / Inform 7 build 6L38 (I6/v6.33 lib
+ 6/12N)
+
+ <span class="floydstyle subheader">Shepherd's hut</span>
+ You wake up from a dream of winding passages and a beast chasing you,
+ to a morning which is little better: no labyrinth but a tangle of
+ limbs, no beast but a pulsing headache and a concert of snores. A
+ pale, blueish light filters through the wooden ceiling.
+
+ Which is odd, because the living quarters of the palace are all stone,
+ and the other priestesses are rarely this physically affectionate and
+ come to think about that...
+
+ You open your eyes and bolt upright.
+
+ This is not quite the palace's living quarters, more like a ragged
+ wooden shelter. Your memories of yesterday are vague: you remember
+ waiting until the other novices fell asleep, climbing down the outer
+ wall of the palace, sneaking along the clifftop to meet the shepherd
+ boys, and then all is a blur.
+
+ An empty jug lies on its side against a wall, abandoned where it
+ stopped rolling. Just like the human occupants of the hut.
+
+>instructions
+
+
+ These are all the actions you need to complete the game:
+
+ Use N, S, E, W, NE, NW, SE and SW to move in the cardinal directions.
+ Use ENTER and OUT to get in and out of buildings.
+ Use INVENTORY to see the objects you carry and the clothes you wear.
+ Use LOOK to see your surroundings.
+ Use EXAMINE <span class="floydstyle thing"> to learn more about a certain object or person.</span>
+ <span class="floydstyle thing">Use TAKE </span><span class="floydstyle object"> to pick up objects and GIVE </span><span class="floydstyle object"> TO </span><span class="floydstyle person"> to</span>
+ <span class="floydstyle person">interact with humans.</span>
+ <span class="floydstyle person">Use WEAR and TAKE OFF to don and disrobe pieces of clothing.</span>
+ <span class="floydstyle person">Use TALK TO </span><span class="floydstyle person"> to interact socially.</span>
+ <span class="floydstyle person">Use PUSH and PULL to move heavy objects.</span>
+ <span class="floydstyle subheader">And if you get stuck and would like a hint, use THINK to switch on</span>
+ your grey cells!
+
+>about author
+
+
+ Víctor Ojuel (Barcelona, 1983) is a writer, narrative designer and
+ translator, based in Manchester, UK.
+
+ He has worked as a business consultant, advertising copywriter and
+ fashion transcreator before writing videogames, among them
+ <span class="floydstyle i">Pharaonic</span> (now on Steam), <span class="floydstyle i">Forgotten Kodama</span> and
+ <span class="floydstyle i">Pilgrimage</span> (IFDB).
+
+ He has written a novel (<span class="floydstyle i">Ava Ström</span>, a university thriller with
+ SF touches, now on Amazon) and is currently working on a second book,
+ as well as a few undisclosed commercial projects. And, of course,
+ <span class="floydstyle i">Mistress of the Labyrinth</span>, the original Ariadne game and an
+ immediate sequel to the events of <span class="floydstyle i">Ariadne in Aeaea</span>. He is
+ available as a freelance writer and narrative designer for videogames
+ and other multimedia projects.
+
+ <span class="floydstyle em">Catch me on Twitter (</span>@victorojuel<span class="floydstyle em">) or send me an email</span>
+ <span class="floydstyle em">and let me know what you think of this game</span>
+ <span class="floydstyle em">(</span>victor.ojuel@gmail.com<span class="floydstyle em">). And thanks for playing! :)</span>
+
+>about game
+
+
+ <span class="floydstyle i">Ariadne in Aeaea</span> is designed as a short, slightly
+ tongue-in-cheek prologue to the events in the upcoming <span class="floydstyle i">Mistress of</span>
+ <span class="floydstyle i">the Labyrinth</span>. They are both based upon the author's
+ reinterpretation of the myths of the sorceress Circe, Ariadne, queen
+ Pasiphaë, king Minos, the Minotaur and Theseus as historical facts
+ deformed by post-Homeric Greek propaganda. In this world, Ariadne is a
+ priestess of the (chthonic, matriarcal, animistic) Cretan/Minoan
+ civilisation. She is also a stand-in for her culture, pitted against
+ the onslaught of Achaean (proto-Greek) expansion, in the late Bronze
+ Age in the Aegean sea, around the 15th century BC.
+
+ Historically, this process ended with almost complete cultural
+ assimilation, to the point that by Homer's time (400 to 600 years
+ later) all traces of the Minoan culture where shrouded in legend.
+ Nowadays it is extremely difficult to distinguish the Minoan roots of
+ many aspects of Greek civilisation.
+
+ <span class="floydstyle i">Ariadne in Aeaea</span> specifically presents a conjectural theocratic
+ society based on a fictional island, geographically modelled after
+ Thera (Santorini) and culturally based on the Minoan palatial
+ societies of Knossos and Phaistos. While most details are historically
+ correct, the bigger picture is purely fictional - specially the notion
+ of a somewhat centralised cult, Minoan in nature and with Egyptian
+ influences, wielding significant international power and in control of
+ a Mediterranean-wide network of priestesses cum diplomatic envoys and
+ spies. While I believe it was entirely possible by the cultural and
+ technological means of the era, there is no evidence of such a
+ political structure ever existing.
+
+ Type <span class="floydstyle i">CREDITS</span> for general info, art and testing credits.
+ Type <span class="floydstyle i">ABOUT AUTHOR</span> to learn more about the author.
+
+>credits
+
+
+ <span class="floydstyle i">Ariadne in Aeaea</span> by Víctor Ojuel
+ Made with Inform 7, September 2016.
+
+ Art by Ara Carrasco.
+
+ The author wishes to thank those who kindly (and bravely!) tested this
+ game in its infancy, namely Ara Carrasco, Matthew Holland, Liz Mercuri
+ and Andrew Schultz.
+
+ Type <span class="floydstyle i">HELP</span> or <span class="floydstyle i">INSTRUCTIONS</span> if you want instructions on
+ how to play.
+ Type <span class="floydstyle i">ABOUT AUTHOR</span> to learn more about the author.
+ Type <span class="floydstyle i">ABOUT GAME</span> to know more about the game and its
+ historical/mythological setting.
+
+
+>look
+
+ <span class="floydstyle subheader">Shepherd's hut</span>
+ Now that your vision has cleared a little, you take better stock of
+ your surroundings. The hut is little more than a rough wooden shack,
+ and the only furniture is a rudimentary rack on one side of the
+ entrance. Most of the space is taken up by the... bed, if you could
+ call it that. Two boys are sleeping there, snoring drunkenly. There is
+ an Ariadne-shaped empty space between them.
+
+ An empty jug lies on its side against a wall, abandoned where it
+ stopped rolling. Just like the human occupants of the hut.
+
+>examine me
+
+ You are Ariadne of Knossos, daughter of Minos, of the royal line of
+ Pasiphaë the Sun-Maiden. At your formidable seventeen springtimes, you
+ are an initiate priestess of the Isle of Aeaea, holiest of priestly
+ orders of Potinaja, the Great Goddess.
+
+ And right now you are not exactly at your brightest - hungover, hungry
+ and naked after a deliciously rough night. But the poets don't need to
+ know about your early years when they sing your praises for the
+ centuries, do they?
+
+>inventory
+
+ You are nude.
+
+ You are empty-handed.
+
+>examine boys
+
+ The boys are snoring loudly. One of them is really worth it, the other
+ one only passable in the mercilessly sober light of the morning. So
+ they even out and it's fine. (You understate things. You always do. As
+ befits a sophisticated lady of royal lineage.)
+
+>examine jug
+
+ It is a stylish round design with a small flat base, red clay with a
+ striking black many-tentacled octopus. Such a modern and expensive
+ model can only be imported from Crete and way above the means of a
+ goatherder, so it was probably you who brought it from the
+ palace.There lingers the faint perfume of fine wine, but it is
+ completely empty. You probably had more than your fair share of it
+ last night.
+
+>take it
+
+ You lift the jug with one hand: unsurprisingly, it's empty. A pity -
+ by the Goddess, you could use a drink. And some breakfast... Then your
+ eyes catch the glint of something metallic. You squat again, screwing
+ your eyes in the half-light. There was something behind the jug... a
+ pin? It seems to be a sort of golden brooch. You can guess it was
+ carefully hidden somewhere, until last night's whirlwind of men and
+ clothes ended up with the little golden bauble thrown in a corner. Now
+ <span class="floydstyle em">this</span> is a surprise...
+
+>take brooch
+
+ You take the brooch.
+
+>examine brooch
+
+ You take a good look at it, from all sides. It is gold indeed, and the
+ device is a lion sitting on its hind legs. You have no idea what it
+ means, so at least it's not Cretan. Not from one of the great palaces,
+ at any rate, or you'd know, but it is an expensive piece of art, and
+ not from Aeaea either. Only the Goddess knows how it came into the
+ hands of a rustic goatherder. Well, obviously it was the Goddess' will
+ that you'd find it. It will look better on you anyway.
+
+>wear brooch
+
+ Wear it where? Pin it in your skin? This kind of jewelry without
+ clothes is not just kinky, also painful. Better put on some clothes
+ first, then wear the brooch.
+
+>examine rack
+
+ A simple wooden platform to hold the meagre posessions of the
+ goatherder. The only interesting ones are a loaf of bread and a pile
+ of discarded pieces of clothing.
+
+>examine clothing
+
+ Someone undressed hastily here. You might have had something to do
+ with the undressing. Or with the haste.
+
+>wear clothing
+
+ (first taking pile of clothes)
+ Your clothes should be somewhere around here. Now, let's think, you
+ were wearing a tunic, right? If only you could remember where you left
+ it... Rifling through the clothing (raw woollen shirts, leather pants,
+ ragged boots) yields no result, except for a stench of sweat and
+ seawater (now how do shepherds get wet with seawater? Are they so
+ rustic that they bathe dressed?). You drop the lot with a weary sigh.
+ Now where did you take off that bloody tunic, really?
+
+>examine bread
+
+ A hard piece of coarse, stale bread, perhaps adequate fare for
+ shepherds but utterly unedible by humans.
+
+>take it
+
+ Feeling your stomach churning, you snatch away the piece of bread. Too
+ much wine and no dinner, time you ate something solid.
+
+>examine bed
+
+ The boys are lying on top of what probably was a nice and fluffy pile
+ of straw a few hours ago. After last night's activities, the straw has
+ been evenly spread through the hut and they are practically sleeping
+ on the floor.
+
+>search bed
+
+ You have already done all you felt like doing with, and on, that bed.
+
+>look
+
+ <span class="floydstyle subheader">Shepherd's hut</span>
+ Now that your vision has cleared a little, you take better stock of
+ your surroundings. The hut is little more than a rough wooden shack,
+ and the only furniture is a rudimentary rack on one side of the
+ entrance. Most of the space is taken up by the... bed, if you could
+ call it that. Two boys are sleeping there, snoring drunkenly. There is
+ an Ariadne-shaped empty space between them.
+
+>examine floor
+
+ Girl, you are seriously confused this morning. Maybe time to cut down
+ on the wine a bit?
+
+>search clothes
+
+ You find nothing of interest.
+
+>search boys
+
+ You have already done all you felt like doing to him/them last night.
+ Possibly. Memories still a bit hazy, but you've had your fun. In any
+ case, you feel like breakfast without conversation, so better get a
+ move on.
+
+>out
+
+ Shielding your eyes against the light, you step outside. It takes you
+ a few moments to adjust to sunlight, and your headache doesn't
+ particularly like it. When you open your eyes again, the grand
+ landscape of the Isle of Aeaea unfolds against a crisp blue morning
+ sky.
+
+ <span class="floydstyle subheader">Rugged hills</span>
+ In all directions, the hills climb up and down, reddish earth
+ embroidered with dark green shrubs and a few small pine woods,
+ sometimes broken by white, sheer rock. The land slopes downwards, from
+ the cliffs in the west to the eastern beaches. The shepherd's hut is
+ the only visible shelter. The isle narrows to the north and broadens
+ to the south, where a few smoke columns indicate the location of the
+ palace. The shepherd's hut is nearby.
+
+ A herd of goats is roaming the pastures nearby, grazing on the short,
+ tough grass.
+
+>examine goats
+
+ A nearby goat is breakfasting on something that looks like a piece of
+ textile of some so... oh by the Goddess, it's your tunic! You try to
+ shoo the beast, or frighten it in some way to discourage the munching
+ of your clothes, but it seems to love the change in diet. Damn...
+
+>give bread to goat
+
+ You wave the bread in front of the stupid animal's eyes. Eventually
+ you catch its attention, and it approaches and reluctantly stops
+ chewing your tunic to munch on the bread.
+
+>take tunic
+
+ You swiftly snatch away the tunic, lest the animal changes its mind.
+ It's not exactly clean, and part of a shoulder seems to have been
+ bitten off, but surely asymmetric shoulders must be the fashion in
+ some faraway island? And it beats showing up naked in the palace.
+
+>wear tunic
+
+ You pull the tunic in place, and hold the torn shoulder while you pin
+ it with the brooch, then smooth the torn edges under it. It holds, and
+ possibly even adds a fanciful highlight to the otherwise plain
+ garment. Can't wait to be ordained a full priestess and do away with
+ these rags. Anyway, for the moment you are decent again, or decent
+ enough to sneak back into the palace. And head straight for the
+ kitchen, adds your rumbling stomach.
+
+>examine tunic
+
+ Fine linen, fashionably pleated like the Egyptian girls from the
+ Avaris chapter, but edged with embroidered dolphins and saffron
+ crocus. It is one of the pieces Mother sewed for you before your
+ departure for Aeaea (which is goatshit. Your know full well Mother
+ could never sew to save her life.) The torn shoulder has been repaired
+ with a flashy golden brooch, and the effect is rather fetching, if you
+ do say so yourself.
+
+>go north
+
+ You really don't fancy going cross-country through these solitudes
+ like a goat. Better do like a human and follow the clifftop path to
+ the west, or go back inside the hut.
+
+>go west
+
+
+ <span class="floydstyle subheader">Crest path</span>
+ A narrow path on top of the cliffs follows the crescent shape of
+ Aeaea. The isle's rocky arms stretch like the horns of a bull piercing
+ the sea. The Saffron Bay occupies most of the view, sheer cliff faces
+ the height of a hundred men plunging vertically into the waters below.
+ The palace complex shines across the bay like white teeth on jagged,
+ blackened gums.
+
+ The path clings to the clifftop, coming from the civilised south and
+ stretching towards the sharp edge of the isle to the northwest. To the
+ east lie the hilly scrublands frequented only by shepherds and
+ goatherds. As you know full well.
+
+>exits
+
+ Let us hope this is not what the poets will remember you for...
+
+>go south
+
+
+ <span class="floydstyle subheader">Clifftop path</span>
+ This is where the elegant curve of the Saffron Bay becomes wider and
+ the downward slope is more benign. Most of the productive fields of
+ the isle are around here, tended by peasants indentured to the palace,
+ a few free settlers and scores of slaves. The olive trees, vineyards
+ and farms of this side provide most of the local foodstuffs. The path
+ follows the clifftop to the wild north and it becomes a proper paved
+ road to the southwest, towards the entrance to the palace.
+
+>go southwest
+
+ <span class="floydstyle subheader">Ceremonial entrance to the palace</span>
+ The ceremonial road ends in an ample paved space before the grand
+ entrance to the palace. Men and oxen come on go along the road like
+ ants and mill around the vast plaza, transporting all manners of goods
+ from the palace stores to the port below, overseen by
+ administrative-rank priestesses and keen-eyed archers. The great
+ complex is three stories high, fronted with a majestic row of crimson
+ red and marine blue tapered columns.
+
+ A couple of archers wink at you (old "friends", so to speak), and
+ quite a few priestesses frown (older "friends", so to speak).
+
+ The ceremonial paved road snakes descends towards the southeast and
+ the harbour. The palace lies west, blocking the view of the bay. A
+ narrow path leads northeast, following the clifftops, towards the
+ wilderness.
+
+ Well, finally here you are. Now, if you can only slip unnoticed to the
+ side wall that is never guarded, and just climb up to the first floor
+ terrace, then it should be easy to...
+
+ "Why, if it isn't the wayward Ariadne!" booms a female voice behind
+ you, grating on your hungover brains.
+
+ You close your eyes, hard, taking an extra moment before turning
+ around to face her. Oh sweet Potinaja, fair lady, let it not be old
+ Circe...
+
+ And the Goddess must have a perverse sense humour, because the
+ offending lady is indeed not your aunt... but your sister.
+
+>examine sister
+
+ Your younger sister is considerably smaller than you, of slighter
+ build, and is wearing the complete paraphernalia of a confirmed potnia
+ - ruched and tiered red-and-blue longskirt, ceremonial apron, fitten
+ open gilet and headdress. Her eyes and breasts are heavily made up
+ with kohl and crushed coral. You used to look after her when she was
+ just a bawling toddler... and now she has been ordained a potnia
+ before you. Curses.
+
+ "Phaedra." you say, in an extremely friendly way. The sight of her is
+ the very last thing you needed right now and... oh by the Goddess,
+ what is she wearing?
+
+ "Oh, I can see you have noticed..." she purrs in triumph. You roll
+ your eyes.
+
+>talk to phaedra
+
+ You take a deep breath for your next reply:
+
+ "What are you doing, all tarted up like that?", you ask, trying to
+ sound not at all taken aback.
+
+ "You watch that tongue when speaking to a <span class="floydstyle em">potnia</span>, dear
+ sister, specially while you are still an <span class="floydstyle em">initiate</span>", Phaedra
+ says, savouring each word. The realisation comes late to your fried
+ brains: has she been ordained yet? Before you? But you're at least two
+ springtimes her senior! And you shed first blood at more or less the
+ same age, so...
+
+>talk to phaedra
+
+ You take a deep breath for your next reply:
+
+ "I see. Grovelling at Aunt Circe's feet has finally paid up".
+
+ "Pay? Circe, like all us potnias, is just a conduit for the designs of
+ the Goddess, praise be the fair Potinaja," she recites, doing a little
+ dance around you, presumably to rub in the offence, "And talking about
+ payment, how does whatever you do pay? What a lovely brooch, sister. A
+ little trinket from a client of yours?"
+
+>again
+
+ You take a deep breath for your next reply:
+
+ "Oh, sweet lady, does it come to this? Come, come, sister, be not so
+ bitter", you smile in sympathy, taking her arm sororally, "Is it my
+ fault no sane man was ever interested in you?"
+
+ "Men, is that so?" she brushes your hand aside "I hear you sleep with
+ goatherders."
+
+ "Oh, I hear you sleep with the goats."
+
+ "Oh very droll..."
+
+ "Potinaja wept, you even got the rancid mannerisms...!"
+
+ Her eyes become linear slits, snake-like under the copious makeup. "I
+ shan't have you profer blasphemies, least of all in presence of a
+ potnia. You shall go see Circe and send my regards..."
+
+ "Oh, that I shall..."
+
+ "...and if I do learn later that you have not, or have not used the
+ proper formula and respect, I shall ask the High Priestess to have you
+ seconded to my retinue, to do my hair and prepare the potions.
+ Understood, <span class="floydstyle em">initiate</span>?"
+
+>again
+
+ You take a deep breath for your next reply:
+
+ You shut your mouth in time. Normally no priestess would be on a
+ position to do that, but Phaedra is a royal as well, and of Pasiphaë's
+ line, and her standing with your aunt is obviously better than yours.
+ (Actually there are at least three slaves that Circe regards higher
+ than she does you...). And then again, you'd sooner jump into the sea
+ and try to make it back to Crete swimming than go through the
+ humiliation of being your little sister's handmaiden.
+
+ "Understood."
+
+ "Understood <span class="floydstyle em">what</span>?"
+
+ "Understood, <span class="floydstyle em">my potnia</span>."
+
+ "Oh, I am so loving the sound of that. I shall see you later,
+ initiate, do make haste", she sing-songs as she walks away. You pull a
+ face at her back and quietly tell the Goddess how much you love little
+ Phaedra.
+
+ Well. Perhaps you really, really should have not stolen that toy
+ crocodile when she was five.
+
+>look
+
+ <span class="floydstyle subheader">Ceremonial entrance to the palace</span>
+ The ceremonial road ends in an ample paved space before the grand
+ entrance to the palace. Men and oxen come on go along the road like
+ ants and mill around the vast plaza, transporting all manners of goods
+ from the palace stores to the port below, overseen by
+ administrative-rank priestesses and keen-eyed archers. The great
+ complex is three stories high, fronted with a majestic row of crimson
+ red and marine blue tapered columns.
+
+ A couple of archers wink at you (old "friends", so to speak), and
+ quite a few priestesses frown (older "friends", so to speak).
+
+ The ceremonial paved road snakes descends towards the southeast and
+ the harbour. The palace lies west, blocking the view of the bay. A
+ narrow path leads northeast, following the clifftops, towards the
+ wilderness.
+
+>go west
+
+ You enter the palace unchallenged by either priestess or archer
+ patrols.
+
+ <span class="floydstyle subheader">Palace megaron</span>
+ The main megaron is flanked with tapered red columns, centered around
+ a central great hall that opens to two long wings. The western wing
+ contains the workshops, stores and administrative dependencies. The
+ north wing is mainly taken up with living quarters for priestess in
+ the upper floors, and servants and slaves in the lower ones. But the
+ definitive majestic piece of the megaron is the monumental gipsum
+ stairway leading up, to the High Priestess' dependencies.
+
+ The megaron is in full swing, with dozens of priestesses of diverse
+ rank coming and going about palace business.
+
+>go up
+
+
+ <span class="floydstyle subheader">Circe's chambers</span>
+ The residence of the High Priestesses is less sumptuous than what you
+ had imagined the first time. It is nevertheless the most luxurious
+ room in the whole island, somewhat in spite of Circe herself. The
+ focal point of the room is a great wooden table, strewn with a
+ thousand little objects around a map.
+
+ The High Priestess is studying something intently at the great table,
+ stopping only occasionally to gaze out of the window, never quite
+ bothering to look in your general direction.
+
+>examine map
+
+ It is surprisingly difficult to identify the landmasses. This one must
+ be Aeaea; the bottom-heavy crescent is unmistakeable. Crete must be
+ big and west of here, so it should be that vaguely rectangular block
+ over there, with Knossos and Phaistos marked prominently and a dozen
+ smaller palaces dotted around. South lies the Egyptian coast, so the
+ symbol there must mark the position of Avaris. And far to the
+ northwest, in the wastes beyond the sea, there's a cluster of black
+ figurines. All of them are modelled in the likeness of a sitting lion.
+
+>talk to circle
+
+ You are so lost it would take a big ball of twine to get you out of
+ your confusion.
+
+>talk to circe
+
+ You put your left fist to your left temple, performing the adoration
+ gesture. Circe pays no attention to you. You ahem-ahem a little, still
+ to no reaction from the High Priestess, so you just chatter away.
+
+ "My potnia, I come on behalf of my beloved sister..."
+
+ "Now, that is a droll one", she mutters, still not looking at you. She
+ rereads a line from a tablet, then moves another figurine over the
+ map.
+
+ "I bring my beloved sister Phaedra's respect and best wishes for the
+ High Priestess, on the occasion of my noble sister's ordainment..."
+
+ "I am sure you must be very proud of her, are you not?", she says
+ dryly.
+
+ "Very" you reply with equal enthusiasm, "As proud as if it was my own
+ and belated induction into the Goddess' mysteries", you drone on
+ monotonously.
+
+ "Do I hear a complaint?"
+
+ "Actually..."
+
+ "Shut up, it's a rhetorical question. Because I hear many complaints
+ every day, and quite a few have something to do with one of my nieces
+ being somewhat unruly."
+
+ Being essentially a sensible young woman despite what certain
+ uncharitable individuals might think, you let that one pass and force
+ a smile.
+
+ "Anything else?", she asks. You are biting your tongue, hard.
+
+>again
+
+ "Auntie Circe," you try, affectionately "when is my ordainment going
+ to take place? I yearn to serve the Goddess and I am already old
+ enough for the mysteries..."
+
+ "Age has nothing to do with it, child," she interrupts, still
+ contemplating her map, "Maturity has. Just as some women shed first
+ blood earlier, the Goddess blesses certain minds sooner than
+ others..."
+
+ "So the lesson today is patience..." you sigh boredly.
+
+ "...and some she does not touch ever at all. What, patience? The
+ Goddess and I have wasted ours with you, Ariadne."
+
+ "Auntie, I promise, if this is about the drinking and... uhm,
+ merrymaking, I swear I shall just..."
+
+ "Oh shut up, girl. What am I now, one of those bloody Lukkan puritans?
+ Shut up, it's another rhetorical question. <span class="floydstyle em">Merrymaking</span>, the
+ goatshit one has to hear! Mark my words, I do not give a fig if you
+ fuck each and every fisherman in Aeaea while drunk as an Alassian
+ sailor..."
+
+ "Auntie Circe...!"
+
+ "...and don't you <span class="floydstyle em">Auntie Circe</span> me as if I was some senile
+ spinster! What, scandalised? Oh, the irony! Listen, you might well
+ despise your sister because she is a bit stupider than you (which is
+ no small measure), or because she is quite insufferable (not to say
+ you are not), or just because she is your sister, which is reason
+ enough... Bugger me, did I hate your noble mother when we were your
+ age, did I! And she was just like you, chasing men and women and
+ whatnot, and the Goddess and I could not care less because she was
+ also useful, and that is the whole point. Pasiphaë is and was useful,
+ and thus she is Wanassa of Knossos. Your sister Phaedra doesn't have
+ her political vision but she's fanatical and ruthless, and one day she
+ shall be Wanassa of Phaistos. Now tell me, wench, <span class="floydstyle em">what are you</span>
+ <span class="floydstyle em">good for?</span>"
+>again
+
+ "Is it another rhetorical question?"
+
+ "Very, very droll", Circe sighs, fingering one of the figurines on the
+ map. "An easier one, then. What do we export, here in Aeaea?"
+
+ "Saffron and potnias?"
+
+ "Very well. You might not be Wanassa material since you have no
+ political wits... or an officiant priestess, given how obviously the
+ Goddess chooses not to speak through you, but we might at least make a
+ store administrator out of you yet."
+
+ "Stores?" you gasp, horrified "Sitting downstairs all day, counting
+ measures of olive oil? Aunt, I'm begging you, send me back to Knossos
+ rather than...!"
+
+ "It was not a rhetorical question, girl. Dozens of palaces rely on us
+ to provide suitable potnias as Wanassas," she says, making a broad
+ gesture over the map, "and we do deliver. I need not remind you who
+ brokered your mother's marriage to the Wanax of Knossos, or why he and
+ thirty other dinasties send me their daughters for education and
+ ordainment. In due time, your sister will be Wanassa of Phaistos. The
+ Wanax shall get a powerful priestess to take care of divine affairs
+ while he wages wars. Your father shall get a reliable alliance. And
+ the Goddess and I shall get an influent agent in southern Crete, same
+ as Pasiphaë has been in the north coast for decades."
+
+ "I am still a royal of the Pasiphaë line, I can marry..."
+
+ "Marry as you please. The world is full of bloody royals, do you know
+ how many new siblings you've gotten since you came? Every petty
+ warlord has two or three score bastards, and do you know what a
+ nightmare genealogy has become? I should know, my father is the bloody
+ Sun. Anyway. Princes and princesses are a fig a dozen. Potnias are
+ scarce and precious. Should I send you back unordained, Minos would be
+ offended and Pasiphaë's position weakened. I shall not undo the work
+ of a generation for your sake."
+
+ She waves you away and concentrates on the maps, moving another of the
+ lion-shaped thingies.
+
+>examine lions
+
+ Your head is killing you.
+
+>examine lion
+
+ A golden brooch representing a sitting lion, of unknown origin. You
+ found it at the shepherd's hut, which is quite a mystery. Perhaps you
+ should look into it.
+
+>examine lion-shaped thingies
+
+ Sweet lady Potinaja, what do you mean?
+
+>talk to circe
+
+ "I shall prove to you I am useful to you and the Goddess."
+
+ Without looking up from her maps, Circe waves you away.
+
+ "Pray be not a nuisance, niece. Go do as you please but bother me no
+ more."
+
+ She is obviously concerned with something, very much unrelated to your
+ tribulations, and somehow related to the many lion-shaped figurines
+ she keeps herding around the map.
+
+>examine figurines
+
+ A black piece of stone. Obviously Circe is using them to signify some
+ sort of kingdom or faction over her map. Each is shaped like a sitting
+ lion. Now where have you seen that before?
+
+>show brooch to circe
+
+ Holding the torn shoulder with your fingers, you undo the brooch and
+ throw it on the table. It lands squarely among the black lion-shaped
+ figurines, sending them on sudden expeditions across the sea. Circe
+ looks up, startled.
+
+ "How dare you...?", she starts.
+
+ "Answering your next, non-rhetorical question, I have my own sources,
+ just like you, aunt dear. I thought this might interest you, since you
+ seem so fond of little lion figurines."
+
+ "Do you know what this is?" Circe says, as she takes the brooch and
+ looks at it intently before staring back at you. "Its meaning? Where
+ does it come from?"
+
+ "Let's see - yes, no, kind of. It's a brooch. I have no idea what it
+ stands for. It comes from somewhere in the northern wastes, since you
+ are piling all your toys there?"
+
+ The High Priestess takes a deep breath, obviously pondering whether to
+ discuss important matters with you. Finally, she sighs and looks away.
+ Was that a little chuckle?
+
+ "Young Ariadne, what do you know about the Achaeans?"
+
+>talk to circe
+
+ "Achaeans. Northern barbarians, a few sad excuses for palaces. No
+ fleet worth of the name. The only thing they are good at is making
+ cheap copies of every piece of pottery Father sells them at outrageous
+ prices. They are desperate for some culture. Are we sending them many
+ potnias?"
+
+ "Not a single one. They have their own unsavoury gods. And a very
+ unsavoury new Wanax. With very, very unsavoury methods."
+
+ "You sound jealous, aunt." Circe waves a finger at you.
+
+ "Do not get cocky, child. If you have found this in Aeaea, and I can
+ only imagine where or how, it might mean we have a little spy problem.
+ Now, I do not have enough archers to keep a patrol on all shores at
+ all times, and sending them to search every ship and warehouse in the
+ harbour would alert the spy... So...", she says, looking up and down
+ at you with a critical eye.
+
+ "So" you echo, tossing your hair dramatically, "You got yourself a
+ secret agent, auntie."
+
+ She hmphs. You smile. Then remember something.
+
+ "Ah, my potnia? On an unrelated note, can I have that brooch back?
+ Holding this thing in place all day is tiring."
+
+ The High Priestess of Aeaea mutters something unpleasant about your
+ generation while fumbling about her things, then slides a clay token
+ over the table towards you, together with the brooch.
+
+>take brooch
+
+ You take the Achaean brooch.
+
+>wear brooch
+
+ Are you still hungover? Do you think it is a good idea to hunt around
+ for an Achaean spy while wearing this for all the world to see?
+ Perhaps Circe was right about your true calling after all...
+
+>take token
+
+ You palm the little piece of clay gleefully. Circe is notoriously
+ stingy with supplies.
+
+ "The price of saffron is down and imports are killing us, Ariadne."
+ she says warily "Take better care of your clothes from now on. And do
+ not get anywhere near goats."
+
+ "By the Goddess, how do you...?"
+
+ "I have been your age. Just avoid rumiants in general."
+
+>examine token
+
+ A piece of fired clay, bearing three symbols - the glyphs for
+ "priestess tunic", "high quality" and the personal seal of Circe. A
+ requistion order for the palace stores, from the highest authority.
+
+>look
+
+ <span class="floydstyle subheader">Circe's chambers</span>
+ The residence of the High Priestesses is less sumptuous than what you
+ had imagined the first time. It is nevertheless the most luxurious
+ room in the whole island, somewhat in spite of Circe herself. The
+ focal point of the room is a great wooden table, strewn with a
+ thousand little objects around a map.
+
+ Circe is looking at you, appraisingly.
+
+>out
+
+ But you aren't in anything at the moment.
+
+>go down
+
+
+ <span class="floydstyle subheader">Palace megaron</span>
+ The main megaron is flanked with tapered red columns, centered around
+ a central great hall that opens to two long wings. The western wing
+ contains the workshops, stores and administrative dependencies. The
+ north wing is mainly taken up with living quarters for priestess in
+ the upper floors, and servants and slaves in the lower ones. But the
+ definitive majestic piece of the megaron is the monumental gipsum
+ stairway leading up, to the High Priestess' dependencies.
+
+ The megaron is in full swing, with dozens of priestesses of diverse
+ rank coming and going about palace business.
+
+>go west
+
+
+ <span class="floydstyle subheader">Palace stores</span>
+ The chambers are filled with the hustle of a few dozen workers
+ carrying goods into our out of the stores. Slaves bring in copper ore
+ and oil pithoi in carts, checked and accounted for by palace
+ administrators. Throngs of artisans from the workshops bring their
+ finished crafts for inspection, and receive clay tokens in exchange.
+ This is a part of the palace you seldom visit willingily, except to
+ pilfer some baubles or chat with your friend.  If you don't manage to
+ fulfil your quest, you might well be spending the rest of your days
+ here... The mere idea makes you shiver.
+
+ One of of the administrator catches your eye. It's Satiah, one of your
+ last friends. She nods slightly in your direction while she keepts
+ doing calculations on her abacus and counting tokens.
+
+>examine satiah
+
+ Satiah is more or less your age. She has the darker skin that
+ identifies her as coming from the Avaris chapter, which is somewhere
+ in the Two Lands, on the delta of an incredibly big river, far to the
+ south. She wears the full pleated linen favoured by admininstrative
+ priestesses when they are not facing the public, decorated with the
+ insignia of a mid-junior priestess - quite a promotion for accounting
+ duty.
+
+>talk to satiah
+
+ "Why, bad girl Ariadne is back. What tidings, love?", she greets, with
+ her unmistakeable Egyptian lilt.
+
+  "Hey, Satiah. My sister is such a bitch."
+
+ "We have had this conversation already.", she observes, looking at you
+ sideways.
+
+ "Oh. So, you want to hear about last night? It was like a dream. I
+ met these two satyrs under the moonlight..."
+
+ "And that one as well. You Keftius are like trained songbirds who only
+ know two songs."
+
+ "Fine. You tell me about your fascinating adventures, then. How many
+ measures of olives? Did someone, gasp, forget to record a few copper
+ ingots? Tell me about your night of wild passion with your abacus."
+
+ "Ari, love, why are we always talking about men or pouring goatshit
+ about other women? Can we not have a relevant conversation, like
+ priestesses are supposed to? Do you reckon this is what the Goddess
+ wants to discuss through us?"
+
+ "I... never thought of it that way, honestly."
+
+ "Well, I mean not to offend, dear Ariadne, but perhaps that is one
+ reason why you are still only an initiate at seventeen? While the rest
+ of our year-sisters have their own shrines on the other shore of the
+ Great Green? Even Phaedra is prancing around with rouged boobs and
+ acting like she is Circe reborn."
+
+ "Oh, my hangover. Catch you later."
+
+>give token to satiah
+
+ Satiah takes the token and gives it a cursory glance, then a double
+ take.
+
+ "Aha. Somebody's connections are starting to pay off?"
+
+ "Thank you for your kind words, Satiah. I am so glad I can share this
+ very special moment with a good friend."
+
+ "All I am saying is," she shrugs, "it is quite unusual to see two of
+ these within the same day, both for nieces of the High Priestess. And
+ I have been a witness to Phaedra's initiation in the third mysteries,
+ but you I have not seen since you talked me into pilfering that wine
+ jug for you."
+
+ "So I am working my way to ordainment a different way, does that make
+ me a worse priestess than my dear, dear sister?"
+
+ Satiah smiles sympathetically, says nothing (because she is an amazing
+ friend) and sends a slave for the goods (because she does not trust
+ you alone in a room filled with valuable stuff). She inspects the
+ garments when they arrive, nods and drops the token in the appropiate
+ jar.
+
+ "All yours. And congratulations. You must have done something quite
+ impressive, given your record, to impress the old girl so. Care to
+ gossip about it, or you're too important now for your old friend, my
+ potnia?"
+
+ You give her a conspiratorial wink.
+
+ "Secret mission. High priesthood business. Can't talk", you whisper in
+ a mysterious and alluring way. Satiah tsk-tsks and shields her eyes in
+ mock shock.
+
+>inventory
+
+
+ You are wearing:
+   tunic
+
+ You are carrying:
+   an Achaean brooch
+   wine jug (empty)
+
+>take garments
+
+ With the appropiate reverence, you take the ceremonial garments
+>wear garments
+
+ You should get rid of the tunic first, or it will look ridiculous.
+
+>take off tunic
+
+ Been there, but in your new quest as a secret agent, this is probably
+ not the way to keep a low profile, at least in such a public place.
+
+>give jug to Satiah
+
+ "You did not smash it this time? Good. Keep it for now. If I take it I
+ shall have to account for it and I am all out of pottery tokens. Call
+ it inventories adjustment."
+
+ "I was not giving it back, Satiah. I was asking for a refill."
+
+ "Potinaja wept, Ari, you have a drinking problem."
+
+ "The boys drank almost all of it, I promised. Pretty please?"
+
+ She frowns, calls one of her helpers and mutters some instructions in
+ his ear. He takes the jug, disappears and brings it back after a
+ while. Satiah smiles and hands it back to you.
+
+ "There."
+
+>look
+
+ <span class="floydstyle subheader">Palace stores</span>
+ The chambers are filled with the hustle of a few dozen workers
+ carrying goods into our out of the stores. Slaves bring in copper ore
+ and oil pithoi in carts, checked and accounted for by palace
+ administrators. Throngs of artisans from the workshops bring their
+ finished crafts for inspection, and receive clay tokens in exchange.
+ This is a part of the palace you seldom visit willingily, except to
+ pilfer some baubles or chat with your friend.  If you don't manage to
+ fulfil your quest, you might well be spending the rest of your days
+ here... The mere idea makes you shiver.
+
+ Satiah smiles at you from behind her desk, fingers flying on the
+ abacus.
+
+>go east
+
+
+ <span class="floydstyle subheader">Palace megaron</span>
+ The main megaron is flanked with tapered red columns, centered around
+ a central great hall that opens to two long wings. The western wing
+ contains the workshops, stores and administrative dependencies. The
+ north wing is mainly taken up with living quarters for priestess in
+ the upper floors, and servants and slaves in the lower ones. But the
+ definitive majestic piece of the megaron is the monumental gipsum
+ stairway leading up, to the High Priestess' dependencies.
+
+ The megaron is in full swing, with dozens of priestesses of diverse
+ rank coming and going about palace business.
+
+>go east
+
+
+ <span class="floydstyle subheader">Ceremonial entrance to the palace</span>
+ The ceremonial road ends in an ample paved space before the grand
+ entrance to the palace. Men and oxen come on go along the road like
+ ants and mill around the vast plaza, transporting all manners of goods
+ from the palace stores to the port below, overseen by
+ administrative-rank priestesses and keen-eyed archers. The great
+ complex is three stories high, fronted with a majestic row of crimson
+ red and marine blue tapered columns.
+
+ A couple of archers wink at you (old "friends", so to speak), and
+ quite a few priestesses frown (older "friends", so to speak).
+
+ The ceremonial paved road snakes descends towards the southeast and
+ the harbour. The palace lies west, blocking the view of the bay. A
+ narrow path leads northeast, following the clifftops, towards the
+ wilderness.
+
+>go west
+
+ You enter the palace unchallenged by either priestess or archer
+ patrols.
+
+ <span class="floydstyle subheader">Palace megaron</span>
+ The main megaron is flanked with tapered red columns, centered around
+ a central great hall that opens to two long wings. The western wing
+ contains the workshops, stores and administrative dependencies. The
+ north wing is mainly taken up with living quarters for priestess in
+ the upper floors, and servants and slaves in the lower ones. But the
+ definitive majestic piece of the megaron is the monumental gipsum
+ stairway leading up, to the High Priestess' dependencies.
+
+ The megaron is in full swing, with dozens of priestesses of diverse
+ rank coming and going about palace business.
+
+>go north
+
+ You start towards the living quarters, but you stop after a couple of
+ steps. What's the point? You have already been caught, and in the
+ worst of ways, so why pretend? Better carry on with your own business.
+
+>go east
+
+
+ <span class="floydstyle subheader">Ceremonial entrance to the palace</span>
+ The ceremonial road ends in an ample paved space before the grand
+ entrance to the palace. Men and oxen come on go along the road like
+ ants and mill around the vast plaza, transporting all manners of goods
+ from the palace stores to the port below, overseen by
+ administrative-rank priestesses and keen-eyed archers. The great
+ complex is three stories high, fronted with a majestic row of crimson
+ red and marine blue tapered columns.
+
+ A couple of archers wink at you (old "friends", so to speak), and
+ quite a few priestesses frown (older "friends", so to speak).
+
+ The ceremonial paved road snakes descends towards the southeast and
+ the harbour. The palace lies west, blocking the view of the bay. A
+ narrow path leads northeast, following the clifftops, towards the
+ wilderness.
+
+>go northeast
+
+
+ <span class="floydstyle subheader">Clifftop path</span>
+ This is where the elegant curve of the Saffron Bay becomes wider and
+ the downward slope is more benign. Most of the productive fields of
+ the isle are around here, tended by peasants indentured to the palace,
+ a few free settlers and scores of slaves. The olive trees, vineyards
+ and farms of this side provide most of the local foodstuffs. The path
+ follows the clifftop to the wild north and it becomes a proper paved
+ road to the southwest, towards the entrance to the palace.
+
+>take off tunic
+
+ You shimmer out of tunic.
+
+>wear garments
+
+ You put on ceremonial priestly garments.
+
+>go north
+
+
+ <span class="floydstyle subheader">Crest path</span>
+ A narrow path on top of the cliffs follows the crescent shape of
+ Aeaea. The isle's rocky arms stretch like the horns of a bull piercing
+ the sea. The Saffron Bay occupies most of the view, sheer cliff faces
+ the height of a hundred men plunging vertically into the waters below.
+ The palace complex shines across the bay like white teeth on jagged,
+ blackened gums.
+
+ The path clings to the clifftop, coming from the civilised south and
+ stretching towards the sharp edge of the isle to the northwest. To the
+ east lie the hilly scrublands frequented only by shepherds and
+ goatherds. As you know full well.
+
+>go east
+
+ <span class="floydstyle subheader">Rugged hills</span>
+ In all directions, the hills climb up and down, reddish earth
+ embroidered with dark green shrubs and a few small pine woods,
+ sometimes broken by white, sheer rock. The land slopes downwards, from
+ the cliffs in the west to the eastern beaches. The shepherd's hut is
+ the only visible shelter. The isle narrows to the north and broadens
+ to the south, where a few smoke columns indicate the location of the
+ palace. The shepherd's hut is nearby.
+
+>enter hut
+
+
+ <span class="floydstyle subheader">Shepherd's hut</span>
+ Here you are, back in the hut. The boys are gone, it is marginally
+ tidier than it was this morning, and there is still nothing but a
+ wooden rack and a miserable bed.
+
+>examine rack
+
+ The rack is empty. No bread, no clothes (at a guess, the shepherds
+ must be wearing them)... You stop for an instant, look at it twice.
+ Wasn't it a bit further away from the wall, this morning? It might
+ just be the shepherd boys tidying up after your tryst, or there might
+ be another reason for pushing the rack against the wall.
+
+>examine bed
+
+ The bedding has been half-heartedly remade after last night, but still
+ consists of loose straw piled on the floor. You kick it around a bit,
+ but you find no more brooches or anything else but dusty straw.
+
+>push rack
+
+ The rack is already against the wall, it won't move unless you pull
+ it.
+
+>pull rack
+
+ You take both ends of the rack, plant your feet firmly on the ground
+ and pull. It is not terribly heavy, and you manage to separate it a
+ couple of handspans from the wall.
+
+>examine wall
+
+ Oh, you have no time for this, really.
+
+>look behind rack
+
+ Potinaja wept, you are not making any sense.
+
+>examine rack
+
+ The rack is empty. No bread, no clothes (at a guess, the shepherds
+ must be wearing them)... You stop for an instant, look at it twice.
+ Wasn't it a bit further away from the wall, this morning? It might
+ just be the shepherd boys tidying up after your tryst, or there might
+ be another reason for pushing the rack against the wall. Pulling the
+ rack away from the wall has revealed a small hole in the ground.
+
+>examine hole
+
+ What a surprise, a small cache. Now this goatherders are much more
+ mysterious than you thought.
+ The hole contains a small but finely made daidala.
+
+>examine daidala
+
+ It is a little statuette of a bull, cast in bronze and lacquered in
+ black, with lovingly carved ivory horns, small enough that it can
+ stand on your open palm. The head is articulated, so that the horns
+ can point up or down - either menacing, as during the ritual
+ bulldancing, or towards the earth, in worship of the Goddess. Very,
+ very clever, and so finely detailed it looks almost menacing. This
+ belongs in a major shrine. You have very seldom seen works of similar
+ craftsmanship... and all of them were tributes sent from your native
+ Crete. You examine it carefully again. Yes, without the shadow of a
+ doubt - this is no Achaean artifact. Only Cretan masters can produce
+ such perfection.
+
+>take it
+
+ Surprised, you take the statuette with careful fingers. What a place
+ to find a holy piece. Really, what were these lads up to? Depending on
+ its origin, they could be guilty of a most blasphemous crime.
+
+ Well, well. Now you are really, really interested in having a
+ conversation with those two. Where are they gone?
+
+>push rack
+
+ You push the rack back against the wall, and brush the ground a bit
+ with your feet. Nobody would be able to tell it's been moved.
+
+>out
+
+ <span class="floydstyle subheader">Rugged hills</span>
+ In all directions, the hills climb up and down, reddish earth
+ embroidered with dark green shrubs and a few small pine woods,
+ sometimes broken by white, sheer rock. The land slopes downwards, from
+ the cliffs in the west to the eastern beaches. The shepherd's hut is
+ the only visible shelter. The isle narrows to the north and broadens
+ to the south, where a few smoke columns indicate the location of the
+ palace. The shepherd's hut is nearby.
+
+>examine grass
+
+ The volcanic landscape of Aeaea is at its wildest here - not a
+ flouncy-skirted priestess in sight, not a rumour of toiling workers or
+ a flash of sunlight over a magnificient building, nary a word of
+ praise for the Goddess except the calls of goats and the song of
+ birds. Which is kind of pretty is you're that kind of person, but
+ being a sophisticated lady and having spent ten years in Aeaea, you
+ find it rather boring and unstimulating.
+
+>go east
+
+
+ <span class="floydstyle subheader">Shepherd's hut</span>
+ Here you are, back in the hut. The boys are gone, it is marginally
+ tidier than it was this morning, and there is still nothing but a
+ wooden rack and a miserable bed.
+
+>go west
+
+ <span class="floydstyle subheader">Rugged hills</span>
+ In all directions, the hills climb up and down, reddish earth
+ embroidered with dark green shrubs and a few small pine woods,
+ sometimes broken by white, sheer rock. The land slopes downwards, from
+ the cliffs in the west to the eastern beaches. The shepherd's hut is
+ the only visible shelter. The isle narrows to the north and broadens
+ to the south, where a few smoke columns indicate the location of the
+ palace. The shepherd's hut is nearby.
+
+>go north
+
+ You really don't fancy going cross-country through these solitudes
+ like a goat. Better do like a human and follow the clifftop path to
+ the west, or go back inside the hut.
+
+>go south
+
+ You really don't fancy going cross-country through these solitudes
+ like a goat. Better do like a human and follow the clifftop path to
+ the west, or go back inside the hut.
+
+>go west
+
+
+ <span class="floydstyle subheader">Crest path</span>
+ A narrow path on top of the cliffs follows the crescent shape of
+ Aeaea. The isle's rocky arms stretch like the horns of a bull piercing
+ the sea. The Saffron Bay occupies most of the view, sheer cliff faces
+ the height of a hundred men plunging vertically into the waters below.
+ The palace complex shines across the bay like white teeth on jagged,
+ blackened gums.
+
+ The path clings to the clifftop, coming from the civilised south and
+ stretching towards the sharp edge of the isle to the northwest. To the
+ east lie the hilly scrublands frequented only by shepherds and
+ goatherds. As you know full well.
+
+>go northwest
+
+
+ <span class="floydstyle subheader">Northern crags</span>
+ The crescent of Aeaea narrows to a bullhorn-sharp point here and the
+ clifftop resolves into a rocky chaos of crags plunging dramatically
+ into foaming waters. From here you can see the whole curve of the
+ Saffron Bay, steep as the edge of a cauldron, with the palace a
+ miniature on the other side. Without even a single goat to feed on the
+ thorny bushes, the only living presence is the gulls that circle
+ overhead, looking for fish in the the clashing waves.
+
+>examine gulls
+
+ You see nothing special about gull.
+
+>se
+
+
+ <span class="floydstyle subheader">Crest path</span>
+ A narrow path on top of the cliffs follows the crescent shape of
+ Aeaea. The isle's rocky arms stretch like the horns of a bull piercing
+ the sea. The Saffron Bay occupies most of the view, sheer cliff faces
+ the height of a hundred men plunging vertically into the waters below.
+ The palace complex shines across the bay like white teeth on jagged,
+ blackened gums.
+
+ The path clings to the clifftop, coming from the civilised south and
+ stretching towards the sharp edge of the isle to the northwest. To the
+ east lie the hilly scrublands frequented only by shepherds and
+ goatherds. As you know full well.
+
+>go south
+
+
+ <span class="floydstyle subheader">Clifftop path</span>
+ This is where the elegant curve of the Saffron Bay becomes wider and
+ the downward slope is more benign. Most of the productive fields of
+ the isle are around here, tended by peasants indentured to the palace,
+ a few free settlers and scores of slaves. The olive trees, vineyards
+ and farms of this side provide most of the local foodstuffs. The path
+ follows the clifftop to the wild north and it becomes a proper paved
+ road to the southwest, towards the entrance to the palace.
+
+>examine olive trees
+
+ What can you say, the saffron fields produce most of the exports of
+ Aeaea, and the rest of the fields are merely foodstuffs. Some fields
+ are tended by slaves, property of the palace or of the settlers, and
+ most of the free men are depend on the palace in one way or the other:
+ some are indentuered workers, some are technically free but rely on
+ bartering their produce for clay tokens only exchangeable for other
+ stuff in the palace stores... Not that you care much for the boring
+ details. Your interest in agricultural matters has always been quite
+ low.
+
+>go southwest
+
+
+ <span class="floydstyle subheader">Ceremonial entrance to the palace</span>
+ The ceremonial road ends in an ample paved space before the grand
+ entrance to the palace. Men and oxen come on go along the road like
+ ants and mill around the vast plaza, transporting all manners of goods
+ from the palace stores to the port below, overseen by
+ administrative-rank priestesses and keen-eyed archers. The great
+ complex is three stories high, fronted with a majestic row of crimson
+ red and marine blue tapered columns.
+
+ A few priestesses blink, then nod respectfully as they pass, eyeing
+ your attire. A couple of archers almost stand at attention when they
+ see you approach.
+
+ The ceremonial paved road snakes descends towards the southeast and
+ the harbour. The palace lies west, blocking the view of the bay. A
+ narrow path leads northeast, following the clifftops, towards the
+ wilderness.
+
+>se
+
+
+ <span class="floydstyle subheader">Harbour town</span>
+ The paved road snakes downhill towards the glistening blue waters. The
+ beach on the southern tip hosts the only port in the isle, a
+ collection of warehouses and shipyards clustered around the harbour.
+ The air smells of salt, rotting seaweed and adventure. Burly
+ longshoremen sing coarse shanties as they unload a merchant ship,
+ while the palace indentured workers wait to cart the loads to the
+ workshops in the hill.
+
+ A dozen or so whores are pitching their wares to the sailors.
+
+>examine whores
+
+ They are gaudily dressed and most of them are girls. A couple of them
+ have had the cheek to dress up in flouncy skirts and open bodices, in
+ imitation of priestly garb. Such a near-blasphemy is indicative of
+ their liminal status, for they are one of the collectives in Aeaea
+ more loosely bound to the palace. As far as the High Priestess is
+ concerned, they are legally free settlers and economically unnecesary
+ for the Goddess, but also a natural element of the portuary
+ facilities. Apart from helping in the harvest of saffron, which is the
+ customary duty of all Aeaeans, their nominal allegiance to Circe boils
+ down to their personal piety.
+
+>talk to whores
+
+ You approach the prostitutes, reasoning that they probably know each
+ ship and sailor that moves around these parts.
+
+ The group falls into a respectful silence, turning and bringing fists
+ to temples in the adoration gesture. A tall Peleset woman with her
+ hair braided with red and blue thread meets your eyes levelly.
+
+ "My potnia," she says diplomatically, "We are conducting business this
+ side of the harbour as agreed, and not obstructing palace business in
+ any way. We are all healthy and a moon ago we donated a..."
+
+ "I am here on palace business indeed but not of that sort. Have you
+ seen any Achaeans... err, northern barbarians? Long black hair,
+ beards, helmets made of boar tusks? Mycenaeans, Tirynsians,
+ Athenians?"
+
+ "A lot of sailors fit that description, except for the helmets. And
+ who can tell where they come from? In any case, my potnia, almost all
+ our customers are foreigners, mostly Cretan and Alassian."
+
+ "Have you seen anyone wearing brooches shaped like lions?"
+
+ "How do they look like?"
+
+>show brooch to whore
+
+ You show the lion brooch to the Peleset woman, whose eyes open wide as
+ soon as she sees it.
+
+ "I have never seen a sailor wear such a thing...", she starts, but you
+ cut her off.
+
+ "Come on. You have seen it before! Lying to me is lying to the
+ Goddess..."
+
+ "...but as I was about to say, a man offered me one of those a few
+ nights ago. Not this one, but a very similar one."
+
+ "And do you still have it? Who was that man, was he a northerner?"
+
+ "Oh, I don't have it any more", she says slowly, looking you in the
+ eye, "but I know where to find him."
+
+ "Lead me to him and you can keep this one as well."
+
+ "Thank you, most generous potnia. The man is a local, a shepherd or
+ something. I had seen him many times, bringing milk and goatmeat to
+ town and eyeing the girls. Obviously we were never interested in his
+ custom, but as I say, he suddenly was very rich. I did not ask where
+ he got that little brooch, but he said something about going fishing
+ in the crags."
+
+ "<span class="floydstyle em">Fishing in the crags...</span> and say, are you feeling well these
+ days? No rashes or itches or blood in your urine?"
+
+ She smiles and shakes her head. You silently praise the Goddess and,
+ as agreed, let her have the brooch.
+
+>look
+
+ <span class="floydstyle subheader">Harbour town</span>
+ The paved road snakes downhill towards the glistening blue waters. The
+ beach on the southern tip hosts the only port in the isle, a
+ collection of warehouses and shipyards clustered around the harbour.
+ The air smells of salt, rotting seaweed and adventure. Burly
+ longshoremen sing coarse shanties as they unload a merchant ship,
+ while the palace indentured workers wait to cart the loads to the
+ workshops in the hill.
+
+ A dozen or so whores are pitching their wares to the sailors.
+
+>examine sailors
+
+ A confusion of seamen, foreign captains in exotic clothing and toiling
+ longshoremen. It would be an interesting spectacle if you did not have
+ urgent matters to tend to.
+
+>go northwest
+
+
+ <span class="floydstyle subheader">Ceremonial entrance to the palace</span>
+ The ceremonial road ends in an ample paved space before the grand
+ entrance to the palace. Men and oxen come on go along the road like
+ ants and mill around the vast plaza, transporting all manners of goods
+ from the palace stores to the port below, overseen by
+ administrative-rank priestesses and keen-eyed archers. The great
+ complex is three stories high, fronted with a majestic row of crimson
+ red and marine blue tapered columns.
+
+ A few priestesses blink, then nod respectfully as they pass, eyeing
+ your attire. A couple of archers almost stand at attention when they
+ see you approach.
+
+ The ceremonial paved road snakes descends towards the southeast and
+ the harbour. The palace lies west, blocking the view of the bay. A
+ narrow path leads northeast, following the clifftops, towards the
+ wilderness.
+
+>go west
+
+ You enter the palace unchallenged by either priestess or archer
+ patrols.
+
+ <span class="floydstyle subheader">Palace megaron</span>
+ The main megaron is flanked with tapered red columns, centered around
+ a central great hall that opens to two long wings. The western wing
+ contains the workshops, stores and administrative dependencies. The
+ north wing is mainly taken up with living quarters for priestess in
+ the upper floors, and servants and slaves in the lower ones. But the
+ definitive majestic piece of the megaron is the monumental gipsum
+ stairway leading up, to the High Priestess' dependencies.
+
+ The megaron is in full swing, with dozens of priestesses of diverse
+ rank coming and going about palace business.
+
+>go west
+
+
+ <span class="floydstyle subheader">Palace stores</span>
+ The chambers are filled with the hustle of a few dozen workers
+ carrying goods into our out of the stores. Slaves bring in copper ore
+ and oil pithoi in carts, checked and accounted for by palace
+ administrators. Throngs of artisans from the workshops bring their
+ finished crafts for inspection, and receive clay tokens in exchange.
+ This is a part of the palace you seldom visit willingily, except to
+ pilfer some baubles or chat with your friend.  If you don't manage to
+ fulfil your quest, you might well be spending the rest of your days
+ here... The mere idea makes you shiver.
+
+ Satiah smiles at you from behind her desk, fingers flying on the
+ abacus.
+
+>talk to satiah
+
+ "Tell me, Satiah, do you really like it here?"
+
+ "Indeed I do. This palace might look like a rock, solid as the
+ foundations of the earth, but it is actually dangling in a fine
+ balance, always on a tipping point between copper ore coming in and
+ finished goods coming out, saffron exported and meat imported, and the
+ fluctuating number of mouths to nourish. The Goddess provides but it
+ is up to us to keep her equilibrium or this isle would perish in a
+ fortnight without us admin girls."
+
+ "What about traveling, serving overseas?"
+
+ "Ariadne dearest, I am already serving overseas, remember?"
+
+ "Oh, yes, you told me about Avaris. Sorry, I have a bull-sized
+ hangover.
+
+>talk to satiah
+
+ "I have just had a conversation with our beloved High Priestess."
+
+ "And? Are you still a free woman?"
+
+ "I have been told The World Is More Complicated Than I Know and also
+ that I Play But a Small Part in It."
+
+ "Knowing Circe, it sounds surprisingly harmless. Anything troubling
+ your mind?"
+
+ "Have you seen or heard of any Achaeans around here?", you ask
+ casually.
+
+ "There used to be that girl, the straw-haired one? I think she was
+ from somewhere up north? She was sent to Wilusha, assistant Wanassa,
+ two springtimes ago maybe?"
+
+ "Ah, yes. Nah, I was thinking more like traders, ambassadors, perhaps
+ sailors? Do you get any trade from the northerners?"
+
+ "Occasionally. Not recently. They almost never trade directly with
+ us, I hear most of the commerce goes through your island of Keftiu, so
+ you probably know more than I do, you Cretan know-it-all. And they
+ would have no business here anyway, they are dealt with at the
+ harbour, and good riddance. Potinaja save me from dealing with the
+ maniacs at port authority."
+
+ "Thank you, Satiah."
+
+>drink wine
+
+ Try again, this time making some sense.
+
+>inventory
+
+
+ You are wearing:
+   ceremonial priestly garments
+
+ You are carrying:
+   bull daidala
+   tunic
+   wine jug (full of water)
+
+>drink water
+
+ You drain it in a couple of long, greedy gulps. It does wonders to
+ alleviate your hangover.
+
+>give jug to satiah
+
+ Satiah grimaces and calls a worker to refill your jug, then hands it
+ back to you again.
+
+>examine jug
+
+ It is a stylish round design with a small flat base, red clay with a
+ striking black many-tentacled octopus. Such a modern and expensive
+ model can only be imported from Crete and way above the means of a
+ goatherder, so it was probably you who brought it from the
+ palace.Satiah has made sure it was refilled... with fresh water. What
+ a party pooper.
+
+>talk to satiah
+
+ "What tidings, Ariadne?
+
+ "Secret stuff. Anything suspicious happening around here?"
+
+ "Just a Sherden trader screwing the Goddess on the saffron-pottery
+ exchange rate, but nothing that would interest an important agent of
+ the High Priestess like you. Let us have a jug tonight and talk, shall
+ we?"
+
+>go east
+
+
+ <span class="floydstyle subheader">Palace megaron</span>
+ The main megaron is flanked with tapered red columns, centered around
+ a central great hall that opens to two long wings. The western wing
+ contains the workshops, stores and administrative dependencies. The
+ north wing is mainly taken up with living quarters for priestess in
+ the upper floors, and servants and slaves in the lower ones. But the
+ definitive majestic piece of the megaron is the monumental gipsum
+ stairway leading up, to the High Priestess' dependencies.
+
+ The megaron is in full swing, with dozens of priestesses of diverse
+ rank coming and going about palace business.
+
+>go north
+
+ You start towards the living quarters, but you stop after a couple of
+ steps. What's the point? You have already been caught, and in the
+ worst of ways, so why pretend? Better carry on with your own business.
+
+>go up
+
+
+ <span class="floydstyle subheader">Circe's chambers</span>
+ The residence of the High Priestesses is less sumptuous than what you
+ had imagined the first time. It is nevertheless the most luxurious
+ room in the whole island, somewhat in spite of Circe herself. The
+ focal point of the room is a great wooden table, strewn with a
+ thousand little objects around a map.
+
+ Circe is looking at you, appraisingly.
+
+>talk to circe
+
+ "So where shall I begin?", you ask in a conspiratorial tone. Circe
+ rolls her eyes.
+
+ "Last time I had this sinking feeling the earth shook and it rained
+ ash for a moon."
+
+ "Aunt?"
+
+ "Well, get properly dressed, but remember it is not an official
+ ordainment but a temporary promotion, just for this mission." She
+ starts putting the figurines back in place "Then possibly try and
+ trace back the origin of that brooch? Further investigate the place
+ where you found it? Track whoever gave it ti you? Ask questions
+ discreetly to the right people? Seduce men and suss out their secrets?
+ Sweet lady Potinaja, ask me not about complicated matters of intrigue,
+ I am but the elderly High Priestess of Aeaea. You youngsters have it
+ all figured out, surely. I shall just stay here and play around with
+ my strategic toys while you do the Goddess' will."
+
+ You make the adoration gesture again, this time with a slight smile,
+ and get ready to go. A secret mission for the High Priestess, no less!
+ Time to prove your mettle... and avoid ending up as a bloody clerk.
+
+>show daidala to circe
+
+ "Look what I found", you say, putting the daidala on the table. Circe
+ looks puzzled for a second.
+
+ "Where have you gotten that from? Ariadne, I expect you not to use
+ your mission as an excuse to commit sacrilegious actions..."
+
+ "It was among the possessions of a suspected Achaean agent. But it is
+ clearly not Achaean. I suspect it was stolen from a shrine in Crete,
+ which is probably not beneath the barbarians, but why bring it here?"
+
+ "And then again, why bring something as incriminating as the brooch?
+ Perhaps we are dealing with a particularly stupid spy, or perchance it
+ is a different matter. Whatever the case, if sacrilege is involved we
+ need solve it more than ever, Ariadne. Pursue that lead. Find your
+ man."
+
+ "I shall, my potnia."
+
+>go down
+
+
+ <span class="floydstyle subheader">Palace megaron</span>
+ The main megaron is flanked with tapered red columns, centered around
+ a central great hall that opens to two long wings. The western wing
+ contains the workshops, stores and administrative dependencies. The
+ north wing is mainly taken up with living quarters for priestess in
+ the upper floors, and servants and slaves in the lower ones. But the
+ definitive majestic piece of the megaron is the monumental gipsum
+ stairway leading up, to the High Priestess' dependencies.
+
+ The megaron is in full swing, with dozens of priestesses of diverse
+ rank coming and going about palace business.
+
+>go east
+
+
+ <span class="floydstyle subheader">Ceremonial entrance to the palace</span>
+ The ceremonial road ends in an ample paved space before the grand
+ entrance to the palace. Men and oxen come on go along the road like
+ ants and mill around the vast plaza, transporting all manners of goods
+ from the palace stores to the port below, overseen by
+ administrative-rank priestesses and keen-eyed archers. The great
+ complex is three stories high, fronted with a majestic row of crimson
+ red and marine blue tapered columns.
+
+ A few priestesses blink, then nod respectfully as they pass, eyeing
+ your attire. A couple of archers almost stand at attention when they
+ see you approach.
+
+ The ceremonial paved road snakes descends towards the southeast and
+ the harbour. The palace lies west, blocking the view of the bay. A
+ narrow path leads northeast, following the clifftops, towards the
+ wilderness.
+
+>go northeast
+
+
+ <span class="floydstyle subheader">Clifftop path</span>
+ This is where the elegant curve of the Saffron Bay becomes wider and
+ the downward slope is more benign. Most of the productive fields of
+ the isle are around here, tended by peasants indentured to the palace,
+ a few free settlers and scores of slaves. The olive trees, vineyards
+ and farms of this side provide most of the local foodstuffs. The path
+ follows the clifftop to the wild north and it becomes a proper paved
+ road to the southwest, towards the entrance to the palace.
+
+>go north
+
+
+ <span class="floydstyle subheader">Crest path</span>
+ A narrow path on top of the cliffs follows the crescent shape of
+ Aeaea. The isle's rocky arms stretch like the horns of a bull piercing
+ the sea. The Saffron Bay occupies most of the view, sheer cliff faces
+ the height of a hundred men plunging vertically into the waters below.
+ The palace complex shines across the bay like white teeth on jagged,
+ blackened gums.
+
+ The path clings to the clifftop, coming from the civilised south and
+ stretching towards the sharp edge of the isle to the northwest. To the
+ east lie the hilly scrublands frequented only by shepherds and
+ goatherds. As you know full well.
+
+>go northwest
+
+
+ <span class="floydstyle subheader">Northern crags</span>
+ The crescent of Aeaea narrows to a bullhorn-sharp point here and the
+ clifftop resolves into a rocky chaos of crags plunging dramatically
+ into foaming waters. From here you can see the whole curve of the
+ Saffron Bay, steep as the edge of a cauldron, with the palace a
+ miniature on the other side. Without even a single goat to feed on the
+ thorny bushes, the only living presence is the gulls that circle
+ overhead, looking for fish in the the clashing waves.
+
+ And then there's the goatherd, with no goats in sight, looking quite
+ out of place.
+
+>examine goatherd
+
+ Well, at least he is the handsome one of last night's duo, a swarthy
+ square of a man, all straight lines and coiled muscle under tan skin.
+ He's wearing boots and loincloth and carries bag. He's looking around
+ shiftily, as if looking for a way to escape... or maybe get rid of
+ you?
+
+>talk to goatherd
+
+ The man meets your eyes with a jolt, then does a double take. You see
+ the doubt in his eyes for an instant and smile warmly, just in case
+ he's thinking of escaping. Or giving you a little nudge over the
+ cliff.
+
+ "Why, if it is not my favourite goatherder. I never thought you would
+ be so difficult to get. Considering."
+
+ He starts off with some remarks about last night that you might find
+ rudely enticing if you didn't know him to be an Achaean spy.
+
+ And a sacrilegious thief of holy daidala, for good measure.
+
+ "So what are you doing in these solitudes all by your own? Should you
+ not be tending to your herd?"
+
+ He looks one way and the other, scratches his head and ahem-ahems for
+ a while, until you suggest that maybe he's <span class="floydstyle em">fishing in the</span>
+ <span class="floydstyle em">crags?</span> He nods, then stops and looks at you (you let nothing show
+ on your face), licks his lips, then nods again vigorously. "Why, aye,
+ fishing! Indeed!".
+
+ Without a line or a hook, of course. And then there's that metallic
+ clink every time he shifts.
+
+>again
+
+ "So what were you fishing?"
+
+ "Pretty girls, and look, it worked!"
+
+ You roll your eyes, but not so much that you don't keep a watch on
+ him. He's trying to goatshit his way out of this one? Fine, then
+ you'll need to confront him with solid proof.
+
+>give daidala to goatherd
+
+ "So where did you fish this one?", you say, holding the statuette
+ high. He looks horrified. You press on:
+
+ "And I know about the brooch too, and the whole lot of them. And the
+ High Priestess does as well, in case you were thinking of a little
+ accident. Now, confess, and I shall make sure she is merciful with
+ you. How long have you been an Achaean spy?
+
+ "Ah-aka... what is an Akayan? And I'm no spy! I know nothing, I-I
+ just...! the goats...! I thought you, you and I...
+
+ "Cut the goatshit. Where did you find this? And the brooch? Confess or
+ you shall know Potinaja's wrath!"
+
+ "D-downstairs!"
+
+ You blink, watching out for any ruse. He gestures downwards with his
+ head, towards the cliffs. You nod. Carefully, he moves towards a few
+ thorny bushes and moves them aside.
+
+ "There is a path down the cliff."
+
+ "Guide me. You go first."
+
+ He sighs, nods and disappears down the hidden passage, looking just as
+ if he was sinking into the tangle of thorns.
+
+>go down
+
+ You find the secret way behind the bushes and carefully descend.
+
+ <span class="floydstyle subheader">Pebble beach at the foot of the cliffs</span>
+ Taking a deep breath, you navigate your way through the narrow
+ passage. A few steps ahead of you, the shepherd beckons. The
+ passageway is little more than an excavated slope for a few paces, and
+ then it merges into a natural cavern, open on one side to a vista of
+ the northern seascape. You follow the man along the zigzagging open
+ cavern, descending down the face of the cliff, until you reach a tiny
+ pebble beach at the foot of the crags. As far as you can see, there is
+ nothing but open seas ahead. Behind you, Aeaea is a continuous wall of
+ sheer rock, uninterrupted except for this small beach. It is scarcely
+ twenty strides wide... and its main feature is a huge warship, wrecked
+ against the rock on the western side of the beach.
+
+ Sweet Potinaja. This is something Circe would kill to know. Hopefully
+ not literally.
+
+ The goatherd is pacing up and down the narrow beach, looking shifty.
+
+>examine warship
+
+ You approach the wreck carefully. The bow third is a mess of
+ splintered wood, smashed against the rocks, the rest more or less
+ intact. A couple of dead bodies, presumably from the ship, are
+ stranded on the pebbles. The ship itself is long, single-masted, sleek
+ and probably rode low over the water. Definitely not a Cretan merchant
+ ship - more like a barbarian warship.
+
+>examine bodies
+
+ The corpses are both bloated and whitish, having spent many days at
+ sea. You take a look at the nearest one. It is a man, that much you
+ know, with a sword hung from a tasseled shoulder belt. The weapon is
+ of good quality and northern make, so you are looking at an Achaean
+ officer, may the Goddess have mercy on his heretic heart. You grimace.
+ A ship this size carried more warriors, obviously, perhaps thirty or
+ forty. Perhaps most of them were swept to the sea in the gale, or
+ jumped out in terror, or died here on the beach and were thrown back
+ into the ocean by whoever found the wreck.
+
+>take sword
+
+ Potinaja wept, you are not making any sense.
+
+>talk to goatherd
+
+ "You see, my potnia, me and my friend found this last new moon, and
+ though we tried to save the sailors..."
+
+ "Goatshit", you interrupt, turning towards him with a dramatic
+ flourish, "You tricked them into running aground, surely with some
+ lamps. Do you expect a potnia to believe this Achaean warship just
+ happened to shipwreck here, on the only beach in the whole coast, on a
+ moonless night, and in the only spot where you and your mate would be
+ able to loot their ship?"
+
+ "Well..."
+
+ "Don't answer, you fool. It's what we priestesses call a rhetorical
+ question."
+
+ "Actually, maybe it is a gift from the Goddess herself..."
+
+ "Don't you explain the Goddess to me, man, I'm a bloody potnia! So you
+ pulled out your little trick, not that I mind because they were
+ Achaean scum anyway, and then tried to sell the stuff in town. You
+ made just one mistake - bedding me! I do not mean that as a literal
+ mistake, mind you. But when you mess with Ariadne, secret agent of the
+ High Priestess..."
+
+ "Please, holy Ariadne...!"
+
+ "Oh, shut up. Circe will be certainly interested in these shipwrecked
+ Achaeans, she does give not a fig for thieving goatherders. But you
+ should have told me in the first place."
+
+ You take one last good look around. Being pretty sure you have learned
+ all there was to discover here, you say a brief prayer to the Goddess
+ - to guide the dead northerners to her underground realm, even if they
+ scarcely deserve it. The goatherd stands respectfully at attention,
+ although there is no way he can understand your oration, delivered in
+ your native Cretan.
+
+ Out of the corner of your eye, you see something stir among the rocks!
+ And the goatherder has seen it as well, because he jumps scared,
+ thinking it is one of the corpses rising. Being an initiate in the
+ first mysteries, you go investigate, intoning incantations against the
+ wrath of the dead.
+
+ But the boy is not quite dead. He is a young one, of perhaps eleven or
+ twelve years old, barely standing on his two feet, reeking of seawater
+ and malnutrition. He collapses as soon as you reach him.
+
+ "Go fetch help!", you order, and the goatherder disappears towards the
+ passage.
+
+>examine boy
+
+ A boy or eleven or twelve, dressed according to Cretan fashion, with
+ taste and a touch of distinction. Not at all what you would expect to
+ find in an Achaean wreck! Perhaps he was a prisoner? The kidnaped son
+ of some Cretan great, held for ransom, as a guarantee of some peace?
+ You need to interrogate him.
+
+>talk to boy
+
+ "Boy, do you speak Cretan? Do you hear me?", you try to shake him
+ awake, but he's too delirious with thirst.
+
+ "...ther... sorry, Father... shouldn't have... are coming... Minos...
+ shouldn't... coming... coming for... should... Father... the bull..."
+
+ "Hold on, boy. I shall get you some water."
+
+>give jug to boy
+
+ You tilt the jug so that the boy can drink - it takes a few tries in
+ his state. Little by little, he regains consciousness. He looks at
+ you, frightened, so you smile as warmly as this crazy day allows.
+
+ "I am Cretan like you, and a potnia. You are safe with me, boy. What
+ is your name and how come you where aboard an Achaean warship?"
+
+ "My-my name is Icarus", he says, making a feeble attempt at an
+ adoration gesture, "and my father was...", and there he clams up,
+ opening his eyes wide and looking at you with a suspicious expression.
+ You tsk-tsk.
+
+ "I am not one of them. My name is Ariadne, and I am the daughter of
+ the Wanassa of Knossos, whom you surely have heard of. So what about
+ your father?"
+
+ "Hmph. He's a fisherman."
+
+ "Sure she is, and I am a talking dolphin in disguise. See my fins? I
+ was swimming around today, minding my own dolphinic business and blam,
+ I came upon that wreck and said, what about having this little boy for
+ breakfast..."
+
+>talk to icarus
+
+ "So where did the Achaeans get you?"
+
+ He thinks about it for too long. He's making it up.
+
+ "At Phaistos. While we... I was trying to board a ship."
+
+ "You and your father? Who is he? Is he the reason you were captured...
+ and trying to board a ship? Were you both on the run? Why?"
+
+ He stammers a little, then pretends to faint.
+
+ "Come on, Icarus. I am not a friend at all of the awful men that got
+ you. Did they get your father as well? Let me guess, he is an
+ important man in Crete, am I right? A lagawetes, perhaps? A
+ commander?"
+
+ "A fisherman, like I said, from Phaistos."
+
+ "Goatshit. You have the Knossos accent, Icarus, and your skin is too
+ white and soft for the son of a fisherman, not to mention your
+ clothes. Your hands look rough, though... is he a great artisan? Oh, I
+ know. Perhaps a maker of beautiful objects?"
+
+ His eyes go wide in fear.
+
+>again
+
+ He is keeping his mouth shut, but you know full well there is
+ something more here. Perhaps you can refresh his memory... with a
+ little memento from his father.
+
+>show daidala to boy
+
+ "Is this perchance yours?" you ask, producing the bull statuette with
+ a theatrical gesture.
+
+ He hesitates, wanting to trust the lovely lady with the hometown
+ accent, but still scared. You smile encouragingly.
+
+ "It belongs to your mysterious father. And his only reason for owning
+ a sacred object would be being a priestess, and from my authoritative
+ experience as a priestess, men are rarely priestesses, or vice versa.
+ So your father must be a maker of daidala, and there are not many of
+ those, not even in <span class="floydstyle em">my</span> father's palace, so. See how the
+ Goddess speaks through me? Tell me the rest, Icarus, for Her patience
+ is much scarcer than her wisdom."
+
+ "My father is indeed a daedalus," he sighs, giving up, "and we were on
+ the run when the Achaeans got us. They boarded our ship just out of
+ Phaistos, and Father fell overboard. I was taken captive."
+
+ "You were on the run from what?", you ask, but you already know the
+ answer.
+
+ "Your noble father, potnia. For a crime he did not commit!"
+
+ You smile reassuringly and pat his head. Now this is something Circe
+ shall be interested in - courtly intrigue of which Mother has told her
+ nothing, Achaean warships roaming very close to Cretan ports, a
+ targeted kidnapping, and a smart kid with fresh news about it all.
+
+ "Can you walk, Icarus? Come with me. We shall get you proper food and
+ a bed, and you shall talk to a very nice old lady."
+
+>talk to icarus
+
+ You chat a little with the boy as you walk your way back to the
+ palace. He is still reserved and wary of saying too much, but you
+ gather a few juicy hints here and there. His father got enmeshed in
+ some kind of intrigue with Mother, and Father was not amused. Both are
+ in good health. You have four new siblings, four brothers and a
+ sister. There was an earth-shake two years ago, but the damages were
+ very minor, and it ceased as soon as three bulls were sacrificed.
+ Gortyn burned to the ground (all good, you never liked Gortynians).
+
+>go up
+
+
+ <span class="floydstyle subheader">Northern crags</span>
+ The crescent of Aeaea narrows to a bullhorn-sharp point here and the
+ clifftop resolves into a rocky chaos of crags plunging dramatically
+ into foaming waters. From here you can see the whole curve of the
+ Saffron Bay, steep as the edge of a cauldron, with the palace a
+ miniature on the other side. Without even a single goat to feed on the
+ thorny bushes, the only living presence is the gulls that circle
+ overhead, looking for fish in the the clashing waves.
+
+ The shepherd has opened a narrow downwards passage through a few
+ thorny bushes.
+
+ Icarus arrives from below.
+
+>se
+
+
+ <span class="floydstyle subheader">Crest path</span>
+ A narrow path on top of the cliffs follows the crescent shape of
+ Aeaea. The isle's rocky arms stretch like the horns of a bull piercing
+ the sea. The Saffron Bay occupies most of the view, sheer cliff faces
+ the height of a hundred men plunging vertically into the waters below.
+ The palace complex shines across the bay like white teeth on jagged,
+ blackened gums.
+
+ The path clings to the clifftop, coming from the civilised south and
+ stretching towards the sharp edge of the isle to the northwest. To the
+ east lie the hilly scrublands frequented only by shepherds and
+ goatherds. As you know full well.
+
+ Icarus arrives from the northwest.
+
+>go south
+
+
+ <span class="floydstyle subheader">Clifftop path</span>
+ This is where the elegant curve of the Saffron Bay becomes wider and
+ the downward slope is more benign. Most of the productive fields of
+ the isle are around here, tended by peasants indentured to the palace,
+ a few free settlers and scores of slaves. The olive trees, vineyards
+ and farms of this side provide most of the local foodstuffs. The path
+ follows the clifftop to the wild north and it becomes a proper paved
+ road to the southwest, towards the entrance to the palace.
+
+ Icarus arrives from the north.
+
+>go southwest
+
+
+ <span class="floydstyle subheader">Ceremonial entrance to the palace</span>
+ The ceremonial road ends in an ample paved space before the grand
+ entrance to the palace. Men and oxen come on go along the road like
+ ants and mill around the vast plaza, transporting all manners of goods
+ from the palace stores to the port below, overseen by
+ administrative-rank priestesses and keen-eyed archers. The great
+ complex is three stories high, fronted with a majestic row of crimson
+ red and marine blue tapered columns.
+
+ A few priestesses blink, then nod respectfully as they pass, eyeing
+ your attire. A couple of archers almost stand at attention when they
+ see you approach.
+
+ The ceremonial paved road snakes descends towards the southeast and
+ the harbour. The palace lies west, blocking the view of the bay. A
+ narrow path leads northeast, following the clifftops, towards the
+ wilderness.
+
+ Icarus arrives from the northeast.
+
+>go west
+
+ You enter the palace unchallenged by either priestess or archer
+ patrols.
+
+ <span class="floydstyle subheader">Palace megaron</span>
+ The main megaron is flanked with tapered red columns, centered around
+ a central great hall that opens to two long wings. The western wing
+ contains the workshops, stores and administrative dependencies. The
+ north wing is mainly taken up with living quarters for priestess in
+ the upper floors, and servants and slaves in the lower ones. But the
+ definitive majestic piece of the megaron is the monumental gipsum
+ stairway leading up, to the High Priestess' dependencies.
+
+ The megaron is in full swing, with dozens of priestesses of diverse
+ rank coming and going about palace business.
+
+ Icarus arrives from the outside.
+
+>go up
+
+ Circe looks up and blinks hard, twice. You smile your Competent Niece
+ and Even Better Potnia smile and fill her in with the facts of your
+ investigation, only embellishing slightly. As like how you fought to
+ death two of the Achaeans who were still alive (you are resolute!), or
+ the time you invoked the Goddess to reveal the identity of the boy
+ (the Potinaja obviously wants you ordained!).
+
+ Circe listens with something like excited exasperation, then sends you
+ out while she grills Icarus.
+
+
+ Please press SPACE to continue.
+ You take advantage of the situation to go fetch some breakfast, at
+ long last. You come across Phaedra, and have a grand time prancing in
+ your priestly finery while she watches incredulously. Halfway through
+ the tale of how you are performing secret missions for the High
+ Priestess, she runs away in an undignified rage. Finally, the day is
+ starting to look up.
+
+
+ Please press SPACE to continue.
+ That evening just before sunset, Circe sends for you.
+
+ "Well, well, perhaps the Goddess has found a way to speak through
+ you...", she says.
+
+ "She needed some help in doing so, but I really cannot blame her,
+ auntie. I was quite out of voice this morning."
+
+ "...and if you would just shut up for a while and kneel down, I shall
+ recite your ordainment invocation. Tonight you shall be brought to the
+ sacred cave and initiated in the third mysteries, and so please the
+ Goddess, by daybreak you shall be a full priestess, worthy of the
+ regalia."
+
+ "My potnia..."
+
+ "And then", she adds, with a harsh edge in her voice, "we shall talk,
+ Ariadne."
+
+ She turns towards the last rays of the setting sun, and frowns, as if
+ watching the setting of a different sun.
+
+ "We shall talk about what must be done to save Crete."
+
+
+
+ *** <span class="floydstyle i">Thus begins the legend of Ariadne of Knossos,</span>
+ <span class="floydstyle i">Mistress of the Labyrinth</span> ***
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do, QUIT or UNDO the last command?
+>amusing
+
+
+ Circe sighs, her eyes still on the setting sun.
+
+ "Praised be the Goddess, here we go. Listen, Ariadne have you tried...
+
+ ...kissing Satiah?"
+ ...kissing me (Circe)?"
+ ...talking to the goat?"
+ ...praying?"
+ ...typing ABOUT GAME for a pedantic historical explanation?"
+ ...typing ABOUT AUTHOR for insufferable authorial ego-tripping?"
+ ...trying AMUSING during the game?"
+ ...examining the Sun?"
+ ...talking to the Sun?"
+ ...examining your own eyes?"
+
+ Would you like to RESTART, RESTORE a saved game, see some suggestions
+ for AMUSING things to do, QUIT or UNDO the last command?

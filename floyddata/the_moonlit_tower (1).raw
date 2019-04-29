@@ -1,0 +1,4215 @@
+<HTML>
+<HEAD>
+<TITLE>AllThingsJacq.com - Interactive Fiction | ClubFloyd - June 1, 2008 - The Moonlit Tower, by Yoon Ha Lee</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Author" CONTENT="Jacqueline A. Lott">
+<META NAME="Revisit after" CONTENT="30days">
+<META NAME="Robots" CONTENT="all">
+<META NAME="Distribution" CONTENT="Global">
+<META NAME="Keywords" CONTENT="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+<META NAME="Description" CONTENT="Internet site of Jacqueline A. Lott.">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE>
+<!--
+A:link {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:visited {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:hover {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:active {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+-->
+</STYLE>
+</HEAD>
+
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#6666CC" MARGINWIDTH=0 LEFTMARGIN=0 RIGHTMARGIN=0 MARGINHEIGHT=0 TOPMARGIN=0 onLoad="MM_preloadImages('graphics/writing2.jpg','graphics/intfic2.jpg','graphics/photos2.jpg','graphics/misc2.jpg')">
+<a name="top"></a><CENTER>
+<TABLE WIDTH="557" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="35">
+  <TR>
+	<TD>
+	  <CENTER>
+		  <BR>
+		  <A HREF="index.html"><IMG SRC="graphics/atj_logo.jpg" WIDTH="250" HEIGHT="170" BORDER="0"><BR>
+		  <IMG SRC="graphics/home.jpg" WIDTH="75" HEIGHT="25" BORDER="0"><BR>
+		  </A><BR>
+
+		  <A HREF="writing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writing','','graphics/writing2.jpg',1)"><IMG NAME="Writing" BORDER="0" SRC="graphics/writing1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="interactive_fiction.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Interactive Fiction','','graphics/intfic2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"><IMG NAME="Interactive Fiction" BORDER="0" SRC="graphics/intfic1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG NAME="Photography" BORDER="0" SRC="graphics/photos1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG NAME="Miscellany" BORDER="0" SRC="graphics/misc1.jpg" WIDTH="100" HEIGHT="140"></A></CENTER>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></BR></BR>ClubFloyd Transcript: <B><I>The Moonlit Tower</I> by Yoon Ha Lee</b></FONT><FONT FACE="arial, sans-serif, helvetica" SIZE="1"></BR>As played on ifMUD on June 1, 2008</FONT></P>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="2">
+The idea behind ClubFloyd is that each week at a pre-arranged time, a group of people meet online to cooperatively play a game of interactive fiction.</br></br>
+
+Below is a transcript of <i>The Moonlit Tower</i>, written by Yoon&nbsp;Ha&nbsp;Lee.  <i>The Moonlit Tower</i> was originally released as part of the 2002 IF Competition, where it took fourth place. It was also nominated for Xyzzies for Best Writing, Best Story, and Best Setting; it ultimately won the Xyzzy for Best Writing.  You can learn more about the game, including how to download it, by visiting <A HREF="http://www.wurb.com/if/game/1925"><u>Baf's Guide</u></A>.</br>
+
+</br><FONT FACE="arial, sans-serif, helvetica" SIZE="2" COLOR="#FF0000"><b>WARNING!</b></font><FONT FACE="arial, sans-serif, helvetica" SIZE="2"> Below you will find a transcript of people playing this game, and it goes without saying that the transcript is full of spoilers.  So, if you've never played this game, and think you might like to at some point, I do not recommend reading any further.  Instead, you might want to return to the <a href="interactive_fiction.html"><u>interactive fiction </u>p<u>a</u>g<u>e</u></a>.</BR></BR></BR></FONT></P></td></tr></table>
+
+<table>
+<tr><td></td><td colspan="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td></tr>
+<tr><td width="2%"></td><td width="60%"><center><B>ToyShop & Floyditorium</B></center></td><td width="2%"></td><td width="34%"><center><B>#ClubFloyd Discussion</B></center></td><td width="2%"></td></tr>
+<tr><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td></tr>
+<tr><td></td><td>&nbsp;</td><td></td><td></td></tr>
+<td></td></TR>
+<TR><td></td><TD><b>Toyshop and Floyditorium</B>
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Bulging toychests make this a child's (or child-at-heart's) dream.  Play all day, play all night. A small booth has been erected and is staffed by a friendly robot. The sign over it says, "INFOKOM GAMEZ 5 cents".  A small notice on the door reads, "PLEASE RETURN TOYS TO THIS ROOM WHEN YOU'RE DONE WITH THEM."
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b></b>
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>You can see:</B> green button, banana machine, faucets, toy catalogue, a crystal ball, cuddly walrus, clicker, cloak, tic-tac-toe, thermometer, yellow button, waldo whisper object, checkers board, Werewolf rules, bunny burger, signaling device, Mike Tyson, IF Programmer Barbie, IF FLOYD'S DOWN, TELL JOTA -- OR ELSE HE WON'T KNOW, Autohugger, Photocopier, basketball, midterm monster, frobozz magic dispenser, fun shiny toy, madlibs, orange, jukebox, FREE DONUTS machine, long-stemmed red rose, dfan's quest, miniature ifMUD, Pun Police Whistle, orange door, monkey guru, mind chess, the 'hey there, playerfish!' cube, apple, a zorkmid, storyharp, save button, specimen jar, soda reading 'Don't drink me!', Gene Ray, jellybean, Best of Speed?, ClubFloyd Suggested Games List, Gak
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Players:</b> Waldo, Floyd, maga, inky, Emerald, Taleslinger, McMartin
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Visible Exits:</B> northeast (to the Lounge)
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> arrives, ready to play with the toys.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> says, "Woo"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Jacqueline</b> asks, "So, did anyone holler?"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><b>Nitku</b> arrives, full of funk, but no fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Taleslinger</b> says (to jacq), "Please keep all chatter on the channel for logging purposes"
+</TD><td></td><TD><b>inky</b>  says, "ha ha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "haha - Did you guys already start?  maga said you hadn't yet."
+</TD><td></td></TR>
+<TR><td></td><TD><b>inky</b> hollers, "club floyd starting now in the toyshop"
+
+</TD><td></td><TD><b>Jacqueline</b>  says, "(Which is why I just spoke in there.)"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">load moonlit</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Welcome to the Cheap Glk Implementation, library version 0.9.0.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | No, not a prison, though stone stands around you, as expressionless as
+<b>Floyd</b> | a mirror awaiting face and form; and in the silence you hear no plaint
+<b>Floyd</b> | of flute or roar of gong, but instead the crash of porcelain
+<b>Floyd</b> | shattering.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | The Moonlit Tower
+<b>Floyd</b> | Interactive Fiction, v.1.0
+<b>Floyd</b> | Yoon Ha Lee, copyright 2002
+<b>Floyd</b> | Newcomers may want to type HELP or ABOUT.
+<b>Floyd</b> | Release 1 / Serial number 020927 / Inform v6.21 Library 6/10
+<b>Floyd</b> |
+
+<b>Floyd</b> | Moonlit Chamber
+<b>Floyd</b> | Moonlight diffuses through the walls, tracing out unreadable sigils in
+<b>Floyd</b> | calligraphies of light and dark. Stairs adorned with bas-relief motifs
+<b>Floyd</b> | spiral downward.
+<b>Floyd</b> |
+<b>Floyd</b> | You can see a porcelain mask here.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "And there's my answer."
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">about</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |                          The Moonlit Tower
+<b>Floyd</b> |  N = next option                                         P = previous
+<b>Floyd</b> |  RETURN = select option                               Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |    &gt; About the Game
+<b>Floyd</b> |      The Opening
+<b>Floyd</b> |      How to Play Interactive Fiction
+<b>Floyd</b> |      Credits and Acknowledgements
+<b>Floyd</b> |      License
+
+<b>Floyd</b> |      Revision History
+<b>Floyd</b> |      Hints
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>ParserGirl</b> arrives, full of fun and funk.
+</TD><td></td><TD><b>maga</b>  says, "I emailed Yoon but I guess she's not turning up"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "although I can't get into my email to see if she replied"
+
+</TD><td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |                          The Moonlit Tower
+<b>Floyd</b> |  N = next option                                         P = previous
+<b>Floyd</b> |  RETURN = select option                               Q = resume game
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |      About the Game
+<b>Floyd</b> |    &gt; The Opening
+<b>Floyd</b> |      How to Play Interactive Fiction
+
+<b>Floyd</b> |      Credits and Acknowledgements
+<b>Floyd</b> |      License
+<b>Floyd</b> |      Revision History
+<b>Floyd</b> |      Hints
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">return</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |                          The Moonlit Tower
+<b>Floyd</b> |  N = next option                                         P = previous
+<b>Floyd</b> |  RETURN = select option                               Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |      About the Game
+<b>Floyd</b> |    &gt; The Opening
+<b>Floyd</b> |      How to Play Interactive Fiction
+<b>Floyd</b> |      Credits and Acknowledgements
+<b>Floyd</b> |      License
+
+<b>Floyd</b> |      Revision History
+<b>Floyd</b> |      Hints
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">space</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |                          The Moonlit Tower
+
+<b>Floyd</b> |  N = next option                                         P = previous
+<b>Floyd</b> |  RETURN = select option                               Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |      About the Game
+<b>Floyd</b> |    &gt; The Opening
+
+<b>Floyd</b> |      How to Play Interactive Fiction
+<b>Floyd</b> |      Credits and Acknowledgements
+<b>Floyd</b> |      License
+<b>Floyd</b> |      Revision History
+<b>Floyd</b> |      Hints
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>inky</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |                          The Moonlit Tower
+<b>Floyd</b> |  N = next option                                         P = previous
+<b>Floyd</b> |  RETURN = select option                               Q = resume game
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |      About the Game
+<b>Floyd</b> |    &gt; The Opening
+<b>Floyd</b> |      How to Play Interactive Fiction
+<b>Floyd</b> |      Credits and Acknowledgements
+
+<b>Floyd</b> |      License
+<b>Floyd</b> |      Revision History
+<b>Floyd</b> |      Hints
+</PRE></td><td></td>
+<TD><b>inky</b>  asks, "uh, ok, is there some way I'm forgetting?"
+</TD><td></td></TR>
+<TR><td></td><TD><b>DavidW</b> arrives, full of neither funk nor fun.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Taleslinger</b> presses the yellow enter button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | This is for people like me who type ABOUT and then realize that they
+<b>Floyd</b> | can't go back and read the introductory text without quitting out:
+
+<b>Floyd</b> |
+<b>Floyd</b> | No, not a prison, though stone stands around you, as expressionless as
+<b>Floyd</b> | a mirror awaiting face and form; and in the silence you hear no plaint
+<b>Floyd</b> | of flute or roar of gong, but instead the crash of porcelain
+<b>Floyd</b> | shattering.
+<b>Floyd</b> | [Please press SPACE to continue.]
+
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "aha"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "(I need to eat lunch, but I'll be back shortly.)"
+</TD><td></td></TR>
+<TR><td></td><TD><b>inky</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |                          The Moonlit Tower
+<b>Floyd</b> |  N = next option                                         P = previous
+<b>Floyd</b> |  RETURN = select option                               Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |      About the Game
+
+<b>Floyd</b> |    &gt; The Opening
+<b>Floyd</b> |      How to Play Interactive Fiction
+<b>Floyd</b> |      Credits and Acknowledgements
+<b>Floyd</b> |      License
+<b>Floyd</b> |      Revision History
+
+<b>Floyd</b> |      Hints
+</PRE></td><td></td>
+<TD><b>maga</b>  says, "(okay, she's got an RPG session that conflicts with this, but she'll be reading the transcript. wave, everybody)"
+</TD><td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">push p</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |                          The Moonlit Tower
+
+<b>Floyd</b> |  N = next option                                         P = previous
+<b>Floyd</b> |  RETURN = select option                               Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |    &gt; About the Game
+
+<b>Floyd</b> |      The Opening
+<b>Floyd</b> |      How to Play Interactive Fiction
+<b>Floyd</b> |      Credits and Acknowledgements
+<b>Floyd</b> |      License
+<b>Floyd</b> |      Revision History
+<b>Floyd</b> |      Hints
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>inky</b> presses the yellow enter button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | The Moonlit Tower was written by Yoon Ha Lee, a dabbler in math, sf/f
+<b>Floyd</b> | writing, linguistics, and other things, as an entry in IFComp 2002. I
+
+<b>Floyd</b> | began coding it in the summer of 2002 when my sister introduced me to
+<b>Floyd</b> | the evils of Interactive Fiction with Emily Short's Pytho's Mask and
+<b>Floyd</b> | Andrew Plotkin's Shade. I've since encountered other wonderful
+<b>Floyd</b> | examples, but those were my first, and what got me hooked.
+<b>Floyd</b> |
+<b>Floyd</b> | This is my first attempt at creating Interactive Fiction if you don't
+
+<b>Floyd</b> | count Choose Your Own Adventure-type juvenalia written in grade
+<b>Floyd</b> | school; it's certainly my first effort programming in Inform.
+<b>Floyd</b> |
+<b>Floyd</b> | I can be reached at
+<b>Floyd</b> |
+<b>Floyd</b> | Yoon Ha Lee
+
+<b>Floyd</b> | 39 Montgomery St. #3
+<b>Floyd</b> | Cambridge, MA 02140
+<b>Floyd</b> | U.S.A.
+<b>Floyd</b> | Earth
+<b>Floyd</b> | requiescat@cityofveils.com
+<b>Floyd</b> |
+
+<b>Floyd</b> | for bug reports (transcripts are welcome!), comments, or constructive
+<b>Floyd</b> | or destructive criticism. And if you really, really liked the game,
+<b>Floyd</b> | donations (especially of used books) are appreciated.
+<b>Floyd</b> | [Please press SPACE to continue.]
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Gunther</b> arrives, full of fun and funk.
+
+</TD><td></td><TD><b>*</b>  Gunther has joined the channel.
+</TD><td></td></TR>
+<TR><td></td><TD><b>inky</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |                          The Moonlit Tower
+
+<b>Floyd</b> |  N = next option                                         P = previous
+<b>Floyd</b> |  RETURN = select option                               Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |    &gt; About the Game
+
+<b>Floyd</b> |      The Opening
+<b>Floyd</b> |      How to Play Interactive Fiction
+<b>Floyd</b> |      Credits and Acknowledgements
+<b>Floyd</b> |      License
+<b>Floyd</b> |      Revision History
+<b>Floyd</b> |      Hints
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">q</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Moonlit Chamber
+<b>Floyd</b> | Moonlight diffuses through the walls, tracing out unreadable sigils in
+
+<b>Floyd</b> | calligraphies of light and dark. Stairs adorned with bas-relief motifs
+<b>Floyd</b> | spiral downward.
+<b>Floyd</b> |
+<b>Floyd</b> | You can see a porcelain mask here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x mask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The half-mask is the pale, almost bluish color of the finest celadon,
+<b>Floyd</b> | cracked with uncanny precision down its axis of symmetry. The face in
+<b>Floyd</b> | its blank, sculpted features has no more personality than new-forged
+<b>Floyd</b> | steel. Half a mask, though--that must mean the left half is--
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>maga</b>  asks (of Alex), "celadon?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Alex</b>  asks (of maga), "Um, seven?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  | The term "celadon" for the pottery's pale jade-green glaze was first applied by European connoisseurs of the wares. One theory is that the name first appeared in France in the 17th century and is named after the shepherd Celadon in Honor? d'Urf?'s French pastoral romance, L'Astr?e (1627), who wore pale green ribbons. (D'Urfe, in turn, borrowed his character from Ovid's Metamorphoses.)
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "D'Urfe is the best French surname ever"
+</TD><td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">take mask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">x sigils</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A curious thing, that the walls' stones should admit moonlight. A half
+<b>Floyd</b> | moon, you think, from the level of illumination: a moment's memory
+<b>Floyd</b> | suggests nights spent campaigning beneath open sky, but is soon gone.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">x moonlight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A curious thing, that the walls' stones should admit moonlight. A half
+<b>Floyd</b> | moon, you think, from the level of illumination: a moment's memory
+<b>Floyd</b> | suggests nights spent campaigning beneath open sky, but is soon gone.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">wear mask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The thought of putting this mask on suggests to you a disturbing
+<b>Floyd</b> | question: how long have you been wearing porcelain as a face?
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">x motifs</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The weight of armor and the breath of silk are familiar. Your face,
+<b>Floyd</b> | though--when you reach up, it is porcelain that meets your touch on
+<b>Floyd</b> | the left side, and you cannot remove it, though neither does it impede
+
+<b>Floyd</b> | your senses. It seems the left half is a part of you, perhaps no more
+<b>Floyd</b> | a mask than a hand is a glove...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x hand</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x face</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | The half-mask is the pale, almost bluish color of the finest celadon,
+<b>Floyd</b> | cracked with uncanny precision down its axis of symmetry. The face in
+<b>Floyd</b> | its blank, sculpted features has no more personality than new-forged
+<b>Floyd</b> | steel. Half a mask, though--that must mean the left half is--
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">wear mask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The thought of putting this mask on suggests to you a disturbing
+<b>Floyd</b> | question: how long have you been wearing porcelain as a face?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">touch face</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Save for the jagged edge, the mask is cool and glazed-smooth.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">take off mask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">break mask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This mask shattered once, and only once, in a terrible clean fracture.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">talk to mask</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">ask mask about me</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can only do that to something animate.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+<b>Floyd</b> | You are carrying:
+
+<b>Floyd</b> |   half a porcelain mask
+<b>Floyd</b> |   armor and silks (worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">d</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Shadow Armory
+<b>Floyd</b> | Shadows gather around you. For a moment, dregs of light defined by the
+<b>Floyd</b> | negative space take on the shapes of maple leaf, kite, comb, and other
+<b>Floyd</b> | shapes that flicker across the walls too rapidly for you to interpret.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Curiously, the only weapons here live amid light and cannot be worn:
+<b>Floyd</b> | they are silhouettes flung against the walls. Stairs carved with
+<b>Floyd</b> | bas-reliefs spiral upward.
+<b>Floyd</b> |
+<b>Floyd</b> | Northward and westward lie passageways unhindered by door or folding
+<b>Floyd</b> | screen.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "I can see why she later did an IF Art Show entry."
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The shapes of light you saw as you entered fade irrevocably.
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Silent Symphony
+<b>Floyd</b> | A single bronze gong hangs from its wooden frame in the room's center.
+<b>Floyd</b> | There are also silk cushions arranged around the floor in a court
+<b>Floyd</b> | ensemble's traditional half-circle, but no bamboo flutes or clay
+
+<b>Floyd</b> | ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+<b>Floyd</b> | evidence. A mural that touches each wall in turn gives the room an
+<b>Floyd</b> | illusion of greater depth.
+<b>Floyd</b> |
+<b>Floyd</b> | Two entrances, one east, one north; the former is wrapped in shadow,
+<b>Floyd</b> | the latter in light.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "yeah, I'd forgotten how, uh, stylized this was"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  asks, "Oops, 'irrevocably', should we undo?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "It's vague and dreamy, yeah."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "sure"
+</TD><td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Shadow Armory
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">reset save</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>inky</b> clears the save counter.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">cf1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store: Ok.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x shapes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Traced in light are leaf, comb, kite: a strange triad.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">take leaf</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Improbable, despite the claims of certain scholars.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x leaf</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Autumn is the maple's season, when all things die but fire and sun,
+<b>Floyd</b> | pine and moon, last guardians before the door into winter and winter's
+<b>Floyd</b> | snowlocked court. Once you knew a dark-haired woman who always wore
+<b>Floyd</b> | red, gold and black, the maple's colors, even at the emperor's winter
+
+<b>Floyd</b> | court, steadfast against the encroaching fashions of indigo or palest
+<b>Floyd</b> | blue. She had a low ironic laugh, but she is lost to you....
+<b>Floyd</b> |
+<b>Floyd</b> | Here, surrounded by stone, shadow, light, there is no indication of
+<b>Floyd</b> | the season.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x comb</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The comb has the curved, tortoise-shell shape that you have seen in
+<b>Floyd</b> | years past--but is one of the teeth broken?
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">yes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That was a rhetorical question.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">comb hair</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | With what comb?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">take comb</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Improbable, despite the claims of certain scholars.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x kite</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There should be two kites, not one: brothers and sisters fly them as
+<b>Floyd</b> | pairs during the kite-fighting auguries of spring. Alas, no wind stirs
+<b>Floyd</b> | in this dustless place.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Shadow Armory
+<b>Floyd</b> | Curiously, the only weapons here live amid light and cannot be worn:
+<b>Floyd</b> | they are silhouettes flung against the walls. Stairs carved with
+
+<b>Floyd</b> | bas-reliefs spiral upward.
+<b>Floyd</b> |
+<b>Floyd</b> | Northward and westward lie passageways unhindered by door or folding
+<b>Floyd</b> | screen.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The shapes of light you saw as you entered fade irrevocably.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+
+<b>Floyd</b> | Barren branches and pines suggest winter's quiet. Metal and wood,
+<b>Floyd</b> | painted and sculpted, the false garden is heedless of harvest, drought
+<b>Floyd</b> | or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | You can see a tortoise-shell comb here.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">take comb</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">comb hair</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It is a comb for taming a lady's hair, not untangling it--or other
+<b>Floyd</b> | things.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">compass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x compass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The compass is carved from a single piece of jade in which violet and
+<b>Floyd</b> | green intermingle delicately; the cardinal directions--if such they
+<b>Floyd</b> | be--are marked by hawk, swallow, crane and feather. More curiously
+<b>Floyd</b> | still, the needle is of glass, suggesting that it homes to something
+
+<b>Floyd</b> | other than the north. Perhaps you can set it yourself?
+<b>Floyd</b> |
+<b>Floyd</b> | The needle points to the feather.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD><b>schep</b> arrives, full of neither funk nor fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">turn needle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You spin the needle, which settles at a random position. A tasseled
+<b>Floyd</b> | fan appears upon the compass' surface. The needle points to the crane
+<b>Floyd</b> | now. You hear a clear chiming sound as the garden's trees and flowers
+
+<b>Floyd</b> | move subtly, obedient to this new season.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>ParserGirl</b> says, "Neat."
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">l</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Summer's heady blooms are much in evidence. Metal and wood, painted
+<b>Floyd</b> | and sculpted, the false garden is heedless of harvest, drought or
+<b>Floyd</b> | rain.
+<b>Floyd</b> |
+
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+
+<b>Floyd</b> | On the jade compass is a tasseled fan.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">take fan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x fan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | More remarkable than the fan's intricate designs is the long blue
+<b>Floyd</b> | tassel that trails from it. It is the kind of fan a lady might carry
+
+<b>Floyd</b> | to cool herself during the summer's heat.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">cool myself</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">wave fan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You look ridiculous waving the tasseled fan.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "(back)"
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">fan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Ghogg</b> arrives, full of fun, but no funk.
+</TD><td></td><TD><b>inky</b>  says, "lame"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I remember really loving this section."
+</TD><td></td></TR>
+
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">open fan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The fan itself is fixed, but as you look upon the tassel, it evokes
+<b>Floyd</b> | the improbable memory of a kitestring tugging against your hand.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">throw fan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Dropped.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">take fan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">fly fan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Upon what wings?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "This feels somewhat old-skoolish. Can't say why,"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to DW), "Welcome back - and thanks, as ever, to both you and maga for picking up the slack and keeping ClubFloyd up when work is demeanding more of me."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">remember kitestring</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">think</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | What a good idea.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>schep</b>  says, "demeanding is a good word"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">turn over fan</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">fly</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Upon what wings?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">xyzzy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (No Garden of Unearthly Delights, alas.)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">plugh</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says (to Taleslinger), "iirc, every room has it's own xyzzy message in this game."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "er, its."
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Summer's heady blooms are much in evidence. Metal and wood, painted
+
+<b>Floyd</b> | and sculpted, the false garden is heedless of harvest, drought or
+<b>Floyd</b> | rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "Wow."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  asks, "Should we explore more?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>schep</b>  has played this before and half-remembers, so will only half-participate
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "heh.  That's me, too, schep."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to schep), "I'm kinda in the same boat. I remember some of it."
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "I love it even when we play games I've played and I have to sit out, because it's fun to revisit them through other people's eyes."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Taleslinger), "yeah, you probably should explore a bit. Although not for xyzzy responses."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  asks, "Wait, who else hasn't played this?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says, "I haven't."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says, "Because I am only here for about 1/2 hour from now."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Summer's heady blooms are much in evidence. Metal and wood, painted
+<b>Floyd</b> | and sculpted, the false garden is heedless of harvest, drought or
+
+<b>Floyd</b> | rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Skeletal Banquet
+<b>Floyd</b> | It seems this is a banquet room, if a banquet had no especial place
+<b>Floyd</b> | for people to dine. Glassware and stoneware are arranged in deliberate
+<b>Floyd</b> | shapes, as though they are constellations.
+<b>Floyd</b> |
+<b>Floyd</b> | South lies a chamber of brooding silence, and a vague, sweet fragrance
+
+<b>Floyd</b> | comes from the east. Stairs of blackest marble lead downward.
+<b>Floyd</b> |
+<b>Floyd</b> | On the table are a banquet of bones and some ivory chopsticks.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">xyzzy</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (Itadakimasu!)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x banquet</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The feast before you seems a mockery, for everywhere upon the plates
+<b>Floyd</b> | and bowls there is nothing but skeletons artfully pieced together to
+<b>Floyd</b> | create grotesqueries from ordinary game. A creature half-bird,
+<b>Floyd</b> | half-rabbit, for one, or a pheasant with extra legs. Yet it is perhaps
+<b>Floyd</b> | no more grotesque than some of the intrigues that poisoned the
+
+<b>Floyd</b> | emperor's court, at times.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x chopsticks</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The chopsticks are pale, almost too slender for practical use, and
+
+<b>Floyd</b> | perfectly matched, though one is carved with a dragon, the other with
+<b>Floyd</b> | a phoenix.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">take chopsticks</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Silent Symphony
+<b>Floyd</b> | A single bronze gong hangs from its wooden frame in the room's center.
+<b>Floyd</b> | There are also silk cushions arranged around the floor in a court
+<b>Floyd</b> | ensemble's traditional half-circle, but no bamboo flutes or clay
+<b>Floyd</b> | ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+
+<b>Floyd</b> | evidence. A mural that touches each wall in turn gives the room an
+<b>Floyd</b> | illusion of greater depth.
+<b>Floyd</b> |
+<b>Floyd</b> | Two entrances, one east, one north; the former is wrapped in shadow,
+<b>Floyd</b> | the latter in light.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x mura?l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x mural</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The mural shows court ladies whispering to each other in a garden; men
+<b>Floyd</b> | kneel to float folded-paper poems down the brook for them to read.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">hit gong</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It rings a sonorous note. A faint shiver of music fades, awaiting
+<b>Floyd</b> | instruction as to the proper piece to play. In the end, nothing
+<b>Floyd</b> | remains but silence.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Shadow Armory
+<b>Floyd</b> | Curiously, the only weapons here live amid light and cannot be worn:
+
+<b>Floyd</b> | they are silhouettes flung against the walls. Stairs carved with
+<b>Floyd</b> | bas-reliefs spiral upward.
+<b>Floyd</b> |
+<b>Floyd</b> | Northward and westward lie passageways unhindered by door or folding
+<b>Floyd</b> | screen.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Summer's heady blooms are much in evidence. Metal and wood, painted
+
+<b>Floyd</b> | and sculpted, the false garden is heedless of harvest, drought or
+<b>Floyd</b> | rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">w</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Skeletal Banquet
+<b>Floyd</b> | It seems this is a banquet room, if a banquet had no especial place
+<b>Floyd</b> | for people to dine. Glassware and stoneware are arranged in deliberate
+<b>Floyd</b> | shapes, as though they are constellations.
+<b>Floyd</b> |
+
+<b>Floyd</b> | South lies a chamber of brooding silence, and a vague, sweet fragrance
+<b>Floyd</b> | comes from the east. Stairs of blackest marble lead downward.
+<b>Floyd</b> |
+<b>Floyd</b> | On the table is a banquet of bones.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">d</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As your feet meet that first step, a sudden vertigo overtakes you, as
+<b>Floyd</b> | though you journeyed through skies beyond imagining, across hollow and
+<b>Floyd</b> | infinite distances. You emerge back where you started: it seems the
+<b>Floyd</b> | night's hold is too strong here, and you must find some guide-star to
+
+<b>Floyd</b> | anchor your way.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x bones</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The feast before you seems a mockery, for everywhere upon the plates
+
+<b>Floyd</b> | and bowls there is nothing but skeletons artfully pieced together to
+<b>Floyd</b> | create grotesqueries from ordinary game. A creature half-bird,
+<b>Floyd</b> | half-rabbit, for one, or a pheasant with extra legs. Yet it is perhaps
+<b>Floyd</b> | no more grotesque than some of the intrigues that poisoned the
+<b>Floyd</b> | emperor's court, at times.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">search bones</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You find nothing of interest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x constellations</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The arrangement is in the shape of the constellation known as the
+<b>Floyd</b> | White Archer. Legend says that he shot his love, the Sun, out of the
+<b>Floyd</b> | sky while hunting. For ten days and nights, the Sun hid her face from
+<b>Floyd</b> | the world, and ever after, in penance, he exiled himself to the night,
+
+<b>Floyd</b> | unable to see her; his faithful horse, the Moon, travels between them,
+<b>Floyd</b> | bearing messages between the parted lovers.
+<b>Floyd</b> |
+<b>Floyd</b> | As to how the Sun was brought back to the world by the phoenix--that
+<b>Floyd</b> | is another tale.
+<b>Floyd</b> |
+
+<b>Floyd</b> | This seems an ill-fortuned constellation to complement an ill-fortuned
+<b>Floyd</b> | feast.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">rearrange constellations</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "we still haven't set the dial to the other two seasons"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "feel free"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Summer's heady blooms are much in evidence. Metal and wood, painted
+<b>Floyd</b> | and sculpted, the false garden is heedless of harvest, drought or
+
+<b>Floyd</b> | rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x compass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The compass is carved from a single piece of jade in which violet and
+
+<b>Floyd</b> | green intermingle delicately; the cardinal directions--if such they
+<b>Floyd</b> | be--are marked by hawk, swallow, crane and feather. More curiously
+<b>Floyd</b> | still, the needle is of glass, suggesting that it homes to something
+<b>Floyd</b> | other than the north. Perhaps you can set it yourself?
+<b>Floyd</b> |
+<b>Floyd</b> | The needle points to the crane.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">set compass to hawk</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The needle points to the hawk now. You hear a clear chiming sound as
+<b>Floyd</b> | the garden's trees and flowers move subtly, obedient to this new
+
+<b>Floyd</b> | season.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Autumn's fiery colors are evident in the trees and flowers around you.
+<b>Floyd</b> | Metal and wood, painted and sculpted, the false garden is heedless of
+<b>Floyd</b> | harvest, drought or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | On the unliving trees is a folded maple leaf.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">take leaf</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x leaf</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This cleverly-folded leaf stirs as though, in its secret paper dreams,
+<b>Floyd</b> | it yearns to fly.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">unfold leaf</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You now have a sheet of red paper.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">fold leaf</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">fold paper</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You now have a folded maple leaf.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">fan leaf</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">put leaf on fan</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Putting things on the tasseled fan would achieve nothing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">unfold leaf. fold paper into crane</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You now have a sheet of red paper.
+<b>Floyd</b> | I only understood you as far as wanting to fold the sheet of red
+<b>Floyd</b> | paper.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">make crane</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">fold crane</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The crane: unlikely to yield in such a fashion.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "oh well"
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">read paper</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It is hard to believe that this sheet of red-dyed mulberry paper can
+<b>Floyd</b> | take upon the shape of a leaf with folding.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">unfold paper</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">x paper</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The paper cannot unfold any further.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+<b>Floyd</b> | It is hard to believe that this sheet of red-dyed mulberry paper can
+<b>Floyd</b> | take upon the shape of a leaf with folding.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">attach chopsticks to paper</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Carefully, you fold the paper and pierce it with the ivory chopsticks
+<b>Floyd</b> | to form a delicate, string-less kite no larger than your hand.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  asks (of dw), "Oh?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">x tassel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The silken strands are longer than your arm.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>Nitku</b> was translated with Google. Sorry.
+</TD><td></td><TD><b>DavidW</b>  says, "An earlier response mentioned kites."
+</TD><td></td></TR>
+<TR><td></td><TD><b>aash29</b> arrives, ready to play with the toys.
+</TD><td></td><TD><b>DavidW</b>  says, "Perhaps there's a string somewhere."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">fly kite</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Without a string, it will dance from your hands with no more care than
+<b>Floyd</b> | spring's first swallows.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">x fan</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | More remarkable than the fan's intricate designs is the long blue
+<b>Floyd</b> | tassel that trails from it. It is the kind of fan a lady might carry
+<b>Floyd</b> | to cool herself during the summer's heat.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "oh, the tassel, perhaps?"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x tassel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The silken strands are longer than your arm.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take tassel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The tassel is too firmly attached. A knife might serve you better.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>schep</b>  says, "something about the fan suggested its tassel reminded us of a kite string"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a red paper kite with no string
+<b>Floyd</b> |   a tasseled fan
+
+<b>Floyd</b> |   a lady's tortoise-shell comb
+<b>Floyd</b> |   half a porcelain mask
+<b>Floyd</b> |   armor and silks (worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">x comb</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The comb is curved like a smile, though it seems fragile, easily
+<b>Floyd</b> | broken by a chance hand.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "no knife as yet, I guess"
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">set compass to hawk</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The needle points to the hawk now. You hear a clear chiming sound as
+<b>Floyd</b> | the garden's trees and flowers move subtly, obedient to this new
+<b>Floyd</b> | season.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+
+<b>Floyd</b> | Autumn's fiery colors are evident in the trees and flowers around you.
+<b>Floyd</b> | Metal and wood, painted and sculpted, the false garden is heedless of
+<b>Floyd</b> | harvest, drought or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>DavidW</b>  asks (of Taleslinger), "you realize that probably all these rooms change subtly with the seasons?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "The mural and constellations, for example, might be different."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x hawk</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It was autumn when last you went hawking with the emperor's justiciar.
+<b>Floyd</b> | Freed of court robes, she soared as surely as the kestrel that raced
+
+<b>Floyd</b> | before her; her hair was black and scandalously unbound as the
+<b>Floyd</b> | red-and-gold ribbons tore away in the wind to land in your waiting
+<b>Floyd</b> | hand. Autumn...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x crane</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The most auspicious of all birds, save the imperial phoenix. Many a
+<b>Floyd</b> | summer morning have you gazed upon cranes in flight, whether
+<b>Floyd</b> | silhouetted against the setting sun or set in abalone-shell upon a
+<b>Floyd</b> | fine lacquered cabinet, a cloisonne hairpin.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x phoenix</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x swallow</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Spring is the swallows' season, when they return from their sojourn in
+<b>Floyd</b> | distant lands and signal the kite-flying auguries. If only an augury
+<b>Floyd</b> | could help you now...
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x feather</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Even for the emperor's winter court, the only birds that remain in the
+<b>Floyd</b> | gardens are the jeweled nightingales, which sing dainty mechanical
+
+<b>Floyd</b> | tunes when they are stroked with a feather. Your brother hated them
+<b>Floyd</b> | passionately, but he listened to them readily enough whenever the
+<b>Floyd</b> | justiciar asked, with that smile that lit her eyes, though it never
+<b>Floyd</b> | reached her mouth.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">who is the justiciar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Taleslinger</b>  says (to dw), "Yeah, interesting thought."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Reading all this is making me want to write."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Skeletal Banquet
+
+<b>Floyd</b> | It seems this is a banquet room, if a banquet had no especial place
+<b>Floyd</b> | for people to dine. Glassware and stoneware are arranged in deliberate
+<b>Floyd</b> | shapes, as though they are constellations.
+<b>Floyd</b> |
+<b>Floyd</b> | South lies a chamber of brooding silence, and a vague, sweet fragrance
+<b>Floyd</b> | comes from the east. Stairs of blackest marble lead downward.
+
+<b>Floyd</b> |
+<b>Floyd</b> | On the table is a banquet of bones.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x bones</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The feast before you seems a mockery, for everywhere upon the plates
+<b>Floyd</b> | and bowls there is nothing but skeletons artfully pieced together to
+<b>Floyd</b> | create grotesqueries from ordinary game. A creature half-bird,
+<b>Floyd</b> | half-rabbit, for one, or a pheasant with extra legs. Yet it is perhaps
+<b>Floyd</b> | no more grotesque than some of the intrigues that poisoned the
+<b>Floyd</b> | emperor's court, at times.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x constellations</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The arrangement is in the shape of the constellation known as the
+<b>Floyd</b> | White Archer. Legend says that he shot his love, the Sun, out of the
+
+<b>Floyd</b> | sky while hunting. For ten days and nights, the Sun hid her face from
+<b>Floyd</b> | the world, and ever after, in penance, he exiled himself to the night,
+<b>Floyd</b> | unable to see her; his faithful horse, the Moon, travels between them,
+<b>Floyd</b> | bearing messages between the parted lovers.
+<b>Floyd</b> |
+<b>Floyd</b> | As to how the Sun was brought back to the world by the phoenix--that
+
+<b>Floyd</b> | is another tale.
+<b>Floyd</b> |
+<b>Floyd</b> | This seems an ill-fortuned constellation to complement an ill-fortuned
+<b>Floyd</b> | feast.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "hm. Were we at 'hawk' earlier?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says, "I don't think so - it's autumn now, and it was summer before."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Silent Symphony
+
+<b>Floyd</b> | A single bronze gong hangs from its wooden frame in the room's center.
+<b>Floyd</b> | There are also silk cushions arranged around the floor in a court
+<b>Floyd</b> | ensemble's traditional half-circle, but no bamboo flutes or clay
+<b>Floyd</b> | ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+<b>Floyd</b> | evidence. A mural that touches each wall in turn gives the room an
+<b>Floyd</b> | illusion of greater depth.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Two entrances, one east, one north; the former is wrapped in shadow,
+<b>Floyd</b> | the latter in light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x mural</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The mural shows court ladies whispering to each other in a garden; men
+<b>Floyd</b> | kneel to float folded-paper poems down the brook for them to read.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x cushions</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The cushions are dyed in summer colors and embroidered with gold
+<b>Floyd</b> | thread. You remember finding your brother's terse poetry, written on a
+<b>Floyd</b> | slip of pale paper, under such a cushion.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">look under cushions</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Beneath one of the cushions you find an ocarina, as though it had been
+<b>Floyd</b> | left by a careless musician.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x ocarina</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The ocarina is round, tapering at both ends, with eight finger-holes
+<b>Floyd</b> | and one thumb-hole, a mouthpiece and a hole from which the sound
+<b>Floyd</b> | emerges. You have seen musicians carry such instruments with them, as
+
+<b>Floyd</b> | they are forgiving of the chance accidents that sometimes happen
+<b>Floyd</b> | outside the sedate confines of a symphony chamber.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">play it</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The ocarina's notes are high and sweet.
+<b>Floyd</b> |
+<b>Floyd</b> | In this place, they remind you of that first court dance, when you and
+<b>Floyd</b> | you brother first saw the justiciar, a vision of red and black, a
+<b>Floyd</b> | flash of gold. Someone played an ocarina that time, too. Flutes,
+<b>Floyd</b> | zithers and lutes join in the cheerful clamor of instruments being
+
+<b>Floyd</b> | tuned, though none of them are to be seen. You hear among the
+<b>Floyd</b> | instruments the low, melancholy tones of an autumn dirge.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Shadow Armory
+<b>Floyd</b> | Curiously, the only weapons here live amid light and cannot be worn:
+<b>Floyd</b> | they are silhouettes flung against the walls. Stairs carved with
+<b>Floyd</b> | bas-reliefs spiral upward.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Northward and westward lie passageways unhindered by door or folding
+<b>Floyd</b> | screen.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>schep</b>  says, "'In this place'..."
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">play ocarina</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The ocarina's notes are high and sweet.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Autumn's fiery colors are evident in the trees and flowers around you.
+<b>Floyd</b> | Metal and wood, painted and sculpted, the false garden is heedless of
+
+<b>Floyd</b> | harvest, drought or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">play ocarina</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The ocarina's notes are high and sweet.
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Skeletal Banquet
+<b>Floyd</b> | It seems this is a banquet room, if a banquet had no especial place
+<b>Floyd</b> | for people to dine. Glassware and stoneware are arranged in deliberate
+<b>Floyd</b> | shapes, as though they are constellations.
+<b>Floyd</b> |
+<b>Floyd</b> | South lies a chamber of brooding silence, and a vague, sweet fragrance
+
+<b>Floyd</b> | comes from the east. Stairs of blackest marble lead downward.
+<b>Floyd</b> |
+<b>Floyd</b> | On the table is a banquet of bones.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">play ocarina</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The ocarina's notes are high and sweet.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">take bones</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Uncannily, the bones edge away, suggesting that another approach will
+<b>Floyd</b> | be necessary.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">dance</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>DavidW</b>  says, "huh. Make using the chopsticks? We could take the kite apart."
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">eat bones</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (first taking the banquet of bones)
+<b>Floyd</b> | Uncannily, the bones edge away, suggesting that another approach will
+<b>Floyd</b> | be necessary.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "er, Maybe using [etc}?"
+</TD><td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">take bones with sticks</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Taleslinger says (to Floyd), "<font color="#89956F">take banquet with chopsticks</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take chopsticks from kite</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take kite apart</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to take the red paper kite.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">disassemble kite</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">split kite</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x kite</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A delicate kite no larger than your hand, though it lacks a string.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "hm. Maybe it can't be taken apart."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "hope I didn't ruin a puzzle."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says, "If you want to check you could save and restore our first save game."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x knives</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x table</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The table is lacquered in red and black, carved in elaborate motifs.
+<b>Floyd</b> | The justiciar would have liked the colors.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x motifs</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The motifs suggest leaf, vine and blossom before retreating into the
+<b>Floyd</b> | uneasy shapes of abstraction.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">look under table</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You find nothing of interest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Emerald</b>  asks, "There's still a season on the compass that we haven't seen, isn't there?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I dunno. I missed the early stuff."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says (to em), "I was set to one, we've set it to three others, iirc."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says, "Looking back, we haven't seen spring yet."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "also, what was upstairs?"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Taleslinger</b>  says, "I must admit I am not really getting into this."
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Skeletal Banquet
+<b>Floyd</b> | It seems this is a banquet room, if a banquet had no especial place
+
+<b>Floyd</b> | for people to dine. Glassware and stoneware are arranged in deliberate
+<b>Floyd</b> | shapes, as though they are constellations.
+<b>Floyd</b> |
+<b>Floyd</b> | South lies a chamber of brooding silence, and a vague, sweet fragrance
+<b>Floyd</b> | comes from the east. Stairs of blackest marble lead downward.
+<b>Floyd</b> |
+
+<b>Floyd</b> | On the table is a banquet of bones.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Autumn's fiery colors are evident in the trees and flowers around you.
+<b>Floyd</b> | Metal and wood, painted and sculpted, the false garden is heedless of
+<b>Floyd</b> | harvest, drought or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x compass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The compass is carved from a single piece of jade in which violet and
+<b>Floyd</b> | green intermingle delicately; the cardinal directions--if such they
+<b>Floyd</b> | be--are marked by hawk, swallow, crane and feather. More curiously
+<b>Floyd</b> | still, the needle is of glass, suggesting that it homes to something
+
+<b>Floyd</b> | other than the north. Perhaps you can set it yourself?
+<b>Floyd</b> |
+<b>Floyd</b> | The needle points to the hawk.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">set compass to swallow</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The needle points to the swallow now. You hear a clear chiming sound
+<b>Floyd</b> | as the garden's trees and flowers move subtly, obedient to this new
+<b>Floyd</b> | season.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Spring's blossoms and budding trees are here in profusion. Metal and
+
+<b>Floyd</b> | wood, painted and sculpted, the false garden is heedless of harvest,
+<b>Floyd</b> | drought or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says (to Taleslinger), "My feeling when I played it the first time that it was all really pretty and everything, but it wasn't very clear on what any of it meant."
+
+</TD><td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a clay ocarina
+<b>Floyd</b> |   a red paper kite with no string
+<b>Floyd</b> |   a tasseled fan
+
+<b>Floyd</b> |   a lady's tortoise-shell comb
+<b>Floyd</b> |   half a porcelain mask
+<b>Floyd</b> |   armor and silks (worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">x comb</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The comb is curved like a smile, though it seems fragile, easily
+<b>Floyd</b> | broken by a chance hand.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">break comb</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Three of the long central teeth flex, then snap in your fingers. The
+<b>Floyd</b> | justiciar wore a comb long-broken as a memento; it proved an uneasy
+<b>Floyd</b> | prophecy of waking passion and breaking promises.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>schep</b> says, "(undo?)"
+</TD><td></td><TD><b>schep</b>  says, "I don't think it can be made unwinnable"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">play comb</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | The teeth make a faint, almost musical plucking sound as you run your
+<b>Floyd</b> | thumb down the comb.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x teeth</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | They are of tortoise-shell, like the comb from which they came, and
+<b>Floyd</b> | span the palm of your hand. Too light for hairpins, too dainty for
+<b>Floyd</b> | weapons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">cut silk with teeth</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That seems an unlikely way to cut anything.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>DavidW</b>  says, "hm. Maybe the teeth are the 'other' chopsticks."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "try taking the bones with them."
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">dance</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">sing</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A hundred poems set to music suggest themselves to you, an evening's
+<b>Floyd</b> | pastime among friends and lovers. It is with difficulty that you
+<b>Floyd</b> | choose one, and too soon it is done.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">w</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Skeletal Banquet
+
+<b>Floyd</b> | It seems this is a banquet room, if a banquet had no especial place
+<b>Floyd</b> | for people to dine. Glassware and stoneware are arranged in deliberate
+<b>Floyd</b> | shapes, as though they are constellations.
+<b>Floyd</b> |
+<b>Floyd</b> | South lies a chamber of brooding silence, and a vague, sweet fragrance
+<b>Floyd</b> | comes from the east. Stairs of blackest marble lead downward.
+
+<b>Floyd</b> |
+<b>Floyd</b> | On the table is a banquet of bones.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take bones with teeth</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Uncannily, the bones edge away, suggesting that another approach will
+<b>Floyd</b> | be necessary.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">attach teeth to kite</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You would achieve nothing by this.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Silent Symphony
+<b>Floyd</b> | A single bronze gong hangs from its wooden frame in the room's center.
+<b>Floyd</b> | There are also silk cushions arranged around the floor in a court
+<b>Floyd</b> | ensemble's traditional half-circle, but no bamboo flutes or clay
+<b>Floyd</b> | ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+
+<b>Floyd</b> | evidence. A mural that touches each wall in turn gives the room an
+<b>Floyd</b> | illusion of greater depth.
+<b>Floyd</b> |
+<b>Floyd</b> | Two entrances, one east, one north; the former is wrapped in shadow,
+<b>Floyd</b> | the latter in light.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">play teeth</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The comb's teeth seems an unlikely instrument.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">play comb</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The teeth make a faint, almost musical plucking sound as you run your
+<b>Floyd</b> | thumb down the comb. In response, you hear a woman's soft sigh, then
+<b>Floyd</b> | the businesslike cacophony of instruments being tuned to a new mode.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "Okay, gotta run."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x woman</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The ladies wear the fine trailing silks of summer court, and though
+<b>Floyd</b> | their faces are all but hidden by their fans, the cant of their eyes
+
+<b>Floyd</b> | suggests laughter.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Taleslinger</b>  says, "Have fun."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Taleslinger</b> bows and closes the door behind him.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x gong</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The gong stands taller than a man, and its rim is etched with faint
+<b>Floyd</b> | characters. The surface has no patina; there is no mallet with which
+<b>Floyd</b> | to strike it and signal the absent musicians to begin.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Bye, Taleslinger."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x mural</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The mural shows court ladies whispering to each other in a garden; men
+<b>Floyd</b> | kneel to float folded-paper poems down the brook for them to read.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">touch mural</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The walls seem to ripple at your touch, as though echoing the eddies
+<b>Floyd</b> | and flow of a brook.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x men</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | They wear somber colors in contrast to the ladies, though their
+<b>Floyd</b> | expressions are amused rather than grave.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">strike gong</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It rings a sonorous note. In the delicate layering of sound you can
+<b>Floyd</b> | hear the lutes, the plaint of flutes like the cries of wild geese. The
+
+<b>Floyd</b> | music fades note by note, like the best of autumn nights. The mural
+<b>Floyd</b> | appears to have shifted subtly, like a hand seen beneath the surface
+<b>Floyd</b> | of water.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x poems</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The poets' sentiments are written on sheets of paper in faded colors,
+<b>Floyd</b> | but the details were known to the painter alone. You know poems of
+<b>Floyd</b> | your own, though, written in past pain and longing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x mural</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The mural shows court ladies reading folded-paper poems that they have
+<b>Floyd</b> | just fished from the brook; men stand upstream, watching their faces.
+<b>Floyd</b> | In the northeast, a passageway stands open to the court beyond.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">take poems</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The walls seem to ripple at your touch, as though echoing the eddies
+<b>Floyd</b> | and flow of a brook.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "oh. northeast passage open"
+</TD><td></td></TR>
+<TR><td></td><TD>maga says (to Floyd), "<font color="#89956F">recite poem</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | ("Walk silently in the shadow of the sunrise,
+
+<b>Floyd</b> | knowing the warmth of days, of words and whispers,
+<b>Floyd</b> | shall never touch you again.")
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">play ocarina</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The ocarina's notes are high and sweet.
+<b>Floyd</b> |
+<b>Floyd</b> | In this place, they remind you of that first court dance, when you and
+<b>Floyd</b> | you brother first saw the justiciar, a vision of red and black, a
+<b>Floyd</b> | flash of gold. Someone played an ocarina that time, too. Flutes,
+<b>Floyd</b> | zithers and lutes join in the cheerful clamor of instruments being
+
+<b>Floyd</b> | tuned, though none of them are to be seen. One of the flutes runs
+<b>Floyd</b> | through a storm of arpeggios, suggesting the spring's wild winds.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "shall we go northeast?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">strike gong</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It rings a sonorous note. In the end, nothing remains but silence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Emerald</b>  says, "I vote yes"
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Silent Symphony
+<b>Floyd</b> | A single bronze gong hangs from its wooden frame in the room's center.
+<b>Floyd</b> | There are also silk cushions arranged around the floor in a court
+
+<b>Floyd</b> | ensemble's traditional half-circle, but no bamboo flutes or clay
+<b>Floyd</b> | ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+<b>Floyd</b> | evidence. A mural that touches each wall in turn gives the room an
+<b>Floyd</b> | illusion of greater depth.
+<b>Floyd</b> |
+<b>Floyd</b> | Two entrances, one east, one north; the former is wrapped in shadow,
+
+<b>Floyd</b> | the latter in light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ne</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Court of Lanterns
+<b>Floyd</b> | Lanterns hang from the ceiling in a constellation of soft and shining
+<b>Floyd</b> | stars. Tapestries on the wall promise tales of splendor and grace,
+<b>Floyd</b> | while folding screens partition the room, if incompletely, as they are
+<b>Floyd</b> | no real barrier to eye or foot.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Ghogg</b>  says, "I remember simply clinging to the walkthrough the whole way."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>maga</b>  says, "me too"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "But aren't there multiple endings to this one?"
+</TD><td></td></TR>
+
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x tapestries</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The tapestries show, in no particular sequence, the legend of the Sun
+<b>Floyd</b> | in hiding. The dragon and the phoenix, both brothers, see her where
+<b>Floyd</b> | she hides: the dragon glories in the untamed sky while the phoenix
+<b>Floyd</b> | sings to soothe the Sun, and at last carries her on his back to the
+<b>Floyd</b> | waiting world.
+
+<b>Floyd</b> |
+<b>Floyd</b> | As to why the Sun went into hiding, and the injury done to her--that
+<b>Floyd</b> | is another tale.
+<b>Floyd</b> |
+<b>Floyd</b> | Mysteriously, a passage is woven into the tapestries, suggesting that
+<b>Floyd</b> | southwest lies a way out of the legend.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>maga</b>  says, "I thought it'd be nice to see some puzzle-minded people tackle it"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">play ocarina</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The ocarina's notes are high and sweet.
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">play comb</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The teeth make a faint, almost musical plucking sound as you run your
+
+<b>Floyd</b> | thumb down the comb.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Ghogg</b>  says, "it's odd. sometimes I can solve a really tough puzzle game, but mind has to get in the perfect groove"
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x screens</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The screens are of paper over bamboo, and their arrangement seems
+<b>Floyd</b> | intended to allow fleeting moments of privacy rather than to serve as
+<b>Floyd</b> | any real barrier. The brushstroke paintings show cats frolicking among
+<b>Floyd</b> | flowers and butterflies.
+<b>Floyd</b> |
+<b>Floyd</b> | Before your parents died, you and your brother used to run among the
+
+<b>Floyd</b> | screens as though they were a labyrinth, tripping over hems and
+<b>Floyd</b> | searching for abandoned letters.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x sun</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The weavers suggested the Sun's shape indistinctly within a nimbus of
+<b>Floyd</b> | light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">x phoenix</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | With its fanciful plumage in the colors of fire and sun, the phoenix
+<b>Floyd</b> | looks like a figure of legend indeed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">open screens</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | They're not something you can open.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">move screens</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | The folding screens already has a place in the world's reckoning.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">x dragon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | With its pearly scales and sinuous twinings, the dragon looks like a
+
+<b>Floyd</b> | figure of legend indeed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">search screens</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Following the elusive smell of plum blossoms, you find a strangely
+
+<b>Floyd</b> | insubstantial lantern half-fallen beyond one of the screens. It hovers
+<b>Floyd</b> | near your shoulder like an errant star.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x lantern</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the paper lanterns)
+<b>Floyd</b> | The lanterns are hung in an artful scattering, hinting at unseen
+<b>Floyd</b> | constellations. Their glow is warmer than the moonlight slanting
+<b>Floyd</b> | through the walls.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x insubstantial lantern</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The lantern floats behind you, following you almost apologetically.
+<b>Floyd</b> | Its glow flickers gently.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Though the lantern follows you like an errant star, it refuses to be
+<b>Floyd</b> | touched.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Emerald</b>  says, "maybe we can go downstairs now"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "hm. yes. Just thinking that."
+</TD><td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   an insubstantial lantern (floating behind your shoulder)
+
+<b>Floyd</b> |   three comb's teeth
+<b>Floyd</b> |   a clay ocarina
+<b>Floyd</b> |   a red paper kite with no string
+<b>Floyd</b> |   a tasseled fan
+<b>Floyd</b> |   a lady's tortoise-shell comb (broken)
+<b>Floyd</b> |   half a porcelain mask
+
+<b>Floyd</b> |   armor and silks (worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "It said we needed a guide-star."
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">enter screens</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | They're not something you can enter.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">follow screens</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">sw</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Silent Symphony
+<b>Floyd</b> | A single bronze gong hangs from its wooden frame in the room's center.
+<b>Floyd</b> | There are also silk cushions arranged around the floor in a court
+<b>Floyd</b> | ensemble's traditional half-circle, but no bamboo flutes or clay
+<b>Floyd</b> | ocarinas, nine-stringed zithers or singers' unfolding fans, are in
+<b>Floyd</b> | evidence. A mural that touches each wall in turn gives the room an
+
+<b>Floyd</b> | illusion of greater depth.
+<b>Floyd</b> |
+<b>Floyd</b> | Two entrances, one east, one north; the former is wrapped in shadow,
+<b>Floyd</b> | the latter in light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>schep</b>  says, "the exit was sw, if that's what you want"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Skeletal Banquet
+<b>Floyd</b> | It seems this is a banquet room, if a banquet had no especial place
+
+<b>Floyd</b> | for people to dine. Glassware and stoneware are arranged in deliberate
+<b>Floyd</b> | shapes, as though they are constellations.
+<b>Floyd</b> |
+<b>Floyd</b> | South lies a chamber of brooding silence, and a vague, sweet fragrance
+<b>Floyd</b> | comes from the east. Stairs of blackest marble lead downward.
+<b>Floyd</b> |
+
+<b>Floyd</b> | On the table is a banquet of bones.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">d</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The lantern behind you brightens as you approach the stairs, anchoring
+
+<b>Floyd</b> | a path for you through the sea of stars.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Hall of Hawks
+<b>Floyd</b> | Memory overtakes you as you enter: you and your brother speaking to
+<b>Floyd</b> | each other in low, tense voices (not shouting, never shouting before
+
+<b>Floyd</b> | her) until the justiciar bids you leave, curtly. The next day, when
+<b>Floyd</b> | the emperor stripped her of her rank, and neither you nor your brother
+<b>Floyd</b> | had the influence to free her from the court's machinations--you have
+<b>Floyd</b> | lived that day over and over, more than any man ought.
+<b>Floyd</b> |
+<b>Floyd</b> | You see silhouettes out of the corner of your eye: blade, hand, a
+
+<b>Floyd</b> | woman's hair floating long and free; they elude any attempt to view
+<b>Floyd</b> | them directly, as though they ceased to dance across the walls when
+<b>Floyd</b> | you do so.
+<b>Floyd</b> |
+<b>Floyd</b> | Hawks painted in gold and brown soar along the walls. It is strangely
+<b>Floyd</b> | warm here, as though fires lived just beyond your perception. The
+
+<b>Floyd</b> | entire hall is open to the wind and warmth, unobstructed except by
+<b>Floyd</b> | your presence.
+<b>Floyd</b> |
+<b>Floyd</b> | Stairs of darkest marble circle upward. A passageway leads south into
+<b>Floyd</b> | clear, colorless light.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "hm. Would this be the Hall of Cranes/Feathers/Swallows in other seasons?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says, "We're on swallows now, so I guess not"
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x hawks</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | A splendor of hawks in flight, each feather meticulously painted. Each
+<b>Floyd</b> | one has a woman's dark eyes instead of a raptor's golden gaze.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x silhouettes</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x blade</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x light</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Subtle gradations characterize the light in this room, as though it
+
+<b>Floyd</b> | were filtered by great wings.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As you approach, you realize that the shadows split the passageway in
+
+<b>Floyd</b> | a terrible clean fracture, and your face aches unbearably; only when
+<b>Floyd</b> | you move away does the pain ease.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x m</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | The weight of armor and the breath of silk are familiar. Your face,
+<b>Floyd</b> | though--when you reach up, it is porcelain that meets your touch on
+<b>Floyd</b> | the left side, and you cannot remove it, though neither does it impede
+<b>Floyd</b> | your senses. It seems the left half is a part of you, perhaps no more
+<b>Floyd</b> | a mask than a hand is a glove...
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">wear mask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Suddenly and disturbingly inspired by the riven passage to the south,
+<b>Floyd</b> | you lift the mask to your face, momentarily shadowing your vision.
+<b>Floyd</b> | When you can see clearly again, the mask has been rejoined
+
+<b>Floyd</b> | flawlessly--and the shadows close around the passageway. Yours is the
+<b>Floyd</b> | dragon's perfection, the dark journey skyward, as you have chosen.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x mask</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x passageway</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | If you look south, this passage leads into clear, colorless light,
+<b>Floyd</b> | though you cannot see what lies beyond it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">s</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The shadows hold no more place for you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   an insubstantial lantern (floating behind your shoulder)
+<b>Floyd</b> |   three comb's teeth
+<b>Floyd</b> |   a clay ocarina
+<b>Floyd</b> |   a red paper kite with no string
+<b>Floyd</b> |   a tasseled fan
+
+<b>Floyd</b> |   a lady's tortoise-shell comb (broken)
+<b>Floyd</b> |   armor and silks (worn)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x me</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The weight of armor, the breath of silk, and now the chill perfection
+<b>Floyd</b> | of porcelain that serves you as a face, and shall forevermore.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "yeah, we've chosen dragon over phoenix. So we have to go to the ending that isn't here."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  asks, "should we go back and save so we can see the other ending?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "er, the wearing of the mask was the critical step."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says (to DavidW), "I guessed that"
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Hall of Hawks
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">undo</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | [Can't "undo" twice in succession. Sorry!]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I suppose you can /undo until that is undone, then save."
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">undo</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | [Can't "undo" twice in succession. Sorry!]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">/undo</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> |
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">/undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall of Hawks
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">/undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall of Hawks
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">/undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall of Hawks
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Gunther</b> has had his fill of playing for now, and goes back to the Lounge.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">/undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall of Hawks
+
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The weight of armor, the breath of silk, and now the chill perfection
+
+<b>Floyd</b> | of porcelain that serves you as a face, and shall forevermore.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">/undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall of Hawks
+
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">/undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">/undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Hall of Hawks
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The weight of armor and the breath of silk are familiar. Your face,
+<b>Floyd</b> | though--when you reach up, it is porcelain that meets your touch on
+<b>Floyd</b> | the left side, and you cannot remove it, though neither does it impede
+<b>Floyd</b> | your senses. It seems the left half is a part of you, perhaps no more
+
+<b>Floyd</b> | a mask than a hand is a glove...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">save</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">cf2</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store: Ok.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">wear mask</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Suddenly and disturbingly inspired by the riven passage to the south,
+<b>Floyd</b> | you lift the mask to your face, momentarily shadowing your vision.
+<b>Floyd</b> | When you can see clearly again, the mask has been rejoined
+<b>Floyd</b> | flawlessly--and the shadows close around the passageway. Yours is the
+<b>Floyd</b> | dragon's perfection, the dark journey skyward, as you have chosen.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Hall of Hawks
+<b>Floyd</b> | Hawks painted in gold and brown soar along the walls. It is strangely
+
+<b>Floyd</b> | warm here, as though fires lived just beyond your perception. The
+<b>Floyd</b> | entire hall is open and unobstructed except by your presence.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">up</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Passage of Storms
+<b>Floyd</b> | Cherry blossoms and lilacs, kite-flying auguries and newly-budding
+<b>Floyd</b> | leaves: the trappings of spring are far beneath you now, though the
+<b>Floyd</b> | kite is a red speck dancing in the storm. The moonlit tower lays open
+<b>Floyd</b> | beneath you, and lightning and storm clouds gather around you.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x clouds</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It is night, now and always, with the storm clouds and lightning your
+<b>Floyd</b> | constant companions.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x kite</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the red kite)
+<b>Floyd</b> | Caught in the grip of gale and rain, the kite dances, a last reminder
+
+<b>Floyd</b> | of the human things you are leaving behind.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x tower</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In its way the moonlit tower is like any other tower, despite the
+
+<b>Floyd</b> | strange things trapped within; you are part of them no longer.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  asks, "maybe you can fly now?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "or go up again?"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">fly</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The sky is yours, in a dance unending, and you have shed your past
+<b>Floyd</b> | (her eyes, the hand upon the blade, the blood, your brother's white
+<b>Floyd</b> | and anguished face) as you ascend to your place in the zodiac.
+<b>Floyd</b> |
+
+<b>Floyd</b> |     *** You have won ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | In that game you scored 0 out of a possible 0, in 166 turns.
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, see some suggestions
+
+<b>Floyd</b> | for AMUSING things to do or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "woo"
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">amusing</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> | Some Final Words
+<b>Floyd</b> |  N = next optionP = previous
+<b>Floyd</b> |  RETURN = select option  Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |    &gt; Amusing Things to Try
+<b>Floyd</b> |      For the Copyright-Conscious Sonnet-Reciter
+<b>Floyd</b> |      Notes on Development and Setting (Long)
+<b>Floyd</b> |      A Last Apology
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Emerald</b> presses the yellow enter button.
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Have you...
+<b>Floyd</b> |
+<b>Floyd</b> | ...been meeped at?
+<b>Floyd</b> | ...found the game's one Easter Egg?
+
+<b>Floyd</b> | ...discovered what XYZZY does (or doesn't do) for you?
+<b>Floyd</b> | ...tried to take off your armor?
+<b>Floyd</b> | ...examined yourself at various points in the game?
+<b>Floyd</b> | ...played the comb?
+<b>Floyd</b> | ...unfolded the sheet of red paper?
+<b>Floyd</b> | ...folded the leaf?
+
+<b>Floyd</b> | ...touched the compass' various symbols?
+<b>Floyd</b> | ...climbed the compass?
+<b>Floyd</b> | ...climbed the bronze gong?
+<b>Floyd</b> | ...investigated the compass' repercussions outside the garden?
+<b>Floyd</b> | ...bathed? (One hopes so...)
+<b>Floyd</b> | ...recited a sonnet?
+
+<b>Floyd</b> | ...found all the game's variant endings?
+<b>Floyd</b> |
+<b>Floyd</b> | (Yes, I admit it: only the custom(ized) verbs actually needed to get
+<b>Floyd</b> | through the meat of the game are listed in the ABOUT/HELP menu.)
+<b>Floyd</b> | [Please press SPACE to continue.]
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD><b>Emerald</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Some Final Words
+<b>Floyd</b> |  N = next optionP = previous
+<b>Floyd</b> |  RETURN = select option  Q = resume game
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |    &gt; Amusing Things to Try
+<b>Floyd</b> |      For the Copyright-Conscious Sonnet-Reciter
+<b>Floyd</b> |      Notes on Development and Setting (Long)
+
+<b>Floyd</b> |      A Last Apology
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">q</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, see some suggestions
+
+<b>Floyd</b> | for AMUSING things to do or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">restore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">cf2</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to load: Ok.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "This time, break the mask."
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">break mask</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Suddenly and terribly inspired by the shadowed passage to the south,
+<b>Floyd</b> | you smash the half-mask upon your own face. The pain nearly blinds
+<b>Floyd</b> | you. When you can see again, both halves of the mask are gone--and the
+<b>Floyd</b> | passageway stands open, free of shadow.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x passageway</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | If you look south, this passage leads into clear, colorless light,
+<b>Floyd</b> | though you cannot see what lies beyond it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Hall of Doors
+<b>Floyd</b> | At first, this place of polished surfaces seems like a profusion of
+<b>Floyd</b> | mirrors and a kaleidoscope of doors. Looking more closely, though, all
+
+<b>Floyd</b> | doors are one, save the one you came from. The peculiar translucence
+<b>Floyd</b> | of the walls suggests that it is growing light out.
+<b>Floyd</b> |
+<b>Floyd</b> | Northward, a passageway no longer riven by shadow returns to the rest
+<b>Floyd</b> | of the tower; across from it stands a door to the south.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The weight of armor, the breath of silk, and now the strangeness of
+<b>Floyd</b> | flesh, fully freed from its prison of porcelain, from now until the
+<b>Floyd</b> | end of your story.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x doors</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">remove armor</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | This would not be proper.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x light</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The light here has a clarity rarely found except in dreams or
+<b>Floyd</b> | childhood, through which everyone must pass eventually.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x walls</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The walls are smooth and polished, reflecting every chance movement.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The door is of the same strange stone that characterizes the tower.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">feel walls</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The silent, smooth perfection of stone.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>schep says (to Floyd), "<font color="#89956F">x me</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The weight of armor, the breath of silk, and now the strangeness of
+<b>Floyd</b> | flesh, fully freed from its prison of porcelain, from now until the
+<b>Floyd</b> | end of your story.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>Emerald</b>  asks, "Go through the door?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I guess so, yeah"
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">open door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Swallows soaring and tumbling, the flowerfall of cherry blossom
+<b>Floyd</b> | petals, a wind that needs no kites to augur good fortune. The paths
+
+<b>Floyd</b> | you take are your own, now, no matter what jealousies you and your
+<b>Floyd</b> | brother exchanged, knotted too deeply to be disentangled in past
+<b>Floyd</b> | dreams.
+<b>Floyd</b> |
+<b>Floyd</b> | You leave the tower behind you, no longer trapped by the tyranny of
+<b>Floyd</b> | moonlight. The rest of your story is your own to tell and cherish, as
+
+<b>Floyd</b> | you walk past the tower's broken boundaries and into the rest of your
+<b>Floyd</b> | awakening.
+<b>Floyd</b> |
+<b>Floyd</b> |     *** You have won ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | In that game you scored 0 out of a possible 0, in 170 turns.
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, see some suggestions
+<b>Floyd</b> | for AMUSING things to do or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Emerald</b>  asks, "is it possible to get the bones, and fly the kite?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks (of Emerald), "Is this your first time playing this?"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">I'm looking at my old notes, and yes, flying the kite is possible.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please give one of the answers above.
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<TD><b>schep</b>  says, "I think I did fly the kite"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I'm looking at my old notes, and yes, flying the kite is possible."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>schep</b>  says, "dunno about the bones"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says (to Jacq), "yes"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Emerald), "I'm just curious what you think of it, having just played it for the first time."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "We need to cut the tassel with the dagger to get the string."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>schep</b>  asks, "what dagger?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Though feel free to wait and answer after you've tried to explore another ending, Emerald."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "If that's what you're going to try to do."
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to schep), "I think it's in the armory."
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">restore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">cf2</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to load: Ok.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">u</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Skeletal Banquet
+<b>Floyd</b> | It seems this is a banquet room, if a banquet had no especial place
+
+<b>Floyd</b> | for people to dine. Glassware and stoneware are arranged in deliberate
+<b>Floyd</b> | shapes, as though they are constellations.
+<b>Floyd</b> |
+<b>Floyd</b> | South lies a chamber of brooding silence, and a vague, sweet fragrance
+<b>Floyd</b> | comes from the east. Stairs of blackest marble lead downward.
+<b>Floyd</b> |
+
+<b>Floyd</b> | On the table is a banquet of bones.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">e</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Spring's blossoms and budding trees are here in profusion. Your
+<b>Floyd</b> | lantern gives the chamber a quality of sharp angles at odds with the
+<b>Floyd</b> | careful arrangements. Metal and wood, painted and sculpted, the false
+<b>Floyd</b> | garden is heedless of harvest, drought or rain.
+<b>Floyd</b> |
+
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Shadow Armory
+<b>Floyd</b> | The lantern seems to have no effect on the shadows that reside here,
+
+<b>Floyd</b> | which remind you of long nights standing sentry, straining your eyes
+<b>Floyd</b> | against the darkness.
+<b>Floyd</b> |
+<b>Floyd</b> | Curiously, the only weapons here live amid light and cannot be worn:
+<b>Floyd</b> | they are silhouettes flung against the walls. Stairs carved with
+<b>Floyd</b> | bas-reliefs spiral upward.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Northward and westward lie passageways unhindered by door or folding
+<b>Floyd</b> | screen.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x shadow</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Weapons line the walls, writ in shadow--yet you know their heft and
+<b>Floyd</b> | balance, the patterns of movement that make one deadly in attack and
+<b>Floyd</b> | another impenetrable in defense. If only you knew, as well, the
+<b>Floyd</b> | histories of blood, patronage and betrayal--or loyalty--that they
+
+<b>Floyd</b> | represent.
+<b>Floyd</b> |
+<b>Floyd</b> | One of the weapons is more substantial than you realized at first, a
+<b>Floyd</b> | bronze-hilted dagger with a tassel hanging from the pommel.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">take dagger</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x dagger</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Such daggers rarely leave the hands of the justiciars who wield them
+<b>Floyd</b> | as their symbol of office. A white tassel hangs from the pommel of the
+<b>Floyd</b> | hilt.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x white tassel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The silken strands are white, for death. The justiciar's last resort,
+<b>Floyd</b> | someone said to you once--or did you say it?
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x tassel</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The silken strands are white, for death. The justiciar's last resort,
+<b>Floyd</b> | someone said to you once--or did you say it?
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">cut it with dagger</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The fan's blue tassel may serve you better.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">cut blue tassel with dagger</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A few neat cuts free some strands from the tassel, and tying them
+<b>Floyd</b> | together results in--a kitestring?
+<b>Floyd</b> |
+<b>Floyd</b> | For a second there is a dark-eyed boy beside you, whose laugh is
+
+<b>Floyd</b> | yours, but wilder; whose smile is yours, but wider. If only you
+<b>Floyd</b> | remembered the augury that you and your brother cast that spring in
+<b>Floyd</b> | the kite-flying ritual, years before either of you met the woman who
+<b>Floyd</b> | wore black and red and gold...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">tie string to kite</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Though it takes some patience, you tie the kitestring to the kite.
+<b>Floyd</b> | Surely a season of gales and newborn blossoms awaits you, even in this
+<b>Floyd</b> | skyless tower.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Spring's blossoms and budding trees are here in profusion. Your
+
+<b>Floyd</b> | lantern gives the chamber a quality of sharp angles at odds with the
+<b>Floyd</b> | careful arrangements. Metal and wood, painted and sculpted, the false
+<b>Floyd</b> | garden is heedless of harvest, drought or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x swallow</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Spring is the swallows' season, when they return from their sojourn in
+<b>Floyd</b> | distant lands and signal the kite-flying auguries. If only an augury
+<b>Floyd</b> | could help you now...
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">turn compass to swallow</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The needle points to the swallow now. You hear a clear chiming sound
+<b>Floyd</b> | as the garden's trees and flowers move subtly, obedient to this new
+<b>Floyd</b> | season.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">fly kite</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Spring: the season of augury. Red and black and gold, maple colors,
+<b>Floyd</b> | kite colors; you no longer know which. A breeze stirs through the
+
+<b>Floyd</b> | room, though the trees and flowers are no more affected by it than
+<b>Floyd</b> | they would be by the sun's earnest light or a plague of locusts.
+<b>Floyd</b> | Nevertheless, you hear the hollow sound of something being dislodged
+<b>Floyd</b> | from one of the trees.
+<b>Floyd</b> |
+<b>Floyd</b> | It was spring when your kite and your brother's became too entangled
+
+<b>Floyd</b> | for one glass-edged string to cut the other's, for one to conquer the
+<b>Floyd</b> | other, though entangled they flew yet; and spring when you were first
+<b>Floyd</b> | parted from your brother on his first campaign and yours, two
+<b>Floyd</b> | fatherless boys entering the emperor's service as adults.
+<b>Floyd</b> |
+<b>Floyd</b> | The kite tugs from your hand, as impatient as a hawk winning free of
+
+<b>Floyd</b> | hood; dances perilously upward upon the wings of this nowhere breeze;
+<b>Floyd</b> | and disappears.
+<b>Floyd</b> |
+<b>Floyd</b> | The breeze swells to a gale that rears southward and upward, seeking
+<b>Floyd</b> | the sky in this enclosed and skyless room.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Spring's blossoms and budding trees are here in profusion. Your
+
+<b>Floyd</b> | lantern gives the chamber a quality of sharp angles at odds with the
+<b>Floyd</b> | careful arrangements. Metal and wood, painted and sculpted, the false
+<b>Floyd</b> | garden is heedless of harvest, drought or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x trees</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Bamboo groves, graceful though ungrowing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x breeze</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "hm. Guess we have to go south and up to see what got dislodged."
+
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Shadow Armory
+<b>Floyd</b> | The lantern seems to have no effect on the shadows that reside here,
+<b>Floyd</b> | which remind you of long nights standing sentry, straining your eyes
+
+<b>Floyd</b> | against the darkness.
+<b>Floyd</b> |
+<b>Floyd</b> | Curiously, the only weapons here live amid light and cannot be worn:
+<b>Floyd</b> | they are silhouettes flung against the walls. Stairs carved with
+<b>Floyd</b> | bas-reliefs spiral upward.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Northward and westward lie passageways unhindered by door or folding
+<b>Floyd</b> | screen.
+<b>Floyd</b> |
+<b>Floyd</b> | A wind gallops toward the stairs, seeking the sky.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">u</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Moonlit Chamber
+<b>Floyd</b> | Moonlight diffuses through the walls, tracing out unreadable sigils in
+<b>Floyd</b> | calligraphies of light and dark. Upwards, the sky is open to your
+
+<b>Floyd</b> | eyes. The lantern brightens slightly, like a star as the night grows
+<b>Floyd</b> | deeper. Stairs adorned with bas-relief motifs spiral downward.
+<b>Floyd</b> |
+<b>Floyd</b> | Wind flings itself up the walls and toward the sky; you have but to
+<b>Floyd</b> | look up.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">look up</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The night spreads her wings above you, and shows no sign of welcoming
+<b>Floyd</b> | her sister of the sunborn day. Constellations jewel the sky,
+<b>Floyd</b> | half-hidden by clouds like nestling feathers: the Heavenly Horse and
+
+<b>Floyd</b> | the Imperial Chrysanthemum.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x horse</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The star-stallion rears like the chargers you once rode. The justiciar
+
+<b>Floyd</b> | herself preferred such spirited mounts.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x chrysanthemum</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It is the first among constellations, open to the eyes of all people
+
+<b>Floyd</b> | unlike the emperor himself. You and your brother saw him only once,
+<b>Floyd</b> | when he called on you to stand together for your family's name.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">ride horse</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x motifs</font>"
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x stairs</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Each step is carved upon the side in bas-relief, though the design is
+
+<b>Floyd</b> | abstract.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>schep</b>  says, "I think that story may have been it"
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">d</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Shadow Armory
+<b>Floyd</b> | The lantern seems to have no effect on the shadows that reside here,
+<b>Floyd</b> | which remind you of long nights standing sentry, straining your eyes
+<b>Floyd</b> | against the darkness.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Curiously, the only weapons here live amid light and cannot be worn:
+<b>Floyd</b> | they are silhouettes flung against the walls. Stairs carved with
+<b>Floyd</b> | bas-reliefs spiral upward.
+<b>Floyd</b> |
+<b>Floyd</b> | Northward and westward lie passageways unhindered by door or folding
+<b>Floyd</b> | screen.
+
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+
+<b>Floyd</b> | Spring's blossoms and budding trees are here in profusion. Your
+<b>Floyd</b> | lantern gives the chamber a quality of sharp angles at odds with the
+<b>Floyd</b> | careful arrangements. Metal and wood, painted and sculpted, the false
+<b>Floyd</b> | garden is heedless of harvest, drought or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">search trees</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You find nothing of interest.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The weight of armor and the breath of silk are familiar. Your face,
+<b>Floyd</b> | though--when you reach up, it is porcelain that meets your touch on
+<b>Floyd</b> | the left side, and you cannot remove it, though neither does it impede
+<b>Floyd</b> | your senses. It seems the left half is a part of you, perhaps no more
+
+<b>Floyd</b> | a mask than a hand is a glove...
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I'm not sure what good it does to get the horse and chrysanthemum constellations."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "My notes have nothing about the banquet of bones, but I seem to remember that something can be done with them."
+
+</TD><td></td></TR>
+<TR><td></td><TD><b>vimes</b> arrives, ready to play with the toys.
+</TD><td></td><TD><b>Emerald</b>  asks, "What about the thing "disloged from one of the trees"?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  asks, "Is it findable?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "We found it. It was the horse and chrysanthemum."
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">save</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">cf3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store: Ok.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">restore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">cf1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to load: Ok.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Shadow Armory
+<b>Floyd</b> | Curiously, the only weapons here live amid light and cannot be worn:
+<b>Floyd</b> | they are silhouettes flung against the walls. Stairs carved with
+
+<b>Floyd</b> | bas-reliefs spiral upward.
+<b>Floyd</b> |
+<b>Floyd</b> | Northward and westward lie passageways unhindered by door or folding
+<b>Floyd</b> | screen.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">u</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The shapes of light you saw as you entered fade irrevocably.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Moonlit Chamber
+
+<b>Floyd</b> | Moonlight diffuses through the walls, tracing out unreadable sigils in
+<b>Floyd</b> | calligraphies of light and dark. Stairs adorned with bas-relief motifs
+<b>Floyd</b> | spiral downward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">moonlight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognise.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x moonlight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A curious thing, that the walls' stones should admit moonlight. A half
+<b>Floyd</b> | moon, you think, from the level of illumination: a moment's memory
+<b>Floyd</b> | suggests nights spent campaigning beneath open sky, but is soon gone.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">look up</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The ceiling above is only a ceiling.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<TD><b>Emerald</b>  says, "I don't remember whether we even came up here while we were exploring at the beginning."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "The kite 'ritual' is supposedly an augury, but I'm not sure what to think about an augury that leaves one more puzzled and confused."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>schep</b>  asks, "is that where the game starts?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "yeah, the game starts in this room."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says, "Oh, that's right"
+
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">x armor</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Both armor and silk are in black and gold, night and sun, skins
+<b>Floyd</b> | without sensation.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">restore</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">cf3</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to load: Ok.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Undying Garden
+<b>Floyd</b> | Spring's blossoms and budding trees are here in profusion. Your
+<b>Floyd</b> | lantern gives the chamber a quality of sharp angles at odds with the
+
+<b>Floyd</b> | careful arrangements. Metal and wood, painted and sculpted, the false
+<b>Floyd</b> | garden is heedless of harvest, drought or rain.
+<b>Floyd</b> |
+<b>Floyd</b> | A jade compass rests at the garden's metaphysical center, between
+<b>Floyd</b> | translucence and opacity, curve and line, and other dichotomies too
+<b>Floyd</b> | subtle for your eye. A gentle warmth from the surface invites touch.
+
+<b>Floyd</b> |
+<b>Floyd</b> | Transactions of light show other rooms southward and westward.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">w</font>"
+
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Skeletal Banquet
+<b>Floyd</b> | It seems this is a banquet room, if a banquet had no especial place
+<b>Floyd</b> | for people to dine. Glassware and stoneware are arranged in deliberate
+<b>Floyd</b> | shapes, as though they are constellations.
+<b>Floyd</b> |
+
+<b>Floyd</b> | South lies a chamber of brooding silence, and a vague, sweet fragrance
+<b>Floyd</b> | comes from the east. Stairs of blackest marble lead downward.
+<b>Floyd</b> |
+<b>Floyd</b> | On the table is a banquet of bones.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">d</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The lantern behind you brightens as you approach the stairs, anchoring
+<b>Floyd</b> | a path for you through the sea of stars.
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | Hall of Hawks
+<b>Floyd</b> | You see silhouettes out of the corner of your eye: blade, hand, a
+<b>Floyd</b> | woman's hair floating long and free; they elude any attempt to view
+<b>Floyd</b> | them directly, as though they ceased to dance across the walls when
+<b>Floyd</b> | you do so.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Hawks painted in gold and brown soar along the walls. It is strangely
+<b>Floyd</b> | warm here, as though fires lived just beyond your perception. The
+<b>Floyd</b> | entire hall is open to the wind and warmth, unobstructed except by
+<b>Floyd</b> | your presence.
+<b>Floyd</b> |
+<b>Floyd</b> | Stairs of darkest marble circle upward. A passageway leads south into
+
+<b>Floyd</b> | clear, colorless light.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">break mask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Suddenly and terribly inspired by the shadowed passage to the south,
+
+<b>Floyd</b> | you smash the half-mask upon your own face. The pain nearly blinds
+<b>Floyd</b> | you. When you can see again, both halves of the mask are gone--and the
+<b>Floyd</b> | passageway stands open, free of shadow.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Hall of Doors
+<b>Floyd</b> | At first, this place of polished surfaces seems like a profusion of
+<b>Floyd</b> | mirrors and a kaleidoscope of doors. Looking more closely, though, all
+
+<b>Floyd</b> | doors are one, save the one you came from. The peculiar translucence
+<b>Floyd</b> | of the walls suggests that it is growing light out.
+<b>Floyd</b> |
+<b>Floyd</b> | Northward, a passageway no longer riven by shadow returns to the rest
+<b>Floyd</b> | of the tower; across from it stands a door to the south.
+<b>Floyd</b> |
+
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't, since the door is in the way.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">open door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Swallows soaring and tumbling, the flowerfall of cherry blossom
+<b>Floyd</b> | petals, a wind that needs no kites to augur good fortune. The paths
+<b>Floyd</b> | you take are your own, now, no matter what jealousies you and your
+<b>Floyd</b> | brother exchanged, knotted too deeply to be disentangled in past
+
+<b>Floyd</b> | dreams.
+<b>Floyd</b> |
+<b>Floyd</b> | You leave the tower behind you, no longer trapped by the tyranny of
+<b>Floyd</b> | moonlight. The rest of your story is your own to tell and cherish, as
+<b>Floyd</b> | you walk past the tower's broken boundaries and into the rest of your
+<b>Floyd</b> | awakening.
+
+<b>Floyd</b> |
+<b>Floyd</b> |     *** You have won ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | In that game you scored 0 out of a possible 0, in 193 turns.
+<b>Floyd</b> |
+
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, see some suggestions
+<b>Floyd</b> | for AMUSING things to do or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Emerald</b>  says, "I guess it doesn't really matter whether you fly the kite or not."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "yeah, it's an extra."
+
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">amusing</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Some Final Words
+<b>Floyd</b> |  N = next optionP = previous
+
+<b>Floyd</b> |  RETURN = select option  Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |    &gt; Amusing Things to Try
+<b>Floyd</b> |      For the Copyright-Conscious Sonnet-Reciter
+
+<b>Floyd</b> |      Notes on Development and Setting (Long)
+<b>Floyd</b> |      A Last Apology
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> | Some Final Words
+
+<b>Floyd</b> |  N = next optionP = previous
+<b>Floyd</b> |  RETURN = select option  Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |      Amusing Things to Try
+<b>Floyd</b> |    &gt; For the Copyright-Conscious Sonnet-Reciter
+
+<b>Floyd</b> |      Notes on Development and Setting (Long)
+<b>Floyd</b> |      A Last Apology
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Emerald</b> presses the yellow enter button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> | If you've found some of the various poetry fragments in the game, rest
+<b>Floyd</b> | assured that anything you don't recognize immediately is by yours
+<b>Floyd</b> | truly. In particular, one of the fragments is from my short story
+<b>Floyd</b> | "Alas, Lirette," in The Magazine of Fantasy and Science Fiction,
+<b>Floyd</b> | January 2001. Chalk it down to a moment of hubris. Plus, it amused me.
+<b>Floyd</b> | And you may safely conclude that I am easily amused.
+
+<b>Floyd</b> | [Please press SPACE to continue.]
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Emerald</b> pushes the green 'space' button.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Some Final Words
+
+<b>Floyd</b> |  N = next optionP = previous
+<b>Floyd</b> |  RETURN = select option  Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |      Amusing Things to Try
+<b>Floyd</b> |    &gt; For the Copyright-Conscious Sonnet-Reciter
+
+<b>Floyd</b> |      Notes on Development and Setting (Long)
+<b>Floyd</b> |      A Last Apology
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I think the barebones of the game is just find the lantern, see the split light in the Hall, wear or break the mask, then go up and fly or south and out."
+</TD><td></td></TR>
+<TR><td></td><TD>Emerald says (to Floyd), "<font color="#89956F">n</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+
+<b>Floyd</b> | Some Final Words
+<b>Floyd</b> |  N = next optionP = previous
+<b>Floyd</b> |  RETURN = select option  Q = resume game
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |      Amusing Things to Try
+
+<b>Floyd</b> |      For the Copyright-Conscious Sonnet-Reciter
+<b>Floyd</b> |    &gt; Notes on Development and Setting (Long)
+<b>Floyd</b> |      A Last Apology
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Emerald</b> presses the yellow enter button.
+</TD><td></td><td></td></TR>
+
+<TR><td></td><TD><pre><b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | This game's genesis can be blamed on two things: my sister's sudden
+<b>Floyd</b> | discovery of and addiction to Interactive Fiction (IF), and my
+<b>Floyd</b> | fascination with myth and symbol.
+<b>Floyd</b> |
+
+<b>Floyd</b> | For the first, it's probably several kinds of insane to enter one's
+<b>Floyd</b> | first work of IF in the IFComp. (I'm told that "this is my first game"
+<b>Floyd</b> | is a bad way to start an entry...?) I found it to be several kinds of
+<b>Floyd</b> | educational, though--I knew beta-testers were helpful and generous
+<b>Floyd</b> | souls, but I hadn't realized how helpful and generous they were!--and
+<b>Floyd</b> | the deadline encouraged me to finish the project instead of leaving it
+
+<b>Floyd</b> | to float in limbo.
+<b>Floyd</b> |
+<b>Floyd</b> | The fact that this is my first game also led to certain design
+<b>Floyd</b> | decisions. For one thing, no NPCs. I admire the depth of conversation
+<b>Floyd</b> | available in games like Emily Short's Pytho's Mask, but I peeked at
+<b>Floyd</b> | the coding necessary to implement the most basic ASK/TELL system and
+
+<b>Floyd</b> | concluded there was no way I was going to learn enough Inform to do a
+<b>Floyd</b> | convincing job with one NPC, let alone several, within the time frame
+<b>Floyd</b> | available. Implementing the inanimate jade compass and its associated
+<b>Floyd</b> | seasonal changes turned out to be enough of a headache. I thought of
+<b>Floyd</b> | having the player wake up in a tomb (generally a good reason for other
+<b>Floyd</b> | people to be absent), the opening lines "No, not a prison..." came to
+
+<b>Floyd</b> | me, and I was off and running.
+<b>Floyd</b> |
+<b>Floyd</b> | (Aside: For an idea of the time I had available: I started learning
+<b>Floyd</b> | Inform sometime in July. I got married on 3 August 2002, which was
+<b>Floyd</b> | rather more of a priority, and moved from Ithaca, NY to Boston in
+<b>Floyd</b> | mid-August. And my husband is already resigned to the fact that he's
+
+<b>Floyd</b> | going to hear me muttering arcanely about "forgot to give it
+<b>Floyd</b> | pluralname" and "you should be scenery" when I'm at my computer.)
+<b>Floyd</b> |
+<b>Floyd</b> | For another, the tower was a deliberately extensible (or collapsible)
+<b>Floyd</b> | design in that I figured I could add as many "levels" or floors as I
+<b>Floyd</b> | had time for, with a small number of rooms per level. Hence, a wimpy
+
+<b>Floyd</b> | three-storey tower with only half-a-dozen rooms. And no, I don't plan
+<b>Floyd</b> | on adding more floors. I think I'm burned out on towers.
+<b>Floyd</b> |
+<b>Floyd</b> | I also made the mistake of making up puzzles as I went along, which
+<b>Floyd</b> | will not happen again. The only reason I got away with it (or not, as
+<b>Floyd</b> | the case may be) was the small size of the game. It has, however,
+
+<b>Floyd</b> | gotten me thinking about modular puzzle design, which might be a good
+<b>Floyd</b> | thing, though unfortunately it isn't immediately useful to you.
+<b>Floyd</b> |
+<b>Floyd</b> | The setting itself draws loosely from Korean, Japanese, Chinese, and
+<b>Floyd</b> | Mongolian sources, though you won't find any isomorphisms. I took
+<b>Floyd</b> | considerable liberty with the phoenix and dragon; the Heavenly Horse,
+
+<b>Floyd</b> | which appears in a famous Shilla (Korean) tomb, was co-opted into a
+<b>Floyd</b> | Moon-figure. The tale of the White Archer was adapted from "The Legend
+<b>Floyd</b> | of Erkhii Mergen, the Archer," which you can find in Hillary Roe
+<b>Floyd</b> | Metternich's Mongolian Folktales, but I collided it with the Japanese
+<b>Floyd</b> | and Chinese tales of the sun going into hiding and having to be sung
+<b>Floyd</b> | back into the world. The chrysanthemum is a familiar Japanese symbol,
+
+<b>Floyd</b> | and some of the earliest ocarinas were found in China. Kite-flying
+<b>Floyd</b> | (and sometimes fighting, as well as various militant uses) were
+<b>Floyd</b> | recorded from early times in China, Korea, and/or Japan. And for
+<b>Floyd</b> | seasonal motifs I drew freely on my years in Korea, where my parents
+<b>Floyd</b> | were born.
+<b>Floyd</b> |
+
+<b>Floyd</b> | One element had nothing to do with mythology, and came from a homebrew
+<b>Floyd</b> | roleplaying setting: the Brixten Shanai, a tower whose starry stairs
+<b>Floyd</b> | stretched endlessly into the void. A minor thing, perhaps, but it has
+<b>Floyd</b> | some nostalgia value for me and my sister.
+<b>Floyd</b> |
+<b>Floyd</b> | Finally, one of the attractions of this medium for me is that it
+
+<b>Floyd</b> | allows me both to exercise rusty computer programming skills (though
+<b>Floyd</b> | arguably Andrew Plotkin's Lists and Lists would do that too!) and my
+<b>Floyd</b> | writing skills. After getting used to linear storytelling, it was an
+<b>Floyd</b> | interesting exercise trying to find some way of conveying a sense of
+<b>Floyd</b> | story and setting without "railroading" the player overmuch. I've also
+<b>Floyd</b> | been on a crusade for non-visual sensory details ever since I read
+
+<b>Floyd</b> | Poul Anderson's rule of thumb for at least one non-visual detail per
+<b>Floyd</b> | page. I don't know if I succeeded entirely--puzzle design in
+<b>Floyd</b> | particular is going to be an Achilles heel for some time--but now I
+<b>Floyd</b> | have a better idea of how to go about it.
+<b>Floyd</b> |
+<b>Floyd</b> | Now that you've heard more than you ever wanted to know about the
+
+<b>Floyd</b> | game, it's time to send you on your way so I can start working on my
+<b>Floyd</b> | next crazy project!
+<b>Floyd</b> |
+<b>Floyd</b> | Yoon Ha Lee [requiescat@cityofveils.com]
+<b>Floyd</b> | <A HREF="http://pegasus.cityofveils.com/if.phtml">http://pegasus.cityofveils.com/if.phtml</A>
+
+<b>Floyd</b> | [Please press SPACE to continue.]
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>ParserGirl</b> goes home.
+</TD><td></td><TD><b>Jacqueline</b>  says, "Heh."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  | And no, I don't plan on adding more floors. I think I'm burned out on towers.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "The Fire Tower: Now With More Floors"
+
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>vimes</b>  says, "Fire Towerer"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says, "I laughed at "wimpy three-storey tower""
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Heehee.  That might be a good collaborative project for Yoon and I."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  asks (of Emerald), "So, now... what did you think?"
+</TD><td></td></TR>
+
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says, "I liked it. The writing was beautiful - just occasionally a word or two felt off, but it really worked for me."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Emerald</b>  says, "The setting reminded me of Metamorphoses, which is one of the first IF I played and still a favourite."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Mine too."</TD><td></td></TR>
+<TR><td></td><td></td></TR></TABLE><P ALIGN="CENTER"><FONT FACE="arial, sans-serif, helvetica" SIZE="1">
+		 <BR><BR>[ <a href="#top">TOP OF THIS PAGE</A> | <a href="interactive_fiction.html#clubfloyd">MORE CLUBFLOYD TRANSCRIPTS</A> | <a
+href="index.html">HOME</A> ]</FONT></P>
+
+<center><IMG SRC="graphics/black.jpg" WIDTH="557" HEIGHT="3"></center>
+		  <P ALIGN="CENTER"><A HREF="contact.html"><IMG SRC="graphics/footer.jpg"
+border="0"></A></P>
+</BODY>
+</HTML>

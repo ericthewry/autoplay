@@ -1,0 +1,3883 @@
+>load sleepmask sequitur
+
+
+
+ *** You won't be able to save your game if you are using either
+ Windows Glulxe or Parchment, and <span class="floydstyle em">sequitur</span> will likely take
+ more than an hour to play. interpreters that work best with
+ <span class="floydstyle em">sequitur</span> include Filfre, Gargoyle, and Git. Sorry for the
+ inconvenience. ***
+
+
+
+ Please press SPACE to continue.
+
+ Detective Cochone is being tortured by a dancing bear. The small toy
+ bobs on the desk, its cymbals crashing out an eardrum-tearing beat
+ that shouldn't be possible for such tiny plates of gold-colored tin.
+ Cochone's head pounds in sympathy. Even the walls of Jenny's office
+ seem to shake. With a sour expression, Cochone turns away from the
+ cacophony.
+
+ "Okay, so you don't like Happy Jack," Jenny says as the bear stops
+ clapping. Seated in her wheelchair in front of the only other desk in
+ the office, Jenny frowns in mock disappointment. "Somebody has a bad
+ case of the mubble fubbles."
+
+ "The morning has been a bit rough," Cochone says. "I think I'm coming
+ down with something."
+
+ "Well, I hope you are well enough to listen to some music. I need a
+ soundtrack to my day. Do you want to choose a song?"
+
+ —
+>SAVE
+>cf50
+ —
+
+ Cochone rubs his eyes and sighs.
+
+ Jenny jumps in before he can proceed. "This is going to happen, Chief,
+ whether you want to participate or not. So, are you going to pick a
+ song?"
+
+
+ —
+ —
+
+ "Oh, come on," Jenny says. "It's not like I am going to ask you to
+ choose Eminem or Pitbull or anything like that."
+
+
+ —
+>restore
+ —
+
+ Jenny must see something in Cochone's eyes. Or maybe it's his blanched
+ face. "We need to get on with this," she says. "I'll handle it."
+
+ "Just do me  a favor and keep the volume down."
+
+ Jenny turns the laptop back to face her. "Let's see. I'm sure you like
+ <span class="floydstyle em">The Animals,</span> so we'll add lots of them. We also need
+ something modern." She considers. "We'll take solid gold synth from
+ <span class="floydstyle em">The Golden Filter</span>. And a little French culture wouldn't hurt.
+ Jacques Dutronc. And to help lighten the mood , we'll add 'Hot Dog.'
+ She taps some keys on the laptop, and "Venus and Serena" begins to
+ play. She nods at the computer behind Cochone. "Let's get to work.
+ Open the <span class="floydstyle em">Sequitur</span> program."
+
+ Cochone clicks on the icon, and The <span class="floydstyle em">sequitur</span> program opens,
+ automatically loading the case:
+
+ *** <span class="floydstyle em">Sequitur</span> is working ...
+ <span class="floydstyle i">Sequitur V1</span> by Tin Foil Jenny Technology
+ An Interactive Chain of Evidence. Copyright © 2014  by Tin Foil Jenny
+ Technology. LICENSE shows copyright information.
+ All rights reserved. Serial number 140513 / Inform 7 build 6G60
+ (I6/v6.32 Lib 6/12N)
+ COVER shows the cover art, with text description.
+
+ <span class="floydstyle subheader">Case AU1319602014</span>
+
+ <span class="floydstyle i">Sequence:</span>     The Sequence (slots A to J) is empty.
+
+ <span class="floydstyle subheader">Tracks:</span>
+ 1. Google (CP3; 0:00)     2. Basement (VR1; 7:33)     3. Torching
+ (CP2; 0:17)     4. Escape (CP1; 8:02)
+ 5. Time Lapse (VR2; 120:00)     6. Sound Test (SR; 0:21)     7.
+ Kitchen (VR1; 5:22)     8. Dead Zone (CP1; 3:12)
+ 9. Locked Door (CP1; 3:52)     10. Powerboat (SR; 120:00)     11.
+ Chrysanthemum (CP2; 4:01)     12. Diary (VR1; 0:30)
+ 13. Fight (CP2; 7:46)     14. Squirrel Trap (CP2; 6:11)     15.
+ Backyard (CP1; 4:25)
+
+
+  PUT [a track] IN [a slot or
+  SLIDE [a track] LEFT or RIGHT [a number]  |  SWITCH [a
+
+ Your playlist is empty
+
+ You can resume a previous investigation with re-open. The HELP command
+ shows a brief guide to using the software. Type CLEAR NOTES to erase
+ the notebook.
+ ***
+
+ Cochone screws up his face. "Oh boy," he mutters.
+
+ "Don't forget," Jenny says. "You can also ask me for help."
+
+ —
+>help
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle em">Sequitur</span> is designed for
+ you to put tracks in the Sequence in temporal order. This particular
+ case has 15 tracks, so two sequences should be established: one with
+ ten tracks and the other with five. Something will tell you when the
+ sequence of events for either of these is set sensibly and, when you
+ do realize it, we should know what to do next. Usually solving the
+ long chain is sufficient to continue. Only by sequencing both chains,
+ however,  will we be able to see the whole story.
+
+ <span class="floydstyle i">Sequitur Commands and Brief Guide</span>
+
+ CLEAR SEQUENCE [or PLAYLIST]: removes all the tracks
+ second noun isn't specified, the track will be removed from the
+ Sequence
+ specified slot up to and including the track in the second specified
+ slot
+ EXAMINE or X [a track or slot]: plays the track or the track which is
+ in the slot
+ EXXAMINE or X TRACKS or SEQUENCE or PLAYLIST: lists all the tracks,
+ the tracks in the Sequence, or the tracks in the playlist,
+ respectively
+ slot or, if the slot contains a track,  first shift the tracks right
+ if there is an empty slot available. If no slots are available to the
+ right but there is an empty slot to the left, the tracks shift
+ backward. If the Sequence is already full, the track in the last slot
+ is lost; u can also put a track number first or second or third, etc.
+ PLAY TRACKS or PLAYLIST or SEQUENCE: plays all the tracks in whatever
+ you specified; "tracks" will play all the unslotted tracks
+ PLAY or P [a track]: accepts track names or numbers
+ unslotted tracks plays tracks that are not in the Sequence in their
+ number order
+ PLAY TRACKS or SEQUENCE or PLAYLIST RANDOMLY: if "tracks" is
+ specified, all the tracks not in the Sequence will play  randomly
+ RENAME [a track]
+ track or track in the specified slot forward or backward the specified
+ number along the Sequence if there are empty sklots to fill; if an
+ empty slot is specified, the specified number of slots forward or back
+ will be emptied; it will seperate tracks  if the specified track is
+ next to another track
+
+ SHUFFLE PLAYLIST or SEQUENCE: rearranges the tracks but doesn't play
+ them
+ SUMMARIZE [a track]: allows you to write a brief description of the
+ track; if you play a track with a summary and summaries is switched
+ on, your description will be printed, instead of playing the track
+ SWITCH SUMMARIES or SWITCH ON or OFF SUMMARIES: When summaries are
+ switched on, your descriptions of the tracks will be printed. When
+ they're off, the tracks play normally
+ the tracks in the Sequence; the track is placed in the new position,
+ either filling it or replacing the previous track it held
+
+ You can also record notes by typing WRITE," read them with READ
+ NOTES," and clear the notebook with CLEAR NOTEBOOK."
+
+ Other commands: CREDITS, HELP, QUIT, REOPEN, RESTART, and SAVE.
+
+ ASK JENNY FOR HINTS if you want her advice, or ASK JENNY FOR an
+ OPINION if you want her to show you how she would fit all the tracks
+ into the Sequence. You can also just TALK TO JENNY anytime.
+
+ "Cute, Jenny," Cochone says. "Including yourself in there like that."
+
+ Jenny giggles. "That's why I'm here. I'm usually good for a little
+ chat."
+
+ "Right." Cochone nods then coughs.
+
+ ***
+
+ —
+>credits
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle em">Sequitur</span> is a product of
+ Tin Foil Jenny Technology. Jennifer Lincks headed the development
+ team. Stephen Cochone, Caelyn Sandel, Lucian Smith,  and Carolyn
+ VanEseltine conducted beta testing. Tin Foil Jenny thanks them for
+ their critiques and comments. Your comments and transcripts are
+ welcome, too. Send them to me via Nigel, nigelsjayne@gmail.Com. The
+ program was implemented using Inform 7 ([<a href="http://inform7.Com/">LINK</A>]), created
+ by Graham Nelson with help from Emily Short and many others.
+
+ ***
+
+ Some men laugh from down the hall.
+
+ "So, can you tell me a little bit about the case you're working on?"
+ Jenny says.  "It's that house in the bayou?"
+
+ "Right." Cochone sighs. "At about 7:00 Thursday night a guy, Mr.
+ Mayer, was walking his weiner dog on the outskirts of the Belle
+ Bayou."
+
+ "Was his name Oscar? The dog. It was a daschund, right?"
+
+ "Right. He finds a young woman. Twentysomething. She is barely
+ conscious. She points into the trees. Passes out. Mayer sees some
+ smoke. He calls emergency. They search the area. Turns out there's a
+ house there with a fire in the basement and two burned bodies. Two
+ more people are found dead. Shot. All young, your age. There is also a
+ lot of recording equipment, and some cell phones. We spend all day in
+ and around the house gathering it all up for your little pet project.
+ And today I'm hoping it will talk because right now the woman is in a
+ coma, and we don't even know who any of them are."
+
+ Jenny's smile finally fades. "Well, I'm sure we'll figure it out."
+
+ "It doesn't look good for the woman. Five-to-one says she won't make
+ it."
+
+ Jenny's eyes widen. "I, I don't like taking chances." She frowns.
+ "Especially when it involves someone's life."
+
+ Cochone shrugs. "She lives or dies either way."
+
+ Arms crossed, Jenny glances at the computer. "Maybe you should get
+ back to work. Ask me for help when you need it." She emphasizes the
+ "when."
+
+ Cochone turns back to the desk.
+
+ —
+>examine me
+ —
+
+ Stephen Cochone scrambled out of bed this morning, rushing to the
+ toilet to vomit. That was actually a good thing; he slept through the
+ alarm, but he still had time for a quick shower and a splash of
+ cologne. He was going to work with a young woman today, after all.
+
+ If it wasn't for Jenny, he would have probably called in sick. His
+ queasy stomach has settled, but his head pounds, and he has difficulty
+ focusing his itchy eyes. This type of wake-up call was supposed to
+ have ended when he had graduated from college and swore off the booze.
+ That was the year his father, a vice cop, drove head-on into a truck,
+ killing himself and his wife, Stephen's mother. They had just stumbled
+ away from their wedding anniversary celebration at the bar where,
+ twenty years previous, Stephen's father had stuffed dollar bills in
+ his future wife's g-string. Perhaps alcohol abstinence has prevented
+ some of the physical decline associated with age and detective work in
+ a large city; Stephen looks generally the same as he did during his
+ college years, with a few creases around the eyes and gray hairs that
+ appeared during and after the divorce, when his ex decided to take his
+ daughters to New York with her.
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>inventory
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Type "commands" to see a list of
+ commands that I understand.
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle em">Sequitur</span> is designed for
+ you to put tracks in the Sequence in temporal order. This particular
+ case has 15 tracks, so two sequences should be established: one with
+ ten tracks and the other with five. Something will tell you when the
+ sequence of events for either of these is set sensibly and, when you
+ do realize it, we should know what to do next. Usually solving the
+ long chain is sufficient to continue. Only by sequencing both chains,
+ however,  will we be able to see the whole story.
+
+ <span class="floydstyle i">Sequitur Commands and Brief Guide</span>
+
+ CLEAR SEQUENCE [or PLAYLIST]: removes all the tracks
+ second noun isn't specified, the track will be removed from the
+ Sequence
+ specified slot up to and including the track in the second specified
+ slot
+ EXAMINE or X [a track or slot]: plays the track or the track which is
+ in the slot
+ EXXAMINE or X TRACKS or SEQUENCE or PLAYLIST: lists all the tracks,
+ the tracks in the Sequence, or the tracks in the playlist,
+ respectively
+ slot or, if the slot contains a track,  first shift the tracks right
+ if there is an empty slot available. If no slots are available to the
+ right but there is an empty slot to the left, the tracks shift
+ backward. If the Sequence is already full, the track in the last slot
+ is lost; u can also put a track number first or second or third, etc.
+ PLAY TRACKS or PLAYLIST or SEQUENCE: plays all the tracks in whatever
+ you specified; "tracks" will play all the unslotted tracks
+ PLAY or P [a track]: accepts track names or numbers
+ unslotted tracks plays tracks that are not in the Sequence in their
+ number order
+ PLAY TRACKS or SEQUENCE or PLAYLIST RANDOMLY: if "tracks" is
+ specified, all the tracks not in the Sequence will play  randomly
+ RENAME [a track]
+ track or track in the specified slot forward or backward the specified
+ number along the Sequence if there are empty sklots to fill; if an
+ empty slot is specified, the specified number of slots forward or back
+ will be emptied; it will seperate tracks  if the specified track is
+ next to another track
+
+ SHUFFLE PLAYLIST or SEQUENCE: rearranges the tracks but doesn't play
+ them
+ SUMMARIZE [a track]: allows you to write a brief description of the
+ track; if you play a track with a summary and summaries is switched
+ on, your description will be printed, instead of playing the track
+ SWITCH SUMMARIES or SWITCH ON or OFF SUMMARIES: When summaries are
+ switched on, your descriptions of the tracks will be printed. When
+ they're off, the tracks play normally
+ the tracks in the Sequence; the track is placed in the new position,
+ either filling it or replacing the previous track it held
+
+ You can also record notes by typing WRITE," read them with READ
+ NOTES," and clear the notebook with CLEAR NOTEBOOK."
+
+ Other commands: CREDITS, HELP, QUIT, REOPEN, RESTART, and SAVE.
+
+ ASK JENNY FOR HINTS if you want her advice, or ASK JENNY FOR an
+ OPINION if you want her to show you how she would fit all the tracks
+ into the Sequence. You can also just TALK TO JENNY anytime.
+
+ ***
+
+ —
+>examine tracks
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... There are  15 tracks:
+
+ 1. Google (CP3; 0:00)     2. Basement (VR1; 7:33)     3. Torching
+ (CP2; 0:17)     4. Escape (CP1; 8:02)
+ 5. Time Lapse (VR2; 120:00)     6. Sound Test (SR; 0:21)     7.
+ Kitchen (VR1; 5:22)     8. Dead Zone (CP1; 3:12)
+ 9. Locked Door (CP1; 3:52)     10. Powerboat (SR; 120:00)     11.
+ Chrysanthemum (CP2; 4:01)     12. Diary (VR1; 0:30)
+ 13. Fight (CP2; 7:46)     14. Squirrel Trap (CP2; 6:11)     15.
+ Backyard (CP1; 4:25)
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 1 Google</span>
+
+ <span class="floydstyle i">Summary of Google Search Results</span>
+
+ <span class="floydstyle i">1. Mont Helene's Hospital, New Orleans</span> ... 30 Years since a
+ patient was treated within its walls, Mont Helen's hospital remains
+ dormant, the City has no ... One of the oldest and smallest ... <span class="floydstyle i">2.</span>
+ <span class="floydstyle i">Mont Helene's</span> ... On Orleans, Mont Helene's School for the Deaf is
+ among ...
+
+ <span class="floydstyle i">1. Two-headed cobra ring | eBay</span> ... Vintage mens ring made of
+ metal with a two-headed cobra ready to strike ... <span class="floydstyle i">2. Sangoro</span>
+ <span class="floydstyle i">Correctional Facility — New Orleans</span> ... The prison has been
+ closed
+ for over a decade ... Metal rings with two-headed cobras sticking from
+ them like horns. They are used as weapons ... <span class="floydstyle i">3. Snake Rings in</span>
+ <span class="floydstyle i">Prison</span> ... Metal rings of snakes, sometimes two headed ... Cobras
+ popular in the Louisiana penal facilities ...
+
+ <span class="floydstyle i">1. St. Maria's — New Orleans</span> ... The church has one of the
+ largest graveyards in the State ... Numerous large, and often
+ elaborate, mausoleums ... <span class="floydstyle i">2. Mass Schedule | St. Maria's Church</span>
+ ... Mass is held twice on Sunday mornings ... Archdiocese of New
+ Orleans ... Father Baptiste will be speaking at ... <span class="floydstyle i">3. St.</span>
+ <span class="floydstyle i">Maria's</span> ... Haunted tours ... The tombstones were found
+ desecrated, and many have gone missing over the years ... The ghosts
+ that wander ...
+
+ Note that you can write your own description of a track with the
+ command SUMMARIZZE [a track]. SWITCH ON SUMMARIES will show these
+ descriptions when you play the tracks, and SWITCH OFF SUMMARIES allows
+ you to play the original tracks.
+
+ ***
+
+ Lieutenant Jayne appears in the doorway. He glances down at the stain
+ on Cochone's crotch. "Everything okay in here?"
+
+ Jenny's lips curl up. She whispers, "He's had a little accident."
+
+ "What?" Cochone says, turning away from the computer screen.
+
+ "He's doing great so far," Jenny continues, grinning.
+
+ "Thanks, teach," Cochone says.
+
+ "Come on, Steve, we all know how you are with electronics. Your watch
+ runs backward. Which is why you're here on this beautiful Saturday
+ morning. The bayou case is perfet to test out the new software. If you
+ can learn it ..."
+
+ "Anybody can," Cochone says. "Right. And Lady Gaga here is gonna help
+ me?"
+
+ "Miss Lincks helped develop the program," Nigel says. "She can teach
+ computer tech to chimps."
+
+ "Chimps are pretty smart," Cochone says.
+
+ "Yeah, but I don't think we'll need a million of you with a million
+ computers to write Shakespeare," Jenny says. "Or figure this out."
+
+ "Shakespeare?" Cochone says.
+
+ "Geeze," Jenny says. "Is it too late to get a monkey in here?"
+
+ "I have faith in you, Jenny," Nigel says. "I'm going to get some
+ lunch. You two want anything?"
+
+ Jenny shakes her head. "No thank you."
+
+ "Woof!. Woof-woof!"
+
+ "Excuse me," Jenny says then takes her cell from her desk.
+
+ "Yeah," Cochone says to Nigel. "I'll take two."
+
+ "Okay. I'll be back soon." Nigel leaves.
+
+ Cochone sighs, settles back, then looks at the computer monitor.
+
+ —
+>play 2
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 2 Basement</span>
+
+ "I didn't sign up for breaking and entering," a man with a face so
+ full of metal piercings that he could have kissed a live grenade
+ says. He rams a tripod leg between wood boards and the side of the
+ house at his feet. He pulls the tool, and two boards separate from the
+ clapboard with a loud crack.
+
+ A murder of blackbirds caw and fly off.
+
+ "I told you, nobody owns this place," a man with a "Meat is Murder"
+ t-shirt  says, sliding a knife into his pants. "Neo was right. These
+ planks have rotted."
+
+ Shrapnel and Veggie free the remaining boards.
+
+ The video stutters, blacks out.
+
+ The footage starts again. An enclosed counter fronted by clear glass
+ sits in the feeble light cast by the window beside it. A pipe snakes
+ from the top of the fumehood and attaches to the wall.
+
+ "Wow," a man says. The camera swings around and catches Veggie
+ standing over another counter, its length swallowed in the gloom of
+ the basement. Veggie's flashlight beam glides along its black surface,
+ picking out bottles, a digital weigh scale, flasks, and a sink. It
+ comes to rest on a humming refrigerator.
+
+ "What's that smell?" Veggie says.  "Sulfur?"
+
+ "Maybe this was a mistake, Salt." A woman's voice, the camera
+ operator. "Argo?"
+
+ The camera finds Argo pointing his flashlight over boxes in a corner.
+
+ The video goes black and when the footage starts again, Argo is
+ starting up some stairs with Salt behind him. A tall figure emerges
+ from behind them. Its eyes are large and bulging. It throws a cloud of
+ glittering powder into their faces. Both men collapse gasping and
+ coughing onto the floor. The camera dips as its operator begins to
+ sway.  She hacks and sputters.
+
+ Argo twitches, trapped by seizure. The figure, whose face is covered
+ by a gas mask, bends down and places a bag over Salt's head.
+
+ The camera turns to the stairs. The video fades and goes black.
+
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+>examine jenny
+ —
+
+ Jenny grins at Cochone and bobs her head as she listens to her cell.
+ Her bracelet, which is on the arm holding the phone, has slid down
+ toward her elbow . Her cane leans against the wall and next to the
+ window, which looks out into the quiet hallway.
+
+ Jenny is stuck in a wheelchair that is a bit too small for her lanky
+ body. Cochone has pieced together parts of her story from other cops.
+ She hasn't always needed the wheels and cane. She had walked the beat
+ when she joined the force, but her career path had veered off course
+ after her drunken boyfriend found her in his house with another guy.
+ His response was bone shattering. Jenny was smart enough to leave Mr.
+ Fists and join the IT department, advancing it into the 21st century
+ with innovation that would make NASA envious.
+
+ Cochone thinks that she doesn't look like a computer geek. She is
+ slim, and she wears a stylish sleeveless shirt and skirt, which shows
+ off most of her tanned legs. Her hair also exudes fashion and flash:
+ long, copper, and curled at the bottom. And there's her rack, too. But
+ she isn't pretty. Her facial features are pinched, and her lips are
+ reddened to a shade that even vice cops would consider excessive.
+
+ Cochone coughs.
+
+ —
+>examine 3
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 3 Torching</span>
+
+ The screen is black, but voices are audible.
+
+ "We have enough now." A man with a French accent. "We can burn this
+ place. Leave nothing." It is safest."
+
+ "No." A woman. "My mother. She needs this house."
+
+ "We must burn the basement at least. Nobody can find your work. Marco
+ will take their van. We'll take the boat."
+
+ Floorboards creak. Footsteps. The woman, "You should see a doctor.
+ That hand looks terrible."
+
+ "Non." Another man's voice. French. "I hate hospitals."
+
+ Footsteps pound down the stairs. A third man. French. "She ran away."
+
+ "We need to hurry then," the first man says. "We'll need to move out
+ the stockpile this weekend."
+
+ The sound stops, and the video ends.
+
+ ***
+
+ —
+>play 4
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 4 Escape</span>
+
+ Closeup of a door. Somebody bangs on it from the other side. A woman
+ wheezes and gasps.
+
+ The camera shakes. It swings around to a window with a potted flower
+ on its sill. The camera drops to waist height. The camera operator
+ slides the window open.
+
+ The door bursts open. A scream. The camera shakes and whirls around.
+
+ The camera captures a black man pointing a Glock pistol. Unnoticed by
+ the man, a Japanese girl in a white shirt and skirt is standing just
+ inside the door.
+
+ The gun clicks. "Merde!" The guy says.
+
+ The girl offers a slight smile, and she nods at the camera.
+
+ The camera operator grunts and wheezes. She throws herself out the
+ window. She slams into the ground. The video goes black, but the
+ woman's panting can be heard.
+
+ The side of the house appears with the man at the open window. He
+ points his Glock down at the camera operator, but nothing happens. He
+ slams the pistol against the window frame.
+
+ The woman rises, wheezing and coughing. After a few wobbly steps, she
+ stumbles through the trees. She steadies herself with an arm against a
+ trunk, and the camera is lifted. She pokes at some buttons, crying.
+ She falls. The video stops.
+
+ ***
+
+ "Bye," Jenny says, then louder, "You're off to a good start."
+
+ Cochone turns to face her. <span class="floydstyle em">Does she ever stop smiling?</span> He
+ wonders. "So far, so good."
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 5 Time Lapse</span>
+
+ The backyard of the house from a high vantage point. The camera looks
+ down over a birdbath next to several overhanging ash trees and a
+ fountain with two sculptured figures at its center. The ornaments cast
+ westward shadows.
+
+ The footage is speeded up. The bushes rustle, and a fox races across
+ the lawn. Wind jostles the leaves of those trees with branches
+ sprouting into the open space of the yard. Occasionally some leaves
+ break free and sail onto the grass or into the fountain and birdbath.
+
+ The shadows in the yard eventually disappear as the footage continues
+ to its end.
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 6 Sound Test</span>
+
+ The audio recording plays.
+
+ "Testing," a man says. "Testing. By the river."
+
+ "You know, I've been thinking," a woman says.
+
+ "There's a first time for everything," the man replies.
+
+ "That birdbath was full of water. It hasn't rained in weeks. And it
+ was clean. The whole yard was like that. Clean. And what about that
+ ring I found? I doubt it was Kiku's. And the generator?"
+
+ The audio stops.
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 6 Sound Test</span>
+
+ The audio recording plays.
+
+ "Testing," a man says. "Testing. By the river."
+
+ "You know, I've been thinking," a woman says.
+
+ "There's a first time for everything," the man replies.
+
+ "That birdbath was full of water. It hasn't rained in weeks. And it
+ was clean. The whole yard was like that. Clean. And what about that
+ ring I found? I doubt it was Kiku's. And the generator?"
+
+ The audio stops.
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 7 Kitchen</span>
+
+ The camera frames a spacious foyer and wide staircase, which ascends
+ to a second floor lined with doors. A man, the camera operator,
+ coughs. Floorboards creak as the camera turns left into a sitting room
+ furnished with decades-old sofas and chairs, floral cushions attached
+ to wood frames and armrests. An empty fireplace is set in the far
+ wall. The muted sunlight, filtered by a yellowed shear over a large
+ window, highlights dust. Everywhere.
+
+ The camera operator coughs again and clears his throat. Excited
+ chatter behind him. Something bangs to the floor.
+
+ The camera returns to the foyer and finds a music keyboard and guitar
+ by the door. It continues into a dining room with a long table
+ surrounded by chairs, then it enters a  kitchen. It focuses on a
+ refrigerator. The camera operator pulls it open. It's empty. The
+ camera finds a sink set into the cracked countertop. The camera
+ operator turns the taps, producing only a squeaking sound.
+
+ A chair scrapes the floor. "What did you expect?" A man's voice. "This
+ place is abandoned, right?"
+
+ The camera swings around. Argo is sitting at the table. "By the way,
+ thanks for the help unloading," he says.
+
+ "I'm here to shoot, Argo. Music is your department. This place is
+ great," the camera operator says. "Just like I told you."
+
+ Argo shrugs.
+
+ "C'mon this is the one that puts <span class="floydstyle em">Chien chaud, Chat Froid</span> on
+ the charts. Billboard." He sings, "Cover of the <span class="floydstyle em">Rolling</span>
+ <span class="floydstyle em">Stone.</span> 'White Phosphorous' is gonna explode. Forget gold, baby,
+ platinum."
+
+ A door slams and floorboards creak. "Hey." Female voice. A woman with
+ short blue hair  rushes over to Argo and flops onto his lap. Smiling,
+ she wraps an arm around his shoulders.
+
+ The video stops.
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 8 Dead Zone</span>
+
+ The camera tramples through bush. It finds a dead rabbit with white
+ eyes. Zoom in. Maggots squirm in the eye sockets. "Ugh," a woman says,
+ obviously the camera operator.
+
+ The camera continues to roam, picking out a few dead blackbirds and
+ squirrel. "Wow," the same high-pitched voice says, more to herself
+ than anyone else. "What happened here?"
+
+ She focuses on a branch at eye level. Its leaves twingle with gold
+ flecks that catch the sun. The camera pans over wilting flowers of
+ Spanish moss and monkey flower.
+
+ "I gotta piss."
+
+ The camera whirls around to the white clapboard side of the house
+ where Blue is standing, a boarded-up window beside her slim legs. A
+ man wearing a <span class="floydstyle em">Pink Floyd</span> shirt  walks into frame and
+ addresses Blue, who frowns at him. "Already? We just got here. You'll
+ have to go in there." Pink gestures toward the camera. "This place
+ doesn't have plumbing."
+
+ Blue scowls. "Okay, but turn that camera off. I don't want any chance
+ there'll be some 'whoopsie' footage of me taking a leak."
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 9 Locked Door</span>
+
+ The camera is carried down a flight of stairs toward Pink, who is
+ closing the front door. "Nickell." A woman's voice. "Did you see a
+ girl come down here?"
+
+ The camera steadies on Nickell. He runs a hand through his thick black
+ hair. "No, but I was outside setting up. I could have missed her.
+ Somebody lives here?"
+
+ "We're not sure," the woman says.
+
+ The camera whirls away and enters the dining room then the kitchen.
+ Salt twists the knob of a door in the far wall.
+
+ "What's up, Salt?" Another woman says.
+
+ Salt turns around. "The door is locked. I bet this goes downstairs.
+ I'd like to get down there." He sits at the table and Argo joins him.
+ Blue walks into frame, tosses a ring onto the table, and continues to
+ the door. She twists the knob.
+
+ "Let me have your phone, Argo," Salt says. He extends a hand to Argo.
+ "Research."
+
+ Blue looks into the camera. "Are you thinking what I'm thinking,
+ Xeno?" She gestures at the door behind her. "Give me your phone for a
+ sec."
+
+ "I don't have a 'key' app on that thing, Neo," a woman says as she
+ hands over the camera.
+
+ "I want to check something," Neo says, then the video stops.
+
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 10 Powerboat</span>
+
+ <span class="floydstyle i">Audio track</span>
+
+ Excerpts from highlighted sound bites.
+
+ 00:42 — Birds chatter and insects buzz. The cawing of blackbirds,
+ distant. Their cries crescendo and fade out.
+
+ 51:02 — Faint buzz of a boat motor. It eventually drowns all other
+ sound. Footsteps stomp along the wood planks of a dock. The motor
+ dies.
+
+ "Combien?" A man's voice. French.
+
+ "She wasn't sure." Another man, French accent. "Three. Maybe even four
+ or five."
+
+ "Merde." A third French man.
+
+ 01:09 — Footsteps along the dock. Water sloshes against the boat.
+ Feet
+ clomp away.
+
+ 01:41 — The faint sound of a vehicle engine.
+
+ 02:38 — "We don't need to come back," one of the French men says.
+ "It's probably not safe for you either."
+
+ A boat engine revs.
+
+ "Let her go," the man says. "Go home to her family. Live happy. And
+ rich. Your husband would be proud."
+
+ The boat drives away.
+
+ ***
+
+ Someone knocks at the office door. Nigel appears at Cochone's
+ shoulder. "Well, I don't see any smoke pouring from the motherboard,"
+ Nigel says.
+
+ "Right," Cochone says. "Marie Curie here must be rubbing off on me."
+
+ "Indeed," Nigel says, "I didn't even think you knew who Curie was."
+
+ "Sure I do. She invented that Indian spice."
+
+ Jenny giggles. Nigel places a box and a can of cola on the desk.
+
+ "Keep rubbing, Jenny," Nigel says. "Maybe something will stick
+ eventually." Nigel leaves.
+
+ Cochone regards the hot dogs smothered with mustard, relish, and
+ pickles. He turns around. "You want a bite?"
+
+ Jenny reaches into a small bag that hangs from her chair. "No thank
+ you. I'm fine." She places a bagel and a bottle of water on her desk.
+
+ "That's healthy. Are you one of those people who won't eat anything
+ that farts?" Cochone bites off the tail of one of the hot dogs.
+
+ "Actually I am."
+
+ "Right. Well, I don't want to know what's in this, okay?"
+
+ "You don't want to know my sister found a vein in one?"
+
+ "Yeah. Some girls don't like wieners with big veins. There's so much
+ stuff on these that I can't even tell if I'm eatin' the cow's tits."
+
+ "Cows don't have 'tits.'"
+
+ "You haven't seen my ex's mother."
+
+ "Pig."
+
+ "Hey, I'm a Cochone. There's an 'e' at the end." Cochone takes another
+ bite of the hot dog, mustard dripping onto his hand. "Mmmm. That's
+ good booby."
+
+ Jenny giggles and shakes her head.
+
+ Cochone wipes his hand on a napkin and returns to the computer.
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 11 Chrysanthemum</span>
+
+ A girl with long black hair stares out a window, the sun in the east
+ sky falling on a potted yellow flower beside her.
+
+ A woman with short gold hair and pointed features  approaches the girl
+ and stops at the foot of a bed.
+
+ The girl turns around. She is Asian, mid-to-late teens, and wearing  a
+ plain white shirt and a skirt. Her large eyes shift from Foxy to the
+ camera, her expression unchanging and flat.
+
+ "We're so sorry." The voice female, the camera operator. "We thought
+ this place was empty. I'm Neo, and she is Xeno."
+
+ The girl stares into the camera.
+
+ "What's your name?" Xeno says.
+
+ The girl turns to Foxy and hesitates. "Kiku," she says, quiet and
+ accented.
+
+ "Do you live here?" Xeno says.
+
+ Kiku nods and looks down.
+
+ "Are your parents here?" Xeno says.
+
+ Silence.
+
+ "Your mother?" The camera operator says. "Your Father?"
+
+ "Hey." A man's voice.
+
+ Kiku's head snaps away from the camera to stare beyond it. Her eyes
+ widen. She rushes past the camera, which swings around to catch her
+ disappearing out the door.
+
+ The video stutters. Fades out, clicks on.
+
+ Argo is standing beside the door. "Who's she?" He says.
+
+ "We don't know," Xeno says. "She didn't seem to speak English well."
+
+ The camera follows Argo over to several books on a shelf. "<span class="floydstyle em">Makura</span>
+ <span class="floydstyle em">No Soshi?</span> Argo says. "If she doesn't, then why does she have
+ <span class="floydstyle em">Twilight</span> and <span class="floydstyle em">The Hunger Games</span>?"
+
+ The video stutters and stops.
+
+ <span class="floydstyle em">So the girl we found alive is Xeno,</span> Cochone thinks.
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 12 Diary</span>
+
+ The camera focuses on Argo, who  is sitting on a bed with a Roland
+ keyboard on his lap. "You don't find it weird that this bed is made?"
+ Argo says. He lays the keyboard onto the mattress.
+
+ "Don't worry about it. I checked this place out. Nobody seems to know
+ much about it, but nobody owns it, man. There's nobody here. We're
+ in-and-out in a few hours, anyway.
+
+ The video stops.
+
+ Excerpts from scanned copies of two handwritten pages taken from the
+ nightstand:
+
+ October 23, 1968
+ I am worried about Kiku. All girls get hurt, but she doesn't heal
+ good. I try to help her by telling the men that she's sick and can't
+ work. They don't listen. I am teaching her English. She also wants to
+ learn to read <span class="floydstyle em">Makura No Soshi,</span> which her mother read to her
+ and she brought with her.
+
+ May 4, 1969
+ I begged to take Kiku to Mont Helene's so she can have her baby . They
+ wouldn't let me. I tried to save her. Poor Kiku was too young maybe,
+ too weak. Father Baptiste let me bury her at St. Maria. Thank God her
+ baby survived. I took her to the hospital to make her safe. I just
+ leave her there. I will leave this place. I will help Kiku's daughter
+ find a home.
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 12 Diary</span>
+
+ The camera focuses on Argo, who  is sitting on a bed with a Roland
+ keyboard on his lap. "You don't find it weird that this bed is made?"
+ Argo says. He lays the keyboard onto the mattress.
+
+ "Don't worry about it. I checked this place out. Nobody seems to know
+ much about it, but nobody owns it, man. There's nobody here. We're
+ in-and-out in a few hours, anyway.
+
+ The video stops.
+
+ Excerpts from scanned copies of two handwritten pages taken from the
+ nightstand:
+
+ October 23, 1968
+ I am worried about Kiku. All girls get hurt, but she doesn't heal
+ good. I try to help her by telling the men that she's sick and can't
+ work. They don't listen. I am teaching her English. She also wants to
+ learn to read <span class="floydstyle em">Makura No Soshi,</span> which her mother read to her
+ and she brought with her.
+
+ May 4, 1969
+ I begged to take Kiku to Mont Helene's so she can have her baby . They
+ wouldn't let me. I tried to save her. Poor Kiku was too young maybe,
+ too weak. Father Baptiste let me bury her at St. Maria. Thank God her
+ baby survived. I took her to the hospital to make her safe. I just
+ leave her there. I will leave this place. I will help Kiku's daughter
+ find a home.
+
+ ***
+
+ Cochone bites into a hot dog, wipes his mouth and fingers with a
+ napkin, drinks from the can, and returns to work.
+
+ Some men laugh from down the hall.
+
+ "Marie Curie was a Polish chemist, you know," Jenny says. "She
+ discovered radium and polonium. There's an element named after her and
+ her husband. Curium."
+
+ "Right. I can read Wikipedia, too."
+
+ "I didn't need to look that up."
+
+ "Did you also know that Pierre was mowed down in the street, died, and
+ Marie shacked up with one of his students who she was bangin'?"
+
+ Cochone hears ringing in his ears.
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 13 Fight</span>
+
+ A closeup of Neo. Her face scrunches, and the camera shakes. "C'mon
+ you stupid thing. Work." Floorboards moan. Neo looks up. The phone is
+ cast aside, but its eye peeks from a crook in the floral-patterned
+ sofa. It captures Xeno gasping and coughing in the hall.
+
+ Neo rushes to Xeno and helps her into the sunlit room. "Xeno? What's
+ wrong?"
+
+ Xeno sputters, bends over.
+
+ Neo turns to face the window and disappears from view. "Xeno? There's
+ some men coming." She reappears  at Xeno's side.
+
+ The view stutters, scrambles, goes black.
+
+ Audio only. Xeno sucks air. A thud.
+
+ The camera flicks on. A woman — fortyish and tall — is standing
+ over
+ Xeno and Neo, who huddle together on the floor, oblivious. The woman
+ hauls Neo to her feet and pulls her toward the camera. Neo twists, but
+ she can't free her arms. "Who? Let me." Neo continues to struggle. The
+ woman shifts her stance, flashing a yellow flower tattoo on her arm.
+
+ Xeno, having regained some control over her breathing, gets to her
+ feet. She looks left, darts away to her right.
+
+ Crackle. Black.
+
+ The video returns. Neo shakes and cries next to the camera. A black
+ man points a Glock pistol at her. Suddenly he is knocked away, the gun
+ falling.
+
+ Nickell holding an oar. He goes fuzzy, and the image disappears.
+
+ Thump. A woman screaming.
+
+ A gloved hand appears and punches at something on the floor, fist
+ bloodier with every swing. Deep breaths, then the gloved hand pushes
+ off the cushion in front of the camera. One of the fingers of the
+ glove is shredded. The man hefts himself to his feet. He turns,
+ revealing the Glock. Two shots at the body on the floor.
+
+ Neo, in hysterics, is thrown onto the sofa. Two shots.
+
+ Visual and audio cut out.
+
+ ***
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 14 Squirrel Trap</span>
+
+ The video starts with a closeup of Neo. She stares into the camera,
+ her eyes a shade of blue lighter than that of her hair. She pulls the
+ camera away from her face. "Seems to work okay out here."
+
+ The camera turns to Nickell, who is sitting propped up against a
+ cypress and snarfing down a submarine sandwich. Behind him, the
+ sluggish Mississippi River caresses the posts of several dilapitated
+ docks.
+
+ "I hope —" Nickell says, but Neo interrupts him.
+
+ "Sshh!"
+
+ A furry head peers out at the camera from a bush to the left of
+ Nickell. The camera pans over to the animal, its fluffy tail twitching
+ against its twiggy camouflage.
+
+ "Quiet," Neo says. "I've got a great idea."
+
+ Nickell says something that sounds like "Two in ten minutes. That's
+ good."
+
+ "Shut up and be quiet. This will be a cool shot if it works."
+
+ The camera jiggles across some trees and away from the animal. Neo's
+ hand places a strawberry on the grass, then the camera descends to
+ ground level and focuses on the fruit center screen.
+
+ Minutes pass with the occasional twitter and call from some birds.
+ Then, a squirrel enters the frame. It scurries awkwardly over to the
+ strawberry, nose twitching. Its black fur is speckled with gold dust.
+ The squirrel snatches up the bait and scampers off, dragging one
+ hindleg through the grass.
+
+ "It worked!" Neo shrieks. The camera is pulled from the ground.
+ "Gotcha my pretty. Salt will love this."
+
+ "Let's take a look," Nickell says.
+
+ ***
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 15 Backyard</span>
+
+ Neo swings open a door and steps out into bright sunlight. Nickell
+ follows her as she walks passed a van, footfalls crunching gravel.
+ Birds respond with their own loud calls. The camera joins the two then
+ scans some ash trees as if searching for them. It circles back round
+ to catch Neo and Nickell disappearing around a corner of the house.
+ The footage jiggles as the camera follows the pair, its operator
+ breathing hard.
+
+ The shaky camera settles on a large clearing crowded by trees and
+ bush. Two black squirrels drink from the birdbath.
+
+ Zoom in. A hindleg of one of the squirrels hangs limply over the side
+ of the bowl.
+
+ "Are you getting this, Xeno?" Neo says.
+
+ The squirrels leap from the bowl and scamper up a nearby tree, their
+ tails jittering. The camera swings around and pulls out.
+
+ Neo rushes over to the large fountain centered in the yard. "Whoa!"
+ She steps back and stares at three sculpted figures. "Is that his ...
+ Thing?"
+
+ Nickell saunters up next to her. "Yep. And those are hers, and those
+ are hers."
+
+ The camera tightens in on the three naked figures: a man standing in
+ the middle of the basin with one girl kneeling  at one side and
+ another girl standing on the other, their hands caressing his body.
+
+ "They look a bit young, don't you think?" Neo says. "Kind of gross.
+ It's not like an innocent little boy peeing, that's for sure."
+
+ Nickell continues to study the girls. He turns away and looks at the
+ camera. "Why don't you turn that off. Maybe we should look around a
+ bit. Get an idea of what's here. We don't need everything. This is
+ supposed to be like reality tv, remember? It doesn't need to be real."
+
+ The video goes black.
+
+ ***
+
+ A door bangs closed.
+
+ "Huh," Jenny says. "You're right. About Marie. Although I wouldn't
+ have quite put it like that."
+
+ Cochone smiles. <span class="floydstyle em">I may not use "Wikipedia," but I do watch "The</span>
+ <span class="floydstyle em">History Channel."</span>
+
+ —
+>examine 16
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... That isn't related to the
+ <span class="floydstyle em">Sequitur</span> program, or I haven't learned to recognize it.
+
+ ***
+
+ —
+>examine hot dog
+ —
+
+ The fat wieners are slathered in mustard, with long pickle slices
+ nestled in the relish. Cochone washes down each bite with a swig from
+ the cola can.
+
+ Cochone bites into a hot dog, wipes his mouth and fingers with a
+ napkin, drinks from the can, and returns to work.
+
+ A door bangs closed.
+
+ Cochone leans back and glances at the time in the corner of the
+ screen. "Does this thing come with a sports ticker?"
+
+ "What kind of sports?" Jenny says.
+
+ "NHL, hockey. NBA."
+
+ "I'll see what I can do."
+
+ —
+>examine tracks
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... There are  15 tracks:
+
+ 1. Google (CP3; 0:00)     2. Basement (VR1; 7:33)     3. Torching
+ (CP2; 0:17)     4. Escape (CP1; 8:02)
+ 5. Time Lapse (VR2; 120:00)     6. Sound Test (SR; 0:21)     7.
+ Kitchen (VR1; 5:22)     8. Dead Zone (CP1; 3:12)
+ 9. Locked Door (CP1; 3:52)     10. Powerboat (SR; 120:00)     11.
+ Chrysanthemum (CP2; 4:01)     12. Diary (VR1; 0:30)
+ 13. Fight (CP2; 7:46)     14. Squirrel Trap (CP2; 6:11)     15.
+ Backyard (CP1; 4:25)
+
+ ***
+
+ —
+>examine can
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... That isn't related to the
+ <span class="floydstyle em">Sequitur</span> program, or I haven't learned to recognize it.
+
+ ***
+
+ Cochone wipes his damp forehead.
+
+ —
+>ask jenny about nickell
+ —
+
+ Cochone tries to talk to Jenny about nickell, but she gives a
+ dismissive shrug, smiles, and returns to her work.
+
+ Cochone stretches his sore fingers.
+
+ —
+>cut 1
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ...
+ Track 1 isn't in a slot.
+
+ ***
+
+ —
+>put 11 in 1
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Tracks can't hold other tracks.
+ Try inserting a track into a slot instead.
+
+ ***
+
+ Cochone bites into a hot dog, wipes his mouth and fingers with a
+ napkin, drinks from the can, and returns to work.
+
+ —
+>put 11 in playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 11 has been added to your
+ playlist.
+
+ Your playlist contains 1 track: Chrysanthemum
+ ***
+
+ Cochone coughs.
+
+ —
+>put 2 in playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 2 has been added to your
+ playlist.
+
+ Your playlist contains 2 tracks: Chrysanthemum   Basement
+ ***
+
+ A door bangs closed.
+
+ "Okay, Hockey Puck," Jenny says . "Or should that be Basket Balls?"
+ She laughs. "If you want to check the sports scores, just type
+ 'scores.'"
+
+ "Right, Cochone says. "You're amazing."
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>put 13 in playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 13 has been added to your
+ playlist.
+
+ Your playlist contains 3 tracks: Chrysanthemum   Basement   Fight
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 0
+ Pittsburgh Penguins 0     San Jose Sharks 0  Buffalo Sabres 0
+ Florida Panthers 0  Boston Bruins 1     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 0  Denver Nuggets 0     New Orleans Hornets 0  Phoenix
+ Suns 0
+
+ <span class="floydstyle em">C'mon Hornets, Chrissy wants to finish college.</span>
+
+ ***
+
+ Cochone bites into a hot dog, wipes his mouth and fingers with a
+ napkin, drinks from the can, and returns to work.
+
+ —
+>examine 8
+ —
+
+ <span class="floydstyle subheader">Track 8 Dead Zone</span>
+
+ The camera tramples through bush. It finds a dead rabbit with white
+ eyes. Zoom in. Maggots squirm in the eye sockets. "Ugh," a woman says,
+ obviously the camera operator.
+
+ The camera continues to roam, picking out a few dead blackbirds and
+ squirrel. "Wow," the same high-pitched voice says, more to herself
+ than anyone else. "What happened here?"
+
+ She focuses on a branch at eye level. Its leaves twingle with gold
+ flecks that catch the sun. The camera pans over wilting flowers of
+ Spanish moss and monkey flower.
+
+ "I gotta piss."
+
+ The camera whirls around to the white clapboard side of the house
+ where Neo is standing, a boarded-up window beside her slim legs.
+ Nickell walks into frame and addresses Neo, who frowns at him.
+ "Already? We just got here. You'll have to go in there." Nickell
+ gestures toward the camera. "This place doesn't have plumbing."
+
+ Neo scowls. "Okay, but turn that camera off. I don't want any chance
+ there'll be some 'whoopsie' footage of me taking a leak."
+
+ ***
+
+ A door bangs closed.
+
+ "This program is great," Cochone says. "It seems to be running
+ itself."
+
+ "Good," Jenny says. "That's how I designed it."
+
+ Cochone sniffs, then rubs his eyes.
+
+ —
+>put 6 in playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 6 has been added to your
+ playlist.
+
+ Your playlist contains 4 tracks: Chrysanthemum   Basement   Fight
+ Sound Test
+ ***
+
+ —
+>put 14 in playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 14 has been added to your
+ playlist.
+
+ Your playlist contains 5 tracks: Chrysanthemum   Basement   Fight
+ Sound Test   Squirrel Trap
+ ***
+
+ Cochone bites into the hot dog, wipes his mouth and fingers with a
+ napkin, drinks from the can, and returns to work.
+
+ —
+>shift 5 backward 3
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 5 can't be moved backward,
+ because it is not in the Sequence.
+
+ ***
+
+ Cochone bites into the hot dog, wipes his mouth and fingers with a
+ napkin, drinks from the can, and returns to work.
+
+ —
+>examine playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Your playlist contains 5 tracks:
+ Chrysanthemum   Basement   Fight   Sound Test   Squirrel Trap
+ ***
+
+ —
+>shift fight forward two
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 13 can't be moved forward,
+ because it is not in the Sequence.
+
+ ***
+
+ —
+>examine sequence
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... The Sequence is empty.
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 0
+ Pittsburgh Penguins 0     San Jose Sharks 1  Buffalo Sabres 0
+ Florida Panthers 1  Boston Bruins 1     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 20  Denver Nuggets 14     New Orleans Hornets 0  Phoenix
+ Suns 0
+
+ <span class="floydstyle em">I'm bleeding green here, Sabres.</span>
+
+ ***
+
+ —
+>put 6 in sequence
+ —
+
+ You'll need to specify a position in the Sequence, e.G., PUT [track]
+ INTO [slot].
+
+ ***
+
+ Cochone wipes his damp forehead.
+
+ —
+>put 6 in 1
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Tracks can't hold other tracks.
+ Try inserting a track into a slot instead.
+
+ ***
+
+ Cochone bites into the hot dog, wipes his mouth and fingers with a
+ napkin, drinks from the can, and returns to work.
+
+ —
+>put 6 in slot 1
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... That isn't related to the
+ <span class="floydstyle em">Sequitur</span> program, or I haven't learned to recognize it.
+
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+>examine 6
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 6 Sound Test</span>
+
+ The audio recording plays.
+
+ "Testing," a man says. "Testing. By the river."
+
+ "You know, I've been thinking," a woman says.
+
+ "There's a first time for everything," the man replies.
+
+ "That birdbath was full of water. It hasn't rained in weeks. And it
+ was clean. The whole yard was like that. Clean. And what about that
+ ring I found? I doubt it was Kiku's. And the generator?"
+
+ The audio stops.
+
+ ***
+
+ —
+>put 6 in f
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 6 has been inserted into
+ slot F, filling it.
+
+ F: 6. Sound Test
+
+ ***
+
+ Cochone bites into the hot dog, wipes his mouth and fingers with a
+ napkin, drinks from the can, and returns to work.
+
+ —
+>put 13 in g
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 13 has been inserted into
+ slot G, filling it.
+
+ Sequence: F: 6. Sound Test   G: 13. Fight
+
+ ***
+
+ Cochone bites into the hot dog, wipes his mouth and fingers with a
+ napkin, drinks from the can, and returns to work.
+
+ Cochone sighs and breathes deep.
+
+ —
+>put 14 in g
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 14 is now in Slot G. The
+ sequence has shifted forward of slot G, filling in the nearest empty
+ slot.
+
+ Sequence: F: 6. Sound Test   G: 14. Squirrel Trap   H: 13. Fight
+
+ ***
+
+ —
+>examine 4
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 4 Escape</span>
+
+ Closeup of a door. Somebody bangs on it from the other side. A woman
+ wheezes and gasps.
+
+ The camera shakes. It swings around to the window with the potted
+ flower on its sill. The camera drops to waist height. The camera
+ operator slides the window open.
+
+ The door bursts open. A scream. The camera shakes and whirls around.
+
+ The camera captures a black man pointing a Glock pistol. Unnoticed by
+ the man, Kiku is standing just inside the door.
+
+ The gun clicks. "Merde!" The guy says.
+
+ Kiku offers a slight smile, and she nods at the camera.
+
+ The camera operator grunts and wheezes. She throws herself out the
+ window. She slams into the ground. The video goes black, but the
+ woman's panting can be heard.
+
+ The side of the house appears with the man at the open window. He
+ points his Glock down at the camera operator, but nothing happens. He
+ slams the pistol against the window frame.
+
+ The woman rises, wheezing and coughing. After a few wobbly steps, she
+ stumbles through the trees. She steadies herself with an arm against a
+ trunk, and the camera is lifted. She pokes at some buttons, crying.
+ She falls. The video stops.
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 0
+ Pittsburgh Penguins 3     San Jose Sharks 2  Buffalo Sabres 1
+ Florida Panthers 2  Boston Bruins 1     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 23  Denver Nuggets 20     New Orleans Hornets 3  Phoenix
+ Suns 3
+
+ <span class="floydstyle em">Don't let me down again, Timberwolves.</span>
+
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+>put 4 in i
+ —
+
+ Track 4 has been inserted into slot I, filling it.
+
+ Sequence: F: 6. Sound Test   G: 14. Squirrel Trap   H: 13. Fight   I:
+ 4. Escape
+
+ ***
+
+ Cochone pops the last piece of his lunch into his mouth, finishes the
+ cola, and throws the box and can into a garbage can next to the desk.
+
+ —
+>play basement
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 2 Basement</span>
+
+ "I didn't sign up for breaking and entering," Argo says. He rams a
+ tripod leg between wood boards and the side of the house at his feet.
+ He pulls the tool, and two boards separate from the clapboard with a
+ loud crack.
+
+ A murder of blackbirds caw and fly off.
+
+ "I told you, nobody owns this place," Salt says, sliding a knife into
+ his pants. "Neo was right. These planks have rotted."
+
+ Argo and Salt free the remaining boards.
+
+ The video stutters, blacks out.
+
+ The footage starts again. An enclosed counter fronted by clear glass
+ sits in the feeble light cast by the window beside it. A pipe snakes
+ from the top of the fumehood and attaches to the wall.
+
+ "Wow," a man says. The camera swings around and catches Salt standing
+ over another counter, its length swallowed in the gloom of the
+ basement. Salt's flashlight beam glides along its black surface,
+ picking out bottles, a digital weigh scale, flasks, and a sink. It
+ comes to rest on a humming refrigerator.
+
+ "What's that smell?" Salt says.  "Sulfur?"
+
+ "Maybe this was a mistake, Salt." A woman's voice, the camera
+ operator. "Argo?"
+
+ The camera finds Argo pointing his flashlight over boxes in a corner.
+
+ The video goes black and when the footage starts again, Argo is
+ starting up some stairs with Salt behind him. The figure wearing the
+ gas mask emerges from behind them. It throws a cloud of glittering
+ powder into their faces. Both men collapse gasping and coughing onto
+ the floor. The camera dips as its operator begins to sway.  She hacks
+ and sputters.
+
+ Argo twitches, trapped by seizure. The figuredraped in darkness bends
+ down and places a bag over Salt's head.
+
+ The camera turns to the stairs. The video fades and goes black.
+
+ ***
+
+ —
+>play dead zone
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 8 Dead Zone</span>
+
+ The camera tramples through bush. It finds a dead rabbit with white
+ eyes. Zoom in. Maggots squirm in the eye sockets. "Ugh," a woman says,
+ obviously the camera operator.
+
+ The camera continues to roam, picking out a few dead blackbirds and
+ squirrel. "Wow," the same high-pitched voice says, more to herself
+ than anyone else. "What happened here?"
+
+ She focuses on a branch at eye level. Its leaves twingle with gold
+ flecks that catch the sun. The camera pans over wilting flowers of
+ Spanish moss and monkey flower.
+
+ "I gotta piss."
+
+ The camera whirls around to the white clapboard side of the house
+ where Neo is standing, a boarded-up window beside her slim legs.
+ Nickell walks into frame and addresses Neo, who frowns at him.
+ "Already? We just got here. You'll have to go in there." Nickell
+ gestures toward the camera. "This place doesn't have plumbing."
+
+ Neo scowls. "Okay, but turn that camera off. I don't want any chance
+ there'll be some 'whoopsie' footage of me taking a leak."
+
+ ***
+
+ Cochone stretches his sore fingers.
+
+ —
+>play locked door
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 9 Locked Door</span>
+
+ The camera is carried down a flight of stairs toward Nickell, who is
+ closing the front door. "Nickell." A woman's voice. "Did you see a
+ girl come down here?"
+
+ The camera steadies on Nickell. He runs a hand through his thick black
+ hair. "No, but I was outside setting up. I could have missed her.
+ Somebody lives here?"
+
+ "We're not sure," the woman says.
+
+ The camera whirls away and enters the dining room then the kitchen.
+ Salt twists the knob of a door in the far wall.
+
+ "What's up, Salt?" Another woman says.
+
+ Salt turns around. "The door is locked. I bet this goes downstairs.
+ I'd like to get down there." He sits at the table and Argo joins him.
+ Neo walks into frame, tosses a ring onto the table, and continues to
+ the door. She twists the knob.
+
+ "Let me have your phone, Argo," Salt says. He extends a hand to Argo.
+ "Research."
+
+ Neo looks into the camera. "Are you thinking what I'm thinking, Xeno?"
+ She gestures at the door behind her. "Give me your phone for a sec."
+
+ "I don't have a 'key' app on that thing, Neo," a woman says as she
+ hands over the camera.
+
+ "I want to check something," Neo says, then the video stops.
+
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+>play chrysanthemum
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 11 Chrysanthemum</span>
+
+ A girl with long black hair stares out a window, the sun in the east
+ sky falling on a potted yellow flower beside her.
+
+ Xeno approaches the girl and stops at the foot of a bed.
+
+ The girl turns around. She is Asian, mid-to-late teens, and wearing  a
+ plain white shirt and a skirt. Her large eyes shift from Xeno to the
+ camera, her expression unchanging and flat.
+
+ "We're so sorry." The voice female, the camera operator. "We thought
+ this place was empty. I'm Neo, and she is Xeno."
+
+ The girl stares into the camera.
+
+ "What's your name?" Xeno says.
+
+ The girl turns to Xeno and hesitates. "Kiku," she says, quiet and
+ accented.
+
+ "Do you live here?" Xeno says.
+
+ Kiku nods and looks down.
+
+ "Are your parents here?" Xeno says.
+
+ Silence.
+
+ "Your mother?" The camera operator says. "Your Father?"
+
+ "Hey." A man's voice.
+
+ Kiku's head snaps away from the camera to stare beyond it. Her eyes
+ widen. She rushes past the camera, which swings around to catch her
+ disappearing out the door.
+
+ The video stutters. Fades out, clicks on.
+
+ Argo is standing beside the door. "Who's she?" He says.
+
+ "We don't know," Xeno says. "She didn't seem to speak English well."
+
+ The camera follows Argo over to several books on a shelf. "<span class="floydstyle em">Makura</span>
+ <span class="floydstyle em">No Soshi?</span> Argo says. "If she doesn't, then why does she have
+ <span class="floydstyle em">Twilight</span> and <span class="floydstyle em">The Hunger Games</span>?"
+
+ The video stutters and stops.
+
+ ***
+
+ —
+>play diary
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 12 Diary</span>
+
+ The camera focuses on Argo, who  is sitting on a bed with a Roland
+ keyboard on his lap. "You don't find it weird that this bed is made?"
+ Argo says. He lays the keyboard onto the mattress.
+
+ "Don't worry about it. I checked this place out. Nobody seems to know
+ much about it, but nobody owns it, man. There's nobody here. We're
+ in-and-out in a few hours, anyway.
+
+ The video stops.
+
+ Excerpts from scanned copies of two handwritten pages taken from the
+ nightstand:
+
+ October 23, 1968
+ I am worried about Kiku. All girls get hurt, but she doesn't heal
+ good. I try to help her by telling the men that she's sick and can't
+ work. They don't listen. I am teaching her English. She also wants to
+ learn to read <span class="floydstyle em">Makura No Soshi,</span> which her mother read to her
+ and she brought with her.
+
+ May 4, 1969
+ I begged to take Kiku to Mont Helene's so she can have her baby . They
+ wouldn't let me. I tried to save her. Poor Kiku was too young maybe,
+ too weak. Father Baptiste let me bury her at St. Maria. Thank God her
+ baby survived. I took her to the hospital to make her safe. I just
+ leave her there. I will leave this place. I will help Kiku's daughter
+ find a home.
+
+ ***
+
+ Cochone wipes his damp forehead.
+
+ —
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 1 Google</span>
+
+ <span class="floydstyle i">Summary of Google Search Results</span>
+
+ <span class="floydstyle i">1. Mont Helene's Hospital, New Orleans</span> ... 30 Years since a
+ patient was treated within its walls, Mont Helen's hospital remains
+ dormant, the City has no ... One of the oldest and smallest ... <span class="floydstyle i">2.</span>
+ <span class="floydstyle i">Mont Helene's</span> ... On Orleans, Mont Helene's School for the Deaf is
+ among ...
+
+ <span class="floydstyle i">1. Two-headed cobra ring | eBay</span> ... Vintage mens ring made of
+ metal with a two-headed cobra ready to strike ... <span class="floydstyle i">2. Sangoro</span>
+ <span class="floydstyle i">Correctional Facility — New Orleans</span> ... The prison has been
+ closed
+ for over a decade ... Metal rings with two-headed cobras sticking from
+ them like horns. They are used as weapons ... <span class="floydstyle i">3. Snake Rings in</span>
+ <span class="floydstyle i">Prison</span> ... Metal rings of snakes, sometimes two headed ... Cobras
+ popular in the Louisiana penal facilities ...
+
+ <span class="floydstyle i">1. St. Maria's — New Orleans</span> ... The church has one of the
+ largest graveyards in the State ... Numerous large, and often
+ elaborate, mausoleums ... <span class="floydstyle i">2. Mass Schedule | St. Maria's Church</span>
+ ... Mass is held twice on Sunday mornings ... Archdiocese of New
+ Orleans ... Father Baptiste will be speaking at ... <span class="floydstyle i">3. St.</span>
+ <span class="floydstyle i">Maria's</span> ... Haunted tours ... The tombstones were found
+ desecrated, and many have gone missing over the years ... The ghosts
+ that wander ...
+
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+>examine nigel
+ —
+
+ Cochone is struggling to concentrate, so he decides to limit
+ distraction.
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 0
+ Pittsburgh Penguins 6     San Jose Sharks 2  Buffalo Sabres 1
+ Florida Panthers 3  Boston Bruins 1     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 23  Denver Nuggets 20     New Orleans Hornets 3  Phoenix
+ Suns 3
+
+ <span class="floydstyle em">Why do I put myself through this?</span>
+
+ ***
+
+ —
+ —
+
+ <span class="floydstyle subheader">Track 10 Powerboat</span>
+
+ <span class="floydstyle i">Audio track</span>
+
+ Excerpts from highlighted sound bites.
+
+ 00:42 — Birds chatter and insects buzz. The cawing of blackbirds,
+ distant. Their cries crescendo and fade out.
+
+ 51:02 — Faint buzz of a boat motor. It eventually drowns all other
+ sound. Footsteps stomp along the wood planks of a dock. The motor
+ dies.
+
+ "Combien?" A man's voice. French.
+
+ "She wasn't sure." Another man, French accent. "Three. Maybe even four
+ or five."
+
+ "Merde." A third French man.
+
+ 01:09 — Footsteps along the dock. Water sloshes against the boat.
+ Feet
+ clomp away.
+
+ 01:41 — The faint sound of a vehicle engine.
+
+ 02:38 — "We don't need to come back," one of the French men says.
+ "It's probably not safe for you either."
+
+ A boat engine revs.
+
+ "Let her go," the man says. "Go home to her family. Live happy. And
+ rich. Your husband would be proud."
+
+ The boat drives away.
+
+ ***
+
+ —
+>put kitchen in a
+ —
+
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 7 has been inserted into
+ slot A, filling it.
+
+ Sequence: A: 7. Kitchen   F: 6. Sound Test   G: 14. Squirrel Trap   H:
+ 13. Fight   I: 4. Escape
+
+ ***
+
+ —
+>put diary in b
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 12 has been inserted into
+ slot B, filling it.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   F: 6. Sound Test   G: 14.
+ Squirrel Trap   H: 13. Fight   I: 4. Escape
+
+ ***
+
+ —
+>put chrysanthemum in c
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 11 has been inserted into
+ slot C, filling it.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   F: 6.
+ Sound Test   G: 14. Squirrel Trap   H: 13. Fight   I: 4. Escape
+
+ ***
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>put locked door in d
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 9 has been inserted into
+ slot D, filling it.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   F: 6. Sound Test   G: 14. Squirrel Trap   H: 13. Fight
+ I: 4. Escape
+
+ ***
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>put google in e
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 1 has been inserted into
+ slot E, filling it.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 6. Sound Test   G: 14. Squirrel Trap
+ H: 13. Fight   I: 4. Escape
+
+ ***
+
+ <span class="floydstyle em">The five tracks from 7 to 1 seem to fit nicely together as part of</span>
+ <span class="floydstyle em">a long sequence,</span> Cochone thinks.
+
+ —
+>examine playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Your playlist contains 5 tracks:
+ Chrysanthemum   Basement   Fight   Sound Test   Squirrel Trap
+ ***
+
+ —
+>clear playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... The Sequence doesn't have any
+ tracks.
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 0
+ Pittsburgh Penguins 6     San Jose Sharks 4  Buffalo Sabres 3
+ Florida Panthers 3  Boston Bruins 1     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 36  Denver Nuggets 45     New Orleans Hornets 18  Phoenix
+ Suns 16
+
+
+
+ ***
+
+ —
+>examine sequence
+ —
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 6. Sound Test   G: 14. Squirrel Trap
+ H: 13. Fight   I: 4. Escape
+
+ ***
+
+ —
+>put backyard in f
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 15 is now in Slot F. The
+ sequence has shifted forward of slot F, filling in the nearest empty
+ slot.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 15. Backyard   G: 6. Sound Test   H:
+ 14. Squirrel Trap   I: 13. Fight   J: 4. Escape
+
+ ***
+
+ —
+>put dead zone in g
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 8 is now in Slot G. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 15. Backyard   G: 8. Dead Zone   H: 6.
+ Sound Test   I: 14. Squirrel Trap   J: 13. Fight
+
+ ***
+
+ —
+>talk to jenny
+ —
+
+ "What's the story with the bracelet?" Cochone says. "Are those dogs?"
+
+ Jenny sighs. "Yeah. The three pieces are the dogs I've had." She lifts
+ part of the bracelet. "There's Burton, the Lab I had in high school."
+ She shifts her finger over to the middle charm. "The small one is
+ Hilton. He died of cancer when I joined the Force." She caresses the
+ last and largest. "Then there's Chas. He's my Great Dane."
+
+ "Must be hard walking that brute."
+
+ "Not really. Like the breed in general, he's lazy. And when he wants
+ to go, I can just take him to a park and let him go. More boys I
+ meet." She smiles. "The more I love my dog."
+
+ Cochone coughs.
+
+ —
+>put basement in j
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 2 is now in Slot J. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 15. Backyard   G: 8. Dead Zone   H: 6.
+ Sound Test   I: 14. Squirrel Trap   J: 2. Basement
+
+ ***
+
+ Cochone coughs.
+
+ —
+>examine tracks
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... There are  15 tracks:
+
+ 1. Google (CP3; 0:00)     2. Basement (VR1; 7:33)     3. Torching
+ (CP2; 0:17)     4. Escape (CP1; 8:02)
+ 5. Time Lapse (VR2; 120:00)     6. Sound Test (SR; 0:21)     7.
+ Kitchen (VR1; 5:22)     8. Dead Zone (CP1; 3:12)
+ 9. Locked Door (CP1; 3:52)     10. Powerboat (SR; 120:00)     11.
+ Chrysanthemum (CP2; 4:01)     12. Diary (VR1; 0:30)
+ 13. Fight (CP2; 7:46)     14. Squirrel Trap (CP2; 6:11)     15.
+ Backyard (CP1; 4:25)
+
+ ***
+
+ —
+>talk to jenny
+ —
+
+ "Is there any chance you won't need that chair?" Cochone says.
+
+ "Maybe. If I just keep working at it. Part of the problem is balance.
+ You know what happened, right? My ex-boyfriend got really drunk and
+ came back to my apartment and found me with his friend Chris. We were
+ just talking. He was there to see Eric. But when he left, Eric threw
+ me against the wall and down the stairs. And he didn't stop there."
+ Jenny looks down. "Thing is, he had reason to be jealous. Chris and I
+ were talking about how it would work between us. But it didn't."
+
+ "So where is your ex?"
+
+ "He got out of prison a couple of years ago."
+
+ "Ten-to-one says you lose the chair in a year."
+
+ Jenny giggles.
+
+ —
+>play torching
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">Track 3 Torching</span>
+
+ The screen is black, but voices are audible.
+
+ "We have enough now." A man with a French accent. "We can burn this
+ place. Leave nothing." It is safest."
+
+ "No." A woman. "My mother. She needs this house."
+
+ "We must burn the basement at least. Nobody can find your work. Marco
+ will take their van. We'll take the boat."
+
+ Floorboards creak. Footsteps. The woman, "You should see a doctor.
+ That hand looks terrible."
+
+ "Non." Another man's voice. French. "I hate hospitals."
+
+ Footsteps pound down the stairs. A third man. French. "She ran away."
+
+ "We need to hurry then," the first man says. "We'll need to move out
+ the stockpile this weekend."
+
+ The sound stops, and the video ends.
+
+ ***
+
+ —
+>examine sequence
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Sequence: A: 7. Kitchen   B: 12.
+ Diary   C: 11. Chrysanthemum   D: 9. Locked Door   E: 1. Google   F:
+ 15. Backyard   G: 8. Dead Zone   H: 6. Sound Test   I: 14. Squirrel
+ Trap   J: 2. Basement
+
+ ***
+
+ —
+>examine tracks
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... There are  15 tracks:
+
+ 1. Google (CP3; 0:00)     2. Basement (VR1; 7:33)     3. Torching
+ (CP2; 0:17)     4. Escape (CP1; 8:02)
+ 5. Time Lapse (VR2; 120:00)     6. Sound Test (SR; 0:21)     7.
+ Kitchen (VR1; 5:22)     8. Dead Zone (CP1; 3:12)
+ 9. Locked Door (CP1; 3:52)     10. Powerboat (SR; 120:00)     11.
+ Chrysanthemum (CP2; 4:01)     12. Diary (VR1; 0:30)
+ 13. Fight (CP2; 7:46)     14. Squirrel Trap (CP2; 6:11)     15.
+ Backyard (CP1; 4:25)
+
+ ***
+
+ —
+>put fight in playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Sorry, but your playlist can only
+ contain one copy of a track.
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 0
+ Pittsburgh Penguins 7     San Jose Sharks 4  Buffalo Sabres 4
+ Florida Panthers 5  Boston Bruins 1     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 44  Denver Nuggets 52     New Orleans Hornets 21  Phoenix
+ Suns 24
+
+
+
+ ***
+
+ Cochone sighs and breathes deep.
+
+ —
+>put escape in playlist
+ —
+
+ Track 4 has been added to your playlist.
+
+ Your playlist contains 6 tracks: Chrysanthemum   Basement   Fight
+ Sound Test   Squirrel Trap   Escape
+ ***
+
+ —
+>cut chrys from playlst
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... That isn't related to the
+ <span class="floydstyle em">Sequitur</span> program, or I haven't learned to recognize it.
+
+ ***
+
+ —
+>cut chrys from playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... That isn't related to the
+ <span class="floydstyle em">Sequitur</span> program, or I haven't learned to recognize it.
+
+ ***
+
+ Cochone wipes his damp forehead.
+
+ —
+>cut chrysanthemum from playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 11 is removed from your
+ playlist.
+
+ Your playlist contains 5 tracks: Basement   Fight   Sound Test
+ Squirrel Trap   Escape
+ ***
+
+ —
+>cut sound test from playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 6 is removed from your
+ playlist.
+
+ Your playlist contains 4 tracks: Basement   Fight   Squirrel Trap
+ Escape
+ ***
+
+ Cochone coughs.
+
+ —
+>cut squirrel trap from playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 14 is removed from your
+ playlist.
+
+ Your playlist contains 3 tracks: Basement   Fight   Escape
+ ***
+
+ —
+>cut basement from playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 2 is removed from your
+ playlist.
+
+ Your playlist contains 2 tracks: Fight   Escape
+ ***
+
+ Cochone coughs.
+
+ —
+>put torching in playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 3 has been added to your
+ playlist.
+
+ Your playlist contains 3 tracks: Fight   Escape   Torching
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+>put powerboat in playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 10 has been added to your
+ playlist.
+
+ Your playlist contains 4 tracks: Fight   Escape   Torching   Powerboat
+ ***
+
+ —
+>put time lapse in playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 5 has been added to your
+ playlist.
+
+ Your playlist contains 5 tracks: Fight   Escape   Torching   Powerboat
+ Time Lapse
+ ***
+
+ —
+>put time lapse in g
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 5 is now in Slot G. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 15. Backyard   G: 5. Time Lapse   H:
+ 8. Dead Zone   I: 6. Sound Test   J: 14. Squirrel Trap
+
+ ***
+
+ —
+>put powerboat in j
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 10 is now in Slot J. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 15. Backyard   G: 5. Time Lapse   H:
+ 8. Dead Zone   I: 6. Sound Test   J: 10. Powerboat
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 0
+ Pittsburgh Penguins 7     San Jose Sharks 4  Buffalo Sabres 6
+ Florida Panthers 7  Boston Bruins 3     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 55  Denver Nuggets 64     New Orleans Hornets 40  Phoenix
+ Suns 44
+
+
+
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+>put squirrel trap first in playlist
+ —
+
+ That isn't related to the <span class="floydstyle em">Sequitur</span> program, or I haven't
+ learned to recognize it.
+
+ ***
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>examine playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Your playlist contains 5 tracks:
+ Fight   Escape   Torching   Powerboat   Time Lapse
+ ***
+
+ Cochone sighs and breathes deep.
+
+ —
+>cut powerboat from playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 10 is removed from your
+ playlist.
+
+ Your playlist contains 4 tracks: Fight   Escape   Torching   Time
+ Lapse
+ ***
+
+ Cochone stretches his sore fingers.
+
+ —
+>cut time lapse from playlist
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 5 is removed from your
+ playlist.
+
+ Your playlist contains 3 tracks: Fight   Escape   Torching
+ ***
+
+ —
+>examine sequence
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Sequence: A: 7. Kitchen   B: 12.
+ Diary   C: 11. Chrysanthemum   D: 9. Locked Door   E: 1. Google   F:
+ 15. Backyard   G: 5. Time Lapse   H: 8. Dead Zone   I: 6. Sound Test
+ J: 10. Powerboat
+
+ ***
+
+ Cochone sighs and breathes deep.
+
+ —
+>put basement in f
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 2 is now in Slot F. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 15. Backyard   H: 5.
+ Time Lapse   I: 8. Dead Zone   J: 6. Sound Test
+
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+>put fight in g
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 13 is now in Slot G. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 13. Fight   H: 15.
+ Backyard   I: 5. Time Lapse   J: 8. Dead Zone
+
+ ***
+
+ —
+>put escape in h
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 4 is now in Slot H. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 13. Fight   H: 4.
+ Escape   I: 15. Backyard   J: 5. Time Lapse
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 0
+ Pittsburgh Penguins 7     San Jose Sharks 4  Buffalo Sabres 7
+ Florida Panthers 7  Boston Bruins 5     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 64  Denver Nuggets 69     New Orleans Hornets 48  Phoenix
+ Suns 54
+
+
+
+ ***
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>cut backyard
+ —
+
+
+ Track 15 is removed from Slot I.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 13. Fight   H: 4.
+ Escape   J: 5. Time Lapse
+
+ ***
+
+ Cochone coughs.
+
+ —
+>cut time lapse
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ...
+ Track 5 is removed from Slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 13. Fight   H: 4.
+ Escape
+
+ ***
+
+ —
+>put torching in i
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 3 has been inserted into
+ slot I, filling it.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 13. Fight   H: 4.
+ Escape   I: 3. Torching
+
+ ***
+
+ —
+>put powerboat in j
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 10 has been inserted into
+ slot J, filling it.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 13. Fight   H: 4.
+ Escape   I: 3. Torching   J: 10. Powerboat
+
+ ***
+
+ —
+>put time lapse in j
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 5 is now in Slot J. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 13. Fight   H: 4.
+ Escape   I: 3. Torching   J: 5. Time Lapse
+
+ ***
+
+ —
+>put time lapse in f
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 5 is now in Slot F. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 5. Time Lapse   G: 2. Basement   H:
+ 13. Fight   I: 4. Escape   J: 3. Torching
+
+ ***
+
+ —
+>ask jenny for hints
+ —
+
+ "I need some fresh eyes on this," Cochone says. "Will you take a
+ look?"
+
+ "Okay." Jenny wheells up beside the detective. She studies the
+ computer screen. Her fingers dance along the keyboard.
+ "I don't think that Track 5 fits in with Track 7 at all.
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 1
+ Pittsburgh Penguins 7     San Jose Sharks 4  Buffalo Sabres 7
+ Florida Panthers 7  Boston Bruins 5     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 70  Denver Nuggets 72     New Orleans Hornets 57  Phoenix
+ Suns 62
+
+
+
+ ***
+
+ —
+>cut time lapse
+ —
+
+
+ Track 5 is removed from Slot F.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   G: 2. Basement   H: 13. Fight   I: 4.
+ Escape   J: 3. Torching
+
+ ***
+
+ Cochone coughs.
+
+ —
+>ask jenny for hints
+ —
+
+ "I need some fresh eyes on this," Cochone says. "Will you take a
+ look?"
+
+ "Okay." Jenny wheells up beside the detective. She studies the
+ computer screen. Her fingers dance along the keyboard.
+ "Try putting "Powerboat" in the Sequence, too.
+
+ "Right. Sounds good."
+
+ —
+>put powerboat in i
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 10 is now in Slot I. The
+ sequence has shifted backward from slot I, filling in the nearest
+ empty slot.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 13. Fight   H: 4.
+ Escape   I: 10. Powerboat   J: 3. Torching
+
+ ***
+
+ Cochone stretches his sore fingers.
+
+ —
+>put powerboat in j
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 10 is now in Slot J. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 13. Fight   H: 4.
+ Escape   I: 3. Torching   J: 10. Powerboat
+
+ ***
+
+ Cochone stretches his sore fingers.
+
+ —
+>ask jenny for hint
+ —
+
+ "I need some fresh eyes on this," Cochone says. "Will you take a
+ look?"
+
+ "Okay." Jenny wheells up beside the detective. She studies the
+ computer screen. Her fingers dance along the keyboard.
+ "I am pretty sure that "Fight" and "Powerboat" should be switched."
+
+ "Right. Sounds good."
+
+ —
+>put powerboat in g
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 10 is now in Slot G. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 10. Powerboat   H:
+ 13. Fight   I: 4. Escape   J: 3. Torching
+
+ ***
+
+ "I think I have it, Jenny," Cochone says.
+
+ "Good. I knew we would. With the help of <span class="floydstyle em">Sequitur,</span> of course.
+ Just tell me about the sequence when you're ready."
+
+ "Right." Cochone rubs his eyes and coughs.
+
+ —
+>tell jenny about sequence
+ —
+
+ Cochone rotates his chair around to face Jenny. "I have it. Let's get
+ Nigel in here." He coughs.
+
+ "Great!" Jenny says with the widest smile she's had all afternoon.
+ "I'll get him." She stands and reaches for her cane.
+
+ "Watch it," Cochone says, rising to help her. "Are you sure you're
+ okay?"
+
+ "Yes." Jenny stabilizes herself with the cane.
+
+ Cochone wobbles, steps back, and places a hand on the handle of
+ Jenny's wheelchair.
+
+ "Whoa," Jenny says. "Are you okay? Excitement too much?"
+
+ Cochone falls into the wheelchair. "Yeah. I'll wait here." He
+ struggles for breath.
+
+ Jenny frowns. "I'll be right back." She hobbles into the hall.
+
+ "What was that, Jenny?" Cochone mumbles as his lungs chase oxygen.
+
+ Nigel appears. He is saying something. "I said, 'are you okay?'"
+
+ "Sure," Cochone says. Straightening, he tries to stand, but he teeters
+ and falls back into the chair. "Just push me over to the desk, and
+ I'll show you what we have."
+
+ Nigel pushes Cochone up to the desk. Jenny watches with concern.
+
+ Jenny and Nigel remain silent as Cochone clicks through the
+ ten-segment sequence.
+
+ "Okay," Nigel says. "We're going to get you some medical attention.
+ But based on what we've seen, we don't have a lot of time. What do you
+ think we should do now?"
+
+ —
+>say find kiku
+ —
+
+ Cochone rubs his eyes and tries to keep his mind from straying to far
+ from the case.
+
+ —
+>examine sequence
+ —
+
+ Cochone tries to concentrate, to move.
+
+ "Just relax, Steve," Nigel says. "Take a break if you need to. Has he
+ been like this all afternoon, Jenny?"
+
+ "He seemed a little sick when he got here this morning," Jenny says.
+ "But he wasn't this bad."
+
+ Cochone slumps. His head slams against the desk.
+
+ Jenny gasps.
+
+ Cochone feels hands on his shoulders. Whispering. " ... Steve to the
+ hospital ... " Nigel's voice.
+
+ " ... Go with him ... " Jenny now. " ... Let you know ... "
+
+ Cochone blacks out.
+
+ <span class="floydstyle em">New England Journal of Medicine</span> Jan. 25, 2015
+ <span class="floydstyle subheader">Hearing loss and paralysis associated with a novel airborne</span>
+ chemical agent
+ Abstract: Over a period of three days, 14 emergency response
+ personnel, including police and firefighters, were admitted to
+ hospital with nausea, vomiting, headache, motor incordination, and
+ syncope. They had been exposed to a synthetic compound while
+ investigating an abandoned house in the Belle Bayou of New Orleans,
+ Louisiana. All of the patients survived, but ten developed severe
+ hearing loss and paralysis. Another woman, also found at the site,
+ died two weeks after exposure. <span class="floydstyle em">New York Post</span> Mar. 12, 2015
+ <span class="floydstyle subheader">Hundreds die in subway attacks</span>
+ Hundreds of commuters were hurt or killed yesterday when canisters of
+ AU879-98 were released in New York subways. This represents another in
+ a series of similar attacks in major cities across the US. The
+ Tunisian terrorist group Ansar al-Sharia says the attacks will
+ continue ... The mysterious gold powder has not been identified ...
+
+
+
+
+ ***  ... And the story ends. Cochone's investigation
+ leads to one of four outcomes, dependent upon what he can link
+ together, if anything. You can only reach the finale by solving the
+ ten-segment chain. Whether or not you solve the short chain, however,
+ does influence the outcome. If you decide to play again, keep in mind
+ that Jenny likes to be talked to, and the game recognizes some
+ standard commands that don't apply to the "Sequitur" program when used
+ with objects in Jenny's office. These include examine and listen.
+
+ <span class="floydstyle em">Sequitur</span> includes bonus tracks: WHOLE STORY shows how all the
+ footage fits together in one sequence; MUSICAL CUES describes the
+ inspiration for <span class="floydstyle em">sequitur</span>; RECOMMENDATIONS suggests some other
+ material you may enjoy. ***
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, read the CREDITS, read the WHOLE STORY, read the MUSICAL
+ CUES, or read the RECOMMENDATIONS?
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>clear
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ...
+ There are no notes recorded.
+
+ ***
+
+ Cochone stretches his sore fingers.
+
+ —
+>clear sequence
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... The Sequence is now empty.
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 2
+ Pittsburgh Penguins 7     San Jose Sharks 4  Buffalo Sabres 7
+ Florida Panthers 7  Boston Bruins 5     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 80  Denver Nuggets 85     New Orleans Hornets 57  Phoenix
+ Suns 62
+
+
+
+ ***
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>put backard in a
+ —
+
+ That isn't related to the <span class="floydstyle em">Sequitur</span> program, or I haven't
+ learned to recognize it.
+
+ ***
+
+ Cochone stretches his sore fingers.
+
+ —
+>put backyard in a
+ —
+
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 15 has been inserted into
+ slot A, filling it.
+
+ A: 15. Backyard
+
+ ***
+
+ —
+>put dead zone in b
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 8 has been inserted into
+ slot B, filling it.
+
+ Sequence: A: 15. Backyard   B: 8. Dead Zone
+
+ ***
+
+ —
+>put sound test in c
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 6 has been inserted into
+ slot C, filling it.
+
+ Sequence: A: 15. Backyard   B: 8. Dead Zone   C: 6. Sound Test
+
+ ***
+
+ —
+>put squirrel trap in d
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 14 has been inserted into
+ slot D, filling it.
+
+ Sequence: A: 15. Backyard   B: 8. Dead Zone   C: 6. Sound Test   D:
+ 14. Squirrel Trap
+
+ ***
+
+ —
+>put time lapse in e
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 5 has been inserted into
+ slot E, filling it.
+
+ Sequence: A: 15. Backyard   B: 8. Dead Zone   C: 6. Sound Test   D:
+ 14. Squirrel Trap   E: 5. Time Lapse
+
+ ***
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>put time lapse in b
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 5 is now in Slot B. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 15. Backyard   B: 5. Time Lapse   C: 8. Dead Zone   D: 6.
+ Sound Test   E: 14. Squirrel Trap
+
+ ***
+
+ Cochone sniffs, then rubs his eyes.
+
+ —
+>ask jenny for hints
+ —
+
+ "I need some fresh eyes on this," Cochone says. "Will you take a
+ look?"
+
+ "Okay." Jenny wheells up beside the detective. She studies the
+ computer screen. Her fingers dance along the keyboard.
+ "I am pretty sure that "Time Lapse" and "Dead Zone" should be
+ switched."
+
+ "Right. Sounds good."
+
+ Cochone wipes his damp forehead.
+
+ —
+>put dead zone in b
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 8 is now in Slot B. The
+ Sequence was full, so the last track was removed from slot J.
+
+ Sequence: A: 15. Backyard   B: 8. Dead Zone   C: 5. Time Lapse   D: 6.
+ Sound Test   E: 14. Squirrel Trap
+
+ ***
+
+ "I figured out the shorter sequence, too, Jenny," Cochone says.
+
+ "Great! Both of them. I knew we could do it. I'll get Nigel after you
+ tell me about the sequences."
+
+ —
+>tell jenny about sequence
+ —
+
+ Cochone rotates his chair around to face Jenny. "I have it. Let's get
+ Nigel in here." He coughs.
+
+ "Great!" Jenny says with the widest smile she's had all afternoon.
+ "I'll get him." She stands and reaches for her cane.
+
+ "Watch it," Cochone says, rising to help her. "Are you sure you're
+ okay?"
+
+ "Yes." Jenny stabilizes herself with the cane.
+
+ Cochone wobbles, steps back, and places a hand on the handle of
+ Jenny's wheelchair.
+
+ "Whoa," Jenny says. "Are you okay? Excitement too much?"
+
+ Cochone falls into the wheelchair. "Yeah. I'll wait here." He
+ struggles for breath.
+
+ Jenny frowns. "I'll be right back." She hobbles into the hall.
+
+ "What was that, Jenny?" Cochone mumbles as his lungs chase oxygen.
+
+ Nigel appears. He is saying something. "I said, 'are you okay?'"
+
+ "Sure," Cochone says. Straightening, he tries to stand, but he teeters
+ and falls back into the chair. "Just push me over to the desk, and
+ I'll show you what we have."
+
+ Nigel pushes Cochone up to the desk. Jenny watches with concern.
+
+ Jenny and Nigel remain silent as Cochone clicks through the
+ ten-segment  and short sequences.
+
+ "Okay," Nigel says. "We're going to get you some medical attention.
+ But based on what we've seen, we don't have a lot of time. What do you
+ think we should do now?"
+
+ —
+>research gold powder
+ —
+
+ Cochone rubs his eyes and tries to keep his mind from straying to far
+ from the case.
+
+ —
+>examine nigel
+ —
+
+ Cochone tries to concentrate, to move.
+
+ "Just relax, Steve," Nigel says. "Take a break if you need to. Has he
+ been like this all afternoon, Jenny?"
+
+ "He seemed a little sick when he got here this morning," Jenny says.
+ "But he wasn't this bad."
+
+ Cochone slumps. His head slams against the desk.
+
+ Jenny gasps.
+
+ Cochone feels hands on his shoulders. Whispering. " ... Steve to the
+ hospital ... " Nigel's voice.
+
+ " ... Go with him ... " Jenny now. " ... Let you know ... "
+
+ Cochone blacks out.
+
+ <span class="floydstyle em">New England Journal of Medicine</span> Jan. 25, 2015
+ <span class="floydstyle subheader">Hearing loss and paralysis associated with a novel airborne</span>
+ chemical agent
+ Abstract: Over a period of three days, 14 emergency response
+ personnel, including police and firefighters, were admitted to
+ hospital with nausea, vomiting, headache, motor incordination, and
+ syncope. They had been exposed to a synthetic compound while
+ investigating an abandoned house in the Belle Bayou of New Orleans,
+ Louisiana. All of the patients survived, but ten developed severe
+ hearing loss and paralysis. Another woman, also found at the site,
+ died two weeks after exposure. <span class="floydstyle em">New York Post</span> Mar. 12, 2015
+ <span class="floydstyle subheader">Hundreds die in subway attacks</span>
+ Hundreds of commuters were hurt or killed yesterday when canisters of
+ AU879-98 were released in New York subways. This represents another in
+ a series of similar attacks in major cities across the US. The
+ Tunisian terrorist group Ansar al-Sharia says the attacks will
+ continue ... The mysterious gold powder has not been identified ...
+
+
+
+
+ ***  ... And the story ends. Cochone's investigation
+ leads to one of four outcomes, dependent upon what he can link
+ together, if anything. You can only reach the finale by solving the
+ ten-segment chain. Whether or not you solve the short chain, however,
+ does influence the outcome. If you decide to play again, keep in mind
+ that Jenny likes to be talked to, and the game recognizes some
+ standard commands that don't apply to the "Sequitur" program when used
+ with objects in Jenny's office. These include examine and listen.
+
+ <span class="floydstyle em">Sequitur</span> includes bonus tracks: WHOLE STORY shows how all the
+ footage fits together in one sequence; MUSICAL CUES describes the
+ inspiration for <span class="floydstyle em">sequitur</span>; RECOMMENDATIONS suggests some other
+ material you may enjoy. ***
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, read the CREDITS, read the WHOLE STORY, read the MUSICAL
+ CUES, or read the RECOMMENDATIONS?
+>musical cues
+
+ The songs I had to choose from for the 2014 ShuffleComp:
+
+ Courtney Barnett "Avant Gardener"
+ Yosi Horikawa "Wandering"
+ Jacques Dutronc "Il Est Cinq Heures Paris S'eveille"
+ The Animals "House of the Rising Sun"
+ Super Furry Animals "Venus and Serena"
+ Chris Powell "Hot Dog"
+ The Golden Filter "Solid Gold"
+ Red Fang "Wires"
+
+
+ Several months before ShuffleComp came along in April 2014, I was
+ wondering how a work of interactive fiction could be based on the
+ found footage genre of filmmaking. I wasn't planning on entering the
+ competition, because I was afraid I couldn't develop and implement a
+ game within the time alotted. But, a few days before the playlists
+ were to be submitted, I thought about how a game could be constructed
+ like a CD, with individual tracks making up a whole album. The
+ interface could be much like a CD player. Then I realized this fit
+ well with my found footage idea, and <span class="floydstyle em">sequitur</span> followed from
+ there.
+
+ Of the songs on the playlist I received, "House of the Rising Sun" and
+ "Solid Gold" had the greatest influence on <span class="floydstyle em">sequitur.</span> The
+ Asian brothel and Cochone's gambling were inspired by The Animals'
+ song, as was the prison (which some music critics think is the real
+ "House of the Rising Sun"). The band name, The Animals, also inspired
+ the naming of the main characters, and Jenny's dogs are named after
+ members of the band. Because of "Solid Gold," i added the
+ chemical/alchemical aspect of the story. References are made
+ throughout the game to elements — the names of the band members are
+ abbreviated names for the noble gases argon, neon, and xenon, for
+ example. "Hot Dog" and, to a lesser extent, "Il Est Cinq Heures Paris
+ S'eveille" also influenced <span class="floydstyle em">sequitur</span>. Most obviously,
+ Cochone's favorite food, the name of the band, and the vegetarian
+ references were inspired by the former, and the Fench element was
+ included because of the latter. This is just a sample of how these
+ songs shaped the game; you'll likely find other similarities.
+
+ I chose these songs based on listening to them, not on their videos.
+ Only after <span class="floydstyle em">sequitur</span> was being developed did I go through the
+ videos. As it turns out, those for "Wandering" and "Wires" share some
+ themes with the game, but these similarities are coincidental. I
+ enjoyed all of the songs on my playlist — six of the eight were new
+ to
+ me. Listen to all of them then turn on the radio. After all, the word
+ "music" is derived from the Greek "muse."
+
+
+      Nigel Jayne, May 2014.
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, read the CREDITS, read the WHOLE STORY, read the MUSICAL
+ CUES, or read the RECOMMENDATIONS?
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>ask jenny for opinion
+ —
+
+ "I'd like your opinion on how each chain fits together," Cochone says.
+
+ "Sure." Jenny wheels over and begins reviewing the footage.
+
+ Cochone sits back and rubs his eyes.
+
+ "I think you got the the short sequence right. This is how I see the
+ other one."
+ 7: Kitchen (VR1; 5:22)     12: Diary (VR1; 0:30)     11: Chrysanthemum
+ (CP2; 4:01)     9: Locked Door (CP1; 3:52)     1: Google (CP3; 0:00)
+ 2: Basement (VR1; 7:33)     10: Powerboat (SR; 120:00)     13: Fight
+ (CP2; 7:46)     4: Escape (CP1; 8:02)     3: Torching (CP2; 0:17)
+ "I can save this sequence if you want, or I can put it back the way it
+ was. Do you want me to save it?"
+>yes
+ was. Do you want me to save it?"
+
+
+ "Go ahead and save it that way."
+
+ "Done."
+
+ "You're awesome, Jenny," Cochone says as Jenny wheels away. I'll make
+ sure Nigel knows about this."
+
+ "Thanks, but this is a team effort."
+
+ "Right. Go team."
+
+ "Tell me about the sequences when you think you are finished, and I'll
+ get Nigel. But if you're not sure and want to fiddle some more, you
+ can see what I just did by typing 'opinion.' That  will list the two
+ sequences the way I think they link up."
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>opinion
+ —
+
+ Cochone decides to just type "opinion" like Jenny suggested.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... The screen lists the long
+ Sequence:
+
+ 7: Kitchen (VR1; 5:22)     12: Diary (VR1; 0:30)     11: Chrysanthemum
+ (CP2; 4:01)     9: Locked Door (CP1; 3:52)     1: Google (CP3; 0:00)
+ 2: Basement (VR1; 7:33)     10: Powerboat (SR; 120:00)     13: Fight
+ (CP2; 7:46)     4: Escape (CP1; 8:02)     3: Torching (CP2; 0:17)
+ Cochone then brings up the short sequence:
+
+ 15: Backyard (CP1; 4:25)     8: Dead Zone (CP1; 3:12)     5: Time
+ Lapse (VR2; 120:00)     6: Sound Test (SR; 0:21)     14: Squirrel Trap
+ (CP2; 6:11)
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 2
+ Pittsburgh Penguins 7     San Jose Sharks 5  Buffalo Sabres 7
+ Florida Panthers 7  Boston Bruins 7     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 90  Denver Nuggets 97     New Orleans Hornets 92  Phoenix
+ Suns 87
+
+
+
+ ***
+
+ —
+>talk to jenny
+ —
+
+ "So how do you like IT?" Cochone says. "It seems to like you."
+
+ "Yeah, I'm a bit of a computer geek. My dad wanted me to be a cop. You
+ believe that? Well, he wanted either me or my sister to be, but I have
+ the size. Maybe 'cause he didn't have a son. His blood runs blue. I
+ liked being a cop, but I think I like what I'm doing now more."
+
+ ***
+
+ —
+>look
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ...
+ <span class="floydstyle i">Sequence:</span>     A: 7. Kitchen (VR1; 5:22)     B: 12. Diary (VR1;
+ 0:30)     C: 11. Chrysanthemum (CP2; 4:01)     D: 9. Locked Door (CP1;
+ 3:52)
+ E: 1. Google (CP3; 0:00)     F: 2. Basement (VR1; 7:33)     G: 10.
+ Powerboat (SR; 120:00)     H: 13. Fight (CP2; 7:46)
+ I: 4. Escape (CP1; 8:02)     J: 3. Torching (CP2; 0:17)
+
+ <span class="floydstyle subheader">Tracks:</span>
+ 5. Time Lapse (VR2; 120:00)     6. Sound Test (SR; 0:21)     8. Dead
+ Zone (CP1; 3:12)     14. Squirrel Trap (CP2; 6:11)
+ 15. Backyard (CP1; 4:25)
+
+
+  PUT [a track] IN [a slot or
+  SLIDE [a track] LEFT or RIGHT [a number]  |  SWITCH [a
+
+ Your playlist contains 13. Fight   4. Escape   3. Torching
+
+ ***
+
+ —
+>listen
+ —
+
+ <span class="floydstyle em">Jenny must have turned the volume down,</span> Cochone thinks.
+ <span class="floydstyle em">So she likes cutesy novelty songs, too</span> Cochone thinks,
+ <span class="floydstyle em">Why am I not surprised?</span>
+ —
+>listen
+ —
+
+ <span class="floydstyle em">So she likes cutesy novelty songs, too</span> Cochone thinks,
+ <span class="floydstyle em">Why am I not surprised?</span>
+ —
+>examine wheelchair
+ —
+
+ Cochone glances at Jenny. Her fingers dance over the laptop, her
+ bracelet jiggling around one wrist . Her lunch, a bagel, is sitting on
+ the desk behind her. Her cane leans against the wall and next to the
+ window, which looks out into the quiet hallway.
+
+ Jenny is stuck in a wheelchair that is a bit too small for her lanky
+ body. Cochone has pieced together parts of her story from other cops.
+ She hasn't always needed the wheels and cane. She had walked the beat
+ when she joined the force, but her career path had veered off course
+ after her drunken boyfriend found her in his house with another guy.
+ His response was bone shattering. Jenny was smart enough to leave Mr.
+ Fists and join the IT department, advancing it into the 21st century
+ with innovation that would make NASA envious.
+
+ Cochone thinks that she doesn't look like a computer geek. She is
+ slim, and she wears a stylish sleeveless shirt and skirt, which shows
+ off most of her tanned legs. Her hair also exudes fashion and flash:
+ long, copper, and curled at the bottom. And there's her rack, too. But
+ she isn't pretty. Her facial features are pinched, and her lips are
+ reddened to a shade that even vice cops would consider excessive.
+
+ —
+>examine cane
+ —
+
+ Cochone glances at Jenny. Her fingers dance over the laptop, her
+ bracelet jiggling around one wrist . Her lunch, a bagel, is sitting on
+ the desk behind her. Her cane leans against the wall and next to the
+ window, which looks out into the quiet hallway.
+
+ Jenny is stuck in a wheelchair that is a bit too small for her lanky
+ body. Cochone has pieced together parts of her story from other cops.
+ She hasn't always needed the wheels and cane. She had walked the beat
+ when she joined the force, but her career path had veered off course
+ after her drunken boyfriend found her in his house with another guy.
+ His response was bone shattering. Jenny was smart enough to leave Mr.
+ Fists and join the IT department, advancing it into the 21st century
+ with innovation that would make NASA envious.
+
+ Cochone thinks that she doesn't look like a computer geek. She is
+ slim, and she wears a stylish sleeveless shirt and skirt, which shows
+ off most of her tanned legs. Her hair also exudes fashion and flash:
+ long, copper, and curled at the bottom. And there's her rack, too. But
+ she isn't pretty. Her facial features are pinched, and her lips are
+ reddened to a shade that even vice cops would consider excessive.
+
+ —
+>tell jenny about sequence
+ —
+
+ Cochone rotates his chair around to face Jenny. "I have it. Let's get
+ Nigel in here." He coughs.
+
+ "Great!" Jenny says with the widest smile she's had all afternoon.
+ "I'll get him." She stands and reaches for her cane.
+
+ "Watch it," Cochone says, rising to help her. "Are you sure you're
+ okay?"
+
+ "Yes." Jenny stabilizes herself with the cane.
+
+ Cochone wobbles, steps back, and places a hand on the handle of
+ Jenny's wheelchair.
+
+ "Whoa," Jenny says. "Are you okay? Excitement too much?"
+
+ Cochone falls into the wheelchair. "Yeah. I'll wait here." He
+ struggles for breath.
+
+ Jenny frowns. "I'll be right back." She hobbles into the hall.
+
+ "What was that, Jenny?" Cochone mumbles as his lungs chase oxygen.
+
+ Nigel appears. He is saying something. "I said, 'are you okay?'"
+
+ "Sure," Cochone says. Straightening, he tries to stand, but he teeters
+ and falls back into the chair. "Just push me over to the desk, and
+ I'll show you what we have."
+
+ Nigel pushes Cochone up to the desk. Jenny watches with concern.
+
+ Jenny and Nigel remain silent as Cochone clicks through the
+ ten-segment  and short sequences.
+
+ "Okay," Nigel says. "We're going to get you some medical attention.
+ But based on what we've seen, we don't have a lot of time. What do you
+ think we should do now?"
+
+ —
+>tell nigel about gold powder
+ —
+
+ Cochone struggles with his thoughts.
+
+ —
+>play sequence
+ —
+
+ Cochone tries to concentrate, to move.
+
+ "Just relax, Steve," Nigel says. "Take a break if you need to. Has he
+ been like this all afternoon, Jenny?"
+
+ "He seemed a little sick when he got here this morning," Jenny says.
+ "But he wasn't this bad."
+
+ Cochone slumps. His head slams against the desk.
+
+ Jenny gasps.
+
+ Cochone feels hands on his shoulders. Whispering. " ... Steve to the
+ hospital ... " Nigel's voice.
+
+ " ... Go with him ... " Jenny now. " ... Let you know ... "
+
+ Cochone blacks out.
+
+ <span class="floydstyle em">New England Journal of Medicine</span> Jan. 25, 2015
+ <span class="floydstyle subheader">Hearing loss and paralysis associated with a novel airborne</span>
+ chemical agent
+ Abstract: Over a period of three days, 14 emergency response
+ personnel, including police and firefighters, were admitted to
+ hospital with nausea, vomiting, headache, motor incordination, and
+ syncope. They had been exposed to a synthetic compound while
+ investigating an abandoned house in the Belle Bayou of New Orleans,
+ Louisiana. All of the patients survived, but ten developed severe
+ hearing loss and paralysis. Another woman, also found at the site,
+ died two weeks after exposure. <span class="floydstyle em">New York Post</span> Mar. 12, 2015
+ <span class="floydstyle subheader">Hundreds die in subway attacks</span>
+ Hundreds of commuters were hurt or killed yesterday when canisters of
+ AU879-98 were released in New York subways. This represents another in
+ a series of similar attacks in major cities across the US. The
+ Tunisian terrorist group Ansar al-Sharia says the attacks will
+ continue ... The mysterious gold powder has not been identified ...
+
+
+
+
+ ***  ... And the story ends. Cochone's investigation
+ leads to one of four outcomes, dependent upon what he can link
+ together, if anything. You can only reach the finale by solving the
+ ten-segment chain. Whether or not you solve the short chain, however,
+ does influence the outcome. If you decide to play again, keep in mind
+ that Jenny likes to be talked to, and the game recognizes some
+ standard commands that don't apply to the "Sequitur" program when used
+ with objects in Jenny's office. These include examine and listen.
+
+ <span class="floydstyle em">Sequitur</span> includes bonus tracks: WHOLE STORY shows how all the
+ footage fits together in one sequence; MUSICAL CUES describes the
+ inspiration for <span class="floydstyle em">sequitur</span>; RECOMMENDATIONS suggests some other
+ material you may enjoy. ***
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, read the CREDITS, read the WHOLE STORY, read the MUSICAL
+ CUES, or read the RECOMMENDATIONS?
+>whole story
+
+ The members of <span class="floydstyle em">Chien Chaud, Chat Froid</span> and the video
+ producers arrive at the ostensibly abandoned house to shoot video for
+ their latest album ("Kitchen"). The gang then splits up; Neo, Nickell,
+ and Xeno explore outside ("Backyard" and "Dead Zone") while Argo and
+ Salt scout the rooms for somewhere to set up their equipment
+ ("Diary"). Neo and Xeno find Kiku ("Chrysanthemum") while Nickell
+ places a camera outside to record the backyard ("Time Lapse"). Argo,
+ Neo, and Xeno pass Nickell, who is entering the house, on their way to
+ see Salt in the kitchen ("Locked Door"). Salt investigates the ring
+ (which Neo found while urinating in the trees) and the diary contents
+ ("Google"). Neo and Nickell decide to eat outside, where the latter
+ sets up his audio recorder ("Sound Test"), and Neo discovers the
+ injured squirrel has been exposed to the gold powder ("Squirrel
+ Trap"). Despite exposure, the squirrel seems healthy.
+
+ Salt convinces Argo and Xeno to break into the basement through the
+ boarded-up windows, and they are attacked by Kiku's daughter
+ ("Basement"). The startled blackbirds are caught by the audio
+ recorder, which also picks up the arrival of the terrorists, Nickell
+ retrieving the oar, and Kiku's daughter leaving in the boat with one
+ of the terrorists ("Diary"). Neo has already returned to the house and
+ tries to help Xeno, but the terrorists arrive ("Fight"). Xeno escapes,
+ but Neo and Nickell are killed. Xeno runs up to Kiku's room where Kiku
+ helps her escape out the window ("Escape"). The terrorists and Kiku's
+ daughter decide to burn the laboratory before leaving ("Torching").
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, read the CREDITS, read the WHOLE STORY, read the MUSICAL
+ CUES, or read the RECOMMENDATIONS?
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>clear sequence
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... The Sequence is now empty.
+
+ ***
+
+ —
+>put basement in a
+ —
+
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 2 has been inserted into
+ slot A, filling it.
+
+ A: 2. Basement
+
+ ***
+
+ Cochone sighs and breathes deep.
+
+ —
+>put powerboat in b
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 10 has been inserted into
+ slot B, filling it.
+
+ Sequence: A: 2. Basement   B: 10. Powerboat
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 3
+ Pittsburgh Penguins 7     San Jose Sharks 5  Buffalo Sabres 7
+ Florida Panthers 7  Boston Bruins 7     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 94  Denver Nuggets 99     New Orleans Hornets 120
+ Phoenix Suns 109
+
+
+
+ ***
+
+ —
+>put fight in c
+ —
+
+ Track 13 has been inserted into slot C, filling it.
+
+ Sequence: A: 2. Basement   B: 10. Powerboat   C: 13. Fight
+
+ ***
+
+ —
+>put escape in d
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 4 has been inserted into
+ slot D, filling it.
+
+ Sequence: A: 2. Basement   B: 10. Powerboat   C: 13. Fight   D: 4.
+ Escape
+
+ ***
+
+ Cochone's legs begin to ache, and he shifts in his seat to releive the
+ pressure.
+
+ —
+>put torching in e
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 3 has been inserted into
+ slot E, filling it.
+
+ Sequence: A: 2. Basement   B: 10. Powerboat   C: 13. Fight   D: 4.
+ Escape   E: 3. Torching
+
+ ***
+
+ —
+>tell jenny about sequence
+ —
+
+ Cochone rotates his chair around to face Jenny. "I have it. Let's get
+ Nigel in here." He coughs.
+
+ "Great!" Jenny says with the widest smile she's had all afternoon.
+ "I'll get him." She stands and reaches for her cane.
+
+ "Watch it," Cochone says, rising to help her. "Are you sure you're
+ okay?"
+
+ "Yes." Jenny stabilizes herself with the cane.
+
+ Cochone wobbles, steps back, and places a hand on the handle of
+ Jenny's wheelchair.
+
+ "Whoa," Jenny says. "Are you okay? Excitement too much?"
+
+ Cochone falls into the wheelchair. "Yeah. I'll wait here." He
+ struggles for breath.
+
+ Jenny frowns. "I'll be right back." She hobbles into the hall.
+
+ "What was that, Jenny?" Cochone mumbles as his lungs chase oxygen.
+
+ Nigel appears. He is saying something. "I said, 'are you okay?'"
+
+ "Sure," Cochone says. Straightening, he tries to stand, but he teeters
+ and falls back into the chair. "Just push me over to the desk, and
+ I'll show you what we have."
+
+ Nigel pushes Cochone up to the desk. Jenny watches with concern.
+
+ Jenny and Nigel remain silent as Cochone clicks through the
+ ten-segment  and short sequences.
+
+ "Okay," Nigel says. "We're going to get you some medical attention.
+ But based on what we've seen, we don't have a lot of time. What do you
+ think we should do now?"
+
+ —
+>undo
+
+
+ Cochone blinks and scratches his head. He realizes he never actually
+ performed his last thought.
+
+ —
+>ask jenny for hints
+ —
+
+ "I need some fresh eyes on this," Cochone says. "Will you take a
+ look?"
+
+ "Okay." Jenny wheells up beside the detective. She studies the
+ computer screen. Her fingers dance along the keyboard.
+ "It seems that "Torching" probably happened later than where you put
+ it.
+
+ —
+>ask jenny for opinion
+ —
+
+ Cochone decides to just type "opinion" like Jenny suggested.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... The screen lists the long
+ Sequence:
+
+ 7: Kitchen (VR1; 5:22)     12: Diary (VR1; 0:30)     11: Chrysanthemum
+ (CP2; 4:01)     9: Locked Door (CP1; 3:52)     1: Google (CP3; 0:00)
+ 2: Basement (VR1; 7:33)     10: Powerboat (SR; 120:00)     13: Fight
+ (CP2; 7:46)     4: Escape (CP1; 8:02)     3: Torching (CP2; 0:17)
+ Cochone then brings up the short sequence:
+
+ 15: Backyard (CP1; 4:25)     8: Dead Zone (CP1; 3:12)     5: Time
+ Lapse (VR2; 120:00)     6: Sound Test (SR; 0:21)     14: Squirrel Trap
+ (CP2; 6:11)
+
+ ***
+
+ Cochone hears ringing in his ears.
+
+ —
+>put 7 in a
+ —
+
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 7 is now in Slot A. The
+ sequence has shifted forward of slot A, filling in the nearest empty
+ slot.
+
+ Sequence: A: 7. Kitchen   B: 2. Basement   C: 10. Powerboat   D: 13.
+ Fight   E: 4. Escape   F: 3. Torching
+
+ ***
+
+ Cochone sniffs, then rubs his eyes.
+
+ —
+>put 12 in b
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 12 is now in Slot B. The
+ sequence has shifted forward of slot B, filling in the nearest empty
+ slot.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 2. Basement   D: 10.
+ Powerboat   E: 13. Fight   F: 4. Escape   G: 3. Torching
+
+ ***
+
+ —
+>put 11 in c
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 11 is now in Slot C. The
+ sequence has shifted forward of slot C, filling in the nearest empty
+ slot.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 2.
+ Basement   E: 10. Powerboat   F: 13. Fight   G: 4. Escape   H: 3.
+ Torching
+
+ ***
+
+ Cochone needs to scratch an itch, so he types.
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... <span class="floydstyle i">NHL</span>   Anaheim Ducks 4
+ Pittsburgh Penguins 7     San Jose Sharks 6  Buffalo Sabres 7
+ Florida Panthers 7  Boston Bruins 7     <span class="floydstyle i">NBA</span>  Minnesota
+ Timberwolves 99  Denver Nuggets 107     New Orleans Hornets 128
+ Phoenix Suns 115
+
+
+
+ ***
+
+ —
+>put 9 in d
+ —
+
+ Track 9 is now in Slot D. The sequence has shifted forward of slot D,
+ filling in the nearest empty slot.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 2. Basement   F: 10. Powerboat   G: 13. Fight   H: 4.
+ Escape   I: 3. Torching
+
+ ***
+
+ Cochone coughs.
+
+ —
+>put 1 in e
+ —
+
+ *** <span class="floydstyle em">Sequitur</span> is working ... Track 1 is now in Slot E. The
+ sequence has shifted forward of slot E, filling in the nearest empty
+ slot.
+
+ Sequence: A: 7. Kitchen   B: 12. Diary   C: 11. Chrysanthemum   D: 9.
+ Locked Door   E: 1. Google   F: 2. Basement   G: 10. Powerboat   H:
+ 13. Fight   I: 4. Escape   J: 3. Torching
+
+ ***
+
+ —
+>tell jenny about sequence
+ —
+
+ Cochone rotates his chair around to face Jenny. "I have it. Let's get
+ Nigel in here." He coughs.
+
+ "Great!" Jenny says with the widest smile she's had all afternoon.
+ "I'll get him." She stands and reaches for her cane.
+
+ "Watch it," Cochone says, rising to help her. "Are you sure you're
+ okay?"
+
+ "Yes." Jenny stabilizes herself with the cane.
+
+ Cochone wobbles, steps back, and places a hand on the handle of
+ Jenny's wheelchair.
+
+ "Whoa," Jenny says. "Are you okay? Excitement too much?"
+
+ Cochone falls into the wheelchair. "Yeah. I'll wait here." He
+ struggles for breath.
+
+ Jenny frowns. "I'll be right back." She hobbles into the hall.
+
+ "What was that, Jenny?" Cochone mumbles as his lungs chase oxygen.
+
+ Nigel appears. He is saying something. "I said, 'are you okay?'"
+
+ "Sure," Cochone says. Straightening, he tries to stand, but he teeters
+ and falls back into the chair. "Just push me over to the desk, and
+ I'll show you what we have."
+
+ Nigel pushes Cochone up to the desk. Jenny watches with concern.
+
+ Jenny and Nigel remain silent as Cochone clicks through the
+ ten-segment  and short sequences.
+
+ "Okay," Nigel says. "We're going to get you some medical attention.
+ But based on what we've seen, we don't have a lot of time. What do you
+ think we should do now?"
+
+ —
+>wait
+ —
+
+ Cochone ponders the case.
+
+ —
+>wait
+ —
+
+ Cochone ponders the case.
+
+ —
+>stand up
+ —
+
+ Cochone tries to concentrate, to move.
+
+ "Just relax, Steve," Nigel says. "Take a break if you need to. Has he
+ been like this all afternoon, Jenny?"
+
+ "He seemed a little sick when he got here this morning," Jenny says.
+ "But he wasn't this bad."
+
+ Cochone slumps. His head slams against the desk.
+
+ Jenny gasps.
+
+ Cochone feels hands on his shoulders. Whispering. " ... Steve to the
+ hospital ... " Nigel's voice.
+
+ " ... Go with him ... " Jenny now. " ... Let you know ... "
+
+ Cochone blacks out.
+
+ <span class="floydstyle em">New England Journal of Medicine</span> Jan. 25, 2015
+ <span class="floydstyle subheader">Hearing loss and paralysis associated with a novel airborne</span>
+ chemical agent
+ Abstract: Over a period of three days, 14 emergency response
+ personnel, including police and firefighters, were admitted to
+ hospital with nausea, vomiting, headache, motor incordination, and
+ syncope. They had been exposed to a synthetic compound while
+ investigating an abandoned house in the Belle Bayou of New Orleans,
+ Louisiana. All of the patients survived, but ten developed severe
+ hearing loss and paralysis. Another woman, also found at the site,
+ died two weeks after exposure. <span class="floydstyle em">New York Post</span> Mar. 12, 2015
+ <span class="floydstyle subheader">Hundreds die in subway attacks</span>
+ Hundreds of commuters were hurt or killed yesterday when canisters of
+ AU879-98 were released in New York subways. This represents another in
+ a series of similar attacks in major cities across the US. The
+ Tunisian terrorist group Ansar al-Sharia says the attacks will
+ continue ... The mysterious gold powder has not been identified ...
+
+
+
+
+ ***  ... And the story ends. Cochone's investigation
+ leads to one of four outcomes, dependent upon what he can link
+ together, if anything. You can only reach the finale by solving the
+ ten-segment chain. Whether or not you solve the short chain, however,
+ does influence the outcome. If you decide to play again, keep in mind
+ that Jenny likes to be talked to, and the game recognizes some
+ standard commands that don't apply to the "Sequitur" program when used
+ with objects in Jenny's office. These include examine and listen.
+
+ <span class="floydstyle em">Sequitur</span> includes bonus tracks: WHOLE STORY shows how all the
+ footage fits together in one sequence; MUSICAL CUES describes the
+ inspiration for <span class="floydstyle em">sequitur</span>; RECOMMENDATIONS suggests some other
+ material you may enjoy. ***
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, read the CREDITS, read the WHOLE STORY, read the MUSICAL
+ CUES, or read the RECOMMENDATIONS?
+>recommendations
+
+ <span class="floydstyle subheader">Fiction</span>
+
+ Faber, Michel. <span class="floydstyle em">Under the Skin.</span> Harcourt. 2000.
+ Hawk, Rhodi. <span class="floydstyle em">A Twisted Ladder.</span> Forge Books. 2009.
+ Ransom, Christopher. <span class="floydstyle em">The Birthing House.</span> St. Martin's Press.
+ 2010.
+ McEuen, Paul . <span class="floydstyle em">Spiral.</span> Headline Publishing Group. 2011.
+ Morrison, Toni. <span class="floydstyle em">Beloved.</span> Alfred Knopf. 1987.
+ Ozeki, Ruth L. <span class="floydstyle em">My Year of Meats.</span> Viking Press. 1998.
+
+ <span class="floydstyle subheader">Nonfiction</span>
+
+ Aldersey-Williams, Hugh. <span class="floydstyle em">Periodic Tales: A Cultural History of the</span>
+ <span class="floydstyle em">Elements from Arsenic to Zinc.</span> HarperCollins. 2011.
+ Emsley, John. <span class="floydstyle em">The Elements of Murder: A History of Poison.</span>
+ OUP Oxford. 2005.
+ Kean, Sam. <span class="floydstyle em">The Disappearing Spoon: And Other True Tales of</span>
+ <span class="floydstyle em">Madness, Love, and the History of the Periodic Table of the</span>
+ <span class="floydstyle em">Elements.</span> Back Bay. 2011.
+ Tucker, Jonathan B. <span class="floydstyle em">War of Nerves.</span> Pantheon Books. 2006.
+
+ <span class="floydstyle subheader">Films</span>
+
+ Antonioni, Michelangelo. <span class="floydstyle em">Blowup.</span> Michelangelo Antonioni and
+ Tonino Guerra screenwriters. MGM. 1966.
+ Ayer, David. <span class="floydstyle em">End of Watch.</span> David Ayer, screenwriter. Open
+ Road Films. 2012.
+ Coppola, Francis Ford. <span class="floydstyle em">The Conversation.</span> Francis Ford
+ Coppola, screenwriter. Paramount Pictures. 1974.
+ De Palma, Brian. <span class="floydstyle em">Blow Out.</span> Brian De Palma, screenwriter.
+ Filmways Pictures.  1984.
+ Dowdle, John Erick. <span class="floydstyle em">Quarantine.</span> Drew Dowdle and John Erick
+ Dowdle, screenwriters. Screen Gems. 2008.
+ Myrick, Daniel and Sanchez, Eduardo. <span class="floydstyle em">The Blair Witch Project.</span>
+ Daniel Myrick and Eduardo Sanchez, screenwriters. Artisan
+ Entertainment. 1999.
+
+ <span class="floydstyle subheader">Interactive Fiction</span>
+
+ Reed, Aaron. <span class="floydstyle em">18 Cadence.</span> Custom. 2013.
+ Sandel, Colin and VanEseltine, Carolyn. <span class="floydstyle em">One Eye Open.</span> Glulx.
+ 2010.
+ Weiner, Matt. <span class="floydstyle em">Friendly Companion.</span> Zcode. 2013.
+ All the entries in the 2014 ShuffleComp.
+
+ Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last
+ command, read the CREDITS, read the WHOLE STORY, read the MUSICAL
+ CUES, or read the RECOMMENDATIONS?

@@ -1,0 +1,3509 @@
+>load ntts
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+
+
+
+
+
+
+    What sucks, about being the pro agent for a sociopathic defensive
+ tackle like Tavarian Pittman, is the never-ending, ulcer-inducing,
+ cloud of dark dread that seems to follow him and those that associate
+ with him.  Tavarian is a chiseled 6'4", 313lb athletic monster -- he
+ can run the 40 yard dash in 4.33 seconds, and can throw opposing
+ players around the football field with ease.  While playing, he is a
+ whirling dervish of rage.  Unfortunately, Tavarian displays that same
+ kind of restraint in everyday life.
+
+    Four months ago, he celebrated winning an award at the Nokia Sugar
+ Bowl by crashing an off-campus party and proceeded to get roaring drunk
+ with his friends.  It was a theme party -- a pre-med student hosting it
+ had a cadaver on display as the party's centerpiece.  After drinking
+ himself into an almost criminal level of intoxication, Tavarian and his
+ friends started throwing the corpse around the house as if it were an
+ old softball.  Tavarian punched a hole through the back of the thing's
+ neck and started a ventriloquist act in extremely poor taste.
+
+    An attending film studies student had brought his camcorder with him
+ and recorded the entire thing.
+
+    It made national headlines: Tavarian was called out by sports
+ writers everywhere, denounced as an archdemon, and the summation of
+ What's Wrong With Collegiate Sports.  His nickname soon became 'The
+ Ripper' when one beat writer wondered if his next act was in writing
+ "Dear Boss" letters to the local paper. Tavarian had already declared
+ for the NFL Pro Draft, so he had no option of returning to school and
+ laying low until the incident blew over.  He was likely to go
+ completely undrafted, as no professional team could afford the PR hit
+ they would take by selecting him.
+
+    You'd been trying to make it on your own as a sports agent for a
+ while now.  You love the independence of being your own boss, you'd
+ always loved sports and you wanted to be able to provide an affluent
+ living for your wife and the baby that was on the way... but it hasn't
+ been easy.  Becoming successful on your own has been a complete
+ Catch-22 -- you need to sign a high-profile client in order to make any
+ real money, but no normal athlete wants to risk being your first big
+ contract.
+
+    Tavarian was looking for an agent when you met him while scouting a
+ winter baseball game a few months back.  You had managed to win a huge
+ arbitration case for the backup shortstop on the Red Sox -- no small
+ prize, considering the perennial all-star he plays behind -- and you
+ started to generate whispers that perhaps you had a talent for working
+ miracles.  Tavarian, who was in need of one, introduced both himself
+ and his girlfriend Theresa during the game.  You in turn introduced
+ your wife, Charlise.  Both girls were five months pregnant with their
+ first child and they completely hit it off.  Charlise practically sold
+ you herself, painting a glorious picture of how hard you work and what
+ a good soul you are -- essentially depicting you in the kind, glowing
+ terms that she sees you with everyday.
+
+    Tavarian expressed to you his desire to turn his life around and get
+ drafted by an NFL team in April, and ultimately hired you that day.
+ Since then you have been working the circuit, trying to bend the ear of
+ the 32 NFL general managers.  It hasn't been easy -- being away from
+ your wife for most of the time has been excruciating, really -- and it
+ didn't help when Tavarian spent a night in jail after going berserk on
+ some pizza delivery guy while Theresa was visiting her parents... but
+ with a calming influence around him 24/7 ever since, there have been no
+ other problems.
+
+    Really, he doesn't seem to be the psychotic harbinger of death that
+ the media has painted him out to be.  Not when you really get to know
+ him.
+
+
+
+
+
+
+
+
+ No Time To Squeal
+ Interactive Fiction
+ Copyright (c) 2001.  Written and programmed by Mike Sousa and Robb
+ Sherwin
+ (First-time players should type HELP)
+ Release 1.0 / Serial number 092801 / TADS 2.55
+
+ Golf Course
+    You're on the golf course with the general manager of the New
+ England Patriots.  The meeting is going well, so far, but your mind is
+ really with Charlise, who is now nine months pregnant and due any day
+ now.  Funnily enough, even in your semi-distracted state, this is the
+ first team you've made progress with.  It's a good fit -- they see you
+ as a local boy who can be trusted, and they have some serious defensive
+ issues they could solve with Pittman.  The Patriots are picking
+ twenty-third, and have a history of not being overly concerned with
+ drafting or signing guys with... well, with some question marks.
+ Katzenmoyer, Peter, Meggett, Mowatt -- it's not exactly like
+ quarterback Donny Osmond handing off to halfback Marie.  If you can
+ just convince them to meet Tavarian... then, provided he just acts like
+ himself, he's at least got the opportunity to charm them.  Maybe they
+ don't take him in the first round, but even if he is taken in the
+ second or third it would be a great day for him, *considering* and all,
+ and a major success for yourself.
+
+ Dan Fonda, the general manager of the Patriots, is here with you.  He's
+ up two strokes on you, but is heading for a triple-bogey on this hole.
+ The other two guys in the foursome -- director of Player Development
+ Terry O'Hare and current player Bucky Johnson, are a dozen strokes
+ behind you two.  You can probably get it into the cup in two strokes
+ from here, and win the match outright.  Or, should you slice, hook or
+ just outright shank it, you'll ensure that Fonda wins.  He seems
+ earnest and sincere, and the kind of guy who wouldn't catch on if you
+ let him win.  But then, he might be the kind of guy who doesn't respect
+ someone who can't "beat" him on the greens.  Just which you're not sure
+ of, yet.
+
+>win
+ I don't know the word "win".
+
+>learn how to play golf
+ I don't know the word "learn".
+
+>examine me
+ Your name is Kieron Scott.  You are an agent within the field of
+ professional sports, and just starting out with your own business.  You
+ are in your late twenties, are about 5'10", 175lbs and have blue eyes
+ and black hair.
+
+>inventory
+ You have a pitching wedge.
+
+>examine wedge
+ Your pitching wedge.  True, sturdy, and faithful.  You had messed
+ around with graphite clubs before, and still use them occasionally, but
+ when the pressure's on, you want Old Faithful at your side.
+
+>examine ball
+ Titleist, #3.
+
+>hit ball toward hole
+ I don't know the word "toward".
+
+>examine dan
+ Dan Fonda is a former cornerback who worked his way into the NFL by
+ putting in hard time in every league he could find until he could get a
+ look -- the XFL, the Canadian Football League, Arena ball, and some
+ Soviet Prison Conference that he doesn't talk about that much.  A few
+ years past his playing days, he's kept himself in excellent physical
+ shape, and seems to have stepped right out of an old 'Dockers'
+ commercial.  You suspect that he's receptive to bringing in a player
+ like Tavarian, who has a few strikes against him, because he's had to
+ scrape his way to the top himself.
+
+>hit ball
+ You swing the club, and sure enough, your aim is sweet.  You land the
+ ball onto the green and manage to sink it in on the next putt.
+
+ "Good work," beams Dan.  "It's been a long time since I've had any
+ competition, especially playing with these two clowns," he gestures
+ over to Terry and Bucky.
+
+ "Yeah, you watch out, Fonda, I get this kink out of my swing and I'm
+ all over you," says Bucky.
+
+ "You had eight mulligans, Bucky," says Dan.  "You've been discarding
+ more balls than the guy who does the neutering over at the local vet."
+
+ "Ouch," says Terry.  Ouch, indeed.
+
+ Country Club Parking Lot
+    Finding your car in the parking lot isn't extremely difficult -- as
+ it's not a Lexus, Porsche or BMW, 99% of the cars are eliminated right
+ away.  Of the two remaining cars, the jet-black Hummer with a woofer
+ completely taking up all available space past the front seats belongs
+ to Bucky, and the 95 Neon is yours.  (Hey, at least it's the two door
+ version with the big engine, and not some wood-grained station wagon
+ that would garner nothing but looks of disdain and sympathy from the
+ other golfers.)  You head over toward it in order to put your clubs
+ away.
+
+ "Say, Kieron," says Dan, "Why don't you come over to the club house
+ with us.  We could talk some things over regarding Pittman and the
+ draft."
+
+>examine bucky
+ I don't see any bucky here.
+
+>examine neon
+ Your Neon has served you well -- no headgasket problems yet.  The
+ interior is a little noisy, but overcome with its decent stereo system.
+
+>turn on stereo
+ I don't see any stereo here.
+
+>enter neon
+ You can't enter your car while carrying your clubs!
+
+>open trunk
+ Opened.
+
+ "Tell you what," says Dan, "I'm going over to the club house -- meet us
+ there for lunch."
+
+ Dan then heads south, over toward the club house.
+
+>put clubs in trunk
+ You put the clubs away and then shut the trunk.
+
+>enter car
+ You open the car door and get in.
+
+ Inside your car
+    Chrysler did some good work with the early model Neons -- although
+ there isn't much room in the backseats, and the dash, save for your
+ built-in cell phone, is kind of spartan, it's plenty comfortable and
+ extremely responsive.  Overall, it kind of moves like a slot car.
+
+>turn on stereo
+ I don't see any stereo here.
+
+>turn on radio
+ The car hasn't been started.
+
+>close door
+ It's already closed.
+
+>turn on car
+ I don't know how to turn your car on.
+
+>turn ignition
+ I don't know the word "ignition".
+
+>examine key
+ I don't know the word "key".
+
+>start car
+ Before starting the car, you decide to run over to the club house and
+ tell Dan that you can't stay for lunch.
+
+ "Dan," you say, "I'd love to be able to stay and chat.  Thing is, my
+ wife is due any moment now.  I've really got to drop by and check up
+ real quick, in case something happened and she was unable to reach me
+ with the phone.  It's odd -- she should have called by now.  Tell you
+ what, though, why don't I meet you and Terry for a couple beers
+ tonight, provided she doesn't go into labor?  I've got a presentation I
+ can give that will explain just why I honestly believe that Tavarian
+ has shaped up, and what he can do for your club."
+
+ "No problem," says Dan.  "You've got my number, right?  Sounds like a
+ plan."
+
+ You've actually got no presentation in mind, but you pretty much know
+ what you want to say -- it's just a matter of turning it into a format
+ that Microsoft Powerpoint can understand.  But hey, living life on the
+ edge like this is what being an agent is all about.
+
+ You say good-bye to both Terry and Bucky and head back toward your car.
+
+ You place the key into the ignition and give it a turn -- the car fires
+ up without a problem.  (You get a wistful, longing glance from the guy
+ next to you trying to start his MGB, but ignore it.)
+
+ Your favorite radio station is apparently in the middle of an
+ eight-minute marathon of Third Party Microsoft Certification
+ commercials, so you change over to NPR.
+
+ Turning out of the country club and heading home, things are pretty
+ slow-going. As it turns out, according to the radio, somebody snapped
+ today and is waving a gun at people a few dozen miles down the freeway.
+
+>You don't need to turn the car on, *I* do
+>drive
+
+ The traffic is still something awful up ahead.
+
+>get out of car
+ Always trying to get yourself on Fox's 'World's Most Suicidal Drivers,'
+ aren't you Kieron?
+
+ You try to drive, but can't get very far because of the backlog of
+ cars.
+
+>change channel
+ I don't know the word "channel".
+
+>change radio
+ I don't know how to change the radio.
+
+ Hm... looks like the congestion of cars is starting to thin a little...
+
+ It probably wouldn't be a bad idea to call Charlise and let her know
+ you're going to be a little late.  She might have heard about the
+ lunatic on the highway and might be, rightfully so, a bit concerned.
+
+>inventory
+ You are empty-handed.
+
+ The traffic jam has almost completely dispersed.
+
+>call wife
+ The phone rings eight times and the answering machine picks up.
+ Usually the both of you leave a rather detailed message for one another
+ when leaving the house, so she's probably napping or something.
+
+ A police cruiser goes screaming past you in the breakdown lane.
+
+ You put the car into gear and drive home.
+
+ You pull into the garage, close the garage door and get out of the car.
+
+ Garage
+    You are in your garage.  It's technically a two-car garage, but as
+ you only have one automobile, you've got a lot of floorspace designated
+ for various tools and around-the-house equipment.  To the east is the
+ laundry room door.  The garage door has been closed behind you.
+
+ You hear a buzzing sound coming from the laundry room.
+
+>examine tools
+ The tools and equipment aren't important.
+
+>examine tools
+ The tools and equipment aren't important.
+
+>go east
+ (Opening the laundry door)
+ Laundry room
+    Sometimes, when you've started to take for granted what an absolute
+ treasure you have as a wife, she goes and pulls a stunt like this and
+ raises the bar.  Even though her water could break at any moment now,
+ she still managed to haul down a few of those bulky sweaters you like
+ lounging about in from the top of your closet, and place them into the
+ dryer.  After all, warm equals sanitary, safe, and clean.  Bringing
+ down one of them is considerate, sure.  But four or five?  So you can
+ pick one out specifically?  That's above and beyond the call of duty,
+ alright.
+
+>examine sweater
+ The sweaters are in the dryer.
+
+>open dryer
+ You open and turn off the dryer, and place the sweaters on top of it.
+
+>take sweater
+ Which sweater do you mean, the knitted sweater, the Red Sox jersey, the
+ UCONN sweatshirt, the Scottish knit, or the wool sweater?
+
+>examine knitted
+ You'd always suspected that your weren't your aunt's favorite, and this
+ crimson-and-fluorescent oversized monstrosity she gave to you two
+ Christmases ago was the smoking gun as to why.
+
+ Your dog scratches at the hallway door.
+
+>examine sox
+ #5 NOMAR!  MVP!
+
+>examine uconn
+ It was a gift from a few years ago when they were doing that
+ inexplicable 'The Team That Makes You Go Hmm' slogan phase.  You're no
+ scholar, but neither a stranger to lore and letters.  But you can
+ perceive no sense there as to why *that* was their slogan.
+
+>examine scottish
+ This was a gift from Charlise when she went visiting her ancestors in
+ Glasgow a few years back.  It's really held up well over the years, and
+ you get all sentimental thinking of what a great value it was just by
+ looking at it.
+
+>examine wool
+ Okay, you don't wear this out in public much, but Charlise digs it, so
+ what can you do.
+
+ You hear your dog Watson barking in another room.
+
+>take scottish
+ Taken.
+
+>wear scottish
+ You put it on and quickly remove it -- you're a bit warm after being in
+ the sun all day.
+
+>look
+ Laundry room
+    You're within your Laundry Room -- it's a close-quartered little
+ thing that links your house's hallway, which is to the north, with the
+ garage.  There's a washer and dryer here.
+    Sitting on the dryer is a knitted sweater, a Red Sox jersey, a UCONN
+ sweatshirt, and a wool sweater.
+
+>open washer
+ Done.
+
+ You hear your dog Watson barking in another room.
+
+>look in washer
+ There is nothing in the washing machine.
+
+>look in dryer
+ There is nothing in the dryer.
+
+>go north
+ (Opening the hallway door)
+ Hallway
+    A few pictures line the hallway, but it's otherwise sparse.  Your
+ living room, kitchen, and bedrooms are further down the hall to the
+ north.
+
+ Your dog Watson runs to your feet.
+
+>pet dog
+ The beagle wags his tail at you happily, and returns to his puttering
+ around.
+
+>examine dog
+ Watson is a faithful and handsome young beagle, with brown eyes and tan
+ and white fur.
+
+>give sweater to dog
+ The beagle rejects the offer.
+
+>take dog
+ You pick up the beagle and pat him on the head a couple of times.  He
+ licks your face and then you gently put him down.
+
+>pet dog
+ The beagle wags his tail at you happily, and returns to his puttering
+ around.
+
+>examine pictures
+ Charlise has a knack for decorating, they complement the hallway
+ nicely.
+
+>look
+ Hallway
+    A few pictures line the hallway, but it's otherwise sparse.  Your
+ living room, kitchen, and bedrooms are further down the hall to the
+ north.
+    Your beagle is here, puttering around.
+
+>go north
+ Hallway
+    You're about halfway down your hallway.  To the west is your living
+ room.  The bedrooms and kitchen are further north, down the hall.
+
+ Watson runs past your feet down the hallway and disappears into the
+ living room, barking and yelping for your attention.
+
+>go west
+ Living Room
+    You enter your living room and automatically take a whiff of the
+ room's scent -- the smell of your new leather couch isn't so new that
+ you don't notice it yet.  It cost you almost the entire commission you
+ made when you got Artero Gueterrez a six-month minor league contract
+ with the Toledo Mud Hens, but both you and Charlise had earmarked this
+ one for years.  (Good kid, that Artero, but couldn't hit a curveball in
+ an airless vacuum.)
+
+ The room is laid out with the couch in front of your television and
+ stereo speakers.  A couple of Charlise's frescos hang from the walls,
+ and you've started to add stucco to the ceiling.  A couple of your
+ golfing trophies adorn the shelves near the phone, and a signed
+ Garciaparra bat is also hanging up, encased in a plastic preservation
+ shell.
+
+ Watson's over in front of the couch, sniffing and snorting at
+ something.
+
+ Your main front window has a long crack running through it.
+
+ The auxiliary window to the right of that one is completely shattered.
+ Glass from it has sprayed out onto your floor, definitely smashed from
+ something or somebody on the outside.
+    Your beagle is here, puttering around near the couch.
+
+>examine couch
+ After years of sitting and sleeping on a second-hand couch that your
+ older brother gave you from his college years, you were happy to have
+ this nice leather one.  There are claw marks in the carpet near the
+ edge of the sofa -- it appears as if Watson has been trying to get at
+ something.
+
+>examine glass
+ The shards of glass are almost everywhere.
+
+>examine carpet
+ It's hunter green and in good shape, save for the shattered glass and
+ claw marks near the sofa.
+
+>look under carpet
+ The carpet isn't important.
+
+>look under couch
+ You find a baseball, which you promptly pick up.
+
+>examine baseball
+ It's not one of yours... it's apparently what was thrown through your
+ front window.  There's some writing on it, in a flowery cursive text,
+ not completely unlike an autograph.
+
+>read writing
+ Upon closer inspection, it's not an autograph at all.  You make out the
+ words, slowly, but it says:
+
+ NO TIME TO SQUEAL KIERON
+
+>look
+ Living Room
+    Something -- a baseball, a rock, a human fist -- tried getting into
+ your house earlier.  Glass is strewn all about your floor from your
+ (former) right front window.
+
+ Exits lead north to your kitchen and east to the hallway.
+    Your beagle is here, puttering around near the couch.
+
+>squeal
+ There is no time.
+
+>show ball to dog
+ The beagle isn't impressed.
+
+>clean up glass
+ I don't recognize that sentence.
+
+>throw ball
+ It would be simpler to just drop the baseball.
+
+>take glass
+ That would hurt, though.
+
+>search couch
+ There's nothing on the couch.
+
+>look
+ Living Room
+    Something -- a baseball, a rock, a human fist -- tried getting into
+ your house earlier.  Glass is strewn all about your floor from your
+ (former) right front window.
+
+ Exits lead north to your kitchen and east to the hallway.
+    Your beagle is here, puttering around near the couch.
+
+>go north
+ Kitchen
+    Pots, pans, chairs, tables -- and your wife laid out on the floor,
+ not moving, in a puddle of... something.
+
+ Watson enters the kitchen sheepishly.
+
+>examine wife
+ She's breathing.  You try to wake her up, gently.  You go to move her
+ head away from the side of the counter and notice her hair stuck to it
+ in some kind of paste or something.
+
+>examine paste
+ It's blood from the side of her head.
+
+>call 911
+ I don't know how to call the number 911.
+
+>search wife
+ There's nothing in your wife.
+
+>look
+ Kitchen
+    Pots, pans, chairs, tables -- but none of that matters right now.
+    Charlise is here, unconscious or asleep on the floor.
+    Your beagle is here, puttering around.
+
+>panic
+ I don't know the word "panic".
+
+>cry
+ I don't know the word "cry".
+
+>xyzzy
+ Sorcery in that manner seems to fail you.
+
+>help wife
+ You clear her hair away from the side of the counter.  It looks like
+ you might have pulled a little too hard, though, because the pain wakes
+ her up.
+
+ "Ow!" says Charlise.
+
+ Not leaving anything to chance, you run into the living room and dial
+ 911, asking for an ambulance -- you then sprint back to be with your
+ wife.
+
+>talk to charlise
+ "Are you okay?  Honey?"  You don't want to shake her or anything -- but
+ if you have to, is that okay?  Maybe, though?  You can't remember what
+ you're supposed to do if this comes up, even though that girl from the
+ breathing classes covered this.
+
+ Charlise doesn't really respond -- she's still groggy from the fall.
+
+>look
+ Kitchen
+    Pots, pans, chairs, tables -- but none of that matters right now.
+    Charlise is here, still woozy from the fall.
+    Your beagle is here, puttering around.
+
+>examine chair
+ I don't see any chair here.
+
+>help charlise
+ There is no more blood to clean.
+
+>take wife
+ You pick her up and carry her outside the house.  The ambulance comes
+ quickly and whisks you both away.
+
+ LDR Room
+    The LDR (labor, deliver, recovery) Room is a warm, yet somewhat
+ generic, setting designed to provide for the comfort of each patient,
+ newborn, and family member throughout the birthing process.  The decor
+ is straight out of Disney Corp's idea of pregnant bliss:  azure walls
+ covered with the occasional sunflower, well-polished teak furniture, an
+ antique rocking chair.  The fetal monitor and other assorted scanning
+ equipment seem almost out of place here.
+
+ "What happened?" you ask Charlise.
+
+ Charlise struggles for a bit to remember.  "Watson was barking at
+ something...  I was in the bedroom...  I don't know what happened, I
+ think I slipped or something... oh, God, Kieron, this doesn't feel
+ right at all..."
+
+ The nurse arrives from the hall.
+
+>talk to nurse
+ "What's up -- is she going to be okay, is the baby -- "
+
+ "Just one sec," she says, "I'll find out in just a bit."
+
+ The nurse begins hooking up the various monitors to Charlise.
+
+ The nurse introduces herself and begins checking on your wife.
+
+>talk to charlise
+ "Hey, chin up, kid" you say.  She gives you a questioning look,
+ something that effectively says Why are you talking to me like you're
+ coaching a tee-ball team?
+
+ The nurse puts a belly band on your wife.
+
+>examine belly band
+ The belly band is wrapped around your wife's belly.
+
+ The nurse patiently waits for the fetal monitor to give a reading.
+
+>examine monitor
+ It looks like a 17" monitor running some kind of proprietary birthing
+ software.
+
+ The nurse is reviewing the monitor strip.
+
+>wait
+ Time passes...
+
+ The nurse is studying the fetal monitor with a concerned look.
+
+>squeal
+ There is no time.
+
+ The nurse's face goes white.  She moves over toward the intercom.
+
+ "Paging Dr. McKinney, I need you in LDR 14 STAT, paging Dr. McKinney,
+ LDR 14 STAT!"
+
+>hold wife's hand
+ I don't know the word "wife's".
+
+>wait
+ Time passes...
+
+ The nurse takes your wife's blood pressure and checks her heart rate.
+
+>wait
+ Time passes...
+
+ The nurse continues to study the fetal monitor strip.
+
+>hug wife
+ It's difficult to get your arms around her, but you do the best you
+ can.
+
+ The nurse takes your wife's temperature.
+
+>talk to wife
+ "Look, I'll give your parents and your sister a call after this," you
+ say.  "Is your sister still living in Colorado?"
+
+ "I think she just recently moved toward the desert," says Charlise.
+
+ The doctor arrives from the hall.  He takes a look at the monitors, and
+ does a very poor job of attempting to conceal an expression of horror.
+
+ "Let's get her over to the operating room," he says.
+
+ Outside the Operating Room
+    Charlise was brought into the Operating Room, but you were told to
+ stay outside.  You're not sure if she's okay, if the baby is okay, or
+ what is going on in there, but you have to find out.
+    There is an orderly here, sitting at the end of a long metal bench.
+
+>talk to orderly
+ "Hey, look man...  that's my wife in there.  Can't you let me in?"
+
+ The orderly shakes his head in the negative.  "I'm sorry -- can't do
+ it."
+
+>punch orderly
+ The orderly punches you back, and then lets the confrontation drop.
+
+>undo
+ (Undoing one command)
+
+ Outside the Operating Room
+    The OR Hall is a big, empty room with aqua tiles and a bench to sit
+ upon.  There is a door that leads into the operating room itself.  To
+ the right of the long metal bench is an intercom.  The orderly won't
+ let you in, though.
+    There is an orderly here, sitting at the end of a long metal bench.
+
+>inventory
+ You are empty-handed.
+
+>examine intercom
+ The intercom is a smallish box that is used as a means of paging other
+ staff members.  The only notable feature is a small black button.
+
+>push button
+ As you go to use it, the orderly looks up at you and you make believe
+ you're doing something else.
+
+>enter door
+ The orderly blocks your path.
+
+>talk to orderly
+ "I'll be sure to let you know when it's okay for you to go in," says
+ the orderly.
+
+>look
+ Outside the Operating Room
+    The OR Hall is a big, empty room with aqua tiles and a bench to sit
+ upon.  There is a door that leads into the operating room itself.  To
+ the right of the long metal bench is an intercom.  The orderly won't
+ let you in, though.
+    There is an orderly here, sitting at the end of a long metal bench.
+
+ A janitor arrives from the hall.  He goes over toward the intercom and
+ speaks something into it.
+
+ As he heads down the hallway, he stops to chat with the orderly.
+
+ "Hey, Jimmy," says the janitor.  "How are you?"
+
+ "Good, good," says the orderly.  "I think I finally have this flu beat.
+ And you?"
+
+ "Oh...  just dandy.  Nice weather we're having, isn't it?"  says the
+ janitor.
+
+ "Yes, quite comfortable," agrees the orderly.  "Unseasonably warm,
+ even."
+
+ "Did you hear about that mess on the highway?" asks the janitor.
+
+ "Actually, I did.  Weird for someone just to lose it that way, wouldn't
+ you say?"
+
+ The orderly lets out a low whistle.
+
+ The conversation subsides and the janitor continues down the hallway,
+ disappearing into a utility closet.
+
+>examine closet
+ I don't know the word "closet".
+
+>examine orderly
+ He is a friendly chap, determined to not let you pass him.  The word
+ "ROGERS" is on his nametag.
+
+>talk to rogers
+ You try and engage in some small talk, but fail miserably.
+
+>talk to rogers about highway
+ I don't recognize that sentence.
+
+>take nametag
+>look
+ The orderly is wearing the nametag and won't let you have it.
+
+ Outside the Operating Room
+    The OR Hall is a big, empty room with aqua tiles and a bench to sit
+ upon.  There is a door that leads into the operating room itself.  To
+ the right of the long metal bench is an intercom.  The orderly won't
+ let you in, though.
+    There is an orderly here, sitting at the end of a long metal bench.
+
+>examine bench
+ It's a long metal bench.  An orderly currently occupies one end of it.
+
+>sit
+ (the bench)
+ Okay, you're now sitting on the bench.
+
+>wait
+ Time passes...
+
+>pace
+ I don't know the word "pace".
+
+>dance
+ I don't know the word "dance".
+
+>sing
+ What do you want to sing to?
+
+>sing to orderly
+ You decide to not sing to the orderly.
+
+>go south
+ You're not going anywhere until you get out of the bench.
+
+>ask orderly about weather
+ I don't know the word "weather".
+
+>call tavarian
+ I don't see any tavarian here.
+
+>stand
+ Okay, you're no longer in the bench.
+
+>go south
+ You feel compelled to stay as close to Charlise as possible.
+
+>call someone
+ I don't know the word "someone".
+
+>tell orderly about baseball
+ You wonder what the orderly has to say instead, so you ask him about
+ it.
+
+ "Um...  Did you say something?" asks the orderly.
+
+>tell orderly about wife
+ You wonder what the orderly has to say instead, so you ask him about
+ it.
+
+ "I don't know much about that," says the orderly.
+
+>ask orderly about janitor
+ "There's just something about that guy.  He looks like the Unabomber,"
+ says the orderly.
+
+>ask orderly about Unabomber
+ "Heh...  I'm telling ya," he says, "could be his twin..."
+
+>threaten orderly
+ I don't know the word "threaten".
+
+>tell orderly about unabomber
+ You wonder what the orderly has to say instead, so you ask him about
+ it.
+
+ "Heh...  I'm telling ya," he says, "could be his twin..."
+
+>build a bomb
+ I don't know the word "build".
+
+>ask orderly about bomb
+ I don't know the word "bomb".
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>talk to orderly
+ You try and engage in some small talk, but fail miserably.
+
+>ask orderly about gunman
+ I don't know the word "gunman".
+
+>ask orderly about shooter
+ I don't know the word "shooter".
+
+>ask orderly about highway
+ "Some whacko tied up traffic for hours -- been all over the news, " he
+ replies.
+
+>ask orderly about wacko
+ I don't know the word "wacko".
+
+>ask orderly about news
+ I don't know the word "news".
+
+>ask orderly about highway
+ "Some whacko tied up traffic for hours -- been all over the news, " he
+ replies.
+
+>ask orderly about traffic
+ "I don't really know," states the orderly.
+
+>press button
+ You speak into the intercom and hope that the orderly doesn't notice.
+
+ "James Rogers, please report to LDR 14, James Rogers, to LDR 14."
+
+ "Whoops," says the orderly.  "I'll be right back."
+
+>enter door
+ (Opening the OR door)
+ Operating Room
+    The Operating Room is fairly dark, save for the operating table
+ illuminated by the strong lights that Charlise is on.  There is a
+ doctor and nurse here working by her table.
+
+ "How did he get in here?"  asks the nurse.
+
+>judo chop nurse
+ I don't know the word "judo".
+
+>talk to nurse
+ "I just want to know what's going on," you say to the nurse.
+
+ "The doctor is attempting a c-section.  Stand over there, and be quiet,
+ please," says the nurse.  "As soon as we know something, we'll let you
+ know."
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+>talk to nurse
+ "We're not getting many life signs from the baby," says the nurse.
+
+>talk to nurse
+ "I'm not sure what it is, right yet," she says.
+
+ You overhear a bit of the conversation between the doctor and his
+ assistants.  It doesn't sound good, it doesn't sound like the baby made
+ it...
+
+>save baby
+ Please specify the name of the game to save in double quotes, for
+ example, SAVE "GAME1".
+
+ Dr.  McKinney comes over to you.  "Mr. Scott, I'm sorry..." he begins.
+
+ The words slough off your ears, you stare off, in disbelief...
+
+ "Charlise is going to make a full recovery, but the baby, we
+ couldn't... she didn't make it."
+
+ Gone?  Like that?  But why, for what reason...
+
+ Your knees buckle briefly, and you fall to the ground.  You need to get
+ up, you know that you need to get up, 'she'?  A baby girl, your baby
+ girl, gone, you imagine your wife's eventual tears, that she has yet to
+ find this out, you have to be there for her, buck up, get it together,
+ but everything your hear and see meshes into a horrible cacophony...
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over or quit.
+>restart
+
+
+
+
+
+
+
+
+ "You can't possibly want another one."
+
+ But Mother, I can!
+
+ "Oh, you *are* the fickle one, aren't you, Sweet Pea?"
+
+ O, I'm dainty!
+
+ "If I can not put up a reasoned, well-thought out resistance as to why
+ we should not be waddling our way over to the refrigerator and
+ consuming yet another batch of old-fashioned brined dill pickles, then
+ how on earth am I going to have the parental confidence to tackle such
+ inevitable topics like The Truth Behind Santa Claus, Braces & Social
+ Ostracization, and The Senior Prom?"
+
+ .  .  .
+
+ "Exactly.  Although there is no manual, per se, on any of this, I'm
+ fairly confident that brazenly conforming to your every wish and desire
+ is probably the wrong way to tackle parenting."
+
+ "Though...  they *would* be quite tasty."
+
+
+
+
+
+
+
+
+ No Time To Squeal
+ Interactive Fiction
+ Copyright (c) 2001.  Written and programmed by Mike Sousa and Robb
+ Sherwin
+ (First-time players should type HELP)
+ Release 1.0 / Serial number 092801 / TADS 2.55
+
+ Bedroom, on the comfy chair
+    Inexplicable vegetable cravings aside, this room leaves you quite
+ content for the moment.  You're curled up in what you and Kieron call
+ 'the comfy chair', reading one of the Dean Koontz novels you missed in
+ hardcover.  Being 39 weeks pregnant, you've had ample time to catch up
+ on your reading.
+
+ Your bedroom is paneled with a kind of faux wooden interior, to kind of
+ make it look like the inside of a log cabin.  To your left is your bed,
+ and just beyond that is a dresser.
+    Your beagle is here, puttering around.
+
+>examine watson
+ Watson is a faithful and handsome young beagle, with brown eyes and tan
+ and white fur.
+
+>pet dog
+ The beagle wags his tail at you happily, and returns to his puttering
+ around.
+
+>examine dresser
+ The dresser complements the other furniture nicely.
+
+ Watson's ears perk up, and he leaves to the hallway.
+
+ You feel the baby squirm about... and find yourself talking to her, for
+ just a bit.
+
+ "The first time he came home from work, after we got back from our
+ honeymoon... he was drenched in sweat after having beaten some kid ten
+ years younger than him in basketball.  The kid eventually signed with
+ one of the larger branches, No Limit, or something like that.  Kieron
+ came in with that sad, exhausted look on his face... I think he knew at
+ that point that he wasn't going to sign him.  I was fussing over this
+ one painting -- trying to get colored lighting for it, before the paint
+ congealed -- and he dropped his briefcase on the floor and said 'I
+ think one of us needs a hug.'  I turned, looked over toward him,
+ somewhat slightly confused.  After a beat he said, 'It's not you is it?
+ Ah, ah right... must be *me* then.'"
+
+ "And that's how it began, married life.  You never really prepare
+ yourself for that moment.  You can read all the articles you want on
+ the subject, but you don't know... when that critical moment comes...
+ if you'll be looking at the rest of your life with someone who is
+ really just a stranger.  Or someone who will remain just as fresh,
+ funny, and driven as the day you met him."
+
+ "I took the next day.  To commence with the props, I mean.  And we've
+ traded off and on like that ever since.  And on those days where he
+ utterly failed to get a signature on a deal he was assured was a 'lock'
+ and on those days when my greens and oranges have turned to blue and
+ red, we've sounded off to each other, individually and in concert.  And
+ I hope, sure, that one day you'll feel this -- get this -- as well,
+ Sweet Pea."
+
+>talk to baby
+ You recall a few verses that you had been reading earlier before, some
+ nonsense nursery rhymes, really:
+
+ "He thought he saw an Elephant,
+ That practised on a fife:
+ He looked again, and found it was
+ A letter from his wife.
+ 'At length I realise,' he said,
+ 'The bitterness of Life!'"
+
+ "He thought he saw a Rattlesnake
+ That questioned him in Greek:
+ He looked again, and found it was
+ The Middle of Next Week.
+ 'The one thing I regret,' he said,
+ 'Is that it cannot speak!'"
+
+>open dresser
+ You're preoccupied with food for the moment and decide to not go
+ looking through your dresser.
+
+ Watson starts barking.
+
+>look
+ Bedroom, on the comfy chair
+    Inexplicable vegetable cravings aside, this room leaves you quite
+ content for the moment.  You're curled up in what you and Kieron call
+ 'the comfy chair', reading one of the Dean Koontz novels you missed in
+ hardcover.  Being 39 weeks pregnant, you've had ample time to catch up
+ on your reading.
+
+ Your bedroom is paneled with a kind of faux wooden interior, to kind of
+ make it look like the inside of a log cabin.  To your left is your bed,
+ and just beyond that is a dresser.
+
+ Watson continues barking, most likely to be let out.
+
+>stand
+ Oof!  You're not too sure about the feasibility of that.  Maybe in a
+ bit.
+
+ You hear a crash -- it sounds like one of the windows in your living
+ room!
+
+ You can hear Watson barking.
+
+>stand
+ Ah, almost there.  Trivial tasks have really become grand gestures
+ lately for you.
+
+>again
+ Okay, you're no longer on the comfy chair.
+
+>go south
+ You momentarily forget that your hallway is west, so you head that way
+ instead.
+
+ Hallway
+    The hallway leads to your kitchen, and beyond that, the room where
+ the crash came from.
+
+>go to living room
+ I don't see any living room here.
+
+>go south
+ You've never really gotten used to locomotion at this weight... you
+ enter the kitchen, and slip upon something, a spill of some kind...
+
+ You hit your head on the counter on your way down...
+
+ Shapes fade in and out of view... some time passes, but you have no
+ idea how much...  you vaguely remember Kieron coming home... hear
+ passages of sound -- an ambulance, sharp words at a hospital...
+
+ And you awake to news you aren't prepared to hear.
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over or quit.
+>restart
+
+
+
+
+
+
+
+
+ Another enormously hectic day at the Saint Columbia Veteran's Hospital,
+ but hectic in a good way -- there's a palatable energy in the air with
+ the recent flood of newborns and the successful bypass surgery of a
+ minor (although, incredibly talented and quite gracious) celebrity
+ having been recently completed.
+
+ Your friend -- and fellow nurse -- Jessica has been talking up a
+ double-blind date that the two of you are to be going on this weekend,
+ which will at least be interesting if nothing else.  Last time the two
+ of you tried this, she found a couple guys from an Internet Go Server.
+ While they were definitely amusing, (and definitely available) they
+ were a little too preoccupied with moving stones around a monitor
+ screen.
+
+ Trying to get them out of the house again proved to be almost
+ excruciatingly difficult.  So Jess has things planned with some other
+ guys she met over Relay Chat.
+
+ "They are into something," Jess said, "called Magic: The Gathering.
+ See?  That implies that they are into social get-togethers and
+ gatherings.  It's all been taken care of.  Plus, they sent me gifs of
+ themselves and they have that David Copperfield meets Harry Houdini
+ thing going on, as all magicians do.  Trust me!"
+
+ Well, you seem to recall something about that being a card game, but
+ why not give her the benefit of the doubt?  It's good to get out and
+ mix things up socially again, especially since the last creep you dated
+ finally got the message and stopped coming around the hospital.
+
+ You can't help but notice the clock -- 1:17pm.  Still another thirteen
+ minutes left of this break.  Excellent.
+
+
+
+
+
+
+
+
+ No Time To Squeal
+ Interactive Fiction
+ Copyright (c) 2001.  Written and programmed by Mike Sousa and Robb
+ Sherwin
+ (First-time players should type HELP)
+ Release 1.0 / Serial number 092801 / TADS 2.55
+
+ Break Room
+    You're inside one of the many break rooms here at the Hospital, just
+ recharging with some apple chips and a bottle of Evian before heading
+ back to your shift.
+
+ The door leading out of the break room is to the west.
+
+>eat apple chips
+ You eat some apple chips.
+
+>drink water
+ You drink the water.  Very refreshing.
+
+>again
+ You drink the water.  Very refreshing.
+
+ Your friend Jessica pops her head into the room for a moment.
+
+ "Sarah, it's Freddie," she says.  Freddie.  Your ex-boyfriend.  He
+ hadn't come to work in order to stalk you for almost two weeks now.  It
+ would be too soon if he held out for two more centuries.  "I tried to
+ tell him that you weren't working today, but he says that he saw your
+ car.  Do you want me to -- "
+
+ "No, it's okay," you say.  You've tried being nice.  You've tried being
+ stern.  You've tried to gently break the news to him that you no longer
+ wish to see him, and you've told him point blank to his face.  Enough
+ is enough.  It's time to start being a complete bitch -- anything to
+ let him know you're serious.
+
+ Jen gives you a thumbs-up sign and wishes you luck.  She leaves the
+ room and goes toward the reception area.
+
+>go west
+ (Opening the door)
+ Reception Area
+    This is where the patients' guests and loved ones congregate before
+ entering the rest of the hospital and the individual rooms.
+    Freddie is here, looking grim.
+
+ "Thank God you're here," he says.  "I have something to say to you,
+ please, just hear me out."  He can't help instinctively giving you a
+ visual once-over; must be the uniform.
+
+>examine freddie
+ Freddie's about 5'9", and 150 pounds.  He's very handsome on the
+ outside, in a young-Robert-Redford way, but just not someone you want
+ to be around because of what he's like on the inside.  He's a bit of an
+ aspiring inventor, and tinkers around with electronics but has no real
+ formal education and gets frustrated easily.  He's obsessed with a girl
+ being around while he works away at one of his many poorly-conceived
+ mechanical devices, but then goes into total ignore mode once you -- or
+ one of his other previous girlfriends -- comes over.  And you stopped
+ being That Girl somewhere between age 14 and 15.  Also, when things
+ start to go wrong with one of his projects he swears like a blue-faced
+ sailor.  And he gets *mean*.  Etcetera, etcetera.  It just got
+ pointless to be around him.
+
+ "I was working on the refrigeration unit -- you know, the one I was
+ telling you about before," he says, as he brings a hand up to brush his
+ fair hair out of his face.  "And I knew, really, that I had to have you
+ back.  I have a poem for you.  Can I -- is this okay?"
+
+>talk to freddie
+ "This really is not the time, Freddie.  Listen, I don't want you coming
+ here any more.  Do you understand?"  "Please," he says.  "Just listen.
+ Hear me."
+
+ Freddie pulls out a piece of paper.
+
+>hit freddie
+ Probably best not to do that, he'd interpret it to mean that you still
+ want his bod.
+
+ Freddie clears his throat and continues.
+
+ "And if I say to you tomorrow," Freddie says, in a very bad British
+ falsetto, "Take my hand, child, come with me.  It's to a castle I will
+ take you, Where what's to be, they say will be."  He looks up briefly.
+ You try to remember where that is from.
+
+ "Catch the wind, see us spin,` he continues, "Sail away, leave today,
+ Way up high in the sky."
+
+ "But the wind won't blow, You really shouldn't go, It only goes to show
+ That you will be mine By takin' our time.  Oooh, oooooh....."
+
+>kiss freddie
+ You'd hate to give him the wrong idea -- besides, he's really pissed
+ you off by coming down here.
+
+ Freddie licks his lips and continues singing.
+
+ "And if you say to me tomorrow, Oh what fun it all would be, Then
+ what's to stop us, pretty baby, But What Is And What Should Never Be."
+
+ He looks up at you with puppy-dog eyes.  As if reading the lyrics --
+ badly -- to an old Led Zeppelin song is somehow going to instantly
+ change the fact that he's a mite desperate oil-covered stalker without
+ a hint of real social charm?
+
+>wait
+ Time passes...
+
+>talk to freddie
+ "What on earth was that, Freddie?"
+
+ "It was 'What Is And What Should Never Be' from Zep's second album.  I
+ -- "
+
+ "I know what it was.  You had to come down here, and interrupt my break
+ for that?  You simply had to state that, hm?  What on earth does that
+ even mean, anyway?  'You will be mine by taking our time'?  Is that
+ what you think?  How can I put this into words you'll understand -- Go
+ away.  Leave me alone, and never speak to me again.  Am I getting
+ through to you?"
+
+ "But -- "
+
+ "Apparently not.  Look, I'll put this into words that you can
+ understand."  You clear your voice and start singing a quick impression
+ of the Led Zeppelin song called "D''yer Mak'er."  "Go, go, go, go, go!"
+
+ Freddie digs through his jacket.
+
+>talk to freddie
+ You start to speak, but he cuts you off in mid sentence.
+
+ Freddie shows you a gun, briefly.
+
+ "See this, bitch?  I'm going to make you sorry you ever met me."
+
+ Freddie puts the gun away and storms out of the hospital.
+
+ A moment later, your name comes up on the intercom.
+
+ "Sarah Thompson, please report to LDR 14, Sarah Thompson, LDR 14."
+
+ The LDR -- the labor, delivery, and recovery room -- is just north of
+ the reception area.
+
+>follow freddie
+ I don't see any freddie here.
+
+>go north
+ You enter the LDR Room, one of many here at the hospital -- a bit of
+ oversentimental tedium designed to keep the expectant couples thinking
+ pleasant thoughts, and introduce yourself to the patient and husband.
+
+ "Hi, I'm -- "
+
+ "Sarah, right," says the man, "I know.  Look, I am really concerned
+ about my wife here, can you --"
+
+ "You bet, don't worry.  I will take a look and see what's up."  You
+ suspect that everything will probably be okay -- it was just a nasty
+ shock to her head, not a gunshot wound to the belly or anything, but
+ you feel the need to play it cool in case something is the matter.
+
+ You hook the belly band up to the woman and turn on the various
+ monitors.
+
+ "So, do you follow the Red Sox?"  you ask the husband, in an attempt to
+ liven his mood a bit and get him thinking of another kind of tragedy.
+
+ "Yeah, a little -- hopefully this'll be the year," says the husband.
+ "I mean, we get Garrett back, we have new management..."
+
+ You take a look at the monitor strip.  Things do not look good, but you
+ continue to play your poker face.
+
+ "New management, right?"  you say absent-mindedly.  "Wait, wasn't that
+ one guy who those crazies put out on a stake and -- "
+
+ "Well, yeah, Duquette, the GM.  Kind of a shame seeing him on fire like
+ that, but I guess we New England denizens can only go so many centuries
+ without burning witches and heretics at -- "
+
+ You study the fetal monitor.
+
+ Everything makes sudden, horrible sense.
+
+ Something -- the umbilical? -- is wrapped around the baby's neck.
+
+ Your face goes white.  The husband stops in mid-sentence.
+
+ After getting to the intercom, you send out a page:
+
+ "Dr. McKinney, I need you in LDR 14 STAT, paging Dr. McKinney, LDR 14
+ STAT!"
+
+ The husband looks confused and alarmed, but you have work to do.  You
+ take his wife's blood pressure, temperature and heart rate.
+
+ "We're going to need to get to the OR," you tell the husband, softly.
+
+ Dr. McKinney does his best to save the little girl.  The poor baby had
+ a nucal cord -- they're just so damn hard to predict.  You head over to
+ the OR table to see if CPR can save a life, but before you arrive, you
+ stop dead in your tracks as you watch the father's face fill with
+ horror.
+
+ You overhear a bit of the conversation between the doctor and his
+ assistants.  It doesn't sound good, it doesn't sound like the baby made
+ it...
+
+ The doctor shakes his head and leaves the operating table.  You can
+ tell from the manner in which he carries himself that the baby didn't
+ make it.
+
+ He passes you, just a shell of his regular self.  This is the first
+ time you've seen him like this -- he's usually a bastion of security
+ and success.
+
+ Dr. McKinney goes to break the news to Kieron, the woman's husband.
+
+ You leave the Operating Room.  You wander back over to the break room
+ to pick up your stuff.  Jessica meets you half-way there.
+
+ "Did you hear yet?"  she says.  "Freddie's on the news.  They've got a
+ camera on him.  Over on channel 5."
+
+ "I don't really want to hear about Freddie right now," you say.
+
+ "What's wrong?"
+
+ "The baby, the baby from LDR 14, you know, that couple?"
+
+ "Oh, yeah."
+
+ "The baby died.  Dr. McKinney just -- well, I just got back."
+
+ "That's so sad," says Jessica.  She pauses a couple of respectful
+ beats.  "Let's go get some lunch."
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over or quit.
+>restart
+
+
+
+
+
+
+
+
+ The shrieking squeals of the damned bring you back into a hazy
+ consciousness.  As you begin to soak in the unbearable ambiance around,
+ you attempt to shake off your rising awareness for a few moments more
+ of self-ignorance.
+
+ Your jailer enters from the palpable darkness; all business this
+ morn(?).  It checks the integrity of your shackles, in a horrible
+ pantomime of surface world care.  Where does it expect you to go?
+ Where does it suspect you will scurry to?  His actions relating to
+ internal security only bring forth a dull hope into your mind, a hope
+ that he will torture away without expression.
+
+
+
+
+
+
+
+
+ No Time To Squeal
+ Interactive Fiction
+ Copyright (c) 2001.  Written and programmed by Mike Sousa and Robb
+ Sherwin
+ (First-time players should type HELP)
+ Release 1.0 / Serial number 092801 / TADS 2.55
+
+ Hell
+    Being damned for all eternity, this is your 'home'.  This particular
+ cell of yours has no real name or identifiable markings.  You can't
+ even recall if you've always been in this particular station, or some
+ other any longer.  It appears to be a claustrophobic, hollowed-out cave
+ within the heart of an active volcano.  If you strain, you can make out
+ passageways to other caves, but turning your head to the side is often
+ prohibitively painful.
+    A brawny, sinewy Cacofiend stands before you, prepping you for the
+ punishment you are about to receive.
+
+>examine cacofiend
+ The Cacofiend is eight or nine feet tall, proportionally wide, and
+ enormously muscular.  Its skin appears to be a kind of unearthly,
+ fire-charred, thick crimson hide.  Its face is grotesque, misshapen --
+ with caking and protruding horns screaming out from its skull, angry
+ daggers for eyes, a rotting, bulbous nose... it's incapable of bearing
+ personal malice, and carries itself like a mindless automation.
+
+ The Cacofiend digs its nails into your flesh, right into the little
+ divot above your breastbone.  You squirm, to no avail.
+
+>talk to cacofiend
+ You begin to speak but the cacofiend screams for your silence -- you
+ quickly comply.
+
+ The Cacofiend rips the skin of your chest, exposing your ribcage,
+ stomach and various entrails.  One of your intestines slithers down to
+ the hot floor.
+
+>wait
+ Time passes...
+
+ Something's beeping.
+
+ The Cacofiend looks over toward your right for the source of the
+ beeping.
+
+>look right
+ I don't know the word "right".
+
+>look
+ Hell
+    Being damned for all eternity, this is your 'home'.  This particular
+ cell of yours has no real name or identifiable markings.  You can't
+ even recall if you've always been in this particular station, or some
+ other any longer.  It appears to be a claustrophobic, hollowed-out cave
+ within the heart of an active volcano.  If you strain, you can make out
+ passageways to other caves, but turning your head to the side is often
+ prohibitively painful.
+    A Cacofiend is here.
+
+ Something continues to beep.
+
+>examine beeping
+ It sounds like a pager.  Well, the parts that don't sound like souls
+ burning in agony, anyway.
+
+ The Cacofiend hands you the pager.
+
+ "It's for you..." he says with a shrug.
+
+ Your Office
+    You never thought of yourself having some sort of 'God' complex, so
+ awakening from a dream where you were being burned alive in hell,
+ purgatory or whatever is easily brushed off with a swig of Mr. Pibb and
+ a couple moments to simply compose yourself.  You're on a hot streak
+ now, anyway -- after successfully delivering quintuplets for that rock
+ star two days ago (the lead singer for -- what was that band's name?
+ -- Scatbag or something, you think) you got the admiration of not only
+ every Gen X-er on the staff, but your daughter as well, for delivering
+ the offspring of "the voice of her generation".  But impending fame has
+ its ups and downs -- while you're due to be interviewed by Salon.com
+ for saving the woman's life, it looks like your interviewer... will be
+ Au James Wagner.
+
+ You win some, you lose some.
+
+>examine pager
+ From the extension, it looks like you're needed STAT in LDR 14.
+
+ You let out a loud gassy burp; that Mr. Pibb was really carbonated.
+
+>save baby
+ I don't see any baby here.
+
+>go up
+ You can exit the office by going north.
+
+>go north
+ You exit the office and rush over to the LDR.  You're updated by the
+ nurse and quickly head over to mom.  You take a look at the monitors,
+ and do a very poor job of attempting to conceal an expression of
+ horror.  You turn toward the nurse.
+
+ "Let's get her over to the operating room," you say.
+
+ Operating Room
+    The Operating Room is fairly dark, save for the operating table
+ illuminated by the strong lights that the patient is on.  The nurse
+ updates you on the woman's condition.
+
+ Before you is the patient's belly, prep'd for the C-Section.
+
+>examine woman
+ The patient is draped and ready for the C-Section.
+
+>inventory
+ You have a scalpel.
+
+ A small burp escapes from your mouth, definitely Mr. Pibb.  Thankfully,
+ the nurse didn't hear it.
+
+>operate
+ (the patient)
+ (with the scalpel)
+ You make a low transverse incision, and cut through the layers of
+ muscle.  You can now see the baby.
+
+>examine baby
+ You notice the baby girl has a nucal cord.  You try to reduce it by
+ slipping the umbilical cord over the baby's head, but it's too tight.
+
+>cut cord
+ (with the scalpel)
+ You double clamp the cord and cut it in the middle.
+
+>give cpr
+ I don't know the word "cpr".
+
+>take baby
+ The OR door swings open and somebody enters the room.  The nurse rushes
+ over to him and has a quick conversation -- he takes a few steps back
+ and watches intently.
+
+ You reach in and extract the head.  The nurse suctions the head and
+ nose, getting the amniotic fluid out of the airway.  You then deliver
+ the shoulders and the baby slides out -- it doesn't make a sound.  You
+ hand the baby girl to waiting pediatrician where they attempt CPR.
+ After several minutes of frantic resuscitation, the baby stirs for a
+ moment, a split-second so short that you wonder if it existed at all.
+ They continue to attempt to revive her, but she collapses further.
+ It's as if something more than a simple umbilical cord has taken her
+ life...
+
+ You see the worry and sweat pouring off the baby's father.  This won't
+ be easy... it never has been before.
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over or quit.
+>restart
+
+
+
+
+
+
+
+
+ Where did all this fog come from?
+
+
+
+
+
+
+
+
+ No Time To Squeal
+ Interactive Fiction
+ Copyright (c) 2001.  Written and programmed by Mike Sousa and Robb
+ Sherwin
+ (First-time players should type HELP)
+ Release 1.0 / Serial number 092801 / TADS 2.55
+
+ Alley
+    A filthy place, mongrels and predators scurry and skulk about the
+ edges of your vision, seemingly self-satisfied in their hidden snark
+ just beyond your focus.
+
+ The alley wall behind you rises until it seems that you shall never
+ grow tall enough to surpass it.  It melts away in its own acclivity,
+ merging into a starless night.  Walls to both sides reflect a build of
+ age and accompanying deterioration.  Your skin crawls with the
+ sensations of spying from some things, some group of denizens choosing
+ themselves to be, as of yet, unrevealed.
+
+ Fogging spoils your far sight to the west, while it reveals your sole
+ path for this continued evening venture.
+
+>examine fog
+ So thick... it continually swirls, you are unable to see through it to
+ the street beyond.
+
+>examine me
+ A beautiful seven year old girl!
+
+>inventory
+ You are empty-handed.
+
+>listen
+ The occasional chirp of a nearby salesman can be heard to the west.
+
+>go west
+ Alley
+    Before you is the door to a home, a crumbling dwelling lost in the
+ alley.  The air here is thick, as if you are uncomfortably supporting
+ it and propping it up.  The glow of a gas streetlight throws flickery
+ shadows upon the lone window of the slum apartment.  The alleyway
+ street is still quite sticky here, and each footstep concludes in
+ release from an audible 'glop.'
+
+ The alley continues into further fog to the west and east and to the
+ north is the rotting apartment.
+
+ The occasional chirp of a nearby salesman can be heard to the west.
+
+>listen to salesman
+ I don't see any salesman here.
+
+>examine door
+ The door appears withered, yet is locked from within quite forcibly.
+
+ A bit of light escapes from the door underneath.
+
+ You hear a cry from behind the door!
+
+ A woman's voice, struggling: "O... Murder!"
+
+ Further sounds of thrashing emote from within.  You hear something wet
+ and sticky strike the other side of the door and fall.
+
+>knock on door
+ You knock on the door.  Eerie silence.
+
+ A wiry, black rat wriggles its way out from underneath the door and
+ scurries away to the alley to the west.
+
+>examine rat
+ The rat has scurried far away by now.
+
+ The occasional chirp of a nearby salesman can be heard to the west.
+
+>follow rat
+ The rat has scurried far away by now.
+
+>go west
+ The alley opens into a thicker white fog.
+
+ Alley
+    You are at the western edge of what was once a filthy, urban alley.
+ It has morphed into a quieter, nigh angelic scene.  Thick clouds have
+ touched down and billow endlessly, within continual waves defined by
+ their own soft motion.  The alleyway stretches away until it, seemingly
+ hundreds of yards away, bubbles away into the night into an
+ effervescent rise of environmental content.
+    A man stands nearby, smiling vacantly, shifting his weight from foot
+ to foot.
+
+>examine man
+ His inherent, learned honesty betrays any possibility of The Ruse.
+
+ "Hello, little one," he says.  "My name is John."
+
+>tell man about door
+ You wonder what he has to say instead, so you ask him about it.
+
+ "Always such a bother coming from in there!"
+
+>tell man about murder
+ I don't know the word "murder".
+
+>tell man about door
+ You wonder what he has to say instead, so you ask him about it.
+
+ "Always such a bother coming from in there!"
+
+>ask man about himself
+ "Me?  My name is John.  I just sell wares."
+
+>ask man about wares
+ "They are quite delightful," says John.  "Not much call for them
+ nowadays, though.  Oh, well."
+
+>again
+ "They are quite delightful," says John.  "Not much call for them
+ nowadays, though.  Oh, well."
+
+>buy ware
+ John bends his brittle frame over, to speak to you eye-to-eye.
+
+ "Do you know what this is?  What's contained within?  Alright.  I'll
+ tell you.  But where to begin?  I can see you have no coin or copper,
+ but I'll presume your credit's good.  It can be our little secret, if
+ we like, and I definitely suspect, even... that we should."
+
+ John brings down the potion and hands it to you.
+
+ "Something wonderful is sure to happen, usually your prayers will be
+ answered in kind.  Just be certain of your intentions and faith, for if
+ you react with a curse or a whine, these wares of mine are liable... to
+ get all mixed up!"
+
+>examine potion
+ The potion looks quite pure, no suspended particles of any kind.
+
+ It is purple.
+
+>ask john about potion
+ "Something wonderful is sure to happen, usually your prayers will be
+ answered in kind.  Just be certain of your intentions and faith, for if
+ you react with a curse or a whine, these wares of mine are liable... to
+ get all mixed up!"
+
+>look
+ Alley
+    You are at the western edge of what was once a filthy, urban alley.
+ It has morphed into a quieter, nigh angelic scene.  Thick clouds have
+ touched down and billow endlessly, within continual waves defined by
+ their own soft motion.  The alleyway stretches away until it, seemingly
+ hundreds of yards away, bubbles away into the night into an
+ effervescent rise of environmental content.
+    A man stands nearby, smiling vacantly, shifting his weight from foot
+ to foot.
+
+>drink purple
+ Gulp!
+
+>undo
+ (Undoing one command)
+
+ Alley
+    You are at the western edge of what was once a filthy, urban alley.
+ It has morphed into a quieter, nigh angelic scene.  Thick clouds have
+ touched down and billow endlessly, within continual waves defined by
+ their own soft motion.  The alleyway stretches away until it, seemingly
+ hundreds of yards away, bubbles away into the night into an
+ effervescent rise of environmental content.
+    A man stands nearby, smiling vacantly, shifting his weight from foot
+ to foot.
+
+>go east
+ The thick white fog dissipates and you wander back to...
+
+ Alley
+    Before you is the door to a home, a crumbling dwelling lost in the
+ alley.  The air here is thick, as if you are uncomfortably supporting
+ it and propping it up.  The glow of a gas streetlight throws flickery
+ shadows upon the lone window of the slum apartment.  The alleyway
+ street is still quite sticky here, and each footstep concludes in
+ release from an audible 'glop.'
+
+ The alley continues into further fog to the west and east and to the
+ north is the rotting apartment.
+
+>drink purple
+ Gulp!
+
+>pray
+ The apartment grows before your very eyes!
+
+ You are momentarily disoriented and the beaker slips out of your tiny
+ hands, shattering on the ground.
+
+>look
+ Alley
+    Before you is the door to a home, a crumbling dwelling lost in the
+ alley.  The air here is thick, as if you are uncomfortably supporting
+ it and propping it up.  The glow of a gas streetlight throws flickery
+ shadows upon the lone window of the slum apartment.  The alleyway
+ street is still quite sticky here, and each footstep concludes in
+ release from an audible 'glop.'
+
+ The alley continues into further fog to the west and east and to the
+ north is the rotting apartment.
+
+>examine apartment
+ The apartment is rotting before you, its construction as poor as its
+ likely tenants.
+
+>break it
+ You'll have to tell me how to do that.
+
+>hole
+ There's no verb in that sentence!
+
+>hole
+ There's no verb in that sentence!
+
+>examine hole
+ I don't see any hole here.
+
+>examine door
+ The door appears withered, yet is locked from within quite forcibly.
+
+ A bit of light escapes from the door underneath.
+
+>crawl under door
+ I don't know the word "crawl".
+
+>open door
+ The door is locked.
+
+>go under door
+ I don't recognize that sentence.
+
+>look under door
+ There is four inches of space in between the bottom edge of the door
+ and the road.  You peer as best you can into the apartment itself and
+ see little, save for the motions of one in light footwear skirting
+ around a positioned bed.
+
+>knock
+ What do you want to knock?
+
+>knock on door
+ You knock on the door.  Eerie silence.
+
+>go north
+ There seems to be one way in, but you are too tall to fit.
+
+>shrink
+ I don't know the word "shrink".
+
+>pray
+ Is the door getting taller?  Further from the alleyway?
+
+>go north
+ There seems to be one way in, but you are too tall to fit.
+
+>pray
+ After your words, you realize that it is, of course, you who are
+ shrinking.  You are certainly no larger than twelve inches in size.
+
+>go north
+ There seems to be one way in, but you are too tall to fit.
+
+>pray
+ You shrink further.  It seems like you are three, perhaps three and a
+ half inches tall.
+
+>go north
+ Being quite small in size, you run under the door and into the
+ apartment...
+
+ Apartment
+    You are within a cramped apartment, no greater than 12 feet square.
+ Directly across from the front door is a fireplace, full of deep soot
+ and organs.  To your right is a compact board table, adjacent to a bed
+ propped approximately one foot high by a secondary, mildewey mattress.
+
+ A human-sized, upright Hare breaks from ripping the intestines of a
+ bound, human woman and carefully peers at your entrance.
+
+ The woman moans -- a strained wail -- her head slumped over and eyes
+ appearing dead.
+
+>examine hare
+ He is wearing a glossy top hat, a mirrored monocle over his left eye,
+ and a swashbuckler's vest.  His nose twitches irregularly, as if a
+ symptom of a spastic, involuntary syndrome.  His white fur is stained
+ crimson in splashes, where the woman's blood and flesh has splattered
+ and soaked into it.
+
+ The hare rips away a purplish, engorged organ and some fleshy, meaty
+ sections of the woman's stomach.  He hurls these parts at the left
+ wall, splashing her blood everywhere and he does so with meticulous
+ strain and patience.
+
+ The woman cries forth with cursing, swearing, and explicatives that you
+ have never, ever heard before in your life.
+
+>kill hare
+ You are much too small and insignificant to hurt the Hare.
+
+ The Hare snaps off a piece of intestine and throws it at you!
+
+ The intestine shifts into an ugly garden snake mid-flight, and snares
+ itself around your neck!
+
+ The woman's eyes close, a terrible wheeze of air leaves her esophagus.
+
+>pray
+ Nothing happens.
+
+ The Hare snaps the neck of the woman.
+
+>cry
+ I don't know the word "cry".
+
+>examine fireplace
+ The fireplace is filled with organs, sweat, blood and soot.  Looking
+ within it, it appears to get lighter at the other end, not darker.
+
+ The Hare squats down and enters the fireplace.  It leaps once, and
+ appears to have left the apartment completely.
+
+>squeal
+ There is no time.
+
+ "Sing another song for me, sweetie, and I shall certainly return myself
+ to sleep and slumber," says the snake.
+
+>enter fireplace
+ You make your way into the fireplace.
+
+ Apartment, in the fireplace
+    The fireplace is filled with organs, sweat, blood and soot.  Looking
+ up, it appears to get lighter at the other end, not darker.
+
+>climb
+ What do you want to climb?
+
+>climb fireplace
+ I don't know how to climb the fireplace.
+
+>go up
+ You are not tall enough.
+
+>go up
+ You are not tall enough.
+
+>pray
+ Nothing happens.
+
+>climb
+ What do you want to climb?
+
+>inventory
+ You have a snake (wrapped around your neck).
+
+>pray
+ Nothing happens.
+
+>take snake
+ The snake would never dream of letting you do such a thing.
+
+>unwrap snake
+ I don't know the word "unwrap".
+
+>cut snake
+ You have nothing sharp enough to cut the snake with.
+
+ The snake flashes briefly animate for a moment to tighten its grip.
+ "Snug, isn't it, my lovely?"  he whispers before quieting once again.
+
+>sing
+ What do you want to sing to?
+
+>look
+ Apartment, in the fireplace
+    The fireplace is filled with organs, sweat, blood and soot.  Looking
+ up, it appears to get lighter at the other end, not darker.
+
+>sing to snake
+ The snake flashes animate once more, and begins to join your song.  In
+ between slurred humming, he says, "I understand, you know, your clever,
+ clever ruse.  Really!  I do!  But, my love, I am no savage beast to be
+ beaten with a song.  I feel our love can't quite continue like this for
+ very long.  For I am your special friend this eve, and I am very, very
+ wrong."
+
+>out
+ Apartment
+    You are within a cramped apartment, no greater than 12 feet square.
+ Directly across from the front door is a fireplace, full of deep soot
+ and organs.  To your right is a compact board table, adjacent to a bed
+ propped approximately one foot high by a secondary, mildewey mattress.
+ There is a prostitute here, tied up, shredded and destitute.
+
+>search soot
+ I don't know the word "soot".
+
+>ask snake about snake
+ The snake just hisses...
+
+>search organs
+ You find nothing of interest.
+
+>examine prostitute
+ She is a wisp of a woman, approximately 5'7" and slight of build.  She
+ is laying in tattered clothes on a stinking mattress, her hands and
+ left leg bound to the apartment walls with thick chain.  She has been
+ viciously ripped from just below her neck straight down toward her
+ pelvis, Her internal organs are scattered about her gaping chest
+ cavity, although some have leaked over to the bed and others smear the
+ walls, slowly crawling down to the floor.  Her long blonde hair is
+ matted with blood and pulp into the sheets upon her bed, and she seems
+ unable to focus, articulate her horror, or die.
+
+>ask snake about hare
+ The snake just hisses...
+
+>sing to woman
+ You decide to not sing to the woman.
+
+>talk to woman
+ She is dead.
+
+>sing to mom
+ I don't see any mom here.
+
+>examine mattress
+ The mattress isn't important.
+
+>unchain woman
+ I don't know the word "unchain".
+
+>help woman
+ It's too late for help.
+
+>examine knife
+ I don't see any knife here.
+
+>examine organs
+ Ruptured, leaking, and disgusting!
+
+>examine sword
+ I don't see any sword here.
+
+>examine blade
+ I don't see any blade here.
+
+>look under bed
+ There's nothing hiding under the bed.
+
+>pray
+ Nothing happens.
+
+>examine snake
+ The snake chortles deeply and tightens itself slightly around your
+ neck.  Though as small as yourself, it frustrates all attempts at
+ discovery, exploration, and conversation.
+
+>curse
+ "Ahh..." breathes the snake, "deliciousss...!"
+
+ You have grown a little larger.
+
+>enter fireplace
+ You make your way into the fireplace.
+
+ Apartment, in the fireplace
+    The fireplace is filled with organs, sweat, blood and soot.  Looking
+ up, it appears to get lighter at the other end, not darker.
+
+>curse
+ "Wonderful," whispers the snake, "wouldn't you sssay...?"
+
+ You have grown a little larger.
+
+>curse
+ "I am within ecstatic delights," breathes the snake.
+
+ You have grown much larger, and are almost full size.
+
+>curse
+ "Now this is most comfortable, sweeeetieeee....!"  The snake breathes
+ up close against your ear.
+
+ You are now your natural size.
+
+ The snake tightens its grip around your neck once more.  "Not too tight
+ just yet, I hope," he mutters.  The snake returns, quickly, to its
+ pseudo-slumber.
+
+>go up
+ You are not tall enough.
+
+>curse
+ You grow again, past the container of the fireplace itself and you find
+ yourself within a reserved, quiet study...
+
+ Study
+    This is a long, open drawing room evidently used for study and soft
+ research.  A rich, teak desk sits in solitude, equidistant from the
+ west wall (upon which hangs a set of somber oil paintings) and the east
+ wall (almost completely defined by stained glass).  Near the desk is
+ Rumford fireplace, the same portal from which you arrived.  Toward the
+ far wall is an ornament stand, and wire stairs that lead up to an
+ in-house second level and black door.
+
+>inventory
+ You have a snake (wrapped around your neck).
+
+>examine stand
+ The ornament stand is right before a door that leads, presumably,
+ outside.  It has two legs, sits two feet high and two feet across.  The
+ tabletop has been buffed and polished to a satiny sheen.
+
+ On the ornament stand is a battle scene.
+
+>examine scene
+ A tiny, yet exquisitely detailed figurine made up of several different
+ autonomous pieces that, together, depicts a swordsman brandishing a
+ steel blade against several cornered beasties.
+
+>examine blade
+ It is about the length of the swordsman's torso.  The sword would
+ appear to be detachable.
+
+>take sword
+ Taken.
+
+ It is terribly small.
+
+>curse
+ Nothing else happens.
+
+>pray
+ Your surroundings appear to grow in size.
+
+>pray
+ Your surroundings appear to grow in size again.
+
+>examine sword
+ The sword is very small.
+
+>examine me
+ A beautiful seven year old girl!
+ How old did you say you were?  Six months, seven years?
+
+>pray
+ After your words, you realize that it is, of course, you who are
+ shrinking.  You are certainly no larger than twelve inches in size.
+
+>examine sword
+ The sword is tiny.
+
+>cut snake
+ (with the sword)
+ The blade of the sword is not sharp enough to cut the snake.
+
+>curse
+ "Wonderful," whispers the snake, "wouldn't you sssay...?"
+
+ You have grown a little larger.
+
+>curse
+ "I am within ecstatic delights," breathes the snake.
+
+ You have grown much larger, and are almost full size.
+
+>drop sword
+ Dropped.
+
+>pray
+ Your surroundings appear to grow in size again.
+
+>take sword
+ Taken.
+
+>examine sword
+ The sword is small in size.
+
+>drop sword
+ Dropped.
+
+>pray
+ After your words, you realize that it is, of course, you who are
+ shrinking.  You are certainly no larger than twelve inches in size.
+
+>pray
+ You shrink further.  It seems like you are three, perhaps three and a
+ half inches tall.
+
+>take sword
+ Taken.
+
+>cut snake
+ (with the sword)
+ The blade of the sword is not sharp enough to cut the snake.
+
+>poke snake
+ Poking the snake doesn't seem to have any effect.
+
+>look
+ Study
+    This is a long, open drawing room evidently used for study and soft
+ research.  A rich, teak desk sits in solitude, equidistant from the
+ west wall (upon which hangs a set of somber oil paintings) and the east
+ wall (almost completely defined by stained glass).  Near the desk is
+ Rumford fireplace, the same portal from which you arrived.  Toward the
+ far wall is an ornament stand, and wire stairs that lead up to an
+ in-house second level and black door.
+
+ You choke, suddenly!  The snake arises for mere moments, to simply
+ increase the pressure around your neck.
+
+>examine sword
+ The sword is small in size.
+
+>curse sword
+ I don't recognize that sentence.
+
+>go up
+ You slowly ascend the stairs.
+
+ Terrace
+    This platform looks over the study below.  Before you, to the west,
+ is a black door.
+
+>go west
+ (opening the door first)
+ Fog, of makeup you have seen before, spills out from the locale beyond
+ and into yours.  A slavering roar splits your eardrums -- a terrible
+ gyre and gimble that nearly knocks you down!
+
+ Emerging from the clouded beyond is a single monstrosity, a grotesque
+ jabberwock with jaws that bite and claws that catch!  Its beady,
+ squinty eyes ooze thick pus as it contorts its vision in order to find
+ you.  The beast now blocks your path.
+
+>kill jabberwock.
+ (with the sword)
+ You are too small in size to cause any damage.
+
+ The jabberwock gives you a once over... but the beast displays no
+ intelligent cunning whatsoever.
+
+>curse
+ "Ahh..." breathes the snake, "deliciousss...!"
+
+ You have grown a little larger.
+
+ The jabberwock wails a mournful tune!  The jabberwock knocks the sword
+ from your hand!  It goes flying to the floor below, beneath the stairs!
+
+>undo
+ (Undoing one command)
+
+ Terrace
+    This platform looks over the study below.  Before you, to the west,
+ is a black door.
+    A grotesque beastie is lurking about.
+
+>go west
+ The jabberwock blocks your path.
+
+ The jabberwock wails a mournful tune!  The jabberwock knocks the sword
+ from your hand!  It goes flying to the floor below, beneath the stairs!
+
+>undo
+ (Undoing one command)
+
+ Terrace
+    This platform looks over the study below.  Before you, to the west,
+ is a black door.
+    A grotesque beastie is lurking about.
+
+>undo
+ (Undoing one command)
+
+ Terrace
+    This platform looks over the study below.  Before you, to the west,
+ is a black door.
+    A grotesque beastie is lurking about.
+
+>undo
+ (Undoing one command)
+
+ Terrace
+    This platform looks over the study below.  Before you, to the west,
+ is a black door.
+
+>undo
+ (Undoing one command)
+
+ Study
+    This is a long, open drawing room evidently used for study and soft
+ research.  A rich, teak desk sits in solitude, equidistant from the
+ west wall (upon which hangs a set of somber oil paintings) and the east
+ wall (almost completely defined by stained glass).  Near the desk is
+ Rumford fireplace, the same portal from which you arrived.  Toward the
+ far wall is an ornament stand, and wire stairs that lead up to an
+ in-house second level and black door.
+
+>curse
+ "Ahh..." breathes the snake, "deliciousss...!"
+
+ You have grown a little larger.
+
+>curse
+ "Wonderful," whispers the snake, "wouldn't you sssay...?"
+
+ You have grown a little larger.
+
+>curse
+ "I am within ecstatic delights," breathes the snake.
+
+ You have grown much larger, and are almost full size.
+
+>curse
+ "Now this is most comfortable, sweeeetieeee....!"  The snake breathes
+ up close against your ear.
+
+ You are now your natural size.
+
+ The purple potion has worn off.
+
+>examine sword
+ The sword is very large.
+
+>go up
+ You slowly ascend the stairs.
+
+ Terrace
+    This platform looks over the study below.  Before you, to the west,
+ is a black door.
+
+>sing to sword
+ You decide to not sing to the sword.
+
+>go west
+ (opening the door first)
+ Fog, of makeup you have seen before, spills out from the locale beyond
+ and into yours.  A slavering roar splits your eardrums -- a terrible
+ gyre and gimble that nearly knocks you down!
+
+ Emerging from the clouded beyond is a single monstrosity, a grotesque
+ jabberwock with jaws that bite and claws that catch!  Its beady,
+ squinty eyes ooze thick pus as it contorts its vision in order to find
+ you.  The beast now blocks your path.
+
+>kill jabberwock
+ (with the sword)
+ You unleash the sword in a quick, wide arc, ripping through its
+ stinking flesh with an audible 'snicker-snack!'  Its eyes convulse and
+ burn away as it settles into a heap of seared entrails besides a
+ gawking maw.
+
+>look
+ Terrace
+    This platform looks over the study below.  Before you, to the west,
+ is a black door.
+    The last of the great beasts, the jabberwock, lies slain upon the
+ floor.
+
+>examine jabberwock
+ A formerly grotesque beastie with jaws that bit and claws that caught.
+ It leaks sickly pus and fluid from every possible pore, but especially
+ from the severe gash you inflicted upon it.
+
+>examine gash
+ I don't know the word "gash".
+
+>examine pus
+ I don't know the word "pus".
+
+>look at study
+ It's a long, open drawing room evidently used for study and soft
+ research.
+
+>go west
+ You alone enter the fog and clouds, your possessions are shunted behind
+ you...
+
+ Forest path
+    The Hare witnesses your emergence and blitzes down the path, three
+ steps for every one of yours.  Sufficiently in the lead, he pauses for
+ a moment and produces a shiny timepiece from one of the pockets of his
+ leather vest.  Wiping its brow (and streaking crusts of haemoglobin
+ everywhere!) the Hare does a backflip and gives you a wave.  Though a
+ vial drops from its half-jacket, it fails to notice and immediately
+ continues its sprint until the path meets with the horizon.  You are
+ centered within a dark forest path.  The lit, full moon provides more
+ than ample light with which to comport yourself in your usual angelic
+ sway.
+
+ The plant-life and vegetation all carry a healthy glow around them,
+ they grow thick amongst each other, intertwining to prevent passage in
+ all directions except those that please them.  You spot a vial at the
+ edge of the forest path.
+
+ The path seems to lead in all directions, yet none appear inviting.
+
+>take vial
+ Taken.
+
+>examine vial
+ Inside the vial is fermented pickle juice and a half-kidney.
+
+>drink vial
+ The vial doesn't appear appetizing.
+
+>listen
+ You don't hear anything unusual.
+
+>examine plant
+ It's thick and uninviting.
+
+>climb plant
+ I don't know how to climb the vegetation and plant life.
+
+>go north
+ You follow the forest path a ways, it winds about, and eventually leads
+ to a clearing...
+
+ Clearing
+    Fine, powdery dust and shards make up a solid foundation for this
+ out-of-the-way little vortex in the forest.  The clearing is in the
+ shape of an oval, and twenty yards across.  Two creatures bicker back
+ and forth.  They are little more than giant heads with distended, ugly
+ feet attached to them.
+
+ "I'll devour you, Oaf!" says one.  "I'll munch upon that ugly face,
+ bite by tantalizing bite and you shall witness it all, for the last
+ morsel will be that pinched, sickly eye!"
+
+ "Not before I, Roaf!" exclaims the other one.  "You may bark and wheeze
+ in your misguided, pathetic attempts to frighten, but I shall skewer
+ you into meaty, tasty strips and use that ridiculous eyewear to magnify
+ the light and heat them!"
+
+>examine oaf
+ He is a flighty, wavy head, bright in tone, with wavy auburn hair and a
+ lone, suspicious eyeball.  Two mangled, twisted feet poke out from
+ neath his chin.  He possesses no torso, arms or legs.
+
+ "Oh, why look, Roaf!" exclaims Oaf.  "A little girl has wandered into
+ our little stead!  Why hello there, little one!  Would you care to stay
+ for a meal?"
+
+ "You're ruining it, you great, stupid Oaf!" screeches Roaf.  "A
+ mindless, blue-skinned deafened mute could see through your terrible
+ ruse!"
+
+>examine eyeball
+ I don't know the word "eyeball".
+
+>examine roaf
+ He is a darkened, malformed head, shadowed in tint, with fuzzy black
+ hair and oversized eyewear.  Two mangled, twisted feet poke out from
+ neath his chin.  He possesses no torso, arms, or legs.
+
+ "Why surely her daddy has yet to inform her of the seductive stylings
+ of strangers," says Oaf.  "Besides, she has a nasty little pusher
+ around her neck. Her time runs negative toward forward!"
+
+ "Oh no, praytell," states Roaf.  "I have it on positively smashing
+ authority that her daddy knows all about you and I, my witless and
+ quite stupid chum!  He truckles up to them like a suckling leech,
+ pulling away their spirit and cares!"
+
+>talk to roaf
+ "It is a difficult path at first," says Roaf, "but I will make it all
+ worthwhile."
+
+ "Are your fatted lobes growing larger, Roafie old boy?" asks Oaf.
+ "They look positively delectable.  I think I would enjoy chewing them
+ like flavoured rubber for the better part of the upcoming fortnight.
+ Or perhaps basted in a rich creme sauce!"
+
+ "Mind your manners, you," mutters Roaf, while staring you up and down.
+ Saliva glistens and drips off his teeth, and he grins a positively...
+ Cheshire grin!  "I think it would be best if we let the hopeless little
+ venger choose."
+
+ "Choose what, Roaf?" asks Oaf.  "Surely you mustn't let fair play get
+ in the way.  Not now, not ever!  What ever do you mean?"
+
+ "All I mean is that I ache for the completed set," says Roaf.  "Don't
+ you see?  It is this way in which I may have it all."  He refuses to
+ look at anyone or anything but you.  "Go ahead, my light-hearted
+ friend," whispers Roaf.  "Choose the loser of the game."
+
+>examine vial
+ Inside the vial is fermented pickle juice and a half-kidney.
+
+>inventory
+ You have a snake (wrapped around your neck) and a vial.
+
+ Roaf looks at you in anticipation.
+
+>SAVE
+>cf2
+ Saved.
+
+>roaf
+ There's no verb in that sentence!
+
+>choose roa
+ I don't know the word "roa".
+
+>choose roaf
+ Roaf gasps!
+
+ Oaf pounces, with quickness like a cobra, onto Roaf and begins savagely
+ tearing away his features.  Roaf kicks, flails, rolls...  anything to
+ scatter and free himself.  Oaf snares the eyewear with his teeth and
+ crunches them into powdered dust.
+
+ Roaf's horrible howls cause you to drop to your knees and cover your
+ ears.  Rather than watch the consumption, you bury your head until the
+ wailing and screaming stops.
+
+ With the return of the forest's eerie silence, you look up again.  Oaf
+ chews on something with excessive pantomime, before meeting eyes with
+ you and spitting a wad of flesh onto the ground.
+
+ Oaf wanders off the way you came before finally disappearing.
+
+>undo
+ (Undoing one command)
+
+ Clearing
+    Fine, powdery dust and shards make up a solid foundation for this
+ out-of-the-way little vortex in the forest.  The clearing is in the
+ shape of an oval, and twenty yards across.
+    Roaf and Oaf are waddling about.
+
+>choose oaf
+ "Delightful," muses Roaf.
+
+ Roaf thrusts himself over toward Oaf and knocks him into the ground.
+ He strikes, quick as a cobra, and sits atop him, his teeth gnawing and
+ biting away chunks of Oaf's face.  He rips shredded specks of skin and
+ flesh and spits them out to one side.
+
+ Oaf howls, a cry more of defeated agony than that of rage or directed
+ anger.
+
+ Roaf finishes his meal.  Ultimately, not a scrap of Oaf remains.
+
+ His hunger unsatiated, he then jumps on you and continues to enjoy his
+ repast.
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over, undo or quit.
+>undo
+ (Undoing one command)
+
+ Clearing
+    Fine, powdery dust and shards make up a solid foundation for this
+ out-of-the-way little vortex in the forest.  The clearing is in the
+ shape of an oval, and twenty yards across.
+    Roaf and Oaf are waddling about.
+
+>choose roaf
+ Roaf gasps!
+
+ Oaf pounces, with quickness like a cobra, onto Roaf and begins savagely
+ tearing away his features.  Roaf kicks, flails, rolls...  anything to
+ scatter and free himself.  Oaf snares the eyewear with his teeth and
+ crunches them into powdered dust.
+
+ Roaf's horrible howls cause you to drop to your knees and cover your
+ ears.  Rather than watch the consumption, you bury your head until the
+ wailing and screaming stops.
+
+ With the return of the forest's eerie silence, you look up again.  Oaf
+ chews on something with excessive pantomime, before meeting eyes with
+ you and spitting a wad of flesh onto the ground.
+
+ Oaf wanders off the way you came before finally disappearing.
+
+>look
+ Clearing
+    Fine, powdery dust and shards make up a solid foundation for this
+ out-of-the-way little vortex in the forest.  The clearing is in the
+ shape of an oval, and twenty yards across.
+    You see a wad here.
+
+>examine wad
+ It is an earlobe.
+
+>take wad
+ Taken.
+
+>put wad in vial
+ You can't put anything into the vial.
+
+>examine dust
+ I don't know the word "dust".
+
+>go north
+ You make your way into the vegetation and come to a clearing...
+
+ Clearing
+    Before you is a brick wall that extends into perilous overgrowth.
+ The wall is several times your height and quite impassable.  There is a
+ small table set before the wall itself.
+
+ You notice a single meter-high creature swinging back and forth on a
+ brass bell that emerges from the top two layers of the wall.
+
+>examine table
+ On the table are numerous stones, with single-digit numbers upon most
+ of them.
+
+>examine creature
+ It is an animate, swinging egg.  A completely blank face, it has four
+ impossible limbs arranged like that of a person's, and is clad in fuzzy
+ jams.
+
+ The egg speaks:
+
+ "I thought I saw a little girl
+ Free from the black murder:
+ I looked again and found it was
+ Covered in filthy burr.
+ Have we have met once before my child?
+ How old ja say joo were?"
+
+ The creature holds out one of its hands.  The other holds tightly to
+ the bell, and it continues to swing back and forth.
+
+>take seven
+ Taken.
+
+ "I think," says the snake, "that I'd like to play a quick game.  I'll
+ swallow my own tail!"  The snake gets tighter around your neck, but
+ makes a show of failing to bite its end.  "Oh, sorry, my lovely.  I'll
+ just have to get closer, later!"
+
+ The snake returns to its sleep once more.
+
+>give seven to creature
+ "I thought I saw a little girl,
+ Upon her final day.
+ Eager to play my riddles and
+ Friendly all the way.
+ And though we'd never met, your age
+ Is what you'll never say!"
+
+ The egg releases its handhold on the bell!
+
+ The egg tumbles toward you, and knocks you down!
+
+ The egg hops back up into the air and with a somersault and twist,
+ grabs the bell once again.
+
+ He then promptly eats the seven stone.
+
+>ring bell
+ It's out of reach!  It is too tall for you.
+
+>pray
+ It looks like the purple potion has worn off.
+
+>examine stones
+ Which stones do you mean, the one stone, the nine stone, the two stone,
+ the eight stone, the three stone, the four stone, the blank stone, the
+ five stone, or the six stone?
+
+>examine blank stone
+ It is a tiny, rounded stone.
+
+>give nine to creature
+ You're not carrying the nine stone.
+
+>take nine
+ Taken.
+
+>give nine to creature
+ The egg speaks:
+
+ "I thought I saw a little girl
+ Who understood my ruse.
+ She liked to play and listen to
+ Her helpful, dimwit muse.
+ Joo wish to pick just one more time?
+ 'Cos as of now, you lose!"
+
+ The egg drops the stone and it lands on the small table.
+
+>take blank
+ Taken.
+
+>give blank to creature
+ The egg speaks:
+
+ "My heart, my heart, oh hateful day!
+ You've never said before!
+ Your age is quite foreign to me,
+ Quite clever, mi amour.
+ And though we've never met, my heart
+ Just leaps upon the floor!"
+
+ The creature shifts violently to one side and rings the bell.  The
+ sounding of it sends a audial wave that knocks you back into tumbles
+ for several meters.
+
+ As you slowly right yourself you see the egg cracked open with a
+ beating heart left behind, and that the wall has been broken into
+ crumbly bits, allowing passage.
+
+>examine heart
+ The heart is about the size of two of your fists.  It beats slowly, to
+ a steady, hollow beat.
+
+>take heart
+ Taken.
+
+>examine wall
+ I don't see any wall here.
+
+>go north
+ You climb passed the fallen bricks and enter the plains beyond it.
+
+ The Close Edge of the Plane
+    The forest ends on this side of the wall.  Grassy, lushy plains,
+ spread from feathered jade slip beneath your toes.  Once more, a
+ brilliant fog cuts off your view of the horizon.  Fifteen meters east
+ of the ruins of the once-brick wall (and in the middle of the plains)
+ is a sandy circle.
+
+ You can see and hear the Hare here, he mumbles and meeps in spastic
+ seizures, tossing a killing knife from hand to hand.  He is far away
+ from you, however, and shows no signs of getting closer.  The snake
+ becomes animate once again.  It buzzes in your ear.
+
+>examine circle
+ It appears to be a flattened sphere of sand.
+
+ There is nothing in the circle.
+
+ The snake whispers into your ear:
+
+ "Do you see him, little one?  I think he wants to make a trade.  There
+ are three fleshy artifacts that you have encountered, and no I am not
+ one.  But do not feel inclined to play his game, all you have to do is
+ take me to him, together.  For together we can stop this charade!"
+
+>examine hare
+ He is wearing a glossy top hat, a mirrored monocle over his left eye,
+ and a swashbuckler's vest.  His nose twitches irregularly, as if a
+ symptom of a spastic, involuntary syndrome.  His white fur is stained
+ crimson in splashes, where the woman's blood and flesh has splattered
+ and soaked into it.
+
+>enter circle
+ "You're not going to make this trade, are you?" meekly queries the
+ hateful snake.
+
+ Sandy Circle
+    This is naught but a flattened sphere of sand, free from foul
+ contaminates.
+
+ There is nothing in the circle.
+
+ The Hare spies you and tugs upon its ear!
+
+ The Hare spies you and beats upon its chest!
+
+ The Hare spies you and chortles while holding its sides!
+
+>SAVE
+>cf3
+ Saved.
+
+>give heart to hare
+ It's too far away.
+
+ The Hare spies you and tugs upon its ear!
+
+ The Hare spies you and beats upon its chest!
+
+ The Hare spies you and chortles while holding its sides!
+
+>inventory
+ You have a snake (wrapped around your neck), a vial, an earlobe, a nine
+ stone, and a heart.
+
+ The Hare spies you and tugs upon its ear!
+
+ The Hare spies you and beats upon its chest!
+
+ The Hare spies you and chortles while holding its sides!
+
+>give wad to hare
+ It's too far away.
+
+ The Hare spies you and tugs upon its ear!
+
+ The Hare spies you and beats upon its chest!
+
+ The Hare spies you and chortles while holding its sides!
+
+>go north
+ The Hare won't let you.
+
+ The Hare spies you and tugs upon its ear!
+
+ The Hare spies you and beats upon its chest!
+
+ The Hare spies you and chortles while holding its sides!
+
+>throw wad to hare
+ It's too far away.
+
+ The Hare spies you and tugs upon its ear!
+
+ The Hare spies you and beats upon its chest!
+
+ The Hare spies you and chortles while holding its sides!
+
+>drop wad
+ Dropped.
+
+ The Hare spies you and beats upon its chest!
+
+ The Hare spies you and chortles while holding its sides!
+
+>drop heart and vial
+ heart:  Dropped.
+ vial:  Dropped.
+
+ The Hare leaps from the other side of the plains, and into the circle
+ with you!
+
+ The Hare sniffs and collects the items in the circle.  It holds them
+ within its hands, and regards you with a cruel, guttural sounding.
+
+ "I laughed myself into fits over that foul juwess.  The last job, well,
+ was nice and clean but not this one (I love it, so.)  Where to find a
+ Christmas box, then?  I suppose I will have to give you a running start
+ as I fit myself the box instead."
+
+ The Hare drops the killing knife.
+
+ The snake twists its head until it is in your vision.  It does not look
+ very content.
+
+>take knife
+ As you pick up the knife, the snake coils in fear.
+
+ "No!"  hisses the snake, "Together we can be so much stronger!"  The
+ snake tightens itself around you.  "Besides, fat lot of good that will
+ do!"
+
+ The Hare rips apart the earlobe and sets each piece within his furry
+ ears.
+
+>kill snake
+ (with the killing knife)
+ The snake squeals in an icy indelight!
+
+ You cut the snake to pieces with the killing knife.  You find your
+ breathing to be much less constricted.
+
+ The Hare rips open a bit of its flesh, right above the hip, and inserts
+ the kidney.
+
+>examine snake
+ I don't see any snake here.
+
+>look
+ Sandy Circle
+    This is naught but a flattened sphere of sand, free from foul
+ contaminates.
+
+ The Hare swallows the heart!
+
+>wait
+ Time passes...
+
+ The Hare catches up to you, finally, and holds you within its grasp.
+
+ Without turning you around, he speaks softly into your ear...
+
+ "Was not that jolly a scare, eh?  I laughed myself into fits over that
+ woman, for I have got a jolly lot of false whiskers and fur in my own
+ black bag.  The last job was nice and clean -- I carried away three
+ parts of her (conundrum try to find what parts, lo I guess you did).
+
+ I am going to do another on Friday & shall give the johnnies and dons a
+ running on and about once more..."
+
+ Its break is hot, it reeks of salted iron, of strong scented sweat.
+
+ Struggles result in only further pressing, and you pass out... and that
+ is for the best, for now.
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over, undo or quit.
+>undo
+ (Undoing one command)
+
+ Sandy Circle
+    This is naught but a flattened sphere of sand, free from foul
+ contaminates.
+
+>go north
+ You run, far away from the Hare!
+
+ The eyes of the Hare contract, then immediately bug out in ecstasy.
+
+ "Run, run, run!" it says!  "For now I'm going... to feast on you!"
+
+ The Far End of the Plane
+    Twisting through fog, you come to the beginnings of a cavern -- an
+ approachable Portal through a rocky hill.  You can enter the cavern to
+ the north.
+
+ You look back to see the Hare spin round, as if looking for you.  He
+ then freezes; shocked that you are no longer here.
+
+ The Hare is chasing you.
+
+>go north
+ You enter the Portal and walk through a very slight, open chasm.  After
+ a few feet of this, the Portal opens up and you find yourself within a
+ gaping, endlessly high, foul cavern.  Stalagmites rise from the cave's
+ floor, but you can see no corresponding rocky growths from above --
+ whatever ceiling that is available is shrouded in shimmering light and
+ silky vapour.
+
+ The exit is to the north, on the other side of the Portal, that you can
+ plainly see.
+
+ Sixty-four squares, arranged in a flat 8 by 8 grid with an alternating
+ black and white color scheme are in your way, covering the ground
+ between entrance and exit.  You see that a fair number of them -- at
+ least a dozen -- are occupied by unmoving figures before more fog
+ descends upon you.
+
+ You pause for just a moment and hear echoes of the Hare's voice.
+
+ The Hare is begging you -- desperately pleading with you -- from far
+ away to please, please share a square.
+
+ Black Square
+    You have moved onto a square.  It is black.
+
+ Paths lead east and west.
+
+ To the north is an inanimate render of a warrior footsman.
+
+ The Hare rushes at you, from far away, but is knocked down by something
+ in the fog!
+
+>go north
+ Footsman's Square
+
+ There does not seem to be enough space for both you and the footsman on
+ the square.  The footsman moves in flashes -- you see static images in
+ a strobe effect of it attempting to move backwards, and to the side,
+ but it cannot.
+
+ Out of desperation for its own self, the footsman buries its pike into
+ your chest.  You fall into a crumpled, broken heap upon the slick tile.
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over, undo or quit.
+>undo
+ (Undoing one command)
+
+ Black Square
+    You are standing in the middle of a square.  It is black.
+
+ Paths lead east and west.
+
+ To the north is an inanimate render of a warrior footsman.
+
+>go east
+ White Square
+    You have moved onto a square.  It is white.
+
+ Paths lead east and west.
+
+ To the north is an inanimate render of a warrior footsman.
+
+ You spot the Hare, for just a moment, but he is far behind you.
+
+>go east
+ Black Square
+    You have moved onto a square.  It is black.
+
+ Paths lead north, east and west.
+
+ The Hare twitches loudly -- you pinpoint his location, and he is far
+ away.
+
+>go north
+ Fog concealing the Portal to the far side shifts for a moment.
+ Fragments of images play upon the revealed backdrop.  A timeslash of
+ your father arriving home, removing his tie -- up only for a moment.
+ It cuts away to your mother mixing paint.  Your parents meet, embrace.
+ Your father paints a red clown's nose upon your mother, she letters,
+ slowly, 'MINE' upon your father's body, a clever smirk upon her lips...
+ you see them laugh, you see them simply enjoying the company of one
+ another and play before the fog returns anew and all images fade.
+
+ White Square
+    You have moved onto a square.  It is white.
+
+ Paths lead north, east and south.
+
+ To the west is an inanimate render of a warrior footsman.
+
+ The Hare mewls just for a bit, but long enough for you to place his
+ position... and it is not very close.
+
+>go north
+ You see a static scene in the swirling fog -- your father striking a
+ small projectile straight on.  The fog morphs to a second, animated,
+ scene: a ball ripping through the heart of a foul beast.
+
+ You can hear the Hare yell in pain to the south, and turn to look
+ briefly back.
+
+ You are unable to find the Hare, and returning your view to the north,
+ you see that the fog is no longer forming moving pictures.
+
+ Black Square
+    You have moved onto a square.  It is black.
+
+ Paths lead north, south, east and west.
+
+ The Hare brushes away fog in an attempt to find you.  He is several
+ squares away.
+
+>go north
+ Appearing directly before you is a phantom of your mother, no more than
+ a shimmering curtain of light.  Her eyes are cast downwards to her
+ belly, where you still grow.
+
+ "You can't possibly want another one," she says softly.
+
+ BUT MOTHER I CAN!
+
+ The scene resets, it plays again.
+
+ "You can't possibly want another one," she says softly.
+
+ I'M NOT A BUTCHER!
+
+ The scene resets one final time, and again it plays.
+
+ "You can't possibly want another one," she says softly.
+
+ CUT, IN HARE TOMB!  CUT, IN HARE TOMB!
+
+ The words struggle to find audience, none seems apparent.
+
+ The phantom of light switches quickly into the ether, the nothingness.
+
+ White Square
+    You have moved onto a square.  It is white.
+
+ Paths lead west and south.
+
+ To the north is an inanimate render of a warrior footsman.
+
+ A towering, foreboding castle is to the east.
+
+ The Hare pops up from the fog for a moment, luckily he is nowhere near
+ you.
+
+>go east
+ The Castle's Square
+
+ The castle topples!
+
+ The castle falls upon you, crushing you underneath tons of thick,
+ horrible stone!
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over, undo or quit.
+>undo
+ (Undoing one command)
+
+ White Square
+    You are standing in the middle of a square.  It is white.
+
+ Paths lead west and south.
+
+ To the north is an inanimate render of a warrior footsman.
+
+ A towering, foreboding castle is to the east.
+
+>Reaction Thumb
+ I don't know the word "reaction".
+
+>go west
+ Black Square
+    You have moved onto a square.  It is black.
+
+ Paths lead north, south, east and west.
+
+ You hear nothing, now, out of the ordinary.
+
+>go north
+ The white squares (all but yours) rise up from the floor.  Fog smears
+ upon the tiles to form depth, and you see a the slight outline of a
+ snowing man.  The tiles shift to form the symbol for a 'heart' before
+ violently falling back where they were, upon the ground.
+
+ White Square
+    You have moved onto a square.  It is white.
+
+ Paths lead north, west and south.
+
+ To the east is an inanimate render of a warrior footsman.
+
+ The Hare has apparently lost your trail.
+
+>go north
+ A pretty, spectacled nurse, seemingly whole and real, arrives from
+ behind and places two fingers against the pulse in your neck.  Alarmed,
+ she runs away to the north, rapidly shunting herself into and out of
+ your reality...
+
+ Black Square
+    You have moved onto a square.  It is black.
+
+ Paths lead north, east and south.
+
+ Shimmering, majestic light sprays outwards in a rainbow of colors from
+ the statue of the cruel overlord to the west.
+
+ Everything seems still.  Not too still... no, simply a perfect,
+ tranquil still.
+
+>go west
+ King's Square
+
+ The lion comes to life.
+
+ He gently picks you up and places you ontop of his broad shoulders.
+ With a powerful, musical keen he shakes away the exterior to the
+ cavern.  Various other statues crumble into dust.  He begins a slight
+ trot -- on air itself! -- and carries you up, into the air, through
+ swirling, purple clouds, into a kingdom only of love, free from any
+ kind of want.
+
+ And it is all you ever know.
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over, undo or quit.
+>undo
+ (Undoing one command)
+
+ Black Square
+    You are standing in the middle of a square.  It is black.
+
+ Paths lead north, east and south.
+
+ Shimmering, majestic light sprays outwards in a rainbow of colors from
+ the statue of the cruel overlord to the west.
+
+>go north
+ The fog is brighter, now.  It forms grayscaled sights of a man, a
+ healer, at least a decade older than your own father, bringing down a
+ terrible demon with a wave of his hands... he fells wave after wave of
+ similar horrors in what seems no time at all before dropping dead as he
+ first locks eyes with a biting, clawing, fatted jabberwocky...
+
+ White Square
+    You have moved onto a square.  It is white.
+
+ Paths lead south, east and west.
+
+ To the north is a mild statue, depicting a sneering, bookish,
+ fundamentalist.
+
+ You sniff the air, for just a trace of the Hare... but detect nothing.
+
+>go north
+ Overlord's Square
+
+ You attempt to enter the square that the overlord has already claimed.
+
+ The statue makes no sound.  It does not engage in motion.  Nothing
+ supernatural happens in the least.
+
+ ... which does nothing to alleviate the shock of your death.
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over, undo or quit.
+>undo
+ (Undoing one command)
+
+ White Square
+    You are standing in the middle of a square.  It is white.
+
+ Paths lead south, east and west.
+
+ To the north is a mild statue, depicting a sneering, bookish,
+ fundamentalist.
+
+>go east
+ Black Square
+    You have moved onto a square.  It is black.
+
+ Paths lead west and south.
+
+ To the east is an inanimate render of a warrior footsman.
+
+ To the north is a knight on horseback, frozen in time.
+
+ The Hare cannot quite stop his stomach from rumbling.  You hear it, but
+ it is off into the distance.
+
+>go west
+ White Square
+    You are standing in the middle of a square.  It is white.
+
+ Paths lead south, east and west.
+
+ To the north is a mild statue, depicting a sneering, bookish,
+ fundamentalist.
+
+ The scent of congealed blood and damp fur is still present, but quite
+ faint.
+
+>go west
+ Black Square
+    You have moved onto a square.  It is black.
+
+ Paths lead north, east and west.
+
+ Shimmering, majestic light sprays outwards in a rainbow of colors from
+ the statue of the cruel overlord to the south.
+
+ You cannot see the Hare, but you can detect his scent -- he is not
+ particularly far away, of course, but he did just seem to get closer.
+
+>go north
+ And you feel so close!  And your body feels so warm, your blood so full
+ of vibrant life!  And the fog draws back like a commanded curtain;
+ seven and six men are revealed!  And they wave their hands in menacing
+ manner, so aloof of this world.
+
+ Three earthly organs make up their sacrifice -- a scanned ultrasound in
+ the center of their circle.  One holds a gleaming, leathered sphere of
+ his own, scratching notes upon it, as a chanting jack builds from the
+ others into a gushing crescendo.
+
+ The orb is cast from their circle, and the fog is gone forever.
+
+ The Portal is now before you, one step to the north.
+
+ White Square
+    You have moved onto a square.  It is white.
+
+ Paths lead north, west and south.
+
+ To the east is an inanimate render of a warrior footsman.
+
+ The Hare spots you!  He's coming closer!
+
+>go north
+ Far Side of the Portal
+    You take the final step off the layer of tiles and onto the far
+ Portal side.
+
+ The Hare begins to wail:  a shivering, desperate keen fueled by its
+ horrible capacity for the hunt.  It has failed, it has lost.  It begins
+ tearing fur from its body in thick clumps and patches, throwing them
+ helter-skelter around the tiles, until the craggy flesh beneath is
+ revealed.
+
+ With a moaning sound of 'o' it hunches over, falls to one knee, and
+ sets a sliding hand out in a vain attempt to keep itself from knocking
+ against the polished tile... it collapses and makes no further
+ movement.
+
+ The Portal continues here, into nothingness.
+
+>go north
+ You float about in that direction for a little bit, but are drawn
+ against your will to this very spot.
+
+>look
+ Far Side of the Portal
+    The Portal continues here, into nothingness.
+
+>go east
+ You float about in that direction for a little bit, but are drawn
+ against your will to this very spot.
+
+>look
+ Far Side of the Portal
+    The Portal continues here, into nothingness.
+
+>inventory
+ You have a nine stone and a killing knife.
+
+>wake
+ What do you want to wake?
+
+>use knife
+ Please be more specific on how you want to use the killing knife.
+
+>kill me
+ I don't know how to hit yourself.
+
+>sleep
+ You're not tired.
+
+>enter portal
+ You take leave and jump yourself into the Portal.  You feel a light
+ sensation of freefall through complete darkness before the tears
+ overtake you... everything shifts to warmth, to light...
+
+ Operating Room
+
+ "She's going to -- I think that, yes..." says the Doctor.
+
+ The nurse adjusts her frames and peers onto the operating table.  "Oh,
+ my, look at her neck -- "
+
+ "It just split, I barely touched it with the scalpel," whispers the
+ Doctor.  "Never quite... well, fortunate, nonetheless."  He gently
+ brings the baby up and lifts away the umbilical cord.  He motions over
+ to you.
+
+ You break out of your stunned stupor and shamble over to the operating
+ table.
+
+ "Mr. Scott," says the Doctor, "I think that both your wife and the baby
+ are going to be alright after all..."  He seems temporarily distant to
+ you, what with his deep sweating and cool demeanor.
+
+ "Everything is... everything is okay?" you ask.
+
+ "Kieron -- it's Kieron, correct?"  You nod.  "I have to say it was
+ touch and go there for a while, I wasn't particularly optimistic..."
+ his voice softens to a near mumble, as he studies one edge of the
+ umbilical cord.  "And it certainly wasn't a break, I don't think, it
+ was so smooth if so, and..." the doctor sees you fretting again and
+ displays a hearty, genuine smile.
+
+ "Congratulations," he says.  "It's a girl."
+
+ You cradle your still-unconscious wife in your arms with your little
+ baby girl by her side for just a moment before the nurse begs you away
+ so that Charlise can get her stitches.  Charlise is going to be so
+ happy when she recovers, you think.
+
+ You look upon your daughter, Tessa Elizabeth Scott, seven pounds six
+ ounces.  Has her mother's eyes alright, and a few stringy wisps of
+ yellow hair.  And right before she, too, is whisked away so they can
+ ensure that she is going to be alright, you swear to yourself that in
+ between catches of newfound tears you see her sigh contentedly for what
+ seems like ever, smile knowingly and let out a tiny, ecstatic squeal.
+
+ *** You have saved the life of a newborn baby girl ***
+
+ You may restore a saved game, undo or quit.
+>restore
+>cf2
+ Clearing
+    Fine, powdery dust and shards make up a solid foundation for this
+ out-of-the-way little vortex in the forest.  The clearing is in the
+ shape of an oval, and twenty yards across.
+    Roaf and Oaf are waddling about.
+
+>choose oaf
+ "Delightful," muses Roaf.
+
+ Roaf thrusts himself over toward Oaf and knocks him into the ground.
+ He strikes, quick as a cobra, and sits atop him, his teeth gnawing and
+ biting away chunks of Oaf's face.  He rips shredded specks of skin and
+ flesh and spits them out to one side.
+
+ Oaf howls, a cry more of defeated agony than that of rage or directed
+ anger.
+
+ Roaf finishes his meal.  Ultimately, not a scrap of Oaf remains.
+
+ His hunger unsatiated, he then jumps on you and continues to enjoy his
+ repast.
+
+ *** You have failed to save the life of a newborn ***
+
+ You may restore a saved game, start over, undo or quit.
+>restart
+
+
+
+
+
+
+
+
+ Where did all this fog come from?
+
+
+
+
+
+
+
+
+ No Time To Squeal
+ Interactive Fiction
+ Copyright (c) 2001.  Written and programmed by Mike Sousa and Robb
+ Sherwin
+ (First-time players should type HELP)
+ Release 1.0 / Serial number 092801 / TADS 2.55
+
+ Alley
+    A filthy place, mongrels and predators scurry and skulk about the
+ edges of your vision, seemingly self-satisfied in their hidden snark
+ just beyond your focus.
+
+ The alley wall behind you rises until it seems that you shall never
+ grow tall enough to surpass it.  It melts away in its own acclivity,
+ merging into a starless night.  Walls to both sides reflect a build of
+ age and accompanying deterioration.  Your skin crawls with the
+ sensations of spying from some things, some group of denizens choosing
+ themselves to be, as of yet, unrevealed.
+
+ Fogging spoils your far sight to the west, while it reveals your sole
+ path for this continued evening venture.
+
+>quit
+>yes
+
+ Bye, thanks for playing!

@@ -1,0 +1,3216 @@
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+ Magic is real.
+
+ Or that's what the Headmaster of Hogwarts College--no, Hogwarts School
+ of Witchcraft and Wizardry--wants you to think. Assuming that you're
+ not going insane, it seems like he's probably right. How else could you
+ explain the way he appeared out of nowhere, or how he made you speak in
+ rhyming couplets for ten minutes, or how he brought your grandmother's
+ Lladró figurines to life and had them dancing with each other, or
+ packed all your things with the wave of a wand, or...
+
+ Then, he asked you to be his new Professor of Muggle Studies. Whatever
+ a "Muggle" is. You just needed to sign the contract, say good-bye to
+ your old place, and you'd be whisked away. By magic. To Scotland. To
+ start your new job immediately.
+
+ You asked for a little while to think. What you really meant, of
+ course, was "a little while to go on a bender in celebration of all
+ your notions about life and the world being shattered." That worked out
+ pretty well, except you woke up with a pounding headache and a signed
+ contract. Oh, and an old shoe, which apparently you are supposed to
+ touch whenever you want to be transported. You're not sure how that
+ works, but he put it around here somewhere--you can't quite remember
+ where--and you'd better find it if you want to make it to Hogwarts.
+
+ A magical contract is probably pretty unbreakable, yeah?
+
+ Muggle Studies
+ An exploration of the wonderful world of wizardry, with apologies to
+ J.K. Rowling, by Flourish Klink
+ Release 1 / Serial number 120331 / Inform 7 build 6G60 (I6/v6.32 lib
+ 6/12N)
+ For more information about the game, or how to play IF, type ABOUT or
+ HELP. For hints on specific puzzles, type HINTS.
+
+ Your Flat
+ Your simple one-room flat, suitable to the needs of a young teacher.
+ The place was advertised as a steal, and everyone who sees it has to
+ admit that its bones are good. Unfortunately, it hasn't been redone
+ since before the Second World War. Also, it's about the size of a
+ postage stamp. It's cheap, anyway... You've got a bed, a wardrobe, a
+ table, and an ancient Aga to cook on. One lonely broadside hangs on the
+ south wall. The door on the north wall leads to the rest of the
+ building. A packed trunk stands in the middle of the floor.
+
+ On the table are a contract, a Hogwarts brochure, and a handful of
+ yellow Jelly Babies.
+
+>read contract
+ full year, blah, blah, blah, painful death if you don't fulfill the
+ terms of the contract, blah, blah, blah, then the signatures Albus
+ Dumbledore and Alice Armstrong. Yep. That's your drunk-signature. You'd
+ know it anywhere.
+
+ Holy shit. It says that they can erase your memories if you don't
+ actually hold up your end of the deal. It says they can hex you. What
+ does hexing even mean? It doesn't sound very pleasant. ...looks like
+ you're going to have to go to Hogwarts.
+
+>examine broadside
+ of poetry by Shelley.
+
+ You read: All day the wizard lady sate aloof,
+ Spelling out scrolls of dread antiquity,
+ Under the cavern's fountain-lighted roof;
+ Or broidering the pictured poesy
+ Of some high tale upon her growing woof,
+ Which the sweet splendour of her smiles could dye
+ In hues outshining heaven - and ever she
+ Added some grace to the wrought poesy.
+
+ Now that you know what you know about magic, having "The Witch of
+ Atlas" on your wall is pretty damn ironic.
+
+>who is Sangita
+ like EXAMINE HANDFUL OF YELLOW JELLY BABIES to interact with the story
+ world, or LOOK to get a description of your surroundings.
+
+>take all from table
+
+>examine babies
+ yellow.
+
+ The Grand High Mugglewump or whoever he is kept offering you sweets.
+ You tried to slip them down your sleeve so you didn't have to eat any.
+ Hopefully he didn't notice. Even if you liked Jelly Babies, you
+ probably couldn't have kept them down--you were pretty much in shock
+ after he appeared unexpectedly in your flat. Maybe he thought that
+ raising your blood sugar would help? Do wizards even have blood sugar?
+ Well, of course they have blood sugar, they're human, aren't they?
+ ...aren't they? God, this is not a good line of thinking.
+
+>remember sangita
+
+>take babies
+
+>take contract
+
+>take brochure
+
+>examine brochure
+ just happens to have moving pictures, including an aerial view of a
+ craggy, hodgepodge castle that must be Hogwarts itself.
+
+ You read:
+
+ HOGWARTS SCHOOL OF WITCHCRAFT AND WIZARDRY
+ Providing an excellent magical education since 909 AD
+  Headmaster Albus Dumbledore (Order of Merlin First Class, Grand Sorc.,
+ Chf. Warlock, Supreme Mugwump International Confed. of Wizards)--et
+ cetera, et cetera.
+
+ ...wait a minute. That's not what the brochure said when Dumbledore
+ gave it to you at your interview. Then, it was about Hogwarts
+ College--not Hogwarts School of Witchcraft and Wizardry--and it was all
+ about how Hogwarts provides extensive bursaries for nearly all its
+ students, and how they follow a unique educational programme, focusing
+ on life skills and personal interests. And the pictures didn't
+ move--and there certainly wasn't a picture of students flying around on
+ broomsticks--and the section about Hogwarts's history didn't mention
+ that most of the historical alumni still live there as ghosts.
+
+ Of course, now that you think about it, it must have been an enchanted
+ brochure. After you accepted the job and Dumbledore broke the news
+ about magic to you, its nature changed. That makes as much sense as
+ anything seems to lately.
+
+>inventory
+   a Hogwarts brochure
+   a contract
+   a handful of yellow Jelly Babies
+   an identity card
+
+>examine identity card
+ peaked.
+
+ You read: ALICE ARMSTRONG.
+
+>examine trunk
+ dingy brown canvas and lined with outstandingly ugly floral-sprigged
+ paper. You can't see the paper, of course, because it's closed, stuffed
+ to the brim with your clothes and knicknacks.
+
+ Headmaster Dumbledore waved around that ridiculous wand and everything
+ just jumped in there. The Lladrós even wrapped themselves up in
+ newsprint to make sure they wouldn't crack! That probably convinced you
+ more than anything--parlor tricks aside, absolutely nothing could make
+ all your stuff fit in that little trunk except magic.
+
+>open trunk
+ Everything's packed, and if you opened it you probably couldn't get it
+ closed again. Anyway, you know that the old shoe's not in there.
+
+>take trunk
+
+>examine wardrobe
+ lined with outstandingly ugly floral-sprigged paper, twin to the trunk
+ she also left you.
+
+>look under bed
+ drawer.
+
+>open drawer
+ selling point: so functional! Now that it's about to go into storage
+ (well, that's what the Headmaster said would happen, anyway. Maybe it's
+ going to go into a pocket dimension or something. Who knows?) you're
+ feeling a bit wistful. Sangita was great, and you still pretty much
+ miss her. It's been a year, though, and you'd better get over it. Maybe
+ it's a good thing you're starting over in Scotland. There definitely
+ won't be anything there to remind you of her.
+
+ Nothing inside, not even dust--no old shoe.
+
+>open wardrobe
+ hide inside the wardrobe, behind her fur coats, and pound on the back
+ wall to see if anyone in Narnia, on the other side, could hear you. The
+ sound of the door creaking open brings it all back: the scent of the
+ moth balls, the feel of her papery skin, the heavy warmth of the coats
+ around you.
+
+ No old shoe here, either. All this searching is doing exactly nothing
+ for your headache.
+
+>examine table
+
+>look under table
+
+>examine aga
+ rusty and unassuming. At least the stove is functional, and you use the
+ oven for storage.
+
+ Actually, part of why you ended up taking this flat is the Aga. It's
+ sentimental, really. When you were a small child, your parents' house
+ had one just like it. Your mother never liked to cook--for her, a
+ family meal meant going round the corner for curry take-away instead of
+ actually sitting down in a restaurant--but whenever your grandmother
+ came to visit, she'd make the most incredible meals on that crummy old
+ thing. You can still practically taste everything--she did all the
+ standards, a roast one day, bubble and squeak the next, tarts and
+ scones and pies. Unfortunately, she never taught you any of it.
+
+>exits
+
+>examine exits
+
+>go up
+
+>look
+ You've got a bed, a wardrobe, a table, and an ancient Aga to cook on.
+ One lonely broadside hangs on the south wall. The door on the north
+ wall leads to the rest of the building. A packed trunk stands in the
+ middle of the floor.
+
+>open aga
+
+>SAVE
+>cf1
+
+>go north
+ and go. Surely they wouldn't let a secret like, oh, the existence of
+ magic go so easily. Best to at least see what Hogwarts is like.
+
+>go north
+ and go. Surely they wouldn't let a secret like, oh, the existence of
+ magic go so easily. Best to at least see what Hogwarts is like.
+
+>grab trunk
+
+>touch trunk
+
+>get shoe
+ fish-hook in your belly and started reeling you in. After a brief,
+ stomach-churning journey, you find yourself somewhere quite
+ different--and no longer clutching the shoe. You must have lost it on
+ the way.
+
+ Dumbledore's Office
+ A circular room with a high, vaulted ceiling. It is filled with various
+ magical instruments, an enormous claw-footed desk, and innumerable
+ oddities--all of which have been pushed, higgledy-piggledy, to the
+ walls, and some of which look much the worse for it. An elaborate perch
+ stands forlornly next to the desk, with no bird seated on it. The walls
+ themselves are covered in portraits of important-looking people. A
+ spiral staircase appears to continually spin downwards--almost like an
+ escalator--at the far end of the room.
+
+ Wait, what?
+
+>examine desk
+ covered in chalked designs, strange and geometric.
+
+ On the claw-footed desk is an iron bell.
+
+ As you examine the designs, you walk around the desk--and notice a
+ piece of purple parchment, dropped nearby. You pick it up.
+
+ You read: INGREDIENTS. To be carried by spellcaster.
+ The next bit is all symbols:
+ a dot inside a circle;
+ a crescent moon;
+ a female symbol;
+ a male symbol;
+ a 2 with a 1 intersecting its tail;
+ a female symbol with horns;
+ a curiously embellished lower-case h;
+ a circle bisected by a horizontal line;
+ a circle with a complicated, Celtic-looking pattern.
+
+ No, really, what the fuck is going on?
+
+>examine bell
+ side, as though somebody hastily dropped it.
+
+ You've got a sinking feeling you know what's going on. This is Hogwarts
+ School of Witchcraft and Wizardry. That was some bona fide wizardry
+ there, only instead of being on your trunk, it was on you. Okay. All
+ right. So the next step is to find Dumbledore. Why isn't he here?
+
+>examine portraits
+ televisions than oil paintings, however, as their inhabitants are
+ animated. Most of them are sleeping, rhythmically breathing: "Dilys
+ Derwent, headmistress 1741-1768," "Phineas Nigellus Black, headmaster
+ 1890-1925." One is awake, reading a book: "Newton Scamander, headmaster
+ 1930-1939." You deduce that they are former heads of Hogwarts.
+
+>ask scamander about dumbledore
+
+>talk to scamander
+
+ "Of course I can, what do you think?" he replies.
+
+
+>1
+ figure out how to be polite to a portrait.
+
+ He peers at you over the top of his book. "In my day we never would
+ have thought of such a thing as having a Muggle at Hogwarts," he says,
+ which does not seem to be quite on topic. "Particularly not one that's
+ as rude as you. You were late. Very late. So he thought he'd get some
+ business done first."
+
+
+>1
+ you ask, but before you can say anything further, yet another weird
+ thing happens. A bizarre little man appears, floating between you and
+ Scamander's portrait. He seems to have come from the ceiling,
+ but--where could he have been, up there?
+
+ Before you have a chance to say anything, even to exclaim in surprise,
+ he shouts in a singsong voice, "Oi! It's the new Muggly-girl!" He
+ dances around--surprising, how he can manage to dance in midair--to
+ hover with his feet just on the level of your nose. "I, of course, am
+ Peeves the Proper, King of this castle. Bet you're wondering what's
+ going on, aren't you? Eh-eh-eh?" The bells on his hat jingle.
+
+ "Yeah, uh, starting with -" you begin, but he cuts you off.
+
+ "There once was a lazy headmaster
+ who thought he could cast a spell faster.
+ But the corners he cut
+ slammed dimension doors shut
+ and now he's a missing spellcaster!"
+
+ "Get out of here, Peeves," Scamander says. "I'll call the Bloody
+ Baron!" To your surprise, the threat seems to work: Peeves disappears
+ as quickly as he came.
+
+ All right. So Dumbledore tried to cast a spell and everybody
+ disappeared, including him. That makes... well, it makes a weird kind
+ of sense. It seems like you have a couple of options--you could try to
+ fix the spell, even though you're not magical, or you could try to
+ figure out where you are and start walking home. Maybe you could find a
+ train station or something.
+
+ Why did you ever think this whole teaching thing was a good idea?
+
+>wake nigellus
+
+>talk to scamander
+
+ "Yes?"
+
+
+ This has been fun and all, but you're pretty much ready to go home now.
+
+>3
+ person?" you ask.
+
+ "Excuse me?" the Headmaster asks.
+
+ "I mean--you're not a hologram or something? You and the other
+ paintings?"
+
+ "What in Merlin's name is a hologram?" he inquires. It occurs to you
+ that you don't actually know how holograms are made. What's that
+ phrase--'any sufficiently advanced technology is indistinguishable from
+ magic'?
+
+
+>1
+
+ "The castle poltergeist. I'm not entirely clear on why he didn't
+ disappear along with all the other ghosts," Scamander muses. "Perhaps
+ he's simply too annoying for magic to deal with."
+
+
+>2
+
+ Scamander sighs. "You heard Peeves," he says. "The headmaster and his
+ assistant were making complex adjustments to the castle's wards.
+ Something related to your arrival here, as I understand it. In any
+ case, something they did went wrong, and off they went, Merlin knows
+ where. I believe you've already found their notes." Well, shit.
+
+ "Um. Thanks," you say, to be polite.
+
+>talk to scamander
+
+ "Yes?"
+
+
+>2
+
+ "How should I know?" Scamander asks. "I've been a portrait since 1991,
+ and before that I never came here if I could help it. Being the
+ Headmaster stank."
+
+
+>1
+
+ "The only thing Peeves is scared of. I don't suppose the threat will
+ work long--any minute now he'll figure out that the Baron's not around,
+ and then he'll be insufferable."
+
+
+>1
+
+>instruments
+ a Leyden jar, an orrery. Others are strange: complex silver
+ contraptions that whirr and emit puffs of smoke intermittently.
+
+>examine instruments
+ orrery. Others are strange: complex silver contraptions that whirr and
+ emit puffs of smoke intermittently.
+
+>ring bell
+
+ The sound makes you think. There was a church quite near Grandma's
+ house and when the bells rang she'd ring a little bell of her own. It
+ was a funny tic. She'd ring the bell at plenty of things, actually--the
+ toad that lived in her garden and the owls that flew in to visit,
+ various pots and pans in her kitchen, sometimes even at you. Grandma
+ liked bells. "They scare the faeries out," she'd say, but you knew
+ perfectly well that she was just telling you old wives" tales.
+
+>take bell
+
+>look
+ A circular room with a high, vaulted ceiling. It is filled with various
+ magical instruments, an enormous claw-footed desk, and innumerable
+ oddities--all of which have been pushed, higgledy-piggledy, to the
+ walls, and some of which look much the worse for it. An elaborate perch
+ stands forlornly next to the desk, with no bird seated on it. The walls
+ themselves are covered in portraits of important-looking people. A
+ spiral staircase appears to continually spin downwards--almost like an
+ escalator--at the far end of the room.
+
+>look
+ A circular room with a high, vaulted ceiling. It is filled with various
+ magical instruments, an enormous claw-footed desk, and innumerable
+ oddities--all of which have been pushed, higgledy-piggledy, to the
+ walls, and some of which look much the worse for it. An elaborate perch
+ stands forlornly next to the desk, with no bird seated on it. The walls
+ themselves are covered in portraits of important-looking people. A
+ spiral staircase appears to continually spin downwards--almost like an
+ escalator--at the far end of the room.
+
+>examine orrery
+
+>examine sun
+
+>examine desk
+ covered in chalked designs, strange and geometric.
+
+>examine jar
+
+>examine designs
+ covered in chalked designs, strange and geometric.
+
+>examine astrolabe
+
+>examine leyden jar
+
+>get astrolabe
+ most likely, to prevent curious students from destroying things they
+ don't understand.
+
+>go down
+ conveyor-belt style, to the corridor below. A gargoyle settles into
+ place behind you, blocking the way you came.
+
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase--yes, really squirming, it's weird - leads
+ down; a narrow passage leads northwest; an ordinary door leads south;
+ and a feather-strewn archway leads northeast.  Not very much like a
+ stately castle, you have to say.
+
+ Now how are you going to get back up to the office? There's got to be
+ some kind of mechanism for moving the gargoyle, or another way up, but
+ you sure can't see it.
+
+>examine gargoyle
+ for you to say something.
+
+>talk to Gragoyle
+
+>talk to Gargoyle
+ responds in a gravelly voice, and steps aside to let you pass.
+
+ Dumbledore's Office
+ A circular room with a high, vaulted ceiling. It is filled with various
+ magical instruments, an enormous claw-footed desk, and innumerable
+ oddities--all of which have been pushed, higgledy-piggledy, to the
+ walls, and some of which look much the worse for it. An elaborate perch
+ stands forlornly next to the desk, with no bird seated on it. The walls
+ themselves are covered in portraits of important-looking people. A
+ spiral staircase appears to continually spin downwards--almost like an
+ escalator--at the far end of the room.
+
+>go down
+ conveyor-belt style, to the corridor below. A gargoyle settles into
+ place behind you, blocking the way you came.
+
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>talk to fat lady
+
+ "What's the password?" the portrait asks.
+
+
+>3
+ or anything."
+
+ She looks at you doubtfully. "Muggle transport? It'd take you days, if
+ you're going to walk. Anyhow, the castle's sealed itself up when
+ whatever-it-was happened, to prevent the problem from growing. You
+ can't go anywhere."
+
+
+>3
+
+ "The castle knows when something's wrong," she explains slowly, as
+ though speaking to a particularly dense child. "There must be something
+ really wrong, too, because it's decided that nobody can come in or out.
+ The wards are all tight as can be; only a Portkey can get you in here
+ now, and nothing can get you out till things are fixed."
+
+
+>xyzzy
+ works in text adventures?
+
+>1
+
+ "No," she says. "No admittance without it, even in time of crisis."
+
+
+>1
+
+ "Sorry," she says.
+
+
+>2
+
+ "They just disappeared," she says. "How would I know? Newt Scamander up
+ in the Headmaster's office probably saw it. Deep sorcery, no doubt."
+
+
+>2
+
+ The fat lady looks you up and down. "Are you, by chance, a Muggle?" she
+ asks.
+
+
+>2
+
+ "Well, you must be one then. That's bad luck. You can't do magic, is
+ what a Muggle is. Sometimes a Muggle can reverse a spell, but who knows
+ if you can manage this one?" she asks, apparently rhetorically. "You'll
+ have to look into it. Try the library."
+
+
+>1
+
+
+>1
+
+
+>1
+
+
+>1
+
+
+>1
+ password this time."
+
+
+>examine squirming
+
+>look
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>examine feather
+
+>go northeast
+ Owlery
+ You must be in the top of a tall tower; the room is circular, cold, and
+ echoing. Owls swoop in and out of the many unglassed windows. Four
+ perches jut from the walls, high above your head, in each cardinal
+ direction. An owl-parrot seems to have made himself a nest of feathers
+ on the floor. You can also head southwest through a feather-strewn
+ archway. Lots of feathers all over. Wow. Apparently wizards have a
+ thing for birds.
+
+ You haven't seen an owl since Grandma died--her house was always ground
+ zero for owls. Day or night, there were always one or two around. She
+ even kept a few mice on hand to feed them, like a normal person would
+ keep birdseed. Kind of bloodthirsty, for an old lady, now that you
+ think about it.
+
+ As you enter, the owl-parrot turns his enormous head to look at you.
+ "Awk. Here for the medallion?" he asks. "Ah--yes?" you respond. "CALL
+ the owls," he says. "Owls are very polite. Owls like names. Four
+ pieces. Four owls. Four names. Four names! CALL the names, CALL the
+ owls!"
+
+>call alex
+
+>talk to owl-parrot
+ intelligent that it's hard not to address him like a person.)
+
+
+>1
+ begins it. 500 ends it. 5 in the middle is seen. First of all figures
+ and first of all letters take their stations between." He cocks his
+ head at you, as if judging you."
+
+
+>call david
+ though you didn't expect he'd be so small. He's flying so low because
+ the red piece of wood he carries weighs him down; he lands on your
+ hands for a moment, sides heaving with the effort, before leaving you
+ the piece of wood and flying up to the easternmost perch.
+
+>examine red wood
+
+>2
+ learn the word 'enigmatic'?" you ask. He doesn't deign to answer.
+
+
+>call zooz
+
+>call mmii
+
+>call mimi
+ Mimi. She regards you briefly, then offers you a black piece of wood.
+ When you take it, she flies up to the western perch.
+
+>examine black wood
+
+>3
+ perhaps he'll let something slip about the names. "How does it feel to
+ be so special? A talking kakapo and all," you say. But he seems to take
+ it as a reflection on his species' endangered status, and he huffs and
+ turns away. Whoops.
+
+>talk to parrot
+
+
+>1
+ tail, she's a fruit. Cut off both, she's part of you." He makes a
+ strange, deep sort of noise in his throat, then remarks, "She's really
+ an owl, though."
+
+
+>call pearl
+ ungracefully, on your shoulder. "Pearl?" you ask. She turns her head
+ and responds "tuwhit-tuwhoo"--it sounds encouraging. She delicately
+ offers you a yellow piece of wood, using one claw; when you take it,
+ she flies off to sit on the south perch.
+
+>talk to parrot
+
+
+>1
+ heart. Ten is his end, but he's fifty to start." He ruffles his
+ feathers. "No cheating!"
+
+
+>call lex
+ great dignity--glides over to the north perch. As he goes, he drops a
+ white piece of wood into your waiting hands. Well, he doesn't look a
+ lot like Lex Luthor, but this is undoubtedly Lex.
+
+ You weigh the four pieces of wood in your hands for a moment--and then
+ it strikes you. Fitting them together just so, you make a little wooden
+ medallion--a circle around some Celtic knotwork. It's the same shape as
+ one of the symbols in Dumbledore's office.
+
+>call lex
+
+>examine medallion
+ shape of a circle with Celtic knotwork within.
+
+>score
+
+>talk to owl-parrot
+ feels that he's done his job.
+
+>wear medallion
+
+>SAVE
+>cf2
+
+>rub medallion
+
+>go southwest
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>go northwest
+ Divination Landing
+ An extremely tiny landing with a brass plaque affixed to the low
+ ceiling. A narrow passageway leads southeast, and a silver ladder leads
+ up through a trapdoor.
+
+>examine plaque
+
+ You read: SIBYLL TRELAWNEY, DIVINATION TEACHER.
+
+>examine ladder
+
+>scry in plaque
+
+>go up
+ Divination Classroom
+ This room doesn't look like a classroom at all; it's more like an
+ unholy cross between an old-fashioned tea-shop and someone's attic. The
+ air is stiflingly warm and scented with a heavy, sickening perfume.
+ Various items necessary for divination are fitted into nooks in the
+ circular walls. One high shelf runs around the walls, about a foot and
+ a half from the ceiling. A fat little pouf and an ugly chintz armchair
+ nestle around a low table. A silver ladder leads down.
+
+ On the high shelf are a tourmaline ball and a china doll.
+
+>examine chair
+ The armchair is covered in some of the ugliest floral patterned cloth
+ you can possibly imagine. Its dimensions are off, too--much too tall
+ and narrow.
+
+>look under cloth
+ set of objects. If you can see an object, you can usually interact with
+ it without worrying about positioning. Try a command like EXAMINE
+ TOURMALINE BALL for a closer look, LOOK to get a new description of
+ this location, or a compass direction like (for example) DOWN or D to
+ move to a different location.
+
+>examine ball
+ can imagine a wizard scrying in it, drawing images up from its depths.
+ It must be the one you're looking for.
+
+ The china doll stirs to life and pulls the ball towards her body with
+ one perfectly molded hand. She seems protective of it.
+
+>examine doll
+ glazed porcelain. She's clothed in a lovely white dress covered in
+ eyelet lace. As you examine her delicate patent leather shoes, she
+ seems to notice that you're staring. She turns to face you--moving her
+ whole body, as her head cannot turn on her neck. She stares back at
+ you, her immobile face pure and blank, for a long moment. Then she
+ returns to her original posture.
+
+>talk to doll
+ twenty-four hours ago you thought magic was all bullshit. "Excuse me,
+ Doll," you begin. She seems to perk up. "Could you possibly throw me
+ that tourmaline ball that you've got there? I really need it."
+
+ You've clearly piqued the doll's interest; she awkwardly examines the
+ ball, then inches towards the edge of the shelf and peers over. It must
+ seem very far, even though she is a large doll. She begins to writhe.
+ It takes you a moment to realise that she's trying to shake her head
+ "no." To be fair, if you were made of porcelain, you'd probably be
+ sensitive about the risk of smashing too.
+
+>look in ball
+
+>take ladder
+
+>doll, kick ball
+
+>push pouffe
+ It is fixed in place.
+
+>examine pouf
+ different shades of red: amaranth, auburn, burgundy, carmine,
+ carnelian, cerise, chestnut, coral, crimson, fuschia, magenta, maroon,
+ mauve, raspberry, rose, ruby, rufous, rust, scarlet, sinopia, and
+ vermilion. It looks squashy and rather uncomfortable.
+
+>push chair
+
+>get pouf
+
+>talk to doll
+
+>push table
+
+>stand on table
+
+>get ball
+
+>get off
+
+ Divination Classroom
+ This room doesn't look like a classroom at all; it's more like an
+ unholy cross between an old-fashioned tea-shop and someone's attic. The
+ air is stiflingly warm and scented with a heavy, sickening perfume.
+ Various items necessary for divination are fitted into nooks in the
+ circular walls. One high shelf runs around the walls, about a foot and
+ a half from the ceiling. A fat little pouf and an ugly chintz armchair
+ nestle around a low table. A silver ladder leads down.
+
+ On the high shelf are a tourmaline ball and a china doll.
+
+>get cloth
+
+>look under chair
+
+>examine nooks
+ incomprehensible to you.
+
+>look under table
+
+>search nooks
+ you can't SEARCH ROOM, because that would ruin the fun of exploration.
+>examine shelf
+
+ On the high shelf are a tourmaline ball and a china doll.
+
+>move chair
+
+>accio ball
+
+>go down
+ Divination Landing
+ An extremely tiny landing with a brass plaque affixed to the low
+ ceiling. A narrow passageway leads southeast, and a silver ladder leads
+ up through a trapdoor.
+
+>go down
+
+>se
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>go south
+ It won't budge.
+
+>examine door
+ PREFECTS ONLY on it in large letters. You can hear splish-splashing
+ coming from the other side. There must be a fountain in there, or maybe
+ a bathroom.
+
+>knock on door
+
+>talk to door
+
+>go down
+
+ Granite Corridor
+ A short corridor, the walls and floor made entirely of granite.
+ Centuries of use have worn a smooth path down the middle. Staircases
+ lead down and up. A plain door leads south, and the hall ends in what
+ looks like a library to the west.
+
+>go west
+ Library
+ A large room with a vaulted ceiling and wood-paneled walls. Bookcases
+ fill most of the space; one glass-fronted bookcase stands at the back
+ of the room. The entrance leads eastward to the corridor.
+
+>examine bookcase
+ frosted glass, and it stands ever so slightly ajar. It is engraved with
+ a single word: RESTRICTED.
+
+>open bookcase
+ book of herbs.
+
+>get book
+
+>get alchemy
+
+>get herbs
+
+>read alchemy
+ meanings. The following is a record of the most commonly-used.
+
+ a dot inside a circle, representing gold or Sol;
+ a crescent moon, representing silver or Luna;
+ a female symbol, representing copper or Venus;
+ a male symbol, representing iron or Mars;
+ a 2 with a 1 intersecting its tail, representing tin or Jupiter;
+ a female symbol with horns, representing quicksilver or Mercury;
+ a curiously embellished lower-case h, representing lead or Saturn;
+ a female symbol with a triangle instead of a circle for its head,
+ representing sulfur, the connection between the high and low;
+ a circle bisected by a horizontal line, representing salt--that is,
+ base matter of any kind, including stones and crystals;
+ a triangle with several diagonal lines in it, representing plant
+ matter;
+ a triangle pointing up, representing fire;
+ a triangle pointing down, representing water;
+ a triangle pointing down with its bottom point intersected by a
+ horizontal line, representing earth;
+ a triangle pointing up with its top point intersected by a horizontal
+ line, representing air;
+ an upside-down female symbol, representing antimony;
+ a circle with a half-circle atop it, representing bismuth;
+ a misshapen 3, representing cinnabar.
+
+>read herbs
+ Angel's Trumpet, arnica, ash, Abyssinian shrivelfig, aconite, Alihotsy,
+ asphodel, baneberry, beech, belladonna, bergamot, black walnut,
+ blackthorn, bloodroot, boom berry, bubotuber, camomile, catnip, cedar,
+ centaury, Chinese chomping cabbage, Cobra Lily, cypress, daisy,
+ dandelion, Devil's Snare, dirigible plum, dittany, ebony, elm, Fanged
+ Geranium, flitterbloom, floo, Flutterby bush, fluxweed, foxglove,
+ gillyweed, ginger, goosegrass, Gurdyroot, hawthorn, hazel, hellebore,
+ henbane, holly, honking daffodil, horehound, hornbeam, knotgrass,
+ lovage, mahogany, mallowsweet, Mandragora, maple, Mimbulus Mimbletonia,
+ monkshood, moly, nettle, oak, peppermint, plangentine, privet,
+ puffapod, pumpkin, rosewood, rowan, rue, sage, Screechsnap,
+ scurvy-grass, silver lime, Snargaluff, Snarfalump, sneezewort,
+ snowdrop, sopophorous bean, sycamore, valerian, Venomous Tentacula,
+ walnut, Whomping Willow, wolfsbane, wormwood, yarrow, yew.
+
+ You could probably LOOK UP one of the topics IN THE BOOK OF HERBS.
+
+>look up catnip
+ LOOK UP ACACIA IN BOOK OF HERBS, or LOOK UP HAZEL IN CABINET.
+
+>look up catnip in herbs
+ of Kneazles, particularly in combination with camomile, which serves as
+ a further sedative.
+
+>inventory
+   a book of herbs
+   a book of alchemy
+   a medallion
+   an iron bell
+   a piece of purple parchment
+   a Hogwarts brochure
+   a contract
+   a handful of yellow Jelly Babies
+   an identity card
+
+>examine purple parchment
+
+ You read: INGREDIENTS. To be carried by spellcaster.
+
+ gold;
+ silver;
+ copper;
+ iron;
+ tin;
+ quicksilver;
+ lead;
+ base matter;
+ eternity.
+
+>examine medallion
+ shape of a circle with Celtic knotwork within.
+
+>look
+ A large room with a vaulted ceiling and wood-paneled walls. Bookcases
+ fill most of the space; one glass-fronted bookcase stands at the back
+ of the room. The entrance leads eastward to the corridor.
+
+>go east
+ Granite Corridor
+ A short corridor, the walls and floor made entirely of granite.
+ Centuries of use have worn a smooth path down the middle. Staircases
+ lead down and up. A plain door leads south, and the hall ends in what
+ looks like a library to the west.
+
+>go south
+
+ Mirror Room
+ An empty, unused classroom, with only one feature: the Mirror of
+ Erised. A plain door leads north to the corridor.
+
+>examine mirror
+ mirror, engraved in its wooden frame, are the words "Erised stra ehru
+ oyt ube cafru oyt on wohsi."
+
+ You see not your face, but someone else's. It's Sangita.
+
+>examine sangita
+
+>kiss sangita
+
+>touch mirror
+ hand in answer. You reach out to touch her face and find yourself
+ surprised, and disappointed, when your hand meets cold glass instead of
+ warm girl.
+
+>enter mirror
+
+>talk to sangita
+ there? Is this a magic mirror?" Then you hear yourself. "Oh, Jesus, of
+ course it's a magic mirror, but is it that kind? Are you real?" She
+ doesn't answer. Evidently not.
+
+>go north
+ Granite Corridor
+ A short corridor, the walls and floor made entirely of granite.
+ Centuries of use have worn a smooth path down the middle. Staircases
+ lead down and up. A plain door leads south, and the hall ends in what
+ looks like a library to the west.
+
+>go down
+ it. Exhilarating!
+
+ Armour Gallery
+ A long, narrow room, lined with suits of armour on either side.
+ Staircases lead down and up, and you're beginning to catch on: if you
+ go down, something weird is going to happen. Westward you can see the
+ gallery open out into a trophy room.
+
+ You can see a scribbled note here.
+
+>get note
+
+>read it
+
+ Someone must be a real prat. Who would write a password down? An
+ eleven-year-old, you suppose.
+
+>examine armour
+ from every country that ever had suits of armour, anyway.
+
+>look in armour
+ you can't SEARCH ROOM, because that would ruin the fun of exploration.
+>wear suit
+
+>go west
+ Trophy Room
+ The space is dominated by a huge trophy case, which butts directly up
+ against a pedestal holding an enormous brass cup. It's immaculate--no
+ dust anywhere. To the east, suits of armor keep watch in their gallery.
+ Since the portraits are alive here, maybe the suits of armor really are
+ keeping watch. That's a creepy thought.
+
+ You can see a tin cup and a long-handled scrub-brush here.
+
+>examine cup
+ A small, battered tin cup, with nothing to recommend it. It is wedged
+ far back between the trophy case and the pedestal.
+
+>take tin
+
+>examine brush
+ that a wizard would need to clean with normal equipment, but then,
+ maybe the students get assigned to do it for detention or something.
+
+>take it
+
+>take tin cup with brush
+ necessary to get it.
+
+>take tin cup
+ short.
+
+>climb pedestal
+
+>get on pedestal
+
+>examine brass cup
+ Houses have won it.
+
+ You read: ...1985-1986: Slytherin. 1986-1987: Slytherin. 1987-1988:
+ Slytherin. 1988-1989: Slytherin. 1989-1990: Slytherin. 1990-1991:
+ Slytherin. 1991-1992: Gryffindor. 1992-1993: Gryffindor.
+
+>wave brush
+
+>get on brush
+
+>examine case
+ that this is a magical school--the Medal for Magical Merit, as an
+ example, or a series of shields engraved with the words "For Special
+ Services to the School," most recently awarded to Messrs. Harry Potter
+ & Ronald Weasley. You'd expect them to be more interesting. Awards for
+ dragon-slaying or something.
+
+>push case
+
+>examine medal
+ A little wooden medallion, black and white and red and yellow, in the
+ shape of a circle with Celtic knotwork within.
+
+>get brass cup
+
+>go east
+ Armour Gallery
+ A long, narrow room, lined with suits of armour on either side.
+ Staircases lead down and up. Westward you can see the gallery open out
+ into a trophy room.
+
+>go up
+ then subsides. You climb it without incident.
+
+ Granite Corridor
+ A short corridor, the walls and floor made entirely of granite.
+ Centuries of use have worn a smooth path down the middle. Staircases
+ lead down and up. A plain door leads south, and the hall ends in what
+ looks like a library to the west.
+
+>go up
+
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>talk to fat lady
+
+ "Welcome," the fat lady says graciously. Her portrait swings open,
+ letting you into Gryffindor Tower.
+
+ Gryffindor Tower
+ A circular room, its stone walls hung with sumptuous tapestries. It is
+ dominated by a large fireplace; a banner, clearly student-made, hangs
+ above the fireplace. Light from a rose window illuminates a message
+ board. You can go northeast through the back side of the picture-frame,
+ too. Sangita would make a dirty joke about rear entry if she were here.
+
+>examine banner
+ red to gold to yellow to orange and back again; it says GO GO
+ GRYFFINDOR!!!
+
+>examine message board
+ one's about a lost toad, one's about the glee club, and one appears to
+ be a love note.
+
+>read toad
+ Longbottom.
+
+>read glee
+ in HARMONY!!!!!
+
+>read love note
+
+ I long to be with you--I miss you every day--
+
+ It continues on in similar fashion, signed P.C., but with a postscript
+ added in pencil in a rather different hand:
+
+ GUESS WHO THIS WAS TO AND FROM? She can't be a very smart Ravenclaw if
+ she thought she could trust us!!! Percy's in LOVE!!! FWGW
+
+>examine fireplace
+ Something shiny glints from atop the mantel.
+
+>examine shiny
+ life, emblazoned with a P for PREFECT.
+
+>get badge
+ need it, even if you don't know why yet. You pin it onto your shirt to
+ make sure you don't lose it.
+
+>SAVE
+>cf3
+
+>examine window
+ it you can catch glimpses of the castle grounds.
+
+>look
+ A circular room, its stone walls hung with sumptuous tapestries. It is
+ dominated by a large fireplace; a banner, clearly student-made, hangs
+ above the fireplace. Light from a rose window illuminates a message
+ board. You can go northeast through the back side of the picture-frame,
+ too.
+
+>get glee
+ you really need to fix this situation.
+
+>examine tapestries
+ scenes of battle and bravery.
+
+>look behind them
+ scenes of battle and bravery.
+
+>move them
+
+>look in fireplace
+ you can't SEARCH ROOM, because that would ruin the fun of exploration.
+>enter fireplace
+
+>go northeast
+ the corridor.
+
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>go south
+
+ Prefects' Bathroom
+ A small room with a high ceiling. All the walls are white marble, and
+ it is dominated by a huge sunken tub. A large portrait of a mermaid
+ hangs on one wall, a chandelier softly lights the room, and some towels
+ and a purple bottle lie discarded in a corner. A door leads north to
+ the purple corridor.
+
+ You can see a ciphered book here.
+
+>get book
+>read it
+ qvntenz, fgnaq arne vg naq hggre gur jbeq Erqvgr. Guvf vf zreryl gur
+ gevttre sbe gur zntvpf; rira n Zhttyr znl qb vg; fb vg vf jvfr gb frg
+ bgure cerpnhgvbaf vs bar qbrf abg jvfu gb erghea sebz bar'f qvzrafvbany
+ geniry.
+
+>examine mermaid
+ all the noise.
+
+>talk to mermaid
+
+>examine tub
+ the room. It is surrounded by hundreds of gold-and-jewel taps; closest
+ to you are an amethyst tap, a sapphire tap, and a pearl tap.
+
+>get amethyst tap
+
+>turn amethyst tap
+ of it. They make you sneeze, so you turn it off again; as soon as you
+ do, they dissipate.
+
+>turn sapphire
+ blue bubbles the size of footballs. They smell faintly of candyfloss.
+ Sitting back on your heels, you turn it off again and let the bath
+ drain.
+
+>turn pearl
+ it could support your weight, if you cared to try it. Probably not the
+ best idea, though; you'd ruin your clothes. Regretfully, you turn it
+ off again. The foam slowly melts.
+
+>get in tub
+
+>look
+ A small room with a high ceiling. All the walls are white marble, and
+ it is dominated by a huge sunken tub. A large portrait of a mermaid
+ hangs on one wall, a chandelier softly lights the room, and some towels
+ and a purple bottle lie discarded in a corner. A door leads north to
+ the purple corridor.
+
+>get towels
+
+>get bottle
+
+>examine bottle
+ TANGLE TAMER POTION.
+
+ God. That's the conditioner Sangita used, and now you're thinking about
+ Sangita's hair, long and black and smelling of camomile, feathered out
+ in the tub or on a pillow.
+
+>examine towels
+
+ Actually, now that you're thinking about it, wasn't Sangita's
+ conditioner called "Sleek & Easy," not "Sleekeazy's"? The label was
+ just the same style, though.
+
+>examine chandelier
+
+>inventory
+   a ciphered book
+   a prefect's badge (being worn)
+   a long-handled scrub-brush
+   a scribbled note
+   a book of herbs
+   a book of alchemy
+   a medallion
+   an iron bell
+   a piece of purple parchment
+   a Hogwarts brochure
+   a contract
+   a handful of yellow Jelly Babies
+   an identity card
+
+>SAVE
+>cf4
+
+>read cyphered book
+
+>read ciphered book
+ qvntenz, fgnaq arne vg naq hggre gur jbeq Erqvgr. Guvf vf zreryl gur
+ gevttre sbe gur zntvpf; rira n Zhttyr znl qb vg; fb vg vf jvfr gb frg
+ bgure cerpnhgvbaf vs bar qbrf abg jvfu gb erghea sebz bar'f qvzrafvbany
+ geniry.
+
+>examine bottle
+ TANGLE TAMER POTION.
+
+>get potion
+
+>get bottle
+
+>eat jelly babies
+
+
+>look
+ A small room with a high ceiling. All the walls are white marble, and
+ it is dominated by a huge sunken tub. A large portrait of a mermaid
+ hangs on one wall, a chandelier softly lights the room, and some towels
+ and a purple bottle lie discarded in a corner. A door leads north to
+ the purple corridor.
+
+>talk to mermaid
+
+>take bath
+
+>go north
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>go down
+
+ Granite Corridor
+ A short corridor, the walls and floor made entirely of granite.
+ Centuries of use have worn a smooth path down the middle. Staircases
+ lead down and up. A plain door leads south, and the hall ends in what
+ looks like a library to the west.
+
+>go down
+ little kid again as you slide on down.
+
+ Armour Gallery
+ A long, narrow room, lined with suits of armour on either side.
+ Staircases lead down and up. Westward you can see the gallery open out
+ into a trophy room.
+
+>go down
+
+ Gothic Corridor
+ A long corridor with an extremely high, vaulted ceiling. It gives the
+ impression of tall trees spreading into branches over your head,
+ although it's all just the same grey stone. Staircases lead down and
+ up. A strange red plastic door leads north, and a black door leads
+ west. To the south, the corridor opens out into the Hospital Wing.
+
+>read alchemy
+ meanings. The following is a record of the most commonly-used.
+
+ a dot inside a circle, representing gold or Sol;
+ a crescent moon, representing silver or Luna;
+ a female symbol, representing copper or Venus;
+ a male symbol, representing iron or Mars;
+ a 2 with a 1 intersecting its tail, representing tin or Jupiter;
+ a female symbol with horns, representing quicksilver or Mercury;
+ a curiously embellished lower-case h, representing lead or Saturn;
+ a female symbol with a triangle instead of a circle for its head,
+ representing sulfur, the connection between the high and low;
+ a circle bisected by a horizontal line, representing salt--that is,
+ base matter of any kind, including stones and crystals;
+ a triangle with several diagonal lines in it, representing plant
+ matter;
+ a triangle pointing up, representing fire;
+ a triangle pointing down, representing water;
+ a triangle pointing down with its bottom point intersected by a
+ horizontal line, representing earth;
+ a triangle pointing up with its top point intersected by a horizontal
+ line, representing air;
+ an upside-down female symbol, representing antimony;
+ a circle with a half-circle atop it, representing bismuth;
+ a misshapen 3, representing cinnabar.
+
+>examine plastic door
+ children, and it is fire-engine red.
+
+>open it
+
+>examine black door
+
+>go north
+ Muggle Studies Classroom
+ So this is going to be your classroom, is it? Not too posh. It's a
+ rather small room, dominated by an oak table. Muggle Studies must not
+ be a popular class; only ten or twelve students could fit in here,
+ seminar-style. A poster illustrating how a light bulb works adorns the
+ wall, and a bookcase stands in a corner. The door out is to the south.
+
+>examine poster
+ there are not any magical spirits of "ekeltricity" living in light
+ bulbs. Or are there?
+
+>examine bookcase
+
+ In the oak bookcase are a blue book and a cloth book.
+
+>get blue book
+
+>read it
+ often use a simple cipher known as "rot13" to keep their messages
+ initially unreadable, blah blah blah, some wizards find it useful too,
+ blah blah blah. Nothing shocking.
+
+>get cloth book
+
+>read it
+ magical and Muggle means to enter homes and burgle businesses, from the
+ familiar--combination locks--to the foreign--security systems running
+ on ekeltricity. The book falls open to a page describing how one may
+ turn a dial and naturally hear tumblers fall into place, allowing a
+ combination lock to be successfully opened without any prior knowledge
+ of the combination, or any use of magical power.
+
+
+ You read: INGREDIENTS. To be carried by spellcaster.
+
+ gold;
+ silver;
+ copper;
+ iron;
+ tin;
+ quicksilver;
+ lead;
+ base matter;
+ eternity.
+
+>look behind poster
+ there are not any magical spirits of "ekeltricity" living in light
+ bulbs. Or are there?
+
+>get poster
+
+>examine table
+
+>look under it
+
+>go south
+ Gothic Corridor
+ A long corridor with an extremely high, vaulted ceiling. It gives the
+ impression of tall trees spreading into branches over your head,
+ although it's all just the same grey stone. Staircases lead down and
+ up. A strange red plastic door leads north, and a black door leads
+ west. To the south, the corridor opens out into the Hospital Wing.
+
+>examine black door
+
+>go west
+
+ The Defence Against the Dark Arts Classroom
+ A large classroom; the defining feature is an enormous skeleton hung
+ from the ceiling, spotlit, in the centre of the room. The professor's
+ desk, at the front of the room, also looks interesting. A black door is
+ on the east wall.
+
+>examine skeleton
+ Fresnel lantern. One of its hooves gleams curiously in the light.
+
+>examine hoof
+ the skeleton shines a single piece of metal: one hoof made of silver.
+ As you stand on tiptoe to get a better look, the skeleton moves and
+ twists away from you. Not as dead as it looks!
+
+>talk to skeleton
+ impossible, even with magic?" The huge creature waggles his wingtips at
+ you. He evidently can hear you.
+
+>talk to skeleton
+ cajoling, threatening, pleading. Nothing seems to work. He tosses his
+ noble skull and somehow manages to snort (despite his obvious lack of
+ lungs), and drums his hooves in the air as though to urge you away.
+
+>give jelly beans to skeleton
+
+>examine lantern
+ almost steampunk.
+
+>take it
+
+>brush skeleton
+
+>brush
+
+>examine brush
+
+>brush skeleton with scrub-brush
+ you're pretty short.
+
+>pet horse
+
+>examine desk
+ It's kept very neat.
+
+>open drawer
+
+>examine journal
+ cover. It appears to be a record of classroom affairs--detentions
+ given, supplies used--but there's a section about the skeleton.
+
+ You read: The new thestral skeleton I purchased for the classroom
+ appears to be animate. I had not realized until this morning, but he
+ seems to have merely been scoping out his new situation, waiting to
+ make himself known. He has more or less managed to communicate to me
+ that he would like his silky black mane back; he seems to be rather
+ vain, and quite proud of the silver that I used to replace his split
+ hoof. (Thank heavens that part of the curse is a Muggle myth; not being
+ able to handle Sickles would be quite frustrating.) As a wig would
+ spoil the effect of the skeleton, and the beast is quite rude about it,
+ I'm apt to let him stew in his own juices until he becomes more polite.
+
+>go east
+ Gothic Corridor
+ A long corridor with an extremely high, vaulted ceiling. It gives the
+ impression of tall trees spreading into branches over your head,
+ although it's all just the same grey stone. Staircases lead down and
+ up. A strange red plastic door leads north, and a black door leads
+ west. To the south, the corridor opens out into the Hospital Wing.
+
+>go south
+ Hospital Wing
+ A room with a high ceiling and white walls, sterile and institutional.
+ Iron-framed beds stand in rows, and an enormous medicine cabinet
+ dominates the far wall. To the north is a gothic-arched corridor.
+
+>examine medicine cabinet
+ combination lock is part of the frame.
+
+ In the medicine cabinet are a vial of mercury and a bottle of Pepper-Up
+ Potion.
+
+>get all
+
+>get vial
+
+>examine lock
+ moon phases, inlaid with mother-of-pearl. You can turn it right or
+ left. An engraved arrow points to the first quarter moon.
+
+>read cloth book
+ magical and Muggle means to enter homes and burgle businesses, from the
+ familiar--combination locks--to the foreign--security systems running
+ on ekeltricity. The book falls open to a page describing how one may
+ turn a dial and naturally hear tumblers fall into place, allowing a
+ combination lock to be successfully opened without any prior knowledge
+ of the combination, or any use of magical power.
+
+>listen to lock
+ when you TURN the lock RIGHT and LEFT.
+
+>turn lock right
+ waxing crescent moon.
+
+>turn lock right
+ moon.
+ You hear a soft click of tumblers falling into place.
+
+>turn lock left
+ waxing crescent moon.
+
+>turn lock left
+ quarter moon.
+
+>turn lock left
+ waxing gibbous moon.
+ You hear a soft click of tumblers falling into place.
+
+>turn lock right
+ first quarter moon.
+
+>turn lock right
+ waxing crescent moon.
+ You hear a soft click of tumblers falling into place, and the medicine
+ cabinet's door springs open.
+
+>look in cabinet
+ Pepper-Up Potion.
+
+>get mercury
+
+ The mercury in the vial is silvery. Sangita had a chemistry kit with
+ mercury in it. Kind of strange, since she never was any use helping you
+ with science curricula. "I use it to make inks for the printshop," she
+ said when you moved in together, but you never saw her do it, and
+ anyway, can't you buy printer's ink? And wouldn't she be doing it at
+ work?
+
+>get potion
+
+>examine potion
+
+>examine beds
+
+>look under beds
+
+>SAVE
+>cf5
+
+>drink potion
+
+>examine mercury
+
+>inventory
+   a vial of mercury
+   a cloth book
+   a blue book
+   a ciphered book
+   a prefect's badge (being worn)
+   a long-handled scrub-brush
+   a scribbled note
+   a book of herbs
+   a book of alchemy
+   a medallion
+   an iron bell
+   a piece of purple parchment
+   a Hogwarts brochure
+   a contract
+   a handful of yellow Jelly Babies
+   an identity card
+
+>go north
+ Gothic Corridor
+ A long corridor with an extremely high, vaulted ceiling. It gives the
+ impression of tall trees spreading into branches over your head,
+ although it's all just the same grey stone. Staircases lead down and
+ up. A strange red plastic door leads north, and a black door leads
+ west. To the south, the corridor opens out into the Hospital Wing.
+
+>go down
+
+ Entrance Hall
+ A capacious hall, lit with torches. There's not much here, though,
+ other than inspiring architecture. Which, honestly, you could see
+ pretty easily in non-magical London whenever you wanted to. An enormous
+ sweeping staircase leads up, and a smaller staircase leads down. A
+ rough door leads west, and the Great Hall is through a stone archway to
+ the east.
+
+>go east
+ Great Hall
+ An enormous, long room with a flagstone floor, filled with four equally
+ enormous tables. The linens on each table are of different colors: red,
+ blue, yellow, and green. A fifth table with a large centrepiece in the
+ middle - the head table - stands on a dais, perpendicular to the
+ others. The entrance hall is to the west.
+
+>examine centrepiece
+ middle.
+
+>examine toad
+
+>take toad
+
+ When you look at it closely, the little toad statue kind of looks like
+ Buford, Grandma's old pet. No matter how many owls were around, they
+ never seemed to eat Buford. Grandma really liked the old boy--he lived
+ in the mud of the garden and he'd croak at you whenever you got too
+ close. She always told you he could talk and he was telling you to back
+ off. He wasn't made of gold, of course.
+
+>talk to toad
+
+>examine trevor
+
+>examine head table
+ thing on it.
+
+>examine dais
+ flagstones.
+
+>examine flagstones
+ flagstones.
+
+ Wandering the castle alone is lonely, and you find yourself remembering
+ things that you'd rather not--whisked away to a wholly different realm
+ of memory.
+
+ Your Remembered Flat
+ Your familiar flat, back in London, but with more things in it. It's a
+ year ago. Sangita's still here; she's packing her things to leave you.
+ Her suitcase and clothes are laid out on her big brass bed, the one you
+ used to share, the one she took with her when she left. You're in the
+ midst of a conversation--a painful one, too.
+
+>SAVE
+>cf6
+
+>examine sangita
+
+>examine bed
+ to be able to think about them without thinking about this fight, the
+ tightly controlled way Sangita's moving, how sad she looks.
+
+>talk to sangita
+ swings, and you won't tell me what the problem really is. You have to
+ tell me!"
+
+ "Look, I don't want to talk about this right now," she says. "We just
+ aren't as close as you think. We shouldn't have moved in together.
+ That's all."
+
+
+>2
+
+ "No," she says, and for the first time her façade of determination
+ seems to crack.
+
+
+>2
+ so sure.
+
+ Too bad you can't change anything that happened.
+
+ Great Hall
+ An enormous, long room with a flagstone floor, filled with four equally
+ enormous tables. The linens on each table are of different colors: red,
+ blue, yellow, and green. A fifth table with a large centrepiece in the
+ middle - the head table - stands on a dais, perpendicular to the
+ others. The entrance hall is to the west.
+
+>examine red table
+
+>examine blue table
+
+>examine yellow table
+
+>examine green table
+
+>examine parchment
+
+ You read: INGREDIENTS. To be carried by spellcaster.
+
+ gold;
+ silver;
+ copper;
+ iron;
+ tin;
+ quicksilver;
+ lead;
+ base matter;
+ eternity.
+
+>inventory
+   a prefect's badge (being worn)
+   a golden toad
+   a vial of mercury
+   a cloth book
+   a blue book
+   a long-handled scrub-brush
+   a book of herbs
+   a book of alchemy
+   a scribbled note
+   a ciphered book
+   a piece of purple parchment
+   an iron bell
+   a handful of yellow Jelly Babies
+   a Hogwarts brochure
+   a contract
+   a medallion
+   an identity card
+
+>go west
+ Entrance Hall
+ A capacious hall, lit with torches. There's not much here, though,
+ other than inspiring architecture. Which, honestly, you could see
+ pretty easily in non-magical London whenever you wanted to. An enormous
+ sweeping staircase leads up, and a smaller staircase leads down. A
+ rough door leads west, and the Great Hall is through a stone archway to
+ the east.
+
+>go down
+ it down, it's only a foot wide, and you have to go sideways.
+
+ Moist Corridor
+ A damp, windowless corridor, with wet and slime oozing down the walls.
+ A staircase leads up--and man, you aren't ready to do that again right
+ away, ick. A classroom is visible to the east.
+
+
+ Moist Corridor
+ A damp, windowless corridor, with wet and slime oozing down the walls.
+ A staircase leads up. A classroom is visible to the east.
+
+ Potions Classroom
+ A large, rather damp room. A long stone table is its primary feature. A
+ heavy door stands a little ajar at the north end of the room, as though
+ someone were just going through it when they disappeared. The corridor
+ is to the west.
+
+ On the stone table are a copper cauldron (in which is an icy potion)
+ and a potions book.
+
+ You can also see a scarf here.
+
+>get cauldron
+ ready to slosh out if you joggle it.
+
+ Grandma's kitchen--without the Aga. That's what the dungeon classroom
+ reminds you of. Her pantry was full of herbs hanging down, and the
+ whole place, well& now that you think of it, it wasn't really anything
+ like the dungeon classroom. There was something similar about them,
+ though. Maybe it's the temperature, or something about the smell? But
+ Grandma's kitchen was always warm and smelt of cooking, nothing like
+ the dungeons.
+
+ ready to slosh out if you joggle it.
+
+ the book of herbs, the book of alchemy, or the ciphered book?
+
+
+ You read:
+
+ It's open to a recipe: FOR KEEPING A GOBLETTE OR GLASSE UNMOLESTED. The
+ recipe is long, involved, and requires measures of things in "scruples"
+ and "minims." However, at the end, it describes a potion of extreme
+ frigidity and blueness, ready to pour out at the slightest provocation
+ and destroy the potion's molester. Nasty. The last line reads, The
+ inclusion of aconitum, a most wondrous hot herbe, shall however render
+ it inert, and indeed most beneficial to the skin of a lady.
+
+>look up aconitum in herbs book
+ name "aconite" comes from "aconiton," a Greek word meaning without
+ struggle and referring to the quick death it brings.
+
+>get scarf
+
+>examine it
+ Human hair? It feels slightly oily to the touch.
+
+>wear scarf
+
+>look
+ A large, rather damp room. A long stone table is its primary feature. A
+ heavy door stands a little ajar at the north end of the room, as though
+ someone were just going through it when they disappeared. The corridor
+ is to the west.
+
+ On the stone table are a copper cauldron (in which is an icy potion)
+ and a potions book.
+
+>get potions book
+ plan to mess with it.
+
+>look up icy potion in potion book
+ plan to mess with it.
+
+>go north
+ Potions Storeroom
+ A tiny room, with every bit of space used, even the ceiling: herbs hang
+ in bundles, drying. The main feature, however, is a huge apothecary
+ cabinet. A heavy door leads south.
+
+>examine herbs
+ The book's title is "1001 Magical Herbs and Fungi."
+
+ You read: A table of contents: acacia, agaric, alder, aloe vera,
+ Angel's Trumpet, arnica, ash, Abyssinian shrivelfig, aconite, Alihotsy,
+ asphodel, baneberry, beech, belladonna, bergamot, black walnut,
+ blackthorn, bloodroot, boom berry, bubotuber, camomile, catnip, cedar,
+ centaury, Chinese chomping cabbage, Cobra Lily, cypress, daisy,
+ dandelion, Devil's Snare, dirigible plum, dittany, ebony, elm, Fanged
+ Geranium, flitterbloom, floo, Flutterby bush, fluxweed, foxglove,
+ gillyweed, ginger, goosegrass, Gurdyroot, hawthorn, hazel, hellebore,
+ henbane, holly, honking daffodil, horehound, hornbeam, knotgrass,
+ lovage, mahogany, mallowsweet, Mandragora, maple, Mimbulus Mimbletonia,
+ monkshood, moly, nettle, oak, peppermint, plangentine, privet,
+ puffapod, pumpkin, rosewood, rowan, rue, sage, Screechsnap,
+ scurvy-grass, silver lime, Snargaluff, Snarfalump, sneezewort,
+ snowdrop, sopophorous bean, sycamore, valerian, Venomous Tentacula,
+ walnut, Whomping Willow, wolfsbane, wormwood, yarrow, yew.
+
+ You could probably LOOK UP one of the topics IN THE BOOK OF HERBS.
+
+>examine bundles
+ storeroom look like Grandma's pantry.
+
+>examine cabinet
+ in alphabetical order.
+
+>look up aconitum in cabinet
+ it's under another name?
+>look up wolfsbane in cabinet
+ it's under another name?
+
+>look up monkshood in cabinet
+ aconite," the label says, in crabbed script), and it's mostly full. You
+ take a sprig or so.
+
+>go south
+ Potions Classroom
+ A large, rather damp room. A long stone table is its primary feature. A
+ heavy door stands a little ajar at the north end of the room, as though
+ someone were just going through it when they disappeared. The corridor
+ is to the west.
+
+ On the stone table are a copper cauldron (in which is an icy potion)
+ and a potions book.
+
+>put aconitum in cauldron
+ turns a creamy white. You cautiously reach out to take the cauldron,
+ and when some of the potion sloshes over the edge, it feels smooth and
+ even a little warm. You waste no time in tipping it down the drain in
+ the centre of the floor and claiming your prize: the copper cauldron.
+
+>go west
+ Moist Corridor
+ A damp, windowless corridor, with wet and slime oozing down the walls.
+ A staircase leads up. A classroom is visible to the east.
+
+>go up
+ trying to decide what to do.
+
+ Entrance Hall
+ A capacious hall, lit with torches. There's not much here, though,
+ other than inspiring architecture. Which, honestly, you could see
+ pretty easily in non-magical London whenever you wanted to. An enormous
+ sweeping staircase leads up, and a smaller staircase leads down. A
+ rough door leads west, and the Great Hall is through a stone archway to
+ the east.
+
+>go west
+
+ Filch's Office
+ A small and cluttered room. A large and intricate card file takes up
+ most of one wall. A metal desk and chair hunch against another. Some
+ menacing-looking manacles hang above your head. The entrance hall is
+ east, through a rough door.
+
+ On the metal desk are a printing press, a piece of type, a list of
+ banned items, and a Kwikspell course.
+
+ You can also see a broom here.
+
+>get broom
+>get broom
+
+>examine manacles
+ school-appropriate.
+
+>examine broom
+ with a long handle, worn from a great deal of use.
+
+>examine course
+
+ You read: KWIKSPELL: A Correspondence Course in Beginners' Magic. The
+ subheading is Holding Your Wand (Some Useful Tips). Huh. According to
+ the cover letter, Kwikspell has helped Madam Z. Nettles of Topham and
+ warlock D.J. Prod of Didsbury learn to use their magical abilities
+ better. It doesn't look very promising, though.
+
+ eleven-inch sheets.
+
+>examine type
+ letters are.
+
+>take lead
+
+>take type
+
+ Sangita never let you come to work with her, at the press. "It's all
+ wedding invitations and menus for posh restaurants," she'd say. Even
+ so, even though you've never actually handled a piece of type before,
+ it seems familiar to you. The font's familiar too. It's clearly not a
+ computer font. The serifs are somehow wrong, not slantwise, but--just
+ off, a little. It looks like it came from a parallel universe. But, of
+ course, now that you think about it, it's rather like the font Sangita
+ set broadsides in, like the one on the wall of your flat.
+
+>examine list
+
+ You read: FORBIDDEN.
+ Dungbombs.
+ Stink Pellets.
+ fireworks of any kind, paritcularly Filibuster's.
+ Ever-Bashing Boomerangs.
+ Fanged frisbees.
+ Trick wands.
+ Fizzing Whizbees.
+ Anything made by Fred and George Weasley outside of class.
+ It goes on in similar vein for many, many pages.
+
+>examine desk
+ markedly devoid of any of the usual graffiti.
+
+ On the metal desk are a printing press, a list of banned items, and a
+ Kwikspell course.
+
+>examine card file
+ old-fashioned looking.
+
+>open it
+ Black. Apprehended using an illegal hex upon Bertram Aubrey. Aubrey's
+ head twice normal size. Double detention. Lovely. A record of
+ miscreants and their punishments.
+
+>harmony
+
+>sing
+
+>sing in harmony
+
+>go east
+ Entrance Hall
+ A capacious hall, lit with torches. There's not much here, though,
+ other than inspiring architecture. Which, honestly, you could see
+ pretty easily in non-magical London whenever you wanted to. An enormous
+ sweeping staircase leads up, and a smaller staircase leads down. A
+ rough door leads west, and the Great Hall is through a stone archway to
+ the east.
+
+>go up
+ ballgown.
+
+ Gothic Corridor
+ A long corridor with an extremely high, vaulted ceiling. It gives the
+ impression of tall trees spreading into branches over your head,
+ although it's all just the same grey stone. Staircases lead down and
+ up. A strange red plastic door leads north, and a black door leads
+ west. To the south, the corridor opens out into the Hospital Wing.
+
+>go west
+ The Defence Against the Dark Arts Classroom
+ A large classroom; the defining feature is an enormous skeleton hung
+ from the ceiling, spotlit, in the centre of the room. The professor's
+ desk, at the front of the room, also looks interesting. A black door is
+ on the east wall.
+
+>give scarf to skeleton
+ drape the scarf across his head, as though it were a mane. Proud of his
+ new wig, he extends his hoof regally for you to take. It's heavy and
+ satisfying in your hand.
+
+>take hoof
+
+>go east
+ Gothic Corridor
+ A long corridor with an extremely high, vaulted ceiling. It gives the
+ impression of tall trees spreading into branches over your head,
+ although it's all just the same grey stone. Staircases lead down and
+ up. A strange red plastic door leads north, and a black door leads
+ west. To the south, the corridor opens out into the Hospital Wing.
+
+>go up
+ slow and controlled.
+
+ Armour Gallery
+ A long, narrow room, lined with suits of armour on either side.
+ Staircases lead down and up. Westward you can see the gallery open out
+ into a trophy room.
+
+>go west
+ Trophy Room
+ The space is dominated by a huge trophy case, which butts directly up
+ against a pedestal holding an enormous brass cup. It's immaculate--no
+ dust anywhere. To the east, suits of armor keep watch in their gallery.
+
+ You can see a tin cup here.
+
+ The silver hoof is surprisingly heavy in your pocket. You used to have
+ a hoof from a horse, and it was much lighter. It wasn't silver, but it
+ was cloven like the one you got from the skeleton. Now that you think
+ about it, it couldn't have been from a horse, of course--horses don't
+ have cloven hooves. It was big, though, and when you were little and
+ going through your horse phase you used it to stamp out prints in the
+ dust, so you could pretend you were really riding along. Kind of
+ macabre.
+
+>take tin
+
+ That tin cup feels abnormally small in your hand, and it takes you a
+ moment to resolve the cognitive dissonance. You drank from a tin cup
+ like this as a child in your grandmother's kitchen, and then it was
+ just the right size. Grandma would pour you a dose of her cold remedy
+ in that cup--not hot but peppery, peppery, peppery! "It'll pep her up,"
+ Grandma would say to your mum, "stop fussing," and yes, it always did
+ seem to help more than any medicine Mum got from the pharmacy.
+
+>examine eternity
+
+ shape of a circle with Celtic knotwork within.
+
+
+ You read: The alchemists have used many symbols to encode their
+ meanings. The following is a record of the most commonly-used.
+
+ a dot inside a circle, representing gold or Sol;
+ a crescent moon, representing silver or Luna;
+ a female symbol, representing copper or Venus;
+ a male symbol, representing iron or Mars;
+ a 2 with a 1 intersecting its tail, representing tin or Jupiter;
+ a female symbol with horns, representing quicksilver or Mercury;
+ a curiously embellished lower-case h, representing lead or Saturn;
+ a female symbol with a triangle instead of a circle for its head,
+ representing sulfur, the connection between the high and low;
+ a circle bisected by a horizontal line, representing salt--that is,
+ base matter of any kind, including stones and crystals;
+ a triangle with several diagonal lines in it, representing plant
+ matter;
+ a triangle pointing up, representing fire;
+ a triangle pointing down, representing water;
+ a triangle pointing down with its bottom point intersected by a
+ horizontal line, representing earth;
+ a triangle pointing up with its top point intersected by a horizontal
+ line, representing air;
+ an upside-down female symbol, representing antimony;
+ a circle with a half-circle atop it, representing bismuth;
+ a misshapen 3, representing cinnabar.
+
+>look
+ The space is dominated by a huge trophy case, which butts directly up
+ against a pedestal holding an enormous brass cup. It's immaculate--no
+ dust anywhere. To the east, suits of armor keep watch in their gallery.
+
+ Wandering the castle alone is eerie, and you find yourself remembering
+ things that you'd rather not--whisked away to a time that doesn't
+ really seem happier, in retrospect...
+
+ Grandma's Kitchen
+ Grandma Gigi's snug kitchen, with its Aga and its aura of coziness,
+ long before it was destroyed. Grandma herself is sitting and knitting.
+ You've just finished quietly celebrating your twelfth birthday, and
+ you're doing your part with the dishes, scrubbing them up in the sink.
+
+ "Happy birthday, Alice," Grandma says, but she doesn't really sound so
+ happy.
+
+>SAVE
+>cf7
+
+>examine grandma
+
+>examine grandma
+
+>talk to grandma
+
+
+>1
+ you ask.
+
+ "When I was twelve--well, I suppose that when I was twelve I was at
+ school in Scotland."
+
+
+>1
+
+ "Well, I suppose I did have a party. My friends brought me sweets, of
+ course, and presents--I'll always remember the beautiful ribbons dear
+ Al gave me, in our House colors, red and gold. But it wasn't with
+ family, like yours is." It was nice of her to put it like that.
+
+
+>1
+ you realise that it's probably rude to put it quite like that.
+ Fortunately, Grandma chuckles.
+
+ "Back then one didn't have a best friend of the opposite gender," she
+ says, "but yes, he was my best friend, for awhile. We still keep in
+ contact; he teaches at the school where we went, in fact."
+
+
+>2
+
+ "This was in Queen Victoria's reign," she says. "We couldn't even say
+ the word "leg" in mixed company. But Al was almost like a girl, and
+ things were a little different at school." Even at twelve, you know
+ that she couldn't possibly be that old--but Grandma is a great joker.
+
+ The memory falls away, and you wish you could put your finger on
+ precisely what seemed so important about it. The boarding school thing?
+ Too late. It's gone.
+
+ Trophy Room
+ The space is dominated by a huge trophy case, which butts directly up
+ against a pedestal holding an enormous brass cup. It's immaculate--no
+ dust anywhere. To the east, suits of armor keep watch in their gallery.
+
+>go east
+ Armour Gallery
+ A long, narrow room, lined with suits of armour on either side.
+ Staircases lead down and up. Westward you can see the gallery open out
+ into a trophy room.
+
+>go up
+ then subsides. You climb it without incident.
+
+ Granite Corridor
+ A short corridor, the walls and floor made entirely of granite.
+ Centuries of use have worn a smooth path down the middle. Staircases
+ lead down and up. A plain door leads south, and the hall ends in what
+ looks like a library to the west.
+
+>go up
+
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>go northwest
+ Divination Landing
+ An extremely tiny landing with a brass plaque affixed to the low
+ ceiling. A narrow passageway leads southeast, and a silver ladder leads
+ up through a trapdoor.
+
+>go up
+ Divination Classroom
+ This room doesn't look like a classroom at all; it's more like an
+ unholy cross between an old-fashioned tea-shop and someone's attic. The
+ air is stiflingly warm and scented with a heavy, sickening perfume.
+ Various items necessary for divination are fitted into nooks in the
+ circular walls. One high shelf runs around the walls, about a foot and
+ a half from the ceiling. A fat little pouf and an ugly chintz armchair
+ nestle around a low table. A silver ladder leads down.
+
+ On the high shelf are a tourmaline ball and a china doll.
+
+>take ball
+
+>push armchair to shelf
+ It is fixed in place.
+
+>push table
+
+>inventory
+   a prefect's badge (being worn)
+   a copper cauldron
+   a golden toad
+   a broom
+   a piece of type
+   a silver hoof
+   a vial of mercury
+   a cloth book
+   a blue book
+   a long-handled scrub-brush
+   a tin cup
+   a book of herbs
+   a book of alchemy
+   a scribbled note
+   a ciphered book
+   a piece of purple parchment
+   an iron bell
+   a handful of yellow Jelly Babies
+   a Hogwarts brochure
+   a contract
+   a medallion
+   an identity card
+
+>ride broom
+
+>talk to doll
+
+>examine doll
+ glazed porcelain. She's clothed in a lovely white dress covered in
+ eyelet lace. As you examine her delicate patent leather shoes, she
+ seems to notice that you're staring. She turns to face you--moving her
+ whole body, as her head cannot turn on her neck. She stares back at
+ you, her immobile face pure and blank, for a long moment. Then she
+ returns to her original posture.
+
+>examine shoes
+
+ hard--but that's ridiculous, even for a wizarding school. Isn't it?
+ ...You decide not to risk it. Molesting the armchair in any way is out.
+
+>examine babies
+ yellow.
+
+>examine sulphur
+
+>examine alksjda
+
+>stand on pouf
+ too uncomfortably soft to sit in, and too squashy to give you any kind
+ of a height boost when you stand on it. So much for that.
+
+>sit on armchair
+ hard--but that's ridiculous, even for a wizarding school. Isn't it?
+ ...You decide not to risk it. Molesting the armchair in any way is out.
+
+>examine ball
+ can imagine a wizard scrying in it, drawing images up from its depths.
+
+>push ball with broom
+ Nothing obvious happens.
+
+>give baby to doll
+
+>give babies to doll
+
+>stand under doll
+ set of objects. If you can see an object, you can usually interact with
+ it without worrying about positioning. Try a command like EXAMINE
+ TOURMALINE BALL for a closer look, LOOK to get a new description of
+ this location, or a compass direction like (for example) DOWN or D to
+ move to a different location.
+
+>examine scrub
+
+>examine scrub-brush
+
+>look up sulphur in alchemy
+
+>se
+
+>go down
+ Divination Landing
+ An extremely tiny landing with a brass plaque affixed to the low
+ ceiling. A narrow passageway leads southeast, and a silver ladder leads
+ up through a trapdoor.
+
+>se
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>talk to gargoyle
+ lets you pass.
+
+ Dumbledore's Office
+ A circular room with a high, vaulted ceiling. It is filled with various
+ magical instruments, an enormous claw-footed desk, and innumerable
+ oddities--all of which have been pushed, higgledy-piggledy, to the
+ walls, and some of which look much the worse for it. An elaborate perch
+ stands forlornly next to the desk, with no bird seated on it. The walls
+ themselves are covered in portraits of important-looking people. A
+ spiral staircase appears to continually spin downwards--almost like an
+ escalator--at the far end of the room.
+
+>examine diagram
+
+>examine desk
+ covered in chalked designs, strange and geometric.
+
+>examine perch
+ inhabited, but whatever usually sits there is nowhere to be seen.
+
+>talk to newt
+
+ "Yes?"
+
+
+>1
+
+>clean desk
+
+>go down
+ conveyor-belt style, to the corridor below. A gargoyle settles into
+ place behind you, blocking the way you came.
+
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>go northwest
+ Divination Landing
+ An extremely tiny landing with a brass plaque affixed to the low
+ ceiling. A narrow passageway leads southeast, and a silver ladder leads
+ up through a trapdoor.
+
+>go up
+ Divination Classroom
+ This room doesn't look like a classroom at all; it's more like an
+ unholy cross between an old-fashioned tea-shop and someone's attic. The
+ air is stiflingly warm and scented with a heavy, sickening perfume.
+ Various items necessary for divination are fitted into nooks in the
+ circular walls. One high shelf runs around the walls, about a foot and
+ a half from the ceiling. A fat little pouf and an ugly chintz armchair
+ nestle around a low table. A silver ladder leads down.
+
+ On the high shelf are a tourmaline ball and a china doll.
+
+>stand on low table
+
+>take ball
+ whacking the china doll a good one.
+
+ The doll stands, crosses her arms, and stamps one cloth foot. Then, she
+ laboriously lifts the tourmaline ball and throws it directly at your
+ head. Through some act of God you manage to catch it, feeling its cold,
+ heavy weight in your hand. It almost seems familiar--but you can't
+ think why.
+
+>SAVE
+>cf8
+
+>examine ball
+ can imagine a wizard scrying in it, drawing images up from its depths.
+
+>look in ball
+ you can't SEARCH ROOM, because that would ruin the fun of exploration.
+ You idly caress the surface of the tourmaline ball, and then you
+ remember why it seems so familiar. Sangita had a ball like
+ this--exactly like this, actually. She used to juggle it, keeping it in
+ contact with her skin, running it up and down her arms and over her
+ chest. She was quite good.
+
+ Well, you've got all the things that you seem to need now - one for
+ each of the symbols in the notes. If you know the magic word, you
+ should be able to reverse the spell and bring back the denizens of
+ Hogwarts.
+
+>stand
+
+ Divination Classroom
+ This room doesn't look like a classroom at all; it's more like an
+ unholy cross between an old-fashioned tea-shop and someone's attic. The
+ air is stiflingly warm and scented with a heavy, sickening perfume.
+ Various items necessary for divination are fitted into nooks in the
+ circular walls. One high shelf runs around the walls, about a foot and
+ a half from the ceiling. A fat little pouf and an ugly chintz armchair
+ nestle around a low table. A silver ladder leads down.
+
+ On the high shelf is a china doll.
+
+>move pouf
+
+>posh pouf
+
+>push pouf
+
+>examine parchment
+
+ You read: INGREDIENTS. To be carried by spellcaster.
+
+ gold;
+ silver;
+ copper;
+ iron;
+ tin;
+ quicksilver;
+ lead;
+ base matter;
+ eternity.
+
+ Divination Landing
+ An extremely tiny landing with a brass plaque affixed to the low
+ ceiling. A narrow passageway leads southeast, and a silver ladder leads
+ up through a trapdoor.
+
+
+
+
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+ lets you pass.
+
+ Dumbledore's Office
+ A circular room with a high, vaulted ceiling. It is filled with various
+ magical instruments, an enormous claw-footed desk, and innumerable
+ oddities--all of which have been pushed, higgledy-piggledy, to the
+ walls, and some of which look much the worse for it. An elaborate perch
+ stands forlornly next to the desk, with no bird seated on it. The walls
+ themselves are covered in portraits of important-looking people. A
+ spiral staircase appears to continually spin downwards--almost like an
+ escalator--at the far end of the room.
+
+>redite
+
+>put gold on medallion
+
+>put toad on diagram
+
+>examine diagram
+
+>examine desk
+ covered in chalked designs, strange and geometric.
+
+>examine diagram
+
+>put gold on desk
+
+>put silver on desk
+ You put the silver hoof on the claw-footed desk.
+
+>examine designs
+ covered in chalked designs, strange and geometric.
+
+ On the claw-footed desk are a silver hoof and a golden toad.
+
+>put iron on desk
+
+>put tin on desk
+
+>put ball on desk
+
+>put copper on desk
+
+>examine parchment
+
+ You read: INGREDIENTS. To be carried by spellcaster.
+
+ gold;
+ silver;
+ copper;
+ iron;
+ tin;
+ quicksilver;
+ lead;
+ base matter;
+ eternity.
+
+>put quicksilver on desk
+
+>put vial on desk
+
+>put lead on desk
+>put type on desk
+
+
+>put ball on desk
+
+ You put the tourmaline ball on the claw-footed desk.
+
+>put medallion on desk
+
+>examine desk
+ covered in chalked designs, strange and geometric.
+
+ On the claw-footed desk are a medallion, a tourmaline ball, a piece of
+ type, a vial of mercury, a copper cauldron (empty), a tin cup, an iron
+ bell, a silver hoof, and a golden toad.
+
+>redite
+ Then two people pop into existence. Albus Dumbledore is standing behind
+ his desk. Standing next to you - somehow, for some strange reason - is
+ Sangita.
+
+ "Why, Miss Armstrong!" Dumbledore says. "I'd hoped you wouldn't be too
+ nonplussed at our little mishap. I assume that you fixed things
+ yourself? --Excellent, excellent!" While you are still gaping, he
+ rushes out the door. "Many things to attend to!" he calls, airily, over
+ his shoulder. "You've got things to talk about, I expect!" ...and
+ you're alone with your ex-girlfriend.
+
+>SAVE
+>cf9
+
+>examine sangita
+
+>talk to sangita
+
+ "I can explain," she says. "Ally--I'm a witch."
+
+
+>1
+ not. I asked what you're doing here."
+
+ "Albus only told me you were coming today," she says. "I wanted to be
+ here so I could tell you about everything."
+
+
+>2
+
+ "I couldn't!" she says. "It's the law - our law, I couldn't tell you
+ unless you were part of my family. Unless we were married. They
+ would've snapped my wand, Ally, you have to understand that."
+
+
+>1
+ another wand."
+
+ "I couldn't get another one," she says. "Breaking a wand means throwing
+ us out of the wizarding world. Forever."
+
+
+>2
+ in the Muggle world well enough, else we'd never have met... what does
+ it mean for you, otherwise? Being banished."
+
+ "Legally speaking, you become like a Muggle," Sangita says. "It's like
+ becoming a child again. All your rights--stripped."
+
+
+>2
+ would lose your status too. So you couldn't change it, not ever,
+ because you'd be out just like me."
+
+ "Yes. And we hide the wizarding world from you. It isn't fair at all.
+ I've been trying to change it. I swear I didn't want to lie to you, I
+ never put a spell on you, nothing. But it wouldn't have done any good
+ for me to have my wand snapped."
+
+
+>2
+ it's hard. You have to know it's hard. How can I ever trust you?--Is
+ anyone else I know a witch?"
+
+ But Sangita's face is closed and you know she's about to drop something
+ heavy on you. "She wanted you to know," she says. "Your grandmother.
+ Oh, surely you caught the hints! But she couldn't tell you either."
+
+
+>2
+ know. "I suppose I knew that," you say. Suddenly grief crashes in on
+ you. "Look, I think you ought to leave me alone for a bit," you say.
+ "Just go."
+
+ She goes. She can't even look at you. You are alone.
+
+ "Hello, my dear," Dumbledore says, swooping in just as Sangita swoops
+ out. "I take it that your conversation was not easy?--Well, it's only
+ to be expected. But now I would imagine you have a great many questions
+ to ask me."
+
+
+>2
+
+ "I was modifying the wards," he says.
+
+
+>2
+ a great job of hiding your emotions right now.
+
+ "I was modifying them to allow you in," he replies. "It isn't just
+ Muggles they keep out, either. There is evil in the world."
+
+
+>1
+ think--Look, I don't care if magic is real, Sauron isn't."
+
+ "Not Sauron," Dumbledore replies. "Much more banal than that. Ah well:
+ ignorance is bliss! Perhaps an enterprising young wizard will sell the
+ story to a Muggle movie studio someday, and you can see it all on the
+ gold screen."
+
+ "Silver screen," you correct automatically. Wizards are truly weird.
+
+
+>2
+
+ "I know all the students who have attended Hogwarts during my tenure,"
+ he says. "In any case, our interests coincide quite often."
+
+
+>1
+
+ "Yes, the magical qualities of the printed book--but our politics also
+ align admirably," he says. "Miss Gopalan is, perhaps, an idealist on
+ the issue of Muggle liberation; but I respect her with all my heart."
+
+
+>1
+
+ "Miss Gopalan is a good Hufflepuff, interested in following the rules
+ and living her life in a rational and ordered way; but she deeply
+ believes that Muggles have the right to know about the wizarding world,
+ however inconvenient it might be for us." Dumbledore sighs. "I agree
+ with her that far--but she does not consider the wider political
+ climate, the lurking presence of Lord Voldemort and the danger he
+ poses. That is far more immediate than any long-standing injustice."
+
+
+>1
+ what's wrong and what's right. You're talking about lying to most of
+ the population. I can't tell you what betrayal -"
+
+ "A natural Gryffindor," Dumbledore says. "Ah, well. My House is not
+ without its follies." You refrain from asking what a Gryffindor's
+ traits are. You probably wouldn't like the answer.
+
+
+>2
+ you manage to make an exception for me?"
+
+ "The International Statute of Wizarding Secrecy is the main thing," he
+ replies. "As for how you were excepted--Muggles with wizarding children
+ are already excepted, of course, and Squibs. So you see, it wasn't all
+ that difficult to convince them that you would be an excellent
+ candidate for the Muggle Studies position, and that it was not a
+ startling deviation from the Statute to inform you of our world."
+
+
+>2
+
+ You've hit a nerve. Dumbledore does not look happy. "Enforcement is
+ haphazard at best," he says. "Certainly Muggles are Obliviated. For
+ wizards, however, the punishment can be as light as a warning or as
+ severe as utter banishment. One never knows. All depends on influence
+ and luck."
+
+
+>1
+ say slowly. "Do you enjoy playing God? Muggles have laws
+ against--against brain-washing, and kidnapping, and everything."
+
+ "Muggle laws do not apply to wizards," Dumbledore says, "and Muggles
+ have few rights under wizarding law. The law sees wizards as benevolent
+ parents and Muggles as ignorant children."
+
+
+>2
+ you ask, even though you know it's true, that he would have. "It says
+ something about 'hexing', too. Would you have hexed me?"
+
+ "It was a risk," Dumbledore says, "but a worthwhile risk. It is only by
+ more contact with Muggles that we will ever begin to grow closer to the
+ Muggle world. We need someone like you at Hogwarts."
+
+
+>1
+
+ "Oh, there was a great deal to attend to," he says. "You did wreak some
+ havoc, didn't you?"
+
+
+>1
+ fooled one bit, but he smiles indulgently and lets you save face.
+
+
+>1
+
+ "You have a choice before you, Alice," Dumbledore says. "I believe I
+ speak for the entire staff of Hogwarts when I say that we would be
+ honored if you choose to remain with us. Otherwise, I shall release you
+ from your contract. You signed it, after all, in a rather impaired
+ state." He touches his nose--and how did he know that? You never told
+ him! "So--will you stay at Hogwarts?"
+>%showpartial
+>yes
+
+ "I am very glad, my dear girl," the Headmaster says. "I thought you
+ must have had some of Gertrude's spirit in you. It won't be an easy row
+ to hoe, you know, the Ministry of Magic will almost certainly wish to
+ hold an inquiry--but what am I doing? I believe that Miss Gopalan will
+ be waiting in the hallway, and she will be very eager to hear what you
+ have chosen."
+
+ You take a deep breath. "There wasn't really any other choice to make,"
+ you say. "I can't help Sangita fight if I can't remember what I'm
+ fighting for."
+
+
+
+     *** The End ***
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?
+>undo
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?
+>RESTORE
+>cf9
+
+>look
+ A circular room with a high, vaulted ceiling. It is filled with various
+ magical instruments, an enormous claw-footed desk, and innumerable
+ oddities--all of which have been pushed, higgledy-piggledy, to the
+ walls, and some of which look much the worse for it. An elaborate perch
+ stands next to the desk, with a big red bird seated on it. The walls
+ themselves are covered in portraits of important-looking people. A
+ chalk circle covers most of the floor. A spiral staircase spins
+ continually downward at the far end of the room.
+
+>inventory
+   a prefect's badge (being worn)
+   a broom
+   a cloth book
+   a blue book
+   a long-handled scrub-brush
+   a book of herbs
+   a book of alchemy
+   a scribbled note
+   a ciphered book
+   a piece of purple parchment
+   a handful of yellow Jelly Babies
+   a Hogwarts brochure
+   a contract
+   an identity card
+
+>examine desk
+ covered in chalked designs, strange and geometric.
+
+ On the claw-footed desk are a medallion, a tourmaline ball, a piece of
+ type, a vial of mercury, a copper cauldron (empty), a tin cup, an iron
+ bell, a silver hoof, and a golden toad.
+
+>redite
+ Then two people pop into existence. Albus Dumbledore is standing behind
+ his desk. Standing next to you - somehow, for some strange reason - is
+ Sangita.
+
+ "Why, Miss Armstrong!" Dumbledore says. "I'd hoped you wouldn't be too
+ nonplussed at our little mishap. I assume that you fixed things
+ yourself? --Excellent, excellent!" While you are still gaping, he
+ rushes out the door. "Many things to attend to!" he calls, airily, over
+ his shoulder. "You've got things to talk about, I expect!" ...and
+ you're alone with your ex-girlfriend.
+
+ "Hello, my dear," Dumbledore says, swooping in just as Sangita swoops
+ out. "I take it that your conversation was not easy?--Well, it's only
+ to be expected. But now I would imagine you have a great many questions
+ to ask me."
+
+
+ "Given the events of today, it seems unwise that you come to Hogwarts
+ as a Muggle Studies teacher," Dumbledore says, "which means that there
+ is only one path open to me."
+
+ "Obliviation," you say flatly.
+
+ "Just so. But if you like--I might consider asking Miss Gopalan to pay
+ you a visit, after you are returned to London. It will be dangerous for
+ her to defy the Ministry--but I suspect that today's events have
+ galvanized her against them in any case. So. Yes or no?
+>3
+>yes
+ "I hope that we neither of us are making a mistake--and I hope the
+ Ministry of Magic does not get wind of this, at the inevitable
+ inquiry," Dumbledore says. "Is there any message you would like to send
+ yourself--after?"
+
+ "Only promise me that Sangita won't just tell me about herself," you
+ say. "Promise me she'll tell me about Grandma Gigi. And about you. And
+ about all the things I couldn't ask."
+
+ "Very well," he says, and raises his wand, and the world goes dark.
+
+
+
+     *** The End ***
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?
+>restore
+>cf8
+
+>look
+ This room doesn't look like a classroom at all; it's more like an
+ unholy cross between an old-fashioned tea-shop and someone's attic. The
+ air is stiflingly warm and scented with a heavy, sickening perfume.
+ Various items necessary for divination are fitted into nooks in the
+ circular walls. One high shelf runs around the walls, about a foot and
+ a half from the ceiling. A fat little pouf and an ugly chintz armchair
+ nestle around a low table. A silver ladder leads down.
+
+ On the high shelf is a china doll.
+
+>inventory
+   a tourmaline ball
+   a prefect's badge (being worn)
+   a copper cauldron
+   a golden toad
+   a broom
+   a piece of type
+   a silver hoof
+   a vial of mercury
+   a cloth book
+   a blue book
+   a long-handled scrub-brush
+   a tin cup
+   a book of herbs
+   a book of alchemy
+   a scribbled note
+   a ciphered book
+   a piece of purple parchment
+   an iron bell
+   a handful of yellow Jelly Babies
+   a Hogwarts brochure
+   a contract
+   a medallion
+   an identity card
+
+ You idly caress the surface of the tourmaline ball, and then you
+ remember why it seems so familiar. Sangita had a ball like
+ this--exactly like this, actually. She used to juggle it, keeping it in
+ contact with her skin, running it up and down her arms and over her
+ chest. She was quite good.
+
+ Well, you've got all the things that you seem to need now - one for
+ each of the symbols in the notes. If you know the magic word, you
+ should be able to reverse the spell and bring back the denizens of
+ Hogwarts.
+
+>go down
+
+ Divination Landing
+ An extremely tiny landing with a brass plaque affixed to the low
+ ceiling. A narrow passageway leads southeast, and a silver ladder leads
+ up through a trapdoor.
+
+>se
+ Purple Corridor
+ The walls and ceiling are painted a violent shade of purple. The floor
+ seems to have turned green with envy. A gargoyle of curious mien stands
+ on one wall, and on another hangs a portrait of a fat lady in a pink
+ dress. A squirming staircase leads down; a narrow passage leads
+ northwest; an ordinary door leads south; and a feather-strewn archway
+ leads northeast.
+
+>talk to gargoyle
+ lets you pass.
+
+ Dumbledore's Office
+ A circular room with a high, vaulted ceiling. It is filled with various
+ magical instruments, an enormous claw-footed desk, and innumerable
+ oddities--all of which have been pushed, higgledy-piggledy, to the
+ walls, and some of which look much the worse for it. An elaborate perch
+ stands forlornly next to the desk, with no bird seated on it. The walls
+ themselves are covered in portraits of important-looking people. A
+ spiral staircase appears to continually spin downwards--almost like an
+ escalator--at the far end of the room.
+
+>put gold on desk
+
+>put silver on desk
+ You put the silver hoof on the claw-footed desk.
+
+>put copper on desk
+
+>put tin on desk
+
+>put iron on desk
+
+>put mercury on desk
+
+>inventory
+   a tourmaline ball
+   a prefect's badge (being worn)
+   a broom
+   a piece of type
+   a cloth book
+   a blue book
+   a long-handled scrub-brush
+   a book of herbs
+   a book of alchemy
+   a scribbled note
+   a ciphered book
+   a piece of purple parchment
+   a handful of yellow Jelly Babies
+   a Hogwarts brochure
+   a contract
+   a medallion
+   an identity card
+
+>put type on desk
+
+>put ball on desk
+
+>put medallion on desk
+
+>examine desk
+ covered in chalked designs, strange and geometric.
+
+ On the claw-footed desk are a medallion, a tourmaline ball, a piece of
+ type, a vial of mercury, an iron bell, a tin cup, a copper cauldron
+ (empty), a silver hoof, and a golden toad.
+
+>SAVE
+>cf10
+
+>redite
+ Then two people pop into existence. Albus Dumbledore is standing behind
+ his desk. Standing next to you - somehow, for some strange reason - is
+ Sangita.
+
+ "Why, Miss Armstrong!" Dumbledore says. "I'd hoped you wouldn't be too
+ nonplussed at our little mishap. I assume that you fixed things
+ yourself? --Excellent, excellent!" While you are still gaping, he
+ rushes out the door. "Many things to attend to!" he calls, airily, over
+ his shoulder. "You've got things to talk about, I expect!" ...and
+ you're alone with your ex-girlfriend.
+
+>talk to sangita
+
+ "I can explain," she says. "Ally--I'm a witch."
+
+
+>1
+ not. I asked what you're doing here."
+
+ "Albus only told me you were coming today," she says. "I wanted to be
+ here so I could tell you about everything."
+
+
+>1
+ clean," you say. You're not even a little bit sorry that it comes out
+ sharp as can be.
+
+ "I couldn't!" she says. "It's the law - our law, I couldn't tell you
+ unless you were part of my family. They would've snapped my wand, Ally,
+ you have to understand that."
+
+
+>1
+ another wand."
+
+ "I couldn't get another one," she says. "Breaking a wand means throwing
+ us out of the wizarding world. Forever."
+
+
+>1
+ honestly."
+
+ Sangita looks uncomfortable. "Well. Legally speaking Muggles are--it
+ isn't fair, all right, but Muggles are worse than children. They
+ haven't any rights, practically."
+
+
+>1
+ whenever? What spells did you put on me?"
+
+ "Only to protect the wizarding world from discovery," Sangita says. "I
+ don't like it either, but it's been the law since 1692. The
+ International Statute of Wizarding Secrecy. Since we broke up it's
+ been--it was a wake-up call for me, Ally. I didn't ever put a spell on
+ you. I swear it."
+
+
+>1
+ Who else do I know who's been lying to me? I'm just not special enough,
+ am I." You snort, but you aren't finding anything very funny just now.
+ "You must've gotten a good laugh out of World of Warcraft, and me the
+ mage."
+
+ But Sangita's face is closed and you know she's about to drop something
+ heavy on you. "She wanted you to know," she says. "Your grandmother.
+ Oh, surely you caught the hints! But she couldn't tell you either."
+
+
+>1
+ just--"That fucking tops all," you say. "Get out. I don't ever want to
+ see you again."
+
+ "Ally -"
+
+ "GET BLOODY OUT!"
+
+ She gets. You're left alone.
+
+ "Hello, my dear," Dumbledore says, swooping in just as Sangita swoops
+ out. "I take it that your conversation was not easy?--Well, it's only
+ to be expected. But now I would imagine you have a great many questions
+ to ask me."
+
+
+>4
+ you manage to make an exception for me?"
+
+ "The International Statute of Wizarding Secrecy is the main thing," he
+ replies. "As for how you were excepted--Muggles with wizarding children
+ are already excepted, of course, and Squibs. So you see, it wasn't all
+ that difficult to convince them that you would be an excellent
+ candidate for the Muggle Studies position, and that it was not a
+ startling deviation from the Statute to inform you of our world."
+
+
+>1
+ turn us all into frogs if we got uppity."
+
+ Dumbledore looks sad. "Witches were burned in the streets not so long
+ ago. We live longer than you do: we remember better than you do."
+
+
+>1
+ there's some religious freaks, but you make it sound like Muggles are
+ savages."
+
+ "Not just witch-burning," Dumbledore says. "We can heal wounds quickly
+ and easily. We can Transfigure lead into gold. We can walk around,
+ invisible. What do you think your Prime Minister thinks of that? He
+ knows about us. He's terrified of us."
+
+
+>1
+ is mad. You can probably cure cancer and you're keeping it from us. You
+ enjoy playing God, I suppose."
+
+ "I do not play God," Dumbledore says, but he sounds--troubled? It's
+ strange; he seemed so unflappable before. "I have had this conversation
+ before, believe it or not; and once we get to this point, there is not
+ much point in continuing. Only your own experience of the wizarding
+ world can help you understand."
+
+
+>1
+
+ "Oh, there was a great deal to attend to," he says. "You did wreak some
+ havoc, didn't you?"
+
+
+>2
+ as though I asked for all this to happen."
+
+ "One should never sign a contract if one doesn't know precisely what it
+ means," he replies. "Why, last time I did that, I ended up the
+ foster-father of a hundred and seven baby Fwoopers. Enough to drive you
+ mad!"
+
+
+>2
+
+ "I know all the students who have attended Hogwarts during my tenure,"
+ he says. "In any case, our interests coincide quite often."
+
+
+>2
+
+ Dumbledore looks affronted. "My dear, the decision to lie to you--or
+ rather to exclude certain truths--was not and has never been hers to
+ make. One of the reasons she and I get on so well is that she is one of
+ the few wizards with a more radical view of Muggles than my own."
+
+
+>2
+ you say. "If they'd snapped her wand for telling me, it'd have been
+ worth it."
+
+ "If they'd snapped her wand for telling you, they'd have erased her
+ memory of the wizarding world entire," Dumbledore says sharply. "She'd
+ forget you too. Everything. If she were lucky, she'd wander homeless
+ for awhile, then somehow find a job at a press--if they were kind
+ enough to leave her memories of how to print. No-one would ever know.
+ She wouldn't be a martyr; she'd be forgotten."
+
+
+>2
+ any right to make me fall in love with her if she was going to be lying
+ to me. It's like --like a slave being forced to sleep with their
+ master."
+
+ "Really," Dumbledore says, his voice doubtful and even a little
+ scornful, but he does not say anything else.
+
+
+>1
+
+ "I was modifying the wards," he says.
+
+
+>1
+ What could wizards possibly be afraid of?" you ask.
+
+ "Other wizards," he says. "Muggles do not have a monopoly on evil."
+
+
+>2
+ people would abuse their magic. But Muggles couldn't fight that. We
+ wouldn't have a chance."
+
+ "That's one of the reasons people claim that it is easier to keep our
+ worlds separated," he says. "Our wars don't spill over into your world
+ as much. You needn't fear struggles you have no hand in."
+
+ "Well, that's infantilizing."
+
+ "Quite."
+
+
+>1
+
+ "Given the events of today, it seems unwise that you come to Hogwarts
+ as a Muggle Studies teacher," Dumbledore says, "which means that there
+ is only one path open to me."
+
+ "Obliviation," you say flatly.
+
+ "Just so. But if you like--I might consider asking Miss Gopalan to pay
+ you a visit, after you are returned to London. It will be dangerous for
+ her to defy the Ministry--but I suspect that today's events have
+ galvanized her against them in any case. So. Yes or no?
+>no
+
+ "Perhaps you are wise," Dumbledore says, his voice low and disappointed
+ nonetheless. "The Ministry will hold an inquiry, and it would certainly
+ all come out then. I had hoped..."
+
+ "Only be thorough about it," you say. "I don't want to remember any of
+ it. I don't even want to remember Sangita if I can possibly help it.
+ Ignorance is bliss, isn't it? So put me back."
+
+ And he does.
+
+
+
+     *** The End ***
+
+
+
+
+ Would you like to RESTART, RESTORE a saved game, or QUIT?

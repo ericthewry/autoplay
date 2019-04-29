@@ -1,0 +1,2539 @@
+>load sleepmask episodeartist
+ FrobTADS 1.2.3 - A text-only TADS 2.5.17 Interpreter.
+ TADS copyright (c) 1993, 2012 by Michael J. Roberts.
+
+ options:
+   -ctab file    use character mapping table file
+   -ctab-        do not use any character mapping file
+   -i file       read commands from file
+   -o file       write commands to file
+   -l file       log all output to file
+   -m size       maximum cache size (in bytes)
+   -mh size      heap size (default 65535 bytes)
+   -ms size      stack size (default 512 elements)
+   -r savefile   restore saved game position from savefile
+   -s level      set I/O safety level (-s? for help)
+   -tf file      use file for swapping (default: TADSSWAP.DAT)
+   -ts size      maximum swapfile size (default: unlimited)
+   -t+           enable swapping (disabled by default)
+   -u size       set undo to size (0 to disable; default 60000)
+
+ toggle options: add + to enable, - to disable, nothing to toggle
+ cheaptads quit with exit status: 0
+>load episodeartist
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+ Episode in the Life of an Artist
+ Copyright 2003 by Peter Eastman
+
+ Alexander Pope once said, "A little learning is a dangerous thing."  I
+ don't know what he meant by that.  I've always thought learning was a
+ good thing.  Without it, you end up in some boring job that you hate.
+ Maybe he was one of those Communists who wanted to give opium to the
+ masses so they wouldn't notice they were bored and there was nothing
+ to watch on TV.  No, wait a minute...  the Communists were against the
+ Pope.  Well, whatever.
+
+ It's time to go to work.
+
+ Bedroom, on the bed
+    I'm lying in bed.  It's warm and cosy here.  In fact, this would be
+ a really nice place to stay if there weren't an alarm clock going off
+ across the room.
+
+>examine alarm clock
+ Without this, I don't know how I'd ever get up in the morning.  It's
+ currently buzzing loudly.
+
+ The alarm clock is buzzing loudly.
+
+>examine me
+ "Beauty is in the eye of the beholder."  Well I think I look pretty
+ good.
+
+ The alarm clock is buzzing loudly.
+
+>inventory
+ I am empty-handed.
+
+ The alarm clock is buzzing loudly.
+
+>turn off alarm clock
+ I can't reach that from the bed.
+
+>get up
+ Okay, I'm no longer on the bed.
+
+ The alarm clock is buzzing loudly.
+
+>turn off alarm clock
+ I turn off the alarm clock, and the buzzing stops.  "The rest is
+ silence."  Shakespeare.
+
+>look
+ Bedroom
+    This is my bedroom - a great place to come back to at the end of
+ the day.  A doorway leads west into the hallway.  The dresser stands
+ against one wall, and the bed on the opposite side.  There's also a
+ closet, an alarm clock on top of the dresser, a large pile of dirty
+ clothes on the floor (hey, it's still a couple of weeks till my
+ laundry day!), and a life-sized cutout of Leonard Nimoy.  What can I
+ say?  It's home!
+
+>examine nimoy
+ Mr.  Spock was my hero when I was growing up.  He had it all:  strong,
+ smart, always knew exactly what was going on.  A lot like me.
+
+>examine clothes
+ There is a large pile of dirty clothes on the floor.  Well, maybe
+ 'pile' isn't exactly the right word.  They're sort of strewn all over
+ the floor.  Seems to me like a good place for them.
+
+>examine dresser
+ It's an old but sturdy dresser.  I've had it since I was a child.
+
+>count clothes
+ I don't know the word "count".
+
+>xyzzy
+ I don't know the word "xyzzy".
+
+>open dresser
+ The dresser contains an assortment of clean clothing, ready to wear.
+
+>wear clothing
+ Which clothing do you mean, the dirty clothes, or the clean clothes?
+
+>clean
+ What, all of it?  Please be a little more specific about what I should
+ wear.
+
+>examine clean clothing
+ The dresser contains an assortment of clean clothing, ready to wear.
+
+>wear dirty
+ What, all of it?  Please be a little more specific about what I should
+ wear.
+
+>get all
+ clean clothes:  I look through the drawers of the dresser, and pull
+ out some clean clothing to wear:  socks, underwear, and a pair of
+ pants.
+
+>wear socks and underwear and pants
+ clean socks:  Okay, I'm now wearing the clean socks.
+ clean underwear:  Okay, I'm now wearing the clean underwear.
+ clean pants:  Okay, I'm now wearing the clean pants.
+
+>look
+ Bedroom
+    This is my bedroom - a great place to come back to at the end of
+ the day.  A doorway leads west into the hallway.  The dresser stands
+ against one wall, and the bed on the opposite side.  There's also a
+ closet, an alarm clock on top of the dresser, a large pile of dirty
+ clothes on the floor (hey, it's still a couple of weeks till my
+ laundry day!), and a life-sized cutout of Leonard Nimoy.  What can I
+ say?  It's home!
+    The dresser seems to contain clean clothes.
+
+>look under bed
+ There's nothing under the bed.
+
+>version
+ Episode in the Life of an Artist
+ Copyright 2003 by Peter Eastman
+
+
+>about
+ There's no verb in that sentence!
+
+>hebp
+ I don't know the word "hebp".
+
+>help
+ I don't know the word "help".
+
+>go west
+ Hallway
+    This is a short hallway between my bedroom (to the east) and living
+ room (to the west).  The bathroom is north.
+
+>go west
+ Living Room/Kitchen/Dining Room
+    This is the main living area of my apartment, a sort of combined
+ living room, dining room, and kitchen.  Furniture includes a table,
+ several chairs, and a very comfy sofa.  There's also a refrigerator, a
+ stove, and a TV.  The hallway is to the west, and the front door is
+ south.
+    Sitting on the stove is a frying pan.
+
+>go south
+ I'm not about to walk outside when I'm not fully dressed!
+
+>get pan
+ Taken.
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), and a frying pan.
+
+>SAVE
+>cf6
+ Saved.
+
+>search stove
+ There's nothing on the stove.
+
+>ntion
+ I don't know the word "ntion".
+
+>go east
+ Hallway
+
+>verbose
+ Okay, now in VERBOSE mode.
+ Hallway
+    This is a short hallway between my bedroom (to the east) and living
+ room (to the west).  The bathroom is north.
+
+>go east
+ Bedroom
+    This is my bedroom - a great place to come back to at the end of
+ the day.  A doorway leads west into the hallway.  The dresser stands
+ against one wall, and the bed on the opposite side.  There's also a
+ closet, an alarm clock on top of the dresser, a large pile of dirty
+ clothes on the floor (hey, it's still a couple of weeks till my
+ laundry day!), and a life-sized cutout of Leonard Nimoy.  What can I
+ say?  It's home!
+    The dresser seems to contain clean clothes.
+
+>go east
+ I can't go that way.
+
+>search clean clothes
+ I find nothing of interest.
+
+>look
+ Bedroom
+    This is my bedroom - a great place to come back to at the end of
+ the day.  A doorway leads west into the hallway.  The dresser stands
+ against one wall, and the bed on the opposite side.  There's also a
+ closet, an alarm clock on top of the dresser, a large pile of dirty
+ clothes on the floor (hey, it's still a couple of weeks till my
+ laundry day!), and a life-sized cutout of Leonard Nimoy.  What can I
+ say?  It's home!
+    The dresser seems to contain clean clothes.
+
+>take clean
+ Which clean do you mean, the clean pants, the clean socks, or the
+ clean clothes?
+
+>clothes
+ I already have enough clean clothing to wear today.
+
+>search dresser
+ The dresser contains an assortment of clean clothing, ready to wear.
+
+>get clothing
+ Which clothing do you mean, the dirty clothes, or the clean clothes?
+
+>examine dirty
+ There is a large pile of dirty clothes on the floor.  Well, maybe
+ 'pile' isn't exactly the right word.  They're sort of strewn all over
+ the floor.  Seems to me like a good place for them.
+
+>get clean
+ Which clean do you mean, the clean pants, the clean socks, or the
+ clean clothes?
+
+>look in dresser
+ The dresser contains an assortment of clean clothing, ready to wear.
+
+>take nimoy
+ I think Leonard will be happier if I leave him where he is.
+
+>score
+ In a total of 33 turns, you have achieved a score of 0 points out of a
+ possible 100.
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), and a frying pan.
+
+>look
+ Bedroom
+    This is my bedroom - a great place to come back to at the end of
+ the day.  A doorway leads west into the hallway.  The dresser stands
+ against one wall, and the bed on the opposite side.  There's also a
+ closet, an alarm clock on top of the dresser, a large pile of dirty
+ clothes on the floor (hey, it's still a couple of weeks till my
+ laundry day!), and a life-sized cutout of Leonard Nimoy.  What can I
+ say?  It's home!
+    The dresser seems to contain clean clothes.
+
+>open closet
+ Opening the closet reveals a clean shirt and a pair of shoes.
+
+>wear shirt
+ (First taking the clean shirt)
+ Taken.  Okay, I'm now wearing the clean shirt.
+
+>go west
+ Hallway
+    This is a short hallway between my bedroom (to the east) and living
+ room (to the west).  The bathroom is north.
+
+>go east
+ Bedroom
+    This is my bedroom - a great place to come back to at the end of
+ the day.  A doorway leads west into the hallway.  The dresser stands
+ against one wall, and the bed on the opposite side.  There's also a
+ closet, an alarm clock on top of the dresser, a large pile of dirty
+ clothes on the floor (hey, it's still a couple of weeks till my
+ laundry day!), and a life-sized cutout of Leonard Nimoy.  What can I
+ say?  It's home!
+    The dresser seems to contain clean clothes.  The closet seems to
+ contain a pair of shoes.
+
+>wear shoes
+ (First taking the pair of shoes)
+ Taken.  Okay, I'm now wearing the pair of shoes.
+
+>wear shoes
+ I'm already wearing the pair of shoes!
+
+>go west
+ Hallway
+    This is a short hallway between my bedroom (to the east) and living
+ room (to the west).  The bathroom is north.
+
+>go west
+ Living Room/Kitchen/Dining Room
+    This is the main living area of my apartment, a sort of combined
+ living room, dining room, and kitchen.  Furniture includes a table,
+ several chairs, and a very comfy sofa.  There's also a refrigerator, a
+ stove, and a TV.  The hallway is to the west, and the front door is
+ south.
+
+>go south
+ I'd really like to eat breakfast before I go to work...
+
+>open fridge
+ Opening the refrigerator reveals a carton of milk, a carton of orange
+ juice, two eggs, and some bacon.
+
+>get bacon
+ Taken.
+
+>put bacon in stove
+ I can't put anything into the stove.
+
+>put bacon in pan
+ Done.
+
+>put pan on stove
+ Done.
+
+>turn
+ What do you want to turn?
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), and a pair of
+ shoes (being worn).
+
+>turn on stove
+ Okay, it's now turned on.  The strips of bacon sizzle and turn crispy.
+
+>eat bacon
+ Just as I'm about to start eating, I glance at the clock and notice
+ that the bus will be here in three minutes.  No time to eat now!  I
+ grab a pop-tart to eat on the bus instead.
+
+>go south
+ Just as I'm walking up to the door, I see the bus coming down the
+ street.  I grab my wallet, keys, and watch from the ledge by the door,
+ throw on my coat, and dash outside as the bus is rolling up.  I climb
+ the steps, drop my money into the change-taking-machine (it makes a
+ neat clinking noise as the coins roll down the slide), and take a seat
+ near the front of the bus.
+
+ On The Bus
+    I'm sitting on the bus, about four rows back.  It's fairly crowded
+ - lots of people going to work.  Outside the window, I can see the
+ city rolling past.
+
+>examine city
+ We're driving through a residential district.
+
+>SAVE
+>cf7
+ Saved.
+
+>hint
+ I don't know the word "hint".
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), a pair of shoes
+ (being worn), a pop-tart, a coat (being worn), a wristwatch (being
+ worn), a wallet, and keys.  The coat pocket seems to contain a book of
+ famous quotations.
+
+ A woman starts to sit down next to me, but immediately stands up again
+ and moves to another row, wrinkling her nose and sniffing loudly.
+ Perhaps I should have taken a shower...
+
+>eat tart
+ I don't know the word "tart".
+
+>eat poptart
+ I don't know the word "poptart".
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), a pair of shoes
+ (being worn), a pop-tart, a coat (being worn), a wristwatch (being
+ worn), a wallet, and keys.  The coat pocket seems to contain a book of
+ famous quotations.
+
+ Darn it.  I really should have turned off the stove before I left.
+ And closed the refrigerator.  Oh well...
+
+>eat pop tart
+ I don't know the word "pop".
+
+>eat pop-tart
+ That was delicious!  And it's a good source of 7 vitamins and
+ minerals!
+
+>hello sailor
+ I don't know the word "sailor".
+
+>xyzzy
+ I don't know the word "xyzzy".
+
+>look
+ On The Bus
+    I'm sitting on the bus, about four rows back.  It's fairly crowded
+ - lots of people going to work.  Outside the window, I can see the
+ city rolling past.
+
+>smash window
+ I don't know the word "smash".
+
+>wait
+ Time passes...
+
+ An old man in a battered raincoat sits down next to me.  He has a
+ chicken sitting on his head.
+
+>examine chicken
+ The chicken is watching me in a way that makes me kind of
+ uncomfortable.  It's like she knows something that I don't.
+
+>sleep
+ I've heard that horses sleep standing up.  I can't imagine how they're
+ able to do that.  I sure couldn't!
+
+>take chicken
+ The chicken gives me an ominous glance as if to say, "Don't even think
+ about it."
+
+ The old man sighs.  "It grieves me to see the changes taking place in
+ this town," he remarks.  It sounds like he's trying to start a
+ conversation.  It always weirds me out a bit when strangers do that.
+
+>ask man about town
+ He nods sadly.  "I have lived in this city for many years, and it
+ saddens me to watch the gradual loss of everything that once defined
+ its character.  The decline of the railroads...  the disappearance,
+ one by one, of stores and restaurants I have known and loved...  and
+ now the old Frobworks factory...  It makes me begin to feel old."
+
+>ask man about frobworks
+ "You have not heard?  The Frobworks factory has been sold.  There is a
+ great deal of mystery surrounding the new owners."
+
+>ask man about new owners
+ "Their identities are a closely guarded secret.  Few seem to know, and
+ those who know will not say.  There have, of course, been many rumors.
+ But perhaps it is better if I do not speak of things which I do not
+ actually know."
+
+>ask man about identities
+ He looks uncomfortable.  "There have been many things whispered.
+ Unpleasant things.  There are those who believe...  But no, I will not
+ say.  Please understand, I know nothing except rumors and gossip, and
+ those may be nothing more than the wild imaginings of an overactive
+ mind."
+
+>ask man about rumors
+ He looks uncomfortable.  "There have been many things whispered.
+ Unpleasant things.  There are those who believe...  But no, I will not
+ say.  Please understand, I know nothing except rumors and gossip, and
+ those may be nothing more than the wild imaginings of an overactive
+ mind."
+
+>wait
+ Time passes...
+
+>ask man about chicken
+ "Dharmawati is resting at present.  Perhaps in a little while she will
+ feel ready to perform."
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), a pair of shoes
+ (being worn), a coat (being worn), a wristwatch (being worn), a
+ wallet, and keys.  The coat pocket seems to contain a book of famous
+ quotations.
+
+>examine wallet
+ This was a birthday present a couple of years ago.  It's a fairly
+ ordinary leather wallet.
+
+>open wallet
+ In the wallet I see a driver's license and a five zorkmid bill.
+
+ The bus reaches my stop.  The man with the chicken on his head stands
+ up to let me out.  As I squeeze past him, I feel him press something
+ into my palm.  I start to raise my hand to see what it is, but he
+ stops me and shakes his head.
+
+ The chicken watches me as I leave the bus.  All the way off, I can
+ feel her eyes on the back of my neck.
+
+ Only when I'm standing on the sidewalk and the bus is pulling away do
+ I look down to see what he has given me.  It's a tiny flashlight,
+ meant to go on a keychain.  What on earth...?  I look back to the bus,
+ but it's already halfway down the block, and I can't see anything
+ through the windows.  All I can think of is a quote by Samuel Beckett:
+ "He brings light, as only the great dare to bring light, to the
+ issueless predicament of existence."
+
+ I head on into the factory.  It's just a few minutes till starting
+ time, so there are lots of other people arriving, punching timecards
+ and heading to their stations.  I still feel a bit weirded out by that
+ guy on the bus, and the chicken on his head, and him giving me this
+ flashlight like it was some big secret.  I take a deep breath as I
+ step out onto the factory floor.  Everything's normal here, just like
+ it always has been.  I wave to some of the other guys as I walk past
+ them toward my station, at the very start of the assembly line.  It's
+ good to be home.
+
+>look
+ Factory Main Floor
+    I'm standing at my station on the assembly line.  A conveyor belt
+ comes out of the wall to the east, and travels west down the middle of
+ the room.
+
+>examine belt
+ The conveyor belt comes out of the wall to the east, and continues
+ down the middle of the room.  It is not currently moving.
+
+>wait
+ Time passes...
+
+ A bell rings loudly.  With a clanking sound, the conveyor belt comes
+ to life.
+
+>examine belt
+ The conveyor belt comes out of the wall to the east, and continues
+ down the middle of the room.  It is currently moving.
+
+ With a quiet clop!, a green widget appears out of a chute in the wall
+ and lands in front of me, just to the side of the conveyor belt.
+
+>SAVE
+>cf8
+ Saved.
+
+>put widget on belt
+ That isn't ready to go on the conveyor belt yet.
+
+ Clop!  A red wodget appears out of the chute and lands beside the
+ widget.
+
+>get all
+ green widget:  Taken.
+ red wodget:  Taken.
+
+>examine widget
+ It's a bright green widget, made of plastic, with a square peg
+ sticking up out of it.  I'm an expert with these things!
+
+>examine wodget
+ A red plastic wodget, with a square hole in the middle.
+
+>put wodget on widget
+ There's no good surface on the green widget.
+
+>put wodget in widget
+ I can't put anything into the green widget.
+
+>put widget in wodget
+ I fit the square peg of the green widget into the square hole of the
+ red wodget.  They snap together with a satisfying click!  to form a
+ perfect red-green widget-wodget complex, all ready to put on the
+ conveyor belt for transport on to parts unknown!  God, I love my job!
+
+>put it on belt
+ I can't reach that.
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), a pair of shoes
+ (being worn), a coat (being worn), a wristwatch (being worn), a
+ wallet, keys, a flashlight, and a widget-wodget complex.  The coat
+ pocket seems to contain a book of famous quotations.
+
+>put complex on belt
+ I put the widget-wodget complex on the conveyor belt, which carries it
+ off down the line.
+
+ Clop!  A green widget appears out of the chute.
+
+>get widget
+ Taken.
+
+ Clop!  A red wodget appears out of the chute.
+
+>get wodget
+ Taken.
+
+>put widget in wodget
+ Click!  Another perfect widget-wodget complex, made and ready!
+
+>put complex on belt
+ I put the widget-wodget complex on the conveyor belt, which carries it
+ off down the line.
+
+ Clop!  A blue widget appears out of the chute.  Huh?  Blue?
+
+>examine blue
+ It looks just like every other widget I've ever seen...  only totally
+ different.  Same plastic, same square peg...  but it's blue!
+
+ Clop!  A red wodget appears out of the chute.
+
+>put widget in wodget
+ Ralph Waldo Emerson said that a foolish consistency is the hobgoblin
+ of little minds, and he knew what he was talking about.  He knew that
+ sometimes the widgets would be green, and sometimes they'd be blue.
+ So I've been doing this job for eight years, and every widget I've
+ ever seen has been green.  That doesn't mean the next one won't be
+ blue.  You've got to just take what comes and go on with your job.
+ Emerson understood that, and that's why he was such a great genius.
+
+ I fit the blue widget into the red wodget.  They go together with
+ an...  almost satisfying...  clack!.
+
+>put complex on belt
+ I put the widget-wodget complex on the conveyor belt, which carries it
+ off down the line.
+
+ Clop!  A blue widget appears out of the chute.
+
+>get widget
+ Taken.
+
+ Clop!  A red wodget appears out of the chute.
+
+>put widget in wodget
+ I put the peg of the blue widget into the hole of the red wodget
+ and...  wait a minute!  It won't go in!  Hey - this wodget has a round
+ hole!  What's going on here?  What the...!  OK, wait...  just a
+ second...  don't panic.  Take a deep breath.  It's going to be OK.
+ Everything's going to be OK.
+
+ Fine, so things change.  The world is like that.  Widgets used to be
+ green and now they're grue.  I mean blue.  And wodgets used to have
+ square holes and now they have round ones.  That's OK.  Round is a
+ fine shape for a hole.  I just have to put the peg into it anyway.
+
+ But it won't fit!  No!  I can't deal with this!  Someone must have
+ made a mistake!  They can't expect me to put these together.  I just
+ can't do it.  No one can do it!  I've got to find someone and tell
+ them they've made a mistake.  Then the holes will go back to being
+ square, and everything will be OK again.
+
+ That's odd...  something seems to be happening further down the
+ assembly line.  I can't tell what's going on, but there's a lot of
+ shouting, and I can see people running.  Suddenly there's a clank, and
+ the conveyor belt comes to a stop!
+
+>go west
+ Perhaps you're wondering how I know the conveyor belt runs east to
+ west.  Well, I checked.  "If you don't know where you're going, you
+ probably won't get there."  I don't know who said that.  I saw it on a
+ poster once.  That very same day, I went out and got this
+ super-durable, patent-pending outdoorsman's wrist-watch with built in
+ compass, and since then I've always known exactly which way I was
+ going.
+
+ As I walk along the conveyor belt, I can see the room emptying out
+ fast.  By the time I reach the far end, most of the workers are gone,
+ and those who are left seem to be heading for the door.  Mr.  Biggs,
+ the president of the factory, is standing next to the doorway and
+ shouting at them.  He almost looks like he's going to step in their
+ way and try to block the exit, but he knows he'd get trampled if he
+ tried.
+
+ Factory Main Floor
+    This is the west end of the main floor of the factory.  The
+ conveyor belt passes down the length of the room and disappears into
+ the wall to the west.  A large set of double doors leads north to the
+ lobby.
+
+>examine biggs
+ For some reason, Mr.  Biggs always makes me think of a bulldog.  He
+ can't be much more than five feet tall, and you always feel like he's
+ about to attack you.  No one messes with Mr.  Biggs.  I mean no one.
+
+ Mr.  Biggs glances up at me.  "Get back to work!"  he shouts.
+ "There's absolutely nothing to be alarmed about!  The company has some
+ new owners, and they're just making a few changes.  That's all there
+ is..."  He breaks off and lunges at the door in a desperate attempt to
+ keep the last of the workers from getting away.  He stumbles over his
+ own feet, barely avoids falling, and collides with the wall.  "Come
+ BACK here!"  he shouts, dashing out the door after them.  It swings
+ shut behind him, and the room becomes almost silent.
+
+>go north
+ Lobby
+    This is the lobby of the factory building.  There's a potted plant
+ sitting in the corner, only I looked at it closely once and found that
+ it's made of plastic.  There are doors going north to the parking lot
+ and south to the main floor of the factory.  There are hallways to
+ east and west.
+
+>examine plant
+ I guess a plant that's made of plastic is a lot easier to take care of
+ than a regular one.  You never have to water it, just dust it once in
+ a while, and it doesn't get sick or turn brown or anything like that,
+ though if someone fell on it and broke it or something it wouldn't
+ grow back the way a regular plant would.  But then I guess you could
+ just buy a new one.  I wonder what company makes these things.  If I
+ ever leave this place, I ought to go and work for them.  It sounds
+ like a great business to be in!
+
+>search it
+ I find nothing of interest.
+
+>go east
+ I know Mr.  Biggs said there was nothing to worry about, but I'm not
+ sure I believe him.  I never trust anything the first time someone
+ says it.  I learned that from a guy called Lewis Carroll.  He said,
+ "What I tell you three times is true."  What he meant is that everyone
+ says a lot of stuff.  Some of it's true and some of it isn't.  If you
+ want to really know, you've got to ask them again to make sure they
+ mean what they say.  Otherwise, they might just be saying it and not
+ really mean it.
+
+ Hallway
+    I'm standing in a hallway that runs between the lobby, to the west,
+ and the end of the building, to the east.  North is the door to Mr.
+ Biggs office, which is currently closed.
+
+>examine door
+ It's closed.
+
+>open it
+ Perhaps I should knock on the door before going in?  I don't want to
+ upset Mr.  Biggs by just barging in.
+
+>knock on door
+ I knock carefully on the door.  A muffled voice inside says, "Yes?
+ Come in."
+
+>go north
+ (Opening the door)
+ Mr.  Biggs' Office
+    This has got to be one of the most boring offices in the world.  No
+ pictures on the walls, no fake plants, nothing.  Just a big desk in
+ the middle of the room.  There aren't even any chairs, except the one
+ Mr.  Biggs sits in, so you have to stand up the whole time you're
+ talking to him.  You'd think he didn't like having people come see him
+ or something.  The office door, to the south, is open.
+
+ Mr.  Biggs is sitting behind the desk, looking at me impatiently.
+
+>talk to biggs
+ What do you want to ask it about?
+
+>owners
+ "You stay out of this!"  he snarls at me, shooting up out of the chair
+ like he's going to attack.  Then he seems to catch himself.  "Um, the
+ new owners wish to remain, um, anonymous.  Out of respect for
+ their...um...wishes, I cannot say more."
+
+ He sighs and puts down the piece of paper he was reading.  "Yes
+ Smithers?  What is it you want?"  Smithers?
+
+>look
+ Mr.  Biggs' Office
+    This has got to be one of the most boring offices in the world.  No
+ pictures on the walls, no fake plants, nothing.  Just a big desk in
+ the middle of the room.  There aren't even any chairs, except the one
+ Mr.  Biggs sits in, so you have to stand up the whole time you're
+ talking to him.  You'd think he didn't like having people come see him
+ or something.  The office door, to the south, is open.
+
+ Mr.  Biggs is sitting behind the desk, looking at me impatiently.
+
+>examine desk
+ It's a huge wooden desk, with a couple of drawers on one side, and
+ enough space underneath that you could practically sleep under it.  A
+ big black telephone sits on one side.  Some papers are spread out over
+ the desk, like Mr.  Biggs was looking at them.
+
+ If I'm going to ask him about the widgets, I'd better go ahead and do
+ it.
+
+>ask about widgets
+ (Mr.  Biggs)
+ "The world changes, Smithers.  I know you're very attached to your
+ widgets, but it's time to move this factory into the modern age.  It's
+ got new owners now, and they're bringing in a whole new way of doing
+ business."  He kind of scrunches up his face.  I think it's supposed
+ to be a smile, only he doesn't know how.  "We're both very lucky to be
+ here.  This is a glorious age we're living in!  Infinite opportunity
+ for men with the courage and intelligence to recognize it and do what
+ must be done!  Men like me!  And, uh...  you."
+
+>ask about biggs
+ (Mr.  Biggs)
+ He sighs.  "Look Smithers, I'm very busy right now.  Could we please
+ discuss this another time?"
+
+ The telephone rings.  Mr.  Biggs' face turns pale.  "Get out!  Now!"
+ he snaps at me.  He almost looks like he's going to be sick.
+
+ "Yes, Sir.  Thank you," I say, moving toward the door.  "By the way,
+ my name isn't..."
+
+ "I said get OUT!"  he shouts, leaping from his chair as the phone
+ rings a second time.  He shoves me out of the room and slams the door.
+
+>listen at door
+ I put my ear to the door to listen.  I can't make out exactly what
+ he's talking about, but he sounds upset.  I hear him say, "Yes sir,"
+ several times, and then, "But it's not ready yet!  We need more time
+ to test it first!"  Then there's a long silence.  It goes on so long
+ I've almost decided that he must have hung up, when I hear him say
+ very quietly, "Yes sir.  I understand."  He sounds terrified.
+
+>go east
+ End of Hallway
+    This is the east end of the hallway.  There's a staircase going
+ down, and a doorway leading east to the loading dock.
+
+>go down
+ Bottom of Stairs
+    The stairs come to an end at a closed door leading north, which
+ says "Research" on it.  There's a black plastic thing sticking out of
+ the wall next to it, which looks a lot like the thing you swipe your
+ credit card through at the grocery.
+
+ It's funny, but you know something?  In all the years I've worked at
+ the factory, I've never been here before.  Usually, I just go straight
+ to my place on the assembly line.  A few times, I've been sent to the
+ loading dock to do things, but I've always just gone right past the
+ stairs and never thought what was at the bottom.  Well, now that I'm
+ here, I guess it's not real interesting. I do wonder what's behind
+ that door, though.
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), a pair of shoes
+ (being worn), a coat (being worn), a wristwatch (being worn), a
+ wallet, keys, a flashlight, and a blue widget.  The coat pocket seems
+ to contain a book of famous quotations.
+
+>examine wallet
+ This was a birthday present a couple of years ago.  It's a fairly
+ ordinary leather wallet.
+
+>open it
+ In the wallet I see a driver's license and a five zorkmid bill.
+
+>examine license
+ I hardly ever drive anywhere, but it's good to have a license, just in
+ case.  I think the picture on it makes me look kind of goofy.
+
+>examine picture
+ I don't know the word "picture".
+
+>go up
+ End of Hallway
+    This is the east end of the hallway.  There's a staircase going
+ down, and a doorway leading east to the loading dock.
+
+>examine doorway
+ A pair of swinging doors lead out to the loading dock.
+
+>examine staircase
+ It's an ordinary looking staircase.  I'd tell you more about it, but
+ really, I can't think of anything else to stay.  You know, it's a
+ staircase.  Going down.
+
+>go east
+ Loading Dock
+    This is the loading dock for the factory.  It's a big old cement
+ platform that trucks can pull up to and load or unload stuff for the
+ factory.  I guess that's why they call it a "loading" dock, huh?
+ Actually, I don't know why they call it that.  It hasn't got anything
+ to do with boats, so it isn't a dock, is it?  Maybe there used to be a
+ river here or something, and when it dried up, they just started using
+ trucks instead of boats, but everyone still calls it a dock because
+ that's what they're used to.  I guess that would make sense.
+
+ Anyway, there are no trucks or boats here right now.  There are a lot
+ of crates piled up here, though.  There's also a door going west into
+ the factory.
+
+>examine crates
+ There are a whole bunch of wooden crates stacked up on one side of the
+ loading dock.  They all have "USDA GRADE A" stamped on them in big
+ black letters.  No idea what that means.  They also have arrows
+ pointing downward that say, "This Way Up".
+
+>search them
+ crates:  I find nothing of interest.
+
+>open them
+ crates:  There's no way I could open these crates without a crowbar.
+ They're nailed shut.
+
+>go west
+ End of Hallway
+    This is the east end of the hallway.  There's a staircase going
+ down, and a doorway leading east to the loading dock.
+
+>go west
+ Hallway
+    I'm standing in a hallway that runs between the lobby, to the west,
+ and the end of the building, to the east.  North is the door to Mr.
+ Biggs office, which is currently closed.
+
+ Mr.  Biggs still seems to be talking on the phone.  I can hear his
+ voice coming faintly through the door.  He sounds upset.
+
+ Mr.  Biggs still seems to be talking on the phone.  I can hear his
+ voice coming faintly through the door.  He sounds upset.
+
+>listen at door
+ There's another long pause, and then I hear Mr.  Biggs say, "It will
+ be done right away.  Exactly as you describe."  There's a click as he
+ hangs up the phone, and I hear him getting up from the desk.  I
+ quickly move away from the door, since I don't want to get caught
+ listening to him.  A moment later, the door opens and he comes out.
+ I'm afraid he'll ask me what I'm doing hanging out in the hallway, but
+ he doesn't even seem to see me.  His face is practically white, and as
+ he pulls the door closed behind him, it almost looks like his hand is
+ shaking.  He heads east along the hallway, and disappears down the
+ stairs at the end.
+
+>go west
+ Lobby
+    This is the lobby of the factory building.  There's a potted plant
+ sitting in the corner, only I looked at it closely once and found that
+ it's made of plastic.  There are doors going north to the parking lot
+ and south to the main floor of the factory.  There are hallways to
+ east and west.
+
+>go west
+ Hallway
+    This is a short hallway connecting the lobby (to the east), the
+ cafeteria (to the west), and the restroom (to the north).  There's
+ also a closet here where Rufus, the janitor, keeps his cleaning
+ things.
+
+>examine closet
+ The closet is closed.
+
+>open it
+ Opening the closet reveals a broom and a uniform.
+
+>examine broom
+ It's an old broom that Rufus uses for cleaning the cafeteria.  The
+ word "Cleansweep" is printed on the handle in silver letters.
+
+>enter closet
+ I don't know how to enter the closet.
+
+>wear uniform
+ Why would I want to put on Rufus' uniform?  I'm not a janitor!
+
+>search uniform
+ I find nothing of interest.
+
+>get broom
+ Taken.
+
+>get uniform
+ Taken.
+
+>go north
+ Restroom
+    This is the restroom for all of us who work here.  It's pretty
+ basic:  just a sink and a stall with a toilet.  But it does the job
+ pretty well.
+
+>examine sink
+ It's white and shiny and hard, just like most sinks.  Rufus does a
+ nice job of keeping it clean, I guess, but somehow I don't feel like
+ it has much character.
+
+>examine stall
+ It's a toilet.  What else is there to say about it?
+
+>open it
+ I don't know how to open the toilet.
+
+>go south
+ Hallway
+    This is a short hallway connecting the lobby (to the east), the
+ cafeteria (to the west), and the restroom (to the north).  There's
+ also a closet here where Rufus, the janitor, keeps his cleaning
+ things.
+
+>go west
+ Cafeteria
+    This is where we all eat lunch.  Except Mr.  Biggs, who I guess
+ must bring his own lunch since I never see him here.  There's a bunch
+ of tables and chairs here, and a long window that you walk past to
+ pick up your food.  The window is closed right now, since it won't be
+ lunch time for a while yet.
+    You see a newspaper here.
+
+>examine newspaper
+ It's a copy of The Daily Wombat that someone left in the cafeteria.
+
+>get it
+ Taken.
+
+>read it
+ Hey!  There's an article about the Frobworks plant on the front page!
+ It says...  hold on a minute while I read this...  It's talking about
+ the factory being sold.  It says there's some group of foreign
+ investors who are buying it, but they don't want anyone to know who
+ they are.  Something about a holding company, whatever that is.  And a
+ lot of people are wondering what they plan to do with it...
+
+>read it
+ I flip through the rest of the newspaper, but the article about the
+ Frobworks plant is the only one that looks really interesting.  Except
+ for an article about how to raise orchids, and it says that if you
+ know what you're doing, you can earn hundreds of dollars just by
+ having a bunch of plants sitting around your house.  Maybe I should
+ try that out.  And there's an article here about how clear plastic
+ bathing suits are going to be the big new fashion this summer, and
+ everyone on the beach out in California will be wearing them.  That
+ sounds kind of uncomfortable, but I guess if that's what everyone else
+ is doing...
+
+>read it
+ I don't see anything else interesting.  Just a lot of boring stories
+ about wars and things like that.
+
+>open window
+ I don't know how to open the window.
+
+>examine it
+ It's a big opening in the wall between the cafeteria and the kitchen,
+ where they make the food.  It's closed right now, since they aren't
+ serving lunch yet.
+
+>go east
+ Hallway
+    This is a short hallway connecting the lobby (to the east), the
+ cafeteria (to the west), and the restroom (to the north).  There's
+ also a closet here where Rufus, the janitor, keeps his cleaning
+ things.
+
+>go east
+ Lobby
+    This is the lobby of the factory building.  There's a potted plant
+ sitting in the corner, only I looked at it closely once and found that
+ it's made of plastic.  There are doors going north to the parking lot
+ and south to the main floor of the factory.  There are hallways to
+ east and west.
+
+>go east
+ Hallway
+    I'm standing in a hallway that runs between the lobby, to the west,
+ and the end of the building, to the east.  North is the door to Mr.
+ Biggs office, which is currently closed.
+
+>go north
+ (Opening the door)
+ Mr.  Biggs' Office
+    This has got to be one of the most boring offices in the world.  No
+ pictures on the walls, no fake plants, nothing.  Just a big desk in
+ the middle of the room.  There aren't even any chairs, except the one
+ Mr.  Biggs sits in, so you have to stand up the whole time you're
+ talking to him.  You'd think he didn't like having people come see him
+ or something.  The office door, to the south, is open.
+
+>search desk
+ There's nothing on the desk.
+
+>examine it
+ It's a huge wooden desk, with a couple of drawers on one side, and
+ enough space underneath that you could practically sleep under it.  A
+ big black telephone sits on one side.  Some papers are spread out over
+ the desk, like Mr.  Biggs was looking at them.
+
+>examine papers
+ It looks like some sort of a letter.  The letterhead at the top says
+ it's from 'Grue Industries, Incorporated', whatever that is.  I try to
+ read through the first few pages, but it's pretty hard to understand.
+ Whoever wrote it likes to use lots of big words, things like "capital
+ depreciation" and "market penetration" and "speculative revenue
+ projections".  I think they're unhappy because the factory isn't
+ making as much money as they want it to.
+
+>examine papers
+ It looks like some sort of a letter.  The letterhead at the top says
+ it's from 'Grue Industries, Incorporated', whatever that is.  I try to
+ read through the first few pages, but it's pretty hard to understand.
+ Whoever wrote it likes to use lots of big words, things like "capital
+ depreciation" and "market penetration" and "speculative revenue
+ projections".  I think they're unhappy because the factory isn't
+ making as much money as they want it to.
+
+>examine telephone
+ You know how in movies, the President of the United States always has
+ this big telephone that sits on his desk, and when it rings there's a
+ light that flashes on it, and you know something terrible has just
+ happened?  That's what this telephone looks like.  Like a phone you
+ really don't want to get a call on.
+
+>look under desk
+ There's nothing under the desk.
+
+>examine drawers
+ They're big wooden drawers, exactly the kind you would expect to find
+ in a big wooden desk.
+
+>open them
+ drawer:  Opening the drawer reveals a lunchbox and a plastic card.
+
+>get all from drawer
+ lunchbox:  Taken.
+ plastic card:  Taken.
+
+>examine box
+ I don't see any box here.
+
+>examine lunchbox
+ It's a Dimwit Flathead lunchbox.  I used to have one just like it back
+ in grade school!  It's made of metal, and covered with pictures of
+ Lord Dimwit in famous places, like Mt.  Rushmore and Flood Control Dam
+ Number Three.  The lunchbox is closed.
+
+>open it
+ Opening the lunchbox reveals a peanut butter and jelly sandwich and an
+ apple.
+
+>examine card
+ It's the size and shape of a credit card, made of white plastic.  On
+ one side it says in really small letters, "This card is the private
+ property of Grue Industries, Inc.  If you are not authorized to
+ possess this card, you are currently in violation of the law.  Please
+ contact the police immediately so you can be arrested and duly
+ prosecuted."  There's a black strip on the other side, just like the
+ one on the back of a credit card.  Other than that, it's completely
+ blank.
+
+>eat apple
+ You know how in Snow White the witch gives Snow White a poisoned
+ apple, and she eats it and falls asleep so everyone thinks she is
+ dead?  As I'm biting into the apple, it occurs to me that this one
+ looks exactly like the apple in Snow White.
+
+ It's OK though.  Nothing bad happens to me when I eat it, except my
+ fingers are now a bit sticky from the juice on them.
+
+>close drawer
+ Closed.
+
+>go south
+ Hallway
+    I'm standing in a hallway that runs between the lobby, to the west,
+ and the end of the building, to the east.  North is the door to Mr.
+ Biggs office, which is currently standing open.
+
+>close door
+ Closed.
+
+>go east
+ End of Hallway
+    This is the east end of the hallway.  There's a staircase going
+ down, and a doorway leading east to the loading dock.
+
+>go down
+ Bottom of Stairs
+    The stairs come to an end at a closed door leading north, which
+ says "Research" on it.  There's a black plastic thing sticking out of
+ the wall next to it, which looks a lot like the thing you swipe your
+ credit card through at the grocery.
+
+ It's funny, but you know something?  In all the years I've worked at
+ the factory, I've never been here before.  Usually, I just go straight
+ to my place on the assembly line.  A few times, I've been sent to the
+ loading dock to do things, but I've always just gone right past the
+ stairs and never thought what was at the bottom.  Well, now that I'm
+ here, I guess it's not real interesting. I do wonder what's behind
+ that door, though.
+
+>swipe card
+ There's a click, and the light on the card reader turns green.
+
+>open door
+ Opened.
+
+>SAVE
+>cf9
+ Saved.
+
+>go north
+ Short Hallway
+    I'm standing in a short hallway.  There are doors to north, east,
+ south, and west.  Otherwise, the walls are completely blank.  I can
+ faintly hear voices coming through the door to the east.
+
+>listen at door
+ I can hear people talking on the other side of the door.  I can't
+ quite make out what they're saying, but I'm pretty sure that one of
+ the voices is Mr.  Biggs.
+
+>go north
+ I'll have to open the north door first.
+
+>open north door
+ It's locked.
+
+>go west
+ I put my head carefully through the door, but immediately pull it back
+ again.  There's someone in there!  I'm really not supposed to be down
+ here, and I could be in a lot of trouble if I get caught.  I need some
+ sort of disguise so I won't attract attention.
+
+>wear uniform
+ Okay, I'm now wearing the uniform.
+
+>go west
+ A man in a white coat looks up at me as I step into the room.  I smile
+ and show him my broom.  He looks away without saying anything, and
+ goes back to whatever he was doing.  Good!  I think my disguise is
+ working!
+
+ (Opening the west door)
+ Workshop
+    This is a really weird room.  It almost looks like a mad
+ scientist's workshop.  There are bits of machinery all over the place,
+ like someone has been putting things together or taking them apart.  I
+ have no idea what any of it is, though, and I'm not sure I want to
+ know.  I don't know why, but I'm getting a really creepy feeling from
+ this place.  What is it doing here?  What does it have to do with the
+ factory?
+
+ There's a door leading east back to the hallway, and another one to
+ the west.
+
+ A man in a white coat is doing something with the bits of machinery.
+ He's ignoring me, which is just fine as far as I'm concerned.
+
+>clean room
+ I don't see any room here.
+
+>examine machinery
+ I have no idea what any of this stuff is.  There are gears, wires,
+ tubes, pipes, motors, and I don't know what else scattered all over
+ the place.  It looks like someone's been building something.  Or maybe
+ taking something apart.
+
+>ask man about machinery
+ I don't want to do anything to draw his attention.
+
+>examine man
+ It's a tall man wearing a white coat.  You know the kind that mad
+ scientists always wear in movies?  One like that.  I don't remember
+ ever seeing him before.  It looks like he's doing something with a
+ piece of machinery, but I can't tell what.
+
+>hit man with broom
+ Attacking the man doesn't appear productive.
+
+>go west
+ (Opening the west door)
+ Machine Room
+    As I step into the room, the first thing I notice is the loud
+ clanking sound.  There's a big machine sitting here noisily doing
+ something.  It looks like it's...  No.  Oh God, no.  Please no, it
+ can't be.  No!  Please!.
+
+ It's the most horrifying thing I've ever seen in my life.  There are
+ two conveyor belts running into the machine, one carrying widgets and
+ the other wodgets.  And it's fitting them together.  It's doing
+ exactly what I do, but a hundred times faster.  I can hardly follow it
+ with my eyes, it's fitting them together so quickly.  I could never
+ keep up with this thing.  What do they need me for, now they've got
+ this machine?  All I've ever wanted to do was put widgets together.  I
+ thought I was the best, I had it made for life.  And now with this
+ thing...  what am I?  What am I good for?  I'm so useless now, I don't
+ even want to think about it.  Will anyone care anymore if I live or
+ die?
+
+>examine machine
+ There's a big machine in the middle of the room, clanking away.  There
+ are two conveyor belts running into it, one carrying widgets and the
+ other wodgets, and the assembled widget-wodgets are coming out a chute
+ on the other side and falling into a box
+
+ What a fool I've been.  I see now what Mr.  Biggs was talking about.
+ They're going to replace us with machines.  All of us!  We've been
+ doing our jobs up above, happily going along doing whatever they asked
+ us.  And they've been down here, building these robots to take our
+ places.  Talk about giving opium to the masses!  What is it they've
+ been giving us?
+
+>examine break machine
+ I don't understand that sentence.
+
+>break machine
+ That's what I want to do.  But how?
+
+>put widget in machine
+ I can't put anything into the machine.
+
+ I saw this movie once about these two guys who wrote music.  One of
+ them was really popular, but the other one wrote better music, and the
+ first one knew it.  He couldn't stand knowing someone else was better
+ than him, so he tried to kill him.
+
+ I think I understand now what that guy must have felt.  I've always
+ thought of myself as an artist.  I put widgets together, and I always
+ thought I was really good at it.  No one could put those widgets
+ together like I could.  I guess it's like that for all artists.  We go
+ along doing our thing and thinking we're really good.  And then one
+ day we meet someone who's so much better, we don't know why we even
+ bother trying.  You've either got to give up, or find a way to get rid
+ of them.  They say art isn't easy.  I finally know what they mean.
+
+>score
+ In a total of 188 turns, you have achieved a score of 0 points out of
+ a possible 100.
+
+>kick machine
+ I don't know the word "kick".
+
+>look
+ Machine Room
+    There's a big machine in the middle of the room, clanking away.
+ There are two conveyor belts running into it, one carrying widgets and
+ the other wodgets, and the assembled widget-wodgets are coming out a
+ chute on the other side and falling into a box
+
+>put widget on machine
+ There's no good surface on the machine.
+
+ Very well, I see now what I must do.  Let it be war between us.  "Be
+ bloody, bold, and resolute."  Either I will destroy this machine, or
+ it will destroy me.  "Lay on, Macduff, and damn'd be him that first
+ cries, 'Hold, enough!'"
+
+>look
+ Machine Room
+    There's a big machine in the middle of the room, clanking away.
+ There are two conveyor belts running into it, one carrying widgets and
+ the other wodgets, and the assembled widget-wodgets are coming out a
+ chute on the other side and falling into a box
+
+>put widget on belt
+ I drop the widget onto the conveyor belt.  Within seconds, it has
+ disappeared into the machine.  A moment later, there's a strange
+ cracking sound.  It's hard to describe exactly.  I guess it sounds
+ sort of like a square-pegged widget being forced into a round-holed
+ wodget at high speed, under lots of force.  It's followed by a sound
+ of belts squealing, which ends abruptly with a loud snapping sound.
+ Then without warning, there's a deafening BANG!  When my ears stop
+ ringing, I realize that the machine has stopped.  A thin stream of
+ smoke is coming from it.
+
+>look
+ Machine Room
+    The machine has stopped running.  A thin stream of smoke is coming
+ from it, and there are a couple of odd dents in the case.
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), a pair of shoes
+ (being worn), a coat (being worn), a wristwatch (being worn), a
+ wallet, keys, a flashlight, a broom, a uniform (being worn), a
+ newspaper, a lunchbox, and a plastic card.  The coat pocket seems to
+ contain a book of famous quotations.  The lunchbox seems to contain a
+ peanut butter and jelly sandwich.
+
+>score
+ In a total of 194 turns, you have achieved a score of 0 points out of
+ a possible 100.
+
+>examine machine
+ The machine has stopped running.  A thin stream of smoke is coming
+ from it, and there are a couple of odd dents in the case.
+
+>examine dents
+ I don't know the word "dents".
+
+>go east
+ As I step through the door, something hits me like a flying
+ locomotive.  Next thing I know, my back is pressed against the wall,
+ there's someone holding me on either side, and Mr.  Biggs is staring
+ me in the face, his eyes bulging out like he was going to explode.
+
+ "So, I'll bet you think you're very clever, don't you?"  he wheezes.
+ "Yes, very, very clever, huh?  Well I'll show you who's clever.  I'm
+ going to tie you up, and throw you into a vat of boiling water.  I'm
+ going to cut open your stomach, and pull out all your intestines, and
+ fry them up while you watch me do it!  I'm going to make you scream so
+ loud you'll wish you'd never been born! You're going to beg me to let
+ you die, and I'm going to stand there and smile at you!  I'm going to
+ make you..."
+
+ Suddenly he stops.  A peaceful look comes over his face, and he almost
+ looks like he's smiling.  "No.  I have an even better idea.  I'll let
+ the owners deal with you themselves.  I'm sure they can find an
+ appropriate...use...for you."  This time he really does smile, and
+ something about it sends a chill through my whole body.
+
+ He spins around without another look and starts walking away.  "Let's
+ go.  Bring him along!"  I'm half dragged, half carried through a
+ series of doorways, down a hall I've never seen before, through
+ another set of doors.  Suddenly I find myself staring at a final
+ doorway.  It's open, and there are stairs leading down into darkness.
+ A coldness, and a strange musty smell, rises out of it.
+
+ "OK," says Mr.  Biggs.  "Throw him in."  There's a shove, the hands
+ holding me let go, and I find myself tumbling down the stairs.
+ Something cracks against my head on the way down, and I hit the bottom
+ with a painful thump.  The sound of the door slamming shut echoes
+ through the darkness like the fall of a headsman's ax.
+
+
+
+
+
+
+
+
+ It's pitch black.
+
+>SAVE
+>cf10
+ Saved.
+
+>turn on flashlight
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals, but they're all turned off.  Only my little flashlight
+ makes a pool of light in the middle of the room.  There is a thick
+ layer of dust on the floor.  Otherwise, the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+>examine staircase
+ These are the stairs that I fell down.  They look old and kind of
+ rickety.  I can't see the top from where I'm standing.
+
+>go up
+ Stairs
+    I'm standing on a narrow metal staircase which leads down into
+ darkness.  At the top is a closed door.
+
+>open door
+ I try to turn the handle, but it doesn't budge.  It must be locked.
+
+>go down
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals, but they're all turned off.  Only my little flashlight
+ makes a pool of light in the middle of the room.  There is a thick
+ layer of dust on the floor.  Otherwise, the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+ Out of the corner of my eye, I catch a glimpse of movement through one
+ of the doorways.  I spin around and shine the flashlight through it,
+ but there's nothing there.  Maybe it was just my imagination playing
+ tricks on me?
+
+>turn on light
+ I can't reach that from here.
+
+>go south
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>examine nest
+ Holding my nose, I move carefully toward the strange pile of stuff.  I
+ can see it better up close.  There are old pieces of clothing, shirts
+ and jackets and such, all torn and stained.  There are lots of sheets,
+ blankets, even a sleeping bag.  There's a large rubber ball, like one
+ you'd play with at the beach.  And something that looks like...
+
+ Oh my...
+
+ several large bones.  Some of them with bits of meat still on them.
+
+>examine bones
+ Please, don't make me go any closer.  I don't like this place.  I
+ don't know what it is, but I want to leave.  Please...
+
+>go east
+ Basement
+    Another basement room, just like the others.  This one isn't quite
+ empty:  a tall metal filing cabinet stands against one wall.  Doorways
+ lead north and west.
+
+>examine cabinet
+ It's an ordinary looking metal filing cabinet.  It has five drawers,
+ all of which are currently closed.
+
+ Again, I see movement through the doorway.  I'm sure of it this time.
+ Something large and dark, moving slowly toward me.  But again, when I
+ shine the flashlight, there's nothing there.  I don't like this place,
+ I'm scared, I want to go home...
+
+>open cabinet
+ I try each of the drawers in turn.  All of them are locked except the
+ third one, which slides open easily.  It is filled with papers.
+
+>examine papers
+ I flip through the papers and select one at random.  It's something
+ from the U.S.  Patent and Trademark Office.  I guess it must be a
+ patent.  It's entitled, "A Device for Locomotion Through the
+ Conversion of Rotary to Linear Motion."  Huh?
+
+>examine papers
+ I flip through the papers and select one at random.  It's a brochure
+ from the Society to Ban Hydrogen Hydroxide.  It says that hydrogen
+ hydroxide is a pollutant which is created as a side effect of many
+ industrial processes.  It can be harmful or even fatal if ingested in
+ sufficiently large quantities, and is a major component of acid rain.
+ In spite of this, it is completely unregulated, and many factories
+ just dump it into the environment!  It has been detected in many
+ streams, rivers, and lakes, and may even be getting into the drinking
+ water supply.  This is really scary stuff.  And I'd never even heard
+ of it!
+
+>examine papers
+ I flip through the papers and select one at random.  It looks like
+ another patent.  "A Method for the Production of Energy in Biological
+ Systems Through the Decomposition of Simple Sugars."  This stuff is
+ really weird.
+
+>examine papers
+ I flip through the papers and select one at random.  It's a thick
+ packet of photocopied pages that look like they're from an old book:
+ "The Nice and Accurate Prophecies of Agnes Nutter."  I flip through a
+ few pages, but I can't make head or tail of it.  It reads kind of like
+ poetry, but not really, and mostly it just sounds like someone was
+ writing nonsense.
+
+>examine papers
+ I flip through the papers and select one at random.  This one's
+ another brochure:  "My Life as a Governess:  A Witch's Guide to
+ Controlling Children and Other Pests," by Silvia Daisy Pouncer.  Since
+ I don't have children, I'm not very interested in things like this.
+
+>examine papers
+ I flip through the papers, but none of them look any more interesting
+ than what I've seen already.
+
+>go north
+ Basement, with Telephone
+    This is another room, just like the last one.  There are doorways
+ leading west and south.  The room is almost completely empty, except
+ for one thing:  sitting right in the center of the concrete floor is a
+ little table, the sort of fancy table made from curved pieces of wood
+ that you find in antique stores. And on top of the table is a
+ telephone.
+
+>examine telephone
+ How strange.  There's no buttons, no dial, nothing.  Just a handset
+ sitting on a cradle, and a blank area where the buttons ought to be.
+ I pick up the handset and listen to it.  Instead of a dial tone, I
+ hear a phone ringing on the other end.  I let it ring several times,
+ but no one answers, so I put it back.
+
+>examine table
+ It's a little wooden table.  The feet are shaped like claws holding
+ balls, and the legs are carved to look like they're covered with
+ flowers.  I have no idea what this thing is doing here.  I can hardly
+ imagine anywhere that it would look more out of place.  I don't
+ understand anything that's going on.
+
+ There it is again, movement through the doorway, but it disappears
+ before I can shine the flashlight on it.
+
+>look under table
+ There's nothing under the table.
+
+>push table
+ Pushing the table doesn't do anything.
+
+>go west
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals, but they're all turned off.  Only my little flashlight
+ makes a pool of light in the middle of the room.  There is a thick
+ layer of dust on the floor.  Otherwise, the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+>go south
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>search nest
+ I find nothing of interest.
+
+>enter nest
+ I don't know how to enter the pile.
+
+>examine pile
+ Please, don't make me go any closer.  I don't like this place.  I
+ don't know what it is, but I want to leave.  Please...
+
+>examine pile
+ Please, don't make me go any closer.  I don't like this place.  I
+ don't know what it is, but I want to leave.  Please...
+
+>break nest
+ You'll have to tell me how to do that.
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), a pair of shoes
+ (being worn), a coat (being worn), a wristwatch (being worn), a
+ wallet, keys, a flashlight (providing light), a broom, a uniform
+ (being worn), a newspaper, a lunchbox, and a plastic card.  The coat
+ pocket seems to contain a book of famous quotations.  The lunchbox
+ seems to contain a peanut butter and jelly sandwich.
+
+>break nest with broom
+ I don't recognize that sentence.
+
+>hit nest with broom
+ Attacking the pile doesn't appear productive.
+
+>examine wristwatch
+ One of my proudest possessions.  This wristwatch is water-proof,
+ shock-proof, and heat-proof, with alarm, stopwatch, countdown timer,
+ memory for 24 phone numbers, and built in compass and thermometer.  I
+ don't usually care about knowing the time that much, but it sure looks
+ cool.
+
+>look
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>SAVE
+>cf11
+ Saved.
+
+>turn off flashlight
+ I turn off the flashlight, and immediately I'm plunged into darkness.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+ I just heard something.  Or did I?  A sort of muffled thump?  I can't
+ really tell.  This place echoes strangely, and all my own sounds come
+ back to me in odd ways.
+
+>wait
+ Time passes...
+
+>wait
+ Time passes...
+
+ I definitely heard something.  Sort of a quiet scratching sound.  I'm
+ not sure which way it came from, but it definitely wasn't me.  Where
+ am I?  What is this place?
+
+>wait
+ Time passes...
+
+ The sound is coming closer!  There's something down here with me, and
+ it's coming toward me!  Help, please, get me out of here.  There's
+ something down here and I don't know what it is, but I'm really scared
+ and I want to get out of here.  Please help me...
+
+>turn on flashlight
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>undo
+ (Undoing one command)
+
+ It's pitch black.
+
+>wait
+ Time passes...
+
+ Aaaiiiiieeeeeeeeee!!!!!!!
+
+ *** You have died ***
+
+ In a total of 236 turns, you have achieved a score of 0 points out of
+ a possible 100.
+
+ You may restore a saved game, start over, quit, or undo the current
+ command.
+>undo
+ (Undoing one command)
+
+ It's pitch black.
+
+>turn on flashlight
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>clean nest
+ The pile looks a bit cleaner now.
+
+>clean nest with broom
+ I don't know how to clean anything with the broom.
+
+>wipe nest
+ I don't know the word "wipe".
+
+>examine nest
+ Please, don't make me go any closer.  I don't like this place.  I
+ don't know what it is, but I want to leave.  Please...
+
+>put flashlight in nest
+ I don't want to leave it just lying around.  It might get lost.
+
+ Out of the corner of my eye, I catch a glimpse of movement through one
+ of the doorways.  I spin around and shine the flashlight through it,
+ but there's nothing there.  Maybe it was just my imagination playing
+ tricks on me?
+
+>go east
+ Basement
+    Another basement room, just like the others.  This one isn't quite
+ empty:  a tall metal filing cabinet stands against one wall.  Doorways
+ lead north and west.
+
+>examine cabinet
+ It's an ordinary looking metal filing cabinet.  It has five drawers,
+ of which the third one is currently open.  It is filled with papers.
+
+>open drawers
+ The filing cabinet is already open!
+
+>push cabinet
+ Leaning against the filing cabinet with all my weight, I manage to
+ push it several feet.  This reveals a small metal box mounted on the
+ wall behind it.
+
+>examine box
+ It's a small metal box, attached to the wall.  It is currently closed.
+
+ Again, I see movement through the doorway.  I'm sure of it this time.
+ Something large and dark, moving slowly toward me.  But again, when I
+ shine the flashlight, there's nothing there.  I don't like this place,
+ I'm scared, I want to go home...
+
+>open it
+ I open the box, revealing a circuit breaker switch.
+
+>switch switch
+ Okay, the circuit breaker is now switched on.
+
+>turn off flashlight
+ I turn off the flashlight, and immediately I'm plunged into darkness.
+
+>undo
+ (Undoing one command)
+
+ Basement
+    Another basement room, just like the others.  This one isn't quite
+ empty:  a tall metal filing cabinet stands against one wall.  A small
+ metal box, previously hidden by the cabinet, is mounted on the wall.
+ Doorways lead north and west.
+
+>examine box
+ It's a small metal box, attached to the wall.  It is currently open,
+ revealing a circuit breaker.
+
+>examine lights
+ The lights are spaced along the ceiling every ten feet or so.  They're
+ held in round metal reflectors that hang down about five feet from the
+ ceiling to get below all the pipes and stuff.
+
+>examine pipes
+ I can barely see most of the ceiling, since it's hidden in shadow
+ behind all the pipes and ducts hanging down from it.  The shadows
+ wiggle strangely as I move the flashlight back and forth.  Almost as
+ if there were something up there...
+
+>examine box
+ It's a small metal box, attached to the wall.  It is currently open,
+ revealing a circuit breaker.
+
+>examine breaker
+ Inside the box is a circuit breaker switch.  It is currently on.
+
+>switch breaker
+ Okay, the circuit breaker is now switched off.
+
+>switch breaker
+ Okay, the circuit breaker is now switched on.
+
+>go north
+ Basement, with Telephone
+    This is another room, just like the last one.  There are doorways
+ leading west and south.  The room is almost completely empty, except
+ for one thing:  sitting right in the center of the concrete floor is a
+ little table, the sort of fancy table made from curved pieces of wood
+ that you find in antique stores. And on top of the table is a
+ telephone.
+
+ There it is again, movement through the doorway, but it disappears
+ before I can shine the flashlight on it.
+
+>examine telephone
+ How strange.  There's no buttons, no dial, nothing.  Just a handset
+ sitting on a cradle, and a blank area where the buttons ought to be.
+ I pick up the handset and listen to it.  Instead of a dial tone, I
+ hear a phone ringing on the other end.  I let it ring several times,
+ but no one answers, so I put it back.
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), a pair of shoes
+ (being worn), a coat (being worn), a wristwatch (being worn), a
+ wallet, keys, a flashlight (providing light), a broom, a uniform
+ (being worn), a newspaper, a lunchbox, and a plastic card.  The coat
+ pocket seems to contain a book of famous quotations.  The lunchbox
+ seems to contain a peanut butter and jelly sandwich.
+
+>examine book
+ This is my guide in life.  More than 10,000 quotations by the
+ greatest, most intelligent people in history.  I really can't imagine
+ life without it.  Anything important that's ever been said, I can find
+ it in here.
+
+ Not many people know this about me, but I was adopted.  I don't know
+ who my real parents were.  I was just left on the doorstep of an
+ orphanage with nothing but a change of diapers and this book of
+ quotations.  So I guess it won't surprise you that I've always thought
+ of this book as my parents' voice.  I've tried to live my life by it.
+ When I've got to make any big decision, I always look here first, and
+ I always find something that tells me what to do.
+
+>read it
+ I flip through the book of quotations and pick one at random.  G.K.
+ Chesterton:  "An inconvenience is only an adventure wrongly
+ considered; an adventure is an inconvenience rightly considered."
+
+>read it
+ I flip through the book of quotations and pick one at random.  Samuel
+ Johnson:  "Curiosity is one of the permanent and certain
+ characteristics of a vigorous mind."
+
+>read it
+ I flip through the book of quotations and pick one at random.  H.P.
+ Lovecraft: "The most merciful thing in the world, I think, is the
+ inability of the human mind to correlate all its contents."
+
+>go west
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals, but they're all turned off.  Only my little flashlight
+ makes a pool of light in the middle of the room.  There is a thick
+ layer of dust on the floor.  Otherwise, the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+>examine ducts
+ I can barely see most of the ceiling, since it's hidden in shadow
+ behind all the pipes and ducts hanging down from it.  The shadows
+ wiggle strangely as I move the flashlight back and forth.  Almost as
+ if there were something up there...
+
+>turn on lights
+ I can't reach that from here.
+
+>go up
+ Stairs
+    I'm standing on a narrow metal staircase which leads down into
+ darkness.  At the top is a closed door.
+
+>turn on lights
+ I don't see any lights here.
+
+>go down
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals, but they're all turned off.  Only my little flashlight
+ makes a pool of light in the middle of the room.  There is a thick
+ layer of dust on the floor.  Otherwise, the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+>examine walls
+ The walls are made of concrete.  I don't see anything interesting
+ about them.
+
+>go south
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>examine walls
+ The walls are made of concrete.  I don't see anything interesting
+ about them.
+
+>examine nest
+ Please, don't make me go any closer.  I don't like this place.  I
+ don't know what it is, but I want to leave.  Please...
+
+>push it
+ Pushing the pile doesn't do anything.
+
+>go east
+ Basement
+    Another basement room, just like the others.  This one isn't quite
+ empty:  a tall metal filing cabinet stands against one wall.  A small
+ metal box, previously hidden by the cabinet, is mounted on the wall.
+ Doorways lead north and west.
+
+>push cabinet
+ Leaning against the filing cabinet with all my weight, I manage to
+ push it several feet.
+
+>look
+ Basement
+    Another basement room, just like the others.  This one isn't quite
+ empty:  a tall metal filing cabinet stands against one wall.  A small
+ metal box, previously hidden by the cabinet, is mounted on the wall.
+ Doorways lead north and west.
+
+>examine walls
+ The walls are made of concrete.  I don't see anything interesting
+ about them.
+
+>climb cabinet
+ It's too tall for me to climb on top of, and I think it might tip over
+ if I tried.
+
+ There it is again, movement through the doorway, but it disappears
+ before I can shine the flashlight on it.
+
+>go north
+ Basement, with Telephone
+    This is another room, just like the last one.  There are doorways
+ leading west and south.  The room is almost completely empty, except
+ for one thing:  sitting right in the center of the concrete floor is a
+ little table, the sort of fancy table made from curved pieces of wood
+ that you find in antique stores. And on top of the table is a
+ telephone.
+
+>climb table
+ It's too small for me to stand on top of.
+
+>jump
+ Wheeee!
+
+>shout
+ My throat is a bit sore now.
+
+>go east
+ I can't go that way.
+
+>go west
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals, but they're all turned off.  Only my little flashlight
+ makes a pool of light in the middle of the room.  There is a thick
+ layer of dust on the floor.  Otherwise, the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+>go south
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>climb nest
+ Please, don't make me go any closer.  I don't like this place.  I
+ don't know what it is, but I want to leave.  Please...
+
+>inventory
+ I have clean pants (being worn), clean socks (being worn), clean
+ underwear (being worn), a clean shirt (being worn), a pair of shoes
+ (being worn), a coat (being worn), a wristwatch (being worn), a
+ wallet, keys, a flashlight (providing light), a broom, a uniform
+ (being worn), a newspaper, a lunchbox, and a plastic card.  The coat
+ pocket seems to contain a book of famous quotations.  The lunchbox
+ seems to contain a peanut butter and jelly sandwich.
+
+>turn on lights
+ I can't reach that from here.
+
+>examine lights
+ The lights are spaced along the ceiling every ten feet or so.  They're
+ held in round metal reflectors that hang down about five feet from the
+ ceiling to get below all the pipes and stuff.
+
+>go north
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals, but they're all turned off.  Only my little flashlight
+ makes a pool of light in the middle of the room.  There is a thick
+ layer of dust on the floor.  Otherwise, the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+>examine staircase
+ These are the stairs that I fell down.  They look old and kind of
+ rickety.  I can't see the top from where I'm standing.
+
+>turn on lights with broom
+ I don't recognize that sentence.
+
+>examine dust
+ The concrete floor is covered with a thick layer of dust.  It looks
+ like it hasn't been cleaned in ages.  There are strange patterns in
+ the dust - long trails like objects have been dragged along the floor,
+ and smaller streaks, and blotches that look almost like footprints but
+ not quite.
+
+>follow trails
+ I can't reach that from here.
+
+>climb pipes
+ I can't reach that from here.
+
+>go up
+ Stairs
+    I'm standing on a narrow metal staircase which leads down into
+ darkness.  At the top is a closed door.
+
+>jump down
+ I don't understand that sentence.
+
+>go south
+ I can't go that way.
+
+>go down
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals, but they're all turned off.  Only my little flashlight
+ makes a pool of light in the middle of the room.  There is a thick
+ layer of dust on the floor.  Otherwise, the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+>go south
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>go east
+ Basement
+    Another basement room, just like the others.  This one isn't quite
+ empty:  a tall metal filing cabinet stands against one wall.  A small
+ metal box, previously hidden by the cabinet, is mounted on the wall.
+ Doorways lead north and west.
+
+>turn on switch
+ It's already turned on!
+
+>turn off flashlight
+ I turn off the flashlight, and immediately I'm plunged into darkness.
+
+>switch switch
+ It's pitch black.
+
+>RESTORE
+>cf11
+ Restored.
+
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>go east
+ Basement
+    Another basement room, just like the others.  This one isn't quite
+ empty:  a tall metal filing cabinet stands against one wall.  Doorways
+ lead north and west.
+
+>push cabinet
+ Leaning against the filing cabinet with all my weight, I manage to
+ push it several feet.  This reveals a small metal box mounted on the
+ wall behind it.
+
+>open box
+ I open the box, revealing a circuit breaker switch.
+
+>turn on switch
+ I flip the switch on the circuit breaker.  At first I don't think
+ anything's going to happen.  Then I hear a quiet hum, and a moment
+ later I'm blinded as all the lights in the basement suddenly come on.
+
+ At the same moment a deafening sound echoes through the room,
+ something half way between an animal roar and a scream.  It's followed
+ by a series of banging sounds, first dull ones, then ringing ones of
+ something pounding against metal. Then there's a crash like something
+ shattering.  I hear a few more quiet screams vanishing into the
+ distance, and then silence.
+
+ I'm sorry.  What just happened?
+
+>turn off flashlight
+ Ok, the flashlight is now off.
+
+>look
+ Basement
+    Another basement room, just like the others.  This one isn't quite
+ empty:  a tall metal filing cabinet stands against one wall.  A small
+ metal box, previously hidden by the cabinet, is mounted on the wall.
+ Doorways lead north and west.
+
+>go west
+ Basement
+    This is the oddest room.  Well, the room itself is ordinary enough
+ - more concrete, more pipes, doorways leading east and north.  It
+ looks like this was once a storeroom.  I can see discolored patches on
+ the walls and floor where large boxes must have sat for a long time.
+
+ It's the current contents of the room that are strange.  No boxes or
+ furniture anymore, just a huge pile of...  stuff...  in the middle of
+ the floor.  It's a mass of all sorts of odds and ends:  scraps of
+ cloth, old phone books, broken mattresses, and who knows what else.
+ It looks like a giant rat's nest.  The strange musty smell that fills
+ the basement is stronger here, like it was coming from this pile.
+
+>examine nest
+ Please, don't make me go any closer.  I don't like this place.  I
+ don't know what it is, but I want to leave.  Please...
+
+>go north
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals.  There is a thick layer of dust on the floor.  Otherwise,
+ the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+>go east
+ Basement, with Telephone
+    This is another room, just like the last one.  There are doorways
+ leading west and south.  The room is almost completely empty, except
+ for one thing:  sitting right in the center of the concrete floor is a
+ little table, the sort of fancy table made from curved pieces of wood
+ that you find in antique stores. And on top of the table is a
+ telephone.
+
+>examine tble
+ I don't know the word "tble".
+
+>examine table
+ It's a little wooden table.  The feet are shaped like claws holding
+ balls, and the legs are carved to look like they're covered with
+ flowers.  I have no idea what this thing is doing here.  I can hardly
+ imagine anywhere that it would look more out of place.  I don't
+ understand anything that's going on.
+
+>go east
+ I can't go that way.
+
+>go west
+ Basement
+    I'm in what must be the basement of the factory.  The walls and
+ floor are made of concrete, and the ceiling is covered with pipes and
+ ventilation ducts.  Large metal light fixtures hang down at regular
+ intervals.  There is a thick layer of dust on the floor.  Otherwise,
+ the room is completely empty.
+
+ Open doorways lead south and east.  A metal staircase attached to the
+ north wall leads upward.
+
+>go up
+ Stairs
+    I'm standing on a narrow metal staircase which leads down to the
+ basement, and up to a closed door.  Or rather, it would be closed if
+ there weren't a huge hole smashed right through the middle.  It looks
+ like a freight train went through here, and the door got in the way.
+
+>go up
+ I climb through the hole in the door to the hallway on the other side.
+ It takes a few wrong turns, but eventually I find my way back upstairs
+ again.  The whole factory seems to be deserted.  Not a sign of anyone.
+ The parking lot is completely empty.
+
+ As I stand waiting at the bus stop, I have the strangest feeling.
+ It's like waking up from a trance, or leaving the auditorium at the
+ end of a concert.  I know I've been somewhere strange, witnessed
+ amazing things, but I'm not certain exactly what they were.  "States
+ of dreamy melancholy, fits of aimless joy."  Was I the audience or the
+ performer?  Did it really happen, or was it just a fantasy?  A witch's
+ spell?  Am I the artist?  And if not, then who is?
+
+ I think I'll stop off at the mall on my way home.  I need an ice cream
+ cone.
+
+
+
+
+
+
+
+
+ Dear Mom,
+
+ Thanks a lot for the cookies you sent.  They were really great.  I
+ still say you make the best oatmeal raisin cookies in the world.
+
+ My new job is going really well.  I never would have guessed that
+ screwing caps onto toothpaste tubes could be so interesting.  My boss,
+ Mr. Bucket, says I have a natural talent for it.
+
+ I was really lucky to find a job so quickly.  A lot of the guys from
+ Frobworks are still looking.  No one's sure what the new owners are
+ planning to do with the building yet, but there's a rumor that they
+ want to start a computer game company. Pretty weird, huh?
+
+ Anyway, thanks a lot.  I'll write again soon.  I love you a lot.
+
+ Your son,
+
+ Peter
+
+ P.S. Next time, could you send chocolate chip instead?
+
+
+
+
+
+
+
+
+ This game is a work of interactive fiction.  Any similarity to works
+ of interactive non-fiction, living or dead, is purely coincidental.
+
+
+
+
+
+
+
+
+ FBI WARNING:
+
+ THE FBI COULD NOT CARE LESS WHAT YOU DO WITH THIS GAME.  THEY MAY,
+ HOWEVER, STILL CHOOSE TO TAP YOUR PHONE LINE, READ YOUR EMAIL, AND
+ SEND LOVE LETTERS TO RANDOM PEOPLE SIGNED WITH YOUR NAME.  THIS DOES
+ NOT MEAN THAT YOU ARE SUSPECTED OF COMMITTING ANY CRIMES.  THEY JUST
+ ENJOY DOING IT.
+
+
+
+
+
+
+
+
+ No grues were harmed in the making of this game.
+
+
+
+
+
+
+
+
+ Congratulations!  You have completed the game!
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.
+
+>outtakes
+
+
+
+
+
+
+
+
+
+ It's time for breakfast!  I sit down to a delicious meal of fried eggs
+ and start...  ummm...  excuse me.
+
+ I'm sorry, I just can't do this.  I can't stand eggs.  Even the smell
+ of them makes me sick.  Couldn't we please change them to something
+ else, like toast or cereal?
+
+ OK, wait a minute.  I have an idea.  We'll keep the eggs, but as soon
+ as they ask me to eat them, I'll realize the bus is coming.  So I
+ won't have time to eat them, and I can just grab a pop-tart or
+ something instead.  That way we can keep your whole "cooking the eggs"
+ thing you were so proud of, but I won't have to eat them.  Would that
+ be ok?
+
+
+
+
+
+
+
+
+
+ I put the peg of the blue widget into the hole of the red wodget
+ and...  wait a minute!  It won't go in!  Hey - this wodget has a...
+
+ triangular?
+
+ OK, very funny!  Who's the wise guy in props?
+
+
+
+
+
+
+
+
+
+ Just like that?  "wear uniform"?  Am I supposed to somehow put it on
+ over the clothes I'm already wearing?  Or do you want me to strip them
+ off first?  And then what should I do with them?  Carry them around?
+ Leave them here?
+
+ Oh, right.  Plot device.  Never mind.
+
+
+
+
+
+
+
+
+
+ I turn on the flashlight and...  Wait a minute.  It isn't going on.
+ The bulb must be burnt out.  OK, I'm standing here in the dark, and my
+ flashlight won't go on.  Um...  there aren't really any grues down
+ here, are there?  Could someone turn on the lights?  Hello?  Anyone?
+ Bill, is that you?  Bill?
+
+
+
+
+
+
+
+
+ Dear Mom,
+
+ I have some very important news to tell you.  I have decided to get a
+ job with a company that writes computer games.  I know this will come
+ as a disappointment to you, since you've always wanted me to work in a
+ factory like you and dad.  I know what you will say about family
+ traditions and your great uncle Herbert and all that, but this is MY
+ life, damn it.  I'm sick of wasting my life putting stupid pieces of
+ plastic together day after day after day.  It's time I did something
+ that I care about, for a change.
+
+ And while I'm at it, what's up with the cookies?  How many times have
+ I told you that I can't stand oatmeal raisin cookies?  Why do you
+ insist on doing this to me?  Are you trying to prove something, or can
+ you simply not believe I could really feel differently from you about
+ anything in the world?
+
+
+
+
+
+
+
+
+ Dear Mom,
+
+ Thank you for the cookies you sent.  I guess you forgot that I don't
+ eat oatmeal raisin cookies, but I really appreciate the thought.
+
+ I have some wonderful news for you.  I've decided to get a job with a
+ company that writes computer games.  I know it's a bit different from
+ what you've always imagined for me.  But this is a great opportunity,
+ and I think I could be really good at it.
+
+ I hope you won't be too disappointed by this.  I just don't want to
+ keep wasting my life working at an assembly line.  Not that there's
+ anything wrong with working on an assembly line.  I know you and dad
+ have done it all your lives, and you really like it.  It's just that I
+ don't want to keep wasting my life
+
+ (sigh)
+
+
+
+
+
+
+
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.
+
+ Type OUTTAKES to view outtakes, RESTORE to load a saved game, RESTART
+ to start the game over again, or QUIT to quit.

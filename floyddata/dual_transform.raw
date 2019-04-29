@@ -1,0 +1,2819 @@
+<HTML><HEAD><TITLE>AllThingsJacq.com - Interactive Fiction | ClubFloyd - May 15, 2010 - Dual Transform, by Andrew Plotkin as "Nigel Smith"</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Author" CONTENT="Jacqueline A. Lott">
+<META NAME="Revisit after" CONTENT="30days">
+<META NAME="Robots" CONTENT="all">
+<META NAME="Distribution" CONTENT="Global">
+<META NAME="Keywords" CONTENT="interactive fiction, photography, writing, introcomp, outdoors, mountainmemoirs, mountain memoirs, strictly smokies, strictlysmokies">
+<META NAME="Description" CONTENT="Internet site of Jacqueline A. Lott.">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE>
+<!--
+A:link {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:visited {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:hover {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+A:active {color:darkolivegreen; text-decoration:none; font-weight:bold; }
+-->
+
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#6666CC" MARGINWIDTH=0 LEFTMARGIN=0 RIGHTMARGIN=0 MARGINHEIGHT=0 TOPMARGIN=0 onLoad="MM_preloadImages('graphics/writing2.jpg','graphics/intfic2.jpg','graphics/photos2.jpg','graphics/misc2.jpg')">
+<a name="top"></a><CENTER>
+<TABLE WIDTH="557" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="35">
+  <TR>
+	<TD>
+	  <CENTER>
+		  <BR>
+		  <A HREF="index.html"><IMG SRC="graphics/atj_logo.jpg" WIDTH="250" HEIGHT="170" BORDER="0"><BR>
+
+		  <IMG SRC="graphics/home.jpg" WIDTH="75" HEIGHT="25" BORDER="0"><BR>
+		  </A><BR>
+
+		  <A HREF="writing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writing','','graphics/writing2.jpg',1)"><IMG NAME="Writing" BORDER="0" SRC="graphics/writing1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="interactive_fiction.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Interactive Fiction','','graphics/intfic2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"><IMG NAME="Interactive Fiction" BORDER="0" SRC="graphics/intfic1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="photography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Photography','','graphics/photos2.jpg',1)"><IMG NAME="Photography" BORDER="0" SRC="graphics/photos1.jpg" WIDTH="100" HEIGHT="140"></A>
+
+		  <A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG SRC="graphics/spacer.gif" WIDTH="15" HEIGHT="1" BORDER="0"></A><A HREF="miscellany.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Miscellany','','graphics/misc2.jpg',1)"><IMG NAME="Miscellany" BORDER="0" SRC="graphics/misc1.jpg" WIDTH="100" HEIGHT="140"></A></CENTER>
+
+<P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></BR></BR>
+ClubFloyd Transcript:<BR><B><I>Dual Transform</I> by Andrew Plotkin as "Nigel Smith"</b></FONT><FONT FACE='arial, sans-serif, helvetica' SIZE='1'></BR>As played on ifMUD on May 15, 2010</FONT></P><P ALIGN="LEFT"><FONT FACE="arial, sans-serif, helvetica" SIZE="2">
+The idea behind ClubFloyd is that each week at a pre-arranged time, a group of people meet online to cooperatively play a game of interactive fiction.</br></br>
+Below is a transcript of <i>Dual Transform</i>, written by Andrew Plotkin as "Nigel Smith".  <I>Dual Transform</I> was originally released as part of Casual Gameplay Design Competition 7, where it took third place.  You can learn more about the game, including how to download it, by visiting <A HREF='http://www.ifwiki.org/index.php/Dual_Transform'><u>the ifWiki</u></A>.</br></br><FONT FACE="arial, sans-serif, helvetica" SIZE="2" COLOR="#FF0000"><b>WARNING!</b></font><FONT FACE="arial, sans-serif, helvetica" SIZE="2"> Below you will find a transcript of people playing this game, and it goes without saying that the transcript is full of spoilers.  So, if you've never played this game, and think you might like to at some point, I do not recommend reading any further.  Instead, you might want to return to the <a href="interactive_fiction.html"><u>interactive fiction </u>p<u>a</u>g<u>e</u></a>.</BR></BR></BR></FONT></P></td></tr></table>
+
+<table>
+<tr><td></td><td colspan="3"><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td></tr>
+<tr><td width="2%"></td><td width="60%"><center><B>ToyShop & Floyditorium</B></center></td><td width="2%"></td><td width="34%"><center><B>#ClubFloyd Discussion</B></center></td><td width="2%"></td></tr>
+
+<tr><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td><td></td><td><IMG SRC="graphics/black.jpg" WIDTH="100%" HEIGHT="3"></td></tr>
+<tr><td></td><td>&nbsp;</td><td></td><td></td></tr>
+<td></td></TR>
+<TR><TD width=2%> </td>
+<td></td></TR>
+<TR><td></td><TD>Jacqueline says (to Floyd), "<font color="#89956F">load dualtransform</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Welcome to the Cheap Glk Implementation, library version 0.9.0.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Time for a fresh start.
+<b>Floyd</b> |
+<b>Floyd</b> | You've been slogging towards the goal -- true metasemanticity -- for
+<b>Floyd</b> | months. Code-logic sparkles in your dreams and mutters in your ears.
+<b>Floyd</b> | You've made great strides of progress, thrown them away, rewritten,
+<b>Floyd</b> | rearranged, refactored -- but the contract deadline is crawling down
+<b>Floyd</b> | your throat. No escaping that. You've got to pull this project
+<b>Floyd</b> | together, and soon.
+<b>Floyd</b> |
+<b>Floyd</b> | So forget all of the environment modelling, the texture cores, the
+<b>Floyd</b> | interface splicing. You're going to build on basic physical forces.
+<b>Floyd</b> | Like heat, light, maybe mass... Make it feel real, in the user's gut.
+<b>Floyd</b> |
+<b>Floyd</b> | Dual Transform
+<b>Floyd</b> | A Metasemantic Construction by Andrew Plotkin ("Nigel Smith")
+<b>Floyd</b> | Release 5 / Serial number 100225 / Inform 7 build 5Z71 (I6/v6.31 lib
+<b>Floyd</b> | 6/12N)
+<b>Floyd</b> | (Type "about" for credits and game information.)
+<b>Floyd</b> |
+<b>Floyd</b> | Workspace
+<b>Floyd</b> | Nothing surrounds you. The virtual space is unbounded and absolutely
+<b>Floyd</b> | blank. Just the opposite of what you're aiming at, you think wryly.
+<b>Floyd</b> |
+<b>Floyd</b> | With a mental flick, you call up the archetype of a force. Pressure,
+<b>Floyd</b> | you decide. Mathematically simple, but instinctual. The archetype
+<b>Floyd</b> | forms before you: a simple equation hanging in the workspace.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">take equation</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You cup your hand around the equation and compile. It shrinks
+<b>Floyd</b> | obligingly into a small icon, which you take.
+<b>Floyd</b> |
+<b>Floyd</b> | This is just what you were hoping for -- a simple principle, from
+<b>Floyd</b> | which an entire immersive world can grow. Now to drop it in the
+<b>Floyd</b> | workspace and see what you get.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Tale says (to Floyd), "<font color="#89956F">about</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Dual Transform is copyright 2010 by Andrew Plotkin
+<b>Floyd</b> | &lt;erkyrath@eblong.com&gt;. It may be distributed for free, but not sold or
+<b>Floyd</b> | included in any for-profit collection without written permission from
+<b>Floyd</b> | the author. For more of my games, see [<A HREF="http://eblong.com/zarf/if.html.">LINK</A>]
+<b>Floyd</b> |
+<b>Floyd</b> | The game was written for the Seventh Casual Gameplay Design
+<b>Floyd</b> | Competition at JayIsGames.com; it wound up in a three-way tie for
+<b>Floyd</b> | second place.
+<b>Floyd</b> |
+<b>Floyd</b> | Thanks to the beta-testers: Marius M?ller, Zhou Fang, Kevin
+<b>Floyd</b> | Jackson-Mead, Sarah Morayati, Jake Eakle, and Emily Short. And to the
+<b>Floyd</b> | People's Republic of IF gang, who gave me feedback on an early
+<b>Floyd</b> | version. (It's not even alpha-testing when the game isn't finished
+<b>Floyd</b> | yet.)
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Another rule: don't go too fast for folks."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Lucea</b> arrives, ready to play with the toys.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>Lucea</b> says, "Hi"
+</TD><td></td><TD><b>Jacqueline</b>  says, "People need time to read, and not everyone read's awesomely fast. :)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "hm. I forget if there were words in bold or italics or not. We won't be able to see highlighting like that if there is."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Axyraandas</b>  says, "Ok. I'll just wait a minute or two then."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x equation</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x me</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | "T. Jant Ganzfeld is a notable contract researcher in virtual
+<b>Floyd</b> | workspace design..." But you don't need to re-read your own
+<b>Floyd</b> | Distribupedia article. If this project works out, it'll get a lot more
+<b>Floyd</b> | impressive. If not -- goodbye to that "notable". And maybe that "is",
+<b>Floyd</b> | too.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>AutomatonZX27</b> arrives, full of neither funk nor fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>AutomatonZX27</b> asks, "Hmm?"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   the pressure icon
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>AutomatonZX27</b> asks, "What's going on here?"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">x icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a small symbol representing pressure, in all its aspects and
+<b>Floyd</b> | implications.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>AutomatonZX27</b> says, "Ah, I see"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">push icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You raise the pressure icon, consider its intricacies, and release it
+<b>Floyd</b> | into the workspace. It drifts away.
+<b>Floyd</b> |
+<b>Floyd</b> | Smoothly, elegantly, the workspace turns inside out.
+<b>Floyd</b> |
+<b>Floyd</b> | Church
+<b>Floyd</b> | White marble rises in smooth, heavy columns to an arching vault. The
+<b>Floyd</b> | walls are worked in geometric traceries; one could as easily see this
+<b>Floyd</b> | as a mosque, or a cloister. The symbolism is not important, only the
+<b>Floyd</b> | weight of dome and the curve of arch, bearing down into the roots of
+<b>Floyd</b> | the world.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace has condensed into a simple cube which squats in the
+<b>Floyd</b> | room's center.
+<b>Floyd</b> |
+<b>Floyd</b> | A red carpet runs from an illuminated altar, at the south end, to the
+<b>Floyd</b> | stand of brass pipes which dominates the north wall. Air throbs from
+<b>Floyd</b> | their arrayed notches and thunders quietly across the chamber.
+<b>Floyd</b> |
+<b>Floyd</b> | Magnificent, you think.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Gerynar</b> says (to AutomatonZX27), "we're playing a game together, type @joinch #clubfloyd"
+</TD><td></td><TD><b>*</b>  AutomatonZX27 has joined the channel.
+</TD><td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">drop icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You haven't got that.
+<b>Floyd</b> |
+<b>Floyd</b> | This environment is a mere sketch, but you didn't sketch it. It's
+<b>Floyd</b> | grown entirely from your subconscious symbolism. This is what you've
+<b>Floyd</b> | been striving for. Now you just need to draw out more archetypes.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Axyraandas</b>  says, "Oops. Sorry about that."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "You did nothing wrong."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "I think this game is mostly friendly. I don't think you can get it into a bad state."
+</TD><td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">x altar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The altar is a simple block of smoky marble, at one end of the red
+<b>Floyd</b> | carpet. Standing upon it is a tall candle, which is lit.
+<b>Floyd</b> |
+<b>Floyd</b> | A gust of air brushes over you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">x altar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The altar is a simple block of smoky marble, at one end of the red
+<b>Floyd</b> | carpet. Standing upon it is a tall candle, which is lit.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Automaton), "While we play the ClubFloyd game, all conversation is on this channel.  To say 'blah' on the channel, type '#clubfloyd blah' the first time.  After that you can say 'blah' by simply typing ';blah'"
+</TD><td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">get candle</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Upon closer examination, the candle is an archetype: heat. You reach
+<b>Floyd</b> | out and compile; it shrinks obligingly into a small icon, which you
+<b>Floyd</b> | take.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the heat icon)
+<b>Floyd</b> | It's a small symbol representing heat, in all its ramifications and
+<b>Floyd</b> | aspects.
+<b>Floyd</b> |
+<b>Floyd</b> | Air moves through the cathedral.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">drop icn</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">push icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the heat icon)
+<b>Floyd</b> | You hold the heat icon up towards the workspace and give it a gentle
+<b>Floyd</b> | push. It slides neatly into place, and the world transforms around
+<b>Floyd</b> | you.
+<b>Floyd</b> |
+<b>Floyd</b> | Longhall
+<b>Floyd</b> | You stand in a long, low hall of smoke-darkened timbers. The floor is
+<b>Floyd</b> | earth, benches line the walls, and you are washed by heat from the
+<b>Floyd</b> | blazing fire-pit that runs the hall's entire length.
+<b>Floyd</b> |
+<b>Floyd</b> | At the south end the hall rises, and an enormous wooden chest stands
+<b>Floyd</b> | on an earthen mound. The chest is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube that is your workspace rests nearby. Inside it hang your two
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">drop icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Which do you mean, the heat icon, or the pressure icon?
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  asks, "So, we're playing Dual Transform?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "Yeah, it's Merciful on the author's scale."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to AutomatonZX27), "yes"
+</TD><td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">pressure</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You haven't got that.
+<b>Floyd</b> |
+<b>Floyd</b> | Sweat begins to drip from you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">drop pressure icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You haven't got that.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x chest</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A heavy wooden trunk, at least a yard wide, stands at the south end of
+<b>Floyd</b> | the hall. The trunk is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  says, "Let's look at the chest"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">open chest</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You grab the lid and yank, but it doesn't move. You crouch and shift
+<b>Floyd</b> | your hold; but the chest is either locked, or jammed, or warped with
+<b>Floyd</b> | age. It will not open.
+<b>Floyd</b> |
+<b>Floyd</b> | The fire crackles unexpectedly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x fire</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A trench runs up the hall; bonfires are built along it in a blazing
+<b>Floyd</b> | chain. You can feel the yellow heat pressing against your face, and
+<b>Floyd</b> | your back is cool only in comparison. The air is nearly stifling.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "No go"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Axyraandas</b>  says, "It's impossible to open in this place."
+</TD><td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying nothing.
+<b>Floyd</b> |
+<b>Floyd</b> | The icons shift slightly in the workspace.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Maybe God will help you... (obvious hint)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "Oh and another rule: if you've played before, no spoilers and no puzzle-solving"
+</TD><td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">invoke pressure icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the pressure icon, and the environment shifts around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Church
+<b>Floyd</b> | White marble rises in smooth, heavy columns to an arching vault. The
+<b>Floyd</b> | walls are worked in geometric traceries; a rich red carpet runs up the
+<b>Floyd</b> | room's length, to the brass pipes which stand at its north end. Air
+<b>Floyd</b> | throbs from the pipes and thunders quietly across the chamber.
+<b>Floyd</b> |
+<b>Floyd</b> | To the south stands a graceful marble altar.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace is a squat cube in the center of the room. Inside it
+<b>Floyd</b> | hang your two icons.
+<b>Floyd</b> |
+<b>Floyd</b> | Something is different here... You glance around. A small offering-box
+<b>Floyd</b> | now sits on top of the altar. You're sure it wasn't there before.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Shoot."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "yeah, try not to spoil please."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Okay, I'll be careful"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Axyraandas</b>  exclaims, "Sorry!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Yeah... if you've played before, there's another channel you can join: cf-spoilers"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x altar</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The altar is a simple block of smoky marble, at one end of the red
+<b>Floyd</b> | carpet. Standing upon it is a small offering box, which is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "#cfspoilers"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x offering box</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A small chased-silver box, perhaps an offering-box, rests on the
+<b>Floyd</b> | altar. The box is closed.
+<b>Floyd</b> |
+<b>Floyd</b> | You glance around the room, comparing locations. Yes, a direct
+<b>Floyd</b> | symbolic parallel: this tiny box occupies the same spot as the
+<b>Floyd</b> | enormous wooden chest.
+<b>Floyd</b> |
+<b>Floyd</b> | A puff of air brushes past you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Oh, right - #cfspoilers"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "Maybe it's time to make #cf-spoilers an alias"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Anyway, it's perfectly acceptable to discuss the game in full on that channel, mock the players for not getting it, etc."
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">get box</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Upon further inspection, the box is bolted down. Given that this is
+<b>Floyd</b> | your own imagery, you wonder what your subconscious is saying about
+<b>Floyd</b> | the rest of you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says (to Nitku), "Yeah, we could do that."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Axyraandas</b> asks, "How do you become a member of cfspoilers?"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">open box</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You lift the lid. Disappointingly, the box is empty.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Stealing an offering box, how evil"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>inky</b>  says, "type @join cfspoilers"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "Because people get it wrong every time"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD> <i>(from Tale)</i> Tale says, "So, those loosers, eh? Haw haw haw
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  says, "I guess we have to find an offering"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "type @joinc #cfspoilers"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x icons</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Within the workspace you see the heat icon and the pressure icon.
+<b>Floyd</b> |
+<b>Floyd</b> | Air sighs through the cathedral.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  asks, "where is the puff of air coming from?"
+</TD><td></td></TR>
+<TR><td></td><TD>inky says (to Floyd), "<font color="#89956F">x air</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The air here shifts in unpredictable gusts and currents; the organ
+<b>Floyd</b> | pipes blow gentle, unceasing turbulence throughout the room.
+<b>Floyd</b> |
+<b>Floyd</b> | The icons shift slightly in the workspace.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>inky</b>  says, "hmm, I guess it's a pressure thing"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take air</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Air cannot be taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  asks, "Can we play the organ?"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x organ</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Brass organ pipes cover the north wall. Air rushes through them -- not
+<b>Floyd</b> | loudly, but with a steady undertone of irregular chords.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">play organ</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  asks, "What if we put an icon inside the offering box?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take pressure icon. put it in box.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (invoke the pressure icon)
+<b>Floyd</b> | You poke the pressure icon, which flashes reprovingly, since it is
+<b>Floyd</b> | already active.
+<b>Floyd</b> |
+<b>Floyd</b> | You don't need to store anything here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  says, "Poop."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "I don't think you can get the icons back"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take fire icon. put it in box.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take heat icon. put it in box.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (invoke the heat icon)
+<b>Floyd</b> | You invoke the heat icon, and the environment changes into a new form.
+<b>Floyd</b> |
+<b>Floyd</b> | Longhall
+<b>Floyd</b> | You stand in a long, low hall of smoke-darkened timbers. The floor is
+<b>Floyd</b> | earth, benches line the walls, and you are washed by heat from the
+<b>Floyd</b> | blazing fire-pit that runs the hall's entire length.
+<b>Floyd</b> |
+<b>Floyd</b> | At the south end the hall rises, and an enormous wooden chest stands
+<b>Floyd</b> | on an earthen mound. The chest is open.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube that is your workspace rests nearby. Inside it hang your two
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | Wait, open? You jerk your gaze back to the chest, and yes -- it now
+<b>Floyd</b> | stands open, revealing a knife. A true isomorphic parallel to the
+<b>Floyd</b> | silver offering-box, then.
+<b>Floyd</b> |
+<b>Floyd</b> | You don't need to store anything here.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "I guess touching them invokes them."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Icon OS IX"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x knife</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Lying in the chest is a knife, a plain black iron blade with a
+<b>Floyd</b> | leather-wrapped hilt. You see immediately that the knife is an
+<b>Floyd</b> | archetype of light.
+<b>Floyd</b> |
+<b>Floyd</b> | The icons shift slightly in the workspace.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take the knife and compile. It shrinks obligingly into a small
+<b>Floyd</b> | icon.
+<b>Floyd</b> |
+<b>Floyd</b> | Sweat begins to drip from you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Lucea</b>  asks, "Do we have a driver?"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Axyraandas</b> exclaims, "Yay! The chest is open!"
+</TD><td></td><TD><b>inky</b>  says, "not really"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to Lucea), "no, we're being freeform today."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Lucea</b>  says, "OK"
+</TD><td></td></TR>
+<TR><td></td><TD>Lucea says (to floyd), "x icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the light icon)
+<b>Floyd</b> | It's a small symbol representing light, in all its details and
+<b>Floyd</b> | ramifications.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">touch it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You hold the light icon up and give it a push towards the workspace.
+<b>Floyd</b> | It slides neatly into place, and the world transforms around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Cave
+<b>Floyd</b> | You are underground, by the echoes and the irregular rock underfoot.
+<b>Floyd</b> | But the space is lost in darkness. A chill stream trickles past, and
+<b>Floyd</b> | the faintest phosphorescence trickles with it. Beyond arm's reach,
+<b>Floyd</b> | however, you see only black.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace stands beside you. Inside it drift three icons.
+<b>Floyd</b> |
+<b>Floyd</b> | A worn axe is jammed into a stalactite, just to the south.
+<b>Floyd</b> | Unfortunately, it's well above your head.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD><b>Axyraandas</b> asks, "What's a driver?"
+</TD><td></td><TD><b>AutomatonZX27</b>  says, "A person who plays the game, I think"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says (to Axy), "Talk on the channel please."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "one person to enter commands"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Ax), "A designated person who enters our commands."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "Makes things go at a slower pace, and works really well if we appear to be on a timer."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Axyraandas</b> says, "Thanks. I just forgot how to speak on a certain channel again. I really ought to write this down."
+</TD><td></td><TD><b>Jacqueline</b>  says, "Otherwise the main entering etiquette is not to leave a location without general agreement, or you'll get people trying a command only to find that they're not in that room anymore, which is annoying."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Ax), "Type ;dkfjdkj"
+</TD><td></td></TR>
+<TR><td></td><TD>Lucea says (to floyd), "jump</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't jump quite high enough to reach the axe.
+<b>Floyd</b> |
+<b>Floyd</b> | Air flutters, somewhere overhead.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  says, "Just preface what you want to say with a semi-colon."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x axe</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's an axe, perhaps an old spelunker's tool. It's stuck into a
+<b>Floyd</b> | stalactite, which projects down out of the darkness above.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Try the stream (I didn't play up to this point so no more spoilers from me, this is just a suggestion)"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x stream</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A shallow stream of water flows nearby. Where it ripples, it sheds a
+<b>Floyd</b> | slight phosphorescence -- the only illumination around you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">drink water</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You scoop up a few drops and lick them from your fingers. The water
+<b>Floyd</b> | tastes very clean, and very old.
+<b>Floyd</b> |
+<b>Floyd</b> | You hear a few bats flutter by, off to snack on insects somewhere.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take axe</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The axe is stuck too high to reach.
+<b>Floyd</b> |
+<b>Floyd</b> | The icons rebound gently off the sides of the workspace.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "So.. that organ was kinda interesting."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  asks, "I'm trying to figure out how everything links together (or if that's how things work). For instance, why is there no box here?"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to floyd), "invoke pressure</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the pressure icon, and the environment transforms around
+<b>Floyd</b> | you.
+<b>Floyd</b> |
+<b>Floyd</b> | Church
+<b>Floyd</b> | White marble rises in smooth, heavy columns to an arching vault. The
+<b>Floyd</b> | walls are worked in geometric traceries; a rich red carpet runs up the
+<b>Floyd</b> | room's length, to the brass pipes which stand at its north end. Air
+<b>Floyd</b> | throbs from the pipes and thunders quietly across the chamber.
+<b>Floyd</b> |
+<b>Floyd</b> | To the south stands a graceful marble altar, which supports a small
+<b>Floyd</b> | open offering box.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace is a squat cube in the center of the room. Inside it
+<b>Floyd</b> | drift three icons.
+<b>Floyd</b> |
+<b>Floyd</b> | A rough pewter chalice is lying near the altar. Ah -- this must be the
+<b>Floyd</b> | parallel of the rusty axe.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Aha"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x pewter</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The chalice is dull metal -- roughly-hammered, and decorated only by
+<b>Floyd</b> | scratches. It is empty.
+<b>Floyd</b> |
+<b>Floyd</b> | A breath of air brushes over you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x take it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take pewter</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "Hmm, it didn't become an icon, let's see what it becomes when we..."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">invoke heat</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the heat icon, and the environment shifts into a new form.
+<b>Floyd</b> |
+<b>Floyd</b> | Longhall
+<b>Floyd</b> | You stand in a long, low hall of smoke-darkened timbers. The floor is
+<b>Floyd</b> | earth, benches line the walls, and you are washed by heat from the
+<b>Floyd</b> | blazing fire-pit that runs the hall's entire length.
+<b>Floyd</b> |
+<b>Floyd</b> | At the south end the hall rises, and an enormous wooden chest stands
+<b>Floyd</b> | on an earthen mound. The chest is open and empty.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube that is your workspace rests nearby. Inside it drift three
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to floyd), "invoke light</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the light icon, and the environment changes around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Cave
+<b>Floyd</b> | You are underground, by the echoes and the irregular rock underfoot.
+<b>Floyd</b> | But the space is lost in darkness. A chill stream trickles past, and
+<b>Floyd</b> | the faintest phosphorescence trickles with it. Beyond arm's reach,
+<b>Floyd</b> | however, you see only black.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace stands beside you. Inside it drift three icons.
+<b>Floyd</b> |
+<b>Floyd</b> | The icons rebound gently off the sides of the workspace.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a pewter chalice
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  says, "maybe we can fill it with water from the stream?  Don't know what good that would do, though"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Oops."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Well, it did say the water was glowing a bit"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "Ah, I was expecting it to change to the axe or something else."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  asks, "Maybe it's a light source?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take water with chalice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to take the stream.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">put water in chalice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You kneel and fill the chalice with stream water.
+<b>Floyd</b> |
+<b>Floyd</b> | Air flutters, somewhere overhead.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">drop chalice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As you release the pewter chalice full of water, it shimmers. You
+<b>Floyd</b> | watch, fascinated, as its shape readjusts to its new environment. In
+<b>Floyd</b> | moments, the pewter chalice full of water has reverted to being a
+<b>Floyd</b> | rusty axe.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  asks, "Want to go drop it in the heat place and see what happens?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "There we go"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to floyd), "take axe</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press heat</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the heat icon, and the environment transforms into a new
+<b>Floyd</b> | form.
+<b>Floyd</b> |
+<b>Floyd</b> | Longhall
+<b>Floyd</b> | You stand in a long, low hall of smoke-darkened timbers. The floor is
+<b>Floyd</b> | earth, benches line the walls, and you are washed by heat from the
+<b>Floyd</b> | blazing fire-pit that runs the hall's entire length.
+<b>Floyd</b> |
+<b>Floyd</b> | At the south end the hall rises, and an enormous wooden chest stands
+<b>Floyd</b> | on an earthen mound. The chest is open and empty.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube that is your workspace rests nearby. Inside it drift three
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">drop axe</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As the rusty axe leaves your grasp, it shimmers and transforms into a
+<b>Floyd</b> | wooden torch.
+<b>Floyd</b> |
+<b>Floyd</b> | The icons rebound gently off the sides of the workspace.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "Ahah"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take it. press light</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | Sweat begins to drip from you.
+<b>Floyd</b> |
+<b>Floyd</b> | You invoke the light icon, and the environment shifts around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Cave
+<b>Floyd</b> | You are underground, by the echoes and the irregular rock underfoot.
+<b>Floyd</b> | But the space is lost in darkness. A chill stream trickles past, and
+<b>Floyd</b> | the faintest phosphorescence trickles with it. Beyond arm's reach,
+<b>Floyd</b> | however, you see only black.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace stands beside you. Inside it drift three icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Now try to light it"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "Ooops, sorry, I assumed it was lit"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Hehe"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "press heat. light torch"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press heat. light torch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the heat icon, and the environment changes into a new form.
+<b>Floyd</b> |
+<b>Floyd</b> | Longhall
+<b>Floyd</b> | You stand in a long, low hall of smoke-darkened timbers. The floor is
+<b>Floyd</b> | earth, benches line the walls, and you are washed by heat from the
+<b>Floyd</b> | blazing fire-pit that runs the hall's entire length.
+<b>Floyd</b> |
+<b>Floyd</b> | At the south end the hall rises, and an enormous wooden chest stands
+<b>Floyd</b> | on an earthen mound. The chest is open and empty.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube that is your workspace rests nearby. Inside it drift three
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | The flame catches easily. The torch is now burning brightly.
+<b>Floyd</b> |
+<b>Floyd</b> | Sweat begins to drip from you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press light</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the light icon, and the environment transforms around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Cave
+<b>Floyd</b> | You stand in an echoing space; your torch picks glimmers of reflection
+<b>Floyd</b> | from distant stone walls. A chill stream trickles past you and away
+<b>Floyd</b> | into the darkness.
+<b>Floyd</b> |
+<b>Floyd</b> | The torchlight reveals a pale fat mushroom squatting in a corner of
+<b>Floyd</b> | the cave, a short distance away.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace stands beside you. Inside it drift three icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to floyd), "examine mushroom</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A pale mushroom shines dimly in a nearby corner of the cave. You
+<b>Floyd</b> | recognize the mushroom as an archetype of charge.
+<b>Floyd</b> |
+<b>Floyd</b> | The icons rebound gently off the sides of the workspace.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take the mushroom and compile. It shrinks obligingly into a small
+<b>Floyd</b> | icon.
+<b>Floyd</b> |
+<b>Floyd</b> | Air flutters, somewhere overhead.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x small icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the charge icon)
+<b>Floyd</b> | It's a small symbol representing charge, in all its implications and
+<b>Floyd</b> | details.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  asks, "Uh, charge?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press charge</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You hold the charge icon up and push it towards the workspace. It
+<b>Floyd</b> | resists for a moment, and then slides into place. The environment
+<b>Floyd</b> | transforms.
+<b>Floyd</b> |
+<b>Floyd</b> | Laboratory
+<b>Floyd</b> | This square tower is built of granite blocks braced by high iron
+<b>Floyd</b> | beams. The roof is a broad sweep of lead-framed glass; it creaks and
+<b>Floyd</b> | flexes under the assault of the hammering rain outside.
+<b>Floyd</b> |
+<b>Floyd</b> | A complex apparatus dominates the room: a heavy brass tank, surmounted
+<b>Floyd</b> | by copper and glass tubing. Wires drape from the roof down to the
+<b>Floyd</b> | apparatus, hanging every which way.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the lab. Inside it move four
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  says, "The ultimate goal is to achieve virtual mushroom soup"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  asks, "How does a mushroom signify charge?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "The same way a dagger signifies light."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  asks, "Well, maybe it's like, well-polished so it's all shiny?"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Axyraandas</b> says, "Perhaps the mushroom glows, so it has charge or something."
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine apparatus</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A fat brass vessel, a riveted cauldron of a thing, squats before you.
+<b>Floyd</b> | A narrow copper pipe curves from the tank's top; the pipe spirals up
+<b>Floyd</b> | inside of a wider glass flask.
+<b>Floyd</b> |
+<b>Floyd</b> | Through a small porthole you can see the contents of the tank: a heap
+<b>Floyd</b> | of rusty brown flakes lying in a cloud of sparkling vapor.
+<b>Floyd</b> |
+<b>Floyd</b> | Lightning illuminates the storm overhead, followed instantly by a
+<b>Floyd</b> | deafening crack of thunder. At the same moment, you notice the vapor
+<b>Floyd</b> | in the tank suddenly whirl and dance.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine flakes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In the brass tank is a small heap of some flaky mineral; the substance
+<b>Floyd</b> | is rusty brown with faint flecks of gold. Sparkling vapor rises from
+<b>Floyd</b> | the material and swirls within the tank.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says, "It does charge Mario up"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  says, "Haha - true."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "for what it's worth, I just looked up "ganzfeld" (the protag's last name).  "A ganzfeld experiment (from the German for 'entire field') is a technique used in the field of parapsychology to test individuals for extrasensory perception (ESP).""
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Hah, yeah"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  | It uses homogeneous and unpatterned sensory stimulation to produce an effect similar to sensory deprivation.[1]  The deprivation of patterned sensory input is said to be conducive to inwardly generated impressions.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  asks, "Is that like what the shapes on the cards in Ghostbusters?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  asks, "So, all these areas are fake and we're actually in a phonebooth-sized capsule?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "I don't know what the "T. Jant" in the name is a referene to though.  Nor do I know what "Nigel Smith" is a reference to (zarf's pseudonym for this game)"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Nigel Smith sounds familiar to me for some reason"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "Mr. Smith"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says (to Mick), "no, those are Zener cards"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD> <i>(from Tale)</i> AutomatonZX27 says, "Did he write a jayisgames comp game?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says (to Mick), "No, you're thinking of Mr. Anderson."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Ooh, Nigel Smith's restaurant"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "hm, yeah, Smith could be a Matrix reference."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says (to Jacq), "I thought Neo was Mr. Anderson."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "I suppose I meant Agent Smith, but I'm not sure at all that's really the reference."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  | [<A HREF="http://www.nigelsmithsrestaurants.co.uk/">LINK</A>]
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  asks, "I'm guessing that's not it.  but... maybe?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Or maybe there's no reference and he's just playing with our minds"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "he's said it meant something, but no one's figured it out yet"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "anyway, back to the game..."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><b>JJSonick</b> is eaten by a duck-dragon.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Laboratory
+<b>Floyd</b> | This square tower is built of granite blocks braced by high iron
+<b>Floyd</b> | beams. The roof is a broad sweep of lead-framed glass, hammered by the
+<b>Floyd</b> | roaring rain outside.
+<b>Floyd</b> |
+<b>Floyd</b> | A complex apparatus dominates the room: a heavy brass tank, surmounted
+<b>Floyd</b> | by copper and glass tubing. Wires drape from the roof down to the
+<b>Floyd</b> | apparatus, hanging every which way.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the lab. Inside it move four
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x wires</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Wires run from the tank up to the roof, or from the roof down to the
+<b>Floyd</b> | tank, as you like. They are connected above to antennas which thrust
+<b>Floyd</b> | from the roof, up into the storm.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace quivers. You glance at it, and notice the icons moving
+<b>Floyd</b> | jerkily inside. Strange.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Hm"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "The icons are angry because they're trapped"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  asks, "So this is basically like Frakenstein's lab?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "hm, without the monster, sure."
+</TD><td></td></TR>
+<TR><td></td><TD><b>JJSonick</b> arrives, full of fun, but no funk.
+</TD><td></td><TD><b>AutomatonZX27</b>  says, "Or maybe it's Alchemy 101"
+</TD><td></td></TR>
+<TR><td></td><TD><b>JJSonick</b> is eaten by a duck-dragon.
+</TD><td></td><TD><b>Mick</b>  says, "x workspace"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x workspace</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The workspace is represented by a clear, waist-high cube. Within it
+<b>Floyd</b> | are the charge icon, the light icon, the heat icon, and the pressure
+<b>Floyd</b> | icon, all moving jerkily.
+<b>Floyd</b> |
+<b>Floyd</b> | Lightning flashes somewhere nearby. At the same moment, you notice the
+<b>Floyd</b> | vapor in the tank suddenly whirl and dance.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x tank</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A fat brass vessel, a riveted cauldron of a thing, squats before you.
+<b>Floyd</b> | A narrow copper pipe curves from the tank's top; the pipe spirals up
+<b>Floyd</b> | inside of a wider glass flask.
+<b>Floyd</b> |
+<b>Floyd</b> | Through a small porthole you can see the contents of the tank: a heap
+<b>Floyd</b> | of rusty brown flakes lying in a cloud of sparkling vapor.
+<b>Floyd</b> |
+<b>Floyd</b> | Thunder rumbles.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">yell "It's alive!" and laugh maniacally while a thunderstorm rages in the background</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  | [<A HREF="http://www.urbandictionary.com/define.php?term=jant">LINK</A>]
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Don't pay attention to what I just did."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Johnny</b> concentrates, and disappears.
+</TD><td></td><TD><b>Doug</b>  | 1. A male or female that you find attractive (also known as bum jant.)
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  asks, "What do you think those flakes are?"
+</TD><td></td></TR>
+<TR><td></td><TD><b>JJSonick</b> arrives, full of funk, but no fun.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">x flask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A wide glass flask is suspended above the tank. The copper pipe runs
+<b>Floyd</b> | up to it, and then spirals up the flask's interior. You notice the
+<b>Floyd</b> | inside of the flask, and the pipe within it, show a dry white crust --
+<b>Floyd</b> | as if the flask had boiled dry.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "They have traces of gold on them"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to floyd), "take ye flask</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "cute"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Hm, too bad"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x flakes</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | In the brass tank is a small heap of some flaky mineral; the substance
+<b>Floyd</b> | is rusty brown with faint flecks of gold. Sparkling vapor rises from
+<b>Floyd</b> | the material and swirls within the tank.
+<b>Floyd</b> |
+<b>Floyd</b> | Lightning flashes somewhere in the distance. At the same moment, you
+<b>Floyd</b> | notice the vapor in the tank suddenly whirl and dance.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">drop torch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As the flaming torch leaves your grasp, it shimmers and transforms
+<b>Floyd</b> | into a brass compass.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace quivers as the icons move.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x compass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The compass is a palm-sized instrument, precisely engraved. The needle
+<b>Floyd</b> | wavers uncertainly in this charged atmosphere.
+<b>Floyd</b> |
+<b>Floyd</b> | Thunder rumbles.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take compass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "I was hoping for something more.. useful"
+</TD><td></td></TR>
+<TR><td></td><TD><b>Johnny</b> arrives, ready to play with the toys.
+</TD><td></td><TD><b>Doug</b>  | Cheerful; merry. [Provincial English] Where were dainty ducks and jant ones, Wenches that could play the wantons.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Like a manual or something"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "So we got ourselves a swiss-chalice/axe/torch/compass"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  asks, "Hm, we need to refill the flask?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Try going back to the church and dropping the compass"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "I have a feeling we want to get to those flakes."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Rusty brown flakes with faint flecks of gold are an IF player's best friend"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke pressure</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the pressure icon, and the environment shifts into a new
+<b>Floyd</b> | form.
+<b>Floyd</b> |
+<b>Floyd</b> | Church
+<b>Floyd</b> | White marble rises in smooth, heavy columns to an arching vault. The
+<b>Floyd</b> | walls are worked in geometric traceries; a rich red carpet runs up the
+<b>Floyd</b> | room's length, to the brass pipes which stand at its north end. Air
+<b>Floyd</b> | throbs from the pipes and thunders quietly across the chamber.
+<b>Floyd</b> |
+<b>Floyd</b> | To the south stands a graceful marble altar, which supports a small
+<b>Floyd</b> | open offering box.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace is a squat cube in the center of the room. Inside it
+<b>Floyd</b> | move four icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  asks, "Want to try smashing open the thing with the axe?"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">drop compass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As the brass compass leaves your grasp, it reverts to being a pewter
+<b>Floyd</b> | chalice full of water.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace quivers as the icons move.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "That's impressive that the water remains."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Maybe we really do need to refill the flask"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  asks, "Can we put the water in the flask?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "I wonder if the water transforms to something if we dump it out"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take chalice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | A gust of air brushes past you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke charge. fill flask with water.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the charge icon, and the environment changes around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Laboratory
+<b>Floyd</b> | This square tower is built of granite blocks braced by high iron
+<b>Floyd</b> | beams. The roof is a broad sweep of lead-framed glass, hammered by the
+<b>Floyd</b> | roaring rain outside.
+<b>Floyd</b> |
+<b>Floyd</b> | A complex apparatus dominates the room: a heavy brass tank, surmounted
+<b>Floyd</b> | by copper and glass tubing. Wires drape from the roof down to the
+<b>Floyd</b> | apparatus, hanging every which way.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the lab. Inside it move four
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | You carefully pour the water around the pipe, filling the glass flask.
+<b>Floyd</b> |
+<b>Floyd</b> | The water immediately begins to bubble in the flask. Inside the tank,
+<b>Floyd</b> | the sparkling vapor begins to rise, as if being drawn up the pipe.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes. Your deadline creeps closer.
+<b>Floyd</b> |
+<b>Floyd</b> | Hair-fine red crystals, like frost, are beginning to form at the top
+<b>Floyd</b> | of the pipe.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  asks, "Hehe, was that the right thing to do?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "I think so"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine crystals</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A delicate snowflake of red crystal is forming at the top of the
+<b>Floyd</b> | copper pipe, above the flask. It grows before your eyes.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace quivers as the icons move.
+<b>Floyd</b> |
+<b>Floyd</b> | A red crystalline snowflake is condensing on the copper spike.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  says, "Red frost.  I'm dreaming of a Red Christmas."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">snowflake</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x snowflake</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | A delicate snowflake of red crystal is forming at the top of the
+<b>Floyd</b> | copper pipe, above the flask. It grows before your eyes.
+<b>Floyd</b> |
+<b>Floyd</b> | The red crystal continues to solidify.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | The last of the vapor is drawn from the tank, as the red crystal
+<b>Floyd</b> | finishes filling out; it is now a solid polyhedral mass.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">touch crystal</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You feel nothing unexpected.
+<b>Floyd</b> |
+<b>Floyd</b> | Lightning illuminates the storm overhead, followed instantly by a
+<b>Floyd</b> | deafening crack of thunder.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It appears that the crystal is an archetype: weight. You reach out and
+<b>Floyd</b> | compile; it shrinks obligingly into a small icon, which you take.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take crystal</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  exclaims, "We grew a D&D die!"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press weight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You push the weight icon towards the workspace -- but it skids to the
+<b>Floyd</b> | side. You tighten your grip to try again. With some careful pressure,
+<b>Floyd</b> | the icon slides into place.
+<b>Floyd</b> |
+<b>Floyd</b> | Library
+<b>Floyd</b> | Shelves loom here in rank and file. It is only at a second glance that
+<b>Floyd</b> | you realize they are not stacked with books. Instead, arms are arrayed
+<b>Floyd</b> | in tidy rows: swords, knives, spears, and weapons of every other
+<b>Floyd</b> | description. More blades hang overhead, point-down and silently
+<b>Floyd</b> | menacing.
+<b>Floyd</b> |
+<b>Floyd</b> | A single bookcase stands to the west -- that is, one case which is
+<b>Floyd</b> | full of books, as opposed to metal. It is fitted with doors, however,
+<b>Floyd</b> | and they are closed.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace rests by one wall. Inside it bounce five icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  asks, "If it's full of weapons, shouldn't it be called an armory?"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">drop chalice</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As the pewter chalice leaves your grasp, it shimmers and transforms
+<b>Floyd</b> | into a silver key.
+<b>Floyd</b> |
+<b>Floyd</b> | The blades overhead clink gently.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I have to say: it's a *strange* library that has dangling blades overhead."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  says, "Stay gentle, blades."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take key. unlock door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | (with the silver key)
+<b>Floyd</b> | You prod at the doors, but you see no way to insert a key at all.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">open door</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The bookcase's doors are closed and locked. You see no keyhole.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "hmm"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Or maybe the librarians hired a very innovative interior designer"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "Maybe it's an alternate universe where people go to war by bashing each other over the head with books."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  asks, "Alternate?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "With books such as "Grammar Adapted to the Hardest of Heads: Unabridged Edition - Now with Even More Pain when You Hit Someone""
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  asks, "Wasn't something like this in Tomb Raider 1?"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine books</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The books, like the weapons, vary wildly in size and heft. No titles
+<b>Floyd</b> | are evident, but they are bound in all shades of green and brown. And
+<b>Floyd</b> | since they are locked away behind a steel screen, you have no idea
+<b>Floyd</b> | what they contain.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  asks, "Huh, since there's lots of weapon peer-pressure in this room, maybe we're supposed to use the axe on the doors?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  says, "But it's weird that we've been given a key, then"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Well, we got a chalice in the church"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take swords</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Unfortunately, they're all strapped tightly to the shelves. Except for
+<b>Floyd</b> | the blades that are hanging from chains from the roof, and you can't
+<b>Floyd</b> | reach those. Apparently this is not a lending library.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "But used it in the lab"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "we still have it, it's now a chalice/axe/torch/compass/key"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke light</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the light icon, and the environment transforms into a new
+<b>Floyd</b> | form.
+<b>Floyd</b> |
+<b>Floyd</b> | Cave
+<b>Floyd</b> | You are underground, by the echoes and the irregular rock underfoot.
+<b>Floyd</b> | But the space is lost in darkness. A chill stream trickles past, and
+<b>Floyd</b> | the faintest phosphorescence trickles with it. Beyond arm's reach,
+<b>Floyd</b> | however, you see only black.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace stands beside you. Inside it bounce five icons.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">drop key</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As the silver key leaves your grasp, it reverts to being a rusty axe.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">drop key</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take ace</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take axe</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | Air flutters, somewhere overhead.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">x workspace</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The workspace is represented by a clear, waist-high cube. Within it
+<b>Floyd</b> | are the weight icon, the charge icon, the light icon, the heat icon,
+<b>Floyd</b> | and the pressure icon, all bouncing around.
+<b>Floyd</b> |
+<b>Floyd</b> | (Your workspace, of course, is not visually rendered. It would be
+<b>Floyd</b> | visible even in total darkness.)
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press weight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the weight icon, and the environment shifts around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Library
+<b>Floyd</b> | Shelves loom here in rank and file. On them, arms are arrayed in tidy
+<b>Floyd</b> | rows: swords, knives, spears, and weapons of every other description.
+<b>Floyd</b> | More blades hang overhead, point-down and silently menacing.
+<b>Floyd</b> |
+<b>Floyd</b> | A single bookcase stands to the west -- that is, one case which is
+<b>Floyd</b> | full of books, as opposed to metal. It is fitted with doors, however,
+<b>Floyd</b> | and they are closed.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace rests by one wall. Inside it bounce five icons.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">hit screen with axe</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You whack the bookcase with the axe, but it is solid. And the axe
+<b>Floyd</b> | isn't that sharp.
+<b>Floyd</b> |
+<b>Floyd</b> | The blades overhead clink gently.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Okay, where's the whetstone"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "It's also possible it's simply a matter of finding the keyhole."
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">scrutinize screen</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">x bookcase</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The bookcase is a tall wooden affair, finely built; the wood is inlaid
+<b>Floyd</b> | with an abstract pattern of tree branches. Behind the steel-mesh doors
+<b>Floyd</b> | are rows of books, bound in old green and brown leather.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Too bad this isn't Guess The Verb"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  asks, "would the key open say, the box in the church?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "we already opened that"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "sorry, my brother called so I haven't been paying all that much attention"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Maybe there's another item connected to the screen, kinda like the box and chest"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "maybe we try closing it"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "*should try"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  asks, "Why is this room called 'weight'?"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke pressure</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the pressure icon, and the environment changes into a new
+<b>Floyd</b> | form.
+<b>Floyd</b> |
+<b>Floyd</b> | Church
+<b>Floyd</b> | White marble rises in smooth, heavy columns to an arching vault. The
+<b>Floyd</b> | walls are worked in geometric traceries; a rich red carpet runs up the
+<b>Floyd</b> | room's length, to the brass pipes which stand at its north end. Air
+<b>Floyd</b> | throbs from the pipes and thunders quietly across the chamber.
+<b>Floyd</b> |
+<b>Floyd</b> | To the south stands a graceful marble altar, which supports a small
+<b>Floyd</b> | open offering box.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace is a squat cube in the center of the room. Inside it
+<b>Floyd</b> | bounce five icons.
+<b>Floyd</b> |
+<b>Floyd</b> | The west wall is now filled by an enormous stained-glass window, which
+<b>Floyd</b> | certainly wasn't there before. The window depicts a tall green tree,
+<b>Floyd</b> | standing in a field of lesser greenery.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  asks, "Because books are heavy?"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine window</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The glass tiles are not set in lead; perhaps the mosaic is fused or
+<b>Floyd</b> | cemented. However the window was made, it shines with thousands of
+<b>Floyd</b> | tints of green.
+<b>Floyd</b> |
+<b>Floyd</b> | A puff of air brushes over you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "I'm wondering if it's a clue to how we are supposed to treat the puzzle"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">open window</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | There's no way to open that.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Too bad"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">break window</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You raise the axe, and chop down at the window. Glass splinters, and
+<b>Floyd</b> | the window cracks alarmingly. Then, with a towering crash, the entire
+<b>Floyd</b> | window shatters into a cascade of broken green glass.
+<b>Floyd</b> |
+<b>Floyd</b> | When the catastrophe ends, the window frame is a jagged hole, beyond
+<b>Floyd</b> | which is a blank white marble wall.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Brute force is always the way to go."
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x hole</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Shards of broken green glass spill across the floor. Behind the window
+<b>Floyd</b> | casing is only blank white marble.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "there's a lot of gravity when you have sharp objects hanging from the ceiling."
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke weight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the weight icon, and the environment transforms around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Library
+<b>Floyd</b> | Shelves loom here in rank and file. On them, arms are arrayed in tidy
+<b>Floyd</b> | rows: swords, knives, spears, and weapons of every other description.
+<b>Floyd</b> | More blades hang overhead, point-down and silently menacing.
+<b>Floyd</b> |
+<b>Floyd</b> | The bookcase still stands, but its doors have been torn open; they
+<b>Floyd</b> | hang in pieces. The books have tumbled out in a heap at your feet.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace rests by one wall. Inside it bounce five icons.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine books</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You pick up a book and open it. The pages are all blank.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Oh god"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take books</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You open another book; this one, too, is blank.
+<b>Floyd</b> |
+<b>Floyd</b> | The blades overhead clink gently.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying:
+<b>Floyd</b> |   a rusty axe
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Maybe if we keep searching, we'll find an actual book, not a blank notebook"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "It's not a library, it's a diary shop."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "We could burn the books, and see if it changes a different room somehow."
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">search books</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You dig into the pile of books, but there are many of them, and none
+<b>Floyd</b> | stand out.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take book</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Still blank.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">again</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Still blank.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press heat. drop all</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the heat icon, and the environment shifts into a new form.
+<b>Floyd</b> |
+<b>Floyd</b> | Longhall
+<b>Floyd</b> | You stand in a long, low hall of smoke-darkened timbers. The floor is
+<b>Floyd</b> | earth, benches line the walls, and you are washed by heat from the
+<b>Floyd</b> | blazing fire-pit that runs the hall's entire length.
+<b>Floyd</b> |
+<b>Floyd</b> | At the south end the hall rises, and an enormous wooden chest stands
+<b>Floyd</b> | on an earthen mound. The chest is open and empty.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube that is your workspace rests nearby. Inside it bounce five
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | Something new lies here, on the west side of the hall. It's a dead,
+<b>Floyd</b> | gnarled tree, lying uprooted where certainly you saw no tree before.
+<b>Floyd</b> | Its leaves have fallen into a yellow heap, drifted around the bare
+<b>Floyd</b> | branches.
+<b>Floyd</b> |
+<b>Floyd</b> | (the rusty axe)
+<b>Floyd</b> | As the rusty axe leaves your grasp, it reverts to being a flaming
+<b>Floyd</b> | torch.
+<b>Floyd</b> |
+<b>Floyd</b> | Sweat begins to drip from you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press weight. burn books with torch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the weight icon, and the environment changes around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Library
+<b>Floyd</b> | Shelves loom here in rank and file. On them, arms are arrayed in tidy
+<b>Floyd</b> | rows: swords, knives, spears, and weapons of every other description.
+<b>Floyd</b> | More blades hang overhead, point-down and silently menacing.
+<b>Floyd</b> |
+<b>Floyd</b> | The bookcase still stands, but its doors have been torn open; they
+<b>Floyd</b> | hang in pieces. The books have tumbled out in a heap at your feet.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace rests by one wall. Inside it bounce five icons.
+<b>Floyd</b> |
+<b>Floyd</b> | A silver key shines gently on the floor.
+<b>Floyd</b> |
+<b>Floyd</b> | I only understood you as far as wanting to burn the books.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "I was just about to try "write a bestseller""
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "whoops"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press heat. take torch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the heat icon, and the environment transforms into a new
+<b>Floyd</b> | form.
+<b>Floyd</b> |
+<b>Floyd</b> | Longhall
+<b>Floyd</b> | You stand in a long, low hall of smoke-darkened timbers. The floor is
+<b>Floyd</b> | earth, benches line the walls, and you are washed by heat from the
+<b>Floyd</b> | blazing fire-pit that runs the hall's entire length.
+<b>Floyd</b> |
+<b>Floyd</b> | At the south end the hall rises, and an enormous wooden chest stands
+<b>Floyd</b> | on an earthen mound. The chest is open and empty.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube that is your workspace rests nearby. Inside it bounce five
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | A torch is lying on the ground, burning unsteadily.
+<b>Floyd</b> |
+<b>Floyd</b> | The old tree has been uprooted; it lies dead on the west side of the
+<b>Floyd</b> | hall. Its leaves have fallen into a yellow heap, drifted around the
+<b>Floyd</b> | bare branches.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press weight. Burn books with torch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the weight icon, and the environment shifts around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Library
+<b>Floyd</b> | Shelves loom here in rank and file. On them, arms are arrayed in tidy
+<b>Floyd</b> | rows: swords, knives, spears, and weapons of every other description.
+<b>Floyd</b> | More blades hang overhead, point-down and silently menacing.
+<b>Floyd</b> |
+<b>Floyd</b> | The bookcase still stands, but its doors have been torn open; they
+<b>Floyd</b> | hang in pieces. The books have tumbled out in a heap at your feet.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace rests by one wall. Inside it bounce five icons.
+<b>Floyd</b> |
+<b>Floyd</b> | I only understood you as far as wanting to burn the books.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">burn books</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's a horrible idea, even for blank books.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  asks, "Wait, was that tree there before?"
+</TD><td></td></TR>
+<TR><td></td><TD>Lucea says (to floyd), "search books</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You dig into the pile of books, but there are many of them, and none
+<b>Floyd</b> | stand out.
+<b>Floyd</b> |
+<b>Floyd</b> | The blades overhead clink gently.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "Huff"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says (to AutomatonZX27), "nope"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">write a bestseller</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke heat</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the heat icon, and the environment changes into a new form.
+<b>Floyd</b> |
+<b>Floyd</b> | Longhall
+<b>Floyd</b> | You stand in a long, low hall of smoke-darkened timbers. The floor is
+<b>Floyd</b> | earth, benches line the walls, and you are washed by heat from the
+<b>Floyd</b> | blazing fire-pit that runs the hall's entire length.
+<b>Floyd</b> |
+<b>Floyd</b> | At the south end the hall rises, and an enormous wooden chest stands
+<b>Floyd</b> | on an earthen mound. The chest is open and empty.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube that is your workspace rests nearby. Inside it bounce five
+<b>Floyd</b> | icons.
+<b>Floyd</b> |
+<b>Floyd</b> | The old tree has been uprooted; it lies dead on the west side of the
+<b>Floyd</b> | hall. Its leaves have fallen into a yellow heap, drifted around the
+<b>Floyd</b> | bare branches.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Lucea says (to floyd), "search leaves</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You grab a handful of leaves; they crumble away. Well, you think, and
+<b>Floyd</b> | dig in with both hands. Leaves disintegrate in clumps and wafts,
+<b>Floyd</b> | filling the air with dust. It doesn't take long before the entire heap
+<b>Floyd</b> | is gone.
+<b>Floyd</b> |
+<b>Floyd</b> | A single leaf remains, lying against the fallen tree. Unlike the
+<b>Floyd</b> | others, this one gleams bright metallic gold.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine tree</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The tree lies uprooted upon the earth. A single gold leaf remains,
+<b>Floyd</b> | lying against the wood.
+<b>Floyd</b> |
+<b>Floyd</b> | Sweat begins to drip from you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take gold leaf</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You realize that the gold leaf is not real; it is painted on the
+<b>Floyd</b> | fallen tree.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "should have counted the leaves!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "heh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "There's 69,105 of them, I bet"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">burn tree</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The leaves are already gone.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "I bet the books are gone now."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Except maybe for a gold one."
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke weight</font>"
+</TD><td></td><TD><b>JJSonick</b>  says, "Ah, yeah, that sounds right."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the weight icon, and the environment transforms around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Library
+<b>Floyd</b> | Shelves loom here in rank and file. On them, arms are arrayed in tidy
+<b>Floyd</b> | rows: swords, knives, spears, and weapons of every other description.
+<b>Floyd</b> | More blades hang overhead, point-down and silently menacing.
+<b>Floyd</b> |
+<b>Floyd</b> | The bookcase still stands, but its doors have been torn open; they
+<b>Floyd</b> | hang in pieces. A single book remains, a small golden volume. It is
+<b>Floyd</b> | chained to the bookcase with a gold padlock.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace rests by one wall. Inside it bounce five icons.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "nice"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  says, "aha"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine book</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The remaining book is a small volume, the size of your palm, but its
+<b>Floyd</b> | leather cover is leafed in gold. It is chained to the bottom shelf
+<b>Floyd</b> | with a gold chain and padlock. You see immediately that the book is an
+<b>Floyd</b> | archetype of form.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">drop torch</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As the flaming torch leaves your grasp, it reverts to being a silver
+<b>Floyd</b> | key.
+<b>Floyd</b> |
+<b>Floyd</b> | The blades overhead clink gently.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take key. unlock padlock with key.</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | The silver key unlocks the padlock with a tiny snick.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates to the icons' sharp movements.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take book</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take the book and compile. It shrinks obligingly into a small
+<b>Floyd</b> | icon.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">put icon in workspace</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the form icon in the workspace)
+<b>Floyd</b> | You raise the form icon, and feel the tangible resistance beating from
+<b>Floyd</b> | the workspace. What a mess. You lean against it, and slowly shove the
+<b>Floyd</b> | icon into its place.
+<b>Floyd</b> |
+<b>Floyd</b> | Stone Circle
+<b>Floyd</b> | You stand on mossy earth, surrounded by the silhouettes of dark and
+<b>Floyd</b> | massive standing stones. It is night. But the sky shows no stars at
+<b>Floyd</b> | all.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the circle. Inside it the six
+<b>Floyd</b> | icons whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x sky</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x stones</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The stones are massive, worn, and very old. You can make out little
+<b>Floyd</b> | else.
+<b>Floyd</b> |
+<b>Floyd</b> | You count eight stones around you. Seven of them are of similar
+<b>Floyd</b> | height; one is much taller.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Hey, Stonehenge"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine tall stone</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The taller stone is to the... the...
+<b>Floyd</b> |
+<b>Floyd</b> | Hang on. You're not sure which direction that is. How bizarre.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "I was thinking Snow White."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "I wonder if it corresponds to the number of rooms"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "sounds like we need the compass"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  says, "Ah, yes"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press charge</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the charge icon, and the environment shifts into a new
+<b>Floyd</b> | form.
+<b>Floyd</b> |
+<b>Floyd</b> | Laboratory
+<b>Floyd</b> | This square tower is built of granite blocks braced by high iron
+<b>Floyd</b> | beams. The roof is a broad sweep of lead-framed glass, hammered by the
+<b>Floyd</b> | roaring rain outside.
+<b>Floyd</b> |
+<b>Floyd</b> | A complex apparatus dominates the room: a heavy brass tank, surmounted
+<b>Floyd</b> | by copper and bubbling glass tubing. Wires drape from the roof down to
+<b>Floyd</b> | the apparatus, hanging every which way.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the lab. Inside it the six icons
+<b>Floyd</b> | whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">drop key</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | As the silver key leaves your grasp, it reverts to being a brass
+<b>Floyd</b> | compass.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">drop key</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't see any such thing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take compass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Taken.
+<b>Floyd</b> |
+<b>Floyd</b> | Lightning illuminates the storm overhead, followed instantly by a
+<b>Floyd</b> | deafening crack of thunder.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x icons</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Within the workspace you see the form icon, the weight icon, the
+<b>Floyd</b> | charge icon, the light icon, the heat icon, and the pressure icon, all
+<b>Floyd</b> | whirling rapidly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke form</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the form icon, and the environment changes around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Stone Circle
+<b>Floyd</b> | You stand on mossy earth, surrounded by the silhouettes of dark and
+<b>Floyd</b> | massive standing stones. It is night. But the sky shows no stars at
+<b>Floyd</b> | all.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the circle. Inside it the six
+<b>Floyd</b> | icons whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine tall stone</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The taller stone is to the... the...
+<b>Floyd</b> |
+<b>Floyd</b> | Hang on. You're not sure which direction that is. How bizarre.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine compass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You bend over the compass. The needle turns slowly, as if seeking
+<b>Floyd</b> | something more subtle than magnetic north. It gleams, catching the
+<b>Floyd</b> | moonlight...
+<b>Floyd</b> |
+<b>Floyd</b> | Wait. There is no moon. Something glows in your cupped hand -- no
+<b>Floyd</b> | longer a brass compass -- and then it crawls between your fingers and
+<b>Floyd</b> | flutters upward.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">look up</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | I only understood you as far as wanting to look.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Stone Circle
+<b>Floyd</b> | You stand on mossy earth, surrounded by the silhouettes of dark and
+<b>Floyd</b> | massive standing stones. It is night. But the sky shows no stars at
+<b>Floyd</b> | all.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the circle. Inside it the six
+<b>Floyd</b> | icons whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | A glowing moth is fluttering erratically back and forth around the
+<b>Floyd</b> | Circle, above you.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x moth</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The moth is fluttering erratically back and forth around the Circle,
+<b>Floyd</b> | above you. Its wings glow softly against the night sky.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take moth</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's just out of reach.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x workspace</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The workspace is represented by a clear, waist-high cube. Within it
+<b>Floyd</b> | are the form icon, the weight icon, the charge icon, the light icon,
+<b>Floyd</b> | the heat icon, and the pressure icon, all whirling rapidly.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">jump</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You can't jump high enough to catch the glowing moth.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">inv</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying nothing.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Gerynar</b>  asks, "do we know why the workspace is shaking?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Probably this experiment is nearing its end"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  says, "It mentioned we had to force the form icon in there -- and also, yeah, we must be near the end."
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">don't panic</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "I think every icon makes it less stable."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "This is the beginning of the endgame, I believe."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  asks, "should we save then?"
+</TD><td></td></TR>
+<TR><td></td><TD><b>DavidW</b> clears the save counter.
+</TD><td></td><TD><b>AutomatonZX27</b>  says, "Probably"
+</TD><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">SAVE</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>DavidW says (to Floyd), "<font color="#89956F">cf1</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Enter saved game to store: Ok.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "I don't think the save is necessary, but just in case."
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">look</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Stone Circle
+<b>Floyd</b> | You stand on mossy earth, surrounded by the silhouettes of dark and
+<b>Floyd</b> | massive standing stones. It is night. But the sky shows no stars at
+<b>Floyd</b> | all.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the circle. Inside it the six
+<b>Floyd</b> | icons whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | The glowing moth is fluttering erratically back and forth around the
+<b>Floyd</b> | Circle, above you.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine stones</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The stones are massive, worn, and very old. You can make out little
+<b>Floyd</b> | else.
+<b>Floyd</b> |
+<b>Floyd</b> | You count eight stones around you. Seven of them are of similar
+<b>Floyd</b> | height; one is much taller.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">x tall stone</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The taller stone is to the... but you're not sure which direction is
+<b>Floyd</b> | which.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Let's check the almighty church"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke pressure</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the pressure icon, and the environment transforms into a
+<b>Floyd</b> | new form.
+<b>Floyd</b> |
+<b>Floyd</b> | Church
+<b>Floyd</b> | White marble rises in smooth, heavy columns to an arching vault. The
+<b>Floyd</b> | walls are worked in geometric traceries; a rich red carpet runs up the
+<b>Floyd</b> | room's length, to the brass pipes which stand at its north end. Air
+<b>Floyd</b> | throbs from the pipes and thunders quietly across the chamber.
+<b>Floyd</b> |
+<b>Floyd</b> | To the south stands a graceful marble altar, which supports a small
+<b>Floyd</b> | open offering box.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace is a squat cube in the center of the room. Inside it
+<b>Floyd</b> | the six icons whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | Interesting -- the glowing moth has remained invariant, in the room's
+<b>Floyd</b> | transformation. It is fluttering around the Church, unchanged.
+<b>Floyd</b> |
+<b>Floyd</b> | The window is broken, but most of the glass is gone.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">take moth</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It escapes your grasp.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">x glass</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The window is shattered, although most of the broken glass has
+<b>Floyd</b> | vanished. Behind the window casing is only blank white marble.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  asks, "So what room would a moth be of use to us in?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  asks, "There was one that had a gust of wind?  Maybe?"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke light</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the light icon, and the environment shifts around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Cave
+<b>Floyd</b> | You are underground, by the echoes and the irregular rock underfoot.
+<b>Floyd</b> | But the space is lost in darkness. A chill stream trickles past, and
+<b>Floyd</b> | the faintest phosphorescence trickles with it. Beyond arm's reach,
+<b>Floyd</b> | however, you see only black.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace stands beside you. Inside it the six icons whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | As the Cave forms around you, the glowing moth flutters up into its
+<b>Floyd</b> | high, dark recesses. Its light shines softly on gleaming limestone.
+<b>Floyd</b> |
+<b>Floyd</b> | And on the bats. One flutters by and nips the moth right out of the
+<b>Floyd</b> | air. Whoops.
+<b>Floyd</b> |
+<b>Floyd</b> | The moth shimmers, desperately seeking another form, one less
+<b>Floyd</b> | vulnerable. It breaks up into pixels -- and reforms as a fat
+<b>Floyd</b> | snowflake, drifting around the upper regions of the Cave. The bats,
+<b>Floyd</b> | apparently uninterested in bits of ice, now ignore it.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Mick</b>  says, "That was the church."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "Aha"
+</TD><td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press heat</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the heat icon, and the environment changes into a new form.
+<b>Floyd</b> |
+<b>Floyd</b> | Longhall
+<b>Floyd</b> | You stand in a long, low hall of smoke-darkened timbers. The floor is
+<b>Floyd</b> | earth, benches line the walls, and you are washed by heat from the
+<b>Floyd</b> | blazing fire-pit that runs the hall's entire length.
+<b>Floyd</b> |
+<b>Floyd</b> | At the south end the hall rises, and an enormous wooden chest stands
+<b>Floyd</b> | on an earthen mound. The chest is open and empty.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube that is your workspace rests nearby. Inside it the six icons
+<b>Floyd</b> | whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | The old tree has been uprooted; it lies dead on the west side of the
+<b>Floyd</b> | hall. Its limbs are bare, except for a single gold leaf lying against
+<b>Floyd</b> | the wood.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | The snowflake whirls in the fire-pit's smoky updrafts, as the Longhall
+<b>Floyd</b> | shimmers into place. In moments the flake is losing its luster.
+<b>Floyd</b> |
+<b>Floyd</b> | Again it shimmers away. This time it sublimates into a smoke-ring,
+<b>Floyd</b> | which drifts above you in cheerful disregard of the heat.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke heat</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You poke the heat icon, but it is already active.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke pressure</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the pressure icon, and the environment transforms around
+<b>Floyd</b> | you.
+<b>Floyd</b> |
+<b>Floyd</b> | Church
+<b>Floyd</b> | White marble rises in smooth, heavy columns to an arching vault. The
+<b>Floyd</b> | walls are worked in geometric traceries; a rich red carpet runs up the
+<b>Floyd</b> | room's length, to the brass pipes which stand at its north end. Air
+<b>Floyd</b> | throbs from the pipes and thunders quietly across the chamber.
+<b>Floyd</b> |
+<b>Floyd</b> | To the south stands a graceful marble altar, which supports a small
+<b>Floyd</b> | open offering box.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace is a squat cube in the center of the room. Inside it
+<b>Floyd</b> | the six icons whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | The window is broken, but most of the glass is gone.
+<b>Floyd</b> |
+<b>Floyd</b> | The smoke ring is torn this way and that way in the Church's turbulent
+<b>Floyd</b> | gusts of air. It begins to tatter... and then shimmers into a new
+<b>Floyd</b> | form.
+<b>Floyd</b> |
+<b>Floyd</b> | A long silk thread now rides the air currents. It swirls back and
+<b>Floyd</b> | forth, curling and twisting, but never falling.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">press weight</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the weight icon, and the environment shifts into a new
+<b>Floyd</b> | form.
+<b>Floyd</b> |
+<b>Floyd</b> | Library
+<b>Floyd</b> | Shelves loom here in rank and file. On them, arms are arrayed in tidy
+<b>Floyd</b> | rows: swords, knives, spears, and weapons of every other description.
+<b>Floyd</b> | More blades hang overhead, point-down and silently menacing.
+<b>Floyd</b> |
+<b>Floyd</b> | The bookcase still stands, but its doors have been torn open; they
+<b>Floyd</b> | hang in pieces.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace rests by one wall. Inside it the six icons whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | The silk thread slides among the hanging blades, or tries to. It
+<b>Floyd</b> | tangles, is caught, and the many edges pull at it...
+<b>Floyd</b> |
+<b>Floyd</b> | The thread dissolves into pixels, and becomes a miniature silver kite,
+<b>Floyd</b> | which slides dextrously between the blades.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke charge</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the charge icon, and the environment changes around you.
+<b>Floyd</b> |
+<b>Floyd</b> | Laboratory
+<b>Floyd</b> | This square tower is built of granite blocks braced by high iron
+<b>Floyd</b> | beams. The roof is a broad sweep of lead-framed glass, hammered by the
+<b>Floyd</b> | roaring rain outside.
+<b>Floyd</b> |
+<b>Floyd</b> | A complex apparatus dominates the room: a heavy brass tank, surmounted
+<b>Floyd</b> | by copper and bubbling glass tubing. Wires drape from the roof down to
+<b>Floyd</b> | the apparatus, hanging every which way.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the lab. Inside it the six icons
+<b>Floyd</b> | whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | The silver kite bobs near the wires, and jerks as a spark leaps across
+<b>Floyd</b> | to it. It tries to slide away; but a flash of lightning sears the sky,
+<b>Floyd</b> | and the room's air grows prickly and electric. Sparks dance from the
+<b>Floyd</b> | kite's tail, and the wires pull it closer --
+<b>Floyd</b> |
+<b>Floyd</b> | The kite shimmers away... into a gleam of pure light that plays across
+<b>Floyd</b> | the roof.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke form</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You invoke the form icon, and the environment transforms into a new
+<b>Floyd</b> | form.
+<b>Floyd</b> |
+<b>Floyd</b> | Stone Circle
+<b>Floyd</b> | You stand on mossy earth, surrounded by the silhouettes of dark and
+<b>Floyd</b> | massive standing stones. It is night. But the sky shows no stars at
+<b>Floyd</b> | all.
+<b>Floyd</b> |
+<b>Floyd</b> | Your workspace sits in the center of the circle. Inside it the six
+<b>Floyd</b> | icons whirl.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | There is no roof now, only the night sky... and the gleam of light
+<b>Floyd</b> | shines upwards, unimpeded, into the darkness.
+<b>Floyd</b> |
+<b>Floyd</b> | You can still see it there. And then, as your eyes adjust, you can see
+<b>Floyd</b> | more. Sparks of light, infinitely distant. The stars are out.
+<b>Floyd</b> |
+<b>Floyd</b> | ...How did you miss it? The starlight illuminates a shape at your
+<b>Floyd</b> | feet. It's a small, perfect model of a room: your workspace. Your
+<b>Floyd</b> | usual, habitual workspace -- not this fluid environment.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">x model</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | It's a small glass model of an office workspace. Every detail within
+<b>Floyd</b> | is perfect. You see immediately that the model room is an archetype of
+<b>Floyd</b> | metasemantics.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine workspace</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the model room)
+<b>Floyd</b> | It's a small glass model of an office workspace. Every detail within
+<b>Floyd</b> | is perfect.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">take it</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You take the model room and compile. It shrinks obligingly into a
+<b>Floyd</b> | small icon.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace is shaking.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Metasemantics."
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">put icon in workspace</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (the metasemantics icon in the workspace)
+<b>Floyd</b> | The metasemantics icon shudders in your grip. Pushing it into the
+<b>Floyd</b> | workspace is like forcing it through gravel, but you lean into the
+<b>Floyd</b> | force. After several moments of struggle, the icon is in place. The
+<b>Floyd</b> | world changes...
+<b>Floyd</b> |
+<b>Floyd</b> | Room
+<b>Floyd</b> | This is your workspace. All your furniture and things are set up just
+<b>Floyd</b> | as you like them. The exit is to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube representing your workspace sits on a desk. Inside it, the
+<b>Floyd</b> | seven icons vibrate wildly.
+<b>Floyd</b> |
+<b>Floyd</b> | You look around. This, too, is magnificent -- in a quiet way. The
+<b>Floyd</b> | program has condensed your style of interaction into a tangible
+<b>Floyd</b> | metaphor... a perfect rendition of the way you work.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine furniture</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your stuff is all just as you expect.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace cube buzzes angrily. Really, what is going on with that?
+<b>Floyd</b> | It must be some kind of physical simulation fault. You'll sort it out
+<b>Floyd</b> | tomorrow.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Mick says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You turn, and reach for the exit of your virtual environment.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a wild crash behind you. You spin. The workspace cube lies in
+<b>Floyd</b> | splinters, sprayed across your desk, tinkling to the floor. Above it
+<b>Floyd</b> | are whirling seven -- forces -- that grow, and become more potent --
+<b>Floyd</b> |
+<b>Floyd</b> | Then the walls are splintering, too.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Trapped
+<b>Floyd</b> | Nothing surrounds you. The virtual space is absolutely blank... but no
+<b>Floyd</b> | longer unbounded. You are unable to move, or to escape.
+<b>Floyd</b> |
+<b>Floyd</b> | You wonder if someone will come looking.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     *** To be continued ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine desk</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Please give one of the answers above.
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "Intriguing"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "yes"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  says, "huh"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Congrats!"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "I don't think we were really in our room"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Gerynar</b>  says, "just another simulation"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Axyraandas</b>  says, "It sounds like Nirvana to me."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  says, "There is no cube"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  says, "I don't think we're really in a toyshop."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Jacqueline</b>  touches Doug's arm and finds him but a shadow.  "I think we're really all in separate rooms."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Mick</b>  says, "The ending in darkness is strange."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>JJSonick</b>  says, "The lesson is, don't ignore an angrily buzzing cube, kids."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Axyraandas</b>  asks, "Perhaps the laws of the universe...broke?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Also, get a bigger workshop."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Tale</b>  says, "This is a lead in to the sequel, Advanced Metasemantics: An exercise in posthumanism"
+</TD><td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">undo</font>"
+</TD><td></td><TD><b>AutomatonZX27</b>  says, "In the event that the cube DOES speak, please disregard its advice."
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> |
+</PRE></td><td></td>
+<TD><b>Axyraandas</b>  says, "The sequel would be interesting."
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Nitku</b>  says, "I have inside information that the story will continue in Zarf's upcoming graphical escape-the-room game"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>Doug</b>  asks, "hm, did I break it?"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">/undo</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Room
+<b>Floyd</b> | [Previous turn undone.]
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Axyraandas</b>  asks, "Which escape-the-room game is this? Does it have a name yet?"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">examine desk</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your stuff is all just as you expect.
+<b>Floyd</b> |
+<b>Floyd</b> | This is a good stopping point, however. You should leave and report in
+<b>Floyd</b> | to your client.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "thanks"
+</TD><td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">x cube</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | The workspace is represented by a clear, waist-high cube. Within it
+<b>Floyd</b> | are the metasemantics icon, the form icon, the weight icon, the charge
+<b>Floyd</b> | icon, the light icon, the heat icon, and the pressure icon, all
+<b>Floyd</b> | vibrating wildly around.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates violently.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">fix cube</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Nitku</b>  says (to Axyraandas), "That's all I know"
+</TD><td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">get cube</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are already in your workspace. This is it. This is where you work.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">x desk</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your stuff is all just as you expect.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace shudders irately.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  says, ""Call Cube Customer Support""
+</TD><td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">x icons</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Within the workspace you see the metasemantics icon, the form icon,
+<b>Floyd</b> | the weight icon, the charge icon, the light icon, the heat icon, and
+<b>Floyd</b> | the pressure icon, all vibrating wildly around.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">i</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are carrying nothing.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace shakes dangerously.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">l</font>"
+</TD><td></td><TD><b>AutomatonZX27</b>  says, "However, I don't know how fun would it be to escape from total blackness"
+</TD><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Room
+<b>Floyd</b> | This is your workspace. All your furniture and things are set up just
+<b>Floyd</b> | as you like them. The exit is to the south.
+<b>Floyd</b> |
+<b>Floyd</b> | The cube representing your workspace sits on a desk. Inside it, the
+<b>Floyd</b> | seven icons vibrate wildly.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Axyraandas says (to Floyd), "<font color="#89956F">shake cube</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">z</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Time passes.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace rattles violently.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<td></td></TR>
+<TR><td></td><TD>Gerynar says (to Floyd), "<font color="#89956F">get workspace</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You are already in your workspace. This is it. This is where you work.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>DavidW</b>  says, "Well, first you'd say 'create light'."
+</TD><td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">get metasemantics icon</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | (invoke the metasemantics icon)
+<b>Floyd</b> | You poke the metasemantics icon, but it is already active.
+<b>Floyd</b> |
+<b>Floyd</b> | The workspace vibrates irately.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>JJSonick</b>  says, "Open Cube Bug #17845 - Workspace crash destroys reality & traps user in Limbo - Priority: 2"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">invoke form</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | Your collection is complete; you feel like you've done enough for the
+<b>Floyd</b> | day's work.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Doug</b>  says, "hm, I guess there isn't anything else to do."
+</TD><td></td></TR>
+<TR><td></td><TD><b>Axyraandas</b> goes home.
+</TD><td></td><td></td></TR>
+<TR><td></td><TD>Doug says (to Floyd), "<font color="#89956F">amusing</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | That's not a verb I recognize.
+<b>Floyd</b> |
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>AutomatonZX27</b>  says, "There's no amusing, I think"
+</TD><td></td></TR>
+<TR><td></td><TD>AutomatonZX27 says (to Floyd), "<font color="#89956F">s</font>"
+</TD><td></td><td></td></TR>
+<TR><td></td><TD><pre><b>Floyd</b> | You turn, and reach for the exit of your virtual environment.
+<b>Floyd</b> |
+<b>Floyd</b> | There is a wild crash behind you. You spin. The workspace cube lies in
+<b>Floyd</b> | splinters, sprayed across your desk, tinkling to the floor. Above it
+<b>Floyd</b> | are whirling seven -- forces -- that grow, and become more potent --
+<b>Floyd</b> |
+<b>Floyd</b> | Then the walls are splintering, too.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Trapped
+<b>Floyd</b> | Nothing surrounds you. The virtual space is absolutely blank... but no
+<b>Floyd</b> | longer unbounded. You are unable to move, or to escape.
+<b>Floyd</b> |
+<b>Floyd</b> | You wonder if someone will come looking.
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |     *** To be continued ***
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> |
+<b>Floyd</b> | Would you like to RESTART, RESTORE a saved game, or QUIT?
+<b>Floyd</b> | &gt;
+</PRE></td><td></td>
+<TD><b>Jacqueline</b>  smiles.
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>AutomatonZX27</b>  asks, "So, you can't die in this game?"
+</TD><td></td></TR>
+<TR><td></td><TD></TD><td></td><TD><b>DavidW</b>  says, "Correct. As far as I know."</TD><td></td></TR>
+<TR><td></td><td></td></TR></TABLE><P ALIGN="CENTER"><FONT FACE="arial, sans-serif, helvetica" SIZE="1">
+		 <BR><BR>[ <a href="#top">TOP OF THIS PAGE</A> | <a href="interactive_fiction.html#clubfloyd">MORE CLUBFLOYD TRANSCRIPTS</A> | <a
+href="index.html">HOME</A> ]</FONT></P>
+<center><IMG SRC="graphics/black.jpg" WIDTH="557" HEIGHT="3"></center>
+		  <P ALIGN="CENTER"><A HREF="contact.html"><IMG SRC="graphics/footer.jpg"
+border="0"></A></P>
+</BODY>
+</HTML>

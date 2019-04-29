@@ -1,0 +1,5657 @@
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Shelter from the Storm
+
+
+ NOTE: Most IF games are narrated in the second person and the present
+ tense (e.g.  "You are empty-handed").  Shelter from the Storm lets you
+ choose which person (first, second or third), and tense (present or
+ past) you would like the game to be narrated in.  Please select your
+ option by selecting S from the menu below before starting a new game.
+
+
+ S -- Select Person and Tense
+
+ I -- Instructions (recommended for new players)
+
+ R -- Restore an Existing Saved Game
+
+ Q -- Quit
+
+
+ Please type S, I, R, or Q
+
+
+
+>go south
+
+
+
+
+
+ Please select one of the following to set the person and tense in which
+ Shelter from the Storm will be narrated:
+
+ 1.  First person, present tense (e.g.  "I am empty-handed")
+
+ 2.  Second person, present tense (e.g.  "You are empty-handed")
+
+ 3.  Third person, present tense (e.g.  "Jack is empty-handed")
+
+ 4.  First person, past tense (e.g.  "I was empty-handed")
+
+ 5.  Second person, past tense (e.g.  "You were empty-handed")
+
+ 6.  Third person, past tense (e.g.  "Jack was empty-handed")
+
+
+
+
+
+ NOTE If you later change your mind you can change your choice at any
+ time during play using the commands FIRST PERSON, SECOND PERSON and
+ THIRD PERSON to change person, and the commands PRESENT TENSE and PAST
+ TENSE to change tense.
+
+
+>6
+
+
+
+
+
+
+ Shelter from the Storm
+
+
+ N -- Start New Game
+
+ S -- Select Person and Tense
+
+ I -- Instructions (recommended for new players)
+
+ R -- Restore an Existing Saved Game
+
+ Q -- Quit
+
+
+ Please type N, S, I, R, or Q
+
+
+
+>inventory
+ Help Menu
+
+ 1. How to Play Interactive Fiction
+ 2. About Shelter from the Storm
+ 3. Extra Navigation Commands - GO TO and CONTINUE
+ 4. If you get stuck - THINK and THINK HARDER
+ 5. Credits
+
+ Select a topic number, or press 'p' for the previous menu or 'q' to
+ quit:
+>2
+ 2
+
+
+
+
+
+
+
+
+ About Shelter from the Storm
+
+ Works of Interactive Fiction are typically narrated in the second
+ person and present tense (e.g.  "You see a gold ring here").  From time
+ to time there have been discussions whether this convention represents
+ the best way of conveying an interactive narrative.  Shelter from the
+ Storm allows you, the player, to experiment with this by choosing the
+ person (and the tense) in which the game is narrated.  The opening
+ screen of the game asks you to choose the person and tense of the game
+ before you start, but you can also change your choice during the course
+ of play.  In particular during play you can change between first,
+ second and third person with the commands:
+
+
+ FIRST PERSON
+ SECOND PERSON
+ THIRD PERSON
+
+ You can also change between present and past tense with the commands:
+
+ PAST TENSE
+ PRESENT TENSE
+
+ Apart from that Shelter from the Storm is designed as a fairly
+ conventional piece of Interactive Fiction, with not much emphasis on
+ puzzles.  The game should be fairly straightforward, but if you need a
+ nudge you can use the commands THINK and THINK HARDER.
+
+ [The End]
+
+
+
+
+
+
+
+
+ Help Menu
+
+ 1. How to Play Interactive Fiction
+ 2. About Shelter from the Storm
+ 3. Extra Navigation Commands - GO TO and CONTINUE
+ 4. If you get stuck - THINK and THINK HARDER
+ 5. Credits
+
+ Select a topic number, or press 'p' for the previous menu or 'q' to
+ quit:
+>5
+ 5
+
+
+
+
+
+
+
+
+ Credits
+
+ Shelter from the Storm by Eric Eve
+
+ First and foremost, all credit to Michael J.  Roberts for creating TADS
+ 3, and Michel Nizette for his work on devising a neat tense-switching
+ mechanism, which was subsequently incorporated into the adv3 library;
+ without their work this project would have been impossible.
+
+ But just as important, many thanks to my sterling team of beta-testers:
+ Jim Aikin, Radical Al, Parham Doustdar, Keaton Graves, Jonathan Li,
+ Reiko, Michael Neal Tenuis, and Jack Welch.  Without them a huge number
+ of tense/person switching typos would have gone uncorrected, as well as
+ a number of more serious bugs (including various cunning ways of
+ getting the game into an unwinnable state).  As a result of all their
+ efforts this game is a far more polished offering than it otherwise
+ would have been.  The blunders that remain are, of course, no one's
+ fault but my own.
+
+ [The End]
+>3
+
+
+
+
+
+
+
+
+ Help Menu
+
+ 1. How to Play Interactive Fiction
+ 2. About Shelter from the Storm
+ 3. Extra Navigation Commands - GO TO and CONTINUE
+ 4. If you get stuck - THINK and THINK HARDER
+ 5. Credits
+
+ Select a topic number, or press 'p' for the previous menu or 'q' to
+ quit:
+>3
+ 3
+
+
+
+
+
+
+
+
+ Extra Navigation Commands - GO TO and CONTINUE
+
+ As with virtually all works of Interactive Fiction, you can move round
+ the world of Shelter from the Storm using standard compass-movement
+ commands like NORTH, EAST, UP and DOWN.  In addition you can use the
+ commands GO TO and CONTINUE to move around.
+
+ The command GO TO X or FIND X (the two mean the same thing) sends you
+ in the direction of X.  X can either be a previously-visited room, or a
+ previously-seen object (in which case GO TO X will send you to the last
+ location where you saw X).
+
+ The GO TO command takes you only on the first step of your journey.  To
+ continue your journey you can use the command CONTINUE (which can be
+ abbreviated to C).  Note that a CONTINUE command does not have to come
+ immediately after a GO TO or CONTINUE command.  You could, for example,
+ enter the command GO TO KITCHEN and then enter a whole series of
+ commands for examining and interacting with your next location before
+ issuing a CONTINUE or C command to carry on towards the kitchen.
+
+ [The End]
+
+
+
+
+
+
+
+
+ Help Menu
+
+ 1. How to Play Interactive Fiction
+ 2. About Shelter from the Storm
+ 3. Extra Navigation Commands - GO TO and CONTINUE
+ 4. If you get stuck - THINK and THINK HARDER
+ 5. Credits
+
+ Select a topic number, or press 'p' for the previous menu or 'q' to
+ quit:
+>q
+ q
+
+
+
+
+
+
+
+
+ Shelter from the Storm
+
+
+ N -- Start New Game
+
+ S -- Select Person and Tense
+
+ I -- Instructions (recommended for new players)
+
+ R -- Restore an Existing Saved Game
+
+ Q -- Quit
+
+
+ Please type N, S, I, R, or Q
+
+
+
+>q
+>load storm
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+
+
+
+
+
+
+
+ Shelter from the Storm
+
+
+ NOTE: Most IF games are narrated in the second person and the present
+ tense (e.g.  "You are empty-handed").  Shelter from the Storm lets you
+ choose which person (first, second or third), and tense (present or
+ past) you would like the game to be narrated in.  Please select your
+ option by selecting S from the menu below before starting a new game.
+
+
+ S -- Select Person and Tense
+
+ I -- Instructions (recommended for new players)
+
+ R -- Restore an Existing Saved Game
+
+ Q -- Quit
+
+
+ Please type S, I, R, or Q
+
+
+
+>go south
+>6
+
+
+
+
+
+ Please select one of the following to set the person and tense in which
+ Shelter from the Storm will be narrated:
+
+ 1.  First person, present tense (e.g.  "I am empty-handed")
+
+ 2.  Second person, present tense (e.g.  "You are empty-handed")
+
+ 3.  Third person, present tense (e.g.  "Jack is empty-handed")
+
+ 4.  First person, past tense (e.g.  "I was empty-handed")
+
+ 5.  Second person, past tense (e.g.  "You were empty-handed")
+
+ 6.  Third person, past tense (e.g.  "Jack was empty-handed")
+
+
+
+
+
+ NOTE If you later change your mind you can change your choice at any
+ time during play using the commands FIRST PERSON, SECOND PERSON and
+ THIRD PERSON to change person, and the commands PRESENT TENSE and PAST
+ TENSE to change tense.
+
+
+
+
+
+
+
+
+ Shelter from the Storm
+
+
+ N -- Start New Game
+
+ S -- Select Person and Tense
+
+ I -- Instructions (recommended for new players)
+
+ R -- Restore an Existing Saved Game
+
+ Q -- Quit
+
+
+ Please type N, S, I, R, or Q
+
+
+
+>go north
+
+
+
+
+
+ Shelter from the Storm
+
+ Few things can be worse than breaking down on a dark night in a strange
+ place, and even more when it looks like it's just starting to rain, and
+ you're in danger of being late for your first posting.  Unfortunately,
+ that was precisely what had just happened to Jack that night.
+
+ Jack was on his way to the camp he had been ordered to, but he
+ suspected that he must have taken a wrong turn somewhere -- easy enough
+ to do with so many signposts taken down in case of a German invasion.
+ Then just to cap it all, his car had just broken down, leaving him
+ stuck out in in the middle of nowhere (or somewhere on the outskirts of
+ Salisbury Plain, which amounted to much the same thing), still miles
+ away from where he was meant to be.
+
+ Long Road
+ Jack was standing in the middle of a long road running roughly
+ east-west between thick hedgerows.  His car lay abandoned about a few
+ hundred yards up the road to the east.  Further to the east the road
+ ran across miles of open countryside (as Jack knew because he'd just
+ driven across it).
+
+>examine me
+ Jack was a man of about twenty, dressed in khaki battledress.
+
+ It was just starting to rain.
+
+>examine battledress
+ It was khaki, of course, and still a little rough in that Jack hadn't
+ got round to getting his tailor to work on it, as some officers did; he
+ was still rather conscious of the single pip of a second lieutenant on
+ each shoulder.
+
+ There was a temporary lull in the rain, but it didn't last long.
+
+>examine jack
+ Jack was a man of about twenty, dressed in khaki battledress.
+
+ It continued to drizzle.
+
+>inventory
+ Jack was carrying nothing, and was wearing a beret and khaki
+ battledress.
+
+ The rain looked like it could soon become quite unpleasant.
+
+>examine beret
+ It was a khaki beret with a Royal Engineers cap badge.
+
+>examine badge
+ Jack knew what it looked like without having to look: a bursting bomb
+ with the motto Ubique.
+
+>exits all
+ The list of exits will now be shown in both the status line and in each
+ room description.
+
+>inventory
+ Jack was carrying nothing, and was wearing a beret and khaki
+ battledress.
+
+>go to car
+ He'd just come from there, and he knew there was no point trying
+ further east, since he had just driven through miles of open
+ countryside.  Jack's only chance of finding something seemed to lie in
+ the other direction.
+
+>go west
+ Jack walked about half a mile down the road until he arrived at a gap
+ in the hedgerow.
+
+ Road by Drive Entrance
+ The road continued more or less straight east and west from here, with
+ thick hedge on both sides, except just to the north where there was a
+ gap that looked like the end of someone's drive.  Unfortunately, the
+ small wooden sign by the side of the gap looked far from welcoming.
+
+ Obvious exits: North, East, West
+
+ The rain started to get heavier.
+
+>dance
+ The word "dance" is not necessary in this story.
+
+ (If this was an accidental misspelling, you can correct it by typing
+ OOPS followed by the corrected word now.  Any time the story points out
+ an unknown word, you can correct a misspelling using OOPS as your next
+ command.)
+
+>examine sign
+ The wooden sign was firmly planted in the ground next to the hedge.  On
+ it was inscribed "Wendle Manor" in relatively ancient lettering, with
+ "Private - Keep Out!" added subsequently in angry red print.
+
+ It was definitely starting to rain more heavily.
+
+>examine hedge
+ There were thick hedgerows on both sides of the road; too thick to
+ penetrate and too high to climb, apart from the wide gap just to the
+ north.
+
+ A gust of wind blew some rain into Jack's face.
+
+>shit
+ (sit)
+ (You can use the TYPO command to disable the typo-correction feature.)
+
+ (on the ground)
+ Jack sat on the ground.
+
+ The rain was getting worse.
+
+>present tense
+ Okay, the game is now in the present tense.
+
+>go north
+>look
+ (first standing up)
+ Ignoring the sign, Jack walks briskly up the drive.  After all, there
+ is a war on, and he has his own small contribution to make, if only he
+ can reach his camp, so right now his plight seems to override some
+ country gentlefolk's overblown desire for privacy.  Jack just hopes
+ that whoever lives here sees it that way too.
+
+ Drive
+ A great old house stands before Jack, with dark ivy creeping up its
+ weathered walls, and a sheltered porch jutting invitingly out into the
+ drive, which leads southwards back to the road.  A path that presumably
+ leads into the garden runs round the house to the northeast.
+
+ Obvious exits: North, South, Northeast
+
+ Jack's arrival in the drive coincides with a distant flash of
+ lightning; the thunder-clap follows about ten seconds later.
+
+ Drive
+ A great old house stands before Jack, with dark ivy creeping up its
+ weathered walls, and a sheltered porch jutting invitingly out into the
+ drive, which leads southwards back to the road.  A path that presumably
+ leads into the garden runs round the house to the northeast.
+
+ Obvious exits: North, South, Northeast
+
+ The rain is getting still heavier.  Jack had better get inside quite
+ soon if he wants to avoid getting soaked.
+
+>enter porch
+ Porch
+ The brick-built porch is a small, semi-enclosed area that at least
+ affords some shelter from the rain, though little from the cold.  It's
+ almost completely bare, apart from the front door immediately to the
+ north; to the south lies the way out back into the drive.
+
+ Obvious exits: North, South
+
+ As Jack steps into the porch, the rainfall intensifies by twofold or
+ threefold, and a moment later there's a simultaneous searing flash of
+ lightning and tumultuous crack of thunder.
+
+>examine door
+ The front door is made of solid wood, with no sign of a window.  Next
+ to the door is an old-fashioned bell pull and an off-putting notice.
+
+ The rain continues to pelt down furiously just outside the porch.
+
+>firstperson
+ (first person)
+
+ Okay, the game is now in the first person.
+
+>read notice
+ It reads: NO HAWKERS, NO CIRCULARS, NO UNNECESSARY CALLERS.
+
+ The rain seems to be trying to outdo the days of Noah.
+
+>look
+ Porch
+ The brick-built porch is a small, semi-enclosed area that at least
+ affords some shelter from the rain, though little from the cold.  It's
+ almost completely bare, apart from the front door immediately to the
+ north; to the south lies the way out back into the drive.
+
+ Obvious exits: North, South
+
+ There's no let up in the downpour.
+
+>ring bell
+ I pull the bell and hear a ringing from somewhere inside the house.
+
+ Lightning flashes across the sky, accompanied by loud thunder.
+
+>knock on door
+ I feel it would be politer to give whoever's inside a chance to respond
+ to my first attempt.
+
+ I can't hear any immediate response to my summons, but it's a large
+ house and I realize that it might take someone a while to reach the
+ front door.
+
+>shit
+ (sit)
+
+ (on the floor)
+ I sit on the floor.
+
+ I hear someone moving around inside the house - the sound of footsteps
+ approaching the door.
+
+>stand
+ Okay, I'm now standing.
+
+ The front door finally opens.
+
+ A somewhat stern-looking woman, presumably the housekeeper from her
+ dress and demeanour, appears in the doorway.  "Yes?" she says, in
+ heavily accented English.  "Vot is it you vant?  Can you not read?"
+ She indicates the sign by the door with a fierce stare and a tap of her
+ hand.
+
+ (My immediate thoughts are to either explain my plight, or talk about
+ the weather.)
+
+>explain
+ "My car's just broken down," I explain, "half a mile or so down the
+ road.  I should be reporting to my camp tonight, only -- well, I
+ wondered if I might use your phone."
+
+ "I am sorry," she replies, "but Mr Croxley does not want any callers -
+ not for any reason.  You will have to find a telephone somewhere else."
+
+ (I feel I could either ask where else to find a phone, try pleading
+ harder, or ask her about Mr Croxley.)
+
+>xyzzy
+ A large puff of black and red smoke appears, out of which steps a
+ confused and terrified Adolf Hitler.  Now forced by my powerful magic
+ to obey my every whim, Hitler ends the war, surrenders Germany and all
+ its conquered territories to the British Empire in perpetuity, and
+ devotes the rest of his life to advocating social justice for
+ downtrodden peasant farmers in South America.
+
+ That's a load of old rubbish, of course.  If only things were so easy,
+ but magic words are singularly ineffectual in modern warfare, so the
+ only result of uttering "xyzzy" is to leave me feeling rather foolish.
+
+ The housekeeper glares at me, waiting for me to speak up or go -
+ preferably the latter, if her expression is anything to go by.
+
+>tell her about wall
+ "Mr Croxley not seeing visitors, whatever you say," she replies.
+
+ (I feel I could either ask where else to find a phone, try pleading
+ harder, or ask her about Mr Croxley.)
+
+>tell her about war
+ "This not my problem; you must try somewhere else," she suggests.
+
+ (I feel I could either ask where else to find a phone, try pleading
+ harder, or ask her about Mr Croxley.)
+
+>plead harder
+ "Look, I'm really sorry to bother you and all that, but I really am in
+ a bit of a fix here," I plead.  "As I said, my car's broken down and
+ there doesn't seem to be anywhere else for miles around.  This is my
+ first posting and I really need to get to my camp.  Can't you just let
+ me in for half a minute to make a quick phone call?"
+
+ "The Croxleys are not receiving visitors," she replies stonily.
+ "Please go now."
+
+ (I feel I could either ask where else to find a phone, try pleading
+ harder, demand that she let me in, or ask her about Mr Croxley.)
+
+>ask woman about croxley
+ "Why are the Croxleys so anxious to avoid visitors?"  I ask.
+
+ "It has been a very difficult time for them," she tells me.  "So many
+ tragic deaths in the family!  They wish to be left alone with their
+ grief - so, please go away!"
+
+ (I feel I could either ask where else to find a phone, try pleading
+ harder, or demand that she let me in.)
+
+>demand
+ "Now look here, there's a war on and I'm a British army officer in need
+ of assistance," I insist, my outward pomposity masking a growing inward
+ desperation.  "I demand that you let me in - in the name of the King!
+ Otherwise I shall have to assume that..."
+
+ "Ach - all right, all right!" she interrupts, her shoulders visibly
+ sagging.  "Everywhere it is the same; everywhere men in uniform come
+ knocking on doors to bully the Jews!  You better come in."  With
+ evident reluctance she stands aside to let me pass.
+
+>enter
+ I follow the housekeeper inside.
+
+ Entrance Hall
+ The hall is quite dimly lit, with dark, oak-panelled doors to east and
+ west, the front door to the south, and a passage (effectively a
+ continuation of the hall) leading off to the north.  Against the west
+ wall, next to a small table, a venerable grandfather clock faces a pair
+ of stern Victorian portraits staring down from the opposite wall.
+
+ On the small table is a telephone.
+
+ The housekeeper closes the front door after I follow her inside.  She
+ points across the hall and tells me, "The telephone is just there.  You
+ may make your call - quickly, please, so that you do not disturb
+ anyone."
+
+ Obvious exits: North, South, East, West
+
+>examine housekeeper
+ She is, I would guess, somewhere in her late thirties or earlier
+ forties, a rather morose looking woman with thick black curly hair and
+ dark, unsmiling eyes.
+
+>ask her about germany
+ "The phone is there," she points firmly.  "Just make your call."
+
+ "The telephone is just over there," the housekeeper tells me, pointing
+ to the handset.  "Just pick it up to make your call."
+
+>pick up phone
+>call germany
+ I pick up the receiver, but the line is dead.  I try pressing the hook
+ several times, but to no avail; the telephone remains obstinately
+ unresponsive, so I drop the receiver back on its hook.
+
+ "So - do you just stare at the telephone or do you make your call?" the
+ housekeeper demands.  "Be quick, please, before you disturb the
+ Croxleys; they should not find you here."
+
+ I see no germany here.
+
+>tell housekeeper about phone
+ "I can't get this phone to work," I complain.
+
+ "Ach - you're an officer and you cannot even use the phone?" she
+ replies.  "You should try harder!"
+
+>dial harder
+ The story doesn't understand that command.
+
+>pick up phone
+ I pick up the receiver a second time, but the telephone remains just as
+ dead as before, so I replace it again.
+
+ "What is the matter?" the housekeeper asks, seeing the way I am staring
+ at the receiver.
+
+ (I think I should either tell her about the telephone, or complain.)
+
+>tell her
+ What do you want to tell her about?
+
+>telephone
+ (the camp)
+ I try the phone yet again, but it remains obstinately unresponsive.
+
+>complain
+ "This phone isn't working," I complain.
+
+ "That is odd - it was working half an hour ago," she replies.  "Now I
+ try it."  She picks up the phone and listens to the receiver with an
+ intense frown, and then starts beating the hook far harder than I did.
+
+ Just as she drops the useless receiver back on its hook, there's a
+ second, louder, click as a door opens to the west.  Through it walks a
+ strikingly attractive young woman.  For a bare moment she pauses in her
+ stride as she and I stare at each other, me in frank admiration, the
+ young woman in apparent irritation.  Then, turning to the housekeeper
+ she asks, "What's happening here?  Why did you let this man in, Hilda?"
+
+ "I am sorry, Miss Croxley, but he insist," the housekeeper explains.
+ "He demands to use our telephone - in the King's name, he say! - but
+ the telephone is kaput."
+
+ "That must be the storm, bringing the wires down," the young woman
+ mutters.  Then she turns to me and asks, "And who are you, lieutenant,
+ to come barging in here 'in the King's name'?"
+
+ (At this point I could either introduce myself, apologize for the
+ intrusion, or explain my plight.)
+
+>apologize
+ "I'm really sorry to intrude like this, Miss Croxley," I apologize,
+ "especially as I understand there's been a bereavement in the
+ family..."
+
+ "Several," she interrupts me bleakly.  "But it's not your sympathies I
+ want, lieutenant, just an explanation of what gives you the right to
+ demand entry into our home."
+
+>introduce
+ "I'm Jack Percy," I reply.  "My car broke down, about a mile down the
+ road from here, and I'm meant to be reporting for duty this evening."
+
+ "That could be a problem," she remarks, her frown starting to soften.
+ "Somehow I don't think you'll be going anywhere tonight - not in this,
+ not without your car.  I'm Angela Croxley by the way," she adds,
+ offering me her hand.
+
+ (It seems best to either apologize for intruding, or shake her hand.)
+
+>kiss hand
+ I see no hand here.
+
+>shake her hand
+ I shake her hand, saying, "Sorry to intrude on you like this, Miss
+ Croxley."
+
+ "Don't mention it, lieutenant," she assures me.  "There's nowhere else
+ for miles you could have come.  Now..."
+
+ At this point there's a loud creak from upstairs.  Seeing me glance up,
+ she says, a little hastily, "It's an old house, it does that sometimes.
+ Now, the question is, what are we going to do with you, Mr Percy?  Well
+ - I suppose you must be hungry after your travails.  Can we get you
+ something to eat?"
+
+ (My immediate thoughts are to either say yes or no, thank her, or ask
+ her about the creaking sound.)
+
+>thank her
+>thank her
+ "Thank you very much, that would be just what the doctor ordered!"  I
+ declare.
+
+ "My pleasure," she smiles, "I'm afraid we ate our main meal at lunch
+ and we shan't be eating dinner, what with the rationing and all that,
+ but Hilda will take you to the kitchen and fix you a bite to eat, won't
+ you, Hilda?"
+
+ "As you say, Miss Croxley," the housekeeper replies without evident
+ enthusiasm.
+
+ "I'll be in the drawing room," Angela Croxley tells me.  "Come and find
+ us when you're done with Hilda, and we'll work out what's to be done
+ with you."  She flashes me a brief smile and walks back out through the
+ west door.
+
+ Hilda meanwhile walks over to the front door and locks it, before
+ turning to me and saying, "This way!", indicating that I am to follow
+ her to the north.
+
+ That command can't be used right now.
+
+>go north
+ Hilda leads the way down the passage.
+
+ Hall Passage South
+ This is the widest part of the hall, where it opens out to accommodate
+ the flight of stairs that leads up to the east.  On the other side of
+ the hall a dark panelled door stands closed to the west, while the hall
+ itself continues to both north and south.
+
+ Hilda is waiting for me to follow her down the passage to the north.
+
+ Obvious exits: North, South, West, Up
+
+>go north
+ Hilda leads the way down the passage.
+
+ Hall Passage North
+ The hall passage comes to an end outside a brown door to the north.
+ Other doors lead east and west, while the passage runs south towards
+ the main entrance hall.
+
+ Hilda is waiting for me to follow her through the door to the east.
+
+ Obvious exits: North, South, East, West
+
+>go east
+ (first opening the east door)
+ I follow Hilda through the door into the kitchen.
+
+ Kitchen
+ The kitchen looks large enough to accommodate the platoon of culinary
+ staff who may have worked here before the war.  Circumstances are now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprises the bulk of the furniture.  A long, old-fashioned cooking
+ range runs along the east wall, while doors lead off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Hilda stops in the middle of the kitchen and turns to face me.
+
+ "You are wondering what a German woman is doing in this house," she
+ remarks.  "I tell you.  I am a Jew, and Germany is no good for Jews
+ now.  I leave Germany two years ago and come here.  Too many Jews
+ disappearing back home, and very bad things happen to them.  So that
+ why I come here.  Now I find you something to eat."
+
+ She goes over to the oven, takes out a saucepan, and puts it on the
+ stove.
+
+ Obvious exits: North, South, West
+
+>examine hilda
+ She is, I would guess, somewhere in her late thirties or earlier
+ forties, a rather morose looking woman with thick black curly hair and
+ dark, unsmiling eyes.  She's busily preparing something for me to eat.
+
+ Hilda adjusts the cooker.
+
+>ask hilda about jews
+ "You found things bad in Germany?"  I ask.
+
+ "Very bad.  Far worse for Jews than anyone here can imagine," she tells
+ me, "and getting worse all the time!"
+
+ Hilda fiddles with a loaf of bread.
+
+>ask hilda about germany
+ She's already told me that things in Germany are unimaginably bad for
+ Jews and getting worse.
+
+ Hilda stirs something in the pot.
+
+>ask hilda about herself
+ "How do you come to be working here?"  I ask.
+
+ "I need position.  I see advertisement in paper.  I come to interview.
+ They give me job," she replies.  "Mr Croxley needed someone to look
+ after the house after his wife was killed," she adds.
+
+ Hilda takes something out of a cupboard.
+
+>ask about wife
+ "What happened to Mrs Croxley?"  I ask.
+
+ "Terrible!" she replies.  "Mrs Croxley go to London to visit her
+ sister, about two months ago.  There was an air-raid.  A bomb fell on
+ the house where she was staying, and they were all killed.  Mr Croxley
+ has many reasons to hate Germans."
+
+ Hilda takes the pot off the oven and pours the contents into a bowl,
+ which she places in front of me along with two slices of dry brown
+ bread.  "Is not much," she says, "but there is a war on, and the
+ rationing..."
+
+ I thank her for the soup, and drink it gratefully, dunking the dry
+ bread into it to make it more palatable.  Once I have finished she
+ takes the bowl away again and begins to clear up.
+
+ "You know where to find Mr Croxley?" she asks.  "Back down the hall and
+ the last door on the right."
+
+>say Haben Sie brechen das Telefon?
+ The word "Haben" is not necessary in this story.
+
+>ask her about angela
+ "You should go and find Mr Croxley," she tells me.  "He will be
+ expecting you."
+
+>ask her about mr croxley
+ "I am not wishing to talk now; I have many things to do," she replies.
+ "You must go and find Mr Croxley."
+
+>examine her
+ She is, I would guess, somewhere in her late thirties or earlier
+ forties, a rather morose looking woman with thick black curly hair and
+ dark, unsmiling eyes.  She's busily clearing up the remains of my
+ frugal supper.
+
+>look
+ Kitchen
+ The kitchen looks large enough to accommodate the platoon of culinary
+ staff who may have worked here before the war.  Circumstances are now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprises the bulk of the furniture.  A long, old-fashioned cooking
+ range runs along the east wall, while doors lead off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Hilda is busily clearing up the remains of my frugal supper.
+
+ Obvious exits: North, South, West
+
+>thank hilda
+ The story doesn't understand that command.
+
+>examine calendar
+ It is one of those plain calendars that simply lists the days of the
+ current month in a square grid; it is currently showing October 1940.
+
+>go to croxley
+ (going west)
+
+ Hall Passage North
+ The hall passage comes to an end outside a brown door to the north.
+ Other doors lead east and west, while the passage runs south towards
+ the main entrance hall.
+
+ Obvious exits: North, South, East, West
+
+ (To continue on your way use the command CONTINUE or C).
+
+>continue
+ (going south)
+
+ Hall Passage South
+ This is the widest part of the hall, where it opens out to accommodate
+ the flight of stairs that leads up to the east.  On the other side of
+ the hall a dark panelled door stands closed to the west, while the hall
+ itself continues to both north and south.
+
+ Obvious exits: North, South, West, Up
+
+ (To continue on your way use the command CONTINUE or C).
+
+ There's another creak from upstairs, followed by the sound of footsteps
+ and a door closing.
+
+>continue
+ (going south)
+
+ Entrance Hall
+ The hall is quite dimly lit, with dark, oak-panelled doors to east and
+ west, the front door to the south, and a passage (effectively a
+ continuation of the hall) leading off to the north.  Against the west
+ wall, next to a small table, a venerable grandfather clock faces a pair
+ of stern Victorian portraits staring down from the opposite wall.
+
+ On the small table is a telephone.
+
+ Obvious exits: North, South, East, West
+
+ I have arrived at the place where I last saw Angela Croxley.
+
+>go to mr croxley
+ I see no mr croxley here.
+
+>undo
+ Taking back one turn: "continue".
+
+ Hall Passage South
+ This is the widest part of the hall, where it opens out to accommodate
+ the flight of stairs that leads up to the east.  On the other side of
+ the hall a dark panelled door stands closed to the west, while the hall
+ itself continues to both north and south.
+
+ Obvious exits: North, South, West, Up
+
+>go north
+ Hall Passage North
+ The hall passage comes to an end outside a brown door to the north.
+ Other doors lead east and west, while the passage runs south towards
+ the main entrance hall.
+
+ Obvious exits: North, South, East, West
+
+>go south
+ Hall Passage South
+ This is the widest part of the hall, where it opens out to accommodate
+ the flight of stairs that leads up to the east.  On the other side of
+ the hall a dark panelled door stands closed to the west, while the hall
+ itself continues to both north and south.
+
+ Obvious exits: North, South, West, Up
+
+>go west
+ (first opening the west door)
+
+ Lounge
+ The pale gold wallpaper in the lounge looks rather splendid, but the
+ furniture seems surprisingly spartan for such a grand house.  Indeed,
+ there is little here apart from four upright chairs and a low wooden
+ table, all rather dwarfed by the size of the room.  There are also
+ doors to north and east.
+
+ On the low wooden small table is a magazine.
+
+ Obvious exits: North, East
+
+>examine magazine
+ It seems to be some kind of theatrical magazine, dated September 1940.
+
+>read it
+ (first taking the theatrical magazine)
+ I leaf quickly through the magazine, and find it to be full of play
+ reviews and actors' gossip, which really isn't my kind of thing.
+
+>go north
+ (first opening the north door)
+
+ Dining Room
+ A polished wooden dining table, large enough to seat eight or ten with
+ comfort, dominates the centre of the room, though only four chairs are
+ placed round it, while a heavy old sideboard stands to one side.  Doors
+ lead out to east and south.
+
+ On the sideboard is a dinner plate.
+
+ Obvious exits: South, East
+
+>go east
+ (first opening the west door)
+
+ Hall Passage North
+ The hall passage comes to an end outside a brown door to the north.
+ Other doors lead east and west, while the passage runs south towards
+ the main entrance hall.
+
+ Obvious exits: North, South, East, West
+
+>go south
+ Hall Passage South
+ This is the widest part of the hall, where it opens out to accommodate
+ the flight of stairs that leads up to the east.  On the other side of
+ the hall a dark panelled door stands open to the west, while the hall
+ itself continues to both north and south.
+
+ Obvious exits: North, South, West, Up
+
+>go south
+ Entrance Hall
+ The hall is quite dimly lit, with dark, oak-panelled doors to east and
+ west, the front door to the south, and a passage (effectively a
+ continuation of the hall) leading off to the north.  Against the west
+ wall, next to a small table, a venerable grandfather clock faces a pair
+ of stern Victorian portraits staring down from the opposite wall.
+
+ On the small table is a telephone.
+
+ Obvious exits: North, South, East, West
+
+>go west
+ Drawing Room
+ The drawing room looks commodious and comfortable, but its faded green
+ wallpaper suggests that it hasn't been decorated in a while.  The
+ principal furniture is arranged in a broad-U: two large armchairs
+ placed opposite each other with a settee ranged in between at right
+ angles to both of them so that it faces the fireplace.  The door back
+ out to the hall stands to the east, behind one of the chairs.
+
+ On the mantelpiece are three photographs.
+
+ Angela Croxley is sitting on the sofa.
+
+ A man I take to be Angela's father is sitting in the further armchair,
+ facing the door.
+
+ Obvious exits: East He rises from his chair at my entrance and extends
+ his hand.
+
+ "Arthur Croxley," he introduces himself.  "How do you do.  I trust
+ Hilda looked after you properly?"
+
+ (My immediate thoughts are to either say yes, or shake his hand.)
+
+>examine angela
+ She's undoubtedly a strikingly attractive young woman, what some might
+ call an English rose.  She's somewhere in her twenties, perhaps a few
+ years older than I, and has a pleasant, open, round face framed by a
+ generous bounty of wavy blonde hair.  She is sitting on the sofa.
+
+ "Hilda - she looked after you properly?"  Mr Croxley prompts me.
+
+>examine arthur
+ He is probably about sixty, or maybe in his late fifties, with a rather
+ suave air about him.
+
+ "Hilda - she looked after you properly?"  Mr Croxley prompts me.
+
+>yes
+ "Yes indeed," I reply, "just what the doctor ordered, thank you."
+
+ "Good," he nods.  "Now, do take a seat.  We've just been discussing
+ what to do with you.  I'm afraid it really isn't at all convenient for
+ us to put you up overnight."
+
+ "But," Angela breaks in, "we can hardly just turn you out on a night
+ like this!  So we thought that we'd wait a bit to see if they mend the
+ phones, and if not, and the worst came to the worst, you could sleep
+ down here on the sofa - that will be all right, won't it Mr Percy?"
+
+ (Amongst other things, I could say yes or no, or thank her.)
+
+>examine photograph
+ Which photograph do you mean, the photograph of an RAF pilot, the
+ photograph of a soldier, or the photograph of a woman?
+
+>thank her
+ "Thank you, that would be very kind," I reply.
+
+ "Good, that's settled then," she declares.
+
+ Mr Croxley sits on the further armchair.  "Very well, then," Mr Croxley
+ sighs.  "Lieutenant, since it seems you're destined to spend the
+ evening with us, do please take a seat.  So, tell me, where were you
+ trying to get to?"
+
+ (My immediate thoughts are to either refuse to answer, or tell him
+ about my camp.)
+
+>sit
+ (on the spare armchair)
+ I sit on the spare armchair.
+
+>undo
+ Taking back one turn: "sit".
+
+ Drawing Room
+ The drawing room looks commodious and comfortable, but its faded green
+ wallpaper suggests that it hasn't been decorated in a while.  The
+ principal furniture is arranged in a broad-U: two large armchairs
+ placed opposite each other with a settee ranged in between at right
+ angles to both of them so that it faces the fireplace.  The door back
+ out to the hall stands to the east, behind one of the chairs.
+
+ On the mantelpiece are three photographs.
+
+ Angela Croxley is sitting on the sofa.
+
+ Mr Croxley is sitting on the further armchair.
+
+ Obvious exits: East
+
+>shit
+ (sit)
+
+ (on the spare armchair)
+ I sit on the spare armchair.
+
+>hi arthur
+ The story doesn't understand that command.
+
+>tell arthur about camp
+ "I've been posted to a camp on Salisbury Plain," I tell him, "but
+ that's really as much as I'm at liberty to say."
+
+ "Quite so, lieutenant, careless talk and all that," he approves.
+ "Well, at least it shouldn't be too far for you to reach in the
+ morning."
+
+>yes
+ Mr Croxley does not respond.
+
+>whistle
+ The word "whistle" is not necessary in this story.
+
+>sing
+ I don't want to inflict my singing on anyone else.
+
+>ask arthur about himself
+ "So tell me, sir, what do you do?"  I ask.
+
+ "Oh nothing very exciting, I assure you," he replies with a
+ self-deprecating smile.  "I'm just a country solicitor - wills,
+ conveyancing, that sort of thing."
+
+>ask arthur about hilda
+ "I'm a little surprised to find you employing a German housekeeper," I
+ remark.  "I thought they were locking up German nationals as enemy
+ aliens!"
+
+ "Not all of them," he replies.  "Hilda is Jewish - she came to this
+ country a year or two back.  Things got very bad for German Jews after
+ Kristallnacht, and I gather most of the rest of her family managed to
+ get themselves arrested one way or another.  I hardly think there's any
+ risk of her being a closet Nazi!"
+
+>a him about sign
+ I talk about that with him for a while, but the conversation is hardly
+ memorable.
+
+>ask arthur about angela
+ "Tell me about your daughter," I suggest.
+
+ "I'm sure she's quite capable of telling you about herself," he points
+ out.
+
+>examine raf pilot
+ The photograph shows a blond man in his early twenties wearing an RAF
+ uniform with pilot's wings.
+
+>ask him about upstairs
+ This topic doesn't seem to interest him much, so my attempt at
+ conversation proves somewhat desultory.
+
+>ask angela about angela
+ "Tell me about yourself, Miss Croxley, what do you do these days?"  I
+ ask.
+
+ "These last few months I've just been helping my father sort things
+ out," she replies.  "What with my mother dying, and Tony, and Adam...
+ well, there's a lot of sorting out to do, and as you can imagine my
+ father needs a bit of support right now."
+
+>ask angela about house
+ She rather deftly changes the subject, so I quickly find myself talking
+ about something quite different.
+
+ "Do you see those photographs, Mr Percy?"  Mr Croxley asks suddenly,
+ nodding towards the mantelpiece.  "They're the cost of this war, you
+ know!"
+
+>examine photographs
+ Two are of young men in uniform, one army, the other RAF.  The third is
+ of a middle-aged woman.
+
+>ask mr about photographs
+ "The photographs on the mantelpiece - are they members of your family?"
+ I enquire.
+
+ "Yes," he replies, a little brusquely.  "Mary was my wife.  She was
+ killed in an air-raid in London two months ago.  The boy in RAF
+ uniform, that's my older son Adam.  He was shot down over Kent in July
+ - he didn't make it, I'm afraid.  The other boy is my younger son Tony.
+ He got trapped at Dunkirk and didn't make it either."
+
+ (Amongst other things, I could say how sorry I am.)
+
+>say sorry
+ "I'm so sorry for your loss, sir," I say.  "To have lost any one of
+ them would be terrible enough, but all three in the space of a few
+ months - I hardly know what to say!"
+
+ "There's nothing you can say - you or anyone else," he replies grimly,
+ "but you'll understand why we're not over-eager to entertain hordes of
+ visitors right now."
+
+>about
+ Help Menu
+
+ 1. How to Play Interactive Fiction
+ 2. About Shelter from the Storm
+ 3. Extra Navigation Commands - GO TO and CONTINUE
+ 4. If you get stuck - THINK and THINK HARDER
+ 5. Credits
+
+ Select a topic number, or press 'p' for the previous menu or 'q' to
+ quit:
+>2
+ 2
+
+
+
+
+
+
+
+
+ About Shelter from the Storm
+
+ Works of Interactive Fiction are typically narrated in the second
+ person and present tense (e.g.  "You see a gold ring here").  From time
+ to time there have been discussions whether this convention represents
+ the best way of conveying an interactive narrative.  Shelter from the
+ Storm allows you, the player, to experiment with this by choosing the
+ person (and the tense) in which the game is narrated.  The opening
+ screen of the game asks you to choose the person and tense of the game
+ before you start, but you can also change your choice during the course
+ of play.  In particular during play you can change between first,
+ second and third person with the commands:
+
+
+ FIRST PERSON
+ SECOND PERSON
+ THIRD PERSON
+
+ You can also change between present and past tense with the commands:
+
+ PAST TENSE
+ PRESENT TENSE
+
+ Apart from that Shelter from the Storm is designed as a fairly
+ conventional piece of Interactive Fiction, with not much emphasis on
+ puzzles.  The game should be fairly straightforward, but if you need a
+ nudge you can use the commands THINK and THINK HARDER.
+
+ [The End]
+>ask arthur about wendle manor
+
+
+
+
+
+
+
+
+ Help Menu
+
+ 1. How to Play Interactive Fiction
+ 2. About Shelter from the Storm
+ 3. Extra Navigation Commands - GO TO and CONTINUE
+ 4. If you get stuck - THINK and THINK HARDER
+ 5. Credits
+
+ Select a topic number, or press 'p' for the previous menu or 'q' to
+ quit:
+>q
+ q
+
+ Done.
+
+>ask arthur about wendle manor
+ "This is quite a house you have here, sir," I remark.
+
+ "It is quite a pile, isn't it?" he replies.  "It's been in the family
+ for years, but it feels like the three of us are rattling around in it
+ rather now.  When my sons were living here too, it was different - but
+ those days are gone for good."
+
+ I hear the crunch of gravel as a car comes to a halt up on the drive
+ just outside.  Mr Croxley throws a mildly irritated glance at the
+ window, as if to say "Who could that be?"
+
+>SAVE
+>cf1
+ Saved.
+
+>stand
+ Okay, I'm now standing.
+
+ "Please do take a seat," Mr Croxley insists, waving towards the vacant
+ armchair.
+
+ There's the sound of a car door slamming, and a few moments later the
+ front door bell rings.  Angela Croxley starts to get up, but her father
+ motions her to stay put, saying "Hilda will get it; that's what we pay
+ her for."
+
+>listen
+ From the sound of the wind and rain it seems there's quite a storm
+ brewing.
+
+ "I'm sure you'll get more than enough exercise once you've arrived at
+ your camp," Mr Croxley suggests, "so why don't you give your legs a
+ rest while you have the chance?"
+
+ Footsteps clatter up the hall as someone - presumably the housekeeper -
+ goes to answer the front door.  There follows a brief rattle as the
+ front door is opened, then an equally brief exchange of voices.
+
+>examine window
+ The window is hidden behind the curtains.
+
+ "I really can't have you standing over me all evening," Mr Croxley
+ complains.  "Do please sit down, Mr Percy."
+
+ There's a quick knock and Hilda pokes her head round the door.  "Sorry
+ to disturb you, Mr Croxley," she says, "but there's a Mr Graham here to
+ see you."
+
+ Mr Croxley frowns in mild irritation and then gives a curt nod.  "Very
+ well, then, Hilda, I'd better see him in the study."  Rising to his
+ feet he adds, "If you'll excuse me for a few minutes, Mr Percy, I'm
+ sure Angela can keep you amused."
+
+ With a second curt nod, this time to his daughter, he strides from the
+ room.
+
+ "I'm sure my father won't be long," Angela Croxley assures me, with
+ just the hint of a smile.  "In the meantime, why don't you tell me more
+ about yourself, Mr Percy?  Have you been in the army long?"
+
+>sit
+ (on the spare armchair)
+ I sit on the spare armchair.
+
+ "Did you not hear me, Mr Percy?"  Angela Croxley asks, "I asked if you
+ had been the army long - so, have you?"
+
+>no
+ "No, not really," I reply.  "I joined the TA in '37 and then got called
+ up when the TA was embodied last year.  I spent a few months under
+ canvas in muddy fields doing nothing particular, and then got selected
+ for OCTU[1].  I've only just received my commission."
+
+ "What made you join the Territorials in '37?" she enquires.
+
+ (My immediate thoughts are to either blame Hitler, or say it was my
+ friends.)
+
+ (A number in [square brackets] like the one above refers to a footnote,
+ which you can read by typing FOOTNOTE followed by the number: FOOTNOTE
+ 1, for example.  Footnotes usually contain added background information
+ that might be interesting but isn't essential to the story.  If you'd
+ prefer not to see footnotes at all, you can control their appearance by
+ typing FOOTNOTES.)
+
+>friends
+ "Oh, a whole lot of my friends were joining the local platoon, so I
+ thought I'd go along too," I tell her.
+
+>note 1
+ "I see," she remarks with a gentle smile, "though somehow I suspect
+ there may have been a bit more to it than that.  So, have you been
+ enjoying the army?"
+
+ OCTU = Officer Cadet Training Unit, a unit for training the
+ commissioned officers needed for Britain's rapidly expanding wartime
+ army (which obviously couldn't all be supplied by Sandhurst).
+
+>no
+ "No, not really," I reply, "but it has its moments.  In any case,
+ nothing seems that tough after boarding for five years at a public
+ school, believe me!  Besides..."
+
+ Just at that moment the drawing door opens again and Mr Croxley takes a
+ step into the room.  "Angela, I wonder if you could join us for a
+ moment?" he asks, then turning to me he adds, "We'll be back in just a
+ jiffy, Mr Percy, if you wouldn't mind waiting here.  I expect Graham
+ will be able to offer you a lift when we're done."
+
+ Angela Croxley rises to her feet then follows her father out of the
+ room, pausing by the door to look back and flash me an apologetic
+ smile, saying, "See you in a minute; be good!"
+
+ And then they are both gone, leaving me alone in the drawing room.
+
+>look behind curtain
+ I know better than to mess with the blackout at night; I don't want to
+ attract German bombers.
+
+ I distinctly hear the sound of someone walking about upstairs.
+
+>SAVE
+>cf2
+ Saved.
+
+>look
+ Drawing Room (sitting on the spare armchair)
+ The drawing room looks commodious and comfortable, but its faded green
+ wallpaper suggests that it hasn't been decorated in a while.  The
+ principal furniture is arranged in a broad-U: two large armchairs
+ placed opposite each other with a settee ranged in between at right
+ angles to both of them so that it faces the fireplace.  The door back
+ out to the hall stands to the east, behind the chair on which I'm
+ sitting.
+
+ On the mantelpiece are three photographs.
+
+ Obvious exits: East
+
+ Somewhere upstairs a door closes.
+
+>go east
+ (first standing up)
+
+ Entrance Hall
+ The hall is quite dimly lit, with dark, oak-panelled doors to east and
+ west, the front door to the south, and a passage (effectively a
+ continuation of the hall) leading off to the north.  Against the west
+ wall, next to a small table, a venerable grandfather clock faces a pair
+ of stern Victorian portraits staring down from the opposite wall.
+
+ On the small table is a telephone.
+
+ Obvious exits: North, South, East, West
+
+>go north
+ Hall Passage South
+ This is the widest part of the hall, where it opens out to accommodate
+ the flight of stairs that leads up to the east.  On the other side of
+ the hall a dark panelled door stands open to the west, while the hall
+ itself continues to both north and south.
+
+ Obvious exits: North, South, West, Up
+
+ I hear the sound of someone coughing upstairs.
+
+>go up
+ I climb the staircase up to the floor above.
+
+ Landing North
+ At first sight, this part of the landing has a rather higgledy-piggledy
+ appearance, with doors leading off in all directions, the space being
+ divided by the stair banister, and the landing continuing past the
+ banister to the south.  As I get my bearings I observe that the doors
+ lead off to north, northeast, east and west.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+ I hear the sound of a toilet flushing just to the east.
+
+>go east
+ (first trying to open the east door)
+ The east door seems to be locked.
+
+>go north
+ (first opening the north door)
+
+ Master Bedroom
+ My first impression is of the sheer size of this room, almost enough
+ for a couple of football pitches, I think.  Of course that is a wild
+ exaggeration, but it is large for a bedroom, with plenty of empty
+ floorspace left over even with a large double bed and heavy chest of
+ drawers occupying their share.  Looking around further little else
+ catches my eye apart from the pale cream wallpaper and doors to south
+ and west.
+
+ On the chest of drawers is a family photo.
+
+ Obvious exits: South, West
+
+>examine photo
+ The photograph shows what looks like a family group.  Mr Croxley looks
+ much as he does in the flesh, suggesting that the photo is fairly
+ recent.  The young man in the picture closely resembles that in the
+ picture of Tony Croxley in the drawing room.  The three women in the
+ picture are less familiar.  All three have dark, curly hair, worn a bit
+ shorter on the older woman than the younger two.  The older woman
+ strikes me as being a bit plain, while the younger two, though
+ sufficiently like her to be her daughters, look moderately pretty.
+
+>look under bed
+ I peer under the bed, but spot nothing of interest.
+
+>go west
+ En-Suite Bathroom
+ The master bathroom looks as if it has been completely refurbished
+ sometime in the last few years; the fittings are all styled with
+ nineteen-thirties chic, while the white tiles covering the walls all
+ look still quite new.  The door out is to the east, while a small round
+ waste bin sits under the washbasin.
+
+ Obvious exits: East
+
+>look in bin
+ (first opening the waste bin)
+
+ There's a screwed-up ball of paper at the bottom of the bin.
+
+>get paper
+ Taken.
+
+>unscrew it
+ I flatten out the scrumpled fragment of paper as best I can.
+
+>read it
+>read it
+ Only a few words are visible: "... plan now seems unworkable...
+ ... may be advisable to terminate Durbury..."
+
+ Only a few words are visible: "... plan now seems unworkable...
+ ... may be advisable to terminate Durbury..."
+
+>thirdperson
+ (third person)
+
+ Okay, the game is now in the third person.
+
+>look
+ En-Suite Bathroom
+ The master bathroom looks as if it has been completely refurbished
+ sometime in the last few years; the fittings are all styled with
+ nineteen-thirties chic, while the white tiles covering the walls all
+ look still quite new.  The door out is to the east, while a small round
+ waste bin sits under the washbasin.
+
+ Obvious exits: East
+
+>go east
+ Master Bedroom
+ This is obviously the master bedroom; it is huge.  Even with a large
+ double bed and a heavy chest of drawers taking up much of the floor
+ space, a great deal of bare carpet remains.  The door out is to the
+ south, and a second door leads west.
+
+ On the chest of drawers is a family photo.
+
+ Obvious exits: South, West
+
+>screw paper
+ Jack sees no way to screw the scrumpled fragment.
+
+>past tense
+ Okay, the game is now in the past tense.
+
+>first person
+ Okay, the game is now in the first person.
+
+>look
+ Master Bedroom
+ This was obviously the master bedroom; it was huge.  Even with a large
+ double bed and a heavy chest of drawers taking up much of the floor
+ space, a great deal of bare carpet remained.  The door out was to the
+ south, and a second door led west.
+
+ On the chest of drawers was a family photo.
+
+ Obvious exits: South, West
+
+>go south
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>inventory
+ I was carrying a theatrical magazine and a scrumpled fragment, and I
+ was wearing a beret and khaki battledress.
+
+>examine magazine
+ It seemed to be some kind of theatrical magazine, dated September 1940.
+
+>read magazine
+ I leafed quickly through the magazine, and found it to be full of play
+ reviews and actors' gossip, which really wasn't my kind of thing.
+
+>look up angela in magazine
+ That was not something I could consult.
+
+>put fragment in magazine
+ I couldn't put anything in the theatrical magazine.
+
+>go south
+ Landing South
+ This section of the landing was much narrower than the part further
+ north, being no more than a passage between the rooms on either side.
+ The landing ended at a narrow curtained window immediately to the south
+ and continued past the banister to the north, while white panelled
+ doors led off to east and west.
+
+ Obvious exits: North, East, West
+
+>eat fragment
+ The scrumpled fragment looked remarkably unappetizing.
+
+>unscrew it
+ The scrumpled fragment had already been flattened out as best it could
+ be.
+
+>go east
+ (first opening the east door)
+
+ Square Bedroom
+ My first impression was of a room that felt rather cramped because it
+ contained too much furniture.  The large white wardrobe in the corner
+ was the main culprit, although a low wooden cabinet, which didn't match
+ it at all well, also consumed more than its fair share of space,
+ leaving the single bed against the opposite wall to be tucked in almost
+ as an afterthought.  This clutter of furniture allowed just about
+ enough room to navigate a path from the bed to the door, which led out
+ to the west.
+
+ On the cabinet was a wind-up gramophone.
+
+ Obvious exits: West
+
+>examine gramophone
+ It was basically a large black box with a handle protruding from one
+ side to allow it to be wound up.  It was closed.
+
+>open it
+ I opened it up.  Inside the gramophone were a turntable, a pickup arm,
+ and a small brass switch.
+
+>examine turntable
+ It was round, black, and about nine inches in diameter.
+
+>examine arm
+ It was black and just under a foot long, with a stylus fixed to the
+ free end.
+
+>open wardrobe
+ Opening the tall wooden wardrobe revealed a variety of men's clothes.
+
+>examine clothes
+ A number of shirts, jackets and pairs of trousers were hung up on the
+ rail, while a pile of underwear sat to one side.  All the clothing
+ appeared to be of a large size, much of it was quite plain, and some of
+ it was distinctly shabby.
+
+>search underwear
+ A moderately thorough search of the clothes in the wardrobe turned up
+ nothing of interest.
+
+>push clothes aside
+ The word "aside" is not necessary in this story.
+
+>enter wardrobe
+ There was no room for me in the wardrobe.
+
+>enter narnia
+ The word "narnia" is not necessary in this story.
+
+>examine cabinet
+ The cabinet was quite long but no more than about three foot high, and
+ could have been made of oak.  It had a flat top and pair of carved oak
+ doors on the front.  It was closed.  On the cabinet was a wind-up
+ gramophone.
+
+>open cabinet
+ Opening the cabinet revealed three gramophone records (a classical
+ record, a jazz record, and a linguaphone record).
+
+>examine linguaphone
+ It was labelled "Linguaphone German I".
+
+>examine classical
+ It was labelled "Beethoven Overtures".
+
+>examine bed
+ It was a single bed, freshly made with a clean pillow at one end.
+
+>look under bed
+ I found nothing under the bed.
+
+>look under bed
+ I found nothing under the bed.
+
+>examine pillow
+ It was an ordinary enough pillow, clean and white.
+
+>look under pillow
+ Under the pillow I found a neatly-folded pair of blue striped pyjamas.
+ Careful to leave everything looking undisturbed I put the pillow back
+ on top of them.
+
+>examine jazz
+ It was labelled "Glenn Miller in Concert".
+
+>put linguaphone on turntable
+ (first taking the linguaphone record)
+ Done.
+
+>look
+ Square Bedroom
+ This bedroom was more or less square, and not particularly large.  Most
+ of the space was taken up by the bed, a tall wooden wardrobe and a
+ large wooden cabinet, while the walls were covered in striped blue
+ wallpaper.  The door out was to the west.
+
+ On the cabinet was a wind-up gramophone.  On the turntable was a
+ linguaphone record.  The cabinet contained two gramophone records (a
+ classical record and a jazz record).  The tall wooden wardrobe
+ contained a variety of men's clothes.
+
+ Obvious exits: West
+
+>press switch
+>look under bed
+ Nothing happened, presumably because the gramophone wasn't wound up.
+
+ I found nothing under the bed.
+
+>wind up gramophone
+ I turned the handle until it was fully wound.  The turntable started to
+ turn, spinning the linguaphone record with it.
+
+>put pickup on linguaphone
+ I moved the arm over the record and carefully lowered the stylus onto
+ it.  From the gramophone issued a crackly German voice.  "Erste
+ Lektion: Die Familie Schneider.  Das Bild zeigt uns ein Wohnzimmer.  In
+ dem Wohnzimmer ist die Familie Schneider.  Zur Familie gehoren der
+ Grossvater, die Grossmutter, der Vater, die Mutter, der Sohn, die
+ Tochter, und das kleine Madchen.  Der Grossvater sitzt in einem Sessel.
+ Er raucht eine Pfeife.  Die Grossmutter sitzt auch in..."  At that
+ point I decided I had heard enough.  My German wasn't up to much, but
+ it sounded like an elementary German lesson to me.  I removed the arm
+ from the linguaphone record and switched the turntable off.  The
+ turntable stopped turning.
+
+>put jazz on turntable
+ (first taking the jazz record, then taking the linguaphone record from
+ the turntable)
+ Done.
+
+>put pickup on linguaphone
+ I couldn't put the arm on the linguaphone record unless the linguaphone
+ record was on the turntable.
+
+>wind up gramophone
+ The handle was fully wound.
+
+>put arm on record
+ I moved the arm over the record and carefully lowered the stylus onto
+ it.
+
+>press switch
+ The turntable started to turn, spinning the jazz record with it.  A
+ rather tinny recording of Glenn Miller's band playing In the Mood
+ emanated from the gramophone.  Since I didn't want to attract attention
+ to myself I stopped it after the first few bars. I removed the arm from
+ the jazz record and switched the turntable off.  The turntable stopped
+ turning.
+
+>put classical on turntable
+ (first taking the classical record, then taking the jazz record from
+ the turntable)
+ Done.
+
+>put arm on record
+ I moved the arm over the record and carefully lowered the stylus onto
+ it.
+
+>press switch
+ The turntable started to turn, spinning the classical record with it.
+ From the gramophone came a scratchy recording of Beethoven's Egmont
+ overture.  After the first few bars I decided I had heard enough.  I
+ removed the arm from the classical record and switched the turntable
+ off.  The turntable stopped turning.
+
+>look
+ Square Bedroom
+ This bedroom was more or less square, and not particularly large.  Most
+ of the space was taken up by the bed, a tall wooden wardrobe and a
+ large wooden cabinet, while the walls were covered in striped blue
+ wallpaper.  The door out was to the west.
+
+ On the cabinet was a wind-up gramophone.  On the turntable was a
+ classical record.  The tall wooden wardrobe contained a variety of
+ men's clothes.
+
+ Obvious exits: West
+
+>examine wallpaper
+ The wallpaper had alternate light and dark blue stripes.
+
+>look
+ Square Bedroom
+ This bedroom was more or less square, and not particularly large.  Most
+ of the space was taken up by the bed, a tall wooden wardrobe and a
+ large wooden cabinet, while the walls were covered in striped blue
+ wallpaper.  The door out was to the west.
+
+ On the cabinet was a wind-up gramophone.  On the turntable was a
+ classical record.  The tall wooden wardrobe contained a variety of
+ men's clothes.
+
+ Obvious exits: West
+
+>take classical
+ Taken.
+
+>look behind wardrobe
+ I couldn't see anything behind the tall wooden wardrobe.
+
+>put classical in cabinet
+ Done.
+
+>close cabinet
+ Closed.
+
+>close gramophone
+ Closed.
+
+>close wardrobe
+ Closed.
+
+>go west
+ Not wanting either to be encumbered with other people's property, or to
+ be caught stealing it, I dropped two gramophone records (the
+ linguaphone record and the jazz record) before leaving the room.
+
+ Landing South
+ This section of the landing was much narrower than the part further
+ north, being no more than a passage between the rooms on either side.
+ The landing ended at a narrow curtained window immediately to the south
+ and continued past the banister to the north, while white panelled
+ doors led off to east and west.
+
+ Obvious exits: North, East, West
+
+>go west
+ (first trying to open the west door)
+ The west door seemed to be locked.
+
+>break west door
+ I was a British officer, not a Nazi one; I didn't go breaking down
+ doors in people's homes.
+
+>examine west door
+ It was a four-paneled door, painted white, and newly fitted with a
+ solid brass lock.  It was closed.
+
+>knock on west door
+ I knocked on the west door.  There was no response.
+
+>examine keyhole
+ The word "keyhole" is not necessary in this story.
+
+>examine panels
+ I saw no panels there.
+
+>go north
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>go west
+ (first opening the west door)
+
+ Angela's Bedroom
+ This generous-sized bedroom immediately struck me as belonging to a
+ woman.  There was nothing particularly feminine about the pale blue
+ wallpaper, so that wasn't it.  The dressing table by the window was
+ more distinctively female, but perhaps what first hit me was the subtle
+ smell of the place.  Both the location and the size of the room made me
+ suspect that the room was far more likely to be Angela Croxley's than
+ the housekeeper's.
+
+ In addition to the dressing table a low bedside cabinet squatted next
+ to the single bed, while a built-in wardrobe occupied much of the north
+ wall.  The only door out was to the east.
+
+ The top of the dressing-table was littered with feminine paraphernalia.
+
+ On the bedside cabinet was an alarm clock.
+
+ Obvious exits: East
+
+>examine paraphernalia
+ There was a large hair-brush and comb, some lipstick, the odd
+ powder-puff or two, some tweezers, a small bottle of nail-varnish, and
+ a few more bits and pieces of that sort, all vaguely esoteric to my
+ bachelor eyes.
+
+>look
+ Angela's Bedroom
+ This good-sized bedroom was decorated with pale blue wallpaper.  A
+ dressing-table stood near the window, suggesting female occupancy, as
+ did the feminine scent of the place.  A low bedside cabinet squatted
+ next to the single bed, while a built-in wardrobe occupied much of the
+ north wall.  The only door out was to the east.
+
+ The top of the dressing-table was littered with feminine paraphernalia.
+
+ On the bedside cabinet was an alarm clock.
+
+ Obvious exits: East
+
+>examine paraphernalia
+ There was a large hair-brush and comb, some lipstick, the odd
+ powder-puff or two, some tweezers, a small bottle of nail-varnish, and
+ a few more bits and pieces of that sort, all vaguely esoteric to my
+ bachelor eyes.
+
+>examine cabinet
+ It was a small, white, square cabinet with a single drawer.  It was
+ closed.  On the bedside cabinet was an alarm clock.
+
+>examine alarm clock
+ It was a round brass-coloured clock which showed the time as
+ twenty-eight minutes to eight.
+
+>open drawer
+ Opening the bedside cabinet revealed two books (a dark blue book and a
+ brown book) and a letter.
+
+>read letter
+ It was dated 10th August 1940, but the sender's address had been
+ deleted by the censor.  The body of the letter read:
+
+ "My darling Angie, This is just a few lines to say I'm thinking of you.
+ I'm sorry I haven't written more, but things have been a bit hectic
+ here lately - Jerry isn't giving us much rest I'm afraid.  Still, I
+ bagged a couple of Messerschmitts yesterday, and I think I winged a
+ Heinkel too.  If I carry on at this rate old Hermann will run out of
+ aircraft to send at us!  But with any luck I may get a spot of leave
+ then - I can't wait to see you!  In any case, Adolf has to give up
+ sooner or later and once this war is over we can be together properly -
+ oh damn, that's the phone going.  Probably another scramble, so I'd
+ better finish this now.
+
+ All my love, Adam.
+
+ P.S.  Yes, a scramble.  More later."
+
+>examine books
+ brown book: It was a copy of Der Zauberberg by Thomas Mann.
+
+ dark blue book: The inscription on the spine showed it to be a copy of
+ the novel Lorna Doone by R.D.  Blackmore.
+
+>examine books
+ brown book: It was a copy of Der Zauberberg by Thomas Mann.
+
+ dark blue book: The inscription on the spine showed it to be a copy of
+ the novel Lorna Doone by R.D.  Blackmore.
+
+>examine zuberberg
+ (x zauberberg)
+
+ It was a copy of Der Zauberberg by Thomas Mann.
+
+>open it
+ It was all in German, which I didn't read, but as I opened it a piece
+ of paper fell out and fluttered to the floor.
+
+>examine paper
+ (the scrumpled fragment)
+ It was just a tiny fragment, still badly creased, with just a few words
+ on it.
+
+>read paper
+ (the scrumpled fragment)
+ Only a few words were visible: "... plan now seems unworkable...
+ ... may be advisable to terminate Durbury..."
+
+>examine piece of paper
+ It looked like a scrap of paper torn from a larger sheet.  It was
+ covered in letters and numbers.
+
+>take it
+ Taken.
+
+>read it
+ The letters and numbers on the piece of paper didn't make much sense,
+ though there seemed to be quite a few crossings-out.  It occurred to me
+ that some of the numbers could be page numbers, but looking them up in
+ the book from which the piece of paper fell probably wouldn't tell me
+ much, due to my lack of German.
+
+>credits
+ Shelter from the Storm by Eric Eve
+
+ First and foremost, all credit to Michael J.  Roberts for creating TADS
+ 3, and Michel Nizette for his work on devising a neat tense-switching
+ mechanism, which was subsequently incorporated into the adv3 library;
+ without their work this project would have been impossible.
+
+ But just as important, many thanks to my sterling team of beta-testers:
+ Jim Aikin, Radical Al, Parham Doustdar, Keaton Graves, Jonathan Li,
+ Reiko, Michael Neal Tenuis, and Jack Welch.  Without them a huge number
+ of tense/person switching typos would have gone uncorrected, as well as
+ a number of more serious bugs (including various cunning ways of
+ getting the game into an unwinnable state).  As a result of all their
+ efforts this game is a far more polished offering than it otherwise
+ would have been.  The blunders that remain are, of course, no one's
+ fault but my own.
+
+>open brown book
+ It was all in German, which I didn't read.
+
+>examine books
+ brown book: It was a copy of Der Zauberberg by Thomas Mann.
+
+ dark blue book: The inscription on the spine showed it to be a copy of
+ the novel Lorna Doone by R.D.  Blackmore.
+
+>decode piece
+ The word "decode" is not necessary in this story.
+
+>examine lorna doone
+ The inscription on the spine showed it to be a copy of the novel Lorna
+ Doone by R.D.  Blackmore.
+
+>read lorna doone
+ I didn't have time to read the entire novel, but opening it revealed a
+ handwritten inscription on the title page: "To Angie, from your loving
+ brother Jeremy."
+
+>examine piece
+ Which piece do you mean, the dressing table, or the piece of paper?
+
+>paper
+ It looked like a scrap of paper torn from a larger sheet.  It was
+ covered in letters and numbers.
+
+>look
+ Angela's Bedroom
+ This good-sized bedroom was decorated with pale blue wallpaper.  A
+ dressing-table stood near the window, suggesting female occupancy, as
+ did the feminine scent of the place.  A low bedside cabinet squatted
+ next to the single bed, while a built-in wardrobe occupied much of the
+ north wall.  The only door out was to the east.
+
+ The top of the dressing-table was littered with feminine paraphernalia.
+
+ On the bedside cabinet was an alarm clock.  The bedside cabinet
+ contained two books (a dark blue book and a brown book) and a letter.
+
+ Obvious exits: East
+
+>inventory
+ I was carrying a theatrical magazine, a scrumpled fragment, and a piece
+ of paper, and I was wearing a beret and khaki battledress.
+
+>examine wardrobe
+ The wardrobe occupied much of the north wall, into which it was built.
+ Since it was closed, all I could see of it are its doors.
+
+>look under bed
+ Looking under the bed revealed nothing of interest; indeed it revealed
+ nothing at all.
+
+>open wardrobe
+ A modest collection of clothes hung in the wardrobe.
+
+>examine clothes
+ A modest collection of workaday clothes hung in the wardrobe: a small
+ selection of blouses, skirts and trousers, but no dresses or anything
+ particularly fancy.  A closer examination of the clothes revealed a
+ long wooden pole half-hidden behind.
+
+>examine pole
+ It was about three feet long, and had a small brass hook on one end.
+
+>take pole
+ Taken.
+
+>examine ceiling
+ I saw nothing unusual about it.
+
+>look
+ Angela's Bedroom
+ This good-sized bedroom was decorated with pale blue wallpaper.  A
+ dressing-table stood near the window, suggesting female occupancy, as
+ did the feminine scent of the place.  A low bedside cabinet squatted
+ next to the single bed, while a built-in wardrobe occupied much of the
+ north wall.  The only door out was to the east.
+
+ A modest collection of clothes hung in the wardrobe.
+
+ The top of the dressing-table was littered with feminine paraphernalia.
+
+ On the bedside cabinet was an alarm clock.  The bedside cabinet
+ contained two books (a dark blue book and a brown book) and a letter.
+
+ Obvious exits: East
+
+>examine dressing table
+ It was a reasonably elegant piece of furniture, though a closer
+ inspection indicated that it was probably rather more inexpensive than
+ a cursory glance might suggest.  It was white all over, apart from the
+ gold trim round the edges, and had a glass top covering its upper
+ surface and a rather cheap-looking mirror.
+
+ The top of the dressing-table was littered with feminine paraphernalia.
+
+>look in mirror
+ I saw my own reflection.
+
+>push mirror
+ The mirror could not be moved.
+
+>go east
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>examine ceiling
+ I saw nothing unusual about it.
+
+>inventory
+ I was carrying a theatrical magazine, a scrumpled fragment, a piece of
+ paper, and a long wooden pole, and I was wearing a beret and khaki
+ battledress.
+
+>go east
+ (first trying to open the east door)
+ The east door seemed to be locked.
+
+>examine east door
+ It was a plain white door.  It was closed.
+
+>go northeast
+ (first opening the northeast door)
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  In the ceiling
+ was a trapdoor that looked firmly closed, while a narrow flight of
+ stairs led down to the floor below.
+
+ Obvious exits: West, Southwest, Up, Down
+
+>examine trapdoor
+ The trapdoor was painted white to match the ceiling.  At one end was a
+ small white ring.
+
+>get ring with pole
+ The story doesn't understand that command.
+
+>go west
+>pull ring with pole
+ (first opening the west door)
+
+ Housekeeper's Bedroom
+ It was the smell that first made me think this must be the
+ housekeeper's bedroom, or rather that indefinable mix of smells that I
+ associated with middle-aged women - that and the location of the room
+ in what I took to be the servant quarters.  The room was of a fairly
+ generous size, and looked reasonably comfortable.  A single bed rested
+ against the north wall, at the far end of the room from the only door,
+ which led out to the east.  The other furniture consisted of a small
+ upright wardrobe, a plain dressing table, and a low chest of drawers,
+ all made of some dark wood and all of equally utilitarian appearance.
+
+ Obvious exits: East
+
+ I saw no ring there.
+
+>go east
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  In the ceiling
+ was a trapdoor that looked firmly closed, while a narrow flight of
+ stairs led down to the floor below.
+
+ Obvious exits: West, Southwest, Up, Down
+
+>pull ring with pole
+ I pulled open the trapdoor with the long wooden pole, and a ladder
+ descended down out of the ceiling.
+
+>go up
+ I scrambled up the ladder.
+
+ Attic (in the dark)
+ It was profoundly dark up there, with nothing visible apart from the
+ open hatch leading back down.
+
+ Obvious exits: Down
+
+>shout
+>I guess we need a torch
+ That hardly seemed called for.
+
+ The word "guess" is not necessary in this story.
+
+>go down
+ I climbed back down the ladder.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ Obvious exits: West, Southwest, Up, Down
+
+>examine cupboard
+ It was built into the east wall.  It was currenly closed, so all I
+ could see are its doors.
+
+>open it
+ On the shelves were a pair of folded white sheets.
+
+>look under sheets
+ Under the folded white sheets was a slip of paper.
+
+>get paper
+ I took the slip of paper.
+
+>read paper
+ Which paper do you mean, the scrumpled fragment, the piece of paper, or
+ the slip of paper?
+
+>slip
+ It was headed Joseph Mainwaring & Sons - Locksmiths, 24 High Street,
+ Amesbury, under which was written "To cutting one duplicate key: 2s 7d.
+ Payment received with thanks."
+
+>go west
+ Housekeeper's Bedroom
+ The room was of a fairly generous size, and looked reasonably
+ comfortable.  A single bed rested against the north wall, at the far
+ end of the room from the only door, which led out to the east.  The
+ other furniture consisted of a small upright wardrobe, a plain dressing
+ table, and a low chest of drawers, all made of some dark wood and all
+ of equally utilitarian appearance.
+
+ Obvious exits: East
+
+>search chest
+ A thorough search of the other furniture in the room - the wardrobe,
+ the dressing table and the chest of drawers - revealed nothing at all
+ unexpected, just the kind of clothes and other modest possessions one
+ might have expected a refugee housekeeper to own.
+
+>look under bed
+ Under the bed was a small brown suitcase.
+
+>get suitcase
+ I picked up the small brown suitcase.
+
+>open it
+>open it
+ The small brown suitcase seemed to be locked.
+
+ The small brown suitcase seemed to be locked.
+
+>examine suitcase
+ It looked rather battered and scratched, as if it had been subjected to
+ a series of indignities over a prolonged period of time.  It was
+ closed.
+
+>search bed
+ I didn't really know what I was looking for, but I conducted a rapid
+ search of the bed while trying not to disturb anything; my search
+ proves fruitless.
+
+>look
+ Housekeeper's Bedroom
+ The room was of a fairly generous size, and looked reasonably
+ comfortable.  A single bed rested against the north wall, at the far
+ end of the room from the only door, which led out to the east.  The
+ other furniture consisted of a small upright wardrobe, a plain dressing
+ table, and a low chest of drawers, all made of some dark wood and all
+ of equally utilitarian appearance.
+
+ Obvious exits: East
+
+>look under pillow
+ I saw no pillow there.
+
+>examine bed
+ It was an ordinary single bed, remarkable only for the neatness with
+ which it had been made, and for the fact that it stood well clear of
+ the ground with ample storage space beneath.
+
+>examine table
+ The other furniture consisted of a small upright wardrobe, a plain
+ dressing table, and a low chest of drawers, all made of some dark wood
+ and all of equally utilitarian appearance.
+
+>find key
+ (going east)
+
+ Not wanting either to be encumbered with other people's property, or to
+ be caught stealing it, I dropped the small brown suitcase before
+ leaving the room.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Obvious exits: West, Southwest, Up, Down
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going southwest)
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going down)
+
+ I descended the staircase back down to the hall.
+
+ Hall Passage South
+ This was the widest part of the hall, where it opened out to
+ accommodate the flight of stairs that led up to the east.  On the other
+ side of the hall a dark panelled door stood open to the west, while the
+ hall itself continued to both north and south.
+
+ Obvious exits: North, South, West, Up
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going north)
+
+ Hall Passage North
+ The hall passage came to an end outside a brown door to the north.
+ Other doors led east and west, while the passage ran south towards the
+ main entrance hall.
+
+ Obvious exits: North, South, East, West
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going east)
+
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Obvious exits: North, South, West
+
+ I had arrived at the place where I last saw the key.
+
+>examine key
+ I saw no key there.
+
+>examine table
+ The sturdy table, made of seasoned oak, looked as if it might well have
+ done duty since the reign of Queen Victoria.
+
+>examine chair
+ It was a plain, straight-backed chair.
+
+>examine calendar
+ It was one of those plain calendars that simply lists the days of the
+ current month in a square grid; it was currently showing October 1940.
+
+>look behind calendar
+ I saw no reason to meddle with it.
+
+>turn page
+ I saw no page there.
+
+>turn calendar
+ I saw no reason to meddle with it.
+
+>look up august on calendar
+ What do you want to look that up in?
+
+>calendar
+ I saw no reason to meddle with it.
+
+>turn page
+ I saw no page there.
+
+>examine august
+ The word "august" is not necessary in this story.
+
+>use calendar
+ I saw no reason to meddle with it.
+
+>look
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Obvious exits: North, South, West
+
+>/undo
+ The story doesn't know how to use the character '/' in a command.
+
+>undo
+ Taking back one turn: "l".
+
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Obvious exits: North, South, West
+
+>undo
+ Taking back one turn: "use calendar".
+
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Obvious exits: North, South, West
+
+>undo
+ Taking back one turn: "look up august on calendar".
+
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Obvious exits: North, South, West
+
+>undo
+ Taking back one turn: "turn calendar".
+
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Obvious exits: North, South, West
+
+>undo
+ Taking back one turn: "look behind calendar".
+
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Obvious exits: North, South, West
+
+>go west
+ Hall Passage North
+ The hall passage came to an end outside a brown door to the north.
+ Other doors led east and west, while the passage ran south towards the
+ main entrance hall.
+
+ Obvious exits: North, South, East, West
+
+>go south
+ Hall Passage South
+ This was the widest part of the hall, where it opened out to
+ accommodate the flight of stairs that led up to the east.  On the other
+ side of the hall a dark panelled door stood open to the west, while the
+ hall itself continued to both north and south.
+
+ Obvious exits: North, South, West, Up
+
+>go up
+ I climbed the staircase up to the floor above.
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>ne. d
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Obvious exits: West, Southwest, Up, Down
+
+ I went down the back stairs to the back passage below.
+
+ Back Passage
+ The back passage was a short, narrow space leading from the kitchen
+ door (to the south) to the back door (to the north) between two other
+ doors to east and west.  The space was further constricted by a flight
+ of stairs leading up to the floor above.
+
+ Obvious exits: North, South, East, West, Up
+
+>go west
+ (first opening the west door)
+
+ Maids' Parlour
+ If the location of this modest-sized rectangular room had not in any
+ case suggested that it was the maids' parlour, the mild shabbiness of
+ its furnishings would probably have given the game away.  Now that the
+ housekeeper was apparently the only member of domestic staff retained
+ under conditions of wartime austerity, it apparently doubled as her
+ workroom and sitting-room.  A battered arm chair nestled against a
+ small, scratched wooden table in one corner, while an ironing board was
+ set up near the middle of the room, strategically close to the
+ fireplace.  The sole door out was to the east.
+
+ On the peg was a dark coat.  On the small table was a wireless.
+
+ Hilda was busily doing some ironing.
+
+ The wireless was playing the Tannhauser overture.
+
+ Obvious exits: East
+
+ "Where you get all that from?"  Hilda demanded, seeing all the stuff I
+ was carrying.  "You have come to rob us?  I tell Mr Croxley for sure!"
+
+ (My best response seemed to be to make some excuse.)
+
+>make excuse
+ "It's only some bits and pieces I happened to find lying around," I
+ said.
+
+ "Too many bits; too many pieces," she complained.  "I tell Mr Croxley
+ you are thief!"
+
+>hit her
+ I couldn't do that - I was an officer in the Royal Engineers, not the
+ SS!
+
+ The wireless continued to play Tannhauser.
+
+>tell her about spy
+ "That is - how you say? - not at all unboring," she remarked.
+
+>show slip to hilda
+ "What do you make of this?"  I asked.
+
+ She took the slip of paper from me and glanced at it briefly before
+ handing it back.  "Ich weiss nicht - I not know nothing about it." she
+ replied, perhaps just a little too firmly.
+
+>undo
+ Taking back one turn: "show slip to hilda".
+
+ Maids' Parlour
+ If the location of this modest-sized rectangular room had not in any
+ case suggested that it was the maids' parlour, the mild shabbiness of
+ its furnishings would probably have given the game away.  Now that the
+ housekeeper was apparently the only member of domestic staff retained
+ under conditions of wartime austerity, it apparently doubled as her
+ workroom and sitting-room.  A battered arm chair nestled against a
+ small, scratched wooden table in one corner, while an ironing board was
+ set up near the middle of the room, strategically close to the
+ fireplace.  The sole door out was to the east.
+
+ On the peg was a dark coat.  On the small table was a wireless.
+
+ Hilda was still ironing away.
+
+ The overture playing on the radio reached a stirring rendition of the
+ Pilgrim's Chorus.
+
+ Obvious exits: East
+
+>kiss Hilda
+ I didn't really fancy her.
+
+>undo
+ Taking back one turn: "kiss Hilda".
+
+ Maids' Parlour
+ If the location of this modest-sized rectangular room had not in any
+ case suggested that it was the maids' parlour, the mild shabbiness of
+ its furnishings would probably have given the game away.  Now that the
+ housekeeper was apparently the only member of domestic staff retained
+ under conditions of wartime austerity, it apparently doubled as her
+ workroom and sitting-room.  A battered arm chair nestled against a
+ small, scratched wooden table in one corner, while an ironing board was
+ set up near the middle of the room, strategically close to the
+ fireplace.  The sole door out was to the east.
+
+ On the peg was a dark coat.  On the small table was a wireless.
+
+ Hilda was still ironing away.
+
+ The wireless broadcast reached a quieter passage.
+
+ Obvious exits: East
+
+>undo
+ Taking back one turn: "tell her about spy".
+
+ Maids' Parlour
+ If the location of this modest-sized rectangular room had not in any
+ case suggested that it was the maids' parlour, the mild shabbiness of
+ its furnishings would probably have given the game away.  Now that the
+ housekeeper was apparently the only member of domestic staff retained
+ under conditions of wartime austerity, it apparently doubled as her
+ workroom and sitting-room.  A battered arm chair nestled against a
+ small, scratched wooden table in one corner, while an ironing board was
+ set up near the middle of the room, strategically close to the
+ fireplace.  The sole door out was to the east.
+
+ On the peg was a dark coat.  On the small table was a wireless.
+
+ Hilda was still ironing away.
+
+ The overture playing on the radio reached a stirring rendition of the
+ Pilgrim's Chorus.
+
+ Obvious exits: East
+
+>undo
+ Taking back one turn: "hit her".
+
+ Maids' Parlour
+ If the location of this modest-sized rectangular room had not in any
+ case suggested that it was the maids' parlour, the mild shabbiness of
+ its furnishings would probably have given the game away.  Now that the
+ housekeeper was apparently the only member of domestic staff retained
+ under conditions of wartime austerity, it apparently doubled as her
+ workroom and sitting-room.  A battered arm chair nestled against a
+ small, scratched wooden table in one corner, while an ironing board was
+ set up near the middle of the room, strategically close to the
+ fireplace.  The sole door out was to the east.
+
+ On the peg was a dark coat.  On the small table was a wireless.
+
+ Hilda was still ironing away.
+
+ The wireless continued to play Tannhauser.
+
+ Obvious exits: East
+
+>undo
+ Taking back one turn: "make excuse".
+
+ Maids' Parlour
+ If the location of this modest-sized rectangular room had not in any
+ case suggested that it was the maids' parlour, the mild shabbiness of
+ its furnishings would probably have given the game away.  Now that the
+ housekeeper was apparently the only member of domestic staff retained
+ under conditions of wartime austerity, it apparently doubled as her
+ workroom and sitting-room.  A battered arm chair nestled against a
+ small, scratched wooden table in one corner, while an ironing board was
+ set up near the middle of the room, strategically close to the
+ fireplace.  The sole door out was to the east.
+
+ On the peg was a dark coat.  On the small table was a wireless.
+
+ Hilda was still ironing away.
+
+ The wireless continued to play Tannhauser.
+
+ Obvious exits: East
+
+>undo
+ Taking back one turn: "w".
+
+ Back Passage
+ The back passage was a short, narrow space leading from the kitchen
+ door (to the south) to the back door (to the north) between two other
+ doors to east and west.  The space was further constricted by a flight
+ of stairs leading up to the floor above.
+
+ Obvious exits: North, South, East, West, Up
+
+>SAVE
+>cf3
+ Saved.
+
+>SAVE
+>cf4
+ Saved.
+
+>inventory
+ I was carrying a theatrical magazine, a scrumpled fragment, a piece of
+ paper, a long wooden pole, and a slip of paper, and I was wearing a
+ beret and khaki battledress.
+
+>go east
+ (first trying to open the east door)
+ The east door seemed to be locked.
+
+>drop pole
+ Dropped.
+
+>inventory
+ I was carrying a theatrical magazine, a scrumpled fragment, a piece of
+ paper, and a slip of paper, and I was wearing a beret and khaki
+ battledress.
+
+>drop magazine
+ Dropped.
+
+>drop battledress
+ (first trying to take off the khaki battledress)
+ I had no desire to walk round half-naked.
+
+>put all paper in pocket
+ I saw no pocket there.
+
+>go west
+ (first opening the west door)
+
+ Maids' Parlour
+ If the location of this modest-sized rectangular room had not in any
+ case suggested that it was the maids' parlour, the mild shabbiness of
+ its furnishings would probably have given the game away.  Now that the
+ housekeeper was apparently the only member of domestic staff retained
+ under conditions of wartime austerity, it apparently doubled as her
+ workroom and sitting-room.  A battered arm chair nestled against a
+ small, scratched wooden table in one corner, while an ironing board was
+ set up near the middle of the room, strategically close to the
+ fireplace.  The sole door out was to the east.
+
+ On the peg was a dark coat.  On the small table was a wireless.
+
+ Hilda was busily doing some ironing.
+
+ The wireless was playing the Tannhauser overture.
+
+ Obvious exits: East
+
+ "Where you get all that from?"  Hilda demanded, seeing all the stuff I
+ was carrying.  "You have come to rob us?  I tell Mr Croxley for sure!"
+
+ (My best response seemed to be to make some excuse.)
+
+>ask her about durbury
+ "Who's Durbury?"  I asked.
+
+ Hilda looked momentarily startled, then snapped, "I have no idea.  Why
+ you ask me such things?"
+
+>ask her about jeremy
+ "So?" she shrugged.
+
+ The wireless continued to play Tannhauser.
+
+>ask her about germany
+ "How was Germany, before you left?"  I enquireed.
+
+ "Very frightening," Hilda told me, "especially for Jews, but also for
+ everyone else, I think."
+
+>show piece of paper to her
+ "What do you make of this?"  I asked, showing her the piece of paper
+ covered with letters and numbers.
+
+ "Nothing," she replied, after a quick glance.  "Make no sense to me at
+ all."
+
+>examine her on the tenets of judaism
+ The word "tenets" is not necessary in this story.
+
+>ask her about adam
+ "Do you know anything about Adam Croxley?"  I asked.
+
+ "Only that he shot down by German plane," she replied.  "He was already
+ dead before I come."
+
+>ask her about tony
+ "What do you know about Tony Croxley?"  I asked.
+
+ "Not very much," she replied.  "He was Mr Croxley's son, in army, but
+ not come back from France."
+
+ The overture playing on the radio reached a stirring rendition of the
+ Pilgrim's Chorus.
+
+>ask her about angela
+ "I had quite a nice little chat with Miss Croxley," I remarked.  "She
+ certainly seems a nice girl."
+
+ "Young men are such fools, always going by what seems," she replied.
+ "I tell you, Miss Croxley not what she seem.  She don't tell truth for
+ one thing.  And then she creep about at night, waking me up when she
+ walk past my room, but denying it all.  No, Herr Leutnant, Miss Croxley
+ only seem nice.  Behind that pretty face and pretty smile is different
+ person."
+
+>ask hilda about attic
+ "What do you keep up in the attic?"  I asked.
+
+ "What a question?  Why you care what Croxleys keep in their attic!" she
+ declared.  "Besides, why would I know?  I not go there!"
+
+>ask hilda about trapdoor
+ "Where does that trapdoor upstairs lead?"  I asked.  "And how do you
+ get it open?"
+
+ "Why you want to know?" she replied crossly.  "What business of yours?
+ Why you go snooping round house?  You leave things alone, or I tell Mr
+ Croxley!"
+
+>ask hilda about suitcase
+ I didn't have the effrontery to ask Hilda about her suitcase; to have
+ done so would have been to admit that I had been searching her room.
+
+ The wireless broadcast reached a quieter passage.
+
+>examine coat
+ It was a dark coat, almost black, with a pocket to one side.
+
+>examine pocket
+ The pocket looked quite deep.
+
+>look in it
+>ask her about arthur
+ "What you think you doing?"  Hilda complained.  "Are you the Gestapo
+ now?  You leave my coat alone!"
+
+ "Tell me more about Mr Croxley," I said.  "What's he like?"
+
+ "He seem a good man," she replied.  "He has been kind to me, and - how
+ you say? - deals well with so many deaths.  Inwardly he is sad, I
+ think."
+
+>search pocket
+ "Leave coat alone!"  Hilda insisted.
+
+>ask her about sad
+ "I not talk about such things," she replied.
+
+>ask hilda about coat
+ "That's an interesting-looking coat you have there," I remarked.
+
+ "Interesting?" she queried, "Is just a coat!"
+
+>ask her for torch
+ "Is there a torch somewhere I could borrow?"  I enquired.
+
+ "What you want torch for?" she demanded suspiciously.
+
+ "In case of a power cut," I lied smoothly.  "The storm's already
+ brought the telephone lines down, so I thought the power lines might be
+ next, and I'm not sure I fancy spending the night in a strange house
+ without being able to see anything!"
+
+ "Ach!  Men are such babies - scared of the dark!  And you a soldier!"
+ she taunted.  "But I think there is spare torch in - what you call it?
+ - small room off kitchen where we store food."
+
+ The Wagner overture continued to play on the wireless.
+
+>buy coat
+ The word "buy" is not necessary in this story.
+
+>ask her about scrumpled
+ "What do you think this means?"  I asked, showing her the scrumpled
+ piece of paper with the remark about terminating Durbury on it.
+
+ For a moment she seemed quite startled as she read the scrap, but then
+ vigorously shook her head, "I have no idea!" she declared.  "No idea at
+ all!"
+
+>ask her about durbury
+ She'd already told me that she had no idea who Durbury was.
+
+>ask her about arthur
+ She'd already told me that Mr Croxley seemed a good man, who had been
+ kind to her and who seemed to be coping well with so many bereavements,
+ although she also thought that he was sad inside.
+
+>tell hilda about photo
+ "Who are those people in the photo in Mr Croxley's bedroom?"  I
+ enquired.
+
+ "How I know?" she replied.  "Why he tell me?  I not ask such things - I
+ not snoop around like you!"
+
+>ask her about graham
+ "I think I do not understand your question," she told me.
+
+>ask her about mr graham
+ "It is like this," she began.  "Ach!  I have not the words for it in
+ English!"
+
+>ask her about creak
+ "I'm sure I heard some more creaking sounds from upstairs," I said.
+ "There has to be someone moving around there - even if it's only a
+ ghost!"
+
+ "No ghosts, no people, just old house noises, like Miss Croxley say,"
+ she replied.
+
+>ask her about bedrooms
+ In reply she merely grunted and carried on ironing.
+
+>ask her about room with gramophone
+ "So many questions!" she complained.  "You are worse than the police!"
+
+>find torch
+ What do you want to look that up in?
+
+>find kitchen
+ (going east)
+
+ Hilda watched me go.
+
+ Back Passage
+ The back passage was a short, narrow space leading from the kitchen
+ door (to the south) to the back door (to the north) between two other
+ doors to east and west.  The space was further constricted by a flight
+ of stairs leading up to the floor above.
+
+ I saw a long wooden pole and a theatrical magazine there.
+
+ Obvious exits: North, South, East, West, Up
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going up)
+
+ I climbed the narrow stairs to the floor above.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Obvious exits: West, Southwest, Up, Down
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going southwest)
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going down)
+
+ I descended the staircase back down to the hall.
+
+ Hall Passage South
+ This was the widest part of the hall, where it opened out to
+ accommodate the flight of stairs that led up to the east.  On the other
+ side of the hall a dark panelled door stood open to the west, while the
+ hall itself continued to both north and south.
+
+ Obvious exits: North, South, West, Up
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going north)
+
+ Hall Passage North
+ The hall passage came to an end outside a brown door to the north.
+ Other doors led east and west, while the passage ran south towards the
+ main entrance hall.
+
+ Obvious exits: North, South, East, West
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going east)
+
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Obvious exits: North, South, West
+
+ I had arrived at the kitchen.
+
+>go south
+ (first opening the south door)
+
+ Larder
+ Shelves lined the walls to east and west, leaving a narrow aisle
+ running from the door at the northern end to the small window at the
+ other.
+
+ On the shelves were a torch, some tins, some packets, some loose
+ potatoes, and some apples.
+
+ Obvious exits: North
+
+>take torch
+ Taken.
+
+>examine packets
+>examine tins
+ Some contained flour, others bread, and others broken biscuits[2].
+
+ There were all sorts of tins there, including tinned vegetables, corned
+ beef, and various other supplies.
+
+>examine potatoes
+ Most of them looked as if they had been kept a little too long, since
+ they were beginning to sprout.
+
+>footnote 2
+>examine window
+ Broken biscuits might seem an odd thing to keep, but the point is they
+ weren't rationed.
+
+ The small window was hidden behind the curtains.
+
+>open window
+ The small window was hidden behind the curtains.
+
+>look out window
+ The small window was hidden behind the curtains.
+
+>find trapdoor
+ Which trapdoor do you mean, the hatch, or the ladder (in the upper
+ passage)?
+
+>hatch
+ I couldn't get there from here.
+
+>go north
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Obvious exits: North, South, West
+
+>find ladder
+ I couldn't get there from here.
+
+>go north
+ (first opening the north door)
+
+ Back Passage
+ The back passage was a short, narrow space leading from the kitchen
+ door (to the south) to the back door (to the north) between two other
+ doors to east and west.  The space was further constricted by a flight
+ of stairs leading up to the floor above.
+
+ I saw a long wooden pole and a theatrical magazine there.
+
+ Obvious exits: North, South, East, West, Up
+
+>take all
+ I took the long wooden pole and the theatrical magazine.
+
+>go up
+ I climbed the narrow stairs to the floor above.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Obvious exits: West, Southwest, Up, Down
+
+>go up
+ I scrambled up the ladder.
+
+ Attic (in the dark)
+ It was profoundly dark up there, with nothing visible apart from the
+ open hatch leading back down.
+
+ Obvious exits: Down
+
+>examine torch
+ It was too dark to do that.
+
+>turn on torch
+ I switched on the torch, and it emitted a reasonably bright beam of
+ light.
+
+ Attic
+ The attic had accumulated surprisingly little junk for a family home.
+ Bare boards stretched out in every direction from the open hatch with
+ little to clutter them.  The beam of my torch picked out hardly
+ anything apart from the odd packing crate and a plethora of cobwebs.
+ Almost by chance it also landed on an old blanket covering a pile of
+ stuff half-hidden away.
+
+ Obvious exits: Down
+
+>examine torch
+ It was basically a black metal tube with a silver switch on the side,
+ currently switched on.
+
+>examine crate
+ A number of large wooden crates sat on the floor, each of them quite
+ plain and none of them giving any clue as to its contents.  The dust on
+ the ground near one of them seemed to have been disturbed quite
+ recently.
+
+>move crate
+ I pushed one of the crates a few inches, along the lines in the dust,
+ revealing a loose floorboard.
+
+>lift floorboard
+ The word "lift" is not necessary in this story.
+
+>open floorboard
+ That was not something I could open.
+
+>examine floorboard
+>take floorboard
+ It was shorter than most of the other boards, being only about six or
+ seven inches long.One end was a fraction of an inch proud of its
+ neighbour, and I noticed it wobble when I moved the crate.
+
+ Under the loose floorboard was a dull grey key.  I picked up the dull
+ grey key and replaced the floorboard.
+
+>examine blanket
+ The blanket was of a dark brown colour, and looked quite worn.
+
+>look under it
+ Under the old blanket was a large wooden box.
+
+>examine box
+ Smaller than the packing crates, the wooden box was also of higher
+ quality construction, being made of some dark polished wood - mahogany
+ perhaps.  It was about two feet wide, a foot high, and eighteen inches
+ deep.  It was closed.
+
+>open box
+ The large wooden box seemed to be locked.
+
+>unlock box
+ (with the dull grey key)
+ Unlocked.
+
+>open it
+ (first taking the old blanket)
+ Moving the old blanket revealed a large wooden box underneath.  Opening
+ the large wooden box revealed a radio, a pair of headphones, and a
+ small tin box.
+
+>examine tin box
+ It was a small tin box, painted black, of the sort one might keep
+ various little odds and ends in.  It was closed.
+
+>open it
+ Opening the small tin box revealed a pencil and a small brass key.
+
+>examine brass key
+ It looked pretty new; the brass was still shiny with scarcely any sign
+ of tarnishing.
+
+>examine pencil
+ It was an ordinary enough pencil, mid-way between blunt and sharp, with
+ perhaps about of quarter of its length used up.
+
+>examine pencil
+ It was an ordinary enough pencil, mid-way between blunt and sharp, with
+ perhaps about of quarter of its length used up.
+
+>take key
+ I took the small brass key.
+
+>examine radio
+ The wireless set fitted snugly in its box, with a coil of wire attached
+ at one end.  The most prominent features of the set itself were the
+ tuning dial, the telegraph key and the power switch.
+
+>examine dial
+ The numbers round the dial indicated that it could be turned to any
+ number between 1 and 30; it was currently set to 3.
+
+>examine headphones
+ They were entirely black, and quite large, but not particularly heavy.
+
+>SAVE
+>cf5
+ Saved.
+
+>put on headphones
+ (first taking the pair of headphones)
+ Okay, I was now wearing the pair of headphones.
+
+>switch on radio
+ Okay, the power switch was now on.
+
+>listen
+ The rain constantly drummed against the window.
+
+>look
+ Attic
+ The attic had accumulated surprisingly little junk for a family home.
+ Bare boards stretched out in every direction from the open hatch with
+ little to clutter them.  The beam of my torch picked out hardly
+ anything apart from the odd packing crate and a plethora of cobwebs.
+ There was also a large wooden box in the corner by the window.
+
+ The loose floorboard was scarcely noticeable, being nearly flush with
+ the floor.
+
+ The large wooden box contained a radio and a small tin box (which
+ contained a pencil).
+
+ Obvious exits: Down
+
+>examine radio
+ The wireless set fitted snugly in its box, with a coil of wire attached
+ at one end.  The most prominent features of the set itself were the
+ tuning dial, the telegraph key and the power switch.
+
+>say achtung
+ The word "achtung" is not necessary in this story.
+
+>examine paper
+ Which paper do you mean, the scrumpled fragment, the piece of paper, or
+ the slip of paper?
+
+>examine slip
+ It was a receipt from a locksmith.
+
+>examine piece
+ It looked like a scrap of paper torn from a larger sheet.  It was
+ covered in letters and numbers.
+
+>read piece
+ The letters and numbers on the piece of paper didn't make much sense,
+ though there seemed to be quite a few crossings-out.  It occurred to me
+ that some of the numbers could be page numbers, but looking them up in
+ the book from which the piece of paper fell probably wouldn't tell me
+ much, due to my lack of German.
+
+>examine radio
+ The wireless set fitted snugly in its box, with a coil of wire attached
+ at one end.  The most prominent features of the set itself were the
+ tuning dial, the telegraph key and the power switch.
+
+>examine key
+ Which key do you mean, the dull grey key, the telegraph key, or the
+ small brass key?
+
+>examine telegraph key
+ It was basically a flat strip with a black knob at one end.
+
+>press key
+ (the telegraph key)
+ I tried tapping out a few letters in Morse code, but though the radio
+ set beeped dutifully, there was no sign that anyone was receiving my
+ transmission.
+
+>take radio
+ The radio seemed to be firmly fitted to the box.
+
+>take box
+ Which box do you mean, the small tin box, or the large wooden box?
+
+>examine tin
+ It was a small tin box, painted black, of the sort one might keep
+ various little odds and ends in.  It was open, and contained a pencil.
+
+>take tin
+ Taken.
+
+>take large wooden
+ Which large wooden do you mean, the crates, or the large wooden box?
+
+>take large wooden box
+ It would have been possible, but cumbersome, to move the box, and
+ probably a bit awkward to carry it down the ladder.  On balance it
+ seemed better to leave it where it was.
+
+>go down
+ Not wanting either to be encumbered with other people's property, or to
+ be caught stealing it, I dropped the old blanket before leaving the
+ room.  I climbed back down the ladder.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Obvious exits: West, Southwest, Up, Down
+
+>go southwest
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>go south
+ Landing South
+ This section of the landing was much narrower than the part further
+ north, being no more than a passage between the rooms on either side.
+ The landing ended at a narrow curtained window immediately to the south
+ and continued past the banister to the north, while white panelled
+ doors led off to east and west.
+
+ Obvious exits: North, East, West
+
+>go west
+ (first trying to open the west door)
+ The west door seemed to be locked.
+
+>unlock it
+ What do you want to unlock it with?
+
+>key
+ Which key do you mean, the dull grey key, or the small brass key?
+
+>brass
+ Unlocked.
+
+>go west
+ (first opening the west door)
+
+ Goering Room
+ I dubbed this the "Goering Room" at once, on account of the large
+ picture of Hermann Goering facing me from the west wall.  In normal
+ times this would probably have been a bedroom, but there was no bed
+ there now.  The only piece of ordinary bedroom furniture was the tall
+ wooden wardrobe standing in one corner, otherwise much of the
+ floorspace was taken up by a low metal cabinet.  The door out was to
+ the east.
+
+ On the metal cabinet was a cine projector.  On the lower spindle was an
+ empty reel.
+
+ Obvious exits: East
+
+>look
+ Goering Room
+ The most striking feature of this room was the large picture of Hermann
+ Goering hanging on the west wall.  In normal times this would probably
+ have been a bedroom, but there was no bed there now.  The only piece of
+ ordinary bedroom furniture was the tall wooden wardrobe standing in one
+ corner, otherwise much of the floorspace was taken up by a low metal
+ cabinet.  The door out was to the east.
+
+ On the metal cabinet was a cine projector.  On the lower spindle was an
+ empty reel.
+
+ Obvious exits: East
+
+>open cabinet
+ Opening the metal cabinet revealed a single metal shelf, under which
+ was a metal canister.  On the metal shelf were a pamphlet and a red
+ book.
+
+>examine red book
+ It appeared to be a biography of Hermann Goering.
+
+>read pamphlet
+ (first taking the pamphlet)
+ It turned out to be a recent intelligence report on the Luftwaffe,
+ giving details of current German aircraft, photographs of typical
+ Luftwaffe personnel, and coloured plates illustrating Luftwaffe
+ uniforms and insignia.  Towards the back the pamphlet gave estimates of
+ the current size of the German air force and the dispositions of its
+ main units.
+
+>open wardrobe
+ Opening the wardrobe revealed a Luftwaffe uniform.
+
+>examine uniform
+ (the Luftwaffe uniform)
+ It wasn't a standard blue Luftwaffe uniform, instead it was white, like
+ the one Goering was pictured as wearing.  Indeed it could have been a
+ copy of the Reichsmarschall's uniform, complete with double-breasted
+ tunic and gold trimmings.
+
+>examine painting
+ I saw no painting there.
+
+>look
+ Goering Room
+ The most striking feature of this room was the large picture of Hermann
+ Goering hanging on the west wall.  In normal times this would probably
+ have been a bedroom, but there was no bed there now.  The only piece of
+ ordinary bedroom furniture was the tall wooden wardrobe standing in one
+ corner, otherwise much of the floorspace was taken up by a low metal
+ cabinet.  The door out was to the east.
+
+ The wardrobe contained a Luftwaffe uniform.  On the metal cabinet was a
+ cine projector.  On the lower spindle was an empty reel.  The metal
+ cabinet contained a single metal shelf, under which was a metal
+ canister.  On the metal shelf was a red book.
+
+ Obvious exits: East
+
+>read red book
+ (first taking the red book)
+ I hardly had time to read it all, but a quick skim indicated that it
+ narrated Goering's life from his birth in 1893, through his career as a
+ fighter pilot (with 22 confirmed kills) in the Great War, his first
+ marriage to Karin von Kantzow in 1923, the year after he joined the
+ Nazi Party, his leadership of the SA, his morphine addiction, his
+ subsequent election to the Reichstag, his Nazification of the Prussian
+ police, his second marriage in 1935 to Emmy Sonnemann, his patronage of
+ music, his various other offices of state under the Nazi regime, and
+ finally his leadership of the Luftwaffe.
+
+>examine picture
+ The picture showed the Reichsmarschall dressed in a white uniform.
+
+>look behind it
+ I couldn't see anything behind the picture of Hermann Goering.
+
+>take book
+ I was already carrying the red book.
+
+>look
+ Goering Room
+ The most striking feature of this room was the large picture of Hermann
+ Goering hanging on the west wall.  In normal times this would probably
+ have been a bedroom, but there was no bed there now.  The only piece of
+ ordinary bedroom furniture was the tall wooden wardrobe standing in one
+ corner, otherwise much of the floorspace was taken up by a low metal
+ cabinet.  The door out was to the east.
+
+ The wardrobe contained a Luftwaffe uniform.  On the metal cabinet was a
+ cine projector.  On the lower spindle was an empty reel.  The metal
+ cabinet contained a single metal shelf, under which was a metal
+ canister.
+
+ Obvious exits: East
+
+>examine projector
+ The projector had two spindles, upper and lower, a switch and a dial.
+ On the lower spindle was an empty reel.
+
+>search wardrobe
+ The wardrobe contained a Luftwaffe uniform.
+
+>examine canister
+>search uniform
+ It was a flat cylinder of a dull metal colour, about nine inches in
+ diameter.  It was closed.
+
+ (the Luftwaffe uniform)
+ A thorough search of the Luftwaffe uniform revealed nothing of
+ interest.
+
+>open canister
+ Opening the metal canister revealed a reel of film.
+
+>take film
+ Taken.
+
+>put film on upper reel
+ I saw no upper reel there.
+
+>put film on projector
+ I put the reel of film on the upper spindle and carefully threaded the
+ film through the projector and onto the lower reel.
+
+>turn on projector
+ The projector started to hum.
+
+>examine projector
+ The projector had two spindles, upper and lower, a switch and a dial.
+ On the lower spindle was an empty reel.  On the upper spindle was a
+ reel of film.
+
+>examine dial
+ The dial had three settings: BACK, STOP and FORWARD.  It was currently
+ on STOP.
+
+>press forward
+ I saw no forward there.
+
+>set dial to back
+ The upper reel span round, the loose end of the film flapping noisily.
+
+>undo
+ Taking back one turn: "set dial to back".
+
+ Goering Room
+ The most striking feature of this room was the large picture of Hermann
+ Goering hanging on the west wall.  In normal times this would probably
+ have been a bedroom, but there was no bed there now.  The only piece of
+ ordinary bedroom furniture was the tall wooden wardrobe standing in one
+ corner, otherwise much of the floorspace was taken up by a low metal
+ cabinet.  The door out was to the east.
+
+ The wardrobe contained a Luftwaffe uniform.  On the metal cabinet was a
+ cine projector.  On the lower spindle was an empty reel.  On the upper
+ spindle was a reel of film.  The metal cabinet contained a single metal
+ shelf, under which was a metal canister.
+
+ Obvious exits: East
+
+>set dial to forward
+ Both reels began to turn.  The film was projected onto a blank area of
+ wall.  It began with a scratchy shot of a young Hermann Goering
+ removing his flying helmet while sitting in the cockpit of an
+ Albatross.  Various scenes followed: Goering shaking hands with Hitler;
+ Goering in conference with Hitler, Himmler and Goebbels; Goering making
+ a speech; Goering strutting around an airfield in his new
+ Reichsmarschall's uniform; Goering inspecting a parade of Luftwaffe
+ personnel.  Eventually I decided I'd seen enough, so I turned the dial
+ to STOP.  Both reels stopped turning.
+
+>find slash fiction
+ What do you want to look that up in?
+
+>look
+ Goering Room
+ The most striking feature of this room was the large picture of Hermann
+ Goering hanging on the west wall.  In normal times this would probably
+ have been a bedroom, but there was no bed there now.  The only piece of
+ ordinary bedroom furniture was the tall wooden wardrobe standing in one
+ corner, otherwise much of the floorspace was taken up by a low metal
+ cabinet.  The door out was to the east.
+
+ The wardrobe contained a Luftwaffe uniform.  On the metal cabinet was a
+ cine projector.  On the lower spindle was an empty reel.  On the upper
+ spindle was a reel of film.  The metal cabinet contained a single metal
+ shelf, under which was a metal canister.
+
+ Obvious exits: East
+
+>wear uniform
+ I certainly wasn't about to put on an enemy uniform.  Anyway it was far
+ too large for me and I would have looked quite ridiculous in it.
+
+>take uniform
+ I took the Luftwaffe uniform from the wardrobe and gave it a thorough
+ examination.  Satisfied that it looked pretty much like the genuine
+ article I returned it to the wardrobe.
+
+>examine uniform
+ (the Luftwaffe uniform)
+ It wasn't a standard blue Luftwaffe uniform, instead it was white, like
+ the one Goering was pictured as wearing.  Indeed it could have been a
+ copy of the Reichsmarschall's uniform, complete with double-breasted
+ tunic and gold trimmings.
+
+>set dial to back
+ Both reels span round until the film was fully rewound onto the upper
+ reel.
+
+>inventory
+ I was carrying a scrumpled fragment, a piece of paper, a receipt, a
+ torch (providing light), a long wooden pole, a theatrical magazine, two
+ keys (a dull grey key and a small brass key), a small tin box (which
+ contained a pencil), a pamphlet, and a red book.  I was wearing a
+ beret, khaki battledress, and a pair of headphones.
+
+>take off headphones
+ Okay, I was no longer wearing the pair of headphones.
+
+>turn off torch
+ I switched off the torch, and it stopped shining.
+
+>go east
+ Just as I was about to leave, I heard a nearby door open and someone
+ walking around on the landing.  To avoid being caught snooping around,
+ I stopped just inside the door.  A moment later I heard the sound of a
+ shot from close by, followed by a brief series of thuds.
+
+>pray to goering
+ The story doesn't understand that command.
+
+>SAVE
+>cf6
+ Saved.
+
+>enter wardrobe
+ It was a bit too small for me to squeeze into.
+
+>wear uniform
+ I certainly wasn't about to put on an enemy uniform.  Anyway it was far
+ too large for me and I would have looked quite ridiculous in it.
+
+>think
+ I was curious, if not anxious, to find out what had just happened.
+
+>go east
+ Landing South
+ This section of the landing was much narrower than the part further
+ north, being no more than a passage between the rooms on either side.
+ The landing ended at a narrow curtained window immediately to the south
+ and continued past the banister to the north, while white panelled
+ doors led off to east and west.
+
+ A revolver was lying on the ground, near the top of the stairs.
+
+ Obvious exits: North, East, West
+
+>take revolver
+ The revolver was too far away.
+
+>go north
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ A revolver was lying on the ground, near the top of the stairs.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>take revolver
+ Taken.
+
+>examine it
+ It was a Colt 45, probably a service pistol.[3] There was a distinct
+ smell of cordite from the barrel.
+
+>fn 3
+ The word "fn" is not necessary in this story.
+
+>footnote 3
+ I'm relying on my recollections of what my father told me were the
+ sidearms he was issued with as an officer in the Royal Engineers in
+ WW2.  IIRC he said he was originally issued with a Colt .45, which was
+ replaced with a Smith and Wesson .38 later in the war.  (Yes, my
+ father's name was Jack, and he was posted to Salisbury Plain on leaving
+ OCTU in 1940, but anything else in Shelter from the Storm is purely
+ fictitious; Percy was his father's first name.)
+
+>open revolver
+ I broke open the revolver and checked that it was loaded.  Finding that
+ it was, I closed it again.
+
+>look
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+ Hilda came up the staircase.  "Mr Percy, you must come quickly!" she
+ told me.  "A man has been shot!  Mr Croxley wants to see you.  Come!
+ You must convince Mr Croxley I did not do this terrible thing," Hilda
+ urged me, "otherwise I get the blame for sure."
+
+ (My best response seemed to be to ask why she should get the blame.)
+
+>ask her why she should get the blame
+ The story doesn't understand that command.  Please use ASK ACTOR ABOUT
+ TOPIC (or just A TOPIC).
+
+>ask her why she about blame
+ I saw no why she there.
+
+>ask why
+ "Why on earth do you think you'll be blamed?"  I asked.
+
+ "Two reasons," she replied.  "One, I am German; two, I am Jewish.  Is
+ not good to be German in this country now - you are at war with
+ Germany.  Is never good to be Jewish: Jews always get the blame for
+ everything.  If you had been in Germany you would have seen that, but
+ it is not so different here: Shakespeare and his Shylock, Dickens and
+ his Fagin, you English do not like Jews either.  So they say I shot
+ this poor man for sure."
+
+ (My immediate thoughts were to either reassure her, or ask what
+ happened.)
+
+>ask her about blame
+ "Come!  Quickly!"  Hilda insisted.
+
+>tell hilda about goering
+ "Come!  Quickly!"  Hilda insisted.
+
+>ask what happened
+ I saw no what there.
+
+>ask happened
+ I saw no happened there.
+
+>undo
+ Taking back one turn: "tell hilda about goering".
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Hilda was waiting for me to follow her down the staircase.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>undo
+ Taking back one turn: "ask her about blame".
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Hilda was waiting for me to follow her down the staircase.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>undo
+ Taking back one turn: "ask why".
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Hilda was waiting for me to follow her down the staircase.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>undo
+ Taking back one turn: "ask her why she should get the blame".
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Hilda was waiting for me to follow her down the staircase.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>why
+ "Why on earth do you think you'll be blamed?"  I asked.
+
+ "Two reasons," she replied.  "One, I am German; two, I am Jewish.  Is
+ not good to be German in this country now - you are at war with
+ Germany.  Is never good to be Jewish: Jews always get the blame for
+ everything.  If you had been in Germany you would have seen that, but
+ it is not so different here: Shakespeare and his Shylock, Dickens and
+ his Fagin, you English do not like Jews either.  So they say I shot
+ this poor man for sure."
+
+ (My immediate thoughts were to either reassure her, or ask what
+ happened.)
+
+>ask what happened
+ "What happened, exactly?"  I enquired.
+
+ "There is dead man lying at the foot of stairs in hall," she told me.
+ "He has been shot - just now, you must have heard it, ja?  I'm the only
+ foreigner in the house, and a Jewish foreigner.  I get the blame for
+ this, for sure."
+
+ (My best response seemed to be to reassure her.)
+
+>reassure her
+ "I'm sure they won't say any such thing," I reassured her.  "We're not
+ Nazis here, and the Croxleys seem like reasonable enough people to me."
+
+ "You must come quickly and tell Mr Croxley I did not shoot anyone," she
+ insisted, motioning me to follow her down the staircase.
+
+>tell her about goering
+ "Come!  Quickly!"  Hilda insisted.
+
+>smell hilda
+ I smelled nothing out of the ordinary.
+
+>tell her about radio
+ "Come!  Quickly!"  Hilda insisted.
+
+>show her the revolver
+ "Come!  Quickly!"  Hilda insisted.
+
+>give revolver to hilda
+ "Come!  Quickly!"  Hilda insisted.
+
+>shoot her
+ (with the revolver)
+ I was not a murderer, and I had no desire to harm Hilda.
+
+>SAVE
+>cf7
+ Saved.
+
+>go down
+ I let Hilda lead the way.  I descended the staircase back down to the
+ hall.
+
+ Hall Passage South
+ This was the widest part of the hall, where it opened out to
+ accommodate the flight of stairs that led up to the east.  On the other
+ side of the hall a dark panelled door stood open to the west, while the
+ hall itself continued to both north and south.
+
+ A body was lying at the foot of the stairs.
+
+ A stranger, Angela Croxley, and Mr Croxley were standing there.
+
+ Hilda was standing there.
+
+ Obvious exits: North, South, West, Up
+
+ "Ah, there you are, Percy!"  Mr Croxley declared.  "Did you just shoot
+ this man?"
+
+ (My immediate thoughts were to either say no, or ask who the dead man
+ is.)
+
+>yes
+ I wasn't about to confess to a murder I didn't commit.
+
+>examine stranger
+ He was a tall, smartly-dressed man of about thirty.
+
+ "I asked if you shot this man, and I want your answer, Percy," Mr
+ Croxley growled.  "Well, did you?"
+
+>ask who
+ "Who is he?"  I asked.  "He looks a bit like Hermann Goering!"
+
+ "Never mind what he looks like, the point is he's dead and I want to
+ know who shot him," Mr Croxley replied.  "Was it you, Mr Percy?"
+
+>examine body
+ Apart from the bullet wound in his chest, the dead man bore a
+ remarkable resemblance to Hermann Goering.
+
+ "I asked if you shot this man, and I want your answer, Percy," Mr
+ Croxley growled.  "Well, did you?"
+
+>no
+ "No, I didn't!"  I declared.  "I've never seen him before!"
+
+ "No?" he asks.  "Then what's that gun you're holding?"
+
+ (My immediate thoughts were to either refuse to answer, or tell him
+ about the revolver.)
+
+>tell him about revolver
+ "I just found it at the top of the stairs," I told him.
+
+ "Did you now?  How convenient," he remarked.  "It looks to me as if he
+ was shot at the top of the stairs and fell all the way down, and you've
+ just walked down those very same stairs.  I had just gone back to the
+ drawing room when I heard the shot, Angela had just gone off to find
+ you because you weren't there, and Hilda was doing the ironing in her
+ sitting room."
+
+ "While I'd just gone to answer a call of nature," the stranger,
+ presumably Mr Graham, added.
+
+ "Quite so," Mr Croxley concurred, "So where were you, Mr Percy?"
+
+ (My immediate thoughts were to either challenge their alibis, lie, or
+ tell the truth.)
+
+>tell ; challenge!
+ What do you want to tell about?
+
+>challenge angela
+ "Where were you, Mr Percy?" he demanded.
+
+ That command can't be used right now.
+
+>challenge
+ "It seems none of you has an alibi either," I pointed out.  "Each of
+ you was alone when that shot was fired."
+
+ "But we all know each other," he retorted, "whereas you are a total
+ unknown, Mr Percy.  How do we even know that you are who you claim to
+ be?  So I'll ask you once more: where were you when the shot was
+ fired?"
+
+>SAVE
+>cf8
+ Saved.
+
+>truth
+ "I was taking a look around upstairs and came across this room with a
+ whole lot of Hermann Goering stuff it in," I confessed.  "I was just on
+ the point of leaving when I heard the shot."
+
+ "You have no right to be spying on us like that, at best it's an abuse
+ of hospitality, at worst it's proof of guilt." he frowned.  "The fact
+ remains that you were the only person upstairs when the shot was fired,
+ and the shot was apparently fired by someone upstairs.  I'd say that
+ leaves you as not only the prime suspect but the only suspect, Mr
+ Percy. Under the circumstances, I think you'd better hand me that gun."
+
+ (My immediate thoughts were to either give him the revolver, or
+ refuse.)
+
+>refuse
+ "For all I know, you may be the killer," I pointed out, "so I think
+ I'll hang on to it."
+
+ "Not good enough," Croxley replied evenly.  "Your refusal to hand over
+ the weapon can only be construed as proof of guilt.  Now, give me the
+ gun."
+
+>ask him about goering
+ "I'm not discussing anything till you give me the gun," Croxley
+ insisted.
+
+>shoot him
+ (with the revolver)
+ I was not a murderer, and I had no desire to harm Mr Croxley.
+
+ "The gun, Mr Percy," Croxley reminded me, "Now, please."
+
+>refuse
+ It looked like he wasn't going to take no for an answer.
+
+>examine phone
+ I saw no phone there.
+
+>arrest croxley
+ The word "arrest" is not necessary in this story.
+
+>look
+ Hall Passage South
+ This was the widest part of the hall, where it opened out to
+ accommodate the flight of stairs that led up to the east.  On the other
+ side of the hall a dark panelled door stood open to the west, while the
+ hall itself continued to both north and south.
+
+ A body was lying at the foot of the stairs.
+
+ Mr Graham, Hilda, Angela Croxley, and Mr Croxley were standing there.
+
+ Obvious exits: North, South, West, Up
+
+ "The gun, Mr Percy," Croxley reminded me, "Now, please."
+
+>go south
+>no
+ It would have seemed rather rude to walk away in the middle of a
+ conversation.
+
+ "The gun, Mr Percy," Croxley reminded me, "Now, please."
+
+ It looked like he wasn't going to take no for an answer.
+
+>examine angela
+ She was undoubtedly a strikingly attractive young woman, what some
+ might call an English rose.  She was somewhere in her twenties, perhaps
+ a few years older than I, and had a pleasant, open, round face framed
+ by a generous bounty of wavy blonde hair.  She was staring at me
+ accusingly.
+
+ "The gun, Mr Percy," Croxley reminded me, "Now, please."
+
+>examine body
+ Apart from the bullet wound in his chest, the dead man bore a
+ remarkable resemblance to Hermann Goering.
+
+ "The gun, Mr Percy," Croxley reminded me, "Now, please."
+
+>search body
+ Somehow I didn't think I'd get away with trying that with Mr Croxley
+ standing there watching me like a hawk.
+
+>give gun to graham
+ "The gun, Mr Percy," Croxley reminded me, "Now, please."
+
+ Common courtesy demanded that me answer Mr Croxley before addressing Mr
+ Graham.
+
+ "The gun, Mr Percy," Croxley reminded me, "Now, please."
+
+>examine croxley
+ (Mr Croxley)
+ He was probably about sixty, or maybe in his late fifties, with a
+ rather suave air about him.  He was standing by the body
+
+ "The gun, Mr Percy," Croxley reminded me, "Now, please."
+
+>shoot gun
+ (with the revolver)
+ I couldn't shoot the revolver with itself.
+
+ "The gun, Mr Percy," Croxley reminded me, "Now, please."
+
+>give gun to croxley
+ (Mr Croxley)
+ "Thank you," he said as he took the gun off me.  "Hm," he added as he
+ examined it, "this looks like mine.  Well, the telephone is still out
+ of order so we can't call the police, so for now we're going to have to
+ deal with this ourselves.  Do you have anything to add to what you've
+ already told us, Mr Percy?"
+
+ (My immediate thoughts were to either mention the other staircase, or
+ tell him about the radio.)
+
+>tell him about radio
+ "Did you know about the radio transmitter hidden in the attic?"  I
+ asked.  Seeing his puzzled expression, I continued, "I thought not; so
+ I'm not the only unexplained presence here."
+
+ "I hardly see what a radio transmitter has to do with any of this,"
+ Croxley frowned.  His scowl deepened, then he went on, "Anyway, it's
+ nonsense.  If there were a radio transmitter in the house I'm sure I'd
+ know about it!"
+
+ "It would do no harm to check, surely," Angela Croxley suggested.  "If
+ he's lying we may as well be certain he is."
+
+ Her father's scowl deepened even further.  After a brief pause he gave
+ a curt nod and said, "Very well, if you must, go and check his story -
+ let him show you this alleged radio. But just in case, you'd better
+ take this." he added, handing her the revolver.
+
+ "So, Mr Percy, will you show me this radio, please?" she requested.
+
+>no
+ "No, I'm sure you can find it perfectly well for yourself, Miss
+ Croxley," I replied.  "It's just up in the attic.  It seems I have
+ unfinished business with your father here."
+
+ "That can wait until we establish the truth about this alleged radio
+ transmitter," he assured me.
+
+ "That's settled then," she declares.  "Lead on then, Mr Percy."
+
+>undo
+ Taking back one turn: "no".
+
+ Hall Passage South
+ This was the widest part of the hall, where it opened out to
+ accommodate the flight of stairs that led up to the east.  On the other
+ side of the hall a dark panelled door stood open to the west, while the
+ hall itself continued to both north and south.
+
+ A body was lying at the foot of the stairs.
+
+ Mr Graham, Hilda, Angela Croxley, and Mr Croxley were standing there.
+
+ Obvious exits: North, South, West, Up
+
+>undo
+ Taking back one turn: "tell him about radio".
+
+ Hall Passage South
+ This was the widest part of the hall, where it opened out to
+ accommodate the flight of stairs that led up to the east.  On the other
+ side of the hall a dark panelled door stood open to the west, while the
+ hall itself continued to both north and south.
+
+ A body was lying at the foot of the stairs.
+
+ Mr Graham, Hilda, Angela Croxley, and Mr Croxley were standing there.
+
+ Obvious exits: North, South, West, Up
+
+>tell him about angela
+ "That's entirely beside the point right now, Mr Percy," Mr Croxley
+ pointed out.  "All I want to know is whether you have anything to add
+ to your account."
+
+>tell him about other staircase
+ "Never mind that now," Mr Croxley interrupted impatiently.  "All I'm
+ interested in right now is whether you can add anything that might shed
+ any further light on this."
+
+>mention staircase
+ "How do you know that I was the only person upstairs?"  I asked.  "This
+ house has two staircases; that must offer all sorts of possibilities."
+
+ "A little far-fetched, don't you think, Mr Percy?" he objected.  "We
+ know you were upstairs.  Any one of us would have to have been both
+ remarkably quick and remarkably stealthy to have arrived here with the
+ rest of us without inviting suspicion, and without being seen by you."
+
+ "Still, it could be possible," Hilda remarked.  "Murderer could shoot
+ victim, drop gun, and hurry down back staircase then come here through
+ kitchen.  In confusion no one notice, nicht wahr?"
+
+ "Thank you for your very fair-minded suggestion, Hilda, but I still
+ don't believe any of us did this.  To my mind, that still leaves Mr
+ Percy here as our chief suspect - unless he can come up with anything
+ that changes my mind.  Well, Mr Percy, have you anything to add?"
+
+>mention radio
+ The story doesn't understand that command.
+
+>radio
+ The story doesn't understand that command.
+
+>tell him about radio
+ "Did you know about the radio transmitter hidden in the attic?"  I
+ asked.  Seeing his puzzled expression, I continued, "I thought not; so
+ I'm not the only unexplained presence here."
+
+ "I hardly see what a radio transmitter has to do with any of this,"
+ Croxley frowned.  His scowl deepened, then he went on, "Anyway, it's
+ nonsense.  If there were a radio transmitter in the house I'm sure I'd
+ know about it!"
+
+ "It would do no harm to check, surely," Angela Croxley suggested.  "If
+ he's lying we may as well be certain he is."
+
+ Her father's scowl deepened even further.  After a brief pause he gave
+ a curt nod and said, "Very well, if you must, go and check his story -
+ let him show you this alleged radio. But just in case, you'd better
+ take this." he added, handing her the revolver.
+
+ "So, Mr Percy, will you show me this radio, please?" she requested.
+
+>tell him about goering room
+ Common courtesy demanded that me answer Angela Croxley before
+ addressing her father.
+
+ "This radio you said you saw - are you going to take me to see it?"
+ Angela Croxley asked.
+
+>yes
+ "Yes, of course," I replied.
+
+ "Good," she replied.  "Lead on then, Mr Percy."
+
+>go to radio
+ Which radio do you mean, the wireless, or the radio?
+
+>go to attic
+ (going east)
+
+ Angela followed me up the staircase.
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Angela stopped beside me.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+ (To continue on your way use the command CONTINUE or C).
+
+ "I'm not impressed, Mr Percy," Angela remarked.  "We offer you shelter
+ from the storm, and you repay us by snooping all over our house."
+
+ (My immediate thoughts were to either tell her about the noises, or
+ apologize.)
+
+>tell her about noises
+ "I heard noises upstairs," I said.  "Not just floorboards creaking, but
+ footsteps, I was sure of it.  I thought perhaps you were being burgled
+ - and given that body downstairs..."
+
+ "He's not a burglar," she interrupted me, clearly unimpressed.
+
+>ask him about body
+ The word "him" doesn't refer to anything right now.
+
+>ask her about body
+ "I think you should show me that radio before we talk about anything
+ else, Mr Percy," she insisted.
+
+>c
+ (going northeast)
+
+ Angela followed me through the northeast door.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Angela stopped beside me.
+
+ Obvious exits: West, Southwest, Up, Down
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going up)
+
+ Angela followed me up the ladder.
+
+ Attic (in the dark)
+ It was profoundly dark up there, with nothing visible apart from the
+ open hatch leading back down.
+
+ Obvious exits: Down
+
+ I had arrived at the attic.
+
+>c
+ I wasn't on a journey.
+
+>turn on torch
+ I switched on the torch, and it emitted a reasonably bright beam of
+ light.
+
+ Attic
+ The attic had accumulated surprisingly little junk for a family home.
+ Bare boards stretched out in every direction from the open hatch with
+ little to clutter them.  The beam of my torch picked out hardly
+ anything apart from the odd packing crate and a plethora of cobwebs.
+ There was also a large wooden box in the corner by the window.
+
+ The loose floorboard was scarcely noticeable, being nearly flush with
+ the floor.
+
+ I saw an old blanket there.  The large wooden box contained a radio.
+
+ Angela was right beside me.
+
+ Obvious exits: Down
+
+>ask angela about footsteps
+ "Until I see that radio transmitter I shan't believe a thing you tell
+ me, Mr Percy," she answered.  "Neither shall I be at all inclined to
+ give anything away."
+
+>show radio to angela
+ "There it is," I said.
+
+ "Well - that certainly does look like a radio transmitter," she agreed,
+ frowning with concern, "and it certainly shouldn't be here."  She
+ paused for a moment, her hand pushed deep up into her hair in a gesture
+ of almost frantic thought.  "I suppose there's no way you could have
+ smuggled it up here," she continued, as much to herself as to me, "but
+ that still doesn't explain how you found it."  Letting her hand fall to
+ her side she finally turned to me and asked, "Why, Mr Percy; why were
+ you up here?  Why were you searching our house so thoroughly that you
+ managed to find a hidden radio the rest of us missed?"
+
+ (I wondered whether to explain my suspicions, or counter-attack.)
+
+>counter attack
+ "Oh no," I said.  "You're the one with the explaining to do, Miss
+ Croxley, you're the one with a hidden radio transmitter in your house."
+
+ She frowned in annoyance, "I swear I've never seen that radio before.
+ I had no idea it was here.  And I still want to know why you think you
+ have the right to go snooping around our house."
+
+>because I'm the army
+ The word "because" is not necessary in this story.
+
+>ask her about goering
+ "Please don't try to change the subject, Mr Percy," she begged.  "This
+ is important - I need to know if I can trust you.  So tell me, why were
+ you making such a thorough search of our house?"
+
+>suspicions
+ "Too much round here seems far too fishy," I replied.  "For one thing,
+ it's obvious you've all been trying to conceal that Goering look-alike
+ without anyone knowing about it.  So, I thought - well, there is a war
+ on, I do hold the King's commission, so I considered it my duty to try
+ to find out more.  For all I know you may all be a nest of German spies
+ - and this radio rather confirms it, doesn't it?"  Before she could
+ answer, I continued, "But finding the radio - well, that was a spot of
+ luck really.  It was just the more I found, the more suspicious I
+ became, so the harder I looked."
+
+ She regarded me steadily for a moment, her lively blue eyes probing my
+ face as if trying to read truth or falsehood there.  "I see," she said
+ finally.  "I suppose that could be true, but not only does it leave
+ this radio unexplained, it leaves a murder unexplained.  So what do we
+ do now?"
+
+ (My immediate thoughts were to either ask her about her father, Mr
+ Graham, Hilda, or the corpse, talk about the radio, suggest reporting
+ to her father, or propose looking for more clues.)
+
+>ask her about footsteps
+ "It's more important to decide what we're going to do now," she
+ replied.  "So what do you suggest?"
+
+>kiss me
+>ask her about corpse
+ I could not kiss myself.
+
+ "A penny for your thoughts, Mr Percy," Angela remarked.  "What should
+ we do now?"
+
+ "What about that fellow downstairs - the one who was shot," I asked.
+ "Could this be his radio?"
+
+ "I suppose it could," she agreed, "but I don't see how he could have
+ shot himself.  I mean, people don't normally shoot themselves in the
+ chest, do they?  So what do you think we should do: search his room for
+ further clues - or what?"
+
+>ask her about durbury
+ "We can talk about that some other time," she insisted.  "The immediate
+ question is: what are we going to do now?"
+
+>ask her about hilda
+ "How much do you actually know about your housekeeper?"  I asked.  "I
+ mean, she is German, and her room is closest to this attic; she'd have
+ plenty of opportunity to sneak up here and use the radio when no one
+ was looking!"
+
+ "But Hilda's Jewish, she came here to get away from the Nazis, so why
+ would she want to help them?"  Angela protested.  "Besides, I doubt she
+ even knows how to handle a gun!  No, I can't believe it's Hilda - not
+ without a lot more evidence, anyway!  So, what should we do next?"
+
+>talk about radio
+ "We're only assuming that this radio is being used to contact the
+ enemy," I mused.  "We don't know it for a fact."
+
+ "True, but it seems a pretty safe assumption, doesn't it?" she replied.
+ "I mean, if it was for some legitimate purpose, why would it be kept
+ hidden up here in the attic where none of us knew about it?  I don't
+ think either of us could be accused of jumping to absurd conclusions if
+ we assume the radio is linked with spying.  So who's the spy and who's
+ the killer, and how are they linked?  What do you think we should do
+ about it?"
+
+>find coat
+ (going down)
+
+ It would have seemed rather rude to walk away in the middle of a
+ conversation.
+
+ I was unable to continue on my journey.
+
+>ask her about mr graham
+ "What about your visitor, Mr Graham?"  I enquired.  "Do you know much
+ about him?"
+
+ "Not a lot," she admitted.  "I suppose he could have shot T... that man
+ downstairs.  But I don't see how he could be responsible for the radio!
+ So - what do you think we should do now?"
+
+>talk about suitcase
+ "I'd rather you didn't keep trying to change the subject, Mr Percy,"
+ she complained.  "In case you've forgotten, there's just been a murder.
+ So, what do we do now?"
+
+>clues
+ "I suppose the only thing we can do is hunt around for more clues," I
+ proposed.  "I mean, if someone in the house is sending messages to the
+ enemy, they may have some notes of messages sent and received, or
+ something else that gives them away."
+
+ She frowned for a moment, then let out a deep sigh.  "Yes, I suppose
+ you're right," she agreed at last.  "I just don't like the idea of
+ poking around in other people's private possessions.  It feels so - so
+ unpleasant.  But we don't have much choice now, do we?"
+
+>ask her about T
+ "Changing the subject is just delaying the inevitable, isn't it?" she
+ suggested.  "You've only confirmed what I really knew all along we were
+ going to have to do, so let's get it over with!"
+
+>ask her about tony
+ "What were your brothers like?"  I asked.
+
+ "Adam - well, we always thought he'd be a bit of a high-flyer, only we
+ didn't realize he'd take it so literally," she replied, "or that he'd
+ crash to earth quite so soon.  Tony was always a one, quite a sportsman
+ - he captained the first fifteen at school - and dead keen to do his
+ bit for King and country when war broke out, but...  I loved them both
+ to bits, of course.  I still can't believe they're gone."
+
+>inventory
+ I was carrying a scrumpled fragment, a piece of paper, a receipt, a
+ torch (providing light), a long wooden pole, a theatrical magazine, two
+ keys (a dull grey key and a small brass key), a pair of headphones, a
+ small tin box (which contained a pencil), a pamphlet, and a red book.
+ I was wearing a beret and khaki battledress.
+
+ "It seems I owe you an apology, Mr Percy," said Angela, lightly
+ touching my arm.  "I really did think you must be the killer, but that
+ radio - well, it does change things.  There's no way you could have put
+ it there, which means - well, it seems you may have helped us catch a
+ spy!  And - well, you obviously know that we haven't been entirely
+ honest with you, don't you?"
+
+>angela, give me the gun
+ "Please, Jack, don't make this any harder for me by trying to avoid the
+ question.  You know I've been lying to you, don't you?" she insisted.
+
+>yes
+ "Well, yes, I suppose so," I admitted.  "I mean it's pretty obvious
+ that things here aren't what they're meant to seem."
+
+ "Quite," she agreed, "For one thing, Colonel Croxley isn't my father,
+ he's my C.O."  She flashed a brief apologetic smile before continuing,
+ "I shouldn't really be telling you anything of course, and I still
+ can't tell you much, but, well, let's just say the colonel and I both
+ work for the War Office, and the man who was shot was working with us.
+ And - well - oh golly, I wish this wasn't all so complicated, but
+ perhaps you could just call me Angela from now on."  She handed me the
+ revolver saying, "And perhaps you'd better take this.  To be honest,
+ I'm not entirely comfortable with it."
+
+>ask her about jeremy
+ "So, is Jeremy really your brother?"  I asked.
+
+ "That's right," she affirmed, "he's in the army too, and quite safe
+ last time I heard, thank goodness!"
+
+>ask her about graham
+ "Who is Mr Graham exactly, and where does he fit into all this?"  I
+ asked.
+
+ Angela let out a heavy sigh, "I'm beginning to wonder myself," she
+ muttered.  "I'm not meant to say anything, but right now I don't know
+ which way to turn!  He's Captain Graham, from the War Office.  He came
+ to warn us that our operation here had been compromised, and we were
+ discussing what to do about it."
+
+ (It occured to me to ask if she thought Graham shot the man.)
+
+>check gun
+ The word "check" is not necessary in this story.
+
+>open gun
+>examine gun
+>examine gun
+ I broke open the revolver and checked that it was loaded.  Finding that
+ it was, I closed it again.
+
+ It was a Colt 45, probably a service pistol. There was a distinct smell
+ of cordite from the barrel.
+
+ It was a Colt 45, probably a service pistol. There was a distinct smell
+ of cordite from the barrel.
+
+>show her slip of paper
+ "Could this be significant?"  I asked, showing her the receipt.  "I
+ found it under some sheets in the airing cupboard."
+
+ "That's certainly an odd place for it," she remarked, "but I'm not sure
+ what it means.  We all go into Amesbury from time to time, and any of
+ us could have got a spare key cut, though it's a bit irregular - hm,
+ I'm not sure what to think!"
+
+>ask Angela about Dunbury
+ My remark proved to be the occasion for an animated discussion which
+ lasted quite some time.
+
+>smell angela
+ I smelled nothing out of the ordinary.
+
+>inventory
+ I was carrying a scrumpled fragment, a piece of paper, a receipt, a
+ torch (providing light), a long wooden pole, a theatrical magazine, two
+ keys (a dull grey key and a small brass key), a pair of headphones, a
+ small tin box (which contained a pencil), a pamphlet, a red book, and a
+ revolver.  I was wearing a beret and khaki battledress.
+
+>show scrumpled to angela
+ "What do you make of this?"  I asked, "I found it in Colonel Croxley's
+ bathroom."
+
+ Angela took the fragment, read it, and turned very white.
+
+ "Oh goodness!" she declared.  "He couldn't have, could he?"
+
+ She stared at the offending fragment a few moments more, then screwed
+ it back up into a tight little ball.  "Let's not jump to conclusions,"
+ she said, seemingly as much to herself as to me.
+
+>ask angela about scrumpled
+ "What do you make of this?"  I asked, "I found it in Colonel Croxley's
+ bathroom."
+
+ Angela took the fragment, read it, and turned very white.
+
+ "Oh goodness!" she declared.  "He couldn't have, could he?"
+
+ She stared at the offending fragment a few moments more, then screwed
+ it back up into a tight little ball.  "Let's not jump to conclusions,"
+ she said, seemingly as much to herself as to me.
+
+>examine scrumpled
+ It was just a tiny fragment, still badly creased, with just a few words
+ on it.
+
+>ask angela about fragment
+ "What do you make of this?"  I asked, "I found it in Colonel Croxley's
+ bathroom."
+
+ Angela took the fragment, read it, and turned very white.
+
+ "Oh goodness!" she declared.  "He couldn't have, could he?"
+
+ She stared at the offending fragment a few moments more, then screwed
+ it back up into a tight little ball.  "Let's not jump to conclusions,"
+ she said, seemingly as much to herself as to me.
+
+>read it
+ Only a few words were visible: "... plan now seems unworkable...
+ ... may be advisable to terminate Durbury..."
+
+>ask angela about durbury
+>ask angela about piece
+ That was not something she seemed at all eager to discuss, so my
+ conversational gambit fell horribly flat.
+
+ "This looks like it could be some kind of code," I remarked, showing
+ her the piece of paper covered with letters and numbers.  "I found it
+ in a German novel, in your room.  Perhaps the numbers are references to
+ the pages in the book?"
+
+ "No," she replied firmly.  For a moment she stared down at the piece of
+ paper, clasping it in one hand, before finally releasing it to me with
+ a heavy sigh.  "At least, it's nothing to do with the German novel,
+ that's just something I happen to be reading," she told me, "but it is
+ a code of sorts.  It's my attempt to do a bit of code-breaking.  That's
+ part of my job."
+
+>ask angela about goering room
+ "So why do you keep a room dedicated to Hermann Goering in this house?"
+ I enquired.
+
+ "You already know enough to realize that it must be part of our
+ intelligence operation," she replied.  "More than that I'm not at
+ liberty to say."
+
+>ask her about pamphlet
+ I chattered away on the subject with her for several minutes.
+
+>inventory
+ I was carrying a piece of paper, a receipt, a torch (providing light),
+ a long wooden pole, a theatrical magazine, two keys (a dull grey key
+ and a small brass key), a pair of headphones, a small tin box (which
+ contained a pencil), a pamphlet, a red book, and a revolver.  I was
+ wearing a beret and khaki battledress.
+
+ Angela turned to me, laying a hand on my arm.  "I'm getting to the
+ point where I don't know which way to turn or who to trust," she
+ confessed.  "I'm not meant to say anything at all, but what can I do?
+ Well, I'm sure I'm not telling you anything you don't know if I tell
+ you that our visitor tonight wasn't a client!  He's Captain Graham,
+ from the War Office.  He came to warn us that our operation here had
+ been compromised, and we were discussing what to do about it.  And
+ then, well..."
+
+ (It occured to me to ask if she thought Graham shot the man.)
+
+>ask her shot
+ "Are you saying you think Captain Graham might have shot that poor
+ fellow?"  I asked.
+
+ "Yes - no - I don't know!" she ran her hand through her hair in a
+ gesture of distracted distress.  "We didn't know about the radio.  At
+ least I didn't.  But Captain Graham said the Germans had got wind of -
+ well, we were discussing how to tidy up the mess."
+
+ "And shooting that man could have been part of 'tidying up'?"  I
+ suggested incredulously.
+
+ "I don't know!" she snapped through gritted teeth.  "It's driving me
+ half crazy just thinking about it!  It could have been Captain Graham -
+ perhaps that's what he really left the study to do.  It could even have
+ been the colonel.  I thought I knew him, and I didn't think he could -
+ but it was his gun!"
+
+>ask her about hilda
+ "So, how do you find Hilda, Angela?"  I asked.
+
+ "We get on well enough," she told me.  "She's certainly very
+ efficient."
+
+>tell her about hilda
+ She'd already told me that she got on well enough with the housekeeper
+ and found her very efficient.
+
+>go down
+ Angela followed me down the ladder.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Angela stopped beside me.
+
+ Obvious exits: West, Southwest, Up, Down
+
+>find coat
+ (going down)
+
+ Angela followed me down the back stairs.
+
+ Back Passage
+ The back passage was a short, narrow space leading from the kitchen
+ door (to the south) to the back door (to the north) between two other
+ doors to east and west.  The space was further constricted by a flight
+ of stairs leading up to the floor above.
+
+ Angela stopped beside me.
+
+ Obvious exits: North, South, East, West, Up
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going west)
+
+ Angela followed me through the west door.
+
+ Maids' Parlour
+ If the location of this modest-sized rectangular room had not in any
+ case suggested that it was the maids' parlour, the mild shabbiness of
+ its furnishings would probably have given the game away.  Now that the
+ housekeeper was apparently the only member of domestic staff retained
+ under conditions of wartime austerity, it apparently doubled as her
+ workroom and sitting-room.  A battered arm chair nestled against a
+ small, scratched wooden table in one corner, while an ironing board was
+ set up near the middle of the room, strategically close to the
+ fireplace.  The sole door out was to the east.
+
+ On the peg was a dark coat.  On the ironing board was an iron.  On the
+ small table was a wireless.
+
+ Angela stopped beside me.
+
+ The wireless was playing a Mozart symphony.
+
+ Obvious exits: East
+
+ I had arrived at the location of the dark coat.
+
+>search pocket
+ The coat pocket contained two keys (a chunky key and a small silver
+ key).
+
+ "I'm not sure you should be searching Hilda's pockets," Angela remarked
+ censoriously, then added, "Did you find anything?"
+
+>yes
+ "Yes, a couple of keys," I replied.
+
+ "Show me!" she demanded.
+
+ The wireless continued to play Mozart.
+
+>get keys
+ I took two keys (the small silver key and the chunky key).
+
+>find suitcase
+ (going east)
+
+ Angela followed me through the door.
+
+ Back Passage
+ The back passage was a short, narrow space leading from the kitchen
+ door (to the south) to the back door (to the north) between two other
+ doors to east and west.  The space was further constricted by a flight
+ of stairs leading up to the floor above.
+
+ Angela stopped beside me.
+
+ Obvious exits: North, South, East, West, Up
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going up)
+
+ Angela followed me up the back stairs.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Angela stopped beside me.
+
+ Obvious exits: West, Southwest, Up, Down
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going west)
+
+ Angela followed me through the west door.
+
+ Housekeeper's Bedroom
+ The room was of a fairly generous size, and looked reasonably
+ comfortable.  A single bed rested against the north wall, at the far
+ end of the room from the only door, which led out to the east.  The
+ other furniture consisted of a small upright wardrobe, a plain dressing
+ table, and a low chest of drawers, all made of some dark wood and all
+ of equally utilitarian appearance.
+
+ I saw a small brown suitcase there.
+
+ Angela stopped beside me.
+
+ Obvious exits: East
+
+ I had arrived at the location of the small brown suitcase.
+
+ "This is where Hilda sleeps," Angela informed me.
+
+>unlock suitcase
+ What do you want to unlock it with?
+
+>show keys to angela
+ small silver key: Angela glanced at the small silver key but offered no
+ comment.
+
+ dull grey key: Angela glanced at the dull grey key but offered no
+ comment.
+
+ chunky key: "That looks like the key to the cellar," Angela told me,
+ "but what was it doing in Hilda's coat pocket?"
+
+ small brass key: I showed Angela the brass key, saying, "I found this
+ up in the attic, in the same box as the radio."
+
+ "That's very odd!" she declared.  "It certainly shouldn't have been
+ there!"
+
+>unlock suitcase with silver key
+ Unlocked.
+
+>open suitcase
+ Opening the small brown suitcase revealed some clothes.
+
+ "What did you find in there?"  Angela asked eagerly.  "Not just
+ clothes, surely?"
+
+>search clothes
+ Moving the clothes revealed a notebook that was hidden beneath.
+
+>get notebook
+ Taken.
+
+>read it
+ There was some faint indentations on the first page, suggesting that
+ someone had written on a previous page and then torn it off, but the
+ indentations were too faint to read.
+
+>show notebook to angela
+ "That's interesting," she remarked.  "Of course it could be completely
+ innocent, but I'd like to see what it says.  We should try to find some
+ way of making it legible."
+
+>rub pencil on paper
+ Which paper do you mean, the scrumpled fragment, the piece of paper, or
+ the receipt?
+
+>rub pencil on notebook
+ (first taking the pencil from the small tin box)
+ I rubbed the notebook with the pencil, so that the writing became
+ visible.
+
+ "Here, let me see that!" said Angela, peering over my shoulder.  "TOTEN
+ SIE IHN SOFORT - that means 'Kill him immediately' doesn't it?  And
+ that does look like Hilda's writing.  If it was a message she received
+ over the radio, and if the 'him' referred to is ...  But look, there's
+ another line of letters above.  I imagine that must mean that the
+ message was sent in code and she had to decode it.  So where's her code
+ book?  I mean, what we've found is certainly suspicious enough, but -
+ well, before we start accusing Hilda I'd like to make absolutely sure,
+ so I'd really like to find her code book, then we'd know."
+
+>ask about corpse
+ "The man who was shot, he really does bear a striking resemblance to
+ Hermann Goering, doesn't he?"  I remarked.
+
+ "Yes, he does," she agreed, "and that's all I'm saying, so please don't
+ press me any further."
+
+>ask her about house
+ "I take it this place isn't your old family home, then," I remarked.
+
+ "Obviously not," she concurred.  "It's just some place the War Office
+ bought when it came on the market."
+
+>ask her about bedroom
+ I talked about this with her for a while, but failed to reach any very
+ interesting conclusion.
+
+>go east
+ Not wanting either to be encumbered with other people's property, or to
+ be caught stealing it, I dropped the clothes before leaving the room.
+
+ Angela followed me through the door.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Angela stopped beside me.
+
+ Obvious exits: West, Southwest, Up, Down
+
+>go up
+ Angela followed me up the ladder.
+
+ Attic
+ The attic had accumulated surprisingly little junk for a family home.
+ Bare boards stretched out in every direction from the open hatch with
+ little to clutter them.  The beam of my torch picked out hardly
+ anything apart from the odd packing crate and a plethora of cobwebs.
+ There was also a large wooden box in the corner by the window.
+
+ The loose floorboard was scarcely noticeable, being nearly flush with
+ the floor.
+
+ I saw an old blanket there.  The large wooden box contained a radio.
+
+ Angela stopped beside me.
+
+ Obvious exits: Down
+
+>go down
+ Angela followed me down the ladder.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Angela stopped beside me.
+
+ Obvious exits: West, Southwest, Up, Down
+
+>go north
+ I couldn't go that way.
+
+>go southwest
+ Angela followed me through the southwest door.
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Angela stopped beside me.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>go north
+ Angela followed me through the north door.
+
+ Master Bedroom
+ This was obviously the master bedroom; it was huge.  Even with a large
+ double bed and a heavy chest of drawers taking up much of the floor
+ space, a great deal of bare carpet remained.  The door out was to the
+ south, and a second door led west.
+
+ On the chest of drawers was a family photo.
+
+ Angela stopped beside me.
+
+ Obvious exits: South, West
+
+ "What do you expect to find in here?"  Angela demanded.  "You've
+ already shown me the radio!"
+
+>go south
+ Angela followed me through the bedroom door.
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Angela stopped beside me.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>go north
+ Angela followed me through the north door.
+
+ Master Bedroom
+ This was obviously the master bedroom; it was huge.  Even with a large
+ double bed and a heavy chest of drawers taking up much of the floor
+ space, a great deal of bare carpet remained.  The door out was to the
+ south, and a second door led west.
+
+ On the chest of drawers was a family photo.
+
+ Angela stopped beside me.
+
+ Obvious exits: South, West
+
+ Angela glanced round anxiously, as if nervous about trespassing
+ somewhere she had no right to be.
+
+>ask angela about photo
+ "So all those people in the photos in the drawing room," I began, "who
+ are they?"
+
+ "I don't know who the woman is," she admitted.  "Colonel Croxley just
+ found that photograph somewhere.  His real wife is alive and well and
+ living in Yorkshire, I believe, though she can't be seeing much of him
+ right now, poor thing.  But the others are real people - I mean the boy
+ in army uniform really was called Tony and he really was the colonel's
+ son and he really was killed in action - as was Adam, my boyfriend, the
+ pilot."
+
+>look under bed
+ I peered under the bed, but spotted nothing of interest.
+
+ "You didn't find anything under there, then," Angela surmiseed.  It was
+ clearly a statement, not a question.
+
+>move chest
+ I saw no need to start rearranging the furniture; it would probably
+ have achieved nothing except annoying the Croxleys unnecessarily.
+
+>look under chest
+ I couldn't see anything under the chest of drawers.
+
+ "We really must try to find that codebook, Jack" Angela insisted.
+ "Hilda must have used something to decode that message, but I'd really
+ like to see the proof!"
+
+>open cabinet
+ I saw no cabinet there.
+
+>go south
+ Angela followed me through the bedroom door.
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Angela stopped beside me.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>go east
+ Angela followed me through the east door.
+
+ Main Bathroom
+ The bathroom was rectangular, and just a little dingy, with the white
+ enamel bath tucked away in the corner occupying about a quarter of the
+ floor-space.  Most of the rest was taken up with the basin and the
+ toilet, with a mirror-fronted cabinet attached to one wall.  The
+ bathroom door was to the west.
+
+ A small book of some sort was lying on the ground just next to the
+ toilet bowl.
+
+ Angela stopped beside me.
+
+ Obvious exits: West
+
+>examine book
+ (the red book)
+ It appeared to be a biography of Hermann Goering.
+
+>get book
+ I took the ration book.
+
+>examine book
+ Which book do you mean, the red book, or the ration book?
+
+>ration
+ It appeared to be a current ration book.
+
+>read it
+ Closer inspection revealed it to be the ration book for someone called
+ Timothy Durbury.
+
+>ask her about corpse
+ She'd already agreed that the dead man looked a lot like Hermann
+ Goering, but that was as much as she was saying.
+
+>ask her about timothy
+ I chattered away on the subject with her for several minutes.
+
+>show ration book to angela
+ "Look what I've found!"  I declared, "A ration book for Timothy
+ Durbury!  I assume this belonged to that poor fellow downstairs."
+
+ Angela hesitated for just a moment, then nodded.  "There's no point
+ denying it, is there?" she replied.  "I'm sorry, I've had to live with
+ pretence so long it's become a habit!  But yes, the man who was killed
+ was Tim Durbury.  Poor Tim!"  She wiped the corner of her eye.
+
+>open cabinet
+ Opening the cabinet revealed a safety razor.
+
+>examine razor
+ It was a standard safety razor, with a short silver handle and a
+ partially enclosed blade.
+
+>ask angela about timothy
+ "So who was Timothy Durbury?"  I asked.  "And what was he doing here?
+ Why all the secrecy?  Why would anyone want to kill him?"
+
+ "That's an awful lot of questions all at once," she replied with a wan
+ smile, "but I suppose what's secret had better remain secret."
+
+>take it
+ The word "it" doesn't refer to anything right now.
+
+>get razor
+ Taken.
+
+>open it
+ That was not something I could open.
+
+>go west
+ Not wanting either to be encumbered with other people's property, or to
+ be caught stealing it, I dropped the safety razor before leaving the
+ room.
+
+ Angela followed me through the door.
+
+ Landing North
+ The main landing comprised the area at the top of the stairs leading
+ down to the floor below.  From there doors led off to east, west, north
+ and northeast.  The landing continued to the south past the banisters.
+
+ Angela stopped beside me.
+
+ Obvious exits: North, South, East, West, Northeast, Down
+
+>ask her about cellar
+ "Where is the cellar?"  I askd.
+
+ "Just off the back passage," she told me, opposite Hilda's sitting
+ room.'
+
+>go to back passage
+ (going northeast)
+
+ Angela followed me through the northeast door.
+
+ Upper Passage
+ The standard of decoration was definitely plainer in this part of the
+ house, little more than a stale lick of white paint on every available
+ surface.  The door to the southwest marked the boundary between the
+ servants' quarters and the rest of the house, while a second door led
+ west, opposite a pair of cupboard doors to the east.  A ladder ran up
+ from the floor through the open trapdoor in the ceiling, while a narrow
+ flight of stairs led down to the floor below.
+
+ On the shelves were a pair of folded white sheets.
+
+ Angela stopped beside me.
+
+ Obvious exits: West, Southwest, Up, Down
+
+ (To continue on your way use the command CONTINUE or C).
+
+>c
+ (going down)
+
+ Angela followed me down the back stairs.
+
+ Back Passage
+ The back passage was a short, narrow space leading from the kitchen
+ door (to the south) to the back door (to the north) between two other
+ doors to east and west.  The space was further constricted by a flight
+ of stairs leading up to the floor above.
+
+ Angela stopped beside me.
+
+ Obvious exits: North, South, East, West, Up
+
+ I had arrived at the back passage.
+
+>go east
+ (first trying to open the east door)
+ The east door seemed to be locked.
+
+>unlock east door
+ What do you want to unlock it with?
+
+>key
+ Which key do you mean, the small silver key, the dull grey key, the
+ chunky key, or the small brass key?
+
+>chunky
+ Unlocked.
+
+>go east
+ (first opening the east door)
+
+ Angela followed me through the east door.
+
+ Cellar
+ The beam of my torch picked out little but dust, junk and cobwebs
+ before settling on the large empty wine rack running along the east
+ wall.  A further clockwise movement of the beam located something
+ untoward on the south wall.
+
+ Angela stopped beside me.
+
+ Obvious exits: Up
+
+>examine untoward
+ The word 'untoward' is not necessary in this story.
+
+>examine beam
+>examine south
+ I saw no beam there.
+
+ There was a cable running down the south wall - but it looked as if it
+ had been severed.
+
+>examine cable
+ The cable ran all the way down from the ceiling into some sort of
+ junction box.  It looked as if it had been deliberately and cleanly
+ cut; the shiny metal wire thereby revealed suggested that it might have
+ been cut quite recently.
+
+>talk about cable
+ 'Have a look at this, Angela,' I said, shining the torch at the severed
+ cable.  'It looks like this cable has been cut.'
+
+ 'You're right, it does!' she agreed, peering at it closely.  'And
+ there's something else - I think this is the cable for the telephone,
+ so it wasn't the storm that put it out of action!'
+
+>examine wine
+ There was not a single bottle in sight.
+
+>search rack
+ At first sight the wine rack looked completely empty, but a thorough
+ search revealed a brown paper bag half hidden in one of the
+ compartments.
+
+>get bag
+ 'What have you just found?'  Angela asked, as I removed the paper bag
+ from the wine rack.  'Whatever it is was well hidden!  Who'd ever think
+ of looking in an empty wine rack?  Anyway, what is it?'
+
+>look in bag
+ The brown paper bag contained a dark green book.
+
+>read book
+ Which book do you mean, the red book, the dark green book, or the
+ ration book?
+
+>read green book
+ (first taking the dark green book from the brown paper bag)
+ The inside of the book was full of columns of numbers and letters.
+
+>connect wire
+ (to the pair of headphones)
+ I could not attach that to anything.
+
+>connect cable
+ (to the pair of headphones)
+ I could not attach that to anything.
+
+>fix cable
+ I lacked the necessary equipment.
+
+>fix cable
+ I lacked the necessary equipment.
+
+>give book to angela
+ Which book do you mean, the dark green book, the red book, or the
+ ration book?
+
+>green
+ She took the book from me, and studied it carefully.  'I'd say it was
+ almost certainly a code book of some kind,' she told me, carefully
+ turning over the pages.  'Almost certainly a German codebook of some
+ kind,' she added.  'I imagine that's why it was hidden down here, so it
+ wouldn't be immediately obvious whose it was.  I mean it would be
+ pretty damning evidence if it turned up in anyone's things, but I
+ suppose we now know whose it is anyway.'
+
+ With a frown of concentration she then re-examined the writing revealed
+ on the notebook.  'Yes,' she nodded, 'I think this was used to decode
+ the message here.  So - we found the notebook in Hilda's room, and
+ Hilda had the cellar key in her pocket, and the codebook was hidden in
+ the cellar - I think we have enough now, don't you?'
+
+>yes
+ 'Yes, I think we do,' I agreed.
+
+ 'Good, so let's go and show what we've got to Colonel Croxley,' she
+ suggested.
+
+>find colonel
+ (going west)
+
+ Angela followed me up the stairs.
+
+ Back Passage
+ The back passage was a short, narrow space leading from the kitchen
+ door (to the south) to the back door (to the north) between two other
+ doors to east and west.  The space was further constricted by a flight
+ of stairs leading up to the floor above.
+
+ Angela stopped beside me.
+
+ Obvious exits: North, South, East, West, Up
+
+ (To continue on your way use the command CONTINUE or C).
+
+>SAVE
+>cf9
+ Saved.
+
+>c
+ (going south)
+
+ Angela followed me through the kitchen door.
+
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ Hilda was standing near one of the corners of the room.
+
+ Angela stopped beside me.
+
+ Colonel Croxley was sitting at the kitchen table, drinking a cup of
+ tea.
+
+ Obvious exits: North, South, West
+
+ I had arrived at the location of Colonel Croxley.
+
+ 'Ah, there you are!'  Croxley declared.  'I wondered where you two had
+ got to.  Did you find anything?'
+
+ 'Yes,' she replied.  'There was a radio in the attic, just as Mr Percy
+ said.  We also found something else.'  Turning to me she added, 'Show
+ Colonel Croxley the notebook.'
+
+>show notebook to croxley
+ (Colonel Croxley)
+ I handed him the notebook, saying, 'We found this in Hilda's bedroom.'
+
+ Croxley glanced at it and said, 'TOTEN SIE IHN SOFORT, in what looks to
+ me, so far as I can tell from this, more than a little like Hilda's
+ writing - well, we need hardly ask who she was being ordered to kill at
+ once.'  Looking up at the housekeeper he went on, 'Is there anything
+ you'd like to say about this, Hilda?'
+
+ 'You accuse me?' she asked incredulously, slowly backing away.  'Always
+ they blame the Jews, always.  Why?'
+
+ 'There's more, Hilda,' Angela told her, 'the codebook you hid in the
+ cellar, for example.'
+
+ 'You're no better than a Nazi!'  Hilda shrieked.  'You - how you say? -
+ You plant evidence to make me in trouble.  Just because you are blonde
+ and pretty-looking, Aryan girl, you think you can ...'  She broke off
+ as she snatched a large kitchen knife out of a drawer and rushed
+ towards Angela, brandishing her makeshift weapon.
+
+>show it to him
+ 'Quick!  Do something, man!  Stop her!' he cried.
+
+>hilda, stop
+ I saw no hilda there.
+
+>shelter angela
+ The story doesn't understand that command.
+
+>punch hilda
+ I rushed towards Hilda.  She paused in her stride and turned to
+ threaten me with her knife.  In the ensuing scuffle, the revolver went
+ off, shooting Hilda through the heart.  She fell to the floor, leaving
+ me gaping at her in horrified silence.
+
+ It was Colonel Croxley who broke that terrible silence.  'Well, that's
+ that, then!' he declared briskly, as if commenting on a broken teacup.
+ 'We really could have done with questioning her - but I suppose she
+ realized that, as well as what we'd do to a spy in wartime.'  Turning
+ to me he cut off my incipient apology adding, 'Don't blame yourself, Mr
+ Percy, you did what you had to and I would have done exactly the same.'
+
+ After a brief pause when nobody spoke he continued, 'This must all seem
+ very strange, Mr Percy, so I suppose I owe you an explanation.'
+
+ Angela threw Colonel Croxley a quick, anxious glance.
+
+>listen
+ I heard nothing out of the ordinary.
+
+ 'Mr Percy,' Colonel Croxley broke in on my thoughts, 'I think I'd
+ better explain what's being on here, don't you?'
+
+ Angela avoided my eye.
+
+>yes
+ 'Yes; it's clear something very odd's going on,' I replied, still
+ trying to recover from my shock at what had just happened.  'Please do
+ enlighten me.'
+
+ 'Very well,' he nodded.  'First, as you may have gathered, neither this
+ young lady nor myself are who we claimed to be.  I'm Colonel Martin,
+ military intelligence, and Lieutenant Angela Dalton is my assistant.
+ The man Hilda shot was an actor called Tim Durbury, who bears more than
+ a passing resemblance to Reichsmarschall Goering.  The original idea
+ was to see if we could train him to pass himself off as the real thing
+ and maybe cause some havoc behind enemy lines.'
+
+ He paused for a moment, then continued, 'Actually it became obvious
+ almost from day one that the idea was a non-starter; poor old Durbury
+ was never going to fool the Germans for five minutes.  If it hadn't
+ been for Hilda we'd've packed up the whole operation weeks ago.'
+
+ Angela stared at him in some consternation.  'But...' she began.
+
+>wait
+ I waited to see what would happen.
+
+ 'It was sheer luck that Hilda answered our advertisement for a native
+ German-speaker who could pass as a housekeeper,' the colonel continued.
+ 'We already knew she was a spy, and it gave us a perfect chance to use
+ her for our own purposes.  She thought we wanted her to help Durbury to
+ learn German well enough to pass himself off as Goering - which was
+ obviously never going to happen in reality.  Presumably she also
+ thought we'd given her the ideal opportunity to spy on us and pass
+ damaging information back to the Germans.  In fact, we were simply
+ keeping her from doing any mischief elsewhere while using her to pass
+ false information to her masters in Berlin.'
+
+ At that point Angela's mouth dropped open in utter astonishment.
+
+>wait
+ I waited to see what would happen.
+
+ Angela stared at Colonel Martin aghast.  'You never told me, sir!' she
+ cried.
+
+ 'It was better you didn't know, lieutenant,' he replied evenly.
+ 'You're probably an even worse actor than poor old Durbury, and I
+ needed you to be convincing.  In any case, the fewer people who knew
+ what we were really up to the better.  Unfortunately we never reckoned
+ with Hilda being ordered to kill Durbury, which I suppose must have
+ happened shortly before you showed up, Mr Percy.  And now I have a
+ request.  Obviously our little scheme has now gone a bit wrong, but
+ it's still essential that none of this comes out.  Can I rely on your
+ discretion?'
+
+>yes
+ 'Yes, of course, sir,' I declared.
+
+ 'Good man,' Colonel Martin replied.  'Well, we'd better see what we can
+ do to start clearing up this mess...'
+
+ At that moment Captain Graham walked in, stopped in his stride at
+ seeing the tableau presented, and remarked, 'What happened?  I thought
+ I heard a shot!'
+
+ 'You did,' Colonel Martin told him calmly.  'Hilda's dead.  I'll fill
+ in the details later.  Right now I think we'd better get Mr Percy out
+ of here and on his way to his camp.  The storm seems to have abated, so
+ perhaps you could give him a lift back to his car and help him get it
+ started.'
+
+ 'Of course, sir,' Captain Graham nodded.  Turning to me he said, 'Lead
+ on then, Mr Percy!'
+
+ Captain Graham nodded towards the door.
+
+>look
+ Kitchen
+ The kitchen looked large enough to accommodate the platoon of culinary
+ staff who may have worked there before the war.  Circumstances were now
+ reduced, however, leaving the place rather bare: a large wooden table
+ at one end, with a single hard wooden chair right next to it, now
+ comprised the bulk of the furniture.  A long, old-fashioned cooking
+ range ran along the east wall, while doors led off to west, south and
+ north, a calendar being attached to the last of these.
+
+ A sharp knife lay on the floor, next to Hilda's body.
+
+ Hilda's body lay sprawled on the floor.
+
+ Captain Graham was standing by the door, waiting for me to lead the way
+ out.
+
+ Angela was standing on the far side of the kitchen, trying not to look
+ at Hilda's body.
+
+ Colonel Martin was standing there.
+
+ Obvious exits: North, South, West
+
+ Captain Graham held the door open, evidently anxious for me to leave.
+
+>take knife
+ 'I think you'd better leave that alone for now, Mr Percy,' Colonel
+ Martin told me.
+
+ Captain Graham tried to wave me through the door.
+
+ 'Why?'  Angela asked suddenly.  'Why did she have to shoot Tim?  Why
+ did they make her do that?  If they already knew about him, what harm
+ could he do them?'
+
+ 'There was probably no good military reason at all,' Colonel Martin
+ replied.  'I imagine it has more to do with wounded egos and Nazi
+ spite.  I can just see the real Reichsmarschall Goering huffing and
+ puffing and demanding the assassination of the upstart English actor
+ who would dare to impersonate him.'
+
+>wait
+ I waited to see what would happen.
+
+ Captain Graham gave a discreet cough.
+
+>out
+ I handed Colonel Martin back his revolver and walked out of the
+ kitchen, closely followed by Captain Graham.  We reached the front door
+ together without a word; it turned out to be unlocked, so I opened the
+ door and Captain Graham followed me through.
+
+ 'At least it's stopped raining,' Graham remarked, as we stepped out
+ into the drive, 'I understand you ran out of fuel?  I've a spare petrol
+ can in the back, maybe we can get your car going again.'
+
+ I glanced up at the sky, which was indeed beginning to clear, the storm
+ having spent its fury.  For a moment I lingered in the drive, trying to
+ come to terms with everything that had just taken place; then I
+ clambered aboard and caught my last sight of Wendle Manor as Captain
+ Graham turned his car round.  I didn't see Angela again until after the
+ war - but that's another story.
+
+ *** YOU WON ***
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see some AMUSING things to try, see the CREDITS, or QUIT?
+
+>amusing
+ 1.  Have you tried smiling, laughing and frowning at various points?
+
+ 2.  Next time, try exploring downstairs more thoroughly, especially in
+ the lounge.
+
+ Would you like to RESTORE a saved position, RESTART the story, UNDO the
+ last move, see some AMUSING things to try, see the CREDITS, or QUIT?

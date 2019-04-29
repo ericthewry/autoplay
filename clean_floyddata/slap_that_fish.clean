@@ -1,0 +1,2594 @@
+>load slapfishpcr
+ Welcome to the Cheap Glk Implementation, library version 0.9.0.
+
+ tadsr - A text-only TADS 2.5.10 Interpreter.
+ Copyright (c) 1993, 2006 by Michael J. Roberts.
+
+
+
+
+
+
+
+
+ It was a mistake to go outside again, you know that now.  But it was a
+ celebration, and you really wanted a nice pie.  You were right outside
+ the bakery when you realized they had found you; and you caught them
+ staring with their wide, unblinking eyes; and the whole walk home,
+ they were always there, swimming up alongside, darting ahead, looking
+ behind.  Finally you couldn't stand it any more and ducked into this
+ alley, where whatever happens next, at least there won't be any
+ witnesses to shake their heads and frown and pretend to be shocked,
+ like the last time.  No, this time, those fishy bastards are finally
+ going to get what's coming to them.
+
+
+
+ Slap That Fish
+ An interactive adventure in anger mismanagement by Peter Nepstad.
+ Illuminated Lantern Publishing
+ [<A HREF="http://www.illuminatedlantern.com/if">LINK</A>]
+ Release 1.1 (112007).
+
+
+ [Type ABOUT for more information.]
+
+
+
+ Sure enough, here comes that cocky trout that's been following you
+ since you crossed Fifth Avenue.
+
+>about
+ Slap that Fish is copyright (c) Peter Nepstad, All Rights Reserved,
+ 9/29/07.
+
+ Thanks to everyone who fired up this game and gave it a try, despite
+ its utterly bizarre premise, for which I have no excuse.  If you
+ enjoyed this game, why not visit my website, at
+ [<A HREF="http://www.illuminatedlantern.com/if">LINK</A>], where there are additional
+ games, news items, and a designer's journal where you can read more
+ about the development and distribution of Interactive Fiction.
+
+ - Peter Nepstad, September 29, 2007
+
+>no
+ I don't know the word "no".
+
+>help
+ When in doubt, SLAP THAT FISH!!!
+
+>look
+ The trout eyes you with contempt.
+
+ [ Your Stamina:  5     Rainbow Trout:  10 ]
+
+>slap that fish
+ The red stripe on the trout's side flushes to a deep crimson from the
+ forceful blow of your open palm.
+
+ [ Your Stamina:  3     Rainbow Trout:  8 ]
+
+>slap that fish
+ You land a satisfyingly crisp slap, like a fly swatter hitting glass.
+
+ [ Your Stamina:  1     Rainbow Trout:  6 ]
+
+>slap that fish
+ You are too tired to give the rainbow trout another slap just yet.
+
+ [ Your Stamina:  0     Rainbow Trout:  6 ]
+
+>dodge
+ I don't know the word "dodge".
+
+>kick that fish
+ You don't have the stamina to boot that rainbow trout right now, you
+ need to rest.
+
+ [ Your Stamina:  0     Rainbow Trout:  6 ]
+
+>duck
+>rest
+ I don't know the word "duck".
+
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Rainbow Trout:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Rainbow Trout:  6 ]
+
+>slap that fish
+ Whap!  The trout is beginning to realize you aren't just some easily
+ evaded fly fisherman, here.
+
+ [ Your Stamina:  0     Rainbow Trout:  4 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Rainbow Trout:  4 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Rainbow Trout:  4 ]
+
+>slap that fish
+ Whap!  The trout is beginning to realize you aren't just some easily
+ evaded fly fisherman, here.
+
+ [ Your Stamina:  0     Rainbow Trout:  2 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Rainbow Trout:  2 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Rainbow Trout:  2 ]
+
+>slap that fish
+ That fish is filleted, with a side of chips.
+
+ You have Defeated the rainbow trout in 14 turns and 5 attacks, for a
+ score of 10 out of a possible 20 points.
+
+ Good Job!  If you want to improve your score, consider that it is
+ based on how quickly you defeat your opponent, as well as how
+ efficiently.
+
+ Looks like you have a moment to rest before the next one gets what's
+ coming.
+
+ [ Your Stamina:  0 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ There are more fish coming, you can sense it.
+
+ [ Your Stamina:  1 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ Here comes a nosy largemouth bass, to see what the trouble is, its
+ mouth gaping open in a look of slack-jawed stupidity that makes your
+ blood boil.
+
+ [ Your Stamina:  2     Largemouth Bass:  13 ]
+
+>bitchslap bass
+ You slap that bass, and scream in pain.  You quickly draw back your
+ hand, only to find a fish hook stuck in your palm!  Probably it was
+ stuck in the bass' mouth since the last catch and release.  The hook
+ tears the side of the bass' mouth when it comes out.  The bass makes a
+ rude gesture at you with its tail.
+
+ [ Your Stamina:  0     Largemouth Bass:  10 ]
+
+>inventory
+>maul bass
+ You have a hook sticking out of your palm.
+
+ [ Your Stamina:  1     Largemouth Bass:  10 ]
+
+ I don't know the word "maul".
+
+>take hook
+ You carefully pull the hook out of your hand, wincing in pain, and
+ throw it away.
+
+ [ Your Stamina:  0     Largemouth Bass:  10 ]
+
+>dropkick bass
+ I don't know the word "dropkick".
+
+>kick bass
+ You don't have the stamina to boot that largemouth bass right now, you
+ need to rest.
+
+ [ Your Stamina:  0     Largemouth Bass:  10 ]
+
+>enter bullettime
+ I don't know the word "bullettime".
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Largemouth Bass:  10 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Largemouth Bass:  10 ]
+
+>kick bass
+ The fish sees your boot coming a mile away and easily evades your
+ kick.
+
+ [ Your Stamina:  1     Largemouth Bass:  10 ]
+
+>go up
+ No way you're running from no damn fish.  It ends here, one way or
+ another.
+
+ [ Your Stamina:  2     Largemouth Bass:  10 ]
+
+>poke bass
+ Poking the largemouth bass doesn't seem to have any effect.
+
+ [ Your Stamina:  3     Largemouth Bass:  10 ]
+
+>roundhouse bass
+ I don't know the word "roundhouse".
+
+>kill bass
+ That's the general idea.  But how?  Punch?  Kick?  Or then there is
+ the primally satisfying Slap, and its counterpart, the Backhand.
+ Decisions, decisions.
+
+ [ Your Stamina:  4     Largemouth Bass:  10 ]
+
+>backhand bass
+ Something sharp pierces your flesh when you try to backhand the
+ moronic bass.  You draw back your hand, wincing in pain, and there,
+ between two of your knuckles, is an old, barbed fish hook.  The bass
+ hums a little Bobby McFerrin in pleasure, despite the cut made by the
+ hook on its way out.
+
+ [ Your Stamina:  0     Largemouth Bass:  7 ]
+
+>smack bass
+ You are too tired to give the largemouth bass another slap just yet.
+
+ [ Your Stamina:  0     Largemouth Bass:  7 ]
+
+>wait
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Largemouth Bass:  7 ]
+
+>smack bass
+ You are too tired to give the largemouth bass another slap just yet.
+
+ [ Your Stamina:  0     Largemouth Bass:  7 ]
+
+>wait
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Largemouth Bass:  7 ]
+
+>bop bass
+ I don't know the word "bop".
+
+>chop bass
+ I don't know the word "chop".
+
+>kick bass
+ You don't have the stamina to boot that largemouth bass right now, you
+ need to rest.
+
+ [ Your Stamina:  0     Largemouth Bass:  7 ]
+
+>slap bass
+ You are too tired to give the largemouth bass another slap just yet.
+
+ [ Your Stamina:  0     Largemouth Bass:  7 ]
+
+>remove hook
+ You carefully pull the hook out of your hand, wincing in pain, and
+ throw it away.
+
+ [ Your Stamina:  0     Largemouth Bass:  7 ]
+
+>score
+ In a total of 34 turns, you have achieved a score of 10 points out of
+ a possible 240, entitling you to the honorary rank of Bobber Tosser.
+
+
+>wait
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Largemouth Bass:  7 ]
+
+>slap bass
+ You are too tired to give the largemouth bass another slap just yet.
+
+ [ Your Stamina:  0     Largemouth Bass:  7 ]
+
+>wait
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Largemouth Bass:  7 ]
+
+>wait
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Largemouth Bass:  7 ]
+
+>slap bass
+ Smack!  The bass looks stunned, groggy, in a fog -- but then again, it
+ pretty much always does.
+
+ [ Your Stamina:  0     Largemouth Bass:  5 ]
+
+>wait
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Largemouth Bass:  5 ]
+
+>wait
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Largemouth Bass:  5 ]
+
+>examine bass
+ The bass is looking frantically around for some grass, or brush or
+ something to hide in.
+
+ [ Your Stamina:  3     Largemouth Bass:  5 ]
+
+>kick bass
+ The fish sees your boot coming a mile away and easily evades your
+ kick.
+
+ [ Your Stamina:  2     Largemouth Bass:  5 ]
+
+>undo
+ (Undoing one command)
+
+ Its mouth hangs open like a frozen scream.
+
+>smack bass
+ Smack!  The bass looks stunned, groggy, in a fog -- but then again, it
+ pretty much always does.
+
+ [ Your Stamina:  1     Largemouth Bass:  3 ]
+
+>wait
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Largemouth Bass:  3 ]
+
+>headbutt bass
+ I don't know the word "headbutt".
+
+>jump on bass
+ I don't recognize that sentence.
+
+>ask bass about fishing
+ I don't know the word "fishing".
+
+>ask bass about bass
+ Surely, you can't think the largemouth bass knows anything about it!
+
+ [ Your Stamina:  3     Largemouth Bass:  3 ]
+
+>hug bass
+ Erm, that's a different game, I think.
+
+ [ Your Stamina:  4     Largemouth Bass:  3 ]
+
+>finish him
+ I don't know the word "finish".
+
+>bite bass
+>bite bass
+ I don't know the word "bite".
+
+ I don't know the word "bite".
+
+>take bass
+ The largemouth bass evades your grasp.  You won't stop them by a
+ simple catch and release program, anyway.  It is time to settle this,
+ once and for all.
+
+ [ Your Stamina:  5     Largemouth Bass:  3 ]
+
+>smash bass
+ I don't know the word "smash".
+
+>murder bass
+ I don't know the word "murder".
+
+>truncuate bass
+ I don't know the word "truncuate".
+
+>waylay bass
+ I don't know the word "waylay".
+
+>xyzzy
+ You invoke the magic word of prayer your grandfather once taught you.
+ But nothing happens.  Some secrets are not passed down from generation
+ to generation, but are simply lost.
+
+ [ Your Stamina:  5     Largemouth Bass:  3 ]
+
+>punch bass
+ Smack!  The bass looks stunned, groggy, in a fog -- but then again, it
+ pretty much always does.
+
+ [ Your Stamina:  3     Largemouth Bass:  1 ]
+
+>hit bass
+>punch bass
+ You send the Bass to Bass Hell, where it will be stuffed, nailed to a
+ board, and forced to sing "Don't Worry, Be Happy" for all eternity.
+
+ You have Defeated the largemouth bass in 34 turns and 5 attacks, for a
+ score of 8 out of a possible 20 points.
+
+ You've sent a message:  No matter how long it takes, no matter how
+ much flailing around you do, you will stand your ground and fight to
+ the end.
+
+ Looks like you have a moment to rest before the next one gets what's
+ coming.
+
+ [ Your Stamina:  1 ]
+
+ I don't see any bass here.
+
+>rest
+ You rest for a moment to regain your strength...
+
+ There are more fish coming, you can sense it.
+
+ [ Your Stamina:  2 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ It had to happen.  Here comes the clownfish, arriving as if it thinks
+ it is the comic relief for the freakshow of your life.  The audience
+ can laugh, it suggests, because now the star has arrived.
+
+ [ Your Stamina:  3     Clownfish:  10 ]
+
+>examine clownfish
+ The bright orange sides of the clownfish are ostentatious, like a
+ tranny dressed like a showgirl.
+
+ [ Your Stamina:  4     Clownfish:  10 ]
+
+>kick clownfish
+ The fish sees your boot coming a mile away and easily evades your
+ kick.
+
+ [ Your Stamina:  3     Clownfish:  10 ]
+
+>punch it
+ Smack!  Looks like this clownfish is finally getting a red nose.
+
+ [ Your Stamina:  1     Clownfish:  8 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Clownfish:  8 ]
+
+>punch it
+ Whap!  The clowfish does a pratfall.
+
+ [ Your Stamina:  0     Clownfish:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Clownfish:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Clownfish:  6 ]
+
+>look
+ The bright orange sides of the clownfish are ostentatious, like a
+ tranny dressed like a showgirl.
+
+ [ Your Stamina:  3     Clownfish:  6 ]
+
+>inventory
+ You have a lemon meringue pie.
+
+ [ Your Stamina:  4     Clownfish:  6 ]
+
+>pie clownfish
+ There's no verb in that sentence!
+
+>throw pie at clownfish
+ You hit the clownfish full in the face with the lemon meringue pie,
+ and you can just imagine the soundtrack erupting with laughter.  The
+ clownfish, beaten at its own game and its face white with meringue,
+ slinks off in humiliated defeat. The clownfish has taken its final
+ bow.
+
+ You have Defeated the clownfish in 10 turns and 3 attacks, for a score
+ of 8 out of a possible 20 points.
+
+ You've sent a message:  No matter how long it takes, no matter how
+ much flailing around you do, you will stand your ground and fight to
+ the end.
+
+ Looks like you have a moment to rest before the next one gets what's
+ coming.
+
+ [ Your Stamina:  5 ]
+
+>rest
+ Now is not the time for rest.  Now is the time for action!
+
+ There are more fish coming, you can sense it.
+
+ [ Your Stamina:  5 ]
+
+>rest
+ Now is not the time for rest.  Now is the time for action!
+
+ Any activity of any level of excitement is sure to gather some
+ bottom-feeders, and here comes one now, a bullhead catfish with a lazy
+ eye and a shiftless demeanor.
+
+ [ Your Stamina:  5     Bullhead Catfish:  12 ]
+
+>inventory
+ You are empty-handed.
+
+ [ Your Stamina:  5     Bullhead Catfish:  12 ]
+
+>examine eye
+ I don't know the word "eye".
+
+>look
+ The bullhead's whiskers twitch.
+
+ [ Your Stamina:  5     Bullhead Catfish:  12 ]
+
+>pull whiskers
+ The bullhead evades your grasp.  You won't stop them by a simple catch
+ and release program, anyway.  It is time to settle this, once and for
+ all.
+
+ [ Your Stamina:  5     Bullhead Catfish:  12 ]
+
+>punch bullhead
+ Smack!  The catfish reels from the blow.
+
+ [ Your Stamina:  3     Bullhead Catfish:  10 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  4     Bullhead Catfish:  10 ]
+
+>kick bullhead
+ The fish sees your boot coming a mile away and easily evades your
+ kick.
+
+ [ Your Stamina:  5     Bullhead Catfish:  10 ]
+
+>slap it
+ Smack!  The catfish reels from the blow.
+
+ [ Your Stamina:  3     Bullhead Catfish:  8 ]
+
+>inventory
+ You are empty-handed.
+
+ [ Your Stamina:  4     Bullhead Catfish:  8 ]
+
+>look
+ The bullhead has a guilty look, like it just stole some old lady's
+ wallet, which in fact it probably had.
+
+ [ Your Stamina:  5     Bullhead Catfish:  8 ]
+
+>hit fish
+ Whack!  The shiftless bottom-feeder gets a little sense knocked into
+ it.
+
+ [ Your Stamina:  3     Bullhead Catfish:  6 ]
+
+>show red to fish
+ I don't see any red here.
+
+>hit fish
+ Whack!  The shiftless bottom-feeder gets a little sense knocked into
+ it.
+
+ [ Your Stamina:  1     Bullhead Catfish:  4 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Bullhead Catfish:  4 ]
+
+>hit fish
+ Smack!  The catfish reels from the blow.
+
+ [ Your Stamina:  0     Bullhead Catfish:  2 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Bullhead Catfish:  2 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Bullhead Catfish:  2 ]
+
+>hit fish
+ That bottom-feeder is mulch.
+
+ You have Defeated the bullhead in 16 turns and 7 attacks, for a score
+ of 12 out of a possible 20 points.
+
+ Good Job!  If you want to improve your score, consider that it is
+ based on how quickly you defeat your opponent, as well as how
+ efficiently.
+
+ You have gained a level!!!  You feel stronger than ever.
+
+ Looks like you have a moment to rest before the next one gets what's
+ coming.
+
+ [ Your Stamina:  8 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ There are more fish coming, you can sense it.
+
+ [ Your Stamina:  9 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ Like an oversized car crowding into the alley, a really enormous
+ bluefin tuna drifts in.  Over six feet long, bloated with muscle and
+ fat, the tuna swims up to you and stares threateningly, like a
+ schoolyard bully.  If escape was ever on your mind, which it never is,
+ it would be impossible now, the large body of the tuna blocking the
+ only exit.
+
+ [ Your Stamina:  10        Bluefin Tuna:  40 ]
+
+>examine tuna
+ The bluefin tuna looks like it is going to try and shake you down for
+ lunch money.
+
+ [ Your Stamina:  10        Bluefin Tuna:  40 ]
+
+>kick tuna
+ The fish sees your boot coming a mile away and easily evades your
+ kick.
+
+ [ Your Stamina:  9     Bluefin Tuna:  40 ]
+
+>inventory
+ You are empty-handed.
+
+ [ Your Stamina:  10        Bluefin Tuna:  40 ]
+
+>attack tuna
+ That's the general idea.  But how?  Punch?  Kick?  Or then there is
+ the primally satisfying Slap, and its counterpart, the Backhand.
+ Decisions, decisions.
+
+ [ Your Stamina:  10        Bluefin Tuna:  40 ]
+
+>backhand tuna
+ Thud!  The solid body of the tuna shakes a little under the blow.
+
+ [ Your Stamina:  8     Bluefin Tuna:  38 ]
+
+>inventory
+ You are empty-handed.
+
+ [ Your Stamina:  9     Bluefin Tuna:  38 ]
+
+>look
+ The bluefin tuna looks like it is going to try and shake you down for
+ lunch money.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>examine tuna
+ The bluefin tuna looks like it is going to try and shake you down for
+ lunch money.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>shake funa
+ I don't know the word "shake".
+
+>look under tuna
+ There's nothing under the bluefin tuna.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>search tuna
+ You find nothing of interest.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>out
+ No way you're running from no damn fish.  It ends here, one way or
+ another.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>ride tuna
+ I don't know the word "ride".
+
+>get on tuna
+ I don't know how to get on the bluefin tuna.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>cut tuna
+ What do you want to cut it with?
+
+>enter tuna
+ I don't know how to enter the bluefin tuna.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>eat tuna
+ The bluefin tuna doesn't appear appetizing.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>search tuna
+ You find nothing of interest.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>net tuna
+ I don't know the word "net".
+
+>tall tuna about sushi
+>poke tuna
+ I don't know the word "tall".
+
+ Poking the bluefin tuna doesn't seem to have any effect.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>tell tuna about sushi
+ I don't know the word "sushi".
+
+>can tuna
+>slice tuna
+ I don't know the word "can".
+
+ What do you want to cut it with?
+
+>eat tuna
+ The bluefin tuna doesn't appear appetizing.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>look
+ The bluefin tuna looks like it is going to try and shake you down for
+ lunch money.
+
+ [ Your Stamina:  10        Bluefin Tuna:  38 ]
+
+>smell tuna
+ I don't know the word "smell".
+
+>meow
+ I don't know the word "meow".
+
+>shake tuna
+ I don't know the word "shake".
+
+>summon cat
+ I don't know the word "summon".
+
+>slap fish
+ Whap!  You hit the tuna like it is a punching bag.
+
+ [ Your Stamina:  8     Bluefin Tuna:  36 ]
+
+>inventory
+ You are empty-handed.
+
+ [ Your Stamina:  9     Bluefin Tuna:  36 ]
+
+>kiss tuna
+ Erm, that's a different game, I think.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>take tuna
+ The bluefin tuna evades your grasp.  You won't stop them by a simple
+ catch and release program, anyway.  It is time to settle this, once
+ and for all.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>push tuna
+ The bluefin tuna doesn't back down.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>push tuna
+ The bluefin tuna doesn't back down.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>pull buna
+>pull tuna
+ I don't know the word "buna".
+
+ The bluefin tuna evades your grasp.  You won't stop them by a simple
+ catch and release program, anyway.  It is time to settle this, once
+ and for all.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>pull tuna
+ The bluefin tuna evades your grasp.  You won't stop them by a simple
+ catch and release program, anyway.  It is time to settle this, once
+ and for all.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>say "sorry charlie" to tuna
+ I don't recognize that sentence.
+
+>examine tuna
+ This bluefin is the type to hide in a pod of dolphins, nevermind the
+ consequences.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>squeak
+ I don't know the word "squeak".
+
+>squeal
+ I don't know the word "squeal".
+
+>inventory
+ You are empty-handed.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>examine tuna
+ This bluefin is the type to hide in a pod of dolphins, nevermind the
+ consequences.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>fin
+ There's no verb in that sentence!
+
+>examine fin
+ The bluefin tuna looks like it is going to try and shake you down for
+ lunch money.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>pull fin
+ The bluefin tuna evades your grasp.  You won't stop them by a simple
+ catch and release program, anyway.  It is time to settle this, once
+ and for all.
+
+ [ Your Stamina:  10        Bluefin Tuna:  36 ]
+
+>shred tuna
+ I don't know the word "shred".
+
+>capture tuna
+ I don't know the word "capture".
+
+>kick tuna
+ The fish sees your boot coming a mile away and easily evades your
+ kick.
+
+ [ Your Stamina:  9     Bluefin Tuna:  36 ]
+
+>slap tuna
+ Your hand stings from the force of the slap.
+
+ [ Your Stamina:  7     Bluefin Tuna:  34 ]
+
+>examine hand
+ You see nothing special about your hands.
+
+ [ Your Stamina:  8     Bluefin Tuna:  34 ]
+
+>examine feet
+ I don't know the word "feet".
+
+>examine me
+ You are sick of fish and the way they look at you.  You have had
+ enough.  Now, it is payback time.
+
+ [ Your Stamina:  9     Bluefin Tuna:  34 ]
+
+>examine alley
+ The alley walls are bright red brick.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>examine brick
+ The alley walls are bright red brick.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>take brick
+ It isn't a particularly well constructed brick wall, but you cannot
+ pry it apart with your fingers.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>kick brick
+ I don't know how to kick the wall.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>climb brick
+ There are no good handholds on the wall.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>hit wall
+ I don't know how to hit the wall.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>point to brick
+ I don't know the word "point".
+
+>slap wall
+ I don't know how to slap the wall.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>wave
+ I don't know the word "wave".
+
+>wave at fish
+ I don't know the word "wave".
+
+>squeeze fish
+ I don't know the word "squeeze".
+
+>filet fish
+ I don't know the word "filet".
+
+>bite fish
+ I don't know the word "bite".
+
+>eat fish
+ The bluefin tuna doesn't appear appetizing.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>listen
+ You hear nothing unexpected.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>smell
+ I don't know the word "smell".
+
+>taste tuna
+ The bluefin tuna doesn't appear appetizing.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>sing
+ I don't know the word "sing".
+
+>plugh
+ You invoke the magic word of prayer your grandfather once taught you.
+ But nothing happens.  Some secrets are not passed down from generation
+ to generation, but are simply lost.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>about
+ Slap that Fish is copyright (c) Peter Nepstad, All Rights Reserved,
+ 9/29/07.
+
+ Thanks to everyone who fired up this game and gave it a try, despite
+ its utterly bizarre premise, for which I have no excuse.  If you
+ enjoyed this game, why not visit my website, at
+ [<A HREF="http://www.illuminatedlantern.com/if">LINK</A>], where there are additional
+ games, news items, and a designer's journal where you can read more
+ about the development and distribution of Interactive Fiction.
+
+ - Peter Nepstad, September 29, 2007
+
+>bearhug tuna
+ I don't know the word "bearhug".
+
+>wrestle tuna
+ I don't know the word "wrestle".
+
+>beat up tuna
+ I don't know the word "beat".
+
+>beat tuna
+ I don't know the word "beat".
+
+>batter tuna
+ I don't know the word "batter".
+
+>fry tuna
+ I don't know the word "fry".
+
+>hit tuna with DavidW
+ I don't know the word "davidw".
+
+>grill tuna
+ I don't know the word "grill".
+
+>noogie tuna
+ I don't know the word "noogie".
+
+>catch tuna
+ The bluefin tuna evades your grasp.  You won't stop them by a simple
+ catch and release program, anyway.  It is time to settle this, once
+ and for all.
+
+ [ Your Stamina:  10        Bluefin Tuna:  34 ]
+
+>backhand tuna
+>give tuna a swirlie
+ Thud!  The solid body of the tuna shakes a little under the blow.
+
+ [ Your Stamina:  8     Bluefin Tuna:  32 ]
+
+ I don't know the word "swirlie".
+
+>examine tuna
+>give lunch money to tuna
+ The bluefin tuna looks like it is going to try and shake you down for
+ lunch money.
+
+ [ Your Stamina:  9     Bluefin Tuna:  32 ]
+
+ I don't know the word "lunch".
+
+>bully tuna
+ I don't know the word "bully".
+
+>shake tuna down
+ I don't know the word "shake".
+
+>hint
+ I don't know the word "hint".
+
+>help
+ When in doubt, SLAP THAT FISH!!!
+
+>SLAP THAT FISH!!!
+ Thud!  The solid body of the tuna shakes a little under the blow.
+
+ [ Your Stamina:  7     Bluefin Tuna:  30 ]
+
+>slap fish
+ Whap!  You hit the tuna like it is a punching bag.
+
+ [ Your Stamina:  5     Bluefin Tuna:  28 ]
+
+>slap fish
+ Whap!  You hit the tuna like it is a punching bag.
+
+ [ Your Stamina:  3     Bluefin Tuna:  26 ]
+
+>slap fish
+ Thud!  The solid body of the tuna shakes a little under the blow.
+
+ [ Your Stamina:  1     Bluefin Tuna:  24 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Bluefin Tuna:  24 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  3     Bluefin Tuna:  24 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  4     Bluefin Tuna:  24 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  5     Bluefin Tuna:  24 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  6     Bluefin Tuna:  24 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  7     Bluefin Tuna:  24 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  8     Bluefin Tuna:  24 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  9     Bluefin Tuna:  24 ]
+
+>examine tuna
+ This bluefin is the type to hide in a pod of dolphins, nevermind the
+ consequences.
+
+ [ Your Stamina:  10        Bluefin Tuna:  24 ]
+
+>examine me
+ You are sick of fish and the way they look at you.  You have had
+ enough.  Now, it is payback time.
+
+ [ Your Stamina:  10        Bluefin Tuna:  24 ]
+
+>slap fish
+ You slap the tuna hard, but it almost feels like a pat to the side of
+ a horse for all the good it does.
+
+ [ Your Stamina:  8     Bluefin Tuna:  22 ]
+
+>slap fish
+ Thud!  The solid body of the tuna shakes a little under the blow.
+
+ [ Your Stamina:  6     Bluefin Tuna:  20 ]
+
+ The bullying tuna advances on you, forcing you to take a step back.
+
+>poke tuna
+ Poking the bluefin tuna doesn't seem to have any effect.
+
+ [ Your Stamina:  7     Bluefin Tuna:  20 ]
+
+ The big thuggish brute pushes forward further, staring at you sternly.
+
+>push fish
+ The bluefin tuna doesn't back down.
+
+ [ Your Stamina:  8     Bluefin Tuna:  20 ]
+
+ The tuna continues to advance on you, forcing you further back into
+ the alley.
+
+>net tuna
+ I don't know the word "net".
+
+>kick tuna
+ The fish sees your boot coming a mile away and easily evades your
+ kick.
+
+ [ Your Stamina:  7     Bluefin Tuna:  20 ]
+
+ You can feel the cold, foul breath of the tuna on your face.
+
+>punch tuna
+ Whap!  You hit the tuna like it is a punching bag.
+
+ [ Your Stamina:  5     Bluefin Tuna:  18 ]
+
+ The tuna threateningly moves closer.
+
+>punch tuna
+ Whap!  Another solid hit, using your off hand.
+
+ [ Your Stamina:  3     Bluefin Tuna:  16 ]
+
+ The bluefin's beady eyes stare at you malevolently.
+
+>punch tuna
+ Whap!  And again, with your strong arm, so fast that in a moment, this
+ tuna is going to be chicken of more than just the sea.
+
+ [ Your Stamina:  1     Bluefin Tuna:  14 ]
+
+ The tuna flaps its tail threateningly.
+
+>encroach tuna
+ I don't know the word "encroach".
+
+>look
+ The tuna doesn't look hurt, it looks angry.
+
+ [ Your Stamina:  2     Bluefin Tuna:  14 ]
+
+ The tuna advances again, and you step back again, until you feel the
+ back wall of the alley right behind you.
+
+>examine wall
+ The alley walls are bright red brick.
+
+ [ Your Stamina:  3     Bluefin Tuna:  14 ]
+
+ The tuna threatens to crush you under its bulky body.
+
+>jump
+ Wheeee!
+
+ [ Your Stamina:  4     Bluefin Tuna:  14 ]
+
+ The tuna gloats triumphantly at your cowardly retreat.
+
+>kick tuna
+ The fish sees your boot coming a mile away and easily evades your
+ kick.
+
+ [ Your Stamina:  3     Bluefin Tuna:  14 ]
+
+>punch tuna
+ Whap!  You hit the tuna like it is a punching bag.
+
+ [ Your Stamina:  1     Bluefin Tuna:  12 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Bluefin Tuna:  12 ]
+
+>punch tuna
+ Whap!  You hit the tuna like it is a punching bag.
+
+ [ Your Stamina:  0     Bluefin Tuna:  10 ]
+
+>examine alley
+ The alley walls are bright red brick.
+
+ [ Your Stamina:  1     Bluefin Tuna:  10 ]
+
+>examine tuna
+ The tuna doesn't seem to realize it is bound for Tsukiji, yet.
+
+ [ Your Stamina:  2     Bluefin Tuna:  10 ]
+
+>punch tuna
+ Whap!  You hit the tuna like it is a punching bag.
+
+ [ Your Stamina:  0     Bluefin Tuna:  8 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Bluefin Tuna:  8 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Bluefin Tuna:  8 ]
+
+>punch tuna
+ Whap!  You hit the tuna like it is a punching bag.
+
+ [ Your Stamina:  0     Bluefin Tuna:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Bluefin Tuna:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Bluefin Tuna:  6 ]
+
+>punch tuna
+ Whap!  You hit the tuna like it is a punching bag.
+
+ [ Your Stamina:  0     Bluefin Tuna:  4 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Bluefin Tuna:  4 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Bluefin Tuna:  4 ]
+
+>examine tuna
+ The bluefin looks like a bull that has seen red.
+
+ [ Your Stamina:  3     Bluefin Tuna:  4 ]
+
+>backhand tuna
+ Your hand stings from the force of the slap.
+
+ [ Your Stamina:  1     Bluefin Tuna:  2 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Bluefin Tuna:  2 ]
+
+>backhand tuna
+ WHAM!!!  The tuna flies back, smashing against the alley wall.  The
+ force of its fall causes a brick to dislodge, revealing a dark
+ opening.  That tuna is sushi.
+
+ You have Defeated the bluefin tuna in 93 turns and 24 attacks, for a
+ score of 0 out of a possible 20 points.
+
+ This victory was well earned.  Hemingway said it best:  "A man can be
+ destroyed but not defeated".  You have won, but you'll need
+ considerably more finesse next time if you want to hold your head up
+ high.
+
+ You look for a moment at the fallen bluefin, before it floats away
+ with the rest of the trash.  Its defeat will not go unnoticed.  You
+ had better prepare yourself as best you can, because this isn't just a
+ back alley fistfight anymore.  This is war.  Your eye lingers on the
+ dislodged brick, and the opening it revealed.
+
+ [ Your Stamina:  0 ]
+
+>examine opening
+ There is a small opening in the brick wall where a brick has been
+ dislodged, large enough to reach into, but too dark to see inside.
+
+ There are more fish coming, you can sense it.
+
+ [ Your Stamina:  1 ]
+
+>take brick
+ Taken.
+
+ [ Your Stamina:  2 ]
+
+>reach in opening
+ You reach into the dark opening.  It is a narrow fit.  Feeling around,
+ the first thing you find is a piece of paper, which you take and pull
+ out into the light.
+
+ Outside of the shelter of your small alley, there is a gathering
+ storm.  A news helicopter circles overhead.
+
+ [ Your Stamina:  3 ]
+
+>read paper
+ The last date was quite some time ago.  Apparently cleaning
+ requirements have become lax under the new management, not
+ surprisingly.
+>examine paper
+
+ [ Your Stamina:  4 ]
+
+ A single sheet of greasy paper, titled "Men's Bathroom", followed by
+ grid of dates and times and handwritten initials.  The page is
+ difficult to straighten out as it curls up at the edges.
+
+ You see a few pilot fish peek around the corner and peer down the
+ alley, then disappear just as quickly.  Scouts.
+
+ [ Your Stamina:  5 ]
+
+>reach in opening
+ You reach into the opening again, and this time you find what feels
+ like a wooden pole.  You lay the pole down, and pull it out by its
+ end, until it gets stuck at what you recognize as a mop head.  It is
+ detachable, though, so a moment later you have unscrewed the mop head
+ and let it drop back in the opening, while you have the handle, which
+ you prefer to think of as a staff.
+
+ [ Your Stamina:  6 ]
+
+>reach in opening
+ You reach into the opening again.  You feel the mop head.  Feeling
+ around a bit more, your hand hits something metal -- after a moment
+ you realize you are feeling the edge of a bucket.  The bucket is much
+ too large to get through the opening, though.
+
+ You can see the blade-like snout of the swordfish long before you see
+ it, then it turns, and approaches you slowly.  Make no mistake, this
+ is an assassin, pure and simple, sent to finish you off, once and for
+ all.  By its sinister looks, it appears to be close cousins to the
+ swordfish that pulled your brother overboard during that fatal fishing
+ trip so many years ago, dragged him under the water for several miles,
+ then left his corpse to drift in the ocean as food for the many sea
+ creatures who prey on the dead.
+
+ [ Your Stamina:  7     Swordfish:  20 ]
+
+>clear save
+ I don't know the word "clear".
+
+>push save
+ I don't understand that sentence.
+
+>SAVE
+>cf1
+ Saved.
+
+>hit fish with staff
+ The swordfish parries your strike, but for a moment, at least, your
+ staff is pressed up against its bill, exposing the left side of its
+ body.
+
+ [ Your Stamina:  6     Swordfish:  20 ]
+
+>backhand fish
+ The long sword of the swordfish is in your way, you'll have to
+ concentrate on only one side of this murderous fish.
+
+ [ Your Stamina:  7     Swordfish:  20 ]
+
+>backhand left side of fish
+ I don't know the word "left".
+
+>hit left side with brick
+ I don't know the word "left".
+
+>hit body with brick
+ Whack!  The swordfish gets a little tenderized.
+
+ [ Your Stamina:  5     Swordfish:  18 ]
+
+ The swordfish pushes away your staff and swims back a couple paces.
+
+>parry swordfish
+ I don't know the word "parry".
+
+>lunge
+ I don't know the word "lunge".
+
+>hit fish with staff
+ The swordfish parries your strike, but for a moment, at least, your
+ staff is pressed up against its bill, exposing the left side of its
+ body.
+
+ [ Your Stamina:  4     Swordfish:  18 ]
+
+>kick body
+ You give the swordfish a good kick to the belly.
+
+ [ Your Stamina:  2     Swordfish:  16 ]
+
+>again
+ You give the swordfish a good kick to the belly.
+
+ [ Your Stamina:  0     Swordfish:  14 ]
+
+ The swordfish pushes away your staff and swims back a couple paces.
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Swordfish:  14 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Swordfish:  14 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  3     Swordfish:  14 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  4     Swordfish:  14 ]
+
+>lunge with staff
+ I don't know the word "lunge".
+
+>thrust staff
+ I don't know the word "thrust".
+
+>hit fish with staff
+ The swordfish parries your strike, but for a moment, at least, your
+ staff is pressed up against its bill, exposing the left side of its
+ body.
+
+ [ Your Stamina:  3     Swordfish:  14 ]
+
+>kick fish
+ You give the swordfish a good kick to the belly.
+
+ [ Your Stamina:  1     Swordfish:  12 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Swordfish:  12 ]
+
+ The swordfish pushes away your staff and swims back a couple paces.
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  3     Swordfish:  12 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  4     Swordfish:  12 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  5     Swordfish:  12 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  6     Swordfish:  12 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  7     Swordfish:  12 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  8     Swordfish:  12 ]
+
+>hit fish with staff
+ The swordfish parries your strike, but for a moment, at least, your
+ staff is pressed up against its bill, exposing the left side of its
+ body.
+
+ [ Your Stamina:  7     Swordfish:  12 ]
+
+>kick fish
+ You give the swordfish a good kick to the belly.
+
+ [ Your Stamina:  5     Swordfish:  10 ]
+
+>kick fish
+ You give the swordfish a good kick to the belly.
+
+ [ Your Stamina:  3     Swordfish:  8 ]
+
+ The swordfish pushes away your staff and strikes at you, drawing blood
+ in a thin line across the bridge of your nose.
+
+>hit fish with staff
+ The swordfish parries your strike, but for a moment, at least, your
+ staff is pressed up against its bill, exposing the left side of its
+ body.
+
+ [ Your Stamina:  2     Swordfish:  8 ]
+
+>kick fish
+ You give the swordfish a good kick to the belly.
+
+ [ Your Stamina:  0     Swordfish:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  1     Swordfish:  6 ]
+
+ The swordfish pushes away your staff and strikes at the mop handle,
+ hard, splintering it into a thousand tiny pieces, one of which lodges
+ in your forearm.  You are left holding a small baton, no more than 18
+ inches long.  The swordfish grins in pleasure.  You pull the splinter
+ out of your arm.
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  2     Swordfish:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  3     Swordfish:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  4     Swordfish:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  5     Swordfish:  6 ]
+
+>rest
+ You rest for a moment to regain your strength...
+
+ [ Your Stamina:  6     Swordfish:  6 ]
+
+>inventory
+ You have a brick, a piece of paper, a broken mop handle, and a
+ needle-like splinter.
+
+ [ Your Stamina:  7     Swordfish:  6 ]
+
+>poke swordfish with splinter
+ You can't get close enough to use it.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>hit fish with brick
+ The swordfish knocks the brick out of your hands with a deft flick of
+ its bill.
+
+ [ Your Stamina:  7     Swordfish:  6 ]
+
+>take brick
+ Taken.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>hit fish with handle
+ The swordfish easily evades the short handle and gives you a cut to
+ the arm to remember it by.
+
+ [ Your Stamina:  6     Swordfish:  6 ]
+
+>undo
+ (Undoing one command)
+
+ The cocky swordfish chooses this moment to reveal that it is
+ left-handed, but as it isn't holding a sword, but swinging at you with
+ its bill, the revelation is less than impressive.
+
+>reach in opening
+ You reach into the opening again.  You can feel a mop head, and the
+ rim of a large bucket, but nothing else.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>reach in bucket
+ You reach into the bucket and feel around.  You feel something soft
+ and wet and smooth.  You pull it out of the opening and take a look:
+ it's a rubber glove.  Which is not at all what it felt like, but
+ you've never been very good at that sort of thing.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine glove
+ It looks like an ordinary rubber glove to me.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>wear it
+ Okay, you're now wearing the rubber glove.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>reach in bucket
+ You reach into the bucket, but don't feel anything in particular.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>hit sword
+ The swordfish slashes at your arm, cutting your sleeve to ribbons.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>kick sword
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>throw brick at fish
+ The swordfish deflects the brick, sending it crashing into your
+ temple.  Blood trickles into your eyes.
+
+ [ Your Stamina:  3     Swordfish:  6 ]
+
+>undo
+ (Undoing one command)
+
+ The swordfish is starting to look a bit pale and tired.
+
+>sing lullaby
+ I don't know the word "sing".
+
+>put paper on sword
+ There's no good surface on the swordfish.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>grab sword
+ I don't know the word "grab".
+
+>take sword
+ The swordfish evades your grasp.  You won't stop them by a simple
+ catch and release program, anyway.  It is time to settle this, once
+ and for all.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>slap fish
+ The swordfish slashes at your arm, cutting your sleeve to ribbons.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>kick fish
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>throw splinter at fish
+ You hit the swordfish with the needle, but it doesn't penetrate, and
+ falls harmlessly to the ground.  You need some way to shoot the
+ splinter much faster if you hope to make it a dangerous projectile.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>undo
+ (Undoing one command)
+
+ The swordfish is putting up a few "Give Swordfish a Break" bumper
+ stickers, but you aren't buying.
+
+>inventory
+ You have a piece of paper, a broken mop handle, a needle-like
+ splinter, a brick, and a rubber glove (being worn).
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>roll paper
+ You roll the paper into a tight tube, almost like a pipe or something.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>put splinter in paper
+ You carefully load the needle into the rolled up sheet of paper,
+ making a deadly blowgun.  (To use the blowgun, simply SHOOT [TARGET].)
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>shoot fish
+ You put your makeshift blowgun up to your mouth and blow.  The needle
+ shoots out, but the swordfish easily deflects it.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>take needle
+ Taken.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>break opening
+ You'll have to tell me how to do that.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>remove glove
+ Okay, you're no longer wearing the rubber glove.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>put glove on handle
+ There is no good surface on the broken mop handle.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>put brick in glove
+ You can't put anything into the rubber glove.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>put handle in tube
+ I don't know the word "tube".
+
+>inventory
+ You have a tightly rolled sheet of paper, a broken mop handle, a
+ brick, a rubber glove, and a needle-like splinter.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>put handle in paper
+ You can't fit that in the tightly rolled sheet of paper.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>put splinter in paper
+ You carefully load the needle into the rolled up sheet of paper,
+ making a deadly blowgun.  (To use the blowgun, simply SHOOT [TARGET].)
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine handle
+ There is only about a foot and a half left of the mop handle.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine me
+ You are sick of fish and the way they look at you.  You have had
+ enough.  Now, it is payback time.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine fish
+ The cocky swordfish chooses this moment to reveal that it is
+ left-handed, but as it isn't holding a sword, but swinging at you with
+ its bill, the revelation is less than impressive.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>reach in bucket
+ You reach into the bucket, but don't feel anything in particular.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>move bucket
+ You reach into the opening and fiddle around with the bucket, to no
+ effect.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>move mop-head
+ I don't know the word "mop-head".
+
+>move head
+ Which head do you mean, the mop head, or the swordfish?
+
+>mop
+ You don't see any mop head here.
+
+>read paper
+ The paper isn't really readable in its current configuration.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>ask fish "How are you breathing out of water?"
+ I don't recognize that sentence.
+
+>open paper
+ I don't know how to open the blowgun.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>unfold paper
+ The paper isn't folded, it is rolled.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>unroll paper
+ You carefully take the splinter out of the tube, and unroll the paper
+ and flatten it out as best you can.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>fold paper
+ You fold the paper into a neat square.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>paper
+ There's no verb in that sentence!
+
+>examine paper
+ A single sheet of greasy paper, neatly folded.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>throw it at fish
+ You are in no mood for a game of catch.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>fold paper
+ You have already folded the paper.  Further folding would get
+ dangerously close to origami.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>fold paper into plane
+ I don't know the word "plane".
+
+>roll paper
+ You'll have to unfold it, first.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>unroll paper
+ You carefully take the splinter out of the tube, and unroll the paper
+ and flatten it out as best you can.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine jeans
+ I don't know the word "jeans".
+
+>spit on fish
+ I don't know the word "spit".
+
+>hit fish with brick
+ The swordfish knocks the brick out of your hands with a deft flick of
+ its bill.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>take brick
+ Taken.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine mouth
+ I don't see any mouth here.
+
+>examine bill
+ I don't know the word "bill".
+
+>inventory
+ You have a piece of paper, a broken mop handle, a rubber glove, a
+ needle-like splinter, and a brick.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine alley
+ The alley walls are bright red brick.  There is a small opening in the
+ brick wall where a brick has been dislodged, large enough to reach
+ into, but too dark to see inside.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>climb wall
+ There are no good handholds on the wall.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>climb fish
+ Whoa.  Settle down there, Aquaman.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>taunt swordfish
+ I don't know the word "taunt".
+
+>jump
+ Wheeee!
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>backslap fish
+ I don't know the word "backslap".
+
+>backhand fish
+ The swordfish slashes at your arm, cutting your sleeve to ribbons.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>hit fish with glove
+
+ You strike a glancing blow at the swordfish with the rubber glove.
+ "Shall we say pistols at dawn?"
+
+ The swordfish does not respond.  Looks like you're going to have to
+ take care of this the old fashioned way, with your fist, foot, and,
+ whenever possible, open palm.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>stab fish with handle
+ The swordfish easily evades the short handle and gives you a cut to
+ the arm to remember it by.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>hit fish with handle and glove
+ You can't use multiple indirect objects.
+
+>punch fish with brick
+ I don't recognize that sentence.
+
+>climb opening
+ I don't know how to climb the dark opening.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>xyzzy
+ You invoke the magic word of prayer your grandfather once taught you.
+ But nothing happens.  Some secrets are not passed down from generation
+ to generation, but are simply lost.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>slap fish
+ The swordfish slashes at your arm, cutting your sleeve to ribbons.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>undo
+ (Undoing one command)
+
+ The swordfish is putting up a few "Give Swordfish a Break" bumper
+ stickers, but you aren't buying.
+
+>break sword
+ You'll have to tell me how to do that.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine alley
+ The alley walls are bright red brick.  There is a small opening in the
+ brick wall where a brick has been dislodged, large enough to reach
+ into, but too dark to see inside.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>ask swordfish about password
+ I don't know the word "password".
+
+>dance
+ I don't know the word "dance".
+
+>wave wand
+ I don't know the word "wave".
+
+>rub handle
+ I don't know the word "rub".
+
+>inventory
+ You have a piece of paper, a broken mop handle, a rubber glove, a
+ needle-like splinter, and a brick.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>tie glove to brick
+ I don't know the word "tie".
+
+>hit fish with paper
+ It's not very effective to attack with the piece of paper.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>reach in hole
+ You reach into the opening again.  You can feel a mop head, and the
+ rim of a large bucket, but nothing else.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>search mop head
+ You find nothing of interest.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>get mop head
+ You can't get the mop head out of the small opening.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>kick fish
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>hit fish with handle
+ The swordfish easily evades the short handle and gives you a cut to
+ the arm to remember it by.
+
+ [ Your Stamina:  7     Swordfish:  6 ]
+
+>roll paper
+ You roll the paper into a tight tube, almost like a pipe or something.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>put splinter in paper
+ You carefully load the needle into the rolled up sheet of paper,
+ making a deadly blowgun.  (To use the blowgun, simply SHOOT [TARGET].)
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>shoot eye
+ I don't know the word "eye".
+
+>shoot body
+ You put your makeshift blowgun up to your mouth and blow.  The needle
+ shoots out, but the swordfish easily deflects it.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>take needle
+ Taken.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>put needle in paper
+ You carefully load the needle into the rolled up sheet of paper,
+ making a deadly blowgun.  (To use the blowgun, simply SHOOT [TARGET].)
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine fish
+ The cocky swordfish chooses this moment to reveal that it is
+ left-handed, but as it isn't holding a sword, but swinging at you with
+ its bill, the revelation is less than impressive.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>go north
+ No way you're running from no damn fish.  It ends here, one way or
+ another.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>look under fish
+ There's nothing under the swordfish.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>break brick
+ You'll have to tell me how to do that.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>look over fish
+ I don't recognize that sentence.
+
+>throw brick at wall
+ You are in no mood for a game of catch.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>look above fish
+ I don't know the word "above".
+
+>break wall with brick
+ I don't recognize that sentence.
+
+>push wall
+ Pushing the wall doesn't do anything.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>kick wall
+ I don't know how to kick the wall.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>kick bucket
+ Not today.  Not if you can help it.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>backhand fish
+ The swordfish slashes at your arm, cutting your sleeve to ribbons.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>examine sleeve
+ I don't know the word "sleeve".
+
+>punch fish
+ The swordfish slashes at your arm, cutting your sleeve to ribbons.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>step on fish
+ I don't know the word "step".
+
+>stomp fish
+ I don't know the word "stomp".
+
+>stand on sword
+ I don't know how to stand on the swordfish.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>examine rubble
+ I don't know the word "rubble".
+
+>take all
+ I don't see what you're referring to.
+
+>take debris
+ I don't know the word "debris".
+
+>take pistol
+ I don't know the word "pistol".
+
+>contruct harpoon out of spit and tinfoil.
+ I don't know the word "contruct".
+
+>oops construct
+ I don't know the word "construct".
+
+>drop piano on swordfish
+ I don't know the word "piano".
+
+>throw banana peel at fish
+ I don't know the word "banana".
+
+>examine handle
+ There is only about a foot and a half left of the mop handle.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>pull handle
+ Pulling the broken mop handle doesn't have any effect.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>poison fish
+ I don't know the word "poison".
+
+>examine brick
+ A crumbling red brick.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>crumble brick
+ I don't know the word "crumble".
+
+>examine dust
+ I don't know the word "dust".
+
+>examine rocks
+ I don't know the word "rocks".
+
+>examine stones
+ I don't know the word "stones".
+
+>examine pebbles
+ I don't know the word "pebbles".
+
+>examine glass
+ I don't know the word "glass".
+
+>throw brick at fish
+ The swordfish deflects the brick, sending it crashing into your
+ temple.  Blood trickles into your eyes.
+
+ [ Your Stamina:  5     Swordfish:  6 ]
+
+>examine brick
+ A crumbling red brick.
+
+ [ Your Stamina:  6     Swordfish:  6 ]
+
+>take brick
+ Taken.
+
+ [ Your Stamina:  7     Swordfish:  6 ]
+
+>hit fish with brick
+ The swordfish knocks the brick out of your hands with a deft flick of
+ its bill.
+
+ [ Your Stamina:  6     Swordfish:  6 ]
+
+>take brick
+ Taken.
+
+ [ Your Stamina:  7     Swordfish:  6 ]
+
+>examine brick
+ A crumbling red brick.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>attach brick to handle
+ There's no obvious way to do that.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>stab brick with handle
+ You take out your frustrations on the brick.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>bore brick with handle
+ I don't know the word "bore".
+
+>make hammer
+ I don't know the word "make".
+
+>stab fish with handle
+ The swordfish easily evades the short handle and gives you a cut to
+ the arm to remember it by.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>fix handle
+ I don't know the word "fix".
+
+>tie glove to handle
+ I don't know the word "tie".
+
+>look in glove
+ There's nothing in the rubber glove.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>turn glove inside out
+ I don't know the word "inside".
+
+>poke fish with handle
+ The swordfish easily evades the short handle and gives you a cut to
+ the arm to remember it by.
+
+ [ Your Stamina:  7     Swordfish:  6 ]
+
+>undo
+ (Undoing one command)
+
+ The swordfish is starting to look a bit pale and tired.
+
+>poke brick
+ Poking the brick doesn't seem to have any effect.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>throw handle at fish
+ You are in no mood for a game of catch.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>concede defeat
+ I don't know the word "concede".
+
+>cover me with tartar sauce
+ I don't know the word "cover".
+
+>examine snout
+ I don't know the word "snout".
+
+>put fish in opening
+ You can't put the swordfish anywhere.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>put sword in opening
+ You can't put the swordfish anywhere.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>take sword
+ The swordfish evades your grasp.  You won't stop them by a simple
+ catch and release program, anyway.  It is time to settle this, once
+ and for all.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>swing handle
+ I don't know the word "swing".
+
+>juggle
+ I don't know the word "juggle".
+
+>inventory
+ You have a blowgun, a broken mop handle, a rubber glove, and a brick.
+ The blowgun seems to contain a needle-like splinter.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>throw brick over fish
+ I don't recognize that sentence.
+
+>take hook
+ I don't see any hook here.
+
+>turn sword
+ The swordfish evades your grasp.  You won't stop them by a simple
+ catch and release program, anyway.  It is time to settle this, once
+ and for all.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>take off pants
+ I don't know the word "pants".
+
+>parry sword
+ I don't know the word "parry".
+
+>strip
+ I don't know the word "strip".
+
+>fly
+ I don't know the word "fly".
+
+>pray
+ I don't know the word "pray".
+
+>prey
+ I don't know the word "prey".
+
+>dodge
+ I don't know the word "dodge".
+
+>slap that fish
+ The swordfish slashes at your arm, cutting your sleeve to ribbons.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>jumpkick fish
+ I don't know the word "jumpkick".
+
+>cry
+ I don't know the word "cry".
+
+>backhand me
+ I don't know how to backhand yourself.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine swordfish
+ The swordfish is putting up a few "Give Swordfish a Break" bumper
+ stickers, but you aren't buying.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>examine handle
+ There is only about a foot and a half left of the mop handle.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>blind swordfish
+ I don't know the word "blind".
+
+>take sticker
+ I don't know the word "sticker".
+
+>reach in bucket
+ You reach into the bucket, but don't feel anything in particular.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>LOOK
+ The swordfish is starting to look a bit pale and tired.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>INVENTORY
+ You have a blowgun, a broken mop handle, a rubber glove, and a brick.
+ The blowgun seems to contain a needle-like splinter.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>push fish
+ The swordfish doesn't back down.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>kick fish
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>undo
+ (Undoing one command)
+
+ The swordfish is putting up a few "Give Swordfish a Break" bumper
+ stickers, but you aren't buying.
+
+ I don't know the word "blade".
+
+>kick sword
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>slip fish
+ I don't know the word "slip".
+
+>slap fish
+ The swordfish slashes at your arm, cutting your sleeve to ribbons.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>undo
+ (Undoing one command)
+
+ The cocky swordfish chooses this moment to reveal that it is
+ left-handed, but as it isn't holding a sword, but swinging at you with
+ its bill, the revelation is less than impressive.
+
+>undo
+ (Undoing one command)
+
+ The swordfish is putting up a few "Give Swordfish a Break" bumper
+ stickers, but you aren't buying.
+
+>slap fish with left hand
+ I don't know the word "left".
+
+>kick fish
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>kick fish
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>hit fish with mop handle
+ The swordfish easily evades the short handle and gives you a cut to
+ the arm to remember it by.
+
+ [ Your Stamina:  6     Swordfish:  6 ]
+
+>parry sword with leg
+ I don't know the word "parry".
+
+>throw brick at fish
+ The swordfish deflects the brick, sending it crashing into your
+ temple.  Blood trickles into your eyes.
+
+ [ Your Stamina:  1     Swordfish:  6 ]
+
+>undo
+ (Undoing one command)
+
+ The swordfish is starting to look a bit pale and tired.
+
+>undo
+ (Undoing one command)
+
+ The cocky swordfish chooses this moment to reveal that it is
+ left-handed, but as it isn't holding a sword, but swinging at you with
+ its bill, the revelation is less than impressive.
+
+>undo
+ (Undoing one command)
+
+ The swordfish is putting up a few "Give Swordfish a Break" bumper
+ stickers, but you aren't buying.
+
+>look
+ The cocky swordfish chooses this moment to reveal that it is
+ left-handed, but as it isn't holding a sword, but swinging at you with
+ its bill, the revelation is less than impressive.
+
+ [ Your Stamina:  10        Swordfish:  6 ]
+
+>block sword with leg
+ I don't know the word "block".
+
+>examine leg
+ I don't know the word "leg".
+
+>kick fish
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  9     Swordfish:  6 ]
+
+>kick fish
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
+
+>kick fish
+ The swordfish nods its head down and slashes at your leg, slicing into
+ your pant leg.
+
+ [ Your Stamina:  7     Swordfish:  6 ]
+
+>look
+ The swordfish is putting up a few "Give Swordfish a Break" bumper
+ stickers, but you aren't buying.
+
+ [ Your Stamina:  8     Swordfish:  6 ]
